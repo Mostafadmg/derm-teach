@@ -1,0 +1,282 @@
+{
+ "_note": "Curated v3 overlay (batch 4), condensed from content/conditions/squamous-cell-carcinoma.json; full text kept under 'More detail'.",
+ "glance": {
+  "chips": [
+   "Keratinocyte cancer",
+   "Lip & ear high risk",
+   "NG12 suspected cancer",
+   "Excision first-line"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "A **tender, growing, crusted or keratotic nodule** or non-healing ulcer on the face, lip, ear, scalp, hands or a chronic wound."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "**Cumulative UV**, immunosuppression (transplant), HPV, chronic wounds and scars; arises from **AK or Bowen’s**."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "**Suspected cancer pathway** (NG12 1.7.4); surgical excision first-line; check nodes; transplant patients need specialist surveillance."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "**Lip and ear SCC** (higher metastatic risk), SCC in a chronic ulcer or scar, rapid KA-like growth, immunosuppressed patients.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "lead": "UV damage climbs a ladder from AK to invasive SCC.",
+  "points": [
+   "Second commonest skin cancer; metastasis overall ~2–5% (lip ~10–15% in older series).",
+   "Risks: outdoor work, older age, fair skin; **transplant recipients 65–250×**; CLL, HIV.",
+   "Drugs: azathioprine, **voriconazole**, **hydrochlorothiazide**, BRAF inhibitors.",
+   "Chronic wounds / burns (**Marjolin ulcer**), radiation, arsenic, smoking (lip), lichen sclerosus / planus.",
+   "UV-signature **TP53** mutations → AK / Bowen’s → invasive SCC."
+  ],
+  "visuals": [
+   {
+    "ai": "v3-scc-invasion-section.jpg",
+    "caption": "Squamous cell carcinoma: a keratotic, ulcerated nodule with hard everted edges, as tumour strands invade down into the dermis.",
+    "alt": "Skin cross-section with ulcerated nodule and invading tumour strands"
+   }
+  ]
+ },
+ "features": {
+  "lead": "Tender, hard, growing over weeks to months.",
+  "points": [
+   "Indurated **tender** keratotic nodule or plaque, or **ulcer with hard everted edges**; often bleeds.",
+   "Sites: scalp, ears, **lower lip**, backs of hands, lower legs in women.",
+   "**Lip SCC**: lower vermilion on **actinic cheilitis**; persistent ulcer / crust, induration; smokers.",
+   "Variants: cutaneous horn, verrucous / carcinoma cuniculatum (plantar), KA-type, poorly differentiated.",
+   "**AK / Bowen’s turning into SCC**: induration, tenderness, rapid growth, bleeding, ulceration, > 1 cm, treatment failure."
+  ],
+  "visuals": [
+   {
+    "ai": "v3-scc-high-risk-sites.jpg",
+    "caption": "High-risk sites (coral): ear and lower lip. Common sun-exposed sites (teal) include scalp, temple and backs of hands; always palpate the pre-auricular, parotid and neck nodes.",
+    "alt": "Head profile marking ear and lip sites and neck nodes"
+   }
+  ],
+  "variants": {
+   "title": "Types to recognise",
+   "items": [
+    {
+     "name": "Lip SCC",
+     "t": "Indurated ulcer, lower lip, smoker.",
+     "where": "Lower lip",
+     "photo": "m2w3:E01",
+     "tone": "danger"
+    },
+    {
+     "name": "Ear SCC",
+     "t": "Bleeding ulcerated; high risk.",
+     "where": "Ear",
+     "photo": "m2w3:E02",
+     "tone": "danger"
+    },
+    {
+     "name": "Cutaneous horn",
+     "t": "Keratin projection.",
+     "where": "Face, hands",
+     "photo": "m2w3:E04"
+    },
+    {
+     "name": "Marjolin ulcer",
+     "t": "SCC in a chronic leg ulcer.",
+     "where": "Leg",
+     "photo": "m2w3:E05",
+     "tone": "danger"
+    },
+    {
+     "name": "Actinic cheilitis",
+     "t": "Scaly blurred vermilion.",
+     "where": "Lower lip",
+     "photo": "m2w3:F01"
+    },
+    {
+     "name": "Bowen’s disease",
+     "t": "SCC in situ: scaly plaque.",
+     "where": "Finger, leg",
+     "photo": "m2w3:F02"
+    }
+   ]
+  },
+  "photo": "m2w3:E01"
+ },
+ "confirm": {
+  "cols": [
+   {
+    "k": "Palpate nodes",
+    "icon": "hand",
+    "points": [
+     "Pre-auricular, parotid, cervical, submental / submandibular (lip)."
+    ]
+   },
+   {
+    "k": "Biopsy (specialist)",
+    "icon": "search",
+    "points": [
+     "Excision preferred; else incisional / punch deep enough for depth."
+    ]
+   },
+   {
+    "k": "Pathology",
+    "icon": "flask",
+    "points": [
+     "Differentiation, depth, perineural / lymphovascular invasion, margins; BAD 2020 risk group."
+    ]
+   },
+   {
+    "k": "Imaging",
+    "icon": "image",
+    "points": [
+     "Specialist: node ultrasound ± FNA; CT / MRI for very high-risk."
+    ]
+   }
+  ]
+ },
+ "differentials": {
+  "cards": [
+   {
+    "name": "Keratoacanthoma",
+    "clue": "Rapid crateriform nodule; treat as SCC.",
+    "link": "seborrhoeic-keratosis"
+   },
+   {
+    "name": "BCC",
+    "clue": "Pearly, telangiectasia, slow.",
+    "link": "basal-cell-carcinoma"
+   },
+   {
+    "name": "Hypertrophic AK / Bowen’s",
+    "clue": "Flat scaly; no induration.",
+    "link": "actinic-keratoses"
+   },
+   {
+    "name": "Amelanotic melanoma",
+    "clue": "Pink nodule; EFG.",
+    "tone": "danger",
+    "link": "melanoma"
+   },
+   {
+    "name": "Merkel cell carcinoma",
+    "clue": "Rapid red-violet nodule in the elderly.",
+    "tone": "danger"
+   },
+   {
+    "name": "Lip: herpes / aphthous / chancre",
+    "clue": "Herpes heals; chancre: syphilis risk.",
+    "link": "herpes-simplex-labialis"
+   }
+  ]
+ },
+ "manage": {
+  "lead": "Recognise and refer; surgery is specialist.",
+  "rungs": [
+   {
+    "k": "Refer",
+    "tone": "base",
+    "points": [
+     "**NG12 1.7.4**: suspected cancer pathway (2 weeks); refer **within 1 working day**.",
+     "**Lip or oral ulcer > 3 weeks**: head-and-neck / oral pathway or urgent dental."
+    ]
+   },
+   {
+    "k": "Specialist surgery (BAD 2020)",
+    "tone": "refer",
+    "points": [
+     "Peripheral margins: **low risk 4 mm; high risk 6 mm; very high risk 10 mm** (± adjuvant radiotherapy, MDT).",
+     "Advanced: **cemiplimab** (TA802).",
+     "High-risk features: lip / ear / scar site, > 20 mm, > 4 mm thick, poor differentiation, perineural / LVI, recurrence, immunosuppression."
+    ]
+   },
+   {
+    "k": "Precursors (IP within a plan)",
+    "tone": "first",
+    "points": [
+     "AK field therapy: 5-FU, diclofenac 3%, imiquimod, tirbanibulin.",
+     "Bowen’s: topical **5-FU 5%** after confirmed diagnosis within a documented plan."
+    ]
+   },
+   {
+    "k": "Prevention",
+    "tone": "second",
+    "points": [
+     "Review **hydrochlorothiazide** (MHRA) and long-term **voriconazole**; transplant photoprotection; smoking cessation; SPF lip balm.",
+     "Transplant: joint care (mTOR switch, acitretin); nicotinamide is specialist-only."
+    ]
+   }
+  ],
+  "limits": [
+   {
+    "k": "Don’t",
+    "t": "Freeze, curette or treat suspected SCC in primary care unless accredited.",
+    "tone": "danger"
+   },
+   {
+    "k": "5-FU and brivudine",
+    "t": "Never together (fatal DPD inhibition); keep 5-FU off eyes / mucosa.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "urgent",
+    "t": "Suspected cSCC: **suspected cancer pathway** (NG12 1.7.4)."
+   },
+   {
+    "when": "urgent",
+    "t": "Lip or mouth ulcer > 3 weeks: head-and-neck pathway."
+   },
+   {
+    "when": "urgent",
+    "t": "New growth or non-healing area in a long-standing ulcer or scar: biopsy (Marjolin)."
+   }
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "**Tender + hard + growing** turns an AK or Bowen’s into suspected SCC."
+  },
+  {
+   "icon": "pill",
+   "t": "Medication review: hydrochlorothiazide, voriconazole, azathioprine."
+  },
+  {
+   "icon": "chat",
+   "t": "Teach patients to report a lump in the scar or neck."
+  },
+  {
+   "icon": "image",
+   "t": "Mark lesions on a body map."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Which sites carry higher metastatic risk?",
+   "a": "Lip and ear (and scars / chronic wounds)."
+  },
+  {
+   "q": "Referral route?",
+   "a": "Suspected cancer pathway (NG12 1.7.4), within 1 working day."
+  },
+  {
+   "q": "Excision margin for a low-risk SCC?",
+   "a": "4 mm (high risk 6 mm, very high risk 10 mm)."
+  },
+  {
+   "q": "Drug never to combine with topical 5-FU?",
+   "a": "Brivudine."
+  }
+ ]
+}

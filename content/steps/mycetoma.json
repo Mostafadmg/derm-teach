@@ -1,0 +1,230 @@
+{
+ "_note": "Curated v3 overlay (batch 3), condensed from content/conditions/mycetoma.json; full text kept under 'More detail'.",
+ "glance": {
+  "chips": [
+   "Madura foot",
+   "Painless swelling + sinuses + grains",
+   "Refer early",
+   "Fungal vs bacterial"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "A **painless, slowly enlarging swollen foot** with **multiple discharging sinuses** in someone from an endemic tropical area."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "Soil **fungi (eumycetoma)** or **actinomycete bacteria (actinomycetoma)** implanted by a thorn or wound form **grains** in deep tissue."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "Specialist diagnosis (grain culture, deep biopsy, imaging); long antibiotics for actinomycetoma; antifungals + surgery for eumycetoma."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "**Bone involvement** and late presentation → amputation; other causes of sinuses (TB, osteomyelitis, HS).",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "lead": "Soil organisms that build colonies under the skin.",
+  "points": [
+   "**Triad**: painless firm swelling + multiple sinuses + **discharge with grains**.",
+   "**Eumycetoma** (fungal, e.g. *Madurella mycetomatis*) vs **actinomycetoma** (*Nocardia*, *Actinomadura*, *Streptomyces*).",
+   "‘Mycetoma belt’ ~15°S–30°N: **Sudan**, West Africa, Yemen, India, Mexico, Venezuela, Brazil; UK cases in migrants.",
+   "Thorn / splinter inoculation in barefoot rural workers; no person-to-person spread; incubation months–years.",
+   "Actinomycetoma invades bone earlier; **black grains = fungal**."
+  ],
+  "visuals": []
+ },
+ "features": {
+  "lead": "Slow, painless, sinuses that heal and reopen.",
+  "points": [
+   "~**70% foot**; also hand, leg, knee; back / shoulder / head in load carriers.",
+   "Small painless nodule (‘boil’ or ‘cyst’) → swelling → nodules soften and **open as sinuses**.",
+   "Serous / purulent discharge **with grains**; sinuses heal and new ones open; skin hyperpigmented, shiny.",
+   "Pain mild until bone or secondary infection; **systemically well**.",
+   "Late: massive swelling, deformity, bone destruction."
+  ],
+  "visuals": [
+   {
+    "ai": "v3-mycetoma-foot-grains.jpg",
+    "caption": "Mycetoma: a swollen forefoot with multiple sinus openings discharging fluid containing tiny grains; shake the gauze in saline to see them (black grains suggest a fungal cause).",
+    "alt": "Swollen foot with discharging sinuses and inset of black grains on gauze"
+   }
+  ],
+  "variants": {
+   "title": "Types to recognise",
+   "items": [
+    {
+     "name": "Classic triad",
+     "t": "Swelling + sinuses + grains.",
+     "where": "Foot",
+     "photo": "m5w4:W4E01"
+    },
+    {
+     "name": "Advanced",
+     "t": "Gross forefoot swelling.",
+     "where": "Foot",
+     "photo": "m5w4:W4E02"
+    },
+    {
+     "name": "Actinomycetoma",
+     "t": "Numerous crusted sinuses.",
+     "where": "Foot, limb",
+     "photo": "m5w4:W4E03"
+    },
+    {
+     "name": "Spread up the leg",
+     "t": "Chronic indurated limb.",
+     "where": "Leg",
+     "photo": "m5w4:W4E04"
+    }
+   ]
+  },
+  "photo": "m5w4:W4E01"
+ },
+ "confirm": {
+  "cols": [
+   {
+    "k": "Grains",
+    "icon": "search",
+    "points": [
+     "Shake discharge gauze in saline; dermoscopy."
+    ]
+   },
+   {
+    "k": "Deep sampling",
+    "icon": "flask",
+    "points": [
+     "**Deep surgical biopsy / FNA** (not swabs): microscopy, stains, slow culture (tell the lab), histology, PCR."
+    ]
+   },
+   {
+    "k": "Imaging",
+    "icon": "image",
+    "points": [
+     "X-ray (periosteal reaction, lytic bone), ultrasound, **MRI ‘dot-in-circle’**, CT."
+    ]
+   }
+  ]
+ },
+ "differentials": {
+  "cards": [
+   {
+    "name": "Chronic osteomyelitis",
+    "clue": "Sinus over bone, prior fracture, metalwork, diabetic foot; no grains."
+   },
+   {
+    "name": "Scrofuloderma / NTM",
+    "clue": "Over nodes or bone; AFB; undermined sinuses.",
+    "link": "cutaneous-tuberculosis"
+   },
+   {
+    "name": "Botryomycosis",
+    "clue": "Grain-forming *S. aureus*; standard antibiotics work."
+   },
+   {
+    "name": "Actinomycosis",
+    "clue": "Cervicofacial / dental; ‘sulphur granules’."
+   },
+   {
+    "name": "Hidradenitis",
+    "clue": "Flexural tunnels, comedones.",
+    "link": "hidradenitis-suppurativa"
+   },
+   {
+    "name": "Podoconiosis / lymphoedema",
+    "clue": "Mossy foot, no sinuses with grains."
+   }
+  ]
+ },
+ "manage": {
+  "lead": "Primary care: recognise, avoid repeated antibiotics or incision, refer.",
+  "rungs": [
+   {
+    "k": "Refer",
+    "tone": "base",
+    "points": [
+     "Every suspected case → **ID / tropical medicine** (e.g. HTD) with orthopaedics / plastics and dermatology.",
+     "**Urgent** if spreading toward trunk or scalp, rapid progression or sepsis."
+    ]
+   },
+   {
+    "k": "Interim",
+    "tone": "first",
+    "points": [
+     "Treat acute secondary infection per NICE cellulitis guidance; clean dressings; analgesia; elevation; **tetanus check**; footwear advice."
+    ]
+   },
+   {
+    "k": "Specialist",
+    "tone": "refer",
+    "points": [
+     "**Actinomycetoma**: usually medically curable with prolonged combination antibiotics.",
+     "**Eumycetoma**: long antifungals (e.g. itraconazole) + surgery."
+    ]
+   },
+   {
+    "k": "Co-management checks",
+    "tone": "second",
+    "points": [
+     "**Itraconazole**: capsules need food and acid (avoid PPIs / antacids); strong CYP3A4 inhibitor (simvastatin, some DOACs, CCBs, colchicine…); LFTs; avoid in heart failure.",
+     "**Co-trimoxazole** for months: FBC, potassium, renal function, rash; avoid with methotrexate; warfarin / phenytoin interactions."
+    ]
+   }
+  ],
+  "limits": [
+   {
+    "k": "Don’t",
+    "t": "Incise, partially excise, or label as ‘recurrent cellulitis / abscess’.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "urgent",
+    "t": "Bone pain, deformity, rapid spread: urgent specialist imaging and referral."
+   },
+   {
+    "when": "routine",
+    "t": "Any suspected mycetoma: ID / tropical medicine."
+   }
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "Farmer whose foot keeps ‘discharging’ despite antibiotics → mycetoma, osteomyelitis or TB. Ask where they grew up and whether barefoot."
+  },
+  {
+   "icon": "eye",
+   "t": "Painless is a warning sign, not a comfort."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Mycetoma triad?",
+   "a": "Painless swelling, multiple sinuses, discharge with grains."
+  },
+  {
+   "q": "Black grains suggest?",
+   "a": "Eumycetoma (fungal)."
+  },
+  {
+   "q": "Which form is usually medically curable?",
+   "a": "Actinomycetoma (bacterial)."
+  },
+  {
+   "q": "Why not incise in primary care?",
+   "a": "Inadequate excision causes recurrence and spread."
+  }
+ ]
+}

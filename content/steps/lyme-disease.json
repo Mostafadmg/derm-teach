@@ -1,0 +1,269 @@
+{
+ "_note": "Curated v3 overlay (batch 3), condensed from content/conditions/lyme-disease.json; full text kept under 'More detail'.",
+ "glance": {
+  "chips": [
+   "Ixodes tick",
+   "Treat EM clinically",
+   "Doxycycline 21 days",
+   "No test after a bite"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "An **expanding red (or bluish) patch** days to weeks after outdoor exposure; central clearing optional; usually not hot or itchy."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "*Borrelia burgdorferi* sensu lato from an **Ixodes tick**: dermal spread (EM) or chronic infection (ACA, mainly *B. afzelii*)."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "EM: **doxycycline 100 mg BD (or 200 mg OD) for 21 days**. No blood test for typical EM (NICE NG95)."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "**Carditis, meningitis / encephalitis, uveitis**, facial palsy with neurology. No test or antibiotics after an asymptomatic bite.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "lead": "A tick passes Borrelia into the skin.",
+  "points": [
+   "Ticks in woodland, moorland, long grass, parks (Scotland, south England, Lake District, Europe, N. America).",
+   "Transmission rises with attachment time: **remove early**.",
+   "EM appears **3 days–3 months** after the bite (commonly 1–4 weeks); many don’t recall a bite.",
+   "Late: **ACA** on extensor limbs of older people (European exposure)."
+  ],
+  "visuals": [
+   {
+    "ai": "v3-tick-removal.jpg",
+    "caption": "Remove a tick with fine-tipped tweezers or a tick tool: grasp close to the skin and pull steadily upwards; don’t twist, crush, burn or smother it.",
+    "alt": "Tweezers lifting a tick straight up from skin"
+   }
+  ]
+ },
+ "features": {
+  "lead": "A rash that grows, not one that flares and fades.",
+  "points": [
+   "**Enlarging red rash**, often ≥ 5 cm, at the bite site (legs, groin, axillae, beltline; head / neck in children).",
+   "Central clearing (‘bull’s-eye’) is **optional**; many lesions are uniformly red or bluish.",
+   "Usually **not** hot, itchy or painful; ± flu-like symptoms.",
+   "Darker skin: may look bruise-like.",
+   "**Not EM**: a hot itchy reaction that appears within hours and fades by 48 h (bite hypersensitivity).",
+   "**ACA**: bluish-red doughy limb → thin ‘cigarette-paper’ skin with visible veins; ± neuropathy."
+  ],
+  "visuals": [
+   {
+    "ai": "v3-erythema-migrans-expanding.jpg",
+    "caption": "Erythema migrans enlarges day by day from the bite. Drawing round the edge (dashed rings) shows the spread; central clearing may or may not appear.",
+    "alt": "Expanding red ring on an arm with pen-marked edges"
+   }
+  ],
+  "variants": {
+   "title": "Types to recognise",
+   "items": [
+    {
+     "name": "Erythema migrans",
+     "t": "Expanding red patch.",
+     "where": "Bite site",
+     "photo": "m5w3:V02"
+    },
+    {
+     "name": "Central clearing",
+     "t": "‘Bull’s-eye’: not required.",
+     "where": "Trunk, limbs",
+     "photo": "m5w3:V03"
+    },
+    {
+     "name": "Large EM",
+     "t": "Keeps growing over days.",
+     "where": "Limbs",
+     "photo": "m5w3:V04"
+    },
+    {
+     "name": "ACA atrophic",
+     "t": "Cigarette-paper skin, visible veins.",
+     "where": "Extensor limbs",
+     "photo": "m5w3:V08"
+    }
+   ]
+  },
+  "photo": "m5w3:V02"
+ },
+ "confirm": {
+  "cols": [
+   {
+    "k": "EM",
+    "icon": "eye",
+    "points": [
+     "**Diagnose and treat clinically**; early serology often negative."
+    ]
+   },
+   {
+    "k": "No EM / ACA",
+    "icon": "flask",
+    "points": [
+     "**ELISA then immunoblot** via a UKAS-accredited lab."
+    ]
+   },
+   {
+    "k": "Monitor",
+    "icon": "image",
+    "points": [
+     "Draw round the edge; photograph."
+    ]
+   },
+   {
+    "k": "Don’t",
+    "icon": "alert",
+    "points": [
+     "Test after an asymptomatic bite; use unaccredited private panels."
+    ]
+   }
+  ]
+ },
+ "differentials": {
+  "cards": [
+   {
+    "name": "Tick-bite hypersensitivity",
+    "clue": "Within hours, fades ≤ 48 h, itchy / hot, small."
+   },
+   {
+    "name": "Cellulitis",
+    "clue": "Hot, tender, rapid spread, unwell.",
+    "link": "cellulitis-erysipelas"
+   },
+   {
+    "name": "Tinea corporis",
+    "clue": "Scaly active edge; EM is not scaly.",
+    "link": "tinea"
+   },
+   {
+    "name": "Granuloma annulare",
+    "clue": "Chronic firm papular ring; no daily expansion.",
+    "link": "annular-rashes"
+   },
+   {
+    "name": "ACA mimics",
+    "clue": "Chilblains, venous disease, morphoea, ageing skin."
+   }
+  ]
+ },
+ "manage": {
+  "lead": "NICE NG95: adults and ≥ 12 years with EM, no focal symptoms.",
+  "rungs": [
+   {
+    "k": "Prevent & remove",
+    "tone": "base",
+    "points": [
+     "Cover skin, repellent, check folds and scalp after outdoors.",
+     "Remove ticks per UKHSA (tweezers / tick tool, pull steadily).",
+     "**No prophylactic antibiotics or serology** after an asymptomatic bite; watch the site for weeks."
+    ]
+   },
+   {
+    "k": "First line",
+    "tone": "first",
+    "points": [],
+    "rx": [
+     {
+      "drug": "Doxycycline",
+      "dose": "100 mg twice daily or 200 mg once daily",
+      "dur": "21 days",
+      "note": "Upright with water; separate from antacids / iron / calcium; sun protection; avoid in pregnancy and < 12."
+     }
+    ]
+   },
+   {
+    "k": "Alternatives",
+    "tone": "second",
+    "points": [],
+    "rx": [
+     {
+      "drug": "Amoxicillin",
+      "dose": "1 g three times daily",
+      "dur": "21 days",
+      "note": "Usually used in pregnancy after assessment."
+     },
+     {
+      "drug": "Azithromycin",
+      "dose": "500 mg once daily",
+      "dur": "17 days",
+      "note": "Avoid in carditis / QT risk."
+     }
+    ]
+   },
+   {
+    "k": "Specialist",
+    "tone": "refer",
+    "points": [
+     "Children < 12 (and some < 18), focal disease, ACA: per NG95 / specialist."
+    ]
+   }
+  ],
+  "limits": [
+   {
+    "k": "Two courses done, still symptomatic",
+    "t": "No more antibiotics: specialist / reference-lab advice.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "emergency",
+    "t": "Meningitis / encephalitis signs, carditis or heart block, uveitis."
+   },
+   {
+    "when": "same-day",
+    "t": "Facial palsy, radiculopathy, inflammatory arthritis, multiple EM with systemic upset: discuss with specialist **without delaying antibiotics**."
+   },
+   {
+    "when": "routine",
+    "t": "Suspected ACA: serology and dermatology."
+   }
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "**Expanding red ring after the outdoors = treat. Don’t test.**"
+  },
+  {
+   "icon": "clock",
+   "t": "The full **21 days** matters for EM."
+  },
+  {
+   "icon": "alert",
+   "t": "Reinfection is possible; no lasting immunity."
+  },
+  {
+   "icon": "eye",
+   "t": "ACA is missed as ‘poor circulation’ in older limbs: ask about European countryside."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Blood test for typical EM?",
+   "a": "No: diagnose and treat clinically."
+  },
+  {
+   "q": "First-line EM regimen in adults?",
+   "a": "Doxycycline 100 mg BD or 200 mg OD for 21 days."
+  },
+  {
+   "q": "Antibiotics after an asymptomatic tick bite?",
+   "a": "No; advise watching the site."
+  },
+  {
+   "q": "Red itchy patch that appeared within hours and faded by 48 h?",
+   "a": "Tick-bite hypersensitivity, not Lyme."
+  }
+ ]
+}

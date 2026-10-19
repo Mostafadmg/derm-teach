@@ -382,3 +382,5 @@ strong, b { font-weight: 650; }
 /* emergency triage flow heading */
 .mini-h.is-triage { color: #c62a2f; }
 .mini-h.is-triage::before { content: ""; display: inline-block; width: 8px; height: 8px; border-radius: 50%; background: #e5484d; margin-right: 8px; vertical-align: middle; }
+
+.ref-list li,.ref-list a{overflow-wrap:anywhere;word-break:break-word}

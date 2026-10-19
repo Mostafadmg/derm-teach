@@ -1,0 +1,232 @@
+{
+ "_note": "Curated v3 overlay (batch 3), condensed from content/conditions/cutaneous-tuberculosis.json; full text kept under 'More detail'.",
+ "glance": {
+  "chips": [
+   "Uncommon in UK",
+   "Cold neck abscess",
+   "Refer to TB service",
+   "Notifiable"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "A **painless lump, sinus or scar over neck nodes**, or a chronic plaque, in someone from a high-incidence area or with TB contact."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "*M. tuberculosis* reaching skin from a deeper focus, by inoculation or blood spread; **tuberculids** are immune reactions."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "Refer to the **TB service** for biopsy, culture and treatment (NICE NG33); contact screening; HIV test."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "Pulmonary or disseminated TB, **HIV**, and **rifampicin interactions**.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "lead": "Route and immunity decide the form.",
+  "points": [
+   "**Scrofuloderma** (commonest): TB in a node, bone or joint breaks through to skin (contiguous spread).",
+   "**Lupus vulgaris**: blood / lymph spread, good immunity, few bacilli.",
+   "**TB verrucosa cutis**: re-inoculation in a sensitised person (‘prosector’s wart’).",
+   "**Miliary skin TB / gumma**: poor immunity (HIV, infants).",
+   "**Tuberculids** (erythema induratum, papulonecrotic): hypersensitivity, no bacilli in the lesion.",
+   "At risk: high-incidence countries, HIV, anti-TNF, steroids, homelessness, TB contacts."
+  ],
+  "visuals": [
+   {
+    "ai": "v3-scrofuloderma-section.jpg",
+    "caption": "Scrofuloderma: a caseating lymph node in the neck tracks up through a sinus to an undermined, dusky ulcer on the skin; healing leaves puckered cord-like scars.",
+    "alt": "Neck cross-section with caseating node and sinus to the skin"
+   }
+  ]
+ },
+ "features": {
+  "lead": "Cold, painless and slow.",
+  "points": [
+   "**Scrofuloderma**: firm painless nodules over the **neck** (also axilla, groin), skin-coloured then **dusky red-blue**; matted ‘cold’ nodes.",
+   "Nodules soften and discharge → **undermined ulcers, sinus tracts**, cord-like puckered scars.",
+   "**Lupus vulgaris**: slowly enlarging red-brown plaque on head / neck; **‘apple-jelly’** on diascopy; SCC risk.",
+   "Systemic: cough, weight loss, night sweats, fever."
+  ],
+  "variants": {
+   "title": "Types to recognise",
+   "items": [
+    {
+     "name": "Scrofuloderma",
+     "t": "Dusky-red cold nodule over a node.",
+     "where": "Neck",
+     "photo": "m5w5:W5A01"
+    },
+    {
+     "name": "Sinus tracts & scars",
+     "t": "Linear sinuses, puckered scars.",
+     "where": "Neck",
+     "photo": "m5w5:W5A03"
+    },
+    {
+     "name": "Lupus vulgaris",
+     "t": "Red-brown plaque; apple-jelly.",
+     "where": "Face, neck",
+     "photo": "m5w5:W5A04"
+    },
+    {
+     "name": "Warty TB",
+     "t": "Re-inoculation; good immunity.",
+     "where": "Hands",
+     "photo": "m5w5:W5A05"
+    },
+    {
+     "name": "Erythema induratum",
+     "t": "Tender violaceous calf nodules.",
+     "where": "Calves",
+     "photo": "m5w5:W5A07"
+    }
+   ]
+  },
+  "photo": "m5w5:W5A01"
+ },
+ "confirm": {
+  "cols": [
+   {
+    "k": "Refer",
+    "icon": "refer",
+    "points": [
+     "TB service + dermatology for **biopsy, ZN stain, culture**, PCR."
+    ]
+   },
+   {
+    "k": "Screen",
+    "icon": "flask",
+    "points": [
+     "CXR, HIV test, IGRA / Mantoux as directed."
+    ]
+   },
+   {
+    "k": "Infection control",
+    "icon": "alert",
+    "points": [
+     "Cough? Mask, avoid waiting rooms, same-day advice."
+    ]
+   }
+  ]
+ },
+ "differentials": {
+  "cards": [
+   {
+    "name": "Lymphoma",
+    "clue": "Rubbery or hard nodes, B symptoms: biopsy.",
+    "tone": "danger"
+   },
+   {
+    "name": "Pyogenic abscess / infected cyst",
+    "clue": "Acute, hot, tender; responds to drainage."
+   },
+   {
+    "name": "Deep fungal / sporotrichosis",
+    "clue": "Gardening, travel; lymphocutaneous chain.",
+    "link": "mycetoma"
+   },
+   {
+    "name": "Lupus vulgaris mimics",
+    "clue": "Sarcoidosis, discoid lupus, leprosy.",
+    "link": "sarcoidosis"
+   }
+  ]
+ },
+ "manage": {
+  "lead": "Not managed in primary care.",
+  "rungs": [
+   {
+    "k": "Refer",
+    "tone": "base",
+    "points": [
+     "**Urgent** TB service referral; TB is notifiable; contact tracing via the TB team."
+    ]
+   },
+   {
+    "k": "Standard regimen (specialist)",
+    "tone": "refer",
+    "points": [
+     "**2 months RHZE** then **4 months RH** (NICE NG33); longer for CNS / bone or resistance.",
+     "DOT if adherence risk; pyridoxine with isoniazid if at risk."
+    ]
+   },
+   {
+    "k": "Your role",
+    "tone": "first",
+    "points": [
+     "**Interaction check** for rifampicin: contraception, warfarin / DOACs, antiretrovirals, antiepileptics, methadone, steroids, azoles.",
+     "Counsel: orange urine and tears (stains soft lenses); report jaundice, dark urine, vomiting; ethambutol → report colour-vision change."
+    ]
+   }
+  ],
+  "limits": [
+   {
+    "k": "Contraception",
+    "t": "Rifampicin defeats combined hormonal contraception: non-hormonal / IUD (FSRH).",
+    "tone": "danger"
+   },
+   {
+    "k": "Don’t",
+    "t": "Repeatedly treat a chronic neck sinus with flucloxacillin."
+   }
+  ]
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "same-day",
+    "t": "Cough, haemoptysis, weight loss, night sweats: urgent chest assessment with infection control."
+   },
+   {
+    "when": "urgent",
+    "t": "Chronic painless neck lump or sinus, especially from a high-incidence country: **TB until proven otherwise**."
+   },
+   {
+    "when": "routine",
+    "t": "Notify TB to UKHSA."
+   }
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "alert",
+   "t": "Rifampicin is a potent enzyme inducer: run the interaction checker."
+  },
+  {
+   "icon": "eye",
+   "t": "Ethambutol: any visual change → report immediately."
+  },
+  {
+   "icon": "bulb",
+   "t": "Tuberculids clear only when the hidden TB focus is treated."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Commonest form of cutaneous TB in many series?",
+   "a": "Scrofuloderma (contiguous spread from a node)."
+  },
+  {
+   "q": "Diascopy sign of lupus vulgaris?",
+   "a": "‘Apple-jelly’ nodules."
+  },
+  {
+   "q": "Standard TB regimen?",
+   "a": "2 months rifampicin, isoniazid, pyrazinamide, ethambutol, then 4 months rifampicin + isoniazid."
+  },
+  {
+   "q": "Key contraception issue on rifampicin?",
+   "a": "Enzyme induction makes combined hormonal contraception unreliable: use non-hormonal / IUD."
+  }
+ ]
+}

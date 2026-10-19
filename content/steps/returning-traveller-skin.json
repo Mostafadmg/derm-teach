@@ -1,0 +1,250 @@
+{
+ "_note": "Curated v3 overlay (batch 3), condensed from content/conditions/returning-traveller-skin.json; full text kept under 'More detail'.",
+ "glance": {
+  "chips": [
+   "Where & when?",
+   "Fever = malaria test",
+   "Common things first",
+   "Know UK routes"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "Any **rash, ulcer, lump or creeping track** in someone who has travelled or migrated in the past year."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "**Exposure-specific infections** (sandflies, mosquitoes, soil, water, animals) plus common UK conditions acquired abroad."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "Full **travel and exposure history**, examine all skin, **exclude malaria the same day if febrile**, use UK tropical-medicine advice routes."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "**Fever** (malaria, dengue, rickettsia, typhoid), **mucosal leishmaniasis**, **numb patches** (leprosy).",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "lead": "Mostly common things; the rare ones are the missed ones.",
+  "points": [
+   "Common: insect-bite reactions, impetigo / cellulitis from scratched bites, sunburn, phototoxicity, tinea, pityriasis versicolor, contact / phytophotodermatitis.",
+   "Exposures: **sandflies** (leishmaniasis), **mosquitoes** (dengue, chikungunya, Zika), **beach / soil** (larva migrans, tungiasis, mycetoma), **ticks** (rickettsial eschar, Lyme), **fresh water** (cercarial dermatitis), **sexual contact** (syphilis, HIV).",
+   "Incubation windows: dengue ~4–10 days; CLM days–weeks; leishmaniasis 2 weeks–6+ months; leprosy and mycetoma **years**."
+  ],
+  "visuals": [
+   {
+    "ai": "v3-sandfly-fine-mesh.jpg",
+    "caption": "Prevention advice for the next trip includes fine-mesh nets: sandflies pass through standard mosquito nets.",
+    "alt": "Coarse net with sandfly versus fine mesh"
+   }
+  ]
+ },
+ "features": {
+  "lead": "Pattern → page.",
+  "points": [
+   "**Moving itchy serpiginous track** → cutaneous larva migrans.",
+   "**Painless ulcer with rolled edge**, weeks–months after → cutaneous leishmaniasis.",
+   "**Fever, aches, flushing / ‘white islands’** → dengue, chikungunya, measles; exclude malaria.",
+   "**Numb pale or red patches, thick nerves** → leprosy.",
+   "**Swollen foot with discharging sinuses** → mycetoma.",
+   "**Black eschar** with fever → rickettsia. **Boil with a central pore that moves** → myiasis."
+  ],
+  "visuals": [
+   {
+    "ai": "v3-clm-foot-track.jpg",
+    "caption": "Creeping itchy track on the foot after a tropical beach: cutaneous larva migrans.",
+    "alt": "Foot with serpiginous track"
+   },
+   {
+    "ai": "v3-leish-volcano-section.jpg",
+    "caption": "Painless ‘volcano’ ulcer weeks after travel: think cutaneous leishmaniasis.",
+    "alt": "Cross-section of a crusted crater ulcer"
+   }
+  ],
+  "variants": {
+   "title": "Patterns to link",
+   "items": [
+    {
+     "name": "Larva migrans",
+     "t": "Serpiginous track.",
+     "where": "Feet",
+     "photo": "m5w4:W4B01"
+    },
+    {
+     "name": "Leishmaniasis",
+     "t": "Volcano ulcer.",
+     "where": "Exposed skin",
+     "photo": "m5w4:W4A01"
+    },
+    {
+     "name": "Dengue",
+     "t": "White islands in a sea of red.",
+     "where": "Limbs",
+     "photo": "m5w4:W4C01"
+    },
+    {
+     "name": "Leprosy",
+     "t": "Anaesthetic plaques.",
+     "where": "Any",
+     "photo": "m5w4:W4D06"
+    }
+   ]
+  },
+  "photo": "m5w4:W4B01"
+ },
+ "confirm": {
+  "cols": [
+   {
+    "k": "History",
+    "icon": "chat",
+    "points": [
+     "Where (rural, beach, forest), **when**, activities, bites, water / animal / sexual contact, treatment abroad, migration / VFR."
+    ]
+   },
+   {
+    "k": "Examine",
+    "icon": "eye",
+    "points": [
+     "Whole skin, nodes, mucosa; test sensation in pale patches."
+    ]
+   },
+   {
+    "k": "Fever",
+    "icon": "alert",
+    "points": [
+     "**Same-day malaria film / RDT** + FBC + specialist advice."
+    ]
+   },
+   {
+    "k": "Advice",
+    "icon": "image",
+    "points": [
+     "Tropical-medicine services for biopsy / PCR; photograph to share."
+    ]
+   }
+  ]
+ },
+ "differentials": {
+  "cards": [
+   {
+    "name": "Scabies",
+    "clue": "Web spaces, household itch.",
+    "link": "scabies"
+   },
+   {
+    "name": "Impetigo",
+    "clue": "Honey crusts on scratched bites.",
+    "link": "impetigo"
+   },
+   {
+    "name": "Tinea",
+    "clue": "Scaly active edge.",
+    "link": "tinea"
+   },
+   {
+    "name": "Drug eruption",
+    "clue": "New antimalarial / antibiotic.",
+    "link": "drug-eruption-approach"
+   },
+   {
+    "name": "Urticaria",
+    "clue": "Wheals < 24 h.",
+    "link": "urticaria-angioedema"
+   },
+   {
+    "name": "Contact / phytophotodermatitis",
+    "clue": "Plant juice + sun; drip marks.",
+    "link": "contact-dermatitis"
+   }
+  ]
+ },
+ "manage": {
+  "lead": "Treat the common, refer the exotic early.",
+  "rungs": [
+   {
+    "k": "Common conditions",
+    "tone": "base",
+    "points": [
+     "Treat as usual, with review dates."
+    ]
+   },
+   {
+    "k": "Exotic / uncertain",
+    "tone": "refer",
+    "points": [
+     "Refer early to ID / tropical medicine (e.g. HTD e-Referral, on-call tropical registrar)."
+    ]
+   },
+   {
+    "k": "Safety",
+    "tone": "first",
+    "points": [
+     "**No NSAIDs or aspirin** in a febrile traveller until dengue considered.",
+     "**No steroid creams on undiagnosed tropical ulcers; no systemic steroids** if *Strongyloides* or TB possible without specialist input."
+    ]
+   },
+   {
+    "k": "Public health",
+    "tone": "second",
+    "points": [
+     "Remember notifiable diseases; next-trip advice: DEET 50%, cover up, footwear on beaches."
+    ]
+   }
+  ]
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "same-day",
+    "t": "**Fever after travel to a malaria area**: same-day malaria testing, whatever the rash."
+   },
+   {
+    "when": "emergency",
+    "t": "Dengue warning signs (abdominal pain, vomiting, bleeding, lethargy)."
+   },
+   {
+    "when": "urgent",
+    "t": "Nasal or oral ulceration after leishmaniasis exposure."
+   }
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "**“Where have you been, and when?”** for every unexplained or non-healing lesion."
+  },
+  {
+   "icon": "alert",
+   "t": "**Painless** ulcers or swellings are warnings: leishmaniasis, leprosy, Buruli, mycetoma."
+  },
+  {
+   "icon": "hand",
+   "t": "Test sensation and palpate nerves in pale patches from leprosy-endemic countries."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Febrile returnee with a rash: first test?",
+   "a": "Same-day malaria film / rapid test."
+  },
+  {
+   "q": "Painless rolled-edge ulcer 3 months after Belize?",
+   "a": "Cutaneous leishmaniasis."
+  },
+  {
+   "q": "Why avoid systemic steroids without specialist input?",
+   "a": "Strongyloides hyperinfection or TB."
+  },
+  {
+   "q": "Boil-like lump with a central pore and movement?",
+   "a": "Myiasis."
+  }
+ ]
+}

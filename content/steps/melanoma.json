@@ -1,0 +1,270 @@
+{
+ "_note": "Curated v3 overlay (batch 4), condensed from content/conditions/melanoma.json; full text kept under 'More detail'.",
+ "glance": {
+  "chips": [
+   "7-point checklist",
+   "ABCDE + EFG",
+   "Ugly duckling",
+   "Refer, don’t excise"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "A **new or changing pigmented lesion**, an **ugly duckling**, a **firm growing nodule** (pink or dark), a **dark streak on sole or nail**, or a slowly spreading facial patch."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "UV-driven (or non-UV on acral skin) melanocyte mutations (**BRAF**, NRAS, NF1, KIT) with inherited risk (CDKN2A, MC1R)."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "**NG12**: weighted 7-point score **≥ 3**, or dermoscopy suggesting melanoma → **suspected cancer pathway**; don’t excise or biopsy in primary care."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "**Nodular and amelanotic melanoma** (EFG; may not fit ABCD); **acral melanoma** in skin of colour; repeated reassurance of a changing lesion.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "lead": "A melanocyte cancer driven by UV and genes.",
+  "points": [
+   "UK’s **5th commonest cancer** (~17,500–20,000 a year); rising, esp. > 65; common in 15–34-year-olds.",
+   "Risks: **intermittent intense UV / sunburn** (childhood), sunbeds, fair skin (MC1R), many / atypical naevi, family history, previous melanoma, immunosuppression.",
+   "**BRAF V600** ~40–50% (BRAF / MEK target); NRAS ~20%; NF1; **KIT** in acral / mucosal.",
+   "Radial (flat) then **vertical (nodular) growth**; Breslow tracks the vertical phase."
+  ],
+  "visuals": [
+   {
+    "ai": "v3-ssm-vs-nodular.jpg",
+    "caption": "Superficial spreading melanoma (left) grows sideways first: flat, irregular, fits ABCDE. Nodular melanoma (right) grows down from the start: raised, firm, growing (EFG), may be pink.",
+    "alt": "Two cross-sections: flat spreading pigment versus deep nodule"
+   }
+  ]
+ },
+ "features": {
+  "lead": "Use the tools together.",
+  "points": [
+   "**NICE weighted 7-point**: major (2 each) change in **size, shape, colour**; minor (1 each) **≥ 7 mm, inflammation, oozing, sensation change**. **≥ 3 → refer.**",
+   "**ABCDE**: Asymmetry, Border, Colour, Diameter > 6 mm, Evolving; misses nodular / amelanotic.",
+   "**EFG**: **Elevated, Firm, Growing** > 1 month → nodular melanoma (NG12 1.7.3).",
+   "**Ugly duckling**: different from the person’s other moles.",
+   "Subtypes: SSM (commonest), **nodular** (15–30%), **lentigo maligna** (sun-damaged face), **acral lentiginous** (commonest in Black and Asian people), amelanotic."
+  ],
+  "visuals": [
+   {
+    "ai": "v3-ugly-duckling.jpg",
+    "caption": "Ugly duckling sign: the mole that looks different from all the person’s other moles deserves a closer look.",
+    "alt": "Back with similar small moles and one larger irregular dark mole ringed"
+   },
+   {
+    "ai": "v3-acral-melanoma-hutchinson.jpg",
+    "caption": "Check soles and nails: an irregular dark heel macule, and a nail streak with pigment spreading onto the nail fold (Hutchinson’s sign), suggest acral melanoma.",
+    "alt": "Sole with dark heel macule beside a toenail with dark band and fold pigment"
+   }
+  ],
+  "variants": {
+   "title": "Types to recognise",
+   "items": [
+    {
+     "name": "Superficial spreading",
+     "t": "Notched, irregular colour.",
+     "where": "Trunk, legs",
+     "photo": "m2w5:C01"
+    },
+    {
+     "name": "Nodular (EFG)",
+     "t": "Elevated, firm, growing.",
+     "where": "Trunk, head",
+     "photo": "m2w5:A01",
+     "tone": "danger"
+    },
+    {
+     "name": "Amelanotic",
+     "t": "Pink smooth nodule.",
+     "where": "Any",
+     "photo": "m2w5:A05",
+     "tone": "danger"
+    },
+    {
+     "name": "Lentigo maligna",
+     "t": "Slowly enlarging facial macule.",
+     "where": "Face",
+     "photo": "m2w5:D01"
+    },
+    {
+     "name": "Acral lentiginous",
+     "t": "Heel, palm, nail unit.",
+     "where": "Soles",
+     "photo": "m2w5:D03"
+    },
+    {
+     "name": "Evolving",
+     "t": "Larger and darker over time.",
+     "where": "Any",
+     "photo": "m2w5:B05"
+    }
+   ]
+  },
+  "photo": "m2w5:C01"
+ },
+ "confirm": {
+  "cols": [
+   {
+    "k": "Score",
+    "icon": "gauge",
+    "points": [
+     "**Weighted 7-point checklist**; document size (ruler), duration, change."
+    ]
+   },
+   {
+    "k": "Dermoscopy",
+    "icon": "search",
+    "points": [
+     "Atypical network, blue-white veil; acral **parallel-ridge**."
+    ]
+   },
+   {
+    "k": "Images",
+    "icon": "image",
+    "points": [
+     "Dermoscopic + clinical images for teledermatology triage."
+    ]
+   },
+   {
+    "k": "AI / apps",
+    "icon": "alert",
+    "points": [
+     "Never override clinical concern; skin of colour needs human review."
+    ]
+   }
+  ]
+ },
+ "differentials": {
+  "cards": [
+   {
+    "name": "Seborrhoeic keratosis",
+    "clue": "Stuck-on, waxy, milia-like cysts.",
+    "link": "seborrhoeic-keratosis"
+   },
+   {
+    "name": "Dysplastic naevus",
+    "clue": "Atypical but stable; many moles.",
+    "link": "atypical-naevus-syndrome"
+   },
+   {
+    "name": "Haemangioma / pyogenic granuloma",
+    "clue": "Red, bleeds; but amelanotic melanoma mimics PG.",
+    "link": "pyogenic-granuloma"
+   },
+   {
+    "name": "Pigmented BCC",
+    "clue": "Pearly, arborising vessels.",
+    "link": "basal-cell-carcinoma"
+   },
+   {
+    "name": "Subungual haematoma",
+    "clue": "Trauma, grows out; no fold pigment.",
+    "link": "melanonychia"
+   },
+   {
+    "name": "Solar lentigo",
+    "clue": "Uniform flat brown on sun-damaged skin.",
+    "link": "solar-lentigines"
+   }
+  ]
+ },
+ "manage": {
+  "lead": "Refer fast; specialist does the rest.",
+  "rungs": [
+   {
+    "k": "Refer",
+    "tone": "base",
+    "points": [
+     "**Suspected cancer pathway** (NG12 1.7.1 score ≥ 3; 1.7.3 nodular) **within 1 working day**.",
+     "Include images if teledermatology triage exists; document the score and safety-net."
+    ]
+   },
+   {
+    "k": "Specialist",
+    "tone": "refer",
+    "points": [
+     "**Excision biopsy with a 2 mm margin** by the skin cancer team → WLE per Breslow."
+    ]
+   },
+   {
+    "k": "Prevention & family",
+    "tone": "first",
+    "points": [
+     "Sun protection, no sunbeds; full-skin self-checks; first-degree relatives ~2× risk.",
+     "Many atypical moles + family melanoma: consider **FAMMM / CDKN2A** (pancreatic cancer link) → genetics."
+    ]
+   }
+  ],
+  "limits": [
+   {
+    "k": "Don’t",
+    "t": "Freeze, shave, laser or ‘watch and wait’ a lesion meeting criteria; reassure because an app is negative.",
+    "tone": "danger"
+   },
+   {
+    "k": "Pigmented ‘verruca’ or ‘bruise’ on the sole",
+    "t": "Refer if not resolving; not more destructive treatment.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "urgent",
+    "t": "7-point score **≥ 3** or dermoscopy suggesting melanoma: suspected cancer pathway."
+   },
+   {
+    "when": "urgent",
+    "t": "**Firm growing nodule > 1 month** (EFG), even if pink or symmetrical."
+   },
+   {
+    "when": "urgent",
+    "t": "New growing dark mark on sole, palm or nail; Hutchinson’s sign."
+   }
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "“Any spot that is **raised, firm and growing**, of any colour, needs to be seen within two weeks.”"
+  },
+  {
+   "icon": "alert",
+   "t": "Repeated reassurance of a changing lesion is a classic delay pattern."
+  },
+  {
+   "icon": "eye",
+   "t": "Check soles, palms and nails in every skin-of-colour presentation."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "NICE 7-point referral threshold?",
+   "a": "Score of 3 or more."
+  },
+  {
+   "q": "Which melanoma does ABCDE miss?",
+   "a": "Nodular and amelanotic: use EFG."
+  },
+  {
+   "q": "Commonest subtype in Black and Asian people?",
+   "a": "Acral lentiginous melanoma."
+  },
+  {
+   "q": "Should primary care excise a suspected melanoma?",
+   "a": "No: refer; specialist excision biopsy with a 2 mm margin."
+  }
+ ]
+}

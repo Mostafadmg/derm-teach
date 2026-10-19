@@ -1,0 +1,219 @@
+{
+ "_note": "Curated v3 overlay (batch 3), condensed from content/conditions/ace-inhibitor-angioedema.json; full text kept under 'More detail'.",
+ "glance": {
+  "chips": [
+   "Bradykinin",
+   "No wheals",
+   "Any time on treatment",
+   "Stop ACE-i for life"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "Recurrent **lip, tongue or face swelling without hives or itch** in someone on ramipril, lisinopril or another ACE inhibitor."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "ACE inhibitors block **bradykinin breakdown**; bradykinin leaks fluid into deep tissue, so histamine-based treatments work poorly."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "**Airway first (999)**; **stop the ACE inhibitor permanently**, record a class allergy, choose an alternative carefully."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "**Airway compromise**; **hereditary angioedema**; ARB / sacubitril-valsartan cross-reactivity; gliptins add risk.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "lead": "Not histamine, not IgE.",
+  "points": [
+   "ACE (kininase II) normally degrades **bradykinin**; inhibition → bradykinin + substance P → **B2 receptors** → leak.",
+   "Affects ~0.1–0.7% of users; up to a third of ED angioedema.",
+   "Starts **any time: first dose to years later**.",
+   "Risk: **black ethnicity (≈3–5×)**, female, > 65, smoking, prior angioedema, **DPP-4 inhibitors**, mTOR inhibitors, **sacubitril / valsartan** (contraindicated within 36 h of ACE-i), alteplase.",
+   "Triggers: minor trauma, surgery, dental work, intubation."
+  ],
+  "visuals": [
+   {
+    "ai": "v3-histamine-vs-bradykinin.jpg",
+    "caption": "Histamine angioedema (left): mast cells release histamine, giving itchy surface wheals. Bradykinin angioedema (right): deep vessel leak with smooth swelling and no wheals, so antihistamines don’t help.",
+    "alt": "Two skin cross-sections: mast-cell wheal versus deep bradykinin leak"
+   }
+  ]
+ },
+ "features": {
+  "lead": "Deep, smooth, not itchy, slow.",
+  "points": [
+   "Face, periorbital, **lips, tongue**, floor of mouth, larynx; gut attacks (abdominal pain).",
+   "Builds over hours, lasts **24–72 h**.",
+   "**No urticaria**, poor response to antihistamine / steroid.",
+   "Attacks may recur **for weeks after stopping** (wanes over ~1–3 months): not treatment failure."
+  ],
+  "visuals": [
+   {
+    "ai": "v3-angioedema-face.jpg",
+    "caption": "Angioedema: deep swelling of lips and eyelids. When it comes without wheals in someone on an ACE inhibitor, think bradykinin.",
+    "alt": "Face with swollen lips and eyelids"
+   }
+  ],
+  "variants": {
+   "title": "Types to recognise",
+   "items": [
+    {
+     "name": "Lip angioedema",
+     "t": "Bradykinin, no wheals.",
+     "where": "Lips",
+     "photo": "m1w3:D01"
+    }
+   ]
+  },
+  "photo": "m1w3:D01"
+ },
+ "confirm": {
+  "cols": [
+   {
+    "k": "Clinical",
+    "icon": "eye",
+    "points": [
+     "Angioedema, **no wheals**, on an ACE-i, no antihistamine response."
+    ]
+   },
+   {
+    "k": "C4 ± C1-INH",
+    "icon": "flask",
+    "points": [
+     "If no ACE-i, family history, onset < 40, or recurrence after stopping (HAE / AAE: C4 low)."
+    ]
+   },
+   {
+    "k": "Tryptase",
+    "icon": "alert",
+    "points": [
+     "If anaphylaxis possible."
+    ]
+   }
+  ]
+ },
+ "differentials": {
+  "cards": [
+   {
+    "name": "Histamine angioedema",
+    "clue": "Wheals / itch, minutes, < 24 h, responds to antihistamine / adrenaline.",
+    "link": "urticaria-angioedema"
+   },
+   {
+    "name": "Hereditary / acquired C1-INH deficiency",
+    "clue": "Low C4; family history; acquired → look for lymphoproliferative disease.",
+    "tone": "danger"
+   },
+   {
+    "name": "Contact dermatitis of eyelids / face",
+    "clue": "Itch, eczema, allergen.",
+    "link": "contact-dermatitis"
+   },
+   {
+    "name": "Cellulitis / erysipelas",
+    "clue": "Hot, tender, fever, one-sided.",
+    "link": "cellulitis-erysipelas"
+   },
+   {
+    "name": "Orofacial granulomatosis / dermatomyositis",
+    "clue": "Persistent lip swelling; periorbital heliotrope.",
+    "link": "dermatomyositis"
+   }
+  ]
+ },
+ "manage": {
+  "lead": "Airway, stop, document, switch.",
+  "rungs": [
+   {
+    "k": "Stop & document",
+    "tone": "base",
+    "points": [
+     "**Stop the ACE-i permanently**: record “ACE inhibitor: angioedema (class reaction), avoid all ACE inhibitors”. No rechallenge. **Yellow Card**.",
+     "Explain swelling may recur for several weeks."
+    ]
+   },
+   {
+    "k": "Alternative (NICE NG136 / NG28)",
+    "tone": "first",
+    "points": [
+     "**ARB with caution** (recurrence ~2–10%): discuss, consider specialist advice, safety-net.",
+     "Or a **calcium-channel blocker** (amlodipine) ± SGLT2 inhibitor for renal protection."
+    ]
+   },
+   {
+    "k": "Avoid",
+    "tone": "second",
+    "points": [
+     "**Sacubitril / valsartan**; think twice before a **gliptin**.",
+     "Stop antihistamine / prednisolone that gave no benefit (steroid harm, e.g. hyperglycaemia)."
+    ]
+   },
+   {
+    "k": "Hospital",
+    "tone": "refer",
+    "points": [
+     "Airway management; adrenaline if anaphylaxis can’t be excluded; off-label icatibant / C1-INH / FFP (mixed evidence)."
+    ]
+   }
+  ],
+  "limits": [
+   {
+    "k": "Metformin, statins",
+    "t": "Not implicated; continue."
+   }
+  ]
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "emergency",
+    "t": "Tongue / throat swelling, voice change, stridor, difficulty swallowing: **999**."
+   },
+   {
+    "when": "routine",
+    "t": "Recurrent angioedema without ACE-i or with family history; abdominal attacks; > 3 months after stopping: **immunology** (C4 / C1-INH)."
+   }
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "Angioedema **without wheals** on an ACE-i = bradykinin. Antihistamines won’t fix it; **stopping the ACE-i** will (eventually)."
+  },
+  {
+   "icon": "search",
+   "t": "Medication review: ask every ACE-i patient about past face or tongue swelling."
+  },
+  {
+   "icon": "clock",
+   "t": "Risk persists for years, not just the first month."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Mechanism?",
+   "a": "ACE inhibition blocks bradykinin breakdown (not histamine / IgE)."
+  },
+  {
+   "q": "Swelling recurs 2 weeks after stopping ramipril: treatment failure?",
+   "a": "No: attacks can recur for weeks–months."
+  },
+  {
+   "q": "Which combination drug is contraindicated within 36 h of an ACE-i?",
+   "a": "Sacubitril / valsartan."
+  },
+  {
+   "q": "Test if no ACE-i and family history?",
+   "a": "C4 (± C1-INH level and function)."
+  }
+ ]
+}

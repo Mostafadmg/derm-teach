@@ -1,0 +1,243 @@
+{
+ "_note": "Curated v3 overlay (batch 3), condensed from content/conditions/scarlet-fever.json; full text kept under 'More detail'.",
+ "glance": {
+  "chips": [
+   "Group A strep",
+   "Children 2–10",
+   "Notifiable",
+   "Penicillin V 10 days"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "Child with **fever, sore throat** and a fine **rough ‘sandpaper’ rash** from neck and chest, folds accentuated, **strawberry tongue**."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "**Pyrogenic exotoxins** (superantigens) from *Streptococcus pyogenes*."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "**Phenoxymethylpenicillin 10 days** (clarithromycin if allergic); off school until **24 h of antibiotics**; notify UKHSA."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "**Invasive GAS**; Kawasaki disease and toxic shock as differentials.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "lead": "A throat infection whose toxin paints the skin.",
+  "points": [
+   "Usually after **strep pharyngitis / tonsillitis**, occasionally a skin or wound source.",
+   "Droplets and contact; incubation **2–5 days**; winter–spring peaks; UK surges (2022–23 with more iGAS).",
+   "**SpeA/B/C superantigens** cause the rash and enanthem; immunity is toxin-specific, so repeat episodes happen.",
+   "Complications: local (suppurative), immune (non-suppurative), invasive (iGAS)."
+  ],
+  "visuals": []
+ },
+ "features": {
+  "lead": "Throat first, then a rash you can feel.",
+  "points": [
+   "Abrupt **fever, sore throat**, tender nodes, headache, vomiting, abdominal pain.",
+   "After 12–48 h: **fine pinhead ‘sandpaper’ erythema** from neck / chest; blanches; **Pastia lines** in folds.",
+   "**Flushed cheeks with circumoral pallor**; on darker skin the rash may be hard to see but **feels rough**.",
+   "**White strawberry tongue** (day 1–2) → **red strawberry tongue** (day 3–5); palatal petechiae.",
+   "Rash fades in ~1 week, then **peeling** of fingertips, toes, groin."
+  ],
+  "visuals": [
+   {
+    "ai": "v3-scarlet-fever-face.jpg",
+    "caption": "Scarlet fever: flushed cheeks with a pale ring around the mouth, a fine pinpoint rash on neck and chest, and a red strawberry tongue.",
+    "alt": "Child with flushed cheeks, circumoral pallor and strawberry tongue"
+   },
+   {
+    "ai": "v3-strawberry-tongue-stages.jpg",
+    "caption": "White strawberry tongue (left: white coat with red papillae poking through) becomes a red strawberry or raspberry tongue (right) once the coat sheds.",
+    "alt": "Two tongues: white and red strawberry"
+   }
+  ],
+  "variants": {
+   "title": "Types to recognise",
+   "items": [
+    {
+     "name": "Sandpaper rash",
+     "t": "Fine punctate erythema on trunk.",
+     "where": "Trunk",
+     "photo": "m5w5:W5E02"
+    },
+    {
+     "name": "Flexural accentuation",
+     "t": "Pastia lines in creases.",
+     "where": "Antecubital, axillae",
+     "photo": "m5w5:W5E04"
+    },
+    {
+     "name": "Face",
+     "t": "Flushed cheeks, circumoral pallor.",
+     "where": "Face",
+     "photo": "m5w5:W5E01"
+    },
+    {
+     "name": "Desquamation",
+     "t": "Peeling 1–2 weeks later.",
+     "where": "Fingers, toes",
+     "photo": "m5w5:W5E06"
+    }
+   ]
+  },
+  "photo": "m5w5:W5E02"
+ },
+ "confirm": {
+  "cols": [
+   {
+    "k": "Clinical",
+    "icon": "eye",
+    "points": [
+     "Diagnose clinically in primary care (UKHSA)."
+    ]
+   },
+   {
+    "k": "Throat swab",
+    "icon": "drop",
+    "points": [
+     "Culture or rapid antigen if uncertain or outbreaks."
+    ]
+   },
+   {
+    "k": "If unwell",
+    "icon": "flask",
+    "points": [
+     "FBC, CRP, blood cultures; ASO retrospectively."
+    ]
+   }
+  ]
+ },
+ "differentials": {
+  "cards": [
+   {
+    "name": "Kawasaki disease",
+    "clue": "**Fever ≥ 5 days**, conjunctivitis, red cracked lips, swollen then peeling hands / feet; < 5 years: urgent paediatrics.",
+    "tone": "danger"
+   },
+   {
+    "name": "Toxic shock syndrome",
+    "clue": "Hypotension, multi-organ, ‘sunburn’ erythroderma: 999.",
+    "tone": "danger"
+   },
+   {
+    "name": "SSSS",
+    "clue": "Tender erythema, flaccid blisters, Nikolsky +, no tonsillitis."
+   },
+   {
+    "name": "Viral exanthems",
+    "clue": "Measles (coryza, cough, Koplik), slapped cheek; no sandpaper texture."
+   },
+   {
+    "name": "Glandular fever ± amoxicillin rash",
+    "clue": "Teenager, big nodes, splenomegaly."
+   }
+  ]
+ },
+ "manage": {
+  "lead": "Treat to speed recovery and cut spread (UKHSA / CKS).",
+  "rungs": [
+   {
+    "k": "Public health",
+    "tone": "base",
+    "points": [
+     "**Notifiable**: diagnosing practitioner notifies UKHSA.",
+     "Off school / nursery / work **until 24 h after starting antibiotics**; untreated cases infectious ~2–3 weeks."
+    ]
+   },
+   {
+    "k": "First line",
+    "tone": "first",
+    "points": [],
+    "rx": [
+     {
+      "drug": "Phenoxymethylpenicillin",
+      "dose": "BNF age-banded; e.g. ≥ 12 years 500 mg four times daily (or 1 g twice daily per local guidance)",
+      "dur": "10 days",
+      "note": "Empty stomach; complete the course."
+     }
+    ]
+   },
+   {
+    "k": "Penicillin allergy / supply",
+    "tone": "second",
+    "points": [
+     "**Clarithromycin** (5 days) or azithromycin per BNF; **amoxicillin** 10 days if liquid palatability or supply is an issue."
+    ]
+   }
+  ],
+  "limits": [
+   {
+    "k": "Chickenpox in the household",
+    "t": "Higher iGAS risk: lower threshold for review.",
+    "tone": "danger"
+   },
+   {
+    "k": "Safety-net",
+    "t": "In writing, for iGAS; dark urine or swelling 1–3 weeks later."
+   }
+  ]
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "emergency",
+    "t": "Rapid deterioration, severe pain, spreading skin infection, breathing difficulty, sepsis: **invasive GAS**."
+   },
+   {
+    "when": "urgent",
+    "t": "Fever ≥ 5 days with red eyes, red lips, swollen hands / feet: consider **Kawasaki disease**."
+   },
+   {
+    "when": "routine",
+    "t": "Dark urine or swelling 1–3 weeks later: check urine (post-strep nephritis)."
+   }
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "Sandpaper rash + sore throat + strawberry tongue + circumoral pallor = scarlet fever until proven otherwise."
+  },
+  {
+   "icon": "eye",
+   "t": "On darker skin rely on **texture and the tongue**."
+  },
+  {
+   "icon": "alert",
+   "t": "Strawberry tongue isn’t specific: ≥ 5 days’ fever needs Kawasaki excluded."
+  },
+  {
+   "icon": "chat",
+   "t": "Warn that fingers and toes may peel 1–2 weeks later."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "First-line antibiotic and duration?",
+   "a": "Phenoxymethylpenicillin for 10 days."
+  },
+  {
+   "q": "When can the child return to school?",
+   "a": "24 hours after starting antibiotics."
+  },
+  {
+   "q": "Is scarlet fever notifiable?",
+   "a": "Yes, to UKHSA (England & Wales)."
+  },
+  {
+   "q": "Strawberry tongue and 6 days of fever with conjunctivitis?",
+   "a": "Consider Kawasaki disease: urgent paediatric referral."
+  }
+ ]
+}

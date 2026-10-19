@@ -1,0 +1,260 @@
+{
+ "_note": "Curated v3 overlay (batch 3), condensed from content/conditions/erythema-multiforme.json; full text kept under 'More detail'.",
+ "glance": {
+  "chips": [
+   "Usually after HSV",
+   "Typical targets",
+   "Acral",
+   "Not SJS/TEN"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "Fixed **‘target’ lesions with three zones** on palms, backs of hands, forearms or feet, often **1–3 weeks after a cold sore**."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "**Cell-mediated reaction to HSV antigen** in the skin (most cases); *Mycoplasma* in children; drugs uncommon."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "Supportive care, potent topical steroid, mouthwashes, analgesia; aciclovir for active HSV; suppressive antiviral for recurrent HSV-EM (specialist)."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "**SJS / TEN**: atypical flat dusky targets, widespread skin pain, blistering and mucosal erosions after a new drug.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "lead": "A type IV reaction to an infection.",
+  "points": [
+   "**HSV-1 / 2** leads (1–3 weeks after herpes labialis / genitalis; recurs with HSV).",
+   "*Mycoplasma pneumoniae* in children / young adults with a respiratory prodrome.",
+   "Cytotoxic T cells attack keratinocytes → **epidermal necrosis in the target centre**.",
+   "**EM minor** = skin only; **EM major** = skin + ≥ 1 mucosa; still infection-related and **not** SJS / TEN."
+  ],
+  "visuals": [
+   {
+    "ai": "v3-em-target-zones.jpg",
+    "caption": "Typical target: dusky or blistered centre, pale oedematous ring, outer red ring with a sharp edge. Three zones point to EM; flat two-zone dusky macules point to SJS / TEN.",
+    "alt": "Target lesion with three concentric zones"
+   }
+  ]
+ },
+ "features": {
+  "lead": "Raised typical targets, acral, symmetrical.",
+  "points": [
+   "**Three zones**: dusky / purpuric or blistered centre → pale oedematous ring → red outer ring.",
+   "**Symmetrical, acral**: dorsal hands / feet, palms, extensor limbs, then trunk; face possible.",
+   "Mucosa: **oral erosions**, crusted lips (EM major); eyes / genitals less often.",
+   "Appear over days, resolve in **1–4 weeks**; recur with HSV.",
+   "Skin of colour: rely on zone architecture and palpation."
+  ],
+  "visuals": [
+   {
+    "ai": "v3-em-acral-hands.jpg",
+    "caption": "EM favours the hands: symmetrical target lesions on the palms and backs of the hands.",
+    "alt": "Palm and back of hand with scattered target lesions"
+   }
+  ],
+  "variants": {
+   "title": "Types to recognise",
+   "items": [
+    {
+     "name": "Classic targets",
+     "t": "Three-zone iris lesions.",
+     "where": "Limbs",
+     "photo": "m4w1:A01"
+    },
+    {
+     "name": "Palm",
+     "t": "Targets with dusky centres.",
+     "where": "Palms",
+     "photo": "m3w6:G02"
+    },
+    {
+     "name": "Mucosal (EM major)",
+     "t": "Crusted lips, oral erosions.",
+     "where": "Lips, mouth",
+     "photo": "m4w1:A03",
+     "tone": "danger"
+    },
+    {
+     "name": "Eye involvement",
+     "t": "Urgent ophthalmology.",
+     "where": "Eyes",
+     "photo": "m4w1:A04",
+     "tone": "danger"
+    }
+   ]
+  },
+  "photo": "m4w1:A01"
+ },
+ "confirm": {
+  "cols": [
+   {
+    "k": "Clinical",
+    "icon": "eye",
+    "points": [
+     "Classic post-HSV target pattern."
+    ]
+   },
+   {
+    "k": "History",
+    "icon": "chat",
+    "points": [
+     "Recent cold sore, respiratory symptoms, **new drugs**, mucosal / eye symptoms."
+    ]
+   },
+   {
+    "k": "If atypical / severe",
+    "icon": "flask",
+    "points": [
+     "*Mycoplasma* testing, HSV swab of cold sore, biopsy."
+    ]
+   },
+   {
+    "k": "Examine",
+    "icon": "search",
+    "points": [
+     "Whole skin + mouth + eyes + genitals."
+    ]
+   }
+  ]
+ },
+ "differentials": {
+  "cards": [
+   {
+    "name": "SJS / TEN",
+    "clue": "Flat atypical targets, widespread purpuric macules, sheet-like detachment; **drugs**; very unwell.",
+    "tone": "danger",
+    "link": "drug-induced-blistering",
+    "photo": "m1w3:B01"
+   },
+   {
+    "name": "Urticaria / urticaria multiforme",
+    "clue": "Migratory wheals < 24 h; no fixed dusky centre.",
+    "link": "urticaria-angioedema"
+   },
+   {
+    "name": "Fixed drug eruption",
+    "clue": "Round dusky plaque recurring at the same site.",
+    "link": "fixed-drug-eruption"
+   },
+   {
+    "name": "Secondary syphilis",
+    "clue": "Risk history; serology.",
+    "link": "pityriasis-rosea"
+   },
+   {
+    "name": "Vasculitis / EM-like lupus",
+    "clue": "Atypical course; ANA, systemic features.",
+    "link": "cutaneous-vasculitis-approach"
+   }
+  ]
+ },
+ "manage": {
+  "lead": "Mostly supportive; refer the severe.",
+  "rungs": [
+   {
+    "k": "Supportive",
+    "tone": "base",
+    "points": [
+     "Emollients; soft diet and antiseptic / analgesic mouth rinses for oral EM; analgesia; rest.",
+     "Document drug history; stop a newly started suspect drug pending advice if morphology atypical."
+    ]
+   },
+   {
+    "k": "Prescriber",
+    "tone": "first",
+    "points": [
+     "**Potent topical steroid** to itchy / inflamed skin lesions.",
+     "Treat an active cold sore (topical / oral antiviral per BNF)."
+    ]
+   },
+   {
+    "k": "Recurrent HSV-EM",
+    "tone": "second",
+    "points": [
+     "**Continuous or intermittent oral antiviral prophylaxis** (e.g. aciclovir): specialist / experienced initiation."
+    ]
+   },
+   {
+    "k": "Specialist",
+    "tone": "refer",
+    "points": [
+     "Systemic steroids only in selected severe cases under dermatology."
+    ]
+   }
+  ],
+  "limits": [
+   {
+    "k": "Systemic steroids",
+    "t": "Don’t start for presumed EM without specialist advice.",
+    "tone": "danger"
+   },
+   {
+    "k": "Pregnancy",
+    "t": "Check BNF for antivirals / steroids."
+   }
+  ]
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "emergency",
+    "t": "Mucosal erosions with **skin pain, blistering or skin loss**: possible **SJS / TEN**; stop suspect drugs, admit same day."
+   },
+   {
+    "when": "same-day",
+    "t": "Eye involvement: same-day ophthalmology."
+   },
+   {
+    "when": "same-day",
+    "t": "Unable to eat or drink: admission for fluids and analgesia."
+   }
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "**Raised three-zone targets on hands after a cold sore = EM. Flat dusky macules on the trunk after a new drug = SJS / TEN.**"
+  },
+  {
+   "icon": "pill",
+   "t": "Early antiviral for prodromal HSV may cut EM recurrences (individualise)."
+  },
+  {
+   "icon": "alert",
+   "t": "Mucosal involvement alone doesn’t make it SJS."
+  },
+  {
+   "icon": "chat",
+   "t": "Scars are uncommon; pigment change can linger."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Commonest trigger?",
+   "a": "Herpes simplex virus."
+  },
+  {
+   "q": "Three zones of a typical target?",
+   "a": "Dusky / blistered centre, pale oedematous ring, red outer ring."
+  },
+  {
+   "q": "EM major vs minor?",
+   "a": "Major involves ≥ 1 mucosal surface."
+  },
+  {
+   "q": "Recurrent EM with each cold sore: prevention?",
+   "a": "Suppressive oral antiviral (specialist)."
+  }
+ ]
+}

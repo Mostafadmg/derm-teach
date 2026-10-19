@@ -1,0 +1,256 @@
+{
+ "_note": "Curated v3 overlay (batch 3), condensed from content/conditions/cutaneous-leishmaniasis.json; full text kept under 'More detail'.",
+ "glance": {
+  "chips": [
+   "Sandfly",
+   "Painless ulcer",
+   "Refer, don’t treat",
+   "Mucosal risk (Americas)"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "A **painless crusted nodule or ulcer with a rolled edge** on exposed skin, not healing after weeks of antibiotics, after travel or migration."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "*Leishmania* parasites injected by **sandfly bites**, multiplying in dermal macrophages."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "Refer to **tropical medicine** for biopsy / PCR and species-guided treatment; many Old World lesions heal on their own."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "**Mucosal leishmaniasis** (New World species) and visceral disease in the immunosuppressed.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "lead": "A protozoan living in skin macrophages.",
+  "points": [
+   "Female **phlebotomine sandflies** (1.5–3 mm, silent) bite at **dusk and dawn**; bites go unnoticed.",
+   "Promastigotes → macrophages → **amastigotes** multiply → granuloma → ulcer.",
+   "Endemic: Latin America, **Mediterranean** (incl. southern Europe), Middle East, Central / South Asia, East Africa.",
+   "**Mucocutaneous** only with New World *Viannia* (*L. braziliensis*…): ~5% lifetime risk; months–years later.",
+   "Host immunity sets the form: localised, diffuse (anergic) or mucosal."
+  ],
+  "visuals": [
+   {
+    "ai": "v3-leish-volcano-section.jpg",
+    "caption": "A sandfly injects Leishmania into the dermis; parasite-laden macrophages form a granuloma that breaks down into a crusted ‘volcano’ ulcer with an indurated, violaceous rim.",
+    "alt": "Skin cross-section with crusted crater ulcer and parasitised macrophages"
+   }
+  ]
+ },
+ "features": {
+  "lead": "Slow, painless, exposed skin, weeks after travel.",
+  "points": [
+   "Incubation **2 weeks–6 months** or more: ask about travel well before onset.",
+   "**Painless red papule** → nodule / plaque (1–5 cm) → **‘volcano’ ulcer** with **raised, rolled, indurated (violaceous) border** and crust.",
+   "Exposed sites: face, ears, forearms, hands, lower legs; single or several.",
+   "Pain usually means secondary infection.",
+   "**Sporotrichoid** nodules along lymphatics, regional nodes (esp. *Viannia*). Heals with a scar."
+  ],
+  "variants": {
+   "title": "Types to recognise",
+   "items": [
+    {
+     "name": "Volcano ulcer",
+     "t": "Painless, raised rolled edge.",
+     "where": "Exposed skin",
+     "photo": "m5w4:W4A01"
+    },
+    {
+     "name": "Early papule",
+     "t": "Weeks–months after the bite.",
+     "where": "Bite site",
+     "photo": "m5w4:W4A05"
+    },
+    {
+     "name": "New World ulcer",
+     "t": "Clean granulating base.",
+     "where": "Limbs",
+     "photo": "m5w4:W4A02"
+    },
+    {
+     "name": "Facial crusted",
+     "t": "Facial lesions: priority referral.",
+     "where": "Face",
+     "photo": "m5w4:W4A06"
+    },
+    {
+     "name": "Mucosal (espundia)",
+     "t": "Destructive nose / mouth disease.",
+     "where": "Nose, mouth",
+     "photo": "m5w4:W4A07",
+     "tone": "danger"
+    }
+   ]
+  },
+  "photo": "m5w4:W4A01"
+ },
+ "confirm": {
+  "cols": [
+   {
+    "k": "Suspect",
+    "icon": "chat",
+    "points": [
+     "Travel / residence + chronic painless non-healing ulcer on exposed skin."
+    ]
+   },
+   {
+    "k": "Specialist biopsy",
+    "icon": "search",
+    "points": [
+     "From the **active raised edge**: unfixed in saline for **PCR** (species), formalin for histology."
+    ]
+   },
+   {
+    "k": "New World",
+    "icon": "eye",
+    "points": [
+     "ENT / nasal examination for mucosal disease."
+    ]
+   }
+  ]
+ },
+ "differentials": {
+  "cards": [
+   {
+    "name": "Infected insect bite",
+    "clue": "Acute, itchy / painful, resolves; no rolled edge.",
+    "link": "papular-urticaria-bites"
+   },
+   {
+    "name": "Ecthyma / bacterial ulcer",
+    "clue": "Painful, purulent, responds to antibiotics.",
+    "link": "impetigo"
+   },
+   {
+    "name": "BCC / SCC",
+    "clue": "Older, sun-exposed, pearly or keratotic edge.",
+    "tone": "danger",
+    "link": "basal-cell-carcinoma"
+   },
+   {
+    "name": "Atypical mycobacteria",
+    "clue": "Fish tank (*M. marinum*), Buruli: undermined ulcer."
+   },
+   {
+    "name": "Lupus vulgaris",
+    "clue": "Apple-jelly nodules; chronic plaque.",
+    "link": "cutaneous-tuberculosis"
+   },
+   {
+    "name": "Sporotrichosis / deep fungal",
+    "clue": "Gardening / thorn; sporotrichoid nodules.",
+    "link": "mycetoma"
+   },
+   {
+    "name": "Leprosy",
+    "clue": "Anaesthetic plaques, thickened nerves.",
+    "link": "leprosy"
+   }
+  ]
+ },
+ "manage": {
+  "lead": "Recognise and refer. Don’t start empirical treatment.",
+  "rungs": [
+   {
+    "k": "Refer",
+    "tone": "base",
+    "points": [
+     "Every suspected CL → **ID / tropical medicine** (e.g. HTD Leishmaniasis MDT, UCLH).",
+     "**Priority**: New World exposure, facial / joint / genital, > 4 cm or multiple, lymphatic spread, immunosuppression, mucosal symptoms."
+    ]
+   },
+   {
+    "k": "Interim care",
+    "tone": "first",
+    "points": [
+     "Gentle cleansing, simple non-adherent dressing.",
+     "Treat **clear secondary infection** per NICE (antibiotics won’t cure CL).",
+     "**Avoid potent topical steroids** on an undiagnosed ulcer."
+    ]
+   },
+   {
+    "k": "Specialist treatment",
+    "tone": "refer",
+    "points": [
+     "Species-guided: local or systemic therapy; New World *Viannia* needs systemic treatment."
+    ]
+   }
+  ],
+  "limits": [
+   {
+    "k": "Prevention (no vaccine)",
+    "t": "Avoid dusk / dawn outdoors; long sleeves; DEET; permethrin clothing; **fine-mesh nets**; fans / AC; sleep off the ground."
+   }
+  ],
+  "visuals": [
+   {
+    "ai": "v3-sandfly-fine-mesh.jpg",
+    "caption": "Sandflies are small enough to pass through standard mosquito nets (left); fine-mesh nets (right) keep them out.",
+    "alt": "Coarse net with sandfly passing through beside a fine-mesh net"
+   }
+  ]
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "same-day",
+    "t": "Mucosal destruction, fever, weight loss or splenomegaly (possible visceral disease), immunosuppression."
+   },
+   {
+    "when": "urgent",
+    "t": "Nasal stuffiness, bleeding or oral / nasal ulcers months–years after New World CL: **mucosal leishmaniasis**."
+   },
+   {
+    "when": "routine",
+    "t": "Any suspected CL: tropical medicine referral."
+   }
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "A **‘non-healing insect bite’ > 4–6 weeks after travel** → ask about leishmaniasis."
+  },
+  {
+   "icon": "eye",
+   "t": "Mediterranean holidays and Belize / Central America are common UK sources."
+  },
+  {
+   "icon": "alert",
+   "t": "A healed skin lesion doesn’t exclude New World mucosal disease: report nose / mouth symptoms for years."
+  },
+  {
+   "icon": "chat",
+   "t": "Not contagious; scarring is common: discuss facial-scar impact."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Vector?",
+   "a": "Female phlebotomine sandflies."
+  },
+  {
+   "q": "Classic lesion?",
+   "a": "Painless ‘volcano’ ulcer with a raised rolled indurated border."
+  },
+  {
+   "q": "Where to biopsy and why send unfixed tissue?",
+   "a": "Active edge; PCR identifies the species, which guides treatment."
+  },
+  {
+   "q": "Which species risk mucosal disease?",
+   "a": "New World Viannia (e.g. L. braziliensis)."
+  }
+ ]
+}

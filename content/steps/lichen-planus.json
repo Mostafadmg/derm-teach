@@ -1,0 +1,245 @@
+{
+ "_note": "Curated v3 overlay (batch 3), condensed from content/conditions/lichen-planus.json; full text kept under 'More detail'.",
+ "glance": {
+  "chips": [
+   "6 Ps",
+   "Wickham striae",
+   "Check the mouth",
+   "Erosive → refer"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "Intensely **itchy purple flat-topped papules** with fine white lines (**Wickham striae**) on wrists, ankles or lower back; **lacy white patches in the mouth**."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "**T-cell attack on basal keratinocytes** (interface dermatitis); hepatitis C and drugs (lichenoid eruptions) are associations."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "**Potent topical steroid**, sedating antihistamine at night if needed, review drugs; refer oral, genital, nail or scalp disease."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "**Erosive oral or genital LP** (SCC risk), **lichen planopilaris** (scarring hair loss), nail destruction.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "lead": "An interface dermatitis of skin and mucosa.",
+  "points": [
+   "Idiopathic mostly; **lichenoid drug eruption** (some antihypertensives, antimalarials, gold, TNF inhibitors).",
+   "Dental amalgam linked to some oral LP; **HCV** association varies by region.",
+   "**Koebner**: papules along scratch lines."
+  ],
+  "visuals": []
+ },
+ "features": {
+  "lead": "Purple, planar, polygonal, pruritic papules and plaques.",
+  "points": [
+   "**Violaceous, flat-topped, polygonal, itchy** papules ± plaques; **Wickham striae** on the surface.",
+   "Sites: **flexor wrists**, lumbar, ankles, shins; genitals.",
+   "**Oral**: reticular white network, erosions.",
+   "**Nails**: thinning, ridges, **pterygium**, shedding. **Scalp**: scarring alopecia (lichen planopilaris).",
+   "**Marked post-inflammatory hyperpigmentation**, especially skin of colour."
+  ],
+  "visuals": [
+   {
+    "ai": "v3-lp-polygonal-koebner.jpg",
+    "caption": "Lichen planus: flat-topped violet polygonal papules with fine white Wickham striae, and a line of papules along a scratch (Koebner).",
+    "alt": "Violet polygonal papules with white lace and a linear Koebner line"
+   },
+   {
+    "ai": "v3-oral-lp-reticular.jpg",
+    "caption": "Oral lichen planus: a white lacy network on the inner cheek. Always look in the mouth.",
+    "alt": "Inner cheek with white reticular network"
+   }
+  ],
+  "variants": {
+   "title": "Types to recognise",
+   "items": [
+    {
+     "name": "Polygonal papules",
+     "t": "6 Ps.",
+     "where": "Wrists, shins",
+     "photo": "m4w1:D01"
+    },
+    {
+     "name": "Flexor wrists",
+     "t": "Intensely itchy.",
+     "where": "Wrists",
+     "photo": "m4w1:D02"
+    },
+    {
+     "name": "Oral LP",
+     "t": "Wickham white reticulation.",
+     "where": "Buccal mucosa",
+     "photo": "m4w1:D03"
+    },
+    {
+     "name": "Koebner",
+     "t": "Papules along a scratch.",
+     "where": "Any",
+     "photo": "m1w1:C03"
+    }
+   ]
+  },
+  "photo": "m4w1:D02"
+ },
+ "confirm": {
+  "cols": [
+   {
+    "k": "Clinical",
+    "icon": "eye",
+    "points": [
+     "Often clinical."
+    ]
+   },
+   {
+    "k": "Full exam",
+    "icon": "search",
+    "points": [
+     "Skin, **mouth**, nails, scalp, genitals."
+    ]
+   },
+   {
+    "k": "Biopsy",
+    "icon": "flask",
+    "points": [
+     "If uncertain: band-like lymphocytic infiltrate, saw-tooth acanthosis, Civatte bodies."
+    ]
+   },
+   {
+    "k": "Context",
+    "icon": "chat",
+    "points": [
+     "HCV testing by risk / local guidance; **drug review**."
+    ]
+   }
+  ]
+ },
+ "differentials": {
+  "cards": [
+   {
+    "name": "Lichenoid drug eruption",
+    "clue": "Drug timeline; sometimes photo-distributed.",
+    "link": "drug-eruption-approach"
+   },
+   {
+    "name": "Discoid eczema",
+    "clue": "Coin plaques, less violaceous.",
+    "link": "eczema-dermatitis"
+   },
+   {
+    "name": "Psoriasis",
+    "clue": "Silvery scale, extensors.",
+    "link": "psoriasis"
+   },
+   {
+    "name": "Flat warts / lichen nitidus",
+    "clue": "Smaller, less itch.",
+    "link": "viral-warts"
+   },
+   {
+    "name": "Secondary syphilis",
+    "clue": "Serology if atypical."
+   },
+   {
+    "name": "Graft-vs-host disease",
+    "clue": "Transplant context."
+   }
+  ]
+ },
+ "manage": {
+  "lead": "Skin LP is often self-limiting; mucosal disease needs specialists.",
+  "rungs": [
+   {
+    "k": "Skin care",
+    "tone": "base",
+    "points": [
+     "Emollients; avoid vigorous scrubbing of the scale."
+    ]
+   },
+   {
+    "k": "First line",
+    "tone": "first",
+    "points": [
+     "**Potent / very potent topical steroid ointment** to itchy papules, short courses (caution thin skin).",
+     "Antihistamine for itch (sedating at night)."
+    ]
+   },
+   {
+    "k": "Drug-induced",
+    "tone": "second",
+    "points": [
+     "Stop the culprit drug with its prescriber if lichenoid drug eruption suspected."
+    ]
+   },
+   {
+    "k": "Specialist",
+    "tone": "refer",
+    "points": [
+     "Oral, genital, nail, extensive or scalp disease → dermatology / oral medicine: steroid mouth preparations, systemic steroids, phototherapy, immunosuppressants."
+    ]
+   }
+  ]
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "urgent",
+    "t": "Non-healing oral ulcer, thickening white patch or lump in long-standing oral LP: **refer urgently** (oral SCC)."
+   },
+   {
+    "when": "routine",
+    "t": "Genital erosions, scarring or dyspareunia: refer (vulval / penile LP)."
+   },
+   {
+    "when": "routine",
+    "t": "Scalp redness with scarring hair loss: early referral (lichen planopilaris)."
+   }
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "**Purple, planar, polygonal, pruritic papules and plaques**, and always look in the mouth."
+  },
+  {
+   "icon": "chat",
+   "t": "Warn about post-inflammatory pigment lasting months."
+  },
+  {
+   "icon": "alert",
+   "t": "Erosive genital itch: examine and refer early."
+  },
+  {
+   "icon": "book",
+   "t": "Document the HCV risk discussion where relevant."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Fine white lines on LP papules?",
+   "a": "Wickham striae."
+  },
+  {
+   "q": "Classic sites?",
+   "a": "Flexor wrists, lumbar back, ankles / shins, mouth."
+  },
+  {
+   "q": "Red flag in long-standing oral LP?",
+   "a": "Non-healing ulcer, thickening white patch or lump: urgent referral (SCC)."
+  },
+  {
+   "q": "Nail sign of destructive LP?",
+   "a": "Pterygium."
+  }
+ ]
+}

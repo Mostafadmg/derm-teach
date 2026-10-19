@@ -1,0 +1,233 @@
+{
+ "_note": "Curated v3 overlay (batch 3), condensed from content/conditions/papular-urticaria-bites.json; full text kept under 'More detail'.",
+ "glance": {
+  "chips": [
+   "Fleas & bed bugs",
+   "Children",
+   "Treat the source",
+   "Antibiotics rarely"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "Crops of **very itchy firm papules** in clusters or lines, on a child’s legs or on sleep-exposed skin; often **only one household member** reacts."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "**Hypersensitivity to arthropod saliva** (immediate + delayed); new bites flare old ones; children usually desensitise."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "**Eradicate the source** (vet flea products, vacuum; professional bed-bug control) + short topical steroid and antihistamine."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "**Anaphylaxis**, spreading cellulitis, fever after bites abroad; don’t give antibiotics for ordinary redness lasting ~10 days.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "lead": "An allergy to bites, not an infection.",
+  "points": [
+   "Sensitised people react; others in the house may be bitten but unmarked.",
+   "**Fleas**: pets, or dormant pupae woken in a new house; spring–autumn.",
+   "**Bed bugs**: all year, night feeds, travel and second-hand furniture.",
+   "Outdoor: mosquitoes and midges on exposed sites."
+  ],
+  "visuals": []
+ },
+ "features": {
+  "lead": "Grouped, intensely itchy, often in threes.",
+  "points": [
+   "Firm red papules **3–10 mm**, ± punctum, vesicle or blister; excoriations and later pigmentation.",
+   "**Clusters or lines** (‘breakfast, lunch and dinner’).",
+   "**Fleas**: ankles, lower legs, waistband. **Bed bugs**: face, neck, arms; blood / faecal spots on sheets."
+  ],
+  "visuals": [
+   {
+    "ai": "v3-bites-ankle-clusters.jpg",
+    "caption": "Flea bites cluster around the ankles and lower legs, because fleas jump to about that height; papules are often grouped in threes.",
+    "alt": "Ankle with grouped red papules and scratch marks"
+   }
+  ],
+  "variants": {
+   "title": "Types to recognise",
+   "items": [
+    {
+     "name": "Papular urticaria",
+     "t": "Grouped firm itchy papules.",
+     "where": "Legs, arms",
+     "photo": "m5w3:X01"
+    },
+    {
+     "name": "Flea bites",
+     "t": "Clusters at the ankles.",
+     "where": "Ankles",
+     "photo": "m5w3:X06"
+    },
+    {
+     "name": "Bed bug bites",
+     "t": "Linear clusters on sleep-exposed skin.",
+     "where": "Arms, neck",
+     "photo": "m5w3:X08"
+    },
+    {
+     "name": "Bullous reaction",
+     "t": "Tense blisters on bites.",
+     "where": "Lower legs",
+     "photo": "m5w3:X10"
+    }
+   ]
+  },
+  "photo": "m5w3:X01"
+ },
+ "confirm": {
+  "cols": [
+   {
+    "k": "History",
+    "icon": "chat",
+    "points": [
+     "Pets, new house, travel, season, who else itches."
+    ]
+   },
+   {
+    "k": "Find the source",
+    "icon": "search",
+    "points": [
+     "Flea-comb pets; inspect mattress seams."
+    ]
+   },
+   {
+    "k": "Tests",
+    "icon": "flask",
+    "points": [
+     "Rarely needed."
+    ]
+   }
+  ]
+ },
+ "differentials": {
+  "cards": [
+   {
+    "name": "Scabies",
+    "clue": "Web spaces, wrists, genitals, burrows; **whole household itchy**.",
+    "link": "scabies"
+   },
+   {
+    "name": "Acute urticaria",
+    "clue": "Wheals fade within 24 h; no crusted papules.",
+    "link": "urticaria-angioedema"
+   },
+   {
+    "name": "Chickenpox",
+    "clue": "Fever; crops at different stages including scalp."
+   },
+   {
+    "name": "Molluscum",
+    "clue": "Pearly, umbilicated, barely itchy."
+   },
+   {
+    "name": "Delusional infestation",
+    "clue": "Conviction of infestation, no insects confirmed."
+   }
+  ]
+ },
+ "manage": {
+  "lead": "Source first, symptoms second.",
+  "rungs": [
+   {
+    "k": "Eradicate the source",
+    "tone": "base",
+    "points": [
+     "**Fleas**: vet flea products for **all** pets; hot-wash bedding; vacuum; household IGR spray for weeks.",
+     "**Bed bugs**: council or professional (BPCA / NPTA) pest control.",
+     "Outdoors: cover up, DEET-type repellent."
+    ]
+   },
+   {
+    "k": "Symptom control",
+    "tone": "first",
+    "points": [
+     "Cool compresses, short nails.",
+     "Non-sedating antihistamine by day; short sedating antihistamine at night (check age licence).",
+     "Short **mild–moderate topical steroid** on new itchy spots (potent only briefly on thick adult lesions)."
+    ]
+   },
+   {
+    "k": "Secondary infection only",
+    "tone": "second",
+    "points": [
+     "Spreading cellulitis / impetigo: **flucloxacillin** first-line (NICE NG182); Pharmacy First infected insect bite pathway (England, ≥ 1 year) within PGD."
+    ]
+   }
+  ],
+  "limits": [
+   {
+    "k": "No routine antibiotics",
+    "t": "Redness and itch can last ~10 days without infection.",
+    "tone": "danger"
+   },
+   {
+    "k": "Long-term potent steroids",
+    "t": "Avoid."
+   }
+  ]
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "emergency",
+    "t": "Anaphylaxis or airway compromise."
+   },
+   {
+    "when": "same-day",
+    "t": "Systemically unwell, spreading cellulitis, bites in mouth / throat or around eyes."
+   },
+   {
+    "when": "urgent",
+    "t": "Fever or a persisting unusual lesion after bites abroad."
+   },
+   {
+    "when": "routine",
+    "t": "Atypical persistent eruption or suspected delusional infestation: GP / dermatology."
+   }
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "**The pet may look fine; the house is the reservoir.**"
+  },
+  {
+   "icon": "eye",
+   "t": "Ankles and pets → fleas; sleep-exposed sites and sheet spots → bed bugs."
+  },
+  {
+   "icon": "chat",
+   "t": "Explain why only one person reacts: sensitisation, not ‘dirty house’."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Why does only one family member get spots?",
+   "a": "Only sensitised people react to the bites."
+  },
+  {
+   "q": "Best treatment for flea bites that keep recurring?",
+   "a": "Treat all pets with vet products + vacuum + household spray."
+  },
+  {
+   "q": "When are antibiotics needed?",
+   "a": "Only for genuine secondary infection (flucloxacillin, NG182)."
+  },
+  {
+   "q": "Lines of three bites on arms after a hotel stay?",
+   "a": "Bed bugs."
+  }
+ ]
+}

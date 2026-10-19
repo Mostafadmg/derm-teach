@@ -1,0 +1,239 @@
+{
+ "_note": "Curated v3 overlay (batch 3), condensed from content/conditions/dengue.json; full text kept under 'More detail'.",
+ "glance": {
+  "chips": [
+   "Aedes, day-biting",
+   "Returning traveller",
+   "Paracetamol only",
+   "Lab-notifiable"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "**High fever, retro-orbital headache, muscle and joint pain** and a flushing or **‘white islands’** rash within 2 weeks of tropical travel."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "Dengue virus (flavivirus, 4 serotypes) via ***Aedes*** mosquitoes; **capillary leak and low platelets** drive severe disease, often **as the fever falls**."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "**Same-day assessment**: malaria test, FBC (platelets, haematocrit), NS1 / PCR or serology; **paracetamol and fluids only**."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "**Severe dengue** (plasma leakage, bleeding, organ impairment); **NSAIDs or aspirin** raise bleeding risk.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "lead": "A mosquito-borne flavivirus; worse the second time.",
+  "points": [
+   "Most common travel-associated arbovirus in the UK (record **904** imported cases in 2024); mostly South / South-East Asia, also Latin America and the Caribbean.",
+   "*Aedes aegypti / albopictus*: **day-biting**, urban, breed in small clean standing water.",
+   "Incubation **4–10 days** (3–14).",
+   "**Second infection with a different serotype** → antibody-dependent enhancement → more severe disease.",
+   "WHO 2009: without warning signs → with warning signs → severe."
+  ],
+  "visuals": [
+   {
+    "ai": "v3-dengue-critical-phase.jpg",
+    "caption": "Dengue’s danger window: plasma leakage typically starts around days 3–7, just as the fever settles, so falling temperature isn’t reassurance on its own.",
+    "alt": "Fever curve falling with a highlighted window and a leaking vessel"
+   }
+  ]
+ },
+ "features": {
+  "lead": "Three phases; the rash evolves.",
+  "points": [
+   "**Febrile** (days 1–3/7): abrupt high fever, **retro-orbital headache**, myalgia, arthralgia, back pain (‘break-bone’), vomiting; positive tourniquet test.",
+   "**Critical** (around defervescence, days 3–7): plasma leakage.",
+   "Rash in ~half (often missed on darker skin): early **flushing**; days 3–6 **morbilliform** exanthem from hands / feet; convalescent **‘white islands in a sea of red’**.",
+   "Petechiae, mucosal bleeding."
+  ],
+  "visuals": [
+   {
+    "ai": "v3-dengue-white-islands.jpg",
+    "caption": "Convalescent dengue rash: confluent redness with small round islands of spared pale skin, ‘white islands in a sea of red’.",
+    "alt": "Lower leg with confluent red rash and white islands"
+   }
+  ],
+  "variants": {
+   "title": "Types to recognise",
+   "items": [
+    {
+     "name": "White islands",
+     "t": "Confluent erythema with sparing.",
+     "where": "Legs",
+     "photo": "m5w4:W4C01"
+    },
+    {
+     "name": "Truncal exanthem",
+     "t": "Confluent morbilliform rash.",
+     "where": "Trunk",
+     "photo": "m5w4:W4C02"
+    },
+    {
+     "name": "Darker skin",
+     "t": "Erythema subtle.",
+     "where": "Trunk",
+     "photo": "m5w4:W4C03"
+    }
+   ]
+  },
+  "photo": "m5w4:W4C01"
+ },
+ "confirm": {
+  "cols": [
+   {
+    "k": "Malaria first",
+    "icon": "alert",
+    "points": [
+     "Febrile returnee from a malarious area: **same-day films / RDT**."
+    ]
+   },
+   {
+    "k": "Bloods",
+    "icon": "flask",
+    "points": [
+     "FBC: **leucopenia, thrombocytopenia, rising haematocrit**; LFT, U&E, CRP."
+    ]
+   },
+   {
+    "k": "Specific",
+    "icon": "drop",
+    "points": [
+     "Days 1–5/7: **RT-PCR / NS1**; after ~day 5: **IgM** (UKHSA RIPL); flavivirus cross-reactivity."
+    ]
+   },
+   {
+    "k": "Notify",
+    "icon": "book",
+    "points": [
+     "Lab-notifiable in England (clinicians needn’t notify)."
+    ]
+   }
+  ]
+ },
+ "differentials": {
+  "cards": [
+   {
+    "name": "Malaria",
+    "clue": "Exclude urgently; usually no rash.",
+    "tone": "danger"
+   },
+   {
+    "name": "Chikungunya",
+    "clue": "Same vector; **severe persistent polyarthralgia**."
+   },
+   {
+    "name": "Zika",
+    "clue": "Milder fever, itchy rash, conjunctivitis; pregnancy implications."
+   },
+   {
+    "name": "Rickettsial infection",
+    "clue": "**Eschar**, regional nodes; responds to doxycycline."
+   },
+   {
+    "name": "Meningococcal septicaemia",
+    "clue": "Non-blanching purpura + unwell: treat immediately.",
+    "tone": "danger",
+    "link": "purpura-differentials"
+   },
+   {
+    "name": "Measles",
+    "clue": "Coryza, cough, conjunctivitis, Koplik spots."
+   },
+   {
+    "name": "Acute HIV seroconversion",
+    "clue": "Morbilliform rash, pharyngitis, nodes, oral ulcers.",
+    "link": "morbilliform-drug-eruption"
+   }
+  ]
+ },
+ "manage": {
+  "lead": "No antiviral; supportive care and watchful timing.",
+  "rungs": [
+   {
+    "k": "Same-day assessment",
+    "tone": "base",
+    "points": [
+     "Any fever in a returning traveller → same-day GP / urgent care / A&E (HTD walk-in if unwell): **not a pharmacy-only problem**."
+    ]
+   },
+   {
+    "k": "Supportive",
+    "tone": "first",
+    "points": [
+     "**Paracetamol only** (standard doses; caution with liver involvement).",
+     "Oral fluids / ORS, rest, monitor urine output.",
+     "Outpatient only if senior-assessed without warning signs: **daily review / FBC** through days 3–7."
+    ]
+   },
+   {
+    "k": "Prevention",
+    "tone": "second",
+    "points": [
+     "Bite avoidance **by day**: DEET 50% (adults, children > 2 months, pregnancy), sunscreen first then repellent; long sleeves, permethrin clothing; screens / AC; nets for daytime naps; remove standing water.",
+     "**Qdenga** (live, 2 doses 3 months apart): only ≥ 4 years **with previous dengue** travelling to risk areas (Green Book 15a)."
+    ]
+   }
+  ],
+  "limits": [
+   {
+    "k": "NSAIDs and aspirin",
+    "t": "Avoid; don’t sell OTC to a febrile returnee. Avoid IM injections.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "emergency",
+    "t": "**Warning signs**: abdominal pain, persistent vomiting, mucosal bleeding, lethargy / restlessness, fluid accumulation, rising haematocrit with falling platelets."
+   },
+   {
+    "when": "same-day",
+    "t": "Fever after the tropics: **exclude malaria the same day**."
+   }
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "Falling fever is the **danger window**, not the all-clear."
+  },
+  {
+   "icon": "pill",
+   "t": "Febrile traveller asking for ibuprofen: **paracetamol only**."
+  },
+  {
+   "icon": "eye",
+   "t": "*Aedes* bite by day: dusk-to-dawn advice isn’t enough."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Analgesic of choice?",
+   "a": "Paracetamol; avoid NSAIDs and aspirin."
+  },
+  {
+   "q": "When is the critical phase?",
+   "a": "Around defervescence, days 3–7."
+  },
+  {
+   "q": "Classic convalescent rash?",
+   "a": "‘White islands in a sea of red’."
+  },
+  {
+   "q": "First test in a febrile returnee from a malarious area?",
+   "a": "Same-day malaria film / RDT."
+  }
+ ]
+}

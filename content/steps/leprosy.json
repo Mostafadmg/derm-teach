@@ -1,0 +1,276 @@
+{
+ "_note": "Curated v3 overlay (batch 3), condensed from content/conditions/leprosy.json; full text kept under 'More detail'.",
+ "glance": {
+  "chips": [
+   "Skin + nerves",
+   "Numb patch",
+   "WHO multidrug therapy",
+   "Notifiable"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "**Hypopigmented or red patches with reduced sensation**, thickened nerves, painless burns or ulcers, in someone from an endemic country."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "*M. leprae* infects **Schwann cells and macrophages**; immunity sets the tuberculoid–lepromatous position."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "Refer to the **UK leprosy service** (Hospital for Tropical Diseases); WHO MDT; address stigma; protect numb hands and feet."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "**Type 1 (reversal) reactions** and **ENL**: nerve pain, weakness or painful nodules need urgent specialist steroids.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "lead": "Slow bacillus, cool sites, immune spectrum.",
+  "points": [
+   "Obligate intracellular AFB, divides every **12–14 days**; prefers cool sites (skin, nerves, nose, earlobes, testes); incubation ~5 years.",
+   "Spread by **droplets from untreated MB patients** after prolonged household contact; ~95% resistant; **non-infectious within days of MDT**.",
+   "**Tuberculoid** (strong Th1): few defined lesions, early nerve damage. **Lepromatous** (weak CMI): many lesions, many bacilli.",
+   "WHO: **PB** 1–5 lesions, smear −; **MB** > 5 lesions or smear +.",
+   "UK: ~10–15 cases a year, all acquired abroad; statutorily notifiable."
+  ],
+  "visuals": []
+ },
+ "features": {
+  "lead": "WHO cardinal signs: ≥ 1 makes the diagnosis.",
+  "points": [
+   "**Definite loss of sensation in a pale or reddish patch.**",
+   "**Thickened peripheral nerve** with sensory loss and / or weakness.",
+   "**AFB on slit-skin smear.**",
+   "TT: 1–3 sharply defined **dry, hairless, anaesthetic** plaques. BB: ‘Swiss-cheese’ annular lesions. LL: diffuse infiltration, nodules, **earlobe thickening**, leonine facies.",
+   "Painless trophic ulcers and burns from sensory loss."
+  ],
+  "visuals": [
+   {
+    "ai": "v3-leprosy-sensation-test.jpg",
+    "caption": "Test every pale patch for sensation with a wisp of cotton wool (and warm / cold, monofilament). A numb, dry, hairless patch is leprosy until proven otherwise.",
+    "alt": "Gloved hand touching a pale forearm patch with cotton wool"
+   }
+  ],
+  "variants": {
+   "title": "Types to recognise",
+   "items": [
+    {
+     "name": "Tuberculoid",
+     "t": "Few defined anaesthetic plaques.",
+     "where": "Any",
+     "photo": "m5w4:W4D06"
+    },
+    {
+     "name": "Borderline",
+     "t": "‘Swiss-cheese’ annular plaques.",
+     "where": "Trunk, limbs",
+     "photo": "m5w4:W4D07"
+    },
+    {
+     "name": "Lepromatous",
+     "t": "Diffuse facial infiltration.",
+     "where": "Face",
+     "photo": "m5w4:W4D01"
+    },
+    {
+     "name": "Earlobe",
+     "t": "Thickening: LL site, smear site.",
+     "where": "Ears",
+     "photo": "m5w4:W4D03"
+    },
+    {
+     "name": "Type 1 reaction",
+     "t": "Plaques become red, swollen.",
+     "where": "Existing lesions",
+     "photo": "m5w4:W4D08",
+     "tone": "danger"
+    },
+    {
+     "name": "Trophic ulcer",
+     "t": "Painless, from sensory loss.",
+     "where": "Feet, hands",
+     "photo": "m5w4:W4D09"
+    }
+   ]
+  },
+  "photo": "m5w4:W4D06"
+ },
+ "confirm": {
+  "cols": [
+   {
+    "k": "Discuss first",
+    "icon": "chat",
+    "points": [
+     "**Consultant Advisor in Leprosy before** smears or biopsies (UKHSA)."
+    ]
+   },
+   {
+    "k": "Examine",
+    "icon": "hand",
+    "points": [
+     "Sensory testing of lesions, **nerve palpation**, voluntary muscle test."
+    ]
+   },
+   {
+    "k": "Specialist tests",
+    "icon": "flask",
+    "points": [
+     "**Slit-skin smear** (earlobes, forehead, lesions: BI); deep biopsy from the active edge (Fite stain)."
+    ]
+   }
+  ]
+ },
+ "differentials": {
+  "cards": [
+   {
+    "name": "Pityriasis versicolor",
+    "clue": "Fine scale, KOH +, **normal sensation**.",
+    "link": "pityriasis-versicolor"
+   },
+   {
+    "name": "Vitiligo",
+    "clue": "Depigmented (not hypo-), not anaesthetic.",
+    "link": "hypopigmentation-skin-of-colour"
+   },
+   {
+    "name": "Tinea / granuloma annulare / sarcoid",
+    "clue": "Red annular plaques, **sensation normal**.",
+    "link": "annular-rashes"
+   },
+   {
+    "name": "Lupus vulgaris",
+    "clue": "Apple-jelly nodules.",
+    "link": "cutaneous-tuberculosis"
+   },
+   {
+    "name": "Erythema nodosum (vs ENL)",
+    "clue": "Tender shin nodules; strep, sarcoid, IBD, drugs.",
+    "link": "erythema-nodosum",
+    "photo": "m5w4:W4D10"
+   },
+   {
+    "name": "Cutaneous lymphoma",
+    "clue": "Infiltrated plaques; biopsy.",
+    "link": "mycosis-fungoides"
+   }
+  ]
+ },
+ "manage": {
+  "lead": "Primary care: suspect, refer, support adherence, spot reactions and drug effects.",
+  "rungs": [
+   {
+    "k": "Refer & notify",
+    "tone": "base",
+    "points": [
+     "Refer every suspected case to a **national leprosy centre** (e.g. HTD, UCLH).",
+     "Notify to UKHSA (confidential); contacts via CCDC / UKHSA.",
+     "Address **stigma**; patients are non-infectious soon after MDT starts."
+    ]
+   },
+   {
+    "k": "WHO MDT 2018 (specialist)",
+    "tone": "refer",
+    "points": [
+     "**PB 6 months; MB 12 months.**"
+    ],
+    "rx": [
+     {
+      "drug": "Rifampicin",
+      "dose": "600 mg once a month (supervised)"
+     },
+     {
+      "drug": "Clofazimine",
+      "dose": "300 mg once a month (supervised) + 50 mg daily"
+     },
+     {
+      "drug": "Dapsone",
+      "dose": "100 mg daily",
+      "note": "Check G6PD first."
+     }
+    ]
+   },
+   {
+    "k": "Reactions (specialist)",
+    "tone": "second",
+    "points": [
+     "**Continue MDT.** Type 1: prednisolone (~40 mg/day tapered over 3–6 months) + splint.",
+     "ENL: NSAIDs if mild; prednisolone (~40–60 mg/day) if moderate–severe; clofazimine high-dose; **thalidomide** under a Pregnancy Prevention Programme."
+    ]
+   },
+   {
+    "k": "Your safety checks",
+    "tone": "first",
+    "points": [
+     "**Rifampicin**: enzyme induction (contraception → IUD / condoms per FSRH; warfarin, DOACs, ARVs, azoles, ciclosporin, methadone, steroids); orange urine and tears.",
+     "**Dapsone**: haemolysis, methaemoglobinaemia, **hypersensitivity syndrome** in first 4–6 weeks; FBC, LFT.",
+     "**Clofazimine**: red-brown to grey-black skin discolouration."
+    ]
+   }
+  ],
+  "limits": [
+   {
+    "k": "Prevent disability",
+    "t": "Daily self-examination of numb hands, feet and eyes; protective footwear."
+   }
+  ]
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "same-day",
+    "t": "Reaction: new **nerve pain or weakness**, ENL with fever, **new foot drop or claw hand**."
+   },
+   {
+    "when": "same-day",
+    "t": "Eye pain, redness, reduced vision or can’t close the eye: **same-day ophthalmology**."
+   },
+   {
+    "when": "urgent",
+    "t": "Any suspected leprosy: Consultant Advisor / national leprosy centre."
+   }
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "A **numb** pale patch is leprosy until proven otherwise; ordinary pale patches feel normal."
+  },
+  {
+   "icon": "alert",
+   "t": "Reactions are nerve emergencies, not a reason to stop MDT."
+  },
+  {
+   "icon": "pill",
+   "t": "Rifampicin, even monthly, matters for contraception around the dose day."
+  },
+  {
+   "icon": "chat",
+   "t": "Stigma is a major barrier: confidential, non-judgemental care."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Three WHO cardinal signs?",
+   "a": "Anaesthetic patch, thickened nerve with loss, AFB on slit-skin smear."
+  },
+  {
+   "q": "MDT duration for MB disease?",
+   "a": "12 months (PB 6 months)."
+  },
+  {
+   "q": "Check before dapsone?",
+   "a": "G6PD."
+  },
+  {
+   "q": "New nerve pain on MDT?",
+   "a": "Type 1 reaction: urgent specialist (steroids); continue MDT."
+  }
+ ]
+}

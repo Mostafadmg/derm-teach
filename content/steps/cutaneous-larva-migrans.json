@@ -1,0 +1,250 @@
+{
+ "_note": "Curated v3 overlay (batch 3), condensed from content/conditions/cutaneous-larva-migrans.json; full text kept under 'More detail'.",
+ "glance": {
+  "chips": [
+   "Tropical beach",
+   "Creeping track",
+   "Self-limiting",
+   "Ivermectin / albendazole"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "A **raised, wandering, very itchy serpiginous line** on the foot, buttock or hand after tropical beach or soil exposure."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "**Dog / cat hookworm larvae** burrow into human skin but can’t complete their life cycle, so wander in the epidermis."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "Single-dose **oral ivermectin** or **albendazole 3 days** (unlicensed; specialist / ID advice) + antihistamine."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "Secondary infection, and **larva currens (*Strongyloides*)**, especially before steroids or in the immunosuppressed.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "lead": "Humans are a dead-end host.",
+  "points": [
+   "*Ancylostoma braziliense* / *caninum* (also *Uncinaria*, *Bunostomum*).",
+   "Animal faeces → eggs on **warm, moist sand** → larvae penetrate skin when **barefoot**, sitting or lying on sand.",
+   "Larvae can’t cross the basement membrane, stay epidermal and **die in weeks–months**; the track is the reaction.",
+   "Not spread person to person; occasional UK cases in gardeners."
+  ],
+  "visuals": []
+ },
+ "features": {
+  "lead": "A track that moves day by day.",
+  "points": [
+   "Tingling at entry within hours; track **days–weeks** later.",
+   "**2–3 mm wide, raised, serpiginous**, red or skin-coloured (hypo- or hyperpigmented on darker skin).",
+   "**Intensely itchy**; moves **mm to a few cm a day**; the larva lies **1–2 cm beyond** the visible end.",
+   "Sites: **feet** (soles, toe webs, dorsum), hands, buttocks, knees, trunk.",
+   "Variants: multiple loops, **vesicles / bullae**, **hookworm folliculitis** (buttocks). Systemically well."
+  ],
+  "visuals": [
+   {
+    "ai": "v3-clm-foot-track.jpg",
+    "caption": "Cutaneous larva migrans: a thin raised winding track on the sole; the larva itself sits just beyond the visible end, which is why freezing the track fails.",
+    "alt": "Sole of foot with a winding red track and a magnified larva at its tip"
+   }
+  ],
+  "variants": {
+   "title": "Types to recognise",
+   "items": [
+    {
+     "name": "Classic track",
+     "t": "Thin, raised, serpiginous.",
+     "where": "Foot",
+     "photo": "m5w4:W4B01"
+    },
+    {
+     "name": "Multiple loops",
+     "t": "Advances daily.",
+     "where": "Foot",
+     "photo": "m5w4:W4B02"
+    },
+    {
+     "name": "Hand",
+     "t": "Sand play in children.",
+     "where": "Hand",
+     "photo": "m5w4:W4B03"
+    },
+    {
+     "name": "Bullous",
+     "t": "Don’t mistake for impetigo.",
+     "where": "Foot",
+     "photo": "m5w4:W4B05"
+    }
+   ]
+  },
+  "photo": "m5w4:W4B01"
+ },
+ "confirm": {
+  "cols": [
+   {
+    "k": "Clinical",
+    "icon": "eye",
+    "points": [
+     "Migrating itchy track + barefoot warm-climate exposure."
+    ]
+   },
+   {
+    "k": "Tests",
+    "icon": "flask",
+    "points": [
+     "None routinely; eosinophils if atypical."
+    ]
+   },
+   {
+    "k": "Strongyloides serology",
+    "icon": "alert",
+    "points": [
+     "Fast-moving, perianal / buttock or recurrent eruption."
+    ]
+   }
+  ]
+ },
+ "differentials": {
+  "cards": [
+   {
+    "name": "Larva currens (Strongyloides)",
+    "clue": "Fast (**5–10 cm / hour**), urticarial band, perianal / buttocks / trunk, recurs for years; **hyperinfection with steroids**.",
+    "tone": "danger"
+   },
+   {
+    "name": "Tinea",
+    "clue": "Annular scaly edge that doesn’t creep daily; KOH +.",
+    "link": "tinea"
+   },
+   {
+    "name": "Phytophotodermatitis / contact",
+    "clue": "Fixed linear streaks, no migration.",
+    "link": "contact-dermatitis"
+   },
+   {
+    "name": "Jellyfish sting",
+    "clue": "Immediate painful whip marks after swimming."
+   },
+   {
+    "name": "Scabies burrows",
+    "clue": "Short (< 1 cm) burrows in web spaces; household itch.",
+    "link": "scabies"
+   }
+  ]
+ },
+ "manage": {
+  "lead": "Primary care can manage most cases; resolves in 2–8 weeks untreated.",
+  "rungs": [
+   {
+    "k": "Self-care / interim",
+    "tone": "base",
+    "points": [
+     "Reassure: **not contagious**; larva will die.",
+     "Non-sedating antihistamine (sedating at night per licence), emollients, short nails.",
+     "Mild–moderate topical steroid for eczematous change, **only once not larva currens**."
+    ]
+   },
+   {
+    "k": "First line (off-label)",
+    "tone": "first",
+    "points": [],
+    "rx": [
+     {
+      "drug": "Ivermectin",
+      "dose": "200 micrograms/kg orally, single dose (nearest 3 mg tablet)",
+      "dur": "Once; repeat next day or after 1–2 weeks if it fails",
+      "note": "Usually unlicensed / imported; empty stomach; avoid in pregnancy / breastfeeding; < 15 kg not established."
+     }
+    ]
+   },
+   {
+    "k": "Alternative",
+    "tone": "second",
+    "points": [],
+    "rx": [
+     {
+      "drug": "Albendazole",
+      "dose": "400 mg once daily",
+      "dur": "3 days (5–7 for extensive / folliculitis)",
+      "note": "Unlicensed for CLM; with fatty food; avoid in pregnancy; children > ~2 years."
+     }
+    ]
+   },
+   {
+    "k": "Topical (specialist)",
+    "tone": "third",
+    "points": [
+     "10–15% thiabendazole or albendazole ointment three times daily 1–2 weeks for single early tracks / when oral drugs unsuitable."
+    ]
+   }
+  ],
+  "limits": [
+   {
+    "k": "Cryotherapy",
+    "t": "Don’t: larva is ahead of the track.",
+    "tone": "danger"
+   },
+   {
+    "k": "OTC threadworm mebendazole",
+    "t": "Single 100 mg dose is **not** adequate for CLM."
+   }
+  ]
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "urgent",
+    "t": "Features of **larva currens**, especially if steroids or immunosuppression are planned."
+   },
+   {
+    "when": "routine",
+    "t": "Diagnostic doubt, widespread disease / folliculitis, treatment failure, pregnancy, child < 15 kg, wheeze or eosinophilia."
+   },
+   {
+    "when": "same-day",
+    "t": "Spreading cellulitis from scratching."
+   }
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "Larva **migrans** creeps (animal, dead end); larva **currens** runs (human *Strongyloides*, persists, **disseminates with steroids**)."
+  },
+  {
+   "icon": "shield",
+   "t": "Prevention: shoes on beaches where dogs roam; lie on a mat or sunbed; dry towels indoors."
+  },
+  {
+   "icon": "pill",
+   "t": "Ivermectin: empty stomach with water; mild GI upset, dizziness."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Why does freezing the track fail?",
+   "a": "The larva is 1–2 cm beyond the visible end."
+  },
+  {
+   "q": "First-line oral treatment?",
+   "a": "Ivermectin 200 micrograms/kg single dose (off-label)."
+  },
+  {
+   "q": "Fast urticarial perianal track recurring for years?",
+   "a": "Larva currens (Strongyloides): serology before any steroids."
+  },
+  {
+   "q": "Is CLM contagious?",
+   "a": "No."
+  }
+ ]
+}

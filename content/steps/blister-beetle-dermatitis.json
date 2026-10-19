@@ -1,0 +1,219 @@
+{
+ "_note": "Curated v3 overlay (batch 3), condensed from content/conditions/blister-beetle-dermatitis.json; full text kept under 'More detail'.",
+ "glance": {
+  "chips": [
+   "Cantharidin / paederin",
+   "No bite",
+   "Don’t crush",
+   "Eye → same day"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "**Burning (not itchy)** blisters or linear **‘kissing’** plaques on exposed skin 24–48 h after night-time outdoor exposure or travel."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "**Vesicant toxin** in beetle haemolymph (cantharidin in Meloidae, paederin in *Paederus*) causing intraepidermal blistering, without a bite."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "**Flick off, don’t crush**; wash with soap and water; cool compresses; short topical steroid; leave small blisters intact."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "**Eye involvement** → same-day eye casualty. **Ingested cantharidin** → A&E / TOXBASE.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "lead": "A chemical burn from a crushed beetle.",
+  "points": [
+   "**Blister beetles** (*Lytta vesicatoria*, *Mylabris*): cantharidin breaks desmosomes → acantholysis, usually no scarring (also used on warts / molluscum).",
+   "**Paederus rove beetles** (‘Nairobi fly’): paederin → delayed linear erythema, vesicles, pustules.",
+   "Uncommon in the UK: travellers and outdoor workers; beetles attracted to night lights.",
+   "Swallowed cantharidin (‘Spanish fly’) is **systemically toxic**."
+  ],
+  "visuals": []
+ },
+ "features": {
+  "lead": "Burning, linear, on exposed skin.",
+  "points": [
+   "Onset hours to ~24–48 h; the patient often doesn’t link it to an insect.",
+   "Vesicles / bullae on red skin, **linear or bizarre** where the beetle was wiped.",
+   "**‘Kissing’ lesions** across flexures (elbow, neck) favour Paederus.",
+   "**Burning / stinging** > itch. Sites: face, neck, arms, legs; finger-transfer to eyes or genitals.",
+   "Heals in ~1 week; pigment may last in skin of colour."
+  ],
+  "visuals": [
+   {
+    "ai": "v3-paederus-kissing.jpg",
+    "caption": "Paederus dermatitis: a beetle crushed in the elbow crease leaves mirror-image ‘kissing’ linear blistered streaks on both sides of the fold.",
+    "alt": "Two mirror-image linear blistered streaks at an elbow crease with a small orange-black beetle"
+   }
+  ],
+  "variants": {
+   "title": "Lesions and beetles",
+   "items": [
+    {
+     "name": "Cantharidin blisters",
+     "t": "Bullae from Meloidae.",
+     "where": "Exposed skin",
+     "photo": "m5w3:W01"
+    },
+    {
+     "name": "Paederus dermatitis",
+     "t": "Linear streaks, kissing lesions.",
+     "where": "Neck, flexures",
+     "photo": "m5w3:W03"
+    },
+    {
+     "name": "Paederus beetle",
+     "t": "Slender orange-and-black.",
+     "where": "—",
+     "photo": "m5w3:W04"
+    },
+    {
+     "name": "Blister beetle",
+     "t": "Meloidae, e.g. Spanish fly.",
+     "where": "—",
+     "photo": "m5w3:W05"
+    }
+   ]
+  },
+  "photo": "m5w3:W01"
+ },
+ "confirm": {
+  "cols": [
+   {
+    "k": "Clinical",
+    "icon": "eye",
+    "points": [
+     "Burning blisters after beetle contact, travel, camping, night lights; **clusters of cases** support it."
+    ]
+   },
+   {
+    "k": "Swab",
+    "icon": "drop",
+    "points": [
+     "Only if secondary infection or HSV / impetigo is realistic."
+    ]
+   }
+  ]
+ },
+ "differentials": {
+  "cards": [
+   {
+    "name": "Herpes zoster",
+    "clue": "Dermatomal, unilateral, prodromal pain.",
+    "link": "herpes-zoster"
+   },
+   {
+    "name": "Bullous impetigo",
+    "clue": "Flaccid bullae, honey crust, children.",
+    "link": "impetigo"
+   },
+   {
+    "name": "Phytophotodermatitis",
+    "clue": "Plant juice + sun; drip pattern; marked later pigmentation."
+   },
+   {
+    "name": "Bullous insect bite",
+    "clue": "Itchy, punctum, bite history.",
+    "link": "papular-urticaria-bites"
+   },
+   {
+    "name": "Paederus vs Meloidae",
+    "clue": "Paederus more linear / kissing / pustular; Meloidae more cantharidin bullae."
+   }
+  ]
+ },
+ "manage": {
+  "lead": "Same first aid for both beetles.",
+  "rungs": [
+   {
+    "k": "First aid",
+    "tone": "base",
+    "points": [
+     "**Blow or flick the beetle off; don’t crush or swat.**",
+     "Wash promptly with soap and water; keep hands off eyes and genitals.",
+     "Cool compresses; leave small blisters intact; drain large tense bullae aseptically, roof on; simple analgesia."
+    ]
+   },
+   {
+    "k": "Prescriber options",
+    "tone": "first",
+    "points": [
+     "Short **potent topical steroid** on inflamed non-facial skin (**mild / moderate on face or flexures**).",
+     "Antihistamine if itchy; sedating at night if sleep is poor."
+    ]
+   },
+   {
+    "k": "Infection",
+    "tone": "second",
+    "points": [
+     "Treat as impetigo / cellulitis per NICE; **no** routine prophylactic antibiotics."
+    ]
+   }
+  ],
+  "limits": [
+   {
+    "k": "Prevention",
+    "t": "Nets, screens, cover skin, shake bedding, lights off near open windows."
+   }
+  ]
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "same-day",
+    "t": "Eye pain, redness, photophobia or reduced vision: irrigate and **same-day eye casualty**."
+   },
+   {
+    "when": "emergency",
+    "t": "**Ingestion** of cantharidin: A&E / NPIS (TOXBASE)."
+   },
+   {
+    "when": "urgent",
+    "t": "Extensive blistering, genital involvement, severe pain or systemic illness; returned traveller with fever."
+   }
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "Ask “Did it **burn** or itch?” Burning linear blisters → beetle; itchy grouped papules → bites."
+  },
+  {
+   "icon": "eye",
+   "t": "Quiz photos of kissing lesions are usually **Paederus**; first aid is the same."
+  },
+  {
+   "icon": "shield",
+   "t": "Never crush a beetle on the skin."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Does the blister beetle bite?",
+   "a": "No: blisters follow crushing or brushing it on skin."
+  },
+  {
+   "q": "Mirror-image linear lesions across the elbow crease?",
+   "a": "‘Kissing’ lesions of Paederus dermatitis."
+  },
+  {
+   "q": "Steroid potency on the face?",
+   "a": "Mild or moderate (potent on non-facial skin)."
+  },
+  {
+   "q": "Toxin in the eye?",
+   "a": "Irrigate and same-day eye casualty."
+  }
+ ]
+}
