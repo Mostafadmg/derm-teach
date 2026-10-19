@@ -1,0 +1,133 @@
+{
+ "_auto": true,
+ "glance": {
+  "chips": [
+   "Module 5 · Week 2",
+   "arterial ulcer",
+   "ischaemic ulcer",
+   "peripheral arterial disease"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "Arterial: a punched-out, painful ulcer on the toes or lateral malleolus with a cold, pale, hairless foot. Neuropathic: a painless, deep ulcer under a metatarsal head ringed by callus."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "Arterial: tissue ischaemia. Neuropathic: loss of protective sensation, with unnoticed repetitive trauma."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "Arterial: urgent vascular assessment and risk-factor treatment, with no compression. Neuropathic: offloading and the diabetic foot MDT."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "Critical limb ischaemia, osteomyelitis (probe to bone), wet gangrene, and a ‘small’ plantar ulcer in diabetes.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "points": [
+   "**Arterial:** atherosclerosis (or embolism) reduces flow, so poorly perfused sites become necrotic. Risk factors: smoking, diabetes, hypertension, hyperlipidaemia, CKD and age.",
+   "**Neuropathic:** peripheral neuropathy (usually diabetes; also alcohol, B12 deficiency, leprosy) means repetitive trauma goes unnoticed. Deep ulcers can reach bone, with a risk of **osteomyelitis**."
+  ],
+  "visuals": []
+ },
+ "features": {
+  "photo": "m5w2:S03",
+  "points": [],
+  "visuals": [],
+  "variants": null,
+  "groups": [
+   0,
+   1
+  ]
+ },
+ "confirm": {
+  "cols": [
+   {
+    "k": "Probe to bone",
+    "icon": "check",
+    "points": [
+     ", plus X-ray or MRI if osteomyelitis is suspected."
+    ]
+   },
+   {
+    "k": "Key points",
+    "icon": "check",
+    "points": [
+     "Examine pulses and measure **ABPI** (or TBPI in diabetes, where calcified vessels give falsely high ABPI).",
+     "Test sensation with a **10 g monofilament** and vibration.",
+     "Urgent vascular assessment for critical limb ischaemia."
+    ]
+   }
+  ]
+ },
+ "differentials": {
+  "cards": []
+ },
+ "manage": {
+  "rungs": []
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "same-day",
+    "t": "**Critical limb ischaemia:** rest pain, gangrene, tissue loss, or a cold pulseless foot. **Same-day vascular.**"
+   },
+   {
+    "when": "same-day",
+    "t": "Diabetic foot with **spreading redness, fever, crepitus or wet necrosis**. **ED / same-day admission.**"
+   },
+   {
+    "when": "routine",
+    "t": "Probe to bone, or suspected osteomyelitis or Charcot foot (hot, swollen foot in neuropathy)."
+   },
+   {
+    "when": "never",
+    "t": "**Never ignore a ‘small’ plantar ulcer in diabetes.**"
+   }
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "**Any leg ulcer may be mixed.** Always assess the arterial supply before compression."
+  },
+  {
+   "icon": "bulb",
+   "t": "Teach **daily foot checks**, sensible footwear and podiatry follow-up, and never walk barefoot with neuropathy."
+  },
+  {
+   "icon": "bulb",
+   "t": "Painful ulcer worse on elevation suggests arterial. Painless ulcer under a callus suggests neuropathic."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Arterial & neuropathic ulcers?",
+   "a": "Arterial: a punched-out, painful ulcer on the toes or lateral malleolus with a cold, pale, hairless foot. Neuropathic: a painless, deep ulcer under a metatarsal head ringed by callus."
+  },
+  {
+   "q": "What drives it?",
+   "a": "Arterial: tissue ischaemia. Neuropathic: loss of protective sensation, with unnoticed repetitive trauma."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "Arterial: urgent vascular assessment and risk-factor treatment, with no compression. Neuropathic: offloading and the diabetic foot MDT."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "Critical limb ischaemia, osteomyelitis (probe to bone), wet gangrene, and a ‘small’ plantar ulcer in diabetes."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "**Critical limb ischaemia:** rest pain, gangrene, tissue loss, or a cold pulseless foot. **Same-day vascular.**"
+  }
+ ]
+}

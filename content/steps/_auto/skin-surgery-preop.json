@@ -1,0 +1,104 @@
+{
+ "_auto": true,
+ "glance": {
+  "chips": [
+   "Module 2 · Week 6",
+   "pre-op assessment",
+   "warfarin skin surgery",
+   "DOAC skin surgery"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "A patient booked for an excision, curettage or biopsy, especially on anticoagulants, antiplatelets or with a pacemaker or valve."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "Bleeding, infection, poor healing and device interference are mostly predictable from the medicine list and history."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "Continue antiplatelets and warfarin (INR under 3.5) and, for most procedures, DOACs (BSDS 2023); no routine endocarditis prophylaxis (NICE CG64); bipolar diathermy or cautery near devices."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "Stopping anticoagulants in high thrombotic-risk patients; stopping DAPT after a recent stent; unchecked INR.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "points": [],
+  "visuals": []
+ },
+ "features": {
+  "photo": "",
+  "points": [
+   "\"Bridging\" with LMWH for minor skin surgery is **not** needed and increases bleeding.",
+   "Patients often stop aspirin themselves \"to be safe\". Tell them **not to**.",
+   "If the procedure is at a site of **established infection**, treat the infection with an antibiotic that covers organisms causing endocarditis (CG64 principle).",
+   "**Clean skin surgery** (most minor procedures): **no routine antibiotic prophylaxis** (NICE NG125: do not use routinely for clean, non-prosthetic, uncomplicated surgery).",
+   "Electrosurgery current can interfere with devices: inhibited pacing, inappropriate shocks, or reprogramming.",
+   "**Preferred:** **electrocautery (heated wire; no current through the patient)** or **bipolar diathermy** (current confined between the forceps tips), in **short bursts (<5 s)**, at the **lowest power**, **away from the device** (>15 cm)."
+  ],
+  "visuals": [],
+  "variants": null
+ },
+ "confirm": {
+  "cols": []
+ },
+ "differentials": {
+  "cards": []
+ },
+ "manage": {
+  "rungs": []
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "never",
+    "t": "Do not stop anticoagulants without specialist advice in **mechanical valves, recent VTE (3 months), recent stroke/TIA or recent stent**."
+   },
+   {
+    "when": "routine",
+    "t": "Warfarin: check the INR before surgery; proceed for most procedures if **INR <3.5** (BSDS 2023)."
+   }
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "Ask \"**Do you or your family form thick or raised scars?**\" Keloid-prone patients need to be told before surgery on high-risk sites."
+  },
+  {
+   "icon": "bulb",
+   "t": "Patients with valves may have been told \"antibiotics before the dentist\" in the past (pre-2008 practice). Explain the change and its basis (resistance and anaphylaxis risk outweighed unproven benefit)."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Skin surgery: pre-operative checks, anticoagulants & cardiac devices?",
+   "a": "A patient booked for an excision, curettage or biopsy, especially on anticoagulants, antiplatelets or with a pacemaker or valve."
+  },
+  {
+   "q": "What drives it?",
+   "a": "Bleeding, infection, poor healing and device interference are mostly predictable from the medicine list and history."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "Continue antiplatelets and warfarin (INR under 3.5) and, for most procedures, DOACs (BSDS 2023); no routine endocarditis prophylaxis (NICE CG64); bipolar diathermy or cautery near devices."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "Stopping anticoagulants in high thrombotic-risk patients; stopping DAPT after a recent stent; unchecked INR."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "Do not stop anticoagulants without specialist advice in **mechanical valves, recent VTE (3 months), recent stroke/TIA or recent stent**."
+  }
+ ]
+}

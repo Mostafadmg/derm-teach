@@ -1,0 +1,210 @@
+{
+ "_auto": true,
+ "glance": {
+  "chips": [
+   "Module 1 · Week 2",
+   "TCS",
+   "steroid cream",
+   "potency ladder"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "Choosing, quantifying or reviewing a topical steroid for eczema, psoriasis or another inflammatory rash."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "Glucocorticoid-receptor effects switch off inflammatory genes, constrict vessels and slow cell turnover; the same effects thin skin with overuse."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "Lowest potency that works for the shortest time; potency by site and age (BNF); fingertip units; review rather than repeat; step down once controlled."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "Tinea incognito, steroid rosacea and perioral dermatitis, atrophy and striae, topical steroid withdrawal, and adrenal suppression with large amounts of potent steroid.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "points": [],
+  "visuals": []
+ },
+ "features": {
+  "photo": "m1w2:A01",
+  "points": [
+   "**Potency testing:** the McKenzie–Stoughton **vasoconstrictor (skin-blanching) assay** tracks clinical potency and underlies the BNF classes.",
+   "**Ointments** are greasy and occlusive, with the fewest preservatives. Best for dry or lichenified skin and for eczema.",
+   "**Creams** suit weeping or hair-bearing skin and are more acceptable to patients, but their preservatives can cause contact allergy.",
+   "**Lotions, scalp applications, foams and mousses** are for hairy areas.",
+   "**Occlusion** (wet wraps, hydrocolloid, steroid tape such as fludroxycortide) raises effective potency.",
+   "**Step down** once the eczema is controlled. For frequently relapsing eczema, consider **proactive \"weekend\" therapy** (twice weekly to the usual flare sites) (NICE CG57 / CKS)."
+  ],
+  "visuals": [],
+  "variants": null,
+  "groups": [
+   1,
+   2
+  ]
+ },
+ "confirm": {
+  "cols": []
+ },
+ "differentials": {
+  "cards": [
+   {
+    "name": "1. Untreated bacterial infection (impetigo, cellulitis, infected ulcer)",
+    "clue": "Suppresses local immunity → spread"
+   },
+   {
+    "name": "2. Untreated fungal infection (tinea corporis/cruris/faciei, candida)",
+    "clue": "**Tinea incognita** — scale is lost and the rash spreads, making diagnosis harder"
+   },
+   {
+    "name": "3. Viral infection (HSV, varicella/zoster, molluscum, warts)",
+    "clue": "Spread/dissemination (e.g. eczema herpeticum)"
+   },
+   {
+    "name": "4. Scabies (untreated)",
+    "clue": "Masks itch and signs → crusted scabies / \"scabies incognito\""
+   },
+   {
+    "name": "5. Rosacea",
+    "clue": "Steroid rosacea, rebound"
+   },
+   {
+    "name": "6. Perioral / periorificial dermatitis",
+    "clue": "Steroids are a major cause; rebound"
+   },
+   {
+    "name": "7. Acne vulgaris",
+    "clue": "Steroid acne/folliculitis"
+   },
+   {
+    "name": "8. Leg ulcers / broken skin / wounds",
+    "clue": "Impair healing; absorbed more"
+   },
+   {
+    "name": "9. Widespread plaque psoriasis (as monotherapy)",
+    "clue": "Rebound, unstable/**pustular** psoriasis on withdrawal, tachyphylaxis"
+   },
+   {
+    "name": "10. Pruritus without inflammation; hypersensitivity to the steroid or an excipient; very potent steroids in children under 1 year (BNF)",
+    "clue": "No benefit; allergy; systemic absorption"
+   }
+  ]
+ },
+ "manage": {
+  "rungs": [
+   {
+    "k": "MHRA Drug Safety Update (Sept 2021): topical steroid withdrawal (TSW) reactions",
+    "tone": "first",
+    "points": [
+     "Rare but potentially severe reactions after **long-term, continuous or inappropriate use** of topical steroids, mainly **moderate-to-high potency**, typically **on stopping**.",
+     "TSW has to be told apart from a rebound flare, contact allergy and the underlying disease, which often needs dermatology."
+    ]
+   },
+   {
+    "k": "Case 3: 19-year-old with mild–moderate acne",
+    "tone": "first",
+    "points": [
+     "**Acne fulminans:** systemic, ulcerating, haemorrhagic acne. It needs **dermatology within 24 h** for urgent oral steroids to prevent scarring and manage the systemic illness; it is often triggered by isotretinoin."
+    ]
+   },
+   {
+    "k": "Case 1: moderate–severe eczema with steroid atrophy",
+    "tone": "second",
+    "points": [
+     "**Mechanism, types, potency:** see *Topical corticosteroids* (four UK classes; vasoconstrictor assay).",
+     "**Questions 6–8:** see *Vitamin D analogues, coal tar* (vitamin D analogues; coal tar — Pott 1775, scrotal SCC; cohort data reassuring) and (phototherapy/PUVA). **Tachyphylaxis:** see *Topical corticosteroids*."
+    ]
+   },
+   {
+    "k": "Red flags / refer",
+    "tone": "refer",
+    "points": [
+     "Suspected **TSW**, **contact allergy** to a steroid (patch testing), or widespread atrophy/striae.",
+     "Adult eczema not controlled after 4 weeks of correct potent TCS + emollients, or children meeting the NICE CG57 referral criteria; facial eczema needing repeated moderate/potent steroid; diagnostic doubt.",
+     "**Eczema herpeticum** (same day), erythroderma, suspected HPA suppression or Cushingoid features.",
+     "Children who need **very potent** steroids, or potent steroids on the face/flexures."
+    ]
+   }
+  ]
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "routine",
+    "t": "Rash worse or spreading on a steroid with scale at the edge: scrape for **tinea incognito** before going on."
+   },
+   {
+    "when": "routine",
+    "t": "Facial redness, burning and rebound after stopping a potent steroid: think **steroid rosacea / topical steroid withdrawal** (MHRA 2021)."
+   },
+   {
+    "when": "routine",
+    "t": "Large quantities of potent or very potent steroid in a child or under occlusion: risk of **adrenal suppression**, so review and seek advice."
+   }
+  ],
+  "groups": [
+   0
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "\"**Right potency, right place, right amount, right duration** — then step down.\""
+  },
+  {
+   "icon": "bulb",
+   "t": "Write the FTU count on the prescription (e.g. \"apply 2.5 FTU to face once daily for 5 days then stop\")."
+  },
+  {
+   "icon": "bulb",
+   "t": "Inflamed skin may **sting** briefly with creams/TCIs. Persistent burning or worsening needs review (allergy, TSW, infection)."
+  },
+  {
+   "icon": "bulb",
+   "t": "Eyelids: mild steroid for a few days only; TCI preferred for recurrent eyelid eczema. Consider ophthalmology if periocular steroid has been used long-term (IOP)."
+  },
+  {
+   "icon": "bulb",
+   "t": "Skin of colour: atrophy and hypopigmentation are more conspicuous — warn patients."
+  },
+  {
+   "icon": "bulb",
+   "t": "**Never** sell or supply potent steroids (e.g. clobetasol creams) for skin lightening. Illegal cosmetic use causes severe atrophy, striae and Cushing's (relevant in community pharmacy)."
+  },
+  {
+   "icon": "bulb",
+   "t": "Paraffin-based steroid preparations soaked into dressings/clothing are a **fire hazard** (the same MHRA 2018 warning as for emollients)."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Topical corticosteroids: potency, quantities & safety?",
+   "a": "Choosing, quantifying or reviewing a topical steroid for eczema, psoriasis or another inflammatory rash."
+  },
+  {
+   "q": "What drives it?",
+   "a": "Glucocorticoid-receptor effects switch off inflammatory genes, constrict vessels and slow cell turnover; the same effects thin skin with overuse."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "Lowest potency that works for the shortest time; potency by site and age (BNF); fingertip units; review rather than repeat; step down once controlled."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "Tinea incognito, steroid rosacea and perioral dermatitis, atrophy and striae, topical steroid withdrawal, and adrenal suppression with large amounts of potent steroid."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "Rash worse or spreading on a steroid with scale at the edge: scrape for **tinea incognito** before going on."
+  }
+ ]
+}

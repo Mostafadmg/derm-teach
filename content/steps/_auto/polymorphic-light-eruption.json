@@ -1,0 +1,162 @@
+{
+ "_auto": true,
+ "glance": {
+  "chips": [
+   "Module 5 · Week 6",
+   "PMLE",
+   "PLE",
+   "sun allergy"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "An itchy rash on the V of the neck, forearms and backs of hands hours to a day after early-season sun, settling within days without further exposure."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "A delayed immune reaction to a UV-induced skin antigen, with a failure of normal UV immunosuppression; it improves through the summer (‘hardening’)."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "Broad-spectrum high-UVA sunscreen, clothing and gradual exposure; potent topical steroid for flares; refer for phototesting or hardening if severe."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "Lupus (persistent rash, systemic symptoms, positive ANA) and drug photosensitivity.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "points": [],
+  "visuals": []
+ },
+ "features": {
+  "photo": "m5w6:A01",
+  "points": [
+   "**Itch or burning** often starting within hours (Case 1: 30 minutes); rash within hours to 1–3 days.",
+   "Morphology varies between patients but is **usually consistent in one individual**: small papules (commonest), papulovesicles, plaques, targetoid/EM-like lesions, rarely purpuric.",
+   "Sites: **V of neck, upper chest, outer arms/forearms, dorsal hands, legs**; face often relatively spared (habitually exposed, hardened).",
+   "Resolves over days–2 weeks without scarring **if further sun is avoided**; can spread and persist with continued exposure (Case 1 extension to trunk).",
+   "Variant: **juvenile spring eruption** (papulovesicles on helices of ears in boys)."
+  ],
+  "visuals": [],
+  "variants": null,
+  "groups": [
+   0
+  ]
+ },
+ "confirm": {
+  "cols": []
+ },
+ "differentials": {
+  "cards": [
+   {
+    "name": "Sunburn",
+    "clue": "Uniform painful erythema; no papules; dose-related; within hours, peaks 24 h"
+   },
+   {
+    "name": "Drug-induced photosensitivity",
+    "clue": "New photosensitiser (doxycycline, thiazide, NSAID…); \"exaggerated sunburn\" or eczema; ask about drugs",
+    "link": "drug-photosensitivity"
+   },
+   {
+    "name": "Cutaneous lupus (SCLE/DLE)",
+    "clue": "Persistent annular/psoriasiform or scarring plaques; ANA/Ro positive; lasts weeks–months"
+   },
+   {
+    "name": "Solar urticaria",
+    "clue": "Wheals within **minutes** of exposure, fade within hours"
+   },
+   {
+    "name": "Actinic prurigo",
+    "clue": "Childhood onset, excoriated papules/nodules incl. covered sites, cheilitis, persists into winter"
+   },
+   {
+    "name": "Erythema multiforme",
+    "clue": "Targets on palms/soles; HSV/drug trigger; not photodistributed",
+    "link": "erythema-multiforme"
+   },
+   {
+    "name": "Miliaria (true prickly heat)",
+    "clue": "Heat/sweat, covered/occluded sites, tiny vesicles",
+    "link": "neonatal-rashes"
+   },
+   {
+    "name": "Airborne contact dermatitis / CAD",
+    "clue": "Eczematous, chronic; shaded sites involved (airborne) or older man, lichenified (CAD)"
+   }
+  ]
+ },
+ "manage": {
+  "rungs": [
+   {
+    "k": "Self-care / OTC",
+    "tone": "base",
+    "points": [
+     "Avoid further sun until settled; cool showers/compresses, emollient.",
+     "**Oral non-sedating antihistamine** for itch (helps itch, not the rash) — hydroxyzine in Case 1 had limited effect.",
+     "OTC hydrocortisone 1% is usually too weak for established PMLE on limbs/trunk."
+    ]
+   },
+   {
+    "k": "First-line Rx",
+    "tone": "first",
+    "points": [
+     "**Short course (5–7 days, up to ~2 weeks) of a potent topical corticosteroid** (e.g. betamethasone valerate 0.1%, mometasone 0.1%) to the trunk/limbs; avoid potent on face — use moderate for ≤5–7 days if needed.",
+     "Severe extensive flares: a **short course of oral prednisolone** may be used (GP/specialist decision; e.g. a few days at the start of a holiday is a recognised specialist strategy for predictable attacks)."
+    ]
+   },
+   {
+    "k": "Red flags / refer",
+    "tone": "refer",
+    "points": [
+     "Diagnostic doubt (rule out lupus/porphyria), scarring, persistent >2–3 weeks without sun, systemic features, failure of potent topical steroid, severe recurrent PMLE affecting quality of life (phototherapy referral)."
+    ]
+   }
+  ]
+ },
+ "refer": {
+  "items": []
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "\"It's not an allergy to the sun cream — it's a reaction to UVA the cream didn't block.\" Check the **UVA rating**, not just SPF."
+  },
+  {
+   "icon": "bulb",
+   "t": "Expect recurrence each spring/holiday but often milder later in summer; tends to improve over years."
+  },
+  {
+   "icon": "bulb",
+   "t": "Vitamin D: if strict sun avoidance, advise 10 micrograms (400 units) daily supplement (UK public health advice)."
+  },
+  {
+   "icon": "bulb",
+   "t": "Always run a quick drug check — a new doxycycline or thiazide changes the diagnosis."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Polymorphic light eruption?",
+   "a": "An itchy rash on the V of the neck, forearms and backs of hands hours to a day after early-season sun, settling within days without further exposure."
+  },
+  {
+   "q": "What drives it?",
+   "a": "A delayed immune reaction to a UV-induced skin antigen, with a failure of normal UV immunosuppression; it improves through the summer (‘hardening’)."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "Broad-spectrum high-UVA sunscreen, clothing and gradual exposure; potent topical steroid for flares; refer for phototesting or hardening if severe."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "Lupus (persistent rash, systemic symptoms, positive ANA) and drug photosensitivity."
+  }
+ ]
+}

@@ -1,0 +1,120 @@
+{
+ "_auto": true,
+ "glance": {
+  "chips": [
+   "Module 1 · Week 2",
+   "calcipotriol",
+   "calcitriol",
+   "Dovobet"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "Plaque, scalp or flexural psoriasis needing more than a steroid, or a patient referred for light treatment."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "Vitamin D analogues normalise keratinocyte growth; tar and dithranol slow proliferation; UVB and PUVA suppress skin immune cells."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "NICE CG153: potent steroid + vitamin D analogue (separately or combined) first; calcitriol for flexures/face; phototherapy is specialist-delivered."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "Hypercalcaemia with excessive vitamin D analogue; burning and skin-cancer risk with cumulative PUVA; eye protection after oral psoralen.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "points": [],
+  "visuals": []
+ },
+ "features": {
+  "photo": "m1w2:D01",
+  "points": [
+   "**Dithranol:** generates free radicals, giving an anti-proliferative effect; it stains and irritates.",
+   "**Scalp psoriasis:** potent steroid for up to 4 weeks first, then the combined product, then vitamin D alone.",
+   "**Face/flexures/genitals:** mild–moderate steroid short-term, or calcitriol / a TCI (off-label).",
+   "**Coal tar:** chronic plaque and scalp psoriasis, seborrhoeic dermatitis (shampoos), and some specialist use in lichenified eczema.",
+   "Thin plaques, or patients who struggle with adherence → combined once-daily gel/foam.",
+   "Thick scale → descale first (salicylic acid; coal tar/salicylic acid/sulfur scalp ointments such as Cocois)."
+  ],
+  "visuals": [],
+  "variants": null,
+  "groups": [
+   0,
+   1
+  ]
+ },
+ "confirm": {
+  "cols": []
+ },
+ "differentials": {
+  "cards": []
+ },
+ "manage": {
+  "rungs": []
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "routine",
+    "t": "More than the BNF weekly maximum of calcipotriol, or symptoms of hypercalcaemia: check calcium and stop."
+   },
+   {
+    "when": "routine",
+    "t": "Patients on PUVA need UVA-blocking eye protection for about 24 hours after oral psoralen, and lifelong skin-cancer checks."
+   }
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "\"Steroid in the morning, vitamin D at night\" (or the other way round) for the first 4 weeks, or one combined product once daily."
+  },
+  {
+   "icon": "bulb",
+   "t": "Combined products **contain a steroid** — count them in the steroid budget and use breaks."
+  },
+  {
+   "icon": "bulb",
+   "t": "Tar shampoo: lather, leave 5–10 minutes, rinse. It can discolour blond, grey or dyed hair."
+  },
+  {
+   "icon": "bulb",
+   "t": "\"Phototherapy is a prescription of light\" — the dose, course length and lifetime total are recorded like a drug's."
+  },
+  {
+   "icon": "bulb",
+   "t": "NB-UVB is often the **safest step-up in pregnancy** for psoriasis/eczema."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Vitamin D analogues, coal tar, dithranol & phototherapy?",
+   "a": "Plaque, scalp or flexural psoriasis needing more than a steroid, or a patient referred for light treatment."
+  },
+  {
+   "q": "What drives it?",
+   "a": "Vitamin D analogues normalise keratinocyte growth; tar and dithranol slow proliferation; UVB and PUVA suppress skin immune cells."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "NICE CG153: potent steroid + vitamin D analogue (separately or combined) first; calcitriol for flexures/face; phototherapy is specialist-delivered."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "Hypercalcaemia with excessive vitamin D analogue; burning and skin-cancer risk with cumulative PUVA; eye protection after oral psoralen."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "More than the BNF weekly maximum of calcipotriol, or symptoms of hypercalcaemia: check calcium and stop."
+  }
+ ]
+}

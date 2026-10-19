@@ -1,0 +1,186 @@
+{
+ "_auto": true,
+ "glance": {
+  "chips": [
+   "Module 6 · Week 1",
+   "erythema toxicum neonatorum",
+   "ETN",
+   "toxic erythema of the newborn"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "A well term baby with blotchy red macules and small pustules (ETN), pustules present at birth on a non-red base (TNPM), or dewdrop vesicles or red fold papules with overheating (miliaria)."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "ETN: sterile eosinophilic pustules. TNPM: sterile neutrophilic pustules. Miliaria: blocked eccrine sweat ducts."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "Reassure, give no specific treatment, cool the baby for miliaria, and document that the baby is well."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "Neonatal HSV: grouped vesicles, or an unwell, febrile or poorly feeding baby. Same-day emergency pathway.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "points": [
+   "**ETN:** the exact cause is unknown (theories include a reaction to mechanical or thermal stimuli, or a transient immune response). Pustules are **sterile** and **eosinophil-rich**. It is not infection and not poor hygiene.",
+   "**TNPM:** cause unknown, possibly a ‘precocious’ form of ETN. Pustules are sterile and **neutrophil-rich**.",
+   "**Miliaria:** the level of sweat-duct blockage determines the type (below)."
+  ],
+  "visuals": []
+ },
+ "features": {
+  "photo": "m6w1:F02",
+  "points": [
+   "Onset in the **first few days** of life (up to about 2 weeks).",
+   "Blotchy red macules, papules and small white or yellow pustules (a ‘flea-bitten’ look). Lesions wax and wane, each lasting under 24 hours.",
+   "Face, trunk and proximal limbs. **Palms and soles spared.**",
+   "**The baby is well.**",
+   "**Present at birth.**",
+   "Pustules on a **non-red** base rupture to leave a collarette of scale and **hyperpigmented macules**, which fade over weeks to months."
+  ],
+  "visuals": [],
+  "variants": null,
+  "groups": [
+   0,
+   1,
+   2,
+   4
+  ]
+ },
+ "confirm": {
+  "cols": [
+   {
+    "k": "Clinical",
+    "icon": "check",
+    "points": [
+     "in a well baby with typical morphology."
+    ]
+   },
+   {
+    "k": "Key points",
+    "icon": "check",
+    "points": [
+     "If uncertain: a smear of pustule contents (eosinophils in ETN, neutrophils in TNPM), Gram stain and culture, and **HSV PCR** where HSV is possible.",
+     "Biopsy is rarely needed."
+    ]
+   }
+  ]
+ },
+ "differentials": {
+  "cards": [
+   {
+    "name": "ETN",
+    "clue": "Days 1–14"
+   },
+   {
+    "name": "TNPM",
+    "clue": "At birth"
+   },
+   {
+    "name": "Miliaria",
+    "clue": "Heat or occlusion",
+    "link": "skin-cysts"
+   },
+   {
+    "name": "Neonatal acne / cephalic pustulosis",
+    "clue": "Weeks",
+    "link": "neonatal-infantile-acne"
+   },
+   {
+    "name": "Neonatal HSV",
+    "clue": "Days to weeks"
+   },
+   {
+    "name": "Bacterial (staphylococcal)",
+    "clue": "Variable",
+    "link": "folliculitis"
+   },
+   {
+    "name": "Candida (congenital)",
+    "clue": "Birth or early",
+    "link": "candida-intertrigo"
+   }
+  ]
+ },
+ "manage": {
+  "rungs": []
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "emergency",
+    "t": "**Any neonate with vesicles who is febrile, lethargic, poorly feeding, or has eye involvement:** same-day emergency pathway. **Never ‘wait and see’ for possible HSV.**"
+   },
+   {
+    "when": "routine",
+    "t": "Clustered or grouped vesicles, mucosal or eye involvement."
+   },
+   {
+    "when": "routine",
+    "t": "A premature or unwell infant, heavy involvement of the palms and soles (outside typical TNPM), or diagnostic doubt."
+   },
+   {
+    "when": "never",
+    "t": "Fever plus rash: do **not** assume miliaria."
+   }
+  ],
+  "groups": [
+   3
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "Parents often fear allergy or sepsis. Explain that ETN pustules are sterile and the baby should stay well."
+  },
+  {
+   "icon": "bulb",
+   "t": "Document ‘well neonate with typical ETN’ carefully, and keep a low threshold to investigate anything atypical."
+  },
+  {
+   "icon": "bulb",
+   "t": "Post-TNPM pigmented macules can be mistaken for bruises or Mongolian spots. The history of preceding pustules helps."
+  },
+  {
+   "icon": "bulb",
+   "t": "**Skin of colour:** ETN erythema is easily missed, so look and feel for papules and pustules."
+  },
+  {
+   "icon": "bulb",
+   "t": "Overbundling advice is the main ‘prescription’ for miliaria."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Neonatal pustular rashes?",
+   "a": "A well term baby with blotchy red macules and small pustules (ETN), pustules present at birth on a non-red base (TNPM), or dewdrop vesicles or red fold papules with overheating (miliaria)."
+  },
+  {
+   "q": "What drives it?",
+   "a": "ETN: sterile eosinophilic pustules. TNPM: sterile neutrophilic pustules. Miliaria: blocked eccrine sweat ducts."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "Reassure, give no specific treatment, cool the baby for miliaria, and document that the baby is well."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "Neonatal HSV: grouped vesicles, or an unwell, febrile or poorly feeding baby. Same-day emergency pathway."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "**Any neonate with vesicles who is febrile, lethargic, poorly feeding, or has eye involvement:** same-day emergency pathway. **Never ‘wait and see’ for possible HSV.**"
+  }
+ ]
+}

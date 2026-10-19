@@ -1,0 +1,185 @@
+{
+ "_auto": true,
+ "glance": {
+  "chips": [
+   "Module 5 · Week 4",
+   "leishmaniasis",
+   "sandfly",
+   "oriental sore"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "A painless crusted nodule or ulcer with a rolled edge on exposed skin, not healing after weeks of antibiotics, after travel or migration."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "*Leishmania* parasites inoculated by sandfly bites, multiplying in dermal macrophages."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "Refer to tropical medicine for confirmation (biopsy, PCR) and species-guided treatment; many Old World lesions heal on their own."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "Mucosal leishmaniasis (New World species) and visceral disease in the immunosuppressed.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "points": [
+   "Some regions have an animal reservoir (rodents, dogs, sloths). *L. tropica* and *L. donovani* can pass human to human via sandflies.",
+   " Transmission is by **vector bite**. Spread by blood transfusion, needle-sharing and congenital routes is rare. CL is **not** spread by casual contact."
+  ],
+  "visuals": []
+ },
+ "features": {
+  "photo": "m5w4:W4A01",
+  "points": [
+   "Incubation is usually **2 weeks to 6 months** and sometimes longer, so ask about travel well before the lesion appeared.",
+   "It sits on **exposed sites**: face, ears, forearms, hands and lower legs. There may be one lesion or several (several bites).",
+   "It is usually **painless**, and the patient is otherwise well (as in Case 1). Pain usually means secondary bacterial infection.",
+   "**Sporotrichoid spread** (nodules in a line along the lymphatics) and regional lymphadenopathy can occur, especially with *Viannia* species.",
+   "**Healing:** spontaneous healing over 2 months to more than a year leaves an **atrophic, cribriform, \"cigarette-paper\" scar**.",
+   "**Mucosal red flags** (New World, sometimes years later) are nasal stuffiness, nosebleeds, crusting, septal perforation, lip/palate ulcers and hoarseness."
+  ],
+  "visuals": [],
+  "variants": null,
+  "groups": [
+   0,
+   2
+  ]
+ },
+ "confirm": {
+  "cols": [
+   {
+    "k": "Clinical suspicion",
+    "icon": "check",
+    "points": [
+     "comes from the travel/residence history plus a chronic, non-healing, painless ulcer or nodule on exposed skin (DermNet, PCDS)."
+    ]
+   },
+   {
+    "k": "Species ID matters",
+    "icon": "check",
+    "points": [
+     "because New World *Viannia* infection needs systemic treatment and ENT/mucosal examination."
+    ]
+   },
+   {
+    "k": "Key points",
+    "icon": "check",
+    "points": [
+     "In New World cases, check for mucosal involvement with **ENT/nasal examination**. If visceral disease is suspected (fever, splenomegaly, cytopenias), do FBC, LFTs and serology.",
+     "Serology is not useful for CL. It is used for visceral disease."
+    ]
+   }
+  ]
+ },
+ "differentials": {
+  "cards": [
+   {
+    "name": "Insect-bite reaction / infected bite",
+    "clue": "Acute, itchy or painful, resolves in days–weeks; no rolled indurated edge"
+   },
+   {
+    "name": "Ecthyma / bacterial ulcer (Strep/Staph)",
+    "clue": "Painful, purulent, quicker evolution; responds to antibiotics. Can co-exist as a secondary infection"
+   },
+   {
+    "name": "Basal cell / squamous cell carcinoma",
+    "clue": "Older patient, sun-exposed site, pearly or keratotic edge, slowly progressive; biopsy"
+   },
+   {
+    "name": "Atypical mycobacteria (M. marinum, M. ulcerans/Buruli)",
+    "clue": "Fish-tank or water exposure (*M. marinum*, sporotrichoid); Buruli = undermined painless ulcer, Africa/Australia"
+   },
+   {
+    "name": "Cutaneous TB (lupus vulgaris)",
+    "clue": "\"Apple-jelly\" nodules on diascopy, chronic plaque"
+   },
+   {
+    "name": "Sporotrichosis / deep fungal infection",
+    "clue": "Gardening or thorn injury, sporotrichoid nodules; culture"
+   },
+   {
+    "name": "Leprosy",
+    "clue": "Anaesthetic plaques, thickened nerves",
+    "link": "leprosy"
+   },
+   {
+    "name": "Pyoderma gangrenosum",
+    "clue": "Painful, rapidly enlarging, undermined violaceous edge, pathergy; associated IBD/arthritis",
+    "link": "pyoderma-gangrenosum"
+   },
+   {
+    "name": "Myiasis / tungiasis",
+    "clue": "Central punctum with larva/flea; very recent travel"
+   },
+   {
+    "name": "Cutaneous anthrax, tularaemia, ecthyma gangrenosum",
+    "clue": "Black eschar, systemic upset — urgent"
+   },
+   {
+    "name": "Granuloma annulare, sarcoidosis, chondrodermatitis (ear)",
+    "clue": "Non-ulcerating or typical sites; no travel link",
+    "link": "annular-rashes"
+   }
+  ]
+ },
+ "manage": {
+  "rungs": []
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "routine",
+    "t": "Nasal stuffiness, bleeding or oral or nasal ulceration months or years later: **mucosal leishmaniasis**, specialist referral."
+   },
+   {
+    "when": "routine",
+    "t": "Immunosuppression or HIV: specialist advice early."
+   }
+  ],
+  "groups": [
+   1
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "**Healing of the skin lesion does not exclude New World mucosal disease.** Advise patients to report nasal or oral symptoms even years later."
+  },
+  {
+   "icon": "bulb",
+   "t": "Lesions are **not contagious person to person**. Scarring is common, so set expectations and note the psychological impact of facial scars."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Cutaneous leishmaniasis?",
+   "a": "A painless crusted nodule or ulcer with a rolled edge on exposed skin, not healing after weeks of antibiotics, after travel or migration."
+  },
+  {
+   "q": "What drives it?",
+   "a": "*Leishmania* parasites inoculated by sandfly bites, multiplying in dermal macrophages."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "Refer to tropical medicine for confirmation (biopsy, PCR) and species-guided treatment; many Old World lesions heal on their own."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "Mucosal leishmaniasis (New World species) and visceral disease in the immunosuppressed."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "Nasal stuffiness, bleeding or oral or nasal ulceration months or years later: **mucosal leishmaniasis**, specialist referral."
+  }
+ ]
+}

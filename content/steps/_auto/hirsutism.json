@@ -1,0 +1,115 @@
+{
+ "_auto": true,
+ "glance": {
+  "chips": [
+   "Module 1 · Week 2",
+   "excess hair",
+   "mFG score",
+   "PCOS"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "A woman distressed by terminal hair on the face, chest, abdomen or back."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "Androgen excess (ovary, adrenal, drugs) or increased follicle sensitivity to normal androgens (idiopathic)."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "Score and record impact, check testosterone and screen for PCOS; hair removal methods and a COC; eflornithine cream has been discontinued in the UK, so check availability; specialist anti-androgens with contraception."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "Rapid-onset virilisation (deep voice, clitoromegaly, testosterone >5 nmol/L): androgen-secreting tumour.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "points": [
+   "**PCOS** (~70–80% of hirsutism); **idiopathic hirsutism** (normal androgens and ovulatory cycles, ~5–15%); idiopathic hyperandrogenaemia.",
+   "Normal hair density varies widely with ethnicity and family. Mediterranean, Middle Eastern and South Asian women often have more terminal hair; East Asian women less."
+  ],
+  "visuals": []
+ },
+ "features": {
+  "photo": "m1w2:F01",
+  "points": [],
+  "visuals": [],
+  "variants": null,
+  "groups": [
+   0
+  ]
+ },
+ "confirm": {
+  "cols": [
+   {
+    "k": "Scoring",
+    "icon": "check",
+    "points": [
+     "**9 androgen-sensitive areas** — upper lip, chin, chest, upper abdomen, lower abdomen, upper arms, thighs, upper back, lower back. Each scores **0 (no terminal hair) to 4 (frankly virile)**, for a **total of 0–36**."
+    ]
+   }
+  ]
+ },
+ "differentials": {
+  "cards": []
+ },
+ "manage": {
+  "rungs": []
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "urgent",
+    "t": "Rapid onset over months, virilisation or a very high testosterone: **urgent** endocrine referral to exclude an androgen-secreting tumour."
+   },
+   {
+    "when": "routine",
+    "t": "Anti-androgens (spironolactone, cyproterone, finasteride) are teratogenic to a male fetus: effective contraception is essential."
+   }
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "\"Hormonal treatment stops **new** hair coarsening; it doesn't remove existing hair\" — so combine it with physical removal."
+  },
+  {
+   "icon": "bulb",
+   "t": "Shaving is safe and effective, and does not make regrowth thicker or darker."
+  },
+  {
+   "icon": "bulb",
+   "t": "Ask about **drugs and supplements**: testosterone gel transferred by contact with a partner, anabolic steroids, valproate; minoxidil causes hypertrichosis."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Hirsutism & the Ferriman–Gallwey score?",
+   "a": "A woman distressed by terminal hair on the face, chest, abdomen or back."
+  },
+  {
+   "q": "What drives it?",
+   "a": "Androgen excess (ovary, adrenal, drugs) or increased follicle sensitivity to normal androgens (idiopathic)."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "Score and record impact, check testosterone and screen for PCOS; hair removal methods and a COC; eflornithine cream has been discontinued in the UK, so check availability; specialist anti-androgens with contraception."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "Rapid-onset virilisation (deep voice, clitoromegaly, testosterone >5 nmol/L): androgen-secreting tumour."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "Rapid onset over months, virilisation or a very high testosterone: **urgent** endocrine referral to exclude an androgen-secreting tumour."
+  }
+ ]
+}

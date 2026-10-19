@@ -1,0 +1,169 @@
+{
+ "_auto": true,
+ "glance": {
+  "chips": [
+   "Module 2 · Week 3",
+   "BCC",
+   "rodent ulcer",
+   "pearly papule"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "A pearly, shiny papule with rolled edge and fine vessels, or a sore that bleeds, crusts and never fully heals, on sun-exposed skin."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "UV damage to basal keratinocytes switches on the Hedgehog pathway (PTCH1); latency 20–50 years; Gorlin syndrome is inherited PTCH1 loss."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "Routine referral (NG12), suspected cancer pathway only if delay would matter because of site or size; specialist surgery first-line for most BCCs including nodular (BAD 2021); imiquimod or PDT for superficial BCC."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "Periocular and nasal BCCs that invade deeply; morphoeic BCC with ill-defined edges; trigeminal trophic syndrome mimicking BCC.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "points": [
+   "**Intermittent intense and cumulative UV**, with a latency of decades (course teaching gave 20–50 years). Fair skin (Fitzpatrick I–II), age, male sex.",
+   "Other risks: previous BCC (about 40% get another within 3 years), radiotherapy, arsenic, immunosuppression (transplant), and **hydrochlorothiazide** (MHRA 2018: dose-dependent increased NMSC risk, mainly SCC).",
+   "**Hedgehog pathway:** most BCCs have loss of **PTCH1** or activating **SMO** mutations, which is why hedgehog inhibitors (vismodegib, sonidegib) work in advanced disease.",
+   "Histology: nests of basaloid cells with **peripheral palisading**, **retraction artefact** (clefting) and mucinous stroma."
+  ],
+  "visuals": []
+ },
+ "features": {
+  "photo": "m2w3:A03",
+  "points": [],
+  "visuals": [],
+  "variants": {
+   "title": "Types to recognise",
+   "items": [
+    {
+     "name": "Nodular (commonest)",
+     "t": "Pearly/translucent papule-nodule, rolled edge, telangiectasia, central ulcer (\"rodent ulcer\")",
+     "where": ""
+    },
+    {
+     "name": "Superficial",
+     "t": "Pink, scaly, thin plaque with a \"thread-like\" pearly edge; trunk and limbs; younger patients",
+     "where": ""
+    },
+    {
+     "name": "Morphoeic / infiltrative",
+     "t": "Ill-defined, scar-like, waxy, indurated plaque; subclinical spread; high-risk",
+     "where": ""
+    },
+    {
+     "name": "Pigmented",
+     "t": "Brown-blue-grey; commoner in skin of colour; melanoma DDx",
+     "where": ""
+    },
+    {
+     "name": "Basosquamous",
+     "t": "Mixed features; behaves more like SCC (metastatic potential)",
+     "where": ""
+    },
+    {
+     "name": "Micronodular",
+     "t": "Small nests; high-risk histology",
+     "where": ""
+    },
+    {
+     "name": "Fibroepithelioma of Pinkus",
+     "t": "Pink pedunculated lower-back papule",
+     "where": ""
+    }
+   ]
+  },
+  "groups": [
+   0,
+   1,
+   4
+  ]
+ },
+ "confirm": {
+  "cols": [
+   {
+    "k": "Key points",
+    "icon": "check",
+    "points": [
+     "Clinical + **dermoscopy:** **arborising (tree-like) vessels in sharp focus**; blue-grey ovoid nests/globules; spoke-wheel and leaf-like structures; ulceration; shiny white structures.",
+     "The skin cancer team confirms with **punch or excision biopsy**. Histology determines the subtype and risk."
+    ]
+   }
+  ],
+  "groups": [
+   2
+  ]
+ },
+ "differentials": {
+  "cards": [],
+  "groups": [
+   3
+  ]
+ },
+ "manage": {
+  "rungs": []
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "urgent",
+    "t": "BCC near the eye, nose or ear, large, rapidly growing or recurrent: consider the **suspected cancer pathway** because delay could matter (NG12 1.7.6)."
+   },
+   {
+    "when": "never",
+    "t": "Do not freeze, curette or apply imiquimod to an **undiagnosed** pigmented or nodular lesion: refer for diagnosis first."
+   },
+   {
+    "when": "routine",
+    "t": "Multiple BCCs in a young person, palmar pits or jaw cysts: think **Gorlin syndrome** and refer."
+   }
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "Imiquimod counselling: apply at bedtime, wash off after about 8 h; expect redness, crusting and erosion (it means the drug is working); stop and seek advice if there is severe reaction or flu-like illness."
+  },
+  {
+   "icon": "bulb",
+   "t": "Sun protection: SPF 30+ with high UVA rating, shade, hats (NICE NG34). Advise a self-check every month."
+  },
+  {
+   "icon": "bulb",
+   "t": "Hedgehog inhibitors: pregnancy prevention for women (and condoms for men on vismodegib); cramps, taste loss and weight loss are common."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Basal cell carcinoma (BCC)?",
+   "a": "A pearly, shiny papule with rolled edge and fine vessels, or a sore that bleeds, crusts and never fully heals, on sun-exposed skin."
+  },
+  {
+   "q": "What drives it?",
+   "a": "UV damage to basal keratinocytes switches on the Hedgehog pathway (PTCH1); latency 20–50 years; Gorlin syndrome is inherited PTCH1 loss."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "Routine referral (NG12), suspected cancer pathway only if delay would matter because of site or size; specialist surgery first-line for most BCCs including nodular (BAD 2021); imiquimod or PDT for superficial BCC."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "Periocular and nasal BCCs that invade deeply; morphoeic BCC with ill-defined edges; trigeminal trophic syndrome mimicking BCC."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "BCC near the eye, nose or ear, large, rapidly growing or recurrent: consider the **suspected cancer pathway** because delay could matter (NG12 1.7.6)."
+  }
+ ]
+}

@@ -1,0 +1,160 @@
+{
+ "_auto": true,
+ "glance": {
+  "chips": [
+   "Module 3 · Week 3",
+   "alopecia areata",
+   "patchy hair loss",
+   "exclamation mark hairs"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "Sudden smooth round bald patch without scale or scarring; exclamation-mark hairs at the active edge; nails may be pitted."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "CD8+ T-cell attack on the anagen bulb (JAK–STAT); stem-cell bulge spared → non-scarring and potentially reversible."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "Explain and support; watchful waiting or potent scalp steroid for 3 months in adults; camouflage/wigs; refer severe, childhood or non-responding disease."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "Scaly childhood patch = tinea until proven otherwise. Loss of follicular ostia = scarring alopecia — urgent dermatology.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "points": [
+   "Collapse of hair-follicle immune privilege → peribulbar T-cell attack; IFN-γ/IL-15 via JAK–STAT (rationale for specialist JAK inhibitors).",
+   "Genetic predisposition (~1 in 5 family history). Triggers sometimes cited: stress, illness — often none found.",
+   "Associations: autoimmune thyroid disease, vitiligo, type 1 diabetes, atopy, Down syndrome; higher anxiety/depression rates."
+  ],
+  "visuals": []
+ },
+ "features": {
+  "photo": "m3w3:A01",
+  "points": [
+   "Round/oval smooth skin-coloured patches; **no scale, erythema or scarring**; ostia preserved.",
+   "**Exclamation-mark hairs** at active margins; pull test positive at the edge.",
+   "Grey/white hairs often spared; regrowth may start as fine white vellus hairs.",
+   "Nail **pitting** (thimble pits); also trachyonychia.",
+   "May involve brows, lashes and beard — avoid potent topical steroids on the face."
+  ],
+  "visuals": [],
+  "variants": null,
+  "groups": [
+   0,
+   1,
+   2,
+   3
+  ]
+ },
+ "confirm": {
+  "cols": [
+   {
+    "k": "Key points",
+    "icon": "check",
+    "points": [
+     "Clinical: extent, speed, prior episodes, autoimmune/atopy history, psychosocial impact.",
+     "Trichoscopy: exclamation marks, yellow dots (ostia present), black dots, tapered/regrowing hairs.",
+     "Mycology if scale or childhood doubt (exclude tinea). Syphilis serology if moth-eaten. ANA if lupus possible.",
+     "Thyroid: consider TSH ± TPO especially in totalis/universalis or symptoms; check TSH is in range if already hypothyroid (coexistent telogen effluvium).",
+     "Routine iron/zinc/vitamin D supplementation is not evidence-based for AA (BAD)."
+    ]
+   }
+  ]
+ },
+ "differentials": {
+  "cards": [
+   {
+    "name": "Trichotillomania",
+    "clue": "Irregular patches; hairs of different lengths; pull test negative — see [trichotillomania](condition:trichotillomania)",
+    "link": "trichotillomania"
+   },
+   {
+    "name": "Tinea capitis",
+    "clue": "Scale, black dots, nodes; children; mycology"
+   },
+   {
+    "name": "Telogen effluvium",
+    "clue": "Diffuse shed; trigger 2–3 months earlier — see [telogen effluvium](condition:telogen-effluvium)",
+    "link": "telogen-effluvium"
+   },
+   {
+    "name": "Pattern hair loss",
+    "clue": "Gradual miniaturisation — see [androgenetic alopecia](condition:androgenetic-alopecia)"
+   },
+   {
+    "name": "Scarring alopecia",
+    "clue": "Lost ostia, shiny scalp, symptoms — see [scarring alopecia](condition:scarring-alopecia)",
+    "link": "discoid-lupus"
+   }
+  ]
+ },
+ "manage": {
+  "rungs": []
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "routine",
+    "t": "Childhood scaly patch → treat/investigate as tinea."
+   },
+   {
+    "when": "urgent",
+    "t": "Lost follicular openings / symptoms of scarring → urgent derm."
+   },
+   {
+    "when": "routine",
+    "t": "Significant distress, school withdrawal, self-harm risk → mental-health pathways."
+   }
+  ],
+  "groups": [
+   4
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "Yellow dots on trichoscopy prove follicles are still there — hope for regrowth."
+  },
+  {
+   "icon": "bulb",
+   "t": "Regrowth takes months and may be white at first — set expectations."
+  },
+  {
+   "icon": "bulb",
+   "t": "Check TSH is optimised if the patient is already on thyroxine."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Alopecia areata?",
+   "a": "Sudden smooth round bald patch without scale or scarring; exclamation-mark hairs at the active edge; nails may be pitted."
+  },
+  {
+   "q": "What drives it?",
+   "a": "CD8+ T-cell attack on the anagen bulb (JAK–STAT); stem-cell bulge spared → non-scarring and potentially reversible."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "Explain and support; watchful waiting or potent scalp steroid for 3 months in adults; camouflage/wigs; refer severe, childhood or non-responding disease."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "Scaly childhood patch = tinea until proven otherwise. Loss of follicular ostia = scarring alopecia — urgent dermatology."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "Childhood scaly patch → treat/investigate as tinea."
+  }
+ ]
+}

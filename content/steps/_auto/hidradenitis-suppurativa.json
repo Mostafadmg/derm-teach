@@ -1,0 +1,141 @@
+{
+ "_auto": true,
+ "glance": {
+  "chips": [
+   "Module 3 · Week 5",
+   "HS",
+   "acne inversa",
+   "Hurley"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "Recurrent painful ‘boils’ in the same flexural sites, with double comedones, tunnels or rope-like scars."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "Follicular occlusion and rupture, then IL-17/TNF-driven inflammation; obesity, smoking and genetics add risk. Not an infection or a hygiene problem."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "Weight and smoking support, antiseptic washes, analgesia; topical clindamycin for mild disease; tetracycline course; early dermatology referral for biologics (NICE TA)."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "Under-treatment and delay: scarring and tunnels are irreversible. Also depression, and SCC in long-standing perianal disease.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "points": [
+   "**Hidradenitis suppurativa**",
+   "**Acne conglobata**",
+   "**Dissecting cellulitis of the scalp** (perifolliculitis capitis abscedens et suffodiens)"
+  ],
+  "visuals": []
+ },
+ "features": {
+  "photo": "m3w5:A01",
+  "points": [
+   "Open/closed comedones (often **paired/\"tombstone\"**), painful firm nodules, abscesses, **draining sinuses**, rope-like scars.",
+   "Sites: **axillae**, groin, inframammary/submammary, buttocks, perianal/perineal, neck.",
+   "Typical case: recurrent axillary lumps since puberty → coalescent inflamed nodules, sinus tracts, pus, fibrosis ± smaller indurated nodules."
+  ],
+  "visuals": [],
+  "variants": null,
+  "groups": [
+   0
+  ]
+ },
+ "confirm": {
+  "cols": []
+ },
+ "differentials": {
+  "cards": [
+   {
+    "name": "Recurrent boils / carbuncles",
+    "clue": "Discrete pointing abscesses; less bridging tunnels/rope scars; culture may grow Staph"
+   },
+   {
+    "name": "Epidermoid / Bartholin cysts",
+    "clue": "Single cystic lesion; no multi-site comedonal disease"
+   },
+   {
+    "name": "Cutaneous / perianal Crohn",
+    "clue": "GI symptoms, fistulae; refer IBD work-up"
+   },
+   {
+    "name": "Lymphadenitis / deep infection",
+    "clue": "Systemic sepsis picture; acute unilateral"
+   }
+  ]
+ },
+ "manage": {
+  "rungs": []
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "same-day",
+    "t": "Fluctuant abscess with **systemic upset**: same-day drainage."
+   },
+   {
+    "when": "routine",
+    "t": "**Hurley II–III** disease (tunnels, scarring) or failure of a 12-week tetracycline course: refer to dermatology for systemic or biologic therapy."
+   },
+   {
+    "when": "routine",
+    "t": "Low mood or suicidal thoughts: HS has a high psychological burden."
+   },
+   {
+    "when": "routine",
+    "t": "Chronic non-healing ulcer within long-standing perianal or buttock HS: exclude **SCC**."
+   }
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "Stop calling every axillary lump a “boil” after the third recurrence in the same fold — think HS."
+  },
+  {
+   "icon": "bulb",
+   "t": "Document **Hurley stage**, sites, smoking, BMI, prior antibiotics."
+  },
+  {
+   "icon": "bulb",
+   "t": "Pregnancy/breastfeeding intent changes antibiotic, retinoid, and biologic choices — ask early."
+  },
+  {
+   "icon": "bulb",
+   "t": "Abscess drainage alone is not disease-modifying."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Hidradenitis suppurativa?",
+   "a": "Recurrent painful ‘boils’ in the same flexural sites, with double comedones, tunnels or rope-like scars."
+  },
+  {
+   "q": "What drives it?",
+   "a": "Follicular occlusion and rupture, then IL-17/TNF-driven inflammation; obesity, smoking and genetics add risk. Not an infection or a hygiene problem."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "Weight and smoking support, antiseptic washes, analgesia; topical clindamycin for mild disease; tetracycline course; early dermatology referral for biologics (NICE TA)."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "Under-treatment and delay: scarring and tunnels are irreversible. Also depression, and SCC in long-standing perianal disease."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "Fluctuant abscess with **systemic upset**: same-day drainage."
+  }
+ ]
+}

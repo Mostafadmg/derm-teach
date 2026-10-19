@@ -1,0 +1,126 @@
+{
+ "_auto": true,
+ "glance": {
+  "chips": [
+   "Module 2 · Week 2",
+   "CNH",
+   "painful ear nodule",
+   "Winkler’s disease"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "A small painful crusted nodule on the helix or antihelix, worse lying on that side, in an older adult."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "Pressure on cartilage with poor blood supply leads to inflammation and cartilage damage."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "Pressure-relief pillow or ring for 4–6 weeks; consider a potent topical steroid; refer if failing or atypical."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "SCC or BCC of the ear (biopsy if not settling), keratoacanthoma (rapid crater), tophaceous gout.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "points": [],
+  "visuals": []
+ },
+ "features": {
+  "photo": "m2w2:B01",
+  "points": [
+   "A firm, round, 4–10 mm nodule with a **central crust, scale or keratin plug**, sometimes ulcerated.",
+   "**Exquisitely tender**: it wakes the patient at night when they lie on it, and **light squeezing causes disproportionate pain** (the course bedside test). Usually on the side the patient sleeps on."
+  ],
+  "visuals": [],
+  "variants": null,
+  "groups": [
+   0
+  ]
+ },
+ "confirm": {
+  "cols": [
+   {
+    "k": "Biopsy when",
+    "icon": "check",
+    "points": [
+     "atypical features (rapid growth, bleeding, induration, a size >1 cm, a rolled pearly edge, no pain); no improvement after **6–8 weeks of strict offloading**; immunosuppression; or patient anxiety."
+    ]
+   },
+   {
+    "k": "Key points",
+    "icon": "check",
+    "points": [
+     "Clinical: site + pain + central crust + sleeping history.",
+     "Dermoscopy: central white-yellow keratin/ulcer with a radiating whitish \"starburst\" and peripheral dotted or linear vessels. It is **non-specific** and **cannot reliably exclude SCC/BCC**."
+    ]
+   }
+  ]
+ },
+ "differentials": {
+  "cards": []
+ },
+ "manage": {
+  "rungs": []
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "routine",
+    "t": "Rapidly growing, ulcerating or bleeding ear nodule, or an ear nodule with a nearby lymph node: **suspected SCC**, suspected-cancer referral (NICE NG12)."
+   }
+  ],
+  "groups": [
+   1
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "[Case 2](condition:seborrhoeic-keratosis) medicines: aspirin is relevant only if a biopsy or excision is done. **Do not stop aspirin for minor skin surgery** (BSDS 2023; see the [skin surgery](condition:skin-surgery-preop) notes). Losartan and simvastatin are not causative."
+  },
+  {
+   "icon": "bulb",
+   "t": "Explain the mechanism (\"a pressure sore of the ear cartilage\"). Adherence to offloading for at least a month is the key to success."
+  },
+  {
+   "icon": "bulb",
+   "t": "**Painless** ear nodule plus rapid growth means think SCC/KA. **Very painful at night** means think CNH. But both can coexist, which is why non-resolving CNH gets a biopsy."
+  },
+  {
+   "icon": "bulb",
+   "t": "Check transplant or immunosuppressant history (azathioprine, ciclosporin, tacrolimus): cSCC risk rises up to 65–100× in organ transplant recipients."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Chondrodermatitis nodularis helicis & ear nodules?",
+   "a": "A small painful crusted nodule on the helix or antihelix, worse lying on that side, in an older adult."
+  },
+  {
+   "q": "What drives it?",
+   "a": "Pressure on cartilage with poor blood supply leads to inflammation and cartilage damage."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "Pressure-relief pillow or ring for 4–6 weeks; consider a potent topical steroid; refer if failing or atypical."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "SCC or BCC of the ear (biopsy if not settling), keratoacanthoma (rapid crater), tophaceous gout."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "Rapidly growing, ulcerating or bleeding ear nodule, or an ear nodule with a nearby lymph node: **suspected SCC**, suspected-cancer referral (NICE NG12)."
+  }
+ ]
+}

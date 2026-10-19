@@ -1,0 +1,139 @@
+{
+ "_auto": true,
+ "glance": {
+  "chips": [
+   "Module 2 · Week 1",
+   "naevus sebaceous of Jadassohn",
+   "hairless scalp patch",
+   "organoid naevus"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "A child with a smooth, yellow-orange, hairless plaque on the scalp, or an adult with a warty plaque there."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "A hamartoma of epidermis, hair follicles and sebaceous glands (mosaic HRAS/KRAS mutations); hormones thicken it at puberty."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "Recognise, photograph and monitor; discuss elective excision; refer any new nodule, ulcer or bleeding within it."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "A new lump or crusted area within the naevus (trichoblastoma, rarely BCC); extensive lesions with eye, brain or bone involvement (syndromic).",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "points": [
+   "**Post-zygotic (mosaic) HRAS (most) or KRAS mutations.** This is why it follows Blaschko's lines and why the same mutation underlies the syndromic forms."
+  ],
+  "visuals": []
+ },
+ "features": {
+  "photo": "m2w1:C01",
+  "points": [
+   "Well-demarcated, hairless, yellow-orange or pink plaque, usually oval on the scalp or linear on the face/neck child; skin of colour).",
+   "In adults: rough, warty, sometimes with papules or nodules inside it."
+  ],
+  "visuals": [],
+  "variants": null,
+  "groups": [
+   0
+  ]
+ },
+ "confirm": {
+  "cols": [
+   {
+    "k": "Key points",
+    "icon": "check",
+    "points": [
+     "Clinical in most cases. Dermoscopy shows yellow globules and a cerebriform/papillomatous pattern.",
+     "Biopsy any **new nodule, ulcer, bleeding or rapid change** within a sebaceous naevus.",
+     "An extensive or facial lesion with neurological, ocular or skeletal signs needs paediatric referral for syndrome work-up."
+    ]
+   }
+  ]
+ },
+ "differentials": {
+  "cards": [
+   {
+    "name": "Aplasia cutis congenita",
+    "clue": "Membranous or scarred, atrophic, sometimes a \"hair collar\"; not yellow or waxy",
+    "link": "aplasia-cutis"
+   },
+   {
+    "name": "Epidermal (verrucous) naevus",
+    "clue": "Warty, brown, not yellow; often off the scalp",
+    "link": "pigmented-birthmarks"
+   },
+   {
+    "name": "Juvenile xanthogranuloma",
+    "clue": "Dome-shaped orange papule, not a plaque"
+   },
+   {
+    "name": "Solitary mastocytoma",
+    "clue": "Darier sign positive"
+   },
+   {
+    "name": "Linear morphoea en coup de sabre (see Other lumps and syndromes)",
+    "clue": "Acquired (not congenital), indurated, ivory, with hair loss and a groove; **progressive**"
+   },
+   {
+    "name": "Alopecia areata / tinea capitis",
+    "clue": "Acquired, with normal skin texture or scale",
+    "link": "alopecia-areata"
+   }
+  ]
+ },
+ "manage": {
+  "rungs": []
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "routine",
+    "t": "A new lump, crust, ulcer or bleeding within a sebaceous naevus: refer for **biopsy**."
+   }
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "Parents often worry about \"cancer\". Give the honest figures (secondary tumours are mostly benign, BCC under 1%) and teach them to look for **any lump growing within the patch**."
+  },
+  {
+   "icon": "bulb",
+   "t": "Teenagers notice the change at puberty. Reassure them it is expected, not malignant."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Sebaceous naevus (naevus sebaceous)?",
+   "a": "A child with a smooth, yellow-orange, hairless plaque on the scalp, or an adult with a warty plaque there."
+  },
+  {
+   "q": "What drives it?",
+   "a": "A hamartoma of epidermis, hair follicles and sebaceous glands (mosaic HRAS/KRAS mutations); hormones thicken it at puberty."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "Recognise, photograph and monitor; discuss elective excision; refer any new nodule, ulcer or bleeding within it."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "A new lump or crusted area within the naevus (trichoblastoma, rarely BCC); extensive lesions with eye, brain or bone involvement (syndromic)."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "A new lump, crust, ulcer or bleeding within a sebaceous naevus: refer for **biopsy**."
+  }
+ ]
+}

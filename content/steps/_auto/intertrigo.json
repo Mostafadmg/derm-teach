@@ -1,0 +1,150 @@
+{
+ "_auto": true,
+ "glance": {
+  "chips": [
+   "Module 3 · Week 5",
+   "intertrigo",
+   "skin fold rash",
+   "inframammary rash"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "A red, moist, sore rash under the breasts, in the groin, armpits or abdominal folds, especially with obesity, diabetes or incontinence."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "Skin-on-skin friction plus trapped sweat causes maceration; yeast and bacteria colonise secondarily."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "Dry and separate the folds (cotton, moisture-wicking textiles), barrier products, short mild steroid; treat confirmed candida or erythrasma specifically."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "Flexural psoriasis, extramammary Paget disease, and erythrasma or tinea treated as ‘simple intertrigo’.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "points": [],
+  "visuals": []
+ },
+ "features": {
+  "photo": "m3w5:B01",
+  "points": [
+   "Erythema, itch/burn, moist/macerated skin, fissures in crease depth, peeling.",
+   "Sites: inframammary, axillae, groin, abdominal apron, natal cleft, neck, finger/toe webs."
+  ],
+  "visuals": [],
+  "variants": null,
+  "groups": [
+   0
+  ]
+ },
+ "confirm": {
+  "cols": []
+ },
+ "differentials": {
+  "cards": [
+   {
+    "name": "Irritant intertrigo",
+    "clue": "Symmetrical fold erythema, moist, ± mild peripheral scale"
+   },
+   {
+    "name": "Candida",
+    "clue": "Beefy red, **satellite** papules/pustules",
+    "link": "candida-intertrigo"
+   },
+   {
+    "name": "Tinea cruris",
+    "clue": "Annular plaque, **raised active border**, central clearing; often asymmetrical",
+    "link": "tinea"
+   },
+   {
+    "name": "Erythrasma",
+    "clue": "Red-brown patch, minimal scale, little itch"
+   },
+   {
+    "name": "Seborrhoeic dermatitis",
+    "clue": "Ill-defined salmon-pink thin patches in axilla/groin"
+   },
+   {
+    "name": "Inverse psoriasis",
+    "clue": "Well-demarcated shiny red, little scale",
+    "link": "psoriasis"
+   },
+   {
+    "name": "Hailey–Hailey (if relevant)",
+    "clue": "Painful erosions, fissures, flaccid blisters in axilla/groin; familial"
+   },
+   {
+    "name": "HS",
+    "clue": "Nodules, sinuses, rope scars, comedones"
+   }
+  ],
+  "groups": [
+   1
+  ]
+ },
+ "manage": {
+  "rungs": []
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "routine",
+    "t": "Rash that fails to clear in one fold, especially in an older adult: biopsy for **extramammary Paget disease**."
+   },
+   {
+    "when": "routine",
+    "t": "Spreading redness, pain and fever: cellulitis."
+   },
+   {
+    "when": "routine",
+    "t": "Repeated ‘intertrigo’ that relapses as soon as treatment stops: think **inverse psoriasis** (see the [psoriasis](condition:psoriasis) page)."
+   }
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "KOH negative ≠ “never fungal” — sampling error and mixed pictures exist; re-test if course atypical."
+  },
+  {
+   "icon": "bulb",
+   "t": "Combination clotrimazole–HC / similar: pragmatic in primary care but reassess if no clear infection signs and no improvement."
+  },
+  {
+   "icon": "bulb",
+   "t": "Counsel that **prevention** (dryness) beats endless cream cycles."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Intertrigo & the flexural differential?",
+   "a": "A red, moist, sore rash under the breasts, in the groin, armpits or abdominal folds, especially with obesity, diabetes or incontinence."
+  },
+  {
+   "q": "What drives it?",
+   "a": "Skin-on-skin friction plus trapped sweat causes maceration; yeast and bacteria colonise secondarily."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "Dry and separate the folds (cotton, moisture-wicking textiles), barrier products, short mild steroid; treat confirmed candida or erythrasma specifically."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "Flexural psoriasis, extramammary Paget disease, and erythrasma or tinea treated as ‘simple intertrigo’."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "Rash that fails to clear in one fold, especially in an older adult: biopsy for **extramammary Paget disease**."
+  }
+ ]
+}

@@ -1,0 +1,98 @@
+{
+ "_auto": true,
+ "glance": {
+  "chips": [
+   "Module 2 · Week 1",
+   "fatty lump",
+   "angiolipoma",
+   "Dercum’s disease"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "A soft, painless, mobile, slowly growing lump on the trunk, neck or limbs."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "Benign overgrowth of mature fat cells; angiolipomas are tender; Dercum’s disease gives many painful lipomas."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "Reassure if small and typical; ultrasound or refer if uncertain; excision only for symptoms or diagnosis."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "Soft-tissue sarcoma: larger than 5 cm, deep to fascia, growing, painful or recurrent.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "points": [],
+  "visuals": []
+ },
+ "features": {
+  "photo": "m2w1:E01",
+  "points": [
+   "Soft, rubbery, mobile, lobulated subcutaneous mass with normal overlying skin. Trunk, shoulders, neck and arms. Painless (except angiolipoma or Dercum)."
+  ],
+  "visuals": [],
+  "variants": null,
+  "groups": [
+   0
+  ]
+ },
+ "confirm": {
+  "cols": []
+ },
+ "differentials": {
+  "cards": []
+ },
+ "manage": {
+  "rungs": []
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "urgent",
+    "t": "Lump that is increasing in size or larger than 5 cm, deep or painful: **urgent direct-access ultrasound** (within 2 weeks) or a suspected sarcoma pathway (NICE NG12)."
+   }
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "\"Is it bigger than a golf ball, growing, deep or painful?\" Then it needs a scan."
+  },
+  {
+   "icon": "bulb",
+   "t": "Angiolipoma tenderness is common and benign, but multiple painful lumps plus systemic symptoms should prompt thinking of Dercum."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Lipoma & the sarcoma lump pathway?",
+   "a": "A soft, painless, mobile, slowly growing lump on the trunk, neck or limbs."
+  },
+  {
+   "q": "What drives it?",
+   "a": "Benign overgrowth of mature fat cells; angiolipomas are tender; Dercum’s disease gives many painful lipomas."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "Reassure if small and typical; ultrasound or refer if uncertain; excision only for symptoms or diagnosis."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "Soft-tissue sarcoma: larger than 5 cm, deep to fascia, growing, painful or recurrent."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "Lump that is increasing in size or larger than 5 cm, deep or painful: **urgent direct-access ultrasound** (within 2 weeks) or a suspected sarcoma pathway (NICE NG12)."
+  }
+ ]
+}

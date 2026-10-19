@@ -1,0 +1,161 @@
+{
+ "_auto": true,
+ "glance": {
+  "chips": [
+   "Module 6 · Week 3",
+   "melasma",
+   "chloasma",
+   "facial melanosis"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "Symmetrical brown patches on cheeks, forehead or upper lip in an adult (often after pregnancy or hormonal contraception), worse with sun and heat."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "Melanocyte hyperactivity with epidermal ± dermal pigment; UV and visible light, hormones, heat and inflammation drive it."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "Daily tinted broad-spectrum SPF 30–50, trigger avoidance, and UK-available lighteners (azelaic acid, retinoid). Refer for specialist combinations."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "Exogenous ochronosis from prolonged hydroquinone or illegal bleaching creams — stop HQ and refer; do not escalate lighteners.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "points": [
+   "Genetic predisposition plus **UV and visible light**, heat, pregnancy and hormonal contraception, thyroid disease, and cosmetics/irritation.",
+   "Melanocytes overproduce melanin; pigment may sit in epidermis, dermis, or both (Wood’s lamp / clinical pattern).",
+   "**Exogenous ochronosis:** prolonged topical hydroquinone (often unregulated bleaching creams) → dermal ochre pigment; can be permanent.",
+   "**Drug photosensitivity:** tetracyclines, thiazides, amiodarone, NSAIDs, quinolones, sulfonylureas and others cause photo-distributed eruptions or slate pigment."
+  ],
+  "visuals": []
+ },
+ "features": {
+  "photo": "m6w3:L01",
+  "points": [
+   "Centro-facial, malar or mandibular patterns; upper lip common.",
+   "Usually asymptomatic; psychological impact can be high.",
+   "Exogenous ochronosis: speckled blue-black “caviar” papules on treated sites.",
+   "Drug photo-eruptions: sharp cut-off at clothing, sparing under chin and upper eyelids."
+  ],
+  "visuals": [],
+  "variants": null,
+  "groups": [
+   0,
+   2
+  ]
+ },
+ "confirm": {
+  "cols": [
+   {
+    "k": "Key points",
+    "icon": "check",
+    "points": [
+     "Clinical. Ask about hormones, pregnancy plans, drugs, cosmetics and skin-lightening (hydroquinone, steroids, mercury).",
+     "Wood’s lamp may help map epidermal vs dermal pigment but is imperfect in darker skin.",
+     "Biopsy if exogenous ochronosis, lichenoid pigment or malignancy is suspected.",
+     "Drug timeline for photo-distributed pigment."
+    ]
+   }
+  ]
+ },
+ "differentials": {
+  "cards": [
+   {
+    "name": "Post-inflammatory hyperpigmentation",
+    "clue": "Prior inflammatory disease or injury",
+    "link": "acne-scars-keloids"
+   },
+   {
+    "name": "Pigmented contact dermatitis / Riehl",
+    "clue": "Cosmetic allergen history; patch testing",
+    "link": "contact-lichenoid-pigmentation"
+   },
+   {
+    "name": "Lichen planus pigmentosus",
+    "clue": "Slate-grey; may need biopsy",
+    "link": "contact-lichenoid-pigmentation"
+   },
+   {
+    "name": "Exogenous ochronosis",
+    "clue": "Long hydroquinone use; caviar papules"
+   },
+   {
+    "name": "Drug pigmentation",
+    "clue": "Drug history; photo distribution"
+   }
+  ]
+ },
+ "manage": {
+  "rungs": []
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "routine",
+    "t": "Blue-black speckled pigment after bleaching creams → stop HQ, refer."
+   },
+   {
+    "when": "routine",
+    "t": "Diagnostic doubt with lichenoid or contact pigment → dermatology (biopsy ± patch testing)."
+   },
+   {
+    "when": "routine",
+    "t": "Sudden photo-distributed pigment with systemic drug — review the culprit with the original prescriber."
+   }
+  ],
+  "groups": [
+   1
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "The single most important advice is **strict photoprotection including visible light** (tinted sunscreen), not another cream."
+  },
+  {
+   "icon": "bulb",
+   "t": "Melasma in pregnancy: sunscreen, camouflage and azelaic acid; defer stronger agents."
+  },
+  {
+   "icon": "bulb",
+   "t": "Ask specifically about imported “fairness” creams — they may hide steroids, mercury or HQ."
+  },
+  {
+   "icon": "bulb",
+   "t": "Set expectations: months of improvement, and relapse is common without ongoing sun protection."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Melasma & facial melanosis?",
+   "a": "Symmetrical brown patches on cheeks, forehead or upper lip in an adult (often after pregnancy or hormonal contraception), worse with sun and heat."
+  },
+  {
+   "q": "What drives it?",
+   "a": "Melanocyte hyperactivity with epidermal ± dermal pigment; UV and visible light, hormones, heat and inflammation drive it."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "Daily tinted broad-spectrum SPF 30–50, trigger avoidance, and UK-available lighteners (azelaic acid, retinoid). Refer for specialist combinations."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "Exogenous ochronosis from prolonged hydroquinone or illegal bleaching creams — stop HQ and refer; do not escalate lighteners."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "Blue-black speckled pigment after bleaching creams → stop HQ, refer."
+  }
+ ]
+}

@@ -1,0 +1,213 @@
+{
+ "_auto": true,
+ "glance": {
+  "chips": [
+   "Module 3 · Week 6",
+   "hand dermatitis",
+   "chronic hand eczema",
+   "occupational dermatitis"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "Dry, cracked, scaly or blistering hands, often worse with work, cold weather or frequent washing."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "Barrier breakdown from irritants, plus delayed allergy in some; atopy lowers the threshold."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "Emollient after every wash, soap substitute, cotton-lined gloves, potent topical steroid in short bursts; patch-test referral if persistent; specialist alitretinoin or delgocitinib for severe disease."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "Occupational disease (work advice, RIDDOR awareness), secondary infection or eczema herpeticum, and tinea manuum treated as eczema.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "points": [
+   "Repeated exposure (wet work, detergents, solvents, alkaline cement, friction, abrasion, occlusive gloves) strips stratum-corneum lipids and damages keratinocytes → **↑ transepidermal water loss**, barrier failure.",
+   "Damaged keratinocytes release IL-1α, TNF-α and other cytokines → innate inflammation; cumulative sub-threshold insults add up (\"cumulative ICD\").",
+   "Repetition drives **hyperkeratosis, acanthosis and lichenification**; in darker skin, **post-inflammatory hyperpigmentation** is prominent.",
+   "Risk modifiers: atopy/filaggrin loss-of-function, low humidity/winter, hot water, dominant-hand exposure.",
+   "**Rubber/leather gloves** — thiurams, carbamates, mercaptobenzothiazole (rubber accelerators); chromate in leather.",
+   "**Epoxy resins, acrylates, isothiazolinone preservatives, solvents/degreasers, hand cleansers with abrasives.**"
+  ],
+  "visuals": []
+ },
+ "features": {
+  "photo": "m3w6:B01",
+  "points": [
+   "**ICD:** finger webs, dorsal hands, fingertips (\"pulpitis\"), ring site (\"ring dermatitis\"), dominant hand worse; glazed, fissured.",
+   "**Atopic hand eczema:** dorsal hands/wrists, history of flexural eczema/asthma/hay fever, onset in childhood/youth.",
+   "**Hyperkeratotic palmar eczema:** thick, fissured central palms, middle-aged men, little itch — closely mimics psoriasis."
+  ],
+  "visuals": [],
+  "variants": null,
+  "groups": [
+   0,
+   1,
+   3
+  ]
+ },
+ "confirm": {
+  "cols": [
+   {
+    "k": "Examination",
+    "icon": "eye",
+    "points": [
+     "both hands (dorsal/palmar/webs/nails), wrists, feet (tinea, pompholyx, psoriasis), scalp/elbows/nails (psoriasis), flexures (atopy)."
+    ]
+   },
+   {
+    "k": "Skin scrapings",
+    "icon": "check",
+    "points": [
+     "for mycology if any scale is asymmetric or treatment-resistant (tinea manuum is a real possibility in a manual worker)."
+    ]
+   },
+   {
+    "k": "Prick test / specific IgE",
+    "icon": "flask",
+    "points": [
+     "only if immediate (type I) symptoms — latex or food proteins (protein contact dermatitis/urticaria). Prick testing is for type I reactions; patch testing for type IV."
+    ]
+   },
+   {
+    "k": "Key points",
+    "icon": "check",
+    "points": [
+     "Diagnosis of ICD is largely **by exclusion** (negative/irrelevant patch tests + irritant history)."
+    ]
+   }
+  ]
+ },
+ "differentials": {
+  "cards": [
+   {
+    "name": "Palmoplantar psoriasis",
+    "clue": "Sharp margins, thicker silvery scale, symmetrical, nails, psoriasis elsewhere, family history; can coexist (Koebner from work trauma)"
+   },
+   {
+    "name": "Tinea manuum",
+    "clue": "Usually **one hand**, white scale in creases, contiguous palm–dorsum spread, tinea pedis/nails; scrapings positive"
+   },
+   {
+    "name": "Keratolysis exfoliativa",
+    "clue": "No itch, no erythema, collarettes, summer",
+    "link": "keratolysis-exfoliativa"
+   },
+   {
+    "name": "Pompholyx",
+    "clue": "Recurrent crops of deep itchy vesicles"
+   },
+   {
+    "name": "Palmoplantar pustulosis",
+    "clue": "Sterile pustules + brown macules, smoker",
+    "link": "palmoplantar-pustulosis"
+   },
+   {
+    "name": "Scabies",
+    "clue": "Burrows in finger webs/wrists, nocturnal itch, contacts",
+    "link": "scabies"
+   },
+   {
+    "name": "Lichen planus / secondary syphilis / mycosis fungoides",
+    "clue": "Atypical; biopsy if refractory",
+    "link": "lichen-planus"
+   }
+  ],
+  "groups": [
+   4
+  ]
+ },
+ "manage": {
+  "rungs": []
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "same-day",
+    "t": "Painful punched-out erosions or sudden worsening: **eczema herpeticum**, same-day."
+   },
+   {
+    "when": "routine",
+    "t": "Spreading infection, fever or lymphangitis."
+   },
+   {
+    "when": "routine",
+    "t": "Work-related dermatitis: advise occupational health, document exposures, patch-test referral."
+   },
+   {
+    "when": "routine",
+    "t": "One-sided scaly hand with tinea pedis (‘two feet, one hand’): scrape for **tinea manuum** before steroids."
+   }
+  ],
+  "groups": [
+   2
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "Most chronic hand eczema relapses if exposure continues — success = protection + adequate steroid + maintenance, not steroid alone."
+  },
+  {
+   "icon": "bulb",
+   "t": "Fingertip-unit guide: one FTU covers both sides of one hand."
+  },
+  {
+   "icon": "bulb",
+   "t": "Thin palmar skin is uncommon — palms tolerate very potent TCS better than other sites, but dorsal hands thin easily; review every 4 weeks."
+  },
+  {
+   "icon": "bulb",
+   "t": "Dominant-hand predominance, ring-site eczema, and finger-web involvement → irritant. Dorsal hand + wrist cut-off at glove cuff → think glove allergy."
+  },
+  {
+   "icon": "bulb",
+   "t": "Always look at the **feet** in a hand rash."
+  },
+  {
+   "icon": "bulb",
+   "t": "Healthcare hand hygiene: prefer alcohol rub when hands not visibly soiled, dry hands fully before gloving, emollient at breaks and end of shift, report skin problems early (NHS staff hand-dermatitis pocket guides support this)."
+  },
+  {
+   "icon": "bulb",
+   "t": "Concise answers to the six key questions, drawn from UK guidance."
+  },
+  {
+   "icon": "bulb",
+   "t": "One-liner: *acute = wet (erythema, oedema, vesicles, oozing); chronic = dry (scale, thickening, lichenification, fissures, pigment and nail change).*"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Hand eczema (chronic, occupational & pompholyx)?",
+   "a": "Dry, cracked, scaly or blistering hands, often worse with work, cold weather or frequent washing."
+  },
+  {
+   "q": "What drives it?",
+   "a": "Barrier breakdown from irritants, plus delayed allergy in some; atopy lowers the threshold."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "Emollient after every wash, soap substitute, cotton-lined gloves, potent topical steroid in short bursts; patch-test referral if persistent; specialist alitretinoin or delgocitinib for severe disease."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "Occupational disease (work advice, RIDDOR awareness), secondary infection or eczema herpeticum, and tinea manuum treated as eczema."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "Painful punched-out erosions or sudden worsening: **eczema herpeticum**, same-day."
+  }
+ ]
+}

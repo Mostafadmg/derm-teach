@@ -1,0 +1,117 @@
+{
+ "_auto": true,
+ "glance": {
+  "chips": [
+   "Module 1 · Week 5",
+   "paraneoplastic",
+   "clubbing",
+   "tripe palms"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "New clubbing, velvety ridged palms, sudden widespread acanthosis nigricans or seborrhoeic keratoses, or a firm red ‘cellulitis’ that does not respond."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "Tumour-derived growth factors and cytokines, or direct spread of cancer to the skin."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "Take a smoking and symptom history; CXR and NICE NG12 urgent pathways; don’t keep treating a non-responding ‘cellulitis’."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "Lung, gastric and breast cancer; carcinoma erysipeloides mistaken for infection.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "points": [],
+  "visuals": []
+ },
+ "features": {
+  "photo": "m1w5:B02",
+  "points": [],
+  "visuals": [],
+  "variants": null
+ },
+ "confirm": {
+  "cols": [
+   {
+    "k": "Consider an urgent CXR",
+    "icon": "check",
+    "points": [
+     "in people ≥40 with: persistent or recurrent chest infection; **finger clubbing**; supraclavicular or persistent cervical lymphadenopathy; chest signs consistent with lung cancer; **thrombocytosis**."
+    ]
+   },
+   {
+    "k": "Key points",
+    "icon": "check",
+    "points": [
+     "**Refer on a suspected cancer pathway** if CXR findings suggest lung cancer, or if aged **≥40 with unexplained haemoptysis**.",
+     "**Offer an urgent CXR (within 2 weeks)** to people **≥40** with **two or more** unexplained symptoms — or **one** if they have **ever smoked**: cough, fatigue, shortness of breath, chest pain, weight loss, appetite loss.",
+     "Skin metastasis → biopsy (usually via a dermatology urgent pathway) + CT."
+    ]
+   }
+  ]
+ },
+ "differentials": {
+  "cards": []
+ },
+ "manage": {
+  "rungs": []
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "urgent",
+    "t": "New finger clubbing, haemoptysis, weight loss or persistent cough in a smoker over 40: **urgent CXR / suspected cancer pathway** (NICE NG12)."
+   },
+   {
+    "when": "urgent",
+    "t": "‘Cellulitis’ on the chest wall after breast cancer that does not respond to antibiotics: think **carcinoma erysipeloides**, urgent referral."
+   }
+  ],
+  "groups": [
+   0
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "\"**Clubbing in a smoker over 40 = chest X-ray.**\""
+  },
+  {
+   "icon": "bulb",
+   "t": "An \"**antibiotic-resistant cellulitis**\" on the chest wall of a cancer patient may be carcinoma erysipeloides."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Skin signs of lung cancer & internal malignancy?",
+   "a": "New clubbing, velvety ridged palms, sudden widespread acanthosis nigricans or seborrhoeic keratoses, or a firm red ‘cellulitis’ that does not respond."
+  },
+  {
+   "q": "What drives it?",
+   "a": "Tumour-derived growth factors and cytokines, or direct spread of cancer to the skin."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "Take a smoking and symptom history; CXR and NICE NG12 urgent pathways; don’t keep treating a non-responding ‘cellulitis’."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "Lung, gastric and breast cancer; carcinoma erysipeloides mistaken for infection."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "New finger clubbing, haemoptysis, weight loss or persistent cough in a smoker over 40: **urgent CXR / suspected cancer pathway** (NICE NG12)."
+  }
+ ]
+}

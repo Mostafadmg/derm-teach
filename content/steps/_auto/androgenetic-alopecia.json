@@ -1,0 +1,168 @@
+{
+ "_auto": true,
+ "glance": {
+  "chips": [
+   "Module 6 · Week 6",
+   "AGA",
+   "male pattern hair loss",
+   "MPHL"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "Gradual, non-scarring thinning: frontotemporal recession and vertex in men; widening central parting or crown in women."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "DHT (via 5α-reductase) miniaturises genetically susceptible follicles and shortens anagen."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "Topical minoxidil (both sexes) and oral finasteride 1 mg (men), started early and continued. Gains reverse on stopping."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "Scarring alopecia (lost follicle openings, inflammation), hyperandrogenism in women, and telogen effluvium triggers (iron, thyroid).",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "points": [
+   "**DHT** (from testosterone via 5α-reductase) shortens anagen and miniaturises follicles in a genetically susceptible scalp.",
+   "Polygenic inheritance from **both** sides of the family.",
+   "Women with true hyperandrogenism may show a male-type pattern with acne, hirsutism and irregular periods (consider PCOS)."
+  ],
+  "visuals": []
+ },
+ "features": {
+  "photo": "m6w6:K01",
+  "points": [
+   "Gradual, **non-scarring** thinning with miniaturised hairs and **variable hair diameter**.",
+   "The pull test is usually **negative** (positive in telogen effluvium).",
+   "Psychological distress is common in both sexes."
+  ],
+  "visuals": [],
+  "variants": null,
+  "groups": [
+   0,
+   1
+  ]
+ },
+ "confirm": {
+  "cols": [
+   {
+    "k": "Bloods",
+    "icon": "check",
+    "points": [
+     "if there is sudden shedding, signs of scarring, or features of hyperandrogenism or systemic disease in women: **ferritin, TFTs**, and hormones as indicated."
+    ]
+   },
+   {
+    "k": "Key points",
+    "icon": "check",
+    "points": [
+     "Clinical ± dermoscopy (miniaturisation, hair diameter diversity).",
+     "Biopsy is rarely needed."
+    ]
+   }
+  ]
+ },
+ "differentials": {
+  "cards": [
+   {
+    "name": "Telogen effluvium",
+    "clue": "Acute diffuse shedding 2–3 months after a trigger; **positive pull test**",
+    "link": "telogen-effluvium"
+   },
+   {
+    "name": "Alopecia areata",
+    "clue": "Patchy, with exclamation-mark hairs; may be diffuse",
+    "link": "alopecia-areata"
+   },
+   {
+    "name": "Traction / trichotillomania",
+    "clue": "Trauma pattern; broken hairs of different lengths"
+   },
+   {
+    "name": "Scarring alopecias",
+    "clue": "Loss of follicle openings, redness, scale, pain. **Refer**"
+   },
+   {
+    "name": "Nutritional / thyroid",
+    "clue": "Systemic features; blood tests"
+   }
+  ]
+ },
+ "manage": {
+  "rungs": []
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "routine",
+    "t": "Signs of **scarring alopecia** (lost follicle openings, inflammation, pain or itch): refer."
+   },
+   {
+    "when": "routine",
+    "t": "Rapid or patchy loss, or a positive pull test: look for another diagnosis."
+   },
+   {
+    "when": "routine",
+    "t": "Women with acne, hirsutism and irregular periods: assess for **PCOS** or hyperandrogenism."
+   },
+   {
+    "when": "routine",
+    "t": "Mood change or sexual dysfunction on finasteride: review and stop if needed (MHRA)."
+   }
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "**Early treatment preserves more hair** than late rescue."
+  },
+  {
+   "icon": "bulb",
+   "t": "Stopping treatment means **gains reverse** over months, so explain this before starting."
+  },
+  {
+   "icon": "bulb",
+   "t": "Women: exclude scarring alopecia and reversible causes (iron, thyroid) before long-term cosmetic treatment."
+  },
+  {
+   "icon": "bulb",
+   "t": "Finasteride counselling must cover psychiatric and sexual side effects and pregnancy safety for partners."
+  },
+  {
+   "icon": "bulb",
+   "t": "PRP: avoid overselling it. Document informed expectations. Platelet disorders and anticoagulation need specialist judgement."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Androgenetic alopecia (male & female)?",
+   "a": "Gradual, non-scarring thinning: frontotemporal recession and vertex in men; widening central parting or crown in women."
+  },
+  {
+   "q": "What drives it?",
+   "a": "DHT (via 5α-reductase) miniaturises genetically susceptible follicles and shortens anagen."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "Topical minoxidil (both sexes) and oral finasteride 1 mg (men), started early and continued. Gains reverse on stopping."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "Scarring alopecia (lost follicle openings, inflammation), hyperandrogenism in women, and telogen effluvium triggers (iron, thyroid)."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "Signs of **scarring alopecia** (lost follicle openings, inflammation, pain or itch): refer."
+  }
+ ]
+}

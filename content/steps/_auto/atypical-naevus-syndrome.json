@@ -1,0 +1,100 @@
+{
+ "_auto": true,
+ "glance": {
+  "chips": [
+   "Module 2 · Week 4",
+   "dysplastic naevus syndrome",
+   "FAMMM",
+   "CDKN2A"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "A young adult with many moles (over 100 is the significant count), several atypical ones (≥5 mm, irregular, varied colour), and a family history of melanoma."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "Inherited susceptibility (CDKN2A, CDK4 and others) plus sun exposure; atypical naevi are markers of risk more than precursors."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "Refer to dermatology for baseline photography and risk-tailored surveillance; clinical genetics referral for several affected relatives, early-onset or multiple melanomas, or melanoma with pancreatic cancer in the family; monthly self-examination."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "Melanoma among many atypical moles; pancreatic cancer risk in CDKN2A carriers.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "points": [],
+  "visuals": []
+ },
+ "features": {
+  "photo": "m2w4:D01",
+  "points": [],
+  "visuals": [],
+  "variants": null,
+  "groups": [
+   0
+  ]
+ },
+ "confirm": {
+  "cols": []
+ },
+ "differentials": {
+  "cards": []
+ },
+ "manage": {
+  "rungs": []
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "routine",
+    "t": "Multiple atypical naevi with a family history of melanoma: refer to a **dermatology surveillance** service (NICE NG14)."
+   },
+   {
+    "when": "routine",
+    "t": "Melanoma and pancreatic cancer in the same family: refer to **clinical genetics** (CDKN2A)."
+   }
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "The PE teacher has an outdoor occupation: shade during outdoor lessons, long-sleeved UV tops, a hat, SPF 30–50 reapplied every 2 h and after sweating. The employer has duties (HSE outdoor workers' advice)."
+  },
+  {
+   "icon": "bulb",
+   "t": "Explain that **most melanomas in AMS arise de novo, not from existing moles**. That is why whole-skin self-checks matter more than watching one mole."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Atypical naevus syndrome & familial melanoma?",
+   "a": "A young adult with many moles (over 100 is the significant count), several atypical ones (≥5 mm, irregular, varied colour), and a family history of melanoma."
+  },
+  {
+   "q": "What drives it?",
+   "a": "Inherited susceptibility (CDKN2A, CDK4 and others) plus sun exposure; atypical naevi are markers of risk more than precursors."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "Refer to dermatology for baseline photography and risk-tailored surveillance; clinical genetics referral for several affected relatives, early-onset or multiple melanomas, or melanoma with pancreatic cancer in the family; monthly self-examination."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "Melanoma among many atypical moles; pancreatic cancer risk in CDKN2A carriers."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "Multiple atypical naevi with a family history of melanoma: refer to a **dermatology surveillance** service (NICE NG14)."
+  }
+ ]
+}

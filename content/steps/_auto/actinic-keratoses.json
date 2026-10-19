@@ -1,0 +1,144 @@
+{
+ "_auto": true,
+ "glance": {
+  "chips": [
+   "Module 6 · Week 4",
+   "actinic keratosis",
+   "solar keratosis",
+   "AK"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "Gritty, scaly, sun-exposed macules that are easier to feel than see — versus waxy “stuck-on” seborrhoeic keratoses."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "AK: UV-driven keratinocyte dysplasia (field cancerisation). SK: benign clonal keratinocyte proliferation."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "Photoprotection for everyone; single AKs — cryotherapy; field change — 5-FU / imiquimod / diclofenac per local pathway; reassure on typical SKs."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "Tender, enlarging, ulcerated or hypertrophic lesions — rule out SCC. Pigmented facial “lentigo” that is irregular — think lentigo maligna.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "points": [
+   "AK: cumulative UVB/UVA; fair skin, outdoor work, immunosuppression (transplant) raise burden and SCC risk.",
+   "Actinic cheilitis is AK of the lip vermilion.",
+   "SK: age-related benign clones; not premalignant (though irritated SKs worry patients)."
+  ],
+  "visuals": []
+ },
+ "features": {
+  "photo": "m6w4:W4C-01",
+  "points": [
+   "AK: rough sandpaper scale on erythematous base; face, bald scalp, ears, forearms, hands; often multiple.",
+   "Hypertrophic AK and cutaneous horn need careful SCC exclusion.",
+   "SK: waxy, verrucous, stuck-on; milia-like cysts on dermoscopy; trunk and face."
+  ],
+  "visuals": [],
+  "variants": null,
+  "groups": [
+   0
+  ]
+ },
+ "confirm": {
+  "cols": []
+ },
+ "differentials": {
+  "cards": [
+   {
+    "name": "SCC",
+    "clue": "Indurated, tender, enlarging, ulcerated"
+   },
+   {
+    "name": "Bowen’s disease",
+    "clue": "Persistent scaly plaque",
+    "link": "squamous-cell-carcinoma"
+   },
+   {
+    "name": "SK vs AK",
+    "clue": "Stuck-on waxy vs gritty flat scale"
+   },
+   {
+    "name": "Solar lentigo",
+    "clue": "Flat even brown macule — see [solar lentigines](condition:solar-lentigines)",
+    "link": "solar-lentigines"
+   },
+   {
+    "name": "Lentigo maligna",
+    "clue": "Irregular facial pigment — urgent pathway",
+    "link": "melanoma"
+   }
+  ]
+ },
+ "manage": {
+  "rungs": []
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "urgent",
+    "t": "Possible SCC or melanoma → urgent suspected-cancer referral (NG12)."
+   },
+   {
+    "when": "routine",
+    "t": "Rapidly enlarging tender nodule in an AK field."
+   },
+   {
+    "when": "routine",
+    "t": "Lip AK with induration or ulceration."
+   }
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "Feel with a fingertip — AKs are gritty."
+  },
+  {
+   "icon": "bulb",
+   "t": "Treating the field matters more than chasing every spot once cancer is excluded."
+  },
+  {
+   "icon": "bulb",
+   "t": "Warn that 5-FU/imiquimod look worse before they look better."
+  },
+  {
+   "icon": "bulb",
+   "t": "Tender, thickened or growing AK, or an AK on the lip or ear: see [cutaneous squamous cell carcinoma](condition:squamous-cell-carcinoma) for when it may have become SCC."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Actinic & seborrhoeic keratoses?",
+   "a": "Gritty, scaly, sun-exposed macules that are easier to feel than see — versus waxy “stuck-on” seborrhoeic keratoses."
+  },
+  {
+   "q": "What drives it?",
+   "a": "AK: UV-driven keratinocyte dysplasia (field cancerisation). SK: benign clonal keratinocyte proliferation."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "Photoprotection for everyone; single AKs — cryotherapy; field change — 5-FU / imiquimod / diclofenac per local pathway; reassure on typical SKs."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "Tender, enlarging, ulcerated or hypertrophic lesions — rule out SCC. Pigmented facial “lentigo” that is irregular — think lentigo maligna."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "Possible SCC or melanoma → urgent suspected-cancer referral (NG12)."
+  }
+ ]
+}

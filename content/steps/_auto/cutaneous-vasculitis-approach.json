@@ -1,0 +1,124 @@
+{
+ "_auto": true,
+ "glance": {
+  "chips": [
+   "Module 1 · Week 4",
+   "palpable purpura",
+   "vessel size",
+   "ANCA"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "Palpable purpura, haemorrhagic blisters, nodules, livedo or ulcers, especially on the lower legs."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "Inflammation of vessel walls from immune complexes, ANCA or infection; small vessels give purpura, medium vessels give nodules, livedo racemosa and ulcers."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "Urine dipstick and BP today; FBC, U&E, LFT, CRP, ANCA, complement, hepatitis B/C, cryoglobulins as indicated; biopsy within 48 h; stop culprit drugs."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "Renal involvement, systemic ANCA vasculitis, endocarditis and meningococcal sepsis.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "points": [
+   "**ANCA-mediated** neutrophil activation (MPO/PR3).",
+   "**Cell-mediated/granulomatous** inflammation.",
+   "**Direct infection** of the vessel wall (septic vasculitis — meningococcus, gonococcus, endocarditis)."
+  ],
+  "visuals": []
+ },
+ "features": {
+  "photo": "m1w4:A01",
+  "points": [],
+  "visuals": [],
+  "variants": null
+ },
+ "confirm": {
+  "cols": [
+   {
+    "k": "Confirm it is purpura",
+    "icon": "check",
+    "points": [
+     "**non-blanching on diascopy** (press a glass slide). Is it *palpable* (inflammatory → vasculitis) or *flat* (petechiae/ecchymoses → platelet/coagulation or capillaritis)?"
+    ]
+   },
+   {
+    "k": "Severity assessment",
+    "icon": "gauge",
+    "points": [
+     "BVAS (Birmingham Vasculitis Activity Score) in specialist care; Five-Factor Score for PAN/ANCA (see *Polyarteritis nodosa — systemic, HBV-associated and cutaneous*)."
+    ]
+   }
+  ]
+ },
+ "differentials": {
+  "cards": []
+ },
+ "manage": {
+  "rungs": []
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "same-day",
+    "t": "Blood or protein on urine dipstick, or raised BP: same-day discussion with renal or medical team."
+   },
+   {
+    "when": "emergency",
+    "t": "Non-blanching rash in an unwell or feverish patient: **suspected meningococcal disease**, 999 (NICE NG240)."
+   },
+   {
+    "when": "urgent",
+    "t": "Haemoptysis, breathlessness, neuropathy or abdominal pain with purpura: systemic vasculitis, urgent referral."
+   }
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "\"**Glass test first.**\" Non-blanching + palpable = vasculitis work-up; non-blanching + unwell = 999."
+  },
+  {
+   "icon": "bulb",
+   "t": "Always **dip the urine** and **check BP** — then repeat at follow-up."
+  },
+  {
+   "icon": "bulb",
+   "t": "Ask about **every new drug in the last 1–3 weeks**, including OTC ibuprofen and recreational cocaine (levamisole)."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Approach to cutaneous vasculitis?",
+   "a": "Palpable purpura, haemorrhagic blisters, nodules, livedo or ulcers, especially on the lower legs."
+  },
+  {
+   "q": "What drives it?",
+   "a": "Inflammation of vessel walls from immune complexes, ANCA or infection; small vessels give purpura, medium vessels give nodules, livedo racemosa and ulcers."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "Urine dipstick and BP today; FBC, U&E, LFT, CRP, ANCA, complement, hepatitis B/C, cryoglobulins as indicated; biopsy within 48 h; stop culprit drugs."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "Renal involvement, systemic ANCA vasculitis, endocarditis and meningococcal sepsis."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "Blood or protein on urine dipstick, or raised BP: same-day discussion with renal or medical team."
+  }
+ ]
+}

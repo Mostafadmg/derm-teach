@@ -1,0 +1,140 @@
+{
+ "_auto": true,
+ "glance": {
+  "chips": [
+   "Module 3 · Week 3",
+   "trichotillomania",
+   "hair pulling",
+   "hair-pulling disorder"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "Irregular or geometric bald patch with hairs of many different lengths; pull test negative; often on the dominant-hand side."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "Body-focused repetitive behaviour (OCRD spectrum) — automatic or focused pulling; broken shafts, not autoimmune bulb attack."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "Non-judgemental recognition, habit-reversal / CBT referral, wound care if excoriated; do not treat as alopecia areata with steroids alone."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "Trichophagia with abdominal pain, vomiting or mass → urgent surgical assessment for trichobezoar.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "points": [
+   "Classed with obsessive–compulsive related disorders; anxiety, boredom or sensory urge often precede pulling.",
+   "**Automatic** pulling (unaware, while reading/screens) vs **focused** pulling (conscious tension relief).",
+   "May coexist with skin picking or nail biting."
+  ],
+  "visuals": []
+ },
+ "features": {
+  "photo": "m3w3:B01",
+  "points": [
+   "Irregular, angular or tonsure-like patches; hairs of **unequal lengths**; broken hairs firmly anchored.",
+   "Common sites: vertex, frontotemporal (dominant-hand side), brows and lashes.",
+   "Trichoscopy: black dots, broken hairs, **V-sign**, flame hairs — contrast with AA exclamation marks.",
+   "Chronic severe pulling can eventually scar; secondary infection/crust possible."
+  ],
+  "visuals": [],
+  "variants": null,
+  "groups": [
+   0,
+   1
+  ]
+ },
+ "confirm": {
+  "cols": []
+ },
+ "differentials": {
+  "cards": [
+   {
+    "name": "Alopecia areata",
+    "clue": "Smooth patch; exclamation hairs; positive edge pull test",
+    "link": "alopecia-areata"
+   },
+   {
+    "name": "Tinea capitis",
+    "clue": "Scale; mycology"
+   },
+   {
+    "name": "Traction alopecia",
+    "clue": "Hairstyle distribution; fringe sign"
+   },
+   {
+    "name": "Scarring alopecia",
+    "clue": "Lost ostia; symptoms",
+    "link": "discoid-lupus"
+   }
+  ],
+  "groups": [
+   2
+  ]
+ },
+ "manage": {
+  "rungs": []
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "urgent",
+    "t": "Abdominal pain, early satiety, vomiting, weight loss, halitosis, epigastric mass → urgent surgical review (trichobezoar / Rapunzel syndrome)."
+   },
+   {
+    "when": "urgent",
+    "t": "Self-harm or suicidal ideation → urgent mental-health assessment."
+   },
+   {
+    "when": "routine",
+    "t": "Diagnostic doubt or progressive scarring → dermatology."
+   }
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "Different hair lengths in one patch is the bedside clue."
+  },
+  {
+   "icon": "bulb",
+   "t": "Eyebrow/eyelash pulling in a child is still trichotillomania until proven otherwise — also consider AA and hypothyroidism for lateral brows."
+  },
+  {
+   "icon": "bulb",
+   "t": "Steroids will not fix the behaviour."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Trichotillomania?",
+   "a": "Irregular or geometric bald patch with hairs of many different lengths; pull test negative; often on the dominant-hand side."
+  },
+  {
+   "q": "What drives it?",
+   "a": "Body-focused repetitive behaviour (OCRD spectrum) — automatic or focused pulling; broken shafts, not autoimmune bulb attack."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "Non-judgemental recognition, habit-reversal / CBT referral, wound care if excoriated; do not treat as alopecia areata with steroids alone."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "Trichophagia with abdominal pain, vomiting or mass → urgent surgical assessment for trichobezoar."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "Abdominal pain, early satiety, vomiting, weight loss, halitosis, epigastric mass → urgent surgical review (trichobezoar / Rapunzel syndrome)."
+  }
+ ]
+}

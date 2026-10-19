@@ -1,0 +1,125 @@
+{
+ "_auto": true,
+ "glance": {
+  "chips": [
+   "Module 3 · Week 6",
+   "PPP",
+   "pustular psoriasis palms",
+   "palmar psoriasis"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "Crops of yellow pustules and brown dots on the palms or soles, or thick, fissured, sharply bordered plaques."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "Neutrophilic inflammation (IL-36/IL-17); smoking is the main modifiable trigger for PPP."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "Stop smoking, very potent topical steroid (± occlusion), emollients, then specialist phototherapy, acitretin or biologics (NICE CG153 for psoriasis)."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "Generalised pustular psoriasis (emergency), tinea pedis with pustules, and pompholyx.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "points": [
+   "trauma/friction (Koebner — manual work), infection, stress, lithium, β-blockers, smoking, alcohol, obesity."
+  ],
+  "visuals": []
+ },
+ "features": {
+  "photo": "m3w6:D01",
+  "points": [
+   "crops of 1–10 mm yellow pustules on thenar/hypothenar eminences, central palms, insteps, heels → dry to **brown \"rusty\" macules**; scale, fissures; burning/pain > itch; symmetrical."
+  ],
+  "visuals": [],
+  "variants": null,
+  "groups": [
+   0,
+   1
+  ]
+ },
+ "confirm": {
+  "cols": [
+   {
+    "k": "Key points",
+    "icon": "check",
+    "points": [
+     "clinical; swab (sterile) and scrapings to exclude infection/tinea if unilateral."
+    ]
+   }
+  ]
+ },
+ "differentials": {
+  "cards": []
+ },
+ "manage": {
+  "rungs": []
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "emergency",
+    "t": "Fever with sheets of pustules beyond the hands and feet: **generalised pustular psoriasis**, emergency."
+   },
+   {
+    "when": "routine",
+    "t": "Inability to work or walk: early dermatology referral."
+   },
+   {
+    "when": "routine",
+    "t": "Pustules on one foot only, or with interdigital scale: scrape for **tinea**."
+   }
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "Smoking cessation is the single most effective change in PPP; offer stop-smoking support at every visit."
+  },
+  {
+   "icon": "bulb",
+   "t": "Use very potent steroids under cling-film or cotton-glove occlusion at night for short periods, then step down."
+  },
+  {
+   "icon": "bulb",
+   "t": "Tell patients the pustules are **sterile**: antibiotics do not help."
+  },
+  {
+   "icon": "bulb",
+   "t": "Screen for psoriatic arthritis (PEST) and ask about chest-wall pain (SAPHO)."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Palmoplantar pustulosis & palmoplantar psoriasis?",
+   "a": "Crops of yellow pustules and brown dots on the palms or soles, or thick, fissured, sharply bordered plaques."
+  },
+  {
+   "q": "What drives it?",
+   "a": "Neutrophilic inflammation (IL-36/IL-17); smoking is the main modifiable trigger for PPP."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "Stop smoking, very potent topical steroid (± occlusion), emollients, then specialist phototherapy, acitretin or biologics (NICE CG153 for psoriasis)."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "Generalised pustular psoriasis (emergency), tinea pedis with pustules, and pompholyx."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "Fever with sheets of pustules beyond the hands and feet: **generalised pustular psoriasis**, emergency."
+  }
+ ]
+}

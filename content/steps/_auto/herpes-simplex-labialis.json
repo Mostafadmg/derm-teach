@@ -1,0 +1,188 @@
+{
+ "_auto": true,
+ "glance": {
+  "chips": [
+   "Module 5 · Week 5",
+   "cold sores",
+   "HSV-1",
+   "herpes labialis"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "Tingling then grouped vesicles and crusts at the same spot on the lip, recurring with triggers."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "HSV-1 latent in the trigeminal ganglion reactivates and travels down the nerve to the skin."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "Self-care: topical aciclovir at the first tingle, sun protection, avoid kissing and sharing; oral antivirals for severe, frequent or immunosuppressed cases; suppression for frequent recurrences or HSV-associated EM."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "Eczema herpeticum, herpetic eye disease, neonatal herpes, and chronic ulcers in HIV or immunosuppression.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "points": [],
+  "visuals": []
+ },
+ "features": {
+  "photo": "m5w5:W5D01",
+  "points": [
+   "**Prodrome** (hours–1 day): tingling, burning, itching at the site.",
+   "Then **grouped small vesicles on an erythematous base** at the **vermilion border**/perioral skin → pustules → painful erosions → crust → heal in **7–10 days** without scarring.",
+   "Recurrences: a few per year typical; frequent (>6/year) in some."
+  ],
+  "visuals": [],
+  "variants": null,
+  "groups": [
+   0
+  ]
+ },
+ "confirm": {
+  "cols": []
+ },
+ "differentials": {
+  "cards": [
+   {
+    "name": "Impetigo",
+    "clue": "Golden/honey crusts, spreading, children, no prodrome or same-site recurrence; can co-exist (secondary infection)",
+    "link": "impetigo"
+   },
+   {
+    "name": "Herpes zoster (V2/V3)",
+    "clue": "Dermatomal, unilateral, more extensive, more painful, usually one episode",
+    "link": "herpes-zoster"
+   },
+   {
+    "name": "Aphthous ulcers",
+    "clue": "**Inside** the mouth on non-keratinised mucosa, no vesicles"
+   },
+   {
+    "name": "Angular cheilitis",
+    "clue": "Fissures at mouth corners, Candida/Staph, denture wearers, iron/B12 deficiency"
+   },
+   {
+    "name": "Hand, foot and mouth disease",
+    "clue": "Oral ulcers + palm/sole vesicles, children, outbreaks"
+   },
+   {
+    "name": "Contact / allergic cheilitis",
+    "clue": "Diffuse lip dryness/scale, lip products, itch not grouped vesicles"
+   },
+   {
+    "name": "Fixed drug eruption",
+    "clue": "Same site with each dose of drug; dusky patch ± blister",
+    "link": "drug-induced-blistering"
+   },
+   {
+    "name": "Erythema multiforme / SJS",
+    "clue": "Targets, multiple mucosae, drug history — urgent if extensive",
+    "link": "erythema-multiforme"
+   }
+  ]
+ },
+ "manage": {
+  "rungs": [
+   {
+    "k": "Self-care / OTC (immunocompetent)",
+    "tone": "base",
+    "points": [
+     "Usually self-limiting; paracetamol/ibuprofen for pain; simple analgesic gels or creams; adequate fluids.",
+     "Hygiene: don't touch/pick; wash hands; don't share towels, cups, lip products; **avoid kissing**, especially **neonates** and people with eczema or immunosuppression; avoid oral sex during lesions.",
+     "**Sunscreen lip balm (SPF 30+)** if UV is a trigger."
+    ]
+   },
+   {
+    "k": "Oral antiviral (prescriber)",
+    "tone": "second",
+    "points": [
+     "**Suppressive therapy** for frequent/severe recurrences, HSV-associated erythema multiforme, or before a known trigger: **aciclovir 400 mg twice daily**, review after 6–12 months (specialist advice often sought; off-label in some uses).",
+     "Immunocompromised: oral antivirals (higher dose/longer) and **seek specialist advice**; chronic/large ulcers may need IV therapy."
+    ]
+   },
+   {
+    "k": "Red flags / refer",
+    "tone": "refer",
+    "points": [
+     "**Eczema herpeticum** — punched-out erosions spreading over eczema, unwell → same-day assessment/oral or IV aciclovir; involve ophthalmology if periocular.",
+     "**Eye involvement** (red painful eye, photophobia, vesicles on eyelid/nose tip) → same-day ophthalmology; never give topical steroid.",
+     "**Neonate** (<1 month) with any suspected HSV, or primary HSV in late pregnancy → urgent.",
+     "Immunocompromised, lesions >2 weeks or very extensive, systemic upset, dehydration in primary gingivostomatitis (child not drinking), recurrent erythema multiforme, diagnostic doubt → GP/specialist."
+    ]
+   }
+  ]
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "same-day",
+    "t": "Painful punched-out erosions spreading over eczema: **eczema herpeticum**, same-day."
+   },
+   {
+    "when": "same-day",
+    "t": "Red painful eye, photophobia or blurred vision: same-day ophthalmology (herpetic keratitis)."
+   },
+   {
+    "when": "urgent",
+    "t": "Newborn contact, pregnancy near term, or immunosuppressed with extensive or non-healing lesions: urgent specialist advice."
+   }
+  ],
+  "groups": [
+   1
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "Start antivirals at the **first tingle** — benefit falls sharply once vesicles form."
+  },
+  {
+   "icon": "bulb",
+   "t": "Recurrent lesions at the same place + fever = HSV; one-off band of vesicles = zoster."
+  },
+  {
+   "icon": "bulb",
+   "t": "Don't prescribe topical corticosteroid or antibiotic creams for cold sores (unless confirmed secondary impetigo)."
+  },
+  {
+   "icon": "bulb",
+   "t": "Patients with frequent severe recurrences: consider underlying immunosuppression (e.g. HIV) and offer testing if risk."
+  },
+  {
+   "icon": "bulb",
+   "t": "Aciclovir: dose-reduce in renal impairment; keep hydrated."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Herpes simplex labialis (cold sores)?",
+   "a": "Tingling then grouped vesicles and crusts at the same spot on the lip, recurring with triggers."
+  },
+  {
+   "q": "What drives it?",
+   "a": "HSV-1 latent in the trigeminal ganglion reactivates and travels down the nerve to the skin."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "Self-care: topical aciclovir at the first tingle, sun protection, avoid kissing and sharing; oral antivirals for severe, frequent or immunosuppressed cases; suppression for frequent recurrences or HSV-associated EM."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "Eczema herpeticum, herpetic eye disease, neonatal herpes, and chronic ulcers in HIV or immunosuppression."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "Painful punched-out erosions spreading over eczema: **eczema herpeticum**, same-day."
+  }
+ ]
+}

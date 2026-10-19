@@ -1,0 +1,145 @@
+{
+ "_auto": true,
+ "glance": {
+  "chips": [
+   "Module 2 · Week 1",
+   "angiokeratoma of Fordyce",
+   "angiokeratoma circumscriptum",
+   "angiokeratoma corporis diffusum"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "Small dark red, purple or black papules on the scrotum or vulva, a limb, or clustered between the umbilicus and knees."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "Dilated papillary dermal capillaries with overlying thickened epidermis; Fabry disease is X-linked alpha-galactosidase A deficiency."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "Reassure for typical Fordyce lesions; dermoscopy (dark lacunae); refer a solitary dark lesion if doubt; enzyme or genetic testing for possible Fabry."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "Melanoma mimic; Fabry disease with burning hand and foot pain, kidney, heart and stroke risk.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "points": [],
+  "visuals": []
+ },
+ "features": {
+  "photo": "m2w1:F03",
+  "points": [],
+  "visuals": [],
+  "variants": {
+   "title": "Types to recognise",
+   "items": [
+    {
+     "name": "Solitary / multiple angiokeratoma",
+     "t": "Adults, legs",
+     "where": "Dark red-black papule. **Can mimic melanoma**"
+    },
+    {
+     "name": "Angiokeratoma of Fordyce",
+     "t": "Older men (scrotum), women (vulva)",
+     "where": "Multiple small purple papules; may bleed"
+    },
+    {
+     "name": "Angiokeratoma of Mibelli",
+     "t": "Children/teens, dorsal fingers and toes",
+     "where": "Associated with chilblains/acrocyanosis"
+    },
+    {
+     "name": "Angiokeratoma circumscriptum",
+     "t": "Congenital, a limb",
+     "where": "Plaque of coalescent papules"
+    },
+    {
+     "name": "Angiokeratoma corporis diffusum",
+     "t": "\"Bathing-trunk\" distribution (lower trunk, buttocks, groin, umbilicus)",
+     "where": "Suggests **Fabry**"
+    }
+   ]
+  },
+  "groups": [
+   0
+  ]
+ },
+ "confirm": {
+  "cols": [
+   {
+    "k": "Fabry",
+    "icon": "check",
+    "points": [
+     "α-Gal A enzyme activity in males; GLA gene testing (needed in females); plasma lyso-Gb3. Urine protein, eGFR, ECG/echo."
+    ]
+   },
+   {
+    "k": "Key points",
+    "icon": "check",
+    "points": [
+     "Dermoscopy: red-blue lacunae, whitish veil, and haemorrhagic crusts.",
+     "Biopsy if a dark lesion could be melanoma."
+    ]
+   }
+  ]
+ },
+ "differentials": {
+  "cards": []
+ },
+ "manage": {
+  "rungs": []
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "routine",
+    "t": "Many angiokeratomas in a child or young adult with burning hand/foot pain, reduced sweating or proteinuria: test for **Fabry disease**."
+   },
+   {
+    "when": "routine",
+    "t": "Solitary changing dark papule: if you cannot confidently call it an angiokeratoma, refer as a **possible melanoma**."
+   }
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "Fordyce angiokeratomas bleeding on the scrotum are benign, but **always ask about other symptoms** (the patient is often embarrassed)."
+  },
+  {
+   "icon": "bulb",
+   "t": "**Migalastat** is taken every other day, with no food 2 h before and after."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Angiokeratomas & Fabry disease?",
+   "a": "Small dark red, purple or black papules on the scrotum or vulva, a limb, or clustered between the umbilicus and knees."
+  },
+  {
+   "q": "What drives it?",
+   "a": "Dilated papillary dermal capillaries with overlying thickened epidermis; Fabry disease is X-linked alpha-galactosidase A deficiency."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "Reassure for typical Fordyce lesions; dermoscopy (dark lacunae); refer a solitary dark lesion if doubt; enzyme or genetic testing for possible Fabry."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "Melanoma mimic; Fabry disease with burning hand and foot pain, kidney, heart and stroke risk."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "Many angiokeratomas in a child or young adult with burning hand/foot pain, reduced sweating or proteinuria: test for **Fabry disease**."
+  }
+ ]
+}

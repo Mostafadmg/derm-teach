@@ -32,7 +32,7 @@ python3 build.py --strict   # fails if there are warnings (unknown photo codes, 
 ```
 Python 3 standard library only. No npm or pip.
 
-The generator scripts in `build/site_fold/` (gen.py → enrich.py → exam.py → fixurls.py) only write `content/` JSON, photo folders and manifests. They never touch `build.py`, `assets/css`, `assets/js` or `assets/fonts`, so rerunning them keeps the redesign. Always commit `assets/fonts/` and `assets/data/` with the pages.
+The generator scripts in `build/site_fold/` (gen.py → enrich.py → exam.py → fixurls.py) only write `content/` JSON, photo folders and manifests. They never touch `build.py`, `assets/css`, `assets/js` or `assets/fonts`, so rerunning them keeps the redesign. fixurls.py ends by running `tools/v3/to_steps.py` (refreshes `content/steps/_auto/` drafts and prints `--report`); curated lesson overlays live in `content/steps/<slug>.json` and are never overwritten. See `tools/v3/ROLLOUT.md`. Always commit `assets/fonts/` and `assets/data/` with the pages.
 
 ## 3. Folder structure
 

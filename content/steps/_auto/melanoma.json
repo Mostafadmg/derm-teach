@@ -1,0 +1,180 @@
+{
+ "_auto": true,
+ "glance": {
+  "chips": [
+   "Module 2 · Week 5",
+   "malignant melanoma",
+   "ABCDE",
+   "7-point checklist"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "A new or changing pigmented lesion, an ugly duckling, a firm growing nodule (pink or dark), a dark streak on the sole or nail, or a slowly spreading facial patch."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "UV-driven (or, on acral skin, non-UV) mutations in melanocytes (BRAF, NRAS, NF1, KIT) with inherited risk (CDKN2A, MC1R)."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "NICE NG12: weighted 7-point checklist score of 3 or more, or dermoscopy suggesting melanoma = suspected cancer pathway; do not excise or biopsy in primary care; teledermatology with good images."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "Nodular and amelanotic melanoma (EFG: elevated, firm, growing; may not fit ABCD); acral melanoma in skin of colour; repeated reassurance of a changing lesion.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "points": [
+   "**Intermittent intense UV and sunburn** (especially in childhood), sunbeds, fair skin (MC1R), many or atypical naevi, family history, previous melanoma, and immunosuppression.",
+   "Growth phases: radial (in situ / thin), then vertical (nodular, invasive). Breslow thickness tracks the vertical phase."
+  ],
+  "visuals": []
+ },
+ "features": {
+  "photo": "m2w5:C01",
+  "points": [],
+  "visuals": [],
+  "variants": {
+   "title": "Types to recognise",
+   "items": [
+    {
+     "name": "Superficial spreading (SSM)",
+     "t": "~60–70%",
+     "where": "Young/middle-aged; trunk (men), legs (women)"
+    },
+    {
+     "name": "Nodular",
+     "t": "~15–30%",
+     "where": "Middle-aged/older; trunk, head and neck"
+    },
+    {
+     "name": "Lentigo maligna / LMM",
+     "t": "~10–15%",
+     "where": "Older adults, **chronically sun-damaged face**"
+    },
+    {
+     "name": "Acral lentiginous (ALM)",
+     "t": "~2–3% in white people, but the **commonest subtype in Black and Asian people**",
+     "where": "Soles, palms, nail unit"
+    },
+    {
+     "name": "Amelanotic",
+     "t": "~2–8%",
+     "where": "Any subtype"
+    },
+    {
+     "name": "Desmoplastic",
+     "t": "Rare",
+     "where": "Older; head and neck"
+    },
+    {
+     "name": "Mucosal",
+     "t": "~1%",
+     "where": "Oral, nasal, anogenital, vulval"
+    },
+    {
+     "name": "Uveal",
+     "t": "(not cutaneous)",
+     "where": "Eye"
+    },
+    {
+     "name": "Childhood/adolescent",
+     "t": "Rare",
+     "where": "Spitzoid or amelanotic, often nodular"
+    }
+   ]
+  },
+  "groups": [
+   1,
+   2
+  ]
+ },
+ "confirm": {
+  "cols": [
+   {
+    "k": "Diagnostic accuracy by eye",
+    "icon": "check",
+    "points": [
+     "rises with experience. The course figures (consultant ~80%, registrar 50–60%, GP ~40%) are in line with older studies, but published estimates vary widely."
+    ]
+   },
+   {
+    "k": "Dermoscopy",
+    "icon": "check",
+    "points": [
+     "improves accuracy in trained users: meta-analyses show sensitivity rising from about 70% to about 90%, with an odds ratio of ~15 for diagnostic accuracy versus the naked eye. **Untrained use may not help.**"
+    ]
+   }
+  ]
+ },
+ "differentials": {
+  "cards": []
+ },
+ "manage": {
+  "rungs": []
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "urgent",
+    "t": "NICE weighted 7-point checklist score **3 or more**, or dermoscopy suggesting melanoma: **suspected cancer pathway** referral (NG12 1.7.1–1.7.3)."
+   },
+   {
+    "when": "routine",
+    "t": "A firm, growing nodule over a month (EFG), even if pink or symmetrical: suspected **nodular melanoma**."
+   },
+   {
+    "when": "routine",
+    "t": "A new dark mark on the sole, palm or nail that is growing: suspected **acral melanoma** (check the nail fold for Hutchinson’s sign)."
+   }
+  ],
+  "groups": [
+   0,
+   3
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "\"Any spot that is raised, firm and growing, of any colour, needs to be seen within two weeks.\""
+  },
+  {
+   "icon": "bulb",
+   "t": "Sun-protection counselling and full-skin self-checks for family members (first-degree relatives have about twice the risk)."
+  },
+  {
+   "icon": "bulb",
+   "t": "A \"verruca\" that doesn't respond to salicylic acid or cryo and is pigmented or bleeding needs referral, not more destructive treatment."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Melanoma: recognition & referral?",
+   "a": "A new or changing pigmented lesion, an ugly duckling, a firm growing nodule (pink or dark), a dark streak on the sole or nail, or a slowly spreading facial patch."
+  },
+  {
+   "q": "What drives it?",
+   "a": "UV-driven (or, on acral skin, non-UV) mutations in melanocytes (BRAF, NRAS, NF1, KIT) with inherited risk (CDKN2A, MC1R)."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "NICE NG12: weighted 7-point checklist score of 3 or more, or dermoscopy suggesting melanoma = suspected cancer pathway; do not excise or biopsy in primary care; teledermatology with good images."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "Nodular and amelanotic melanoma (EFG: elevated, firm, growing; may not fit ABCD); acral melanoma in skin of colour; repeated reassurance of a changing lesion."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "NICE weighted 7-point checklist score **3 or more**, or dermoscopy suggesting melanoma: **suspected cancer pathway** referral (NG12 1.7.1–1.7.3)."
+  }
+ ]
+}

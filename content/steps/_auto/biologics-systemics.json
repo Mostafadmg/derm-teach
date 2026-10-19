@@ -1,0 +1,159 @@
+{
+ "_auto": true,
+ "glance": {
+  "chips": [
+   "Module 1 · Week 2",
+   "methotrexate",
+   "ciclosporin",
+   "adalimumab"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "A patient on methotrexate, ciclosporin, a biologic or a JAK inhibitor needs a prescription, a vaccine, an antibiotic or advice."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "Targeted blockade of TNF, IL-17, IL-23, IL-4/13 or JAK signalling, or broad immunosuppression (methotrexate, ciclosporin)."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "Specialist-initiated (NICE TAs); shared-care monitoring; no live vaccines on most; check every new drug for interactions (methotrexate + trimethoprim)."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "Serious infection, TB reactivation, methotrexate toxicity (mouth ulcers, cytopenia), VTE and MACE with JAK inhibitors (MHRA 2023).",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "points": [],
+  "visuals": []
+ },
+ "features": {
+  "photo": "m1w2:G01",
+  "points": [
+   "**Eczema biologics/JAKi:** moderate–severe AE (e.g. EASI ≥16, DLQI ≥10) after at least one conventional systemic has failed or is unsuitable.",
+   "**Specialist screen before starting:** TB (IGRA ± CXR), hepatitis B/C, HIV, VZV serology, pregnancy, malignancy and demyelination history, vaccines up to date (give **live vaccines ≥4 weeks before** starting).",
+   "**During treatment:** infections, vaccines, surgery planning, pregnancy, new symptoms."
+  ],
+  "visuals": [],
+  "variants": null,
+  "groups": [
+   0
+  ]
+ },
+ "confirm": {
+  "cols": []
+ },
+ "differentials": {
+  "cards": []
+ },
+ "manage": {
+  "rungs": [
+   {
+    "k": "Oral corticosteroids — course Case 5 comment",
+    "tone": "second",
+    "points": [
+     "**Psoriasis:** avoid systemic steroids. Withdrawal can trigger **generalised pustular or erythrodermic psoriasis** (photo A06 shows localised pustular psoriasis; see the the [psoriasis](condition:psoriasis) notes)."
+    ]
+   },
+   {
+    "k": "Patients on biologics/JAKi — primary-care checklist",
+    "tone": "refer",
+    "points": [
+     "**Record** the drug (hospital-only flag), the dose interval and the homecare provider; check interactions with every new prescription.",
+     "**Infection:** Lower threshold for review and antibiotics; **Hold the next dose during a significant infection** and contact the specialist team; Fever or serious infection → same-day assessment (presentations may be atypical)",
+     "**Pregnancy planning:** specialist advice. Many biologics can be continued; JAKi are contraindicated.",
+     "**Skin-cancer checks** (JAKi, TNF-i, previous PUVA or ciclosporin)."
+    ]
+   },
+   {
+    "k": "Methotrexate safety (IP level — the conventional systemic you are most likely to co-manage)",
+    "tone": "refer",
+    "points": [
+     "**Folic acid 5 mg once weekly** on a different day (some regimens use up to 6 days a week, never on the methotrexate day). It reduces GI, mucosal and hepatic toxicity.",
+     "**Dose in skin disease:** typically 7.5–25 mg once weekly, oral or subcutaneous; sometimes a 2.5–5 mg test dose first. Specialist-initiated."
+    ]
+   },
+   {
+    "k": "Ciclosporin (eczema/psoriasis; specialist-initiated, short courses)",
+    "tone": "refer",
+    "points": [
+     "Monitor BP and creatinine; stop or reduce if creatinine rises >25–30% from baseline.",
+     "Many CYP3A4 interactions (clarithromycin, azoles, grapefruit, St John's wort).",
+     "**Avoid phototherapy** and sun (skin cancer).",
+     "Gingival hyperplasia, hypertrichosis, tremor; hyperkalaemia (avoid potassium-sparing drugs)."
+    ]
+   },
+   {
+    "k": "Red flags / refer",
+    "tone": "refer",
+    "points": [
+     "fever or sepsis; TB symptoms",
+     "new neurological symptoms (TNF-i — demyelination)",
+     "jaundice; unexplained bruising or bleeding",
+     "persistent cough or breathlessness (MTX pneumonitis; infections on JAKi)",
+     "new IBD symptoms on an IL-17 inhibitor"
+    ]
+   }
+  ]
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "same-day",
+    "t": "Fever, sore throat, mouth ulcers or bruising on methotrexate: same-day FBC and stop until reviewed."
+   },
+   {
+    "when": "never",
+    "t": "Never co-prescribe **trimethoprim or co-trimoxazole** with methotrexate."
+   },
+   {
+    "when": "urgent",
+    "t": "Signs of serious infection or TB on a biologic or JAK inhibitor: urgent assessment and contact the specialist team."
+   }
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "\"A red eye on dupilumab is ocular surface disease until proven otherwise, not just viral conjunctivitis — tell the dermatology team.\""
+  },
+  {
+   "icon": "bulb",
+   "t": "\"IL-17 inhibitor + diarrhoea or bloody stool = IBD until proven otherwise.\""
+  },
+  {
+   "icon": "bulb",
+   "t": "\"Methotrexate: one day a week, write the day down, no trimethoprim.\""
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Biologics, JAK inhibitors & conventional systemics?",
+   "a": "A patient on methotrexate, ciclosporin, a biologic or a JAK inhibitor needs a prescription, a vaccine, an antibiotic or advice."
+  },
+  {
+   "q": "What drives it?",
+   "a": "Targeted blockade of TNF, IL-17, IL-23, IL-4/13 or JAK signalling, or broad immunosuppression (methotrexate, ciclosporin)."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "Specialist-initiated (NICE TAs); shared-care monitoring; no live vaccines on most; check every new drug for interactions (methotrexate + trimethoprim)."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "Serious infection, TB reactivation, methotrexate toxicity (mouth ulcers, cytopenia), VTE and MACE with JAK inhibitors (MHRA 2023)."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "Fever, sore throat, mouth ulcers or bruising on methotrexate: same-day FBC and stop until reviewed."
+  }
+ ]
+}

@@ -1,0 +1,310 @@
+{
+ "_auto": true,
+ "glance": {
+  "chips": [
+   "Adult core · deepened with Modules 3 & 4",
+   "plaque psoriasis",
+   "guttate psoriasis",
+   "scalp psoriasis"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "Well-demarcated salmon-pink plaques with silvery scale on elbows, knees, scalp or lower back; nail pitting."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "IL-23/Th17/IL-17 inflammation driving very fast keratinocyte turnover (3–5 days instead of about a month)."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "Emollient plus potent steroid and vitamin D analogue, with planned steroid breaks."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "Erythroderma or generalised pustular psoriasis (same day), and joint symptoms suggesting psoriatic arthritis.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "points": [
+   "**Genetic predisposition** (e.g. HLA-C*06:02, linked with early-onset and guttate disease) plus immune activation.",
+   "Key cytokine axis: **IL-23 → Th17 → IL-17**, plus TNF-α, causing keratinocyte hyperproliferation and inflammation.",
+   "Very fast epidermal turnover produces thick, scaly plaques.",
+   "Streptococcal throat infection (guttate psoriasis)",
+   "Trauma, scratches and surgery: the **Koebner phenomenon**",
+   "Drugs: lithium, beta-blockers, antimalarials, and abrupt withdrawal of systemic steroids"
+  ],
+  "visuals": [
+   {
+    "ai": "psoriasis-pathophysiology.jpg",
+    "caption": "Psoriasis pathogenesis: immune activation (IL-23/IL-17, TNF-α) drives keratinocyte hyperproliferation, giving a turnover of 3–5 days instead of about 28 days and producing thick scaly plaques."
+   }
+  ]
+ },
+ "features": {
+  "photo": "B03",
+  "points": [
+   "**Well-demarcated**, deep red/shiny, **smooth** patches; scale often absent or minimal.",
+   "Fissure in crease depth common.",
+   "Sites: axillae, inframammary, groin, natal cleft, umbilicus, genitals, anus.",
+   "Check ears, scalp, elbows/knees, nails for supporting clues.",
+   "Complications: secondary yeast/bacteria, lichenification from itch (esp. perianal), sexual dysfunction/embarrassment, steroid atrophy from overuse."
+  ],
+  "visuals": [],
+  "variants": {
+   "title": "Types to recognise",
+   "items": [
+    {
+     "name": "Chronic plaque",
+     "t": "Sharply demarcated red plaques with silvery-white scale; pinpoint bleeding when scale is removed (Auspitz sign)",
+     "where": "Elbows, knees, lower back, scalp"
+    },
+    {
+     "name": "Flexural (inverse)",
+     "t": "Shiny, well-defined, moist, little or no scale; may be colonised by Candida",
+     "where": "Axillae, groin, natal cleft, under the breasts"
+    },
+    {
+     "name": "Guttate",
+     "t": "Many small ‘raindrop’ plaques, often 2–3 weeks after a strep throat",
+     "where": "Trunk and limbs"
+    },
+    {
+     "name": "Scalp",
+     "t": "Thick adherent scale, often extending beyond the hairline",
+     "where": "Scalp, hairline, behind the ears"
+    },
+    {
+     "name": "Nail",
+     "t": "Pitting, onycholysis, oil-drop discolouration, subungual hyperkeratosis",
+     "where": "Fingernails and toenails"
+    }
+   ]
+  },
+  "groups": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ]
+ },
+ "confirm": {
+  "cols": [
+   {
+    "k": "Clinical",
+    "icon": "check",
+    "points": [
+     "morphology, distribution, nails and joints."
+    ]
+   },
+   {
+    "k": "Assess",
+    "icon": "check",
+    "points": [
+     "body surface area (BSA), high-impact sites (face, hands, genitals, scalp) and quality of life."
+    ]
+   },
+   {
+    "k": "Screen for psoriatic arthritis",
+    "icon": "check",
+    "points": [
+     "every year with the PEST questionnaire, especially in the first 10 years."
+    ]
+   },
+   {
+    "k": "Tests are rarely needed.",
+    "icon": "flask",
+    "points": [
+     "Biopsy if uncertain. Take a throat swab if guttate psoriasis follows a recent sore throat."
+    ]
+   }
+  ]
+ },
+ "differentials": {
+  "cards": [
+   {
+    "name": "Atopic eczema",
+    "clue": "Ill-defined, flexural, intensely itchy, lichenified",
+    "link": "eczema-dermatitis"
+   },
+   {
+    "name": "Seborrhoeic dermatitis",
+    "clue": "Greasier scale on the central face; can overlap (‘sebopsoriasis’)"
+   },
+   {
+    "name": "Tinea corporis",
+    "clue": "Asymmetrical with an advancing edge; mycology positive",
+    "link": "annular-rashes"
+   },
+   {
+    "name": "Lichen planus",
+    "clue": "Violaceous, flat-topped papules with Wickham striae; wrists and mucosa",
+    "link": "lichen-planus"
+   },
+   {
+    "name": "Discoid eczema",
+    "clue": "Coin-shaped, very itchy, often on the legs"
+   },
+   {
+    "name": "Candidal intertrigo (vs flexural psoriasis)",
+    "clue": "Satellite papules and pustules, macerated; flexural psoriasis is sharply defined with no satellites",
+    "link": "candida-intertrigo"
+   },
+   {
+    "name": "Cutaneous lymphoma",
+    "clue": "Persistent, atypical plaques; refer"
+   },
+   {
+    "name": "Irritant intertrigo",
+    "clue": "Less sharply marginated; improves with dryness alone"
+   },
+   {
+    "name": "Candida",
+    "clue": "Satellites; KOH/culture positive; rapid onset",
+    "link": "candida-intertrigo"
+   },
+   {
+    "name": "Seborrhoeic dermatitis",
+    "clue": "Ill-defined salmon-pink; greasy scalp/face involvement (“sebopsoriasis” overlap)"
+   },
+   {
+    "name": "Tinea cruris",
+    "clue": "Active raised border, asymmetry, KOH+",
+    "link": "tinea"
+   },
+   {
+    "name": "Erythrasma",
+    "clue": "Brownish, quiet itch, Wood lamp coral-red",
+    "link": "intertrigo"
+   },
+   {
+    "name": "Hailey–Hailey",
+    "clue": "Painful erosions/fissures, flaccid blisters, family history"
+   }
+  ],
+  "groups": [
+   6
+  ]
+ },
+ "manage": {
+  "rungs": [
+   {
+    "k": "Self-care",
+    "tone": "base",
+    "points": [
+     "Use emollients regularly. They reduce scale and itch and help active topicals work.",
+     "Lifestyle: weight loss if overweight, stopping smoking, moderating alcohol, and support with stress.",
+     "Seek review promptly for unexplained joint pain or swelling."
+    ]
+   },
+   {
+    "k": "First-line topicals: trunk and limbs (adults)",
+    "tone": "first",
+    "points": [
+     "**Potent steroid once daily plus vitamin D analogue once daily**, applied at different times of day, for up to 4 weeks.",
+     "If not controlled: **vitamin D analogue twice daily** for 8–12 weeks.",
+     "Then either a potent steroid twice daily (short course) or coal tar, **or** fixed-combination **calcipotriol/betamethasone** once daily for up to 4 weeks, which helps adherence.",
+     "Plan a **4-week break** between courses of potent or very potent steroid, using a non-steroid topical in between.",
+     "Do not exceed the maximum durations: potent steroid **≤ 8 weeks** per site; very potent **≤ 4 weeks**, usually on specialist advice."
+    ]
+   },
+   {
+    "k": "Specialist systemic therapy (not IP-initiated)",
+    "tone": "refer",
+    "points": [
+     "Methotrexate (often the first conventional option), ciclosporin (for rapid control or when planning conception) and acitretin, followed by biologics or TYK2 inhibitors under NICE technology appraisals."
+    ]
+   }
+  ]
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "same-day",
+    "t": "**Erythroderma** (widespread redness over 90% of the skin) or **generalised pustular psoriasis**: same-day dermatology or hospital assessment."
+   },
+   {
+    "when": "urgent",
+    "t": "Suspected **psoriatic arthritis** (swollen or painful joints, dactylitis, enthesitis): refer to rheumatology."
+   },
+   {
+    "when": "routine",
+    "t": "BSA over 10%, moderate or worse severity, failure of topicals, or a major impact on quality of life: refer for phototherapy or systemics."
+   },
+   {
+    "when": "routine",
+    "t": "Severe nail disease, children, and diagnostic uncertainty: refer."
+   }
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "Explain that psoriasis is **chronic** and treatment is intermittent. Most patients relapse after stopping."
+  },
+  {
+   "icon": "bulb",
+   "t": "Demonstrate how to apply treatment. Cosmetic acceptability drives adherence, so gels and foams often beat ointments for daytime use."
+  },
+  {
+   "icon": "bulb",
+   "t": "Spell out **steroid breaks** to prevent atrophy and rebound."
+  },
+  {
+   "icon": "bulb",
+   "t": "Calcipotriol/betamethasone combinations (Dovobet®-type gel, foam or ointment) vary by formulary, so check local brands."
+  },
+  {
+   "icon": "bulb",
+   "t": "**Avoid oral steroids.** Withdrawal can trigger rebound or pustular flares."
+  },
+  {
+   "icon": "bulb",
+   "t": "Counsel on vaccination and infection risk if the patient later moves to immunosuppression (specialist-led)."
+  },
+  {
+   "icon": "bulb",
+   "t": "NICE notes a higher VTE risk in severe psoriasis, so keep it in mind."
+  },
+  {
+   "icon": "bulb",
+   "t": "Prescribing detail for vitamin D analogues, coal tar, dithranol and phototherapy: [vitamin D analogues, tar and phototherapy](condition:vitamin-d-tar-phototherapy); for patients on methotrexate or a biologic, see [biologics and systemics](condition:biologics-systemics)."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Psoriasis?",
+   "a": "Well-demarcated salmon-pink plaques with silvery scale on elbows, knees, scalp or lower back; nail pitting."
+  },
+  {
+   "q": "What drives it?",
+   "a": "IL-23/Th17/IL-17 inflammation driving very fast keratinocyte turnover (3–5 days instead of about a month)."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "Emollient plus potent steroid and vitamin D analogue, with planned steroid breaks."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "Erythroderma or generalised pustular psoriasis (same day), and joint symptoms suggesting psoriatic arthritis."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "**Erythroderma** (widespread redness over 90% of the skin) or **generalised pustular psoriasis**: same-day dermatology or hospital assessment."
+  }
+ ]
+}

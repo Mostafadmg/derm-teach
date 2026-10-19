@@ -1,0 +1,184 @@
+{
+ "_auto": true,
+ "glance": {
+  "chips": [
+   "Module 4 · Week 5",
+   "urticaria",
+   "hives",
+   "wheals"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "Itchy wheals that come and go within a day, with or without lip/eyelid swelling — skin looks normal between attacks."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "Mast-cell histamine (and other mediators) → dermal oedema (wheal) and deeper oedema (angioedema). Most CSU is autoimmune/idiopathic, not a hidden food allergy."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "Daily second-generation H1 antihistamine; up-dose up to 4× licensed dose if needed; short steroid only for severe acute flares; refer uncontrolled CSU for omalizumab pathways."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "Anaphylaxis (ABC) → adrenaline/999. ACE-inhibitor angioedema without wheals — stop the ACEI urgently. Lesions lasting >24 h with bruising → urticarial vasculitis.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "points": [
+   "Mast-cell degranulation (IgE, autoimmune, idiopathic, or direct — NSAIDs, opioids, contrast).",
+   "CSU is usually not an IgE food allergy — restrictive diets and patch tests do not help.",
+   "ACE inhibitors cause bradykinin angioedema that can start months to years after initiation.",
+   "Inducible triggers: dermographism, delayed pressure, cholinergic, cold, solar, aquagenic."
+  ],
+  "visuals": []
+ },
+ "features": {
+  "photo": "m4w5:A01",
+  "points": [
+   "Wheals: itchy, pink or skin-coloured, migrate, **individually fade within 24 hours**, leave normal skin.",
+   "In skin of colour, feel for oedema when erythema is subtle.",
+   "Angioedema: lips, eyelids, hands, genitals — may burn more than itch.",
+   "Vasculitis clue: lesions >24 h, burning/pain, purpura or residual bruise."
+  ],
+  "visuals": [],
+  "variants": null,
+  "groups": [
+   0,
+   1,
+   2,
+   3
+  ]
+ },
+ "confirm": {
+  "cols": [
+   {
+    "k": "Key points",
+    "icon": "check",
+    "points": [
+     "Clinical history ± phone photos. Acute urticaria: **no routine tests**.",
+     "CSU: keep tests minimal — FBC and CRP/ESR reasonable; thyroid tests only if indicated. **Patch testing has no role** in urticaria.",
+     "Activity tools: UAS7 / UCT for severity and omalizumab eligibility discussions.",
+     "Suspected inducible disease: challenge testing in clinic/specialist settings."
+    ]
+   }
+  ]
+ },
+ "differentials": {
+  "cards": [
+   {
+    "name": "Urticarial vasculitis",
+    "clue": ">24 h, pain, purpura/bruise",
+    "link": "urticarial-vasculitis"
+   },
+   {
+    "name": "Erythema multiforme",
+    "clue": "Fixed targets, acral, days",
+    "link": "erythema-multiforme"
+   },
+   {
+    "name": "Anaphylaxis",
+    "clue": "Respiratory/circulatory compromise",
+    "link": "local-anaesthetics-skin-surgery"
+   },
+   {
+    "name": "Papular urticaria / bites",
+    "clue": "Grouped papules lasting days — see [papular urticaria](condition:papular-urticaria-bites)",
+    "link": "papular-urticaria-bites"
+   },
+   {
+    "name": "Contact eczema",
+    "clue": "Scaly, lasting days — patch testing relevant"
+   },
+   {
+    "name": "Mastocytosis",
+    "clue": "Fixed brown macules; Darier sign"
+   }
+  ]
+ },
+ "manage": {
+  "rungs": []
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "emergency",
+    "t": "Anaphylaxis features."
+   },
+   {
+    "when": "emergency",
+    "t": "Airway-threatening angioedema (ACEI or other)."
+   },
+   {
+    "when": "routine",
+    "t": "Lesions lasting >24 h with purpura → vasculitis work-up."
+   },
+   {
+    "when": "routine",
+    "t": "Fever, arthralgia, weight loss with urticarial rash → systemic disease / Schnitzler consideration."
+   },
+   {
+    "when": "routine",
+    "t": "CSU uncontrolled on up-dosed antihistamine → refer."
+   }
+  ],
+  "groups": [
+   4
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "“It isn’t an allergy to something you keep eating” — most CSU is internal."
+  },
+  {
+   "icon": "bulb",
+   "t": "Take the antihistamine every day, even on good days; step down slowly once controlled."
+  },
+  {
+   "icon": "bulb",
+   "t": "Patch testing investigates eczema, not wheals."
+  },
+  {
+   "icon": "bulb",
+   "t": "Always check BNF for residual renal/hepatic dosing and pregnancy."
+  },
+  {
+   "icon": "bulb",
+   "t": "Swelling without wheals on an ACE inhibitor: see [ACE-inhibitor angioedema](condition:ace-inhibitor-angioedema)."
+  },
+  {
+   "icon": "bulb",
+   "t": "Wheals lasting more than 24 hours that bruise or burn: see [urticarial vasculitis](condition:urticarial-vasculitis)."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Urticaria & angioedema?",
+   "a": "Itchy wheals that come and go within a day, with or without lip/eyelid swelling — skin looks normal between attacks."
+  },
+  {
+   "q": "What drives it?",
+   "a": "Mast-cell histamine (and other mediators) → dermal oedema (wheal) and deeper oedema (angioedema). Most CSU is autoimmune/idiopathic, not a hidden food allergy."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "Daily second-generation H1 antihistamine; up-dose up to 4× licensed dose if needed; short steroid only for severe acute flares; refer uncontrolled CSU for omalizumab pathways."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "Anaphylaxis (ABC) → adrenaline/999. ACE-inhibitor angioedema without wheals — stop the ACEI urgently. Lesions lasting >24 h with bruising → urticarial vasculitis."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "Anaphylaxis features."
+  }
+ ]
+}

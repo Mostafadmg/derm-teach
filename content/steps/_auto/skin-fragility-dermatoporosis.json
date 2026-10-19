@@ -1,0 +1,137 @@
+{
+ "_auto": true,
+ "glance": {
+  "chips": [
+   "Module 6 · Week 4",
+   "senile purpura",
+   "actinic purpura",
+   "Bateman purpura"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "Painless purple patches on thin sun-damaged forearms after minimal trauma in an older person."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "UV and age destroy dermal support around vessels → easy shear bleeding; advanced form is dermatoporosis with skin tears."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "Reassure, protect (sleeves, pad furniture), daily emollient and sun protection; medication review with the prescriber."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "Palpable purpura, non-exposed-site bruising, mucosal bleeding or safeguarding patterns — investigate / escalate.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "points": [
+   "Chronic UV + intrinsic ageing → dermal collagen/elastin loss; vessels rupture with minor shear.",
+   "Aggravators: anticoagulants, antiplatelets, topical/oral/inhaled **corticosteroids**, SSRIs, fish oil/ginkgo/high-dose vitamin E.",
+   "Platelets and clotting are usually normal in classic actinic purpura."
+  ],
+  "visuals": []
+ },
+ "features": {
+  "photo": "m6w4:W4B-01",
+  "points": [
+   "Irregular dark-red/purple patches 1–5 cm on extensor forearms and dorsal hands; fade to brown haemosiderin.",
+   "Thin translucent wrinkled skin; stellate pseudoscars; skin tears from shear/adhesive dressings.",
+   "Not tender; **not palpable** (palpable = vasculitis)."
+  ],
+  "visuals": [],
+  "variants": null,
+  "groups": [
+   0
+  ]
+ },
+ "confirm": {
+  "cols": []
+ },
+ "differentials": {
+  "cards": [
+   {
+    "name": "Steroid purpura",
+    "clue": "Long-term steroid exposure"
+   },
+   {
+    "name": "Thrombocytopenia / coagulopathy",
+    "clue": "Petechiae, mucosa, abnormal bloods"
+   },
+   {
+    "name": "Vasculitis",
+    "clue": "Palpable purpura, legs, systemic features"
+   },
+   {
+    "name": "Scurvy",
+    "clue": "Perifollicular haemorrhage, corkscrew hairs"
+   },
+   {
+    "name": "Non-accidental injury",
+    "clue": "Grip marks, multiple ages of bruise"
+   }
+  ]
+ },
+ "manage": {
+  "rungs": []
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "routine",
+    "t": "Palpable purpura or systemic vasculitis signs."
+   },
+   {
+    "when": "routine",
+    "t": "Unusual distribution / safeguarding concern."
+   },
+   {
+    "when": "routine",
+    "t": "Large unexplained bruises with rising INR."
+   }
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "Actinic purpura is a counselling and protection problem more than a cream problem."
+  },
+  {
+   "icon": "bulb",
+   "t": "Inhaled as well as topical steroids can contribute — ask."
+  },
+  {
+   "icon": "bulb",
+   "t": "Document skin-tear classification if using local wound pathways."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Skin fragility & dermatoporosis?",
+   "a": "Painless purple patches on thin sun-damaged forearms after minimal trauma in an older person."
+  },
+  {
+   "q": "What drives it?",
+   "a": "UV and age destroy dermal support around vessels → easy shear bleeding; advanced form is dermatoporosis with skin tears."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "Reassure, protect (sleeves, pad furniture), daily emollient and sun protection; medication review with the prescriber."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "Palpable purpura, non-exposed-site bruising, mucosal bleeding or safeguarding patterns — investigate / escalate."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "Palpable purpura or systemic vasculitis signs."
+  }
+ ]
+}

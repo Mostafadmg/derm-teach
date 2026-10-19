@@ -1,0 +1,111 @@
+{
+ "_auto": true,
+ "glance": {
+  "chips": [
+   "Module 1 · Week 4",
+   "UV",
+   "hypocomplementaemic urticarial vasculitis",
+   "HUVS"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "‘Urticaria’ where each wheal lasts more than 24 hours, burns or hurts, and leaves bruising or brown staining."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "Immune-complex small-vessel vasculitis; low C3/C4 and anti-C1q in the hypocomplementaemic form."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "Mark a wheal to time it; check complement, ESR/CRP, urine, ANA; refer for biopsy; antihistamines help itch but not the vasculitis."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "HUVS with lupus, kidney, lung (COPD-like) or eye involvement.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "points": [
+   "**drugs** (ACE-i, penicillins, sulfonamides, fluoxetine, cimetidine, diltiazem, thiazides, potassium iodide, NSAIDs, glatiramer; also TNF inhibitors)",
+   "**CTD** (SLE, Sjögren's)",
+   "**paraproteins** (IgM — **Schnitzler syndrome** — and IgA gammopathy), mixed cryoglobulinaemia",
+   "**malignancy** (haematological, solid)",
+   "**infection** (hepatitis B/C, EBV, Lyme)",
+   "idiopathic."
+  ],
+  "visuals": []
+ },
+ "features": {
+  "photo": "m1w4:C01",
+  "points": [],
+  "visuals": [],
+  "variants": null,
+  "groups": [
+   0
+  ]
+ },
+ "confirm": {
+  "cols": [
+   {
+    "k": "Biopsy a lesion",
+    "icon": "check",
+    "points": [
+     "(H&E + DIF, ideally a lesion <48 h old) — essential, because the clinical overlap with urticaria is large."
+    ]
+   }
+  ]
+ },
+ "differentials": {
+  "cards": []
+ },
+ "manage": {
+  "rungs": []
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "urgent",
+    "t": "Wheals with joint pain, fever, abdominal pain, breathlessness or abnormal urine: suspect **systemic (hypocomplementaemic) disease**, refer urgently."
+   }
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "\"**Wheals that last more than a day, burn, and leave a bruise = biopsy.**\""
+  },
+  {
+   "icon": "bulb",
+   "t": "Ask patients to **circle a wheal with a pen** and photograph it daily — it documents duration (cheap, effective)."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Urticarial vasculitis & HUVS?",
+   "a": "‘Urticaria’ where each wheal lasts more than 24 hours, burns or hurts, and leaves bruising or brown staining."
+  },
+  {
+   "q": "What drives it?",
+   "a": "Immune-complex small-vessel vasculitis; low C3/C4 and anti-C1q in the hypocomplementaemic form."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "Mark a wheal to time it; check complement, ESR/CRP, urine, ANA; refer for biopsy; antihistamines help itch but not the vasculitis."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "HUVS with lupus, kidney, lung (COPD-like) or eye involvement."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "Wheals with joint pain, fever, abdominal pain, breathlessness or abnormal urine: suspect **systemic (hypocomplementaemic) disease**, refer urgently."
+  }
+ ]
+}

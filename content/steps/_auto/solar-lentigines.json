@@ -1,0 +1,142 @@
+{
+ "_auto": true,
+ "glance": {
+  "chips": [
+   "Module 6 · Week 5",
+   "solar lentigo",
+   "age spots",
+   "liver spots"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "Flat, evenly brown macules on the face or backs of the hands of an older outdoor worker that do not fade in winter."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "Chronic UV increases local melanocyte number and activity along elongated rete ridges."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "Photoprotection forever; topical retinoids/azelaic acid for modest fading; cryotherapy/IPL/laser only after cancer exclusion — usually private."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "Irregular, multicoloured, enlarging facial pigment → lentigo maligna — urgent suspected-cancer referral. Never laser an undiagnosed pigmented lesion.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "points": [],
+  "visuals": []
+ },
+ "features": {
+  "photo": "m6w5:W5C-01",
+  "points": [
+   "Uniform light-to-dark brown macules with a regular border; face, dorsal hands, forearms, shoulders.",
+   "Do **not** fade in winter (unlike freckles).",
+   "May coexist with AK field change and photoageing."
+  ],
+  "visuals": [],
+  "variants": null,
+  "groups": [
+   0
+  ]
+ },
+ "confirm": {
+  "cols": []
+ },
+ "differentials": {
+  "cards": [
+   {
+    "name": "Freckles (ephelides)",
+    "clue": "Childhood onset; fade in winter"
+   },
+   {
+    "name": "Melasma",
+    "clue": "Symmetrical patches; hormones; worsened by heat/IPL — see [melasma](condition:melasma-facial-melanosis)",
+    "link": "melasma-facial-melanosis"
+   },
+   {
+    "name": "Seborrhoeic keratosis",
+    "clue": "Stuck-on, waxy, raised",
+    "link": "actinic-keratoses"
+   },
+   {
+    "name": "Lentigo maligna",
+    "clue": "Irregular colours, slow enlargement on older face → NG12 referral",
+    "link": "melanoma"
+   },
+   {
+    "name": "Pigmented AK",
+    "clue": "Rough surface"
+   }
+  ],
+  "groups": [
+   2
+  ]
+ },
+ "manage": {
+  "rungs": []
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "urgent",
+    "t": "Any lesion suspicious for lentigo maligna or melanoma → urgent suspected-cancer pathway."
+   },
+   {
+    "when": "never",
+    "t": "Do not treat undiagnosed pigment with cryotherapy, IPL or laser."
+   }
+  ],
+  "groups": [
+   1
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "Solar lentigines are a UV dosimeter — use the visit for skin-cancer education."
+  },
+  {
+   "icon": "bulb",
+   "t": "Hand spots are a classic patient question; same rules as the face."
+  },
+  {
+   "icon": "bulb",
+   "t": "See also [photoageing](condition:photoageing) and [IPL & eyelash enhancement](condition:ipl-eyelash)."
+  },
+  {
+   "icon": "bulb",
+   "t": "Flat brown marks that become raised and warty are usually [seborrhoeic keratoses](condition:seborrhoeic-keratosis); a lentigo that darkens or spreads unevenly on the face may be [lentigo maligna](condition:melanoma)."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Solar lentigines?",
+   "a": "Flat, evenly brown macules on the face or backs of the hands of an older outdoor worker that do not fade in winter."
+  },
+  {
+   "q": "What drives it?",
+   "a": "Chronic UV increases local melanocyte number and activity along elongated rete ridges."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "Photoprotection forever; topical retinoids/azelaic acid for modest fading; cryotherapy/IPL/laser only after cancer exclusion — usually private."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "Irregular, multicoloured, enlarging facial pigment → lentigo maligna — urgent suspected-cancer referral. Never laser an undiagnosed pigmented lesion."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "Any lesion suspicious for lentigo maligna or melanoma → urgent suspected-cancer pathway."
+  }
+ ]
+}

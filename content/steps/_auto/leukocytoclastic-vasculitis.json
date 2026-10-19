@@ -1,0 +1,110 @@
+{
+ "_auto": true,
+ "glance": {
+  "chips": [
+   "Module 1 · Week 4",
+   "CSVV",
+   "hypersensitivity vasculitis",
+   "NSAID vasculitis"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "Symmetrical palpable purpura, sometimes with blisters or small ulcers, on the shins and ankles after a new drug or infection."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "Immune complexes lodge in small skin vessels, recruit neutrophils and break down (leukocytoclasis)."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "Stop the trigger; rest, elevation and compression if no arterial disease; analgesia (not the culprit NSAID); dipstick and bloods; refer if systemic or persistent."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "Kidney involvement; IgA vasculitis in children; vasculitis that is part of lupus, ANCA disease or cryoglobulinaemia.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "points": [
+   "Drug-induced LCV usually starts **7–21 days** after a new drug (sooner on re-exposure; this case says \"a few days\")."
+  ],
+  "visuals": []
+ },
+ "features": {
+  "photo": "m1w4:A01",
+  "points": [],
+  "visuals": [],
+  "variants": null,
+  "groups": [
+   0
+  ]
+ },
+ "confirm": {
+  "cols": [
+   {
+    "k": "Key points",
+    "icon": "check",
+    "points": [
+     "**3e — the single bedside test: urinalysis** (dipstick for **blood and protein**). It tells you whether the kidneys are involved (systemic vasculitis/IgA nephritis), which changes urgency and management. Measure BP at the same visit."
+    ]
+   }
+  ]
+ },
+ "differentials": {
+  "cards": []
+ },
+ "manage": {
+  "rungs": []
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "same-day",
+    "t": "Haematuria, proteinuria or rising creatinine: same-day renal advice."
+   },
+   {
+    "when": "urgent",
+    "t": "Necrosis, ulceration or purpura above the waist: consider systemic vasculitis and refer urgently."
+   }
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "\"**Drug, legs, palpable purpura, well patient → stop the drug, dip the urine, elevate.**\""
+  },
+  {
+   "icon": "bulb",
+   "t": "Warn that **new crops can appear for 1–2 weeks** after stopping the drug."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Cutaneous small-vessel (leukocytoclastic) vasculitis?",
+   "a": "Symmetrical palpable purpura, sometimes with blisters or small ulcers, on the shins and ankles after a new drug or infection."
+  },
+  {
+   "q": "What drives it?",
+   "a": "Immune complexes lodge in small skin vessels, recruit neutrophils and break down (leukocytoclasis)."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "Stop the trigger; rest, elevation and compression if no arterial disease; analgesia (not the culprit NSAID); dipstick and bloods; refer if systemic or persistent."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "Kidney involvement; IgA vasculitis in children; vasculitis that is part of lupus, ANCA disease or cryoglobulinaemia."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "Haematuria, proteinuria or rising creatinine: same-day renal advice."
+  }
+ ]
+}

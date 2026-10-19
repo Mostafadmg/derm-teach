@@ -1,0 +1,125 @@
+{
+ "_auto": true,
+ "glance": {
+  "chips": [
+   "Module 1 · Week 3",
+   "FDE",
+   "recurring rash same place",
+   "NSAID"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "A round, dusky red-brown patch on the lip, genitals, hands or face that recurs at the same site, often mistaken for a cold sore."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "Memory T cells sitting in the skin at that site are reactivated by the drug within hours."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "Find the intermittent drug (ask about period pain relief, cold remedies, laxatives); stop and avoid it; potent topical steroid; document."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "Generalised bullous FDE, which can resemble SJS/TEN and needs same-day assessment.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "points": [],
+  "visuals": []
+ },
+ "features": {
+  "photo": "m1w3:H01",
+  "points": [
+   "**Lips**, **genitals** (glans penis), hands, feet, face; the trunk and limbs less often.",
+   "Round/oval, sharply demarcated, **dusky red-violet plaques**, often with a darker/targetoid or bullous centre. Burning or itch appears **30 min–8 h** (up to 48 h) after a dose.",
+   "Each recurrence may add **new sites**. Lesions resolve over 1–3 weeks with **post-inflammatory hyperpigmentation**, which is especially marked in skin of colour.",
+   "**Generalised bullous FDE (GBFDE):** multiple large blistering plaques (>10% BSA) in older patients. It mimics SJS/TEN, carries significant mortality (~20%) and **needs admission**."
+  ],
+  "visuals": [],
+  "variants": null,
+  "groups": [
+   0
+  ]
+ },
+ "confirm": {
+  "cols": [
+   {
+    "k": "Lesional patch test",
+    "icon": "flask",
+    "points": [
+     "(drug applied to the old site) or supervised **oral provocation** in specialist settings. Not for GBFDE."
+    ]
+   },
+   {
+    "k": "Key points",
+    "icon": "check",
+    "points": [
+     "History of **recurrence at the same site** after intermittent drug use (menstrual NSAIDs, weekend antibiotics, \"headache tablets\") — ask specifically about intermittent OTC products.",
+     "Biopsy if doubtful (interface dermatitis, necrotic keratinocytes, dermal melanophages)."
+    ]
+   }
+  ]
+ },
+ "differentials": {
+  "cards": []
+ },
+ "manage": {
+  "rungs": []
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "same-day",
+    "t": "Many or widespread blistering patches, mucosal involvement or an unwell patient: possible **generalised bullous FDE**, same-day assessment."
+   },
+   {
+    "when": "routine",
+    "t": "A 'cold sore' that always appears after the same tablet: ask about over-the-counter NSAIDs and paracetamol combinations."
+   }
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "\"**Same place, same drug, every time.**\" Ask what she took in the 24 h before each flare."
+  },
+  {
+   "icon": "bulb",
+   "t": "A \"cold sore\" that leaves a **dark patch** and no vesicles is FDE until proven otherwise."
+  },
+  {
+   "icon": "bulb",
+   "t": "Menstrual NSAIDs are a classic hidden culprit; so are the \"weekend antibiotics\" for UTIs (co-trimoxazole/trimethoprim)."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Fixed drug eruption?",
+   "a": "A round, dusky red-brown patch on the lip, genitals, hands or face that recurs at the same site, often mistaken for a cold sore."
+  },
+  {
+   "q": "What drives it?",
+   "a": "Memory T cells sitting in the skin at that site are reactivated by the drug within hours."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "Find the intermittent drug (ask about period pain relief, cold remedies, laxatives); stop and avoid it; potent topical steroid; document."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "Generalised bullous FDE, which can resemble SJS/TEN and needs same-day assessment."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "Many or widespread blistering patches, mucosal involvement or an unwell patient: possible **generalised bullous FDE**, same-day assessment."
+  }
+ ]
+}

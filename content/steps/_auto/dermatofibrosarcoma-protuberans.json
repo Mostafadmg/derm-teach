@@ -1,0 +1,112 @@
+{
+ "_auto": true,
+ "glance": {
+  "chips": [
+   "Module 2 · Week 1",
+   "DFSP",
+   "slow-growing sarcoma",
+   "trunk plaque"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "A firm, slowly enlarging plaque on the trunk or shoulder that later becomes lumpy (protuberant)."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "A low-grade fibroblastic sarcoma driven by a COL1A1–PDGFB gene fusion."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "Refer on a suspected sarcoma or skin-cancer pathway; deep biopsy; Mohs or wide excision; imatinib for inoperable disease."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "Delayed diagnosis because it is called a scar, keloid or dermatofibroma for years.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "points": [
+   "Over 90% carry the translocation **t(17;22)** (often as a ring chromosome), fusing **COL1A1–PDGFB**. This drives autocrine PDGF receptor stimulation and is the rationale for **imatinib** in unresectable or metastatic disease.",
+   "Histology: storiform spindle cells infiltrating fat in a \"honeycomb\" pattern; **CD34 positive, Factor XIIIa negative** (contrast DF)."
+  ],
+  "visuals": []
+ },
+ "features": {
+  "photo": "m2w1:B01",
+  "points": [
+   "Adults aged 20–50; trunk (especially chest and shoulder), proximal limbs, head and neck.",
+   "Starts as a slowly enlarging, firm, skin-coloured, pink-violet or brown **indurated plaque**, often mistaken for a scar, keloid, morphoea or DF for years, the same lesion a year apart). Later it becomes **protuberant and multinodular**.",
+   "Variants: pigmented (Bednar tumour), atrophic (looks like morphoea), and childhood/congenital forms. The the [skin cancer](condition:basal-cell-carcinoma) notes the course summary notes DFSP can **mimic a keloidal BCC**."
+  ],
+  "visuals": [],
+  "variants": null
+ },
+ "confirm": {
+  "cols": [
+   {
+    "k": "Key points",
+    "icon": "check",
+    "points": [
+     "Deep incisional or punch biopsy that includes subcutis (shave biopsies miss it). CD34 immunohistochemistry; FISH/RT-PCR for COL1A1–PDGFB when needed.",
+     "MRI for large or recurrent tumours to define deep extent. Chest imaging only for fibrosarcomatous or metastatic disease (specialist)."
+    ]
+   }
+  ]
+ },
+ "differentials": {
+  "cards": []
+ },
+ "manage": {
+  "rungs": []
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "routine",
+    "t": "A ‘dermatofibroma’ or ‘keloid’ that keeps growing, is larger than about 3 cm or becomes nodular: refer to exclude **DFSP**."
+   }
+  ],
+  "groups": [
+   0
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "\"A keloid without an injury is not a keloid until proved otherwise.\""
+  },
+  {
+   "icon": "bulb",
+   "t": "Imatinib interactions (CYP3A4; warfarin; paracetamol hepatotoxicity at high doses) are worth knowing if a patient on it presents to primary care."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Dermatofibrosarcoma protuberans (DFSP)?",
+   "a": "A firm, slowly enlarging plaque on the trunk or shoulder that later becomes lumpy (protuberant)."
+  },
+  {
+   "q": "What drives it?",
+   "a": "A low-grade fibroblastic sarcoma driven by a COL1A1–PDGFB gene fusion."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "Refer on a suspected sarcoma or skin-cancer pathway; deep biopsy; Mohs or wide excision; imatinib for inoperable disease."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "Delayed diagnosis because it is called a scar, keloid or dermatofibroma for years."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "A ‘dermatofibroma’ or ‘keloid’ that keeps growing, is larger than about 3 cm or becomes nodular: refer to exclude **DFSP**."
+  }
+ ]
+}

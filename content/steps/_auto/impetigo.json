@@ -1,0 +1,196 @@
+{
+ "_auto": true,
+ "glance": {
+  "chips": [
+   "Adult core · deepened with Module 5 Week 1",
+   "school sores",
+   "honey crust",
+   "bullous impetigo"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "Golden, honey-coloured crusts around the nose and mouth of a child, or thin-roofed blisters leaving collarette erosions."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "S. aureus (± S. pyogenes) in the epidermis. In bullous impetigo, exfoliative toxins split the epidermis at desmoglein-1."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "Hygiene, then hydrogen peroxide 1% cream (localised) or flucloxacillin (bullous or widespread)."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "Eczema herpeticum mistaken for impetigo, and spreading cellulitis or an unwell infant.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "points": [
+   "A **break in the skin barrier** lets bacteria in. Common causes are eczema, scabies, insect bites, minor trauma and herpes simplex.",
+   "**Non-bullous:** infection of the epidermis, producing an exudate that dries to a honey-coloured crust.",
+   "**Bullous:** staphylococcal **exfoliative toxins** cleave **desmoglein-1** in the upper epidermis, producing flaccid blisters. The same toxins, spread systemically, cause staphylococcal scalded skin syndrome.",
+   "Spread is by direct contact, towels and fomites, and scratching (autoinoculation, ‘kissing lesions’)."
+  ],
+  "visuals": []
+ },
+ "features": {
+  "photo": "E01",
+  "points": [
+   "**Honey-coloured (golden) crusts** on a red base, often around the nose and mouth, and on the hands and limbs.",
+   "Satellite lesions, and ‘kissing lesions’ where skin surfaces touch.",
+   "**Bullous:** intact or burst thin-walled blisters, shallow erosions and collarette scale. Often in the axillae, trunk or nappy area.",
+   "Usually mildly itchy or sore. Fever and lymphadenopathy are more likely with bullous or extensive disease."
+  ],
+  "visuals": [],
+  "variants": null,
+  "groups": [
+   0,
+   1,
+   2,
+   4
+  ]
+ },
+ "confirm": {
+  "cols": [
+   {
+    "k": "Clinical.",
+    "icon": "check",
+    "points": [
+     ""
+    ]
+   },
+   {
+    "k": "Key points",
+    "icon": "check",
+    "points": [
+     "Swab if: recurrent, treatment has failed, MRSA risk, or widespread disease.",
+     "Look for and treat an **underlying dermatosis** (eczema, scabies, head lice).",
+     "Examine for **eczema herpeticum**: monomorphic punched-out erosions on eczematous skin, often with an unwell patient."
+    ]
+   }
+  ]
+ },
+ "differentials": {
+  "cards": [
+   {
+    "name": "Herpes simplex / eczema herpeticum",
+    "clue": "Grouped vesicles then **punched-out** erosions; painful; may be unwell. Urgent if on eczema"
+   },
+   {
+    "name": "Eczema flare",
+    "clue": "Itchy, ill-defined, with background eczema; crusts are less golden"
+   },
+   {
+    "name": "Pemphigus foliaceus (rare)",
+    "clue": "Adult, recurrent superficial erosions; does not respond to antibiotics",
+    "link": "pemphigus"
+   },
+   {
+    "name": "Insect bite reaction / bullous bites",
+    "clue": "Grouped bites on exposed sites; tense blisters"
+   }
+  ]
+ },
+ "manage": {
+  "rungs": [
+   {
+    "k": "Everyone",
+    "tone": "base",
+    "points": [
+     "Hygiene advice to reduce spread: wash the lesions gently, do not share towels, and avoid scratching.",
+     "**School or nursery:** keep the child off until lesions are crusted and healed, or for **48 hours after starting antibiotics**, in line with UKHSA and local public health advice."
+    ]
+   },
+   {
+    "k": "Bullous, systemically unwell, or high risk of complications",
+    "tone": "refer",
+    "points": [
+     "**Oral antibiotic** for 5 days (up to 7 if severe).",
+     "First line: **flucloxacillin**. Penicillin allergy: **clarithromycin** (erythromycin in pregnancy)."
+    ]
+   }
+  ]
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "same-day",
+    "t": "Suspected **eczema herpeticum**: same-day referral."
+   },
+   {
+    "when": "routine",
+    "t": "Signs of **cellulitis** or deeper infection, or a systemically unwell patient."
+   },
+   {
+    "when": "routine",
+    "t": "**Infants with bullous impetigo**, or suspected staphylococcal scalded skin syndrome (tender, widespread erythema with peeling)."
+   },
+   {
+    "when": "routine",
+    "t": "Immunocompromised with widespread disease, or frequent recurrence (consider nasal carriage and MRSA)."
+   }
+  ],
+  "groups": [
+   3
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "Hydrogen peroxide 1% is first line for localised disease. It is a useful **stewardship** win."
+  },
+  {
+   "icon": "bulb",
+   "t": "**Avoid repeated fusidic acid** courses because of resistance. Use 5 days, then stop."
+  },
+  {
+   "icon": "bulb",
+   "t": "Crust does not always mean impetigo, so think about **HSV** first in eczema."
+  },
+  {
+   "icon": "bulb",
+   "t": "Treat the trigger (eczema, scabies, lice) or impetigo will keep coming back."
+  },
+  {
+   "icon": "bulb",
+   "t": "Safety-net: worsening after 2–3 days, spreading redness or fever means review."
+  },
+  {
+   "icon": "bulb",
+   "t": "**Skin of colour:** crusts and erythema can be subtler. Palpate, and rely on the history (spread to contacts, weeping, crusting)."
+  },
+  {
+   "icon": "bulb",
+   "t": "New to skin terms? [Describing skin lesions](condition:lesion-language) explains crust, erosion, bulla and vesicle."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Impetigo?",
+   "a": "Golden, honey-coloured crusts around the nose and mouth of a child, or thin-roofed blisters leaving collarette erosions."
+  },
+  {
+   "q": "What drives it?",
+   "a": "S. aureus (± S. pyogenes) in the epidermis. In bullous impetigo, exfoliative toxins split the epidermis at desmoglein-1."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "Hygiene, then hydrogen peroxide 1% cream (localised) or flucloxacillin (bullous or widespread)."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "Eczema herpeticum mistaken for impetigo, and spreading cellulitis or an unwell infant."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "Suspected **eczema herpeticum**: same-day referral."
+  }
+ ]
+}

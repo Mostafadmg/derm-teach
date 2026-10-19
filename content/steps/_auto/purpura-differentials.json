@@ -1,0 +1,96 @@
+{
+ "_auto": true,
+ "glance": {
+  "chips": [
+   "Module 1 · Week 4",
+   "non-blanching rash",
+   "petechiae",
+   "ITP"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "Non-blanching red or purple spots or bruises, in a child or an adult."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "Low or faulty platelets, clotting problems, fragile vessels (age, steroids, scurvy) or vessel inflammation."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "Glass test; is the patient unwell? FBC and film, clotting, U&E, LFT, CRP, urine; same-day if unwell or platelets low."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "Meningococcal sepsis, leukaemia, ITP, DIC, cryoglobulinaemic or ANCA vasculitis, non-accidental injury.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "points": [],
+  "visuals": []
+ },
+ "features": {
+  "photo": "m1w4:F01",
+  "points": [],
+  "visuals": [],
+  "variants": null
+ },
+ "confirm": {
+  "cols": []
+ },
+ "differentials": {
+  "cards": [],
+  "groups": [
+   0
+  ]
+ },
+ "manage": {
+  "rungs": []
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "emergency",
+    "t": "Unwell with a non-blanching rash: **999**, benzylpenicillin if there will be a delay (NICE NG240)."
+   },
+   {
+    "when": "same-day",
+    "t": "Petechiae with pallor, lymph nodes, bone pain or bruising: **same-day FBC and film** (leukaemia, ITP)."
+   }
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "Teach parents the **glass/tumbler test**, but stress that an **unwell child needs urgent help even if the rash blanches**."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Purpura: the differential diagnosis?",
+   "a": "Non-blanching red or purple spots or bruises, in a child or an adult."
+  },
+  {
+   "q": "What drives it?",
+   "a": "Low or faulty platelets, clotting problems, fragile vessels (age, steroids, scurvy) or vessel inflammation."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "Glass test; is the patient unwell? FBC and film, clotting, U&E, LFT, CRP, urine; same-day if unwell or platelets low."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "Meningococcal sepsis, leukaemia, ITP, DIC, cryoglobulinaemic or ANCA vasculitis, non-accidental injury."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "Unwell with a non-blanching rash: **999**, benzylpenicillin if there will be a delay (NICE NG240)."
+  }
+ ]
+}

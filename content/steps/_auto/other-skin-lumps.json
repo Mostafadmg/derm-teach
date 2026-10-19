@@ -1,0 +1,99 @@
+{
+ "_auto": true,
+ "glance": {
+  "chips": [
+   "Module 2 · Week 1",
+   "neurofibroma",
+   "NF1",
+   "plexiform neurofibroma"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "A soft ‘button-hole’ papule (neurofibroma), a hard chalky lump on a child’s face (pilomatricoma), a cyst by the nail (myxoid), yellow umbilicated papules on the face (sebaceous hyperplasia)."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "Different tissues of origin: nerve sheath, hair matrix, joint-related mucin, enlarged sebaceous glands."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "Recognise and reassure where typical; refer when uncertain, growing or syndromic."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "NF1 (≥6 café-au-lait macules, axillary freckling), plexiform neurofibroma change, BCC mimicking sebaceous hyperplasia.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "points": [],
+  "visuals": []
+ },
+ "features": {
+  "photo": "m2w1:G01",
+  "points": [
+   "**What/cause:** a benign peripheral nerve sheath tumour. A solitary sporadic lesion is common; multiple lesions suggest **NF1** (NF1 gene, neurofibromin, RAS-MAPK, autosomal dominant, about 50% de novo).",
+   "**Treatment:** surgery or laser for symptomatic cutaneous lesions. **Selumetinib** (MEK inhibitor) for symptomatic inoperable plexiform neurofibromas in children ≥3 years (NICE HST20, 2022), specialist-led.",
+   "**IP role:** recognise the NF1 pattern and refer to the national NF1 complex service or genetics. Selumetinib interactions (CYP3A4/2C19 inhibitors; vitamin E content of capsules with anticoagulants).",
+   "DermNet: [dermnetnz.org](https://dermnetnz.org/topics/neurofibromatosis)",
+   "**What/cause:** a benign tumour of hair matrix cells. **CTNNB1 (β-catenin)** activating mutations. Histology shows basaloid cells maturing into **ghost (shadow) cells** with calcification.",
+   "**Diagnosis/DDx:** clinical ± ultrasound (calcified). DDx: epidermoid or dermoid cyst, calcinosis cutis. **Multiple pilomatricomas** may indicate myotonic dystrophy, Gardner, Turner, Rubinstein–Taybi or Sotos."
+  ],
+  "visuals": [],
+  "variants": null,
+  "groups": [
+   0,
+   1
+  ]
+ },
+ "confirm": {
+  "cols": []
+ },
+ "differentials": {
+  "cards": []
+ },
+ "manage": {
+  "rungs": []
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "urgent",
+    "t": "Rapid growth or pain in a plexiform neurofibroma: refer urgently (malignant peripheral nerve sheath tumour)."
+   },
+   {
+    "when": "routine",
+    "t": "Six or more café-au-lait macules in a child: refer to assess for **NF1**."
+   }
+  ]
+ },
+ "pearls": [],
+ "quiz": [
+  {
+   "q": "When should you think of Other skin lumps: neurofibroma, pilomatricoma, myxoid cyst & more?",
+   "a": "A soft ‘button-hole’ papule (neurofibroma), a hard chalky lump on a child’s face (pilomatricoma), a cyst by the nail (myxoid), yellow umbilicated papules on the face (sebaceous hyperplasia)."
+  },
+  {
+   "q": "What drives it?",
+   "a": "Different tissues of origin: nerve sheath, hair matrix, joint-related mucin, enlarged sebaceous glands."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "Recognise and reassure where typical; refer when uncertain, growing or syndromic."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "NF1 (≥6 café-au-lait macules, axillary freckling), plexiform neurofibroma change, BCC mimicking sebaceous hyperplasia."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "Rapid growth or pain in a plexiform neurofibroma: refer urgently (malignant peripheral nerve sheath tumour)."
+  }
+ ]
+}

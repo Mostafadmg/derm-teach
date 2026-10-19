@@ -1,0 +1,218 @@
+{
+ "_auto": true,
+ "glance": {
+  "chips": [
+   "Module 3 · Week 1",
+   "rosacea",
+   "flushing",
+   "erythematotelangiectatic"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "Central facial redness, flushing and papules or pustules with no comedones, often triggered by heat, alcohol or spicy food."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "Neurovascular hyper-reactivity and innate immune activation (cathelicidin, TLR2), with *Demodex* mites as an amplifier."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "Phenotype-based care (NICE CKS): trigger diary, daily SPF, gentle skincare; ivermectin, azelaic acid or metronidazole for papules; brimonidine for redness; doxycycline 40 mg MR for moderate–severe."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "Ocular rosacea with pain, photophobia or reduced vision (same-day eye care), and flushing with diarrhoea, wheeze or palpitations (carcinoid, mastocytosis).",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "points": [
+   "**Heat, hot drinks and spicy food (capsaicin):** activate **TRPV1** on sensory nerves and vessels, so neuropeptides are released (substance P, CGRP) and vessels dilate. *Pepper and chilli are classic triggers.*",
+   "**Alcohol, especially red wine:** acetaldehyde, histamine and polyphenols cause vasodilation. *Red wine is a classic trigger.*",
+   "**UV:** induces MMPs, ROS and **cathelicidin** activation through **kallikrein-5**, and damages dermal matrix so telangiectasia shows. *This is the case's \"worse with sun\".*",
+   "**Cold, wind, exercise, stress, menopause:** vascular reactivity through neurogenic routes.",
+   "**Topical steroids and calcineurin inhibitors:** local immunosuppression lets *Demodex* overgrow, steroids cause vasodilation, and there is rebound on withdrawal.",
+   "**Drugs that cause flushing:** nicotinic acid, CCBs (nifedipine, amlodipine), nitrates, sildenafil, opioids, vancomycin, tamoxifen and aromatase inhibitors."
+  ],
+  "visuals": []
+ },
+ "features": {
+  "photo": "m3w1:R05",
+  "points": [
+   "**fine whitish follicular scale (\"frosted\", \"nutmeg-grater\" or \"sandpaper\" texture)**",
+   "**itch or burning** rather than flushing",
+   "**asymmetric**, sometimes unilateral",
+   "small superficial papulopustules",
+   "a history of **facial TCS/TCI or immunosuppression**",
+   "**Demodex blepharitis**: cylindrical \"collarettes\" at the lash bases"
+  ],
+  "visuals": [],
+  "variants": {
+   "title": "Types to recognise",
+   "items": [
+    {
+     "name": "Persistent erythema",
+     "t": "Faint, central",
+     "where": "Clear, cheeks + nose"
+    },
+    {
+     "name": "Flushing",
+     "t": "Occasional",
+     "where": "Frequent, bothersome"
+    },
+    {
+     "name": "Papules/pustules",
+     "t": "Few (<5)",
+     "where": "Several (5–20)"
+    },
+    {
+     "name": "Telangiectasia",
+     "t": "Barely visible",
+     "where": "Clearly visible"
+    },
+    {
+     "name": "Phyma",
+     "t": "Patulous follicles, slight thickening",
+     "where": "Contour change without nodules"
+    },
+    {
+     "name": "Ocular",
+     "t": "Mild lid redness, grittiness",
+     "where": "Lid-margin telangiectasia, MGD, chalazia"
+    }
+   ]
+  },
+  "groups": [
+   0,
+   2,
+   3,
+   4
+  ]
+ },
+ "confirm": {
+  "cols": [
+   {
+    "k": "Sweaty, perimenopausal",
+    "icon": "check",
+    "points": [
+     "menopause"
+    ]
+   },
+   {
+    "k": "Medication-related",
+    "icon": "check",
+    "points": [
+     ""
+    ]
+   },
+   {
+    "k": "Dermoscopy",
+    "icon": "check",
+    "points": [
+     "\"*Demodex* tails\" (creamy gelatinous threads poking out of follicles) and follicular plugs."
+    ]
+   },
+   {
+    "k": "Microscopy",
+    "icon": "check",
+    "points": [
+     "of scrapings or plucked eyelashes (optometry or ophthalmology)."
+    ]
+   }
+  ]
+ },
+ "differentials": {
+  "cards": [],
+  "groups": [
+   5
+  ]
+ },
+ "manage": {
+  "rungs": []
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "same-day",
+    "t": "**Eye pain, photophobia or reduced vision**: possible keratitis, so same-day ophthalmology."
+   },
+   {
+    "when": "routine",
+    "t": "Flushing with **diarrhoea, wheeze, palpitations or hypotension**: investigate for carcinoid syndrome or mastocytosis."
+   },
+   {
+    "when": "routine",
+    "t": "A photosensitive malar rash with systemic symptoms: exclude **lupus**."
+   },
+   {
+    "when": "routine",
+    "t": "Facial rash after potent topical steroids: steroid rosacea, so stop or taper the steroid with support."
+   }
+  ],
+  "groups": [
+   1
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "**Trigger diary for 2–4 weeks**. Avoid only *your* triggers, not every listed one."
+  },
+  {
+   "icon": "bulb",
+   "t": "**Daily SPF 30–50 mineral or tinted sunscreen.** Use green-tinted camouflage for redness. Avoid **alcohol-based toners, menthol, witch hazel, exfoliants and fragrance**."
+  },
+  {
+   "icon": "bulb",
+   "t": "**No topical steroids on the face**. Check OTC hydrocortisone and imported \"lightening\" creams."
+  },
+  {
+   "icon": "bulb",
+   "t": "Set expectations: **papules respond, erythema and flushing respond poorly** to the antimicrobial-type drugs. That is why brimonidine and laser exist."
+  },
+  {
+   "icon": "bulb",
+   "t": "Before brimonidine, check for **MAOIs, TCAs and antihypertensives**, and avoid it in **Raynaud's or orthostatic hypotension**."
+  },
+  {
+   "icon": "bulb",
+   "t": "\"Rosacea that fails metronidazole or azelaic acid, especially if it's scaly or itchy\" → think *Demodex*, switch to **ivermectin**, and ask about steroid creams."
+  },
+  {
+   "icon": "bulb",
+   "t": "Mites are on everyone. Reassure the patient that this is **not a hygiene problem** and not contagious in any practical sense."
+  },
+  {
+   "icon": "bulb",
+   "t": "**Never prescribe a potent or very potent TCS for the face** without a specialist plan. When counselling on OTC hydrocortisone, the licence **excludes the face** (with limited exceptions)."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Rosacea (incl. Demodex & steroid rosacea)?",
+   "a": "Central facial redness, flushing and papules or pustules with no comedones, often triggered by heat, alcohol or spicy food."
+  },
+  {
+   "q": "What drives it?",
+   "a": "Neurovascular hyper-reactivity and innate immune activation (cathelicidin, TLR2), with *Demodex* mites as an amplifier."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "Phenotype-based care (NICE CKS): trigger diary, daily SPF, gentle skincare; ivermectin, azelaic acid or metronidazole for papules; brimonidine for redness; doxycycline 40 mg MR for moderate–severe."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "Ocular rosacea with pain, photophobia or reduced vision (same-day eye care), and flushing with diarrhoea, wheeze or palpitations (carcinoid, mastocytosis)."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "**Eye pain, photophobia or reduced vision**: possible keratitis, so same-day ophthalmology."
+  }
+ ]
+}

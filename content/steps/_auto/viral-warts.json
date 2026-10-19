@@ -1,0 +1,190 @@
+{
+ "_auto": true,
+ "glance": {
+  "chips": [
+   "Module 5 · Week 1",
+   "warts",
+   "verruca",
+   "verrucae"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "A rough, hyperkeratotic papule with black dots (thrombosed capillaries) that interrupts the skin lines, on hands, feet or around the nails."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "Cutaneous HPV infects basal keratinocytes and causes hyperkeratosis. Spread is by contact, fomites and autoinoculation."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "Reassure (many resolve), or salicylic acid daily after paring for 8–12 weeks, with or without cryotherapy."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "A rapidly growing or ulcerating ‘wart’, especially in an immunosuppressed patient, may be SCC. Refer.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "points": [
+   "HPV is a double-stranded DNA virus. Common cutaneous types are **1, 2, 3, 4, 10, 27, 29 and 57**.",
+   "It infects **basal keratinocytes**, producing hyperkeratosis and new virus particles.",
+   "Spread is by skin-to-skin contact, fomites (swimming pools, changing rooms), and **autoinoculation**. A line of warts along a scratch is the pseudo-Koebner phenomenon.",
+   "Incubation takes weeks to months. The wart burden is higher with dermatitis or **immunosuppression** (transplant, HIV)."
+  ],
+  "visuals": []
+ },
+ "features": {
+  "photo": "m5w1:L01",
+  "points": [],
+  "visuals": [],
+  "variants": {
+   "title": "Types to recognise",
+   "items": [
+    {
+     "name": "Common (verruca vulgaris)",
+     "t": "Rough hyperkeratotic papules; black or red dots are thrombosed capillaries",
+     "where": "Hands, knees, around the nails"
+    },
+    {
+     "name": "Plantar",
+     "t": "Inward-growing and painful (myrmecia), or clustered ‘mosaic’ warts; **interrupt the skin lines**",
+     "where": "Soles"
+    },
+    {
+     "name": "Plane (plana)",
+     "t": "Flat-topped, skin-coloured, often numerous; spread by shaving",
+     "where": "Face, backs of hands, shins"
+    },
+    {
+     "name": "Filiform / digitate",
+     "t": "Thin fronds on a narrow base",
+     "where": "Face"
+    },
+    {
+     "name": "Periungual / subungual",
+     "t": "Around or under the nail; risk of nail dystrophy",
+     "where": "Nail folds"
+    }
+   ]
+  },
+  "groups": [
+   0
+  ]
+ },
+ "confirm": {
+  "cols": [
+   {
+    "k": "Clinical.",
+    "icon": "check",
+    "points": [
+     "Paring reveals pinpoint bleeding or black dots. Dermoscopy helps."
+    ]
+   },
+   {
+    "k": "Plantar wart vs corn",
+    "icon": "check",
+    "points": [
+     "a wart is tender when **squeezed from the sides**. A corn is tender on **direct pressure**, and the skin lines run through it."
+    ]
+   },
+   {
+    "k": "Biopsy",
+    "icon": "check",
+    "points": [
+     "if SCC is a concern, especially in immunosuppressed patients."
+    ]
+   }
+  ]
+ },
+ "differentials": {
+  "cards": [
+   {
+    "name": "Corn / callus",
+    "clue": "At a pressure site; skin lines continue through it; no capillary dots"
+   },
+   {
+    "name": "Seborrhoeic keratosis",
+    "clue": "‘Stuck-on’ appearance in an older adult",
+    "link": "actinic-keratoses"
+   },
+   {
+    "name": "SCC / keratoacanthoma",
+    "clue": "Rapid growth, ulceration or tenderness, often in an older or immunosuppressed patient. **Refer**"
+   },
+   {
+    "name": "Molluscum contagiosum",
+    "clue": "Pearly, umbilicated papules (poxvirus)"
+   }
+  ]
+ },
+ "manage": {
+  "rungs": []
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "routine",
+    "t": "Rapid growth, bleeding, ulceration or an atypical appearance: consider **SCC** and refer."
+   },
+   {
+    "when": "routine",
+    "t": "**Immunosuppressed** patient (transplant, HIV) with extensive or recalcitrant warts: refer to dermatology."
+   },
+   {
+    "when": "routine",
+    "t": "Extensive facial or periungual warts where destructive treatment risks scarring or nail damage."
+   },
+   {
+    "when": "routine",
+    "t": "Diabetes, peripheral neuropathy or vascular disease: avoid self-treatment with salicylic acid or cryotherapy on the feet."
+   }
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "No treatment ‘kills’ HPV instantly. Treatment removes virus-bearing skin, and recurrence is common until immunity clears that type."
+  },
+  {
+   "icon": "bulb",
+   "t": "Duct-tape occlusion has mixed evidence. It is an optional add-on, not a cure."
+  },
+  {
+   "icon": "bulb",
+   "t": "Periungual warts: avoid aggressive destruction near the **nail matrix**."
+  },
+  {
+   "icon": "bulb",
+   "t": "Advise flip-flops in communal showers, not sharing towels, and covering verrucae for swimming."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Viral warts (HPV)?",
+   "a": "A rough, hyperkeratotic papule with black dots (thrombosed capillaries) that interrupts the skin lines, on hands, feet or around the nails."
+  },
+  {
+   "q": "What drives it?",
+   "a": "Cutaneous HPV infects basal keratinocytes and causes hyperkeratosis. Spread is by contact, fomites and autoinoculation."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "Reassure (many resolve), or salicylic acid daily after paring for 8–12 weeks, with or without cryotherapy."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "A rapidly growing or ulcerating ‘wart’, especially in an immunosuppressed patient, may be SCC. Refer."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "Rapid growth, bleeding, ulceration or an atypical appearance: consider **SCC** and refer."
+  }
+ ]
+}

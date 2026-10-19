@@ -1,0 +1,159 @@
+{
+ "_auto": true,
+ "glance": {
+  "chips": [
+   "Module 5 · Week 4",
+   "Madura foot",
+   "eumycetoma",
+   "actinomycetoma"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "A painless, slowly enlarging swollen foot with multiple discharging sinuses in someone from an endemic tropical area."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "Soil fungi (eumycetoma) or actinomycete bacteria (actinomycetoma) implanted by a thorn or wound form grains in deep tissue."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "Specialist diagnosis (grain culture, biopsy, imaging); long antibiotic courses for actinomycetoma; antifungals plus surgery for eumycetoma."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "Bone involvement and late presentation leading to amputation; other causes of discharging sinuses (TB, osteomyelitis, HS).",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "points": [
+   "There is **no person-to-person spread** and no known vector or animal reservoir. Incubation runs from months to years.",
+   "**Actinomycetoma** tends to be more inflammatory, spreads faster and **invades bone earlier**. **Eumycetoma** is slower, better encapsulated and more localised."
+  ],
+  "visuals": []
+ },
+ "features": {
+  "photo": "m5w4:W4E01",
+  "points": [
+   "**Pain is mild or absent** until bone involvement or secondary bacterial infection. Lymph nodes are usually not involved, except sometimes with actinomycetoma.",
+   "**The patient is typically systemically well** (fever is rare unless there is secondary infection), which helps explain the late presentation.",
+   "**Late features:** massive swelling and deformity, bone destruction, joint ankylosis, disuse atrophy, chronic lymphoedema, disability, sometimes **amputation**, and rarely death from cranial, spinal or thoracic spread or sepsis."
+  ],
+  "visuals": [],
+  "variants": null,
+  "groups": [
+   0
+  ]
+ },
+ "confirm": {
+  "cols": [
+   {
+    "k": "Key points",
+    "icon": "check",
+    "points": [
+     "**Clinical triad + endemic exposure.** Look for grains in the discharge (shake gauze in saline; dermoscopy may show grains).",
+     "**Baseline before long antimicrobial courses:** FBC, LFTs, U&E, glucose and HIV status."
+    ]
+   }
+  ]
+ },
+ "differentials": {
+  "cards": [
+   {
+    "name": "Botryomycosis",
+    "clue": "Grain-forming *S. aureus* or Gram-negatives (looks like actinomycetoma); responds to standard antibiotics"
+   },
+   {
+    "name": "Chronic osteomyelitis",
+    "clue": "Sinus over bone, prior fracture, metalwork or diabetic foot; no grains"
+   },
+   {
+    "name": "Actinomycosis (Actinomyces israelii)",
+    "clue": "Anaerobic; cervicofacial/dental, thoracic or abdominal; \"sulphur granules\""
+   },
+   {
+    "name": "Cutaneous TB (scrofuloderma), non-tuberculous mycobacteria",
+    "clue": "Overlying lymph nodes or bone; AFB; chronic undermined sinuses"
+   },
+   {
+    "name": "Chromoblastomycosis, sporotrichosis, other deep fungi",
+    "clue": "Verrucous plaques (chromo) or lymphangitic nodules (sporo); no sinuses with grains"
+   },
+   {
+    "name": "Leprosy, tertiary syphilis/yaws, leishmaniasis",
+    "clue": "Neuropathy (leprosy); gummas",
+    "link": "leprosy"
+   },
+   {
+    "name": "Dermatophyte pseudomycetoma",
+    "clue": "Usually scalp; immunosuppressed",
+    "link": "tinea"
+   }
+  ]
+ },
+ "manage": {
+  "rungs": []
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "urgent",
+    "t": "Bone pain, deformity or rapid spread: urgent specialist imaging and referral."
+   },
+   {
+    "when": "never",
+    "t": "Do not treat repeatedly with short courses of antibiotics without a diagnosis."
+   }
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "**The farmer with a foot that keeps \"discharging\" despite antibiotics:** think mycetoma, chronic osteomyelitis or TB. Ask where they grew up and worked, and whether they went barefoot."
+  },
+  {
+   "icon": "bulb",
+   "t": "**Co-trimoxazole for months:** FBC (folate antagonism, marrow), **potassium** and renal function, rash (SJS/TEN warning); Avoid with methotrexate; interacts with warfarin and phenytoin; Folic acid supplementation per specialist"
+  },
+  {
+   "icon": "bulb",
+   "t": "**Amikacin:** therapeutic drug monitoring, renal function, and **audiometry** (ototoxicity is cumulative over cycles)."
+  },
+  {
+   "icon": "bulb",
+   "t": "**Adherence:** therapy lasts months to years. Explain that **stopping early = relapse**, and that swelling and scarring may persist after cure. Arrange physiotherapy."
+  },
+  {
+   "icon": "bulb",
+   "t": "**Prevention:** wear **shoes** and protective clothing during farming and herding, clean and dress minor wounds promptly, and seek early care for any slowly enlarging painless lump on the foot."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Mycetoma (Madura foot)?",
+   "a": "A painless, slowly enlarging swollen foot with multiple discharging sinuses in someone from an endemic tropical area."
+  },
+  {
+   "q": "What drives it?",
+   "a": "Soil fungi (eumycetoma) or actinomycete bacteria (actinomycetoma) implanted by a thorn or wound form grains in deep tissue."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "Specialist diagnosis (grain culture, biopsy, imaging); long antibiotic courses for actinomycetoma; antifungals plus surgery for eumycetoma."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "Bone involvement and late presentation leading to amputation; other causes of discharging sinuses (TB, osteomyelitis, HS)."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "Bone pain, deformity or rapid spread: urgent specialist imaging and referral."
+  }
+ ]
+}

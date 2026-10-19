@@ -1,0 +1,180 @@
+{
+ "_auto": true,
+ "glance": {
+  "chips": [
+   "Module 5 · Week 5",
+   "scarlatina",
+   "group A streptococcus",
+   "GAS"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "A child with fever, sore throat and a fine rough red rash starting on the neck and chest, accentuated in skin folds, with a strawberry tongue."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "Erythrogenic (pyrogenic) toxins from *Streptococcus pyogenes*."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "Phenoxymethylpenicillin for 10 days (clarithromycin if allergic), exclusion from school until 24 h of antibiotics, notify UKHSA, safety-net for invasive GAS."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "Invasive group A streptococcal disease, and Kawasaki disease or toxic shock as differentials.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "points": [],
+  "visuals": []
+ },
+ "features": {
+  "photo": "m5w5:W5E02",
+  "points": [
+   "Abrupt **fever**, **sore throat** (exudative tonsillitis, tender anterior cervical nodes), headache, nausea/vomiting, abdominal pain.",
+   "**Tongue:** day 1–2 **\"white strawberry tongue\"** (white coat with red papillae poking through) → day 3–5 **\"red strawberry/raspberry tongue\"** (coat sheds). Palatal petechiae (Forchheimer spots).",
+   "Rash fades in ~1 week, followed by **desquamation** of fingertips, toes, groin.",
+   "**Causes of strawberry tongue:** scarlet fever; **Kawasaki disease**; **toxic shock syndrome** (staph or strep); also reported with vitamin B12/folate deficiency (glossitis), yellow fever, allergy/drug reactions and some other infections."
+  ],
+  "visuals": [],
+  "variants": null,
+  "groups": [
+   0,
+   1
+  ]
+ },
+ "confirm": {
+  "cols": []
+ },
+ "differentials": {
+  "cards": [
+   {
+    "name": "Kawasaki disease",
+    "clue": "**Fever ≥5 days**, bilateral non-purulent conjunctivitis, red cracked lips, strawberry tongue, swollen red hands/feet then peeling, polymorphous rash, cervical node; <5 years — **urgent paediatric referral** (coronary aneurysm risk)"
+   },
+   {
+    "name": "Toxic shock syndrome",
+    "clue": "Hypotension, multi-organ involvement, diffuse \"sunburn\" erythroderma, tampon/wound source — **999/ED**"
+   },
+   {
+    "name": "Staphylococcal scalded skin syndrome",
+    "clue": "Tender erythema, flaccid blisters, Nikolsky positive, perioral crusting, no tonsillitis"
+   },
+   {
+    "name": "Viral exanthems (measles, rubella, enterovirus, parvovirus \"slapped cheek\")",
+    "clue": "Measles: coryza, cough, conjunctivitis, Koplik spots; slapped cheek: lacy limb rash; no sandpaper texture"
+   },
+   {
+    "name": "Drug eruption / allergic rash",
+    "clue": "Recent drug; itchy morbilliform/urticarial",
+    "link": "drug-induced-blistering"
+   },
+   {
+    "name": "Infectious mononucleosis (± amoxicillin rash)",
+    "clue": "Teenager, marked lymphadenopathy, splenomegaly, rash after amoxicillin"
+   },
+   {
+    "name": "Miliaria / heat rash",
+    "clue": "Tiny papules in covered areas, afebrile",
+    "link": "neonatal-rashes"
+   }
+  ]
+ },
+ "manage": {
+  "rungs": [
+   {
+    "k": "Supportive / self-care",
+    "tone": "base",
+    "points": [
+     "Paracetamol/ibuprofen for fever and throat pain (avoid ibuprofen if dehydrated or chickenpox co-infection per local advice), fluids, soft foods, emollient for itch/peeling.",
+     "NHS **Pharmacy First** (England) acute sore throat pathway uses FeverPAIN for pharyngitis; check the current pathway on how suspected scarlet fever is handled (typically outside PGD scope → prescriber/GP)."
+    ]
+   },
+   {
+    "k": "First-line antibiotics (to speed recovery, reduce transmission and complications)",
+    "tone": "first",
+    "points": [
+     "**Phenoxymethylpenicillin for 10 days** (BNF age-banded doses; e.g. adults/children ≥12 years 500 mg four times daily, or 1 g twice daily per local guidance).",
+     "Penicillin allergy: **clarithromycin** (5 days) or **azithromycin** (per BNF/local guidance); **amoxicillin** (10 days) is an alternative where liquid palatability/supply is an issue (follow UKHSA/local advice during shortages).",
+     "Complete the full course."
+    ]
+   },
+   {
+    "k": "Red flags / refer — safety-net for invasive GAS",
+    "tone": "refer",
+    "points": [
+     "Quinsy (trismus, uvula deviation), otitis media, sinusitis, cervical abscess, pneumonia.",
+     "Late: **acute rheumatic fever** (2–4 weeks; arthritis, carditis), **post-streptococcal glomerulonephritis** (1–3 weeks; dark urine, oedema, hypertension), **PANDAS** (rare), and the link to **guttate psoriasis**.",
+     "Features of Kawasaki (fever ≥5 days, conjunctivitis) or TSS (hypotension) → urgent."
+    ]
+   }
+  ]
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "emergency",
+    "t": "Rapid deterioration, severe pain, a spreading skin infection, breathing difficulty or signs of sepsis: **invasive GAS**, emergency."
+   },
+   {
+    "when": "routine",
+    "t": "Fever for 5 days or more with red eyes, red lips, swollen hands and feet: consider **Kawasaki disease**."
+   },
+   {
+    "when": "routine",
+    "t": "Chickenpox plus scarlet fever in the same household: higher invasive GAS risk, so lower threshold for review."
+   }
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "\"Sandpaper rash + sore throat + strawberry tongue + circumoral pallor\" = scarlet fever until proven otherwise; on darker skin rely on texture and the tongue."
+  },
+  {
+   "icon": "bulb",
+   "t": "Strawberry tongue is **not specific** — a child with ≥5 days of fever and red eyes needs Kawasaki excluded."
+  },
+  {
+   "icon": "bulb",
+   "t": "Phenoxymethylpenicillin is best taken on an empty stomach; four-times-daily dosing needs adherence support (use bd regimen where appropriate)."
+  },
+  {
+   "icon": "bulb",
+   "t": "Tell parents peeling of fingers/toes 1–2 weeks later is expected."
+  },
+  {
+   "icon": "bulb",
+   "t": "Safety-net clearly and in writing for iGAS symptoms; advise urine check/return if dark urine or swelling after 1–3 weeks."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Scarlet fever & strawberry tongue?",
+   "a": "A child with fever, sore throat and a fine rough red rash starting on the neck and chest, accentuated in skin folds, with a strawberry tongue."
+  },
+  {
+   "q": "What drives it?",
+   "a": "Erythrogenic (pyrogenic) toxins from *Streptococcus pyogenes*."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "Phenoxymethylpenicillin for 10 days (clarithromycin if allergic), exclusion from school until 24 h of antibiotics, notify UKHSA, safety-net for invasive GAS."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "Invasive group A streptococcal disease, and Kawasaki disease or toxic shock as differentials."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "Rapid deterioration, severe pain, a spreading skin infection, breathing difficulty or signs of sepsis: **invasive GAS**, emergency."
+  }
+ ]
+}

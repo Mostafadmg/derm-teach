@@ -1,0 +1,88 @@
+{
+ "_auto": true,
+ "glance": {
+  "chips": [
+   "Module 2 · Week 4",
+   "halo naevus",
+   "Sutton naevus",
+   "blue naevus"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "A mole with a white ring, a steel-blue papule, a fast-growing pink dome in a child, or pigment returning in a scar."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "Immune clearance (halo), deep dermal melanocytes (blue), epithelioid/spindle melanocytes (Spitz/Reed), residual cells (recurrent)."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "Reassure typical halo and blue naevi; refer Spitz-like lesions in adults, atypical or changing ones; send previous histology with recurrent naevi."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "Melanoma with regression or a halo; spitzoid melanoma in adults; recurrent melanoma in a scar.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "points": [],
+  "visuals": []
+ },
+ "features": {
+  "photo": "m2w4:E01",
+  "points": [],
+  "visuals": [],
+  "variants": null,
+  "groups": [
+   0,
+   1
+  ]
+ },
+ "confirm": {
+  "cols": []
+ },
+ "differentials": {
+  "cards": []
+ },
+ "manage": {
+  "rungs": []
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "urgent",
+    "t": "A Spitz-like lesion in an adult, an atypical halo naevus, or a recurrent pigmented lesion in a scar: refer on a **suspected cancer pathway**."
+   }
+  ]
+ },
+ "pearls": [],
+ "quiz": [
+  {
+   "q": "When should you think of Halo, blue, Spitz & recurrent naevi?",
+   "a": "A mole with a white ring, a steel-blue papule, a fast-growing pink dome in a child, or pigment returning in a scar."
+  },
+  {
+   "q": "What drives it?",
+   "a": "Immune clearance (halo), deep dermal melanocytes (blue), epithelioid/spindle melanocytes (Spitz/Reed), residual cells (recurrent)."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "Reassure typical halo and blue naevi; refer Spitz-like lesions in adults, atypical or changing ones; send previous histology with recurrent naevi."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "Melanoma with regression or a halo; spitzoid melanoma in adults; recurrent melanoma in a scar."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "A Spitz-like lesion in an adult, an atypical halo naevus, or a recurrent pigmented lesion in a scar: refer on a **suspected cancer pathway**."
+  }
+ ]
+}

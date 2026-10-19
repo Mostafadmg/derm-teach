@@ -1,0 +1,133 @@
+{
+ "_auto": true,
+ "glance": {
+  "chips": [
+   "Module 2 · Week 3",
+   "MF",
+   "CTCL",
+   "cutaneous T-cell lymphoma"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "Persistent, scaly, salmon-pink patches or thin plaques on the buttocks, hips, trunk or breasts that ‘never quite clear’ despite steroids."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "Skin-homing clonal helper T cells; progresses slowly from patch to plaque to tumour; Sézary syndrome is the leukaemic form with erythroderma."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "Suspect, stop repeated empirical treatment, refer for multiple biopsies; specialist skin-directed therapy (steroids, phototherapy) for early disease."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "Tumour-stage disease, erythroderma with lymph nodes (Sézary), misdiagnosis as eczema or psoriasis for years.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "points": [],
+  "visuals": []
+ },
+ "features": {
+  "photo": "m2w3:G01",
+  "points": [
+   "**Plaque stage:** infiltrated, scaly, annular plaques.",
+   "**Tumour stage:** nodules that may ulcerate.",
+   "**Erythroderma**, poikiloderma (atrophy, mottled pigmentation, telangiectasia), and variants (folliculotropic, hypopigmented in skin of colour and children, granulomatous slack skin, pagetoid reticulosis)."
+  ],
+  "visuals": [],
+  "variants": null,
+  "groups": [
+   0
+  ]
+ },
+ "confirm": {
+  "cols": [
+   {
+    "k": "Multiple biopsies",
+    "icon": "check",
+    "points": [
+     "(ideally after a 2–4-week washout of topical steroids) with immunohistochemistry and **TCR gene rearrangement** (clonality). Diagnosis often takes years."
+    ]
+   },
+   {
+    "k": "Staging (ISCL/EORTC TNMB)",
+    "icon": "check",
+    "points": [
+     ""
+    ]
+   },
+   {
+    "k": "Key points",
+    "icon": "check",
+    "points": [
+     "Staging investigations (specialist): FBC + blood film/flow cytometry for Sézary cells, LDH, LFTs, HTLV-1 serology, and CT (or PET-CT) for stage ≥IIA or as indicated. Biopsy suspicious nodes."
+    ]
+   }
+  ],
+  "groups": [
+   1
+  ]
+ },
+ "differentials": {
+  "cards": []
+ },
+ "manage": {
+  "rungs": []
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "routine",
+    "t": "Fixed patches or plaques in sun-protected sites that fail to respond to treatment over months: refer for **biopsy** (MF)."
+   },
+   {
+    "when": "urgent",
+    "t": "Erythroderma with lymph nodes, intense itch and weight loss: **urgent** referral (Sézary syndrome)."
+   }
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "Explain that early MF is usually a **chronic, indolent** condition (stage IA has near-normal life expectancy). Avoid the \"advanced cancer\" framing without staging."
+  },
+  {
+   "icon": "bulb",
+   "t": "Cumulative UV raises skin cancer risk."
+  },
+  {
+   "icon": "bulb",
+   "t": "**Dupilumab caveat:** CTCL has been unmasked or accelerated in patients misdiagnosed with atopic dermatitis. In an atypical adult-onset \"eczema\" that is failing treatment, biopsy before biologics."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Mycosis fungoides & cutaneous lymphoma?",
+   "a": "Persistent, scaly, salmon-pink patches or thin plaques on the buttocks, hips, trunk or breasts that ‘never quite clear’ despite steroids."
+  },
+  {
+   "q": "What drives it?",
+   "a": "Skin-homing clonal helper T cells; progresses slowly from patch to plaque to tumour; Sézary syndrome is the leukaemic form with erythroderma."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "Suspect, stop repeated empirical treatment, refer for multiple biopsies; specialist skin-directed therapy (steroids, phototherapy) for early disease."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "Tumour-stage disease, erythroderma with lymph nodes (Sézary), misdiagnosis as eczema or psoriasis for years."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "Fixed patches or plaques in sun-protected sites that fail to respond to treatment over months: refer for **biopsy** (MF)."
+  }
+ ]
+}

@@ -1,0 +1,121 @@
+{
+ "_auto": true,
+ "glance": {
+  "chips": [
+   "Module 1 · Week 2",
+   "NICE NG198",
+   "benzoyl peroxide",
+   "adapalene"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "Mild to moderate acne in a young adult, or a woman who also wants contraception or has hormonal acne."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "Sebum, follicular plugging, *C. acnes* and inflammation; androgens drive sebum, so oestrogen-containing pills help."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "NG198: fixed topical combinations for 12 weeks; add an oral tetracycline for moderate–severe acne (never alone, never with a topical antibiotic); COC as an option, co-cyprindiol with a stop plan."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "VTE risk with co-cyprindiol and other COCs (UKMEC); mood change; severe or scarring acne needing referral for isotretinoin.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "points": [
+   "**Androgen-driven sebum** production.",
+   "**Follicular hyperkeratinisation** (the microcomedone).",
+   "*Cutibacterium acnes* proliferation/biofilm.",
+   "**Inflammation** (TLR-2, IL-1)."
+  ],
+  "visuals": []
+ },
+ "features": {
+  "photo": "m1w2:E03",
+  "points": [
+   "**Minocycline is not recommended** (lupus-like syndrome, autoimmune hepatitis, blue-grey pigmentation — see.",
+   "Start **adapalene 0.1%/BPO 2.5% gel once daily at night**: it covers comedones and pustules with no antibiotic resistance.",
+   "Use tretinoin/clindamycin instead if BPO irritation or bleaching is a concern.",
+   "If she could become pregnant, NICE says to discuss that **topical retinoids should not be used in pregnancy**; **BPO/clindamycin** is the option without a retinoid.",
+   "Discuss her **contraceptive needs** at the same visit. If she wants contraception anyway, a COC can be added for its acne benefit.",
+   "**In practice:** benefit takes **3–6 months**. COCs help inflammatory and comedonal acne and acne with hyperandrogenism (PCOS). They are not monotherapy for severe/nodular acne."
+  ],
+  "visuals": [],
+  "variants": null
+ },
+ "confirm": {
+  "cols": []
+ },
+ "differentials": {
+  "cards": []
+ },
+ "manage": {
+  "rungs": []
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "routine",
+    "t": "Scarring, nodulocystic or rapidly worsening acne, or severe psychological distress: refer for isotretinoin assessment."
+   },
+   {
+    "when": "same-day",
+    "t": "Calf swelling, chest pain or breathlessness on a combined pill: possible **VTE**, same-day assessment."
+   },
+   {
+    "when": "routine",
+    "t": "Co-cyprindiol: review at 3 months and stop once acne is controlled (MHRA)."
+   }
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "\"Twelve weeks before judging\" — show her a calendar."
+  },
+  {
+   "icon": "bulb",
+   "t": "BPO **bleaches** towels, clothes and hair; retinoids **dry the skin and sensitise it to sun**."
+  },
+  {
+   "icon": "bulb",
+   "t": "On doxycycline: photosensitivity; oesophagitis (take upright with water); keep indigestion remedies and iron 2–3 h apart."
+  },
+  {
+   "icon": "bulb",
+   "t": "Women on a COC should know the **VTE warning symptoms** (calf pain/swelling, chest pain, breathlessness) and the **stroke symptoms**."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Acne prescribing & the combined pill?",
+   "a": "Mild to moderate acne in a young adult, or a woman who also wants contraception or has hormonal acne."
+  },
+  {
+   "q": "What drives it?",
+   "a": "Sebum, follicular plugging, *C. acnes* and inflammation; androgens drive sebum, so oestrogen-containing pills help."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "NG198: fixed topical combinations for 12 weeks; add an oral tetracycline for moderate–severe acne (never alone, never with a topical antibiotic); COC as an option, co-cyprindiol with a stop plan."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "VTE risk with co-cyprindiol and other COCs (UKMEC); mood change; severe or scarring acne needing referral for isotretinoin."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "Scarring, nodulocystic or rapidly worsening acne, or severe psychological distress: refer for isotretinoin assessment."
+  }
+ ]
+}

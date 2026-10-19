@@ -1,0 +1,158 @@
+{
+ "_auto": true,
+ "glance": {
+  "chips": [
+   "Module 3 · Week 6",
+   "lamellar dyshidrosis",
+   "peeling palms",
+   "palm peeling"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "Recurrent ring-like peeling (collarettes) on the palms and fingertips, often in summer, with little itch or inflammation."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "A defect in the cohesion of the outer stratum corneum; sweating and irritants make it worse."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "Reassure, emollients and urea or lactic acid creams, avoid soaps and solvents; steroids rarely help."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "Pompholyx, hand eczema, tinea manuum and peeling after infection (scarlet fever, Kawasaki disease in children).",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "points": [
+   "Cause unknown; may run in families.",
+   "**Aggravating factors:** heat/summer, **palmar hyperhidrosis**, and irritants — water, soap, detergents, solvents, friction. Roughly half of patients notice summer worsening.",
+   "Not an allergy, not infective, and not steroid-responsive inflammation."
+  ],
+  "visuals": []
+ },
+ "features": {
+  "photo": "m3w6:A01",
+  "points": [],
+  "visuals": [],
+  "variants": null,
+  "groups": [
+   0
+  ]
+ },
+ "confirm": {
+  "cols": [
+   {
+    "k": "Clinical",
+    "icon": "check",
+    "points": [
+     "— history of recurrent non-itchy peeling + collarettes on non-inflamed palms."
+    ]
+   },
+   {
+    "k": "Key points",
+    "icon": "check",
+    "points": [
+     "Supportive tests if doubt: **skin scrapings negative** for fungus; **patch tests negative**; biopsy (rarely needed) shows cleavage within the stratum corneum."
+    ]
+   }
+  ]
+ },
+ "differentials": {
+  "cards": [
+   {
+    "name": "Keratolysis exfoliativa",
+    "clue": "No"
+   },
+   {
+    "name": "Irritant contact (hand) dermatitis",
+    "clue": "Yes/sore",
+    "link": "contact-dermatitis"
+   },
+   {
+    "name": "Pompholyx",
+    "clue": "**Intense**",
+    "link": "hand-eczema"
+   },
+   {
+    "name": "Palmoplantar psoriasis",
+    "clue": "Mild/sore"
+   },
+   {
+    "name": "Early palmoplantar pustulosis (PPP)",
+    "clue": "Variable/burning"
+   },
+   {
+    "name": "Tinea manuum",
+    "clue": "Mild"
+   },
+   {
+    "name": "Others (rare)",
+    "clue": "—"
+   }
+  ]
+ },
+ "manage": {
+  "rungs": []
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "urgent",
+    "t": "Peeling fingertips in a **child with fever** for 5 days or more: think Kawasaki disease (urgent)."
+   },
+   {
+    "when": "routine",
+    "t": "Peeling after a sore throat and rash: scarlet fever."
+   }
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "\"Peeling but not itchy, not red, worse in summer, steroid-proof\" = think KE before re-issuing steroid."
+  },
+  {
+   "icon": "bulb",
+   "t": "Scrape any one-handed or treatment-resistant peeling to exclude tinea before labelling KE."
+  },
+  {
+   "icon": "bulb",
+   "t": "Avoid picking/peeling the lamellae — trim loose edges with clean scissors to reduce painful cracks."
+  },
+  {
+   "icon": "bulb",
+   "t": "Fingertip numbness that persists between episodes → examine/assess for neuropathy."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Keratolysis exfoliativa?",
+   "a": "Recurrent ring-like peeling (collarettes) on the palms and fingertips, often in summer, with little itch or inflammation."
+  },
+  {
+   "q": "What drives it?",
+   "a": "A defect in the cohesion of the outer stratum corneum; sweating and irritants make it worse."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "Reassure, emollients and urea or lactic acid creams, avoid soaps and solvents; steroids rarely help."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "Pompholyx, hand eczema, tinea manuum and peeling after infection (scarlet fever, Kawasaki disease in children)."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "Peeling fingertips in a **child with fever** for 5 days or more: think Kawasaki disease (urgent)."
+  }
+ ]
+}

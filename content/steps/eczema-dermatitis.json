@@ -1,0 +1,345 @@
+{
+ "_note": "Curated v3 overlay, condensed from content/conditions/eczema-dermatitis.json (full text kept under 'More detail').",
+ "glance": {
+  "chips": [
+   "Commonest inflammatory skin disease",
+   "Starts before 5 in most",
+   "Atopic triad",
+   "NICE / CKS"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "Itchy, ill-defined dry or weeping patches: cheeks in infants, flexures in children and adults."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "Leaky skin barrier plus Th2 inflammation, kept going by the itch–scratch cycle."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "Emollient for everyone, every day. Topical steroid stepped to severity and site."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "Eczema herpeticum: punched-out erosions in an unwell patient. Same-day admission.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "lead": "A leaky barrier meets an over-reactive immune system.",
+  "points": [
+   "**Barrier defect**: filaggrin-related dryness and disordered lipids → water out, irritants and allergens in.",
+   "**Th2 inflammation** drives the itch.",
+   "**Itch–scratch cycle** → lichenification and infection.",
+   "**Triggers**: soaps, detergents, *S. aureus*, allergens, heat, wool, stress.",
+   "**Contact**: irritant (dose-dependent, anyone) or allergic (type IV, needs prior sensitisation)."
+  ],
+  "visuals": [
+   {
+    "ai": "v3-eczema-barrier-section.jpg",
+    "caption": "Healthy ‘brick wall’ barrier (left) vs eczema (right): water escapes, irritants, allergens and microbes get in, and immune cells gather.",
+    "alt": "Skin barrier as a brick wall, intact versus cracked"
+   }
+  ]
+ },
+ "features": {
+  "lead": "Itch first. Then look at the pattern for the patient’s age.",
+  "photo": "A01",
+  "points": [
+   "**Acute**: red, weeping, vesicles or crust; intense itch.",
+   "**Chronic**: dry, scaly, **lichenified**, excoriated; pigment change.",
+   "**Edges are ill-defined** (psoriasis is sharp).",
+   "**Skin of colour**: redness looks violaceous or grey-brown. Judge on thickening, scale and symptoms.",
+   "**Infected?** Honey crust, pustules, rapid worsening, fever."
+  ],
+  "visuals": [
+   {
+    "ai": "v3-eczema-age-map.jpg",
+    "caption": "Pattern by age: infant cheeks, scalp and outer limbs (nappy area spared); child elbow and knee creases, neck; adult hands, flexures, neck and eyelids.",
+    "alt": "Infant, child and adult outlines showing typical eczema sites"
+   }
+  ],
+  "variants": {
+   "title": "Patterns to recognise",
+   "items": [
+    {
+     "name": "Infant",
+     "t": "Red, rough cheeks, scalp and trunk; nappy area often spared.",
+     "where": "Face, extensors",
+     "photo": "A05"
+    },
+    {
+     "name": "Child",
+     "t": "Flexural eczema; eyelids and neck.",
+     "where": "Elbow and knee creases",
+     "photo": "A02"
+    },
+    {
+     "name": "Adult / chronic",
+     "t": "Lichenified, excoriated; hand and nipple eczema common.",
+     "where": "Hands, face, flexures",
+     "photo": "A03"
+    },
+    {
+     "name": "Hand",
+     "t": "Dry, red, scaly dorsal hands and fingers.",
+     "where": "Hands",
+     "photo": "A09"
+    },
+    {
+     "name": "Irritant contact",
+     "t": "Dry, fissured, sore skin at exposure sites.",
+     "where": "Hands especially",
+     "link": "contact-dermatitis"
+    },
+    {
+     "name": "Allergic contact",
+     "t": "Matches the contact pattern; may spread.",
+     "where": "Hands, face, eyelids, jewellery",
+     "link": "contact-dermatitis"
+    }
+   ]
+  },
+  "groups": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   6
+  ]
+ },
+ "confirm": {
+  "cols": [
+   {
+    "k": "History",
+    "icon": "chat",
+    "points": [
+     "Onset, course, triggers, past treatment response.",
+     "Occupation, hobbies, products on the skin.",
+     "Personal or family **atopy**; sleep and quality of life."
+    ]
+   },
+   {
+    "k": "Examine",
+    "icon": "eye",
+    "points": [
+     "Whole skin: excoriation, lichenification, infection.",
+     "Check nails and eyes."
+    ]
+   },
+   {
+    "k": "Severity",
+    "icon": "gauge",
+    "points": [
+     "Grade mild, moderate or severe on area, itch, sleep loss, exudate and thickening.",
+     "EASI / SCORAD are specialist tools."
+    ]
+   },
+   {
+    "k": "Tests",
+    "icon": "flask",
+    "points": [
+     "Usually **none**: clinical diagnosis.",
+     "**Patch test** if contact allergy suspected.",
+     "Swab if infection recurrent; biopsy rarely."
+    ]
+   }
+  ]
+ },
+ "differentials": {
+  "cards": [
+   {
+    "name": "Psoriasis",
+    "clue": "Well-demarcated silvery plaques on extensors and scalp; less itchy; nail pits.",
+    "link": "psoriasis"
+   },
+   {
+    "name": "Seborrhoeic dermatitis",
+    "clue": "Greasy yellow scale: scalp, nasolabial folds, eyebrows, chest.",
+    "photo": "m3w5:D05"
+   },
+   {
+    "name": "Tinea corporis",
+    "clue": "Asymmetrical annular plaque, active scaly edge; scrapings positive.",
+    "link": "tinea"
+   },
+   {
+    "name": "Scabies",
+    "clue": "Night itch, burrows in web spaces, wrists, genitals; itchy contacts.",
+    "link": "scabies"
+   },
+   {
+    "name": "Contact dermatitis",
+    "clue": "Matches exposure in time and place; often asymmetrical or occupational.",
+    "link": "contact-dermatitis"
+   },
+   {
+    "name": "Cutaneous T-cell lymphoma",
+    "clue": "Rare. Persistent atypical plaques in an older adult: refer.",
+    "link": "mycosis-fungoides",
+    "tone": "danger"
+   }
+  ]
+ },
+ "manage": {
+  "lead": "Stepped care (NICE / CKS atopic eczema). Match potency to severity and site.",
+  "rungs": [
+   {
+    "k": "Every patient",
+    "tone": "base",
+    "points": [
+     "**Emollient** liberally and often; soap substitute. No aqueous cream as leave-on.",
+     "Avoid fragranced soaps, bubble baths, wool. Keep nails short.",
+     "OTC **hydrocortisone 1%** short courses, within licence."
+    ]
+   },
+   {
+    "k": "Mild",
+    "tone": "first",
+    "rx": [
+     {
+      "drug": "Mild steroid",
+      "dose": "e.g. hydrocortisone 1%",
+      "dur": "Until 48 h after flare settles"
+     }
+    ]
+   },
+   {
+    "k": "Moderate",
+    "tone": "second",
+    "rx": [
+     {
+      "drug": "Moderate steroid",
+      "dose": "e.g. clobetasone butyrate 0.05%, betamethasone valerate 0.025%",
+      "dur": "Until 48 h after flare settles",
+      "note": "More emollient during a flare."
+     }
+    ]
+   },
+   {
+    "k": "Severe",
+    "tone": "third",
+    "rx": [
+     {
+      "drug": "Potent steroid",
+      "dose": "e.g. betamethasone valerate 0.1%",
+      "dur": "Short course",
+      "note": "Face and flexures: moderate at most."
+     }
+    ]
+   },
+   {
+    "k": "Second line / specialist",
+    "tone": "refer",
+    "points": [
+     "**Topical calcineurin inhibitors** (tacrolimus, pimecrolimus): often specialist or GPwER started.",
+     "Phototherapy or systemic treatment: refer."
+    ]
+   }
+  ],
+  "limits": [
+   {
+    "k": "Maintenance",
+    "t": "Back to emollient; ± weekend steroid on hotspots (not face, genitals, axillae without advice)."
+   },
+   {
+    "k": "Infants < 12 months",
+    "t": "No potent steroid without specialist advice; never very potent in children.",
+    "tone": "warn"
+   }
+  ],
+  "sites": [
+   {
+    "k": "Infected eczema",
+    "t": "Not unwell: no routine antibiotic. If needed: **flucloxacillin**; clarithromycin if penicillin-allergic (erythromycin in pregnancy). Small area: consider topical fusidic acid. Replace contaminated pots."
+   },
+   {
+    "k": "Contact dermatitis",
+    "t": "Identify and avoid the cause; gloves (cotton liners) for wet work; short steroid course. Patch test if chronic, occupational, face or hands."
+   },
+   {
+    "k": "Itch",
+    "t": "Non-sedating antihistamines do little. Short sedating course only if sleep badly disturbed."
+   }
+  ]
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "same-day",
+    "t": "**Eczema herpeticum**: clustered punched-out erosions or vesicles, often with fever. Hospital + aciclovir."
+   },
+   {
+    "when": "same-day",
+    "t": "Severe or spreading infection, or a systemically unwell patient."
+   },
+   {
+    "when": "urgent",
+    "t": "Severe disease not controlled after about a week of stepped treatment."
+   },
+   {
+    "when": "routine",
+    "t": "Diagnostic doubt, recurrent deep infections, major psychosocial impact."
+   },
+   {
+    "when": "routine",
+    "t": "Possible phototherapy or systemics; occupational disease needing workplace advice."
+   }
+  ],
+  "groups": [
+   5
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "drop",
+   "t": "**Prescribe enough emollient**: adults often need several hundred grams a month."
+  },
+  {
+   "icon": "alert",
+   "t": "**Fire risk**: emollient-soaked fabrics burn easily. Keep away from flames.",
+   "tone": "warn"
+  },
+  {
+   "icon": "hand",
+   "t": "Teach **fingertip units** so steroid doses make sense."
+  },
+  {
+   "icon": "shield",
+   "t": "Tackle **steroid phobia**: under-treatment harms more often than steroids do."
+  },
+  {
+   "icon": "eye",
+   "t": "**Inflamed ≠ infected**: weeping crust does not automatically mean an antibiotic."
+  },
+  {
+   "icon": "chat",
+   "t": "Not caused by poor hygiene; the barrier tendency is lifelong."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "How long should a topical steroid continue after a flare?",
+   "a": "About 48 hours after the flare settles, then back to emollient maintenance."
+  },
+  {
+   "q": "First-line oral antibiotic for infected eczema, if one is needed?",
+   "a": "Flucloxacillin (clarithromycin if penicillin-allergic; erythromycin if pregnant and allergic)."
+  },
+  {
+   "q": "What suggests eczema herpeticum, and what do you do?",
+   "a": "Clustered punched-out erosions or vesicles, often with fever. Same-day hospital assessment and aciclovir."
+  },
+  {
+   "q": "Commonest reason eczema treatment fails?",
+   "a": "Under-prescribing emollient: adults often need several hundred grams a month."
+  }
+ ]
+}

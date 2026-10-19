@@ -1,0 +1,114 @@
+{
+ "_auto": true,
+ "glance": {
+  "chips": [
+   "Module 1 · Week 3",
+   "ramipril angioedema",
+   "lisinopril",
+   "bradykinin"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "Recurrent lip, tongue or face swelling without hives in someone on ramipril, lisinopril or another ACE inhibitor."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "ACE inhibitors block bradykinin breakdown; bradykinin leaks fluid into deep tissue, so histamine-based treatments work poorly."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "Airway first (999 if needed); stop the ACE inhibitor permanently and record it; choose a non-ACE alternative with care."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "Airway compromise; hereditary angioedema; ARB or sacubitril/valsartan cross-reactivity; DPP-4 inhibitors raising the risk.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "points": [
+   "**Triggers:** minor trauma/surgery, dental work and intubation can precipitate attacks. That fits this case (swelling a week after skin-tag removal), though the procedure is a trigger, not the cause."
+  ],
+  "visuals": []
+ },
+ "features": {
+  "photo": "m1w3:D01",
+  "points": [],
+  "visuals": [],
+  "variants": null
+ },
+ "confirm": {
+  "cols": [
+   {
+    "k": "Key points",
+    "icon": "check",
+    "points": [
+     "Clinical: angioedema with **no urticaria**, on an ACE-i, not responding to antihistamine/steroid."
+    ]
+   }
+  ]
+ },
+ "differentials": {
+  "cards": []
+ },
+ "manage": {
+  "rungs": []
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "emergency",
+    "t": "Tongue or throat swelling, voice change, stridor or difficulty swallowing: **999** now."
+   },
+   {
+    "when": "routine",
+    "t": "Stop the ACE inhibitor **permanently** even if the swelling has settled, and document it as an adverse reaction."
+   }
+  ],
+  "groups": [
+   0
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "\"Angioedema **without wheals** on an ACE-i = bradykinin. Antihistamines won't fix it — **stopping the ACE-i** will (eventually).\""
+  },
+  {
+   "icon": "bulb",
+   "t": "Check every ACE-i patient on the medication review for previous facial or tongue swelling — patients often don't link it to a long-standing tablet."
+  },
+  {
+   "icon": "bulb",
+   "t": "The risk persists for years on treatment, so this is not just a \"first-month\" issue."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of ACE-inhibitor (bradykinin) angioedema?",
+   "a": "Recurrent lip, tongue or face swelling without hives in someone on ramipril, lisinopril or another ACE inhibitor."
+  },
+  {
+   "q": "What drives it?",
+   "a": "ACE inhibitors block bradykinin breakdown; bradykinin leaks fluid into deep tissue, so histamine-based treatments work poorly."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "Airway first (999 if needed); stop the ACE inhibitor permanently and record it; choose a non-ACE alternative with care."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "Airway compromise; hereditary angioedema; ARB or sacubitril/valsartan cross-reactivity; DPP-4 inhibitors raising the risk."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "Tongue or throat swelling, voice change, stridor or difficulty swallowing: **999** now."
+  }
+ ]
+}

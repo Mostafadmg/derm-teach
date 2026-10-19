@@ -1,0 +1,250 @@
+{
+ "_auto": true,
+ "glance": {
+  "chips": [
+   "atopic eczema",
+   "atopic dermatitis",
+   "contact dermatitis"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "Itchy, ill-defined, dry or weeping patches in the flexures (child/adult) or on the cheeks (infant); a personal or family history of atopy."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "A leaky skin barrier plus Th2-driven inflammation, kept going by the itch–scratch cycle."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "Emollient for everyone, every day. Add a topical steroid stepped to severity and body site."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "Eczema herpeticum: punched-out erosions in an unwell patient. Admit the same day.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "points": [
+   "**Barrier defect.** Filaggrin-related dryness and a disordered lipid layer increase water loss and let irritants and allergens in.",
+   "**Immune dysregulation.** Th2-skewed inflammation drives the itch.",
+   "**Triggers:** soaps and detergents, *S. aureus*, allergens, heat, wool, climate and stress.",
+   "**Scratching** perpetuates the cycle, causing lichenification and secondary infection."
+  ],
+  "visuals": [
+   {
+    "ai": "eczema-pathophysiology-cropped.jpg",
+    "caption": "The barrier–inflammation–itch cycle in atopic eczema. A defective stratum corneum lets water out and irritants and allergens in, which drives immune activation, itch and scratching."
+   }
+  ]
+ },
+ "features": {
+  "photo": "A01",
+  "points": [],
+  "visuals": [],
+  "variants": {
+   "title": "Types to recognise",
+   "items": [
+    {
+     "name": "Acute atopic flare",
+     "t": "Red, weeping, vesicles or crust; intense itch",
+     "where": "Varies with age (below)"
+    },
+    {
+     "name": "Chronic atopic",
+     "t": "Dry, scaly, lichenified, excoriated; pigment change",
+     "where": "Flexures; hands in adults"
+    },
+    {
+     "name": "Infant",
+     "t": "Red, rough cheeks, scalp and trunk; nappy area often spared",
+     "where": "Face and extensors"
+    },
+    {
+     "name": "Child",
+     "t": "Flexural eczema; eyelids and neck",
+     "where": "Elbow and knee creases"
+    },
+    {
+     "name": "Adult",
+     "t": "Flexural or diffuse; hand and nipple eczema common",
+     "where": "Hands, face, flexures"
+    },
+    {
+     "name": "Irritant contact",
+     "t": "Dry, fissured or red, sore skin at exposure sites",
+     "where": "Hands especially"
+    },
+    {
+     "name": "Allergic contact",
+     "t": "Eczema matching the contact pattern; may spread",
+     "where": "Hands, face, eyelids, under jewellery"
+    }
+   ]
+  },
+  "groups": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   6
+  ]
+ },
+ "confirm": {
+  "cols": [
+   {
+    "k": "History",
+    "icon": "chat",
+    "points": [
+     "onset and course, triggers, occupation and hobbies, products used on the skin, response to past treatment, sleep and quality of life."
+    ]
+   },
+   {
+    "k": "Examination",
+    "icon": "eye",
+    "points": [
+     "look at the whole skin for excoriation, lichenification and infection; check nails and eyes."
+    ]
+   },
+   {
+    "k": "Investigate when",
+    "icon": "flask",
+    "points": [
+     "the diagnosis is uncertain or treatment fails. Consider **patch testing** for suspected contact allergy, a swab if infection is suspected or recurrent, and rarely a biopsy."
+    ]
+   },
+   {
+    "k": "Severity",
+    "icon": "gauge",
+    "points": [
+     "EASI and SCORAD are specialist and audit tools. In practice, grade as mild, moderate or severe using area, itch, sleep loss, exudate and thickening."
+    ]
+   }
+  ]
+ },
+ "differentials": {
+  "cards": [
+   {
+    "name": "Psoriasis",
+    "clue": "Well-demarcated plaques with silvery scale on extensors and scalp; usually less itchy; nail pitting",
+    "link": "psoriasis"
+   },
+   {
+    "name": "Seborrhoeic dermatitis",
+    "clue": "Greasy yellow scale on scalp, nasolabial folds, eyebrows and chest"
+   },
+   {
+    "name": "Tinea corporis",
+    "clue": "Asymmetrical annular plaque with an active scaly edge; scrapings positive",
+    "link": "annular-rashes"
+   },
+   {
+    "name": "Scabies",
+    "clue": "Intense itch, worse at night; burrows in web spaces, wrists and genitals; itchy contacts",
+    "link": "scabies"
+   },
+   {
+    "name": "Contact vs atopic",
+    "clue": "Contact eczema matches exposure in time and place, is often asymmetrical, and may be occupational"
+   },
+   {
+    "name": "Cutaneous T-cell lymphoma (rare)",
+    "clue": "Persistent, atypical plaques in an older adult; refer if anything seems odd",
+    "link": "mycosis-fungoides"
+   }
+  ]
+ },
+ "manage": {
+  "rungs": []
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "same-day",
+    "t": "**Suspected eczema herpeticum:** clustered punched-out erosions or vesicles, often with fever. Needs **same-day hospital assessment** and aciclovir."
+   },
+   {
+    "when": "routine",
+    "t": "Severe or spreading infection, or a systemically unwell patient."
+   },
+   {
+    "when": "routine",
+    "t": "Severe disease not controlled after about a week of appropriate stepped treatment."
+   },
+   {
+    "when": "routine",
+    "t": "Diagnostic uncertainty, recurrent deep infections, or a major psychosocial impact."
+   },
+   {
+    "when": "routine",
+    "t": "Possible need for phototherapy or systemic treatment, or occupational disease needing workplace advice."
+   }
+  ],
+  "groups": [
+   5
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "**Prescribe enough emollient.** Adults often need several hundred grams a month, and under-prescribing is the commonest reason treatment fails. Apply in the direction of hair growth, ideally after bathing while the skin is still damp."
+  },
+  {
+   "icon": "bulb",
+   "t": "**Fire risk:** dressings, clothing and bedding soaked in paraffin-based (and other) emollients can catch fire easily. Warn patients to keep away from naked flames."
+  },
+  {
+   "icon": "bulb",
+   "t": "Teach **fingertip units** (FTUs) so steroid doses are understood."
+  },
+  {
+   "icon": "bulb",
+   "t": "Tackle **steroid phobia** with clear advice on potency, site and duration. Under-treatment and rebound are far more common than harm."
+  },
+  {
+   "icon": "bulb",
+   "t": "**Inflamed is not the same as infected.** Weeping crust does not automatically mean an antibiotic."
+  },
+  {
+   "icon": "bulb",
+   "t": "**Pregnancy:** most emollients and mild to moderate steroids are acceptable. Check the BNF for each product."
+  },
+  {
+   "icon": "bulb",
+   "t": "Counselling: eczema is not caused by poor hygiene, and the barrier tendency is lifelong even when the skin is clear."
+  },
+  {
+   "icon": "bulb",
+   "t": "Hands and feet: see [hand eczema](condition:hand-eczema) for occupational dermatitis, pompholyx and patch-test referral."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Eczema / dermatitis?",
+   "a": "Itchy, ill-defined, dry or weeping patches in the flexures (child/adult) or on the cheeks (infant); a personal or family history of atopy."
+  },
+  {
+   "q": "What drives it?",
+   "a": "A leaky skin barrier plus Th2-driven inflammation, kept going by the itch–scratch cycle."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "Emollient for everyone, every day. Add a topical steroid stepped to severity and body site."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "Eczema herpeticum: punched-out erosions in an unwell patient. Admit the same day."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "**Suspected eczema herpeticum:** clustered punched-out erosions or vesicles, often with fever. Needs **same-day hospital assessment** and aciclovir."
+  }
+ ]
+}

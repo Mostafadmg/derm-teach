@@ -1,0 +1,131 @@
+{
+ "_auto": true,
+ "glance": {
+  "chips": [
+   "Module 1 · Week 1",
+   "skin structure",
+   "epidermis",
+   "dermis"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "Linking a lesion to its level in the skin; judging sun risk, PIH risk or erythema in skin of colour; deciding whether dermoscopy helps."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "Epidermal processes give scale and colour change; dermal processes give induration, nodules and scarring; melanin biology sets the phototype."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "Record the Fitzpatrick type, assess severity by more than redness, and counsel photoprotection to match."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "Under-calling inflammation in darker skin; melanoma in any skin type (acral and nail sites in darker skin).",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "points": [
+   "UVB converts 7-dehydrocholesterol in the epidermis to pre-vitamin D3 → liver (25-OH D) → kidney (1,25-(OH)2 D). Melanin competes for UVB, so darker skin needs **longer exposure** to make the same amount of vitamin D."
+  ],
+  "visuals": []
+ },
+ "features": {
+  "photo": "m1w1:D01",
+  "points": [
+   "Thick-roofed tense bullae on flexural limbs/trunk in older adults → BP.",
+   "Mucosal erosions + flaccid blisters → pemphigus (refer urgently).",
+   "Itchy palmar/digital vesicles → pompholyx (spongiotic).",
+   "UK lies ~50–60°N: from roughly **October to March** UVB is too weak for meaningful cutaneous vitamin D synthesis in anyone.",
+   "Meta-analyses and a Cochrane review (Dinnes et al. 2018) show dermoscopy improves **melanoma detection accuracy** versus naked-eye examination alone, with better sensitivity without loss of specificity when used by trained clinicians.",
+   "Reduces unnecessary excisions of benign lesions (better benign:malignant excision ratio) and helps triage referrals."
+  ],
+  "visuals": [],
+  "variants": null,
+  "groups": [
+   0,
+   1
+  ]
+ },
+ "confirm": {
+  "cols": [],
+  "groups": [
+   2
+  ]
+ },
+ "differentials": {
+  "cards": [
+   {
+    "name": "Pemphigus vulgaris; bullous impetigo; SSSS; TEN",
+    "clue": "Bullous pemphigoid; bullous drug reaction; friction blister; burns; insect-bite bullae; porphyria cutanea tarda",
+    "link": "pemphigus"
+   }
+  ]
+ },
+ "manage": {
+  "rungs": []
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "routine",
+    "t": "Changing or atypical pigmented lesion, including **acral and nail** sites in darker skin types: NICE NG12 referral."
+   },
+   {
+    "when": "routine",
+    "t": "Severity under-estimated in skin of colour: look for thickening, scale, pigment change and symptoms rather than redness alone."
+   }
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "Use histology to explain treatment logic: e.g. emollients restore stratum corneum lipids; potent steroids in lichenification target the thickened epidermis; why steroids cause atrophy (dermal collagen suppression)."
+  },
+  {
+   "icon": "bulb",
+   "t": "Patients with skin of colour often prioritise pigment change over the active rash — address it explicitly and set timelines (PIH fades over months with sun protection)."
+  },
+  {
+   "icon": "bulb",
+   "t": "Keloid-prone (V–VI) patients: counsel before piercings/elective procedures; treat inflammatory acne promptly."
+  },
+  {
+   "icon": "bulb",
+   "t": "Don't assume darker skin \"can't burn\" or doesn't need skin checks — acral melanoma awareness."
+  },
+  {
+   "icon": "bulb",
+   "t": "\"When in doubt, cut it out (or refer)\" — a \"benign-looking\" dermoscopic pattern in a changing lesion still warrants referral. Document dermoscopy findings and whether images were stored."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Skin layers, Fitzpatrick skin types & dermoscopy?",
+   "a": "Linking a lesion to its level in the skin; judging sun risk, PIH risk or erythema in skin of colour; deciding whether dermoscopy helps."
+  },
+  {
+   "q": "What drives it?",
+   "a": "Epidermal processes give scale and colour change; dermal processes give induration, nodules and scarring; melanin biology sets the phototype."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "Record the Fitzpatrick type, assess severity by more than redness, and counsel photoprotection to match."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "Under-calling inflammation in darker skin; melanoma in any skin type (acral and nail sites in darker skin)."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "Changing or atypical pigmented lesion, including **acral and nail** sites in darker skin types: NICE NG12 referral."
+  }
+ ]
+}

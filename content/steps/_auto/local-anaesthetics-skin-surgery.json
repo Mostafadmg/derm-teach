@@ -1,0 +1,120 @@
+{
+ "_auto": true,
+ "glance": {
+  "chips": [
+   "Module 2 · Week 6",
+   "lidocaine maximum dose",
+   "lidocaine with adrenaline",
+   "LAST"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "Planning or checking a local anaesthetic dose, or a patient reporting an ‘allergy’ to local anaesthetic, latex or skin prep."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "Sodium-channel blockade stops nerve conduction; adrenaline prolongs action and reduces bleeding; overdose affects brain and heart."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "1% = 10 mg/ml; BNF maximum 200 mg plain and 500 mg with adrenaline (weight-based 3 and 7 mg/kg as a cross-check); reduce in frailty, liver disease and heart failure; latex-free room and alternative prep for allergy."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "Local anaesthetic systemic toxicity (perioral tingling, seizures, arrhythmia): stop, call for help, AAGBI/Intralipid protocol; chlorhexidine anaphylaxis.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "points": [
+   "Healthcare workers.",
+   "**Spina bifida and multiple childhood surgeries.**",
+   "Atopy.",
+   "**Latex–fruit syndrome**: cross-reaction with **banana, avocado, kiwi, chestnut** and others."
+  ],
+  "visuals": []
+ },
+ "features": {
+  "photo": "m2w6:E01",
+  "points": [
+   "**Use ideal body weight in obesity.** **Reduce the dose in frail elderly people, in hepatic impairment, in heart failure** (reduced clearance), and in highly vascular sites (absorption).",
+   "**Note on 1:80,000 adrenaline:** lidocaine 2% with adrenaline 1:80,000 is the **dental cartridge** formulation. For skin surgery in UK practice, **1% or 2% with 1:200,000 adrenaline** is more usual. The maximum-dose principle is the same.",
+   "**Early (CNS):** perioral numbness or tingling, **metallic taste**, tinnitus, light-headedness, visual disturbance, slurred speech, agitation or drowsiness.",
+   "**Late:** muscle twitching → **seizures** → coma; **cardiovascular:** bradycardia, arrhythmias, hypotension, **cardiac arrest** (bupivacaine is most cardiotoxic).",
+   "**Prevention:** calculate the maximum dose before starting, **aspirate before injecting**, inject slowly, use the lowest effective volume, and keep patients under observation.",
+   "**Distinguish from vasovagal** (pallor, sweating, bradycardia, quick recovery when lying flat; the commonest event) and **adrenaline effect** (palpitations, tremor, anxiety, tachycardia)."
+  ],
+  "visuals": [],
+  "variants": null
+ },
+ "confirm": {
+  "cols": []
+ },
+ "differentials": {
+  "cards": []
+ },
+ "manage": {
+  "rungs": []
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "emergency",
+    "t": "Perioral tingling, metallic taste, confusion, seizures or arrhythmia after injection: **local anaesthetic systemic toxicity**, stop, 999 and lipid emulsion per the AAGBI guideline."
+   },
+   {
+    "when": "never",
+    "t": "Never exceed the **BNF maximum**: lidocaine 200 mg plain or 500 mg with adrenaline (adult)."
+   }
+  ],
+  "groups": [
+   0
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "Warm, buffered lidocaine (with 8.4% sodium bicarbonate, 1:10) injected slowly through a fine needle reduces pain (practitioner technique; local policy)."
+  },
+  {
+   "icon": "bulb",
+   "t": "Tell the patient the numbness lasts 1–3 h (longer with bupivacaine). Avoid hot drinks or biting the lip after facial or oral blocks."
+  },
+  {
+   "icon": "bulb",
+   "t": "**Adrenaline auto-injector** patients: check they carry **two** devices in date (MHRA 2017 advice), and that they know latex is hidden in balloons, condoms, rubber gloves and some dental and medical products."
+  },
+  {
+   "icon": "bulb",
+   "t": "Latex-fruit syndrome foods may cause oral allergy or anaphylaxis."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Local anaesthetics & allergy in skin surgery?",
+   "a": "Planning or checking a local anaesthetic dose, or a patient reporting an ‘allergy’ to local anaesthetic, latex or skin prep."
+  },
+  {
+   "q": "What drives it?",
+   "a": "Sodium-channel blockade stops nerve conduction; adrenaline prolongs action and reduces bleeding; overdose affects brain and heart."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "1% = 10 mg/ml; BNF maximum 200 mg plain and 500 mg with adrenaline (weight-based 3 and 7 mg/kg as a cross-check); reduce in frailty, liver disease and heart failure; latex-free room and alternative prep for allergy."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "Local anaesthetic systemic toxicity (perioral tingling, seizures, arrhythmia): stop, call for help, AAGBI/Intralipid protocol; chlorhexidine anaphylaxis."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "Perioral tingling, metallic taste, confusion, seizures or arrhythmia after injection: **local anaesthetic systemic toxicity**, stop, 999 and lipid emulsion per the AAGBI guideline."
+  }
+ ]
+}

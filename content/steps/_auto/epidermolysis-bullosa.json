@@ -1,0 +1,149 @@
+{
+ "_auto": true,
+ "glance": {
+  "chips": [
+   "Module 6 · Week 1",
+   "EB",
+   "EB simplex",
+   "junctional EB"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "A neonate or infant with blisters and erosions from minimal friction (hands, feet, nappy area), ± absent skin at birth, nail dystrophy or mouth blisters."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "Inherited defects in adhesion proteins; the level of split defines the type (simplex, junctional, dystrophic, Kindler)."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "Urgent referral to an EB centre, gentle handling, no adhesives, and soft silicone dressings under specialist guidance."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "Airway involvement (hoarse cry in JEB), sepsis, dehydration or failure to thrive, and SCC in chronic RDEB wounds.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "points": [],
+  "visuals": [
+   {
+    "ai": "eb-skin-fragility.jpg",
+    "caption": "Skin fragility in EB: the level of the split in EB simplex, junctional and dystrophic EB compared with normal skin."
+   }
+  ]
+ },
+ "features": {
+  "photo": "m6w1:H01",
+  "points": [
+   "Blisters and erosions at **friction sites** (hands, feet, belt line, nappy area). They may be present at birth.",
+   "Nail dystrophy, milia and scarring (especially dystrophic types). Mitten deformities in severe RDEB.",
+   "**Mucosa:** mouth, oesophagus (dysphagia), larynx (hoarse cry in severe JEB).",
+   "Localised EBS often presents when the child starts **crawling or walking**.",
+   "A neonate with unexplained blistering, with or without congenital absence of skin: **consider EB until proven otherwise**."
+  ],
+  "visuals": [],
+  "variants": null,
+  "groups": [
+   0,
+   1
+  ]
+ },
+ "confirm": {
+  "cols": []
+ },
+ "differentials": {
+  "cards": [
+   {
+    "name": "Friction or sucking blisters",
+    "clue": "Localised; well baby; no family history"
+   },
+   {
+    "name": "SSSS / bullous impetigo",
+    "clue": "Signs of infection; microbiology"
+   },
+   {
+    "name": "HSV / varicella",
+    "clue": "Viral morphology; PCR"
+   },
+   {
+    "name": "Incontinentia pigmenti",
+    "clue": "Blaschko-line stages; usually female"
+   },
+   {
+    "name": "Autoimmune neonatal blistering (maternal antibodies)",
+    "clue": "Maternal history; transient"
+   },
+   {
+    "name": "Mastocytosis, other bullous genodermatoses",
+    "clue": "Specialist"
+   }
+  ]
+ },
+ "manage": {
+  "rungs": []
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "emergency",
+    "t": "Respiratory distress or hoarseness (airway involvement in JEB)."
+   },
+   {
+    "when": "routine",
+    "t": "Dehydration, failure to thrive, or sepsis."
+   },
+   {
+    "when": "routine",
+    "t": "A new, enlarging or ulcerating chronic wound in RDEB (**SCC**)."
+   }
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "Give parents **DEBRA UK** support details early."
+  },
+  {
+   "icon": "bulb",
+   "t": "Genetic counselling for future pregnancies is a specialist role."
+  },
+  {
+   "icon": "bulb",
+   "t": "Never blame ‘rough handling’ alone when true fragility is present."
+  },
+  {
+   "icon": "bulb",
+   "t": "Even mild localised EBS benefits from a correct diagnosis (footwear and blister care education)."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Epidermolysis bullosa (EB)?",
+   "a": "A neonate or infant with blisters and erosions from minimal friction (hands, feet, nappy area), ± absent skin at birth, nail dystrophy or mouth blisters."
+  },
+  {
+   "q": "What drives it?",
+   "a": "Inherited defects in adhesion proteins; the level of split defines the type (simplex, junctional, dystrophic, Kindler)."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "Urgent referral to an EB centre, gentle handling, no adhesives, and soft silicone dressings under specialist guidance."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "Airway involvement (hoarse cry in JEB), sepsis, dehydration or failure to thrive, and SCC in chronic RDEB wounds."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "Respiratory distress or hoarseness (airway involvement in JEB)."
+  }
+ ]
+}

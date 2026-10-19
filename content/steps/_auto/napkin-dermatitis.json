@@ -1,0 +1,178 @@
+{
+ "_auto": true,
+ "glance": {
+  "chips": [
+   "Module 6 · Week 1",
+   "nappy rash",
+   "diaper rash",
+   "napkin dermatitis"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "Red, sore skin in the nappy area of a 3–15-month-old. Folds spared suggests irritant; folds involved with satellites suggests Candida."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "Occlusion, urine, faecal enzymes and friction break down the barrier, and Candida thrives on the damaged skin."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "Frequent changes, nappy-free time, and a thick barrier ointment at every change. Add hydrocortisone 1% (irritant) or an azole (Candida)."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "An unwell infant, an infant under 1 month, ulceration, non-response (zinc deficiency, LCH), or safeguarding concerns.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "points": [
+   "Occlusion and urine cause over-hydration and maceration.",
+   "Faecal enzymes and bile salts damage the barrier, and ammonia raises the pH.",
+   "Friction, and an atopic or seborrhoeic tendency.",
+   "*Candida albicans* thrives on damaged, moist skin.",
+   "It is not usually an allergy to the nappy, and it is not tinea."
+  ],
+  "visuals": []
+ },
+ "features": {
+  "photo": "m6w1:F11",
+  "points": [],
+  "visuals": [],
+  "variants": {
+   "title": "Types to recognise",
+   "items": [
+    {
+     "name": "Irritant napkin dermatitis",
+     "t": "Redness ± scale or erosions on **convex surfaces** in contact with the nappy; **folds often spared**",
+     "where": ""
+    },
+    {
+     "name": "Candidal",
+     "t": "Bright red, shiny plaques **involving the folds**, with **satellite** papules and pustules",
+     "where": ""
+    },
+    {
+     "name": "Impetigo",
+     "t": "Irregular blisters, pustules or honey crust",
+     "where": ""
+    },
+    {
+     "name": "Seborrhoeic",
+     "t": "Salmon-pink patches in folds ± cradle cap",
+     "where": ""
+    },
+    {
+     "name": "Psoriasis (‘napkin psoriasis’)",
+     "t": "Persistent, well-demarcated, shiny plaques",
+     "where": ""
+    },
+    {
+     "name": "Atopic eczema",
+     "t": "Itchy rash elsewhere; nappy area often relatively spared",
+     "where": ""
+    }
+   ]
+  },
+  "groups": [
+   0,
+   1
+  ]
+ },
+ "confirm": {
+  "cols": []
+ },
+ "differentials": {
+  "cards": []
+ },
+ "manage": {
+  "rungs": [
+   {
+    "k": "Barrier and self-care",
+    "tone": "base",
+    "points": [
+     "Change nappies frequently, with nappy-free time when practical.",
+     "Cleanse gently with water or a non-soap cleanser, and pat dry.",
+     "Apply a **thick barrier ointment** (petrolatum ± zinc oxide) at **every change**.",
+     "Use modern absorbent disposables. With cloth nappies, use liners and avoid plastic pants. Avoid fragranced wipes."
+    ]
+   },
+   {
+    "k": "Topical prescribing",
+    "tone": "first",
+    "points": [
+     "Inflamed irritant rash: **hydrocortisone 1%**, thin layer, for a short course (usually up to 7 days).",
+     "Suspected Candida: a topical **imidazole** (clotrimazole, miconazole, econazole), continued after the skin looks clear (often 7–14 days in total).",
+     "Combination steroid and antifungal products: short courses only. **No potent steroids on nappy skin.**",
+     "Secondary bacterial infection: follow local guidance (oral flucloxacillin if needed; topical fusidic acid only for very localised areas)."
+    ]
+   }
+  ]
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "routine",
+    "t": "Infant **under 1 month** with significant rash, or a **systemically unwell** infant."
+   },
+   {
+    "when": "routine",
+    "t": "Severe or **ulcerated** rash, or failure to improve with good barrier care and appropriate treatment."
+   },
+   {
+    "when": "routine",
+    "t": "Diagnostic uncertainty, or suspected nutritional deficiency or rare disease."
+   },
+   {
+    "when": "routine",
+    "t": "Bruising or a pattern suggesting non-accidental injury."
+   }
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "**Folds involved with satellites: treat Candida. Folds spared: irritant pattern.**"
+  },
+  {
+   "icon": "bulb",
+   "t": "Parents often use too little barrier ointment, so show them how much."
+  },
+  {
+   "icon": "bulb",
+   "t": "A short course of mild hydrocortisone is appropriate. Potent steroids are not for the nappy area in primary care."
+  },
+  {
+   "icon": "bulb",
+   "t": "Breastfed babies’ stools are often less alkaline, which may reduce the irritant load (supportive counselling, not a treatment claim)."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Napkin (nappy) dermatitis?",
+   "a": "Red, sore skin in the nappy area of a 3–15-month-old. Folds spared suggests irritant; folds involved with satellites suggests Candida."
+  },
+  {
+   "q": "What drives it?",
+   "a": "Occlusion, urine, faecal enzymes and friction break down the barrier, and Candida thrives on the damaged skin."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "Frequent changes, nappy-free time, and a thick barrier ointment at every change. Add hydrocortisone 1% (irritant) or an azole (Candida)."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "An unwell infant, an infant under 1 month, ulceration, non-response (zinc deficiency, LCH), or safeguarding concerns."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "Infant **under 1 month** with significant rash, or a **systemically unwell** infant."
+  }
+ ]
+}

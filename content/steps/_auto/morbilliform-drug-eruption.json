@@ -1,0 +1,107 @@
+{
+ "_auto": true,
+ "glance": {
+  "chips": [
+   "Module 1 · Week 3",
+   "maculopapular drug rash",
+   "exanthematous eruption",
+   "amoxicillin rash"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "A symmetrical, itchy measles-like rash on the trunk 1–2 weeks after an antibiotic, anticonvulsant or allopurinol."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "Delayed T-cell reaction (morbilliform) or immediate IgE/mast-cell reaction (urticaria) to the drug."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "Stop the culprit if possible; emollient, antihistamine and a moderate steroid; review in 48 h; record the reaction type precisely."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "Fever, facial oedema, mucosal or skin pain, blisters or organ involvement: it is not a simple exanthem.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "points": [
+   "MPE is a delayed **type IVb/IVc** T-cell reaction; latency is typically 4–14 days.",
+   "The **amoxicillin–EBV rash** occurs in most patients with infectious mononucleosis given aminopenicillins. It is usually not a true allergy."
+  ],
+  "visuals": []
+ },
+ "features": {
+  "photo": "m1w3:A01",
+  "points": [
+   "**MPE:** begins on the trunk/flexures and spreads to the limbs, symmetrically. It often spares the face and does not involve mucosae. Mild fever is possible. It resolves in 1–2 weeks after stopping, often with fine desquamation.",
+   "**Urticaria:** wheals with a flare, individual lesions lasting <24 h; ± angioedema of lips, eyelids or genitals."
+  ],
+  "visuals": [],
+  "variants": null,
+  "groups": [
+   0,
+   1
+  ]
+ },
+ "confirm": {
+  "cols": []
+ },
+ "differentials": {
+  "cards": []
+ },
+ "manage": {
+  "rungs": []
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "routine",
+    "t": "Rash with fever, facial swelling, eosinophilia or abnormal LFTs: treat as possible **DRESS**."
+   },
+   {
+    "when": "emergency",
+    "t": "Urticaria with breathing, throat or circulation symptoms: anaphylaxis, IM adrenaline and **999**."
+   }
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "The rash may worsen for a couple of days after stopping — that does not mean the stop failed."
+  },
+  {
+   "icon": "bulb",
+   "t": "\"Amoxicillin rash in glandular fever\" is not usually penicillin allergy — but label carefully and refer for de-labelling rather than ignoring it."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Morbilliform drug eruption & drug urticaria?",
+   "a": "A symmetrical, itchy measles-like rash on the trunk 1–2 weeks after an antibiotic, anticonvulsant or allopurinol."
+  },
+  {
+   "q": "What drives it?",
+   "a": "Delayed T-cell reaction (morbilliform) or immediate IgE/mast-cell reaction (urticaria) to the drug."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "Stop the culprit if possible; emollient, antihistamine and a moderate steroid; review in 48 h; record the reaction type precisely."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "Fever, facial oedema, mucosal or skin pain, blisters or organ involvement: it is not a simple exanthem."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "Rash with fever, facial swelling, eosinophilia or abnormal LFTs: treat as possible **DRESS**."
+  }
+ ]
+}

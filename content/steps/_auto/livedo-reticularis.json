@@ -1,0 +1,101 @@
+{
+ "_auto": true,
+ "glance": {
+  "chips": [
+   "Module 1 · Week 4",
+   "mottled skin",
+   "net-like rash",
+   "cutis marmorata"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "A purple-blue lace-like pattern on the legs, arms or trunk."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "Slowed blood flow in the venous plexus around each skin ‘cone’: physiological in cold, or due to vessel blockage, hyperviscosity or vasculitis."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "Decide: complete and fading (reassure) or broken and fixed (investigate: FBC, clotting, antiphospholipid antibodies, ANA, cryoglobulins, lipids)."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "Antiphospholipid syndrome, Sneddon syndrome (stroke), cholesterol emboli after angiography, PAN, calciphylaxis.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "points": [],
+  "visuals": []
+ },
+ "features": {
+  "photo": "m1w4:D03",
+  "points": [],
+  "visuals": [],
+  "variants": null,
+  "groups": [
+   0,
+   1
+  ]
+ },
+ "confirm": {
+  "cols": []
+ },
+ "differentials": {
+  "cards": []
+ },
+ "manage": {
+  "rungs": []
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "routine",
+    "t": "New livedo racemosa with stroke, TIA, miscarriage or clots: test for **antiphospholipid syndrome**."
+   },
+   {
+    "when": "urgent",
+    "t": "Painful purple toes and livedo after an arterial procedure: **cholesterol emboli**, urgent referral."
+   }
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "\"**Regular, complete and fades with warmth = reticularis (usually benign). Broken and persistent = racemosa — find the cause.**\""
+  },
+  {
+   "icon": "bulb",
+   "t": "Ask about **amantadine** in Parkinson's patients with leg mottling and ankle oedema."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Livedo reticularis vs livedo racemosa?",
+   "a": "A purple-blue lace-like pattern on the legs, arms or trunk."
+  },
+  {
+   "q": "What drives it?",
+   "a": "Slowed blood flow in the venous plexus around each skin ‘cone’: physiological in cold, or due to vessel blockage, hyperviscosity or vasculitis."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "Decide: complete and fading (reassure) or broken and fixed (investigate: FBC, clotting, antiphospholipid antibodies, ANA, cryoglobulins, lipids)."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "Antiphospholipid syndrome, Sneddon syndrome (stroke), cholesterol emboli after angiography, PAN, calciphylaxis."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "New livedo racemosa with stroke, TIA, miscarriage or clots: test for **antiphospholipid syndrome**."
+  }
+ ]
+}

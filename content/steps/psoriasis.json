@@ -1,0 +1,375 @@
+{
+ "_note": "Curated v3 'visual steps' overlay. Condensed from content/conditions/psoriasis.json; the full original text is kept in each step's 'More detail' block. Edit freely; build.py --strict checks that every photo group is placed.",
+ "glance": {
+  "chips": [
+   "1–3% of the UK",
+   "Chronic, relapsing",
+   "Immune-mediated (IL-23/IL-17)",
+   "NICE CG153"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "Sharp, salmon-pink plaques with silvery scale on elbows, knees, scalp and lower back. Check the nails."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "IL-23/Th17/IL-17 inflammation speeds skin turnover to 3–5 days (normally about 28)."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "Emollient plus potent steroid and vitamin D analogue, with planned steroid breaks."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "Erythroderma or generalised pustular psoriasis (same day). Joint symptoms: think psoriatic arthritis.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "lead": "An immune loop that makes skin cells grow far too fast.",
+  "points": [
+   "**Genes + trigger**: e.g. HLA-C*06:02; about a third have a family history.",
+   "**IL-23 → Th17 → IL-17** (plus TNF-α) drives inflammation.",
+   "Keratinocytes turn over in **3–5 days** instead of about 28 → thick, scaly plaques.",
+   "**Triggers**: strep throat (guttate), trauma (**Koebner**), drugs, smoking, alcohol, obesity, stress, HIV."
+  ],
+  "visuals": [
+   {
+    "ai": "v3-psoriasis-skin-section.jpg",
+    "caption": "Normal skin (left) vs psoriatic plaque (right): thick epidermis, long rete ridges, heaped scale, dilated capillaries and immune cells.",
+    "alt": "Cross-section comparing normal skin with a thickened psoriatic plaque"
+   }
+  ]
+ },
+ "features": {
+  "lead": "Well-defined, symmetrical, scaly plaques on extensor sites.",
+  "photo": "B03",
+  "points": [
+   "**Sharp edge**: salmon-pink plaques with silvery-white scale (contrast: ill-defined eczema).",
+   "**Auspitz sign**: pinpoint bleeding when scale is lifted.",
+   "**Sites**: elbows, knees, lower back, scalp (often past the hairline), natal cleft.",
+   "**Nails**: pitting, onycholysis, oil-drop patches. A clue to psoriatic arthritis risk.",
+   "**Skin of colour**: violaceous or grey plaques; marked, lasting pigment change."
+  ],
+  "visuals": [
+   {
+    "ai": "v3-psoriasis-body-map.jpg",
+    "caption": "Where to look: front of the knees and hairline (left); points of the elbows, scalp, sacrum and natal cleft (right).",
+    "alt": "Front and back body outlines with psoriasis plaques on knees, elbows, scalp and lower back"
+   }
+  ],
+  "variants": {
+   "title": "Types to recognise",
+   "items": [
+    {
+     "name": "Chronic plaque",
+     "t": "Thick silvery scale; about 80–90% of cases.",
+     "where": "Elbows, knees, back",
+     "photo": "B01"
+    },
+    {
+     "name": "Guttate",
+     "t": "Many small ‘raindrop’ plaques 2–3 weeks after strep throat.",
+     "where": "Trunk, limbs",
+     "photo": "B11"
+    },
+    {
+     "name": "Flexural (inverse)",
+     "t": "Shiny, moist, little or no scale; no satellites.",
+     "where": "Axillae, groin, under breasts",
+     "photo": "B13"
+    },
+    {
+     "name": "Scalp",
+     "t": "Thick adherent scale, beyond the hairline.",
+     "where": "Scalp, behind ears",
+     "photo": "B06"
+    },
+    {
+     "name": "Nail",
+     "t": "Pits, onycholysis, oil-drop, subungual debris.",
+     "where": "Finger and toenails",
+     "photo": "B08",
+     "ai": "v3-psoriasis-nails.jpg"
+    },
+    {
+     "name": "Palmoplantar",
+     "t": "Sharp red scaly plaques or thick keratoderma with painful fissures.",
+     "where": "Palms, soles",
+     "photo": "m3w6:E01"
+    }
+   ]
+  },
+  "groups": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   9,
+   10,
+   11,
+   12,
+   7
+  ]
+ },
+ "confirm": {
+  "cols": [
+   {
+    "k": "History",
+    "icon": "chat",
+    "points": [
+     "Triggers: strep throat, skin trauma (Koebner), stress, smoking, alcohol, obesity.",
+     "**Drugs**: β-blockers, lithium, antimalarials, interferons, rapid steroid taper.",
+     "Family history (about a third); joint pain or swelling."
+    ]
+   },
+   {
+    "k": "Examine",
+    "icon": "eye",
+    "points": [
+     "Morphology and distribution, **nails** and **joints**.",
+     "High-impact sites: face, hands, genitals, scalp."
+    ]
+   },
+   {
+    "k": "Severity",
+    "icon": "gauge",
+    "points": [
+     "Body surface area (BSA) and quality of life.",
+     "BSA over 10% or major impact: refer (Step 5)."
+    ]
+   },
+   {
+    "k": "Tests",
+    "icon": "flask",
+    "points": [
+     "Usually **none**: it is a clinical diagnosis.",
+     "Biopsy if unsure; throat swab after sore throat (guttate).",
+     "Screen **PEST** every year; CV risk (NICE)."
+    ]
+   }
+  ],
+  "groups": [
+   8
+  ]
+ },
+ "differentials": {
+  "cards": [
+   {
+    "name": "Atopic eczema",
+    "clue": "Ill-defined, flexural, intensely itchy, lichenified.",
+    "link": "eczema-dermatitis"
+   },
+   {
+    "name": "Seborrhoeic dermatitis",
+    "clue": "Greasier scale on the central face; can overlap (‘sebopsoriasis’).",
+    "photo": "m3w5:D05"
+   },
+   {
+    "name": "Tinea corporis",
+    "clue": "Asymmetrical, advancing edge; mycology positive.",
+    "link": "tinea"
+   },
+   {
+    "name": "Candidal intertrigo",
+    "clue": "Satellite papules and pustules, macerated (flexural psoriasis has none).",
+    "link": "candida-intertrigo"
+   },
+   {
+    "name": "Lichen planus",
+    "clue": "Violaceous flat-topped papules, Wickham striae; wrists, mucosa.",
+    "link": "lichen-planus"
+   },
+   {
+    "name": "Pityriasis rosea",
+    "clue": "Herald patch, collarette scale, ‘Christmas-tree’ back (vs guttate).",
+    "link": "pityriasis-rosea"
+   },
+   {
+    "name": "Discoid eczema",
+    "clue": "Coin-shaped, very itchy, often on the legs.",
+    "photo": "m6w4:W4A-09"
+   },
+   {
+    "name": "Cutaneous lymphoma",
+    "clue": "Persistent, atypical plaques: refer.",
+    "link": "mycosis-fungoides",
+    "tone": "danger"
+   }
+  ],
+  "groups": [
+   6
+  ]
+ },
+ "manage": {
+  "lead": "Aligned with NICE CG153 and CKS. Adults, trunk and limbs.",
+  "rungs": [
+   {
+    "k": "Every patient",
+    "tone": "base",
+    "points": [
+     "Emollients regularly: less scale and itch.",
+     "Weight, smoking, alcohol, stress support.",
+     "Report new joint pain or swelling."
+    ]
+   },
+   {
+    "k": "First line",
+    "tone": "first",
+    "rx": [
+     {
+      "drug": "Potent topical steroid",
+      "dose": "Once daily",
+      "dur": "Up to 4 weeks",
+      "note": "Plus a vitamin D analogue at a different time of day."
+     },
+     {
+      "drug": "Vitamin D analogue",
+      "dose": "Once daily",
+      "dur": "Up to 4 weeks",
+      "note": "E.g. calcipotriol, alongside the steroid."
+     }
+    ]
+   },
+   {
+    "k": "If not controlled",
+    "tone": "second",
+    "rx": [
+     {
+      "drug": "Vitamin D analogue",
+      "dose": "Twice daily",
+      "dur": "8–12 weeks"
+     },
+     {
+      "drug": "Then: calcipotriol + betamethasone",
+      "dose": "Once daily (fixed combination)",
+      "dur": "Up to 4 weeks",
+      "note": "Or potent steroid BD short course, or coal tar."
+     }
+    ]
+   },
+   {
+    "k": "Specialist",
+    "tone": "refer",
+    "points": [
+     "Phototherapy; methotrexate, ciclosporin, acitretin.",
+     "Biologics or TYK2 inhibitors under NICE TAs. Not IP-initiated."
+    ]
+   }
+  ],
+  "limits": [
+   {
+    "k": "Steroid breaks",
+    "t": "Plan a 4-week break between potent courses."
+   },
+   {
+    "k": "Max per site",
+    "t": "Potent ≤ 8 weeks; very potent ≤ 4 weeks (specialist)."
+   },
+   {
+    "k": "Avoid oral steroids",
+    "t": "Withdrawal can trigger rebound or pustular flares.",
+    "tone": "danger"
+   }
+  ],
+  "sites": [
+   {
+    "k": "Scalp",
+    "t": "Potent steroid lotion, gel or shampoo first; then combination or vitamin D. Salicylic acid for thick scale."
+   },
+   {
+    "k": "Face, flexures, genitals",
+    "t": "Mild–moderate steroid, max 2 weeks. Never potent here. Calcineurin inhibitor (specialist-led) if needed."
+   },
+   {
+    "k": "Palms and soles",
+    "t": "Keratolytics, potent/very potent steroid ± calcipotriol, overnight occlusion. Refer early."
+   },
+   {
+    "k": "Children",
+    "t": "NICE: refer to a specialist at presentation."
+   },
+   {
+    "k": "Drug-triggered",
+    "t": "Do not stop a β-blocker alone: discuss with GP or cardiology.",
+    "tone": "warn"
+   }
+  ]
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "same-day",
+    "t": "**Erythroderma** (over 90% of skin) or **generalised pustular psoriasis**."
+   },
+   {
+    "when": "urgent",
+    "t": "Suspected **psoriatic arthritis**: swollen or painful joints, dactylitis, enthesitis → rheumatology."
+   },
+   {
+    "when": "routine",
+    "t": "BSA over 10%, moderate or worse, topical failure or big quality-of-life impact → phototherapy or systemics."
+   },
+   {
+    "when": "routine",
+    "t": "Severe nail disease, children, diagnostic doubt."
+   }
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "chat",
+   "t": "Psoriasis is **chronic**; treatment is intermittent and relapse is expected."
+  },
+  {
+   "icon": "hand",
+   "t": "Show how to apply. Gels and foams beat ointments for daytime adherence."
+  },
+  {
+   "icon": "clock",
+   "t": "Spell out **steroid breaks** to prevent atrophy and rebound."
+  },
+  {
+   "icon": "pill",
+   "t": "Calcipotriol/betamethasone brands vary by formulary: check locally."
+  },
+  {
+   "icon": "shield",
+   "t": "Counsel on vaccines and infection risk before any immunosuppression."
+  },
+  {
+   "icon": "alert",
+   "t": "Severe psoriasis carries a higher VTE and CV risk."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "What happens to keratinocyte turnover in a psoriatic plaque?",
+   "a": "It speeds up to 3–5 days instead of about 28, driven by IL-23/Th17/IL-17."
+  },
+  {
+   "q": "First-line topical plan for trunk and limbs in adults?",
+   "a": "Potent steroid once daily plus a vitamin D analogue once daily (different times) for up to 4 weeks, with emollients."
+  },
+  {
+   "q": "Which steroid potency is safe for face, flexures and genitals?",
+   "a": "Mild to moderate only, for up to 2 weeks. Never potent or very potent."
+  },
+  {
+   "q": "Which presentations need same-day assessment?",
+   "a": "Erythroderma (over 90% of skin) and generalised pustular psoriasis."
+  },
+  {
+   "q": "Name three drugs that can trigger or worsen psoriasis.",
+   "a": "β-blockers, lithium, antimalarials (also interferons and rapid steroid withdrawal)."
+  }
+ ]
+}

@@ -1,0 +1,228 @@
+{
+ "_auto": true,
+ "glance": {
+  "chips": [
+   "Module 5 · Week 5 · Module 4 · Week 1",
+   "PR",
+   "herald patch",
+   "Christmas tree rash"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "A single larger oval patch, then 1–2 weeks later many smaller pink oval patches with a collarette of scale on the trunk."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "Probably reactivation of HHV-6/HHV-7; not contagious in practice."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "Explain and reassure; emollients, mild topical steroid or antihistamine for itch; review if it lasts beyond 12 weeks."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "Secondary syphilis (palms and soles, mucosal lesions, lymph nodes), guttate psoriasis, tinea and drug eruptions; PR in early pregnancy (miscarriage risk).",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "points": [],
+  "visuals": []
+ },
+ "features": {
+  "photo": "m5w5:W5C02",
+  "points": [
+   "Possible prodrome: malaise, headache, sore throat, low-grade fever (URTI — Case 3).",
+   "**Herald patch:** single, 2–5 cm, oval, salmon-pink (grey-brown/violaceous in darker skin) plaque with fine **collarette scale** inside the edge; often trunk, upper arm, neck, thigh.",
+   "Itch: none to moderate (~25% significant).",
+   "Variants: **inverse** (flexural — axillae/groin, commoner in children/skin of colour), papular, vesicular, purpuric, urticarial, giant, unilateral, oral lesions.",
+   "Darker skin: more papular/facial lesions; prolonged post-inflammatory hyper/hypopigmentation."
+  ],
+  "visuals": [],
+  "variants": null,
+  "groups": [
+   0
+  ]
+ },
+ "confirm": {
+  "cols": [
+   {
+    "k": "Syphilis serology",
+    "icon": "check",
+    "points": [
+     "(treponemal EIA ± RPR) if atypical, palms/soles involved, no herald patch, sexual risk, or lasting >12 weeks."
+    ]
+   },
+   {
+    "k": "Skin scrapings for mycology",
+    "icon": "check",
+    "points": [
+     "if the herald patch alone looks like tinea (scale at advancing edge)."
+    ]
+   },
+   {
+    "k": "Key points",
+    "icon": "check",
+    "points": [
+     "Drug history (pityriasiform drug eruption).",
+     "Biopsy rarely (atypical/persistent).",
+     "Pregnancy test/status relevant — see 3.6."
+    ]
+   }
+  ]
+ },
+ "differentials": {
+  "cards": [
+   {
+    "name": "Guttate psoriasis",
+    "clue": "Many small (0.5–1 cm) **drop-like papules** with thicker **silvery scale** over the whole lesion, **no herald patch**, 1–3 weeks after **streptococcal sore throat**/tonsillitis; may have family history, nail pitting, scalp involvement; can persist/evolve into plaque psoriasis"
+   },
+   {
+    "name": "Secondary syphilis",
+    "clue": "**Palms and soles** copper-red papules, mucous patches, condylomata lata, patchy alopecia, generalised lymphadenopathy, malaise; papules **tender to blunt pressure (Buschke–Ollendorff sign)**; sexual history; positive serology"
+   },
+   {
+    "name": "Tinea corporis (vs herald patch)",
+    "clue": "Annular, active scaly edge with central clearing, scale at advancing edge, often asymmetric; KOH/scraping positive",
+    "link": "annular-rashes"
+   },
+   {
+    "name": "Nummular (discoid) eczema",
+    "clue": "Coin-shaped, very itchy, crusted/oozing, limbs > trunk",
+    "link": "annular-rashes"
+   },
+   {
+    "name": "Pityriasiform drug eruption",
+    "clue": "New drug, larger lesions, no herald patch, persists, eosinophils on biopsy"
+   },
+   {
+    "name": "Pityriasis versicolor",
+    "clue": "Fine scale, hypo/hyperpigmented, upper trunk, Malassezia on scraping, chronic",
+    "link": "pityriasis-versicolor"
+   },
+   {
+    "name": "Pityriasis lichenoides chronica",
+    "clue": "Small red-brown papules with mica-like scale, recurrent crops over months"
+   },
+   {
+    "name": "Seborrhoeic dermatitis (trunk)",
+    "clue": "Presternal/interscapular greasy scale, scalp/face involvement"
+   },
+   {
+    "name": "Pityriasis rosea",
+    "clue": "Herald + cleavage-line ovals"
+   },
+   {
+    "name": "Secondary syphilis",
+    "clue": "Palms/soles, lymphadenopathy, serology"
+   },
+   {
+    "name": "Tinea versicolor / corporis",
+    "clue": "Morphology/KOH",
+    "link": "pityriasis-versicolor"
+   },
+   {
+    "name": "Viral exanthem",
+    "clue": "Less scale; febrile context"
+   },
+   {
+    "name": "Small-plaque parapsoriasis",
+    "clue": "Persistent; adult; refer if unsure"
+   }
+  ],
+  "groups": [
+   1
+  ]
+ },
+ "manage": {
+  "rungs": [
+   {
+    "k": "Self-care / reassurance",
+    "tone": "base",
+    "points": [
+     "Explain benign, **non-contagious**, self-limiting (6–12 weeks); no isolation needed; scars do not occur (pigment change may persist months in darker skin).",
+     "Emollients and soap substitutes; avoid hot showers, perfumed products, tight clothes; moderate sun exposure may speed resolution in some."
+    ]
+   },
+   {
+    "k": "Red flags / refer",
+    "tone": "refer",
+    "points": [
+     "**Pregnancy:** PR in pregnancy (esp. first 15 weeks) has been associated with miscarriage/premature delivery — inform/refer to midwife/obstetrician (CKS).",
+     "Atypical features, palms/soles/mucosal involvement or sexual risk → **syphilis serology / refer to sexual health (GUM)**.",
+     "Persisting >12 weeks, diagnostic doubt, severe symptoms → GP/dermatology.",
+     "Suspected drug cause → review medication with prescriber."
+    ]
+   }
+  ]
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "routine",
+    "t": "Palm or sole lesions, mouth ulcers, lymphadenopathy or sexual risk: **syphilis serology** and sexual-health referral."
+   },
+   {
+    "when": "routine",
+    "t": "Pityriasis rosea in the **first 15 weeks of pregnancy**: inform the midwife or obstetric team."
+   },
+   {
+    "when": "routine",
+    "t": "Lasting more than 3 months: reconsider the diagnosis."
+   }
+  ],
+  "groups": [
+   2
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "\"One big patch first, then many small ovals along the ribs\" = PR; \"shower of small drops after strep throat\" = guttate psoriasis."
+  },
+  {
+   "icon": "bulb",
+   "t": "The herald patch is often mis-treated as ringworm — antifungal failure is a clue."
+  },
+  {
+   "icon": "bulb",
+   "t": "**Every generalised papulosquamous rash: ask about sexual history and look at palms and soles.**"
+  },
+  {
+   "icon": "bulb",
+   "t": "Do not prescribe oral steroids for PR (may prolong/worsen)."
+  },
+  {
+   "icon": "bulb",
+   "t": "Provide BAD/PCDS patient leaflet; review if not resolving by 3 months."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Pityriasis rosea?",
+   "a": "A single larger oval patch, then 1–2 weeks later many smaller pink oval patches with a collarette of scale on the trunk."
+  },
+  {
+   "q": "What drives it?",
+   "a": "Probably reactivation of HHV-6/HHV-7; not contagious in practice."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "Explain and reassure; emollients, mild topical steroid or antihistamine for itch; review if it lasts beyond 12 weeks."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "Secondary syphilis (palms and soles, mucosal lesions, lymph nodes), guttate psoriasis, tinea and drug eruptions; PR in early pregnancy (miscarriage risk)."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "Palm or sole lesions, mouth ulcers, lymphadenopathy or sexual risk: **syphilis serology** and sexual-health referral."
+  }
+ ]
+}

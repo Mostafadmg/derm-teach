@@ -1,0 +1,154 @@
+{
+ "_auto": true,
+ "glance": {
+  "chips": [
+   "bacterial folliculitis",
+   "hot tub folliculitis",
+   "pseudomonas folliculitis"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "Small pustules, each pierced by a hair, on the beard, scalp, thighs, buttocks or axillae, often after shaving, waxing or occlusion."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "Inflammation of the follicle opening, usually S. aureus. Pseudomonas (hot tubs), Malassezia, or irritant/occlusive causes are possible."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "Stop the trigger, use an antiseptic wash, and topical or oral flucloxacillin only if persistent or extensive."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "Progression to boils or cellulitis, recurrent disease (carriage, diabetes) and immunosuppression.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "points": [
+   "Follicular occlusion or damage from **shaving, waxing, tight clothing, oils**, sweating and friction.",
+   "Bacterial proliferation in the follicle opening, usually *S. aureus*. Nasal carriage drives recurrence.",
+   "Topical steroids and immunosuppression increase risk."
+  ],
+  "visuals": []
+ },
+ "features": {
+  "photo": "E10",
+  "points": [
+   "**Follicular-centred pustules**, often with a hair visible in the centre, on a red base.",
+   "Sites: scalp, beard (sycosis barbae), trunk, buttocks, thighs and axillae.",
+   "Itchy or tender. Systemic upset is unusual."
+  ],
+  "visuals": [],
+  "variants": null,
+  "groups": [
+   0
+  ]
+ },
+ "confirm": {
+  "cols": [
+   {
+    "k": "Swab a pustule",
+    "icon": "check",
+    "points": [
+     "for culture if persistent, recurrent, extensive or atypical."
+    ]
+   },
+   {
+    "k": "Key points",
+    "icon": "check",
+    "points": [
+     "Clinical. The distribution and history (shaving, hot tub, recent antibiotics) point to the type.",
+     "Consider a **nasal swab** for *S. aureus* carriage in recurrent disease."
+    ]
+   }
+  ]
+ },
+ "differentials": {
+  "cards": [
+   {
+    "name": "Acne vulgaris",
+    "clue": "Comedones present; face, chest and back; mixed lesion types",
+    "link": "acne-vulgaris"
+   },
+   {
+    "name": "Pustular miliaria",
+    "clue": "Heat and occlusion; tiny pustules not centred on follicles"
+   },
+   {
+    "name": "Candida",
+    "clue": "Satellite pustules around a red, moist fold",
+    "link": "candida-intertrigo"
+   },
+   {
+    "name": "Keratosis pilaris",
+    "clue": "Rough follicular papules on the upper arms and thighs; not pustular"
+   }
+  ]
+ },
+ "manage": {
+  "rungs": []
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "routine",
+    "t": "Progression to **boils, carbuncles or cellulitis**, or fever."
+   },
+   {
+    "when": "routine",
+    "t": "Recurrent disease despite measures: consider carriage, PVL or MRSA, diabetes and immunosuppression."
+   },
+   {
+    "when": "routine",
+    "t": "Widespread itchy folliculitis in an immunosuppressed patient (eosinophilic): refer."
+   }
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "**Pustules on the upper back and chest after antibiotics?** Think Pityrosporum folliculitis, which needs an antifungal."
+  },
+  {
+   "icon": "bulb",
+   "t": "A hot-tub history explains a sudden ‘swimsuit-distribution’ rash."
+  },
+  {
+   "icon": "bulb",
+   "t": "Most mild bacterial folliculitis settles without antibiotics, which is a useful stewardship opportunity."
+  },
+  {
+   "icon": "bulb",
+   "t": "Pseudofolliculitis barbae is common in curly hair. Discuss shaving technique and beard growth sensitively."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Folliculitis?",
+   "a": "Small pustules, each pierced by a hair, on the beard, scalp, thighs, buttocks or axillae, often after shaving, waxing or occlusion."
+  },
+  {
+   "q": "What drives it?",
+   "a": "Inflammation of the follicle opening, usually S. aureus. Pseudomonas (hot tubs), Malassezia, or irritant/occlusive causes are possible."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "Stop the trigger, use an antiseptic wash, and topical or oral flucloxacillin only if persistent or extensive."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "Progression to boils or cellulitis, recurrent disease (carriage, diabetes) and immunosuppression."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "Progression to **boils, carbuncles or cellulitis**, or fever."
+  }
+ ]
+}

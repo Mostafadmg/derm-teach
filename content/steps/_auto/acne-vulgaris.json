@@ -1,0 +1,211 @@
+{
+ "_auto": true,
+ "glance": {
+  "chips": [
+   "Module 6 · Week 2",
+   "acne",
+   "spots",
+   "comedones"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "Comedones (the hallmark) with papules and pustules on the face, chest and back of an adolescent or young adult."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "Sebum + follicular plugging + C. acnes + inflammation."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "A 12-week fixed-combination topical, plus an oral tetracycline for moderate–severe acne. Never antibiotic alone."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "Acne fulminans (systemically unwell, ulcerating): same-day dermatology. Scarring and distress: refer early.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "points": [
+   "**More sebum**, driven by androgens.",
+   "**Follicular hyperkeratinisation**, which plugs the follicle and forms a microcomedone.",
+   "**Cutibacterium acnes** proliferation.",
+   "**Inflammation**, producing papules, pustules and nodules.",
+   "PCOS or other hyperandrogenism",
+   "Occlusive or comedogenic cosmetics, picking and humidity"
+  ],
+  "visuals": []
+ },
+ "features": {
+  "photo": "C05",
+  "points": [
+   "**Sites:** face, neck, upper chest, back and shoulders.",
+   "**Non-inflammatory lesions:** open comedones (blackheads) and closed comedones (whiteheads).",
+   "**Inflammatory lesions:** papules, pustules, nodules and pseudocysts.",
+   "**Sequelae:** post-inflammatory erythema or hyperpigmentation; ice-pick, rolling and boxcar scars."
+  ],
+  "visuals": [],
+  "variants": null,
+  "groups": [
+   0,
+   2,
+   3,
+   5,
+   6,
+   7,
+   8
+  ]
+ },
+ "confirm": {
+  "cols": [
+   {
+    "k": "History",
+    "icon": "chat",
+    "points": [
+     "duration; previous treatments, including how long they were used and adherence; contraception and pregnancy plans; PCOS features (irregular periods, hirsutism); drugs; psychosocial impact; scarring."
+    ]
+   },
+   {
+    "k": "Tests",
+    "icon": "flask",
+    "points": [
+     "are usually unnecessary. Consider a hormone profile if the picture is atypical or suggests hyperandrogenism, and a swab if an unusual pustular infection is suspected."
+    ]
+   }
+  ],
+  "groups": [
+   1
+  ]
+ },
+ "differentials": {
+  "cards": [
+   {
+    "name": "Rosacea",
+    "clue": "Central facial flushing and telangiectasia; **no comedones**; usually older adults",
+    "link": "acne-mimics"
+   },
+   {
+    "name": "Perioral dermatitis",
+    "clue": "Papules around the mouth and eyes, sparing the lip border; often triggered by topical steroid",
+    "link": "acne-mimics"
+   },
+   {
+    "name": "Folliculitis",
+    "clue": "Follicular pustules, often on the trunk; no comedones; culture may help",
+    "link": "folliculitis"
+   },
+   {
+    "name": "Milia",
+    "clue": "Tiny white keratin cysts; not inflamed",
+    "link": "skin-cysts"
+   },
+   {
+    "name": "Acneiform drug eruption",
+    "clue": "Sudden, monomorphic eruption linked to a drug (steroids, EGFR inhibitors)"
+   }
+  ]
+ },
+ "manage": {
+  "rungs": [
+   {
+    "k": "Self-care and OTC",
+    "tone": "base",
+    "points": [
+     "Wash twice daily with a syndet (non-alkaline) cleanser. Avoid harsh scrubbing and over-cleansing.",
+     "Use non-comedogenic moisturisers, sunscreen and make-up, and remove make-up at night.",
+     "Do not pick or squeeze, as this causes scarring.",
+     "OTC **benzoyl peroxide (BPO)**, or adapalene where available, is useful while waiting for a prescription.",
+     "Set expectations: improvement takes **6–8 weeks**."
+    ]
+   },
+   {
+    "k": "First-line 12-week options (offer one, after shared decision)",
+    "tone": "first",
+    "points": [
+     "**Alternatives:** BPO alone if the patient wants to avoid a retinoid or antibiotic. If tetracyclines are unsuitable, consider trimethoprim or an oral macrolide in the combinations set out in NG198."
+    ]
+   }
+  ]
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "same-day",
+    "t": "**Acne fulminans**: refer the **same day** to on-call dermatology."
+   },
+   {
+    "when": "routine",
+    "t": "Refer for: **scarring**, persistent pigment change, or significant psychological distress, at any severity."
+   },
+   {
+    "when": "routine",
+    "t": "Low mood or suicidal thoughts: assess and escalate, especially in the context of isotretinoin."
+   }
+  ],
+  "groups": [
+   4
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "Start topicals on **alternate days** or as short-contact applications to reduce irritation, then build up."
+  },
+  {
+   "icon": "bulb",
+   "t": "BPO **bleaches** fabric and hair, so warn about towels and pillowcases."
+  },
+  {
+   "icon": "bulb",
+   "t": "Retinoids and tetracyclines cause **photosensitivity**, so give sun advice."
+  },
+  {
+   "icon": "bulb",
+   "t": "**Pregnancy:** topical retinoids and oral tetracyclines are contraindicated, so counsel on contraception. BPO with or without clindamycin can be used cautiously."
+  },
+  {
+   "icon": "bulb",
+   "t": "If hormonal contraception is wanted, a combined pill is preferred over a progestogen-only pill."
+  },
+  {
+   "icon": "bulb",
+   "t": "Co-cyprindiol is an option in selected women (e.g. with PCOS). Discuss VTE risk and review at about 6 months."
+  },
+  {
+   "icon": "bulb",
+   "t": "When referring for isotretinoin, document mental health history thoroughly."
+  },
+  {
+   "icon": "bulb",
+   "t": "In skin of colour, **post-inflammatory hyperpigmentation** can bother patients more than the acne itself. Treat early, and consider azelaic acid."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Acne vulgaris?",
+   "a": "Comedones (the hallmark) with papules and pustules on the face, chest and back of an adolescent or young adult."
+  },
+  {
+   "q": "What drives it?",
+   "a": "Sebum + follicular plugging + C. acnes + inflammation."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "A 12-week fixed-combination topical, plus an oral tetracycline for moderate–severe acne. Never antibiotic alone."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "Acne fulminans (systemically unwell, ulcerating): same-day dermatology. Scarring and distress: refer early."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "**Acne fulminans**: refer the **same day** to on-call dermatology."
+  }
+ ]
+}

@@ -1,0 +1,103 @@
+{
+ "_note": "Curated v3 overlay, condensed from content/conditions/viral-warts.json (full text kept under 'More detail').",
+ "glance": {
+  "chips": ["Very common", "Benign", "Cutaneous HPV", "Most clear without treatment"],
+  "points": [
+   {"icon": "eye", "k": "Spot it", "t": "Rough papule with black dots that **interrupts the skin lines**: hands, feet, around nails."},
+   {"icon": "layers", "k": "Why", "t": "HPV infects basal keratinocytes → hyperkeratosis. Spread by contact, fomites, autoinoculation."},
+   {"icon": "pill", "k": "Treat", "t": "Reassure, or salicylic acid daily after paring for 8–12 weeks, ± cryotherapy."},
+   {"icon": "alert", "k": "Never miss", "t": "A fast-growing or ulcerating ‘wart’, especially if immunosuppressed, may be SCC. Refer.", "tone": "danger"}
+  ]
+ },
+ "cause": {
+  "lead": "A virus that makes the top layers of skin pile up.",
+  "points": [
+   "**HPV** (double-stranded DNA). Common cutaneous types: 1, 2, 3, 4, 10, 27, 29, 57.",
+   "Infects **basal keratinocytes** → hyperkeratosis and new virus.",
+   "**Spread**: skin contact, pools and changing rooms, **autoinoculation** (a line along a scratch: pseudo-Koebner).",
+   "Incubation weeks to months. More warts with dermatitis or **immunosuppression**."
+  ],
+  "visuals": [
+   {"ai": "v3-warts-skin-section.jpg", "caption": "Normal skin (left) and a common wart (right): virus enters through a small break, infects the basal layer, and the epidermis folds upward under a thick cap of keratin, with capillaries rising into it.", "alt": "Skin cross-section through a viral wart with virus particles in the basal layer"}
+  ]
+ },
+ "features": {
+  "lead": "Match the look to the site.",
+  "photo": "m5w1:L01",
+  "points": [
+   "**Rough, hyperkeratotic** papule.",
+   "**Black or red dots**: thrombosed capillaries.",
+   "Breaks the normal **skin lines** (corns do not).",
+   "Often several; may line up along a scratch."
+  ],
+  "visuals": [
+   {"ai": "v3-warts-vs-corn.jpg", "caption": "Plantar wart (left): skin lines stop at its edge and go round it, with black capillary dots. Corn (right): skin lines run straight through a smooth central core.", "alt": "Magnified sole skin comparing a plantar wart and a corn"}
+  ],
+  "variants": {
+   "title": "Types to recognise",
+   "items": [
+    {"name": "Common", "t": "Rough hyperkeratotic papules with capillary dots.", "where": "Hands, knees, nails", "photo": "m5w1:L01"},
+    {"name": "Plantar", "t": "Inward-growing and painful, or ‘mosaic’ clusters.", "where": "Soles", "photo": "m5w1:L02"},
+    {"name": "Plane", "t": "Flat-topped, skin-coloured, numerous; spread by shaving.", "where": "Face, hands, shins", "photo": "m5w1:L03"},
+    {"name": "Filiform", "t": "Thin fronds on a narrow base.", "where": "Face", "photo": "m5w1:L04"},
+    {"name": "Periungual", "t": "Around or under the nail; nail dystrophy risk.", "where": "Nail folds", "photo": "m5w1:L05"}
+   ]
+  },
+  "groups": [0]
+ },
+ "confirm": {
+  "cols": [
+   {"k": "Look", "icon": "eye", "points": ["**Clinical** diagnosis.", "Paring shows pinpoint bleeding or black dots; dermoscopy helps."]},
+   {"k": "Squeeze test", "icon": "hand", "points": ["**Wart**: tender when squeezed **from the sides**.", "**Corn**: tender on **direct pressure**; skin lines run through."]},
+   {"k": "Who is at risk", "icon": "chat", "points": ["Immunosuppression (transplant, HIV), dermatitis.", "Diabetes or neuropathy changes treatment choice."]},
+   {"k": "Tests", "icon": "flask", "points": ["Usually **none**.", "**Biopsy** if SCC is a concern, especially if immunosuppressed."]}
+  ]
+ },
+ "differentials": {
+  "cards": [
+   {"name": "Corn / callus", "clue": "Pressure site; skin lines continue through; no capillary dots.", "ai": "v3-warts-vs-corn.jpg"},
+   {"name": "Seborrhoeic keratosis", "clue": "‘Stuck-on’ look in an older adult.", "link": "seborrhoeic-keratosis"},
+   {"name": "SCC / keratoacanthoma", "clue": "Rapid growth, ulceration or tenderness; older or immunosuppressed. **Refer**.", "link": "squamous-cell-carcinoma", "tone": "danger"},
+   {"name": "Molluscum contagiosum", "clue": "Pearly, umbilicated papules (poxvirus).", "photo": "m1w1:A05"}
+  ]
+ },
+ "manage": {
+  "lead": "Many resolve alone: about half of childhood warts in 6 months, most within 2 years.",
+  "rungs": [
+   {"k": "Watchful waiting", "tone": "base", "points": ["Treat only if painful, disabling, immunosuppressed, or the patient prefers.", "Flip-flops in communal showers; no shared towels; cover verrucae for swimming."]},
+   {"k": "First line · community", "tone": "first", "rx": [
+     {"drug": "Salicylic acid paint, gel or plaster", "dose": "Daily, after soaking and paring", "dur": "8–12 weeks", "note": "Protect surrounding skin. Avoid in diabetes or poor sensation."}
+   ]},
+   {"k": "Clinic", "tone": "second", "rx": [
+     {"drug": "Cryotherapy (liquid nitrogen)", "dose": "Repeated sessions", "dur": "Clinic-based", "note": "Blistering, pain, pigment change (more in skin of colour); mind superficial nerves."}
+   ]},
+   {"k": "Specialist", "tone": "refer", "points": ["Curettage or electrosurgery (scarring), radiofrequency, CO₂ laser.", "Intralesional bleomycin, contact immunotherapy (diphencyprone), microwave (plantar).", "Podophyllin or imiquimod: better evidence for anogenital warts."]}
+  ],
+  "limits": [
+   {"k": "Expectations", "t": "No treatment ‘kills’ HPV instantly; recurrence is common until immunity clears it."},
+   {"k": "Duct tape", "t": "Mixed evidence: optional add-on, not a cure."},
+   {"k": "Feet in diabetes", "t": "No self-treatment with salicylic acid or cryotherapy.", "tone": "danger"}
+  ]
+ },
+ "refer": {
+  "items": [
+   {"when": "urgent", "t": "Rapid growth, bleeding, ulceration or atypical look: consider **SCC**."},
+   {"when": "routine", "t": "**Immunosuppressed** with extensive or recalcitrant warts → dermatology."},
+   {"when": "routine", "t": "Extensive facial or periungual warts where destruction risks scarring or nail damage."},
+   {"when": "never", "t": "Diabetes, neuropathy or vascular disease: no self-treatment on the feet."}
+  ]
+ },
+ "pearls": [
+  {"icon": "clock", "t": "Set expectations: weeks of daily treatment; recurrence is common."},
+  {"icon": "hand", "t": "Periungual warts: avoid aggressive destruction near the **nail matrix**."},
+  {"icon": "shield", "t": "Prevention: flip-flops, own towel, cover verrucae for swimming."},
+  {"icon": "chat", "t": "Anogenital warts belong to sexual health and are counselled separately."}
+ ],
+ "quiz": [
+  {"q": "How do you tell a plantar wart from a corn?", "a": "Wart: tender when squeezed from the sides, breaks the skin lines, black dots. Corn: tender on direct pressure, skin lines run through."},
+  {"q": "What are the black dots in a wart?", "a": "Thrombosed capillaries."},
+  {"q": "Community first-line treatment and duration?", "a": "Salicylic acid daily after soaking and paring, for 8–12 weeks."},
+  {"q": "Who should not self-treat warts on the feet?", "a": "People with diabetes, peripheral neuropathy or vascular disease."},
+  {"q": "When is a ‘wart’ a red flag?", "a": "Rapid growth, bleeding, ulceration or atypical look, especially if immunosuppressed: consider SCC and refer."}
+ ]
+}

@@ -1,0 +1,92 @@
+{
+ "_auto": true,
+ "glance": {
+  "chips": [
+   "Module 2 · Week 2",
+   "CCA",
+   "Degos acanthoma",
+   "string of pearls vessels"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "A solitary, slow-growing, red-pink, moist dome with a collarette of scale on the shin of an older adult."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "A benign epidermal tumour of pale glycogen-rich keratinocytes; possibly reactive."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "Dermoscopy; excision or curettage for diagnosis or symptoms."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "Amelanotic melanoma, BCC, SCC and Bowen’s disease look similar, so biopsy if doubt.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "points": [],
+  "visuals": []
+ },
+ "features": {
+  "photo": "m2w2:F01",
+  "points": [],
+  "visuals": [],
+  "variants": null,
+  "groups": [
+   0
+  ]
+ },
+ "confirm": {
+  "cols": []
+ },
+ "differentials": {
+  "cards": []
+ },
+ "manage": {
+  "rungs": []
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "routine",
+    "t": "Pink lesion you cannot confidently name: refer, as **amelanotic melanoma** must be excluded."
+   }
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "A red, scaly leg papule that does not respond to emollient/steroid is not necessarily eczema or psoriasis. Look for a solitary lesion and **refer it for dermoscopy/biopsy** rather than escalating steroid potency."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Clear cell acanthoma?",
+   "a": "A solitary, slow-growing, red-pink, moist dome with a collarette of scale on the shin of an older adult."
+  },
+  {
+   "q": "What drives it?",
+   "a": "A benign epidermal tumour of pale glycogen-rich keratinocytes; possibly reactive."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "Dermoscopy; excision or curettage for diagnosis or symptoms."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "Amelanotic melanoma, BCC, SCC and Bowen’s disease look similar, so biopsy if doubt."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "Pink lesion you cannot confidently name: refer, as **amelanotic melanoma** must be excluded."
+  }
+ ]
+}

@@ -1,0 +1,121 @@
+{
+ "_auto": true,
+ "glance": {
+  "chips": [
+   "Module 1 · Week 5",
+   "Löfgren",
+   "lupus pernio",
+   "scar sarcoid"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "Red-brown papules or plaques around the nose, lips or old scars and tattoos, or a young adult with erythema nodosum, sore ankles and fever."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "Non-caseating granulomas from an exaggerated immune response to an unknown trigger."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "CXR, calcium, renal and liver function, ECG, eye review; biopsy skin lesions; respiratory or dermatology referral; Löfgren usually needs NSAIDs only."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "Cardiac sarcoid (palpitations, syncope), eye inflammation, hypercalcaemia, lupus pernio with nasal involvement.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "points": [
+   "**Hypercalcaemia:** granuloma macrophages express **1-α-hydroxylase** → convert 25-OH vitamin D to **calcitriol** independently of PTH → ↑ gut calcium absorption. Worse with sun or vitamin D supplements.",
+   "**Anaemia:** chronic disease, marrow/splenic involvement.",
+   "**EN** is a reactive (non-specific) septal panniculitis, **not a granuloma**. \"Specific\" lesions (papules, plaques, lupus pernio, scar sarcoid) contain granulomas."
+  ],
+  "visuals": []
+ },
+ "features": {
+  "photo": "m1w5:G03",
+  "points": [
+   "**Rash:** **bilateral tender, warm, red-violaceous, ill-defined nodules/plaques on the shins** (EN, photo G01), with fever, malaise and arthralgia.",
+   "**The case:** breathlessness, **weight loss 3 kg, night sweats**, EN, **anaemia (Hb 10.8)**, **calcium 2.7 mmol/L**, CXR showing **BHL**."
+  ],
+  "visuals": [],
+  "variants": null,
+  "groups": [
+   0,
+   1
+  ]
+ },
+ "confirm": {
+  "cols": [
+   {
+    "k": "Key points",
+    "icon": "check",
+    "points": [
+     "**CXR: bilateral hilar lymphadenopathy** ± right paratracheal nodes and parenchymal changes. Scadding stages: 0 normal; **I BHL only**; II BHL + infiltrates; III infiltrates only; IV fibrosis.",
+     "**Diagnosis: acute sarcoidosis, Löfgren-type** (EN + BHL; hypercalcaemia supports sarcoid): BUT **weight loss + night sweats + anaemia** mean **TB and lymphoma must be excluded** — both cause BHL, systemic symptoms and EN"
+    ]
+   }
+  ]
+ },
+ "differentials": {
+  "cards": []
+ },
+ "manage": {
+  "rungs": []
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "urgent",
+    "t": "Palpitations, syncope or heart block: possible **cardiac sarcoid**, urgent assessment."
+   },
+   {
+    "when": "same-day",
+    "t": "Red painful eye or blurred vision: same-day ophthalmology (uveitis)."
+   }
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "\"**EN + BHL = Löfgren — but B symptoms or anaemia mean exclude TB and lymphoma.**\""
+  },
+  {
+   "icon": "bulb",
+   "t": "In patients with sarcoid, **check before recommending OTC vitamin D or calcium**."
+  },
+  {
+   "icon": "bulb",
+   "t": "Every patient with sarcoid needs an **eye check and an ECG**."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Sarcoidosis (incl. Löfgren syndrome)?",
+   "a": "Red-brown papules or plaques around the nose, lips or old scars and tattoos, or a young adult with erythema nodosum, sore ankles and fever."
+  },
+  {
+   "q": "What drives it?",
+   "a": "Non-caseating granulomas from an exaggerated immune response to an unknown trigger."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "CXR, calcium, renal and liver function, ECG, eye review; biopsy skin lesions; respiratory or dermatology referral; Löfgren usually needs NSAIDs only."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "Cardiac sarcoid (palpitations, syncope), eye inflammation, hypercalcaemia, lupus pernio with nasal involvement."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "Palpitations, syncope or heart block: possible **cardiac sarcoid**, urgent assessment."
+  }
+ ]
+}

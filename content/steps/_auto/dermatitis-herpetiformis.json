@@ -1,0 +1,166 @@
+{
+ "_auto": true,
+ "glance": {
+  "chips": [
+   "Module 4 · Week 6",
+   "DH",
+   "coeliac skin",
+   "gluten rash"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "Intense itch with grouped tiny vesicles or just excoriations on the elbows, knees, buttocks and scalp, not responding to steroids."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "Gluten sensitivity: IgA against epidermal transglutaminase deposits in the dermal papillae (granular IgA on DIF)."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "Coeliac serology (tTG-IgA with total IgA) before any gluten-free trial; refer for biopsy with DIF; lifelong gluten-free diet; specialist dapsone for itch control."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "Anaemia, osteoporosis and small-bowel lymphoma risk; G6PD check and haemolysis/methaemoglobinaemia on dapsone.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "points": [
+   "In genetically predisposed people (**HLA-DQ2/DQ8**), gluten triggers IgA autoantibodies to tissue transglutaminase (**TG2**, gut) and **epidermal transglutaminase (TG3)**.",
+   "**IgA–TG3 complexes deposit in the dermal papillae** → neutrophil recruitment → subepidermal vesicles.",
+   "Iodine and NSAIDs can flare it.",
+   "Associations: autoimmune thyroid disease, T1DM, pernicious anaemia, vitiligo, alopecia areata, Sjögren's; **small-bowel (enteropathy-associated T-cell) lymphoma** (risk reduced by a gluten-free diet)."
+  ],
+  "visuals": []
+ },
+ "features": {
+  "photo": "m4w6:C01",
+  "points": [
+   "**Symmetrical extensor distribution:** **elbows, forearms, knees, buttocks/sacrum, shoulders, scalp**.",
+   "Case 2's atopic history is a **red herring** that steers people toward \"eczema\". Case 4's **failure of Betnovate** (TCS barely touches DH) and the **normal routine bloods** are also typical.",
+   "Grouped (\"herpetiform\") **small vesicles and papules**, usually seen as **excoriations, erosions and crusts** because the itch is intense — patients scratch the vesicles off. Post-inflammatory pigment change.",
+   "Symmetrical on the **elbows/extensor forearms, knees, buttocks/sacrum**, shoulders, and **scalp/posterior hairline**; facial and palmar purpura (rare).",
+   "Mucosa is usually spared.",
+   "**Systemic/GI:** bloating, diarrhoea, weight loss, malaise; iron/folate deficiency; dental enamel defects; osteoporosis."
+  ],
+  "visuals": [],
+  "variants": null,
+  "groups": [
+   0,
+   1
+  ]
+ },
+ "confirm": {
+  "cols": [
+   {
+    "k": "Gastroenterology",
+    "icon": "check",
+    "points": [
+     "NICE NG20 says to refer anyone with DH for specialist assessment. Whether a duodenal biopsy is needed in proven DH is decided by gastroenterology and dermatology together (many UK centres skip it when skin DIF is positive)."
+    ]
+   },
+   {
+    "k": "Baseline bloods",
+    "icon": "check",
+    "points": [
+     "FBC, ferritin, folate, B12, calcium/vitamin D/ALP, LFT, TFT, glucose; **G6PD before dapsone**. Consider a DXA scan (NG20 criteria)."
+    ]
+   },
+   {
+    "k": "Other investigations",
+    "icon": "flask",
+    "points": [
+     "FBC, **ferritin, folate, B12**, LFT, U&E, calcium, **vitamin D**, TFT (autoimmune thyroid), HbA1c; **DEXA** if risk factors or at diagnosis per BSG; **G6PD** before dapsone"
+    ]
+   },
+   {
+    "k": "Key points",
+    "icon": "check",
+    "points": [
+     "A **duodenal biopsy is usually not required** when DH is confirmed on skin biopsy (BSG 2014), though GI referral may still be needed for significant GI symptoms, red flags or uncertainty."
+    ]
+   }
+  ]
+ },
+ "differentials": {
+  "cards": []
+ },
+ "manage": {
+  "rungs": []
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "never",
+    "t": "Do not start a gluten-free diet before serology and biopsy: it gives false-negative results."
+   },
+   {
+    "when": "routine",
+    "t": "On dapsone: check G6PD first; watch for haemolysis, methaemoglobinaemia (blue lips, breathlessness), agranulocytosis and DRESS."
+   },
+   {
+    "when": "routine",
+    "t": "Weight loss, anaemia or diarrhoea: gastroenterology (NICE NG20)."
+   }
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "**\"Itchy elbows and buttocks plus 'IBS' or anaemia\" means DH.** Test before the patient tries a gluten-free diet on their own (Case 4's dietitian referral could start this by accident; tell the dietitian)."
+  },
+  {
+   "icon": "bulb",
+   "t": "Check excipients: wheat starch in tablet excipients is usually at negligible gluten levels (per BNF/Coeliac UK), but counsel patients who ask."
+  },
+  {
+   "icon": "bulb",
+   "t": "Dapsone: **record the G6PD result before the first dose**, give written agranulocytosis and methaemoglobinaemia warnings, and do not issue repeats without up-to-date bloods."
+  },
+  {
+   "icon": "bulb",
+   "t": "An annual coeliac review covers weight, symptoms, diet adherence, dietitian referral if needed, and bloods."
+  },
+  {
+   "icon": "bulb",
+   "t": "\"**Itchy elbows, knees and buttocks with excoriations and no intact blisters = think DH — and don't let them go gluten-free before testing.**\""
+  },
+  {
+   "icon": "bulb",
+   "t": "Dapsone brings quick relief, but **the diet is the treatment**."
+  },
+  {
+   "icon": "bulb",
+   "t": "Total IgA, always — IgA deficiency (~2–3% of coeliac patients) gives false-negative tTG-IgA."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Dermatitis herpetiformis & coeliac disease?",
+   "a": "Intense itch with grouped tiny vesicles or just excoriations on the elbows, knees, buttocks and scalp, not responding to steroids."
+  },
+  {
+   "q": "What drives it?",
+   "a": "Gluten sensitivity: IgA against epidermal transglutaminase deposits in the dermal papillae (granular IgA on DIF)."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "Coeliac serology (tTG-IgA with total IgA) before any gluten-free trial; refer for biopsy with DIF; lifelong gluten-free diet; specialist dapsone for itch control."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "Anaemia, osteoporosis and small-bowel lymphoma risk; G6PD check and haemolysis/methaemoglobinaemia on dapsone."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "Do not start a gluten-free diet before serology and biopsy: it gives false-negative results."
+  }
+ ]
+}

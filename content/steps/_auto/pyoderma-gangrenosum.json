@@ -1,0 +1,196 @@
+{
+ "_auto": true,
+ "glance": {
+  "chips": [
+   "Module 5 · Week 2 · Module 1 · Week 5",
+   "PG",
+   "neutrophilic dermatosis",
+   "pathergy"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "A pustule or small wound that rapidly becomes an exquisitely painful ulcer with a violaceous, overhanging edge, often in a patient with IBD or rheumatoid arthritis."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "Neutrophilic autoinflammation, not infection. Trauma makes it worse (pathergy)."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "Recognise it and refer urgently. Specialist treatment with oral steroids or ciclosporin. No wide debridement."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "Misdiagnosis as an infected ulcer, with repeated antibiotics and surgical debridement that make it worse.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "points": [
+   "Inflammatory bowel disease (ulcerative colitis more than Crohn’s)",
+   "Rheumatoid arthritis",
+   "Haematological malignancy and monoclonal gammopathy",
+   "Behçet disease and PAPA syndrome",
+   "Drugs, e.g. cocaine contaminated with levamisole",
+   "**Pathergy:** minor trauma (a graze, a needle, surgery, a stoma, debridement) triggers or worsens lesions in ~25–30%. **The case: a car-door graze → pustule within days → painful ulcer.**"
+  ],
+  "visuals": []
+ },
+ "features": {
+  "photo": "m5w2:R01",
+  "points": [
+   "Starts as a pustule, papule or haemorrhagic blister, often after a **minor injury**, then becomes a deep ulcer within days.",
+   "Classic **purple, overhanging (undermined) edge** with a necrotic or purulent base.",
+   "**Severe pain**, out of proportion to the size.",
+   "Legs most often; also around stomas in IBD, and at surgical sites (pathergy).",
+   "Heals with **cribriform** (sieve-like) scars.",
+   "**Sites:** **pretibial skin (commonest)**; also trunk, head and neck, **peristomal skin**, post-surgical wounds (breast surgery, caesarean section), genitals; rarely mucosa and internal organs (sterile neutrophilic abscesses in lung, spleen)."
+  ],
+  "visuals": [],
+  "variants": null
+ },
+ "confirm": {
+  "cols": [
+   {
+    "k": "Seek dermatology urgently.",
+    "icon": "check",
+    "points": [
+     ""
+    ]
+   },
+   {
+    "k": "PARACELSUS score (2019)",
+    "icon": "check",
+    "points": [
+     "— a weighted score from German wound clinics (rapid progression, assessment of differentials, violaceous border as the main items); a total of **≥ 10 points** suggests PG. Useful as a teaching checklist."
+    ]
+   },
+   {
+    "k": "Key points",
+    "icon": "check",
+    "points": [
+     "Clinical, after **excluding** infection, vasculitis and malignancy. Biopsy of the edge supports the diagnosis (neutrophilic infiltrate; Delphi/Maverakis criteria).",
+     "Swabs only to look for secondary infection."
+    ]
+   }
+  ]
+ },
+ "differentials": {
+  "cards": [
+   {
+    "name": "Infection — S. aureus/streptococcal ecthyma, necrotising soft-tissue infection, atypical mycobacteria (M. marinum, M. chelonae, M. ulcerans), deep fungal infection, herpes simplex (immunosuppressed), leishmaniasis, synergistic gangrene",
+    "clue": "Responds to the right antimicrobial; tissue culture/PCR positive; atypical mycobacterial ulcers usually evolve **over weeks to months**; on azathioprine, infection must be excluded first"
+   },
+   {
+    "name": "Martorell (hypertensive ischaemic) ulcer",
+    "clue": "Older patient with **long-standing hypertension ± diabetes**; very painful necrotic ulcer on the **lateral or posterior lower leg / Achilles area**; subcutaneous arteriolosclerosis on deep biopsy. **Debridement and skin grafting help Martorell but worsen PG** — so the distinction matters"
+   },
+   {
+    "name": "Vasculitis and vasculopathy — GPA, PAN, cryoglobulinaemia, rheumatoid vasculitis, antiphospholipid syndrome, livedoid vasculopathy, calciphylaxis",
+    "clue": "Palpable purpura, livedo racemosa, nodules, renal involvement; ANCA, cryoglobulins, APL antibodies; calciphylaxis in renal failure"
+   },
+   {
+    "name": "Venous, arterial and neuropathic ulcers",
+    "clue": "Site, ABPI, varicose veins and haemosiderin, neuropathy; less painful and slower (venous/neuropathic)"
+   },
+   {
+    "name": "Malignancy — SCC (including Marjolin ulcer in a chronic wound), BCC, lymphoma",
+    "clue": "Rolled or heaped edge, slower growth, no inflammatory violaceous border; biopsy"
+   },
+   {
+    "name": "Other",
+    "clue": "Factitious ulcers (bizarre shapes, inaccessible sites spared), spider bite (loxoscelism — not UK), drug-induced (hydroxycarbamide leg ulcers, levamisole-cocaine vasculopathy), Sweet syndrome (plaques, not ulcers), Behçet's",
+    "link": "other-skin-lumps"
+   }
+  ]
+ },
+ "manage": {
+  "rungs": []
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "routine",
+    "t": "A painful ulcer with a **purple undermined edge** that expands over days."
+   },
+   {
+    "when": "routine",
+    "t": "An ulcer getting worse after debridement or surgery (pathergy)."
+   },
+   {
+    "when": "routine",
+    "t": "Peristomal ulcer in IBD."
+   },
+   {
+    "when": "routine",
+    "t": "Systemic upset, or rapid spread despite antibiotics."
+   }
+  ],
+  "groups": [
+   0,
+   1
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "**Pathergy counselling:** protect the skin, and plan procedures only when the disease is quiet, with specialist input."
+  },
+  {
+   "icon": "bulb",
+   "t": "In the community, escalate early. Do not trial antibiotic after antibiotic."
+  },
+  {
+   "icon": "bulb",
+   "t": "Ask about bowel symptoms and joint pain. PG can be the first sign of IBD."
+  },
+  {
+   "icon": "bulb",
+   "t": "\"**Graze → pustule → fast, agonising, purple-edged ulcer in someone with IBD = PG until proved otherwise — and never debride it.**\""
+  },
+  {
+   "icon": "bulb",
+   "t": "PG is a diagnosis of exclusion: **infection first** (especially on azathioprine or a biologic), then vasculitis, vascular disease and cancer."
+  },
+  {
+   "icon": "bulb",
+   "t": "**Pain out of proportion** and an ulcer that **gets bigger after debridement** are the two most useful bedside clues."
+  },
+  {
+   "icon": "bulb",
+   "t": "Cribriform scars on the legs at a later consultation = past PG: ask about the bowel, joints and blood disorders."
+  },
+  {
+   "icon": "bulb",
+   "t": "Steroids and ciclosporin heal PG equally (STOP GAP): the choice is a **medicines-safety decision** — a natural place for pharmacist input."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Pyoderma gangrenosum?",
+   "a": "A pustule or small wound that rapidly becomes an exquisitely painful ulcer with a violaceous, overhanging edge, often in a patient with IBD or rheumatoid arthritis."
+  },
+  {
+   "q": "What drives it?",
+   "a": "Neutrophilic autoinflammation, not infection. Trauma makes it worse (pathergy)."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "Recognise it and refer urgently. Specialist treatment with oral steroids or ciclosporin. No wide debridement."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "Misdiagnosis as an infected ulcer, with repeated antibiotics and surgical debridement that make it worse."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "A painful ulcer with a **purple undermined edge** that expands over days."
+  }
+ ]
+}

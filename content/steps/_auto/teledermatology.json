@@ -1,0 +1,95 @@
+{
+ "_auto": true,
+ "glance": {
+  "chips": [
+   "Module 2 · Week 5",
+   "advice and guidance",
+   "dermoscopic images",
+   "image standards"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "Referring a skin lesion through a teledermatology or advice-and-guidance service."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "Images and history are triaged by a dermatologist, who can discharge, advise, book surgery directly or fast-track."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "Three views: regional for location, close-up with a ruler, and a polarised in-focus dermoscopic image; full history including change and risk factors; consent."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "Poor-quality images, missing dermoscopy, lesions on the scalp, genitals or nails, and delay in a suspected melanoma pathway.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "points": [],
+  "visuals": []
+ },
+ "features": {
+  "photo": "",
+  "points": [
+   "primary-care advice and guidance",
+   "referral triage (images attached to all 2WW skin referrals)",
+   "community \"image capture hubs\" with trained medical photographers",
+   "AI-assisted triage (HTG746; see *Recognition, diagnostic accuracy, dermoscopy and AI*).",
+   "**Three views:** a regional/whole-site image (anatomical location), a close-up with a **ruler/scale**, and a **dermoscopic image** (polarised, in focus, the whole lesion in view)."
+  ],
+  "visuals": [],
+  "variants": null
+ },
+ "confirm": {
+  "cols": []
+ },
+ "differentials": {
+  "cards": []
+ },
+ "manage": {
+  "rungs": []
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "urgent",
+    "t": "Teledermatology must not delay a **suspected cancer pathway** referral: if images are poor, refer face to face."
+   }
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "Tell the patient that photos may be reviewed by a specialist first and they may be booked straight for surgery. Get consent for image storage."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Teledermatology & lesion photography?",
+   "a": "Referring a skin lesion through a teledermatology or advice-and-guidance service."
+  },
+  {
+   "q": "What drives it?",
+   "a": "Images and history are triaged by a dermatologist, who can discharge, advise, book surgery directly or fast-track."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "Three views: regional for location, close-up with a ruler, and a polarised in-focus dermoscopic image; full history including change and risk factors; consent."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "Poor-quality images, missing dermoscopy, lesions on the scalp, genitals or nails, and delay in a suspected melanoma pathway."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "Teledermatology must not delay a **suspected cancer pathway** referral: if images are poor, refer face to face."
+  }
+ ]
+}

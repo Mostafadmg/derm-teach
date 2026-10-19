@@ -1,0 +1,126 @@
+{
+ "_auto": true,
+ "glance": {
+  "chips": [
+   "Module 6 · Week 6",
+   "chemical peel",
+   "microneedling",
+   "skin needling"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "A patient asking about peels, needling or laser for scars, pigment or ageing, or a patient on isotretinoin asking ‘can I have this done?’"
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "Controlled injury (chemical, mechanical or thermal) leading to re-epithelialisation and collagen remodelling."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "Match depth and risk to the goal and skin type, refer to trained operators, and counsel on SPF and aftercare."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "PIH and keloid risk in skin of colour, HSV reactivation, and unregulated providers. Do not ‘clear’ isotretinoin patients yourself.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "points": [],
+  "visuals": []
+ },
+ "features": {
+  "photo": "m6w6:I03",
+  "points": [],
+  "visuals": [],
+  "variants": null,
+  "groups": [
+   0,
+   1
+  ]
+ },
+ "confirm": {
+  "cols": []
+ },
+ "differentials": {
+  "cards": [
+   {
+    "name": "Laser hair removal; fractional lasers; pigment lasers; fractional RF microneedling; superficial and medium peels; microdermabrasion; dermaroller; biopsies; superficial excisions",
+    "clue": "**Deep** phenol peels; fully ablative resurfacing; mechanical dermabrasion"
+   }
+  ]
+ },
+ "manage": {
+  "rungs": []
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "routine",
+    "t": "Pain, spreading redness, pus or fever after a procedure: infection."
+   },
+   {
+    "when": "routine",
+    "t": "Grouped vesicles after a facial procedure: **HSV**, needing prompt antivirals."
+   },
+   {
+    "when": "routine",
+    "t": "Blistering, burns or dyspigmentation: refer back to the operator or dermatology."
+   },
+   {
+    "when": "routine",
+    "t": "Deep peels: systemic toxicity risk. Specialist settings only."
+   }
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "**More ablative is not always better.** Match downtime and risk to the goal and skin type."
+  },
+  {
+   "icon": "bulb",
+   "t": "Darker skin: start cautiously, as there is a higher risk of dyspigmentation and keloid."
+  },
+  {
+   "icon": "bulb",
+   "t": "Pregnancy: most elective peels and lasers are deferred."
+  },
+  {
+   "icon": "bulb",
+   "t": "Advise patients to check the provider’s **qualifications and insurance**."
+  },
+  {
+   "icon": "bulb",
+   "t": "Patient phrase: “Many modern guidelines no longer insist on a blanket 6-month wait for milder procedures, but your dermatologist or cosmetic clinician decides case by case.”"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Cosmetic procedures: peels, needling & lasers?",
+   "a": "A patient asking about peels, needling or laser for scars, pigment or ageing, or a patient on isotretinoin asking ‘can I have this done?’"
+  },
+  {
+   "q": "What drives it?",
+   "a": "Controlled injury (chemical, mechanical or thermal) leading to re-epithelialisation and collagen remodelling."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "Match depth and risk to the goal and skin type, refer to trained operators, and counsel on SPF and aftercare."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "PIH and keloid risk in skin of colour, HSV reactivation, and unregulated providers. Do not ‘clear’ isotretinoin patients yourself."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "Pain, spreading redness, pus or fever after a procedure: infection."
+  }
+ ]
+}

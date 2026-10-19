@@ -1,0 +1,187 @@
+{
+ "_auto": true,
+ "glance": {
+  "chips": [
+   "Module 2 · Week 4",
+   "mole",
+   "junctional naevus",
+   "compound naevus"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "A mole that is new, changing, itchy or worrying the patient, or someone with many moles asking for a check."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "Benign clonal proliferations of melanocytes (often BRAF), driven by genes and childhood sun; they evolve from flat (junctional) to raised (dermal) with age."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "History of change, full skin check, ugly-duckling comparison, NICE weighted 7-point checklist (≥3 = suspected cancer pathway); reassure only with confidence (ideally dermoscopy)."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "Melanoma in a young adult mistaken for a benign mole; sunbed use; reassurance without dermoscopy.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "points": [
+   "Most acquired naevi carry **BRAF V600E**, and congenital naevi carry **NRAS** mutations. After growth they enter **oncogene-induced senescence**, which is why most never become melanoma.",
+   "**Life cycle:** **junctional** (nests at the dermo-epidermal junction; flat, brown) → **compound** (junctional + dermal; raised centre) → **dermal (intradermal)** (dermal only; soft, skin-coloured to light-brown dome, often hair-bearing; adults).",
+   "Drivers of naevus number: genetics (MC1R, family), **childhood sunburn and intermittent UV**, immunosuppression, BRAF inhibitors (eruptive naevi), and pregnancy/hormones (darkening rather than true growth in most cases).",
+   "**COCP:** large meta-analyses show **no meaningful increase in melanoma risk**. Melanocytes express oestrogen receptors, and darkening of naevi or melasma can occur."
+  ],
+  "visuals": []
+ },
+ "features": {
+  "photo": "m2w4:A02",
+  "points": [
+   "**Reticular**: a regular network that fades at the periphery (junctional/compound; trunk).",
+   "**Globular**: regular brown globules (compound/dermal, children and young adults; the **[Case 1](condition:melanocytic-naevi)** pattern).",
+   "**Homogeneous** (blue = blue naevus; tan = dermal naevus).",
+   "**Starburst**: symmetrical peripheral streaks, typical of a pigmented Spitz/Reed naevus (in adults it needs excision because it mimics melanoma).",
+   "**Mixed reticular-globular** with symmetry.",
+   "Dermal naevus vessels: **comma vessels, out of focus** (\"hazy\", because they are deeper)."
+  ],
+  "visuals": [],
+  "variants": {
+   "title": "Types to recognise",
+   "items": [
+    {
+     "name": "Junctional",
+     "t": "Flat, uniformly brown, round",
+     "where": ""
+    },
+    {
+     "name": "Compound",
+     "t": "Slightly raised, brown, may have a flat rim",
+     "where": ""
+    },
+    {
+     "name": "Dermal (intradermal)",
+     "t": "Soft, dome-shaped, skin-coloured or pink-tan; may have a few fine vessels; face, trunk",
+     "where": ""
+    },
+    {
+     "name": "Miescher naevus",
+     "t": "Face; dome-shaped, firm, often hairy",
+     "where": ""
+    },
+    {
+     "name": "Unna naevus",
+     "t": "Trunk/neck; papillomatous, \"raspberry-like\", soft",
+     "where": ""
+    },
+    {
+     "name": "Common mole",
+     "t": "Symmetrical, regular border, one or two colours",
+     "where": ""
+    }
+   ]
+  },
+  "groups": [
+   0
+  ]
+ },
+ "confirm": {
+  "cols": [
+   {
+    "k": "Dermoscopy",
+    "icon": "check",
+    "points": [
+     "(trained clinician; see *Dermoscopy of naevi; naevus vs BCC; biopsy rules*)."
+    ]
+   },
+   {
+    "k": "Excision biopsy",
+    "icon": "check",
+    "points": [
+     "(2 mm margin, full thickness) if melanoma cannot be excluded."
+    ]
+   },
+   {
+    "k": "Key points",
+    "icon": "check",
+    "points": [
+     "History of change (who noticed it, over what time, photos?), the **NG12 weighted 7-point checklist**, the **ABCDE** rule, and the **\"ugly duckling\" sign**. See the [describing skin lesions](condition:lesion-language) notes."
+    ]
+   }
+  ],
+  "groups": [
+   1
+  ]
+ },
+ "differentials": {
+  "cards": []
+ },
+ "manage": {
+  "rungs": []
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "urgent",
+    "t": "NICE weighted 7-point checklist score of **3 or more**, or strong suspicion: **suspected cancer pathway** referral (NG12)."
+   },
+   {
+    "when": "routine",
+    "t": "A mole that stands out from the patient’s others (ugly duckling), or a new mole after 40: low threshold to refer."
+   },
+   {
+    "when": "routine",
+    "t": "Under-18s cannot legally use sunbeds in the UK (Sunbeds (Regulation) Act 2010); advise everyone to avoid them."
+   }
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "Teach monthly self-examination using a partner or mirror, and photographs on the phone."
+  },
+  {
+   "icon": "bulb",
+   "t": "Immunosuppressed patients (transplant, biologics, methotrexate) and those on **BRAF inhibitors** can develop new or eruptive naevi. Refer lesions that look new or atypical."
+  },
+  {
+   "icon": "bulb",
+   "t": "Patients ask \"can't you just shave it off?\" Explain that removing a whole mole is necessary for an accurate diagnosis, and that cosmetic shaves may leave pigment that regrows (recurrent naevus, which then mimics melanoma."
+  },
+  {
+   "icon": "bulb",
+   "t": "\"A tan is your skin's damage response.\" People with many moles, red hair or freckles, a family history, or a history of sunburn should never use sunbeds."
+  },
+  {
+   "icon": "bulb",
+   "t": "Check that sunscreen is applied in an adequate amount (about 2 mg/cm²: roughly 6–8 teaspoons for the whole adult body) and reapplied. Most people apply a quarter to a half of this."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Melanocytic naevi (moles) & the changing mole?",
+   "a": "A mole that is new, changing, itchy or worrying the patient, or someone with many moles asking for a check."
+  },
+  {
+   "q": "What drives it?",
+   "a": "Benign clonal proliferations of melanocytes (often BRAF), driven by genes and childhood sun; they evolve from flat (junctional) to raised (dermal) with age."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "History of change, full skin check, ugly-duckling comparison, NICE weighted 7-point checklist (≥3 = suspected cancer pathway); reassure only with confidence (ideally dermoscopy)."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "Melanoma in a young adult mistaken for a benign mole; sunbed use; reassurance without dermoscopy."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "NICE weighted 7-point checklist score of **3 or more**, or strong suspicion: **suspected cancer pathway** referral (NG12)."
+  }
+ ]
+}

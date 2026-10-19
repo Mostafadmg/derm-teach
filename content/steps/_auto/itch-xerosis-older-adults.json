@@ -1,0 +1,167 @@
+{
+ "_auto": true,
+ "glance": {
+  "chips": [
+   "Module 6 · Week 4",
+   "pruritus",
+   "xerosis",
+   "asteatotic eczema"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "Dry, cracked “crazy-paving” shins or generalised itch in an older person, often worse in winter after hot baths and soaps."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "Age-related barrier lipid loss plus environment, drugs and comorbidities drive xerosis → fissures → itch–scratch."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "Liberal greasy emollients and soap substitutes every day; short moderately potent steroid for asteatotic flares; review diuretics/statins with the GP."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "Itch out of proportion to rash — think scabies, bullous pemphigoid, and systemic disease (CKD, cholestasis, lymphoma).",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "points": [
+   "Ageing epidermis: fewer lipids and NMF, slower repair, higher water loss; less sebum/sweat.",
+   "Environment: low humidity, central heating, hot showers, soaps and antiseptic washes.",
+   "Drugs: diuretics, **statins**, retinoids, some antiandrogens, chemotherapy/EGFR inhibitors.",
+   "Systemic: hypothyroidism, CKD, diabetes, malnutrition, HIV, malignancy (acquired ichthyosis)."
+  ],
+  "visuals": []
+ },
+ "features": {
+  "photo": "m6w4:W4A-01",
+  "points": [
+   "Dull rough scale, tight feel, nocturnal itch; winter flares.",
+   "Asteatotic eczema: shallow red fissures in a cracked-porcelain network on shins (± thighs, arms).",
+   "Venous eczema: medial gaiter area with haemosiderin, oedema, varicose veins — see also [venous leg ulcer](condition:venous-leg-ulcer) / [red leg](condition:red-leg).",
+   "Discoid eczema: coin-shaped weeping plaques.",
+   "Lichen simplex / prurigo: thick scratched plaques or nodules at reachable sites."
+  ],
+  "visuals": [],
+  "variants": null,
+  "groups": [
+   0,
+   1,
+   2
+  ]
+ },
+ "confirm": {
+  "cols": [
+   {
+    "k": "Key points",
+    "icon": "check",
+    "points": [
+     "Clinical: season, bathing habits, products, drugs, care-home contacts.",
+     "Itch >> rash, new generalised dryness, or resistance → systemic screen and “don’t miss” list below.",
+     "Swab only if infected; patch test if products seem to worsen it."
+    ]
+   }
+  ]
+ },
+ "differentials": {
+  "cards": [
+   {
+    "name": "Scabies",
+    "clue": "Burrows, nocturnal itch, itchy contacts/care home",
+    "link": "scabies"
+   },
+   {
+    "name": "Bullous pemphigoid (pre-bullous)",
+    "clue": "Urticated plaques, intense itch, older adult → refer",
+    "link": "bullous-pemphigoid"
+   },
+   {
+    "name": "Venous / discoid eczema",
+    "clue": "Gaiter staining or coin plaques"
+   },
+   {
+    "name": "Contact dermatitis",
+    "clue": "Follows medicaments/emollient ingredients",
+    "link": "contact-dermatitis"
+   },
+   {
+    "name": "Tinea",
+    "clue": "Annular active edge; scrapings",
+    "link": "annular-rashes"
+   },
+   {
+    "name": "Systemic itch",
+    "clue": "Little rash; weight loss, night sweats, nodes"
+   }
+  ]
+ },
+ "manage": {
+  "rungs": []
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "routine",
+    "t": "Generalised itch with little rash, weight loss, night sweats or lymphadenopathy → systemic work-up."
+   },
+   {
+    "when": "routine",
+    "t": "Suspected scabies outbreak in a care home."
+   },
+   {
+    "when": "routine",
+    "t": "New intense itch with urticated plaques in an older adult → consider pemphigoid; refer."
+   },
+   {
+    "when": "routine",
+    "t": "Non-healing “eczema” → patch testing or alternative diagnosis."
+   }
+  ],
+  "groups": [
+   3
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "“Steroid settles it but it always comes back” usually means **no maintenance emollient**."
+  },
+  {
+   "icon": "bulb",
+   "t": "Help older people reach their legs — carers, pumps, long-handled applicators."
+  },
+  {
+   "icon": "bulb",
+   "t": "Teach fingertip units; steroid treats the flare, emollient prevents the next one."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Itch & xerosis in older adults?",
+   "a": "Dry, cracked “crazy-paving” shins or generalised itch in an older person, often worse in winter after hot baths and soaps."
+  },
+  {
+   "q": "What drives it?",
+   "a": "Age-related barrier lipid loss plus environment, drugs and comorbidities drive xerosis → fissures → itch–scratch."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "Liberal greasy emollients and soap substitutes every day; short moderately potent steroid for asteatotic flares; review diuretics/statins with the GP."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "Itch out of proportion to rash — think scabies, bullous pemphigoid, and systemic disease (CKD, cholestasis, lymphoma)."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "Generalised itch with little rash, weight loss, night sweats or lymphadenopathy → systemic work-up."
+  }
+ ]
+}

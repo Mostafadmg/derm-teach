@@ -1,0 +1,97 @@
+{
+ "_auto": true,
+ "glance": {
+  "chips": [
+   "Module 2 · Week 5",
+   "checkpoint inhibitor",
+   "pembrolizumab",
+   "nivolumab"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "A patient on (or recently stopped) pembrolizumab, nivolumab, ipilimumab or dabrafenib + trametinib with any new symptom."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "Checkpoint inhibitors release T-cell brakes, so autoimmune inflammation can hit any organ, even months after stopping."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "Ask ‘are you on cancer treatment?’; contact the 24-hour acute oncology hotline rather than treating alone; check interactions (dabrafenib lowers hormonal contraceptive levels)."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "Colitis, pneumonitis, hepatitis, myocarditis, hypophysitis/adrenal crisis, new type 1 diabetes/DKA, SJS/TEN.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "points": [],
+  "visuals": []
+ },
+ "features": {
+  "photo": "",
+  "points": [],
+  "visuals": [],
+  "variants": null
+ },
+ "confirm": {
+  "cols": []
+ },
+ "differentials": {
+  "cards": []
+ },
+ "manage": {
+  "rungs": []
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "same-day",
+    "t": "Diarrhoea, breathlessness, severe headache, chest pain or new thirst/polyuria in a patient on immunotherapy: **same-day acute oncology** contact."
+   },
+   {
+    "when": "routine",
+    "t": "Fever on dabrafenib + trametinib: follow the protocol (interrupt) and contact the oncology team."
+   }
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "Explain that side-effects can be serious but are usually treatable *if caught early*: \"ring the hotline, not the GP's routine line\"."
+  },
+  {
+   "icon": "bulb",
+   "t": "Vitiligo during anti-PD-1 therapy is common and often correlates with better response. Protect the depigmented skin from sun."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Melanoma immunotherapy & targeted therapy: side-effects?",
+   "a": "A patient on (or recently stopped) pembrolizumab, nivolumab, ipilimumab or dabrafenib + trametinib with any new symptom."
+  },
+  {
+   "q": "What drives it?",
+   "a": "Checkpoint inhibitors release T-cell brakes, so autoimmune inflammation can hit any organ, even months after stopping."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "Ask ‘are you on cancer treatment?’; contact the 24-hour acute oncology hotline rather than treating alone; check interactions (dabrafenib lowers hormonal contraceptive levels)."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "Colitis, pneumonitis, hepatitis, myocarditis, hypophysitis/adrenal crisis, new type 1 diabetes/DKA, SJS/TEN."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "Diarrhoea, breathlessness, severe headache, chest pain or new thirst/polyuria in a patient on immunotherapy: **same-day acute oncology** contact."
+  }
+ ]
+}

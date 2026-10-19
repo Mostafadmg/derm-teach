@@ -1,0 +1,190 @@
+{
+ "_auto": true,
+ "glance": {
+  "chips": [
+   "Module 5 · Week 4",
+   "Hansen disease",
+   "leprosy",
+   "Mycobacterium leprae"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "Hypopigmented or red patches with reduced sensation, thickened nerves, painless burns or ulcers, in someone from an endemic country."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "*M. leprae* infects Schwann cells and macrophages; the immune response sets where the patient sits on the tuberculoid–lepromatous spectrum."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "Refer to the UK leprosy service (Hospital for Tropical Diseases); WHO multidrug therapy; address stigma; protect anaesthetic hands and feet."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "Type 1 (reversal) reactions and erythema nodosum leprosum: nerve pain, weakness or painful nodules need urgent steroids via the specialist team.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "points": [
+   "**Nerve damage:** bacilli invade **Schwann cells**. This leads to sensory loss (temperature first, then light touch, pain, pressure), then autonomic loss (dry skin, anhidrosis), then motor loss (claw hand, foot drop, lagophthalmos)."
+  ],
+  "visuals": []
+ },
+ "features": {
+  "photo": "m5w4:W4D06",
+  "points": [
+   "**Definite loss of sensation in a pale (hypopigmented) or reddish skin patch**",
+   "**Thickened/enlarged peripheral nerve** with sensory loss and/or weakness of the muscles it supplies",
+   "**Acid-fast bacilli on slit-skin smear**",
+   "**Infiltrated facial lesions** for 2 years (LL infiltration, early leonine facies)",
+   "**Glove-and-stocking loss of temperature and touch** (temperature lost first)",
+   "**Thickened, tender ulnar and lateral popliteal nerves**"
+  ],
+  "visuals": [],
+  "variants": {
+   "title": "Types to recognise",
+   "items": [
+    {
+     "name": "Indeterminate",
+     "t": "1 or a few faint hypopigmented macules, ill-defined",
+     "where": "Minimal sensory change"
+    },
+    {
+     "name": "TT (tuberculoid)",
+     "t": "1–3 **sharply defined** hypopigmented or red plaques with raised edge; **dry, hairless, anaesthetic, anhidrotic**",
+     "where": "Thickened nerve near lesion, early damage"
+    },
+    {
+     "name": "BT",
+     "t": "More (5–20), larger, asymmetrical lesions; satellite lesions",
+     "where": "Asymmetrical, prone to type 1 reaction"
+    },
+    {
+     "name": "BB",
+     "t": "Many varied lesions; \"**Swiss-cheese**\"/inverted-saucer annular lesions",
+     "where": "Several nerves"
+    },
+    {
+     "name": "BL",
+     "t": "Many, fairly symmetrical macules/papules/plaques/nodules; sensation partly preserved",
+     "where": "Widespread, glove-and-stocking"
+    },
+    {
+     "name": "LL (lepromatous)",
+     "t": "Widespread, ill-defined, shiny symmetrical macules → **diffuse infiltration, nodules (lepromas)**; **leonine facies**, **madarosis** (loss of lateral eyebrows/lashes), **thickened earlobes**, nasal stuffiness/epistaxis/collapse, oedematous legs, ichthyotic skin",
+     "where": "Symmetrical glove-and-stocking sensory loss; nerves thickened"
+    },
+    {
+     "name": "Histoid (LL variant)",
+     "t": "Shiny dome-shaped skin-coloured to coppery papules/nodules",
+     "where": "—"
+    },
+    {
+     "name": "Pure neural",
+     "t": "No skin lesions; nerve thickening/tenderness, sensory loss, trophic ulcers",
+     "where": "—"
+    }
+   ]
+  },
+  "groups": [
+   0,
+   1
+  ]
+ },
+ "confirm": {
+  "cols": [
+   {
+    "k": "Clinical examination",
+    "icon": "eye",
+    "points": [
+     "sensory testing of lesions (cotton wool for touch, warm/cold tubes for temperature, monofilaments), nerve palpation, and a voluntary muscle test."
+    ]
+   },
+   {
+    "k": "Slit-skin smear (SSS)",
+    "icon": "check",
+    "points": [
+     "from the **earlobes**, forehead and lesions. Stain with Ziehl–Neelsen/Fite. Report the **bacterial index (BI)** and **morphological index**. The smear is positive in MB and negative in TT."
+    ]
+   },
+   {
+    "k": "Nerve studies",
+    "icon": "check",
+    "points": [
+     "nerve conduction, ultrasound or nerve biopsy (pure neural leprosy)."
+    ]
+   },
+   {
+    "k": "Lepromin (Mitsuda) test",
+    "icon": "flask",
+    "points": [
+     "not diagnostic. It helps **classify** (positive in TT, negative in LL)."
+    ]
+   }
+  ]
+ },
+ "differentials": {
+  "cards": []
+ },
+ "manage": {
+  "rungs": []
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "urgent",
+    "t": "New **nerve pain, numbness or weakness**, or painful nodules with fever on treatment: lepra reaction, **urgent** specialist contact."
+   },
+   {
+    "when": "same-day",
+    "t": "Eye pain or redness: same-day ophthalmology."
+   },
+   {
+    "when": "routine",
+    "t": "Thalidomide for ENL is specialist-only with a strict pregnancy prevention programme."
+   }
+  ],
+  "groups": [
+   2
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "**Steroid courses** for reactions are often long. Give bone protection, GI protection where indicated, glucose and BP checks, steroid card and sick-day rules. Screen for and treat *Strongyloides* and latent TB first."
+  },
+  {
+   "icon": "bulb",
+   "t": "**Adherence:** the course is long (6–12 months) and skin lesions fade slowly. Explain that **reactions are not treatment failure**, and that **numbness may not recover** even when the infection is cured."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Leprosy (Hansen disease) & lepra reactions?",
+   "a": "Hypopigmented or red patches with reduced sensation, thickened nerves, painless burns or ulcers, in someone from an endemic country."
+  },
+  {
+   "q": "What drives it?",
+   "a": "*M. leprae* infects Schwann cells and macrophages; the immune response sets where the patient sits on the tuberculoid–lepromatous spectrum."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "Refer to the UK leprosy service (Hospital for Tropical Diseases); WHO multidrug therapy; address stigma; protect anaesthetic hands and feet."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "Type 1 (reversal) reactions and erythema nodosum leprosum: nerve pain, weakness or painful nodules need urgent steroids via the specialist team."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "New **nerve pain, numbness or weakness**, or painful nodules with fever on treatment: lepra reaction, **urgent** specialist contact."
+  }
+ ]
+}

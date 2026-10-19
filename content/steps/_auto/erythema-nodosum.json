@@ -1,0 +1,124 @@
+{
+ "_auto": true,
+ "glance": {
+  "chips": [
+   "Module 1 · Week 3",
+   "EN",
+   "tender shin nodules",
+   "septal panniculitis"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "Painful, warm, ill-defined red nodules on both shins, often with fever or aching joints."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "A hypersensitivity reaction in the fat septa (septal panniculitis) to an infection, drug, inflammatory disease or pregnancy."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "Find the trigger (throat swab/ASO, CXR, FBC, CRP, pregnancy test, drug review); rest, elevation, NSAID if suitable; stop a culprit COC."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "Sarcoidosis with hilar nodes; TB; IBD flare; cellulitis or DVT mistaken for EN.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "points": [
+   "**idiopathic** (~30–50%)",
+   "**streptococcal infection** (the commonest identifiable cause, especially in children)",
+   "**sarcoidosis** (Löfgren syndrome — the [skin signs of systemic disease](condition:dermatomyositis) notes)",
+   "**drugs** — **oestrogen-containing contraceptives/HRT**, sulfonamides, penicillins/amoxicillin, bromides, minocycline, gold, and newer agents (BRAF inhibitors, immune checkpoint inhibitors, isotretinoin rarely)",
+   "**pregnancy**",
+   "**IBD** (Crohn's/UC)"
+  ],
+  "visuals": []
+ },
+ "features": {
+  "photo": "m1w3:E01",
+  "points": [
+   "Crops of **tender, warm, ill-defined red nodules 1–5 cm** on the **anterior shins**, usually **bilateral**. Less often on the thighs, forearms or trunk.",
+   "They evolve through bruise-like colours (\"**erythema contusiformis**\", photo E02) and resolve in **3–6 weeks without ulceration or scarring**.",
+   "Prodrome: fever, malaise, arthralgia (ankles), sometimes before the nodules.",
+   "**Unilateral EN is uncommon but described**. A single unilateral lesion makes it essential to exclude the differentials below."
+  ],
+  "visuals": [],
+  "variants": null,
+  "groups": [
+   0
+  ]
+ },
+ "confirm": {
+  "cols": [
+   {
+    "k": "Deep incisional/punch biopsy",
+    "icon": "check",
+    "points": [
+     "(to fat) if atypical — unilateral, ulcerating or persistent >6–8 weeks."
+    ]
+   }
+  ]
+ },
+ "differentials": {
+  "cards": []
+ },
+ "manage": {
+  "rungs": []
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "routine",
+    "t": "EN with cough, breathlessness, weight loss or night sweats: CXR to look for **sarcoidosis, TB or lymphoma**."
+   },
+   {
+    "when": "routine",
+    "t": "Ulcerating or one-sided nodules: not typical EN, so think again (erythema induratum, vasculitis, cellulitis)."
+   }
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "\"EN is a **sign, not a diagnosis**\" — the job is finding the trigger."
+  },
+  {
+   "icon": "bulb",
+   "t": "It heals without scarring, but **new crops can appear for several weeks** after the trigger is removed."
+  },
+  {
+   "icon": "bulb",
+   "t": "In any woman on a COC + TXA with a **tender, red, unilateral leg**, think **clot** before panniculitis."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Erythema nodosum (incl. drug-induced)?",
+   "a": "Painful, warm, ill-defined red nodules on both shins, often with fever or aching joints."
+  },
+  {
+   "q": "What drives it?",
+   "a": "A hypersensitivity reaction in the fat septa (septal panniculitis) to an infection, drug, inflammatory disease or pregnancy."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "Find the trigger (throat swab/ASO, CXR, FBC, CRP, pregnancy test, drug review); rest, elevation, NSAID if suitable; stop a culprit COC."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "Sarcoidosis with hilar nodes; TB; IBD flare; cellulitis or DVT mistaken for EN."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "EN with cough, breathlessness, weight loss or night sweats: CXR to look for **sarcoidosis, TB or lymphoma**."
+  }
+ ]
+}

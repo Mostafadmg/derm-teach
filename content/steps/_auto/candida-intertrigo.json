@@ -1,0 +1,201 @@
+{
+ "_auto": true,
+ "glance": {
+  "chips": [
+   "Adult core · deepened with Module 5 Week 1",
+   "candida",
+   "candidiasis",
+   "thrush skin"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "Bright, beefy-red, moist plaques in a skin fold, with satellite papules or pustules beyond the edge."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "Opportunistic Candida albicans overgrowth in warm, wet, occluded folds."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "Keep the fold dry, then a topical imidazole or nystatin. Address the risk factors."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "Undiagnosed diabetes or immunosuppression, and flexural psoriasis or tinea that will not respond.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "points": [
+   "**Diabetes** (look for it)",
+   "Recent **antibiotics** or systemic steroids",
+   "Immunosuppression",
+   "Obesity and deep skin folds",
+   "Incontinence, nappies and pads",
+   "Wet work, for finger-web disease"
+  ],
+  "visuals": []
+ },
+ "features": {
+  "photo": "D15",
+  "points": [
+   "**Beefy-red, macerated plaques** in folds, often glistening or eroded.",
+   "**Satellite papules and pustules** beyond the main edge. This is the key sign.",
+   "Peripheral peeling scale at the margin.",
+   "Soreness, itch or burning.",
+   "In the groin, Candida often **involves the scrotum**, which tinea tends to spare."
+  ],
+  "visuals": [],
+  "variants": null,
+  "groups": [
+   0,
+   1
+  ]
+ },
+ "confirm": {
+  "cols": [
+   {
+    "k": "Check HbA1c or glucose",
+    "icon": "check",
+    "points": [
+     "if recurrent or there are other risk features."
+    ]
+   },
+   {
+    "k": "Key points",
+    "icon": "check",
+    "points": [
+     "Usually clinical, based on the site and satellite lesions.",
+     "Take a swab or scrapings for yeast if uncertain, recurrent or not responding. Swab for bacteria if secondary infection is suspected."
+    ]
+   }
+  ]
+ },
+ "differentials": {
+  "cards": [
+   {
+    "name": "Irritant (simple) intertrigo",
+    "clue": "Friction and moisture redness without satellites; mirror-image on both sides of the fold"
+   },
+   {
+    "name": "Flexural (inverse) psoriasis",
+    "clue": "Sharply defined salmon-pink plaque, no satellites; psoriasis at other sites or nails",
+    "link": "psoriasis"
+   },
+   {
+    "name": "Tinea cruris",
+    "clue": "Arcuate scaly active edge spreading onto the thigh; scrotum usually spared",
+    "link": "tinea"
+   },
+   {
+    "name": "Erythrasma",
+    "clue": "Brown-red, finely scaly patch; coral-red under Wood’s light (Corynebacterium)",
+    "link": "intertrigo"
+   },
+   {
+    "name": "Seborrhoeic dermatitis",
+    "clue": "Greasy scale; also scalp and face"
+   },
+   {
+    "name": "Hailey–Hailey disease / pemphigus vegetans (rare)",
+    "clue": "Chronic, eroded, recurrent fold disease that does not respond. Refer"
+   }
+  ],
+  "groups": [
+   2
+  ]
+ },
+ "manage": {
+  "rungs": [
+   {
+    "k": "Topical antifungal",
+    "tone": "first",
+    "points": [
+     "**Imidazole** (clotrimazole or miconazole) or **nystatin**. Continue until 1–2 weeks after clearance.",
+     "For very inflamed folds, a short course of a combination with mild steroid (e.g. hydrocortisone with clotrimazole or miconazole) is sometimes used. Follow the local formulary and limit to about 7 days."
+    ]
+   },
+   {
+    "k": "Oral",
+    "tone": "second",
+    "points": [
+     "**Fluconazole** for severe or recalcitrant disease. Check interactions and pregnancy status."
+    ]
+   }
+  ]
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "routine",
+    "t": "Recurrent or extensive candida: **screen for diabetes** and consider immunosuppression."
+   },
+   {
+    "when": "routine",
+    "t": "No response to an adequate course: reconsider the diagnosis (psoriasis, tinea, erythrasma) and take samples."
+   },
+   {
+    "when": "routine",
+    "t": "Spreading cellulitis, fever or a systemically unwell patient: escalate."
+   }
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "**Satellites mean Candida.** No satellites and a very sharp edge suggests flexural psoriasis."
+  },
+  {
+   "icon": "bulb",
+   "t": "Treatment fails without moisture control. Make the drying advice practical and specific."
+  },
+  {
+   "icon": "bulb",
+   "t": "OTC clotrimazole is a sensible first pharmacy intervention for limited disease."
+  },
+  {
+   "icon": "bulb",
+   "t": "In finger-web disease, ask about wet work and rings."
+  },
+  {
+   "icon": "bulb",
+   "t": "**Satellites mean Candida until proven otherwise.**"
+  },
+  {
+   "icon": "bulb",
+   "t": "The toe-web ‘dermatophytosis complex’ is often a **mixed** yeast, dermatophyte and bacterial picture. It needs thorough drying plus the right antimicrobial."
+  },
+  {
+   "icon": "bulb",
+   "t": "KOH-negative fold rash, or one that keeps coming back? Work through [intertrigo and the flexural differential](condition:intertrigo)."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Candidal intertrigo?",
+   "a": "Bright, beefy-red, moist plaques in a skin fold, with satellite papules or pustules beyond the edge."
+  },
+  {
+   "q": "What drives it?",
+   "a": "Opportunistic Candida albicans overgrowth in warm, wet, occluded folds."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "Keep the fold dry, then a topical imidazole or nystatin. Address the risk factors."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "Undiagnosed diabetes or immunosuppression, and flexural psoriasis or tinea that will not respond."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "Recurrent or extensive candida: **screen for diabetes** and consider immunosuppression."
+  }
+ ]
+}

@@ -1,0 +1,204 @@
+{
+ "_auto": true,
+ "glance": {
+  "chips": [
+   "Adult core · deepened with Module 5 Week 1",
+   "ringworm",
+   "tinea corporis",
+   "tinea cruris"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "An asymmetrical annular plaque with a red, scaly advancing edge and central clearing; macerated toe webs; a groin rash that spares the scrotum."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "Keratin-loving dermatophytes (mostly Trichophyton rubrum) spreading outwards in the stratum corneum."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "Keep dry, apply topical terbinafine or an imidazole until 1–2 weeks after clearance, and treat the feet and nails too."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "Tinea incognito (steroid-modified), kerion, Majocchi granuloma, and immunosuppression.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "points": [
+   "**Risk factors:** occlusion, sweating, sport, shared towels and changing rooms.",
+   "**Pets and farm animals:** zoophilic species cause more inflamed, pustular lesions."
+  ],
+  "visuals": []
+ },
+ "features": {
+  "photo": "D01",
+  "points": [
+   "**Tinea incognito:** altered by steroid, so less scaly and more widespread.",
+   "**Majocchi granuloma:** a deeper, follicular infection, often after shaving or steroid use.",
+   "**Kerion-like inflammation:** boggy and pustular, typical of zoophilic species.",
+   "**Interdigital:** maceration, peeling and fissures between the toes, especially the 4th–5th web space.",
+   "**Moccasin:** dry, hyperkeratotic scaling of the sole and side of the foot.",
+   "**Vesicobullous:** inflamed vesicles on the instep."
+  ],
+  "visuals": [],
+  "variants": null,
+  "groups": [
+   0,
+   1,
+   2,
+   3,
+   5,
+   6
+  ]
+ },
+ "confirm": {
+  "cols": [
+   {
+    "k": "Skin scrapings",
+    "icon": "check",
+    "points": [
+     "(± nail clippings) for microscopy and culture."
+    ]
+   },
+   {
+    "k": "Key points",
+    "icon": "check",
+    "points": [
+     "Clinical pattern plus risk factors.",
+     "Take **skin scrapings from the active edge** for microscopy, with or without culture, if: the diagnosis is uncertain, treatment has failed, before starting oral antifungals, for extensive disease, or if immunocompromised.",
+     "**Always examine the feet, nails and hands** when the groin or body is involved.",
+     "Swab the folds if bacterial co-infection is suspected."
+    ]
+   }
+  ]
+ },
+ "differentials": {
+  "cards": [],
+  "groups": [
+   4,
+   7
+  ]
+ },
+ "manage": {
+  "rungs": [
+   {
+    "k": "Self-care (all forms)",
+    "tone": "base",
+    "points": [
+     "Keep the skin clean and **dry**, especially the toe webs and folds. Wear loose cotton clothing.",
+     "Do not share towels. Wash clothing and bedding hot.",
+     "Treat any foot or nail infection at the same time.",
+     "Children with body or groin tinea do **not** usually need to be kept off school (CKS)."
+    ]
+   },
+   {
+    "k": "Tinea corporis/cruris: mild, localised",
+    "tone": "first",
+    "points": [
+     "Topical **terbinafine**, or an imidazole (**clotrimazole, miconazole, econazole**). Continue for **1–2 weeks after the skin looks clear**.",
+     "If very inflamed, add a mild steroid (e.g. hydrocortisone 1%) for a **maximum of 7 days**. **Never use a steroid alone.**"
+    ]
+   },
+   {
+    "k": "Extensive or severe disease",
+    "tone": "third",
+    "points": [
+     "Adults: oral **terbinafine** first line, ideally after sending scrapings. Alternatives are itraconazole and griseofulvin.",
+     "Children with extensive disease: refer to paediatric dermatology."
+    ]
+   }
+  ]
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "routine",
+    "t": "Diagnostic doubt, or failure despite good adherence: take scrapings and reconsider."
+   },
+   {
+    "when": "routine",
+    "t": "**Kerion** or **Majocchi granuloma**, or suspected deep infection."
+   },
+   {
+    "when": "routine",
+    "t": "Immunocompromised patient with extensive or atypical disease."
+   },
+   {
+    "when": "routine",
+    "t": "Children needing oral treatment."
+   },
+   {
+    "when": "routine",
+    "t": "Occupational or institutional outbreak."
+   },
+   {
+    "when": "routine",
+    "t": "Tinea pedis in a person with diabetes or a history of cellulitis: fissured toe webs are an **entry point for cellulitis**."
+   }
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "Always look at the **feet** in a ‘groin rash’."
+  },
+  {
+   "icon": "bulb",
+   "t": "A steroid–antifungal combination is a **short bridge only** (up to 7 days). Explain why steroid on its own is harmful."
+  },
+  {
+   "icon": "bulb",
+   "t": "**Oral terbinafine:** check interactions and LFTs if used for a prolonged period. Taste disturbance is uncommon but worth mentioning."
+  },
+  {
+   "icon": "bulb",
+   "t": "**Azoles:** watch for CYP interactions, especially with oral itraconazole and fluconazole."
+  },
+  {
+   "icon": "bulb",
+   "t": "OTC clotrimazole and terbinafine are widely available and are a good first pharmacy intervention for limited tinea."
+  },
+  {
+   "icon": "bulb",
+   "t": "**Recurrent tinea cruris means an untreated reservoir**: the feet, the nails, or another family member."
+  },
+  {
+   "icon": "bulb",
+   "t": "Groin rash in a person with diabetes: also think of Candida and secondary bacterial infection."
+  },
+  {
+   "icon": "bulb",
+   "t": "Thick, discoloured toenails with tinea pedis: see [fungal nail infection](condition:onychomycosis) and send clippings before oral treatment."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Tinea: corporis, cruris & pedis?",
+   "a": "An asymmetrical annular plaque with a red, scaly advancing edge and central clearing; macerated toe webs; a groin rash that spares the scrotum."
+  },
+  {
+   "q": "What drives it?",
+   "a": "Keratin-loving dermatophytes (mostly Trichophyton rubrum) spreading outwards in the stratum corneum."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "Keep dry, apply topical terbinafine or an imidazole until 1–2 weeks after clearance, and treat the feet and nails too."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "Tinea incognito (steroid-modified), kerion, Majocchi granuloma, and immunosuppression."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "Diagnostic doubt, or failure despite good adherence: take scrapings and reconsider."
+  }
+ ]
+}

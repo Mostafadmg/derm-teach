@@ -1,0 +1,119 @@
+{
+ "_auto": true,
+ "glance": {
+  "chips": [
+   "Module 2 · Week 1",
+   "sebaceous cyst",
+   "epidermal cyst",
+   "pilar cyst"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "A smooth, round, mobile lump with a central pore (epidermoid), or several firm scalp lumps (pilar)."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "Keratin-filled sacs lined by epidermis or hair-root sheath; dermoid cysts are embryonic, often at the outer eyebrow."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "Reassure; leave alone or excise the whole wall when not inflamed; inflamed cysts usually are not infected (antibiotics only for cellulitis)."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "Recurrence after incomplete removal; midline nasal or scalp lumps in children (intracranial connection); multiple cysts with osteomas in Gardner syndrome (FAP).",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "points": [],
+  "visuals": []
+ },
+ "features": {
+  "photo": "m2w1:D01",
+  "points": [
+   "Mobile, dome-shaped dermal nodule, 0.5–5 cm, on the face, neck, trunk or scrotum, with a **central punctum** in many.",
+   "Inflamed or ruptured cysts are red, tender and fluctuant. Recurrence follows incomplete wall removal."
+  ],
+  "visuals": [],
+  "variants": null,
+  "groups": [
+   0,
+   1,
+   2
+  ]
+ },
+ "confirm": {
+  "cols": [
+   {
+    "k": "Key points",
+    "icon": "check",
+    "points": [
+     "Clinical. Ultrasound if unsure (helps distinguish lipoma, lymph node or sarcoma).",
+     "**Dermoid cysts in the midline (nasal bridge, scalp), or any lesion with a sinus or hair, need imaging (MRI) before surgery** because of possible intracranial extension. This was the course point.",
+     "Gardner: refer to genetics or colorectal services. Triggers are multiple cysts in a child or young adult, especially with osteomas, dental anomalies, or a family history of polyposis or young colorectal cancer."
+    ]
+   }
+  ]
+ },
+ "differentials": {
+  "cards": []
+ },
+ "manage": {
+  "rungs": []
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "routine",
+    "t": "Midline lump on the nose, scalp or spine in a child: **imaging before any surgery**."
+   },
+   {
+    "when": "routine",
+    "t": "Multiple cysts in childhood with osteomas or a family history of bowel cancer: consider **Gardner syndrome (FAP)** and refer."
+   }
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "Explain that the smell comes from keratin breakdown, not poor hygiene."
+  },
+  {
+   "icon": "bulb",
+   "t": "Recurrence after \"popping\" or drainage is expected because the wall remains."
+  },
+  {
+   "icon": "bulb",
+   "t": "Isotretinoin, ciclosporin and BRAF inhibitors can provoke milia or epidermoid cysts. Look at the drug history if cysts erupt."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Epidermoid & pilar cysts, milia and Gardner syndrome?",
+   "a": "A smooth, round, mobile lump with a central pore (epidermoid), or several firm scalp lumps (pilar)."
+  },
+  {
+   "q": "What drives it?",
+   "a": "Keratin-filled sacs lined by epidermis or hair-root sheath; dermoid cysts are embryonic, often at the outer eyebrow."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "Reassure; leave alone or excise the whole wall when not inflamed; inflamed cysts usually are not infected (antibiotics only for cellulitis)."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "Recurrence after incomplete removal; midline nasal or scalp lumps in children (intracranial connection); multiple cysts with osteomas in Gardner syndrome (FAP)."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "Midline lump on the nose, scalp or spine in a child: **imaging before any surgery**."
+  }
+ ]
+}

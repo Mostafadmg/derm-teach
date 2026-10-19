@@ -1,0 +1,151 @@
+{
+ "_auto": true,
+ "glance": {
+  "chips": [
+   "Module 6 · Week 1",
+   "naevus of Ota",
+   "nevus of Ota",
+   "achromic naevus"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "A congenital or early-childhood patch: blue-grey (dermal melanocytosis), pale (achromic or anaemic), brown and hairy (Becker), or linear and warty (epidermal naevus)."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "Developmental pigment or mosaic abnormalities: dermal melanocytes, reduced melanin, vasoconstriction, or keratinocyte mosaicism."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "Reassure, offer camouflage, document carefully, and refer selectively for specialist laser or surgery."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "Ocular Ota (glaucoma), multiple ash-leaf macules (tuberous sclerosis), extensive or syndromic epidermal naevus, and misreading a Mongolian spot as a bruise.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "points": [
+   "**Dermal melanocytoses** (Ota, Mongolian spot): melanocytes arrested in the dermis during embryonic migration (GNAQ/GNA11 mutations described).",
+   "**Achromic naevus:** a mosaic developmental pigment defect (melanocytes present, but melanin production or transfer reduced). It is not autoimmune.",
+   "**Naevus anaemicus:** localised α-adrenergic hypersensitivity of dermal vessels.",
+   "**Becker naevus:** a hamartoma of epidermis, melanocytes and hair follicles, triggered by androgens around puberty.",
+   "**Epidermal naevus:** postzygotic keratinocyte mosaicism (FGFR3, PIK3CA, HRAS)."
+  ],
+  "visuals": []
+ },
+ "features": {
+  "photo": "m6w1:G12",
+  "points": [
+   "Naevus of Ota: present at birth in about half; more common in East Asian women. Rarely, melanoma develops within dermal melanocytosis.",
+   "Naevus anaemicus: **diascopy** (pressing the surrounding skin) makes the contrast disappear.",
+   "Epidermal naevus: starts flat and tan, then becomes warty, and may extend through childhood. **ILVEN** is an itchy inflammatory variant."
+  ],
+  "visuals": [],
+  "variants": null,
+  "groups": [
+   0,
+   1,
+   2,
+   3,
+   4
+  ]
+ },
+ "confirm": {
+  "cols": []
+ },
+ "differentials": {
+  "cards": [
+   {
+    "name": "Naevus of Ota",
+    "clue": "Mongolian spot, blue naevus, melasma, drug pigmentation, bruise"
+   },
+   {
+    "name": "Achromic naevus",
+    "clue": "Vitiligo, ash-leaf macules (tuberous sclerosis), pityriasis alba, post-inflammatory hypopigmentation, naevus anaemicus, piebaldism"
+   },
+   {
+    "name": "Becker naevus",
+    "clue": "Café-au-lait macule, congenital melanocytic naevus, plexiform neurofibroma, smooth muscle hamartoma"
+   },
+   {
+    "name": "Mongolian spot",
+    "clue": "**Bruising** (acute, tender, colour changes over time), naevus of Ota/Ito"
+   },
+   {
+    "name": "Epidermal naevus",
+    "clue": "Lichen striatus, linear lichen planus, linear porokeratosis, sebaceous naevus (scalp)"
+   }
+  ]
+ },
+ "manage": {
+  "rungs": []
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "routine",
+    "t": "Naevus of Ota involving the **sclera or eye**: glaucoma screening."
+   },
+   {
+    "when": "routine",
+    "t": "**Multiple** hypopigmented ash-leaf macules, seizures or developmental delay: tuberous sclerosis."
+   },
+   {
+    "when": "routine",
+    "t": "Extensive epidermal naevus with eye, neurological or skeletal features (epidermal naevus syndrome)."
+   },
+   {
+    "when": "routine",
+    "t": "Extrasacral or atypical blue-grey marks without documentation: safeguarding questions. Document early."
+   }
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "Mottled blue-grey pigment around the eye is not ‘just a birthmark’ if the sclera is involved."
+  },
+  {
+   "icon": "bulb",
+   "t": "Clear documentation of Mongolian spots protects families from later misunderstanding."
+  },
+  {
+   "icon": "bulb",
+   "t": "Naevus anaemicus does not redden on rubbing, but vitiligo and achromic naevus do."
+  },
+  {
+   "icon": "bulb",
+   "t": "Moles present at birth, melanoma risk by size and surveillance: see [congenital melanocytic naevi](condition:congenital-melanocytic-naevi)."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Pigmented & epidermal birthmarks?",
+   "a": "A congenital or early-childhood patch: blue-grey (dermal melanocytosis), pale (achromic or anaemic), brown and hairy (Becker), or linear and warty (epidermal naevus)."
+  },
+  {
+   "q": "What drives it?",
+   "a": "Developmental pigment or mosaic abnormalities: dermal melanocytes, reduced melanin, vasoconstriction, or keratinocyte mosaicism."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "Reassure, offer camouflage, document carefully, and refer selectively for specialist laser or surgery."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "Ocular Ota (glaucoma), multiple ash-leaf macules (tuberous sclerosis), extensive or syndromic epidermal naevus, and misreading a Mongolian spot as a bruise."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "Naevus of Ota involving the **sclera or eye**: glaucoma screening."
+  }
+ ]
+}

@@ -1,0 +1,163 @@
+{
+ "_auto": true,
+ "glance": {
+  "chips": [
+   "Module 4 · Week 6",
+   "SJS",
+   "TEN",
+   "Stevens-Johnson"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "Blistering, dusky or pustular rash 4–28 days after starting a drug (days for AGEP; hours for repeat fixed drug eruption)."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "T-cell-mediated keratinocyte death (SJS/TEN, FDE), neutrophilic reactions (AGEP) or drug-triggered autoantibodies (linear IgA, pemphigoid, pemphigus)."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "Identify and stop the culprit, admit SJS/TEN, document the allergy clearly, Yellow Card, and screen high-risk drugs (HLA-B*1502 before carbamazepine in at-risk groups)."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "SJS/TEN: skin pain, fever, mucosal erosions and Nikolsky-positive skin detachment.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "points": [
+   "**HLA associations** (pharmacogenomics), with UK screening implications:"
+  ],
+  "visuals": []
+ },
+ "features": {
+  "photo": "m4w6:E02",
+  "points": [
+   "Prodrome: fever, sore throat and eye symptoms 1–3 days before the skin.",
+   "Then **painful** dusky macules or atypical flat targets, which form bullae and sheet-like detachment with a positive Nikolsky sign.",
+   "**≥2 mucosal sites** are involved (oral haemorrhagic crusting of the lips, conjunctivitis, genital; photo E02).",
+   "**Prodrome (1–3 days):** fever, malaise, sore throat, conjunctivitis/photophobia, painful swallowing — often treated as an infection, which leads to new drugs (NSAIDs, antibiotics) that confuse the timeline.",
+   "**Skin:** **painful** dusky-red macules and **atypical flat targets** (two zones, purpuric centres) on the trunk and face, spreading and coalescing. Flaccid blisters and **sheet-like detachment** follow (\"wet cigarette paper\"); **Nikolsky positive**.",
+   "**Mucosae (≥2 sites in >90%):** haemorrhagic crusted lips, oral erosions, conjunctivitis/pseudomembranes, genital and urethral erosions; also respiratory/GI epithelium."
+  ],
+  "visuals": [],
+  "variants": null,
+  "groups": [
+   1
+  ]
+ },
+ "confirm": {
+  "cols": [
+   {
+    "k": "Drug causality — ALDEN",
+    "icon": "check",
+    "points": [
+     "(Algorithm of Drug causality for Epidermal Necrolysis; Sassolas et al., 2010). Score **every** drug taken in the 8 weeks before the **index day** (the first day of symptoms, including the prodrome):"
+    ]
+   },
+   {
+    "k": "Baseline tests",
+    "icon": "flask",
+    "points": [
+     "FBC, U&E, LFT, glucose, bicarbonate/venous gas, CRP, coagulation, Mg/phosphate, albumin; skin, mucosal and blood cultures; *Mycoplasma* serology/PCR (in children/young adults); CXR (respiratory); HIV test."
+    ]
+   },
+   {
+    "k": "Key points",
+    "icon": "check",
+    "points": [
+     "age ≥40",
+     "malignancy",
+     "HR ≥120",
+     "BSA ≥10%",
+     "urea >10 mmol/L",
+     "bicarbonate <20",
+     "glucose >14",
+     "**Clinical diagnosis + urgent skin biopsy:** H&E shows full-thickness epidermal necrosis with sparse dermal infiltrate. Take a second sample for **direct immunofluorescence (negative)** to exclude autoimmune bullous disease.",
+     "**Severity at admission — SCORTEN** (calculate within 24 h, repeat on day 3), 1 point each:"
+    ]
+   }
+  ]
+ },
+ "differentials": {
+  "cards": []
+ },
+ "manage": {
+  "rungs": []
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "emergency",
+    "t": "**Skin pain, fever, dusky targets, mucosal erosions or skin detachment**: SJS/TEN, stop all non-essential drugs and call 999 / admit (burns unit or ICU)."
+   },
+   {
+    "when": "same-day",
+    "t": "Widespread sterile pustules with fever after a new drug (AGEP): same-day assessment."
+   },
+   {
+    "when": "routine",
+    "t": "Rash with fever, facial swelling, lymph nodes and abnormal liver tests: **DRESS**."
+   }
+  ],
+  "groups": [
+   0,
+   2
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "Ask **\"What new medicine did you start in the last 8 weeks?\"** at every acute rash with fever, skin pain or mucosal involvement."
+  },
+  {
+   "icon": "bulb",
+   "t": "**Skin pain out of proportion + mucosal erosions + dusky skin = SJS/TEN** until proven otherwise."
+  },
+  {
+   "icon": "bulb",
+   "t": "Paracetamol can cause FDE, so don't assume over-the-counter means innocent. Always ask about OTC and herbal products."
+  },
+  {
+   "icon": "bulb",
+   "t": "\"**Pain out of proportion + mouth/eye involvement + a new drug = SJS until proven otherwise.**\""
+  },
+  {
+   "icon": "bulb",
+   "t": "The prodrome is treated as an infection, so the drugs given for it (NSAIDs, antibiotics) appear on the chart just before the rash — **ALDEN's \"started after index day −3\"** stops you blaming them."
+  },
+  {
+   "icon": "bulb",
+   "t": "Patient leaflet: \"If you develop a rash with blisters, sore mouth or sore eyes, stop the medicine and seek urgent help.\""
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Drug-induced blistering (SJS/TEN, FDE, AGEP)?",
+   "a": "Blistering, dusky or pustular rash 4–28 days after starting a drug (days for AGEP; hours for repeat fixed drug eruption)."
+  },
+  {
+   "q": "What drives it?",
+   "a": "T-cell-mediated keratinocyte death (SJS/TEN, FDE), neutrophilic reactions (AGEP) or drug-triggered autoantibodies (linear IgA, pemphigoid, pemphigus)."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "Identify and stop the culprit, admit SJS/TEN, document the allergy clearly, Yellow Card, and screen high-risk drugs (HLA-B*1502 before carbamazepine in at-risk groups)."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "SJS/TEN: skin pain, fever, mucosal erosions and Nikolsky-positive skin detachment."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "**Skin pain, fever, dusky targets, mucosal erosions or skin detachment**: SJS/TEN, stop all non-essential drugs and call 999 / admit (burns unit or ICU)."
+  }
+ ]
+}

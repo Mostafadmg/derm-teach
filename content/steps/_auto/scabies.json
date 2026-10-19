@@ -1,0 +1,192 @@
+{
+ "_auto": true,
+ "glance": {
+  "chips": [
+   "Module 5 · Week 3",
+   "scabies",
+   "Sarcoptes",
+   "burrows"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "Generalised itch worse at night, itchy household contacts, and burrows in web spaces, wrists or genitals."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "Sarcoptes scabiei burrows in the stratum corneum; itch is delayed type IV hypersensitivity to mites, eggs and faeces."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "Permethrin 5% cream (or malathion 0.5%) whole body, repeat after 7 days, for every close contact on the same night."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "Crusted (Norwegian) scabies in a frail or immunosuppressed person: urgent specialist referral the same day.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "points": [
+   "Spread is mainly by **prolonged skin-to-skin contact** (household, sexual, carer–patient). Brief handshakes rarely transmit it. Fomites matter more in crusted disease.",
+   "The fertilised female burrows into the stratum corneum and lays eggs. Larvae hatch in about 3–4 days and mature in about 10–14 days. Off the host, mites usually die within a few days.",
+   "**Itch is delayed hypersensitivity.** At first infestation it starts about **3–6 weeks** later; on re-infestation within 1–3 days. People can transmit before they itch, so asymptomatic contacts still need treatment.",
+   "**Crusted scabies** occurs when the host cannot mount an effective immune or scratch response (frailty, dementia, learning disability, neurological disease, immunosuppression, or potent topical steroids)."
+  ],
+  "visuals": []
+ },
+ "features": {
+  "photo": "m5w3:T01",
+  "points": [],
+  "visuals": [],
+  "variants": null,
+  "groups": [
+   0
+  ]
+ },
+ "confirm": {
+  "cols": [
+   {
+    "k": "Burrow ink test",
+    "icon": "flask",
+    "points": [
+     "rub washable ink over a suspected burrow, wipe with alcohol; ink tracks the burrow."
+    ]
+   },
+   {
+    "k": "Dermoscopy",
+    "icon": "check",
+    "points": [
+     "dark triangular “delta-wing jet” (mite head/forelegs) at the end of the burrow “contrail”."
+    ]
+   },
+   {
+    "k": "Skin scraping",
+    "icon": "check",
+    "points": [
+     "for microscopy (mites, eggs, scybala) when available."
+    ]
+   },
+   {
+    "k": "Key points",
+    "icon": "check",
+    "points": [
+     "Offer an **STI screen** when scabies seems sexually acquired; refer to GUM for partner notification if needed.",
+     "Refer if diagnosis uncertain, treatment fails despite correct use and simultaneous contact treatment, age under 2 months, crusted disease, or an institutional outbreak."
+    ]
+   }
+  ]
+ },
+ "differentials": {
+  "cards": [
+   {
+    "name": "Atopic eczema",
+    "clue": "Flexural history and atopy; no burrows; contacts not itchy",
+    "link": "eczema-dermatitis"
+   },
+   {
+    "name": "Papular urticaria / insect bites",
+    "clue": "Grouped papules on exposed sites; pets or bed bugs; no burrows",
+    "link": "papular-urticaria-bites"
+   },
+   {
+    "name": "Dermatitis herpetiformis",
+    "clue": "Grouped vesicles on elbows, knees, buttocks; coeliac link",
+    "link": "dermatitis-herpetiformis"
+   },
+   {
+    "name": "Pompholyx",
+    "clue": "Deep palm/finger vesicles; no trunk or genital papules",
+    "link": "hand-eczema"
+   },
+   {
+    "name": "Body lice",
+    "clue": "Lice/eggs in clothing seams; poor housing or homelessness"
+   },
+   {
+    "name": "Crusted look-alikes",
+    "clue": "Psoriasis or hyperkeratotic eczema — scrape “psoriasis” in a care home",
+    "link": "lesion-language"
+   }
+  ]
+ },
+ "manage": {
+  "rungs": []
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "same-day",
+    "t": "Suspected **crusted scabies** → same-day specialist advice; isolation and outbreak control in care homes."
+   },
+   {
+    "when": "routine",
+    "t": "Infant **under 2 months** → paediatric dermatology advice."
+   },
+   {
+    "when": "routine",
+    "t": "Treatment failure after two correctly applied courses with all contacts treated."
+   },
+   {
+    "when": "routine",
+    "t": "Significant secondary infection, systemic illness, or diagnostic uncertainty."
+   }
+  ],
+  "groups": [
+   1
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "**Treat the household, not the patient.** Agree one treatment night for everyone."
+  },
+  {
+   "icon": "bulb",
+   "t": "Itch will not stop immediately — saying so prevents over-application and irritant dermatitis."
+  },
+  {
+   "icon": "bulb",
+   "t": "Cut nails short; apply cream under nails; reapply to hands after every wash; mittens on infants."
+  },
+  {
+   "icon": "bulb",
+   "t": "**Fire risk:** paraffin-containing products on clothing or bedding can catch fire easily — keep away from naked flames."
+  },
+  {
+   "icon": "bulb",
+   "t": "Pregnancy: permethrin first choice; malathion alternative; avoid ivermectin."
+  },
+  {
+   "icon": "bulb",
+   "t": "Care homes: think crusted scabies in any resident with “psoriasis” or “eczema” plus itchy staff."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Scabies?",
+   "a": "Generalised itch worse at night, itchy household contacts, and burrows in web spaces, wrists or genitals."
+  },
+  {
+   "q": "What drives it?",
+   "a": "Sarcoptes scabiei burrows in the stratum corneum; itch is delayed type IV hypersensitivity to mites, eggs and faeces."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "Permethrin 5% cream (or malathion 0.5%) whole body, repeat after 7 days, for every close contact on the same night."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "Crusted (Norwegian) scabies in a frail or immunosuppressed person: urgent specialist referral the same day."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "Suspected **crusted scabies** → same-day specialist advice; isolation and outbreak control in care homes."
+  }
+ ]
+}

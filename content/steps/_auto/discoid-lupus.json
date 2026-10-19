@@ -1,0 +1,146 @@
+{
+ "_auto": true,
+ "glance": {
+  "chips": [
+   "Module 4 · Week 1",
+   "DLE",
+   "chronic cutaneous lupus",
+   "scarring plaques"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "Red, scaly, coin-shaped plaques on the face, ears or scalp that leave scarring, pigment change or bald patches."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "Autoimmune interface dermatitis triggered by UV; smoking makes it worse and blunts hydroxychloroquine."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "Broad-spectrum sunscreen and sun avoidance, stop smoking, potent topical or intralesional steroid; specialist hydroxychloroquine."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "Scarring alopecia, systemic lupus (screen symptoms and bloods), and SCC in long-standing scars.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "points": [
+   "Autoimmune interface dermatitis with follicular involvement.",
+   "UV exposure flares lesions."
+  ],
+  "visuals": []
+ },
+ "features": {
+  "photo": "m4w1:F01",
+  "points": [],
+  "visuals": [],
+  "variants": null,
+  "groups": [
+   0
+  ]
+ },
+ "confirm": {
+  "cols": [
+   {
+    "k": "Key points",
+    "icon": "check",
+    "points": [
+     "Clinical + **skin biopsy** (most important confirmatory test in quiz cluster).",
+     "Bloods: ANA, ENA, complement — useful to screen for systemic disease but **may be negative** in purely cutaneous DLE.",
+     "Mycology if tinea capitis plausible; trichoscopy helps vs AA/LPP."
+    ]
+   }
+  ]
+ },
+ "differentials": {
+  "cards": [
+   {
+    "name": "Alopecia areata",
+    "clue": "Non-scarring; exclamation hairs; no discoid scale plaques",
+    "link": "alopecia-areata"
+   },
+   {
+    "name": "Lichen planopilaris",
+    "clue": "Scarring; perifollicular scale; less classic facial discoid plaques",
+    "link": "scarring-alopecia"
+   },
+   {
+    "name": "Tinea capitis",
+    "clue": "Broken hairs, lymphadenopathy, mycology+"
+   },
+   {
+    "name": "Trichotillomania",
+    "clue": "Bizarre geometric; hairs of different lengths",
+    "link": "trichotillomania"
+   },
+   {
+    "name": "Psoriasis / seb derm scalp",
+    "clue": "Non-scarring usually; different morphology",
+    "link": "psoriasis"
+   }
+  ]
+ },
+ "manage": {
+  "rungs": []
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "routine",
+    "t": "Joint pain, mouth ulcers, fatigue, chest pain or Raynaud’s: screen for **SLE** (ANA, FBC, urine dipstick) and refer."
+   },
+   {
+    "when": "urgent",
+    "t": "Scalp DLE with hair loss: **urgent** dermatology (scarring alopecia)."
+   },
+   {
+    "when": "routine",
+    "t": "Hydroxychloroquine: baseline and annual eye screening after 5 years (RCOphth)."
+   }
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "Emphasise scarring risk — early treatment matters."
+  },
+  {
+   "icon": "bulb",
+   "t": "Camouflage / psychological support for visible disease."
+  },
+  {
+   "icon": "bulb",
+   "t": "Check BNF interactions if hydroxychloroquine co-prescribed later (retinopathy monitoring is specialty)."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Discoid lupus erythematosus?",
+   "a": "Red, scaly, coin-shaped plaques on the face, ears or scalp that leave scarring, pigment change or bald patches."
+  },
+  {
+   "q": "What drives it?",
+   "a": "Autoimmune interface dermatitis triggered by UV; smoking makes it worse and blunts hydroxychloroquine."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "Broad-spectrum sunscreen and sun avoidance, stop smoking, potent topical or intralesional steroid; specialist hydroxychloroquine."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "Scarring alopecia, systemic lupus (screen symptoms and bloods), and SCC in long-standing scars."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "Joint pain, mouth ulcers, fatigue, chest pain or Raynaud’s: screen for **SLE** (ANA, FBC, urine dipstick) and refer."
+  }
+ ]
+}

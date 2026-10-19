@@ -1,0 +1,174 @@
+{
+ "_auto": true,
+ "glance": {
+  "chips": [
+   "Module 5 · Week 5",
+   "shingles",
+   "zoster",
+   "VZV"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "Unilateral dermatomal pain or tingling followed by grouped vesicles that do not cross the midline."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "Reactivation of latent VZV in a sensory ganglion when cell-mediated immunity falls (age, immunosuppression, HIV)."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "Antiviral within 72 h of rash onset for over-50s, immunosuppressed, non-truncal or severe pain (NICE CKS: aciclovir or valaciclovir); analgesia; avoid contact with pregnant or immunosuppressed people; vaccination (Shingrix) offer."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "Ophthalmic zoster, disseminated or multi-dermatomal zoster, and zoster in pregnancy or immunosuppression.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "points": [],
+  "visuals": []
+ },
+ "features": {
+  "photo": "m5w5:W5B01",
+  "points": [
+   "**Prodrome** 1–5 days: burning, tingling, itching or severe pain in a dermatome (can mimic MI, pleurisy, renal colic, cholecystitis); malaise, fever.",
+   "Rash: erythematous papules → **grouped vesicles on a red base** → pustules → crusts over 7–10 days, **unilateral, respecting the midline**, one (or two adjacent) dermatomes — Case 2: T9–T10 back.",
+   "Commonest: **thoracic** dermatomes, then **ophthalmic (V1)**.",
+   "**Herpes zoster ophthalmicus (HZO):** V1 forehead/scalp/eyelid; **Hutchinson's sign** (lesions on tip/side of nose → nasociliary nerve → high risk of ocular involvement).",
+   "**Ramsay Hunt syndrome:** ear/external canal vesicles + ipsilateral facial palsy ± vertigo, tinnitus, hearing loss."
+  ],
+  "visuals": [],
+  "variants": null,
+  "groups": [
+   0,
+   2
+  ]
+ },
+ "confirm": {
+  "cols": []
+ },
+ "differentials": {
+  "cards": [
+   {
+    "name": "Herpes simplex (zosteriform HSV)",
+    "clue": "Recurs at same site, smaller cluster, less pain; PCR distinguishes",
+    "link": "herpes-simplex-labialis"
+   },
+   {
+    "name": "Contact dermatitis / phytophotodermatitis",
+    "clue": "Itch > pain, linear/geometric, no dermatomal limit, exposure history",
+    "link": "contact-dermatitis"
+   },
+   {
+    "name": "Impetigo (bullous)",
+    "clue": "Honey crust, not dermatomal, children",
+    "link": "impetigo"
+   },
+   {
+    "name": "Insect bites / papular urticaria",
+    "clue": "Scattered, itchy, bilateral"
+   },
+   {
+    "name": "Cellulitis / erysipelas",
+    "clue": "No vesicles in a band; tender spreading erythema",
+    "link": "cellulitis-erysipelas"
+   },
+   {
+    "name": "Prodrome-only phase",
+    "clue": "Cardiac/abdominal/pleuritic causes — rash appears 1–5 days later"
+   }
+  ]
+ },
+ "manage": {
+  "rungs": [
+   {
+    "k": "Self-care / all patients",
+    "tone": "base",
+    "points": [
+     "Keep rash clean and dry; loose clothing; non-adherent dressing if needed; avoid topical antivirals/antibiotic creams; paracetamol ± NSAID for mild pain.",
+     "**Infectious** (can cause chickenpox in non-immune contacts) until all lesions crusted (usually 5–7 days): cover lesions; avoid pregnant women without chickenpox history, neonates and immunosuppressed people."
+    ]
+   },
+   {
+    "k": "Red flags / refer",
+    "tone": "refer",
+    "points": [
+     "**Same-day ophthalmology:** V1 rash, Hutchinson's sign, red eye, visual change, photophobia.",
+     "**Same-day ENT/medical:** Ramsay Hunt (facial palsy).",
+     "**Admit/urgent:** severe immunosuppression, disseminated rash, systemic illness (pneumonitis, hepatitis, encephalitis, meningism), motor weakness, urinary retention (sacral zoster), neonates.",
+     "**Pregnancy:** seek specialist advice; non-immune pregnant contacts need assessment for VZIG/antiviral."
+    ]
+   }
+  ]
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "same-day",
+    "t": "Rash on the forehead, eyelid or **tip of the nose** (Hutchinson sign), eye pain or visual change: **same-day ophthalmology**."
+   },
+   {
+    "when": "urgent",
+    "t": "Immunosuppressed, disseminated or multi-dermatomal zoster: urgent specialist advice, often IV aciclovir."
+   },
+   {
+    "when": "same-day",
+    "t": "Facial palsy with ear vesicles (Ramsay Hunt): same-day ENT."
+   },
+   {
+    "when": "routine",
+    "t": "Zoster in an under-50 without a cause, or recurrent zoster: consider an HIV test."
+   }
+  ],
+  "groups": [
+   1
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "Pain in a dermatome before any rash: consider zoster, but don't miss cardiac/surgical causes."
+  },
+  {
+   "icon": "bulb",
+   "t": "In a patient <50 with no obvious reason for zoster, **offer an HIV test** (Case 2 learning)."
+  },
+  {
+   "icon": "bulb",
+   "t": "Hydrate on aciclovir; check eGFR (neurotoxicity/nephrotoxicity in renal impairment, elderly)."
+  },
+  {
+   "icon": "bulb",
+   "t": "Explain **postherpetic neuralgia** (pain >3 months; commoner >50, HZO, severe acute pain) — early antiviral and good analgesia may reduce burden."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Herpes zoster (shingles)?",
+   "a": "Unilateral dermatomal pain or tingling followed by grouped vesicles that do not cross the midline."
+  },
+  {
+   "q": "What drives it?",
+   "a": "Reactivation of latent VZV in a sensory ganglion when cell-mediated immunity falls (age, immunosuppression, HIV)."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "Antiviral within 72 h of rash onset for over-50s, immunosuppressed, non-truncal or severe pain (NICE CKS: aciclovir or valaciclovir); analgesia; avoid contact with pregnant or immunosuppressed people; vaccination (Shingrix) offer."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "Ophthalmic zoster, disseminated or multi-dermatomal zoster, and zoster in pregnancy or immunosuppression."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "Rash on the forehead, eyelid or **tip of the nose** (Hutchinson sign), eye pain or visual change: **same-day ophthalmology**."
+  }
+ ]
+}

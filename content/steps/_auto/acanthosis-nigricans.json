@@ -1,0 +1,156 @@
+{
+ "_auto": true,
+ "glance": {
+  "chips": [
+   "Module 6 · Week 2 · Module 1 · Week 5",
+   "acanthosis nigricans",
+   "insulin resistance",
+   "PCOS"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "Symmetrical velvety grey-brown thickening of the neck or axillae, often with skin tags, in someone with overweight or PCOS."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "High insulin / growth factors drive keratinocyte and fibroblast proliferation → papillomatosis and hyperkeratosis."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "Treat the metabolic driver (weight, activity, screen HbA1c/lipids); keratolytics and retinoids are cosmetic adjuncts only."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "Sudden extensive AN in a slim older adult, especially with tripe palms or oral involvement → urgent suspected-cancer pathway.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "points": [
+   "Obesity / insulin resistance (commonest): high insulin acts on IGF-1 receptors → papillomatosis.",
+   "Endocrine: PCOS, Cushing’s, acromegaly, hypothyroidism; drug-induced (systemic steroids, nicotinic acid, some contraceptives, protease inhibitors).",
+   "Malignant AN: tumour growth factors (notably TGF-α) — strongly linked to **gastric adenocarcinoma** and other abdominal adenocarcinomas.",
+   "**Malignant AN:** tumour-secreted **TGF-α** (also EGF, IGF-1) activates **EGFR** on keratinocytes. Usually **gastric adenocarcinoma** (~60%, intra-abdominal adenocarcinomas overall).",
+   "**Histology:** **papillomatosis and hyperkeratosis** with only mild, irregular acanthosis and little real increase in melanin. The dark colour comes mostly from the thickened keratin. No inflammation."
+  ],
+  "visuals": []
+ },
+ "features": {
+  "photo": "m6w2:J01",
+  "points": [
+   "Neck (back/sides), axillae, groin, under breasts, knuckles; may be faint on the face.",
+   "Skin tags often coexist; usually asymptomatic or mildly itchy.",
+   "**Malignant AN red flags:** sudden rapid onset in an older, often non-obese adult; mucosal involvement; **tripe palms**; sudden multiple seborrhoeic keratoses (Leser–Trélat); weight loss or GI symptoms."
+  ],
+  "visuals": [],
+  "variants": null,
+  "groups": [
+   0,
+   1
+  ]
+ },
+ "confirm": {
+  "cols": [
+   {
+    "k": "Key points",
+    "icon": "check",
+    "points": [
+     "Clinical. Biopsy only if atypical.",
+     "Metabolic screen: BMI/waist, BP, HbA1c (or fasting glucose), lipids, LFTs; PCOS screen in females; TSH if indicated.",
+     "Suspected malignant AN → urgent GP-led suspected-cancer referral (e.g. upper GI pathway per NICE NG12)."
+    ]
+   }
+  ]
+ },
+ "differentials": {
+  "cards": [
+   {
+    "name": "Terra firma-forme dermatosis",
+    "clue": "Wipes away with 70% isopropyl alcohol"
+   },
+   {
+    "name": "Confluent and reticulated papillomatosis",
+    "clue": "Trunk reticulate scale; responds to tetracyclines"
+   },
+   {
+    "name": "Friction / PIH",
+    "clue": "No velvety thickening"
+   },
+   {
+    "name": "Erythrasma",
+    "clue": "Coral-red under Wood’s lamp",
+    "link": "intertrigo"
+   },
+   {
+    "name": "Addison’s disease",
+    "clue": "Generalised pigment including mucosa; unwell",
+    "link": "addisons-disease"
+   }
+  ]
+ },
+ "manage": {
+  "rungs": []
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "urgent",
+    "t": "Sudden extensive AN ± tripe palms / oral pigment in an older adult → urgent cancer pathway."
+   },
+   {
+    "when": "routine",
+    "t": "Raised HbA1c or other metabolic comorbidity in a young person → local obesity/endocrine pathways."
+   }
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "**Velvet, not dirt** — the alcohol-swab test separates terra firma-forme dermatosis."
+  },
+  {
+   "icon": "bulb",
+   "t": "In a young person, AN is a cardiometabolic risk marker; lifestyle advice for the whole household matters most."
+  },
+  {
+   "icon": "bulb",
+   "t": "Use weight-stigma-sensitive language."
+  },
+  {
+   "icon": "bulb",
+   "t": "Often seen alongside adult female acne / PCOS — see [acne vulgaris](condition:acne-vulgaris)."
+  },
+  {
+   "icon": "bulb",
+   "t": "Sudden, widespread or mucosal acanthosis nigricans, or tripe palms, in an older adult: see [skin signs of lung cancer and internal malignancy](condition:lung-cancer-skin-signs)."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Acanthosis nigricans?",
+   "a": "Symmetrical velvety grey-brown thickening of the neck or axillae, often with skin tags, in someone with overweight or PCOS."
+  },
+  {
+   "q": "What drives it?",
+   "a": "High insulin / growth factors drive keratinocyte and fibroblast proliferation → papillomatosis and hyperkeratosis."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "Treat the metabolic driver (weight, activity, screen HbA1c/lipids); keratolytics and retinoids are cosmetic adjuncts only."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "Sudden extensive AN in a slim older adult, especially with tripe palms or oral involvement → urgent suspected-cancer pathway."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "Sudden extensive AN ± tripe palms / oral pigment in an older adult → urgent cancer pathway."
+  }
+ ]
+}

@@ -1,0 +1,108 @@
+{
+ "_auto": true,
+ "glance": {
+  "chips": [
+   "Module 5 · Week 4",
+   "travel rash",
+   "tropical dermatology",
+   "migrant health"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "Any rash, ulcer, lump or creeping track in someone who has travelled or migrated in the past year."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "Exposure-specific infections (sandflies, mosquitoes, soil, water, animals) plus common UK conditions acquired abroad."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "Take a full travel and exposure history, examine the whole skin, exclude malaria the same day if febrile, and use the UK tropical-medicine advice routes."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "Fever (malaria, dengue, rickettsia, typhoid), mucosal leishmaniasis, and numb patches (leprosy).",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "points": [
+   "**Common UK conditions acquired abroad**: insect-bite reactions, impetigo and cellulitis from scratched bites, sunburn and phototoxic reactions, tinea, pityriasis versicolor, contact and phytophotodermatitis."
+  ],
+  "visuals": []
+ },
+ "features": {
+  "photo": "m5w4:W4B01",
+  "points": [],
+  "visuals": [],
+  "variants": null,
+  "groups": [
+   0
+  ]
+ },
+ "confirm": {
+  "cols": [
+   {
+    "k": "Key points",
+    "icon": "check",
+    "points": [
+     "Ask where (including rural, beach or forest), when (incubation windows), what they did, bites, water and animal contact, sexual contact, and treatment taken abroad.",
+     "Examine the whole skin, lymph nodes and mucosa.",
+     "**Fever = same-day malaria film or rapid test**, plus FBC and specialist advice.",
+     "Use the national tropical-medicine services for advice on biopsy, culture or PCR; take photographs to share."
+    ]
+   }
+  ]
+ },
+ "differentials": {
+  "cards": []
+ },
+ "manage": {
+  "rungs": []
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "same-day",
+    "t": "**Fever after travel to a malaria area**: same-day malaria testing, whatever the rash."
+   },
+   {
+    "when": "emergency",
+    "t": "Dengue warning signs (abdominal pain, vomiting, bleeding, lethargy): emergency."
+   },
+   {
+    "when": "routine",
+    "t": "Nasal or oral ulceration after leishmaniasis exposure: specialist referral."
+   }
+  ]
+ },
+ "pearls": [],
+ "quiz": [
+  {
+   "q": "When should you think of The returning traveller with a skin problem?",
+   "a": "Any rash, ulcer, lump or creeping track in someone who has travelled or migrated in the past year."
+  },
+  {
+   "q": "What drives it?",
+   "a": "Exposure-specific infections (sandflies, mosquitoes, soil, water, animals) plus common UK conditions acquired abroad."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "Take a full travel and exposure history, examine the whole skin, exclude malaria the same day if febrile, and use the UK tropical-medicine advice routes."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "Fever (malaria, dengue, rickettsia, typhoid), mucosal leishmaniasis, and numb patches (leprosy)."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "**Fever after travel to a malaria area**: same-day malaria testing, whatever the rash."
+  }
+ ]
+}

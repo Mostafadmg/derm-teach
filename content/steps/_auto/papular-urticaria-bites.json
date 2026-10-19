@@ -1,0 +1,151 @@
+{
+ "_auto": true,
+ "glance": {
+  "chips": [
+   "Module 5 · Week 3",
+   "papular urticaria",
+   "insect bite hypersensitivity",
+   "flea bites"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "Crops of very itchy firm papules in clusters or lines, often on a child’s legs or on exposed sleep sites — only one household member may react."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "Immediate and delayed hypersensitivity to arthropod saliva; new bites can flare old lesions. Children usually desensitise over time."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "Eradicate the source (vet flea products + vacuum / professional bed-bug control) plus short topical steroid and antihistamine."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "Anaphylaxis pathways for systemic allergy; fever after bites abroad; do not antibiotic-treat ordinary itchy redness lasting up to ~10 days.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "points": [
+   "Arthropod saliva triggers type I and type IV hypersensitivity. Bites are often unnoticed; reactions arrive hours to days later.",
+   "**Cat fleas** are the commonest fleas biting UK humans (even in dog-only homes). The home holds most of the eggs/larvae/pupae.",
+   "**Bed bugs** hide in mattress seams and feed at night; linked to travel and second-hand furniture.",
+   "Most children grow out of it as they desensitise."
+  ],
+  "visuals": []
+ },
+ "features": {
+  "photo": "m5w3:X01",
+  "points": [
+   "Firm red itchy papules 3–10 mm, sometimes with a punctum, vesicle or blister; excoriation and later pigmentation are common.",
+   "Grouping in clusters or lines of three (“breakfast, lunch and dinner”).",
+   "Seasonal spring–autumn for fleas/outdoor insects; bed bugs all year."
+  ],
+  "visuals": [],
+  "variants": null,
+  "groups": [
+   0
+  ]
+ },
+ "confirm": {
+  "cols": []
+ },
+ "differentials": {
+  "cards": [
+   {
+    "name": "Scabies",
+    "clue": "Web spaces, wrists, genitals, burrows; whole household itchy",
+    "link": "scabies"
+   },
+   {
+    "name": "Acute urticaria",
+    "clue": "Wheals fade within 24 h; no crusted papules"
+   },
+   {
+    "name": "Chickenpox",
+    "clue": "Fever; crops at different stages including scalp"
+   },
+   {
+    "name": "Molluscum",
+    "clue": "Pearly umbilicated; minimally itchy",
+    "link": "perineal-dermatoses"
+   },
+   {
+    "name": "Delusional infestation",
+    "clue": "Conviction of infestation without confirming insects or lesions"
+   }
+  ],
+  "groups": [
+   1
+  ]
+ },
+ "manage": {
+  "rungs": []
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "emergency",
+    "t": "Anaphylaxis or ABC compromise → emergency."
+   },
+   {
+    "when": "routine",
+    "t": "Systemically unwell, spreading cellulitis, immunocompromised with infection, bites in mouth/throat or around eyes."
+   },
+   {
+    "when": "routine",
+    "t": "Bites abroad with fever or persistent exotic lesion."
+   },
+   {
+    "when": "routine",
+    "t": "Atypical persistent eruption or suspected delusional infestation → GP/dermatology."
+   }
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "**The pet may look fine — the house is the reservoir.**"
+  },
+  {
+   "icon": "bulb",
+   "t": "Antihistamines and steroids control symptoms; recurrences stop only when the source is gone."
+  },
+  {
+   "icon": "bulb",
+   "t": "Bed bug vs flea: sleep-exposed sites and linen spots vs ankles/pets."
+  },
+  {
+   "icon": "bulb",
+   "t": "Avoid long-term potent steroids and antibiotics without infection."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Papular urticaria & insect bites?",
+   "a": "Crops of very itchy firm papules in clusters or lines, often on a child’s legs or on exposed sleep sites — only one household member may react."
+  },
+  {
+   "q": "What drives it?",
+   "a": "Immediate and delayed hypersensitivity to arthropod saliva; new bites can flare old lesions. Children usually desensitise over time."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "Eradicate the source (vet flea products + vacuum / professional bed-bug control) plus short topical steroid and antihistamine."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "Anaphylaxis pathways for systemic allergy; fever after bites abroad; do not antibiotic-treat ordinary itchy redness lasting up to ~10 days."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "Anaphylaxis or ABC compromise → emergency."
+  }
+ ]
+}

@@ -1,0 +1,194 @@
+{
+ "_auto": true,
+ "glance": {
+  "chips": [
+   "Module 6 · Week 1",
+   "infantile haemangioma",
+   "strawberry naevus",
+   "strawberry mark"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "A bright red raised ‘strawberry’ (or bluish deep) lesion appearing in the first weeks and growing fast, or a flat red-purple stain present at birth."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "Haemangioma: clonal GLUT-1-positive endothelial proliferation. Port-wine stain: dilated dermal capillaries."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "Most haemangiomas: watchful waiting with photos. High-risk ones: early specialist referral for propranolol."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "Periocular, airway or beard, lip, ulcerated, large facial segmental (PHACE), or 5 or more lesions (liver).",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "points": [
+   "**IH:** clonal endothelial proliferation, **GLUT-1 positive**. Risk factors: prematurity, low birth weight, female sex, multiple pregnancy, placental anomalies.",
+   "**Port-wine stain:** dilated dermal capillaries (often a GNAQ mosaic mutation)."
+  ],
+  "visuals": []
+ },
+ "features": {
+  "photo": "m6w1:G01",
+  "points": [],
+  "visuals": [
+   {
+    "ai": "haemangioma-natural-history.jpg",
+    "caption": "Natural history of infantile haemangioma: appearance (0–2 weeks), rapid growth (1–6 months), slow involution, and completion (5–7+ years)."
+   }
+  ],
+  "variants": {
+   "title": "Types to recognise",
+   "items": [
+    {
+     "name": "Superficial",
+     "t": "Bright red, raised, well-defined (‘strawberry’)",
+     "where": ""
+    },
+    {
+     "name": "Deep",
+     "t": "Bluish, rubbery swelling under the skin",
+     "where": ""
+    },
+    {
+     "name": "Mixed",
+     "t": "Both",
+     "where": ""
+    }
+   ]
+  },
+  "groups": [
+   0,
+   1,
+   2
+  ]
+ },
+ "confirm": {
+  "cols": [
+   {
+    "k": "Key points",
+    "icon": "check",
+    "points": [
+     "Usually **clinical**.",
+     "Ultrasound if deep, or uncertain against a malformation or soft-tissue mass. MRI for complex facial or segmental lesions.",
+     "Abdominal ultrasound if there are 5 or more skin lesions."
+    ]
+   }
+  ]
+ },
+ "differentials": {
+  "cards": [
+   {
+    "name": "Port-wine stain",
+    "clue": "Present at birth, flat, **grows with the child**, no rapid tumour growth"
+   },
+   {
+    "name": "Congenital haemangioma",
+    "clue": "Fully formed at birth; different natural history"
+   },
+   {
+    "name": "Venous or lymphatic malformation",
+    "clue": "Soft, compressible, persistent; imaging differs"
+   },
+   {
+    "name": "Pyogenic granuloma",
+    "clue": "Later onset; often a pedunculated bleeding papule",
+    "link": "pyogenic-granuloma"
+   }
+  ]
+ },
+ "manage": {
+  "rungs": [
+   {
+    "k": "Refer promptly (ideally by about 4 weeks of age if high risk)",
+    "tone": "refer",
+    "points": [
+     "**Periocular** (risk to vision and amblyopia)",
+     "**Beard or airway** distribution (risk of stridor)",
+     "**Lip or perioral** (feeding)",
+     "Nasal tip, large facial, or **segmental** (PHACE risk with large facial segmental lesions)",
+     "**Perineal or flexural** (ulceration)"
+    ]
+   },
+   {
+    "k": "Specialist treatment",
+    "tone": "refer",
+    "points": [
+     "Oral **propranolol** is first line for problematic IH. It is started and supervised by a specialist, with heart rate, BP and glucose monitoring. Feed regularly, and **hold doses if the baby is unwell or not feeding**.",
+     "Topical **timolol** for selected small, thin, superficial lesions (off-label; NICE ESUOM47).",
+     "Wound care, analgesia and antibiotics for ulceration; laser or surgery for selected residual changes."
+    ]
+   }
+  ]
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "never",
+    "t": "High-risk haemangioma sites (listed above): **do not wait to see if it goes away**."
+   },
+   {
+    "when": "emergency",
+    "t": "Stridor or noisy breathing with a beard-area haemangioma: **urgent**."
+   },
+   {
+    "when": "routine",
+    "t": "Ulcerated or bleeding haemangioma."
+   },
+   {
+    "when": "routine",
+    "t": "Facial segmental port-wine stain with eye or neurological symptoms, or limb asymmetry."
+   }
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "The rapid growth window is early, so **late referral misses the easiest window for treatment**."
+  },
+  {
+   "icon": "bulb",
+   "t": "A malformation is not a tumour, so be clear with parents whether it is a PWS or an IH."
+  },
+  {
+   "icon": "bulb",
+   "t": "IP role: recognise high-risk sites, explain that beta-blockers are specialist-supervised, and support dressings for ulceration under the specialist plan."
+  },
+  {
+   "icon": "bulb",
+   "t": "BAD patient leaflet and the Birthmark Support Group are useful for families."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Infantile haemangioma & port-wine stain?",
+   "a": "A bright red raised ‘strawberry’ (or bluish deep) lesion appearing in the first weeks and growing fast, or a flat red-purple stain present at birth."
+  },
+  {
+   "q": "What drives it?",
+   "a": "Haemangioma: clonal GLUT-1-positive endothelial proliferation. Port-wine stain: dilated dermal capillaries."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "Most haemangiomas: watchful waiting with photos. High-risk ones: early specialist referral for propranolol."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "Periocular, airway or beard, lip, ulcerated, large facial segmental (PHACE), or 5 or more lesions (liver)."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "High-risk haemangioma sites (listed above): **do not wait to see if it goes away**."
+  }
+ ]
+}

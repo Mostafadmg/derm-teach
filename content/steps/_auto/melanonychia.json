@@ -1,0 +1,142 @@
+{
+ "_auto": true,
+ "glance": {
+  "chips": [
+   "Module 3 · Week 2",
+   "melanonychia",
+   "longitudinal melanonychia",
+   "brown nail stripe"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "A brown or black longitudinal stripe in one or more nails."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "Melanocyte activation in the nail matrix (ethnic, drug, trauma, inflammation) or proliferation (naevus, melanoma)."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "Use the nail ABCDEF rule, photograph with a ruler, and refer suspicious single-digit bands on the suspected-cancer pathway."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "Subungual melanoma: often diagnosed late, especially in darker skin where bands are common.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "points": [
+   "Common in **skin of colour** (Fitzpatrick V–VI); nearly all Afro-Caribbean adults develop some nail pigmentation by mid-life; also frequent in some Asian populations. Multiple regular bands = often benign racial pattern.",
+   "Up to a substantial fraction of nail melanomas are **amelanotic/hypomelanotic** — do not wait for a black streak."
+  ],
+  "visuals": []
+ },
+ "features": {
+  "photo": "m3w2:C01",
+  "points": [],
+  "visuals": [],
+  "variants": null,
+  "groups": [
+   0
+  ]
+ },
+ "confirm": {
+  "cols": [
+   {
+    "k": "Next step if suspicious",
+    "icon": "check",
+    "points": [
+     "**urgent specialist dermatology / skin-cancer pathway referral** for consideration of **nail-unit biopsy** (matrix ± bed as directed by dermatosurgeon; histopathology is gold standard)."
+    ]
+   },
+   {
+    "k": "IP role",
+    "icon": "check",
+    "points": [
+     "recognise red flags, photograph if helpful, **do not** attempt nail-matrix biopsy in community pharmacy/primary-care IP settings; avoid prolonged antifungal “trials” that delay cancer referral."
+    ]
+   },
+   {
+    "k": "Key points",
+    "icon": "check",
+    "points": [
+     "History: onset, change, trauma, drugs (e.g. hydroxyurea, chemotherapies, antimalarials), endocrine, family history, occupation.",
+     "Examine **all nails**, skin, mucosa if syndromic clues (Laugier–Hunziker, Peutz–Jeghers).",
+     "Subungual haematoma usually migrates distally with growth; static/widening proximal pigment does not behave like simple blood."
+    ]
+   }
+  ]
+ },
+ "differentials": {
+  "cards": []
+ },
+ "manage": {
+  "rungs": []
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "urgent",
+    "t": "**Single nail**, band **>3 mm** or widening, irregular colour, blurred borders, **Hutchinson sign** (pigment on the nail fold), nail dystrophy or bleeding: **urgent suspected-cancer referral** (NICE NG12)."
+   },
+   {
+    "when": "routine",
+    "t": "Any new band in an adult over 50, or a history of melanoma."
+   }
+  ],
+  "groups": [
+   1
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "Photograph the nail with a ruler and date it: change over time is the most useful sign."
+  },
+  {
+   "icon": "bulb",
+   "t": "Mark the top of a suspected haematoma with a small notch: if the pigment moves out with the nail, it is blood."
+  },
+  {
+   "icon": "bulb",
+   "t": "Pigment on the nail fold (Hutchinson sign) can be faked by a see-through cuticle (pseudo-Hutchinson sign), so let a specialist decide."
+  },
+  {
+   "icon": "bulb",
+   "t": "Ask about change, family history and previous melanoma; examine all nails and the skin."
+  },
+  {
+   "icon": "bulb",
+   "t": "A widening band, pigment spilling onto the nail fold (Hutchinson’s sign) or a dark mark on the sole: see [melanoma recognition](condition:melanoma) (acral melanoma)."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Melanonychia & nail melanoma?",
+   "a": "A brown or black longitudinal stripe in one or more nails."
+  },
+  {
+   "q": "What drives it?",
+   "a": "Melanocyte activation in the nail matrix (ethnic, drug, trauma, inflammation) or proliferation (naevus, melanoma)."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "Use the nail ABCDEF rule, photograph with a ruler, and refer suspicious single-digit bands on the suspected-cancer pathway."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "Subungual melanoma: often diagnosed late, especially in darker skin where bands are common."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "**Single nail**, band **>3 mm** or widening, irregular colour, blurred borders, **Hutchinson sign** (pigment on the nail fold), nail dystrophy or bleeding: **urgent suspected-cancer referral** (NICE NG12)."
+  }
+ ]
+}

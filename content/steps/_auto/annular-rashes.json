@@ -1,0 +1,156 @@
+{
+ "_auto": true,
+ "glance": {
+  "chips": [
+   "Module 4 · Week 1",
+   "ringworm or not",
+   "annular scaly patch",
+   "granuloma annulare"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "A ring-shaped or annular patch, especially one that failed antifungal or steroid treatment."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "Rings form when inflammation spreads outward and clears centrally; the pattern of scale reflects the process."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "Scrape scaly rings before treating; avoid steroid–antifungal combinations on undiagnosed rashes; biopsy what persists."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "Tinea incognito, subacute cutaneous lupus (photosensitive, drug-induced), mycosis fungoides and Lyme erythema migrans.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "points": [],
+  "visuals": []
+ },
+ "features": {
+  "photo": "m4w1:C03",
+  "points": [],
+  "visuals": [],
+  "variants": null,
+  "groups": [
+   0,
+   1,
+   2,
+   3
+  ]
+ },
+ "confirm": {
+  "cols": [
+   {
+    "k": "Mycology scrape",
+    "icon": "check",
+    "points": [
+     "before committing to prolonged TCS if tinea plausible (single most useful primary-care test)."
+    ]
+   },
+   {
+    "k": "Key points",
+    "icon": "check",
+    "points": [
+     "History: pets, steroids already used, herald then cascade, joint/nail clues, Lyme geography/tick bite.",
+     "Wood’s lamp limited value for most corporis species.",
+     "Review in 1 week if solitary lesion — watch for PR secondary rash or tinea expansion.",
+     "Biopsy if persistent atypical annular disease (EAC, SCLE, GA confirmation)."
+    ]
+   }
+  ]
+ },
+ "differentials": {
+  "cards": [
+   {
+    "name": "Tinea vs PR herald",
+    "clue": "Mycology; PR often follows with widespread oval lesions on cleavage lines"
+   },
+   {
+    "name": "Tinea vs GA",
+    "clue": "Scale vs no scale; KOH"
+   },
+   {
+    "name": "Annular psoriasis vs tinea",
+    "clue": "Symmetry, silvery scale, nail/scalp; KOH negative",
+    "link": "lesion-language"
+   },
+   {
+    "name": "Erythema migrans",
+    "clue": "Expanding after tick bite; Lyme serology/pathway",
+    "link": "lyme-disease"
+   },
+   {
+    "name": "Nummular eczema",
+    "clue": "Coin plaques, very itchy, often legs; not true advancing ring"
+   },
+   {
+    "name": "SCLE",
+    "clue": "Photosensitive annular plaques; ANA/Ro; systemic screen"
+   }
+  ]
+ },
+ "manage": {
+  "rungs": []
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "routine",
+    "t": "Expanding ring after a tick bite: **erythema migrans**, treat on clinical grounds (NICE NG95)."
+   },
+   {
+    "when": "routine",
+    "t": "Photosensitive annular plaques with systemic features or a new drug (PPI, terbinafine, thiazide): think **subacute cutaneous lupus**."
+   },
+   {
+    "when": "routine",
+    "t": "Persistent, fixed, non-healing annular plaques in an older adult: biopsy to exclude cutaneous lymphoma."
+   }
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "**Never** use potent TCS long-term on an undiagnosed annular plaque — risk of **tinea incognito**."
+  },
+  {
+   "icon": "bulb",
+   "t": "Explain PR herald → secondary rash so patients do not think treatment “caused” spread."
+  },
+  {
+   "icon": "bulb",
+   "t": "Recheck feet and nails whenever you diagnose body tinea."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Annular (ring-shaped) rashes: differential?",
+   "a": "A ring-shaped or annular patch, especially one that failed antifungal or steroid treatment."
+  },
+  {
+   "q": "What drives it?",
+   "a": "Rings form when inflammation spreads outward and clears centrally; the pattern of scale reflects the process."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "Scrape scaly rings before treating; avoid steroid–antifungal combinations on undiagnosed rashes; biopsy what persists."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "Tinea incognito, subacute cutaneous lupus (photosensitive, drug-induced), mycosis fungoides and Lyme erythema migrans."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "Expanding ring after a tick bite: **erythema migrans**, treat on clinical grounds (NICE NG95)."
+  }
+ ]
+}

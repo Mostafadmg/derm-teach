@@ -1,0 +1,171 @@
+{
+ "_auto": true,
+ "glance": {
+  "chips": [
+   "Module 5 · Week 3",
+   "Lyme disease",
+   "erythema migrans",
+   "tick bite"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "An expanding red (or bluish) patch days to weeks after outdoor exposure — central clearing is optional, and itch/heat are usually mild."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "Borrelia burgdorferi sensu lato from an Ixodes tick spreads in the dermis (EM) or persists chronically (ACA, mainly European B. afzelii)."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "EM: doxycycline 100 mg BD (or 200 mg OD) for 21 days. No blood test needed for typical EM."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "Carditis, meningitis/encephalitis, uveitis, or facial palsy with focal neurology — emergency or same-day pathways. Do not test or give antibiotics after an asymptomatic bite.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "points": [
+   "Vector: hard tick ***Ixodes ricinus*** (sheep/deer tick). Tiny nymphs cause most infections. **Most bites do not transmit**; risk rises after about 24–48 hours of attachment, so prompt correct removal helps (NICE NG95).",
+   "UK risk: grassy/wooded areas, parks and gardens — higher in southern England and the Scottish Highlands, but possible anywhere. Peak spring–autumn.",
+   "EM: dermal spread from the bite. Dissemination can cause multiple EM, neuroborreliosis, carditis and arthritis.",
+   "ACA: chronic skin infection on acral extensors, often without a remembered bite."
+  ],
+  "visuals": []
+ },
+ "features": {
+  "photo": "m5w3:V02",
+  "points": [
+   "A **red rash that enlarges** over days; may have central clearing (“bull’s-eye”), but many lesions are uniformly red or bluish.",
+   "Usually **not** hot, itchy or painful. Appears **3 days to 3 months** after a bite (commonly 1–4 weeks).",
+   "Often ≥5 cm at the bite site (legs, groin, axillae, beltline; head/neck in children). Harder to see in darker skin (bruise-like).",
+   "May accompany flu-like non-focal symptoms.",
+   "**Inflammatory stage:** bluish-red doughy discolouration of an extensor limb (hand, forearm, lower leg), often unilateral.",
+   "**Atrophic stage:** thin “cigarette-paper” skin with visible veins — easily mistaken for ageing or venous disease."
+  ],
+  "visuals": [],
+  "variants": null,
+  "groups": [
+   0,
+   1
+  ]
+ },
+ "confirm": {
+  "cols": [
+   {
+    "k": "Do not",
+    "icon": "check",
+    "points": [
+     "diagnose or test after an asymptomatic tick bite."
+    ]
+   },
+   {
+    "k": "Key points",
+    "icon": "check",
+    "points": [
+     "**EM: diagnose and treat clinically. No blood test** — early serology is often negative (NG95).",
+     "Without EM (including suspected ACA): clinical picture plus **ELISA then immunoblot** via a UKAS-accredited lab. ACA is nearly always strongly IgG-positive.",
+     "Do not rely on private “Lyme specialty” panels without checking accreditation.",
+     "Absence of a remembered bite does **not** exclude Lyme."
+    ]
+   }
+  ]
+ },
+ "differentials": {
+  "cards": [
+   {
+    "name": "Tick-bite hypersensitivity",
+    "clue": "Hours onset, fades ≤48 h, itchy/hot, small"
+   },
+   {
+    "name": "Cellulitis",
+    "clue": "Hot, tender, rapid spread, unwell",
+    "link": "cellulitis-erysipelas"
+   },
+   {
+    "name": "Tinea corporis",
+    "clue": "Scaly active edge; EM is not scaly",
+    "link": "annular-rashes"
+   },
+   {
+    "name": "Granuloma annulare",
+    "clue": "Chronic firm papule ring; no day-by-day expansion",
+    "link": "annular-rashes"
+   },
+   {
+    "name": "ACA mimics",
+    "clue": "Chilblains, venous disease, morphoea, ageing skin — check exposure and serology"
+   }
+  ]
+ },
+ "manage": {
+  "rungs": []
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "emergency",
+    "t": "Emergency pathways even if Lyme is possible: meningitis/encephalitis signs, uveitis, carditis or complete heart block."
+   },
+   {
+    "when": "same-day",
+    "t": "Same-day/urgent GP: facial palsy, radiculopathy, inflammatory arthritis, multiple EM with systemic upset — discuss with a specialist without delaying antibiotics."
+   },
+   {
+    "when": "never",
+    "t": "Persistent symptoms after two completed antibiotic courses: do not give more antibiotics; seek specialist/reference-lab advice."
+   }
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "**Expanding red ring after the outdoors = treat. Don’t test.**"
+  },
+  {
+   "icon": "bulb",
+   "t": "Draw round the edge and photograph to monitor spread."
+  },
+  {
+   "icon": "bulb",
+   "t": "A full **21-day** course matters for EM."
+  },
+  {
+   "icon": "bulb",
+   "t": "Reinfection is possible — infection does not confer lasting immunity."
+  },
+  {
+   "icon": "bulb",
+   "t": "ACA is often missed as “poor circulation” in an older person’s limb — ask about European countryside exposure and test."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Lyme disease & erythema migrans?",
+   "a": "An expanding red (or bluish) patch days to weeks after outdoor exposure — central clearing is optional, and itch/heat are usually mild."
+  },
+  {
+   "q": "What drives it?",
+   "a": "Borrelia burgdorferi sensu lato from an Ixodes tick spreads in the dermis (EM) or persists chronically (ACA, mainly European B. afzelii)."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "EM: doxycycline 100 mg BD (or 200 mg OD) for 21 days. No blood test needed for typical EM."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "Carditis, meningitis/encephalitis, uveitis, or facial palsy with focal neurology — emergency or same-day pathways. Do not test or give antibiotics after an asymptomatic bite."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "Emergency pathways even if Lyme is possible: meningitis/encephalitis signs, uveitis, carditis or complete heart block."
+  }
+ ]
+}

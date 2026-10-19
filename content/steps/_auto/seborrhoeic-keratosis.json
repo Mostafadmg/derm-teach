@@ -1,0 +1,168 @@
+{
+ "_auto": true,
+ "glance": {
+  "chips": [
+   "Module 2 · Week 2",
+   "seborrhoeic wart",
+   "basal cell papilloma",
+   "stuck-on lesion"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "A waxy, warty, stuck-on brown or tan papule or plaque on the trunk or face in an adult, often many."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "Benign proliferation of epidermal keratinocytes (FGFR3/PIK3CA mutations); not related to sun or HPV."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "Diagnose clinically and with dermoscopy; reassure; cryotherapy or curettage only if symptomatic (often not NHS-funded for cosmetic reasons)."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "Melanoma that looks like an SK, irritated SK mistaken for SCC, sudden eruption of many SKs (Leser–Trélat).",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "points": [],
+  "visuals": []
+ },
+ "features": {
+  "photo": "m2w2:D05",
+  "points": [
+   "\"Stuck-on\", waxy, verrucous, fissured papules and plaques, tan to black, on the trunk, face and scalp.",
+   "**Irritated SK:** red rim, crust and itch. This mimics SCC or melanoma."
+  ],
+  "visuals": [],
+  "variants": null,
+  "groups": [
+   0
+  ]
+ },
+ "confirm": {
+  "cols": [
+   {
+    "k": "Milia-like cysts",
+    "icon": "check",
+    "points": [
+     "(white/yellow \"stars\" or round bodies)"
+    ]
+   },
+   {
+    "k": "Comedo-like openings",
+    "icon": "check",
+    "points": [
+     "(keratin-filled crypts)"
+    ]
+   },
+   {
+    "k": "Fissures and ridges",
+    "icon": "check",
+    "points": [
+     "(\"brain-like\"/cerebriform, \"fat fingers\")"
+    ]
+   },
+   {
+    "k": "Sharp, \"moth-eaten\" border",
+    "icon": "check",
+    "points": [
+     ""
+    ]
+   }
+  ],
+  "groups": [
+   1
+  ]
+ },
+ "differentials": {
+  "cards": [
+   {
+    "name": "Melanoma (SSM, nodular)",
+    "clue": "Evolving asymmetry, atypical network, blue-white veil, irregular streaks/dots; no milia-like cysts or comedo openings. **\"Ugly duckling\"** among many SKs",
+    "link": "melanoma-immunotherapy"
+   },
+   {
+    "name": "Pigmented BCC",
+    "clue": "Pearly, leaf-like areas, arborising vessels"
+   },
+   {
+    "name": "Solar lentigo / flat SK",
+    "clue": "Flat, \"fingerprint\" pattern",
+    "link": "solar-lentigines"
+   },
+   {
+    "name": "Viral wart",
+    "clue": "Thrombosed capillaries, in younger patients",
+    "link": "viral-warts"
+   },
+   {
+    "name": "SCC / Bowen's (irritated SK)",
+    "clue": "Glomerular vessels, keratin, tenderness"
+   },
+   {
+    "name": "Clear cell acanthoma (see Clear cell acanthoma)",
+    "clue": "\"String of pearls\" vessels",
+    "link": "clear-cell-acanthoma"
+   }
+  ]
+ },
+ "manage": {
+  "rungs": []
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "routine",
+    "t": "An ‘SK’ that is changing, has atypical dermoscopy or stands out from the patient’s other SKs: refer as a **possible melanoma**."
+   },
+   {
+    "when": "routine",
+    "t": "Sudden eruption of many SKs with itch: consider internal malignancy (**Leser–Trélat**)."
+   }
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "[Case 3](condition:seborrhoeic-keratosis) sailor has lifelong UV exposure, so he is at higher risk for melanoma, BCC and SCC. Give sun-protection advice and do a **full skin check** (other lesions, scalp, ears)."
+  },
+  {
+   "icon": "bulb",
+   "t": "Teach the \"ugly duckling\" concept and ask about change using photos (patients can photograph lesions monthly)."
+  },
+  {
+   "icon": "bulb",
+   "t": "Ask about drugs that cause melanonychia (hydroxycarbamide, zidovudine, minocycline, antimalarials, cytotoxics). Multiple nails and a matching start date make it drug-related."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Seborrhoeic keratosis?",
+   "a": "A waxy, warty, stuck-on brown or tan papule or plaque on the trunk or face in an adult, often many."
+  },
+  {
+   "q": "What drives it?",
+   "a": "Benign proliferation of epidermal keratinocytes (FGFR3/PIK3CA mutations); not related to sun or HPV."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "Diagnose clinically and with dermoscopy; reassure; cryotherapy or curettage only if symptomatic (often not NHS-funded for cosmetic reasons)."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "Melanoma that looks like an SK, irritated SK mistaken for SCC, sudden eruption of many SKs (Leser–Trélat)."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "An ‘SK’ that is changing, has atypical dermoscopy or stands out from the patient’s other SKs: refer as a **possible melanoma**."
+  }
+ ]
+}

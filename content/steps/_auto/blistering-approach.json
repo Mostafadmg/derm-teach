@@ -1,0 +1,126 @@
+{
+ "_auto": true,
+ "glance": {
+  "chips": [
+   "Module 4 · Week 6",
+   "blisters",
+   "bullae",
+   "split level"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "Blisters or erosions without an obvious burn, bite, friction or infection."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "Autoantibodies against desmosomes (intraepidermal, flaccid) or hemidesmosomes (subepidermal, tense); drugs; infection; genetics (EB)."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "Identify the pattern, refer at the right speed, look for a drug cause, and prescribe and monitor within the specialist plan."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "SJS/TEN, pemphigus with mouth erosions, eye involvement, pemphigoid in pregnancy, eczema herpeticum and SSSS in children.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "points": [],
+  "visuals": []
+ },
+ "features": {
+  "photo": "m4w6:B01",
+  "points": [
+   "**Flaccid blisters or erosions only, with oral ulcers** suggest pemphigus (PV), or SJS/TEN if acute and the patient is unwell.",
+   "**Tense blisters, sometimes haemorrhagic, on an urticarial or eczematous base in an elderly person with itch** suggest BP.",
+   "**Excoriations and tiny grouped vesicles on extensors and buttocks, intensely itchy** suggest DH.",
+   "**Fragile blisters, scars and milia on the backs of the hands with hypertrichosis** suggest PCT (or pseudoporphyria, or EBA).",
+   "**A \"string of pearls\" annular arrangement** suggests linear IgA disease (often drug-induced, e.g. vancomycin).",
+   "**Flexural erosions with fissured maceration** suggest Hailey-Hailey. **Sudden, painful, targetoid or dusky skin with mucosal involvement** suggests SJS/TEN."
+  ],
+  "visuals": [],
+  "variants": null
+ },
+ "confirm": {
+  "cols": [
+   {
+    "k": "Salt-split skin",
+    "icon": "check",
+    "points": [
+     "separates BP (epidermal roof) from EBA (dermal floor)."
+    ]
+   },
+   {
+    "k": "Serology",
+    "icon": "check",
+    "points": [
+     "ELISA for anti-Dsg1/Dsg3 (titres roughly follow activity) and anti-BP180/BP230; indirect IMF; for DH, **tTG-IgA + total IgA** (± EMA); for paraneoplastic pemphigus, anti-envoplakin/periplakin"
+    ]
+   }
+  ]
+ },
+ "differentials": {
+  "cards": [],
+  "groups": [
+   0
+  ]
+ },
+ "manage": {
+  "rungs": []
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "routine",
+    "t": "**IP do's:** stop suspected drugs; document; take photos; give fluid, analgesia and dressing advice; check for steroid or immunosuppressant use; Yellow Card."
+   },
+   {
+    "when": "routine",
+    "t": "**IP don'ts:** don't start oral prednisolone for undiagnosed blistering without a specialist discussion; don't put adhesive dressings on fragile skin; don't de-roof tense blisters; don't advise a gluten-free diet before coeliac tests."
+   }
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "Ask about **mouth, eyes and genitals** at every blistering consultation. Mucosal involvement changes the urgency and the referral route."
+  },
+  {
+   "icon": "bulb",
+   "t": "This helps triage by teledermatology."
+  },
+  {
+   "icon": "bulb",
+   "t": "Infection risk: crusting, pain, fever or a sudden spread of erosions may mean secondary *S. aureus* or HSV. Swab and treat."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Approach to blistering diseases?",
+   "a": "Blisters or erosions without an obvious burn, bite, friction or infection."
+  },
+  {
+   "q": "What drives it?",
+   "a": "Autoantibodies against desmosomes (intraepidermal, flaccid) or hemidesmosomes (subepidermal, tense); drugs; infection; genetics (EB)."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "Identify the pattern, refer at the right speed, look for a drug cause, and prescribe and monitor within the specialist plan."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "SJS/TEN, pemphigus with mouth erosions, eye involvement, pemphigoid in pregnancy, eczema herpeticum and SSSS in children."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "**IP do's:** stop suspected drugs; document; take photos; give fluid, analgesia and dressing advice; check for steroid or immunosuppressant use; Yellow Card."
+  }
+ ]
+}

@@ -1,0 +1,146 @@
+{
+ "_auto": true,
+ "glance": {
+  "chips": [
+   "Module 5 · Week 3",
+   "blister beetle",
+   "cantharidin",
+   "Paederus"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "Burning (not itchy) vesicles or linear “kissing” plaques on exposed skin within about 24–48 h of outdoor night-time exposure or travel."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "Vesicant contact dermatitis from beetle haemolymph — cantharidin (Meloidae) or paederin (Paederus) — causing intraepidermal blistering without a bite."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "Flick the beetle off, wash with soap and water, cool compresses, short topical steroid; leave small blisters intact."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "Eye involvement → same-day ophthalmology. Ingestion of cantharidin → A&E / TOXBASE.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "points": [
+   "Cantharidin breaks desmosomes → acantholysis and an intraepidermal blister with little dermal inflammation (usually no scarring). The same mechanism is used therapeutically on warts and molluscum.",
+   "Paederin from crushed *Paederus* beetles causes delayed linear erythema then vesicles/pustules.",
+   "**Ingesting** cantharidin (e.g. as a purported aphrodisiac) is systemically toxic — a medical emergency, not a skin problem."
+  ],
+  "visuals": []
+ },
+ "features": {
+  "photo": "m5w3:W01",
+  "points": [
+   "Onset within hours to about 24–48 h; the patient often does not link the insect.",
+   "Vesicles/bullae on an erythematous base — often **linear or bizarre** where the beetle was wiped; “kissing” lesions in flexures favour Paederus.",
+   "**Burning or stinging** more than itch.",
+   "Exposed sites: face, neck, arms, lower legs; toxin can be finger-transferred to eyes or genitals.",
+   "Heals in about a week, sometimes with lasting pigmentation in skin of colour."
+  ],
+  "visuals": [],
+  "variants": null,
+  "groups": [
+   0
+  ]
+ },
+ "confirm": {
+  "cols": []
+ },
+ "differentials": {
+  "cards": [
+   {
+    "name": "Paederus vs blister beetle",
+    "clue": "Both crush toxins; Paederus more linear/kissing/pustular; Meloidae more cantharidin bullae"
+   },
+   {
+    "name": "Herpes zoster",
+    "clue": "Dermatomal, unilateral, prodromal pain",
+    "link": "herpes-zoster"
+   },
+   {
+    "name": "Bullous impetigo",
+    "clue": "Flaccid bullae, honey crust, children",
+    "link": "impetigo"
+   },
+   {
+    "name": "Phytophotodermatitis",
+    "clue": "Plant juice + sun; drip pattern; marked later pigmentation",
+    "link": "phytophotodermatitis-amyloid"
+   },
+   {
+    "name": "Bullous insect bite",
+    "clue": "Itchy, punctum, bite history"
+   }
+  ]
+ },
+ "manage": {
+  "rungs": []
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "same-day",
+    "t": "Eye pain, redness, photophobia or reduced vision → irrigate and **same-day eye casualty**."
+   },
+   {
+    "when": "routine",
+    "t": "Extensive blistering, genital involvement, severe pain or systemic illness."
+   },
+   {
+    "when": "routine",
+    "t": "Ingestion → A&E / NPIS (TOXBASE)."
+   },
+   {
+    "when": "routine",
+    "t": "Returned traveller with fever — think beyond beetle dermatitis."
+   }
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "Ask “Did it **burn** or itch?” Burning linear blisters after lights outdoors → beetle; itchy grouped papules → bites."
+  },
+  {
+   "icon": "bulb",
+   "t": "Prevention: nets, screens, cover skin, shake bedding; never crush beetles on skin."
+  },
+  {
+   "icon": "bulb",
+   "t": "Teaching: quiz images of linear kissing lesions are usually **Paederus**, not Meloidae — but first aid is the same."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Blister beetle & Paederus dermatitis?",
+   "a": "Burning (not itchy) vesicles or linear “kissing” plaques on exposed skin within about 24–48 h of outdoor night-time exposure or travel."
+  },
+  {
+   "q": "What drives it?",
+   "a": "Vesicant contact dermatitis from beetle haemolymph — cantharidin (Meloidae) or paederin (Paederus) — causing intraepidermal blistering without a bite."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "Flick the beetle off, wash with soap and water, cool compresses, short topical steroid; leave small blisters intact."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "Eye involvement → same-day ophthalmology. Ingestion of cantharidin → A&E / TOXBASE."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "Eye pain, redness, photophobia or reduced vision → irrigate and **same-day eye casualty**."
+  }
+ ]
+}

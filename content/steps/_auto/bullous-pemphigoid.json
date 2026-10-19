@@ -1,0 +1,138 @@
+{
+ "_auto": true,
+ "glance": {
+  "chips": [
+   "Module 4 · Week 6",
+   "BP",
+   "pemphigoid",
+   "tense blisters elderly"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "An older person, often with dementia or Parkinson’s, with itchy ‘eczema’ or hives that will not settle, then tense blisters on the limbs and trunk."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "Autoantibodies to BP180/BP230 at the basement membrane cause a subepidermal split; gliptins and loop diuretics are drug triggers."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "Refer for biopsy; review gliptins; doxycycline 200 mg daily ± superpotent topical steroid (BLISTER trial); steroid safety if prednisolone is used."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "Ocular mucous membrane pemphigoid (blindness), pemphigoid gestationis, and steroid toxicity in frail patients.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "points": [
+   "IgG (± IgE) autoantibodies to **BP180 (collagen XVII; NC16A domain)** and **BP230** in the hemidesmosome trigger complement activation, then eosinophil/neutrophil recruitment, proteases, and a **subepidermal** split in the lamina lucida.",
+   "**Quiz relevance:** the 85-year-old with **poorly controlled T2DM** is the classic patient on a gliptin. **Check the repeat list.**"
+  ],
+  "visuals": []
+ },
+ "features": {
+  "photo": "m4w6:B01",
+  "points": [
+   "**Prodrome (non-bullous phase):** weeks to months of **itch** with eczematous or **urticarial plaques** or excoriations alone. This is often misdiagnosed as \"asteatotic eczema\" or \"scabies\" in a care home.",
+   "**Mucosal involvement in only ~10–20%**, and it is mild. Prominent mucosal disease should make you think of **MMP**.",
+   "Nikolsky sign is usually negative. Eosinophilia is common."
+  ],
+  "visuals": [],
+  "variants": null,
+  "groups": [
+   0
+  ]
+ },
+ "confirm": {
+  "cols": [
+   {
+    "k": "Serology",
+    "icon": "check",
+    "points": [
+     "ELISA anti-BP180 (which roughly follows activity) and anti-BP230; indirect IMF on salt-split skin (epidermal side)."
+    ]
+   },
+   {
+    "k": "Key points",
+    "icon": "check",
+    "points": [
+     "Before treatment: glucose/HbA1c, BP, bone health, renal function (doxycycline is fine in CKD; check other drugs), and a baseline weight."
+    ]
+   }
+  ]
+ },
+ "differentials": {
+  "cards": []
+ },
+ "manage": {
+  "rungs": []
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "same-day",
+    "t": "Eye redness, grittiness or scarring with oral erosions: **mucous membrane pemphigoid**, same-week ophthalmology (same day if vision affected)."
+   },
+   {
+    "when": "emergency",
+    "t": "Hoarseness or stridor: airway involvement, emergency."
+   },
+   {
+    "when": "urgent",
+    "t": "Blistering rash in **pregnancy** starting round the umbilicus: urgent dermatology and obstetrics."
+   },
+   {
+    "when": "same-day",
+    "t": "Extensive blistering or secondary infection in a frail patient: same-day assessment."
+   }
+  ],
+  "groups": [
+   1,
+   2
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "**\"Itchy elderly patient with eczema that won't settle\" may be BP before the blisters appear.** Refer for biopsy with DIF when the itch is out of proportion and standard treatment fails."
+  },
+  {
+   "icon": "bulb",
+   "t": "In care homes, **exclude scabies** (burrows, other residents itching) in parallel, since the two can coexist."
+  },
+  {
+   "icon": "bulb",
+   "t": "Patient support: PEMFriends; BAD leaflet *Bullous pemphigoid*."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Bullous pemphigoid (incl. MMP & pemphigoid gestationis)?",
+   "a": "An older person, often with dementia or Parkinson’s, with itchy ‘eczema’ or hives that will not settle, then tense blisters on the limbs and trunk."
+  },
+  {
+   "q": "What drives it?",
+   "a": "Autoantibodies to BP180/BP230 at the basement membrane cause a subepidermal split; gliptins and loop diuretics are drug triggers."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "Refer for biopsy; review gliptins; doxycycline 200 mg daily ± superpotent topical steroid (BLISTER trial); steroid safety if prednisolone is used."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "Ocular mucous membrane pemphigoid (blindness), pemphigoid gestationis, and steroid toxicity in frail patients."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "Eye redness, grittiness or scarring with oral erosions: **mucous membrane pemphigoid**, same-week ophthalmology (same day if vision affected)."
+  }
+ ]
+}

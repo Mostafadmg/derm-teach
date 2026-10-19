@@ -1,0 +1,104 @@
+{
+ "_auto": true,
+ "glance": {
+  "chips": [
+   "Module 1 · Week 5",
+   "excessive sweating",
+   "axillary hyperhidrosis",
+   "palmar sweating"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "Excessive, symmetrical sweating of the armpits, palms, soles or face that interferes with daily life."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "Overactive cholinergic sympathetic signalling to normal eccrine glands (primary), or a systemic cause (secondary)."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "Exclude secondary causes; aluminium chloride at night; tap-water iontophoresis for hands and feet; specialist botulinum toxin or oral anticholinergics."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "Secondary causes: thyrotoxicosis, infection (TB), lymphoma, menopause, drugs (SSRIs), phaeochromocytoma.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "points": [],
+  "visuals": []
+ },
+ "features": {
+  "photo": "m1w5:D01",
+  "points": [],
+  "visuals": [],
+  "variants": null,
+  "groups": [
+   0
+  ]
+ },
+ "confirm": {
+  "cols": []
+ },
+ "differentials": {
+  "cards": []
+ },
+ "manage": {
+  "rungs": []
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "routine",
+    "t": "Generalised or night sweats with weight loss, fever or lymph nodes: look for **TB, lymphoma or other systemic disease**."
+   },
+   {
+    "when": "routine",
+    "t": "One-sided or new-onset sweating in later life: consider a neurological cause."
+   }
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "\"**New sweating at 40 is secondary until proven otherwise**\" — ask about drugs, cocaine, alcohol, sleep, sex and weight."
+  },
+  {
+   "icon": "bulb",
+   "t": "Aluminium chloride works only on **dry skin at night**, when sweat glands are least active."
+  },
+  {
+   "icon": "bulb",
+   "t": "Many SSRIs and venlafaxine cause dose-related sweating. Switching or reducing the dose often helps; the evidence for adding an anticholinergic is limited."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Hyperhidrosis?",
+   "a": "Excessive, symmetrical sweating of the armpits, palms, soles or face that interferes with daily life."
+  },
+  {
+   "q": "What drives it?",
+   "a": "Overactive cholinergic sympathetic signalling to normal eccrine glands (primary), or a systemic cause (secondary)."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "Exclude secondary causes; aluminium chloride at night; tap-water iontophoresis for hands and feet; specialist botulinum toxin or oral anticholinergics."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "Secondary causes: thyrotoxicosis, infection (TB), lymphoma, menopause, drugs (SSRIs), phaeochromocytoma."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "Generalised or night sweats with weight loss, fever or lymph nodes: look for **TB, lymphoma or other systemic disease**."
+  }
+ ]
+}

@@ -1,0 +1,127 @@
+{
+ "_auto": true,
+ "glance": {
+  "chips": [
+   "Module 1 · Week 5",
+   "primary adrenal insufficiency",
+   "hyperpigmentation",
+   "buccal pigmentation"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "Gradual tanning not explained by sun, pigmented creases, scars and buccal mucosa, with fatigue, weight loss and dizziness."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "Autoimmune destruction of the adrenal cortex; low cortisol drives high ACTH and MSH, which stimulate melanocytes."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "U&E (low sodium, high potassium), 9am cortisol and urgent endocrine referral; steroid emergency card and sick-day rules once diagnosed."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "Adrenal crisis (vomiting, hypotension, collapse): hydrocortisone 100 mg IM/IV and 999.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "points": [],
+  "visuals": []
+ },
+ "features": {
+  "photo": "",
+  "points": [
+   "**NICE NG243:** hyperpigmentation **may not be visible on black or brown skin** — ask whether the patient has noticed a change and **check the buccal mucosa and scars**.",
+   "**Adrenal crisis:** vomiting, abdominal pain, confusion, hypotension/shock — often triggered by intercurrent illness; can be fatal (the press cases)."
+  ],
+  "visuals": [],
+  "variants": null
+ },
+ "confirm": {
+  "cols": [
+   {
+    "k": "Don't test",
+    "icon": "flask",
+    "points": [
+     "people on oral glucocorticoids at physiological doses or above. **Inhaled, injected or topical steroids can lower the 9 am cortisol.** Wait 4 weeks after IM/intra-articular steroid injections."
+    ]
+   },
+   {
+    "k": "Confirmation (secondary care)",
+    "icon": "check",
+    "points": [
+     "**short Synacthen (ACTH stimulation) test**, ACTH, renin, **21-hydroxylase antibodies**, adrenal imaging if antibody-negative, very-long-chain fatty acids in young men."
+    ]
+   },
+   {
+    "k": "Key points",
+    "icon": "check",
+    "points": [
+     "**NICE NG243 (2024): offer an 8 am–9 am serum cortisol** to people with suspected AI (course teaching: 8 am cortisol). Interpretation for adults (modern immunoassays):",
+     "Measure **U&E** (Na⁺, K⁺), glucose, FBC, and **ACTH** with the cortisol sample if possible (local lab rules — EDTA, on ice). Check TFT and **renin/aldosterone**."
+    ]
+   }
+  ]
+ },
+ "differentials": {
+  "cards": []
+ },
+ "manage": {
+  "rungs": []
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "emergency",
+    "t": "Vomiting, abdominal pain, confusion or collapse with suspected adrenal insufficiency: **adrenal crisis**, hydrocortisone 100 mg IM and 999."
+   },
+   {
+    "when": "same-day",
+    "t": "Unexplained pigmentation with low sodium or high potassium: same-day 9am (or random) cortisol and endocrine advice."
+   }
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "\"**Pigmented palmar creases and gums + salt craving + postural dizziness = check a 9 am cortisol today.**\""
+  },
+  {
+   "icon": "bulb",
+   "t": "\"**Sick-day rules save lives**\" — rehearse them at every supply."
+  },
+  {
+   "icon": "bulb",
+   "t": "Pale patient with AI features on long-term steroids = **secondary/tertiary AI** — no pigmentation expected."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Addison’s disease: skin signs?",
+   "a": "Gradual tanning not explained by sun, pigmented creases, scars and buccal mucosa, with fatigue, weight loss and dizziness."
+  },
+  {
+   "q": "What drives it?",
+   "a": "Autoimmune destruction of the adrenal cortex; low cortisol drives high ACTH and MSH, which stimulate melanocytes."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "U&E (low sodium, high potassium), 9am cortisol and urgent endocrine referral; steroid emergency card and sick-day rules once diagnosed."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "Adrenal crisis (vomiting, hypotension, collapse): hydrocortisone 100 mg IM/IV and 999."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "Vomiting, abdominal pain, confusion or collapse with suspected adrenal insufficiency: **adrenal crisis**, hydrocortisone 100 mg IM and 999."
+  }
+ ]
+}

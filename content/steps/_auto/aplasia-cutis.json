@@ -1,0 +1,122 @@
+{
+ "_auto": true,
+ "glance": {
+  "chips": [
+   "Module 6 · Week 1",
+   "aplasia cutis congenita",
+   "ACC",
+   "scalp defect newborn"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "A well-demarcated erosion, ulcer or shiny membrane on the vertex scalp at birth, healing to a hairless scar."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "Varied causes: genetic, teratogens (carbimazole or methimazole), intrauterine infection, vascular disruption, amniotic bands."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "Small and superficial: gentle cleansing, bland ointment and protection from trauma."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "Hair collar sign (possible neural tube defect), a large midline defect (sagittal sinus), and ACC with blistering (EB) or limb defects (Adams–Oliver).",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "points": [
+   "Genetic factors (e.g. BMS1 and other loci).",
+   "**Teratogens:** **methimazole/carbimazole**, misoprostol, valproate, cocaine.",
+   "Intrauterine infection (varicella, HSV), vascular disruption, amniotic bands, fetus papyraceus.",
+   "Tension at the hair whorl during rapid fetal brain growth."
+  ],
+  "visuals": []
+ },
+ "features": {
+  "photo": "m6w1:H05",
+  "points": [
+   "Well-demarcated **ulcer, erosion, membrane or bullous lesion** on the vertex scalp at birth, healing to an **alopecic scar**.",
+   "Less often on the trunk or limbs.",
+   "**Hair collar sign:** a ring of darker, longer, coarser hair around a scalp lesion. It marks possible **cranial dysraphism or ectopic neural tissue** (encephalocele or meningocele spectrum).",
+   "Large midline defects, vascular stains or neurological signs increase the risk of underlying skull or CNS involvement."
+  ],
+  "visuals": [],
+  "variants": null,
+  "groups": [
+   0
+  ]
+ },
+ "confirm": {
+  "cols": []
+ },
+ "differentials": {
+  "cards": []
+ },
+ "manage": {
+  "rungs": []
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "routine",
+    "t": "**Hair collar sign: image before assuming it is ‘just a scar’.**"
+   },
+   {
+    "when": "routine",
+    "t": "Large, deep or midline defects, or exposed dura or bone."
+   },
+   {
+    "when": "routine",
+    "t": "ACC with blistering (think EB) or limb defects (think Adams–Oliver)."
+   },
+   {
+    "when": "routine",
+    "t": "Bleeding or signs of infection."
+   }
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "**Never probe deep scalp defects.**"
+  },
+  {
+   "icon": "bulb",
+   "t": "Ask about maternal medicines in pregnancy, especially antithyroid drugs."
+  },
+  {
+   "icon": "bulb",
+   "t": "Most small defects heal well, so reassure while arranging appropriate follow-up."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Aplasia cutis congenita?",
+   "a": "A well-demarcated erosion, ulcer or shiny membrane on the vertex scalp at birth, healing to a hairless scar."
+  },
+  {
+   "q": "What drives it?",
+   "a": "Varied causes: genetic, teratogens (carbimazole or methimazole), intrauterine infection, vascular disruption, amniotic bands."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "Small and superficial: gentle cleansing, bland ointment and protection from trauma."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "Hair collar sign (possible neural tube defect), a large midline defect (sagittal sinus), and ACC with blistering (EB) or limb defects (Adams–Oliver)."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "**Hair collar sign: image before assuming it is ‘just a scar’.**"
+  }
+ ]
+}

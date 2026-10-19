@@ -1,0 +1,170 @@
+{
+ "_auto": true,
+ "glance": {
+  "chips": [
+   "Module 5 · Week 5",
+   "scrofuloderma",
+   "lupus vulgaris",
+   "TB verrucosa cutis"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "A painless lump, sinus or scar over neck lymph nodes, or a chronic plaque, in someone from a high-incidence area or with TB contact."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "*M. tuberculosis* reaching the skin from a deeper focus, by inoculation or by blood spread; tuberculids are immune reactions to TB elsewhere."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "Refer to the TB service for biopsy, culture and treatment (standard regimen, NICE NG33); screen contacts; test for HIV."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "Pulmonary or disseminated TB, HIV co-infection, and drug interactions with rifampicin.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "points": [],
+  "visuals": []
+ },
+ "features": {
+  "photo": "m5w5:W5A01",
+  "points": [
+   "Systemic: chronic cough, weight loss, night sweats, fever (Case 1).",
+   "**Lupus vulgaris:** slowly enlarging red-brown plaque on head/neck; diascopy shows **\"apple-jelly\" nodules**; scarring, tissue destruction; risk of SCC in long-standing lesions.",
+   "**TB verrucosa cutis:** warty plaque on hands, knees, buttocks."
+  ],
+  "visuals": [],
+  "variants": null,
+  "groups": [
+   0,
+   1
+  ]
+ },
+ "confirm": {
+  "cols": [
+   {
+    "k": "Mantoux / IGRA",
+    "icon": "check",
+    "points": [
+     "support infection but do not separate latent from active disease (may be false-negative in HIV/miliary TB)."
+    ]
+   },
+   {
+    "k": "HIV test",
+    "icon": "flask",
+    "points": [
+     "for every patient with TB (NICE NG33); also hepatitis B/C, LFTs, renal function, visual acuity (ethambutol) baselines."
+    ]
+   },
+   {
+    "k": "Key points",
+    "icon": "check",
+    "points": [
+     "Skin/node **biopsy**: caseating granulomas; **Ziehl–Neelsen** stain for AFB; **mycobacterial culture** (gold standard, weeks; gives drug sensitivity); **TB PCR / GeneXpert** (rapid, rifampicin resistance).",
+     "Node FNA/excision; sputum smear/culture (AFB+ in Case 1); **chest X-ray**."
+    ]
+   }
+  ]
+ },
+ "differentials": {
+  "cards": [
+   {
+    "name": "Atypical (non-tuberculous) mycobacterial lymphadenitis",
+    "clue": "Young child, unilateral submandibular node, violaceous skin, no lung disease; culture distinguishes"
+   },
+   {
+    "name": "Actinomycosis",
+    "clue": "Jaw angle, \"woody\" induration, sinuses discharging **sulphur granules**"
+   },
+   {
+    "name": "Hidradenitis suppurativa",
+    "clue": "Axilla/groin, recurrent painful nodules, double-ended comedones, no systemic TB",
+    "link": "hidradenitis-suppurativa"
+   },
+   {
+    "name": "Lymphoma / metastatic nodes",
+    "clue": "Rubbery or hard nodes, B symptoms — biopsy"
+   },
+   {
+    "name": "Pyogenic abscess / infected cyst",
+    "clue": "Acute, hot, tender, fluctuant, responds to drainage/antibiotics"
+   },
+   {
+    "name": "Sporotrichosis, deep fungal (mycetoma)",
+    "clue": "Travel/gardening, lymphocutaneous chain"
+   },
+   {
+    "name": "Lupus vulgaris DDx: sarcoidosis, discoid lupus, leprosy",
+    "clue": "Biopsy; ZN/culture"
+   }
+  ]
+ },
+ "manage": {
+  "rungs": []
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "urgent",
+    "t": "Cough, weight loss, night sweats or haemoptysis: urgent chest assessment."
+   },
+   {
+    "when": "routine",
+    "t": "Rifampicin is a strong enzyme inducer: review every interacting drug (contraceptives, anticoagulants, antiretrovirals)."
+   },
+   {
+    "when": "routine",
+    "t": "Notify TB to UKHSA."
+   }
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "Hepatotoxicity (RHZ): counsel to report jaundice, dark urine, vomiting; avoid alcohol; LFT monitoring per specialist."
+  },
+  {
+   "icon": "bulb",
+   "t": "Ethambutol: report any visual change (colour vision) immediately."
+  },
+  {
+   "icon": "bulb",
+   "t": "A chronic painless neck lump/sinus, especially with cough, weight loss, or origin from a high-incidence country, is **TB until proven otherwise** — do not repeatedly treat with flucloxacillin."
+  },
+  {
+   "icon": "bulb",
+   "t": "Skin lesions heal with scarring; tuberculids clear only with anti-TB treatment of the hidden focus."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Cutaneous tuberculosis (scrofuloderma & others)?",
+   "a": "A painless lump, sinus or scar over neck lymph nodes, or a chronic plaque, in someone from a high-incidence area or with TB contact."
+  },
+  {
+   "q": "What drives it?",
+   "a": "*M. tuberculosis* reaching the skin from a deeper focus, by inoculation or by blood spread; tuberculids are immune reactions to TB elsewhere."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "Refer to the TB service for biopsy, culture and treatment (standard regimen, NICE NG33); screen contacts; test for HIV."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "Pulmonary or disseminated TB, HIV co-infection, and drug interactions with rifampicin."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "Cough, weight loss, night sweats or haemoptysis: urgent chest assessment."
+  }
+ ]
+}

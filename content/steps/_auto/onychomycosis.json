@@ -1,0 +1,161 @@
+{
+ "_auto": true,
+ "glance": {
+  "chips": [
+   "Module 3 · Week 2",
+   "onychomycosis",
+   "fungal nail",
+   "tinea unguium"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "Thick, yellow-white, crumbly nails (toenails especially), often with tinea pedis."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "Dermatophytes (mostly *T. rubrum*), less often *Candida* or non-dermatophyte moulds; trauma and psoriasis mimic it."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "Send clippings for microscopy and culture first; oral terbinafine for confirmed dermatophyte disease that needs treating (6 weeks fingernails, 3–6 months toenails); amorolfine only for limited distal disease."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "Subungual melanoma or haematoma mistaken for fungus; diabetic or immunosuppressed foot.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "points": [],
+  "visuals": []
+ },
+ "features": {
+  "photo": "m3w2:B01",
+  "points": [
+   "**Distal and lateral subungual** (commonest): yellow-white thickening spreading back from the free edge, with crumbly debris under the nail and lifting (onycholysis).",
+   "**White superficial**: chalky white patches on the nail surface, usually toenails.",
+   "**Proximal subungual**: white change starting near the cuticle; think of immunosuppression, including HIV.",
+   "**Candidal**: fingernails, usually after chronic paronychia, with nail-fold swelling and onycholysis.",
+   "Usually several toenails, often with scaly soles or toe webs (tinea pedis). A single dystrophic nail after injury is more often trauma."
+  ],
+  "visuals": [],
+  "variants": null,
+  "groups": [
+   0,
+   2
+  ]
+ },
+ "confirm": {
+  "cols": [
+   {
+    "k": "Clean",
+    "icon": "check",
+    "points": [
+     "the nail with an alcohol wipe, and stop topical antifungals **2–4 weeks** before (and oral ones longer, if feasible)."
+    ]
+   },
+   {
+    "k": "Repeat sampling",
+    "icon": "check",
+    "points": [
+     "if negative but clinically suspicious, *before* starting 3–6 months of terbinafine/itraconazole (CKS)."
+    ]
+   },
+   {
+    "k": "Key points",
+    "icon": "check",
+    "points": [
+     "Examine **all nails** and feet/hands/groin for associated tinea.",
+     "**Mycology before long systemic therapy** (NICE/CKS): clip crumbling free edge + scrape most proximal accessible subungual debris; KOH microscopy + culture (± PCR where available).",
+     "Dermoscopy may support fungal vs traumatic onycholysis but does not replace mycology when oral therapy is planned.",
+     "Send **generous full-thickness clippings + debris** in a **folded dark paper packet** (e.g. a Dermapak), not a sealed plastic pot, because that encourages bacterial overgrowth."
+    ]
+   }
+  ]
+ },
+ "differentials": {
+  "cards": [
+   {
+    "name": "Trauma / asymmetric gait nail dystrophy",
+    "clue": "Avoid months of unnecessary terbinafine"
+   },
+   {
+    "name": "Psoriasis / lichen planus",
+    "clue": "Different treatment; look for skin/mucosal signs",
+    "link": "psoriasis"
+   },
+   {
+    "name": "Bacterial (Pseudomonas) green nail",
+    "clue": "Need dryness ± antiseptic; not terbinafine alone"
+   },
+   {
+    "name": "Subungual SCC or melanoma",
+    "clue": "Malignant mimics — refer if atypical mass, persistent single-nail dystrophy, pigment"
+   }
+  ],
+  "groups": [
+   1
+  ]
+ },
+ "manage": {
+  "rungs": []
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "routine",
+    "t": "Pigment that does not grow out, a widening band or pigment on the nail fold: **refer as possible melanoma** (NG12)."
+   },
+   {
+    "when": "routine",
+    "t": "Diabetic foot with nail disease and skin breaks: foot-protection team."
+   },
+   {
+    "when": "routine",
+    "t": "Check liver function history and interactions before oral terbinafine; stop if hepatitis symptoms or severe skin reactions."
+   }
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "Get mycology **before** a long oral course: many thick nails are trauma or psoriasis."
+  },
+  {
+   "icon": "bulb",
+   "t": "The nail looks abnormal for months after cure, because it grows out slowly (toenails 12–18 months). Set expectations at the start."
+  },
+  {
+   "icon": "bulb",
+   "t": "A negative result does not exclude infection, so repeat sampling if the picture is convincing."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Fungal nail infection & nail discolouration?",
+   "a": "Thick, yellow-white, crumbly nails (toenails especially), often with tinea pedis."
+  },
+  {
+   "q": "What drives it?",
+   "a": "Dermatophytes (mostly *T. rubrum*), less often *Candida* or non-dermatophyte moulds; trauma and psoriasis mimic it."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "Send clippings for microscopy and culture first; oral terbinafine for confirmed dermatophyte disease that needs treating (6 weeks fingernails, 3–6 months toenails); amorolfine only for limited distal disease."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "Subungual melanoma or haematoma mistaken for fungus; diabetic or immunosuppressed foot."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "Pigment that does not grow out, a widening band or pigment on the nail fold: **refer as possible melanoma** (NG12)."
+  }
+ ]
+}

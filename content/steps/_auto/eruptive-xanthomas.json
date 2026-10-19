@@ -1,0 +1,124 @@
+{
+ "_auto": true,
+ "glance": {
+  "chips": [
+   "Module 1 · Week 5",
+   "xanthoma",
+   "hypertriglyceridaemia",
+   "xanthelasma"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "Sudden crops of small yellow papules with a red rim on the buttocks, elbows or knees, often in poorly controlled diabetes."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "Very high triglycerides leak into the dermis and are taken up by macrophages."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "Fasting lipids, HbA1c, glucose, TSH, LFT, renal function, alcohol and drug review; urgent lipid-lowering and diabetes control."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "Acute pancreatitis (triglycerides >10–20 mmol/L); familial hypercholesterolaemia with tendon xanthomas.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "points": [
+   "**Primary:** familial chylomicronaemia syndrome (LPL deficiency), multifactorial chylomicronaemia, familial hypertriglyceridaemia, dysbetalipoproteinaemia."
+  ],
+  "visuals": []
+ },
+ "features": {
+  "photo": "m1w5:E01",
+  "points": [],
+  "visuals": [],
+  "variants": null,
+  "groups": [
+   0
+  ]
+ },
+ "confirm": {
+  "cols": [
+   {
+    "k": "Fasting lipid profile.",
+    "icon": "check",
+    "points": [
+     "The sample is **turbid/milky (\"lipaemic\")** with **very high TG**. Cholesterol is also raised."
+    ]
+   },
+   {
+    "k": "HbA1c",
+    "icon": "check",
+    "points": [
+     ", glucose, U&E/eGFR, LFT (fatty liver, alcohol), **TSH**, urine ACR/PCR, amylase/lipase if abdominal pain."
+    ]
+   },
+   {
+    "k": "Shave or punch biopsy",
+    "icon": "check",
+    "points": [
+     "only if uncertain (foamy macrophages ± extracellular lipid)."
+    ]
+   }
+  ]
+ },
+ "differentials": {
+  "cards": []
+ },
+ "manage": {
+  "rungs": []
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "same-day",
+    "t": "Triglycerides above 20 mmol/L: **urgent specialist referral** (NICE NG238); abdominal pain raises concern for **acute pancreatitis**, same-day assessment."
+   },
+   {
+    "when": "routine",
+    "t": "Tendon xanthomas or xanthelasma in a young person: check for **familial hypercholesterolaemia** (NICE CG71)."
+   }
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "\"**Yellow papules on the buttocks in new diabetes = check triglycerides today — pancreatitis risk.**\""
+  },
+  {
+   "icon": "bulb",
+   "t": "Before starting **isotretinoin, acitretin or oral oestrogen**, check fasting lipids if there are risk factors (family history, obesity, diabetes, alcohol)."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Eruptive xanthomas & skin signs of lipids?",
+   "a": "Sudden crops of small yellow papules with a red rim on the buttocks, elbows or knees, often in poorly controlled diabetes."
+  },
+  {
+   "q": "What drives it?",
+   "a": "Very high triglycerides leak into the dermis and are taken up by macrophages."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "Fasting lipids, HbA1c, glucose, TSH, LFT, renal function, alcohol and drug review; urgent lipid-lowering and diabetes control."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "Acute pancreatitis (triglycerides >10–20 mmol/L); familial hypercholesterolaemia with tendon xanthomas."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "Triglycerides above 20 mmol/L: **urgent specialist referral** (NICE NG238); abdominal pain raises concern for **acute pancreatitis**, same-day assessment."
+  }
+ ]
+}

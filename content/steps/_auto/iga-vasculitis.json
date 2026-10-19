@@ -1,0 +1,135 @@
+{
+ "_auto": true,
+ "glance": {
+  "chips": [
+   "Module 1 · Week 4",
+   "HSP",
+   "Henoch–Schönlein",
+   "purpura in children"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "A child (often 3–10 years) with palpable purpura on the legs and buttocks after a cold or sore throat, with sore joints or tummy pain."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "IgA-containing immune complexes in small vessels of the skin, gut, joints and kidneys."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "Exclude sepsis; BP and urine dipstick; FBC and clotting if unsure; simple analgesia; urine and BP monitoring for 6–12 months."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "Meningococcal sepsis, leukaemia or ITP (check platelets), intussusception, nephritis.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "points": [],
+  "visuals": []
+ },
+ "features": {
+  "photo": "m1w4:E01",
+  "points": [
+   "**Palpable purpura** (100%, required): symmetrical on the **buttocks, legs, ankles and extensor arms**, ± urticarial and bullous/necrotic lesions; scrotal oedema; oedema of the scalp/face in toddlers.",
+   "**Arthralgia/arthritis** (~75%): knees and ankles, transient and non-erosive.",
+   "**Abdominal pain** (~65%) ± GI bleeding (~30%), **intussusception** (ileo-ileal — 1–5%), pancreatitis.",
+   "Rare: orchitis/testicular torsion mimic, CNS involvement, pulmonary haemorrhage."
+  ],
+  "visuals": [],
+  "variants": null,
+  "groups": [
+   0
+  ]
+ },
+ "confirm": {
+  "cols": [
+   {
+    "k": "Bloods",
+    "icon": "check",
+    "points": [
+     "**FBC + film (platelets normal — excludes ITP/leukaemia)**, clotting, U&E/creatinine, albumin, CRP; ASO ± throat swab; IgA (raised in ~50%; not diagnostic)."
+    ]
+   },
+   {
+    "k": "Urinalysis + BP",
+    "icon": "check",
+    "points": [
+     "at diagnosis; **urine ACR/PCR** if proteinuria."
+    ]
+   },
+   {
+    "k": "Biopsy",
+    "icon": "check",
+    "points": [
+     "only if atypical (adults, uncertain diagnosis): LCV with **perivascular IgA and C3 on DIF**. Renal biopsy if significant proteinuria or impaired function."
+    ]
+   }
+  ]
+ },
+ "differentials": {
+  "cards": []
+ },
+ "manage": {
+  "rungs": []
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "routine",
+    "t": "Child unwell, febrile or with spreading non-blanching rash: treat as **meningococcal disease** until proven otherwise."
+   },
+   {
+    "when": "same-day",
+    "t": "Severe abdominal pain or blood in stool: possible **intussusception**, same-day paediatric review."
+   },
+   {
+    "when": "routine",
+    "t": "Proteinuria, haematuria or high BP: paediatric nephrology advice; keep checking urine for 6–12 months."
+   }
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "\"**HSP = purpura with a NORMAL platelet count.**\" If platelets are low, it is not HSP."
+  },
+  {
+   "icon": "bulb",
+   "t": "Give the family a **urine dipstick plan** and a written list of red flags (abdominal pain, blood in urine/stools, swollen testicles, headache, reduced urine output)."
+  },
+  {
+   "icon": "bulb",
+   "t": "The rash can recur with activity/standing — reassure."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of IgA vasculitis (Henoch–Schönlein purpura)?",
+   "a": "A child (often 3–10 years) with palpable purpura on the legs and buttocks after a cold or sore throat, with sore joints or tummy pain."
+  },
+  {
+   "q": "What drives it?",
+   "a": "IgA-containing immune complexes in small vessels of the skin, gut, joints and kidneys."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "Exclude sepsis; BP and urine dipstick; FBC and clotting if unsure; simple analgesia; urine and BP monitoring for 6–12 months."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "Meningococcal sepsis, leukaemia or ITP (check platelets), intussusception, nephritis."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "Child unwell, febrile or with spreading non-blanching rash: treat as **meningococcal disease** until proven otherwise."
+  }
+ ]
+}

@@ -1,0 +1,114 @@
+{
+ "_auto": true,
+ "glance": {
+  "chips": [
+   "Module 2 · Week 5",
+   "Breslow thickness",
+   "AJCC 8",
+   "stage IIA"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "A patient with a new melanoma diagnosis asking what their report, stage and treatment mean."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "Breslow thickness and ulceration set the T category; nodes (N) and spread (M) set the stage."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "Excision biopsy with a 2 mm margin; wide local excision (0.5/1/2 cm by stage, NG14 2022); consider SLNB above Breslow 0.8 mm with risk features; adjuvant immunotherapy or BRAF/MEK for resected stage III (and some IIB/IIC)."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "Quoting outdated survival data: AJCC 8 5-year melanoma-specific survival for stage IIA is about 93–94%, not 80%.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "points": [],
+  "visuals": []
+ },
+ "features": {
+  "photo": "m2w5:E04",
+  "points": [
+   "**Excision biopsy with a 2 mm clinical margin**, full thickness including subcutaneous fat, oriented to allow later WLE/SLNB (along the long axis of limbs).",
+   "Done by the skin cancer team/specialist. In primary care, **refer rather than excise** suspected melanoma (NICE IOG).",
+   "**Avoid shave, punch or incisional biopsy** except for specialist situations (large facial LM, acral/nail)."
+  ],
+  "visuals": [],
+  "variants": null
+ },
+ "confirm": {
+  "cols": [
+   {
+    "k": "Key points",
+    "icon": "check",
+    "points": [
+     "Breslow **1.4 mm with ulceration = T2b**.",
+     "If N0 (clinically and after SLNB), this is **stage IIA**, with ~93–94% 5-year MSS. The course \"~80%\" reflects older AJCC 7-era data, and it is closer to stage IIC today.",
+     "**Mitoses >5/mm² do not alter the stage in AJCC 8** (they are prognostic only).",
+     "If SLNB is positive → stage III (e.g. T2b N1a = **IIIA**).",
+     "Until SLNB is done, the stage is clinical (\"cIIA\").",
+     "Gershenwald JE et al. Melanoma staging: evidence-based changes in the AJCC 8th edition. *CA Cancer J Clin* 2017;67:472–92.",
+     "Keung EZ, Gershenwald JE. AJCC 8 update. *Expert Rev Anticancer Ther* 2018."
+    ]
+   }
+  ]
+ },
+ "differentials": {
+  "cards": []
+ },
+ "manage": {
+  "rungs": []
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "urgent",
+    "t": "New lumps in or near the scar, in the limb between the scar and nodes, or new nodes: **urgent** review for **recurrence or in-transit disease**."
+   },
+   {
+    "when": "routine",
+    "t": "Survival figures change with each AJCC edition: use AJCC 8 (Gershenwald 2017) when counselling."
+   }
+  ],
+  "groups": [
+   0
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "Patients often confuse lesion size with thickness. Explain: \"Breslow is how deep it went, measured under the microscope.\""
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Melanoma: Breslow, AJCC 8 staging & NICE NG14 treatment?",
+   "a": "A patient with a new melanoma diagnosis asking what their report, stage and treatment mean."
+  },
+  {
+   "q": "What drives it?",
+   "a": "Breslow thickness and ulceration set the T category; nodes (N) and spread (M) set the stage."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "Excision biopsy with a 2 mm margin; wide local excision (0.5/1/2 cm by stage, NG14 2022); consider SLNB above Breslow 0.8 mm with risk features; adjuvant immunotherapy or BRAF/MEK for resected stage III (and some IIB/IIC)."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "Quoting outdated survival data: AJCC 8 5-year melanoma-specific survival for stage IIA is about 93–94%, not 80%."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "New lumps in or near the scar, in the limb between the scar and nodes, or new nodes: **urgent** review for **recurrence or in-transit disease**."
+  }
+ ]
+}

@@ -1,0 +1,171 @@
+{
+ "_auto": true,
+ "glance": {
+  "chips": [
+   "Module 4 · Week 3",
+   "allergic contact dermatitis",
+   "irritant contact dermatitis",
+   "ACD"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "Eczema that matches an exposure in time and place — wet-work hands, under a watch, eyelids from nail varnish, or airborne fragrance."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "ICD: direct barrier injury (innate). ACD: type IV hypersensitivity after sensitisation, elicitation at 24–72 h."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "Identify and avoid the cause; soap substitute + liberal emollient; topical steroid matched to site; refer chronic/occupational/facial cases for patch testing."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "Occupational hand dermatitis needing workplace adjustments; airborne allergy presenting as facial/eyelid eczema; do not use aqueous cream as leave-on.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "points": [
+   "Common irritants: water, detergents, solvents, cutting oils, friction, heat.",
+   "Common allergens: nickel, fragrance mixes, rubber accelerators, preservatives (MI/MCI), PPD hair dye, topical antibiotics/steroids, epoxy resins.",
+   "Mixed ICD+ACD is frequent on hands. About four-fifths of occupational hand dermatitis starts as irritant."
+  ],
+  "visuals": []
+ },
+ "features": {
+  "photo": "m4w3:A01",
+  "points": [
+   "Both look eczematous: erythema, vesicles, scale, fissures, lichenification.",
+   "ICD: burning/stinging often > itch; sharp borders early; interdigital “sentinel” wet-work dermatitis.",
+   "ACD: itch dominates; geometric patterns (glove, plaster, jewellery); may spread beyond contact.",
+   "Facial/cosmetic ACD: eyelids, hairline; airborne fragrance can affect exposed face.",
+   "Tattoo ink allergy: localised eczema or lichenoid reaction in a colour distribution.",
+   "Skin of colour: erythema less obvious; violaceous pigment and lichenification more prominent."
+  ],
+  "visuals": [],
+  "variants": null,
+  "groups": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6
+  ]
+ },
+ "confirm": {
+  "cols": [
+   {
+    "k": "Key points",
+    "icon": "check",
+    "points": [
+     "History: occupation, hobbies, cosmetics, topical medicines, holiday improvement.",
+     "ICD: clinical exposure story; no confirmatory lab test.",
+     "Suspected ACD that is chronic, recurrent, occupational, facial or treatment-resistant → **refer for patch testing** (British baseline ± relevant series + patient’s own products).",
+     "Photopatch testing when sunscreen filters or photoallergens are suspected.",
+     "Prick testing / specific IgE is for immediate contact urticaria (e.g. latex), not delayed ACD."
+    ]
+   }
+  ]
+ },
+ "differentials": {
+  "cards": [
+   {
+    "name": "Atopic eczema",
+    "clue": "Flexural history; not strictly contact-limited",
+    "link": "eczema-dermatitis"
+   },
+   {
+    "name": "Contact urticaria",
+    "clue": "Minutes; wheals; latex"
+   },
+   {
+    "name": "Psoriasis of hands",
+    "clue": "Sharp plaques, nail changes",
+    "link": "psoriasis"
+   },
+   {
+    "name": "Tinea",
+    "clue": "KOH/culture; annular edge",
+    "link": "annular-rashes"
+   },
+   {
+    "name": "Photocontact",
+    "clue": "Spared shadow zones"
+   }
+  ],
+  "groups": [
+   0
+  ]
+ },
+ "manage": {
+  "rungs": []
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "routine",
+    "t": "Occupational disease threatening livelihood — early patch testing and workplace advice."
+   },
+   {
+    "when": "routine",
+    "t": "Severe facial/eyelid swelling or systemic contact dermatitis."
+   },
+   {
+    "when": "routine",
+    "t": "Suspected airborne allergy continuing despite “stopping perfume”."
+   },
+   {
+    "when": "routine",
+    "t": "Non-healing dermatitis on medicaments — think contact allergy to the treatment itself."
+   }
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "Many “allergies” on the hands are **irritant** — still treat the barrier aggressively."
+  },
+  {
+   "icon": "bulb",
+   "t": "Atopics get ICD more easily and can still develop ACD."
+  },
+  {
+   "icon": "bulb",
+   "t": "Hair-dye (PPD) and nail-varnish eyelid patterns are classic teaching cases."
+  },
+  {
+   "icon": "bulb",
+   "t": "Always check BNF/SmPC for topical steroid site limits."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Contact dermatitis?",
+   "a": "Eczema that matches an exposure in time and place — wet-work hands, under a watch, eyelids from nail varnish, or airborne fragrance."
+  },
+  {
+   "q": "What drives it?",
+   "a": "ICD: direct barrier injury (innate). ACD: type IV hypersensitivity after sensitisation, elicitation at 24–72 h."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "Identify and avoid the cause; soap substitute + liberal emollient; topical steroid matched to site; refer chronic/occupational/facial cases for patch testing."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "Occupational hand dermatitis needing workplace adjustments; airborne allergy presenting as facial/eyelid eczema; do not use aqueous cream as leave-on."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "Occupational disease threatening livelihood — early patch testing and workplace advice."
+  }
+ ]
+}

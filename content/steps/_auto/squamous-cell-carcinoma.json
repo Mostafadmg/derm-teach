@@ -1,0 +1,170 @@
+{
+ "_auto": true,
+ "glance": {
+  "chips": [
+   "Module 2 · Week 3",
+   "SCC",
+   "cSCC",
+   "lip SCC"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "A tender, growing, crusted or keratotic nodule or non-healing ulcer on the face, lip, ear, scalp, hands or a chronic wound."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "Cumulative UV, immunosuppression (organ transplant), HPV, chronic wounds and scars; arises from AK or Bowen’s disease."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "Suspected cancer pathway (NG12 1.7.4); surgical excision first-line; check nodes; transplant patients need specialist surveillance."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "Lip and ear SCC (higher metastatic risk), SCC in a chronic ulcer or scar, rapid keratoacanthoma-like growth, immunosuppressed patients.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "points": [
+   "**Cumulative UV** (outdoor workers, as in [Case 3](condition:basal-cell-carcinoma)), older age, fair skin.",
+   "**Immunosuppression:** organ transplant recipients have 65–250× the risk; CLL; HIV.",
+   "**Drugs:** azathioprine, voriconazole, hydrochlorothiazide, BRAF inhibitors (vemurafenib monotherapy: KA-type SCCs).",
+   "**HPV.**",
+   "Chronic wounds, scars and burns (**Marjolin ulcer**, ).",
+   "Radiation, arsenic, smoking (lip), lichen sclerosus/planus (genital and oral)."
+  ],
+  "visuals": []
+ },
+ "features": {
+  "photo": "m2w3:E01",
+  "points": [
+   "An indurated, **tender** keratotic nodule or plaque, or an **ulcer with hard everted edges**, growing over weeks to months, often bleeding.",
+   "Sun-exposed sites: scalp, ears, lower lip, the back of the hands, and the lower legs in women.",
+   "**Lip SCC:** usually the **lower lip vermilion** (more UV), often on a background of **actinic cheilitis**. Smoking or pipe use. Persistent ulcer or crust, induration.",
+   "**induration/thickening**",
+   "**tenderness/pain**",
+   "**rapid growth**"
+  ],
+  "visuals": [],
+  "variants": null,
+  "groups": [
+   1
+  ]
+ },
+ "confirm": {
+  "cols": [
+   {
+    "k": "Biopsy",
+    "icon": "check",
+    "points": [
+     "excision biopsy is preferred where feasible. Otherwise an incisional/punch biopsy deep enough to assess depth."
+    ]
+   },
+   {
+    "k": "Pathology report items",
+    "icon": "check",
+    "points": [
+     "differentiation, thickness/depth, perineural and lymphovascular invasion, margins."
+    ]
+   },
+   {
+    "k": "Staging",
+    "icon": "check",
+    "points": [
+     "the AJCC 8th edition (head and neck cSCC) or UICC 8. The BAD 2020 risk categories (low, high, very high) guide management."
+    ]
+   },
+   {
+    "k": "Imaging",
+    "icon": "check",
+    "points": [
+     "(specialist): ultrasound ± FNA of clinically suspicious nodes; CT/MRI for very high-risk tumours or perineural symptoms. **Consider SLNB only in trials** (not standard UK practice)."
+    ]
+   }
+  ]
+ },
+ "differentials": {
+  "cards": []
+ },
+ "manage": {
+  "rungs": []
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "urgent",
+    "t": "Suspected cSCC: **suspected cancer pathway** referral (NICE NG12 1.7.4)."
+   },
+   {
+    "when": "routine",
+    "t": "Any lip or mouth ulcer persisting more than 3 weeks: suspected head-and-neck cancer pathway."
+   },
+   {
+    "when": "routine",
+    "t": "A non-healing area or new growth in a long-standing ulcer or scar: biopsy to exclude **SCC (Marjolin ulcer)**."
+   }
+  ],
+  "groups": [
+   0
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "**Review hydrochlorothiazide** (MHRA) and **voriconazole** (photosensitivity; consider an alternative azole for long-term use in high-risk patients), and remind transplant patients of photoprotection."
+  },
+  {
+   "icon": "bulb",
+   "t": "Smoking cessation: lip/oral SCC risk and wound healing."
+  },
+  {
+   "icon": "bulb",
+   "t": "Lip sun protection: an SPF lip balm."
+  },
+  {
+   "icon": "bulb",
+   "t": "Teach patients to report a new lump in the scar or the neck."
+  },
+  {
+   "icon": "bulb",
+   "t": "5-FU: expect redness, crusting and soreness. Do not apply near the eyes or mucosa; wash hands after."
+  },
+  {
+   "icon": "bulb",
+   "t": "Topical 5-FU is minimally absorbed, but **never use it with brivudine** (fatal DPD inhibition), and take care over large areas in patients with known DPD deficiency."
+  },
+  {
+   "icon": "bulb",
+   "t": "Mark lesions on a body map for follow-up."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Cutaneous squamous cell carcinoma (cSCC)?",
+   "a": "A tender, growing, crusted or keratotic nodule or non-healing ulcer on the face, lip, ear, scalp, hands or a chronic wound."
+  },
+  {
+   "q": "What drives it?",
+   "a": "Cumulative UV, immunosuppression (organ transplant), HPV, chronic wounds and scars; arises from AK or Bowen’s disease."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "Suspected cancer pathway (NG12 1.7.4); surgical excision first-line; check nodes; transplant patients need specialist surveillance."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "Lip and ear SCC (higher metastatic risk), SCC in a chronic ulcer or scar, rapid keratoacanthoma-like growth, immunosuppressed patients."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "Suspected cSCC: **suspected cancer pathway** referral (NICE NG12 1.7.4)."
+  }
+ ]
+}

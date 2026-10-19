@@ -1,0 +1,99 @@
+{
+ "_auto": true,
+ "glance": {
+  "chips": [
+   "Module 2 · Week 6",
+   "suture removal",
+   "post-op wound infection",
+   "return to work"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "A patient a few days to weeks after minor skin surgery with a question about the wound, stitches, activity or scar."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "Healing goes through inflammation, proliferation and remodelling; tension and infection disrupt it; some people form keloids."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "Keep dry 24–48 h then wash; sutures out at 5–7 days on the face, 10–14 on the trunk and arms and about 14 on the back and legs (local protocols vary); avoid strenuous activity for 1–2 weeks; flucloxacillin for wound infection (clarithromycin or doxycycline if penicillin-allergic, checking interactions)."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "Spreading cellulitis, abscess, dehiscence; keloids in people with skin of colour or on the chest, shoulders and earlobes.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "points": [],
+  "visuals": []
+ },
+ "features": {
+  "photo": "m2w6:C03",
+  "points": [
+   "**Avoid strenuous exercise, heavy lifting, contact sport and swimming for ~1–2 weeks** (until sutures are out and the wound is sound) to prevent **dehiscence and stretched scars**. course teaching said no football for 2 weeks.",
+   "**Work:** a construction worker may need **1–2 weeks of modified or light duties**. The fit note (from any eligible healthcare professional, including pharmacists since July 2022) can advise \"may be fit for work with adjustments\".",
+   "Protect the wound from dust and dirt at work (a waterproof dressing).",
+   "Scars mature over 12–18 months.",
+   "**Massage** with emollient once healed (from about 2–3 weeks).",
+   "**Sun protection (SPF 30+) for at least a year** to avoid pigmentation."
+  ],
+  "visuals": [],
+  "variants": null,
+  "groups": [
+   0
+  ]
+ },
+ "confirm": {
+  "cols": []
+ },
+ "differentials": {
+  "cards": []
+ },
+ "manage": {
+  "rungs": []
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "same-day",
+    "t": "Spreading redness, fever, pus or increasing pain after surgery: assess for **wound infection or abscess** the same day."
+   }
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "Give written aftercare with a **named contact for bleeding/infection** and the **date for suture removal and results**."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Wound aftercare: sutures, activity, infection & scars?",
+   "a": "A patient a few days to weeks after minor skin surgery with a question about the wound, stitches, activity or scar."
+  },
+  {
+   "q": "What drives it?",
+   "a": "Healing goes through inflammation, proliferation and remodelling; tension and infection disrupt it; some people form keloids."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "Keep dry 24–48 h then wash; sutures out at 5–7 days on the face, 10–14 on the trunk and arms and about 14 on the back and legs (local protocols vary); avoid strenuous activity for 1–2 weeks; flucloxacillin for wound infection (clarithromycin or doxycycline if penicillin-allergic, checking interactions)."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "Spreading cellulitis, abscess, dehiscence; keloids in people with skin of colour or on the chest, shoulders and earlobes."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "Spreading redness, fever, pus or increasing pain after surgery: assess for **wound infection or abscess** the same day."
+  }
+ ]
+}

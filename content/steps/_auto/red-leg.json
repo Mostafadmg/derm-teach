@@ -1,0 +1,163 @@
+{
+ "_auto": true,
+ "glance": {
+  "chips": [
+   "Module 5 · Week 2",
+   "red leg",
+   "bilateral cellulitis",
+   "pseudocellulitis"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "Any patient presenting with ‘cellulitis’, especially if both legs are involved, it is chronic or itchy, or there is no fever."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "Most bilateral red legs are venous (stasis dermatitis, lipodermatosclerosis) or oedema, not infection."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "Ask: one leg or two, acute or chronic, fever or not, itch or pain? Treat the actual cause."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "Necrotising fasciitis, sepsis, DVT, critical ischaemia and diabetic foot infection.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "points": [],
+  "visuals": []
+ },
+ "features": {
+  "photo": "m6w4:W4A-07",
+  "points": [],
+  "visuals": [],
+  "variants": null,
+  "groups": [
+   0
+  ]
+ },
+ "confirm": {
+  "cols": [
+   {
+    "k": "Key points",
+    "icon": "check",
+    "points": [
+     "Ask: **one leg or two?** Acute or chronic? Fever or rigors? Itch or pain? Is there a portal of entry?",
+     "Mark the border and record observations (NEWS2).",
+     "Wells score with D-dimer or Doppler if DVT is possible.",
+     "Check pulses or ABPI if there is an ulcer, or before compression."
+    ]
+   }
+  ]
+ },
+ "differentials": {
+  "cards": [
+   {
+    "name": "Venous eczema / stasis dermatitis",
+    "clue": "Bilateral or chronic, itchy, scale, haemosiderin, no fever",
+    "link": "itch-xerosis-older-adults"
+   },
+   {
+    "name": "Acute lipodermatosclerosis",
+    "clue": "Painful, woody, red skin above the ankle, often misdiagnosed as cellulitis"
+   },
+   {
+    "name": "DVT",
+    "clue": "Calf pain and swelling, less intense redness"
+   },
+   {
+    "name": "Lymphoedema flare",
+    "clue": "Chronic swelling history"
+   },
+   {
+    "name": "Gout / septic arthritis",
+    "clue": "Joint-centred"
+   },
+   {
+    "name": "Contact dermatitis (e.g. to dressings)",
+    "clue": "Itchy, vesicular, matches the area covered",
+    "link": "contact-dermatitis"
+   },
+   {
+    "name": "Necrotising fasciitis",
+    "clue": "**Severe pain out of proportion**, rapid progression, systemic toxicity. **ED**",
+    "link": "cellulitis-erysipelas"
+   },
+   {
+    "name": "Pyoderma gangrenosum / vasculitis",
+    "clue": "Ulcer edge features, purpura, systemic disease",
+    "link": "pyoderma-gangrenosum"
+   }
+  ],
+  "groups": [
+   1
+  ]
+ },
+ "manage": {
+  "rungs": []
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "routine",
+    "t": "Pain out of proportion, purple bullae, crepitus, or a rapidly spreading area: **necrotising fasciitis**."
+   },
+   {
+    "when": "routine",
+    "t": "Sepsis signs: low blood pressure, tachycardia, confusion, mottling."
+   },
+   {
+    "when": "routine",
+    "t": "A cold, pulseless or ischaemic limb."
+   },
+   {
+    "when": "routine",
+    "t": "A diabetic foot that is hot, red or ulcerated."
+   }
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "**Bilateral ‘cellulitis’ is rarely infection.**"
+  },
+  {
+   "icon": "bulb",
+   "t": "Venous eczema responds to emollient plus a topical steroid and compression (after ABPI). Antibiotics do nothing for it."
+  },
+  {
+   "icon": "bulb",
+   "t": "Recurrent ‘cellulitis’ in the same leg may be lipodermatosclerosis. Look at the whole leg history."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Red leg: differentials & referral?",
+   "a": "Any patient presenting with ‘cellulitis’, especially if both legs are involved, it is chronic or itchy, or there is no fever."
+  },
+  {
+   "q": "What drives it?",
+   "a": "Most bilateral red legs are venous (stasis dermatitis, lipodermatosclerosis) or oedema, not infection."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "Ask: one leg or two, acute or chronic, fever or not, itch or pain? Treat the actual cause."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "Necrotising fasciitis, sepsis, DVT, critical ischaemia and diabetic foot infection."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "Pain out of proportion, purple bullae, crepitus, or a rapidly spreading area: **necrotising fasciitis**."
+  }
+ ]
+}

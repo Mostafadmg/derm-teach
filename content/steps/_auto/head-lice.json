@@ -1,0 +1,172 @@
+{
+ "_auto": true,
+ "glance": {
+  "chips": [
+   "Module 5 · Week 3",
+   "head lice",
+   "nits",
+   "pediculosis"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "Scalp itch (or none), nape/behind-ear excoriation, and a live louse found on detection combing."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "Pediculus humanus capitis crawls head-to-head; itch is hypersensitivity to saliva. Eggs are cemented to the hair shaft."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "Treat only live infestation. Wet combing or dimeticone 4% (repeat after 7 days); check all household members the same day."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "No live louse means no treatment. Pubic lice on a child’s eyelashes need a safeguarding pathway.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "points": [
+   "Spread is by **direct head-to-head contact**. Lice crawl; they cannot jump, fly or swim. Hats and brushes rarely matter because lice die within about 1–2 days off the scalp.",
+   "Females glue eggs near the scalp. Eggs hatch in about 7–10 days; adults live about 3–4 weeks on the host.",
+   "**Nits** are empty white egg cases that move out as hair grows. Nits far from the scalp usually mean an old infestation.",
+   "Itch may take **4–6 weeks** to appear at first infestation; many children never itch."
+  ],
+  "visuals": []
+ },
+ "features": {
+  "photo": "m5w3:U01",
+  "points": [
+   "Scalp itch (often absent), tickling, and excoriations — especially **behind the ears and at the nape**.",
+   "Live grey-brown lice that move away from light; eggs/nits cemented to the shaft.",
+   "Complications: secondary impetigo, occipital lymphadenopathy, eczematisation, sleep disturbance and school stigma."
+  ],
+  "visuals": [],
+  "variants": null,
+  "groups": [
+   0
+  ]
+ },
+ "confirm": {
+  "cols": [
+   {
+    "k": "Detection combing",
+    "icon": "check",
+    "points": [
+     "with a fine-toothed plastic comb on wet conditioned hair (or dry) is more sensitive than looking alone."
+    ]
+   },
+   {
+    "k": "Key points",
+    "icon": "check",
+    "points": [
+     "Check **all household members** and treat only those with live lice, **all on the same day**.",
+     "Nits stay put; dandruff and hair casts brush or slide off."
+    ]
+   }
+  ]
+ },
+ "differentials": {
+  "cards": [
+   {
+    "name": "Seborrhoeic dermatitis / dandruff",
+    "clue": "Greasy or flaky scale that brushes off; no lice"
+   },
+   {
+    "name": "Hair casts",
+    "clue": "Tubular casts that slide along the shaft"
+   },
+   {
+    "name": "Scalp psoriasis",
+    "clue": "Thick scale beyond the hairline; nail or body plaques",
+    "link": "psoriasis"
+   },
+   {
+    "name": "Tinea capitis",
+    "clue": "Broken hairs, alopecia, black dots; mycology"
+   },
+   {
+    "name": "Impetigo of the nape",
+    "clue": "Honey crust — look for lice as the driver",
+    "link": "impetigo"
+   }
+  ]
+ },
+ "manage": {
+  "rungs": []
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "routine",
+    "t": "Infant under 6 months (wet combing only; seek advice if this fails)."
+   },
+   {
+    "when": "routine",
+    "t": "Repeated failure despite correct technique."
+   },
+   {
+    "when": "routine",
+    "t": "Extensive secondary infection or severe eczematous scalp."
+   },
+   {
+    "when": "routine",
+    "t": "Pubic lice on a child’s eyelashes → safeguarding pathway."
+   },
+   {
+    "when": "routine",
+    "t": "Suspected misdiagnosis (tinea capitis, psoriasis)."
+   }
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "**No live louse, no treatment.**"
+  },
+  {
+   "icon": "bulb",
+   "t": "There is **no school exclusion** and no need to boil-wash bedding or fumigate. Inform school only as local practice."
+  },
+  {
+   "icon": "bulb",
+   "t": "Asthma/eczema: prefer wet combing or aqueous dimeticone; avoid alcohol-based lotions."
+  },
+  {
+   "icon": "bulb",
+   "t": "Itch can persist a few days after cure; leftover nits alone do not mean failure."
+  },
+  {
+   "icon": "bulb",
+   "t": "UK teaching point: course materials that recommend permethrin for head lice are **out of step with CKS**."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Head lice (pediculosis capitis)?",
+   "a": "Scalp itch (or none), nape/behind-ear excoriation, and a live louse found on detection combing."
+  },
+  {
+   "q": "What drives it?",
+   "a": "Pediculus humanus capitis crawls head-to-head; itch is hypersensitivity to saliva. Eggs are cemented to the hair shaft."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "Treat only live infestation. Wet combing or dimeticone 4% (repeat after 7 days); check all household members the same day."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "No live louse means no treatment. Pubic lice on a child’s eyelashes need a safeguarding pathway."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "Infant under 6 months (wet combing only; seek advice if this fails)."
+  }
+ ]
+}

@@ -1,0 +1,139 @@
+{
+ "_auto": true,
+ "glance": {
+  "chips": [
+   "Module 1 · Week 4",
+   "PAN",
+   "cutaneous PAN",
+   "medium-vessel vasculitis"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "Tender subcutaneous nodules along vessels, livedo racemosa and painful ulcers on the lower legs."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "Necrotising inflammation of medium-sized arteries; hepatitis B, streptococcal infection and some drugs are triggers."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "BP, urine, renal function, hepatitis B/C serology; deep (incisional) biopsy; refer to rheumatology/dermatology; specialist immunosuppression."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "Systemic PAN: mononeuritis multiplex, abdominal pain, testicular pain, hypertension, renal infarcts.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "points": [
+   "**renal arteries → renovascular hypertension, infarcts (not GN)**",
+   "vasa nervorum → **mononeuritis multiplex**",
+   "mesenteric → abdominal pain/bowel infarction",
+   "testes → orchitis",
+   "coronary arteries",
+   "skin → nodules, livedo racemosa, ulcers, digital gangrene."
+  ],
+  "visuals": []
+ },
+ "features": {
+  "photo": "m1w4:D01",
+  "points": [
+   "**Skin (~25–60%):** **tender subcutaneous nodules (0.5–2 cm) along arteries** of the lower legs/thighs; **livedo racemosa** (feet, legs); **punched-out ulcers** (D02 — sensitive); digital ischaemia; \"starburst\" livedo around nodules."
+  ],
+  "visuals": [],
+  "variants": null
+ },
+ "confirm": {
+  "cols": [
+   {
+    "k": "Biopsy",
+    "icon": "check",
+    "points": [
+     "deep **incisional skin biopsy of a nodule to subcutis** (medium artery with fibrinoid necrosis; DIF non-specific), or **muscle/sural nerve biopsy** guided by symptoms/EMG."
+    ]
+   },
+   {
+    "k": "Imaging",
+    "icon": "check",
+    "points": [
+     "**CT/MR angiography or catheter angiography** — **microaneurysms** and stenoses of renal/mesenteric/hepatic arteries (\"arteriographic abnormality\")."
+    ]
+   },
+   {
+    "k": "Cutaneous vs systemic PAN",
+    "icon": "check",
+    "points": [
+     ""
+    ]
+   },
+   {
+    "k": "Key points",
+    "icon": "check",
+    "points": [
+     "**French Vasculitis Study Group predictive items (Henegar 2008; course list):** positive — **HBsAg+, arteriographic abnormalities, mono/polyneuropathy**; negative — **ANCA, asthma, ENT signs, glomerulopathy, cryoglobulinaemia**.",
+     "**Severity — revised Five-Factor Score (FFS 2011)** for PAN: age >65, cardiac insufficiency, GI involvement, renal insufficiency (creatinine ≥150 µmol/L). Each = 1 point; ≥1 point = worse prognosis → cyclophosphamide added."
+    ]
+   }
+  ]
+ },
+ "differentials": {
+  "cards": []
+ },
+ "manage": {
+  "rungs": []
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "urgent",
+    "t": "Foot drop or new numbness, severe abdominal pain or testicular pain with nodules or livedo: **urgent** referral for systemic PAN."
+   }
+  ],
+  "groups": [
+   0
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "\"**Nodules + livedo + neuropathy + hypertension, ANCA negative → think PAN, and check hepatitis B.**\""
+  },
+  {
+   "icon": "bulb",
+   "t": "PAN **spares glomeruli**. Haematuria with red-cell casts points to ANCA vasculitis."
+  },
+  {
+   "icon": "bulb",
+   "t": "Hepatitis B serology **before** starting steroids/immunosuppressants for any vasculitis (reactivation risk) — this applies to rituximab especially."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Polyarteritis nodosa (systemic & cutaneous)?",
+   "a": "Tender subcutaneous nodules along vessels, livedo racemosa and painful ulcers on the lower legs."
+  },
+  {
+   "q": "What drives it?",
+   "a": "Necrotising inflammation of medium-sized arteries; hepatitis B, streptococcal infection and some drugs are triggers."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "BP, urine, renal function, hepatitis B/C serology; deep (incisional) biopsy; refer to rheumatology/dermatology; specialist immunosuppression."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "Systemic PAN: mononeuritis multiplex, abdominal pain, testicular pain, hypertension, renal infarcts."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "Foot drop or new numbness, severe abdominal pain or testicular pain with nodules or livedo: **urgent** referral for systemic PAN."
+  }
+ ]
+}

@@ -1,0 +1,157 @@
+{
+ "_auto": true,
+ "glance": {
+  "chips": [
+   "Module 6 · Week 2",
+   "rosacea",
+   "rhinophyma",
+   "ocular rosacea"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "Central facial redness, flushing and papules **without comedones** in an adult — or monomorphic pustules after steroids / long antibiotics."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "Neurovascular and innate immune dysregulation (rosacea); drug or microbiome shifts driving folliculitis variants."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "Rosacea: trigger avoidance, sunscreen, topical ivermectin (± oral doxycycline MR). Stop the culprit steroid or tetracycline when a mimic appears."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "Rosacea fulminans (explosive central face in a young woman) and ocular keratitis — urgent ophthalmology / dermatology. Do not keep cycling antibiotics for Gram-negative folliculitis.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "points": [
+   "**Rosacea:** neurovascular dysregulation, innate immunity (cathelicidin), *Demodex*, UV; triggers include heat, alcohol, spicy food, hot drinks, topical steroids.",
+   "**Steroid acne / rosacea / perioral dermatitis:** oral, inhaled, topical or illicit bleaching steroids.",
+   "**Gram-negative folliculitis:** long-term oral tetracyclines for acne/rosacea → overgrowth of *Klebsiella*, *Enterobacter*, *Proteus*.",
+   "**Malassezia folliculitis:** yeast in oily follicles, often after antibiotics or steroids.",
+   "**Hot-tub folliculitis:** *Pseudomonas* in under-chlorinated spa water."
+  ],
+  "visuals": []
+ },
+ "features": {
+  "photo": "m6w2:K01",
+  "points": [
+   "**Rosacea fulminans (pyoderma faciale):** explosive painful papules, pustules and nodules on a red swollen central face in young women; systemically well (unlike acne fulminans).",
+   "**Steroid acne:** sudden monomorphic papules/pustules on chest/back; few comedones.",
+   "**Perioral dermatitis:** papules around mouth with vermilion sparing; often after facial steroid.",
+   "**Gram-negative folliculitis:** new perinasal pustules after months of tetracycline that initially worked.",
+   "**Malassezia:** itchy monomorphic follicular pustules on chest/back.",
+   "**Hot-tub:** itchy pustules under the swimsuit line 1–4 days after spa use."
+  ],
+  "visuals": [],
+  "variants": null,
+  "groups": [
+   0,
+   1
+  ]
+ },
+ "confirm": {
+  "cols": []
+ },
+ "differentials": {
+  "cards": [
+   {
+    "name": "Acne vulgaris",
+    "clue": "Comedones; polymorphic lesions; trunk",
+    "link": "acne-vulgaris"
+   },
+   {
+    "name": "Seborrhoeic dermatitis",
+    "clue": "Greasy scale in folds"
+   },
+   {
+    "name": "Lupus",
+    "clue": "Photosensitive plaques; serology",
+    "link": "cutaneous-tuberculosis"
+   },
+   {
+    "name": "Acne fulminans",
+    "clue": "Systemically unwell young man; ulcerating trunk acne",
+    "link": "acne-vulgaris"
+   }
+  ],
+  "groups": [
+   2
+  ]
+ },
+ "manage": {
+  "rungs": []
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "same-day",
+    "t": "Ocular pain, photophobia or reduced vision → same-day ophthalmology."
+   },
+   {
+    "when": "urgent",
+    "t": "Rosacea fulminans or suspected acne fulminans → urgent dermatology."
+   },
+   {
+    "when": "routine",
+    "t": "Phyma needing procedural treatment; diagnostic doubt."
+   },
+   {
+    "when": "routine",
+    "t": "Acne worsening on long tetracyclines → culture for Gram-negatives; stop the antibiotic."
+   }
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "**No comedones + flushing + central face = rosacea until proven otherwise.**"
+  },
+  {
+   "icon": "bulb",
+   "t": "Maintenance topical therapy is often needed — rosacea is relapsing."
+  },
+  {
+   "icon": "bulb",
+   "t": "Pharmacists often spot inhaled-steroid perioral dermatitis — advise rinsing/wiping the face after inhalers."
+  },
+  {
+   "icon": "bulb",
+   "t": "Laser/IPL for telangiectasia is usually private, not NHS-funded."
+  },
+  {
+   "icon": "bulb",
+   "t": "For the full rosacea ladder by phenotype, see [rosacea](condition:rosacea)."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Acne mimics: rosacea, perioral & folliculitis?",
+   "a": "Central facial redness, flushing and papules **without comedones** in an adult — or monomorphic pustules after steroids / long antibiotics."
+  },
+  {
+   "q": "What drives it?",
+   "a": "Neurovascular and innate immune dysregulation (rosacea); drug or microbiome shifts driving folliculitis variants."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "Rosacea: trigger avoidance, sunscreen, topical ivermectin (± oral doxycycline MR). Stop the culprit steroid or tetracycline when a mimic appears."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "Rosacea fulminans (explosive central face in a young woman) and ocular keratitis — urgent ophthalmology / dermatology. Do not keep cycling antibiotics for Gram-negative folliculitis."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "Ocular pain, photophobia or reduced vision → same-day ophthalmology."
+  }
+ ]
+}

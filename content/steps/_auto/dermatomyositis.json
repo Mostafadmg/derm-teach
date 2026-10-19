@@ -1,0 +1,148 @@
+{
+ "_auto": true,
+ "glance": {
+  "chips": [
+   "Module 1 · Week 5",
+   "heliotrope rash",
+   "Gottron papules",
+   "shawl sign"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "Violaceous eyelids, scaly papules over the knuckles, a red V or shawl on the chest and back, ragged cuticles, with or without proximal muscle weakness."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "Autoimmune damage to small vessels of skin and muscle; myositis-specific antibodies predict cancer (TIF1-γ, NXP-2) or lung disease (MDA5)."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "CK, ANA and myositis antibodies, urgent rheumatology/dermatology referral; age-appropriate cancer screening; strict photoprotection."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "Underlying malignancy (ovary, lung, gut, breast); interstitial lung disease; swallowing and respiratory muscle weakness.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "points": [
+   "Complement-mediated **microangiopathy** (MAC deposition in capillaries → perifascicular atrophy), with type I interferon signatures, in genetically predisposed people.",
+   "Triggers: malignancy, UV, drugs (hydroxyurea, statins — more often necrotising myopathy; TNF-i; checkpoint inhibitors).",
+   "**Myositis-specific antibodies (MSA) predict phenotype:**"
+  ],
+  "visuals": []
+ },
+ "features": {
+  "photo": "m1w5:A02",
+  "points": [
+   "**Heliotrope rash:** violaceous upper-eyelid erythema ± periorbital oedema.",
+   "**Gottron papules:** violaceous flat-topped papules over the **MCP/PIP/DIP joints** (pathognomonic, A02). **Gottron sign:** macular erythema over the knuckles, **elbows, knees**.",
+   "**Nailfold:** dilated capillary loops, **ragged cuticles** (Samitz sign), periungual erythema.",
+   "Others: **itchy, scaly scalp** (psoriasiform/seb-derm-like), **mechanic's hands** (antisynthetase), calcinosis (juvenile), flagellate erythema, panniculitis, ulcers (MDA5), oedema.",
+   "**Itch is prominent** — a useful contrast with lupus.",
+   "**Muscle:** symmetrical **proximal weakness** (rising from a chair, climbing stairs, combing hair), myalgia, **dysphagia** (pharyngeal), respiratory muscle weakness."
+  ],
+  "visuals": [],
+  "variants": null,
+  "groups": [
+   0
+  ]
+ },
+ "confirm": {
+  "cols": [
+   {
+    "k": "Bloods",
+    "icon": "check",
+    "points": [
+     "**CK** (may be normal in CADM), aldolase, LDH, ALT/AST (raised from muscle — don't misread as liver disease), ESR/CRP, **ANA and myositis antibody panel (MSA/MAA)**, TFT, FBC, U&E."
+    ]
+   },
+   {
+    "k": "Specialist tests",
+    "icon": "flask",
+    "points": [
+     "**EMG**, **MRI of thighs** (oedema → guides biopsy), **muscle ± skin biopsy** (interface dermatitis with mucin, similar to lupus)."
+    ]
+   },
+   {
+    "k": "ILD screen",
+    "icon": "check",
+    "points": [
+     "HRCT, **PFTs incl. TLCO**."
+    ]
+   },
+   {
+    "k": "Heart",
+    "icon": "check",
+    "points": [
+     "ECG ± echo/troponin."
+    ]
+   }
+  ]
+ },
+ "differentials": {
+  "cards": []
+ },
+ "manage": {
+  "rungs": []
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "same-day",
+    "t": "Difficulty swallowing, breathlessness or rapidly worsening weakness: **same-day** assessment."
+   },
+   {
+    "when": "routine",
+    "t": "New dermatomyositis in an adult: screen for **cancer** (NICE NG12 symptoms plus specialist-led screening)."
+   }
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "\"**Purple eyelids + knuckle papules + itch = dermatomyositis — check CK and look for cancer.**\""
+  },
+  {
+   "icon": "bulb",
+   "t": "A DM rash with \"raised ALT\" may be muscle, not liver — check CK before stopping a statin for \"LFTs\"."
+  },
+  {
+   "icon": "bulb",
+   "t": "Itchy scalp in a middle-aged woman with eyelid redness: think DM, not just seborrhoeic dermatitis."
+  },
+  {
+   "icon": "bulb",
+   "t": "The worked practice case on the painful leg ulcer in Crohn’s disease is on the [pyoderma gangrenosum](condition:pyoderma-gangrenosum) page, with diagnostic criteria and UK treatment."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Dermatomyositis?",
+   "a": "Violaceous eyelids, scaly papules over the knuckles, a red V or shawl on the chest and back, ragged cuticles, with or without proximal muscle weakness."
+  },
+  {
+   "q": "What drives it?",
+   "a": "Autoimmune damage to small vessels of skin and muscle; myositis-specific antibodies predict cancer (TIF1-γ, NXP-2) or lung disease (MDA5)."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "CK, ANA and myositis antibodies, urgent rheumatology/dermatology referral; age-appropriate cancer screening; strict photoprotection."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "Underlying malignancy (ovary, lung, gut, breast); interstitial lung disease; swallowing and respiratory muscle weakness."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "Difficulty swallowing, breathlessness or rapidly worsening weakness: **same-day** assessment."
+  }
+ ]
+}

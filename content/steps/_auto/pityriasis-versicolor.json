@@ -1,0 +1,170 @@
+{
+ "_auto": true,
+ "glance": {
+  "chips": [
+   "tinea versicolor",
+   "malassezia",
+   "pityrosporum"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "Well-defined pale, pink or fawn macules with fine, bran-like scale on the upper trunk and shoulders of a young adult, often noticed after a holiday."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "Overgrowth of Malassezia, a normal skin yeast, in warm, sweaty, sebum-rich skin. It interferes with melanin production."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "Ketoconazole 2% shampoo used as a body wash for 5 days, or an azole cream for small areas."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "Not dangerous. Make sure it is not vitiligo (no scale, depigmented) or pityriasis alba in children.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "points": [
+   "Lipophilic *Malassezia* overgrows in sebum-rich skin (chest, back, shoulders, neck).",
+   "It produces substances that **interfere with melanin**, giving hypopigmented patches, or causes mild inflammation, giving pink or brown hyperpigmented patches.",
+   "**Promoters:** heat, humidity, sweating, oily skin and young adulthood. Mild immunosuppression can contribute."
+  ],
+  "visuals": []
+ },
+ "features": {
+  "photo": "D12",
+  "points": [
+   "Well-demarcated **hypopigmented, hyperpigmented or pink-fawn** macules that coalesce into patches.",
+   "**Fine, bran-like scale**, which becomes more obvious when the skin is gently scratched or stretched (the ‘evoked scale’ sign).",
+   "Sites: upper trunk, shoulders, neck and upper arms.",
+   "Usually asymptomatic or mildly itchy. Often noticed **after tanning**, because affected skin does not tan."
+  ],
+  "visuals": [],
+  "variants": null,
+  "groups": [
+   0
+  ]
+ },
+ "confirm": {
+  "cols": [
+   {
+    "k": "Key points",
+    "icon": "check",
+    "points": [
+     "Usually **clinical**.",
+     "Skin scrapings or tape-stripping for microscopy show the classic **‘spaghetti and meatballs’** hyphae and spores.",
+     "Wood’s lamp may show a yellow-green fluorescence, but this is variable."
+    ]
+   }
+  ]
+ },
+ "differentials": {
+  "cards": [
+   {
+    "name": "Vitiligo",
+    "clue": "Complete depigmentation (chalk-white), **no scale**, often on the hands, face and around orifices",
+    "link": "hypopigmentation-skin-of-colour"
+   },
+   {
+    "name": "Pityriasis alba",
+    "clue": "Children; ill-defined pale patches on the face, associated with atopy",
+    "link": "hypopigmentation-skin-of-colour"
+   },
+   {
+    "name": "Post-inflammatory hypopigmentation",
+    "clue": "History of a previous rash at the same sites; no scale"
+   },
+   {
+    "name": "Seborrhoeic dermatitis",
+    "clue": "Greasy scale; scalp, face and central chest"
+   },
+   {
+    "name": "Pityriasis rosea",
+    "clue": "Herald patch, then a ‘Christmas-tree’ pattern; self-limiting over 6–8 weeks",
+    "link": "pityriasis-rosea"
+   }
+  ]
+ },
+ "manage": {
+  "rungs": [
+   {
+    "k": "First line (CKS)",
+    "tone": "first",
+    "points": [
+     "**Extensive:** **ketoconazole 2% shampoo** used as a body wash once daily for up to **5 days**. Lather onto the affected skin, leave for 3–5 minutes, then rinse. Licensed for this use from age 12.",
+     "**Small areas:** an azole (clotrimazole, econazole, ketoconazole) or terbinafine cream twice daily for 2–3 weeks. **Clotrimazole is preferred in pregnancy.**"
+    ]
+   },
+   {
+    "k": "If topicals fail or disease is very widespread",
+    "tone": "first",
+    "points": [
+     "Oral **itraconazole** or **fluconazole** in adults. Check interactions and pregnancy status. Seek specialist advice for pregnancy or children."
+    ]
+   }
+  ]
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "routine",
+    "t": "Diagnostic doubt, especially no scale or complete depigmentation (think vitiligo)."
+   },
+   {
+    "when": "routine",
+    "t": "Very extensive, recurrent or unusual disease: consider immunosuppression."
+   },
+   {
+    "when": "routine",
+    "t": "Pregnancy or children needing oral therapy: seek specialist advice."
+   }
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "**Manage expectations:** the colour takes **weeks to months** to return after the yeast is cleared. This is **not** treatment failure."
+  },
+  {
+   "icon": "bulb",
+   "t": "Reassure that it is **not** caused by poor hygiene and is not usually catching."
+  },
+  {
+   "icon": "bulb",
+   "t": "Even sun exposure after treatment helps the colour even out. Ongoing scale suggests the infection is still active."
+  },
+  {
+   "icon": "bulb",
+   "t": "A prophylaxis plan before holidays prevents a lot of repeat consultations."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Pityriasis versicolor?",
+   "a": "Well-defined pale, pink or fawn macules with fine, bran-like scale on the upper trunk and shoulders of a young adult, often noticed after a holiday."
+  },
+  {
+   "q": "What drives it?",
+   "a": "Overgrowth of Malassezia, a normal skin yeast, in warm, sweaty, sebum-rich skin. It interferes with melanin production."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "Ketoconazole 2% shampoo used as a body wash for 5 days, or an azole cream for small areas."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "Not dangerous. Make sure it is not vitiligo (no scale, depigmented) or pityriasis alba in children."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "Diagnostic doubt, especially no scale or complete depigmentation (think vitiligo)."
+  }
+ ]
+}

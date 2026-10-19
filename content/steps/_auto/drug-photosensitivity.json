@@ -1,0 +1,179 @@
+{
+ "_auto": true,
+ "glance": {
+  "chips": [
+   "Module 5 · Week 6",
+   "phototoxic",
+   "photoallergic",
+   "doxycycline sunburn"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "Exaggerated sunburn, blistering, eczema or pigment change on sun-exposed skin after starting a drug (doxycycline, thiazides, amiodarone, NSAIDs, quinine, voriconazole)."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "Phototoxic: the drug absorbs UVA and directly damages skin (dose-dependent). Photoallergic: UV turns the drug into an allergen (type IV)."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "Review and stop or switch the culprit where possible, counsel UVA protection, treat with cool compresses and potent topical steroid; Yellow Card."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "Voriconazole-related SCC risk, and lupus or pellagra as differentials.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "points": [
+   "**Dose- and light-dose-dependent**; can happen to **anyone, on first exposure**, no sensitisation needed.",
+   "Some drugs do both (**thiazides**, quinine, NSAIDs, phenothiazines).",
+   "Thiazides/sulfonamides can also cause **photo-distributed lichenoid eruptions**, **SCLE** and **pseudoporphyria**."
+  ],
+  "visuals": []
+ },
+ "features": {
+  "photo": "m5w6:D01",
+  "points": [
+   "Itchy or burning erythema on the **face, V of the neck, nape, backs of hands and forearms**.",
+   "There is a sharp cut-off at clothing, with **sparing of the upper eyelids, under the chin (submental), behind the ears, nasolabial folds and finger webs**."
+  ],
+  "visuals": [],
+  "variants": null,
+  "groups": [
+   0,
+   1
+  ]
+ },
+ "confirm": {
+  "cols": [
+   {
+    "k": "Investigations",
+    "icon": "flask",
+    "points": [
+     "mainly exclude differentials: **ANA, anti-Ro/La** (SCLE — note her **omeprazole**, the commonest drug cause of SCLE, and thiazides also cause SCLE); porphyrin screen if blistering or fragility (PCT, pseudoporphyria); biopsy if uncertain"
+    ]
+   },
+   {
+    "k": "Key points",
+    "icon": "check",
+    "points": [
+     "Clinical: distribution + drug history + sun exposure."
+    ]
+   }
+  ]
+ },
+ "differentials": {
+  "cards": [
+   {
+    "name": "Ordinary sunburn",
+    "clue": "Proportionate to exposure; no new drug"
+   },
+   {
+    "name": "PMLE",
+    "clue": "Papular, recurrent seasonal, no drug link",
+    "link": "polymorphic-light-eruption"
+   },
+   {
+    "name": "Phytophotodermatitis",
+    "clue": "Bizarre streaks/drips where plant/juice touched; no drug",
+    "link": "phytophotodermatitis-amyloid"
+   },
+   {
+    "name": "Airborne/allergic contact dermatitis",
+    "clue": "Shaded sites involved; contact history"
+   },
+   {
+    "name": "CAD",
+    "clue": "Chronic, older men, persists; patch/phototests"
+   },
+   {
+    "name": "Drug-induced lupus (SCLE)",
+    "clue": "Annular/psoriasiform plaques; Ro positive"
+   },
+   {
+    "name": "Pseudoporphyria",
+    "clue": "Blisters + fragility dorsal hands (naproxen etc.)",
+    "link": "porphyria-cutanea-tarda"
+   }
+  ]
+ },
+ "manage": {
+  "rungs": []
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "same-day",
+    "t": "Blistering, extensive or systemic reaction: same-day assessment."
+   },
+   {
+    "when": "routine",
+    "t": "Long-term voriconazole with photodamage: monitor for skin cancer."
+   }
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "Always ask **\"any new tablets, creams or herbal remedies in the last 3 months?\"** for any photo-distributed rash."
+  },
+  {
+   "icon": "bulb",
+   "t": "**Doxycycline** (acne, rosacea, malaria prophylaxis, Lyme, chest infections) — the commonest UK primary-care culprit; give the sun advice **with every supply**, especially malaria prophylaxis for sunny destinations."
+  },
+  {
+   "icon": "bulb",
+   "t": "**Topical ketoprofen gel** — BNF/MHRA advice: avoid exposure of treated area to sunlight/UV (incl. sunbeds) **during treatment and for 2 weeks after**, wash hands, avoid octocrylene-containing sunscreens/fragrance co-sensitisers."
+  },
+  {
+   "icon": "bulb",
+   "t": "**Voriconazole** — phototoxicity and **squamous cell carcinoma/melanoma** risk with long-term use (MHRA warning): strict photoprotection; dermatology review."
+  },
+  {
+   "icon": "bulb",
+   "t": "**Fluoroquinolones** — photosensitivity listed; MHRA restrictions on use for other safety reasons; avoid strong sun/sunbeds during and for a few days after."
+  },
+  {
+   "icon": "bulb",
+   "t": "**Methotrexate** — sunburn recall; advise sun protection."
+  },
+  {
+   "icon": "bulb",
+   "t": "**Isotretinoin/acitretin** — increased sunburn/skin fragility (retinoid effect, not classic phototoxicity)."
+  },
+  {
+   "icon": "bulb",
+   "t": "Check the **BNF monograph side-effects / \"Patient and carer advice\"** for photosensitivity statements — the definitive UK source for counselling labels."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Drug-induced photosensitivity?",
+   "a": "Exaggerated sunburn, blistering, eczema or pigment change on sun-exposed skin after starting a drug (doxycycline, thiazides, amiodarone, NSAIDs, quinine, voriconazole)."
+  },
+  {
+   "q": "What drives it?",
+   "a": "Phototoxic: the drug absorbs UVA and directly damages skin (dose-dependent). Photoallergic: UV turns the drug into an allergen (type IV)."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "Review and stop or switch the culprit where possible, counsel UVA protection, treat with cool compresses and potent topical steroid; Yellow Card."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "Voriconazole-related SCC risk, and lupus or pellagra as differentials."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "Blistering, extensive or systemic reaction: same-day assessment."
+  }
+ ]
+}

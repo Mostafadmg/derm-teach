@@ -1,0 +1,173 @@
+{
+ "_auto": true,
+ "glance": {
+  "chips": [
+   "Module 2 · Week 1",
+   "benign fibrous histiocytoma",
+   "dimple sign",
+   "pinch sign"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "A firm, pink-brown, button-like papule on a limb (often the lower leg of a woman) that dimples when pinched."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "A benign reactive proliferation of dermal fibroblasts and histiocytes, sometimes after a bite or minor injury."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "Clinical diagnosis plus dermoscopy; reassure; excise only if symptomatic or uncertain (leaves a scar, may recur)."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "DFSP (growing, larger than 2–3 cm, on the trunk), melanoma (pigmented or changing), and atypical features on dermoscopy.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "points": [
+   "Often follows minor trauma such as an insect bite, folliculitis or a shaving nick, but many patients recall none.",
+   "Dermal fibroblasts and histiocytes proliferate and trap collagen bundles at the periphery. The overlying epidermis is induced to thicken and hyperpigment, which is why the surface is often brown.",
+   "Multiple (eruptive) DFs (≥15, or many appearing quickly) are associated with altered immunity: SLE, HIV, immunosuppressive drugs and pregnancy.",
+   "Histology: Factor XIIIa positive, CD34 negative. This is the reverse of DFSP (see *Dermatofibrosarcoma protuberans*), and the stain pair is a favourite exam question."
+  ],
+  "visuals": []
+ },
+ "features": {
+  "photo": "m2w1:A01",
+  "points": [
+   "Firm to hard papule or nodule, 3–10 mm, that feels like a \"button\" tethered to the skin but mobile over deeper tissue.",
+   "Colour varies (skin-coloured, pink, brown, or a darker rim with a paler centre), especially in darker skin (see the [benign lesion](condition:seborrhoeic-keratosis) notes, pigmented DF).",
+   "**Lower legs** are the classic site, then arms and trunk. Usually solitary and asymptomatic. It may itch or be tender, and it is often nicked when shaving.",
+   "**Dimple (Fitzpatrick / pinch) sign:** pinching the lesion from the sides makes it dimple inward.",
+   "A firm 3–10 mm papule, brown to dark brown, often **darker at the rim with a paler centre**. Sometimes pink-brown.",
+   "Limbs (arms in [Case 1](condition:seborrhoeic-keratosis), legs classically). Slow growth over years. A positive dimple sign."
+  ],
+  "visuals": [],
+  "variants": null,
+  "groups": [
+   0,
+   1
+  ]
+ },
+ "confirm": {
+  "cols": [
+   {
+    "k": "Key points",
+    "icon": "check",
+    "points": [
+     "Clinical: typical site, firmness, and the dimple sign.",
+     "Dermoscopy: a delicate peripheral pigment network with a **central white scar-like patch**. The commonest pattern, but not universal.",
+     "Biopsy is needed only for atypical lesions: >1 cm, rapid growth, ulceration, bleeding, recurrence after removal, unusual site (face, scalp, acral), or doubt between DF and a melanocytic lesion.",
+     "Pinch test. Dermoscopy: **delicate peripheral pigment network + central white scar-like area**. Some show a bland structureless or homogeneous pattern, and those are less reassuring, so refer if unsure.",
+     "**Immunohistochemistry teaching table** (course teaching extension; useful for reading histology reports):"
+    ]
+   }
+  ]
+ },
+ "differentials": {
+  "cards": [
+   {
+    "name": "Melanocytic naevus",
+    "clue": "Softer, no dimple sign; dermoscopy shows network/globules without a central white patch"
+   },
+   {
+    "name": "Melanoma (esp. nodular, amelanotic, or regressing)",
+    "clue": "New or changing; EFG (elevated, firm, growing); irregular dermoscopy. Refer under NG12",
+    "link": "melanoma-immunotherapy"
+   },
+   {
+    "name": "DFSP (see Dermatofibrosarcoma protuberans)",
+    "clue": "Larger (>2–3 cm), slowly expanding indurated plaque, trunk or proximal limbs, often multinodular. Dimple sign usually absent",
+    "link": "dermatofibrosarcoma-protuberans"
+   },
+   {
+    "name": "Epidermoid cyst",
+    "clue": "Punctum, deeper, fluctuant/compressible"
+   },
+   {
+    "name": "Prurigo nodule / insect-bite reaction",
+    "clue": "Itchy, excoriated, multiple"
+   },
+   {
+    "name": "Hypertrophic scar / keloid",
+    "clue": "History of injury; extends along the wound",
+    "link": "acne-scars-keloids"
+   },
+   {
+    "name": "BCC (pigmented or nodular)",
+    "clue": "Pearly, arborising vessels, sun-exposed"
+   },
+   {
+    "name": "Kaposi sarcoma",
+    "clue": "Violaceous, multiple, in an immunosuppressed patient"
+   }
+  ]
+ },
+ "manage": {
+  "rungs": []
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "routine",
+    "t": "Growing beyond 2–3 cm, irregular, nodular or on the trunk: think **DFSP** and refer."
+   },
+   {
+    "when": "urgent",
+    "t": "Changing pigmented lesion with atypical dermoscopy: refer on a **suspected cancer pathway** (NICE NG12)."
+   }
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "Teach the patient the pinch test and explain that it is \"a little knot of scar-like tissue\". Shaving over it causes bleeding; a shaving guard helps."
+  },
+  {
+   "icon": "bulb",
+   "t": "Many eruptive DFs in someone on immunosuppressants (e.g. methotrexate, biologics) or with possible SLE/HIV: check the drug list and consider whether investigations are warranted (GP/specialist)."
+  },
+  {
+   "icon": "bulb",
+   "t": "A **painful DF** that the patient wants removed is a worked case in the [skin surgery](condition:skin-surgery-preop) notes surgery case. See the [skin surgery](condition:skin-surgery-preop) notes for the anticoagulant, latex and local anaesthetic issues."
+  },
+  {
+   "icon": "bulb",
+   "t": "Five years of slow growth fits DF, but **\"growth\" is still a 7-point major feature (2 points)**. Document the dimple sign and size, and photograph with a ruler for comparison."
+  },
+  {
+   "icon": "bulb",
+   "t": "In skin of colour, do not dismiss acral or nail pigmentation as \"ethnic\". See the [melanoma](condition:melanoma) notes (acral melanoma) and Hutchinson's sign."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Dermatofibroma?",
+   "a": "A firm, pink-brown, button-like papule on a limb (often the lower leg of a woman) that dimples when pinched."
+  },
+  {
+   "q": "What drives it?",
+   "a": "A benign reactive proliferation of dermal fibroblasts and histiocytes, sometimes after a bite or minor injury."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "Clinical diagnosis plus dermoscopy; reassure; excise only if symptomatic or uncertain (leaves a scar, may recur)."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "DFSP (growing, larger than 2–3 cm, on the trunk), melanoma (pigmented or changing), and atypical features on dermoscopy."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "Growing beyond 2–3 cm, irregular, nodular or on the trunk: think **DFSP** and refer."
+  }
+ ]
+}

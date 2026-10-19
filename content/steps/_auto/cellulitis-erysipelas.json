@@ -1,0 +1,200 @@
+{
+ "_auto": true,
+ "glance": {
+  "chips": [
+   "Adult core · deepened with Module 5 Week 2",
+   "cellulitis",
+   "erysipelas",
+   "red leg"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "Acute, unilateral, hot, red, swollen, tender skin, often on the lower leg, with or without fever. Erysipelas has a sharp, raised edge."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "Streptococci (± S. aureus) entering through a skin break such as a fissured toe web, ulcer or eczema."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "Mark the border, elevate, give analgesia, flucloxacillin 5–7 days, and treat the portal of entry."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "Necrotising fasciitis (pain out of proportion), sepsis and orbital cellulitis.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "points": [
+   "A **breach in the skin barrier** lets bacteria in. Common entry points are **tinea pedis**, eczema, ulcers, trauma, bites, lymphoedema and previous surgery.",
+   "Bacteria spread through the dermis and subcutaneous tissue, with or without lymphangitis.",
+   "The host inflammatory response causes the redness, heat, swelling and systemic symptoms.",
+   "Risk factors: obesity, venous insufficiency, lymphoedema, diabetes, and previous cellulitis."
+  ],
+  "visuals": []
+ },
+ "features": {
+  "photo": "E07",
+  "points": [
+   "**Cellulitis:** expanding redness, heat, swelling and tenderness, usually in **one** leg. May have fever, malaise, lymphadenopathy and lymphangitic streaking. Can have blisters.",
+   "**Erysipelas:** bright red, hot, **raised, sharply demarcated** plaque, often on the face or leg. Fever and chills are common and may come before the rash.",
+   "**Skin of colour:** redness is much less obvious, so rely on **swelling, warmth, pain and induration**.",
+   "Look for **peau d’orange**, bullae, purpura, **lymphangitic streaks** and tender regional lymph nodes.",
+   "Fever and rigors can come **before** the rash."
+  ],
+  "visuals": [],
+  "variants": null,
+  "groups": [
+   0,
+   1,
+   2
+  ]
+ },
+ "confirm": {
+  "cols": [
+   {
+    "k": "Clinical.",
+    "icon": "check",
+    "points": [
+     "Exclude non-infective mimics before giving antibiotics."
+    ]
+   },
+   {
+    "k": "Mark the border",
+    "icon": "check",
+    "points": [
+     "with a skin pen and record the date and time. Photograph if possible, to monitor spread."
+    ]
+   },
+   {
+    "k": "Key points",
+    "icon": "check",
+    "points": [
+     "Assess severity: observations, NEWS2 or sepsis screen, comorbidities and site (face or periorbital).",
+     "Swab only if there is broken skin with a penetrating injury, water exposure, or infection acquired outside the UK.",
+     "Bloods and blood cultures belong in the hospital pathway for unwell patients."
+    ]
+   }
+  ]
+ },
+ "differentials": {
+  "cards": [
+   {
+    "name": "Venous (stasis) eczema / lipodermatosclerosis",
+    "clue": "Often **bilateral**, chronic, itchy or scaly, little pain, no fever",
+    "link": "itch-xerosis-older-adults"
+   },
+   {
+    "name": "DVT",
+    "clue": "Calf swelling and tenderness, less skin redness; Wells score, D-dimer or Doppler"
+   },
+   {
+    "name": "Gout",
+    "clue": "Joint-centred; very tender; history of attacks"
+   },
+   {
+    "name": "Insect bite reaction",
+    "clue": "Itch more than pain; central punctum; rapid onset"
+   },
+   {
+    "name": "Contact dermatitis",
+    "clue": "Itchy, vesicular or scaly; matches exposure; no fever",
+    "link": "contact-dermatitis"
+   },
+   {
+    "name": "Erysipeloid",
+    "clue": "Fish or meat handlers; finger or hand; violaceous"
+   },
+   {
+    "name": "Acute lipodermatosclerosis",
+    "clue": "Painful, woody, red gaiter skin, often bilateral or recurrent; frequently misdiagnosed as cellulitis"
+   },
+   {
+    "name": "Lymphoedema flare",
+    "clue": "Long history of swelling; less acute"
+   }
+  ]
+ },
+ "manage": {
+  "rungs": []
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "emergency",
+    "t": "**Necrotising fasciitis signs:** pain out of proportion, rapid spread, purple bullae, crepitus, or a very unwell patient. **Emergency.**"
+   },
+   {
+    "when": "routine",
+    "t": "**Sepsis:** low blood pressure, raised heart or breathing rate, confusion, mottled skin."
+   },
+   {
+    "when": "same-day",
+    "t": "**Periorbital or orbital cellulitis:** pain on eye movement, proptosis, reduced vision. Same-day ophthalmology or ED."
+   },
+   {
+    "when": "routine",
+    "t": "Rapid spread beyond the marked border, or failure after 48–72 hours of oral therapy."
+   },
+   {
+    "when": "routine",
+    "t": "Infants, frail older adults, the immunocompromised, or significant lymphoedema: lower threshold to refer."
+   }
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "**Bilateral red legs are not cellulitis until proven otherwise.** Think venous eczema or lipodermatosclerosis."
+  },
+  {
+   "icon": "bulb",
+   "t": "The skin takes **days** to look normal after the bacteria are controlled. Residual redness on day 3 is not automatic failure, so avoid reflexively extending the course."
+  },
+  {
+   "icon": "bulb",
+   "t": "**Always treat athlete’s foot** to reduce recurrent leg cellulitis."
+  },
+  {
+   "icon": "bulb",
+   "t": "On the face, have a lower threshold for review or admission."
+  },
+  {
+   "icon": "bulb",
+   "t": "Safety-net: rapid worsening, severe pain, purple blisters or feeling faint means same-day emergency care."
+  },
+  {
+   "icon": "bulb",
+   "t": "At 48–72 hours, if it is not better: swab any open wound, consider MRSA, and **revisit the diagnosis**."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Cellulitis & erysipelas?",
+   "a": "Acute, unilateral, hot, red, swollen, tender skin, often on the lower leg, with or without fever. Erysipelas has a sharp, raised edge."
+  },
+  {
+   "q": "What drives it?",
+   "a": "Streptococci (± S. aureus) entering through a skin break such as a fissured toe web, ulcer or eczema."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "Mark the border, elevate, give analgesia, flucloxacillin 5–7 days, and treat the portal of entry."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "Necrotising fasciitis (pain out of proportion), sepsis and orbital cellulitis."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "**Necrotising fasciitis signs:** pain out of proportion, rapid spread, purple bullae, crepitus, or a very unwell patient. **Emergency.**"
+  }
+ ]
+}

@@ -1,0 +1,116 @@
+{
+ "_auto": true,
+ "glance": {
+  "chips": [
+   "Module 2 · Week 1",
+   "lobular capillary haemangioma",
+   "bleeding red lump",
+   "granuloma gravidarum"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "A bright-red, shiny, easily bleeding lump that grew over a few weeks on a finger, lip, gum or face."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "A reactive proliferation of small blood vessels, triggered by trauma, pregnancy or drugs (e.g. isotretinoin, some cancer drugs)."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "Pressure for bleeding; refer for curettage and cautery and **always send for histology**; pregnancy lesions may resolve after birth."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "Amelanotic nodular melanoma and SCC mimicking a pyogenic granuloma; recurrence if the base is not cauterised.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "points": [
+   "systemic retinoids (isotretinoin, acitretin)",
+   "EGFR inhibitors (cetuximab, erlotinib, gefitinib; around the nail folds)",
+   "BRAF/MEK inhibitors",
+   "some antiretrovirals (indinavir)",
+   "ciclosporin",
+   "capecitabine and taxanes"
+  ],
+  "visuals": []
+ },
+ "features": {
+  "photo": "m2w6:A01",
+  "points": [
+   "A bright red, glistening, friable papule or polyp, 5–10 mm, developing over **weeks** (the 4-week series is in ). It often has a collarette of scale.",
+   "**Bleeds profusely with minor trauma.** Fingers, lips, gums, face, eyelid, and nail folds."
+  ],
+  "visuals": [],
+  "variants": null,
+  "groups": [
+   0,
+   1
+  ]
+ },
+ "confirm": {
+  "cols": [
+   {
+    "k": "Key points",
+    "icon": "check",
+    "points": [
+     "Clinical plus dermoscopy (red homogeneous areas, white \"rail\" lines, collarette).",
+     "**Histology is mandatory after removal, because amelanotic melanoma can look identical** (see , )."
+    ]
+   }
+  ]
+ },
+ "differentials": {
+  "cards": []
+ },
+ "manage": {
+  "rungs": []
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "urgent",
+    "t": "A rapidly growing red nodule in an adult, especially on the sole, nail unit or in someone over 50: send tissue for histology; refer on a **suspected cancer pathway** if atypical (amelanotic melanoma)."
+   }
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "Recurrence (up to 15%) and satellite lesions happen. Return if it recurs, and do not assume it is benign."
+  },
+  {
+   "icon": "bulb",
+   "t": "On isotretinoin? PG-like granulation tissue at the nail folds is a known adverse effect. Report it (Yellow Card) and liaise with the prescriber."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Pyogenic granuloma?",
+   "a": "A bright-red, shiny, easily bleeding lump that grew over a few weeks on a finger, lip, gum or face."
+  },
+  {
+   "q": "What drives it?",
+   "a": "A reactive proliferation of small blood vessels, triggered by trauma, pregnancy or drugs (e.g. isotretinoin, some cancer drugs)."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "Pressure for bleeding; refer for curettage and cautery and **always send for histology**; pregnancy lesions may resolve after birth."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "Amelanotic nodular melanoma and SCC mimicking a pyogenic granuloma; recurrence if the base is not cauterised."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "A rapidly growing red nodule in an adult, especially on the sole, nail unit or in someone over 50: send tissue for histology; refer on a **suspected cancer pathway** if atypical (amelanotic melanoma)."
+  }
+ ]
+}

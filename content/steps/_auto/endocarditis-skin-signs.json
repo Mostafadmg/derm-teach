@@ -1,0 +1,125 @@
+{
+ "_auto": true,
+ "glance": {
+  "chips": [
+   "Module 1 · Week 4",
+   "infective endocarditis",
+   "Duke criteria",
+   "splinter haemorrhages"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "Tender pulp nodules (Osler), painless palm or sole macules (Janeway) or splinters, especially with fever or a murmur."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "Immune-complex vasculitis (Osler) and septic micro-emboli (Janeway) from infected heart valves."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "Fever + signs = same-day admission for blood cultures before antibiotics and echocardiography (modified Duke criteria)."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "Endocarditis in injecting drug users, people with prosthetic valves or devices; starting antibiotics before cultures.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "points": [
+   "**Osler nodes:** traditionally **immunological** (immune-complex vasculitis); histology also shows microemboli. They count as an **immunological phenomenon** in the Duke criteria.",
+   "**Janeway lesions:** **septic microemboli** with dermal microabscesses (a **vascular phenomenon**), so organisms may be cultured from them.",
+   "**Splinters:** rupture of longitudinally oriented nail-bed capillaries (trauma) or microemboli/vasculitis."
+  ],
+  "visuals": []
+ },
+ "features": {
+  "photo": "m1w4:B01",
+  "points": [],
+  "visuals": [],
+  "variants": null,
+  "groups": [
+   0,
+   1
+  ]
+ },
+ "confirm": {
+  "cols": [
+   {
+    "k": "Tests (hospital)",
+    "icon": "flask",
+    "points": [
+     "≥3 sets of blood cultures **before antibiotics**, echocardiography (TTE → TOE), FBC, CRP, urinalysis."
+    ]
+   }
+  ]
+ },
+ "differentials": {
+  "cards": [
+   {
+    "name": "Osler nodes",
+    "clue": "SLE, **gonococcaemia**, typhoid, haemolytic anaemia, marantic (non-bacterial thrombotic) endocarditis, infected radial-artery lines (distal emboli), vasculitis"
+   },
+   {
+    "name": "Janeway lesions",
+    "clue": "SLE, gonococcaemia, typhoid, other septicaemia, haemolytic anaemia"
+   },
+   {
+    "name": "Splinter haemorrhages",
+    "clue": "**Trauma (commonest — manual workers, distal splinters)**, **psoriasis**, **onychomycosis**, eczema, haemodialysis, vasculitis/connective tissue disease, **antiphospholipid syndrome**, trichinosis, high altitude, mitral stenosis, scurvy, drugs (tetracyclines, VEGF-inhibitors such as sunitinib/sorafenib), and some normal elderly people"
+   }
+  ]
+ },
+ "manage": {
+  "rungs": []
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "same-day",
+    "t": "Fever with a new murmur, splinters or Osler/Janeway lesions: **same-day admission**; do not give antibiotics before blood cultures unless septic."
+   }
+  ],
+  "groups": [
+   2
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "\"**Osler = Ouch** (tender); **Janeway = painless**.\""
+  },
+  {
+   "icon": "bulb",
+   "t": "\"Fever + murmur + splinters = **blood cultures before antibiotics**.\""
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Osler nodes, Janeway lesions & splinter haemorrhages?",
+   "a": "Tender pulp nodules (Osler), painless palm or sole macules (Janeway) or splinters, especially with fever or a murmur."
+  },
+  {
+   "q": "What drives it?",
+   "a": "Immune-complex vasculitis (Osler) and septic micro-emboli (Janeway) from infected heart valves."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "Fever + signs = same-day admission for blood cultures before antibiotics and echocardiography (modified Duke criteria)."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "Endocarditis in injecting drug users, people with prosthetic valves or devices; starting antibiotics before cultures."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "Fever with a new murmur, splinters or Osler/Janeway lesions: **same-day admission**; do not give antibiotics before blood cultures unless septic."
+  }
+ ]
+}

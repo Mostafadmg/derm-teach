@@ -1,0 +1,366 @@
+{
+ "_note": "Curated v3 overlay, condensed from content/conditions/acne-vulgaris.json (full text kept under 'More detail').",
+ "glance": {
+  "chips": [
+   "Adolescents & young adults",
+   "Pilosebaceous unit",
+   "NICE NG198",
+   "12-week courses"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "**Comedones** (the hallmark) with papules and pustules on face, chest and back."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "Sebum + follicular plugging + *C. acnes* + inflammation."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "12-week fixed-combination topical; add an oral tetracycline if moderate–severe. Never antibiotic alone."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "Acne fulminans (unwell, ulcerating): same-day dermatology. Scarring or distress: refer early.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "lead": "Four factors acting in one hair follicle.",
+  "points": [
+   "**Sebum** production rises (androgens).",
+   "**Follicular plugging** forms the comedone.",
+   "***C. acnes*** colonises the plug.",
+   "**Inflammation** turns comedones into papules, pustules and nodules.",
+   "**Aggravators**: PCOS, comedogenic cosmetics, picking, steroids, lithium, EGFR inhibitors. Diet: NICE finds insufficient evidence."
+  ],
+  "visuals": [
+   {
+    "ai": "v3-acne-follicle-stages.jpg",
+    "caption": "One follicle, five stages (left to right): normal → closed comedone → open comedone → inflamed papule-pustule → deep nodule.",
+    "alt": "Five cross-sections of a hair follicle progressing from normal to nodule"
+   }
+  ]
+ },
+ "features": {
+  "lead": "No comedones? Think again (rosacea, folliculitis).",
+  "photo": "C05",
+  "points": [
+   "**Non-inflammatory**: open (black) and closed (white) comedones.",
+   "**Inflammatory**: papules, pustules, nodules, pseudocysts.",
+   "**Sites**: face, neck, upper chest, back, shoulders.",
+   "**Sequelae**: post-inflammatory erythema or pigment; ice-pick, rolling, boxcar scars."
+  ],
+  "visuals": [
+   {
+    "ai": "v3-acne-distribution.jpg",
+    "caption": "Where acne appears: face, central chest, upper back and shoulders. Trunk involvement shapes treatment choice.",
+    "alt": "Face, chest and back outlines dotted with acne lesions"
+   }
+  ],
+  "variants": {
+   "title": "Lesions to recognise",
+   "items": [
+    {
+     "name": "Open comedones",
+     "t": "Dilated follicles with dark keratin plugs.",
+     "where": "Nose, forehead",
+     "photo": "C01"
+    },
+    {
+     "name": "Closed comedones",
+     "t": "Small skin-coloured papules; use side lighting.",
+     "where": "Forehead",
+     "photo": "C02"
+    },
+    {
+     "name": "Papulopustular",
+     "t": "Inflamed papules and pustules with comedones.",
+     "where": "Cheeks, chin",
+     "photo": "C05"
+    },
+    {
+     "name": "Nodulocystic",
+     "t": "Deep nodules and cysts with scarring: refer.",
+     "where": "Face, trunk",
+     "photo": "C08",
+     "tone": "danger"
+    },
+    {
+     "name": "Truncal",
+     "t": "Papules, pustules, nodules on back and chest.",
+     "where": "Back, shoulders",
+     "photo": "C10"
+    },
+    {
+     "name": "Pigment change",
+     "t": "Post-inflammatory hyperpigmentation, often the main worry.",
+     "where": "Skin of colour",
+     "photo": "C12"
+    }
+   ]
+  },
+  "groups": [
+   0,
+   2,
+   3,
+   7,
+   8
+  ]
+ },
+ "confirm": {
+  "cols": [
+   {
+    "k": "History",
+    "icon": "chat",
+    "points": [
+     "Duration; past treatments, how long, adherence.",
+     "Contraception and pregnancy plans; drugs.",
+     "PCOS clues: irregular periods, hirsutism.",
+     "Psychosocial impact and scarring."
+    ]
+   },
+   {
+    "k": "Examine",
+    "icon": "eye",
+    "points": [
+     "Lesion types and counts; nodules.",
+     "Trunk, scarring, pigment change."
+    ]
+   },
+   {
+    "k": "Severity",
+    "icon": "gauge",
+    "scale": [
+     {
+      "k": "Mild–moderate",
+      "t": "Any of: comedones; ≤ 34 inflammatory lesions; ≤ 2 nodules",
+      "tone": "first"
+     },
+     {
+      "k": "Moderate–severe",
+      "t": "≥ 35 inflammatory lesions and/or ≥ 3 nodules",
+      "tone": "third"
+     }
+    ]
+   },
+   {
+    "k": "Tests",
+    "icon": "flask",
+    "points": [
+     "Usually **none**.",
+     "Hormone profile if atypical or hyperandrogenism.",
+     "Swab if unusual pustular infection."
+    ]
+   }
+  ],
+  "groups": [
+   1
+  ]
+ },
+ "differentials": {
+  "cards": [
+   {
+    "name": "Rosacea",
+    "clue": "Central flushing, telangiectasia, **no comedones**; usually older.",
+    "link": "rosacea"
+   },
+   {
+    "name": "Perioral dermatitis",
+    "clue": "Papules round mouth and eyes, sparing the lip border; often steroid-triggered.",
+    "photo": "m3w1:R16"
+   },
+   {
+    "name": "Folliculitis",
+    "clue": "Follicular pustules, often truncal; no comedones.",
+    "link": "folliculitis"
+   },
+   {
+    "name": "Milia",
+    "clue": "Tiny white keratin cysts; not inflamed.",
+    "link": "skin-cysts"
+   },
+   {
+    "name": "Acneiform drug eruption",
+    "clue": "Sudden, monomorphic; steroids, EGFR inhibitors.",
+    "link": "drug-eruption-approach"
+   }
+  ]
+ },
+ "manage": {
+  "lead": "NICE NG198. Offer one 12-week option after shared decision-making.",
+  "rungs": [
+   {
+    "k": "Every patient",
+    "tone": "base",
+    "points": [
+     "Syndet cleanser twice daily; no scrubbing.",
+     "Non-comedogenic products; do not pick.",
+     "OTC **benzoyl peroxide** while waiting. Results take **6–8 weeks**."
+    ]
+   },
+   {
+    "k": "First line · any severity",
+    "tone": "first",
+    "rx": [
+     {
+      "drug": "Adapalene + BPO",
+      "dose": "Once daily, evening",
+      "dur": "12 weeks",
+      "note": "Fixed combination."
+     },
+     {
+      "drug": "Tretinoin + clindamycin",
+      "dose": "Once daily, evening",
+      "dur": "12 weeks",
+      "note": "Fixed combination."
+     },
+     {
+      "drug": "BPO + clindamycin",
+      "dose": "Once daily",
+      "dur": "12 weeks",
+      "note": "Mild to moderate only."
+     }
+    ]
+   },
+   {
+    "k": "Moderate–severe",
+    "tone": "second",
+    "rx": [
+     {
+      "drug": "Lymecycline 408 mg",
+      "dose": "Once daily",
+      "dur": "12 weeks, review",
+      "note": "With adapalene + BPO, or azelaic acid 15–20% BD."
+     },
+     {
+      "drug": "Doxycycline 100 mg",
+      "dose": "Once daily",
+      "dur": "12 weeks, review",
+      "note": "Same partners. Tetracyclines unsuitable: trimethoprim or a macrolide (NG198)."
+     }
+    ]
+   },
+   {
+    "k": "Specialist: isotretinoin",
+    "tone": "refer",
+    "points": [
+     "Consultant-led team only, under **MHRA** measures and the **Pregnancy Prevention Programme**.",
+     "Mental health and sexual function counselling; LFT and lipids."
+    ]
+   }
+  ],
+  "limits": [
+   {
+    "k": "Never",
+    "t": "Topical or oral antibiotic alone, or both antibiotics together.",
+    "tone": "danger"
+   },
+   {
+    "k": "Review at 12 weeks",
+    "t": "Stop the oral antibiotic once clear; keep the topical."
+   },
+   {
+    "k": "Max duration",
+    "t": "Antibiotic regimens beyond 6 months only exceptionally, with 3-monthly review."
+   }
+  ],
+  "sites": [
+   {
+    "k": "Maintenance",
+    "t": "Adapalene + BPO, or adapalene, azelaic acid or BPO alone."
+   },
+   {
+    "k": "Alternative",
+    "t": "BPO alone if avoiding a retinoid or antibiotic."
+   },
+   {
+    "k": "Isotretinoin safety",
+    "t": "No tetracyclines (intracranial hypertension), no vitamin A; POP not enough for the PPP; 30-day supply, dispense within 7 days.",
+    "tone": "warn"
+   }
+  ]
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "same-day",
+    "t": "**Acne fulminans**: on-call dermatology."
+   },
+   {
+    "when": "urgent",
+    "t": "Low mood or suicidal thoughts: assess and escalate, especially on isotretinoin."
+   },
+   {
+    "when": "routine",
+    "t": "Acne conglobata, nodulocystic acne, or diagnostic doubt."
+   },
+   {
+    "when": "routine",
+    "t": "Mild–moderate failing **two** courses; moderate–severe failing a regimen with an oral antibiotic."
+   },
+   {
+    "when": "routine",
+    "t": "**Scarring**, persistent pigment change or significant distress, at any severity."
+   }
+  ],
+  "groups": [
+   4
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "clock",
+   "t": "Start topicals on **alternate days** or short-contact, then build up."
+  },
+  {
+   "icon": "drop",
+   "t": "BPO **bleaches** towels, pillowcases and hair."
+  },
+  {
+   "icon": "sun",
+   "t": "Retinoids and tetracyclines cause **photosensitivity**."
+  },
+  {
+   "icon": "alert",
+   "t": "**Pregnancy**: no topical retinoids or tetracyclines. BPO ± clindamycin with caution.",
+   "tone": "warn"
+  },
+  {
+   "icon": "pill",
+   "t": "Combined pill preferred over POP; co-cyprindiol in selected women (VTE risk, review ~6 months)."
+  },
+  {
+   "icon": "chat",
+   "t": "Depression is common with acne itself: screen regardless of drug."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Which lesion is the hallmark that separates acne from rosacea?",
+   "a": "Comedones (open and closed)."
+  },
+  {
+   "q": "Name the three antibiotic rules in NG198.",
+   "a": "Never a topical antibiotic alone, never an oral antibiotic alone, never topical + oral antibiotic together."
+  },
+  {
+   "q": "When do you review a 12-week course?",
+   "a": "At 12 weeks. Stop the oral antibiotic once clear and continue the topical."
+  },
+  {
+   "q": "Which acne presentation needs same-day referral?",
+   "a": "Acne fulminans (systemically unwell, ulcerating nodules)."
+  },
+  {
+   "q": "Why are tetracyclines and isotretinoin never combined?",
+   "a": "Risk of benign intracranial hypertension."
+  }
+ ]
+}

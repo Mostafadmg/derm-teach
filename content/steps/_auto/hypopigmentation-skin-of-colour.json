@@ -1,0 +1,188 @@
+{
+ "_auto": true,
+ "glance": {
+  "chips": [
+   "Module 6 · Week 3",
+   "PIH",
+   "post-inflammatory hyperpigmentation",
+   "piebaldism"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "Dark marks after acne/eczema/friction, or milky-white patches — decide hyperpigmentation vs true depigmentation (vitiligo/piebaldism)."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "Inflammation drives melanin excess (PIH) or autoimmune/congenital melanocyte loss (vitiligo/piebaldism)."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "Treat the cause, stop friction and illegal bleaching, daily tinted SPF, azelaic acid/retinoid for PIH; refer vitiligo/piebaldism pathways."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "Unlicensed steroid/mercury/hydroquinone “fairness” creams — stop and counsel on harm; Waardenburg features with white forelock need hearing assessment.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "points": [
+   "PIH: any inflammation (acne, eczema, bites, procedures, friction from shaving) leaves excess epidermal ± dermal melanin.",
+   "Constitutional pigment: periorbital dark circles, maturational and flexural darkening.",
+   "Piebaldism: congenital KIT-pathway melanocyte absence (stable white forelock + patches).",
+   "Vitiligo: acquired autoimmune melanocyte loss; associated thyroid and other autoimmunity."
+  ],
+  "visuals": []
+ },
+ "features": {
+  "photo": "m6w3:O13",
+  "points": [],
+  "visuals": [],
+  "variants": {
+   "title": "Types to recognise",
+   "items": [
+    {
+     "name": "PIH",
+     "t": "Prior inflammation/injury; brown to grey; fades slowly",
+     "where": ""
+    },
+    {
+     "name": "Pityriasis alba",
+     "t": "Children; ill-defined slightly scaly pale patches; hypo- not de-pigmented",
+     "where": ""
+    },
+    {
+     "name": "Piebaldism",
+     "t": "Present at birth; white forelock; stable islands of normal skin inside patches",
+     "where": ""
+    },
+    {
+     "name": "Vitiligo",
+     "t": "Acquired milky-white patches; Wood’s lamp enhances; may spread",
+     "where": ""
+    },
+    {
+     "name": "Bleaching harm",
+     "t": "Atrophy, striae, telangiectasia, ochronosis, infection",
+     "where": ""
+    }
+   ]
+  },
+  "groups": [
+   0,
+   1,
+   2,
+   3
+  ]
+ },
+ "confirm": {
+  "cols": [
+   {
+    "k": "Key points",
+    "icon": "check",
+    "points": [
+     "History of inflammation, procedures, shaving, cosmetics and bleaching products.",
+     "Wood’s lamp: chalk-white sharp edges favour vitiligo/piebaldism over pityriasis alba.",
+     "Vitiligo: consider TSH ± antibodies if indicated; piebaldism: genetics/hearing if Waardenburg features.",
+     "Cross-check fungal differentials (pityriasis versicolor) when scale is present."
+    ]
+   }
+  ]
+ },
+ "differentials": {
+  "cards": [
+   {
+    "name": "Pityriasis versicolor",
+    "clue": "Fine scale, KOH positive",
+    "link": "pityriasis-versicolor"
+   },
+   {
+    "name": "Naevus depigmentosus",
+    "clue": "Stable segmental pale patch from early life",
+    "link": "pigmented-birthmarks"
+   },
+   {
+    "name": "Idiopathic guttate hypomelanosis",
+    "clue": "Small white shin/arm macules in older adults",
+    "link": "photoageing"
+   },
+   {
+    "name": "Chemical leukoderma",
+    "clue": "Phenols/monobenzone contact"
+   },
+   {
+    "name": "Acanthosis nigricans",
+    "clue": "Velvety flexural thickening — see [acanthosis nigricans](condition:acanthosis-nigricans)",
+    "link": "acanthosis-nigricans"
+   }
+  ]
+ },
+ "manage": {
+  "rungs": []
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "routine",
+    "t": "Rapidly progressive vitiligo on the face — early dermatology."
+   },
+   {
+    "when": "routine",
+    "t": "White forelock plus deafness/heterochromia → Waardenburg work-up."
+   },
+   {
+    "when": "routine",
+    "t": "Systemic steroid side-effects from bleaching creams — medical review."
+   }
+  ],
+  "groups": [
+   4
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "Set timelines: epidermal PIH months; dermal longer."
+  },
+  {
+   "icon": "bulb",
+   "t": "Ask what people already put on their skin — many worsen PIH with home acids and bleaching."
+  },
+  {
+   "icon": "bulb",
+   "t": "Milky-white + Wood’s lamp ≠ pityriasis alba."
+  },
+  {
+   "icon": "bulb",
+   "t": "See also [progressive macular hypomelanosis](condition:progressive-macular-hypomelanosis) and [pityriasis versicolor](condition:pityriasis-versicolor)."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Hypopigmentation & skin of colour?",
+   "a": "Dark marks after acne/eczema/friction, or milky-white patches — decide hyperpigmentation vs true depigmentation (vitiligo/piebaldism)."
+  },
+  {
+   "q": "What drives it?",
+   "a": "Inflammation drives melanin excess (PIH) or autoimmune/congenital melanocyte loss (vitiligo/piebaldism)."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "Treat the cause, stop friction and illegal bleaching, daily tinted SPF, azelaic acid/retinoid for PIH; refer vitiligo/piebaldism pathways."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "Unlicensed steroid/mercury/hydroquinone “fairness” creams — stop and counsel on harm; Waardenburg features with white forelock need hearing assessment."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "Rapidly progressive vitiligo on the face — early dermatology."
+  }
+ ]
+}

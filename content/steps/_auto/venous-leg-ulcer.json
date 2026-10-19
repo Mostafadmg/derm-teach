@@ -1,0 +1,168 @@
+{
+ "_auto": true,
+ "glance": {
+  "chips": [
+   "Module 5 · Week 2",
+   "venous ulcer",
+   "stasis ulcer",
+   "gravitational ulcer"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "A shallow, sloping, wet ulcer over the medial malleolus with haemosiderin staining, venous eczema, varicose veins and oedema that is worse at the end of the day."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "Venous hypertension from incompetent valves, previous DVT or calf-pump failure, causing oedema, inflammation and skin breakdown."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "ABPI, then multilayer compression, elevation, walking, emollient, and lifelong stockings after healing."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "Arterial disease before compressing, and a non-healing or atypical ulcer (malignancy, PG, vasculitis).",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "points": [
+   "**Valve incompetence**, previous **DVT**, obesity, immobility and calf-muscle pump failure cause **venous hypertension**.",
+   "This leads to oedema, haemosiderin deposition, inflammation and lipodermatosclerosis, with poor oxygen and nutrient delivery.",
+   "The skin then breaks down after **minor trauma** and fails to heal."
+  ],
+  "visuals": []
+ },
+ "features": {
+  "photo": "m5w2:P01",
+  "points": [
+   "**Gaiter area**, most commonly over the **medial malleolus**.",
+   "**Shallow** ulcer with **sloping** edges, often **heavily exudative**.",
+   "Surrounding skin: varicose veins, brown **haemosiderin** staining, **venous eczema**, atrophie blanche, and **lipodermatosclerosis** (the ‘inverted champagne bottle’ leg).",
+   "**Dependent oedema**, worse when the leg is down.",
+   "Pain is usually milder than with arterial ulcers, unless the ulcer is infected."
+  ],
+  "visuals": [],
+  "variants": null,
+  "groups": [
+   0,
+   1
+  ]
+ },
+ "confirm": {
+  "cols": [
+   {
+    "k": "ABPI",
+    "icon": "check",
+    "points": [
+     "(ankle–brachial pressure index) **before any high compression**, to exclude significant arterial disease."
+    ]
+   },
+   {
+    "k": "Key points",
+    "icon": "check",
+    "points": [
+     "Clinical, with signs of venous disease.",
+     "Venous duplex if intervention is planned.",
+     "Swab **only** if there are clinical signs of infection."
+    ]
+   }
+  ]
+ },
+ "differentials": {
+  "cards": [
+   {
+    "name": "Arterial ulcer",
+    "clue": "Punched-out, distal (toes, pressure points), claudication or rest pain, cold foot, weak pulses, **low ABPI**",
+    "link": "arterial-neuropathic-ulcers"
+   },
+   {
+    "name": "Neuropathic ulcer",
+    "clue": "Plantar pressure points, **painless**, callus, diabetes with neuropathy",
+    "link": "arterial-neuropathic-ulcers"
+   },
+   {
+    "name": "Pyoderma gangrenosum",
+    "clue": "Rapid, very painful, **violaceous undermined edge**; pathergy",
+    "link": "pyoderma-gangrenosum"
+   },
+   {
+    "name": "Vasculitic or malignant ulcer",
+    "clue": "Atypical site or edge, rolled or raised margin, non-healing. **Biopsy or refer**"
+   },
+   {
+    "name": "Pressure ulcer",
+    "clue": "Over a bony prominence in an immobile patient"
+   }
+  ]
+ },
+ "manage": {
+  "rungs": []
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "never",
+    "t": "**Low or abnormal ABPI**, absent pulses, rest pain or a cold foot: arterial disease, so **do not compress**. Refer to vascular."
+   },
+   {
+    "when": "routine",
+    "t": "Spreading redness, fever or systemic upset: cellulitis or sepsis."
+   },
+   {
+    "when": "routine",
+    "t": "Rolled, raised or irregular edge, bleeding, or failure to heal: biopsy to exclude **SCC or BCC** (Marjolin ulcer)."
+   },
+   {
+    "when": "routine",
+    "t": "Rapidly enlarging, very painful ulcer with a purple edge: suspect **pyoderma gangrenosum**."
+   }
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "**Never start high compression without a vascular assessment or ABPI.**"
+  },
+  {
+   "icon": "bulb",
+   "t": "Explain **lifelong compression stockings** after healing, because recurrence is common."
+  },
+  {
+   "icon": "bulb",
+   "t": "Good analgesia and exudate control improve adherence to compression."
+  },
+  {
+   "icon": "bulb",
+   "t": "Topical steroids on surrounding venous eczema help. Watch for contact allergy to dressings and topical products, which is common in leg ulcer patients."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Venous leg ulcer?",
+   "a": "A shallow, sloping, wet ulcer over the medial malleolus with haemosiderin staining, venous eczema, varicose veins and oedema that is worse at the end of the day."
+  },
+  {
+   "q": "What drives it?",
+   "a": "Venous hypertension from incompetent valves, previous DVT or calf-pump failure, causing oedema, inflammation and skin breakdown."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "ABPI, then multilayer compression, elevation, walking, emollient, and lifelong stockings after healing."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "Arterial disease before compressing, and a non-healing or atypical ulcer (malignancy, PG, vasculitis)."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "**Low or abnormal ABPI**, absent pulses, rest pain or a cold foot: arterial disease, so **do not compress**. Refer to vascular."
+  }
+ ]
+}

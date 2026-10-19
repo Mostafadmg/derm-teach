@@ -1,0 +1,159 @@
+{
+ "_auto": true,
+ "glance": {
+  "chips": [
+   "Module 5 · Week 1",
+   "PMH",
+   "pale patches trunk",
+   "hypopigmentation"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "Poorly defined, non-scaly, symptom-free pale macules merging on the back and trunk of a teenager or young adult, often with darker skin."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "Probably Cutibacterium acnes in the follicles producing a depigmenting factor. Melanin is reduced but melanocyte numbers are normal."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "Reassure. Options with variable evidence: benzoyl peroxide ± clindamycin, narrowband UVB, oral tetracycline."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "Persistent, atypical, progressive patches in an adult may be hypopigmented mycosis fungoides. Refer.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "points": [],
+  "visuals": []
+ },
+ "features": {
+  "photo": "m5w1:M01",
+  "points": [
+   "Round or oval, **poorly bordered** pale macules that merge on the back and trunk, with or without the proximal limbs and neck.",
+   "**No scale.** This is the key difference from pityriasis versicolor.",
+   "**No preceding rash.** This is the key difference from post-inflammatory hypopigmentation.",
+   "More noticeable, and more often reported, in **darker skin**. Typically teens and young adults, possibly more common in women."
+  ],
+  "visuals": [],
+  "variants": null,
+  "groups": [
+   0,
+   1
+  ]
+ },
+ "confirm": {
+  "cols": [
+   {
+    "k": "Wood’s lamp",
+    "icon": "check",
+    "points": [
+     "follicular **coral-red** fluorescence supports *C. acnes*."
+    ]
+   },
+   {
+    "k": "Key points",
+    "icon": "check",
+    "points": [
+     "Clinical.",
+     "**Skin scrapings (KOH) are negative**, unlike pityriasis versicolor.",
+     "Dermoscopy shows ill-defined white macules with a faint pigment network. Biopsy is rarely needed."
+    ]
+   }
+  ]
+ },
+ "differentials": {
+  "cards": [
+   {
+    "name": "Pityriasis versicolor",
+    "clue": "**Fine scale**; ‘spaghetti and meatballs’ on KOH; often yellow-green under Wood’s lamp",
+    "link": "pityriasis-versicolor"
+   },
+   {
+    "name": "Post-inflammatory hypopigmentation",
+    "clue": "History of eczema, psoriasis or another rash at the same sites"
+   },
+   {
+    "name": "Vitiligo",
+    "clue": "Sharp, **chalk-white** patches, often on the hands, face and around orifices; bright white under Wood’s lamp",
+    "link": "hypopigmentation-skin-of-colour"
+   },
+   {
+    "name": "Pityriasis alba",
+    "clue": "Faces of atopic children; mild scale",
+    "link": "hypopigmentation-skin-of-colour"
+   },
+   {
+    "name": "Hypopigmented mycosis fungoides",
+    "clue": "Persistent, atypical, progressive patches in an adult. **Refer**"
+   },
+   {
+    "name": "Ash-leaf macules (tuberous sclerosis)",
+    "clue": "Congenital, leaf-shaped; look for other features of tuberous sclerosis"
+   }
+  ]
+ },
+ "manage": {
+  "rungs": []
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "routine",
+    "t": "Atypical, persistent or progressive patches in an adult: exclude **hypopigmented mycosis fungoides**."
+   },
+   {
+    "when": "routine",
+    "t": "Congenital or ash-leaf-shaped macules with other signs: consider **tuberous sclerosis**."
+   },
+   {
+    "when": "routine",
+    "t": "‘Pityriasis versicolor’ that does not respond to antifungals: re-check for scale and do KOH."
+   }
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "Do not keep treating it as ‘fungus’. If there is scale, take a **KOH scraping first**."
+  },
+  {
+   "icon": "bulb",
+   "t": "Photoprotection still helps even out skin tone."
+  },
+  {
+   "icon": "bulb",
+   "t": "Manage expectations: response is **slow and often incomplete**."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Progressive macular hypomelanosis (PMH)?",
+   "a": "Poorly defined, non-scaly, symptom-free pale macules merging on the back and trunk of a teenager or young adult, often with darker skin."
+  },
+  {
+   "q": "What drives it?",
+   "a": "Probably Cutibacterium acnes in the follicles producing a depigmenting factor. Melanin is reduced but melanocyte numbers are normal."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "Reassure. Options with variable evidence: benzoyl peroxide ± clindamycin, narrowband UVB, oral tetracycline."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "Persistent, atypical, progressive patches in an adult may be hypopigmented mycosis fungoides. Refer."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "Atypical, persistent or progressive patches in an adult: exclude **hypopigmented mycosis fungoides**."
+  }
+ ]
+}

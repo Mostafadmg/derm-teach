@@ -180,7 +180,7 @@
     if (!hash || hash.length < 2) return;
     var el; try { el = doc.getElementById(decodeURIComponent(hash.slice(1))); } catch (e) { return; }
     if (!el) return;
-    var d = el.matches("details") ? el : el.querySelector("details");
+    var d = el.matches("details") ? el : el.querySelector(":scope > details:not(.more)");
     if (d && !d.open) d.open = true;
     var p = el.closest("details"); if (p) p.open = true;
   }
@@ -277,4 +277,81 @@
       if (Math.abs(dx) > 50) show(cur + (dx < 0 ? 1 : -1));
     });
   }
+})();
+
+/* ---------------- v3 lessons: progress, next-step, module list ---------------- */
+(function () {
+  "use strict";
+  var doc = document, KEY = "dt-progress-v1";
+  var $$ = function (s, el) { return Array.prototype.slice.call((el || doc).querySelectorAll(s)); };
+  function load() { try { return JSON.parse(localStorage.getItem(KEY) || "{}") || {}; } catch (e) { return {}; } }
+  function save(d) { try { localStorage.setItem(KEY, JSON.stringify(d)); } catch (e) {} }
+
+  // module (category) page
+  $$(".les[data-lesson]").forEach(function (li) {
+    var all = load(), done = (all[li.getAttribute("data-lesson")] || []).length, n = +li.getAttribute("data-steps") || 0;
+    var state = li.querySelector(".les-state");
+    if (n && done >= n) { li.classList.add("is-done"); if (state) state.textContent = "Completed"; }
+    else if (done) { li.classList.add("is-started"); if (state) state.textContent = done + "/" + n + " steps"; }
+  });
+  var mp = doc.querySelector(".module-progress");
+  if (mp) {
+    var les = $$(".les[data-lesson]"), c = les.filter(function (l) { return l.classList.contains("is-done"); }).length;
+    mp.querySelector(".mp-n").textContent = c;
+    mp.querySelector(".lp-bar span").style.setProperty("--pct", les.length ? c / les.length : 0);
+  }
+
+  // lesson page
+  var body = doc.querySelector(".lesson-body[data-lesson]");
+  if (!body) return;
+  var slug = body.getAttribute("data-lesson"), steps = $$(".step[data-step]", body), n = steps.length;
+  var links = {}; $$("[data-step-link]").forEach(function (a) { links[a.getAttribute("data-step-link")] = a; });
+  var lp = doc.querySelector(".lesson-progress"), nowN = doc.querySelector(".toc-now-n"), nowBar = doc.querySelector(".toc-now-bar span");
+  var stepbar = doc.querySelector(".stepper");
+  function doneSet() { return (load()[slug] || []).map(String); }
+  function render() {
+    var d = doneSet();
+    steps.forEach(function (s) {
+      var k = s.getAttribute("data-step"), on = d.indexOf(k) > -1;
+      s.classList.toggle("done", on);
+      if (links[k]) { links[k].classList.toggle("done", on); links[k].setAttribute("title", on ? "Done" : ""); }
+    });
+    if (lp) { lp.querySelector(".lp-n").textContent = d.length; lp.querySelector(".lp-bar span").style.setProperty("--pct", n ? d.length / n : 0); }
+  }
+  function mark(k) {
+    var all = load(), d = (all[slug] || []).map(String);
+    if (d.indexOf(String(k)) < 0) { d.push(String(k)); all[slug] = d; save(all); render(); }
+  }
+  render();
+  // the sticky lesson bar height feeds scroll-padding so headings are never hidden under it
+  function syncBar() {
+    var h = stepbar && getComputedStyle(stepbar).position === "sticky" ? stepbar.getBoundingClientRect().height : 0;
+    doc.documentElement.style.setProperty("--stepbar", Math.round(h) + "px");
+  }
+  syncBar(); window.addEventListener("resize", syncBar);
+  // current step + mark steps the reader has scrolled all the way through
+  var ticking = false, dwell = {}, lastT = 0;
+  setInterval(function () { if (!document.hidden) onScroll(); }, 1000);
+  function onScroll() {
+    ticking = false;
+    var top = (parseFloat(getComputedStyle(doc.documentElement).getPropertyValue("--top")) || 60) + (stepbar && getComputedStyle(stepbar).position === "sticky" ? stepbar.offsetHeight : 0);
+    var cur = 1, now = Date.now();
+    steps.forEach(function (s) {
+      var r = s.getBoundingClientRect();
+      if (r.top <= top + 80) cur = +s.getAttribute("data-step");
+      var k = s.getAttribute("data-step"), vis = r.top < innerHeight && r.bottom > top;
+      if (vis) { dwell[k] = (dwell[k] || 0) + (now - (lastT || now)); }
+      // a step counts as done once it has been read for a while (≥ 4 s in view) and scrolled past
+      if (r.bottom < top + 40 && (dwell[k] || 0) > 4000) mark(k);
+    });
+    lastT = now;
+    if (nowN) nowN.textContent = "Step " + cur + " of " + n;
+    if (nowBar) nowBar.style.setProperty("--pct", n ? cur / n : 0);
+  }
+  window.addEventListener("scroll", function () { if (!ticking) { ticking = true; requestAnimationFrame(onScroll); } }, { passive: true });
+  onScroll();
+  $$("[data-next]").forEach(function (a) { a.addEventListener("click", function () { var s = a.closest(".step"); if (s) mark(s.getAttribute("data-step")); }); });
+  $$("[data-finish]").forEach(function (a) { a.addEventListener("click", function () { var s = a.closest(".step"); if (s) mark(s.getAttribute("data-step")); }); });
+  var reset = doc.querySelector("[data-reset]");
+  if (reset) reset.addEventListener("click", function () { var all = load(); delete all[slug]; save(all); render(); });
 })();

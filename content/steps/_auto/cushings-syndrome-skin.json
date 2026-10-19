@@ -1,0 +1,114 @@
+{
+ "_auto": true,
+ "glance": {
+  "chips": [
+   "Module 1 · Week 5",
+   "striae",
+   "moon face",
+   "steroid excess"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "Wide purple striae, easy bruising, thin skin, moon face, acne and central weight gain, often in someone on steroids."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "Excess glucocorticoid breaks down collagen and redistributes fat; usually iatrogenic, sometimes pituitary, adrenal or ectopic ACTH."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "Total steroid review (all routes); if not iatrogenic, overnight dexamethasone suppression test or late-night salivary cortisol and endocrine referral; never stop long-term steroids abruptly."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "Adrenal crisis from stopping steroids suddenly; hypertension, diabetes, osteoporosis; ectopic ACTH from lung cancer.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "points": [],
+  "visuals": []
+ },
+ "features": {
+  "photo": "m1w5:C01",
+  "points": [
+   "**Most discriminating features** (Endocrine Society): **easy bruising**, **facial plethora**, **proximal myopathy**, and **wide (>1 cm), purple/\"livid\" striae** on the abdomen, flanks, axillae and thighs."
+  ],
+  "visuals": [],
+  "variants": null,
+  "groups": [
+   0
+  ]
+ },
+ "confirm": {
+  "cols": [
+   {
+    "k": "Secondary care",
+    "icon": "check",
+    "points": [
+     "ACTH (dependent vs independent), high-dose DST/CRH test, pituitary MRI, inferior petrosal sinus sampling, adrenal CT, K⁺, HbA1c, DEXA."
+    ]
+   }
+  ]
+ },
+ "differentials": {
+  "cards": []
+ },
+ "manage": {
+  "rungs": []
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "emergency",
+    "t": "Never stop long-term systemic steroids suddenly: taper, issue a **steroid emergency card** and sick-day rules."
+   },
+   {
+    "when": "urgent",
+    "t": "Cushingoid features without steroid exposure, especially with rapid onset, weakness or low potassium: **urgent endocrine** referral."
+   }
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "\"**Before you test for Cushing's, take the steroid history — every route.**\""
+  },
+  {
+   "icon": "bulb",
+   "t": "\"**Wide, purple, and with weakness or bruising** — not just stretch marks.\""
+  },
+  {
+   "icon": "bulb",
+   "t": "Fluticasone (inhaled/nasal) + ritonavir = a classic, preventable cause."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Cushing’s syndrome: skin signs?",
+   "a": "Wide purple striae, easy bruising, thin skin, moon face, acne and central weight gain, often in someone on steroids."
+  },
+  {
+   "q": "What drives it?",
+   "a": "Excess glucocorticoid breaks down collagen and redistributes fat; usually iatrogenic, sometimes pituitary, adrenal or ectopic ACTH."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "Total steroid review (all routes); if not iatrogenic, overnight dexamethasone suppression test or late-night salivary cortisol and endocrine referral; never stop long-term steroids abruptly."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "Adrenal crisis from stopping steroids suddenly; hypertension, diabetes, osteoporosis; ectopic ACTH from lung cancer."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "Never stop long-term systemic steroids suddenly: taper, issue a **steroid emergency card** and sick-day rules."
+  }
+ ]
+}

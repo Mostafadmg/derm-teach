@@ -1,0 +1,111 @@
+{
+ "_auto": true,
+ "glance": {
+  "chips": [
+   "Module 2 · Week 6",
+   "consent",
+   "dehiscence",
+   "haematoma"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "Consenting, or answering a patient’s questions about the risks of minor skin surgery."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "Tension, site, infection, bleeding and nerve anatomy drive most complications."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "Montgomery consent covering material risks; know the danger zones (temporal and marginal mandibular branches of the facial nerve, accessory nerve); label specimens at the bedside; run a histology fail-safe log."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "Nerve injury in danger zones; lost or unlabelled specimens; missed malignant histology without a fail-safe.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "points": [],
+  "visuals": []
+ },
+ "features": {
+  "photo": "m2w6:C01",
+  "points": [
+   "**Aseptic non-touch technique (ANTT)**, sterile gloves for excisions, eye protection (splash/plume), and surgical masks.",
+   "**Surgical smoke** from electrosurgery contains particulates and may carry viable HPV. **Use smoke evacuation** for diathermy (NHS/HSE guidance) and FFP masks where indicated.",
+   "**Chlorhexidine 0.5% in 70% alcohol** (or 2% chlorhexidine in alcohol) or **povidone-iodine** (aqueous or alcoholic).",
+   "**Avoid chlorhexidine near the eyes** (keratitis) and **middle ear** (ototoxicity). Use aqueous povidone-iodine there.",
+   "**Fire risk:** **alcohol-based preps must dry completely** before electrosurgery or diathermy. Pooled alcohol in hair or drapes has caused burns (NPSA/MHRA alerts). Wait about 3 minutes, more on hairy skin.",
+   "Hair removal (if needed) by **clipping, not shaving** (NICE NG125)."
+  ],
+  "visuals": [],
+  "variants": null,
+  "groups": [
+   0
+  ]
+ },
+ "confirm": {
+  "cols": []
+ },
+ "differentials": {
+  "cards": []
+ },
+ "manage": {
+  "rungs": []
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "never",
+    "t": "Every specimen needs a **fail-safe** system so a malignant result is never missed."
+   },
+   {
+    "when": "routine",
+    "t": "Surgery over the temple, jawline or posterior triangle of the neck is a **danger zone**: specialist only."
+   }
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "\"Every cut leaves a scar. The aim is a neat scar in a natural line, but we cannot guarantee how your skin heals.\""
+  },
+  {
+   "icon": "bulb",
+   "t": "Use the photos of the wound journey and complications to make the consent conversation concrete."
+  },
+  {
+   "icon": "bulb",
+   "t": "Tell patients when to expect results (often 2–6 weeks) and to **chase if they hear nothing**. \"No news is not good news.\""
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Skin surgery: consent, complications & danger zones?",
+   "a": "Consenting, or answering a patient’s questions about the risks of minor skin surgery."
+  },
+  {
+   "q": "What drives it?",
+   "a": "Tension, site, infection, bleeding and nerve anatomy drive most complications."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "Montgomery consent covering material risks; know the danger zones (temporal and marginal mandibular branches of the facial nerve, accessory nerve); label specimens at the bedside; run a histology fail-safe log."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "Nerve injury in danger zones; lost or unlabelled specimens; missed malignant histology without a fail-safe."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "Every specimen needs a **fail-safe** system so a malignant result is never missed."
+  }
+ ]
+}

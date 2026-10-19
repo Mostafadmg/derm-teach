@@ -1,0 +1,162 @@
+{
+ "_auto": true,
+ "glance": {
+  "chips": [
+   "Module 4 · Week 1",
+   "LP",
+   "oral lichen planus",
+   "Wickham striae"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "Intensely itchy purple flat-topped papules with fine white lines (Wickham striae), on the wrists, ankles or lower back; lacy white patches in the mouth."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "T-cell-mediated attack on basal keratinocytes (interface dermatitis); hepatitis C and drugs (lichenoid eruptions) are associations."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "Potent topical steroid, sedating antihistamine at night if needed, review drugs; refer oral, genital, nail or scalp disease."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "Erosive oral or genital LP (SCC risk), lichen planopilaris (scarring hair loss) and nail destruction.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "points": [
+   "T-cell mediated attack on basal keratinocytes (lichenoid interface dermatitis).",
+   "Triggers: idiopathic; drugs (**lichenoid drug eruption** — e.g. some antihypertensives, antimalarials, gold, TNF inhibitors — take drug history); dental amalgam sometimes linked to oral LP; HCV association variable by region.",
+   "Koebnerisation along scratch lines possible."
+  ],
+  "visuals": []
+ },
+ "features": {
+  "photo": "m4w1:D02",
+  "points": [],
+  "visuals": [],
+  "variants": null,
+  "groups": [
+   0,
+   1
+  ]
+ },
+ "confirm": {
+  "cols": [
+   {
+    "k": "Punch biopsy",
+    "icon": "check",
+    "points": [
+     "if uncertain (band-like lymphocytic infiltrate, saw-tooth acanthosis, civatte bodies)."
+    ]
+   },
+   {
+    "k": "Key points",
+    "icon": "check",
+    "points": [
+     "Often **clinical**.",
+     "Full exam: skin, mouth, nails, scalp, genitals.",
+     "Consider HCV testing based on risk/local guidance; drug review for lichenoid drug eruption."
+    ]
+   }
+  ]
+ },
+ "differentials": {
+  "cards": [
+   {
+    "name": "Lichenoid drug eruption",
+    "clue": "Drug timeline; more photo-distributed sometimes"
+   },
+   {
+    "name": "Discoid eczema / nummular",
+    "clue": "Coin plaques, less violaceous polygonal papules"
+   },
+   {
+    "name": "Psoriasis",
+    "clue": "Silvery scale, extensors",
+    "link": "psoriasis"
+   },
+   {
+    "name": "Flat warts / lichen nitidus",
+    "clue": "Smaller; less itch"
+   },
+   {
+    "name": "Graft-vs-host (specialist)",
+    "clue": "Transplant context",
+    "link": "skin-surgery-procedures"
+   },
+   {
+    "name": "Secondary syphilis",
+    "clue": "Serology if atypical",
+    "link": "pityriasis-rosea"
+   }
+  ]
+ },
+ "manage": {
+  "rungs": []
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "urgent",
+    "t": "Non-healing oral ulcer, white patch that thickens or a lump in long-standing oral LP: **refer urgently** (oral SCC)."
+   },
+   {
+    "when": "routine",
+    "t": "Genital erosions, scarring or dyspareunia: refer (vulval or penile LP)."
+   },
+   {
+    "when": "routine",
+    "t": "Scalp redness with scarring hair loss: lichen planopilaris, early referral."
+   }
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "Warn about post-inflammatory pigment lasting months."
+  },
+  {
+   "icon": "bulb",
+   "t": "Advise against vigorous scrubbing of Wickham-striae scale."
+  },
+  {
+   "icon": "bulb",
+   "t": "Sexual health / genital itch: examine and refer early if erosive."
+  },
+  {
+   "icon": "bulb",
+   "t": "Document HCV risk discussion where relevant."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Lichen planus?",
+   "a": "Intensely itchy purple flat-topped papules with fine white lines (Wickham striae), on the wrists, ankles or lower back; lacy white patches in the mouth."
+  },
+  {
+   "q": "What drives it?",
+   "a": "T-cell-mediated attack on basal keratinocytes (interface dermatitis); hepatitis C and drugs (lichenoid eruptions) are associations."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "Potent topical steroid, sedating antihistamine at night if needed, review drugs; refer oral, genital, nail or scalp disease."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "Erosive oral or genital LP (SCC risk), lichen planopilaris (scarring hair loss) and nail destruction."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "Non-healing oral ulcer, white patch that thickens or a lump in long-standing oral LP: **refer urgently** (oral SCC)."
+  }
+ ]
+}

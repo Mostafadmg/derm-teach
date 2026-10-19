@@ -1,0 +1,180 @@
+{
+ "_auto": true,
+ "glance": {
+  "chips": [
+   "Module 1 · Week 3",
+   "drug rash",
+   "adverse drug reaction",
+   "drug allergy"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "Any new rash in someone who started, changed or restarted a medicine in the last 8 weeks."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "Immune reactions (type I to IV) or non-immune effects (phototoxicity, deposition, pharmacology) of a drug or its metabolites."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "Build a drug timeline, name the morphology, check for SCAR red flags, stop the most likely culprit, record the reaction precisely (NICE CG183) and report."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "SJS/TEN, DRESS, AGEP, anaphylaxis and angioedema; vasculitis with organ involvement.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "points": [
+   "**Host factors:** HLA alleles (see *Stevens–Johnson syndrome / toxic epidermal necrolysis*), viral infection (EBV + amoxicillin; HIV ↑ sulfonamide reactions; HHV-6 reactivation in DRESS), older age, renal impairment, autoimmune disease."
+  ],
+  "visuals": []
+ },
+ "features": {
+  "photo": "m1w3:A01",
+  "points": [],
+  "visuals": [],
+  "variants": {
+   "title": "Types to recognise",
+   "items": [
+    {
+     "name": "Urticarial / angioedema",
+     "t": "Minutes–hours (IgE); days (serum-sickness-like)",
+     "where": "Penicillins/cephalosporins, NSAIDs/aspirin, opioids, contrast; ACE-i (angioedema, weeks–years)"
+    },
+    {
+     "name": "Morbilliform (exanthem)",
+     "t": "**4–14 days** (sooner on re-exposure)",
+     "where": "Aminopenicillins, cephalosporins, sulfonamides (co-trimoxazole), anticonvulsants, allopurinol"
+    },
+    {
+     "name": "Photosensitive (face, V of neck, backs of hands, sparing behind ears/under chin)",
+     "t": "Days–weeks of sun exposure",
+     "where": "**Thiazides**, **tetracyclines (doxycycline)**, **amiodarone**, quinolones, NSAIDs (piroxicam), voriconazole, phenothiazines, PPIs/terbinafine (SCLE)"
+    },
+    {
+     "name": "Blistering",
+     "t": "Hours–days (FDE), 4–28 days (SJS/TEN), weeks–months (pseudoporphyria, drug-induced BP)",
+     "where": "SJS/TEN: allopurinol, carbamazepine, lamotrigine, phenytoin, sulfonamides, oxicam NSAIDs, nevirapine. FDE: NSAIDs, co-trimoxazole, tetracyclines, paracetamol. **DPP-4 inhibitors (gliptins) → bullous pemphigoid**. Naproxen → pseudoporphyria. Furosemide/ACE-i/PD-1 inhibitors → BP"
+    },
+    {
+     "name": "Pustular (AGEP)",
+     "t": "**<48 h** (often hours)",
+     "where": "Aminopenicillins, macrolides, pristinamycin, hydroxychloroquine, diltiazem, terbinafine"
+    },
+    {
+     "name": "Fever + rash + organ involvement (DRESS)",
+     "t": "**2–8 weeks**",
+     "where": "Allopurinol, carbamazepine, phenytoin, lamotrigine, sulfonamides, dapsone, minocycline, vancomycin"
+    },
+    {
+     "name": "Lichenoid",
+     "t": "Months",
+     "where": "Thiazides, β-blockers, ACE-i, antimalarials, gold, PD-1 inhibitors"
+    },
+    {
+     "name": "Vasculitic purpura",
+     "t": "1–3 weeks",
+     "where": "Antibiotics, NSAIDs, allopurinol (see the [vasculitis](condition:cutaneous-vasculitis-approach) notes)"
+    }
+   ]
+  }
+ },
+ "confirm": {
+  "cols": [
+   {
+    "k": "Previous exposure",
+    "icon": "check",
+    "points": [
+     "a previous reaction to the same or a cross-reacting drug; re-exposure shortens the latency."
+    ]
+   },
+   {
+    "k": "Morphology and extent",
+    "icon": "check",
+    "points": [
+     "pattern (above), **mucosal involvement**, skin pain, Nikolsky sign, blisters/detachment (% BSA), pustules, facial oedema, lymphadenopathy, purpura."
+    ]
+   },
+   {
+    "k": "Systemic features",
+    "icon": "check",
+    "points": [
+     "fever, lymphadenopathy, organ dysfunction."
+    ]
+   },
+   {
+    "k": "Causality tools",
+    "icon": "check",
+    "points": [
+     "**Naranjo** — a general ADR probability scale (10 questions; ≥9 definite, 5–8 probable, 1–4 possible, ≤0 doubtful); **ALDEN** — specific to SJS/TEN (see *Stevens–Johnson syndrome / toxic epidermal necrolysis*); **RegiSCAR** — DRESS scoring"
+    ]
+   }
+  ]
+ },
+ "differentials": {
+  "cards": []
+ },
+ "manage": {
+  "rungs": []
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "same-day",
+    "t": "Skin pain, blisters, skin detachment or mucosal erosions: possible **SJS/TEN**, stop the drug and admit the same day."
+   },
+   {
+    "when": "routine",
+    "t": "Fever, facial swelling, lymph nodes and abnormal bloods 2–8 weeks after a new drug: possible **DRESS**."
+   },
+   {
+    "when": "emergency",
+    "t": "Swelling of lips, tongue or throat, or breathing difficulty: **999**."
+   }
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "\"**Any rash on any drug** — take a dated drug history, then think SCAR red flags.\""
+  },
+  {
+   "icon": "bulb",
+   "t": "Give the patient the **drug name, the reaction and the date** in writing; advise wearing a medical alert if severe; check OTC products (ibuprofen) and combination products contain none of the culprit."
+  },
+  {
+   "icon": "bulb",
+   "t": "Write the reaction, not just \"allergy\", in the record (e.g. \"amoxicillin — maculopapular rash day 7, 2026, no mucosal involvement\")."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Approach to a suspected drug eruption?",
+   "a": "Any new rash in someone who started, changed or restarted a medicine in the last 8 weeks."
+  },
+  {
+   "q": "What drives it?",
+   "a": "Immune reactions (type I to IV) or non-immune effects (phototoxicity, deposition, pharmacology) of a drug or its metabolites."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "Build a drug timeline, name the morphology, check for SCAR red flags, stop the most likely culprit, record the reaction precisely (NICE CG183) and report."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "SJS/TEN, DRESS, AGEP, anaphylaxis and angioedema; vasculitis with organ involvement."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "Skin pain, blisters, skin detachment or mucosal erosions: possible **SJS/TEN**, stop the drug and admit the same day."
+  }
+ ]
+}
