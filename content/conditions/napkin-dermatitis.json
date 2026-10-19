@@ -1,0 +1,151 @@
+{
+  "slug": "napkin-dermatitis",
+  "title": "Napkin (nappy) dermatitis",
+  "order": 3,
+  "aka": [
+    "nappy rash",
+    "diaper rash",
+    "napkin dermatitis",
+    "candidal nappy rash",
+    "irritant napkin dermatitis",
+    "barrier cream",
+    "zinc oxide"
+  ],
+  "summary": "Irritant rash on the convex skin with the folds spared, or Candida with fold involvement and satellites. Use barrier ointment at every change, with short-course hydrocortisone and/or an azole.",
+  "card_image": "m6w1:F11",
+  "glance": {
+    "think": "Red, sore skin in the nappy area of a 3–15-month-old. Folds spared suggests irritant; folds involved with satellites suggests Candida.",
+    "engine": "Occlusion, urine, faecal enzymes and friction break down the barrier, and Candida thrives on the damaged skin.",
+    "backbone": "Frequent changes, nappy-free time, and a thick barrier ointment at every change. Add hydrocortisone 1% (irritant) or an azole (Candida).",
+    "never_miss": "An unwell infant, an infant under 1 month, ulceration, non-response (zinc deficiency, LCH), or safeguarding concerns."
+  },
+  "sections": {
+    "what": [
+      "Inflammation in the nappy area, most often **irritant contact dermatitis** from occlusion, urine and faecal enzymes. Secondary **Candida** is common. Peak age is about **3–15 months**. It also affects older children and adults with incontinence."
+    ],
+    "cause": [
+      {
+        "list": [
+          "Occlusion and urine cause over-hydration and maceration.",
+          "Faecal enzymes and bile salts damage the barrier, and ammonia raises the pH.",
+          "Friction, and an atopic or seborrhoeic tendency.",
+          "*Candida albicans* thrives on damaged, moist skin.",
+          "It is not usually an allergy to the nappy, and it is not tinea."
+        ]
+      }
+    ],
+    "features": [
+      {
+        "table": {
+          "head": [
+            "Pattern",
+            "Features"
+          ],
+          "rows": [
+            [
+              "Irritant napkin dermatitis",
+              "Redness ± scale or erosions on **convex surfaces** in contact with the nappy; **folds often spared**"
+            ],
+            [
+              "Candidal",
+              "Bright red, shiny plaques **involving the folds**, with **satellite** papules and pustules"
+            ],
+            [
+              "Impetigo",
+              "Irregular blisters, pustules or honey crust"
+            ],
+            [
+              "Seborrhoeic",
+              "Salmon-pink patches in folds ± cradle cap"
+            ],
+            [
+              "Psoriasis (‘napkin psoriasis’)",
+              "Persistent, well-demarcated, shiny plaques"
+            ],
+            [
+              "Atopic eczema",
+              "Itchy rash elsewhere; nappy area often relatively spared"
+            ]
+          ]
+        }
+      }
+    ],
+    "diagnosis": [
+      "Clinical. Swab if severe, atypical or not responding. In refractory cases, consider rarities such as **zinc deficiency (acrodermatitis enteropathica)** or **Langerhans cell histiocytosis**, which need specialist input."
+    ],
+    "differentials": [
+      "See the table under Clinical features. Also consider **perianal streptococcal disease**, and **safeguarding** if the injury pattern does not fit dermatitis. Document carefully and escalate through local safeguarding."
+    ],
+    "management": [
+      "Aligned with NICE CKS nappy rash and PCDS. Re-check the live CKS page and the BNF for Children.",
+      {
+        "h": "Barrier and self-care"
+      },
+      {
+        "list": [
+          "Change nappies frequently, with nappy-free time when practical.",
+          "Cleanse gently with water or a non-soap cleanser, and pat dry.",
+          "Apply a **thick barrier ointment** (petrolatum ± zinc oxide) at **every change**.",
+          "Use modern absorbent disposables. With cloth nappies, use liners and avoid plastic pants. Avoid fragranced wipes."
+        ]
+      },
+      {
+        "h": "Topical prescribing"
+      },
+      {
+        "list": [
+          "Inflamed irritant rash: **hydrocortisone 1%**, thin layer, for a short course (usually up to 7 days).",
+          "Suspected Candida: a topical **imidazole** (clotrimazole, miconazole, econazole), continued after the skin looks clear (often 7–14 days in total).",
+          "Combination steroid and antifungal products: short courses only. **No potent steroids on nappy skin.**",
+          "Secondary bacterial infection: follow local guidance (oral flucloxacillin if needed; topical fusidic acid only for very localised areas)."
+        ]
+      }
+    ],
+    "red_flags": [
+      "Infant **under 1 month** with significant rash, or a **systemically unwell** infant.",
+      "Severe or **ulcerated** rash, or failure to improve with good barrier care and appropriate treatment.",
+      "Diagnostic uncertainty, or suspected nutritional deficiency or rare disease.",
+      "Bruising or a pattern suggesting non-accidental injury."
+    ],
+    "pearls": [
+      "**Folds involved with satellites: treat Candida. Folds spared: irritant pattern.**",
+      "Parents often use too little barrier ointment, so show them how much.",
+      "A short course of mild hydrocortisone is appropriate. Potent steroids are not for the nappy area in primary care.",
+      "Breastfed babies’ stools are often less alkaline, which may reduce the irritant load (supportive counselling, not a treatment claim)."
+    ]
+  },
+  "photos": [
+    {
+      "title": "Irritant, candidal and severe erosive napkin dermatitis",
+      "items": [
+        "m6w1:F11",
+        "m6w1:F12",
+        "m6w1:F13"
+      ]
+    },
+    {
+      "title": "Compare: infant atopic eczema (nappy area spared)",
+      "items": [
+        "m6w1:F14",
+        "m6w1:F15"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "label": "NICE CKS: Nappy rash",
+      "url": "https://cks.nice.org.uk/topics/nappy-rash/"
+    },
+    {
+      "label": "PCDS: Napkin eczema",
+      "url": "https://www.pcds.org.uk/clinical-guidance/eczema-napkin-eczema"
+    },
+    {
+      "label": "DermNet: Napkin dermatitis",
+      "url": "https://dermnetnz.org/topics/napkin-dermatitis"
+    }
+  ],
+  "status": "published",
+  "category": "childhood-neonatal",
+  "module": "Module 6 · Week 1"
+}

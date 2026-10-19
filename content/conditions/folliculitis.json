@@ -1,0 +1,92 @@
+{
+  "slug": "folliculitis",
+  "title": "Folliculitis",
+  "aka": ["bacterial folliculitis", "hot tub folliculitis", "pseudomonas folliculitis", "pityrosporum folliculitis", "malassezia folliculitis", "shaving rash", "sycosis barbae"],
+  "category": "bacterial",
+  "status": "published",
+  "order": 3,
+  "summary": "Pustules centred on hair follicles, usually from S. aureus, shaving or occlusion. Most cases need hygiene advice and an antiseptic rather than an antibiotic, so think about other causes if it recurs.",
+  "card_image": "E10",
+  "glance": {
+    "think": "Small pustules, each pierced by a hair, on the beard, scalp, thighs, buttocks or axillae, often after shaving, waxing or occlusion.",
+    "engine": "Inflammation of the follicle opening, usually S. aureus. Pseudomonas (hot tubs), Malassezia, or irritant/occlusive causes are possible.",
+    "backbone": "Stop the trigger, use an antiseptic wash, and topical or oral flucloxacillin only if persistent or extensive.",
+    "never_miss": "Progression to boils or cellulitis, recurrent disease (carriage, diabetes) and immunosuppression."
+  },
+  "sections": {
+    "what": [
+      "Folliculitis is **inflammation of the hair follicle**, seen as small pustules or papules centred on hairs. Superficial bacterial folliculitis is usually caused by *S. aureus*.",
+      "Deeper follicular infection becomes a **boil** (furuncle). Clusters form a **carbuncle**. See [Boils & carbuncles](condition:boils-carbuncles)."
+    ],
+    "cause": [
+      { "list": [
+        "Follicular occlusion or damage from **shaving, waxing, tight clothing, oils**, sweating and friction.",
+        "Bacterial proliferation in the follicle opening, usually *S. aureus*. Nasal carriage drives recurrence.",
+        "Topical steroids and immunosuppression increase risk."
+      ] },
+      { "h": "Not all folliculitis is staphylococcal" },
+      { "table": { "head": ["Type", "Clue", "Pathway"], "rows": [
+        ["Hot tub (*Pseudomonas*)", "1–2 days after a hot tub or spa; under swimwear", "Usually self-limiting; check spa hygiene"],
+        ["Pityrosporum (*Malassezia*)", "Itchy, uniform papules on the upper back and chest; young adults; after antibiotics", "**Antifungal**, not antibiotic"],
+        ["Gram-negative", "Long-term antibiotics for acne", "Specialist"],
+        ["Eosinophilic", "Very itchy; HIV or immunosuppression", "Specialist"],
+        ["Pseudofolliculitis barbae", "Ingrown hairs in curly beard hair after close shaving", "Shaving technique, beard growth"]
+      ] } }
+    ],
+    "features": [
+      { "list": [
+        "**Follicular-centred pustules**, often with a hair visible in the centre, on a red base.",
+        "Sites: scalp, beard (sycosis barbae), trunk, buttocks, thighs and axillae.",
+        "Itchy or tender. Systemic upset is unusual."
+      ] }
+    ],
+    "diagnosis": [
+      { "list": [
+        "Clinical. The distribution and history (shaving, hot tub, recent antibiotics) point to the type.",
+        "**Swab a pustule** for culture if persistent, recurrent, extensive or atypical.",
+        "Consider a **nasal swab** for *S. aureus* carriage in recurrent disease."
+      ] }
+    ],
+    "differentials": [
+      { "table": { "head": ["Look-alike", "Distinguishing clues"], "rows": [
+        ["Acne vulgaris", "Comedones present; face, chest and back; mixed lesion types"],
+        ["Pustular miliaria", "Heat and occlusion; tiny pustules not centred on follicles"],
+        ["Candida", "Satellite pustules around a red, moist fold"],
+        ["Keratosis pilaris", "Rough follicular papules on the upper arms and thighs; not pustular"]
+      ] } }
+    ],
+    "management": [
+      { "h": "Mild" },
+      { "list": [
+        "Stop or modify the trigger: change shaving technique (a clean sharp blade, shave with the grain, or a pause in shaving), use loose clothing, and avoid oils and occlusion.",
+        "Use an **antiseptic wash** (e.g. chlorhexidine or a benzoyl peroxide wash).",
+        "Often **no antibiotic** is needed."
+      ] },
+      { "h": "Persistent bacterial" },
+      { "list": [
+        "Topical antiseptic or antibiotic in line with local guidance, for short courses.",
+        "Oral **flucloxacillin** if extensive (clarithromycin if penicillin allergy)."
+      ] },
+      { "h": "Recurrent" },
+      "Swab, consider decolonisation (via the local pathway), and screen for diabetes. Think about other causes such as Pityrosporum or Gram-negative folliculitis."
+    ],
+    "red_flags": [
+      "Progression to **boils, carbuncles or cellulitis**, or fever.",
+      "Recurrent disease despite measures: consider carriage, PVL or MRSA, diabetes and immunosuppression.",
+      "Widespread itchy folliculitis in an immunosuppressed patient (eosinophilic): refer."
+    ],
+    "pearls": [
+      "**Pustules on the upper back and chest after antibiotics?** Think Pityrosporum folliculitis, which needs an antifungal.",
+      "A hot-tub history explains a sudden ‘swimsuit-distribution’ rash.",
+      "Most mild bacterial folliculitis settles without antibiotics, which is a useful stewardship opportunity.",
+      "Pseudofolliculitis barbae is common in curly hair. Discuss shaving technique and beard growth sensitively."
+    ]
+  },
+  "photos": [
+    { "title": "Bacterial folliculitis", "items": ["E10", "E11", "E12"] }
+  ],
+  "references": [
+    { "label": "DermNet: Bacterial folliculitis", "url": "https://dermnetnz.org/topics/bacterial-folliculitis" },
+    { "label": "NICE CKS: Boils, carbuncles and staphylococcal carriage", "url": "https://cks.nice.org.uk/topics/boils-carbuncles-staphylococcal-carriage/" }
+  ]
+}

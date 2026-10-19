@@ -1,0 +1,208 @@
+{
+  "slug": "epidermolysis-bullosa",
+  "title": "Epidermolysis bullosa (EB)",
+  "order": 6,
+  "aka": [
+    "EB",
+    "EB simplex",
+    "junctional EB",
+    "dystrophic EB",
+    "RDEB",
+    "Kindler EB",
+    "skin fragility",
+    "butterfly skin",
+    "blistering newborn",
+    "COL7A1",
+    "DEBRA"
+  ],
+  "summary": "Inherited skin fragility in which minimal friction causes blisters. Recognise it, handle the baby gently, and refer urgently to a specialist EB centre. Primary care supports under the specialist plan.",
+  "card_image": "m6w1:H01",
+  "hero": {
+    "ai": "eb-skin-fragility.jpg",
+    "alt": "AI diagram showing the level of split in EB types"
+  },
+  "glance": {
+    "think": "A neonate or infant with blisters and erosions from minimal friction (hands, feet, nappy area), ± absent skin at birth, nail dystrophy or mouth blisters.",
+    "engine": "Inherited defects in adhesion proteins; the level of split defines the type (simplex, junctional, dystrophic, Kindler).",
+    "backbone": "Urgent referral to an EB centre, gentle handling, no adhesives, and soft silicone dressings under specialist guidance.",
+    "never_miss": "Airway involvement (hoarse cry in JEB), sepsis, dehydration or failure to thrive, and SCC in chronic RDEB wounds."
+  },
+  "sections": {
+    "what": [
+      "A group of **inherited mechanobullous disorders**: skin (and often mucosa) blisters after **minimal trauma**, because adhesion molecules are defective. This is different from **EB acquisita**, which is autoimmune and usually affects adults.",
+      {
+        "table": {
+          "head": [
+            "Type",
+            "Level of split",
+            "Key molecules (examples)",
+            "Gist"
+          ],
+          "rows": [
+            [
+              "EB simplex (EBS)",
+              "Within the epidermis",
+              "Keratins 5/14",
+              "Often milder, localised, acral"
+            ],
+            [
+              "Junctional EB (JEB)",
+              "Lamina lucida",
+              "Laminin-332, integrins",
+              "Severe forms are life-limiting"
+            ],
+            [
+              "Dystrophic EB (DEB)",
+              "Below the lamina densa",
+              "**Type VII collagen (COL7A1)**",
+              "Scarring; recessive DEB is severe"
+            ],
+            [
+              "Kindler EB",
+              "Mixed levels",
+              "Kindlin-1",
+              "Photosensitivity, poikiloderma"
+            ]
+          ]
+        }
+      }
+    ],
+    "cause": [
+      {
+        "figure": {
+          "ai": "eb-skin-fragility.jpg",
+          "caption": "Skin fragility in EB: the level of the split in EB simplex, junctional and dystrophic EB compared with normal skin."
+        }
+      },
+      "Loss of structural integrity at a specific skin level means minor shear causes a blister. Inheritance is autosomal dominant or recessive depending on subtype. **Key Module 6 links: DEB is caused by type VII collagen (COL7A1) defects, and chronic RDEB wounds carry a high risk of cutaneous SCC.**"
+    ],
+    "features": [
+      {
+        "list": [
+          "Blisters and erosions at **friction sites** (hands, feet, belt line, nappy area). They may be present at birth.",
+          "Nail dystrophy, milia and scarring (especially dystrophic types). Mitten deformities in severe RDEB.",
+          "**Mucosa:** mouth, oesophagus (dysphagia), larynx (hoarse cry in severe JEB).",
+          "Localised EBS often presents when the child starts **crawling or walking**.",
+          "A neonate with unexplained blistering, with or without congenital absence of skin: **consider EB until proven otherwise**."
+        ]
+      }
+    ],
+    "diagnosis": [
+      "Urgent recognition and referral to a **specialist EB centre** (UK: e.g. GOSH and other DEBRA-linked centres). Subtyping uses immunofluorescence mapping, electron microscopy and genetic testing. Primary care does **not** attempt to subtype."
+    ],
+    "differentials": [
+      {
+        "table": {
+          "head": [
+            "Look-alike",
+            "Clues"
+          ],
+          "rows": [
+            [
+              "Friction or sucking blisters",
+              "Localised; well baby; no family history"
+            ],
+            [
+              "SSSS / bullous impetigo",
+              "Signs of infection; microbiology"
+            ],
+            [
+              "HSV / varicella",
+              "Viral morphology; PCR"
+            ],
+            [
+              "Incontinentia pigmenti",
+              "Blaschko-line stages; usually female"
+            ],
+            [
+              "Autoimmune neonatal blistering (maternal antibodies)",
+              "Maternal history; transient"
+            ],
+            [
+              "Mastocytosis, other bullous genodermatoses",
+              "Specialist"
+            ]
+          ]
+        }
+      }
+    ],
+    "management": [
+      {
+        "callout": "info",
+        "title": "A specialist multidisciplinary disease",
+        "text": "The IP and pharmacist role is recognition, safe interim handling, timely referral, and medicines support under the EB team’s plan."
+      },
+      {
+        "h": "Immediate"
+      },
+      {
+        "list": [
+          "**Refer urgently** any baby with unexplained fragility or blistering to paediatric dermatology or the EB team. For GOSH, contact the dermatology registrar via switchboard.",
+          "**Handle gently:** no adhesive tapes, lift on a soft pad rather than under the arms, keep the environment cool, and reduce friction.",
+          "Do **not** lance blisters unless trained in EB technique. Specialist nurses teach sterile piercing and silicone dressings."
+        ]
+      },
+      {
+        "h": "Ongoing primary-care support"
+      },
+      {
+        "list": [
+          "**Dressings:** soft silicone or low-adherent, with no ordinary adhesives. Emollients and paraffin to lubricate.",
+          "Pain, constipation, nutrition, dental and eye care through the MDT.",
+          "Infection: colonisation is common. Discuss significant infection with the EB team.",
+          "**Medicines optimisation:** liquid formulations if there are oesophageal strictures, avoid rectal routes where possible, and check interactions.",
+          "Awareness: **Oleogel-S10** (birch triterpenes) is a specialist wound therapy for selected JEB and DEB wounds.",
+          "**RDEB:** surveillance for **SCC**. Any changing chronic wound needs urgent dermatology review."
+        ]
+      }
+    ],
+    "red_flags": [
+      "Respiratory distress or hoarseness (airway involvement in JEB).",
+      "Dehydration, failure to thrive, or sepsis.",
+      "A new, enlarging or ulcerating chronic wound in RDEB (**SCC**)."
+    ],
+    "pearls": [
+      "Give parents **DEBRA UK** support details early.",
+      "Genetic counselling for future pregnancies is a specialist role.",
+      "Never blame ‘rough handling’ alone when true fragility is present.",
+      "Even mild localised EBS benefits from a correct diagnosis (footwear and blister care education)."
+    ]
+  },
+  "photos": [
+    {
+      "title": "Epidermolysis bullosa",
+      "items": [
+        "m6w1:H01",
+        "m6w1:H02",
+        "m6w1:H03",
+        "m6w1:H04"
+      ]
+    },
+    {
+      "title": "AI teaching illustration",
+      "items": [
+        {
+          "ai": "eb-skin-fragility.jpg",
+          "caption": "EB: level of split by type."
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "label": "DermNet: Epidermolysis bullosa",
+      "url": "https://dermnetnz.org/topics/epidermolysis-bullosa"
+    },
+    {
+      "label": "GOSH: Epidermolysis bullosa service",
+      "url": "https://www.gosh.nhs.uk/conditions-and-treatments/conditions-we-treat/epidermolysis-bullosa/"
+    },
+    {
+      "label": "DEBRA UK",
+      "url": "https://www.debra.org.uk/"
+    }
+  ],
+  "status": "published",
+  "category": "childhood-neonatal",
+  "module": "Module 6 · Week 1"
+}

@@ -1,0 +1,182 @@
+import json
+from pathlib import Path
+P = Path("/workspace/derm-teach/website/content/conditions/birthmarks.json")
+d = json.loads(P.read_text())
+d["aka"] = d["aka"] + ["naevus of Ota", "achromic naevus", "naevus depigmentosus", "naevus anaemicus", "Becker naevus", "epidermal naevus", "ILVEN", "PHACE", "Sturge–Weber", "timolol"]
+d.update({
+ "status": "published",
+ "module": "Module 6 · Week 1: vascular & pigmented birthmarks",
+ "summary": "Separate the **tumour** (infantile haemangioma: grows, then involutes) from the **malformations** (port-wine stain: permanent). Refer high-risk haemangiomas early for propranolol, and document blue-grey dermal melanocytosis clearly. Most pigmented and pale birthmarks only need reassurance.",
+ "card_image": "m6w1:G01",
+ "hero": {"ai": "haemangioma-natural-history.jpg", "alt": "AI timeline of infantile haemangioma: appearance, rapid growth, plateau and involution"},
+ "glance": {
+  "think": "A red mark that appears in the first weeks and **grows fast** (haemangioma). A flat red-purple stain **present at birth** that grows only with the child (port-wine stain). Blue-grey, brown or pale patches that stay stable.",
+  "engine": "Haemangioma = clonal endothelial tumour (GLUT-1 positive). Port-wine stain = malformed dermal capillaries. Pigmented birthmarks = misplaced dermal melanocytes or mosaic overgrowth.",
+  "backbone": "Photograph, measure and document. Reassure for low-risk lesions. **Refer high-risk haemangiomas early** (ideally by about 4 weeks of age) so propranolol can start in the growth window.",
+  "never_miss": "Periocular, airway (‘beard’), lip, large facial segmental, ulcerated or multiple (≥5) haemangiomas. Facial V1 port-wine stain (Sturge–Weber). Eye involvement in naevus of Ota."
+ },
+ "sections": {
+  "what": [
+   "‘Birthmark’ covers several unrelated lesions. Sorting them into **vascular** and **pigmented** groups, and the vascular ones into **tumours** and **malformations**, tells you the natural history and what to do.",
+   {"table": {"head": ["Group", "Lesion", "Natural history"], "rows": [
+    ["Vascular tumour", "**Infantile haemangioma** (‘strawberry mark’)", "Absent or faint at birth. Rapid growth in months 1–3, mostly complete by ~5 months. Slow involution over years, sometimes leaving fibrofatty tissue or telangiectasia"],
+    ["Vascular malformation", "**Port-wine stain** (capillary malformation)", "Present at birth. **Permanent**; grows with the child and may darken and thicken in adulthood"],
+    ["Vascular (fading)", "**Salmon patch** (naevus simplex, ‘stork mark’)", "Pink patch on the nape, glabella or eyelids. Facial ones usually fade in the first 1–2 years; nape ones often persist"],
+    ["Vascular (functional)", "**Naevus anaemicus**", "Pale patch caused by local vasoconstriction, not pigment loss. Permanent"],
+    ["Dermal melanocytosis", "**Mongolian spot** (lumbosacral), **naevus of Ota** (face), naevus of Ito (shoulder)", "Mongolian spots usually fade by ~4 years. Ota and Ito persist"],
+    ["Pigment / hamartoma", "**Becker naevus**, **achromic naevus**, **linear epidermal naevus**, congenital melanocytic naevus", "Stable or grow in proportion with the child. Becker naevus darkens and becomes hairy around puberty"]
+   ]}}
+  ],
+  "cause": [
+   {"list": [
+    "**Infantile haemangioma:** a benign **clonal proliferation of endothelial cells** that stain **GLUT-1 positive** (this separates it from malformations on histology). It is the most common tumour of infancy (about 4–10%). Risk factors: **prematurity, low birth weight, female sex, multiple pregnancy** and placental anomalies.",
+    "**Port-wine stain:** a congenital malformation of dilated dermal capillaries, often from a somatic **GNAQ** mutation. It does not proliferate.",
+    "**Dermal melanocytosis** (Mongolian spot, naevus of Ota): melanocytes that **stopped in the dermis** during embryonic migration. Deep pigment looks blue-grey (Tyndall effect). GNAQ/GNA11 mutations are described in Ota.",
+    "**Achromic naevus:** a stable mosaic defect in melanin production or transfer. Melanocytes are present, unlike in vitiligo.",
+    "**Naevus anaemicus:** dermal vessels in the patch are hypersensitive to catecholamines and stay constricted. Melanin is normal.",
+    "**Becker naevus:** mosaic overgrowth of epidermis, melanocytes and hair follicles, switched on by androgens at puberty.",
+    "**Epidermal naevus:** postzygotic mosaic mutations (e.g. FGFR3, PIK3CA, HRAS) causing keratinocyte overgrowth along **Blaschko’s lines**."
+   ]}
+  ],
+  "features": [
+   {"h": "Infantile haemangioma"},
+   {"table": {"head": ["Type", "Appearance"], "rows": [
+    ["Superficial", "Bright red, raised, well-defined, lobulated (‘strawberry’)"],
+    ["Deep", "Bluish, rubbery, warm swelling under normal or bluish skin; may appear later and grow for longer"],
+    ["Mixed", "Both components"],
+    ["Involuting", "Greying and whitening from the centre, softening and flattening"]
+   ]}},
+   {"list": [
+    "Often starts as a pale, telangiectatic or bruise-like **precursor patch** in the first weeks.",
+    "Head and neck are common. Location and size matter more than appearance.",
+    "**Segmental** facial lesions (plaque-like, covering a facial segment) carry a risk of **PHACE** (posterior fossa, haemangioma, arterial, cardiac and eye anomalies).",
+    "A **white or grey surface** on a growing lesion can herald **ulceration**, especially in the nappy area, lips and neck folds.",
+    "**Five or more** skin haemangiomas suggest possible liver haemangiomas."
+   ]},
+   {"h": "Other birthmarks"},
+   {"table": {"head": ["Lesion", "Key features"], "rows": [
+    ["Port-wine stain", "Flat, sharply demarcated pink to purple patch present at birth, often unilateral or segmental. Facial **V1 (forehead / upper eyelid)** involvement raises the possibility of **Sturge–Weber** syndrome. Limb stain with overgrowth suggests Klippel–Trénaunay-type syndromes"],
+    ["Salmon patch", "Faint pink, often midline (nape, glabella, eyelids), darkens with crying"],
+    ["Mongolian spot", "Flat **blue-grey** patch over the sacrum and buttocks, normal skin texture, present at birth. Common in East Asian, African, South Asian and other darker skin types"],
+    ["Naevus of Ota", "Unilateral, mottled blue-grey or brown patches over the forehead, temple and around the eye (V1/V2). May involve the **sclera**. Present at birth or appears around puberty"],
+    ["Achromic naevus", "Off-white patch with irregular, serrated border, present from early life. Stable, grows in proportion. Wood’s lamp: off-white, not chalk-white"],
+    ["Naevus anaemicus", "Pale patch that **does not redden when rubbed** while the surrounding skin flushes. Under a glass slide (diascopy) it becomes indistinguishable from surrounding skin"],
+    ["Becker naevus", "Large unilateral tan-brown patch on the shoulder or upper trunk, mostly in males. Becomes **hairy** after puberty; acne may occur within it"],
+    ["Linear epidermal naevus", "Brown, warty, linear plaque along Blaschko’s lines, usually unilateral. **ILVEN** variant is red and itchy, often on a leg"]
+   ]}}
+  ],
+  "diagnosis": [
+   {"list": [
+    "**Clinical** in almost all cases. Take a history of timing: present at birth (malformation, dermal melanocytosis) or appeared and grew in the first weeks (haemangioma).",
+    "**Photograph with a ruler** at every visit. Serial photos are the best tool for growth decisions.",
+    "Ultrasound (specialist) for deep lesions or uncertainty between haemangioma, malformation and other masses. MRI for large segmental facial lesions (PHACE work-up).",
+    "**≥5 haemangiomas:** specialist will arrange abdominal ultrasound for liver lesions.",
+    "**Rub test and diascopy** separate naevus anaemicus (vascular) from hypopigmentation. **Wood’s lamp** helps separate achromic naevus from vitiligo.",
+    "Several ash-leaf-shaped pale macules: consider **tuberous sclerosis** and look for other signs.",
+    "Mongolian spot and other dermal melanocytosis: record **site, size and colour** in the notes and the red book. This protects the family from later misinterpretation as bruising."
+   ]}
+  ],
+  "differentials": [
+   {"table": {"head": ["Look-alike", "Distinguishing clues"], "rows": [
+    ["Infantile haemangioma vs **port-wine stain**", "Haemangioma appears after birth, is raised and grows fast, then involutes. Port-wine stain is flat, present at birth and permanent"],
+    ["Congenital haemangioma (RICH / NICH)", "Fully formed **at birth**, then either rapidly involutes or stays unchanged. GLUT-1 negative. Specialist"],
+    ["Venous or lymphatic malformation", "Soft, compressible, persistent; no growth phase. Imaging differs"],
+    ["Pyogenic granuloma", "Later onset (months to years); small, pedunculated, bleeds easily"],
+    ["Mongolian spot vs **bruising**", "Bruises are tender, have a history, and change colour over days. Mongolian spots are present at birth, flat and unchanged on review"],
+    ["Naevus of Ota vs melasma / blue naevus", "Melasma is bilateral, brown, acquired and hormone-driven. Blue naevus is a small discrete papule"],
+    ["Achromic naevus vs **vitiligo**", "Achromic naevus is present early, stable and off-white. Vitiligo is acquired, progressive and chalk-white on Wood’s lamp"],
+    ["Naevus anaemicus vs hypopigmentation / pityriasis versicolor", "Rub test: naevus anaemicus does not flush. [Pityriasis versicolor](condition:pityriasis-versicolor) has fine scale"],
+    ["Becker naevus vs café-au-lait macule / congenital naevus", "Café-au-lait is smaller, smooth, no hair; ≥6 suggests NF1. Congenital melanocytic naevus is present at birth and often raised"],
+    ["Epidermal naevus vs viral warts / lichen striatus", "Epidermal naevus is linear, present early and persistent. Lichen striatus is acquired and fades over months. Do **not** treat as warts with destructive OTC products"]
+   ]}}
+  ],
+  "management": [
+   "The primary-care role is **recognise, document, reassure and refer at the right time**. Treatment of complicated haemangiomas and laser for birthmarks are specialist services.",
+   {"h": "Infantile haemangioma: who to refer, and when"},
+   {"callout": "warn", "title": "Refer early (ideally by about 4 weeks of age) to paediatric dermatology / vascular anomalies if any of:", "list": [
+    "**Periocular** (risk of amblyopia and visual loss)",
+    "**‘Beard’ distribution** (chin, jaw, neck), noisy breathing or stridor: risk of **airway** haemangioma. Urgent",
+    "**Lip or perioral** (feeding problems, ulceration, disfigurement)",
+    "**Nasal tip, ear** or large facial lesion (permanent deformity)",
+    "**Large segmental facial** lesion (PHACE work-up) or lumbosacral segmental lesion (spinal anomalies)",
+    "**Nappy area or skin folds** (ulceration)",
+    "Ulcerated, bleeding, or growing rapidly",
+    "**Five or more** skin lesions (liver screening)",
+    "Breast area in girls, or a large lesion with significant parental concern"
+   ]},
+   {"list": [
+    "**Low-risk small lesions:** active observation with dated photos. Explain the natural history: growth mostly in the first 3–5 months, then slow involution over years. Most need no treatment.",
+    "Do not delay referral hoping it will go away. The **early growth window** is when treatment works best."
+   ]},
+   {"h": "Specialist treatments (awareness for the IP)"},
+   {"list": [
+    "**Oral propranolol** is first line for problematic haemangiomas. It is **specialist-initiated** with baseline assessment and dose titration. Counsel parents to give it **with or just after feeds**, and to **withhold it if the baby is unwell, vomiting or not feeding** (risk of hypoglycaemia). Report wheeze, cold peripheries, sleep disturbance or lethargy.",
+    "**Topical timolol** (off-label) is used for selected small, thin, superficial lesions on specialist advice.",
+    "**Ulcerated haemangioma:** non-adherent dressings, barrier ointment in the nappy area, analgesia, and antibiotics if infected, under the specialist plan.",
+    "Laser or surgery for residual skin changes later in childhood."
+   ]},
+   {"h": "Port-wine stain"},
+   {"list": [
+    "Reassure for small, uncomplicated stains. Pulsed-dye laser is a specialist option and often works better when started early in childhood.",
+    "**Facial V1 stain:** refer for ophthalmology (glaucoma) and neurology assessment (Sturge–Weber). **Limb stain with overgrowth or leg-length difference:** refer.",
+    "Cosmetic camouflage (e.g. via Changing Faces skin camouflage services) for older children and adults."
+   ]},
+   {"h": "Pigmented and pale birthmarks"},
+   {"list": [
+    "**Mongolian spot:** no treatment. Reassure that most fade by early childhood. **Document clearly.**",
+    "**Naevus of Ota:** benign. **Ophthalmology** review if the eye is involved (glaucoma). Q-switched or picosecond laser and camouflage are specialist or cosmetic options. Refer any new nodule within it.",
+    "**Achromic naevus and naevus anaemicus:** no treatment needed. Camouflage if wanted. Refer if several ash-leaf-type macules or other features of tuberous sclerosis or NF1.",
+    "**Becker naevus:** reassure. Sun protection reduces contrast. Hair removal options; laser is unpredictable for the pigment. Check for breast or pectoral under-development if extensive.",
+    "**Epidermal naevus:** emollients for small stable lesions. Refer if extensive, inflamed (ILVEN), on the scalp (sebaceous naevus), or with eye, neurological or skeletal features (epidermal naevus syndrome).",
+    "**Congenital melanocytic naevus:** large or giant lesions, multiple satellites or overlying the spine need specialist review."
+   ]},
+   {"callout": "tip", "title": "Support for families", "text": "The **BAD patient information leaflet** on haemangioma of infancy and the **Birthmark Support Group** are useful signposts. Visible birthmarks can carry a real psychosocial burden as children reach school age."}
+  ],
+  "red_flags": [
+   "Haemangioma near the **eye**, in a **beard** distribution or with **noisy breathing**, on the **lip, nose or ear**, large **segmental**, in the **nappy area**, ulcerated or bleeding: refer early or urgently.",
+   "**Five or more** cutaneous haemangiomas (possible liver involvement).",
+   "Lumbosacral midline haemangioma or other midline lumbosacral marks (possible spinal dysraphism).",
+   "Facial **V1 port-wine stain** (Sturge–Weber: seizures, glaucoma).",
+   "Naevus of Ota with **scleral or eye** involvement, or a **new nodule** in any pigmented birthmark.",
+   "A baby on propranolol who is not feeding, vomiting, drowsy or wheezy.",
+   "Blue-grey marks that **change** between visits, are tender, or do not fit the history: think bruising and follow safeguarding procedures."
+  ],
+  "pearls": [
+   "**Tumour vs malformation:** haemangiomas come and go; port-wine stains stay. Get this right and the counselling follows.",
+   "Early referral matters. Most haemangioma growth happens by **3–5 months**, so a 6-month referral can miss the window.",
+   "A white surface on a growing haemangioma is an early warning of ulceration.",
+   "Propranolol counselling: give with feeds, and **skip the dose if the baby is not feeding**.",
+   "**Write it down:** site, size and colour of Mongolian spots and other dermal melanocytosis, in the notes and the red book.",
+   "Rub test: naevus anaemicus stays pale while the surrounding skin flushes.",
+   "**Skin of colour:** dermal melanocytosis is common, and haemangiomas can look darker or more purple. Rely on the growth history."
+  ]
+ },
+ "photos": [
+  {"title": "Infantile haemangioma: proliferating and involuting", "items": ["m6w1:G01", "m6w1:G04", "m6w1:G02"]},
+  {"title": "High-risk site: nappy area (ulceration)", "tone": "danger", "items": ["m6w1:G03"]},
+  {"title": "Port-wine stain (capillary malformation)", "items": ["m6w1:G16", "m6w1:G17"]},
+  {"title": "Dermal melanocytosis: Mongolian spot and naevus of Ota", "items": ["m6w1:G12", "m6w1:G13", "m6w1:G05", "m6w1:G06"]},
+  {"title": "Pale birthmarks: achromic naevus and naevus anaemicus", "items": ["m6w1:G07", "m6w1:G08", "m6w1:G09"]},
+  {"title": "Becker naevus", "items": ["m6w1:G10", "m6w1:G11"]},
+  {"title": "Linear (verrucous) epidermal naevus", "items": ["m6w1:G14", "m6w1:G15"]},
+  {"title": "AI teaching illustration", "items": [{"ai": "haemangioma-natural-history.jpg", "caption": "Natural history of infantile haemangioma: appearance, rapid growth (1–6 months), slow involution and completion."}]}
+ ],
+ "references": [
+  {"label": "PCDS: Strawberry naevus (infantile haemangioma)", "url": "https://www.pcds.org.uk/clinical-guidance/strawberry-naevus"},
+  {"label": "PCDS: Birthmarks – an overview", "url": "https://www.pcds.org.uk/clinical-guidance/birthmarks-an-overview-2"},
+  {"label": "PCDS: Naevus of Ota and Ito", "url": "https://www.pcds.org.uk/clinical-guidance/naevus-of-ota-and-ito"},
+  {"label": "BAD patient leaflet: Haemangioma of infancy", "url": "https://www.bad.org.uk/pils/haemangioma-of-infancy"},
+  {"label": "NICE ESUOM47: Infantile haemangioma – topical timolol", "url": "https://www.nice.org.uk/advice/esuom47"},
+  {"label": "DermNet: Infantile haemangioma", "url": "https://dermnetnz.org/topics/infantile-haemangioma"},
+  {"label": "DermNet: Capillary vascular malformation", "url": "https://dermnetnz.org/topics/capillary-vascular-malformation"},
+  {"label": "DermNet: Naevus of Ota, Ito and Hori", "url": "https://dermnetnz.org/topics/naevus-of-ota-ito-hori"},
+  {"label": "DermNet: Lumbosacral dermal melanocytosis", "url": "https://dermnetnz.org/topics/lumbosacral-dermal-melanocytosis"},
+  {"label": "DermNet: Achromic naevus", "url": "https://dermnetnz.org/topics/achromic-naevus"},
+  {"label": "DermNet: Naevus anaemicus", "url": "https://dermnetnz.org/topics/naevus-anaemicus"},
+  {"label": "DermNet: Becker naevus", "url": "https://dermnetnz.org/topics/becker-naevus"},
+  {"label": "DermNet: Epidermal naevi", "url": "https://dermnetnz.org/topics/epidermal-naevi"}
+ ]
+})
+d.pop("planned", None)
+P.write_text(json.dumps(d, indent=2, ensure_ascii=False) + "\n")
+print("ok")

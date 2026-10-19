@@ -1,0 +1,84 @@
+{
+  "slug": "new-condition",
+  "title": "New condition",
+  "aka": [
+    "synonym"
+  ],
+  "category": "inflammatory",
+  "status": "coming-soon",
+  "order": 99,
+  "module": "Module X · Week Y",
+  "summary": "One-line summary for lists and search.",
+  "card_image": null,
+  "glance": {
+    "think": "",
+    "engine": "",
+    "backbone": "",
+    "never_miss": ""
+  },
+  "sections": {
+    "what": [
+      "Paragraph text."
+    ],
+    "cause": [],
+    "features": [
+      {
+        "list": [
+          "Feature 1",
+          "Feature 2"
+        ]
+      }
+    ],
+    "diagnosis": [],
+    "differentials": [
+      {
+        "table": {
+          "head": [
+            "Condition",
+            "Clue"
+          ],
+          "rows": [
+            [
+              "Mimic",
+              "Distinguishing feature"
+            ]
+          ]
+        }
+      }
+    ],
+    "management": [
+      {
+        "h": "First line"
+      },
+      {
+        "ol": [
+          "Step one",
+          "Step two"
+        ]
+      },
+      {
+        "callout": "warn",
+        "title": "Caution",
+        "text": "Check BNF."
+      }
+    ],
+    "red_flags": [
+      "Red flag statement"
+    ],
+    "pearls": [
+      "Prescriber pearl"
+    ]
+  },
+  "planned": [],
+  "photos": [
+    {
+      "title": "Gallery title",
+      "items": [
+        "A01"
+      ]
+    }
+  ],
+  "references": [
+    "NICE CKS: …"
+  ]
+}

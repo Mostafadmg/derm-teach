@@ -1,0 +1,102 @@
+[
+  {
+    "id": "inflammatory",
+    "title": "Inflammatory skin",
+    "short": "Inflammatory",
+    "blurb": "Chronic, relapsing inflammatory dermatoses seen every week in primary care: eczema/dermatitis and psoriasis.",
+    "accent": "#b5485d",
+    "icon": "flame",
+    "status": "published",
+    "order": 1
+  },
+  {
+    "id": "acne-follicles",
+    "title": "Acne & follicles",
+    "short": "Acne",
+    "blurb": "Disorders of the pilosebaceous unit, with NICE NG198 treatment ladders, antibiotic stewardship and the acne mimics.",
+    "accent": "#b7791f",
+    "icon": "follicle",
+    "status": "published",
+    "order": 2
+  },
+  {
+    "id": "fungal",
+    "title": "Infections — fungal",
+    "short": "Fungal",
+    "blurb": "Dermatophyte and yeast infections: tinea of the body, groin and feet, pityriasis versicolor and candidal intertrigo.",
+    "accent": "#2f855a",
+    "icon": "ring",
+    "status": "published",
+    "order": 3
+  },
+  {
+    "id": "bacterial",
+    "title": "Infections — bacterial",
+    "short": "Bacterial",
+    "blurb": "Superficial to deep bacterial skin infections: impetigo (including MRSA), cellulitis and erysipelas, folliculitis, boils and carbuncles.",
+    "accent": "#3b5bdb",
+    "icon": "bacteria",
+    "status": "published",
+    "order": 4
+  },
+  {
+    "id": "viral-infestations",
+    "title": "Infections — viral & infestations",
+    "short": "Viral & bites",
+    "blurb": "Viral warts in full. Scabies, head lice, Lyme disease and bite reactions are next (Module 5 Week 3).",
+    "accent": "#0e7490",
+    "icon": "virus",
+    "status": "published",
+    "order": 5
+  },
+  {
+    "id": "ulcers-red-leg",
+    "title": "Ulcers & red leg",
+    "short": "Ulcers",
+    "blurb": "Venous, arterial and neuropathic ulcers, pyoderma gangrenosum, and the red-leg differential, so you don’t treat every red leg as cellulitis.",
+    "accent": "#c2410c",
+    "icon": "leg",
+    "status": "published",
+    "order": 6
+  },
+  {
+    "id": "pigmentation",
+    "title": "Pigment & colour change",
+    "short": "Pigment",
+    "blurb": "Hypo- and hyperpigmentation. Progressive macular hypomelanosis in full, plus melasma, lichenoid pigmentation and vitiligo (Module 6 Week 3).",
+    "accent": "#8b5e34",
+    "icon": "drop",
+    "status": "published",
+    "order": 7
+  },
+  {
+    "id": "childhood-neonatal",
+    "title": "Childhood & neonatal",
+    "short": "Childhood",
+    "blurb": "Module 6 Week 1: neonatal pustular rashes, infant acne, nappy rash, vascular and pigmented birthmarks, epidermolysis bullosa and aplasia cutis.",
+    "accent": "#7c5cbf",
+    "icon": "baby",
+    "status": "published",
+    "order": 8
+  },
+  {
+    "id": "older-skin",
+    "title": "Ageing skin & older adults",
+    "short": "Older skin",
+    "blurb": "Itch and xerosis, skin fragility and dermatoporosis, actinic keratoses and photoageing in older adults.",
+    "accent": "#64748b",
+    "icon": "hourglass",
+    "status": "published",
+    "order": 9
+  },
+  {
+    "id": "cosmetic-hair",
+    "title": "Cosmetic & hair",
+    "short": "Cosmetic",
+    "blurb": "Acne scars and keloids, pattern hair loss, alopecia areata and scarring alopecias, plus counselling-level aesthetic topics (neuromodulators, solar lentigines, IPL).",
+    "accent": "#be185d",
+    "icon": "sparkle",
+    "status": "published",
+    "order": 10
+  }
+]

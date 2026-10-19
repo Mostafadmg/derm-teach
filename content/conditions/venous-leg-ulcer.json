@@ -1,0 +1,158 @@
+{
+  "slug": "venous-leg-ulcer",
+  "title": "Venous leg ulcer",
+  "category": "ulcers-red-leg",
+  "order": 1,
+  "module": "Module 5 · Week 2",
+  "aka": [
+    "venous ulcer",
+    "stasis ulcer",
+    "gravitational ulcer",
+    "leg ulcer",
+    "compression",
+    "ABPI",
+    "lipodermatosclerosis",
+    "venous eczema",
+    "haemosiderin"
+  ],
+  "summary": "The commonest chronic leg ulcer: a shallow, sloping, exudative ulcer in the gaiter area. Compression after ABPI is the cornerstone. Colonised does not mean infected.",
+  "card_image": "m5w2:P01",
+  "glance": {
+    "think": "A shallow, sloping, wet ulcer over the medial malleolus with haemosiderin staining, venous eczema, varicose veins and oedema that is worse at the end of the day.",
+    "engine": "Venous hypertension from incompetent valves, previous DVT or calf-pump failure, causing oedema, inflammation and skin breakdown.",
+    "backbone": "ABPI, then multilayer compression, elevation, walking, emollient, and lifelong stockings after healing.",
+    "never_miss": "Arterial disease before compressing, and a non-healing or atypical ulcer (malignancy, PG, vasculitis)."
+  },
+  "sections": {
+    "what": [
+      "A venous leg ulcer is full-thickness skin loss caused by **chronic venous insufficiency** (venous hypertension). It is the **most common** chronic leg ulcer. Other names are stasis ulcer and gravitational ulcer. Avoid calling it a ‘varicose ulcer’ if there are no varicose veins."
+    ],
+    "cause": [
+      {
+        "list": [
+          "**Valve incompetence**, previous **DVT**, obesity, immobility and calf-muscle pump failure cause **venous hypertension**.",
+          "This leads to oedema, haemosiderin deposition, inflammation and lipodermatosclerosis, with poor oxygen and nutrient delivery.",
+          "The skin then breaks down after **minor trauma** and fails to heal."
+        ]
+      }
+    ],
+    "features": [
+      {
+        "list": [
+          "**Gaiter area**, most commonly over the **medial malleolus**.",
+          "**Shallow** ulcer with **sloping** edges, often **heavily exudative**.",
+          "Surrounding skin: varicose veins, brown **haemosiderin** staining, **venous eczema**, atrophie blanche, and **lipodermatosclerosis** (the ‘inverted champagne bottle’ leg).",
+          "**Dependent oedema**, worse when the leg is down.",
+          "Pain is usually milder than with arterial ulcers, unless the ulcer is infected."
+        ]
+      }
+    ],
+    "diagnosis": [
+      {
+        "list": [
+          "Clinical, with signs of venous disease.",
+          "**ABPI** (ankle–brachial pressure index) **before any high compression**, to exclude significant arterial disease.",
+          "Venous duplex if intervention is planned.",
+          "Swab **only** if there are clinical signs of infection."
+        ]
+      }
+    ],
+    "differentials": [
+      {
+        "table": {
+          "head": [
+            "Look-alike",
+            "Distinguishing clues"
+          ],
+          "rows": [
+            [
+              "Arterial ulcer",
+              "Punched-out, distal (toes, pressure points), claudication or rest pain, cold foot, weak pulses, **low ABPI**"
+            ],
+            [
+              "Neuropathic ulcer",
+              "Plantar pressure points, **painless**, callus, diabetes with neuropathy"
+            ],
+            [
+              "Pyoderma gangrenosum",
+              "Rapid, very painful, **violaceous undermined edge**; pathergy"
+            ],
+            [
+              "Vasculitic or malignant ulcer",
+              "Atypical site or edge, rolled or raised margin, non-healing. **Biopsy or refer**"
+            ],
+            [
+              "Pressure ulcer",
+              "Over a bony prominence in an immobile patient"
+            ]
+          ]
+        }
+      },
+      "See also: [Arterial & neuropathic ulcers](condition:arterial-neuropathic-ulcers) · [Pyoderma gangrenosum](condition:pyoderma-gangrenosum)"
+    ],
+    "management": [
+      "Based on NICE CG168 and local leg ulcer and tissue viability pathways.",
+      {
+        "list": [
+          "**Compression** (multilayer bandaging or hosiery) is the cornerstone, **once ABPI is satisfactory**.",
+          "Leg elevation, walking and ankle exercises, weight management, and emollients.",
+          "Treat **venous eczema** with short courses of mild to potent topical steroid around (not in) the ulcer.",
+          "Wound care: moist healing and debridement by tissue viability. Do not use topical antibiotics routinely.",
+          "**Infection:** give systemic antibiotics **only** for spreading cellulitis or systemic signs. Colonisation is not infection.",
+          "Pentoxifylline is sometimes used as an adjunct, following specialist or local policy."
+        ]
+      },
+      {
+        "h": "Refer"
+      },
+      "To vascular surgery, tissue viability or dermatology if: not healing after about 2 weeks of optimal care, atypical appearance, mixed arterial disease, or for venous intervention (NICE: refer for venous assessment)."
+    ],
+    "red_flags": [
+      "**Low or abnormal ABPI**, absent pulses, rest pain or a cold foot: arterial disease, so **do not compress**. Refer to vascular.",
+      "Spreading redness, fever or systemic upset: cellulitis or sepsis.",
+      "Rolled, raised or irregular edge, bleeding, or failure to heal: biopsy to exclude **SCC or BCC** (Marjolin ulcer).",
+      "Rapidly enlarging, very painful ulcer with a purple edge: suspect **pyoderma gangrenosum**."
+    ],
+    "pearls": [
+      "**Never start high compression without a vascular assessment or ABPI.**",
+      "Explain **lifelong compression stockings** after healing, because recurrence is common.",
+      "Good analgesia and exudate control improve adherence to compression.",
+      "Topical steroids on surrounding venous eczema help. Watch for contact allergy to dressings and topical products, which is common in leg ulcer patients."
+    ]
+  },
+  "photos": [
+    {
+      "title": "Venous ulcers: gaiter area, shallow and sloping",
+      "items": [
+        "m5w2:P01",
+        "m5w2:P02",
+        "m5w2:P04"
+      ]
+    },
+    {
+      "title": "Venous stasis changes and lipodermatosclerosis",
+      "items": [
+        "m5w2:P03"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "label": "DermNet: Stasis ulcer",
+      "url": "https://dermnetnz.org/topics/stasis-ulcer"
+    },
+    {
+      "label": "DermNet: Venous insufficiency",
+      "url": "https://dermnetnz.org/topics/venous-insufficiency"
+    },
+    {
+      "label": "NICE CG168: Varicose veins",
+      "url": "https://www.nice.org.uk/guidance/cg168"
+    },
+    {
+      "label": "NICE CKS: Leg ulcer – venous",
+      "url": "https://cks.nice.org.uk/topics/leg-ulcer-venous/"
+    }
+  ],
+  "status": "published"
+}

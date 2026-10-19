@@ -1,0 +1,270 @@
+{
+  "title": "Perineal dermatoses",
+  "aka": [
+    "anogenital warts",
+    "condyloma",
+    "genital warts",
+    "HPV",
+    "hidradenitis groin",
+    "pearly penile papules",
+    "Fordyce spots",
+    "molluscum genital",
+    "lichen sclerosus"
+  ],
+  "category": "viral-infestations",
+  "order": 7,
+  "module": "Module 3 · Week 4",
+  "summary": "Anogenital warts and HPV counselling, groin hidradenitis first-line care (bridge to Week 5 HS), and brief DDx: molluscum, PPP, Fordyce, candida and lichen sclerosus.",
+  "card_image": "m3w4:W4A01",
+  "glance": {
+    "think": "Flesh-coloured coalescing genital papules after sexual contact — or a recurrent painful groin nodule with scarring.",
+    "engine": "Low-risk HPV 6/11 in basal keratinocytes (warts); follicular occlusion and autoinflammation in HS.",
+    "backbone": "Warts: expectant care or podophyllotoxin/imiquimod/cryotherapy via SHS pathways + HPV vaccine catch-up. Groin HS: smoking/weight advice, antiseptic wash, topical clindamycin ± doxycycline; refer Hurley II+.",
+    "never_miss": "Do not call every genital papule a wart (PPP/Fordyce are normal). Chronic white genital itch/scarring → lichen sclerosus pathway. Children with anogenital warts need specialist safeguarding consideration."
+  },
+  "sections": {
+    "what": [
+      "Module 3 Week 4 focuses on **perineal papules and folds**: full coverage of **anogenital warts**, a **groin hidradenitis** bridge to the Week 5 HS deep-dive, and a short differential set (molluscum, pearly penile papules, Fordyce spots, candidal intertrigo, lichen sclerosus).",
+      "Cutaneous viral warts are separate: [viral warts](condition:viral-warts). Candidal folds also deepen on [candida / intertrigo](condition:candida-intertrigo)."
+    ],
+    "cause": [
+      {
+        "list": [
+          "Anogenital warts: sexually acquired low-risk **HPV 6/11** infecting basal keratinocytes through microabrasions; incubation weeks to months.",
+          "HS: follicular occlusion → tunnels and scarring in apocrine folds; smoking and obesity are major drivers — **not** contagious infection.",
+          "Molluscum: poxvirus; genital adult disease may be STI-context.",
+          "PPP and Fordyce: normal anatomical variants (angiofibromas; ectopic sebaceous glands)."
+        ]
+      }
+    ],
+    "features": [
+      {
+        "h": "Anogenital warts"
+      },
+      {
+        "list": [
+          "Flesh-coloured, pink, grey or brown verrucous papules; may coalesce into cauliflower plaques on vulva, penis, scrotum, perianal skin.",
+          "Often asymptomatic; itch, bleeding or psychosexual distress common."
+        ]
+      },
+      {
+        "h": "Groin hidradenitis (bridge)"
+      },
+      {
+        "list": [
+          "Recurrent painful nodules/abscesses, double-ended comedones, sinus tracts and rope-like scars in the inguinal folds.",
+          "Hurley I: abscesses without tracts; II: separated tracts/scarring; III: diffuse interconnected tracts — deepen staging/escalation in Module 3 Week 5 when the dedicated HS page is published."
+        ]
+      },
+      {
+        "h": "Brief DDx strip"
+      },
+      {
+        "table": {
+          "head": [
+            "Entity",
+            "Clue"
+          ],
+          "rows": [
+            [
+              "Molluscum",
+              "Smooth pearly papules with central umbilication"
+            ],
+            [
+              "Pearly penile papules",
+              "Uniform rows on the corona — normal"
+            ],
+            [
+              "Fordyce spots",
+              "Tiny yellow-white sebaceous papules — normal"
+            ],
+            [
+              "Candida",
+              "Bright fold erythema + satellite pustules"
+            ],
+            [
+              "Lichen sclerosus",
+              "White atrophic plaques, itch, scarring — separate pathway"
+            ]
+          ]
+        }
+      }
+    ],
+    "diagnosis": [
+      {
+        "list": [
+          "Warts: usually clinical; biopsy if atypical/ulcerated/resistant. Offer STI screen and partner discussion via local sexual-health services — routine HPV typing is not needed in primary care.",
+          "HS: clinical (typical lesions + sites + chronicity). Swabs often colonisers — do not withhold the diagnosis for a negative culture.",
+          "Children with anogenital warts: specialist paediatric/SHS + safeguarding pathways."
+        ]
+      }
+    ],
+    "differentials": [
+      {
+        "table": {
+          "head": [
+            "Look-alike",
+            "Clues"
+          ],
+          "rows": [
+            [
+              "PPP / vestibular papillae",
+              "Symmetric normal variants — reassure"
+            ],
+            [
+              "Molluscum",
+              "Umbilication"
+            ],
+            [
+              "Anogenital SCC / HSIL",
+              "Indurated, ulcerated, evolving — urgent"
+            ],
+            [
+              "Furuncle vs HS",
+              "Single acute boil without tracts/multi-site history"
+            ],
+            [
+              "Crohn fistula disease",
+              "Gut symptoms, complex perianal disease"
+            ]
+          ]
+        }
+      }
+    ],
+    "management": [
+      {
+        "h": "Anogenital warts (NICE CKS themes)"
+      },
+      {
+        "list": [
+          "~30% may regress in months — **no treatment** is valid if acceptable to the patient.",
+          "Patient-applied (external): **podophyllotoxin** or **imiquimod** per SmPC — avoid podophyllotoxin in pregnancy; teach exact application.",
+          "Clinic: cryotherapy, TCA (often preferred in pregnancy if treatment needed), excision/electrosurgery for selected disease via SHS.",
+          "Recurrence is common because latent HPV persists — set expectations.",
+          "**HPV vaccine catch-up** (Gardasil 9 programme themes): discuss if eligible (routine Year 8; catch-up to 25th birthday for many; GBMSM and immunosuppressed schedules differ) — vaccine does not clear existing warts but may protect against other types.",
+          "Pregnancy: prefer expectant care or clinic methods; many home topicals contraindicated."
+        ]
+      },
+      {
+        "h": "Groin HS — first-line IP actions"
+      },
+      {
+        "list": [
+          "Smoking cessation; weight management; loose clothing; absorbent dressings; reassure not contagious.",
+          "Antiseptic wash (e.g. chlorhexidine) + **topical clindamycin** to active areas.",
+          "Oral doxycycline (or other tetracycline) as a prolonged anti-inflammatory course if needed — not a short “boil antibiotic”.",
+          "Hurley II–III or refractory disease → dermatology (Week 5 covers combination antibiotics, hormonals, biologics, surgery)."
+        ]
+      },
+      {
+        "h": "DDx management snippets"
+      },
+      {
+        "list": [
+          "Molluscum: often expectant; treat for cosmesis/spread via local practice; offer SHS screen if genital adult.",
+          "PPP/Fordyce: **reassure** — procedures only for significant distress.",
+          "Candida: topical azole ± brief hydrocortisone; keep dry; see candidal intertrigo page.",
+          "Lichen sclerosus: do not manage as “thrush forever” — potent steroid pathways and referral for chronic white genital disease."
+        ]
+      }
+    ],
+    "red_flags": [
+      "Ulcerated/indurated “wart” → urgent specialist.",
+      "Hurley II–III HS or non-healing ulcers in long-standing sinuses (SCC risk, especially older men).",
+      "Anogenital warts in children → safeguarding-aware specialist referral.",
+      "LS with architectural change or any suspicion of neoplasia."
+    ],
+    "pearls": [
+      "Condoms reduce but do not abolish HPV transmission (skin outside the condom).",
+      "Incision and drainage alone almost always fails in HS — treat the disease, not only the abscess.",
+      "Sexual-health interface: STI screen offer, partner pathways, vaccine catch-up.",
+      "Always verify current Green Book / NHS HPV schedule and BNF/SmPC before advising."
+    ]
+  },
+  "photos": [
+    {
+      "title": "Anogenital warts",
+      "items": [
+        "m3w4:W4A01",
+        "m3w4:W4A02",
+        "m3w4:W4A03",
+        "m3w4:W4A04",
+        "m3w4:W4A05"
+      ]
+    },
+    {
+      "title": "Hidradenitis in the groin (Week 5 bridge)",
+      "items": [
+        "m3w4:W4B01",
+        "m3w4:W4B02",
+        "m3w4:W4B03",
+        "m3w4:W4B04",
+        "m3w4:W4B05"
+      ]
+    },
+    {
+      "title": "DDx: molluscum",
+      "items": [
+        "m3w4:W4C01",
+        "m3w4:W4C02"
+      ]
+    },
+    {
+      "title": "DDx: pearly penile papules (normal)",
+      "items": [
+        "m3w4:W4D01",
+        "m3w4:W4D02"
+      ]
+    },
+    {
+      "title": "DDx: Fordyce spots (normal; lip exemplars)",
+      "items": [
+        "m3w4:W4E01",
+        "m3w4:W4E02"
+      ]
+    },
+    {
+      "title": "DDx: candidal intertrigo",
+      "items": [
+        "m3w4:W4F01",
+        "m3w4:W4F02"
+      ]
+    },
+    {
+      "title": "Flag: lichen sclerosus",
+      "tone": "danger",
+      "items": [
+        "m3w4:W4G01",
+        "m3w4:W4G02"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "label": "NICE CKS: Warts – anogenital",
+      "url": "https://cks.nice.org.uk/topics/warts-anogenital/"
+    },
+    {
+      "label": "NHS: HPV vaccine",
+      "url": "https://www.nhs.uk/vaccinations/hpv-vaccine/"
+    },
+    {
+      "label": "DermNet: Anogenital warts",
+      "url": "https://dermnetnz.org/topics/anogenital-warts"
+    },
+    {
+      "label": "DermNet: Hidradenitis suppurativa",
+      "url": "https://dermnetnz.org/topics/hidradenitis-suppurativa"
+    },
+    {
+      "label": "PCDS: Hidradenitis suppurativa",
+      "url": "https://www.pcds.org.uk/clinical-guidance/hidradenitis-suppurativa"
+    },
+    {
+      "label": "BAD: HS patient information",
+      "url": "https://www.bad.org.uk/pils/hidradenitis-suppurativa/"
+    }
+  ],
+  "slug": "perineal-dermatoses",
+  "status": "published"
+}

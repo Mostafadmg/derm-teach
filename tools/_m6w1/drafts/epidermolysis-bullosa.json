@@ -1,0 +1,267 @@
+{
+  "slug": "epidermolysis-bullosa",
+  "title": "Epidermolysis bullosa (EB)",
+  "aka": [
+    "EB",
+    "EB simplex",
+    "junctional EB",
+    "dystrophic EB",
+    "skin fragility",
+    "butterfly skin",
+    "blistering newborn",
+    "Kindler EB",
+    "RDEB",
+    "COL7A1",
+    "DEBRA"
+  ],
+  "category": "childhood-neonatal",
+  "order": 3,
+  "sections": {
+    "what": [
+      "**Epidermolysis bullosa (EB)** is a group of rare **inherited ‘mechanobullous’ disorders**. The skin, and often the mucous membranes, blister or shear off after minimal friction or trauma (‘butterfly skin’). Severity ranges from blisters on the feet after a long walk to life-limiting widespread disease.",
+      "It is classified by the **level at which the skin splits**:",
+      {
+        "table": {
+          "head": [
+            "Type",
+            "Level of split",
+            "Key protein (examples)",
+            "Clinical gist"
+          ],
+          "rows": [
+            [
+              "**EB simplex** (most common)",
+              "Within the epidermis (basal keratinocytes)",
+              "Keratins 5 and 14",
+              "Often milder; localised hand and foot blisters, worse in heat. Usually heals without scarring"
+            ],
+            [
+              "**Junctional EB**",
+              "Lamina lucida of the basement membrane",
+              "Laminin-332, collagen XVII, integrin α6β4",
+              "Severe forms present at birth with widespread erosions, mouth and airway involvement. Can be life-limiting"
+            ],
+            [
+              "**Dystrophic EB**",
+              "Below the lamina densa",
+              "**Type VII collagen (COL7A1)**",
+              "Heals with **scarring and milia**. Recessive form (RDEB) causes mitten deformity, strictures and a high **SCC** risk"
+            ],
+            [
+              "**Kindler EB**",
+              "Mixed levels",
+              "Kindlin-1",
+              "Blistering in infancy, then photosensitivity and poikiloderma"
+            ]
+          ]
+        }
+      },
+      "Do not confuse with **EB acquisita**, an autoimmune blistering disease of adults."
+    ],
+    "cause": [
+      {
+        "list": [
+          "Mutations in genes for the proteins that **anchor the skin layers together**. When they are missing or faulty, ordinary shear forces tear the skin at that level.",
+          "Inheritance is **autosomal dominant or recessive** depending on subtype. Recessive dystrophic EB (COL7A1) is the classic severe scarring form.",
+          "Repeated wounding and healing drives **chronic inflammation, scarring and fibrosis**. In RDEB this leads to fused fingers and toes, oesophageal strictures and aggressive cutaneous **squamous cell carcinoma** in chronic wounds, often from adolescence or early adulthood.",
+          "Heat, sweating, friction and poorly fitting footwear worsen blistering, especially in EB simplex."
+        ]
+      }
+    ],
+    "features": [
+      {
+        "list": [
+          "**Blisters and erosions at friction sites:** hands, feet, knees, elbows, nappy area, beltline. They may be present **at birth** or appear with handling, feeding, crawling or walking.",
+          "Areas of **absent skin at birth**, often on the lower legs (EB with congenital absence of skin, Bart syndrome; see [Aplasia cutis congenita](condition:aplasia-cutis)).",
+          "**Nail dystrophy** or loss; **milia** and **atrophic scars** at healed sites (especially dystrophic EB).",
+          "**Mucosal involvement:** mouth blisters and feeding difficulty, oesophageal blistering and strictures (dysphagia), eye erosions, and a **hoarse cry or stridor** in junctional EB.",
+          "Severe RDEB: chronic non-healing wounds, **mitten deformity** of hands and feet, anaemia, poor growth, dental disease, constipation and chronic pain and itch.",
+          "**Localised EB simplex** often first shows up when the child starts walking: blisters on the soles, worse in summer."
+        ]
+      }
+    ],
+    "diagnosis": [
+      {
+        "list": [
+          "Primary care makes the **clinical suspicion**, not the subtype. Any neonate or infant with unexplained blistering or fragility should be treated as possible EB until a specialist says otherwise.",
+          "Ask about **family history** of fragile skin or blistering, and consanguinity.",
+          "Definitive diagnosis is at a **specialist EB centre**: a skin biopsy of a fresh, induced blister for **immunofluorescence mapping** and/or electron microscopy, plus **genetic testing**.",
+          "Exclude infection on the same pathway (bacterial swabs, HSV PCR) because blistering neonates may have infection instead of, or as well as, EB."
+        ]
+      },
+      {
+        "callout": "info",
+        "title": "UK specialist EB services",
+        "text": "The UK has nationally commissioned EB centres for children (e.g. **Great Ormond Street** and **Birmingham Children’s Hospital**) and adults, working with **DEBRA UK** nurses and support workers. A suspected new case is usually discussed directly with the on-call dermatology team."
+      }
+    ],
+    "differentials": [
+      {
+        "table": {
+          "head": [
+            "Look-alike",
+            "Distinguishing clues"
+          ],
+          "rows": [
+            [
+              "Sucking blisters",
+              "One or two blisters on the hand, wrist or lip of a well newborn. No new blisters with handling"
+            ],
+            [
+              "Friction blisters",
+              "Clear cause, localised, no family history, normal skin elsewhere"
+            ],
+            [
+              "[Bullous impetigo](condition:impetigo) / staphylococcal scalded skin",
+              "Infection signs, flaccid blisters, crust; SSSS is tender, red and peels widely. Swab"
+            ],
+            [
+              "Neonatal HSV or varicella",
+              "Grouped vesicles or punched-out erosions, unwell baby. Urgent PCR and antivirals"
+            ],
+            [
+              "Incontinentia pigmenti",
+              "Usually girls. Linear vesicles along **Blaschko’s lines**, then warty, then pigmented stages"
+            ],
+            [
+              "Bullous mastocytosis",
+              "Blisters over thickened, yellow-brown skin; Darier’s sign (urticates when rubbed)"
+            ],
+            [
+              "Neonatal autoimmune blistering (maternal pemphigus or pemphigoid antibodies)",
+              "Mother has the disease; transient and self-resolving"
+            ],
+            [
+              "Burns, scalds or non-accidental injury",
+              "Pattern and history. EB must be considered before assumptions are made, but follow safeguarding procedures if the picture does not fit"
+            ]
+          ]
+        }
+      }
+    ],
+    "management": [
+      "**EB is a specialist, multidisciplinary condition.** The pharmacist or IP’s job is early recognition, safe interim handling, and supporting the specialist plan in the community.",
+      {
+        "h": "At first suspicion"
+      },
+      {
+        "ol": [
+          "**Refer urgently** to paediatric dermatology or the regional EB service. For a neonate, this is a same-day discussion.",
+          "**Handle gently:** lift the baby on a soft pad or sheet, supporting the bottom and neck. Do not lift under the arms. Avoid rubbing, and keep the baby cool.",
+          "**No adhesive tapes, plasters, ECG dots or wristbands on the skin.** Use soft silicone tapes and dressings only, and pad the cot sides.",
+          "Leave blisters intact unless trained. EB nurses teach **lancing with a sterile needle** to drain fluid (preventing spread), leaving the roof as a natural dressing.",
+          "Cover erosions with **non-adherent dressings** (soft silicone, lipido-colloid or petrolatum gauze) and a soft retention bandage. Lubricate with white soft paraffin.",
+          "Assess **feeding** (mouth blisters), **pain** and signs of **infection** or dehydration."
+        ]
+      },
+      {
+        "h": "Ongoing community support (under the specialist plan)"
+      },
+      {
+        "list": [
+          "**Dressings and emollients:** prescribe the specialist-recommended silicone and non-adherent products and quantities. Large, regular supplies are normal. Avoid substitutions without checking with the EB team.",
+          "**Pain and itch:** regular analgesia, and pre-emptive analgesia before dressing changes as advised. Itch is a major burden; follow the specialist plan for emollients and antihistamines.",
+          "**Infection:** colonisation is common. Treat **clinically significant infection** after discussion with the EB team; avoid long courses of topical antibiotics. Swab before treating.",
+          "**Nutrition and gut:** dietitian input, iron and vitamin supplements, laxatives for constipation, and **liquid or dispersible formulations** if there are oral or oesophageal strictures.",
+          "**Medicines optimisation:** avoid rectal routes where possible, check interactions, and choose formulations that do not need swallowing large tablets.",
+          "**Specialist wound therapy (awareness):** birch triterpenes gel (**Filsuvez**, Oleogel-S10) is licensed for partial-thickness wounds in junctional and dystrophic EB and is started by specialists.",
+          "**RDEB:** support **regular skin surveillance**. Any wound that changes, grows, becomes painful or fails to heal needs urgent dermatology review for SCC.",
+          "**Families:** signpost **DEBRA UK** early. Genetic counselling for future pregnancies is arranged by the specialist service."
+        ]
+      },
+      {
+        "callout": "tip",
+        "title": "Practical advice for milder EB simplex",
+        "list": [
+          "Soft, well-fitting, breathable footwear and moisture-wicking socks. Keep feet cool.",
+          "Drain new blisters with a sterile needle and keep the roof on; cover with a non-adherent dressing.",
+          "Plan for worse blistering in hot weather and with new activities."
+        ]
+      }
+    ],
+    "red_flags": [
+      "**Any neonate or infant with unexplained skin fragility or blistering:** urgent specialist referral (same day for neonates).",
+      "**Hoarse cry, stridor or breathing difficulty** (airway involvement in junctional EB): emergency.",
+      "Poor feeding, **dehydration**, weight loss or failure to thrive.",
+      "Fever, spreading redness, or an unwell baby or child: possible **sepsis**.",
+      "New **dysphagia** or food sticking (oesophageal stricture).",
+      "In recessive dystrophic EB: a **wound that changes**, enlarges, becomes heaped-up or painful, or will not heal. Urgent review for **squamous cell carcinoma**."
+    ],
+    "pearls": [
+      "**Think EB in any blistering neonate**, but exclude infection at the same time.",
+      "‘No sticky things on the skin’ is the most useful single instruction for any team caring for a baby with suspected EB.",
+      "Pop and drain, don’t de-roof: the blister roof is the best dressing.",
+      "Dressing and emollient prescriptions are large and ongoing. Make sure repeat systems and formulary teams know the patient.",
+      "**Never assume rough handling** without considering genuine skin fragility, but do not let the diagnosis close down safeguarding thinking.",
+      "Even mild EB simplex benefits from a confirmed diagnosis, which guides footwear, activities and genetic advice.",
+      "**Skin of colour:** redness is subtler. Look for erosions, milia, scarring and post-inflammatory pigment change."
+    ]
+  },
+  "photos": [
+    {
+      "title": "Neonatal and generalised EB",
+      "items": [
+        "m6w1:H01",
+        "m6w1:H02"
+      ]
+    },
+    {
+      "title": "Acral and friction-site blistering",
+      "items": [
+        "m6w1:H03"
+      ]
+    },
+    {
+      "title": "Recessive dystrophic EB: scarring and milia",
+      "tone": "danger",
+      "items": [
+        "m6w1:H04"
+      ]
+    },
+    {
+      "title": "AI teaching illustration",
+      "items": [
+        {
+          "ai": "eb-skin-fragility.jpg",
+          "caption": "Level of the split in EB simplex, junctional and dystrophic EB compared with normal skin."
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "label": "DermNet: Epidermolysis bullosa",
+      "url": "https://dermnetnz.org/topics/epidermolysis-bullosa"
+    },
+    {
+      "label": "DermNet: EB with congenital absence of skin",
+      "url": "https://dermnetnz.org/topics/epidermolysis-bullosa-with-congenital-absence-of-skin"
+    },
+    {
+      "label": "Great Ormond Street Hospital: Epidermolysis bullosa",
+      "url": "https://www.gosh.nhs.uk/conditions-and-treatments/conditions-we-treat/epidermolysis-bullosa/"
+    },
+    {
+      "label": "DEBRA UK",
+      "url": "https://www.debra.org.uk/"
+    },
+    {
+      "label": "BNF: Birch bark extract (Filsuvez)",
+      "url": "https://bnf.nice.org.uk/"
+    }
+  ],
+  "status": "published",
+  "module": "Module 6 · Week 1: epidermolysis bullosa",
+  "summary": "A group of inherited disorders in which skin (and often mucosa) blisters with minimal friction. Primary care recognises it, handles the baby safely and refers urgently to a specialist EB centre. Long-term care is MDT-led, with the IP supporting dressings, pain, nutrition and medicines.",
+  "card_image": "m6w1:H01",
+  "hero": {
+    "ai": "eb-skin-fragility.jpg",
+    "alt": "AI diagram of the level of skin split in EB simplex, junctional and dystrophic EB compared with normal skin"
+  },
+  "glance": {
+    "think": "A newborn or infant with **blisters or raw areas from ordinary handling**, at friction sites, ± absent skin at birth, nail changes or mouth blisters. Or a toddler whose feet blister when they start walking.",
+    "engine": "Faulty **adhesion proteins** (keratins, laminin-332, type VII collagen, kindlin-1) let the skin split at a set level under minor shear.",
+    "backbone": "**Urgent referral to a specialist EB service.** Meanwhile: no adhesives, gentle lifting, non-adherent silicone dressings, pain relief, and family support (DEBRA UK).",
+    "never_miss": "Hoarse cry or stridor (airway involvement in junctional EB), dehydration or sepsis in a blistering neonate, and a **changing chronic wound in recessive dystrophic EB** (squamous cell carcinoma)."
+  }
+}

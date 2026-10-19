@@ -1,0 +1,196 @@
+{
+  "slug": "aplasia-cutis",
+  "title": "Aplasia cutis congenita",
+  "aka": [
+    "aplasia cutis congenita",
+    "ACC",
+    "scalp defect newborn",
+    "absent skin",
+    "hair collar sign",
+    "Adams–Oliver syndrome",
+    "Bart syndrome",
+    "membranous aplasia cutis",
+    "carbimazole embryopathy"
+  ],
+  "category": "childhood-neonatal",
+  "order": 4,
+  "sections": {
+    "what": [
+      "**Aplasia cutis congenita (ACC)** is the congenital, localised **absence of skin**. The depth varies from epidermis only to full-thickness defects through to skull bone and dura.",
+      {
+        "list": [
+          "About **70–80%** are a **solitary lesion on the scalp vertex**, near the hair whorl. Less commonly on the trunk or limbs.",
+          "Defects present at birth may be **healed in utero** (atrophic, hairless scar), a **raw ulcer or erosion**, or a thin shiny **membrane** (membranous ACC).",
+          "Most cases are isolated and heal well. A minority are part of a **syndrome** or have an underlying defect."
+        ]
+      }
+    ],
+    "cause": [
+      "ACC has **many causes**, and often none is found:",
+      {
+        "list": [
+          "**Genetic:** familial forms, and syndromes such as **Adams–Oliver** (scalp ACC with limb defects ± heart and vascular anomalies), trisomy 13 and others.",
+          "**Vascular disruption** or placental infarcts, a co-twin death (fetus papyraceus), and **amniotic bands**.",
+          "**Intrauterine infection:** varicella, HSV.",
+          "**Teratogens:** maternal **carbimazole or methimazole** (the classic pharmacy link), and also misoprostol, valproate and cocaine.",
+          "**Mechanical tension** on the scalp at the vertex during rapid fetal brain growth.",
+          "**With epidermolysis bullosa:** absent skin on the legs and feet with blistering (Bart syndrome). See [Epidermolysis bullosa](condition:epidermolysis-bullosa)."
+        ]
+      }
+    ],
+    "features": [
+      {
+        "list": [
+          "A **sharply demarcated, round, oval or stellate** area, usually 1–2 cm, on the scalp vertex at birth. It may be an erosion, ulcer, crusted area, translucent membrane or blister-like (bullous) lesion.",
+          "Heals over weeks to months to a **smooth, hairless (alopecic), atrophic scar**.",
+          "**Hair collar sign:** a ring of **longer, darker, coarser hair** around a scalp lesion. This marks a possible **neural tube closure defect** (ectopic neural tissue, encephalocele or meningocele).",
+          "Other warning features: **large size** (>4–5 cm), **multiple** lesions, **midline** site, a **vascular stain** or swelling nearby, a **pulsating or fluctuant** lesion, or neurological signs.",
+          "Trunk and limb ACC is often symmetrical and may follow a fetus papyraceus or come with EB."
+        ]
+      }
+    ],
+    "diagnosis": [
+      {
+        "list": [
+          "**Clinical diagnosis at birth.** Document size, depth, appearance (ulcer, membrane, scar) and any hair collar, with photographs.",
+          "Take a **maternal history**: antithyroid drugs (carbimazole/methimazole), other medicines, infections in pregnancy, twin pregnancy, family history of scalp defects or limb anomalies.",
+          "Rule out **birth trauma** (forceps, ventouse, fetal scalp electrode) by history and appearance.",
+          "Examine **limbs, heart and the rest of the skin** for associated anomalies and blistering.",
+          "**Imaging** (ultrasound ± MRI, arranged by specialists) for large, deep, midline, membranous or hair-collar lesions, to look for skull and CNS defects."
+        ]
+      }
+    ],
+    "differentials": [
+      {
+        "table": {
+          "head": [
+            "Look-alike",
+            "Distinguishing clues"
+          ],
+          "rows": [
+            [
+              "Birth trauma (forceps, ventouse, scalp electrode)",
+              "History of instrumental delivery or monitoring; lesion shape matches the instrument; heals with normal hair"
+            ],
+            [
+              "Neonatal HSV erosions",
+              "Grouped vesicles or punched-out erosions, often at an electrode site, appearing after birth; baby may be unwell. Urgent"
+            ],
+            [
+              "EB with congenital absence of skin",
+              "Absent skin on the legs or feet plus blistering elsewhere"
+            ],
+            [
+              "Naevus sebaceous",
+              "Yellow-orange, waxy, hairless plaque on the scalp; raised, not ulcerated or atrophic"
+            ],
+            [
+              "Encephalocele, heterotopic brain tissue, sinus pericranii",
+              "Swelling, compressibility, pulsation, hair collar sign; needs imaging"
+            ],
+            [
+              "Focal dermal hypoplasia and other genodermatoses",
+              "Multiple linear lesions, fat herniation, other anomalies. Specialist"
+            ]
+          ]
+        }
+      }
+    ],
+    "management": [
+      "Most ACC is small and superficial, and heals with **simple, protective wound care**. The IP’s role is to support safe wound care, spot the lesions that need imaging, and pick up the medication history.",
+      {
+        "h": "Small, superficial, isolated scalp lesion"
+      },
+      {
+        "list": [
+          "**Gentle cleansing** with saline or water. Do not scrub or pick at crust.",
+          "Keep the wound **moist** with a bland ointment such as white soft paraffin, and cover with a **non-adherent dressing** if needed.",
+          "**Protect from trauma.** Avoid tight hats or headbands, and no adhesive dressings on the scalp.",
+          "Use a topical antibacterial **only if clinically infected**, following local guidance. Swab first.",
+          "Expect healing over weeks to months, leaving a **hairless scar**. Scar revision or tissue expansion can be considered in later childhood if the patch is noticeable."
+        ]
+      },
+      {
+        "h": "Large, deep, multiple, membranous, midline or hair-collar lesions"
+      },
+      {
+        "list": [
+          "**Urgent referral** to neonatology or paediatrics, with plastic surgery and neurosurgery input as needed.",
+          "Imaging before any procedure. **Never probe** a deep scalp defect.",
+          "Large defects over the vertex risk **sagittal sinus haemorrhage, thrombosis and meningitis**, and are managed with specialist dressings or grafting."
+        ]
+      },
+      {
+        "h": "Pharmacist angle"
+      },
+      {
+        "list": [
+          "Recognise the **carbimazole/methimazole** association in the maternal medication history and flag it to the specialist team. This is relevant for counselling about future pregnancies (propylthiouracil is often preferred in the first trimester).",
+          "**Do not advise stopping** maternal antithyroid treatment yourself. Untreated hyperthyroidism in pregnancy is dangerous; changes are for the obstetric and endocrine team.",
+          "Counsel parents that the scar and patch of hair loss are usually permanent but rarely cause problems, and that hair can be styled to cover it."
+        ]
+      }
+    ],
+    "red_flags": [
+      "**Hair collar sign**, a swelling, or a pulsating or compressible scalp lesion: image before assuming it is ‘just a scar’.",
+      "**Large (>4–5 cm), deep, or multiple** defects, especially over the midline vertex (sagittal sinus).",
+      "Bleeding, discharge, fever or signs of infection or meningitis in a baby with a scalp defect.",
+      "Associated **limb defects**, heart murmur or vascular anomalies (Adams–Oliver).",
+      "ACC with **blistering** or absent skin on the legs (EB-associated).",
+      "Neurological signs, poor feeding or an unwell baby."
+    ],
+    "pearls": [
+      "**Hair collar = image.** It is the single most important sign to look for.",
+      "Never probe a deep scalp defect.",
+      "**ACC + limb defects → Adams–Oliver. ACC + blistering → EB.**",
+      "Ask about **carbimazole** in pregnancy. It is a classic exam and practice link.",
+      "Most small vertex lesions just need gentle, moist wound care and reassurance.",
+      "**Skin of colour:** the healed scar may be hypo- or hyperpigmented. Use the absent hair and atrophy to recognise it."
+    ]
+  },
+  "photos": [
+    {
+      "title": "Aplasia cutis congenita: scalp vertex defect at birth",
+      "tone": "danger",
+      "items": [
+        "m6w1:H05"
+      ]
+    },
+    {
+      "title": "Healed aplasia cutis: atrophic, hairless scar",
+      "items": [
+        "m6w1:H06"
+      ]
+    },
+    {
+      "title": "Related: EB with fragile, absent skin",
+      "items": [
+        "m6w1:H01"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "label": "DermNet: Aplasia cutis congenita",
+      "url": "https://dermnetnz.org/topics/aplasia-cutis"
+    },
+    {
+      "label": "DermNet: EB with congenital absence of skin",
+      "url": "https://dermnetnz.org/topics/epidermolysis-bullosa-with-congenital-absence-of-skin"
+    },
+    {
+      "label": "BNF: Carbimazole (pregnancy cautions)",
+      "url": "https://bnf.nice.org.uk/drugs/carbimazole/"
+    }
+  ],
+  "status": "published",
+  "module": "Module 6 · Week 1: aplasia cutis congenita",
+  "summary": "A baby born with a sharply defined patch of missing skin, usually on the scalp vertex. Small superficial lesions heal with bland wound care to a hairless scar. Large, deep, midline or hair-collar lesions need imaging and specialist care.",
+  "card_image": "m6w1:H05",
+  "glance": {
+    "think": "A well-demarcated **ulcer, erosion, shiny membrane or scar on the scalp at birth**, usually near the vertex, with no hair growing in it.",
+    "engine": "Localised failure of skin development in utero. Causes include genetics, vascular disruption, amniotic bands, intrauterine infection and teratogens such as **carbimazole/methimazole**.",
+    "backbone": "Bland, protective wound care for small lesions. **Image and refer** when the lesion is large, deep, midline, multiple or has a hair collar.",
+    "never_miss": "**Hair collar sign** (possible underlying neural tissue or skull defect), deep defects over the sagittal sinus (bleeding, infection), and associated limb, heart or blistering problems."
+  }
+}

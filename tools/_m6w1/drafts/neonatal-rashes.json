@@ -1,0 +1,455 @@
+{
+  "slug": "neonatal-rashes",
+  "title": "Neonatal rashes",
+  "aka": [
+    "erythema toxicum neonatorum",
+    "transient neonatal pustular melanosis",
+    "TNPM",
+    "miliaria",
+    "neonatal acne",
+    "neonatal cephalic pustulosis",
+    "neonatal herpes",
+    "HSV"
+  ],
+  "category": "childhood-neonatal",
+  "order": 1,
+  "sections": {
+    "what": [
+      "Newborn skin produces a handful of **common, benign, self-limiting eruptions** that worry parents but need no treatment. The skill in primary care is to recognise them confidently, *and* to pick out the rare baby with infection, especially **neonatal HSV**.",
+      {
+        "table": {
+          "head": [
+            "Rash",
+            "In one line"
+          ],
+          "rows": [
+            [
+              "Erythema toxicum neonatorum (ETN)",
+              "Very common (up to about half of term babies). Blotchy red macules with small central papules or pustules in the first days of life"
+            ],
+            [
+              "Transient neonatal pustular melanosis (TNPM)",
+              "Fragile pustules on non-red skin, **present at birth**, leaving brown macules. More often recognised in darker skin"
+            ],
+            [
+              "Miliaria (heat rash)",
+              "Blocked sweat ducts in a warm, overwrapped baby: clear ‘dewdrop’ vesicles or itchy red papules"
+            ],
+            [
+              "Neonatal acne / cephalic pustulosis",
+              "Facial papules and pustules in the first ~6 weeks (about 1 in 5 babies)"
+            ],
+            [
+              "Infantile acne",
+              "Rarer, from ~6 weeks to 12–16 months. True comedones and inflammatory lesions that can scar"
+            ],
+            [
+              "Napkin (nappy) dermatitis",
+              "Irritant dermatitis from occlusion, urine and faeces, often with secondary *Candida*. Peaks at 3–15 months"
+            ],
+            [
+              "Infantile atopic eczema",
+              "Itchy, dry, red cheeks, scalp and extensors, often starting before 12 months. Nappy area relatively spared"
+            ]
+          ]
+        }
+      }
+    ],
+    "cause": [
+      {
+        "list": [
+          "**ETN:** cause unknown. The pustules are **sterile** and packed with **eosinophils**. It is thought to be an immune reaction of newly exposed skin, not an infection or a hygiene problem.",
+          "**TNPM:** also sterile, but the pustules contain **neutrophils**. Some regard it as an early (in-utero) variant of ETN.",
+          "**Miliaria:** immature eccrine ducts plug when the baby is hot, feverish or overdressed. *Crystallina* = block in the stratum corneum (no inflammation). *Rubra* = deeper block in the mid-epidermis (inflamed, itchy).",
+          "**Neonatal acne:** maternal and neonatal androgens stimulate sebaceous glands. **Cephalic pustulosis** is linked to *Malassezia* yeasts, and true comedones are absent.",
+          "**Napkin dermatitis:** occlusion and urine over-hydrate the skin. Faecal enzymes and bile salts damage the barrier, and ammonia raises pH. *Candida albicans* then colonises damaged, moist skin. It is rarely an allergy to the nappy itself.",
+          "**Infant eczema:** an inherited barrier defect (e.g. filaggrin), Th2 inflammation and the itch–scratch cycle. See [Eczema / dermatitis](condition:eczema-dermatitis)."
+        ]
+      }
+    ],
+    "features": [
+      {
+        "table": {
+          "head": [
+            "Rash",
+            "Timing",
+            "Look and sites",
+            "Baby well?"
+          ],
+          "rows": [
+            [
+              "ETN",
+              "Days 1–14 (usually days 2–3)",
+              "Red blotches with central 1–2 mm white/yellow papules or pustules (‘flea-bitten’). Face, trunk, proximal limbs. Lesions come and go within hours. **Spares palms and soles**",
+              "Yes"
+            ],
+            [
+              "TNPM",
+              "At birth",
+              "Superficial pustules on a **non-red** base that rupture to leave a collarette of scale, then **brown macules** that fade over weeks to months. Can involve palms and soles",
+              "Yes"
+            ],
+            [
+              "Miliaria crystallina",
+              "First week, or when overheated",
+              "1–2 mm clear, fragile vesicles on the head, neck and upper trunk. No redness",
+              "Yes"
+            ],
+            [
+              "Miliaria rubra",
+              "Overheating, fever, occlusion",
+              "Itchy red non-follicular papules in the **folds** (neck, axillae, groin) and on the trunk",
+              "Yes"
+            ],
+            [
+              "Neonatal acne / cephalic pustulosis",
+              "First weeks to ~6 weeks",
+              "Papules and pustules on the cheeks, chin and forehead. Few or no comedones in cephalic pustulosis",
+              "Yes"
+            ],
+            [
+              "Infantile acne",
+              "~6 weeks to 16 months",
+              "Comedones, papules, pustules and sometimes nodules, mostly on the cheeks. Can scar. More common in boys",
+              "Yes"
+            ],
+            [
+              "Irritant napkin dermatitis",
+              "3–15 months",
+              "Red, glazed or scaly skin on **convex** surfaces that touch the nappy. **Folds spared**",
+              "Yes"
+            ],
+            [
+              "Candidal napkin dermatitis",
+              "Any, often after antibiotics",
+              "Beefy-red, shiny plaques **involving the folds**, with **satellite papules and pustules**",
+              "Yes"
+            ],
+            [
+              "Infantile eczema",
+              "Usually from 2–6 months",
+              "Dry, rough, red cheeks (nose often spared), scalp and extensors. Weeping and crust when active. Rubbing and poor sleep",
+              "Yes"
+            ]
+          ]
+        }
+      },
+      {
+        "callout": "danger",
+        "title": "The baby who is not well",
+        "text": "**Neonatal HSV** presents in the first days to weeks with **grouped vesicles or punched-out erosions on a red base** (often scalp, face or trunk, or at a scalp-electrode site), sometimes with conjunctivitis, fever, lethargy, poor feeding or seizures. Skin lesions may be absent at first."
+      }
+    ],
+    "diagnosis": [
+      {
+        "list": [
+          "**Clinical** for all of the benign rashes. The key question is always: *is the baby well?* Check temperature, feeding, alertness, hydration and the eyes and mouth.",
+          "Document gestation, age at onset, whether the rash was present at birth, and distribution (palms, soles, folds).",
+          "If there is doubt, the specialist team may take a pustule smear: **eosinophils** suggest ETN, **neutrophils** without organisms suggest TNPM. Swabs for bacteria and *Candida*, and **HSV PCR** of vesicle fluid, are done on the same-day pathway.",
+          "**Napkin rash:** the folds tell you the diagnosis. Folds spared = irritant; folds involved with satellites = *Candida*. Swab if severe, atypical or not responding.",
+          "**Acne after 12–16 months, or between 1 and 6 years:** this is very rare. Look for early sexual development, accelerated growth or hirsutism, and refer for endocrine assessment."
+        ]
+      }
+    ],
+    "differentials": [
+      {
+        "table": {
+          "caption": "Vesicles or pustules in a neonate: teaching table",
+          "head": [
+            "Condition",
+            "Timing",
+            "Morphology / sites",
+            "Baby well?",
+            "Action"
+          ],
+          "rows": [
+            [
+              "ETN",
+              "Days 1–14",
+              "Red macules with papules and pustules. Spares palms and soles",
+              "Yes",
+              "Reassure"
+            ],
+            [
+              "TNPM",
+              "At birth",
+              "Pustules on a non-red base, palms and soles possible, then brown macules",
+              "Yes",
+              "Reassure"
+            ],
+            [
+              "Miliaria",
+              "Heat or occlusion",
+              "Clear vesicles, or itchy red fold papules",
+              "Yes",
+              "Cool the baby"
+            ],
+            [
+              "Neonatal acne / cephalic pustulosis",
+              "Weeks",
+              "Facial papules and pustules ± comedones",
+              "Yes",
+              "Observe; gentle care"
+            ],
+            [
+              "**Neonatal HSV**",
+              "Days–weeks",
+              "**Grouped vesicles** on a red base; scalp, face, trunk; ± eye or CNS",
+              "Often **unwell**",
+              "**Same-day emergency paediatric referral** (IV aciclovir pathway)"
+            ],
+            [
+              "Staphylococcal pustulosis / bullous impetigo",
+              "Variable",
+              "Pustules, flaccid bullae, honey crust, often in the nappy area or periumbilical",
+              "±",
+              "Swab; antibiotics per guidance; low threshold to refer neonates"
+            ],
+            [
+              "Congenital / neonatal candidiasis",
+              "Birth or early",
+              "Widespread papules and pustules, can involve palms and soles",
+              "±",
+              "Specialist assessment if present at birth or widespread"
+            ]
+          ]
+        }
+      },
+      {
+        "h": "Napkin-area look-alikes"
+      },
+      {
+        "table": {
+          "head": [
+            "Look-alike",
+            "Distinguishing clues"
+          ],
+          "rows": [
+            [
+              "Seborrhoeic dermatitis",
+              "Salmon-pink, greasy scale in the folds, with cradle cap"
+            ],
+            [
+              "Napkin psoriasis",
+              "Persistent, sharply demarcated, shiny red plaques that do not respond to barrier care"
+            ],
+            [
+              "[Impetigo](condition:impetigo)",
+              "Flaccid blisters, pustules and honey-coloured crust"
+            ],
+            [
+              "Perianal streptococcal dermatitis",
+              "Bright, well-defined perianal redness, pain on defecation; swab"
+            ],
+            [
+              "Zinc deficiency (acrodermatitis enteropathica), Langerhans cell histiocytosis",
+              "Rare. Refractory erosive rash, periorificial involvement, or purpura and failure to thrive. Specialist"
+            ],
+            [
+              "Injury inconsistent with the history",
+              "Patterned marks, burns or bruises. Document carefully and follow local safeguarding procedures"
+            ]
+          ]
+        }
+      }
+    ],
+    "management": [
+      "Benign neonatal rashes are a **counselling** job. The pharmacist or IP adds value by recognising the pattern, reassuring confidently, avoiding unnecessary products, and safety-netting clearly.",
+      {
+        "h": "ETN and TNPM"
+      },
+      {
+        "list": [
+          "**No treatment.** ETN usually clears within 1–2 weeks and may briefly recur. TNPM pigment fades over weeks to months.",
+          "Do not squeeze pustules, and avoid antiseptics and medicated creams. Use a plain emollient only if the skin is dry.",
+          "Do not treat TNPM as an infection if the diagnosis is clear and the baby is well."
+        ]
+      },
+      {
+        "h": "Miliaria"
+      },
+      {
+        "list": [
+          "**Cool the baby:** fewer layers, a cooler room, loose cotton clothing, and remove wet clothing promptly. This is the main ‘prescription’.",
+          "Lukewarm baths. Avoid heavy, occlusive ointments on affected skin.",
+          "It usually settles in a day or two once the baby is cool. A short course of a mild topical steroid is occasionally used for itchy miliaria rubra.",
+          "**Fever with rash:** do not assume heat rash. Assess for infection."
+        ]
+      },
+      {
+        "h": "Neonatal and infantile acne"
+      },
+      {
+        "list": [
+          "**Neonatal acne / cephalic pustulosis:** observe. Wash gently with water, and avoid oils and greasy or comedogenic products. Most clear within weeks to months without scarring. A topical azole is sometimes used for persistent cephalic pustulosis on specialist or GP advice.",
+          "**Infantile acne needing treatment:** follow paediatric acne principles within licence limits, e.g. a low-strength benzoyl peroxide and/or a topical retinoid. Oral options are erythromycin-class, because **tetracyclines are contraindicated under 12 years**.",
+          "Refer: nodular or scarring disease, treatment failure, or suspected hyperandrogenism. Do not use adult OTC acne kits on infants."
+        ]
+      },
+      {
+        "h": "Napkin dermatitis (aligned with NICE CKS: Nappy rash)"
+      },
+      {
+        "ol": [
+          "**Barrier care for every baby:** frequent changes, nappy-free time, cleanse with water or a non-soap cleanser, pat dry, and apply a **thick barrier ointment** (zinc oxide and/or white soft paraffin) at each change. Use super-absorbent disposables. Avoid fragranced wipes, talc and tight plastic pants.",
+          "**Inflamed irritant rash** not settling with barrier care: **hydrocortisone 1%** cream or ointment thinly, once or twice daily for up to **7 days**. Apply before the barrier product.",
+          "**Suspected *Candida*** (folds involved, satellite lesions, or non-response after 2–3 days): a topical **imidazole** (clotrimazole, miconazole or econazole) until about **7–10 days after clearance**. If very inflamed, a short course of a hydrocortisone–imidazole combination. Never use potent steroids under a nappy.",
+          "**Bacterial infection** (pustules, crust, bullae): swab and follow local antimicrobial guidance (often oral flucloxacillin; see [Impetigo](condition:impetigo)).",
+          "Check for oral thrush and treat it too. Review breastfeeding nipples if relevant."
+        ]
+      },
+      {
+        "h": "Infantile eczema"
+      },
+      {
+        "list": [
+          "Liberal **emollients** and a soap substitute. Do not use aqueous cream as a leave-on product.",
+          "Step the topical steroid to severity. For the face, use **hydrocortisone 1%** for short courses. **Potent steroids under 12 months only with specialist advice.**",
+          "Counsel on fingertip units and the **fire risk** of paraffin-based emollients on clothing and bedding. Full detail: [Eczema / dermatitis](condition:eczema-dermatitis)."
+        ]
+      },
+      {
+        "callout": "warn",
+        "title": "Check age licences",
+        "text": "Topical azoles, steroids, benzoyl peroxide and retinoids all have age and licence limits in infants. Check **BNF for Children** and the SmPC before prescribing."
+      }
+    ],
+    "red_flags": [
+      "**Grouped vesicles, pustules or erosions in a neonate**, especially with fever, lethargy, poor feeding, irritability, seizures or eye involvement: **same-day emergency paediatric referral** for HSV work-up and IV aciclovir. Never ‘wait and see’.",
+      "Any **unwell, febrile or premature** baby with a rash.",
+      "Mucosal involvement, widespread blistering or skin fragility (think staphylococcal scalded skin or [epidermolysis bullosa](condition:epidermolysis-bullosa)).",
+      "**Eczema herpeticum** on infant eczema: punched-out erosions in an unwell child.",
+      "Significant napkin rash in an infant **under 1 month**, or a severe, ulcerated or refractory nappy rash (consider rarer causes).",
+      "Acne in a child aged 1–6 years, or with signs of early puberty.",
+      "Patterned injury or a history that does not fit: follow safeguarding procedures."
+    ],
+    "pearls": [
+      "**‘Is the baby well?’** is the single most important question for any neonatal rash. Write the answer down.",
+      "ETN spares the palms and soles. TNPM can involve them and is present at birth.",
+      "Napkin rash: **folds spared = irritant; folds involved with satellites = *Candida*.**",
+      "Show parents how much barrier ointment to use. Most use too little.",
+      "Hydrocortisone 1% for a short course is appropriate under a nappy. Potent steroids are not.",
+      "Parents often fear allergy, poor hygiene or sepsis. Explain that the pustules of ETN and TNPM are sterile.",
+      "**Skin of colour:** erythema can be hard to see, so palpate for papules and pustules. TNPM is more often seen in darker skin, and its brown macules can be mistaken for bruising or Mongolian spots."
+    ]
+  },
+  "photos": [
+    {
+      "title": "Erythema toxicum neonatorum",
+      "items": [
+        "m6w1:F01",
+        "m6w1:F02",
+        "m6w1:F03"
+      ]
+    },
+    {
+      "title": "Transient neonatal pustular melanosis (TNPM)",
+      "items": [
+        "m6w1:F04",
+        "m6w1:F05",
+        "m6w1:F06"
+      ]
+    },
+    {
+      "title": "Miliaria (heat rash)",
+      "items": [
+        "m6w1:F07",
+        "m6w1:F08"
+      ]
+    },
+    {
+      "title": "Neonatal cephalic pustulosis and infantile acne",
+      "items": [
+        "m6w1:F09",
+        "m6w1:F10"
+      ]
+    },
+    {
+      "title": "Napkin dermatitis: irritant vs candidal",
+      "items": [
+        "m6w1:F11",
+        "m6w1:F12",
+        "m6w1:F13"
+      ]
+    },
+    {
+      "title": "Infantile atopic eczema",
+      "items": [
+        "m6w1:F14",
+        "m6w1:F15"
+      ]
+    },
+    {
+      "title": "Red flag: neonatal herpes simplex",
+      "tone": "danger",
+      "items": [
+        "m6w1:F16"
+      ]
+    },
+    {
+      "title": "AI teaching illustration",
+      "items": [
+        {
+          "ai": "neonatal-pustules-differential.jpg",
+          "caption": "Neonatal pustular rashes compared: erythema toxicum vs TNPM vs miliaria vs neonatal HSV."
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "label": "NICE CKS: Nappy rash",
+      "url": "https://cks.nice.org.uk/topics/nappy-rash/"
+    },
+    {
+      "label": "NICE CKS: Eczema – atopic",
+      "url": "https://cks.nice.org.uk/topics/eczema-atopic/"
+    },
+    {
+      "label": "PCDS: Napkin eczema",
+      "url": "https://www.pcds.org.uk/clinical-guidance/eczema-napkin-eczema"
+    },
+    {
+      "label": "DermNet: Toxic erythema of the newborn",
+      "url": "https://dermnetnz.org/topics/toxic-erythema-of-the-newborn"
+    },
+    {
+      "label": "DermNet: Transient neonatal pustular melanosis",
+      "url": "https://dermnetnz.org/topics/transient-neonatal-pustular-melanosis"
+    },
+    {
+      "label": "DermNet: Miliaria",
+      "url": "https://dermnetnz.org/topics/miliaria"
+    },
+    {
+      "label": "DermNet: Acne in children",
+      "url": "https://dermnetnz.org/topics/acne-in-children"
+    },
+    {
+      "label": "DermNet: Napkin dermatitis",
+      "url": "https://dermnetnz.org/topics/napkin-dermatitis"
+    },
+    {
+      "label": "DermNet: Blisters and pustules in neonates",
+      "url": "https://dermnetnz.org/topics/blisters-and-pustules-in-neonates"
+    },
+    {
+      "label": "BNF for Children",
+      "url": "https://bnfc.nice.org.uk/"
+    }
+  ],
+  "status": "published",
+  "module": "Module 6 · Week 1: infant & neonatal skin",
+  "summary": "Most newborn rashes (erythema toxicum, TNPM, miliaria, neonatal acne) are benign and need only reassurance. Napkin dermatitis and infant eczema need barrier care and stepped topicals. A neonate with grouped vesicles has HSV until proven otherwise.",
+  "card_image": "m6w1:F01",
+  "hero": {
+    "ai": "neonatal-pustules-differential.jpg",
+    "alt": "AI comparison chart of neonatal pustular rashes: erythema toxicum, TNPM, miliaria and neonatal HSV"
+  },
+  "glance": {
+    "think": "A **well** baby in the first days or weeks with blotchy macules, tiny pustules, clear sweat vesicles or facial papules. Or a red nappy area at 3–15 months.",
+    "engine": "Immature skin: sterile inflammatory pustules (ETN, TNPM), blocked sweat ducts (miliaria), maternal androgens or *Malassezia* (neonatal acne), occlusion and faecal enzymes (napkin).",
+    "backbone": "Confirm the baby is well, then reassure. Cool an overheated baby. Use barrier ointment for the nappy area, and add hydrocortisone 1% or an azole when the pattern fits.",
+    "never_miss": "**Neonatal herpes simplex**: grouped vesicles or erosions, especially with fever, lethargy, poor feeding or eye involvement. Same-day emergency referral."
+  }
+}

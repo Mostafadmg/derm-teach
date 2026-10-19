@@ -1,0 +1,189 @@
+{
+  "title": "Facial ageing & neuromodulators",
+  "aka": [
+    "wrinkles",
+    "facial ageing",
+    "dynamic lines",
+    "static lines",
+    "botulinum toxin",
+    "Botox",
+    "Azzalure",
+    "Bocouture",
+    "fillers",
+    "hyaluronic acid"
+  ],
+  "category": "cosmetic-hair",
+  "order": 4,
+  "module": "Module 6 · Week 5",
+  "summary": "Counselling-level guide to intrinsic vs extrinsic ageing, dynamic vs static lines, and botulinum toxin / filler safety — no injection protocols.",
+  "card_image": "m6w5:W5A-01",
+  "glance": {
+    "think": "Someone asking about frown lines, crow’s feet or “preventative Botox”, or worried after a recent aesthetic treatment.",
+    "engine": "Intrinsic ageing plus UV/smoking drive volume loss and elastosis; dynamic lines from repeated muscle movement; static lines persist at rest.",
+    "backbone": "Photoprotection and expectations first; botulinum toxin is POM and face-to-face prescribing only; recognise ptosis, infection and filler emergencies.",
+    "never_miss": "Filler vascular occlusion (pain, livedo, visual loss) → emergency pathway. Suspected iatrogenic botulism after unlicensed toxin → 999 / UKHSA."
+  },
+  "sections": {
+    "what": [
+      "Facial ageing mixes **intrinsic** (genetics, time) and **extrinsic** (UV, smoking, pollution) change: volume loss, bone remodelling, elastosis and wrinkles. **Dynamic lines** appear with expression; **static lines** remain at rest.",
+      "This page is **counselling-level only** for community pharmacist IPs: what patients ask about neuromodulators and fillers, UK regulation, expected effects and red flags. It does **not** teach injection technique, doses, units or reconstitution."
+    ],
+    "cause": [
+      {
+        "list": [
+          "Dynamic lines: repeated frontalis, corrugator, orbicularis oculi and other facial muscle activity.",
+          "Static lines and folds: dermal thinning, fat-pad descent, bone resorption, gravity.",
+          "Botulinum toxin type A temporarily blocks acetylcholine release at the neuromuscular junction → reduced muscle contraction for about 3–4 months.",
+          "HA fillers restore volume by placing hyaluronic-acid gel in soft tissue — different products and planes (specialist detail)."
+        ]
+      }
+    ],
+    "features": [
+      {
+        "list": [
+          "Glabellar frown lines, forehead lines, crow’s feet are the common aesthetic requests.",
+          "Expected toxin timeline: onset over days, peak around 2 weeks, duration about 3–4 months.",
+          "Common local effects: bruising, short-lived headache, asymmetric smile if diffusion occurs.",
+          "Filler: immediate volume; swelling and bruising common early."
+        ]
+      }
+    ],
+    "diagnosis": [
+      "Aesthetic assessment belongs to a trained face-to-face prescriber. Community role: screen for skin-cancer lesions in photoaged faces before anyone treats pigment, and triage complications."
+    ],
+    "differentials": [
+      {
+        "table": {
+          "head": [
+            "Presentation",
+            "Think"
+          ],
+          "rows": [
+            [
+              "New facial asymmetry after toxin",
+              "Diffusion / brow or lid ptosis — usually temporary"
+            ],
+            [
+              "Acute unilateral facial weakness with forehead spared",
+              "Stroke — 999 FAST"
+            ],
+            [
+              "Painful livedo or blanching after filler",
+              "Vascular occlusion — emergency"
+            ],
+            [
+              "Descending paralysis, dysphagia after unlicensed injections",
+              "Iatrogenic botulism — 999 / UKHSA"
+            ]
+          ]
+        }
+      }
+    ],
+    "management": [
+      {
+        "h": "Before anyone injects (counselling)"
+      },
+      {
+        "list": [
+          "Daily SPF, stop smoking, realistic expectations — toxin softens dynamic lines; it does not lift sagging skin or replace volume.",
+          "Botulinum toxin for cosmetic use is a **prescription-only medicine**. GPhC guidance: pharmacist prescribers must **examine face to face**; remote prescribing of these medicines is not appropriate.",
+          "Illegal under-18 cosmetic toxin/fillers (Botulinum Toxin and Cosmetic Fillers (Children) Act 2021).",
+          "Advise licensed UK product via a regulated, insured practitioner — never buy toxin online for self-injection."
+        ]
+      },
+      {
+        "h": "Aftercare themes (practitioner-led detail)"
+      },
+      {
+        "list": [
+          "Follow the treating clinician’s aftercare (often avoid rubbing, lying flat or vigorous exercise for the first hours).",
+          "Review at about 2 weeks rather than unplanned “top-ups”.",
+          "OTC “Botox-like” peptide creams have weak evidence — do not oversell."
+        ]
+      },
+      {
+        "h": "Filler adverse-effect awareness (no procedure detail)"
+      },
+      {
+        "list": [
+          "Early: swelling, bruising, lumps. Delayed: nodules, biofilm infection — refer back to the injector/dermatology.",
+          "**Vascular occlusion:** severe pain, livedo, blanching soon after injection → **emergency** (injector/A&E; hyaluronidase is a specialist treatment).",
+          "**Visual loss / ophthalmoplegia after filler:** sight-threatening emergency — call 999; do not delay."
+        ]
+      },
+      {
+        "callout": "danger",
+        "title": "Unlicensed toxin / botulism",
+        "text": "Descending weakness, dysarthria, dysphagia or breathing difficulty after aesthetic injections → 999. UKHSA may advise on antitoxin; notify health protection; Yellow Card. Check UK-licensed product and legitimate supply chain."
+      },
+      {
+        "callout": "info",
+        "title": "Therapeutic facial palsy toxin",
+        "text": "Specialist facial-palsy teams use toxin for synkinesis and asymmetry alongside physiotherapy. Acute Bell’s palsy pathways (steroid within 72 h, eye protection) are separate — forehead-sparing weakness is stroke until proven otherwise."
+      }
+    ],
+    "red_flags": [
+      "Visual symptoms or severe pain after filler → emergency.",
+      "Bilateral descending paralysis after unlicensed injections → 999 / UKHSA botulism pathway.",
+      "Drooping eyelid with corneal exposure risk → urgent eye care.",
+      "Stroke pattern facial weakness → 999."
+    ],
+    "pearls": [
+      "This site intentionally omits units, dilution and injection maps — those belong in accredited aesthetic training, not a teaching website.",
+      "Photoaged faces need a skin-cancer check before cosmetic energy devices — see [photoageing](condition:photoageing) and [solar lentigines](condition:solar-lentigines).",
+      "Document advice and signpost legitimate practitioners; do not prescribe toxin remotely."
+    ]
+  },
+  "photos": [
+    {
+      "title": "Facial ageing",
+      "items": [
+        "m6w5:W5A-01",
+        "m6w5:W5A-02",
+        "m6w5:W5A-03",
+        "m6w5:W5A-04",
+        "m6w5:W5A-05",
+        "m6w5:W5A-06",
+        "m6w5:W5A-07",
+        "m6w5:W5A-08"
+      ]
+    },
+    {
+      "title": "Botulinum toxin: before / after and adverse effects",
+      "items": [
+        "m6w5:W5B-01",
+        "m6w5:W5B-02",
+        "m6w5:W5B-03",
+        "m6w5:W5B-04",
+        "m6w5:W5B-05",
+        "m6w5:W5B-06",
+        "m6w5:W5B-07",
+        "m6w5:W5B-08"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "label": "DermNet: Botulinum toxin",
+      "url": "https://dermnetnz.org/topics/botulinum-toxin"
+    },
+    {
+      "label": "GPhC: Guidance for pharmacist prescribers (2025)",
+      "url": "https://www.pharmacyregulation.org/"
+    },
+    {
+      "label": "UKHSA: Botulism warning (aesthetic)",
+      "url": "https://www.gov.uk/government/news/ukhsa-issues-warning-over-botulism"
+    },
+    {
+      "label": "MHRA: Illegal Botox crackdown",
+      "url": "https://www.gov.uk/government/news/mhra-crackdown-on-illegal-botox-after-victims-left-seriously-ill"
+    },
+    {
+      "label": "Botulinum Toxin and Cosmetic Fillers (Children) Act 2021",
+      "url": "https://www.legislation.gov.uk/ukpga/2021/19/contents"
+    }
+  ],
+  "slug": "facial-ageing-neuromodulators",
+  "status": "published"
+}

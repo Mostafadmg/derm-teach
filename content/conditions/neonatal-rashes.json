@@ -1,0 +1,304 @@
+{
+  "slug": "neonatal-rashes",
+  "title": "Neonatal pustular rashes",
+  "order": 1,
+  "aka": [
+    "erythema toxicum neonatorum",
+    "ETN",
+    "toxic erythema of the newborn",
+    "transient neonatal pustular melanosis",
+    "TNPM",
+    "miliaria",
+    "heat rash",
+    "sweat rash",
+    "miliaria crystallina",
+    "miliaria rubra",
+    "neonatal herpes",
+    "HSV",
+    "newborn spots"
+  ],
+  "summary": "Erythema toxicum, TNPM and miliaria are benign and need reassurance. Neonatal HSV is the one you must never ‘wait and see’ on. Includes a one-table differential.",
+  "card_image": "m6w1:F02",
+  "hero": {
+    "ai": "neonatal-pustules-differential.jpg",
+    "alt": "AI comparison guide of neonatal pustular rashes"
+  },
+  "glance": {
+    "think": "A well term baby with blotchy red macules and small pustules (ETN), pustules present at birth on a non-red base (TNPM), or dewdrop vesicles or red fold papules with overheating (miliaria).",
+    "engine": "ETN: sterile eosinophilic pustules. TNPM: sterile neutrophilic pustules. Miliaria: blocked eccrine sweat ducts.",
+    "backbone": "Reassure, give no specific treatment, cool the baby for miliaria, and document that the baby is well.",
+    "never_miss": "Neonatal HSV: grouped vesicles, or an unwell, febrile or poorly feeding baby. Same-day emergency pathway."
+  },
+  "sections": {
+    "what": [
+      {
+        "table": {
+          "head": [
+            "Rash",
+            "In one line"
+          ],
+          "rows": [
+            [
+              "Erythema toxicum neonatorum (ETN)",
+              "Common, benign, self-limiting rash in up to about half of **full-term** babies; uncommon in premature babies"
+            ],
+            [
+              "Transient neonatal pustular melanosis (TNPM)",
+              "Uncommon benign pustular rash **present at birth**, more common in darker skin; leaves pigmented macules"
+            ],
+            [
+              "Miliaria (heat rash)",
+              "Blocked or inflamed **eccrine sweat ducts**; common with immature ducts, heat and overbundling"
+            ]
+          ]
+        }
+      }
+    ],
+    "cause": [
+      {
+        "list": [
+          "**ETN:** the exact cause is unknown (theories include a reaction to mechanical or thermal stimuli, or a transient immune response). Pustules are **sterile** and **eosinophil-rich**. It is not infection and not poor hygiene.",
+          "**TNPM:** cause unknown, possibly a ‘precocious’ form of ETN. Pustules are sterile and **neutrophil-rich**.",
+          "**Miliaria:** the level of sweat-duct blockage determines the type (below)."
+        ]
+      },
+      {
+        "table": {
+          "head": [
+            "Miliaria type",
+            "Level of block",
+            "Clinical gist"
+          ],
+          "rows": [
+            [
+              "Crystallina",
+              "Stratum corneum",
+              "Clear ‘dewdrop’ vesicles, no inflammation"
+            ],
+            [
+              "Rubra",
+              "Mid-epidermis",
+              "Itchy red papules or papulovesicles"
+            ],
+            [
+              "Pustulosa",
+              "Variant of rubra",
+              "Pustules"
+            ],
+            [
+              "Profunda",
+              "Dermo-epidermal junction or deeper",
+              "Rare; flesh-coloured deep papules (mainly adults)"
+            ]
+          ]
+        }
+      }
+    ],
+    "features": [
+      {
+        "h": "Erythema toxicum neonatorum"
+      },
+      {
+        "list": [
+          "Onset in the **first few days** of life (up to about 2 weeks).",
+          "Blotchy red macules, papules and small white or yellow pustules (a ‘flea-bitten’ look). Lesions wax and wane, each lasting under 24 hours.",
+          "Face, trunk and proximal limbs. **Palms and soles spared.**",
+          "**The baby is well.**"
+        ]
+      },
+      {
+        "h": "TNPM"
+      },
+      {
+        "list": [
+          "**Present at birth.**",
+          "Pustules on a **non-red** base rupture to leave a collarette of scale and **hyperpigmented macules**, which fade over weeks to months.",
+          "Can involve the forehead, neck, trunk, limbs, **palms and soles**."
+        ]
+      },
+      {
+        "h": "Miliaria"
+      },
+      {
+        "list": [
+          "**Crystallina:** 1–2 mm clear fragile vesicles on the head, neck and upper trunk, often in the first week.",
+          "**Rubra:** itchy red non-follicular papules on the trunk and in **skin folds**.",
+          "Triggered by heat, fever, synthetic or tight clothing, and occlusion."
+        ]
+      }
+    ],
+    "diagnosis": [
+      {
+        "list": [
+          "**Clinical** in a well baby with typical morphology.",
+          "If uncertain: a smear of pustule contents (eosinophils in ETN, neutrophils in TNPM), Gram stain and culture, and **HSV PCR** where HSV is possible.",
+          "Biopsy is rarely needed."
+        ]
+      }
+    ],
+    "differentials": [
+      {
+        "h": "Neonatal pustules: teaching table"
+      },
+      {
+        "table": {
+          "head": [
+            "Condition",
+            "Timing",
+            "Morphology / sites",
+            "Baby well?",
+            "Action"
+          ],
+          "rows": [
+            [
+              "ETN",
+              "Days 1–14",
+              "Macules, papules and pustules; spares palms and soles",
+              "Yes",
+              "Reassure"
+            ],
+            [
+              "TNPM",
+              "At birth",
+              "Pustules on a non-red base; palms and soles involved; pigmented macules after",
+              "Yes",
+              "Reassure"
+            ],
+            [
+              "Miliaria",
+              "Heat or occlusion",
+              "Clear vesicles, or itchy red papules in folds",
+              "Yes",
+              "Cool the environment"
+            ],
+            [
+              "Neonatal acne / cephalic pustulosis",
+              "Weeks",
+              "Facial papules and pustules ± comedones",
+              "Yes",
+              "Observe; see [neonatal & infantile acne](condition:neonatal-infantile-acne)"
+            ],
+            [
+              "**Neonatal HSV**",
+              "Days to weeks",
+              "**Grouped vesicles** on a red base; scalp, face, trunk; ± eye or CNS involvement",
+              "Often **unwell**",
+              "**Urgent paediatric admission, IV aciclovir pathway**"
+            ],
+            [
+              "Bacterial (staphylococcal)",
+              "Variable",
+              "Pustules, honey crust, bullae",
+              "±",
+              "Culture and antibiotics"
+            ],
+            [
+              "Candida (congenital)",
+              "Birth or early",
+              "May be widespread, palms and soles; KOH positive",
+              "±",
+              "Antifungal; investigate"
+            ]
+          ]
+        }
+      }
+    ],
+    "management": [
+      {
+        "h": "ETN and TNPM"
+      },
+      {
+        "list": [
+          "**Reassure:** benign and self-limiting. ETN usually clears within days to about 2 weeks and may briefly recur. TNPM pigment fades over weeks to months.",
+          "**No specific treatment.** Do not pick the pustules. Use gentle cleansing and avoid unnecessary antiseptics.",
+          "Do **not** treat as infection if the diagnosis is clear and the baby is well."
+        ]
+      },
+      {
+        "h": "Miliaria"
+      },
+      {
+        "list": [
+          "**Cool the baby:** fewer layers, a cooler room, breathable cotton, and prompt removal of wet clothing.",
+          "Cool baths or compresses. For itch, short-term calamine or a light emollient. A short course of mild topical steroid is sometimes used for miliaria rubra on suitable sites.",
+          "Usually clears within 1–2 days once cool."
+        ]
+      }
+    ],
+    "red_flags": [
+      "**Any neonate with vesicles who is febrile, lethargic, poorly feeding, or has eye involvement:** same-day emergency pathway. **Never ‘wait and see’ for possible HSV.**",
+      "Clustered or grouped vesicles, mucosal or eye involvement.",
+      "A premature or unwell infant, heavy involvement of the palms and soles (outside typical TNPM), or diagnostic doubt.",
+      "Fever plus rash: do **not** assume miliaria."
+    ],
+    "pearls": [
+      "Parents often fear allergy or sepsis. Explain that ETN pustules are sterile and the baby should stay well.",
+      "Document ‘well neonate with typical ETN’ carefully, and keep a low threshold to investigate anything atypical.",
+      "Post-TNPM pigmented macules can be mistaken for bruises or Mongolian spots. The history of preceding pustules helps.",
+      "**Skin of colour:** ETN erythema is easily missed, so look and feel for papules and pustules.",
+      "Overbundling advice is the main ‘prescription’ for miliaria."
+    ]
+  },
+  "photos": [
+    {
+      "title": "Erythema toxicum neonatorum",
+      "items": [
+        "m6w1:F01",
+        "m6w1:F02",
+        "m6w1:F03"
+      ]
+    },
+    {
+      "title": "Transient neonatal pustular melanosis",
+      "items": [
+        "m6w1:F04",
+        "m6w1:F05",
+        "m6w1:F06"
+      ]
+    },
+    {
+      "title": "Miliaria",
+      "items": [
+        "m6w1:F07",
+        "m6w1:F08"
+      ]
+    },
+    {
+      "title": "Red flag: neonatal herpes simplex",
+      "tone": "danger",
+      "items": [
+        "m6w1:F16"
+      ]
+    },
+    {
+      "title": "AI teaching illustration",
+      "items": [
+        {
+          "ai": "neonatal-pustules-differential.jpg",
+          "caption": "Neonatal pustular rashes comparison guide: ETN vs TNPM vs miliaria vs neonatal HSV."
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "label": "DermNet: Toxic erythema of the newborn",
+      "url": "https://dermnetnz.org/topics/toxic-erythema-of-the-newborn"
+    },
+    {
+      "label": "DermNet: Transient neonatal pustular melanosis",
+      "url": "https://dermnetnz.org/topics/transient-neonatal-pustular-melanosis"
+    },
+    {
+      "label": "DermNet: Miliaria",
+      "url": "https://dermnetnz.org/topics/miliaria"
+    },
+    {
+      "label": "DermNet: Blisters and pustules in neonates",
+      "url": "https://dermnetnz.org/topics/blisters-and-pustules-in-neonates"
+    }
+  ],
+  "status": "published",
+  "category": "childhood-neonatal",
+  "module": "Module 6 · Week 1"
+}

@@ -1,0 +1,231 @@
+{
+  "title": "Urticaria & angioedema",
+  "aka": [
+    "urticaria",
+    "hives",
+    "wheals",
+    "CSU",
+    "chronic spontaneous urticaria",
+    "inducible urticaria",
+    "dermographism",
+    "angioedema",
+    "ACE inhibitor angioedema",
+    "urticarial vasculitis",
+    "omalizumab"
+  ],
+  "category": "inflammatory",
+  "order": 3,
+  "module": "Module 4 · Week 5",
+  "summary": "Wheals that itch and fade within 24 hours, with or without angioedema. Regular non-sedating antihistamines (up-dosed if needed); never miss anaphylaxis or ACE-inhibitor angioedema.",
+  "card_image": "m4w5:A01",
+  "glance": {
+    "think": "Itchy wheals that come and go within a day, with or without lip/eyelid swelling — skin looks normal between attacks.",
+    "engine": "Mast-cell histamine (and other mediators) → dermal oedema (wheal) and deeper oedema (angioedema). Most CSU is autoimmune/idiopathic, not a hidden food allergy.",
+    "backbone": "Daily second-generation H1 antihistamine; up-dose up to 4× licensed dose if needed; short steroid only for severe acute flares; refer uncontrolled CSU for omalizumab pathways.",
+    "never_miss": "Anaphylaxis (ABC) → adrenaline/999. ACE-inhibitor angioedema without wheals — stop the ACEI urgently. Lesions lasting >24 h with bruising → urticarial vasculitis."
+  },
+  "sections": {
+    "what": [
+      "**Urticaria** is a transient, itchy eruption of wheals. **Acute** lasts under 6 weeks; **chronic spontaneous urticaria (CSU)** lasts 6 weeks or more, most days. **Inducible (physical)** urticaria is triggered by pressure, heat, cold, sweat or stroking (dermographism).",
+      "**Angioedema** is deeper subcutaneous/submucosal swelling. It may accompany histaminergic urticaria or occur alone (ACE-inhibitor bradykinin angioedema; rare hereditary angioedema)."
+    ],
+    "cause": [
+      {
+        "list": [
+          "Mast-cell degranulation (IgE, autoimmune, idiopathic, or direct — NSAIDs, opioids, contrast).",
+          "CSU is usually not an IgE food allergy — restrictive diets and patch tests do not help.",
+          "ACE inhibitors cause bradykinin angioedema that can start months to years after initiation.",
+          "Inducible triggers: dermographism, delayed pressure, cholinergic, cold, solar, aquagenic."
+        ]
+      }
+    ],
+    "features": [
+      {
+        "list": [
+          "Wheals: itchy, pink or skin-coloured, migrate, **individually fade within 24 hours**, leave normal skin.",
+          "In skin of colour, feel for oedema when erythema is subtle.",
+          "Angioedema: lips, eyelids, hands, genitals — may burn more than itch.",
+          "Vasculitis clue: lesions >24 h, burning/pain, purpura or residual bruise."
+        ]
+      }
+    ],
+    "diagnosis": [
+      {
+        "list": [
+          "Clinical history ± phone photos. Acute urticaria: **no routine tests**.",
+          "CSU: keep tests minimal — FBC and CRP/ESR reasonable; thyroid tests only if indicated. **Patch testing has no role** in urticaria.",
+          "Activity tools: UAS7 / UCT for severity and omalizumab eligibility discussions.",
+          "Suspected inducible disease: challenge testing in clinic/specialist settings."
+        ]
+      }
+    ],
+    "differentials": [
+      {
+        "table": {
+          "head": [
+            "Look-alike",
+            "Clues"
+          ],
+          "rows": [
+            [
+              "Urticarial vasculitis",
+              ">24 h, pain, purpura/bruise"
+            ],
+            [
+              "Erythema multiforme",
+              "Fixed targets, acral, days"
+            ],
+            [
+              "Anaphylaxis",
+              "Respiratory/circulatory compromise"
+            ],
+            [
+              "Papular urticaria / bites",
+              "Grouped papules lasting days — see [papular urticaria](condition:papular-urticaria-bites)"
+            ],
+            [
+              "Contact eczema",
+              "Scaly, lasting days — patch testing relevant"
+            ],
+            [
+              "Mastocytosis",
+              "Fixed brown macules; Darier sign"
+            ]
+          ]
+        }
+      }
+    ],
+    "management": [
+      {
+        "h": "General"
+      },
+      {
+        "list": [
+          "Remove triggers; avoid NSAIDs/aspirin/opioids if they aggravate; prefer paracetamol.",
+          "Cool measures; avoid overheating and tight clothes."
+        ]
+      },
+      {
+        "h": "Antihistamines (CKS / guideline themes)"
+      },
+      {
+        "list": [
+          "First-line: **cetirizine, loratadine or fexofenadine** at licensed daily dose — take **every day** in CSU, not only as needed.",
+          "If uncontrolled after 2–4 weeks: increase up to **four times** the licensed dose (off-label; counsel sedation risk at higher doses).",
+          "Switch agent if one fails at high dose. Short sedating antihistamine at night only when sleep is wrecked — not routine with high-dose non-sedating drugs.",
+          "Severe acute flare: short oral prednisolone (e.g. up to 7 days per CKS) **plus** antihistamine — avoid repeated courses in CSU.",
+          "Montelukast sometimes added on specialist advice (NSAID-aggravated/pressure). H2 blockers are no longer routine."
+        ]
+      },
+      {
+        "h": "Special situations"
+      },
+      {
+        "list": [
+          "ACE-inhibitor angioedema ± without wheals: **stop the ACEI**; do not rechallenge; antihistamines/steroids help poorly — emergency care if airway threatened; switch to ARB only with caution and specialist advice.",
+          "Uncontrolled CSU → dermatology/allergy for **omalizumab** (NICE TA) then other immunosuppressants.",
+          "Pregnancy/breastfeeding/renal/hepatic dosing: check BNF carefully (cetirizine often favoured in pregnancy counselling themes — verify current advice)."
+        ]
+      },
+      {
+        "callout": "danger",
+        "title": "Anaphylaxis",
+        "text": "Airway, breathing or circulation compromise with urticaria/angioedema → intramuscular adrenaline and emergency services (RCUK). Do not treat as “just hives”."
+      }
+    ],
+    "red_flags": [
+      "Anaphylaxis features.",
+      "Airway-threatening angioedema (ACEI or other).",
+      "Lesions lasting >24 h with purpura → vasculitis work-up.",
+      "Fever, arthralgia, weight loss with urticarial rash → systemic disease / Schnitzler consideration.",
+      "CSU uncontrolled on up-dosed antihistamine → refer."
+    ],
+    "pearls": [
+      "“It isn’t an allergy to something you keep eating” — most CSU is internal.",
+      "Take the antihistamine every day, even on good days; step down slowly once controlled.",
+      "Patch testing investigates eczema, not wheals.",
+      "Always check BNF for residual renal/hepatic dosing and pregnancy."
+    ]
+  },
+  "photos": [
+    {
+      "title": "Acute urticaria and CSU",
+      "items": [
+        "m4w5:A01",
+        "m4w5:A02",
+        "m4w5:A03",
+        "m4w5:A04",
+        "m4w5:A05",
+        "m4w5:A06",
+        "m4w5:A07"
+      ]
+    },
+    {
+      "title": "Inducible urticaria & dermographism",
+      "items": [
+        "m4w5:B01",
+        "m4w5:B02",
+        "m4w5:B03",
+        "m4w5:B04",
+        "m4w5:B05",
+        "m4w5:B06",
+        "m4w5:B07",
+        "m4w5:B08"
+      ]
+    },
+    {
+      "title": "Cutaneous mastocytosis",
+      "items": [
+        "m4w5:C01",
+        "m4w5:C02",
+        "m4w5:C03",
+        "m4w5:C04",
+        "m4w5:C05"
+      ]
+    },
+    {
+      "title": "Angioedema",
+      "items": [
+        "m4w5:D01",
+        "m4w5:D02",
+        "m4w5:D03",
+        "m4w5:D04",
+        "m4w5:D05"
+      ]
+    },
+    {
+      "title": "Red flag: urticarial vasculitis",
+      "tone": "danger",
+      "items": [
+        "m4w5:E01",
+        "m4w5:E02",
+        "m4w5:E03",
+        "m4w5:E04"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "label": "NICE CKS: Urticaria",
+      "url": "https://cks.nice.org.uk/topics/urticaria/"
+    },
+    {
+      "label": "DermNet: Urticaria overview",
+      "url": "https://dermnetnz.org/topics/urticaria-an-overview"
+    },
+    {
+      "label": "DermNet: Chronic spontaneous urticaria",
+      "url": "https://dermnetnz.org/topics/chronic-spontaneous-urticaria"
+    },
+    {
+      "label": "RCUK: Anaphylaxis",
+      "url": "https://www.resus.org.uk/"
+    },
+    {
+      "label": "NICE: Omalizumab for CSU (TA339)",
+      "url": "https://www.nice.org.uk/guidance/ta339"
+    }
+  ],
+  "slug": "urticaria-angioedema",
+  "status": "published"
+}

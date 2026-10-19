@@ -1,0 +1,24 @@
+{
+  "title": "Derm Teach",
+  "subtitle": "Primary-care dermatology library",
+  "owner": "Mostafa Damghani",
+  "tagline": "A structured, photo-rich dermatology library for UK pharmacist independent prescribers. Each condition follows the same path, from what it is through to red flags.",
+  "cross_cutting_pearls": [
+    "**Formulation is the intervention.** Choose the base (ointment, cream, gel, foam) and scalp vs body products to suit the patient, because adherence follows acceptability.",
+    "**Steroid ladder.** Match potency to site and severity. The face, flexures and genitals need lower potency and shorter courses.",
+    "**Infection is not the same as inflammation.** Antibiotics are not automatic for crusted eczema or red legs.",
+    "**Antimicrobial stewardship.** No antibiotic monotherapy in acne, short courses for skin infections, and set review dates.",
+    "**Skin of colour.** Judge severity by scale, thickening, pigment change and symptoms, not erythema alone.",
+    "**Psychosocial impact.** Screen for distress in acne, psoriasis and eczema, and refer when needed.",
+    "**Always check** the current BNF, SmPC, MHRA alerts and local formulary or microguide before prescribing."
+  ],
+  "shared_red_flags": [
+    "Erythroderma",
+    "Generalised pustular psoriasis",
+    "Eczema herpeticum",
+    "Necrotising soft-tissue infection",
+    "Acne fulminans",
+    "Periorbital / orbital cellulitis",
+    "Sepsis"
+  ]
+}
