@@ -1,0 +1,61 @@
+{
+ "kf": [
+  "**Atrophic acne scars** follow collagen loss after inflammatory acne: **ice-pick**, **boxcar** and **rolling**.",
+  "Ice-pick scars are the commonest (about 60–70%).",
+  "Separate true scars from **post-inflammatory hyperpigmentation or erythema** (flat colour change, which fades).",
+  "Prevention matters most: treat acne early; scarring is a referral trigger under NICE NG198.",
+  "Treatments (TCA CROSS, subcision, lasers, microneedling) are specialist or cosmetic; aim for improvement, not removal."
+ ],
+ "epi": [
+  {
+   "t": "**Who**",
+   "sub": [
+    "Some scarring affects many people with moderate to severe acne; risk rises with delayed treatment and picking."
+   ]
+  }
+ ],
+ "myths": [
+  "**\"Scars will fade completely\"**: atrophic scars are permanent; colour marks fade."
+ ],
+ "patho_lead": "Deep inflammation **destroys collagen** faster than it can be rebuilt.",
+ "mech": [
+  {
+   "k": "Deep inflammation",
+   "t": "Ruptured follicles release contents into the dermis, causing intense inflammation."
+  },
+  {
+   "k": "Collagen destruction",
+   "t": "Enzymes (MMPs) break down dermal collagen."
+  },
+  {
+   "k": "Imperfect repair",
+   "t": "Healing lays down too little collagen, leaving a depression.",
+   "img": "v3-atrophic-scar-types.jpg",
+   "cap": "Atrophic scar types: ice-pick, boxcar and rolling."
+  },
+  {
+   "k": "Tethering",
+   "t": "Fibrous bands pull the surface down in rolling scars (released by subcision)."
+  }
+ ],
+ "special": [
+  {
+   "t": "**Skin of colour**",
+   "sub": [
+    "PIH is very common and often more distressing than scars; higher procedure risk."
+   ]
+  }
+ ],
+ "comp": [
+  "Psychological distress, low self-esteem, depression."
+ ],
+ "prog": [
+  "Permanent but improvable with combined treatment."
+ ],
+ "see_also": [
+  "acne-vulgaris",
+  "keloids-hypertrophic-scars",
+  "cosmetic-procedures",
+  "retinoids"
+ ]
+}

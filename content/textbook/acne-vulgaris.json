@@ -809,7 +809,7 @@
       }
      ]
     },
-    "Scar treatment (and the timing of procedures around isotretinoin) is covered on [acne scars and keloids](condition:acne-scars-keloids).",
+    "Scar treatment (and the timing of procedures around isotretinoin) is covered on [acne scars](condition:acne-scars) and [keloids](condition:keloids-hypertrophic-scars).",
     {
      "h": "Prognosis"
     },
@@ -900,7 +900,7 @@
  ],
  "see_also": [
   "acne-mimics",
-  "acne-scars-keloids",
+  "acne-scars",
   "acne-prescribing-combined-pill",
   "retinoids",
   "rosacea"

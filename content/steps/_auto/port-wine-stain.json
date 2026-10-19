@@ -1,0 +1,80 @@
+{
+ "_auto": true,
+ "glance": {
+  "chips": [
+   "Module 6 · Week 1",
+   "port-wine stain",
+   "capillary malformation",
+   "naevus flammeus"
+  ],
+  "points": []
+ },
+ "cause": {
+  "points": [],
+  "visuals": []
+ },
+ "features": {
+  "photo": "m6w1:G16",
+  "points": [
+   "Flat, well-demarcated pink, red or purple patch, often unilateral and following a dermatome-like segment.",
+   "With age: darker colour, thickening and **cobblestone** nodules (vascular blebs), soft-tissue overgrowth.",
+   "Blanches partly on pressure; does not grow out of proportion."
+  ],
+  "visuals": [],
+  "variants": null,
+  "groups": [
+   0
+  ]
+ },
+ "confirm": {
+  "cols": []
+ },
+ "differentials": {
+  "cards": [
+   {
+    "name": "Salmon patch (naevus simplex)",
+    "clue": "Pale pink, midline (nape, glabella, eyelids); fades in the first years"
+   },
+   {
+    "name": "Infantile haemangioma (see Infantile haemangioma)",
+    "clue": "Absent or faint at birth, then rapid growth and involution",
+    "link": "infantile-haemangioma"
+   },
+   {
+    "name": "Venous malformation",
+    "clue": "Blue, compressible, swells when dependent"
+   }
+  ]
+ },
+ "manage": {
+  "rungs": []
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "routine",
+    "t": "Facial segmental port-wine stain with eye or neurological symptoms (seizures, glaucoma)."
+   },
+   {
+    "when": "routine",
+    "t": "Limb asymmetry or overgrowth."
+   }
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "A malformation is not a tumour: be clear with parents whether it is a PWS or a haemangioma."
+  },
+  {
+   "icon": "bulb",
+   "t": "PWS does not fade; salmon patches do."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "Facial segmental port-wine stain with eye or neurological symptoms (seizures, glaucoma)."
+  }
+ ]
+}

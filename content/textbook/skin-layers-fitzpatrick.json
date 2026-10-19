@@ -1,0 +1,467 @@
+{
+ "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
+ "key_facts": [
+  "Linking a lesion to its level in the skin; judging sun risk, PIH risk or erythema in skin of colour; deciding whether dermoscopy helps.",
+  "Epidermal processes give scale and colour change; dermal processes give induration, nodules and scarring; melanin biology sets the phototype.",
+  "Record the Fitzpatrick type, assess severity by more than redness, and counsel photoprotection to match.",
+  "Under-calling inflammation in darker skin; melanoma in any skin type (acral and nail sites in darker skin)."
+ ],
+ "sections": [
+  {
+   "id": "overview",
+   "title": "Overview",
+   "blocks": [
+    {
+     "h4": "Skin layers linked to lesion type"
+    },
+    "Skin = **epidermis** (stratified squamous keratinising epithelium) → **basement membrane zone (dermo-epidermal junction)** → **dermis** (papillary and reticular; collagen, elastin, vessels, nerves, appendages) → **subcutis** (fat). DermNet: *The structure of normal skin*.",
+    {
+     "table": {
+      "head": [
+       "Layer",
+       "Key cells/structures",
+       "Function"
+      ],
+      "rows": [
+       [
+        "Stratum corneum",
+        "Flattened anucleate corneocytes in a lipid \"bricks and mortar\" matrix",
+        "Barrier to water loss, irritants, microbes"
+       ],
+       [
+        "Stratum granulosum",
+        "Keratohyalin granules (incl. filaggrin precursor), lamellar bodies secreting lipids",
+        "Builds barrier lipids; filaggrin → natural moisturising factor"
+       ],
+       [
+        "Stratum spinosum",
+        "Keratinocytes joined by **desmosomes** (\"prickles\"); Langerhans cells",
+        "Mechanical strength; immune surveillance"
+       ],
+       [
+        "Stratum basale",
+        "Dividing basal keratinocytes, **melanocytes** (~1 per 10 basal cells), Merkel cells; anchored by **hemidesmosomes**",
+        "Renewal (~4 weeks transit to surface); pigment"
+       ],
+       [
+        "Basement membrane zone",
+        "Lamina lucida/densa, anchoring fibrils (type VII collagen), BP180/BP230 antigens",
+        "Glues epidermis to dermis"
+       ],
+       [
+        "Dermis",
+        "Fibroblasts, collagen/elastin, blood vessels, lymphatics, nerves, mast cells, hair follicles, sebaceous/eccrine/apocrine glands",
+        "Strength, elasticity, thermoregulation, sensation, immune response"
+       ],
+       [
+        "Subcutis",
+        "Adipocytes, septa, larger vessels",
+        "Insulation, energy store, cushioning"
+       ]
+      ]
+     }
+    },
+    "(Palms/soles have an extra **stratum lucidum**.)",
+    {
+     "h4": "Fitzpatrick skin types I–VI"
+    },
+    "The **Fitzpatrick skin phototype** classifies skin by its response to sun (burning vs tanning) after an initial exposure, originally (1975) to dose PUVA therapy. It is self-reported/clinically assessed and is the classification most widely used in practice and publications.",
+    {
+     "table": {
+      "head": [
+       "Type",
+       "Typical description",
+       "Burns / tans"
+      ],
+      "rows": [
+       [
+        "I",
+        "Very fair/pale, often red hair, freckles, blue eyes",
+        "Always burns, never tans"
+       ],
+       [
+        "II",
+        "Fair",
+        "Usually burns, tans minimally/with difficulty"
+       ],
+       [
+        "III",
+        "Medium/light-olive",
+        "Sometimes mild burn, tans gradually/uniformly"
+       ],
+       [
+        "IV",
+        "Olive/moderate brown",
+        "Rarely burns, tans easily"
+       ],
+       [
+        "V",
+        "Brown/dark brown",
+        "Very rarely burns, tans very easily"
+       ],
+       [
+        "VI",
+        "Deeply pigmented dark brown–black",
+        "Never burns"
+       ]
+      ]
+     }
+    },
+    {
+     "h4": "Dermoscopy: why it adds value"
+    },
+    "**Dermoscopy (dermatoscopy, epiluminescence microscopy)** uses a hand-held ×10 magnifier with a light source, either **polarised** (no contact; cross-polarised filters cancel surface glare) or **non-polarised** (contact with a liquid/gel interface). It reveals pigment and vascular structures in the epidermis, dermo-epidermal junction and upper dermis that are invisible to the naked eye."
+   ]
+  },
+  {
+   "id": "aetiology",
+   "title": "Aetiology: causes and risk factors",
+   "blocks": [
+    {
+     "h": "Skin layers linked to lesion type"
+    },
+    {
+     "table": {
+      "head": [
+       "Lesion",
+       "Level / mechanism"
+      ],
+      "rows": [
+       [
+        "Macule/patch",
+        "Change in melanin (basal melanocytes, melanosome transfer) or dermal blood flow — no thickening"
+       ],
+       [
+        "Scale",
+        "Disordered stratum corneum: hyper-/parakeratosis (fast turnover in psoriasis)"
+       ],
+       [
+        "Papule/plaque",
+        "Epidermal acanthosis ± dermal infiltrate (psoriasis: epidermal hyperproliferation + neutrophils; LP: band-like lymphocytes at the dermo-epidermal junction)"
+       ],
+       [
+        "Nodule",
+        "Deep dermal/subcutaneous infiltrate, tumour or granuloma"
+       ],
+       [
+        "**Vesicle (spongiotic)**",
+        "Eczema: inflammatory fluid separates keratinocytes → **intercellular oedema = spongiosis** within the **epidermis** → microvesicles (most visible on palms/soles as pompholyx)"
+       ],
+       [
+        "**Vesicle (viral)**",
+        "HSV/VZV infect keratinocytes → ballooning degeneration, multinucleate giant cells → intraepidermal vesicles"
+       ],
+       [
+        "**Flaccid bulla/erosions — intraepidermal split**",
+        "Pemphigus: autoantibodies to desmogleins (desmosomes) → acantholysis → thin roof that breaks easily. Bullous impetigo/staph scalded skin: exfoliative toxin cleaves desmoglein-1 high in the epidermis (subcorneal)"
+       ],
+       [
+        "**Tense bulla — subepidermal split**",
+        "Bullous pemphigoid: autoantibodies to BP180/BP230 (hemidesmosomes) → whole epidermis lifts off → thick roof, blisters stay intact. Friction/burns: mechanical/thermal separation"
+       ],
+       [
+        "Pustule",
+        "Neutrophils migrate into epidermis (spongiform pustule of Kogoj in psoriasis) or follicle (folliculitis/acne)"
+       ],
+       [
+        "Wheal",
+        "Mast-cell histamine → upper-dermal oedema, epidermis normal"
+       ],
+       [
+        "Lichenification",
+        "Chronic rubbing → acanthosis, hyperkeratosis, papillary dermal fibrosis"
+       ],
+       [
+        "Erosion vs ulcer",
+        "Erosion = epidermis lost above basement membrane (heals by re-epithelialisation, no scar); ulcer = through basement membrane into dermis (heals by scar)"
+       ],
+       [
+        "Atrophy",
+        "Thin epidermis ± loss of dermal collagen (steroids inhibit fibroblasts/keratinocytes)"
+       ],
+       [
+        "Cyst",
+        "Epithelial-lined cavity in dermis"
+       ]
+      ]
+     }
+    },
+    "**Why does a blister develop?** a blister forms when the \"glue\" between cells fails or cells are damaged, and tissue fluid fills the gap. The *level* of failure predicts the clinical picture: high (intraepidermal) splits give fragile flaccid blisters and erosions; low (subepidermal) splits give tense, often haemorrhagic, durable bullae.",
+    "**Functions to link:** barrier (physical, chemical — acid mantle, antimicrobial peptides, lipids; microbiological — commensal flora competes with pathogens; immunological — Langerhans cells), thermoregulation (eccrine sweat, dermal blood flow; hair traps heat), sensation, vitamin D synthesis, UV protection (melanin caps over nuclei), social/communication. Commensals rarely cause bacteraemia because the intact stratum corneum, acid pH, sebum fatty acids and innate immunity prevent invasion — breaches (cannulas, ulcers, eczema) raise risk.",
+    "**Ageing:** intrinsic (thinner dermis, fewer fibroblasts, slower turnover, flattened dermo-epidermal junction → fragility) vs extrinsic/photo-ageing (UV + smoking → solar elastosis, wrinkles, lentigines). Twin studies show smoking and sun exposure produce visibly older skin in the exposed twin.",
+    {
+     "h": "Fitzpatrick skin types I–VI"
+    },
+    {
+     "ul": [
+      "**Melanocyte number is broadly similar across all phototypes** (type IV does *not* have more melanocytes than type I). Differences arise from melanosome **size, number, packaging and distribution**, the **eumelanin (brown-black) : pheomelanin (red-yellow)** ratio, and how efficiently melanin is transferred to keratinocytes.",
+      "Larger, singly dispersed eumelanin-rich melanosomes in darker skin absorb/scatter more UV → greater natural photoprotection (approx. SPF-equivalent differences), but also a more reactive melanocyte response to inflammation → **post-inflammatory hyperpigmentation (PIH)**.",
+      "UVB converts 7-dehydrocholesterol in the epidermis to pre-vitamin D3 → liver (25-OH D) → kidney (1,25-(OH)2 D). Melanin competes for UVB, so darker skin needs **longer exposure** to make the same amount of vitamin D."
+     ]
+    },
+    {
+     "h": "Dermoscopy: why it adds value"
+    },
+    "Surface reflection from the stratum corneum normally hides deeper structure. Immersion fluid or cross-polarisation removes that glare, so light penetrates and returns from deeper layers — each colour/pattern corresponds to pigment depth (black/brown = epidermis/junction; grey/blue = dermis) and vessel morphology."
+   ],
+   "short": "Aetiology"
+  },
+  {
+   "id": "clinical-features",
+   "title": "Clinical features",
+   "blocks": [
+    {
+     "h": "Skin layers linked to lesion type"
+    },
+    {
+     "ul": [
+      "Thick-roofed tense bullae on flexural limbs/trunk in older adults → BP.",
+      "Mucosal erosions + flaccid blisters → pemphigus (refer urgently).",
+      "Itchy palmar/digital vesicles → pompholyx (spongiotic)."
+     ]
+    },
+    {
+     "h": "Fitzpatrick skin types I–VI"
+    },
+    {
+     "table": {
+      "head": [
+       "Domain",
+       "Lower phototypes (I–II)",
+       "Higher phototypes (IV–VI)"
+      ],
+      "rows": [
+       [
+        "Skin cancer (melanoma, BCC, SCC)",
+        "Highest risk — strict sun protection, skin checks",
+        "Lower UV risk but cancers often diagnosed later; acral lentiginous melanoma (palms/soles/nails) not UV-related"
+       ],
+       [
+        "Photo-ageing",
+        "Earlier wrinkles, lentigines",
+        "Relative protection from photo-ageing; ageing may present as dyschromia, DPN, melasma"
+       ],
+       [
+        "Erythema recognition",
+        "Redness obvious",
+        "Erythema may look violaceous/grey/brown — underestimates eczema severity (EASI/SCORAD) and cellulitis"
+       ],
+       [
+        "**PIH / hypopigmentation**",
+        "Less common, shorter",
+        "Common, long-lasting (months–years); major patient concern after acne, eczema, LP, procedures"
+       ],
+       [
+        "Keloid",
+        "Less common",
+        "More common (V–VI)"
+       ],
+       [
+        "Phototherapy / lasers / peels",
+        "Lower starting UV doses (burn easily)",
+        "Higher risk of dyspigmentation with lasers/peels — specialist parameters"
+       ],
+       [
+        "Vitamin D",
+        "Synthesise more efficiently",
+        "**Higher risk of deficiency at UK latitude**"
+       ]
+      ]
+     }
+    },
+    "**Is phototype protective against ageing at higher latitude?** — Partly: higher phototypes have more photoprotection and typically show fewer wrinkles and lentigines, but intrinsic ageing still occurs, and lifestyle (smoking, sunbeds) matters more than latitude alone. At UK latitude, darker phototypes gain photo-ageing protection but pay a vitamin D cost.",
+    "**Vitamin D at UK latitude:**",
+    {
+     "ul": [
+      "UK lies ~50–60°N: from roughly **October to March** UVB is too weak for meaningful cutaneous vitamin D synthesis in anyone.",
+      "People with darker skin (African, African-Caribbean, **South Asian** heritage), those who cover skin for cultural/religious reasons, the housebound/care-home residents, and those who use high-factor sunscreen constantly are at highest risk; UK South Asian populations consistently show high prevalence of deficiency (e.g. Darling; Correia et al. 2014).",
+      "UK advice (SACN 2016 / UK government / NICE PH56 & CKS vitamin D deficiency): everyone aged ≥1 year should consider **10 micrograms (400 units) vitamin D daily** in autumn and winter; at-risk groups including people with dark skin should consider it **all year round**. Babies/young children have specific advice (Healthy Start). Check current guidance for treatment doses in confirmed deficiency (CKS/local formulary)."
+     ]
+    },
+    {
+     "h": "Dermoscopy: why it adds value"
+    },
+    "No — evidence supports real diagnostic value **in trained hands**:",
+    {
+     "ul": [
+      "Meta-analyses and a Cochrane review (Dinnes et al. 2018) show dermoscopy improves **melanoma detection accuracy** versus naked-eye examination alone, with better sensitivity without loss of specificity when used by trained clinicians.",
+      "Reduces unnecessary excisions of benign lesions (better benign:malignant excision ratio) and helps triage referrals.",
+      "Helps distinguish seborrhoeic keratosis (milia-like cysts, comedo-like openings, \"brain-like\" fissures), solar lentigo (homogeneous light-brown, moth-eaten border, fingerprint pattern) from lentigo maligna (asymmetric follicular pigmentation, rhomboidal structures, grey dots), BCC (arborising vessels, blue-grey ovoid nests), dermatofibroma (central white patch, peripheral network), molluscum (central white polylobular structures with crown vessels), scabies (\"delta-wing jet\" mite), and nail/scalp conditions (trichoscopy).",
+      "Allows digital monitoring of atypical naevi and teledermatology image quality (UK referral pathways increasingly request dermoscopic images)."
+     ]
+    },
+    {
+     "fig": {
+      "dermnet": "m1w1:D01"
+     }
+    }
+   ]
+  },
+  {
+   "id": "diagnosis",
+   "title": "Diagnosis and investigations",
+   "blocks": [
+    {
+     "h": "Skin layers linked to lesion type"
+    },
+    "Histology (punch biopsy) and **direct immunofluorescence** (perilesional skin) are specialist tests for blistering disorders; Nikolsky sign (lateral pressure shears off epidermis) suggests intraepidermal split (pemphigus, SSSS, TEN). Pharmacists/IPs recognise and refer; they do not need to perform these.",
+    {
+     "h": "Fitzpatrick skin types I–VI"
+    },
+    "Ask: *\"If you went out in strong sun for 30–45 minutes at the start of summer without protection, would you burn, tan, or both?\"* Skin colour alone is not the same as phototype — record both self-reported burning/tanning and observed skin colour. Recognise limitations: Fitzpatrick was designed for white skin types and lumps diverse darker skin into V–VI; alternative descriptive scales exist (e.g. Monk scale, individual typology angle) but Fitzpatrick remains the clinical standard.",
+    {
+     "h": "Dermoscopy: why it adds value"
+    },
+    "Dermoscopy is an adjunct to history + naked-eye examination, not a replacement. Structured algorithms exist (e.g. ABCD rule, 7-point checklist, 3-point checklist, \"chaos and clues\") — beyond the scope of this primer."
+   ],
+   "short": "Diagnosis"
+  },
+  {
+   "id": "differentials",
+   "title": "Differential diagnoses",
+   "blocks": [
+    {
+     "ddx": [
+      {
+       "name": "Pemphigus vulgaris; bullous impetigo; SSSS; TEN",
+       "f": "Bullous pemphigoid; bullous drug reaction; friction blister; burns; insect-bite bullae; porphyria cutanea tarda",
+       "link": "pemphigus"
+      }
+     ]
+    },
+    {
+     "h4": "Skin layers linked to lesion type"
+    },
+    {
+     "table": {
+      "head": [
+       "Flaccid / erodes easily",
+       "Tense / persists"
+      ],
+      "rows": [
+       [
+        "Pemphigus vulgaris; bullous impetigo; SSSS; TEN",
+        "Bullous pemphigoid; bullous drug reaction; friction blister; burns; insect-bite bullae; porphyria cutanea tarda"
+       ]
+      ]
+     }
+    },
+    {
+     "h4": "Fitzpatrick skin types I–VI"
+    },
+    {
+     "ul": [
+      "PIH vs melasma vs lichenification-associated pigmentation vs drug-induced pigmentation."
+     ]
+    },
+    {
+     "h4": "Dermoscopy: why it adds value"
+    },
+    "Accuracy depends on **training**; untrained use may be no better (or worse) than naked eye. Featureless or amelanotic lesions remain challenging — biopsy if in doubt."
+   ],
+   "short": "Differentials"
+  },
+  {
+   "id": "management",
+   "title": "Management",
+   "blocks": [
+    {
+     "h": "Skin layers linked to lesion type"
+    },
+    "Histology level guides urgency: widespread blistering, mucosal involvement, skin pain/fever, or Nikolsky-positive skin → **emergency/same-day referral** (possible SJS/TEN, pemphigus, SSSS). Localised friction blisters → leave roof intact, protect, monitor for infection.",
+    {
+     "h": "Fitzpatrick skin types I–VI"
+    },
+    {
+     "ul": [
+      "**Sun protection counselling** by phototype: SPF ≥30 with high UVA rating (4–5 stars), shade, clothing; avoid sunbeds — especially I–II.",
+      "**PIH prevention**: treat inflammation early and effectively (acne, eczema); avoid picking; daily broad-spectrum sunscreen (tinted iron-oxide sunscreens help visible-light-driven pigmentation); caution with irritant topicals (retinoids/benzoyl peroxide — start low, slow).",
+      "**Vitamin D**: recommend OTC 10 microgram daily supplementation per UK advice for at-risk groups; refer/test per CKS if symptoms of deficiency (bone pain, proximal weakness) or high-risk.",
+      "Severity assessment: in darker skin, use palpation, thickness, lichenification, and patient-reported symptoms (POEM) rather than redness alone."
+     ]
+    },
+    {
+     "h": "Dermoscopy: why it adds value"
+    },
+    "Pharmacist/IPs without accredited dermoscopy training should **not** use dermoscopy to reassure about a suspicious pigmented lesion; refer per NICE NG12 (weighted 7-point checklist; any lesion of concern). With training, dermoscopic photos support teledermatology referrals.",
+    {
+     "h": "Referral"
+    },
+    {
+     "refer": [
+      {
+       "when": "routine",
+       "t": "Changing or atypical pigmented lesion, including **acral and nail** sites in darker skin types: NICE NG12 referral."
+      },
+      {
+       "when": "routine",
+       "t": "Severity under-estimated in skin of colour: look for thickening, scale, pigment change and symptoms rather than redness alone."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "red-flags",
+   "title": "Red flags and when to refer",
+   "blocks": [
+    {
+     "ul": [
+      "Changing or atypical pigmented lesion, including **acral and nail** sites in darker skin types: NICE NG12 referral.",
+      "Severity under-estimated in skin of colour: look for thickening, scale, pigment change and symptoms rather than redness alone."
+     ]
+    }
+   ],
+   "short": "Red flags"
+  },
+  {
+   "id": "pearls",
+   "title": "Prescriber pearls (UK pharmacist IP)",
+   "blocks": [
+    {
+     "pearls": [
+      "Use histology to explain treatment logic: e.g. emollients restore stratum corneum lipids; potent steroids in lichenification target the thickened epidermis; why steroids cause atrophy (dermal collagen suppression).",
+      "Patients with skin of colour often prioritise pigment change over the active rash — address it explicitly and set timelines (PIH fades over months with sun protection).",
+      "Keloid-prone (V–VI) patients: counsel before piercings/elective procedures; treat inflammatory acne promptly.",
+      "Don't assume darker skin \"can't burn\" or doesn't need skin checks — acral melanoma awareness.",
+      "\"When in doubt, cut it out (or refer)\" — a \"benign-looking\" dermoscopic pattern in a changing lesion still warrants referral. Document dermoscopy findings and whether images were stored."
+     ]
+    },
+    {
+     "h": "Skin layers linked to lesion type"
+    },
+    {
+     "h": "Fitzpatrick skin types I–VI"
+    },
+    {
+     "h": "Dermoscopy: why it adds value"
+    }
+   ],
+   "short": "Pearls"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Skin layers, Fitzpatrick skin types & dermoscopy?",
+   "a": "Linking a lesion to its level in the skin; judging sun risk, PIH risk or erythema in skin of colour; deciding whether dermoscopy helps."
+  },
+  {
+   "q": "What drives it?",
+   "a": "Epidermal processes give scale and colour change; dermal processes give induration, nodules and scarring; melanin biology sets the phototype."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "Record the Fitzpatrick type, assess severity by more than redness, and counsel photoprotection to match."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "Under-calling inflammation in darker skin; melanoma in any skin type (acral and nail sites in darker skin)."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "Changing or atypical pigmented lesion, including **acral and nail** sites in darker skin types: NICE NG12 referral."
+  }
+ ],
+ "references": [],
+ "see_also": []
+}

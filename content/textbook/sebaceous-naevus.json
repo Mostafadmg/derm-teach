@@ -1,0 +1,186 @@
+{
+ "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
+ "key_facts": [
+  "A child with a smooth, yellow-orange, hairless plaque on the scalp, or an adult with a warty plaque there.",
+  "A hamartoma of epidermis, hair follicles and sebaceous glands (mosaic HRAS/KRAS mutations); hormones thicken it at puberty.",
+  "Recognise, photograph and monitor; discuss elective excision; refer any new nodule, ulcer or bleeding within it.",
+  "A new lump or crusted area within the naevus (trichoblastoma, rarely BCC); extensive lesions with eye, brain or bone involvement (syndromic)."
+ ],
+ "sections": [
+  {
+   "id": "overview",
+   "title": "Overview",
+   "blocks": [
+    "A congenital **hamartoma** of the folliculosebaceous-apocrine unit, present at birth in about 0.3% of newborns. It is mostly on the scalp, then the face."
+   ]
+  },
+  {
+   "id": "aetiology",
+   "title": "Aetiology: causes and risk factors",
+   "blocks": [
+    {
+     "ul": [
+      "**Post-zygotic (mosaic) HRAS (most) or KRAS mutations.** This is why it follows Blaschko's lines and why the same mutation underlies the syndromic forms.",
+      "It changes with hormones in **three stages**: infancy (smooth, waxy, yellow-orange, hairless); puberty (sebaceous glands enlarge, so it becomes thick, verrucous and pebbly, as in the boy in [Case 2](condition:dermatofibroma)); adulthood (secondary adnexal tumours may develop)."
+     ]
+    }
+   ],
+   "short": "Aetiology"
+  },
+  {
+   "id": "clinical-features",
+   "title": "Clinical features",
+   "blocks": [
+    {
+     "ul": [
+      "Well-demarcated, hairless, yellow-orange or pink plaque, usually oval on the scalp or linear on the face/neck child; skin of colour).",
+      "In adults: rough, warty, sometimes with papules or nodules inside it.",
+      "**Secondary tumours:** they occur in perhaps 10–20% of lesions, mostly in adults, and **most are benign**. Trichoblastoma is commonest, then syringocystadenoma papilliferum, trichilemmoma, sebaceoma and apocrine tumours. **BCC is rare (<1% in modern series)**, and older reports that called trichoblastomas \"BCC\" exaggerated the risk. SCC, sebaceous carcinoma and apocrine carcinoma are very rare.",
+      "**Syndromic forms:** *Schimmelpenning (linear naevus sebaceous) syndrome*: an extensive, often facial, linear naevus with CNS (seizures, developmental delay, hemimegalencephaly), eye (colobomas, choristomas) and skeletal (rickets from hypophosphataemia, FGF23) involvement. *Phacomatosis pigmentokeratotica*: sebaceous naevus plus a speckled lentiginous naevus (HRAS)."
+     ]
+    },
+    {
+     "fig": {
+      "dermnet": "m2w1:C01"
+     }
+    }
+   ]
+  },
+  {
+   "id": "diagnosis",
+   "title": "Diagnosis and investigations",
+   "blocks": [
+    {
+     "ul": [
+      "Clinical in most cases. Dermoscopy shows yellow globules and a cerebriform/papillomatous pattern.",
+      "Biopsy any **new nodule, ulcer, bleeding or rapid change** within a sebaceous naevus.",
+      "An extensive or facial lesion with neurological, ocular or skeletal signs needs paediatric referral for syndrome work-up."
+     ]
+    },
+    {
+     "h4": "Key points"
+    },
+    {
+     "ul": [
+      "Clinical in most cases. Dermoscopy shows yellow globules and a cerebriform/papillomatous pattern.",
+      "Biopsy any **new nodule, ulcer, bleeding or rapid change** within a sebaceous naevus.",
+      "An extensive or facial lesion with neurological, ocular or skeletal signs needs paediatric referral for syndrome work-up."
+     ]
+    }
+   ],
+   "short": "Diagnosis"
+  },
+  {
+   "id": "differentials",
+   "title": "Differential diagnoses",
+   "blocks": [
+    {
+     "ddx": [
+      {
+       "name": "Aplasia cutis congenita",
+       "f": "Membranous or scarred, atrophic, sometimes a \"hair collar\"; not yellow or waxy",
+       "link": "aplasia-cutis"
+      },
+      {
+       "name": "Epidermal (verrucous) naevus",
+       "f": "Warty, brown, not yellow; often off the scalp",
+       "link": "pigmented-birthmarks"
+      },
+      {
+       "name": "Juvenile xanthogranuloma",
+       "f": "Dome-shaped orange papule, not a plaque"
+      },
+      {
+       "name": "Solitary mastocytoma",
+       "f": "Darier sign positive"
+      },
+      {
+       "name": "Linear morphoea en coup de sabre (see Other lumps and syndromes)",
+       "f": "Acquired (not congenital), indurated, ivory, with hair loss and a groove; **progressive**"
+      },
+      {
+       "name": "Alopecia areata / tinea capitis",
+       "f": "Acquired, with normal skin texture or scale",
+       "link": "alopecia-areata"
+      }
+     ]
+    }
+   ],
+   "short": "Differentials"
+  },
+  {
+   "id": "management",
+   "title": "Management",
+   "blocks": [
+    {
+     "ul": [
+      "Explain the natural history and the low (mainly benign) tumour risk. **Observation is reasonable**, and many UK paediatric dermatologists no longer advise routine prophylactic excision.",
+      "Elective **excision** (the course answer, often in late childhood or adolescence under local anaesthetic, earlier for facial lesions or under GA) is offered for cosmetic, practical (comb trauma, bleeding) or anxiety reasons. It is a shared decision with paediatric dermatology or plastics.",
+      "**Refer:** routine to dermatology for confirmation and discussion. **Sooner** for a new nodule, ulceration or bleeding, which needs biopsy. **Paediatrics/neurology** for extensive or syndromic presentations.",
+      "Not IP options: laser, PDT, **topical sirolimus** (case reports only; unlicensed; does not remove tumour risk; specialist-only)."
+     ]
+    },
+    {
+     "h": "Referral"
+    },
+    {
+     "refer": [
+      {
+       "when": "routine",
+       "t": "A new lump, crust, ulcer or bleeding within a sebaceous naevus: refer for **biopsy**."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "red-flags",
+   "title": "Red flags and when to refer",
+   "blocks": [
+    {
+     "ul": [
+      "A new lump, crust, ulcer or bleeding within a sebaceous naevus: refer for **biopsy**."
+     ]
+    }
+   ],
+   "short": "Red flags"
+  },
+  {
+   "id": "pearls",
+   "title": "Prescriber pearls (UK pharmacist IP)",
+   "blocks": [
+    {
+     "pearls": [
+      "Parents often worry about \"cancer\". Give the honest figures (secondary tumours are mostly benign, BCC under 1%) and teach them to look for **any lump growing within the patch**.",
+      "Teenagers notice the change at puberty. Reassure them it is expected, not malignant."
+     ]
+    }
+   ],
+   "short": "Pearls"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Sebaceous naevus (naevus sebaceous)?",
+   "a": "A child with a smooth, yellow-orange, hairless plaque on the scalp, or an adult with a warty plaque there."
+  },
+  {
+   "q": "What drives it?",
+   "a": "A hamartoma of epidermis, hair follicles and sebaceous glands (mosaic HRAS/KRAS mutations); hormones thicken it at puberty."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "Recognise, photograph and monitor; discuss elective excision; refer any new nodule, ulcer or bleeding within it."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "A new lump or crusted area within the naevus (trichoblastoma, rarely BCC); extensive lesions with eye, brain or bone involvement (syndromic)."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "A new lump, crust, ulcer or bleeding within a sebaceous naevus: refer for **biopsy**."
+  }
+ ],
+ "references": [],
+ "see_also": []
+}

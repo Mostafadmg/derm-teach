@@ -1,0 +1,59 @@
+{
+ "_note": "curated (split page, Oct 2026)",
+ "manage": {
+  "lead": "Watch most; refer high-risk ones early.",
+  "rungs": [
+   {
+    "k": "Uncomplicated",
+    "tone": "base",
+    "points": [
+     "Active observation with photographs; reassure."
+    ]
+   },
+   {
+    "k": "Small superficial (specialist)",
+    "tone": "first",
+    "points": [
+     "Topical timolol (off-label; NICE ESUOM47)."
+    ]
+   },
+   {
+    "k": "Problematic / high-risk",
+    "tone": "refer",
+    "points": [
+     "Oral propranolol, specialist-initiated with monitoring; hold doses if not feeding or unwell."
+    ]
+   }
+  ]
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "urgent",
+    "t": "Periocular, airway/beard, lip, nasal tip, segmental facial, perineal, ulcerated or ≥5 lesions: refer ideally by about 4 weeks of age."
+   },
+   {
+    "when": "same-day",
+    "t": "Stridor with a beard-area haemangioma."
+   }
+  ]
+ },
+ "quiz": [
+  {
+   "q": "When does most haemangioma growth occur?",
+   "a": "In the first 1–3 months; largely complete by about 5 months."
+  },
+  {
+   "q": "Which marker distinguishes IH from malformations?",
+   "a": "GLUT-1."
+  },
+  {
+   "q": "What does ≥5 skin haemangiomas prompt?",
+   "a": "Abdominal (liver) ultrasound."
+  },
+  {
+   "q": "First-line systemic treatment?",
+   "a": "Oral propranolol, started by a specialist."
+  }
+ ]
+}

@@ -1,0 +1,167 @@
+{
+ "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
+ "key_facts": [
+  "Sudden crops of small yellow papules with a red rim on the buttocks, elbows or knees, often in poorly controlled diabetes.",
+  "Very high triglycerides leak into the dermis and are taken up by macrophages.",
+  "Fasting lipids, HbA1c, glucose, TSH, LFT, renal function, alcohol and drug review; urgent lipid-lowering and diabetes control.",
+  "Acute pancreatitis (triglycerides >10–20 mmol/L); familial hypercholesterolaemia with tendon xanthomas."
+ ],
+ "sections": [
+  {
+   "id": "overview",
+   "title": "Overview",
+   "blocks": [
+    "Crops of small (1–5 mm) **yellow papules with a red halo**, appearing over weeks, on the **buttocks**, extensor arms/thighs and shoulders. They are the skin marker of **severe hypertriglyceridaemia** (usually TG **>10–20 mmol/L**, chylomicronaemia)."
+   ]
+  },
+  {
+   "id": "pathophysiology",
+   "title": "Pathophysiology and pathology",
+   "blocks": [
+    {
+     "h": "How it is caused"
+    },
+    "Excess circulating **chylomicrons/VLDL** leak through dermal capillaries and are taken up by macrophages (foam cells), with **extracellular lipid** deposits early on.",
+    {
+     "ul": [
+      "**Secondary causes:** **uncontrolled diabetes** (insulin deficiency → less lipoprotein lipase activity — this case: fasting glucose 18.1); **obesity**/metabolic syndrome (BMI 35); **alcohol**; hypothyroidism, nephrotic syndrome, CKD, pregnancy; **drugs:** oral oestrogens, tamoxifen, **retinoids (isotretinoin, acitretin)**, corticosteroids, thiazides, β-blockers, **ciclosporin/tacrolimus/sirolimus**, protease inhibitors, **atypical antipsychotics** (olanzapine, clozapine), propofol, L-asparaginase",
+      "**Primary:** familial chylomicronaemia syndrome (LPL deficiency), multifactorial chylomicronaemia, familial hypertriglyceridaemia, dysbetalipoproteinaemia."
+     ]
+    }
+   ],
+   "short": "Pathophysiology"
+  },
+  {
+   "id": "clinical-features",
+   "title": "Clinical features",
+   "blocks": [
+    {
+     "h": "Clinical features & sites"
+    },
+    "Clusters of firm, non-tender or slightly itchy yellow-orange papules with erythematous bases; Koebnerisation. Larger coalescing (tubero-eruptive) lesions with persistent disease. Look also for **lipaemia retinalis** (creamy retinal vessels), hepatosplenomegaly, abdominal pain (**pancreatitis**). Other xanthoma types point to other lipid disorders: tendon (FH), tuberous (elbows/knees — dysbetalipoproteinaemia/FH), palmar crease (dysbetalipoproteinaemia), xanthelasma (half have normal lipids).",
+    {
+     "fig": {
+      "dermnet": "m1w5:E01"
+     }
+    }
+   ]
+  },
+  {
+   "id": "diagnosis",
+   "title": "Diagnosis and investigations",
+   "blocks": [
+    {
+     "ul": [
+      "**Fasting lipid profile.** The sample is **turbid/milky (\"lipaemic\")** with **very high TG**. Cholesterol is also raised.",
+      "**HbA1c**, glucose, U&E/eGFR, LFT (fatty liver, alcohol), **TSH**, urine ACR/PCR, amylase/lipase if abdominal pain.",
+      "**Shave or punch biopsy** only if uncertain (foamy macrophages ± extracellular lipid).",
+      "**NICE NG238 (2023):** **TG >20 mmol/L** (not caused by excess alcohol or poor glycaemic control) → **urgent specialist referral**; **TG 10–20 mmol/L** → **repeat fasting TG within 5–14 days**, review and treat secondary causes; **seek specialist advice if still >10**; In practice, a TG >20 with xanthomas and new diabetes needs **urgent** management whatever the cause, because of pancreatitis risk"
+     ]
+    }
+   ],
+   "short": "Diagnosis"
+  },
+  {
+   "id": "differentials",
+   "title": "Differential diagnoses",
+   "blocks": [
+    "**Molluscum contagiosum** (umbilicated, pearly), **dermatitis herpetiformis** (itchy grouped excoriated papules/vesicles, same sites), folliculitis/acne, **papular granuloma annulare**, xanthoma disseminatum/non-Langerhans histiocytosis, papular sarcoid, milia, insect bites, juvenile xanthogranuloma."
+   ],
+   "short": "Differentials"
+  },
+  {
+   "id": "management",
+   "title": "Management",
+   "blocks": [
+    {
+     "ol": [
+      "**Treat the diabetes promptly** (NICE NG28). A fasting glucose of 18.1 with a new diagnosis needs HbA1c and ketones. With symptomatic hyperglycaemia or very high TG, **insulin** (or a sulfonylurea) achieves rapid control and rapidly lowers TG. Then metformin ± SGLT2 inhibitor/GLP-1 RA for long-term control and weight.",
+      "**Stop alcohol** completely while TG is very high. **Review culprit drugs** (oestrogens, thiazides, β-blockers, retinoids, antipsychotics, steroids).",
+      "**Dietitian:** very-low-fat diet (<10–15% energy from fat) for chylomicronaemia; avoid simple sugars; weight loss.",
+      "**Lipid-lowering:** **Fenofibrate** (specialist-advised) when TG remains >10 mmol/L despite control of secondary causes, to reduce **pancreatitis** risk; **Statin** for CVD risk — **atorvastatin 20 mg** for primary prevention in T2DM if QRISK3 ≥10%; **Icosapent ethyl** (NICE TA805) for secondary prevention with raised TG on statins",
+      "**Xanthomas regress** within weeks to months of TG control — a useful motivator.",
+      "**Safety-net for pancreatitis:** severe epigastric pain radiating to the back, vomiting → ED."
+     ]
+    },
+    {
+     "h": "IP scope"
+    },
+    "Within diabetes/lipid IP competence: start diabetes therapy (incl. insulin if trained), statin, stop alcohol/culprit drugs, arrange repeat lipids, refer urgently per NG238. Fibrate/specialist therapies as advised.",
+    {
+     "h": "Referral"
+    },
+    {
+     "refer": [
+      {
+       "when": "same-day",
+       "t": "Triglycerides above 20 mmol/L: **urgent specialist referral** (NICE NG238); abdominal pain raises concern for **acute pancreatitis**, same-day assessment."
+      },
+      {
+       "when": "routine",
+       "t": "Tendon xanthomas or xanthelasma in a young person: check for **familial hypercholesterolaemia** (NICE CG71)."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "red-flags",
+   "title": "Red flags and when to refer",
+   "blocks": [
+    {
+     "ul": [
+      "Triglycerides above 20 mmol/L: **urgent specialist referral** (NICE NG238); abdominal pain raises concern for **acute pancreatitis**, same-day assessment.",
+      "Tendon xanthomas or xanthelasma in a young person: check for **familial hypercholesterolaemia** (NICE CG71)."
+     ]
+    },
+    {
+     "h4": "Red flags / refer"
+    },
+    "Abdominal pain (pancreatitis — same day); TG >20 mmol/L (urgent lipid clinic); TG >10 persistently; suspected familial chylomicronaemia (onset in childhood, recurrent pancreatitis); DKA/HHS features (glucose 18 + vomiting/ketones)."
+   ],
+   "short": "Red flags"
+  },
+  {
+   "id": "pearls",
+   "title": "Prescriber pearls (UK pharmacist IP)",
+   "blocks": [
+    {
+     "pearls": [
+      "\"**Yellow papules on the buttocks in new diabetes = check triglycerides today — pancreatitis risk.**\"",
+      "Before starting **isotretinoin, acitretin or oral oestrogen**, check fasting lipids if there are risk factors (family history, obesity, diabetes, alcohol)."
+     ]
+    }
+   ],
+   "short": "Pearls"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Eruptive xanthomas & skin signs of lipids?",
+   "a": "Sudden crops of small yellow papules with a red rim on the buttocks, elbows or knees, often in poorly controlled diabetes."
+  },
+  {
+   "q": "What drives it?",
+   "a": "Very high triglycerides leak into the dermis and are taken up by macrophages."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "Fasting lipids, HbA1c, glucose, TSH, LFT, renal function, alcohol and drug review; urgent lipid-lowering and diabetes control."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "Acute pancreatitis (triglycerides >10–20 mmol/L); familial hypercholesterolaemia with tendon xanthomas."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "Triglycerides above 20 mmol/L: **urgent specialist referral** (NICE NG238); abdominal pain raises concern for **acute pancreatitis**, same-day assessment."
+  }
+ ],
+ "references": [
+  {
+   "label": "Medscape: Eruptive xanthomas & skin signs of lipids",
+   "url": "https://emedicine.medscape.com/article/1103971-overview"
+  }
+ ],
+ "see_also": []
+}

@@ -1,0 +1,444 @@
+{
+ "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
+ "key_facts": [
+  "A patient on **methotrexate, ciclosporin, a biologic or a JAK inhibitor** needs a prescription, vaccine, antibiotic or advice.",
+  "Targeted blockade of **TNF, IL-17, IL-23, IL-4/13 or JAK** signalling, or broad immunosuppression.",
+  "Specialist-initiated (NICE TAs); shared-care monitoring; **no live vaccines**; check every new drug (**MTX + trimethoprim**).",
+  "Serious infection, **TB reactivation**, **methotrexate toxicity**, VTE and MACE with JAK inhibitors (MHRA 2023)."
+ ],
+ "sections": [
+  {
+   "id": "overview",
+   "title": "Overview",
+   "blocks": [
+    {
+     "table": {
+      "head": [
+       "Class",
+       "Psoriasis (UK licensed, NICE-appraised)",
+       "Atopic eczema"
+      ],
+      "rows": [
+       [
+        "**TNF-α inhibitors**",
+        "Adalimumab (biosimilars), etanercept, infliximab, certolizumab pegol",
+        "—"
+       ],
+       [
+        "**IL-12/23 (p40)**",
+        "Ustekinumab (biosimilars)",
+        "—"
+       ],
+       [
+        "**IL-23 (p19)**",
+        "Guselkumab, risankizumab, tildrakizumab",
+        "—"
+       ],
+       [
+        "**IL-17A / IL-17A+F / IL-17RA**",
+        "Secukinumab, ixekizumab / **bimekizumab** / brodalumab",
+        "—"
+       ],
+       [
+        "**IL-4Rα (IL-4 + IL-13)**",
+        "—",
+        "**Dupilumab** (NICE TA534; further TAs for adolescents/children)"
+       ],
+       [
+        "**IL-13**",
+        "—",
+        "**Tralokinumab**, **lebrikizumab**"
+       ],
+       [
+        "**IL-31RA**",
+        "—",
+        "Nemolizumab (prurigo nodularis/AD — check current NICE status)"
+       ],
+       [
+        "**Oral JAK/TYK2 inhibitors**",
+        "Deucravacitinib (TYK2)",
+        "**Abrocitinib, upadacitinib, baricitinib**"
+       ],
+       [
+        "**Oral small molecules**",
+        "Apremilast (PDE-4), dimethyl fumarate (Skilarence)",
+        "—"
+       ],
+       [
+        "**Conventional systemics**",
+        "**Methotrexate**, ciclosporin, acitretin, NB-UVB/PUVA",
+        "**Ciclosporin** (licensed); methotrexate, azathioprine, mycophenolate (off-label)"
+       ]
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "aetiology",
+   "title": "Aetiology: causes and risk factors",
+   "blocks": [
+    {
+     "fig": {
+      "ai": "v3-il23-th17-axis.jpg",
+      "caption": "The psoriasis loop: a dendritic cell signals to a T cell, which releases cytokines (such as IL-17) that make keratinocytes multiply and draw in neutrophils. Biologic antibodies intercept these signals.",
+      "alt": "Schematic of immune cells and cytokines in psoriatic skin"
+     }
+    }
+   ],
+   "short": "Aetiology"
+  },
+  {
+   "id": "clinical-features",
+   "title": "Clinical features",
+   "blocks": [
+    {
+     "h": "How it works (target → disease)"
+    },
+    {
+     "ul": [
+      "**Psoriasis** is driven by the **IL-23/Th17 axis**: Dendritic cells release IL-23, which drives Th17 cells to make **IL-17A/F** and IL-22. These cause keratinocyte hyperproliferation and recruit neutrophils; TNF-α amplifies the loop; Blocking IL-23 (p19) or IL-17 gives PASI 90 responses in most patients; IL-17 blockade works fastest",
+      "**Atopic eczema** is **Th2-dominant**: **IL-4 and IL-13** impair barrier proteins (filaggrin, loricrin) and drive IgE and itch; **IL-31** is a key itch cytokine; Dupilumab blocks the shared **IL-4Rα**, so it blocks both IL-4 and IL-13 signalling. Tralokinumab and lebrikizumab neutralise IL-13; JAK inhibitors block intracellular signalling for many cytokines (IL-4, IL-13, IL-31, IFN-γ), giving rapid itch relief"
+     ]
+    },
+    {
+     "h": "Clinical uses & where it fits (NICE)"
+    },
+    {
+     "ul": [
+      "**Psoriasis biologics:** Typically for **severe disease — PASI ≥10 and DLQI >10** — that has not responded to, is intolerant of, or is contraindicated for **conventional systemic therapy** (methotrexate, ciclosporin, acitretin) and phototherapy. Some TAs use lower DLQI thresholds; check each one; Choice depends on comorbidity:; **psoriatic arthritis** → TNF, IL-17 or IL-23 options; **IBD** → avoid IL-17 (may trigger or worsen IBD); TNF or IL-23 preferred; **demyelination or heart failure** → avoid TNF; **pregnancy** → certolizumab; also consider TB and hepatitis risk",
+      "**Eczema biologics/JAKi:** moderate–severe AE (e.g. EASI ≥16, DLQI ≥10) after at least one conventional systemic has failed or is unsuitable.",
+      "**Where primary care fits:** These are **hospital-initiated and hospital/homecare-supplied (\"red\") drugs**. GPs and IPs **do not prescribe** them; They must still be **recorded on the GP record as \"hospital-prescribed\"**, so that interactions, vaccines and infection risk are visible"
+     ]
+    },
+    {
+     "h": "How to choose / assess (what you do in primary care)"
+    },
+    {
+     "ul": [
+      "**Specialist screen before starting:** TB (IGRA ± CXR), hepatitis B/C, HIV, VZV serology, pregnancy, malignancy and demyelination history, vaccines up to date (give **live vaccines ≥4 weeks before** starting).",
+      "**During treatment:** infections, vaccines, surgery planning, pregnancy, new symptoms."
+     ]
+    },
+    {
+     "h": "Key comparisons — adverse effects you will meet"
+    },
+    {
+     "table": {
+      "head": [
+       "Agent/class",
+       "AE to recognise in primary care"
+      ],
+      "rows": [
+       [
+        "All biologics",
+        "Injection-site reactions; infections (URTI); **live vaccines contraindicated** during therapy and for a period after (check SmPC); hold for major surgery per specialist"
+       ],
+       [
+        "TNF-i",
+        "Serious infection, **TB reactivation**, paradoxical (palmoplantar pustular) psoriasis, demyelination, worsening heart failure, lupus-like syndrome"
+       ],
+       [
+        "IL-17",
+        "**Mucocutaneous candidiasis**, **new or worsening IBD**, eczematous reactions"
+       ],
+       [
+        "IL-23 / IL-12/23",
+        "Generally well tolerated; infections; headache"
+       ],
+       [
+        "**Dupilumab**",
+        "**Conjunctivitis/blepharitis/keratitis** (ocular surface disease — photo G01; ~10–25%), facial/neck erythema (\"dupilumab facial redness\"), injection-site reactions, eosinophilia, new psoriasiform rash, arthralgia, oral HSV"
+       ],
+       [
+        "Tralokinumab/lebrikizumab",
+        "Conjunctivitis (less often), URTI"
+       ],
+       [
+        "**JAK inhibitors**",
+        "**MHRA (DSU Apr 2023):** increased risk of **major adverse CV events, malignancy (incl. NMSC and lymphoma), VTE, serious infections and mortality**. Use in people **≥65, current or past long-time smokers, or those with CV/malignancy/VTE risk factors only if there is no suitable alternative**. Also acne, herpes zoster, raised lipids/CK, cytopenias"
+       ],
+       [
+        "Apremilast",
+        "Diarrhoea, nausea, headache, weight loss, **low mood/suicidality**"
+       ]
+      ]
+     }
+    },
+    {
+     "fig": {
+      "dermnet": "m1w2:G01"
+     }
+    },
+    {
+     "h": "Adverse effects to recognise"
+    },
+    {
+     "variants": [
+      {
+       "name": "Dupilumab eye",
+       "t": "Conjunctivitis, blepharitis, keratitis (~10–25%). *Site: Eyes.*",
+       "photo": "m1w2:G01"
+      },
+      {
+       "name": "Severe plaque psoriasis",
+       "t": "Biologic eligibility: PASI ≥ 10 and DLQI > 10. *Site: Trunk, limbs.*",
+       "photo": "m1w2:G02"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "diagnosis",
+   "title": "Diagnosis and investigations",
+   "blocks": [
+    {
+     "h4": "Psoriasis (NICE)"
+    },
+    {
+     "ul": [
+      "**PASI ≥ 10 and DLQI > 10** after conventional systemic and phototherapy failed or unsuitable."
+     ]
+    },
+    {
+     "h4": "Eczema (NICE)"
+    },
+    {
+     "ul": [
+      "Moderate–severe (e.g. EASI ≥ 16, DLQI ≥ 10) after ≥ 1 conventional systemic."
+     ]
+    },
+    {
+     "h4": "Pre-start screen"
+    },
+    {
+     "ul": [
+      "TB (IGRA ± CXR), hepatitis B/C, HIV, VZV, pregnancy; **live vaccines ≥ 4 weeks before**."
+     ]
+    }
+   ],
+   "short": "Diagnosis"
+  },
+  {
+   "id": "differentials",
+   "title": "Differential diagnoses",
+   "blocks": [
+    {
+     "ddx": [
+      {
+       "name": "TNF inhibitors",
+       "f": "TB reactivation, serious infection, paradoxical PPP, demyelination, heart failure.",
+       "danger": true
+      },
+      {
+       "name": "IL-17 inhibitors",
+       "f": "**Candidiasis**, new or worse **IBD**: avoid in IBD.",
+       "danger": true
+      },
+      {
+       "name": "Dupilumab",
+       "f": "Ocular surface disease, facial redness, eosinophilia, oral HSV."
+      },
+      {
+       "name": "JAK inhibitors",
+       "f": "MHRA 2023: **MACE, malignancy, VTE, serious infection**; caution ≥ 65, smokers, CV risk.",
+       "danger": true
+      },
+      {
+       "name": "Ciclosporin",
+       "f": "**BP and creatinine**: reduce or stop if creatinine rises > 25–30%."
+      }
+     ]
+    }
+   ],
+   "short": "Differentials"
+  },
+  {
+   "id": "management",
+   "title": "Management",
+   "blocks": [
+    {
+     "h": "Patients on biologics/JAKi — primary-care checklist"
+    },
+    {
+     "ul": [
+      "**Record** the drug (hospital-only flag), the dose interval and the homecare provider; check interactions with every new prescription.",
+      "**Infection:** Lower threshold for review and antibiotics; **Hold the next dose during a significant infection** and contact the specialist team; Fever or serious infection → same-day assessment (presentations may be atypical)",
+      "**Vaccines:** Inactivated vaccines (influenza, COVID-19, pneumococcal) are encouraged; **No live vaccines** (e.g. MMR, yellow fever, live intranasal flu in children); For shingles, use the **non-live Shingrix**, which immunosuppressed adults are eligible for under the NHS programme, not the live Zostavax",
+      "**Pregnancy planning:** specialist advice. Many biologics can be continued; JAKi are contraindicated.",
+      "**Skin-cancer checks** (JAKi, TNF-i, previous PUVA or ciclosporin)."
+     ]
+    },
+    {
+     "h": "Methotrexate safety (IP level — the conventional systemic you are most likely to co-manage)"
+    },
+    {
+     "ul": [
+      "**Once WEEKLY.** MHRA DSU (2020) followed fatal overdoses from inadvertent **daily** dosing: The prescriber must **record the day of the week** on the prescription and in the record; The patient gets clear counselling and the **patient card/booklet**; Pharmacies dispense **2.5 mg tablets only** (avoid 10 mg tablets in the same patient) and check understanding at every supply; Never write \"as directed\"",
+      "**Folic acid 5 mg once weekly** on a different day (some regimens use up to 6 days a week, never on the methotrexate day). It reduces GI, mucosal and hepatic toxicity.",
+      "**Monitoring (BSR/BAD shared care — follow the local protocol):** Baseline: FBC, U&E/creatinine, LFTs (ALT/albumin), ± hepatitis B/C, HIV, VZV, CXR. In psoriasis, add PIIINP or transient elastography/FIB-4 (liver fibrosis risk with metabolic syndrome or alcohol); Then **every 2 weeks until on a stable dose for 6 weeks, then monthly for 3 months, then every 3 months**; Test more often after a dose change, in renal impairment and in older people",
+      "**Stop and seek advice if** (check local thresholds): WCC <3.5 × 10⁹/L, neutrophils <1.6, platelets <140; ALT/AST >100 IU/L (or >2× ULN), or an unexplained fall in albumin; falling eGFR; **new cough or breathlessness (pneumonitis)**; mouth ulcers, sore throat, fever or bruising (marrow suppression); rash",
+      "**Key interactions:** **Trimethoprim and co-trimoxazole: contraindicated (pancytopenia)**; other antifolates; **NSAIDs** reduce renal clearance. Occasional low-dose use is often accepted in RA; psoriasis protocols may avoid them — follow the specialist; **PPIs** (with high-dose MTX) and penicillins reduce clearance; Live vaccines; Alcohol (keep within limits, or avoid in psoriasis — hepatotoxicity); acitretin (hepatotoxicity); leflunomide",
+      "**Pregnancy/fertility (UK SmPC/BNF):** contraindicated in pregnancy: **Women:** effective contraception during treatment and for **at least 6 months** after the last dose; **Men:** contraception during treatment and for **at least 3 months** after (some SmPCs say 6 months — check the product); no semen donation",
+      "**Dose in skin disease:** typically 7.5–25 mg once weekly, oral or subcutaneous; sometimes a 2.5–5 mg test dose first. Specialist-initiated."
+     ]
+    },
+    {
+     "h": "Ciclosporin (eczema/psoriasis; specialist-initiated, short courses)"
+    },
+    {
+     "ul": [
+      "Monitor BP and creatinine; stop or reduce if creatinine rises >25–30% from baseline.",
+      "Many CYP3A4 interactions (clarithromycin, azoles, grapefruit, St John's wort).",
+      "**Avoid phototherapy** and sun (skin cancer).",
+      "Gingival hyperplasia, hypertrichosis, tremor; hyperkalaemia (avoid potassium-sparing drugs)."
+     ]
+    },
+    {
+     "h": "Oral corticosteroids — course Case 5 comment"
+    },
+    {
+     "ul": [
+      "**Psoriasis:** avoid systemic steroids. Withdrawal can trigger **generalised pustular or erythrodermic psoriasis** (photo A06 shows localised pustular psoriasis; see the the [psoriasis](condition:psoriasis) notes).",
+      "**Severe eczema:** A **short course** (e.g. prednisolone ~0.5 mg/kg, up to 30–40 mg, for ≤1–2 weeks, tapered as needed — specialist/GP judgement) can \"buy time\" while phototherapy or systemics are arranged; Rebound is common; avoid repeated courses; If used for ≥3 weeks or repeatedly, consider HPA suppression, bone health and the **NHS Steroid Emergency Card** (NatPSA 2020)"
+     ]
+    },
+    {
+     "h": "IP scope"
+    },
+    "**No initiation** of biologics or JAKi (hospital-only). Methotrexate and ciclosporin only under **shared care**, if competent and locally agreed: continuing supply, monitoring and acting on results. Every IP should flag hospital-only drugs on the record and manage interactions.",
+    {
+     "fig": {
+      "ai": "v3-methotrexate-weekly.jpg",
+      "caption": "Methotrexate is taken on one chosen day each week; folic acid is taken on a different day, never the methotrexate day. Write the day on the prescription.",
+      "alt": "Week of tiles with methotrexate on one day and folic acid on another"
+     }
+    },
+    {
+     "h": "Treatment ladder"
+    },
+    {
+     "ladder": [
+      {
+       "k": "Record",
+       "t": "Flag the hospital-only drug, dose interval and homecare provider. Check interactions with **every** new prescription.",
+       "tone": "base"
+      },
+      {
+       "k": "Infection",
+       "t": "Lower threshold to review and treat; **hold the next dose** in significant infection and contact the team. Fever or serious infection: same-day assessment.",
+       "tone": "first"
+      },
+      {
+       "k": "Vaccines",
+       "t": "Inactivated (flu, COVID-19, pneumococcal) encouraged; **no live vaccines**. Shingles: non-live **Shingrix**, not Zostavax.",
+       "tone": "second"
+      },
+      {
+       "k": "Methotrexate (shared care)",
+       "t": "**Once WEEKLY**; record the **day of the week** (MHRA 2020); patient card. **Folic acid 5 mg once weekly** on a different day.",
+       "tone": "third"
+      }
+     ]
+    },
+    {
+     "callout": "warn",
+     "title": "Prescribing limits and pitfalls",
+     "list": [
+      "**Trimethoprim / co-trimoxazole**: Never with methotrexate.",
+      "**Pregnancy**: Specialist advice; JAK inhibitors contraindicated.",
+      "**Skin cancer**: Checks on JAKi, TNF-i, previous PUVA or ciclosporin."
+     ]
+    },
+    {
+     "h": "Referral"
+    },
+    {
+     "refer": [
+      {
+       "when": "same-day",
+       "t": "Fever, sore throat, **mouth ulcers or bruising** on methotrexate: same-day FBC; withhold until reviewed."
+      },
+      {
+       "when": "same-day",
+       "t": "Serious infection or **TB symptoms** on a biologic or JAKi: urgent assessment, contact team."
+      },
+      {
+       "when": "urgent",
+       "t": "Cough or breathlessness on MTX (pneumonitis); chest pain or VTE symptoms on JAKi."
+      },
+      {
+       "when": "urgent",
+       "t": "New IBD symptoms on IL-17 inhibitor; eye pain or visual loss on dupilumab."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "red-flags",
+   "title": "Red flags and when to refer",
+   "blocks": [
+    {
+     "ul": [
+      "Fever, sore throat, mouth ulcers or bruising on methotrexate: same-day FBC and stop until reviewed.",
+      "Never co-prescribe **trimethoprim or co-trimoxazole** with methotrexate.",
+      "Signs of serious infection or TB on a biologic or JAK inhibitor: urgent assessment and contact the specialist team."
+     ]
+    },
+    {
+     "h4": "Red flags / refer"
+    },
+    "On a biologic, JAKi, MTX or ciclosporin:",
+    {
+     "ul": [
+      "fever or sepsis; TB symptoms",
+      "new neurological symptoms (TNF-i — demyelination)",
+      "jaundice; unexplained bruising or bleeding",
+      "persistent cough or breathlessness (MTX pneumonitis; infections on JAKi)",
+      "new IBD symptoms on an IL-17 inhibitor",
+      "eye pain or visual loss on dupilumab",
+      "chest pain or VTE symptoms on a JAKi",
+      "pregnancy."
+     ]
+    }
+   ],
+   "short": "Red flags"
+  },
+  {
+   "id": "pearls",
+   "title": "Prescriber pearls (UK pharmacist IP)",
+   "blocks": [
+    {
+     "pearls": [
+      "\"A red eye on dupilumab is ocular surface disease until proven otherwise, not just viral conjunctivitis — tell the dermatology team.\"",
+      "\"IL-17 inhibitor + diarrhoea or bloody stool = IBD until proven otherwise.\"",
+      "\"Methotrexate: one day a week, write the day down, no trimethoprim.\""
+     ]
+    }
+   ],
+   "short": "Pearls"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Which antibiotic must never be co-prescribed with methotrexate?",
+   "a": "Trimethoprim (and co-trimoxazole)."
+  },
+  {
+   "q": "Shingles vaccine for a patient on a JAK inhibitor?",
+   "a": "The non-live recombinant vaccine (Shingrix), not live Zostavax."
+  },
+  {
+   "q": "NICE psoriasis biologic threshold?",
+   "a": "PASI ≥ 10 and DLQI > 10 after conventional systemic failure or unsuitability."
+  },
+  {
+   "q": "Bloody diarrhoea on secukinumab?",
+   "a": "Suspect new or worsening IBD: assess and contact the team."
+  }
+ ],
+ "references": [],
+ "see_also": []
+}

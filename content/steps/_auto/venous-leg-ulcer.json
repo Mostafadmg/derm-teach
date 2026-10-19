@@ -80,12 +80,12 @@
    {
     "name": "Arterial ulcer",
     "clue": "Punched-out, distal (toes, pressure points), claudication or rest pain, cold foot, weak pulses, **low ABPI**",
-    "link": "arterial-neuropathic-ulcers"
+    "link": "arterial-leg-ulcer"
    },
    {
     "name": "Neuropathic ulcer",
     "clue": "Plantar pressure points, **painless**, callus, diabetes with neuropathy",
-    "link": "arterial-neuropathic-ulcers"
+    "link": "diabetic-foot-ulcer"
    },
    {
     "name": "Pyoderma gangrenosum",

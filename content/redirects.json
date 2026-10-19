@@ -6,5 +6,55 @@
    "phytophotodermatitis",
    "cutaneous-amyloidosis"
   ]
+ },
+ "dress-agep": {
+  "title": "DRESS & AGEP (severe drug reactions)",
+  "note": "This topic has been split into two pages.",
+  "to": [
+   "dress",
+   "agep"
+  ]
+ },
+ "vascular-birthmarks": {
+  "title": "Infantile haemangioma & port-wine stain",
+  "note": "This topic has been split into two pages.",
+  "to": [
+   "infantile-haemangioma",
+   "port-wine-stain"
+  ]
+ },
+ "arterial-neuropathic-ulcers": {
+  "title": "Arterial & neuropathic ulcers",
+  "note": "This topic has been split into two pages.",
+  "to": [
+   "arterial-leg-ulcer",
+   "diabetic-foot-ulcer"
+  ]
+ },
+ "acne-scars-keloids": {
+  "title": "Acne scars & keloids",
+  "note": "This topic has been split into two pages.",
+  "to": [
+   "acne-scars",
+   "keloids-hypertrophic-scars"
+  ]
+ },
+ "ipl-eyelash": {
+  "title": "IPL & eyelash enhancement",
+  "note": "This topic has been split into two pages.",
+  "to": [
+   "intense-pulsed-light",
+   "eyelash-enhancement"
+  ]
+ },
+ "spitz-blue-halo-naevi": {
+  "title": "Halo, blue, Spitz & recurrent naevi",
+  "note": "This topic has been split into separate pages. Recurrent naevi, naevus spilus and acral naevi are covered on the moles page.",
+  "to": [
+   "halo-naevus",
+   "blue-naevus",
+   "spitz-naevus",
+   "melanocytic-naevi"
+  ]
  }
 }

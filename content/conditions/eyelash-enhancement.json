@@ -1,0 +1,101 @@
+{
+ "slug": "eyelash-enhancement",
+ "title": "Eyelash enhancement (bimatoprost)",
+ "category": "cosmetic-hair",
+ "status": "published",
+ "order": 7,
+ "module": "Module 6 · Week 5",
+ "aka": [
+  "bimatoprost",
+  "Latisse",
+  "eyelash growth",
+  "eyelash serum",
+  "hypotrichosis of the eyelashes",
+  "madarosis"
+ ],
+ "summary": "Counselling on bimatoprost (a prostamide) for longer, darker lashes: how it works, permanent iris darkening, reversible eyelid pigmentation and when to exclude a disease cause of lash loss.",
+ "card_image": "m6w5:W5E-01",
+ "sections": {
+  "what": [
+   "**Eyelash enhancement** options include cosmetics, lifts and **bimatoprost** (a prostamide also used in glaucoma drops) applied to the upper lid margin to lengthen lashes."
+  ],
+  "cause": [
+   "Bimatoprost increases eyelash length, thickness and darkness by **extending anagen** and stimulating follicle melanogenesis; periocular skin and iris melanocytes can also respond."
+  ],
+  "features": [
+   {
+    "list": [
+     "Longer, darker lashes over weeks to months.",
+     "Side effects: periocular hyperpigmentation, **iris colour change** (especially hazel/green eyes), itch, redness; periorbital fat atrophy (glaucoma-dose context)."
+    ]
+   }
+  ],
+  "diagnosis": [
+   "Before use: exclude a disease cause of sparse lashes (**madarosis**): alopecia areata, thyroid disease, blepharitis, trichotillomania, chemotherapy."
+  ],
+  "differentials": [
+   {
+    "table": {
+     "head": [
+      "Cause of sparse lashes",
+      "Clue"
+     ],
+     "rows": [
+      [
+       "[Alopecia areata](condition:alopecia-areata)",
+       "Patchy loss elsewhere; exclamation-mark hairs"
+      ],
+      [
+       "[Trichotillomania](condition:trichotillomania)",
+       "Broken lashes of different lengths"
+      ],
+      [
+       "Blepharitis",
+       "Crusted, red lid margins"
+      ],
+      [
+       "Thyroid disease",
+       "Loss of the outer brows; systemic symptoms"
+      ]
+     ]
+    }
+   }
+  ],
+  "management": [
+   {
+    "h": "Bimatoprost eyelash counselling"
+   },
+   {
+    "list": [
+     "Explain cosmetic versus glaucoma origins; apply only as directed to the upper lid margin, not into the eye for cosmetic use.",
+     "Warn about **permanent iris darkening**, reversible periocular skin darkening, possible hair growth on unintended skin if the product migrates, and ocular irritation.",
+     "Avoid with active ocular inflammation unless an ophthalmologist agrees; remove contact lenses as per product advice.",
+     "Effects reverse over weeks to months if stopped.",
+     "Check the current SmPC/BNF; this page does not cover off-label periocular protocols."
+    ]
+   }
+  ],
+  "red_flags": [
+   "Eye pain, redness or visual change: stop and seek ophthalmology review.",
+   "Patients on glaucoma drops: discuss with their ophthalmologist (additive effect on intraocular pressure)."
+  ],
+  "pearls": [
+   "Eyelash serums sold cosmetically vary widely; prescription bimatoprost needs proper counselling on iris pigment."
+  ]
+ },
+ "photos": [
+  {
+   "title": "Bimatoprost eyelash growth",
+   "items": [
+    "m6w5:W5E-01",
+    "m6w5:W5E-02"
+   ]
+  }
+ ],
+ "references": [
+  {
+   "label": "BNF: Bimatoprost",
+   "url": "https://bnf.nice.org.uk/drugs/bimatoprost/"
+  }
+ ]
+}

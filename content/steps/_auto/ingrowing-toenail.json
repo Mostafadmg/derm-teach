@@ -1,0 +1,39 @@
+{
+ "_auto": true,
+ "glance": {
+  "chips": [
+   "Module 3 · Week 2",
+   "ingrowing toenail",
+   "ingrown toenail",
+   "onychocryptosis"
+  ],
+  "points": []
+ },
+ "cause": {
+  "points": [],
+  "visuals": []
+ },
+ "features": {
+  "photo": null,
+  "points": [
+   "**Stages:** inflammation → infection with granulation tissue (\"proud flesh\") → chronic hypertrophy of the fold.",
+   "Pain, redness and swelling of the lateral fold; later discharge, pus and **granulation tissue** (\"proud flesh\") overhanging the nail."
+  ],
+  "visuals": [],
+  "variants": null
+ },
+ "confirm": {
+  "cols": []
+ },
+ "differentials": {
+  "cards": []
+ },
+ "manage": {
+  "rungs": []
+ },
+ "refer": {
+  "items": []
+ },
+ "pearls": [],
+ "quiz": []
+}

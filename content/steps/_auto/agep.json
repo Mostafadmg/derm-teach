@@ -1,0 +1,71 @@
+{
+ "_auto": true,
+ "glance": {
+  "chips": [
+   "Module 1 · Week 3",
+   "AGEP",
+   "acute generalised exanthematous pustulosis",
+   "pustular drug eruption"
+  ],
+  "points": []
+ },
+ "cause": {
+  "points": [
+   "Type IVd reaction: drug-specific T cells release **IL-8 (CXCL8)**, recruiting neutrophils into the epidermis.",
+   "Culprits: **aminopenicillins**, macrolides, cephalosporins, **pristinamycin**, **hydroxychloroquine**, **diltiazem**, terbinafine.",
+   "Latency **under 48 hours** for antibiotics; up to 1–2 weeks for some drugs.",
+   "IL36RN variants overlap with generalised pustular psoriasis."
+  ],
+  "visuals": []
+ },
+ "features": {
+  "photo": "m1w3:C02",
+  "points": [
+   "Pinhead pustules on erythema, starting in the **flexures and face** and becoming generalised; burning or itch.",
+   "Fever above 38 °C; neutrophilia; mild organ involvement in up to 20%.",
+   "Resolves in 1–2 weeks with **collarette desquamation**."
+  ],
+  "visuals": [],
+  "variants": null,
+  "groups": [
+   0
+  ]
+ },
+ "confirm": {
+  "cols": []
+ },
+ "differentials": {
+  "cards": []
+ },
+ "manage": {
+  "rungs": []
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "same-day",
+    "t": "Widespread pustules within days of an antibiotic: **same-day dermatology**."
+   },
+   {
+    "when": "same-day",
+    "t": "Mucosal erosions, skin sloughing or systemic organ dysfunction: hospital."
+   }
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "AGEP has the **shortest latency** of the severe drug reactions (hours to 2 days)."
+  },
+  {
+   "icon": "bulb",
+   "t": "Pustules in AGEP are **non-follicular** (unlike folliculitis)."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "Widespread pustules within days of an antibiotic: **same-day dermatology**."
+  }
+ ]
+}

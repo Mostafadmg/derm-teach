@@ -1,0 +1,60 @@
+{
+ "_note": "curated (split page, Oct 2026)",
+ "manage": {
+  "lead": "Counsel on iris colour before starting.",
+  "rungs": [
+   {
+    "k": "Exclude disease",
+    "tone": "base",
+    "points": [
+     "Check for alopecia areata, blepharitis, thyroid disease, trichotillomania."
+    ]
+   },
+   {
+    "k": "Bimatoprost",
+    "tone": "first",
+    "points": [
+     "Apply to the upper lid margin as licensed; effects over weeks to months."
+    ],
+    "rx": [
+     {
+      "drug": "Bimatoprost (eyelash)",
+      "dose": "as per SmPC/BNF",
+      "dur": "continuous",
+      "note": "Permanent iris darkening possible; periocular pigment reverses."
+     }
+    ]
+   }
+  ]
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "routine",
+    "t": "Lash loss with scalp or brow loss, or lid disease: GP/dermatology/ophthalmology."
+   },
+   {
+    "when": "urgent",
+    "t": "Eye pain, redness or visual change on treatment."
+   }
+  ]
+ },
+ "quiz": [
+  {
+   "q": "How does bimatoprost lengthen lashes?",
+   "a": "It prolongs the anagen (growth) phase."
+  },
+  {
+   "q": "Which side effect is permanent?",
+   "a": "Iris darkening."
+  },
+  {
+   "q": "Which effect reverses on stopping?",
+   "a": "Periocular skin darkening and the lash growth."
+  },
+  {
+   "q": "What is madarosis?",
+   "a": "Loss of eyelashes or eyebrows, which may signal disease."
+  }
+ ]
+}

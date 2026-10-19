@@ -80,7 +80,7 @@
   "melanoma",
   "atypical-naevus-syndrome",
   "congenital-melanocytic-naevi",
-  "spitz-blue-halo-naevi",
+  "halo-naevus", "blue-naevus", "spitz-naevus",
   "seborrhoeic-keratosis"
  ]
 }

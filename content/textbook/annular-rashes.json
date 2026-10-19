@@ -1,0 +1,331 @@
+{
+ "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
+ "key_facts": [
+  "A **ring-shaped** rash: first decide **scaly or smooth**, and whether the **edge or the inside** carries the scale.",
+  "Different engines share a ring: **dermatophytes** (tinea), **psoriasis**, **dermal granulomas** (GA), **reactive** eruptions (PR, EAC).",
+  "**Mycology scrape** if tinea is plausible, then treat the cause; review a solitary lesion in 1 week.",
+  "**Erythema migrans** after a tick bite; **SCLE** (photosensitive, new drug); fixed plaques in older adults → biopsy (lymphoma)."
+ ],
+ "sections": [
+  {
+   "id": "overview",
+   "title": "Overview",
+   "blocks": [
+    "*(Module 4 Case 3 teaching frame: solitary annular scaly erythema on chest → later widespread eruption diagnosed as **pityriasis rosea**. Use the initial lesion to practise annular DDx.)*",
+    "An **annular (ring-shaped) scaly erythematous patch/plaque** is a common primary-care puzzle. Leading differentials: **tinea corporis**, **annular / plaque psoriasis**, **granuloma annulare** (usually *non*-scaly), **herald patch of pityriasis rosea**, **erythema annulare centrifugum (EAC)**, discoid eczema, and less often subacute cutaneous lupus or erythema migrans."
+   ]
+  },
+  {
+   "id": "aetiology",
+   "title": "Aetiology: causes and risk factors",
+   "blocks": [
+    {
+     "table": {
+      "head": [
+       "Condition",
+       "Mechanism (plain language)"
+      ],
+      "rows": [
+       [
+        "Tinea corporis",
+        "Dermatophyte infection of stratum corneum"
+       ],
+       [
+        "Annular psoriasis",
+        "Same immune axis as plaque psoriasis; ring morphology"
+       ],
+       [
+        "Granuloma annulare",
+        "Granulomatous dermal inflammation; often idiopathic; DM association sometimes discussed"
+       ],
+       [
+        "Pityriasis rosea",
+        "Likely viral (HHV-6/7 hypothesis); self-limiting reactive eruption"
+       ],
+       [
+        "EAC",
+        "Reactive figurate erythema; trailing scale; hunt for triggers (infection, drugs, rarely malignancy)"
+       ]
+      ]
+     }
+    }
+   ],
+   "short": "Aetiology"
+  },
+  {
+   "id": "clinical-features",
+   "title": "Clinical features",
+   "blocks": [
+    {
+     "table": {
+      "head": [
+       "Condition",
+       "Scale / edge",
+       "Itch",
+       "Clues"
+      ],
+      "rows": [
+       [
+        "Tinea corporis",
+        "Active raised scaly edge; central clearing",
+        "Variable",
+        "Asymmetry; pet/soil exposure; feet/nails reservoir"
+       ],
+       [
+        "Annular psoriasis",
+        "Silvery scale; may be symmetric",
+        "Mild–mod",
+        "Other plaques, nails, scalp, family Hx"
+       ],
+       [
+        "Granuloma annulare",
+        "**Usually smooth, non-scaly** rings",
+        "Mild/none",
+        "Dorsum hands/feet, ankles; kids/young adults"
+       ],
+       [
+        "PR herald patch",
+        "Oval plaque with collarette scale",
+        "Mild",
+        "Days–weeks later → Christmas-tree secondary rash"
+       ],
+       [
+        "EAC",
+        "Trailing (inner) scale; slow centrifugal spread",
+        "Mild",
+        "Trunk/thighs; chronic/recurrent"
+       ]
+      ]
+     }
+    },
+    "**Case 3 arc:** Herald patch misread as isolated annular lesion → antifungal or mild TCS may “fail” as secondary PR eruption appears.",
+    {
+     "fig": {
+      "dermnet": "m4w1:C03"
+     }
+    },
+    {
+     "figs": [
+      {
+       "ai": "v3-ga-vs-tinea-ring.jpg",
+       "caption": "Granuloma annulare (left): a smooth ring of skin-coloured beaded papules, no scale. Tinea (right): red ring with a raised scaly active edge and central clearing.",
+       "alt": "Two hands comparing a smooth beaded ring with a scaly ring"
+      },
+      {
+       "ai": "v3-collarette-vs-tinea-edge.jpg",
+       "caption": "Where is the scale? PR collarette lies just inside the edge; tinea scale sits on the advancing outer edge.",
+       "alt": "Two oval patches comparing collarette and tinea edge"
+      }
+     ]
+    },
+    {
+     "h": "Types to recognise"
+    },
+    {
+     "variants": [
+      {
+       "name": "Tinea corporis",
+       "t": "Active scaly edge. *Site: Trunk, limbs.*",
+       "photo": "m4w1:C01"
+      },
+      {
+       "name": "Granuloma annulare",
+       "t": "Smooth flesh / violaceous rings. *Site: Hands, feet.*",
+       "photo": "m4w1:C03"
+      },
+      {
+       "name": "PR herald patch",
+       "t": "Oval, collarette scale. *Site: Trunk.*",
+       "photo": "m4w1:C04"
+      },
+      {
+       "name": "EAC",
+       "t": "Trailing scale inside the edge. *Site: Trunk, thighs.*",
+       "photo": "m4w1:C06"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "diagnosis",
+   "title": "Diagnosis and investigations",
+   "blocks": [
+    {
+     "ul": [
+      "History: pets, steroids already used, herald then cascade, joint/nail clues, Lyme geography/tick bite.",
+      "**Mycology scrape** before committing to prolonged TCS if tinea plausible (single most useful primary-care test).",
+      "Wood’s lamp limited value for most corporis species.",
+      "Review in 1 week if solitary lesion — watch for PR secondary rash or tinea expansion.",
+      "Biopsy if persistent atypical annular disease (EAC, SCLE, GA confirmation)."
+     ]
+    }
+   ],
+   "short": "Diagnosis"
+  },
+  {
+   "id": "differentials",
+   "title": "Differential diagnoses",
+   "blocks": [
+    {
+     "ddx": [
+      {
+       "name": "Tinea vs PR herald",
+       "f": "Mycology; PR is followed by widespread ovals.",
+       "link": "pityriasis-rosea"
+      },
+      {
+       "name": "Tinea vs GA",
+       "f": "Scale vs no scale; KOH.",
+       "link": "tinea"
+      },
+      {
+       "name": "Annular psoriasis",
+       "f": "Symmetry, silvery scale, nails / scalp; KOH −.",
+       "link": "psoriasis"
+      },
+      {
+       "name": "Erythema migrans",
+       "f": "Expanding after tick bite.",
+       "link": "lyme-disease",
+       "danger": true
+      },
+      {
+       "name": "Nummular eczema",
+       "f": "Coin plaques, very itchy, not a true ring.",
+       "link": "eczema-dermatitis"
+      },
+      {
+       "name": "SCLE",
+       "f": "Photosensitive annular plaques; ANA / Ro.",
+       "link": "discoid-lupus",
+       "danger": true
+      }
+     ]
+    }
+   ],
+   "short": "Differentials"
+  },
+  {
+   "id": "management",
+   "title": "Management",
+   "blocks": [
+    {
+     "ul": [
+      "**Suspected tinea:** topical terbinafine or imidazole (duration per site/BNF); oral terbinafine if extensive/failed topical — check interactions/LFTs per guidance; treat foot reservoir.",
+      "**Suspected PR:** reassure self-limiting (often 6–12 weeks); emollient ± mild–moderate TCS for itch; BAD/PCDS PIL; atypical (palms/soles, very symptomatic) → consider syphilis serology / derm.",
+      "**GA:** many localised cases observe; TCS/tacrolimus sometimes tried; extensive → derm.",
+      "**Psoriasis:** NICE topical pathway.",
+      "**EAC:** treat underlying trigger if found; topical steroids symptomatic; derm if persistent."
+     ]
+    },
+    {
+     "h": "Treatment ladder"
+    },
+    {
+     "ladder": [
+      {
+       "k": "Psoriasis / EAC",
+       "t": "Psoriasis: NICE topical pathway. EAC: treat trigger; topical steroid; dermatology if persistent.",
+       "tone": "base"
+      },
+      {
+       "k": "Tinea",
+       "t": "**Topical terbinafine or imidazole** (duration per BNF); oral terbinafine if extensive / failed (interactions, LFTs); treat the foot reservoir.",
+       "tone": "first"
+      },
+      {
+       "k": "PR",
+       "t": "Reassure (6–12 weeks); emollient ± mild–moderate steroid; atypical → syphilis serology / dermatology.",
+       "tone": "second"
+      },
+      {
+       "k": "GA",
+       "t": "Localised: observe; topical steroid / tacrolimus sometimes; extensive → dermatology.",
+       "tone": "third"
+      }
+     ]
+    },
+    {
+     "callout": "warn",
+     "title": "Prescribing limits and pitfalls",
+     "list": [
+      "**Potent steroid on an undiagnosed ring**: Risk of **tinea incognito**."
+     ]
+    },
+    {
+     "h": "Referral"
+    },
+    {
+     "refer": [
+      {
+       "when": "same-day",
+       "t": "Expanding ring after a tick bite: **erythema migrans**, treat clinically (NG95)."
+      },
+      {
+       "when": "urgent",
+       "t": "Photosensitive annular plaques with systemic features or a new drug (PPI, terbinafine, thiazide): **SCLE**."
+      },
+      {
+       "when": "routine",
+       "t": "Persistent fixed non-healing annular plaques in an older adult: biopsy (cutaneous lymphoma)."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "red-flags",
+   "title": "Red flags and when to refer",
+   "blocks": [
+    {
+     "ul": [
+      "Expanding ring after a tick bite: **erythema migrans**, treat on clinical grounds (NICE NG95).",
+      "Photosensitive annular plaques with systemic features or a new drug (PPI, terbinafine, thiazide): think **subacute cutaneous lupus**.",
+      "Persistent, fixed, non-healing annular plaques in an older adult: biopsy to exclude cutaneous lymphoma."
+     ]
+    }
+   ],
+   "short": "Red flags"
+  },
+  {
+   "id": "pearls",
+   "title": "Prescriber pearls (UK pharmacist IP)",
+   "blocks": [
+    {
+     "pearls": [
+      "**Never** use potent TCS long-term on an undiagnosed annular plaque — risk of **tinea incognito**.",
+      "Explain PR herald → secondary rash so patients do not think treatment “caused” spread.",
+      "Recheck feet and nails whenever you diagnose body tinea."
+     ]
+    }
+   ],
+   "short": "Pearls"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Best primary-care test for a scaly ring?",
+   "a": "Mycology scrape (KOH / culture)."
+  },
+  {
+   "q": "Smooth beaded ring on the back of the hand?",
+   "a": "Granuloma annulare."
+  },
+  {
+   "q": "Trailing scale inside a slowly advancing edge?",
+   "a": "Erythema annulare centrifugum."
+  },
+  {
+   "q": "Risk of potent steroid on undiagnosed tinea?",
+   "a": "Tinea incognito."
+  }
+ ],
+ "references": [
+  {
+   "label": "Medscape: Annular (ring-shaped) rashes: differential",
+   "url": "https://emedicine.medscape.com/article/1123031-overview"
+  }
+ ],
+ "see_also": []
+}

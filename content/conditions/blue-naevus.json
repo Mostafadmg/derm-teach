@@ -1,0 +1,67 @@
+{
+ "slug": "blue-naevus",
+ "title": "Blue naevus",
+ "category": "lumps-lesions-cancer",
+ "status": "published",
+ "order": 19,
+ "module": "Module 2 · Week 4",
+ "aka": [
+  "blue naevus",
+  "blue nevus",
+  "cellular blue naevus",
+  "Tyndall effect"
+ ],
+ "summary": "A steel-blue, firm, dome-shaped papule from pigment-producing melanocytes deep in the dermis. Long-standing and stable lesions are benign; new, enlarging or large lesions in adults need assessment.",
+ "card_image": "m2w4:E03",
+ "sections": {
+  "what": [
+   "A **blue naevus** is a benign collection of pigment-producing **dermal melanocytes**. It appears as a steel-blue, firm, dome-shaped papule, usually under 1 cm, often appearing in childhood or adolescence."
+  ],
+  "cause": [
+   "Melanocytes arrested in the dermis during their embryonic migration; GNAQ/GNA11 mutations. The colour is blue because deep pigment scatters back mainly blue light (**Tyndall effect**)."
+  ],
+  "features": [
+   {
+    "list": [
+     "Uniform slate- or steel-blue dome papule.",
+     "Head and neck, backs of hands and feet, buttocks.",
+     "**Cellular blue naevus**: larger (over 1 cm), often on the buttocks or scalp."
+    ]
+   }
+  ],
+  "diagnosis": [
+   "Clinical with dermoscopy (structureless homogeneous blue pigmentation). Excise if new in an adult, changing or large."
+  ],
+  "differentials": [
+   "**Nodular or metastatic melanoma** (can look blue), traumatic tattoo, venous lake, pigmented BCC, angiokeratoma."
+  ],
+  "management": [
+   {
+    "list": [
+     "Reassure if long-standing and stable.",
+     "Refer if new in an adult, enlarging, or over 1 cm (cellular blue naevus; melanoma differential)."
+    ]
+   }
+  ],
+  "red_flags": [
+   "New or changing blue papule in an adult, or a history of melanoma (metastasis looks blue): **suspected cancer pathway**."
+  ],
+  "pearls": [
+   "Blue = deep pigment (Tyndall effect); brown = pigment near the surface."
+  ]
+ },
+ "photos": [
+  {
+   "title": "Blue naevus",
+   "items": [
+    "m2w4:E03"
+   ]
+  }
+ ],
+ "references": [
+  {
+   "label": "DermNet: Blue naevus",
+   "url": "https://dermnetnz.org/topics/blue-naevus"
+  }
+ ]
+}

@@ -1,0 +1,108 @@
+{
+ "slug": "intense-pulsed-light",
+ "title": "Intense pulsed light (IPL)",
+ "category": "cosmetic-hair",
+ "status": "published",
+ "order": 6,
+ "module": "Module 6 · Week 5",
+ "aka": [
+  "IPL",
+  "intense pulsed light",
+  "photofacial",
+  "photorejuvenation",
+  "hypopigmentation after IPL"
+ ],
+ "summary": "Counselling on intense pulsed light for redness, pigment and hair: who is a good candidate, what to expect, and the burn and pigment risks, especially in tanned or darker skin.",
+ "card_image": "m6w5:W5D-01",
+ "sections": {
+  "what": [
+   "**Intense pulsed light (IPL)** is a non-laser flashlamp delivering broad-spectrum light through filters to treat vascular redness, solar lentigines and unwanted dark hair, with modest texture benefit."
+  ],
+  "cause": [
+   {
+    "list": [
+     "Selective photothermolysis: melanin and oxyhaemoglobin absorb the light and heat up; dermal heating may remodel collagen modestly.",
+     "Darker or tanned skin absorbs more epidermal energy, giving a higher risk of burns and pigment change."
+    ]
+   }
+  ],
+  "features": [
+   {
+    "list": [
+     "Sessions often 3–6, weeks apart; treated pigment darkens like “coffee grounds” then flakes over 1–2 weeks.",
+     "Adverse effects: burns, blistering, **hypo-/hyperpigmentation** (sometimes grid footprints), scarring, paradoxical hair growth, eye injury."
+    ]
+   }
+  ],
+  "diagnosis": [
+   "Before IPL: confirm the diagnosis of every pigmented spot (no undiagnosed lesions), Fitzpatrick type, recent tan, photosensitising drugs and HSV history. Melasma is generally a poor IPL candidate."
+  ],
+  "differentials": [
+   {
+    "table": {
+     "head": [
+      "Request",
+      "Better framed as"
+     ],
+     "rows": [
+      [
+       "Diffuse redness + lentigines",
+       "IPL photofacial after a skin cancer check"
+      ],
+      [
+       "Discrete stubborn lentigo",
+       "Often a pigment laser rather than IPL"
+      ],
+      [
+       "Melasma",
+       "Sunscreen + medical therapy; avoid heat devices first-line (see [Melasma](condition:melasma-facial-melanosis))"
+      ]
+     ]
+    }
+   }
+  ],
+  "management": [
+   {
+    "h": "IPL counselling (UK)"
+   },
+   {
+    "list": [
+     "Check practitioner training, insurance, patch test and (in Wales) HIW registration for Class 3B/4 lasers/IPL in independent clinics.",
+     "Contraindications/cautions: undiagnosed pigmented lesions, active infection/HSV, recent tan, photosensitivity disorders, many photosensitising drugs; extra caution in skin types IV–VI and on isotretinoin (many delay treatment).",
+     "Aftercare: SPF, gentle skincare, no picking; seek review for blistering or infection.",
+     "See also [solar lentigines](condition:solar-lentigines) and [photoageing](condition:photoageing)."
+    ]
+   }
+  ],
+  "red_flags": [
+   "Eye pain or visual change during/after IPL: **urgent ophthalmology**.",
+   "Blistering burns or striped hypopigmentation: stop further treatment; specialist wound/pigment advice.",
+   "Undiagnosed changing pigmented lesion: cancel IPL; refer."
+  ],
+  "pearls": [
+   "IPL is versatile but unforgiving on tanned or darker skin without expert settings.",
+   "Coffee-ground darkening is expected; picking prolongs marks."
+  ]
+ },
+ "photos": [
+  {
+   "title": "IPL effects and adverse effects",
+   "items": [
+    "m6w5:W5D-01",
+    "m6w5:W5D-02",
+    "m6w5:W5D-03",
+    "m6w5:W5D-04"
+   ]
+  }
+ ],
+ "references": [
+  {
+   "label": "DermNet: Intense pulsed light",
+   "url": "https://dermnetnz.org/topics/intense-pulsed-light-therapy"
+  },
+  {
+   "label": "DermNet: Lasers in dermatology",
+   "url": "https://dermnetnz.org/topics/lasers"
+  }
+ ]
+}

@@ -34,8 +34,7 @@
  "cause": {
   "points": [
    "AK: cumulative UVB/UVA; fair skin, outdoor work, immunosuppression (transplant) raise burden and SCC risk.",
-   "Actinic cheilitis is AK of the lip vermilion.",
-   "SK: age-related benign clones; not premalignant (though irritated SKs worry patients)."
+   "Actinic cheilitis is AK of the lip vermilion."
   ],
   "visuals": []
  },
@@ -43,8 +42,7 @@
   "photo": "m6w4:W4C-01",
   "points": [
    "AK: rough sandpaper scale on erythematous base; face, bald scalp, ears, forearms, hands; often multiple.",
-   "Hypertrophic AK and cutaneous horn need careful SCC exclusion.",
-   "SK: waxy, verrucous, stuck-on; milia-like cysts on dermoscopy; trunk and face."
+   "Hypertrophic AK and cutaneous horn need careful SCC exclusion."
   ],
   "visuals": [],
   "variants": null,
@@ -121,7 +119,7 @@
  ],
  "quiz": [
   {
-   "q": "When should you think of Actinic & seborrhoeic keratoses?",
+   "q": "When should you think of Actinic keratoses (solar keratoses)?",
    "a": "Gritty, scaly, sun-exposed macules that are easier to feel than see — versus waxy “stuck-on” seborrhoeic keratoses."
   },
   {

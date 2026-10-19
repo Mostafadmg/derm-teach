@@ -1,0 +1,285 @@
+{
+ "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
+ "key_facts": [
+  "**DRESS** is a severe, delayed drug reaction: rash, fever, **facial oedema**, lymphadenopathy, eosinophilia and organ involvement.",
+  "Latency **2–8 weeks**; culprits: allopurinol, carbamazepine and other aromatic anticonvulsants, lamotrigine, sulfonamides/dapsone, minocycline, vancomycin.",
+  "The liver is the commonest organ involved; also kidney, lung, heart, thyroid. Mortality about 2–10%.",
+  "Stop the drug and arrange **same-day hospital assessment**; systemic steroids tapered slowly over 6–12 weeks.",
+  "Follow up thyroid function and glucose for 1–2 years (late autoimmunity)."
+ ],
+ "sections": [
+  {
+   "id": "overview",
+   "title": "Overview",
+   "blocks": [
+    "**DRESS** (drug reaction with eosinophilia and systemic symptoms; also called DIHS) is a delayed, multi-organ reaction with fever, rash and internal organ involvement. Mortality is about **2–10%**."
+   ]
+  },
+  {
+   "id": "epidemiology",
+   "title": "Epidemiology",
+   "blocks": [
+    {
+     "ul": [
+      {
+       "t": "**Who**",
+       "sub": [
+        "About 1 in 1,000 to 1 in 10,000 exposures to high-risk drugs; adults more than children.",
+        "HLA risk alleles: HLA-B*58:01 (allopurinol), HLA-A*31:01 (carbamazepine in Europeans)."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "aetiology",
+   "title": "Aetiology: causes and risk factors",
+   "blocks": [
+    {
+     "ul": [
+      "Type IVb (Th2 / eosinophil) reaction with **sequential herpesvirus reactivation** (HHV-6, then EBV/CMV), which explains the relapsing course.",
+      "Culprits: **allopurinol**, **carbamazepine**, phenytoin, lamotrigine, phenobarbital, **sulfonamides/dapsone**, minocycline, vancomycin, abacavir/nevirapine, strontium.",
+      "Latency **2–8 weeks** (the longest of the severe drug reactions)."
+     ]
+    },
+    {
+     "h": "Myths to address"
+    },
+    {
+     "ul": [
+      "**\"It's just a drug rash\"**: facial swelling, fever and abnormal blood tests mean a systemic emergency."
+     ]
+    }
+   ],
+   "short": "Aetiology"
+  },
+  {
+   "id": "pathophysiology",
+   "title": "Pathophysiology and pathology",
+   "blocks": [
+    "DRESS combines a **drug-specific T-cell attack** with **herpesvirus reactivation**.",
+    {
+     "mech": [
+      {
+       "k": "Drug presentation",
+       "t": "The drug or a metabolite binds HLA molecules and activates T cells (often in genetically susceptible people)."
+      },
+      {
+       "k": "Th2 and eosinophils",
+       "t": "IL-5 and other Th2 cytokines drive eosinophilia and tissue infiltration."
+      },
+      {
+       "k": "Viral reactivation",
+       "t": "HHV-6, then EBV and CMV reactivate, sustaining inflammation and relapses."
+      },
+      {
+       "k": "Organ damage",
+       "t": "Infiltrating T cells and eosinophils injure the liver, kidney, lung and heart."
+      },
+      {
+       "k": "Late autoimmunity",
+       "t": "Immune dysregulation after recovery can cause thyroiditis or type 1 diabetes."
+      }
+     ]
+    },
+    {
+     "histo": [
+      "Interface or spongiotic dermatitis with dense perivascular lymphocytes and eosinophils; not specific. RegiSCAR scoring combines clinical and lab features."
+     ]
+    }
+   ],
+   "short": "Pathophysiology"
+  },
+  {
+   "id": "clinical-features",
+   "title": "Clinical features",
+   "blocks": [
+    {
+     "ul": [
+      "Morbilliform rash that becomes infiltrated and oedematous, often **over 50% of body surface**; may become exfoliative.",
+      "**Facial oedema** (key sign); fever above 38 °C; **lymphadenopathy**.",
+      "Blood: eosinophilia (over 1.5 × 10⁹/L), atypical lymphocytes.",
+      "**Organ involvement**: liver (commonest), kidney, lung, heart (myocarditis), thyroid.",
+      "Course over weeks to months with relapses; **late autoimmune disease** (thyroiditis, type 1 diabetes).",
+      "**RegiSCAR** score grades the likelihood of DRESS."
+     ]
+    },
+    {
+     "h": "Special groups"
+    },
+    {
+     "ul": [
+      {
+       "t": "**Allopurinol in CKD**",
+       "sub": [
+        "Highest risk with recent start, high dose, renal impairment and HLA-B*58:01 (common in Han Chinese, Thai and Korean people)."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "diagnosis",
+   "title": "Diagnosis and investigations",
+   "blocks": [
+    "FBC with differential and film, LFT, U&E, urinalysis, troponin/ECG if symptomatic, TFT, lipase, HHV-6 PCR and skin biopsy. Patch testing later can help identify the culprit."
+   ],
+   "short": "Diagnosis"
+  },
+  {
+   "id": "differentials",
+   "title": "Differential diagnoses",
+   "blocks": [
+    "Viral exanthem, lymphoma (especially angioimmunoblastic), hypereosinophilic syndrome, SJS/TEN, Kawasaki disease, simple [morbilliform drug eruption](condition:morbilliform-drug-eruption)."
+   ],
+   "short": "Differentials"
+  },
+  {
+   "id": "management",
+   "title": "Management",
+   "blocks": [
+    {
+     "ul": [
+      "**Stop the culprit**, document, Yellow Card, and avoid for life (including cross-reacting drugs).",
+      "**Same-day hospital assessment** if fever, facial oedema, eosinophilia or abnormal LFTs.",
+      "Mild disease without significant organ involvement: potent topical steroids.",
+      "With organ involvement: **systemic corticosteroids** (e.g. prednisolone 0.5–1 mg/kg/day) **tapered slowly over 6–12 weeks**: rapid tapers cause relapse.",
+      "Monitor organs for months, and check **TFT and glucose** for 1–2 years."
+     ]
+    },
+    {
+     "h": "IP scope"
+    },
+    "Recognise, stop, refer, document, Yellow Card. After discharge: support the specialist steroid taper (steroid card if prolonged) and monitor TFT/glucose per the specialist letter.",
+    {
+     "h": "Medicines at a glance"
+    },
+    {
+     "drugs": [
+      {
+       "name": "Prednisolone (specialist)",
+       "cls": "Organ involvement",
+       "dose": "0.5–1 mg/kg/day · taper over 6–12 weeks",
+       "cautions": "Rapid tapers cause relapse.",
+       "specialist": true
+      }
+     ]
+    },
+    {
+     "h": "Treatment ladder"
+    },
+    {
+     "ladder": [
+      {
+       "k": "Stop and record",
+       "t": "Stop the culprit; record the allergy; Yellow Card.",
+       "tone": "base"
+      },
+      {
+       "k": "Mild, no organ involvement",
+       "t": "Potent topical steroid under specialist care; monitor bloods.",
+       "tone": "first"
+      },
+      {
+       "k": "Organ involvement",
+       "t": "Prednisolone (specialist)",
+       "tone": "refer"
+      }
+     ]
+    },
+    {
+     "h": "Referral"
+    },
+    {
+     "refer": [
+      {
+       "when": "same-day",
+       "t": "Rash + fever + facial oedema / lymph nodes 2–8 weeks after a new high-risk drug."
+      },
+      {
+       "when": "routine",
+       "t": "Follow-up TFT and glucose for 1–2 years (late autoimmunity)."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "red-flags",
+   "title": "Red flags and when to refer",
+   "blocks": [
+    {
+     "ul": [
+      "Fever + rash + facial oedema or lymphadenopathy **2–8 weeks** after a new anticonvulsant, allopurinol or sulfonamide: **same-day admission** (hepatitis, nephritis and myocarditis can follow).",
+      "Allopurinol (HLA-B*58:01), carbamazepine (HLA-B*15:02) and lamotrigine are high-risk starts: counsel to report a rash early."
+     ]
+    }
+   ],
+   "short": "Red flags"
+  },
+  {
+   "id": "complications",
+   "title": "Complications and prognosis",
+   "blocks": [
+    {
+     "h": "Complications"
+    },
+    {
+     "ul": [
+      "Fulminant hepatitis, interstitial nephritis, pneumonitis, myocarditis; death.",
+      "Autoimmune thyroiditis, type 1 diabetes, alopecia areata after recovery."
+     ]
+    },
+    {
+     "h": "Prognosis"
+    },
+    {
+     "ul": [
+      "Recovery over weeks to months; relapses during steroid taper are common."
+     ]
+    }
+   ],
+   "short": "Complications"
+  },
+  {
+   "id": "pearls",
+   "title": "Prescriber pearls (UK pharmacist IP)",
+   "blocks": [
+    {
+     "pearls": [
+      "DRESS has the **longest latency** of the severe drug reactions (2–8 weeks).",
+      "\"**Allopurinol + CKD + recent start + rash** = DRESS/SJS risk\": dose adjustment and HLA-B*58:01 awareness."
+     ]
+    }
+   ],
+   "short": "Pearls"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "What is the typical latency of DRESS?",
+   "a": "2–8 weeks after starting the drug."
+  },
+  {
+   "q": "Name three common culprits.",
+   "a": "Allopurinol, carbamazepine (and other aromatic anticonvulsants), sulfonamides/dapsone, minocycline."
+  },
+  {
+   "q": "Which organ is most often involved?",
+   "a": "The liver."
+  },
+  {
+   "q": "Why taper steroids slowly?",
+   "a": "Rapid tapers cause relapse (linked to herpesvirus reactivation)."
+  }
+ ],
+ "references": [],
+ "see_also": [
+  "agep",
+  "morbilliform-drug-eruption",
+  "drug-induced-blistering",
+  "drug-eruption-approach"
+ ]
+}

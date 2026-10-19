@@ -1,0 +1,59 @@
+{
+ "_note": "curated (split page, Oct 2026)",
+ "manage": {
+  "lead": "Refer within 1 working day; offload.",
+  "rungs": [
+   {
+    "k": "Prevention",
+    "tone": "base",
+    "points": [
+     "Daily foot checks, footwear, podiatry; glycaemic control."
+    ]
+   },
+   {
+    "k": "Any ulcer",
+    "tone": "refer",
+    "points": [
+     "Multidisciplinary foot care service within 1 working day; offloading, debridement."
+    ]
+   },
+   {
+    "k": "Infected",
+    "tone": "refer",
+    "points": [
+     "Antibiotics per NICE NG19 and local guidance; admit if severe."
+    ]
+   }
+  ]
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "same-day",
+    "t": "Spreading infection, fever, crepitus, wet necrosis or suspected Charcot foot."
+   },
+   {
+    "when": "urgent",
+    "t": "Any diabetic foot ulcer (within 1 working day)."
+   }
+  ]
+ },
+ "quiz": [
+  {
+   "q": "How is protective sensation tested?",
+   "a": "10 g monofilament (plus vibration)."
+  },
+  {
+   "q": "What does a positive probe-to-bone test suggest?",
+   "a": "Osteomyelitis."
+  },
+  {
+   "q": "How quickly should a diabetic foot ulcer be referred?",
+   "a": "Within 1 working day to the foot care service (NG19)."
+  },
+  {
+   "q": "What is a hot swollen foot in neuropathy until proven otherwise?",
+   "a": "Charcot neuroarthropathy."
+  }
+ ]
+}

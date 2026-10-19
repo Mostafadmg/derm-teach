@@ -1,0 +1,256 @@
+{
+ "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
+ "key_facts": [
+  "A child with a **brown or black, often hairy birthmark mole**, sometimes large with smaller **satellite** moles.",
+  "**Post-zygotic NRAS mutation** in melanocyte precursors; earlier mutation → larger naevus, more satellites.",
+  "Classify by **projected adult size**; refer large / giant or multiple CMN to paediatric dermatology; **MRI in infants with ≥ 2 CMN at birth**; teach families what change to report.",
+  "**Melanoma in large / giant CMN** (often deep or in childhood); **neurocutaneous melanosis**; psychological impact."
+ ],
+ "sections": [
+  {
+   "id": "overview",
+   "title": "Overview",
+   "blocks": [
+    "A melanocytic naevus present at birth (or appearing in the first year, \"tardive\"). About 1% of newborns have one; large/giant ones occur in about 1 in 20,000."
+   ]
+  },
+  {
+   "id": "aetiology",
+   "title": "Aetiology: causes and risk factors",
+   "blocks": [
+    "**Post-zygotic NRAS mutation** in neural-crest melanoblasts (BRAF in some small CMN). The earlier the mutation, the larger the naevus and the more likely satellites and neurocutaneous melanosis (CNS melanocytes)."
+   ],
+   "short": "Aetiology"
+  },
+  {
+   "id": "clinical-features",
+   "title": "Clinical features",
+   "blocks": [
+    {
+     "ul": [
+      "**Size by projected adult size (PAS)**: small <1.5 cm; medium 1.5–20 cm (M1 1.5–10 cm, M2 10–20 cm); **large 20–40 cm**; **giant >40 cm**",
+      "Head lesions roughly double, and trunk and limb lesions roughly triple, from infancy to adulthood. **A 30 cm trunk CMN at age 5 projects to >40 cm, so it is a giant CMN** ([Case 2](condition:melanocytic-naevi).",
+      "Features: brown to black, often hairy, with varied texture. **They become rougher, lumpy, hairier or lighter with time**. These are benign maturation changes (the course point), but a new **firm nodule, ulceration, rapid growth or pain** needs urgent assessment. Also proliferative nodules (benign) occur in infancy.",
+      "**Satellite naevi** and **multiple CMN** (≥2 at birth) are markers for **neurocutaneous melanosis/CNS involvement** (seizures, developmental delay, hydrocephalus)."
+     ]
+    },
+    {
+     "fig": {
+      "dermnet": "m2w4:C02"
+     }
+    },
+    {
+     "h": "Types to recognise"
+    },
+    {
+     "variants": [
+      {
+       "name": "Giant CMN",
+       "t": "> 40 cm PAS, satellites. *Site: Trunk.*",
+       "photo": "m2w4:C01",
+       "danger": true
+      },
+      {
+       "name": "Medium CMN",
+       "t": "1.5–20 cm PAS. *Site: Any.*",
+       "photo": "m2w4:C02"
+      },
+      {
+       "name": "Hairy CMN",
+       "t": "Coarse hair: maturation. *Site: Any.*",
+       "photo": "m2w4:C03"
+      },
+      {
+       "name": "Irregular outline",
+       "t": "Monitor with photos. *Site: Limb.*",
+       "photo": "m2w4:C04"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "diagnosis",
+   "title": "Diagnosis and investigations",
+   "blocks": [
+    "Clinical, with serial photographs. Biopsy of new nodules. **MRI of brain and spine** (ideally in the first 6 months of life, before myelination, under natural sleep) in children with **≥2 CMN at birth, of any size** (the current UK expert approach; Kinsler). It is not routine for a single CMN without neurological signs.",
+    {
+     "h4": "Photos"
+    },
+    {
+     "ul": [
+      "Serial photographs."
+     ]
+    },
+    {
+     "h4": "Biopsy"
+    },
+    {
+     "ul": [
+      "Any new nodule."
+     ]
+    },
+    {
+     "h4": "MRI"
+    },
+    {
+     "ul": [
+      "Brain + spine, ideally < 6 months (natural sleep), if **≥ 2 CMN at birth, any size**; not routine for a single CMN without neurology."
+     ]
+    }
+   ],
+   "short": "Diagnosis"
+  },
+  {
+   "id": "differentials",
+   "title": "Differential diagnoses",
+   "blocks": [
+    {
+     "ddx": [
+      {
+       "name": "Café-au-lait macule",
+       "f": "Flat, no hair, uniform.",
+       "link": "pigmented-birthmarks"
+      },
+      {
+       "name": "Becker naevus",
+       "f": "Acquired, adolescent shoulder, hairy.",
+       "link": "pigmented-birthmarks"
+      },
+      {
+       "name": "Dermal melanocytosis",
+       "f": "Blue-grey sacral (‘Mongolian spot’).",
+       "link": "pigmented-birthmarks"
+      },
+      {
+       "name": "Naevus spilus",
+       "f": "Tan patch with darker speckles.",
+       "link": "melanocytic-naevi"
+      },
+      {
+       "name": "Plexiform neurofibroma",
+       "f": "Soft ‘bag of worms’ with pigment.",
+       "link": "other-skin-lumps"
+      }
+     ]
+    },
+    "Café-au-lait macule (flat, no hair, uniform), Becker naevus (acquired, adolescent shoulder, hairy), dermal melanocytosis (\"Mongolian spot\", blue-grey, sacral), speckled lentiginous naevus (naevus spilus), smooth muscle hamartoma, and plexiform neurofibroma with overlying pigment."
+   ],
+   "short": "Differentials"
+  },
+  {
+   "id": "management",
+   "title": "Management",
+   "blocks": [
+    {
+     "ul": [
+      "**Melanoma risk by size (corrected; related question):** **Small and medium CMN: lifetime melanoma risk is low (<1%)**, similar to or slightly above the general population, and melanoma usually arises after puberty at the junctional edge; **Large/giant CMN: around 2–5% overall (up to 10–15% in the highest-risk group: >40 cm PAS with many satellites/multiple CMN)**. Melanoma often arises in childhood and **deep** in the naevus or in the CNS, which is why surface excision does not remove the risk; The course \"5–10%\" belongs to the large/giant group, **not** to small/medium CMN",
+      "**Refer** (routine to paediatric dermatology; urgent for any new nodule, ulcer or rapid change) for **lifelong surveillance** and MDT input (dermatology, plastics, neurology, psychology).",
+      "**Prophylactic excision:** no evidence that it reduces melanoma risk in large/giant CMN (the course point). Surgery is for function, cosmesis or symptoms, as an MDT decision. **Laser** lightens the surface but leaves deep naevus cells and can make surveillance harder. It is not recommended routinely (specialist only).",
+      "**Support:** itch (emollients; antihistamines at night if needed); dry, fragile skin; psychological impact and bullying. Point families to *Caring Matters Now* (UK charity for CMN).",
+      "Sun protection, and **teach parents what change to report**."
+     ]
+    },
+    {
+     "h": "Treatment ladder"
+    },
+    {
+     "ladder": [
+      {
+       "k": "Explain risk",
+       "t": "**Small / medium: lifetime melanoma risk < 1%** (usually after puberty, at the edge). **Large / giant: ~2–5%** (up to 10–15% if > 40 cm with many satellites); often **childhood and deep / CNS**.",
+       "tone": "base"
+      },
+      {
+       "k": "Refer",
+       "t": "Paediatric dermatology (routine; **urgent** for nodule, ulcer, rapid change) for lifelong MDT surveillance (dermatology, plastics, neurology, psychology).",
+       "tone": "refer"
+      },
+      {
+       "k": "Support",
+       "t": "Teach families what change to report; photograph regularly; sun protection; psychological support.",
+       "tone": "first"
+      }
+     ]
+    },
+    {
+     "callout": "warn",
+     "title": "Prescribing limits and pitfalls",
+     "list": [
+      "**Prophylactic excision**: No evidence it reduces melanoma risk in large / giant CMN."
+     ]
+    },
+    {
+     "h": "Referral"
+    },
+    {
+     "refer": [
+      {
+       "when": "urgent",
+       "t": "New firm nodule, ulceration, rapid growth or pain within a CMN."
+      },
+      {
+       "when": "same-day",
+       "t": "Scalp or multiple CMN with headaches, vomiting or seizures: same-day paediatrics."
+      },
+      {
+       "when": "routine",
+       "t": "≥ 2 CMN at birth or large / giant with satellites: MRI and specialist surveillance."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "red-flags",
+   "title": "Red flags and when to refer",
+   "blocks": [
+    {
+     "ul": [
+      "A new firm nodule, ulceration, rapid growth or pain within a CMN: **urgent** referral.",
+      "Two or more CMN at birth, or a large/giant CMN with satellites: refer for MRI and specialist surveillance."
+     ]
+    }
+   ],
+   "short": "Red flags"
+  },
+  {
+   "id": "pearls",
+   "title": "Prescriber pearls (UK pharmacist IP)",
+   "blocks": [
+    {
+     "pearls": [
+      "The rough, hairy, raised changes the parent describes are expected. A **hard lump** is not.",
+      "If scalp CMN or multiple CMN plus headaches, vomiting or seizures, arrange **same-day** paediatric review."
+     ]
+    }
+   ],
+   "short": "Pearls"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Giant CMN threshold?",
+   "a": "> 40 cm projected adult size."
+  },
+  {
+   "q": "A 30 cm trunk CMN at age 5: category?",
+   "a": "Giant (trunk lesions ~triple)."
+  },
+  {
+   "q": "Who needs MRI?",
+   "a": "Infants with ≥ 2 CMN at birth (any size)."
+  },
+  {
+   "q": "Does prophylactic excision remove the risk?",
+   "a": "No."
+  }
+ ],
+ "references": [
+  {
+   "label": "Medscape: Congenital melanocytic naevi (CMN)",
+   "url": "https://emedicine.medscape.com/article/1118659-overview"
+  }
+ ],
+ "see_also": []
+}

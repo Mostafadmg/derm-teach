@@ -1,0 +1,264 @@
+{
+ "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
+ "key_facts": [
+  "**Arterial ulcers** are caused by **peripheral arterial disease** and account for about 10–20% of leg ulcers (alone or mixed).",
+  "Punched-out, deep, painful ulcers on the toes, heel, lateral malleolus or shin; cold, hairless foot with weak pulses.",
+  "Pain worse on elevation and at night, eased by hanging the leg down.",
+  "Measure ABPI (toe pressures in diabetes); **never compress** an ischaemic limb.",
+  "Urgent vascular referral; same day for critical limb ischaemia. Stop smoking; antiplatelet and statin."
+ ],
+ "sections": [
+  {
+   "id": "overview",
+   "title": "Overview",
+   "blocks": [
+    "An **arterial ulcer** is skin loss caused by tissue **ischaemia** from peripheral arterial disease. It accounts for about 10–20% of leg ulcers, alone or mixed with venous disease."
+   ]
+  },
+  {
+   "id": "epidemiology",
+   "title": "Epidemiology",
+   "blocks": [
+    {
+     "ul": [
+      {
+       "t": "**Who**",
+       "sub": [
+        "Older smokers, people with diabetes, CKD, hypertension and hyperlipidaemia."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "aetiology",
+   "title": "Aetiology: causes and risk factors",
+   "blocks": [
+    "Atherosclerosis (or embolism) reduces flow, so poorly perfused sites become necrotic after minor trauma. Risk factors: smoking, diabetes, hypertension, hyperlipidaemia, CKD and age.",
+    {
+     "h": "Myths to address"
+    },
+    {
+     "ul": [
+      "**\"All leg ulcers need compression\"**: compression can cause gangrene in arterial disease."
+     ]
+    }
+   ],
+   "short": "Aetiology"
+  },
+  {
+   "id": "pathophysiology",
+   "title": "Pathophysiology and pathology",
+   "blocks": [
+    "Too little arterial blood reaches the skin, so it **dies from ischaemia**.",
+    {
+     "mech": [
+      {
+       "k": "Atherosclerosis",
+       "t": "Plaques narrow the arteries of the leg."
+      },
+      {
+       "k": "Reduced perfusion",
+       "t": "Distal skin receives too little oxygen, especially at pressure points and on elevation."
+      },
+      {
+       "k": "Necrosis",
+       "t": "Minor trauma causes tissue death that cannot heal: a punched-out ulcer."
+      },
+      {
+       "k": "Critical ischaemia",
+       "t": "Rest pain, gangrene and tissue loss signal limb-threatening disease."
+      }
+     ]
+    },
+    {
+     "histo": [
+      "Not used; diagnosis is clinical and vascular (ABPI, duplex, angiography)."
+     ]
+    }
+   ],
+   "short": "Pathophysiology"
+  },
+  {
+   "id": "clinical-features",
+   "title": "Clinical features",
+   "blocks": [
+    {
+     "ul": [
+      "Site: toes, heel, bony prominences, lateral malleolus, shin.",
+      "**Punched-out**, deep, dry or necrotic base.",
+      "Pain often **severe**, worse on elevation and at night (eased by hanging the leg out of bed).",
+      "Foot: cold, pale or mottled, shiny, hairless, weak or absent pulses; dependent rubor; **claudication**."
+     ]
+    },
+    {
+     "h": "Special groups"
+    },
+    {
+     "ul": [
+      {
+       "t": "**Mixed ulcers**",
+       "sub": [
+        "ABPI 0.5–0.8: reduced compression only under specialist guidance; below 0.5: no compression, urgent vascular."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "diagnosis",
+   "title": "Diagnosis and investigations",
+   "blocks": [
+    {
+     "ul": [
+      "Examine pulses and measure **ABPI** (or TBPI in diabetes, where calcified vessels give falsely high ABPI).",
+      "Urgent vascular assessment (duplex, angiography) for critical limb ischaemia."
+     ]
+    }
+   ],
+   "short": "Diagnosis"
+  },
+  {
+   "id": "differentials",
+   "title": "Differential diagnoses",
+   "blocks": [
+    "[Venous leg ulcer](condition:venous-leg-ulcer) (gaiter area, shallow, exudative), [diabetic foot ulcer](condition:diabetic-foot-ulcer), pressure ulcer, [pyoderma gangrenosum](condition:pyoderma-gangrenosum), vasculitis, malignancy."
+   ],
+   "short": "Differentials"
+  },
+  {
+   "id": "management",
+   "title": "Management",
+   "blocks": [
+    {
+     "ul": [
+      "**Do not compress** ischaemic limbs.",
+      "Urgent **vascular referral**, especially with rest pain, gangrene or critical ischaemia.",
+      "Risk factors: stop smoking, antiplatelet and statin therapy (NICE CG147 and vascular advice); optimise blood pressure and diabetes.",
+      "Analgesia, and wound care directed by tissue viability or vascular."
+     ]
+    },
+    {
+     "h": "Treatment ladder"
+    },
+    {
+     "ladder": [
+      {
+       "k": "Risk factors",
+       "t": "Stop smoking; antiplatelet and statin per NICE CG147; optimise BP and diabetes.",
+       "tone": "base"
+      },
+      {
+       "k": "Wound care",
+       "t": "Analgesia; dry, protective dressings guided by tissue viability.",
+       "tone": "first"
+      },
+      {
+       "k": "Vascular",
+       "t": "Urgent vascular assessment for revascularisation.",
+       "tone": "refer"
+      }
+     ]
+    },
+    {
+     "callout": "warn",
+     "title": "Prescribing limits and pitfalls",
+     "list": [
+      "**Compression**: Contraindicated in significant arterial disease (low ABPI)."
+     ]
+    },
+    {
+     "h": "Referral"
+    },
+    {
+     "refer": [
+      {
+       "when": "same-day",
+       "t": "Rest pain, gangrene, tissue loss or a cold pulseless foot."
+      },
+      {
+       "when": "urgent",
+       "t": "Any suspected arterial ulcer: vascular surgery."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "red-flags",
+   "title": "Red flags and when to refer",
+   "blocks": [
+    {
+     "ul": [
+      "**Critical limb ischaemia:** rest pain, gangrene, tissue loss, or a cold pulseless foot: **same-day vascular**.",
+      "Acute limb ischaemia (pain, pallor, pulselessness, paraesthesia, paralysis, perishingly cold): emergency."
+     ]
+    }
+   ],
+   "short": "Red flags"
+  },
+  {
+   "id": "complications",
+   "title": "Complications and prognosis",
+   "blocks": [
+    {
+     "h": "Complications"
+    },
+    {
+     "ul": [
+      "Infection, gangrene, amputation; high cardiovascular mortality."
+     ]
+    },
+    {
+     "h": "Prognosis"
+    },
+    {
+     "ul": [
+      "Healing depends on revascularisation."
+     ]
+    }
+   ],
+   "short": "Complications"
+  },
+  {
+   "id": "pearls",
+   "title": "Prescriber pearls (UK pharmacist IP)",
+   "blocks": [
+    {
+     "pearls": [
+      "**Any leg ulcer may be mixed.** Always assess the arterial supply before compression.",
+      "Painful ulcer worse on elevation suggests arterial."
+     ]
+    }
+   ],
+   "short": "Pearls"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Where do arterial ulcers occur?",
+   "a": "Toes, heel, bony prominences, lateral malleolus."
+  },
+  {
+   "q": "Why can ABPI mislead in diabetes?",
+   "a": "Calcified vessels give falsely high readings; use toe pressures (TBPI)."
+  },
+  {
+   "q": "What eases ischaemic rest pain?",
+   "a": "Hanging the leg down (dependency)."
+  },
+  {
+   "q": "What must you never do?",
+   "a": "Apply compression to an ischaemic limb."
+  }
+ ],
+ "references": [],
+ "see_also": [
+  "diabetic-foot-ulcer",
+  "venous-leg-ulcer",
+  "pyoderma-gangrenosum",
+  "red-leg"
+ ]
+}

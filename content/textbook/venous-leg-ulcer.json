@@ -182,12 +182,12 @@
       {
        "name": "Arterial ulcer",
        "f": "Punched-out, distal (toes, pressure points), claudication or rest pain, cold foot, weak pulses, **low ABPI**",
-       "link": "arterial-neuropathic-ulcers"
+       "link": "arterial-leg-ulcer"
       },
       {
        "name": "Neuropathic ulcer",
        "f": "Plantar pressure points, **painless**, callus, diabetes with neuropathy",
-       "link": "arterial-neuropathic-ulcers"
+       "link": "diabetic-foot-ulcer"
       },
       {
        "name": "Pyoderma gangrenosum",
@@ -204,7 +204,7 @@
       }
      ]
     },
-    "See also: [Arterial & neuropathic ulcers](condition:arterial-neuropathic-ulcers) · [Pyoderma gangrenosum](condition:pyoderma-gangrenosum)"
+    "See also: [arterial ulcers](condition:arterial-leg-ulcer) and [diabetic foot ulcers](condition:diabetic-foot-ulcer) · [Pyoderma gangrenosum](condition:pyoderma-gangrenosum)"
    ],
    "short": "Differentials"
   },
@@ -332,7 +332,8 @@
  ],
  "references": [],
  "see_also": [
-  "arterial-neuropathic-ulcers",
+  "arterial-leg-ulcer",
+  "diabetic-foot-ulcer",
   "red-leg",
   "cellulitis-erysipelas",
   "pyoderma-gangrenosum",

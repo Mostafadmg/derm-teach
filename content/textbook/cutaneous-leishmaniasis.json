@@ -1,0 +1,324 @@
+{
+ "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
+ "key_facts": [
+  "A **painless crusted nodule or ulcer with a rolled edge** on exposed skin, not healing after weeks of antibiotics, after travel or migration.",
+  "*Leishmania* parasites injected by **sandfly bites**, multiplying in dermal macrophages.",
+  "Refer to **tropical medicine** for biopsy / PCR and species-guided treatment; many Old World lesions heal on their own.",
+  "**Mucosal leishmaniasis** (New World species) and visceral disease in the immunosuppressed."
+ ],
+ "sections": [
+  {
+   "id": "overview",
+   "title": "Overview",
+   "blocks": [
+    "**Leishmaniasis** is a protozoal infection caused by more than 20 *Leishmania* species and spread by the bite of infected female **phlebotomine sandflies**. It is endemic in 90+ countries (Latin America, the Mediterranean basin including southern Europe, the Middle East, Central/South Asia and East Africa). WHO lists it as a neglected tropical disease. Clinical forms:",
+    {
+     "ul": [
+      "**Cutaneous leishmaniasis (CL)** is the most common form. It is a chronic sore at the bite site. WHO estimates roughly 600,000 to 1 million new cases a year.",
+      "**Mucocutaneous leishmaniasis (MCL, \"espundia\")** is a destructive infection of the nose, mouth and throat. It occurs only with New World *Viannia* species (*L. braziliensis*, *L. guyanensis*, *L. panamensis*) and can follow the skin lesion by months or years. Lifetime risk after *L. braziliensis* CL is around 5%.",
+      "**Diffuse CL** is rare and anergic, with many non-ulcerating nodules (*L. aethiopica*, *L. amazonensis*).",
+      "**Leishmaniasis recidivans** means new lesions keep appearing around an old scar (*L. tropica*).",
+      "**Visceral leishmaniasis (kala-azar)** causes fever, weight loss, splenomegaly and pancytopenia, and is fatal without treatment. **Post-kala-azar dermal leishmaniasis (PKDL)** may follow it."
+     ]
+    },
+    "**Old World vs New World:**",
+    {
+     "table": {
+      "head": [
+       "",
+       "Old World CL",
+       "New World (American) CL"
+      ],
+      "rows": [
+       [
+        "Regions",
+        "Middle East, North Africa, Mediterranean, Central/South Asia, East Africa",
+        "Central and South America (incl. Belize, Brazil, Peru, Bolivia, Colombia)"
+       ],
+       [
+        "Species",
+        "*L. major*, *L. tropica*, *L. infantum*, *L. aethiopica*",
+        "*L. mexicana*, *L. amazonensis*, *L. (Viannia) braziliensis/guyanensis/panamensis*"
+       ],
+       [
+        "Old names",
+        "Oriental sore, Baghdad/Delhi boil, Aleppo button",
+        "Chiclero ulcer, uta, forest yaws, pian bois"
+       ],
+       [
+        "Course",
+        "Often heals on its own over months–1 year, leaving a scar",
+        "**All treated as complex** because of the mucosal risk"
+       ]
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "aetiology",
+   "title": "Aetiology: causes and risk factors",
+   "blocks": [
+    {
+     "ul": [
+      "Sandflies are tiny (1.5–3 mm), silent and mostly bite at **dusk and dawn**. They breed in wall cracks, animal burrows and leaf litter. The bite usually goes unnoticed and lands on exposed skin. Risk is highest in rural or forest settings and when sleeping outdoors or near the ground.",
+      "The infected sandfly injects **promastigotes** into the dermis. Macrophages take them up, they change into **amastigotes**, and these multiply inside the cells. This produces a granulomatous dermal infiltrate that breaks down into an ulcer.",
+      "The **host's cell-mediated immunity** shapes the disease. A good Th1 response gives a localised, self-limiting sore. A poor response (anergy, HIV, immunosuppression) gives diffuse or disseminated disease. An over-exuberant response is linked to mucosal and recidivans forms.",
+      "Some regions have an animal reservoir (rodents, dogs, sloths). *L. tropica* and *L. donovani* can pass human to human via sandflies.",
+      " Transmission is by **vector bite**. Spread by blood transfusion, needle-sharing and congenital routes is rare. CL is **not** spread by casual contact."
+     ]
+    },
+    {
+     "fig": {
+      "ai": "v3-leish-volcano-section.jpg",
+      "caption": "A sandfly injects Leishmania into the dermis; parasite-laden macrophages form a granuloma that breaks down into a crusted ‘volcano’ ulcer with an indurated, violaceous rim.",
+      "alt": "Skin cross-section with crusted crater ulcer and parasitised macrophages"
+     }
+    }
+   ],
+   "short": "Aetiology"
+  },
+  {
+   "id": "clinical-features",
+   "title": "Clinical features",
+   "blocks": [
+    {
+     "ul": [
+      "Incubation is usually **2 weeks to 6 months** and sometimes longer, so ask about travel well before the lesion appeared.",
+      "The lesion starts as a **painless red papule** at the bite site. It slowly grows into a nodule or plaque, often 1–5 cm, then usually **ulcerates centrally**. The result is the classic **\"volcano\" ulcer** with a **raised, rolled, indurated (often violaceous) border** and either a **dry adherent crust** or a moist, granulating or purulent base.",
+      "It sits on **exposed sites**: face, ears, forearms, hands and lower legs. There may be one lesion or several (several bites).",
+      "It is usually **painless**, and the patient is otherwise well (as in Case 1). Pain usually means secondary bacterial infection.",
+      "**Sporotrichoid spread** (nodules in a line along the lymphatics) and regional lymphadenopathy can occur, especially with *Viannia* species.",
+      "**Healing:** spontaneous healing over 2 months to more than a year leaves an **atrophic, cribriform, \"cigarette-paper\" scar**.",
+      "**Mucosal red flags** (New World, sometimes years later) are nasal stuffiness, nosebleeds, crusting, septal perforation, lip/palate ulcers and hoarseness.",
+      "**Skin of colour:** expect hyperpigmented or violaceous borders, with post-inflammatory hyper- or hypopigmentation and scarring."
+     ]
+    },
+    {
+     "fig": {
+      "dermnet": "m5w4:W4A01"
+     }
+    },
+    {
+     "h": "Types to recognise"
+    },
+    {
+     "variants": [
+      {
+       "name": "Volcano ulcer",
+       "t": "Painless, raised rolled edge. *Site: Exposed skin.*",
+       "photo": "m5w4:W4A01"
+      },
+      {
+       "name": "Early papule",
+       "t": "Weeks–months after the bite. *Site: Bite site.*",
+       "photo": "m5w4:W4A05"
+      },
+      {
+       "name": "New World ulcer",
+       "t": "Clean granulating base. *Site: Limbs.*",
+       "photo": "m5w4:W4A02"
+      },
+      {
+       "name": "Facial crusted",
+       "t": "Facial lesions: priority referral. *Site: Face.*",
+       "photo": "m5w4:W4A06"
+      },
+      {
+       "name": "Mucosal (espundia)",
+       "t": "Destructive nose / mouth disease. *Site: Nose, mouth.*",
+       "photo": "m5w4:W4A07",
+       "danger": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "diagnosis",
+   "title": "Diagnosis and investigations",
+   "blocks": [
+    {
+     "ul": [
+      "**Clinical suspicion** comes from the travel/residence history plus a chronic, non-healing, painless ulcer or nodule on exposed skin (DermNet, PCDS).",
+      "**Confirmation (specialist):** a **punch or incisional biopsy from the active raised edge**. Send part **unfixed in sterile saline** for **PCR** (most sensitive, and identifies the **species**, which decides treatment) and culture, and part in formalin for histology (amastigotes inside macrophages; Giemsa stain). Slit-skin smears or scrapings from the edge can also be used. UK specialist parasitology labs (e.g. HTD/UKHSA-linked) want the **travel history on the request form**.",
+      "**Species ID matters** because New World *Viannia* infection needs systemic treatment and ENT/mucosal examination.",
+      "In New World cases, check for mucosal involvement with **ENT/nasal examination**. If visceral disease is suspected (fever, splenomegaly, cytopenias), do FBC, LFTs and serology.",
+      "Serology is not useful for CL. It is used for visceral disease."
+     ]
+    }
+   ],
+   "short": "Diagnosis"
+  },
+  {
+   "id": "differentials",
+   "title": "Differential diagnoses",
+   "blocks": [
+    {
+     "ddx": [
+      {
+       "name": "Infected insect bite",
+       "f": "Acute, itchy / painful, resolves; no rolled edge.",
+       "link": "papular-urticaria-bites"
+      },
+      {
+       "name": "Ecthyma / bacterial ulcer",
+       "f": "Painful, purulent, responds to antibiotics.",
+       "link": "impetigo"
+      },
+      {
+       "name": "BCC / SCC",
+       "f": "Older, sun-exposed, pearly or keratotic edge.",
+       "link": "basal-cell-carcinoma",
+       "danger": true
+      },
+      {
+       "name": "Atypical mycobacteria",
+       "f": "Fish tank (*M. marinum*), Buruli: undermined ulcer."
+      },
+      {
+       "name": "Lupus vulgaris",
+       "f": "Apple-jelly nodules; chronic plaque.",
+       "link": "cutaneous-tuberculosis"
+      },
+      {
+       "name": "Sporotrichosis / deep fungal",
+       "f": "Gardening / thorn; sporotrichoid nodules.",
+       "link": "mycetoma"
+      },
+      {
+       "name": "Leprosy",
+       "f": "Anaesthetic plaques, thickened nerves.",
+       "link": "leprosy"
+      }
+     ]
+    }
+   ],
+   "short": "Differentials"
+  },
+  {
+   "id": "management",
+   "title": "Management",
+   "blocks": [
+    "**Primary-care role: recognise and refer. Do not start empirical treatment.**",
+    {
+     "ul": [
+      "**Refer every suspected CL** to an ID/tropical medicine service. In England, the **HTD Leishmaniasis MDT** (UCLH) accepts referrals and advice requests, or use your local ID unit. **New World exposure, facial/joint/genital lesions, more than 4 cm or multiple lesions, lymphatic spread, immunosuppression or any mucosal symptoms** are priority referrals.",
+      "**Same-day/urgent referral:** mucosal destruction, fever, weight loss or splenomegaly (possible visceral disease), immunosuppression (HIV, biologics, transplant).",
+      "**Interim care:** gentle cleansing and a simple non-adherent dressing. Treat **clear secondary bacterial infection** per NICE impetigo/cellulitis guidance (local spreading erythema, pain, pus). Antibiotics will not cure CL itself. **Avoid potent topical steroids** on an undiagnosed ulcer.",
+      "**Specialist treatment options** (for awareness and counselling): **Simple Old World CL:** watchful waiting, or local therapy such as cryotherapy, heat therapy, intralesional antimonials (sodium stibogluconate/meglumine antimoniate), topical paromomycin, or photodynamic therapy; **Complex or all New World CL:** **systemic therapy**, such as **liposomal amphotericin B**, **oral miltefosine** (increasingly used because it is oral), parenteral **sodium stibogluconate (Pentostam)**, or sometimes azoles or pentamidine depending on the species",
+      "**Medicines-safety points (if co-managing):** **Miltefosine** is **teratogenic**. Women of child-bearing potential need a pregnancy test and effective contraception during treatment and for months afterwards (check the SmPC/local protocol). Take with food. GI upset is common. It can be supplied via named-patient/specialist routes in the UK; **Antimonials** carry risks of QT prolongation and arrhythmia, pancreatitis, raised liver enzymes and myalgia. Patients need ECG and blood monitoring under specialist care; **Liposomal amphotericin** can cause nephrotoxicity, hypokalaemia and infusion reactions"
+     ]
+    },
+    {
+     "fig": {
+      "ai": "v3-sandfly-fine-mesh.jpg",
+      "caption": "Sandflies are small enough to pass through standard mosquito nets (left); fine-mesh nets (right) keep them out.",
+      "alt": "Coarse net with sandfly passing through beside a fine-mesh net"
+     }
+    },
+    {
+     "h": "Treatment ladder"
+    },
+    {
+     "ladder": [
+      {
+       "k": "Refer",
+       "t": "Every suspected CL → **ID / tropical medicine** (e.g. HTD Leishmaniasis MDT, UCLH). **Priority**: New World exposure, facial / joint / genital, > 4 cm or multiple, lymphatic spread, immunosuppression, mucosal symptoms.",
+       "tone": "base"
+      },
+      {
+       "k": "Interim care",
+       "t": "Gentle cleansing, simple non-adherent dressing. Treat **clear secondary infection** per NICE (antibiotics won’t cure CL).",
+       "tone": "first"
+      },
+      {
+       "k": "Specialist treatment",
+       "t": "Species-guided: local or systemic therapy; New World *Viannia* needs systemic treatment.",
+       "tone": "refer"
+      }
+     ]
+    },
+    {
+     "callout": "warn",
+     "title": "Prescribing limits and pitfalls",
+     "list": [
+      "**Prevention (no vaccine)**: Avoid dusk / dawn outdoors; long sleeves; DEET; permethrin clothing; **fine-mesh nets**; fans / AC; sleep off the ground."
+     ]
+    },
+    {
+     "h": "Referral"
+    },
+    {
+     "refer": [
+      {
+       "when": "same-day",
+       "t": "Mucosal destruction, fever, weight loss or splenomegaly (possible visceral disease), immunosuppression."
+      },
+      {
+       "when": "urgent",
+       "t": "Nasal stuffiness, bleeding or oral / nasal ulcers months–years after New World CL: **mucosal leishmaniasis**."
+      },
+      {
+       "when": "routine",
+       "t": "Any suspected CL: tropical medicine referral."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "red-flags",
+   "title": "Red flags and when to refer",
+   "blocks": [
+    {
+     "ul": [
+      "Nasal stuffiness, bleeding or oral or nasal ulceration months or years later: **mucosal leishmaniasis**, specialist referral.",
+      "Immunosuppression or HIV: specialist advice early."
+     ]
+    }
+   ],
+   "short": "Red flags"
+  },
+  {
+   "id": "pearls",
+   "title": "Prescriber pearls (UK pharmacist IP)",
+   "blocks": [
+    {
+     "pearls": [
+      "A **\"non-healing insect bite\" for more than 4–6 weeks after travel** should trigger the question about leishmaniasis. The **Mediterranean** (Spain, Portugal, Italy, Greece, Cyprus, Malta, Turkey) and **Belize/Central America** are common UK holiday and military sources.",
+      "**Healing of the skin lesion does not exclude New World mucosal disease.** Advise patients to report nasal or oral symptoms even years later.",
+      "Lesions are **not contagious person to person**. Scarring is common, so set expectations and note the psychological impact of facial scars.",
+      "**Prevention (no vaccine or chemoprophylaxis):** avoid outdoor activity at dusk and dawn; wear long sleeves and trousers; use a DEET-based repellent on exposed skin; use permethrin-treated clothing and **fine-mesh bed nets** (sandflies pass through standard mosquito nets); fans and air-conditioning help; sleep off the ground."
+     ]
+    }
+   ],
+   "short": "Pearls"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Vector?",
+   "a": "Female phlebotomine sandflies."
+  },
+  {
+   "q": "Classic lesion?",
+   "a": "Painless ‘volcano’ ulcer with a raised rolled indurated border."
+  },
+  {
+   "q": "Where to biopsy and why send unfixed tissue?",
+   "a": "Active edge; PCR identifies the species, which guides treatment."
+  },
+  {
+   "q": "Which species risk mucosal disease?",
+   "a": "New World Viannia (e.g. L. braziliensis)."
+  }
+ ],
+ "references": [
+  {
+   "label": "Medscape: Cutaneous leishmaniasis",
+   "url": "https://emedicine.medscape.com/article/220298-overview"
+  }
+ ],
+ "see_also": []
+}

@@ -1,0 +1,211 @@
+{
+ "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
+ "key_facts": [
+  "Someone asking about frown lines, crow’s feet or “preventative Botox”, or worried after a recent aesthetic treatment.",
+  "Intrinsic ageing plus UV/smoking drive volume loss and elastosis; dynamic lines from repeated muscle movement; static lines persist at rest.",
+  "Photoprotection and expectations first; botulinum toxin is POM and face-to-face prescribing only; recognise ptosis, infection and filler emergencies.",
+  "Filler vascular occlusion (pain, livedo, visual loss) → emergency pathway. Suspected iatrogenic botulism after unlicensed toxin → 999 / UKHSA."
+ ],
+ "sections": [
+  {
+   "id": "overview",
+   "title": "Overview",
+   "blocks": [
+    "Facial ageing mixes **intrinsic** (genetics, time) and **extrinsic** (UV, smoking, pollution) change: volume loss, bone remodelling, elastosis and wrinkles. **Dynamic lines** appear with expression; **static lines** remain at rest.",
+    "This page is **counselling-level only** for community pharmacist IPs: what patients ask about neuromodulators and fillers, UK regulation, expected effects and red flags. It does **not** teach injection technique, doses, units or reconstitution."
+   ]
+  },
+  {
+   "id": "aetiology",
+   "title": "Aetiology: causes and risk factors",
+   "blocks": [
+    {
+     "ul": [
+      "Dynamic lines: repeated frontalis, corrugator, orbicularis oculi and other facial muscle activity.",
+      "Static lines and folds: dermal thinning, fat-pad descent, bone resorption, gravity.",
+      "Botulinum toxin type A temporarily blocks acetylcholine release at the neuromuscular junction → reduced muscle contraction for about 3–4 months.",
+      "HA fillers restore volume by placing hyaluronic-acid gel in soft tissue — different products and planes (specialist detail)."
+     ]
+    }
+   ],
+   "short": "Aetiology"
+  },
+  {
+   "id": "clinical-features",
+   "title": "Clinical features",
+   "blocks": [
+    {
+     "ul": [
+      "Glabellar frown lines, forehead lines, crow’s feet are the common aesthetic requests.",
+      "Expected toxin timeline: onset over days, peak around 2 weeks, duration about 3–4 months.",
+      "Common local effects: bruising, short-lived headache, asymmetric smile if diffusion occurs.",
+      "Filler: immediate volume; swelling and bruising common early."
+     ]
+    },
+    {
+     "fig": {
+      "dermnet": "m6w5:W5A-01"
+     }
+    }
+   ]
+  },
+  {
+   "id": "diagnosis",
+   "title": "Diagnosis and investigations",
+   "blocks": [
+    "Aesthetic assessment belongs to a trained face-to-face prescriber. Community role: screen for skin-cancer lesions in photoaged faces before anyone treats pigment, and triage complications."
+   ],
+   "short": "Diagnosis"
+  },
+  {
+   "id": "differentials",
+   "title": "Differential diagnoses",
+   "blocks": [
+    {
+     "ddx": [
+      {
+       "name": "New facial asymmetry after toxin",
+       "f": "Diffusion / brow or lid ptosis — usually temporary"
+      },
+      {
+       "name": "Acute unilateral facial weakness with forehead spared",
+       "f": "Stroke — 999 FAST"
+      },
+      {
+       "name": "Painful livedo or blanching after filler",
+       "f": "Vascular occlusion — emergency"
+      },
+      {
+       "name": "Descending paralysis, dysphagia after unlicensed injections",
+       "f": "Iatrogenic botulism — 999 / UKHSA"
+      }
+     ]
+    }
+   ],
+   "short": "Differentials"
+  },
+  {
+   "id": "management",
+   "title": "Management",
+   "blocks": [
+    {
+     "h": "Before anyone injects (counselling)"
+    },
+    {
+     "ul": [
+      "Daily SPF, stop smoking, realistic expectations — toxin softens dynamic lines; it does not lift sagging skin or replace volume.",
+      "Botulinum toxin for cosmetic use is a **prescription-only medicine**. GPhC guidance: pharmacist prescribers must **examine face to face**; remote prescribing of these medicines is not appropriate.",
+      "Illegal under-18 cosmetic toxin/fillers (Botulinum Toxin and Cosmetic Fillers (Children) Act 2021).",
+      "Advise licensed UK product via a regulated, insured practitioner — never buy toxin online for self-injection."
+     ]
+    },
+    {
+     "h": "Aftercare themes (practitioner-led detail)"
+    },
+    {
+     "ul": [
+      "Follow the treating clinician’s aftercare (often avoid rubbing, lying flat or vigorous exercise for the first hours).",
+      "Review at about 2 weeks rather than unplanned “top-ups”.",
+      "OTC “Botox-like” peptide creams have weak evidence — do not oversell."
+     ]
+    },
+    {
+     "h": "Filler adverse-effect awareness (no procedure detail)"
+    },
+    {
+     "ul": [
+      "Early: swelling, bruising, lumps. Delayed: nodules, biofilm infection — refer back to the injector/dermatology.",
+      "**Vascular occlusion:** severe pain, livedo, blanching soon after injection → **emergency** (injector/A&E; hyaluronidase is a specialist treatment).",
+      "**Visual loss / ophthalmoplegia after filler:** sight-threatening emergency — call 999; do not delay."
+     ]
+    },
+    {
+     "callout": "danger",
+     "title": "Unlicensed toxin / botulism",
+     "text": "Descending weakness, dysarthria, dysphagia or breathing difficulty after aesthetic injections → 999. UKHSA may advise on antitoxin; notify health protection; Yellow Card. Check UK-licensed product and legitimate supply chain."
+    },
+    {
+     "callout": "info",
+     "title": "Therapeutic facial palsy toxin",
+     "text": "Specialist facial-palsy teams use toxin for synkinesis and asymmetry alongside physiotherapy. Acute Bell’s palsy pathways (steroid within 72 h, eye protection) are separate — forehead-sparing weakness is stroke until proven otherwise."
+    },
+    {
+     "h": "Referral"
+    },
+    {
+     "refer": [
+      {
+       "when": "emergency",
+       "t": "Visual symptoms or severe pain after filler → emergency."
+      },
+      {
+       "when": "emergency",
+       "t": "Bilateral descending paralysis after unlicensed injections → 999 / UKHSA botulism pathway."
+      },
+      {
+       "when": "urgent",
+       "t": "Drooping eyelid with corneal exposure risk → urgent eye care."
+      },
+      {
+       "when": "emergency",
+       "t": "Stroke pattern facial weakness → 999."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "red-flags",
+   "title": "Red flags and when to refer",
+   "blocks": [
+    {
+     "ul": [
+      "Visual symptoms or severe pain after filler → emergency.",
+      "Bilateral descending paralysis after unlicensed injections → 999 / UKHSA botulism pathway.",
+      "Drooping eyelid with corneal exposure risk → urgent eye care.",
+      "Stroke pattern facial weakness → 999."
+     ]
+    }
+   ],
+   "short": "Red flags"
+  },
+  {
+   "id": "pearls",
+   "title": "Prescriber pearls (UK pharmacist IP)",
+   "blocks": [
+    {
+     "pearls": [
+      "This site intentionally omits units, dilution and injection maps — those belong in accredited aesthetic training, not a teaching website.",
+      "Photoaged faces need a skin-cancer check before cosmetic energy devices — see [photoageing](condition:photoageing) and [solar lentigines](condition:solar-lentigines).",
+      "Document advice and signpost legitimate practitioners; do not prescribe toxin remotely."
+     ]
+    }
+   ],
+   "short": "Pearls"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Facial ageing & neuromodulators?",
+   "a": "Someone asking about frown lines, crow’s feet or “preventative Botox”, or worried after a recent aesthetic treatment."
+  },
+  {
+   "q": "What drives it?",
+   "a": "Intrinsic ageing plus UV/smoking drive volume loss and elastosis; dynamic lines from repeated muscle movement; static lines persist at rest."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "Photoprotection and expectations first; botulinum toxin is POM and face-to-face prescribing only; recognise ptosis, infection and filler emergencies."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "Filler vascular occlusion (pain, livedo, visual loss) → emergency pathway. Suspected iatrogenic botulism after unlicensed toxin → 999 / UKHSA."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "Visual symptoms or severe pain after filler → emergency."
+  }
+ ],
+ "references": [],
+ "see_also": []
+}

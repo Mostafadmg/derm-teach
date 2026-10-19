@@ -1,0 +1,69 @@
+{
+ "slug": "halo-naevus",
+ "title": "Halo naevus (Sutton naevus)",
+ "category": "lumps-lesions-cancer",
+ "status": "published",
+ "order": 18,
+ "module": "Module 2 · Week 4",
+ "aka": [
+  "halo naevus",
+  "Sutton naevus",
+  "leukoderma acquisitum centrifugum"
+ ],
+ "summary": "A mole surrounded by a symmetrical white ring as the immune system clears it; common in children and teenagers and linked with vitiligo. A new halo in an adult over 40, or an atypical centre, needs assessment for melanoma.",
+ "card_image": "m2w4:E01",
+ "sections": {
+  "what": [
+   "A **halo naevus** is a melanocytic naevus surrounded by a symmetrical **depigmented ring**, caused by immune destruction of the naevus. It is common in children and teenagers and may be multiple."
+  ],
+  "cause": [
+   "Cytotoxic T cells recognise naevus melanocytes and destroy them and the surrounding normal melanocytes; there is an **association with vitiligo**."
+  ],
+  "features": [
+   {
+    "list": [
+     "Central brown naevus with a round or oval white ring; over months the centre fades and may disappear.",
+     "The white area later repigments in many.",
+     "Back is the commonest site."
+    ]
+   }
+  ],
+  "diagnosis": [
+   "Clinical with dermoscopy: a regular globular or homogeneous centre with a white halo. An asymmetric or atypical centre, or onset over 40, needs specialist assessment."
+  ],
+  "differentials": [
+   "Melanoma with regression or a halo (adults, atypical centre), [vitiligo](condition:hypopigmentation-skin-of-colour), post-inflammatory hypopigmentation."
+  ],
+  "management": [
+   {
+    "list": [
+     "Reassure if the central naevus is benign and symmetrical.",
+     "**Refer an adult (over 40) with a new halo, or any atypical central lesion** (melanoma can provoke halos).",
+     "Sun-protect the white ring (it burns easily).",
+     "Examine the skin for vitiligo and other atypical naevi."
+    ]
+   }
+  ],
+  "red_flags": [
+   "Atypical central lesion or new halo in an adult: **suspected cancer pathway**."
+  ],
+  "pearls": [
+   "Halo naevi are benign in children; the halo is a sign of immune clearance, not of cancer."
+  ]
+ },
+ "photos": [
+  {
+   "title": "Halo naevus",
+   "items": [
+    "m2w4:E01",
+    "m2w4:E02"
+   ]
+  }
+ ],
+ "references": [
+  {
+   "label": "DermNet: Halo naevus",
+   "url": "https://dermnetnz.org/topics/halo-naevus"
+  }
+ ]
+}

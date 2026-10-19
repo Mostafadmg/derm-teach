@@ -1,0 +1,64 @@
+{
+ "kf": [
+  "**Port-wine stain** is a capillary **malformation**, present at birth, that grows with the child and never involutes.",
+  "Caused by a **somatic GNAQ** mutation; about 0.3% of newborns.",
+  "Darkens and thickens with age (cobblestoning, overgrowth).",
+  "Facial **V1** distribution: assess for **Sturge–Weber** (glaucoma, seizures); limb stain with overgrowth: consider Klippel–Trénaunay.",
+  "**Pulsed dye laser** (specialist) lightens it, best started early; camouflage for all."
+ ],
+ "epi": [
+  {
+   "t": "**Who**",
+   "sub": [
+    "Equal sexes; any site, face commonest."
+   ]
+  }
+ ],
+ "myths": [
+  "**\"It's a stork mark that will fade\"**: salmon patches fade; port-wine stains do not."
+ ],
+ "patho_lead": "A port-wine stain is a patch of **malformed, progressively widening capillaries**.",
+ "mech": [
+  {
+   "k": "Mosaic mutation",
+   "t": "A GNAQ mutation in a developing cell gives a patch of abnormal vessels."
+  },
+  {
+   "k": "Ectatic capillaries",
+   "t": "Dermal capillaries are dilated and increase in calibre with age.",
+   "img": "v4-pws-capillaries.jpg",
+   "cap": "Normal fine dermal capillaries (left) versus the widened, crowded capillaries of a port-wine stain (right)."
+  },
+  {
+   "k": "Reduced neural control",
+   "t": "Poor sympathetic innervation of the vessels allows progressive dilation."
+  },
+  {
+   "k": "Thickening",
+   "t": "Over decades vessels enlarge further, causing darker colour, blebs and soft-tissue overgrowth."
+  }
+ ],
+ "histo": [
+  "Dilated capillaries and venules in the papillary and reticular dermis without endothelial proliferation."
+ ],
+ "special": [
+  {
+   "t": "**Sturge–Weber syndrome**",
+   "sub": [
+    "V1 facial PWS with leptomeningeal angiomatosis and glaucoma: seizures, hemiparesis, learning difficulties."
+   ]
+  }
+ ],
+ "comp": [
+  "Glaucoma, seizures (Sturge–Weber); limb overgrowth; bleeding from blebs; psychosocial impact."
+ ],
+ "prog": [
+  "Permanent; laser lightens but rarely clears."
+ ],
+ "see_also": [
+  "infantile-haemangioma",
+  "pigmented-birthmarks",
+  "neonatal-rashes",
+  "intense-pulsed-light"
+ ]
+}

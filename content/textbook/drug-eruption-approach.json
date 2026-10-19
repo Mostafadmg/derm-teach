@@ -1,0 +1,453 @@
+{
+ "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
+ "key_facts": [
+  "Any new rash in someone who started, changed or restarted a medicine in the last 8 weeks.",
+  "Immune reactions (type I to IV) or non-immune effects (phototoxicity, deposition, pharmacology) of a drug or its metabolites.",
+  "Build a drug timeline, name the morphology, check for SCAR red flags, stop the most likely culprit, record the reaction precisely (NICE CG183) and report.",
+  "SJS/TEN, DRESS, AGEP, anaphylaxis and angioedema; vasculitis with organ involvement."
+ ],
+ "sections": [
+  {
+   "id": "overview",
+   "title": "Overview",
+   "blocks": [
+    "Cutaneous ADRs affect ~2–3% of hospital inpatients. Most (~90%) are benign **exanthems, urticaria or FDE**. About **2% are SCARs** (SJS/TEN, DRESS, AGEP), which are potentially fatal. Antibiotics (aminopenicillins, sulfonamides), anticonvulsants (carbamazepine, phenytoin, lamotrigine), allopurinol, NSAIDs (oxicams) and contrast media dominate the culprit lists."
+   ]
+  },
+  {
+   "id": "pathophysiology",
+   "title": "Pathophysiology and pathology",
+   "blocks": [
+    {
+     "h": "How it is caused"
+    },
+    {
+     "ul": [
+      "**Immune-mediated (Gell & Coombs, revised):** **Type I** (IgE): urticaria, angioedema, anaphylaxis; minutes to hours; Type II: drug-induced immune thrombocytopenia/pemphigus; Type III (immune complex): serum-sickness-like reaction, vasculitis (the [vasculitis](condition:cutaneous-vasculitis-approach) notes); **Type IV** (T-cell, delayed), subdivided:; IVa (Th1) — eczematous; **IVb** (Th2/eosinophils) — **DRESS**, maculopapular; **IVc** (cytotoxic CD8 T cells, granulysin) — **SJS/TEN, FDE**; **IVd** (neutrophils, IL-8) — **AGEP**",
+      "**Non-immune:** pharmacological (bradykinin — ACE-i angioedema; COX-1 inhibition — NSAID urticaria/angioedema); **phototoxicity**; direct mast-cell activation (opioids, vancomycin \"red man\" — MRGPRX2); deposition (amiodarone, minocycline pigmentation); overdose/cumulative toxicity",
+      "**Host factors:** HLA alleles (see *Stevens–Johnson syndrome / toxic epidermal necrolysis*), viral infection (EBV + amoxicillin; HIV ↑ sulfonamide reactions; HHV-6 reactivation in DRESS), older age, renal impairment, autoimmune disease."
+     ]
+    }
+   ],
+   "short": "Pathophysiology"
+  },
+  {
+   "id": "clinical-features",
+   "title": "Clinical features",
+   "blocks": [
+    {
+     "h": "Clinical features & sites"
+    },
+    "**Pattern → likely culprit**, as asked in [Case 2](condition:drug-eruption-approach) for the 76-year-old woman:",
+    {
+     "table": {
+      "head": [
+       "Pattern",
+       "Typical timing after starting the drug",
+       "Usual suspects"
+      ],
+      "rows": [
+       [
+        "**Urticarial / angioedema**",
+        "Minutes–hours (IgE); days (serum-sickness-like)",
+        "Penicillins/cephalosporins, NSAIDs/aspirin, opioids, contrast; ACE-i (angioedema, weeks–years)"
+       ],
+       [
+        "**Morbilliform** (exanthem)",
+        "**4–14 days** (sooner on re-exposure)",
+        "Aminopenicillins, cephalosporins, sulfonamides (co-trimoxazole), anticonvulsants, allopurinol"
+       ],
+       [
+        "**Photosensitive** (face, V of neck, backs of hands, sparing behind ears/under chin)",
+        "Days–weeks of sun exposure",
+        "**Thiazides**, **tetracyclines (doxycycline)**, **amiodarone**, quinolones, NSAIDs (piroxicam), voriconazole, phenothiazines, PPIs/terbinafine (SCLE)"
+       ],
+       [
+        "**Blistering**",
+        "Hours–days (FDE), 4–28 days (SJS/TEN), weeks–months (pseudoporphyria, drug-induced BP)",
+        "SJS/TEN: allopurinol, carbamazepine, lamotrigine, phenytoin, sulfonamides, oxicam NSAIDs, nevirapine. FDE: NSAIDs, co-trimoxazole, tetracyclines, paracetamol. **DPP-4 inhibitors (gliptins) → bullous pemphigoid**. Naproxen → pseudoporphyria. Furosemide/ACE-i/PD-1 inhibitors → BP"
+       ],
+       [
+        "**Pustular** (AGEP)",
+        "**<48 h** (often hours)",
+        "Aminopenicillins, macrolides, pristinamycin, hydroxychloroquine, diltiazem, terbinafine"
+       ],
+       [
+        "**Fever + rash + organ involvement** (DRESS)",
+        "**2–8 weeks**",
+        "Allopurinol, carbamazepine, phenytoin, lamotrigine, sulfonamides, dapsone, minocycline, vancomycin"
+       ],
+       [
+        "**Lichenoid**",
+        "Months",
+        "Thiazides, β-blockers, ACE-i, antimalarials, gold, PD-1 inhibitors"
+       ],
+       [
+        "Vasculitic purpura",
+        "1–3 weeks",
+        "Antibiotics, NSAIDs, allopurinol (see the [vasculitis](condition:cutaneous-vasculitis-approach) notes)"
+       ]
+      ]
+     }
+    },
+    {
+     "fig": {
+      "dermnet": "m1w3:A01"
+     }
+    },
+    {
+     "h": "Types to recognise"
+    },
+    {
+     "variants": [
+      {
+       "name": "Urticarial / angioedema",
+       "t": "Minutes–hours (IgE); days (serum-sickness-like) *Site: Penicillins/cephalosporins, NSAIDs/aspirin, opioids, contrast; ACE-i (angioedema, weeks–years).*"
+      },
+      {
+       "name": "Morbilliform (exanthem)",
+       "t": "**4–14 days** (sooner on re-exposure) *Site: Aminopenicillins, cephalosporins, sulfonamides (co-trimoxazole), anticonvulsants, allopurinol.*"
+      },
+      {
+       "name": "Photosensitive (face, V of neck, backs of hands, sparing behind ears/under chin)",
+       "t": "Days–weeks of sun exposure *Site: **Thiazides**, **tetracyclines (doxycycline)**, **amiodarone**, quinolones, NSAIDs (piroxicam), voriconazole, phenothiazines, PPIs/terbinafine (SCLE).*"
+      },
+      {
+       "name": "Blistering",
+       "t": "Hours–days (FDE), 4–28 days (SJS/TEN), weeks–months (pseudoporphyria, drug-induced BP) *Site: SJS/TEN: allopurinol, carbamazepine, lamotrigine, phenytoin, sulfonamides, oxicam NSAIDs, nevirapine. FDE: NSAIDs, co-trimoxazole, tetracyclines, paracetamol. **DPP-4 inhibitors (gliptins) → bullous pemphigoid**. Naproxen → pseudoporphyria. Furosemide/ACE-i/PD-1 inhibitors → BP.*"
+      },
+      {
+       "name": "Pustular (AGEP)",
+       "t": "**<48 h** (often hours) *Site: Aminopenicillins, macrolides, pristinamycin, hydroxychloroquine, diltiazem, terbinafine.*"
+      },
+      {
+       "name": "Fever + rash + organ involvement (DRESS)",
+       "t": "**2–8 weeks** *Site: Allopurinol, carbamazepine, phenytoin, lamotrigine, sulfonamides, dapsone, minocycline, vancomycin.*"
+      },
+      {
+       "name": "Lichenoid",
+       "t": "Months *Site: Thiazides, β-blockers, ACE-i, antimalarials, gold, PD-1 inhibitors.*"
+      },
+      {
+       "name": "Vasculitic purpura",
+       "t": "1–3 weeks *Site: Antibiotics, NSAIDs, allopurinol (see the [vasculitis](condition:cutaneous-vasculitis-approach) notes).*"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "diagnosis",
+   "title": "Diagnosis and investigations",
+   "blocks": [
+    {
+     "ol": [
+      "**Drug chart/timeline**. List every drug, with start/stop/dose-change dates, for the previous **8 weeks** (up to 3 months for DRESS). Include **OTC, herbal, supplements, recreational drugs, contrast, vaccines and depot/long-acting drugs**. Plot the rash onset against each one. A drug started >8 weeks before the rash (and taken without problem) is less likely; one started after onset can be excluded.",
+      "**Previous exposure:** a previous reaction to the same or a cross-reacting drug; re-exposure shortens the latency.",
+      "**Morphology and extent:** pattern (above), **mucosal involvement**, skin pain, Nikolsky sign, blisters/detachment (% BSA), pustules, facial oedema, lymphadenopathy, purpura.",
+      "**Systemic features:** fever, lymphadenopathy, organ dysfunction.",
+      "**Investigations:** **FBC with differential** (eosinophilia → DRESS; lymphopenia → SJS/TEN; atypical lymphocytes; neutrophilia → AGEP); U&E and LFTs (DRESS hepatitis/nephritis); CRP, glucose and bicarbonate (SCORTEN); Urinalysis (vasculitis); CK; TFTs (DRESS late effect); Viral serology/PCR (EBV, HHV-6, *Mycoplasma* in EM/SJS-like mucositis); **Skin biopsy** (H&E ± direct immunofluorescence — confirms SJS/TEN, AGEP, vasculitis; excludes AIBD/SSSS); **Mast-cell tryptase** within 1–4 h of suspected anaphylaxis; Later, by the **allergy service**: skin prick/intradermal tests, patch tests (FDE lesional patch, DRESS/AGEP delayed patch), lymphocyte transformation tests, and oral **drug provocation** for low-risk penicillin allergy. **Never rechallenge after SJS/TEN or DRESS.**",
+      "**Causality tools:** **Naranjo** — a general ADR probability scale (10 questions; ≥9 definite, 5–8 probable, 1–4 possible, ≤0 doubtful); **ALDEN** — specific to SJS/TEN (see *Stevens–Johnson syndrome / toxic epidermal necrolysis*); **RegiSCAR** — DRESS scoring"
+     ]
+    }
+   ],
+   "short": "Diagnosis"
+  },
+  {
+   "id": "differentials",
+   "title": "Differential diagnoses",
+   "blocks": [
+    "Viral exanthem (EBV, parvovirus, measles, COVID-19), *Mycoplasma*-associated mucositis (RIME), graft-versus-host disease, staphylococcal scalded skin syndrome (SSSS — superficial split, children/renal failure), autoimmune bullous disease, Kawasaki disease, scarlet fever, toxic shock syndrome, acute cutaneous lupus, pustular psoriasis (vs AGEP), cellulitis (vs FDE/EN)."
+   ],
+   "short": "Differentials"
+  },
+  {
+   "id": "management",
+   "title": "Management",
+   "blocks": [
+    {
+     "ul": [
+      "**Stop the probable culprit** (and any non-essential drugs). Choose a structurally unrelated alternative (e.g. levetiracetam rather than another aromatic anticonvulsant).",
+      "**Benign exanthem:** emollient, moderate–potent topical steroid, sedating or non-sedating antihistamine for itch. The rash may worsen for 1–3 days after stopping, then fades with desquamation over 1–2 weeks.",
+      "**Record the reaction** (NICE CG183 *Drug allergy*): drug name, reaction description, date, severity, and whether it is an allergy or an intolerance. **Tell the patient in writing**, and make sure the record is shared (GP record, hospital discharge letter, community pharmacy PMR).",
+      "**Report via the MHRA Yellow Card scheme** (https://yellowcard.mhra.gov.uk): all suspected serious reactions; any reaction to ▼ black triangle drugs; and any reaction in children. SJS/TEN, DRESS and AGEP should always be reported.",
+      "**Penicillin allergy de-labelling:** ~90% of labels are inaccurate. Refer suitable patients to allergy or local de-labelling pathways (BSACI 2022). A \"rash on amoxicillin during glandular fever\" is not true allergy."
+     ]
+    },
+    {
+     "h": "IP scope"
+    },
+    "IPs can stop and substitute drugs, treat benign exanthems/urticaria symptomatically, document allergies and submit Yellow Cards. SCARs need emergency admission (dermatology/burns/ITU). Allergy testing and drug provocation are specialist.",
+    {
+     "h": "Worked cases"
+    },
+    {
+     "h": "Case 1: memorable drug reaction"
+    },
+    "There is no single answer. Strong answers covered: **timing** relative to a new drug, **morphology** (pattern recognition, see *Approach to a suspected drug eruption*), **resolution on withdrawal**, recurrence on re-exposure, **skin of colour** (erythema looks violaceous/grey, and PIH dominates), and patient education (name the drug, avoid it, carry an alert, read OTC labels).",
+    {
+     "h": "Case 2: 76-year-old woman on a medical ward, multiple drugs"
+    },
+    {
+     "ul": [
+      "**History:** a **dated drug chart** for 8 weeks: new drugs, dose changes, OTC/herbal, contrast, IV antibiotics, and drugs given in other settings (ED, theatre); previous drug reactions and tolerance; onset and evolution of the rash; itch vs pain, fever, mucosal/eye symptoms; viral illness; renal/hepatic function (drug accumulation)",
+      "**Examination:** morphology and distribution (urticarial / morbilliform / photo-distributed / blistering / pustular / purpuric), mucosae, % BSA, Nikolsky sign, facial oedema, lymph nodes, temperature, organ signs.",
+      "**Investigations:** FBC + differential (eosinophils, lymphocytes, neutrophils), U&E, LFT, CRP, urinalysis, ± tryptase, viral PCR, **skin biopsy (H&E + DIF)**. Score causality with **Naranjo** (general) or **ALDEN** (SJS/TEN). Later testing by the **allergy service** (patch tests, specific IgE, provocation).",
+      "**Likely candidates (typical inpatient drugs):** **Urticarial:** β-lactam antibiotics, NSAIDs/aspirin, opioids (morphine, codeine — pseudo-allergic), contrast media, vancomycin, ACE-i (angioedema); **Photosensitive:** thiazides/loop diuretics (pseudoporphyria — furosemide), amiodarone, doxycycline, quinolones (ciprofloxacin), NSAIDs, phenothiazines, PPIs (SCLE); **Blistering:** in an older patient think **drug-induced bullous pemphigoid** (gliptins, loop diuretics, spironolactone, PD-1 inhibitors), **SJS/TEN** (allopurinol, anticonvulsants, co-trimoxazole, oxicams), **FDE/GBFDE**, pseudoporphyria (furosemide, naproxen) and linear IgA disease (**vancomycin**)"
+     ]
+    },
+    {
+     "h": "Case 2: EM vs SJS vs TEN"
+    },
+    "See the table in and the classification in *Stevens–Johnson syndrome / toxic epidermal necrolysis*:",
+    {
+     "ul": [
+      "**EM:** HSV-triggered, typical targets, acral, mild mucosa, good prognosis; treat HSV (aciclovir prophylaxis if recurrent).",
+      "**SJS (<10%) / overlap / TEN (>30%):** drug-induced CD8/granulysin necrosis, atypical targets, severe mucositis. Stop the drug, admit, supportive care, ± ciclosporin/IVIg."
+     ]
+    },
+    {
+     "h": "Case 3"
+    },
+    {
+     "ul": [
+      "**[Case 1](condition:drug-eruption-approach):** **ACE-inhibitor (ramipril)-induced, bradykinin-mediated angioedema**, possibly triggered by minor surgery. No useful response to antihistamine or steroid. **Investigations:** clinical; C4/C1-INH if atypical, tryptase if anaphylaxis is possible. **Management:** airway assessment, stop ramipril permanently (class allergy), consider an ARB with caution or a CCB, avoid gliptins/sacubitril, Yellow Card, explain that recurrences can happen for weeks (see *ACE-inhibitor (bradykinin-mediated) angioedema*).",
+      "**[Case 2](condition:drug-eruption-approach):** **erythema nodosum**, most likely **COC-induced**. Exclude infection (strep), sarcoid/TB (CXR), IBD and pregnancy, and **exclude DVT/thrombophlebitis** given the unilateral leg + COC + tranexamic acid; cellulitis is a valid differential. **Treat:** stop the COC (alternative contraception/cycle control), rest, elevation, NSAID analgesia; review; biopsy if atypical (see *Drug-induced erythema nodosum*).",
+      "**[Case 3](condition:drug-eruption-approach):** **Question 1** — main causes of photosensitivity (see *Drug-induced pigmentation — amiodarone*); **Question 2** — the visible abnormality is **blue-grey (slate) pigmentation of sun-exposed facial skin** ± phototoxic erythema; **Question 3** — **amiodarone-induced phototoxicity and pigmentation** (UVA-absorbing drug → ROS; lipofuscin-like drug–lipid deposits in dermal macrophages; long half-life); **Question 4** — cardiology liaison (dose reduction/alternative), strict UVA photoprotection, monitoring (TFT/LFT/eyes/lung), counselling that the pigment fades slowly, Yellow Card (see *Drug-induced pigmentation — amiodarone*)"
+     ]
+    },
+    {
+     "h": "Case 4"
+    },
+    {
+     "ul": [
+      "**[Case 1](condition:drug-eruption-approach):** **drug-induced photosensitivity (phototoxic) from bendroflumethiazide**. Investigate clinically ± ANA/Ro (SCLE — omeprazole), porphyrins if blistering; phototesting/photopatch rarely. **Treat:** stop the thiazide → amlodipine; topical steroid, emollient, antihistamine; strict photoprotection and education; review diabetes (HbA1c 78) and the PPI indication (see *Drug-induced photosensitivity — thiazide case*).",
+      "**[Case 2](condition:drug-eruption-approach):** **fixed drug eruption from diclofenac** (taken during two consecutive periods), misdiagnosed as a cold sore. Stop/avoid diclofenac (± related NSAIDs), alternative dysmenorrhoea treatment, topical steroid, document and report (see *Fixed drug eruption*)."
+     ]
+    },
+    {
+     "h": "Practice case: 56-year-old man, 60% detachment"
+    },
+    {
+     "ul": [
+      "**QA = TEN** (>30% detachment + severe mucositis + systemic illness). course follow-up \"does TEN involve >10%?\" — >10% is the SCORTEN item and the lower bound for overlap. **TEN is >30%**; SJS <10%; overlap 10–30%.",
+      "**QB = 5–28 days** (typical latency from starting the culprit; the ALDEN \"suggestive\" window). BAD quotes 4–28 days.",
+      "**QC = carbamazepine.** Worked **ALDEN**, with index day = fever onset 5 days ago:"
+     ]
+    },
+    {
+     "table": {
+      "head": [
+       "Drug",
+       "Delay",
+       "Present",
+       "Pre/rechallenge",
+       "Dechallenge",
+       "Notoriety",
+       "Other cause",
+       "Score"
+      ],
+      "rows": [
+       [
+        "**Carbamazepine** (started 20 d ago → 15 d before index)",
+        "**+3**",
+        "0",
+        "0",
+        "0",
+        "**+3**",
+        "0",
+        "**6 — very probable**"
+       ],
+       [
+        "Ibuprofen (4 d ago, after index)",
+        "−3",
+        "0",
+        "0 (or −2 if previously tolerated)",
+        "0",
+        "+1",
+        "−1",
+        "**≤−3 — very unlikely**"
+       ],
+       [
+        "Flucloxacillin (1 d ago, after index)",
+        "−3",
+        "0",
+        "0",
+        "0",
+        "+1",
+        "−1",
+        "**−3 — very unlikely**"
+       ],
+       [
+        "Lamotrigine (stopped 20 d ago; t½ ~1–1.5 d)",
+        "−1",
+        "−3",
+        "0",
+        "0",
+        "+3",
+        "−1",
+        "**−2 — very unlikely** (unless still present during a cross-taper — check the regimen)"
+       ],
+       [
+        "Amlodipine (long-term)",
+        "−1",
+        "0",
+        "−2 (tolerated for years)",
+        "−2 if continued",
+        "−1",
+        "−1",
+        "**≤−5 — very unlikely**"
+       ]
+      ]
+     }
+    },
+    {
+     "ul": [
+      "**SCORTEN from the data given:** age ≥40 (+1) and BSA >10% (+1) = **at least 2 (≥12% predicted mortality)**. HR, urea, glucose and bicarbonate are needed, and the WCC of 16 and ALT of 150 suggest systemic involvement. Recalculate within 24 h and on day 3.",
+      "**Supporting results:** **lymphopenia (0.3)** is typical of SJS/TEN; **normal eosinophils** argue against DRESS; raised ALT occurs in TEN; anaemia (110).",
+      "**Management:** Stop carbamazepine (and the non-essential ibuprofen/flucloxacillin unless infection is proven); Switch to a **non-aromatic anticonvulsant** (e.g. **levetiracetam**, or valproate if appropriate — **not** phenytoin/oxcarbazepine/phenobarbital/lamotrigine, all of which cross-react or carry high risk); Transfer to a burns/ITU centre; ophthalmology within 24 h; supportive care; ± ciclosporin/IVIg; HLA-B*15:02 / A*31:01 if of relevant ancestry (for family counselling); **Yellow Card**; lifelong alert"
+     ]
+    },
+    {
+     "h": "Referral"
+    },
+    {
+     "refer": [
+      {
+       "when": "same-day",
+       "t": "Skin pain, blisters, skin detachment or mucosal erosions: possible **SJS/TEN**, stop the drug and admit the same day."
+      },
+      {
+       "when": "routine",
+       "t": "Fever, facial swelling, lymph nodes and abnormal bloods 2–8 weeks after a new drug: possible **DRESS**."
+      },
+      {
+       "when": "emergency",
+       "t": "Swelling of lips, tongue or throat, or breathing difficulty: **999**."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "red-flags",
+   "title": "Red flags and when to refer",
+   "blocks": [
+    {
+     "ul": [
+      "Skin pain, blisters, skin detachment or mucosal erosions: possible **SJS/TEN**, stop the drug and admit the same day.",
+      "Fever, facial swelling, lymph nodes and abnormal bloods 2–8 weeks after a new drug: possible **DRESS**.",
+      "Swelling of lips, tongue or throat, or breathing difficulty: **999**."
+     ]
+    },
+    {
+     "h4": "Red flags / refer"
+    },
+    "Mucosal involvement (≥2 sites); skin pain or burning; dusky/targetoid lesions or blisters; **Nikolsky sign**; **fever**; **facial oedema**; lymphadenopathy; abnormal LFTs/renal function; eosinophilia; widespread pustules; signs of anaphylaxis (call 999, IM adrenaline 500 micrograms in adults)."
+   ],
+   "short": "Red flags"
+  },
+  {
+   "id": "pearls",
+   "title": "Prescriber pearls (UK pharmacist IP)",
+   "blocks": [
+    {
+     "pearls": [
+      "\"**Any rash on any drug** — take a dated drug history, then think SCAR red flags.\"",
+      "Give the patient the **drug name, the reaction and the date** in writing; advise wearing a medical alert if severe; check OTC products (ibuprofen) and combination products contain none of the culprit.",
+      "Write the reaction, not just \"allergy\", in the record (e.g. \"amoxicillin — maculopapular rash day 7, 2026, no mucosal involvement\")."
+     ]
+    },
+    {
+     "h": "Where course teaching differs from UK guidance"
+    },
+    {
+     "table": {
+      "head": [
+       "Topic",
+       "Course teaching",
+       "UK position (2026)"
+      ],
+      "rows": [
+       [
+        "SJS/TEN thresholds",
+        "course explanation: SJS <10%, TEN >30%. Some student answers said \"TEN >10%\"",
+        "Agrees with BAD 2016 / Bastuji-Garin: SJS <10%, **overlap 10–30%**, TEN >30%. \">10%\" is the SCORTEN item, not the TEN definition"
+       ],
+       [
+        "Latency",
+        "QB answer 5–28 days",
+        "BAD 2016 says **4–28 days**; ALDEN \"suggestive\" 5–28 days — both acceptable"
+       ],
+       [
+        "Causality",
+        "Course teaching: Naranjo + allergy team",
+        "UK: Naranjo is generic; for SJS/TEN use **ALDEN** (BAD 2016). Allergy-service involvement per **NICE CG183**. Add **Yellow Card** reporting (not emphasised in the course)"
+       ],
+       [
+        "SJS/TEN management",
+        "Student answers mentioned topical steroids/antihistamines for a TEN case",
+        "UK: **same-day admission to a burns/ITU or specialist dermatology centre**, supportive care, ophthalmology within 24 h; systemic immunomodulation (ciclosporin/IVIg) is a specialist decision; topical steroids/antihistamines alone are not management"
+       ],
+       [
+        "HLA screening",
+        "Not discussed",
+        "MHRA/BNF/SmPC: **HLA-B*15:02 testing before carbamazepine** in Han Chinese/Thai/SE Asian ancestry; allopurinol low-start/titrate (HLA-B*58:01)"
+       ],
+       [
+        "ACE-i angioedema",
+        "Course case and student answers: stop ACE-i; ARB alternative",
+        "Agrees; UK adds airway-first triage (999), **class reaction — avoid all ACE-i**, ARB **with caution** (low recurrence risk), avoid **sacubitril/valsartan and gliptins**; C4/C1-INH only if atypical"
+       ],
+       [
+        "EN case",
+        "Course teaching: drug-induced EN (COC); DDx cellulitis",
+        "Agrees; UK practice would also **exclude DVT/superficial thrombophlebitis** (unilateral, COC + tranexamic acid) and do a CXR/ASO, and notes the caution about combining TXA with a COC"
+       ],
+       [
+        "Thiazide photosensitivity",
+        "Course teaching: phototoxic commoner; biopsy/photopatch rarely",
+        "Agrees; UK extras: **omeprazole/thiazide SCLE** DDx (check Ro), **HCTZ NMSC MHRA 2018**, choose a non-photosensitising replacement (amlodipine rather than indapamide)"
+       ],
+       [
+        "FDE case",
+        "Diclofenac FDE; stop drug",
+        "Agrees; UK adds documentation of the NSAID class risk, OTC checks, paracetamol/hormonal alternatives for dysmenorrhoea, Yellow Card"
+       ],
+       [
+        "Amiodarone",
+        "Students: stop amiodarone",
+        "UK: **don't stop without cardiology**; photoprotection for months after stopping (BNF); routine TFT/LFT monitoring"
+       ]
+      ]
+     }
+    }
+   ],
+   "short": "Pearls"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Approach to a suspected drug eruption?",
+   "a": "Any new rash in someone who started, changed or restarted a medicine in the last 8 weeks."
+  },
+  {
+   "q": "What drives it?",
+   "a": "Immune reactions (type I to IV) or non-immune effects (phototoxicity, deposition, pharmacology) of a drug or its metabolites."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "Build a drug timeline, name the morphology, check for SCAR red flags, stop the most likely culprit, record the reaction precisely (NICE CG183) and report."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "SJS/TEN, DRESS, AGEP, anaphylaxis and angioedema; vasculitis with organ involvement."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "Skin pain, blisters, skin detachment or mucosal erosions: possible **SJS/TEN**, stop the drug and admit the same day."
+  }
+ ],
+ "references": [],
+ "see_also": []
+}

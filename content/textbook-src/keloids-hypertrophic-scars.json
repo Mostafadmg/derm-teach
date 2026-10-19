@@ -1,0 +1,56 @@
+{
+ "kf": [
+  "**Hypertrophic scars** stay within the wound and often settle; **keloids** extend beyond it, persist and recur.",
+  "Keloids are much commoner in skin of colour and families; sites: earlobes, jawline, chest, shoulders, upper back.",
+  "First line: **silicone gel or sheet** for months; pressure; potent topical steroid under occlusion.",
+  "Specialist: intralesional steroid, cryotherapy, laser, excision with adjuvant therapy.",
+  "Biopsy an atypical or rapidly growing 'keloid' to exclude DFSP."
+ ],
+ "epi": [
+  {
+   "t": "**Who**",
+   "sub": [
+    "Keloids peak at 10–30 years; up to 15–20× more common in people of African descent."
+   ]
+  }
+ ],
+ "myths": [
+  "**\"Cut it out and it's gone\"**: keloids recur in most cases after simple excision."
+ ],
+ "patho_lead": "Raised scars come from **too much collagen** and not enough breakdown.",
+ "mech": [
+  {
+   "k": "Wound",
+   "t": "Injury starts normal healing: inflammation, proliferation, remodelling."
+  },
+  {
+   "k": "Overactive fibroblasts",
+   "t": "TGF-β signalling keeps fibroblasts producing collagen."
+  },
+  {
+   "k": "Hypertrophic vs keloid",
+   "t": "Hypertrophic scars stay in the wound; keloids invade surrounding skin with thick, glassy collagen.",
+   "img": "v3-hypertrophic-vs-keloid.jpg",
+   "cap": "Hypertrophic scar (left) within the wound; keloid (right) extends beyond it."
+  },
+  {
+   "k": "Tension",
+   "t": "Wounds under tension (chest, shoulders) are most prone."
+  }
+ ],
+ "histo": [
+  "Keloid: thick hyalinised (glassy) collagen bundles; hypertrophic scar: nodules of collagen parallel to the surface."
+ ],
+ "comp": [
+  "Itch, pain, restricted movement, disfigurement."
+ ],
+ "prog": [
+  "Hypertrophic scars often improve over 1–2 years; keloids persist."
+ ],
+ "see_also": [
+  "acne-scars",
+  "dermatofibroma",
+  "dermatofibrosarcoma-protuberans",
+  "skin-surgery-consent-complications"
+ ]
+}

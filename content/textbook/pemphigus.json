@@ -1,0 +1,272 @@
+{
+ "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
+ "key_facts": [
+  "Persistent painful mouth ulcers with or without fragile blisters and raw erosions on the scalp, face, chest or back.",
+  "IgG against desmoglein 3 (mucosal) ± desmoglein 1 (skin) causes acantholysis and an intraepidermal split.",
+  "Recognise and refer urgently; specialists start rituximab + prednisolone (BAD 2017); the IP supports steroid safety, infection prevention and monitoring.",
+  "Dehydration and sepsis from extensive erosions; paraneoplastic pemphigus; drug-induced pemphigus (thiol drugs: penicillamine, captopril)."
+ ],
+ "sections": [
+  {
+   "id": "overview",
+   "title": "Overview",
+   "blocks": [
+    "Pemphigus vulgaris is a rare, potentially fatal autoimmune intraepidermal blistering disease of skin and mucosa, caused by IgG against desmogleins. In the UK it typically affects people aged 40–60, and it is commoner in people of Ashkenazi Jewish, Indian subcontinent and Mediterranean descent. Before steroids the mortality was very high. Modern mortality is mostly from treatment (sepsis and steroid complications), around the ~5–10% the course quotes.",
+    {
+     "h4": "Pemphigus vulgaris: primary-care spot diagnosis"
+    },
+    "**Pemphigus vulgaris (PV)** is a rare, potentially life-threatening **autoimmune intraepidermal blistering** disease. Autoantibodies against desmogleins disrupt keratinocyte adhesion → **flaccid blisters** that rupture to painful erosions and crusts. Mucosal disease is common; oral erosions often precede skin. Module 4 Case 5: months of itchy crusted trunk sores + **hoarseness** (laryngeal mucosal involvement) after failed antibiotic courses → discussion diagnosis PV."
+   ]
+  },
+  {
+   "id": "aetiology",
+   "title": "Aetiology: causes and risk factors",
+   "blocks": [
+    {
+     "ul": [
+      "**Desmoglein compensation theory:** Dsg3 dominates in mucosa and the lower epidermis, and Dsg1 in the upper epidermis: Anti-Dsg3 alone gives **mucosal-dominant PV**; Anti-Dsg3 + anti-Dsg1 gives **mucocutaneous PV**; Anti-Dsg1 alone gives **pemphigus foliaceus** (superficial skin erosions and no mucosal disease, because Dsg3 compensates in mucosa)",
+      "Case 1 has **severe oral disease and widespread skin erosions**, so it is mucocutaneous, with **both** Dsg3 and Dsg1. \"Dsg3\" alone is half the story.",
+      "**Drug-induced pemphigus** is mainly due to **thiol drugs** (penicillamine, captopril) and less often non-thiol drugs (ACE inhibitors such as ramipril/enalapril, rifampicin, NSAIDs). Thiol-induced disease is usually foliaceus-like and often remits when the drug is stopped. In Case 1, ramipril is worth noting and discussing with the specialist, but it is a **weak** association.",
+      "**Paraneoplastic pemphigus** is linked to lymphoproliferative disease (NHL, CLL, Castleman), with intractable stomatitis, polymorphous skin lesions and bronchiolitis obliterans. It needs a malignancy workup."
+     ]
+    },
+    {
+     "h": "Pemphigus vulgaris: primary-care spot diagnosis"
+    },
+    {
+     "ul": [
+      "IgG autoantibodies to **desmoglein 3** (± desmoglein 1) → acantholysis.",
+      "Flaccid blisters; **Nikolsky sign** may be positive (shear → extension of blister/erosion).",
+      "Without treatment historically high mortality (infection, fluid/protein loss); modern immunosuppression transformed prognosis.",
+      "Triggers/associations: idiopathic; drugs rarely (e.g. penicillamine, some ACEIs — uncommon); paraneoplastic pemphigus is a separate severe entity."
+     ]
+    }
+   ],
+   "short": "Aetiology"
+  },
+  {
+   "id": "clinical-features",
+   "title": "Clinical features",
+   "blocks": [
+    {
+     "ul": [
+      "**Oral erosions first in ~50–70%:** painful, persistent buccal/palatal/gingival erosions, often present for months before the skin is involved and treated as \"aphthous\" or \"candida\".",
+      "**Flaccid blisters** rupture quickly, so the patient usually presents with **erosions and crusts** (Case 1: \"no blisters seen\"). Sites are scalp, face, chest, back, axillae and groin. The erosions are painful, not itchy.",
+      "Positive Nikolsky and Asboe-Hansen signs.",
+      "Severe disease brings fluid and protein loss, poor oral intake, **hypovolaemia** and sepsis (Case 1: clinically dry, BP 125/60 on two antihypertensives).",
+      "**Variants:** **vegetans** (flexural vegetating plaques); **foliaceus** (scaly crusted \"cornflake\" erosions on the seborrhoeic trunk, face and scalp; photos A07/A08); **erythematosus/Senear-Usher** (malar, LE-like); **IgA pemphigus**; **paraneoplastic**"
+     ]
+    },
+    {
+     "h": "Pemphigus vulgaris: primary-care spot diagnosis"
+    },
+    {
+     "table": {
+      "head": [
+       "Feature",
+       "Detail"
+      ],
+      "rows": [
+       [
+        "Skin",
+        "Flaccid blisters → erosions/crusts on trunk, flexures, scalp, face; may look “infected”"
+       ],
+       [
+        "Mucosa",
+        "Oral almost always; larynx → **hoarseness**; genitals, conjunctiva possible"
+       ],
+       [
+        "Pain",
+        "Often painful more than itchy (Case described itch — still consider PV in crusted widespread disease)"
+       ],
+       [
+        "Systemic",
+        "Weight loss, poor oral intake, secondary infection"
+       ]
+      ]
+     }
+    },
+    {
+     "fig": {
+      "dermnet": "m4w6:A01"
+     }
+    }
+   ]
+  },
+  {
+   "id": "diagnosis",
+   "title": "Diagnosis and investigations",
+   "blocks": [
+    "Case 1 answers, with the UK detail added:",
+    {
+     "ul": [
+      "**Histology:** suprabasal acantholysis. The basal cells stay attached to the BMZ like a **row of tombstones**.",
+      "**DIF** of perilesional skin: **intercellular IgG ± C3** in a \"chicken-wire\" pattern. DIF is the most sensitive test.",
+      "**Serology:** indirect IMF on monkey oesophagus, and **ELISA anti-Dsg3/Dsg1**, which are used for monitoring.",
+      "**Tzanck smear** (acantholytic cells) is historical and not used in UK practice.",
+      "Baseline before therapy: especially **TPMT** before azathioprine, hepatitis B before rituximab, and bone protection."
+     ]
+    },
+    {
+     "h": "Pemphigus vulgaris: primary-care spot diagnosis"
+    },
+    {
+     "ul": [
+      "**Urgent dermatology.**",
+      "Gold standard: lesional biopsy for histopathology **plus** perilesional **direct immunofluorescence (DIF)**; serum ELISA for desmoglein antibodies.",
+      "Do not rely on antibiotics for crusted erosions without considering immunobullous disease.",
+      "ENT input if hoarseness / airway concern."
+     ]
+    }
+   ],
+   "short": "Diagnosis"
+  },
+  {
+   "id": "differentials",
+   "title": "Differential diagnoses",
+   "blocks": [
+    {
+     "ddx": [
+      {
+       "name": "Bullous pemphigoid",
+       "f": "Tense blisters, older adults, less oral; different DIF",
+       "link": "bullous-pemphigoid"
+      },
+      {
+       "name": "Severe eczema / psoriasis / impetigo",
+       "f": "Lack true flaccid acantholytic pattern; cultures; biopsy if unsure"
+      },
+      {
+       "name": "Mucous membrane pemphigoid",
+       "f": "Mucosa scarring focus; different immuno",
+       "link": "bullous-pemphigoid"
+      },
+      {
+       "name": "SJS/TEN / erythema multiforme major",
+       "f": "Acute drug/infection course; different tempo"
+      },
+      {
+       "name": "Hailey–Hailey / other acantholytic",
+       "f": "Flexural chronic family Hx"
+      }
+     ]
+    },
+    {
+     "ul": [
+      "**Oral:** aphthae; erosive LP; MMP; EM/SJS; HSV; candidiasis; Behçet's (**Module 5 exam Q22**); SCC (single non-healing ulcer)",
+      "**Skin:** BP; PF; SJS/TEN; impetigo/SSSS; Hailey-Hailey (flexural, family history, DIF-negative); Darier and Grover (DIF-negative acantholysis)"
+     ]
+    }
+   ],
+   "short": "Differentials"
+  },
+  {
+   "id": "management",
+   "title": "Management",
+   "blocks": [
+    {
+     "ol": [
+      "**Recognise and refer.**: Erosions + mucosal disease + unwell, dehydrated or extensive skin → **same-day admission** (acute medicine, with on-call dermatology). Case 1's hypovolaemia puts him here; Mucosal-only, stable disease → **urgent dermatology** (days, not weeks) with oral medicine input",
+      "**Specialist treatment (BAD 2017, paraphrased; for awareness, not IP initiation):** **First line for new moderate–severe PV:** **rituximab** (2 × 1 g IV, 2 weeks apart) **plus oral prednisolone** (typically 0.5–1 mg/kg/day, tapered quicker than steroid-alone regimens). This follows the Ritux 3 trial, and **NHS England commissions rituximab for PV**; Steroid-sparing adjuvants: **azathioprine** (after TPMT) or **mycophenolate mofetil**. Use them when rituximab isn't possible or for maintenance; Refractory disease: **IVIG**, immunoadsorption, cyclophosphamide; Mild disease: superpotent topical or intralesional steroids; for oral disease, steroid mouthwash/spray (betamethasone soluble tablets as a mouthwash, or beclometasone inhaler sprayed onto the mucosa)",
+      "**IP supporting roles:** **Steroid safety:** a **steroid emergency card**, **bone protection** (e.g. alendronic acid + calcium/vitamin D when long-term prednisolone ≥7.5 mg for ≥3 months is expected, per NOGG/BNF), a PPI if GI risk factors, glucose and BP monitoring (Case 1 BP: **consider pausing or reducing antihypertensives while volume-depleted**), and PJP prophylaxis per the specialist (co-trimoxazole with high-dose steroid + immunosuppressant); **Vaccines:** inactivated influenza/COVID/pneumococcal **before rituximab** where possible; **no live vaccines** while on immunosuppression; **Shared-care monitoring** for azathioprine/MMF (FBC/LFT per the local protocol); **Oral care:** soft diet, avoid spicy or acidic food, chlorhexidine or benzydamine mouthwash, treat candida (miconazole oral gel; **check interactions, especially warfarin**, or use nystatin), and refer to the dentist"
+     ]
+    },
+    {
+     "h": "Pemphigus vulgaris: primary-care spot diagnosis"
+    },
+    {
+     "ul": [
+      "**Recognition + urgent referral** — not primary-care disease-modifying prescribing.",
+      "Supportive: emollients, wound care, analgesia, nutrition, treat secondary infection if present.",
+      "Specialty care: systemic corticosteroids historically foundational; **rituximab** (anti-CD20) now major disease-modifying option in specialist protocols; steroid-sparing agents as directed by derm.",
+      "Vaccination/infection risk counselling once on immunosuppression (specialist-led).",
+      "Same-day acute if extensive denudation, inability to drink, or airway symptoms."
+     ]
+    },
+    {
+     "h": "Referral"
+    },
+    {
+     "refer": [
+      {
+       "when": "same-day",
+       "t": "Extensive erosions, unwell, dehydrated or unable to eat: **same-day admission**."
+      },
+      {
+       "when": "routine",
+       "t": "Oral erosions persisting more than 2–3 weeks without a cause: refer (oral medicine or dermatology)."
+      },
+      {
+       "when": "routine",
+       "t": "Severe stomatitis with a known tumour: paraneoplastic pemphigus."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "red-flags",
+   "title": "Red flags and when to refer",
+   "blocks": [
+    {
+     "ul": [
+      "Extensive erosions, unwell, dehydrated or unable to eat: **same-day admission**.",
+      "Oral erosions persisting more than 2–3 weeks without a cause: refer (oral medicine or dermatology).",
+      "Severe stomatitis with a known tumour: paraneoplastic pemphigus."
+     ]
+    }
+   ],
+   "short": "Red flags"
+  },
+  {
+   "id": "pearls",
+   "title": "Prescriber pearls (UK pharmacist IP)",
+   "blocks": [
+    {
+     "pearls": [
+      "**Months of \"mouth ulcers\" plus new skin erosions means PV until proven otherwise.** Don't keep repeating antifungals or mouthwashes.",
+      "Drug-induced pemphigus: list every thiol or ACE inhibitor. Swapping ramipril for a non-ACE alternative (e.g. amlodipine alone, or an ARB) is reasonable to *discuss* with the specialist, but don't expect it to cure idiopathic PV.",
+      "**Rituximab patients:** infection risk lasts 6–12 months, with hepatitis B reactivation and poor vaccine response. Coordinate any surgery or dental work.",
+      "Patient support: **PEMFriends** (UK pemphigus and pemphigoid patient charity).",
+      "Crusted “sores” failing antibiotics + mucosal clues (oral/hoarse) = red-flag immunobullous.",
+      "Avoid attributing everything to infection or poorly controlled eczema without exam of mouth.",
+      "IP: escalate early; do not trial prolonged systemic steroids alone outside shared-care."
+     ]
+    },
+    {
+     "h": "Pemphigus vulgaris: primary-care spot diagnosis"
+    }
+   ],
+   "short": "Pearls"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Pemphigus vulgaris & the pemphigus family?",
+   "a": "Persistent painful mouth ulcers with or without fragile blisters and raw erosions on the scalp, face, chest or back."
+  },
+  {
+   "q": "What drives it?",
+   "a": "IgG against desmoglein 3 (mucosal) ± desmoglein 1 (skin) causes acantholysis and an intraepidermal split."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "Recognise and refer urgently; specialists start rituximab + prednisolone (BAD 2017); the IP supports steroid safety, infection prevention and monitoring."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "Dehydration and sepsis from extensive erosions; paraneoplastic pemphigus; drug-induced pemphigus (thiol drugs: penicillamine, captopril)."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "Extensive erosions, unwell, dehydrated or unable to eat: **same-day admission**."
+  }
+ ],
+ "references": [
+  {
+   "label": "Medscape: Pemphigus vulgaris & the pemphigus family",
+   "url": "https://emedicine.medscape.com/article/1064187-overview"
+  }
+ ],
+ "see_also": []
+}

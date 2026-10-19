@@ -1,0 +1,68 @@
+{
+ "_note": "curated (split page, Oct 2026)",
+ "features": {
+  "visuals": [
+   {
+    "ai": "v3-hypertrophic-vs-keloid.jpg",
+    "caption": "Hypertrophic scar (left) stays inside the wound outline; a keloid (right) spreads beyond it.",
+    "alt": "Hypertrophic scar vs keloid"
+   }
+  ]
+ },
+ "manage": {
+  "lead": "Silicone and steroid first; procedures are specialist.",
+  "rungs": [
+   {
+    "k": "Early raised scar",
+    "tone": "base",
+    "points": [
+     "**Silicone gel or sheet** for months; pressure for earlobes."
+    ]
+   },
+   {
+    "k": "Persistent",
+    "tone": "first",
+    "points": [
+     "Potent topical steroid under occlusion."
+    ]
+   },
+   {
+    "k": "Specialist",
+    "tone": "refer",
+    "points": [
+     "Intralesional steroid, cryotherapy, pulsed dye laser, excision with adjuvant (high recurrence)."
+    ]
+   }
+  ]
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "urgent",
+    "t": "Rapidly growing or atypical ‘keloid’: exclude a tumour."
+   },
+   {
+    "when": "routine",
+    "t": "Symptomatic or disfiguring keloids."
+   }
+  ]
+ },
+ "quiz": [
+  {
+   "q": "Key difference between keloid and hypertrophic scar?",
+   "a": "Keloids extend beyond the original wound; hypertrophic scars do not."
+  },
+  {
+   "q": "Which skin types are most keloid-prone?",
+   "a": "Skin of colour (Fitzpatrick IV–VI), with family history."
+  },
+  {
+   "q": "First-line OTC treatment?",
+   "a": "Silicone gel or sheet for months."
+  },
+  {
+   "q": "Why avoid excision alone?",
+   "a": "Keloids recur in most cases without adjuvant therapy."
+  }
+ ]
+}

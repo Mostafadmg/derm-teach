@@ -1,0 +1,106 @@
+{
+ "slug": "perioral-dermatitis",
+ "title": "Perioral (periorificial) dermatitis",
+ "category": "acne-follicles",
+ "status": "published",
+ "order": 3,
+ "module": "Module 6 · Week 2",
+ "aka": [
+  "perioral dermatitis",
+  "periorificial dermatitis",
+  "periocular dermatitis",
+  "steroid-induced perioral dermatitis"
+ ],
+ "summary": "Small red papules and pustules around the mouth, nose or eyes with a clear rim next to the lips, often provoked by topical or inhaled steroids and heavy creams. Stop the steroid, expect a rebound, and treat with topical metronidazole or azelaic acid, or an oral tetracycline.",
+ "card_image": "m6w2:K09",
+ "sections": {
+  "what": [
+   "**Perioral dermatitis** (periorificial dermatitis) is a common facial eruption of small papules and pustules around the mouth, nose and sometimes eyes, with a characteristic **clear zone next to the lip vermilion**. It mainly affects women aged 20–45 and children."
+  ],
+  "cause": [
+   {
+    "list": [
+     "**Topical corticosteroids** on the face are the commonest trigger; also inhaled or nasal steroids, and heavy moisturisers or foundations.",
+     "Fluorinated toothpaste and barrier disruption may contribute."
+    ]
+   }
+  ],
+  "features": [
+   {
+    "list": [
+     "Monomorphic 1–2 mm red papules, papulovesicles and pustules on a red, sometimes scaly background.",
+     "Around the mouth, nasolabial folds, chin; may involve the sides of the nose and eyelids (**periocular**).",
+     "**Vermilion sparing**: a narrow clear rim around the lips.",
+     "Burning or tightness more than itch; no comedones."
+    ]
+   }
+  ],
+  "diagnosis": [
+   "Clinical. Ask specifically about steroid creams, inhalers, nasal sprays and cosmetics."
+  ],
+  "differentials": [
+   {
+    "table": {
+     "head": [
+      "Look-alike",
+      "Clues"
+     ],
+     "rows": [
+      [
+       "[Rosacea](condition:rosacea)",
+       "Older; flushing; central face; no clear perioral rim"
+      ],
+      [
+       "[Acne vulgaris](condition:acne-vulgaris)",
+       "Comedones; polymorphic lesions"
+      ],
+      [
+       "Seborrhoeic dermatitis",
+       "Greasy scale in nasolabial folds and brows"
+      ],
+      [
+       "[Contact dermatitis](condition:contact-dermatitis)",
+       "Itch, eczematous, linked to a product"
+      ]
+     ]
+    }
+   }
+  ],
+  "management": [
+   {
+    "list": [
+     "**Stop the facial steroid** (taper systemic or high-potency use with the prescriber; never stop inhaled asthma steroids: rinse and wipe the face after use).",
+     "Warn of a **rebound flare** for 1–2 weeks after stopping.",
+     "‘Zero therapy’: stop all creams and cosmetics; use a gentle cleanser only.",
+     "Topical **metronidazole** or **azelaic acid**.",
+     "Oral tetracycline for 6–8 weeks if needed (erythromycin if under 12)."
+    ]
+   }
+  ],
+  "red_flags": [
+   "Granulomatous or periocular disease not responding, or diagnostic doubt: dermatology."
+  ],
+  "pearls": [
+   "Pharmacists often spot inhaled-steroid perioral dermatitis: advise rinsing and wiping the face after inhalers.",
+   "Hydrocortisone makes it look better briefly, then worse."
+  ]
+ },
+ "photos": [
+  {
+   "title": "Steroid-induced perioral dermatitis",
+   "items": [
+    "m6w2:K09"
+   ]
+  }
+ ],
+ "references": [
+  {
+   "label": "DermNet: Periorificial dermatitis",
+   "url": "https://dermnetnz.org/topics/periorificial-dermatitis"
+  },
+  {
+   "label": "NICE CKS: Perioral dermatitis",
+   "url": "https://cks.nice.org.uk/topics/perioral-dermatitis/"
+  }
+ ]
+}

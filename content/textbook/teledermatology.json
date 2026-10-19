@@ -1,0 +1,230 @@
+{
+ "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
+ "key_facts": [
+  "Referring a skin lesion through a **teledermatology or advice-and-guidance** service.",
+  "Images + history are **triaged by a dermatologist**, who can discharge, advise, book surgery directly or fast-track.",
+  "**Three views** (regional, close-up with ruler, polarised in-focus dermoscopy) + full history including change and risk factors + consent.",
+  "**Poor images**, missing dermoscopy, scalp / genital / nail lesions, and **delay** in a suspected melanoma pathway."
+ ],
+ "sections": [
+  {
+   "id": "overview",
+   "title": "Overview",
+   "blocks": [
+    "Remote assessment of skin lesions from. In the UK it is mostly **store-and-forward** (asynchronous) **advice-and-guidance** or **2WW triage**, using dermoscopic + close-up + regional photographs."
+   ]
+  },
+  {
+   "id": "aetiology",
+   "title": "Aetiology: causes and risk factors",
+   "blocks": [
+    {
+     "fig": {
+      "ai": "v3-tele-three-views.jpg",
+      "caption": "Three standard views: regional (where on the body), close-up with a ruler (size and surface), and a polarised, in-focus dermoscopic image of the whole lesion.",
+      "alt": "Three frames: forearm location, close-up with ruler, dermoscopy"
+     }
+    }
+   ],
+   "short": "Aetiology"
+  },
+  {
+   "id": "clinical-features",
+   "title": "Clinical features",
+   "blocks": [
+    {
+     "h": "How it works"
+    },
+    "NHS England's **A teledermatology roadmap** (2023) describes models:",
+    {
+     "ul": [
+      "primary-care advice and guidance",
+      "referral triage (images attached to all 2WW skin referrals)",
+      "community \"image capture hubs\" with trained medical photographers",
+      "AI-assisted triage (HTG746; see *Recognition, diagnostic accuracy, dermoscopy and AI*)."
+     ]
+    },
+    {
+     "h": "Image standards (BAD/PCDS/Primary Care Dermatology quality standards)"
+    },
+    {
+     "ul": [
+      "**Three views:** a regional/whole-site image (anatomical location), a close-up with a **ruler/scale**, and a **dermoscopic image** (polarised, in focus, the whole lesion in view).",
+      "Good lighting, no flash glare, a plain background, a labelled patient ID, consent, and secure NHS-approved systems (**no personal phones/WhatsApp** without an approved app and policy). Include history (duration, change, symptoms, 7-point score, risk factors, Fitzpatrick type)."
+     ]
+    },
+    {
+     "h": "How it performs"
+    },
+    "For lesion triage, accuracy is comparable to face-to-face assessment for many lesions when dermoscopic images are of good quality. It reduces unnecessary face-to-face appointments and speeds up the management of cancers. Image quality is the main failure mode. Darker skin types are under-represented in training.",
+    {
+     "h": "Limitations / pitfalls"
+    },
+    "Nodular/amelanotic melanoma can be under-called on. Teledermatology must not delay a 2WW-meeting referral; where a pathway uses, they **accompany** the urgent referral rather than replace it."
+   ]
+  },
+  {
+   "id": "diagnosis",
+   "title": "Diagnosis and investigations",
+   "blocks": [
+    {
+     "h4": "History"
+    },
+    {
+     "ul": [
+      "Duration, **change**, symptoms, risk factors (sunburn, sunbeds, family history, immunosuppression), 7-point score."
+     ]
+    },
+    {
+     "h4": "Quality"
+    },
+    {
+     "ul": [
+      "Check focus and framing before sending."
+     ]
+    },
+    {
+     "h4": "Tricky sites"
+    },
+    {
+     "ul": [
+      "Scalp, genitals, nails: may need face-to-face."
+     ]
+    }
+   ],
+   "short": "Diagnosis"
+  },
+  {
+   "id": "differentials",
+   "title": "Differential diagnoses",
+   "blocks": [
+    {
+     "ddx": [
+      {
+       "name": "Melanoma pathway",
+       "f": "Score ≥ 3: 2WW with images.",
+       "link": "melanoma"
+      },
+      {
+       "name": "Changing naevus",
+       "f": "Dermoscopy essential.",
+       "link": "melanocytic-naevi"
+      },
+      {
+       "name": "SCC",
+       "f": "Palpate nodes; images can’t.",
+       "link": "squamous-cell-carcinoma"
+      },
+      {
+       "name": "BCC",
+       "f": "Routine pathway usually.",
+       "link": "basal-cell-carcinoma"
+      }
+     ]
+    }
+   ],
+   "short": "Differentials"
+  },
+  {
+   "id": "management",
+   "title": "Management",
+   "blocks": [
+    {
+     "ul": [
+      "Learn the local teledermatology pathway and image capture standards. An IP in a PCN may capture images if trained.",
+      "**[Case 3](condition:melanoma):** a lesion changing over 2 years (change = 2, plus any other feature) → 2WW referral with. The specialist arranges excision biopsy within the pathway."
+     ]
+    },
+    {
+     "h": "Treatment ladder"
+    },
+    {
+     "ladder": [
+      {
+       "k": "Learn",
+       "t": "Local teledermatology pathway and image capture standards. IPs in a PCN may capture images if trained.",
+       "tone": "base"
+      },
+      {
+       "k": "Refer",
+       "t": "Changing lesion (change = 2 + any other) → 2WW **with images**; specialist arranges excision biopsy.",
+       "tone": "first"
+      },
+      {
+       "k": "Consent",
+       "t": "Explain photos may be reviewed first and they may be booked straight for surgery; consent for storage.",
+       "tone": "second"
+      }
+     ]
+    },
+    {
+     "callout": "warn",
+     "title": "Prescribing limits and pitfalls",
+     "list": [
+      "**Poor images**: Refer face to face rather than delay."
+     ]
+    },
+    {
+     "h": "Referral"
+    },
+    {
+     "refer": [
+      {
+       "when": "urgent",
+       "t": "Teledermatology must **not delay** a suspected cancer pathway: poor images → refer face to face."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "red-flags",
+   "title": "Red flags and when to refer",
+   "blocks": [
+    {
+     "ul": [
+      "Teledermatology must not delay a **suspected cancer pathway** referral: if images are poor, refer face to face."
+     ]
+    }
+   ],
+   "short": "Red flags"
+  },
+  {
+   "id": "pearls",
+   "title": "Prescriber pearls (UK pharmacist IP)",
+   "blocks": [
+    {
+     "pearls": [
+      "Tell the patient that photos may be reviewed by a specialist first and they may be booked straight for surgery. Get consent for image storage."
+     ]
+    }
+   ],
+   "short": "Pearls"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Three standard views?",
+   "a": "Regional, close-up with ruler, dermoscopic."
+  },
+  {
+   "q": "Dermoscopic image requirements?",
+   "a": "Polarised, in focus, whole lesion in view."
+  },
+  {
+   "q": "Images poor on a suspected melanoma?",
+   "a": "Refer face to face; don’t delay."
+  },
+  {
+   "q": "What must the patient consent to?",
+   "a": "Image capture and storage, and specialist review."
+  }
+ ],
+ "references": [
+  {
+   "label": "DermNet: Teledermatology & lesion photography",
+   "url": "https://dermnetnz.org/topics/teledermatology"
+  }
+ ],
+ "see_also": []
+}

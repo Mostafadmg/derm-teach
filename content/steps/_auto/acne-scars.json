@@ -1,0 +1,109 @@
+{
+ "_auto": true,
+ "glance": {
+  "chips": [
+   "Module 6 · Week 6",
+   "acne scarring",
+   "ice-pick scars",
+   "boxcar scars"
+  ],
+  "points": []
+ },
+ "cause": {
+  "points": [
+   "Inflammatory nodules and cysts cause net **collagen destruction**, giving **atrophic** scars.",
+   "Risk rises with acne severity and duration, delay in treatment, picking (acne excoriée) and smoking.",
+   "**Post-inflammatory erythema and hyper- or hypopigmentation** are colour change, not true scarring, but patients often call both ‘scars’."
+  ],
+  "visuals": []
+ },
+ "features": {
+  "photo": "m6w6:I01",
+  "points": [],
+  "visuals": [],
+  "variants": {
+   "title": "Types to recognise",
+   "items": [
+    {
+     "name": "Ice-pick",
+     "t": "Narrow, deep, V-shaped; deeper than wide (about 60–70% of atrophic scars)",
+     "where": "Cheeks"
+    },
+    {
+     "name": "Boxcar",
+     "t": "Round or oval depressions with sharp vertical edges",
+     "where": "Cheeks, temples"
+    },
+    {
+     "name": "Rolling",
+     "t": "Wider, sloping edges, tethered by dermal bands",
+     "where": "Cheeks"
+    },
+    {
+     "name": "Perifollicular elastolysis",
+     "t": "Small, pale, follicular atrophic scars",
+     "where": "Back, chest"
+    },
+    {
+     "name": "PIH / PIE (not scar)",
+     "t": "Flat brown or red marks; no change in skin contour",
+     "where": "Anywhere acne occurred"
+    }
+   ]
+  },
+  "groups": [
+   0,
+   1
+  ]
+ },
+ "confirm": {
+  "cols": []
+ },
+ "differentials": {
+  "cards": [
+   {
+    "name": "PIH or erythema alone",
+    "clue": "Flat colour change, with no depression"
+   },
+   {
+    "name": "Chickenpox scars",
+    "clue": "History of varicella; scattered"
+   },
+   {
+    "name": "Traumatic or surgical scar",
+    "clue": "History of injury"
+   }
+  ]
+ },
+ "manage": {
+  "rungs": []
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "routine",
+    "t": "Scarring or significant distress at any acne severity: refer (NG198)."
+   },
+   {
+    "when": "routine",
+    "t": "Low mood, anxiety or body dysmorphic concerns: signpost or refer for mental health support."
+   }
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "**Separate scar from pigment.** The treatments are different."
+  },
+  {
+   "icon": "bulb",
+   "t": "Check isotretinoin status before procedures: see [Cosmetic procedures](condition:cosmetic-procedures)."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "Scarring or significant distress at any acne severity: refer (NG198)."
+  }
+ ]
+}

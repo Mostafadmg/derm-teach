@@ -1,0 +1,45 @@
+{
+ "kf": [
+  "A **blue naevus** is a benign collection of **dermal melanocytes**: a steel-blue, firm, dome-shaped papule.",
+  "Blue because deep pigment scatters back blue light (**Tyndall effect**).",
+  "Head and neck, backs of hands and feet, buttocks; usually under 1 cm.",
+  "Reassure if long-standing and stable; dermoscopy shows homogeneous blue pigment.",
+  "Refer new, enlarging or large (>1 cm) lesions in adults: nodular or metastatic melanoma can look blue."
+ ],
+ "myths": [
+  "**\"Blue moles are bruises or tattoos\"**: a persisting blue papule without trauma is often a blue naevus, but must be stable."
+ ],
+ "patho_lead": "Melanocytes that **stopped in the dermis** during development produce pigment deep in the skin.",
+ "mech": [
+  {
+   "k": "Arrested migration",
+   "t": "Melanocytes travelling from the neural crest to the epidermis stop in the dermis."
+  },
+  {
+   "k": "GNAQ/GNA11 mutation",
+   "t": "A mutation drives a small clonal proliferation."
+  },
+  {
+   "k": "Tyndall effect",
+   "t": "Deep pigment scatters blue light back to the eye.",
+   "img": "v3-tyndall-blue.jpg",
+   "cap": "Deep dermal pigment looks blue (Tyndall effect); superficial pigment looks brown."
+  }
+ ],
+ "histo": [
+  "Dendritic, heavily pigmented melanocytes and melanophages in the dermis; cellular blue naevus has nodules of spindle cells."
+ ],
+ "comp": [
+  "Rarely, malignant blue naevus (melanoma arising in a blue naevus)."
+ ],
+ "prog": [
+  "Stable for life in almost all."
+ ],
+ "see_also": [
+  "melanocytic-naevi",
+  "halo-naevus",
+  "spitz-naevus",
+  "melanoma",
+  "pigmented-birthmarks"
+ ]
+}

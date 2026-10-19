@@ -1,0 +1,289 @@
+{
+ "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
+ "key_facts": [
+  "**Perioral dermatitis** is a facial eruption of tiny papules and pustules around the mouth, nose or eyes with **sparing next to the lips**.",
+  "Commonest in women aged 20–45 and children; often provoked by **topical, inhaled or nasal steroids** and heavy creams.",
+  "No comedones (unlike acne); no flushing (unlike rosacea).",
+  "Stop steroids and cosmetics, expect a rebound; topical metronidazole or azelaic acid; oral tetracycline for 6–8 weeks if needed.",
+  "Children under 12: erythromycin rather than tetracycline."
+ ],
+ "sections": [
+  {
+   "id": "overview",
+   "title": "Overview",
+   "blocks": [
+    "**Perioral dermatitis** (periorificial dermatitis) is a common facial eruption of small papules and pustules around the mouth, nose and sometimes eyes, with a characteristic **clear zone next to the lip vermilion**. It mainly affects women aged 20–45 and children."
+   ]
+  },
+  {
+   "id": "epidemiology",
+   "title": "Epidemiology",
+   "blocks": [
+    {
+     "ul": [
+      {
+       "t": "**Who**",
+       "sub": [
+        "Women 20–45 most; prepubertal children (often periocular, steroid-related)."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "aetiology",
+   "title": "Aetiology: causes and risk factors",
+   "blocks": [
+    {
+     "ul": [
+      "**Topical corticosteroids** on the face are the commonest trigger; also inhaled or nasal steroids, and heavy moisturisers or foundations.",
+      "Fluorinated toothpaste and barrier disruption may contribute."
+     ]
+    },
+    {
+     "h": "Risk factors and associations"
+    },
+    {
+     "ul": [
+      "Steroids disrupt the barrier and the follicle; occlusive cosmetics; possibly fluorinated toothpaste and microbiome changes."
+     ]
+    },
+    {
+     "h": "Myths to address"
+    },
+    {
+     "ul": [
+      "**\"Hydrocortisone will settle it\"**: it masks it briefly and then makes it worse."
+     ]
+    }
+   ],
+   "short": "Aetiology"
+  },
+  {
+   "id": "pathophysiology",
+   "title": "Pathophysiology and pathology",
+   "blocks": [
+    "Steroids and occlusion damage the **barrier around facial follicles**, triggering inflammation.",
+    {
+     "mech": [
+      {
+       "k": "Barrier disruption",
+       "t": "Steroids and heavy creams thin the barrier and alter the follicular microbiome."
+      },
+      {
+       "k": "Follicular inflammation",
+       "t": "Innate immune activation causes small papules and pustules around follicles."
+      },
+      {
+       "k": "Steroid dependence",
+       "t": "Steroids suppress the rash; stopping causes rebound, so patients reapply.",
+       "img": "v3-perioral-face.jpg",
+       "caption": "Perioral dermatitis: papules around the mouth and nose, with a clear rim next to the lips."
+      },
+      {
+       "k": "Resolution",
+       "t": "Stopping the trigger and anti-inflammatory treatment restores the barrier over weeks."
+      }
+     ]
+    },
+    {
+     "histo": [
+      "Rarely needed: perifollicular lymphohistiocytic infiltrate; granulomatous in the granulomatous variant."
+     ]
+    }
+   ],
+   "short": "Pathophysiology"
+  },
+  {
+   "id": "clinical-features",
+   "title": "Clinical features",
+   "blocks": [
+    {
+     "ul": [
+      "Monomorphic 1–2 mm red papules, papulovesicles and pustules on a red, sometimes scaly background.",
+      "Around the mouth, nasolabial folds, chin; may involve the sides of the nose and eyelids (**periocular**).",
+      "**Vermilion sparing**: a narrow clear rim around the lips.",
+      "Burning or tightness more than itch; no comedones."
+     ]
+    },
+    {
+     "h": "Special groups"
+    },
+    {
+     "ul": [
+      {
+       "t": "**Granulomatous periorificial dermatitis**",
+       "sub": [
+        "Yellow-brown papules in children of African descent; slower to clear; refer if persistent."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "diagnosis",
+   "title": "Diagnosis and investigations",
+   "blocks": [
+    "Clinical. Ask specifically about steroid creams, inhalers, nasal sprays and cosmetics."
+   ],
+   "short": "Diagnosis"
+  },
+  {
+   "id": "differentials",
+   "title": "Differential diagnoses",
+   "blocks": [
+    {
+     "table": {
+      "head": [
+       "Look-alike",
+       "Clues"
+      ],
+      "rows": [
+       [
+        "[Rosacea](condition:rosacea)",
+        "Older; flushing; central face; no clear perioral rim"
+       ],
+       [
+        "[Acne vulgaris](condition:acne-vulgaris)",
+        "Comedones; polymorphic lesions"
+       ],
+       [
+        "Seborrhoeic dermatitis",
+        "Greasy scale in nasolabial folds and brows"
+       ],
+       [
+        "[Contact dermatitis](condition:contact-dermatitis)",
+        "Itch, eczematous, linked to a product"
+       ]
+      ]
+     }
+    }
+   ],
+   "short": "Differentials"
+  },
+  {
+   "id": "management",
+   "title": "Management",
+   "blocks": [
+    {
+     "ul": [
+      "**Stop the facial steroid** (taper systemic or high-potency use with the prescriber; never stop inhaled asthma steroids: rinse and wipe the face after use).",
+      "Warn of a **rebound flare** for 1–2 weeks after stopping.",
+      "‘Zero therapy’: stop all creams and cosmetics; use a gentle cleanser only.",
+      "Topical **metronidazole** or **azelaic acid**.",
+      "Oral tetracycline for 6–8 weeks if needed (erythromycin if under 12)."
+     ]
+    },
+    {
+     "h": "Treatment ladder"
+    },
+    {
+     "ladder": [
+      {
+       "k": "Stop triggers",
+       "t": "Stop facial steroids and heavy creams; gentle cleanser only.",
+       "tone": "base"
+      },
+      {
+       "k": "Topical",
+       "t": "Topical metronidazole or azelaic acid.",
+       "tone": "first"
+      },
+      {
+       "k": "Oral",
+       "t": "Oral tetracycline 6–8 weeks if needed (erythromycin if under 12).",
+       "tone": "second"
+      }
+     ]
+    },
+    {
+     "h": "Referral"
+    },
+    {
+     "refer": [
+      {
+       "when": "routine",
+       "t": "Not responding after 8–12 weeks, granulomatous or periocular disease, diagnostic doubt."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "red-flags",
+   "title": "Red flags and when to refer",
+   "blocks": [
+    {
+     "ul": [
+      "Granulomatous or periocular disease not responding, or diagnostic doubt: dermatology."
+     ]
+    }
+   ],
+   "short": "Red flags"
+  },
+  {
+   "id": "complications",
+   "title": "Complications and prognosis",
+   "blocks": [
+    {
+     "h": "Complications"
+    },
+    {
+     "ul": [
+      "Steroid dependence, rebound flares, distress."
+     ]
+    },
+    {
+     "h": "Prognosis"
+    },
+    {
+     "ul": [
+      "Clears over 6–12 weeks with treatment; recurs if steroids are restarted."
+     ]
+    }
+   ],
+   "short": "Complications"
+  },
+  {
+   "id": "pearls",
+   "title": "Prescriber pearls (UK pharmacist IP)",
+   "blocks": [
+    {
+     "pearls": [
+      "Pharmacists often spot inhaled-steroid perioral dermatitis: advise rinsing and wiping the face after inhalers.",
+      "Hydrocortisone makes it look better briefly, then worse."
+     ]
+    }
+   ],
+   "short": "Pearls"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Commonest trigger of perioral dermatitis?",
+   "a": "Topical (or inhaled/nasal) corticosteroids on the face."
+  },
+  {
+   "q": "What is the classic sign around the lips?",
+   "a": "A clear rim next to the vermilion (vermilion sparing)."
+  },
+  {
+   "q": "What happens after stopping the steroid?",
+   "a": "A rebound flare for 1–2 weeks."
+  },
+  {
+   "q": "Oral option in under-12s?",
+   "a": "Erythromycin (tetracyclines avoided)."
+  }
+ ],
+ "references": [],
+ "see_also": [
+  "rosacea",
+  "acne-mimics",
+  "acne-vulgaris",
+  "topical-corticosteroids",
+  "contact-dermatitis"
+ ]
+}

@@ -1,0 +1,66 @@
+{
+ "_note": "curated (split page, Oct 2026)",
+ "manage": {
+  "lead": "Revascularise; never compress.",
+  "rungs": [
+   {
+    "k": "Risk factors",
+    "tone": "base",
+    "points": [
+     "Stop smoking; antiplatelet and statin per NICE CG147; optimise BP and diabetes."
+    ]
+   },
+   {
+    "k": "Wound care",
+    "tone": "first",
+    "points": [
+     "Analgesia; dry, protective dressings guided by tissue viability."
+    ]
+   },
+   {
+    "k": "Vascular",
+    "tone": "refer",
+    "points": [
+     "Urgent vascular assessment for revascularisation."
+    ]
+   }
+  ],
+  "limits": [
+   {
+    "k": "Compression",
+    "t": "Contraindicated in significant arterial disease (low ABPI).",
+    "tone": "danger"
+   }
+  ]
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "same-day",
+    "t": "Rest pain, gangrene, tissue loss or a cold pulseless foot."
+   },
+   {
+    "when": "urgent",
+    "t": "Any suspected arterial ulcer: vascular surgery."
+   }
+  ]
+ },
+ "quiz": [
+  {
+   "q": "Where do arterial ulcers occur?",
+   "a": "Toes, heel, bony prominences, lateral malleolus."
+  },
+  {
+   "q": "Why can ABPI mislead in diabetes?",
+   "a": "Calcified vessels give falsely high readings; use toe pressures (TBPI)."
+  },
+  {
+   "q": "What eases ischaemic rest pain?",
+   "a": "Hanging the leg down (dependency)."
+  },
+  {
+   "q": "What must you never do?",
+   "a": "Apply compression to an ischaemic limb."
+  }
+ ]
+}

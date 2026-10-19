@@ -1,0 +1,75 @@
+{
+ "kf": [
+  "**Infantile haemangioma** is the commonest tumour of infancy (about 4–10% of infants): absent or faint at birth, then rapid growth.",
+  "Most growth happens in the **first 1–3 months**; involution over years, often leaving fibrofatty tissue or telangiectasia.",
+  "High-risk sites: **periocular, airway/beard, lip, nasal tip, large segmental facial, perineal**, ulcerated, or 5 or more lesions.",
+  "Refer high-risk lesions early, ideally by about **4 weeks** of age; **propranolol** is first-line and specialist-initiated.",
+  "Five or more skin haemangiomas: liver ultrasound. Large facial segmental lesions: think PHACE."
+ ],
+ "epi": [
+  {
+   "t": "**Who**",
+   "sub": [
+    "More in girls, premature and low-birth-weight babies, and twins.",
+    "Head and neck in about 60%."
+   ]
+  }
+ ],
+ "myths": [
+  "**\"Wait and it will go away\"**: most do, but high-risk ones need treatment in the early growth window."
+ ],
+ "patho_lead": "A haemangioma is a **benign proliferation of immature endothelial cells** that later switches off.",
+ "mech": [
+  {
+   "k": "Trigger",
+   "t": "Tissue hypoxia (possibly placental) induces HIF-1α and VEGF in a progenitor cell population."
+  },
+  {
+   "k": "Proliferation",
+   "t": "GLUT-1–positive endothelial cells proliferate rapidly in the first months."
+  },
+  {
+   "k": "Plateau",
+   "t": "Growth slows by about 5 months."
+  },
+  {
+   "k": "Involution",
+   "t": "Endothelial cells undergo apoptosis and are replaced by fibrofatty tissue over years.",
+   "img": "haemangioma-natural-history.jpg",
+   "cap": "Natural history: appearance, rapid growth, slow involution."
+  },
+  {
+   "k": "Propranolol effect",
+   "t": "Beta-blockade causes vasoconstriction, reduces VEGF signalling and speeds involution."
+  }
+ ],
+ "histo": [
+  "Lobules of capillaries lined by GLUT-1–positive endothelium (GLUT-1 negative in congenital haemangiomas and malformations)."
+ ],
+ "special": [
+  {
+   "t": "**PHACE syndrome**",
+   "sub": [
+    "Posterior fossa anomalies, Haemangioma (large facial segmental), Arterial, Cardiac (coarctation) and Eye anomalies: needs MRI/MRA, echo and eye review."
+   ]
+  },
+  {
+   "t": "**LUMBAR syndrome**",
+   "sub": [
+    "Lumbosacral segmental haemangioma with spinal and urogenital anomalies: spinal imaging."
+   ]
+  }
+ ],
+ "comp": [
+  "Ulceration (painful, scarring), bleeding, amblyopia, airway obstruction, feeding problems, disfigurement; heart failure with large liver haemangiomas."
+ ],
+ "prog": [
+  "Most involute; residual skin changes are common in large or deep lesions."
+ ],
+ "see_also": [
+  "port-wine-stain",
+  "pyogenic-granuloma",
+  "pigmented-birthmarks",
+  "neonatal-rashes"
+ ]
+}

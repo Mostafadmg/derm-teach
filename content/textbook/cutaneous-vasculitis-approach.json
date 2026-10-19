@@ -1,0 +1,374 @@
+{
+ "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
+ "key_facts": [
+  "Palpable purpura, haemorrhagic blisters, nodules, livedo or ulcers, especially on the lower legs.",
+  "Inflammation of vessel walls from immune complexes, ANCA or infection; small vessels give purpura, medium vessels give nodules, livedo racemosa and ulcers.",
+  "Urine dipstick and BP today; FBC, U&E, LFT, CRP, ANCA, complement, hepatitis B/C, cryoglobulins as indicated; biopsy within 48 h; stop culprit drugs.",
+  "Renal involvement, systemic ANCA vasculitis, endocarditis and meningococcal sepsis."
+ ],
+ "sections": [
+  {
+   "id": "overview",
+   "title": "Overview",
+   "blocks": [
+    "**Vasculitis** is inflammation of blood-vessel walls causing damage (haemorrhage, ischaemia). The skin is involved in many systemic vasculitides, and can be the only organ affected (**single-organ cutaneous small-vessel vasculitis**, the commonest form seen in dermatology).",
+    "**Chapel Hill Consensus Conference (CHCC 2012) nomenclature:**",
+    {
+     "table": {
+      "head": [
+       "Category",
+       "Examples"
+      ],
+      "rows": [
+       [
+        "Large vessel",
+        "Giant-cell arteritis, Takayasu arteritis"
+       ],
+       [
+        "Medium vessel",
+        "**Polyarteritis nodosa**, Kawasaki disease"
+       ],
+       [
+        "Small vessel — ANCA-associated",
+        "Microscopic polyangiitis (MPA), **granulomatosis with polyangiitis (GPA)**, eosinophilic GPA (EGPA)"
+       ],
+       [
+        "Small vessel — immune complex",
+        "Anti-GBM disease, **cryoglobulinaemic vasculitis**, **IgA vasculitis (HSP)**, **hypocomplementaemic urticarial vasculitis (anti-C1q vasculitis)**"
+       ],
+       [
+        "Variable vessel",
+        "Behçet's disease, Cogan syndrome"
+       ],
+       [
+        "Single-organ",
+        "**Cutaneous leukocytoclastic angiitis**, cutaneous arteritis (= cutaneous PAN)"
+       ],
+       [
+        "Associated with systemic disease",
+        "Lupus, rheumatoid, sarcoid vasculitis"
+       ],
+       [
+        "Associated with a probable aetiology",
+        "**HCV-associated cryoglobulinaemic vasculitis**, **HBV-associated PAN**, **drug-associated** immune-complex/ANCA vasculitis, cancer-associated vasculitis"
+       ]
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "pathophysiology",
+   "title": "Pathophysiology and pathology",
+   "blocks": [
+    {
+     "h": "How it is caused"
+    },
+    {
+     "ul": [
+      "**Immune-complex deposition** (antigen from a drug, infection, autoantigen or tumour → complexes deposit in post-capillary venules → complement activation → neutrophil influx → **leukocytoclasis** (nuclear dust), fibrinoid necrosis, red-cell extravasation = purpura).",
+      "**ANCA-mediated** neutrophil activation (MPO/PR3).",
+      "**Cell-mediated/granulomatous** inflammation.",
+      "**Direct infection** of the vessel wall (septic vasculitis — meningococcus, gonococcus, endocarditis).",
+      "**Common causes of cutaneous small-vessel vasculitis:** idiopathic (~45–55%), **infection** (~15–20% — streptococcal URTI, hepatitis B/C, HIV, endocarditis), **drugs** (~10–20% — β-lactams, sulfonamides, NSAIDs, allopurinol, thiazides, propylthiouracil/hydralazine (ANCA), TNF inhibitors, levamisole-contaminated cocaine), **connective tissue disease** (~15–20% — SLE, RA, Sjögren's), **malignancy** (<5% — haematological especially)."
+     ]
+    }
+   ],
+   "short": "Pathophysiology"
+  },
+  {
+   "id": "clinical-features",
+   "title": "Clinical features",
+   "blocks": [
+    {
+     "h": "Clinical features & sites — lesion → vessel size"
+    },
+    {
+     "table": {
+      "head": [
+       "Vessel size",
+       "Skin lesions"
+      ],
+      "rows": [
+       [
+        "**Small** (post-capillary venules, dermal)",
+        "**Palpable purpura**, petechiae, **urticarial plaques lasting >24 h**, haemorrhagic vesicles/bullae, pustules, superficial ulcers, splinter haemorrhages"
+       ],
+       [
+        "**Medium** (muscular arteries at the dermal–subcutaneous junction)",
+        "**Subcutaneous nodules**, **livedo racemosa**, **deep punched-out ulcers**, digital infarcts/gangrene, papulonecrotic lesions"
+       ],
+       [
+        "Mixed (ANCA, cryo, CTD)",
+        "Any of the above"
+       ]
+      ]
+     }
+    },
+    "**Distribution:** dependent areas — **lower legs, ankles, feet, buttocks**; under tight clothing; in bed-bound patients the back and buttocks. Symptoms: burning/stinging or pain more than itch. Look for **systemic symptoms** (fever, arthralgia, abdominal pain, haematuria, cough/haemoptysis, sinusitis, neuropathy).",
+    {
+     "fig": {
+      "dermnet": "m1w4:A01"
+     }
+    }
+   ]
+  },
+  {
+   "id": "diagnosis",
+   "title": "Diagnosis and investigations",
+   "blocks": [
+    {
+     "ol": [
+      "**Confirm it is purpura:** **non-blanching on diascopy** (press a glass slide). Is it *palpable* (inflammatory → vasculitis) or *flat* (petechiae/ecchymoses → platelet/coagulation or capillaritis)?",
+      "**Skin biopsy** — the most useful test: **H&E:** punch from a **fresh lesion 24–48 h old** (LCV, vessel size); **Direct immunofluorescence (DIF):** a second biopsy from a lesion **<24 h old** (or perilesional), sent in **Michel's medium/saline, not formalin**. IgA → IgA vasculitis; IgM/C3 → cryoglobulins/immune complex; lupus band → HUVS/SLE; For suspected medium-vessel disease (nodules, livedo, ulcers), take a **deep incisional or elliptical biopsy to subcutaneous fat**, from a nodule or the **white centre of livedo**. A 4 mm punch often misses it",
+      "**Baseline screen for cause and organ involvement:** **Urinalysis (dipstick for blood and protein — the key bedside test)**; urine ACR/PCR; urine microscopy (red-cell casts); **Blood pressure.**; **FBC** (platelets — exclude thrombocytopenia; eosinophilia — EGPA/drug), **U&E/eGFR**, LFTs, **CRP/ESR**, clotting; **Immunology:** ANA, ENA, dsDNA, **ANCA (MPO/PR3)**, **C3/C4** (± C1q, anti-C1q), rheumatoid factor, **cryoglobulins** (sample kept at **37 °C** in transport), IgA level; **Infection:** **hepatitis B and C**, HIV, ASO/anti-DNase B, throat swab, **blood cultures** (endocarditis), ± IGRA (before immunosuppression); **Paraprotein:** serum protein electrophoresis, immunofixation, serum free light chains; As indicated: **CXR**, ECG/echo, faecal occult blood/calprotectin, CT angiography (PAN), nerve conduction studies",
+      "**Severity assessment:** BVAS (Birmingham Vasculitis Activity Score) in specialist care; Five-Factor Score for PAN/ANCA (see *Polyarteritis nodosa — systemic, HBV-associated and cutaneous*)."
+     ]
+    }
+   ],
+   "short": "Diagnosis"
+  },
+  {
+   "id": "differentials",
+   "title": "Differential diagnoses",
+   "blocks": [
+    {
+     "ul": [
+      "**Non-vasculitic purpura:** thrombocytopenia (ITP, leukaemia, drugs), coagulopathy/anticoagulants, **DIC/meningococcal sepsis**, senile/actinic and **steroid purpura**, scurvy (perifollicular), capillaritis (pigmented purpuric dermatoses), trauma/non-accidental injury in children, raised intrathoracic pressure (petechiae above the nipple line after vomiting/coughing).",
+      "**Vasculopathies/occlusion (non-inflammatory):** antiphospholipid syndrome, cholesterol emboli, calciphylaxis, livedoid vasculopathy, warfarin necrosis, cryoglobulin/cryofibrinogen occlusion, septic emboli.",
+      "Also: pigmented purpuric dermatoses, stasis dermatitis, erythema multiforme/urticaria (blanching)."
+     ]
+    }
+   ],
+   "short": "Differentials"
+  },
+  {
+   "id": "management",
+   "title": "Management",
+   "blocks": [
+    {
+     "ul": [
+      "**Treat the cause:** stop a suspected drug (record + Yellow Card); treat infection.",
+      "**Skin-limited, mild disease:** rest, **leg elevation**, **compression hosiery** if arterial supply is adequate, emollient, potent TCS for symptoms, antihistamine; NSAIDs only if not the culprit and renal function is normal. Most self-limiting episodes resolve in **3–4 weeks**.",
+      "**Chronic/recurrent skin-limited disease (specialist):** colchicine, **dapsone** (G6PD check; FBC/methaemoglobin monitoring), hydroxychloroquine; short prednisolone courses for necrotic/ulcerated disease; azathioprine/methotrexate/MMF for steroid-sparing.",
+      "**Systemic vasculitis:** specialist (rheumatology/renal) — glucocorticoids + cyclophosphamide/rituximab (ANCA), etc.",
+      "**Monitoring:** clinical (old lesions healing, new crops) + ESR/CRP; **urinalysis and BP** at each review — renal involvement can appear weeks later."
+     ]
+    },
+    {
+     "h": "IP scope"
+    },
+    "Recognition, urinalysis/BP, first-line bloods, stopping culprit drugs, symptomatic care and correct-urgency referral are within IP scope. Biopsy, immunosuppression and dapsone/colchicine regimens are specialist-led (shared care at most).",
+    {
+     "h": "Worked cases"
+    },
+    {
+     "h": "Case 1"
+    },
+    {
+     "ul": [
+      "**Lesions suggesting vasculitis:** palpable purpura, petechiae, urticarial plaques lasting >24 h, haemorrhagic vesicles/bullae, pustules, necrosis/ulcers, nodules, livedo racemosa, digital infarcts, splinter haemorrhages (see *Approach to cutaneous vasculitis*).",
+      "**How to diagnose:** clinical suspicion → **biopsy (H&E 24–48 h lesion + DIF <24 h; deep incisional for medium vessels)** → screen for cause and organ involvement (urinalysis, BP, FBC, U&E, LFT, CRP/ESR, ANA/ENA/dsDNA, ANCA, C3/C4, cryoglobulins, RF, hepatitis B/C, HIV, ASO, SPEP, blood cultures, CXR) (see *Approach to cutaneous vasculitis*).",
+      "**Osler/Janeway:** Osler = tender immunological finger-pad nodules; Janeway = painless septic-embolic palm/sole macules. **Not pathognomonic** (SLE, gonococcaemia, typhoid, haemolytic anaemia, marantic endocarditis). **Splinters:** commonly traumatic/psoriatic; no validated threshold — new, multiple, proximal or multi-nail splinters plus fever/murmur raise concern (see *Osler nodes, Janeway lesions and splinter haemorrhages*)."
+     ]
+    },
+    {
+     "h": "Case 2: 36-year-old woman"
+    },
+    {
+     "ul": [
+      "**Diagnosis:** **hypocomplementaemic urticarial vasculitis (HUVS / anti-C1q vasculitis)**, with **lupus overlap** to exclude (ANA+, photosensitivity, arthralgia, low C3/C4, renal impairment): Strictly, Schwartz criteria require **≥6 months** of urticaria; she has had 3 months. Label it \"hypocomplementaemic urticarial vasculitis, probable HUVS\"; The **creatinine of 2.3 mg/dL (~203 µmol/L)** indicates renal involvement → urgent nephrology",
+      "**Confirmatory tests:** skin biopsy with **DIF** (immunoreactants around vessels ± lupus band); **C1q level and anti-C1q antibodies**; CH50; **dsDNA, ENA**, antiphospholipid antibodies; **urinalysis, uPCR, urine microscopy ± renal biopsy**; cryoglobulins; hepatitis B/C; SPEP; CXR/PFTs; ophthalmology review (see *Urticarial vasculitis and hypocomplementaemic urticarial vasculitis syndrome*)."
+     ]
+    },
+    {
+     "h": "Case 3"
+    },
+    {
+     "ul": [
+      "**Task 1:** UV vs urticaria table; investigations (see *Urticarial vasculitis and hypocomplementaemic urticarial vasculitis syndrome*).",
+      "**3a:** symmetrical non-blanching **palpable purpuric papules** (some confluent/haemorrhagic) on the lower legs.",
+      "**3b:** **cutaneous leukocytoclastic (small-vessel) vasculitis, drug-induced (NSAID)**.",
+      "**3c:** hydrostatic pressure, venous stasis and slow flow in dependent venules → immune-complex deposition (hence rest/elevation/hosiery).",
+      "**3d:** see *Cutaneous small-vessel (leukocytoclastic) vasculitis*.",
+      "**3e:** **urinalysis**.",
+      "**3f:** see *Cutaneous small-vessel (leukocytoclastic) vasculitis*.",
+      "**3g:** stop the NSAID, alternative analgesia, rest/elevation/compression, potent TCS/antihistamine; dapsone/colchicine/short prednisolone if persistent or necrotic; monitor clinically + ESR/CRP + urine/BP (see *Cutaneous small-vessel (leukocytoclastic) vasculitis*)."
+     ]
+    },
+    {
+     "h": "Case 4: 30-year-old woman, HBsAg+"
+    },
+    {
+     "ul": [
+      "**Diagnosis:** **HBV-associated systemic polyarteritis nodosa.**: ACR criteria met: weight loss >4 kg, livedo, myalgia/leg tenderness, neuropathy, diastolic BP >90, raised creatinine (2.7 mg/dL ≈ 239 µmol/L), **HBsAg+** = **7 of 10**; Predictive items: HBsAg+, neuropathy positive; ANCA/cryo/asthma/ENT/GN negative",
+      "**Supporting:** nodules along arteries, necrotic ulcers, anaemia, thrombocytosis, leucocytosis. Renal impairment with **hypertension** reflects **renal-artery vasculopathy (renovascular hypertension), not GN**.",
+      "**Investigations still needed:** CT/MR or catheter angiography (renal/mesenteric microaneurysms), deep skin/muscle/nerve biopsy, HBeAg/HBV DNA, LFT, nerve conduction studies, urinalysis (bland sediment expected), echo/ECG.",
+      "**DDx:** ANCA-associated vasculitis (MPA), cryoglobulinaemic vasculitis, SLE vasculitis, infective endocarditis, APS, cholesterol emboli, lymphoma, DADA2.",
+      "**Treatment:** **antiviral (entecavir/tenofovir) + short-course steroids + plasma exchange** (avoid prolonged immunosuppression in HBV-PAN); BP control; specialist MDT (rheumatology, hepatology, renal); contact tracing/vaccination (see *Polyarteritis nodosa — systemic, HBV-associated and cutaneous*)."
+     ]
+    },
+    {
+     "h": "Case 5"
+    },
+    "Diagnosis of PAN; cutaneous vs systemic PAN; causes of livedo and vessel involvement; treatment (see *Polyarteritis nodosa — systemic, HBV-associated and cutaneous* and *Livedo reticularis vs livedo racemosa*).",
+    {
+     "h": "Practice case: 7-year-old boy"
+    },
+    {
+     "ul": [
+      "**QA = 4, Henoch–Schönlein purpura (IgA vasculitis):** purpura + arthralgia + abdominal pain + haematuria/proteinuria after a URTI; normal platelets.",
+      "**QB = 4, LCV with perivascular IgA and C3 on DIF.**: The course explanation attributes \"necrotising vasculitis of medium-sized arteries with negative DIF\" to **GPA** as well as PAN. The correct match is: option 1 = **PAN**; option 2 (**small- and medium-vessel vasculitis with necrosis and granulomas**) = **GPA**; option 3 = giant-cell arteritis; option 5 (IgM) = cryoglobulinaemia",
+      "**QC = 2, group A β-haemolytic streptococcus.**",
+      "**UK additions:** exclude meningococcal sepsis first. The urinalysis already shows blood + protein, so **check BP and the urine protein:creatinine ratio, and discuss with paediatrics** (CKS). Then a structured urine/BP follow-up for ≥6 months."
+     ]
+    },
+    {
+     "h": "Referral"
+    },
+    {
+     "refer": [
+      {
+       "when": "same-day",
+       "t": "Blood or protein on urine dipstick, or raised BP: same-day discussion with renal or medical team."
+      },
+      {
+       "when": "emergency",
+       "t": "Non-blanching rash in an unwell or feverish patient: **suspected meningococcal disease**, 999 (NICE NG240)."
+      },
+      {
+       "when": "urgent",
+       "t": "Haemoptysis, breathlessness, neuropathy or abdominal pain with purpura: systemic vasculitis, urgent referral."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "red-flags",
+   "title": "Red flags and when to refer",
+   "blocks": [
+    {
+     "ul": [
+      "Blood or protein on urine dipstick, or raised BP: same-day discussion with renal or medical team.",
+      "Non-blanching rash in an unwell or feverish patient: **suspected meningococcal disease**, 999 (NICE NG240).",
+      "Haemoptysis, breathlessness, neuropathy or abdominal pain with purpura: systemic vasculitis, urgent referral."
+     ]
+    },
+    {
+     "h4": "Red flags / refer"
+    },
+    {
+     "ul": [
+      "**Same day (999/ED):** purpura in an **unwell or febrile** patient — especially a child — **meningococcal sepsis/DIC** (NICE NG240); suspected **endocarditis**; rapidly spreading necrosis; haemoptysis; acute kidney injury; GI bleeding/severe abdominal pain; mononeuritis multiplex.",
+      "**Urgent (days):** palpable purpura with **haematuria/proteinuria**, raised creatinine or **hypertension** (renal); systemic symptoms; positive ANCA; nodules/ulcers/livedo racemosa (medium-vessel disease); persistent >4 weeks or recurrent.",
+      "**Routine dermatology:** skin-limited, well patient, normal urine/bloods, cause unclear."
+     ]
+    }
+   ],
+   "short": "Red flags"
+  },
+  {
+   "id": "pearls",
+   "title": "Prescriber pearls (UK pharmacist IP)",
+   "blocks": [
+    {
+     "pearls": [
+      "\"**Glass test first.**\" Non-blanching + palpable = vasculitis work-up; non-blanching + unwell = 999.",
+      "Always **dip the urine** and **check BP** — then repeat at follow-up.",
+      "Ask about **every new drug in the last 1–3 weeks**, including OTC ibuprofen and recreational cocaine (levamisole)."
+     ]
+    },
+    {
+     "h": "Where course teaching differs from UK guidance"
+    },
+    {
+     "table": {
+      "head": [
+       "Topic",
+       "Course teaching",
+       "UK position (2026)"
+      ],
+      "rows": [
+       [
+        "course explanation",
+        "Course teaching: \"necrotising vasculitis of medium-sized arteries with negative DIF\" for **GPA** (and PAN)",
+        "That option fits **PAN**. GPA = **necrotising small/medium-vessel vasculitis with granulomas** (option 2)"
+       ],
+       [
+        "HSP management",
+        "course explanation: monitor urine and BP during active disease",
+        "NICE CKS: **exclude meningococcal disease** and leukaemia/ITP first; a **structured urinalysis + BP schedule for ≥6 months**; same-day referral criteria (abdominal, testicular, renal, unwell); paracetamol first, NSAIDs only if no renal involvement"
+       ],
+       [
+        "HSP epidemiology",
+        "course explanation: ~75% under 8; more severe in adults",
+        "Agrees; teach that adults get HSP too (biopsy with DIF — higher nephritis risk)"
+       ],
+       [
+        "HBV-PAN treatment",
+        "A student answer: prednisolone 1 mg/kg tapered over 6 months ± cyclophosphamide for 12 months, after antivirals",
+        "For **HBV-associated PAN**: **antivirals + short steroid course + plasma exchange**, avoiding prolonged steroids/cyclophosphamide (HBV flare risk). Long steroid ± cyclophosphamide applies to severe **non-HBV** PAN (ACR/VF 2021; FFS-guided)"
+       ],
+       [
+        "PAN renal disease",
+        "A student answer: \"high risk of renal involvement\"",
+        "Correct, but in PAN it is **vascular (renovascular hypertension, infarcts)**; **glomerulonephritis argues against PAN** (a negative predictive item)"
+       ],
+       [
+        "HUVS diagnosis",
+        "Students: HUVS",
+        "Agrees, but the 3-month history does not meet the Schwartz **≥6-month** criterion, and the SLE overlap must be formally assessed; urgent renal referral for the raised creatinine"
+       ],
+       [
+        "LCV bedside test",
+        "Course teaching: urinalysis",
+        "Agrees; UK practice adds **BP** at the same visit and repeated urinalysis/BP at follow-up"
+       ],
+       [
+        "LCV treatment",
+        "Course teaching: bed rest, hosiery, dapsone",
+        "Agrees; dapsone requires **G6PD testing** and FBC/LFT/methaemoglobin monitoring (BNF); check arterial supply before compression"
+       ],
+       [
+        "Endocarditis signs",
+        "Students: Osler/Janeway \"pathognomonic\" in some student answers",
+        "Not pathognomonic; **Duke–ISCVID 2023** minor criteria; **blood cultures before antibiotics**; NICE CG64: no routine antibiotic prophylaxis"
+       ],
+       [
+        "Units",
+        "Course labs in mg/dL",
+        "UK: creatinine µmol/L (× 88.4), urea mmol/L (BUN mg/dL × 0.357)"
+       ]
+      ]
+     }
+    }
+   ],
+   "short": "Pearls"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Approach to cutaneous vasculitis?",
+   "a": "Palpable purpura, haemorrhagic blisters, nodules, livedo or ulcers, especially on the lower legs."
+  },
+  {
+   "q": "What drives it?",
+   "a": "Inflammation of vessel walls from immune complexes, ANCA or infection; small vessels give purpura, medium vessels give nodules, livedo racemosa and ulcers."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "Urine dipstick and BP today; FBC, U&E, LFT, CRP, ANCA, complement, hepatitis B/C, cryoglobulins as indicated; biopsy within 48 h; stop culprit drugs."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "Renal involvement, systemic ANCA vasculitis, endocarditis and meningococcal sepsis."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "Blood or protein on urine dipstick, or raised BP: same-day discussion with renal or medical team."
+  }
+ ],
+ "references": [],
+ "see_also": []
+}

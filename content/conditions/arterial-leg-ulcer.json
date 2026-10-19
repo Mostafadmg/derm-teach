@@ -1,0 +1,82 @@
+{
+ "slug": "arterial-leg-ulcer",
+ "title": "Arterial (ischaemic) leg ulcer",
+ "category": "ulcers-red-leg",
+ "status": "published",
+ "order": 3,
+ "module": "Module 5 · Week 2",
+ "aka": [
+  "arterial ulcer",
+  "ischaemic ulcer",
+  "peripheral arterial disease",
+  "PAD",
+  "critical limb ischaemia"
+ ],
+ "summary": "Punched-out, painful, distal ulcers from peripheral arterial disease. Never compress an ischaemic limb; refer urgently to vascular, same day for critical limb ischaemia.",
+ "card_image": "m5w2:S01",
+ "sections": {
+  "what": [
+   "An **arterial ulcer** is skin loss caused by tissue **ischaemia** from peripheral arterial disease. It accounts for about 10–20% of leg ulcers, alone or mixed with venous disease."
+  ],
+  "cause": [
+   "Atherosclerosis (or embolism) reduces flow, so poorly perfused sites become necrotic after minor trauma. Risk factors: smoking, diabetes, hypertension, hyperlipidaemia, CKD and age."
+  ],
+  "features": [
+   {
+    "list": [
+     "Site: toes, heel, bony prominences, lateral malleolus, shin.",
+     "**Punched-out**, deep, dry or necrotic base.",
+     "Pain often **severe**, worse on elevation and at night (eased by hanging the leg out of bed).",
+     "Foot: cold, pale or mottled, shiny, hairless, weak or absent pulses; dependent rubor; **claudication**."
+    ]
+   }
+  ],
+  "diagnosis": [
+   {
+    "list": [
+     "Examine pulses and measure **ABPI** (or TBPI in diabetes, where calcified vessels give falsely high ABPI).",
+     "Urgent vascular assessment (duplex, angiography) for critical limb ischaemia."
+    ]
+   }
+  ],
+  "differentials": [
+   "[Venous leg ulcer](condition:venous-leg-ulcer) (gaiter area, shallow, exudative), [diabetic foot ulcer](condition:diabetic-foot-ulcer), pressure ulcer, [pyoderma gangrenosum](condition:pyoderma-gangrenosum), vasculitis, malignancy."
+  ],
+  "management": [
+   {
+    "list": [
+     "**Do not compress** ischaemic limbs.",
+     "Urgent **vascular referral**, especially with rest pain, gangrene or critical ischaemia.",
+     "Risk factors: stop smoking, antiplatelet and statin therapy (NICE CG147 and vascular advice); optimise blood pressure and diabetes.",
+     "Analgesia, and wound care directed by tissue viability or vascular."
+    ]
+   }
+  ],
+  "red_flags": [
+   "**Critical limb ischaemia:** rest pain, gangrene, tissue loss, or a cold pulseless foot: **same-day vascular**.",
+   "Acute limb ischaemia (pain, pallor, pulselessness, paraesthesia, paralysis, perishingly cold): emergency."
+  ],
+  "pearls": [
+   "**Any leg ulcer may be mixed.** Always assess the arterial supply before compression.",
+   "Painful ulcer worse on elevation suggests arterial."
+  ]
+ },
+ "photos": [
+  {
+   "title": "Ischaemic ulcers",
+   "items": [
+    "m5w2:S01"
+   ]
+  }
+ ],
+ "references": [
+  {
+   "label": "NICE CG147: Peripheral arterial disease",
+   "url": "https://www.nice.org.uk/guidance/cg147"
+  },
+  {
+   "label": "DermNet: Arterial ulcer",
+   "url": "https://dermnetnz.org/topics/arterial-ulcer"
+  }
+ ]
+}

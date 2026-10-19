@@ -1,0 +1,57 @@
+{
+ "_auto": true,
+ "glance": {
+  "chips": [
+   "Module 2 · Week 4",
+   "Spitz naevus",
+   "Reed naevus",
+   "pigmented spindle cell naevus"
+  ],
+  "points": []
+ },
+ "cause": {
+  "points": [],
+  "visuals": []
+ },
+ "features": {
+  "photo": "m2w4:E04",
+  "points": [
+   "**Spitz**: pink-red or pigmented, dome-shaped, smooth, rapidly growing over months in a child; face and limbs. Dermoscopy: starburst or dotted vessels.",
+   "**Reed**: black, symmetrical, starburst pattern; thigh in young women."
+  ],
+  "visuals": [],
+  "variants": null,
+  "groups": [
+   0
+  ]
+ },
+ "confirm": {
+  "cols": []
+ },
+ "differentials": {
+  "cards": []
+ },
+ "manage": {
+  "rungs": []
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "urgent",
+    "t": "A Spitz-like lesion in an adult, or any atypical, ulcerated or rapidly growing lesion: **suspected cancer pathway**."
+   }
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "Rapid growth worries parents but is typical of Spitz naevi in children; age decides how worried to be."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "A Spitz-like lesion in an adult, or any atypical, ulcerated or rapidly growing lesion: **suspected cancer pathway**."
+  }
+ ]
+}

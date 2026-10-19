@@ -1,0 +1,202 @@
+{
+ "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
+ "key_facts": [
+  "Shiny bald patch without follicular openings, often with itch, burning, perifollicular scale or pustules at the active edge.",
+  "Inflammation destroys the stem-cell bulge → fibrosis replaces the follicle.",
+  "Photograph, swab/mycology if pus or scale, baseline bloods, Advice & Guidance / urgent dermatology — do not watch and wait for “AA to regrow”.",
+  "Scarring alopecia is irreversible once established. Also refer non-healing nodules on bald scalp via suspected-cancer pathways."
+ ],
+ "sections": [
+  {
+   "id": "overview",
+   "title": "Overview",
+   "blocks": [
+    "**Scarring (cicatricial) alopecia** permanently destroys follicles. Primary types target the follicle (lymphocytic: LPP, FFA, DLE, CCCA; neutrophilic: folliculitis decalvans). Secondary scarring follows burns, trauma, tumours, kerion or long-standing traction.",
+    "Contrast with non-scarring loss ([alopecia areata](condition:alopecia-areata), [telogen effluvium](condition:telogen-effluvium), [androgenetic alopecia](condition:androgenetic-alopecia)) where ostia remain."
+   ]
+  },
+  {
+   "id": "aetiology",
+   "title": "Aetiology: causes and risk factors",
+   "blocks": [
+    {
+     "ul": [
+      "Lymphocytic attack (LPP/FFA/DLE/CCCA) or neutrophilic folliculitis (FD, often *S. aureus*).",
+      "FFA incidence is rising, mainly in post-menopausal women.",
+      "CCCA predominantly affects women of African descent; hair practices contribute alongside genetics."
+     ]
+    }
+   ],
+   "short": "Aetiology"
+  },
+  {
+   "id": "clinical-features",
+   "title": "Clinical features",
+   "blocks": [
+    {
+     "table": {
+      "head": [
+       "Clue",
+       "Non-scarring",
+       "Scarring"
+      ],
+      "rows": [
+       [
+        "Follicular ostia",
+        "Present (yellow/black dots)",
+        "Absent — shiny polished scalp"
+       ],
+       [
+        "Edge signs",
+        "Exclamation hairs / miniaturisation",
+        "Perifollicular erythema, scale, plugs, pustules, tufting"
+       ],
+       [
+        "Symptoms",
+        "Often none",
+        "Itch, pain, burning, tenderness"
+       ],
+       [
+        "Prognosis",
+        "Regrowth possible",
+        "Permanent — treat to halt spread"
+       ]
+      ]
+     }
+    },
+    {
+     "ul": [
+      "**LPP:** white patches with spiky perifollicular scale; check mouth/skin LP.",
+      "**FFA:** frontal/temporal recession, lonely hairs, eyebrow loss, “unsunned” forehead band.",
+      "**DLE:** red scaly plugged plaques → dyspigmented scars; ears/face; ask lupus systemic features.",
+      "**FD:** pustules, crusts, doll’s-hair tufting at the vertex — swab.",
+      "**CCCA:** crown spreading centrifugally."
+     ]
+    },
+    {
+     "fig": {
+      "dermnet": "m3w3:C04"
+     }
+    }
+   ]
+  },
+  {
+   "id": "diagnosis",
+   "title": "Diagnosis and investigations",
+   "blocks": [
+    "Clinical + trichoscopy (absent ostia). Specialist biopsy from the **active inflamed margin**. Primary care: good photos (clinical + dermoscopy if available), swab pustules, mycology if scale."
+   ],
+   "short": "Diagnosis"
+  },
+  {
+   "id": "differentials",
+   "title": "Differential diagnoses",
+   "blocks": [
+    {
+     "ddx": [
+      {
+       "name": "Alopecia areata",
+       "f": "Ostia preserved; yellow dots",
+       "link": "alopecia-areata"
+      },
+      {
+       "name": "Kerion",
+       "f": "Boggy child scalp infection — can scar; start antifungal pathway; do not incise"
+      },
+      {
+       "name": "Skin cancer on bald scalp",
+       "f": "Ulcerated/bleeding nodule → NG12"
+      },
+      {
+       "name": "End-stage traction / trichotillomania",
+       "f": "History; may finally scar"
+      }
+     ]
+    }
+   ],
+   "short": "Differentials"
+  },
+  {
+   "id": "management",
+   "title": "Management",
+   "blocks": [
+    {
+     "ul": [
+      "**Urgent dermatology / Advice & Guidance** with photos (PCDS: scarring alopecia needs early referral).",
+      "While waiting: swab, mycology if indicated; baseline FBC, ferritin, U&E/LFT, TFT, vitamin D; ANA if lupus suspected; syphilis serology if indicated.",
+      "Do not delay referral for blood results.",
+      "Dermatologist may suggest potent topical steroid via A&G for symptoms.",
+      "Specialist ladders (awareness only): hydroxychloroquine, doxycycline, anti-androgens (FFA), systemic immunosuppressants, culture-guided antibiotics for FD — not routine IP initiation.",
+      "Signpost Alopecia UK and camouflage."
+     ]
+    },
+    {
+     "h": "Referral"
+    },
+    {
+     "refer": [
+      {
+       "when": "routine",
+       "t": "Any loss of ostia, symptomatic inflamed edge, FFA pattern, CCCA pattern, lupus features, kerion, or uncertain “AA that will not regrow”."
+      },
+      {
+       "when": "routine",
+       "t": "Ulcerated/bleeding lesion on bald scalp → suspected-cancer pathway."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "red-flags",
+   "title": "Red flags and when to refer",
+   "blocks": [
+    {
+     "ul": [
+      "Any loss of ostia, symptomatic inflamed edge, FFA pattern, CCCA pattern, lupus features, kerion, or uncertain “AA that will not regrow”.",
+      "Ulcerated/bleeding lesion on bald scalp → suspected-cancer pathway."
+     ]
+    }
+   ],
+   "short": "Red flags"
+  },
+  {
+   "id": "pearls",
+   "title": "Prescriber pearls (UK pharmacist IP)",
+   "blocks": [
+    {
+     "pearls": [
+      "Side-by-side teaching: yellow dots (AA) vs absent ostia (scar).",
+      "FFA is often dismissed as “just ageing” — check brows and the frontal band.",
+      "Once scarred, the goal is halt progression, not regrowth."
+     ]
+    }
+   ],
+   "short": "Pearls"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Scarring alopecia overview?",
+   "a": "Shiny bald patch without follicular openings, often with itch, burning, perifollicular scale or pustules at the active edge."
+  },
+  {
+   "q": "What drives it?",
+   "a": "Inflammation destroys the stem-cell bulge → fibrosis replaces the follicle."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "Photograph, swab/mycology if pus or scale, baseline bloods, Advice & Guidance / urgent dermatology — do not watch and wait for “AA to regrow”."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "Scarring alopecia is irreversible once established. Also refer non-healing nodules on bald scalp via suspected-cancer pathways."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "Any loss of ostia, symptomatic inflamed edge, FFA pattern, CCCA pattern, lupus features, kerion, or uncertain “AA that will not regrow”."
+  }
+ ],
+ "references": [],
+ "see_also": []
+}

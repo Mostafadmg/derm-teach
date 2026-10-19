@@ -1,0 +1,43 @@
+{
+ "_auto": true,
+ "glance": {
+  "chips": [
+   "Module 2 · Week 1",
+   "milia",
+   "milium",
+   "milk spots"
+  ],
+  "points": []
+ },
+ "cause": {
+  "points": [],
+  "visuals": []
+ },
+ "features": {
+  "photo": null,
+  "points": [
+   "Firm, pearly **white or yellow** dome papules, 1–2 mm.",
+   "Face (eyelids, cheeks, nose) in primary milia; at sites of previous blisters or scars in secondary milia (e.g. hands in porphyria cutanea tarda or epidermolysis bullosa).",
+   "Neonatal milia: nose and cheeks; resolve within weeks."
+  ],
+  "visuals": [],
+  "variants": null,
+  "groups": [
+   0
+  ]
+ },
+ "confirm": {
+  "cols": []
+ },
+ "differentials": {
+  "cards": []
+ },
+ "manage": {
+  "rungs": []
+ },
+ "refer": {
+  "items": []
+ },
+ "pearls": [],
+ "quiz": []
+}

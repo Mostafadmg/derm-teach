@@ -1,0 +1,128 @@
+{
+ "slug": "keloids-hypertrophic-scars",
+ "title": "Keloids and hypertrophic scars",
+ "category": "cosmetic-hair",
+ "status": "published",
+ "order": 2,
+ "module": "Module 6 · Week 6",
+ "aka": [
+  "keloid",
+  "hypertrophic scar",
+  "raised scar",
+  "silicone gel",
+  "intralesional steroid"
+ ],
+ "summary": "Raised scars from excess collagen: hypertrophic scars stay within the wound and often settle; keloids spread beyond it, persist and recur after excision. Silicone and steroid first; procedures are specialist.",
+ "card_image": "m6w6:J01",
+ "sections": {
+  "what": [
+   "A **hypertrophic scar** is a raised scar that stays **within** the original wound and often improves over 1–2 years. A **keloid** is firm scar tissue that grows **beyond** the original wound border, persists and often recurs after excision."
+  ],
+  "cause": [
+   {
+    "list": [
+     "Excess collagen production with reduced breakdown during wound healing.",
+     "Triggers: acne, piercing, surgery (especially under tension), burns, vaccination, minor trauma.",
+     "**Keloids** are much more common in **skin of colour** and run in families."
+    ]
+   }
+  ],
+  "features": [
+   {
+    "table": {
+     "head": [
+      "",
+      "Hypertrophic scar",
+      "Keloid"
+     ],
+     "rows": [
+      [
+       "Border",
+       "Stays within the wound",
+       "Extends **beyond** the wound"
+      ],
+      [
+       "Onset",
+       "Weeks after injury",
+       "Months, may keep growing"
+      ],
+      [
+       "Course",
+       "Often flattens over 1–2 years",
+       "Persists; **high recurrence** after excision"
+      ],
+      [
+       "Sites",
+       "Anywhere, under tension",
+       "Earlobes, jawline, chest, shoulders, upper back"
+      ]
+     ]
+    }
+   },
+   "Keloids may itch or hurt."
+  ],
+  "diagnosis": [
+   "Clinical. Biopsy only for an atypical, rapidly growing or ulcerated ‘keloid’ (exclude dermatofibrosarcoma protuberans or other tumour)."
+  ],
+  "differentials": [
+   {
+    "table": {
+     "head": [
+      "Look-alike",
+      "Distinguishing clues"
+     ],
+     "rows": [
+      [
+       "[Dermatofibroma](condition:dermatofibroma)",
+       "Small firm papule, dimple sign"
+      ],
+      [
+       "[DFSP](condition:dermatofibrosarcoma-protuberans)",
+       "Slowly enlarging plaque without a clear injury: biopsy"
+      ],
+      [
+       "Sarcoidosis in a scar",
+       "Purple papules in old scars; systemic signs"
+      ]
+     ]
+    }
+   }
+  ],
+  "management": [
+   {
+    "list": [
+     "Prevention: avoid elective procedures (piercing, cosmetic surgery) on keloid-prone sites in people with a keloid history.",
+     "**Silicone gel or sheet** (OTC) for months, not weeks; pressure (earlobe pressure clips).",
+     "Potent topical steroid under occlusion for early raised scars.",
+     "Specialist: **intralesional steroid**, cryotherapy, pulsed dye laser, careful excision with adjuvant therapy (**high recurrence** after excision alone)."
+    ]
+   },
+   "Explain that the aim is **improvement, not removal**."
+  ],
+  "red_flags": [
+   "A rapidly growing or atypical ‘keloid’: exclude a tumour.",
+   "Keloid tendency or skin of colour before elective procedures: experienced operator only."
+  ],
+  "pearls": [
+   "Keloids extend beyond the wound; hypertrophic scars do not.",
+   "OTC silicone gel is a reasonable first step for early raised scars: months, not weeks."
+  ]
+ },
+ "photos": [
+  {
+   "title": "Keloid and hypertrophic scars",
+   "items": [
+    "m6w6:J01",
+    "m6w6:J02",
+    "m6w6:J03",
+    "m6w6:J04"
+   ]
+  }
+ ],
+ "references": [
+  {
+   "label": "DermNet: Keloid and hypertrophic scar",
+   "url": "https://dermnetnz.org/topics/keloid-and-hypertrophic-scar"
+  }
+ ]
+}

@@ -1,0 +1,99 @@
+{
+ "slug": "port-wine-stain",
+ "title": "Port-wine stain (capillary malformation)",
+ "category": "childhood-neonatal",
+ "status": "published",
+ "order": 5,
+ "module": "Module 6 · Week 1",
+ "aka": [
+  "port-wine stain",
+  "capillary malformation",
+  "naevus flammeus",
+  "Sturge-Weber",
+  "Klippel-Trénaunay",
+  "vascular birthmark"
+ ],
+ "summary": "A flat red or purple capillary malformation present at birth that grows with the child and never involutes. Facial V1 stains need assessment for Sturge–Weber syndrome; pulsed dye laser is specialist.",
+ "card_image": "m6w1:G16",
+ "sections": {
+  "what": [
+   "A **port-wine stain (PWS)** is a **capillary malformation**: present at birth as a flat red or purple patch, it **grows in proportion with the child**, may darken and thicken with age, and **never involutes**. It affects about **0.3%** of newborns."
+  ],
+  "cause": [
+   "Dilated, malformed dermal capillaries, usually from a **somatic mosaic GNAQ** mutation; reduced nerve supply to the vessels lets them dilate progressively."
+  ],
+  "features": [
+   {
+    "list": [
+     "Flat, well-demarcated pink, red or purple patch, often unilateral and following a dermatome-like segment.",
+     "With age: darker colour, thickening and **cobblestone** nodules (vascular blebs), soft-tissue overgrowth.",
+     "Blanches partly on pressure; does not grow out of proportion."
+    ]
+   }
+  ],
+  "diagnosis": [
+   "Clinical. MRI brain and eye review for facial V1 stains (Sturge–Weber); limb imaging and leg-length check for limb stains with overgrowth."
+  ],
+  "differentials": [
+   {
+    "table": {
+     "head": [
+      "Look-alike",
+      "Distinguishing clues"
+     ],
+     "rows": [
+      [
+       "**Salmon patch** (naevus simplex)",
+       "Pale pink, midline (nape, glabella, eyelids); fades in the first years"
+      ],
+      [
+       "**Infantile haemangioma** (see [Infantile haemangioma](condition:infantile-haemangioma))",
+       "Absent or faint at birth, then rapid growth and involution"
+      ],
+      [
+       "Venous malformation",
+       "Blue, compressible, swells when dependent"
+      ]
+     ]
+    }
+   }
+  ],
+  "management": [
+   {
+    "list": [
+     "Reassure for small, uncomplicated stains; camouflage cosmetics.",
+     "**Pulsed dye laser** is specialist, and earlier childhood referral is often preferred.",
+     "**Facial PWS in the V1 distribution: consider Sturge–Weber** (neurology and ophthalmology for glaucoma and seizures).",
+     "**Limb PWS with overgrowth: consider Klippel–Trénaunay** and related syndromes."
+    ]
+   }
+  ],
+  "red_flags": [
+   "Facial segmental port-wine stain with eye or neurological symptoms (seizures, glaucoma).",
+   "Limb asymmetry or overgrowth."
+  ],
+  "pearls": [
+   "A malformation is not a tumour: be clear with parents whether it is a PWS or a haemangioma.",
+   "PWS does not fade; salmon patches do."
+  ]
+ },
+ "photos": [
+  {
+   "title": "Port-wine stain (capillary malformation)",
+   "items": [
+    "m6w1:G16",
+    "m6w1:G17"
+   ]
+  }
+ ],
+ "references": [
+  {
+   "label": "DermNet: Capillary vascular malformation",
+   "url": "https://dermnetnz.org/topics/capillary-vascular-malformation"
+  },
+  {
+   "label": "BAD PIL: Port wine stains",
+   "url": "https://www.bad.org.uk/pils/port-wine-stains/"
+  }
+ ]
+}

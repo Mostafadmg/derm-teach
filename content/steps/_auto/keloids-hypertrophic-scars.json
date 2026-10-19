@@ -1,0 +1,82 @@
+{
+ "_auto": true,
+ "glance": {
+  "chips": [
+   "Module 6 · Week 6",
+   "keloid",
+   "hypertrophic scar",
+   "raised scar"
+  ],
+  "points": []
+ },
+ "cause": {
+  "points": [
+   "Excess collagen production with reduced breakdown during wound healing.",
+   "Triggers: acne, piercing, surgery (especially under tension), burns, vaccination, minor trauma.",
+   "**Keloids** are much more common in **skin of colour** and run in families."
+  ],
+  "visuals": []
+ },
+ "features": {
+  "photo": "m6w6:J01",
+  "points": [],
+  "visuals": [],
+  "variants": null,
+  "groups": [
+   0
+  ]
+ },
+ "confirm": {
+  "cols": []
+ },
+ "differentials": {
+  "cards": [
+   {
+    "name": "Dermatofibroma",
+    "clue": "Small firm papule, dimple sign",
+    "link": "dermatofibroma"
+   },
+   {
+    "name": "DFSP",
+    "clue": "Slowly enlarging plaque without a clear injury: biopsy",
+    "link": "dermatofibrosarcoma-protuberans"
+   },
+   {
+    "name": "Sarcoidosis in a scar",
+    "clue": "Purple papules in old scars; systemic signs",
+    "link": "erythema-nodosum"
+   }
+  ]
+ },
+ "manage": {
+  "rungs": []
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "routine",
+    "t": "A rapidly growing or atypical ‘keloid’: exclude a tumour."
+   },
+   {
+    "when": "routine",
+    "t": "Keloid tendency or skin of colour before elective procedures: experienced operator only."
+   }
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "Keloids extend beyond the wound; hypertrophic scars do not."
+  },
+  {
+   "icon": "bulb",
+   "t": "OTC silicone gel is a reasonable first step for early raised scars: months, not weeks."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "A rapidly growing or atypical ‘keloid’: exclude a tumour."
+  }
+ ]
+}

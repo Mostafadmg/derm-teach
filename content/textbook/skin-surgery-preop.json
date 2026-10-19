@@ -1,0 +1,439 @@
+{
+ "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
+ "key_facts": [
+  "A patient booked for an excision, curettage or biopsy, especially on anticoagulants, antiplatelets or with a pacemaker or valve.",
+  "Bleeding, infection, poor healing and device interference are mostly predictable from the medicine list and history.",
+  "Continue antiplatelets and warfarin (INR under 3.5) and, for most procedures, DOACs (BSDS 2023); no routine endocarditis prophylaxis (NICE CG64); bipolar diathermy or cautery near devices.",
+  "Stopping anticoagulants in high thrombotic-risk patients; stopping DAPT after a recent stent; unchecked INR."
+ ],
+ "sections": [
+  {
+   "id": "overview",
+   "title": "Overview",
+   "blocks": [
+    "A structured check that the procedure is **indicated, funded, safe and wanted**. It happens before any skin surgery, however minor.",
+    {
+     "h4": "Antithrombotics (BSDS 2023)"
+    },
+    "Guidance on whether to **continue, adjust or (rarely) pause** antithrombotics for dermatological surgery. The guiding principle is that **thrombotic harm from stopping usually outweighs bleeding harm from continuing**."
+   ]
+  },
+  {
+   "id": "clinical-features",
+   "title": "Clinical features",
+   "blocks": [
+    {
+     "h": "Why it matters"
+    },
+    "Most complications of minor skin surgery are predictable from patient factors: bleeding (antithrombotics), infection (site, diabetes), poor healing (smoking, steroids, the lower leg), bad scars (keloid tendency, site), and allergy.",
+    {
+     "h": "Checklist (teaching version)"
+    },
+    {
+     "table": {
+      "head": [
+       "Domain",
+       "Ask / check",
+       "Why"
+      ],
+      "rows": [
+       [
+        "**Indication**",
+        "Diagnosis? Is removal needed (symptomatic, diagnostic doubt) or cosmetic?",
+        "NHS EBI/local policies restrict removal of benign lesions. [Case 1](condition:skin-surgery-preop) (**painful** DF) may qualify on symptoms"
+       ],
+       [
+        "Medical history",
+        "Cardiac disease (recent MI/ACS, stents, valves, **pacemaker/ICD**), bleeding disorders, diabetes, immunosuppression, epilepsy, pregnancy, blood-borne viruses",
+        "Haemostasis method, infection risk, timing"
+       ],
+       [
+        "**Medicines**",
+        "**Anticoagulants/antiplatelets** (see *Antithrombotics and skin surgery*), **β-blockers**, TCAs/MAOIs, steroids, immunosuppressants, isotretinoin (old advice to delay surgery is no longer strict; individualise), SSRIs (bleeding), supplements (fish oil, ginkgo, garlic, vitamin E)",
+        "Bleeding, LA safety, healing"
+       ],
+       [
+        "**Allergies**",
+        "**Latex**, **LA** (true allergy rare), **chlorhexidine**, iodine/povidone, **adhesive dressings**, antibiotics, **parabens/sulfites**",
+        "see *Allergy: latex, chlorhexidine, LA/parabens; anaphylaxis*"
+       ],
+       [
+        "Scarring history",
+        "Keloids or hypertrophic scars (self or family), skin of colour, site (chest, shoulder, earlobe, upper back)",
+        "Consent; site choice"
+       ],
+       [
+        "Lifestyle",
+        "**Smoking** (healing), occupation and sport, travel, ability to keep the wound dry",
+        "Aftercare planning"
+       ],
+       [
+        "Capacity and consent",
+        "MCA 2005 where relevant (the [skin cancer](condition:basal-cell-carcinoma) notes see *Antithrombotics and skin surgery*)",
+        "—"
+       ],
+       [
+        "Weight",
+        "Needed for weight-based LA dosing; **use ideal body weight in obesity**",
+        "see *Local anaesthetics: doses, adrenaline, toxicity, alternatives and topical agents*"
+       ]
+      ]
+     }
+    },
+    {
+     "h": "How to assess"
+    },
+    "History, medication reconciliation (including OTC and herbal products), allergy history with the reaction type, and examination of the site and regional nodes (if the lesion could be malignant).",
+    {
+     "h": "\"Defer or redirect\" situations"
+    },
+    {
+     "table": {
+      "head": [
+       "Situation",
+       "Action"
+      ],
+      "rows": [
+       [
+        "**Suspected melanoma**",
+        "Refer to the skin cancer team. **No primary-care excision** (IOG)"
+       ],
+       [
+        "Suspected high-risk BCC/SCC",
+        "Refer (the [skin cancer](condition:basal-cell-carcinoma) notes see *Procedures at knowledge level*)"
+       ],
+       [
+        "Lesion purely cosmetic",
+        "Usually not NHS-funded"
+       ],
+       [
+        "Recent ACS, stent within 12 months on DAPT, unstable cardiac disease",
+        "Discuss timing. **Never stop DAPT without cardiology input**"
+       ],
+       [
+        "INR above the threshold (see *Antithrombotics and skin surgery*)",
+        "Postpone; liaise with the anticoagulation service"
+       ],
+       [
+        "Pregnancy",
+        "Defer elective procedures if possible. Lidocaine is generally considered acceptable for necessary procedures"
+       ]
+      ]
+     }
+    },
+    {
+     "h": "Antithrombotics (BSDS 2023)"
+    },
+    {
+     "h": "Evidence"
+    },
+    "Stopping warfarin or antiplatelets for skin surgery has been associated with strokes, emboli and deaths. Bleeding complications on continued therapy are mostly minor and manageable (pressure, haemostasis, dressings).",
+    {
+     "h": "Recommendations (teaching summary; check the full BSDS document)"
+    },
+    {
+     "table": {
+      "head": [
+       "Drug",
+       "BSDS 2023 approach (summary)"
+      ],
+      "rows": [
+       [
+        "**Aspirin, clopidogrel and other antiplatelets** (including DAPT)",
+        "**Continue.** Stopping DAPT after a recent stent risks stent thrombosis"
+       ],
+       [
+        "**Warfarin**",
+        "**Continue.** Check the **INR before surgery (on the day or within ~72 h)**. **Proceed if INR <3.5** for most procedures. For higher-bleeding-risk procedures (large flaps/grafts), aim for the **lower end of the patient's therapeutic range**, liaising with the anticoagulation clinic"
+       ],
+       [
+        "**DOACs** (apixaban, rivaroxaban, edoxaban, dabigatran)",
+        "**Continue for most procedures.** For **high-bleeding-risk procedures in patients at lower thrombotic risk**, consider omitting the DOAC **24 h before** (**48 h if eGFR <50**, especially dabigatran) and restarting **~24 h after** once haemostasis is secure. Timing relative to a once-daily dose (e.g. schedule surgery before the next dose) is a practical alternative"
+       ],
+       [
+        "LMWH",
+        "Individualise. Often omit the dose on the morning of surgery (specialist/anticoagulation team)"
+       ],
+       [
+        "**Highest thrombotic risk** (do not interrupt without specialist advice)",
+        "**Valvular AF / mechanical valves**, **VTE within 3 months**, **CHA₂DS₂-VASc ≥5**, recent stroke/TIA, recent coronary stent"
+       ],
+       [
+        "Platelet count",
+        "Generally **>50 × 10⁹/L** for most skin procedures"
+       ]
+      ]
+     }
+    },
+    "[Case 1](condition:skin-surgery-preop) (warfarin for AF; small excision of an arm DF): **continue warfarin; check the INR (on the day, per course teaching, or within 72 h per local policy); proceed if <3.5**. Meticulous haemostasis; pressure dressing.",
+    {
+     "h": "How to check"
+    },
+    "INR from the anticoagulation clinic or point-of-care testing. Renal function (eGFR/CrCl) for DOAC timing. Recent FBC if there is a bleeding history.",
+    {
+     "h": "Pitfalls"
+    },
+    {
+     "ul": [
+      "\"Bridging\" with LMWH for minor skin surgery is **not** needed and increases bleeding.",
+      "Patients often stop aspirin themselves \"to be safe\". Tell them **not to**."
+     ]
+    },
+    {
+     "h": "Antibiotic prophylaxis and cardiac devices"
+    },
+    {
+     "h": "Infective endocarditis"
+    },
+    {
+     "ul": [
+      "**NICE CG64 (updated 2016):** **antibiotic prophylaxis against infective endocarditis is not recommended routinely** for people at risk (including those with prosthetic valves or previous endocarditis) undergoing dental, GI, GU, respiratory or other interventional procedures. This includes skin surgery.",
+      "If the procedure is at a site of **established infection**, treat the infection with an antibiotic that covers organisms causing endocarditis (CG64 principle).",
+      "The **SDCEP/ESC** positions differ for dentistry in high-risk patients (ESC 2023 still recommends prophylaxis for high-risk dental procedures), but **NICE CG64 is the England standard**. Individual cardiology advice can be sought for the highest-risk patients."
+     ]
+    },
+    {
+     "h": "Surgical site infection prophylaxis"
+    },
+    {
+     "ul": [
+      "**Clean skin surgery** (most minor procedures): **no routine antibiotic prophylaxis** (NICE NG125: do not use routinely for clean, non-prosthetic, uncomplicated surgery).",
+      "Specialists may consider prophylaxis in **selected higher-risk situations**: procedures **below the knee**, groin, **wedge excisions of the lip or ear**, nasal flaps and grafts, and **inflamed or ulcerated lesions with clinical infection**. The decision should be individual, ideally a **single pre-operative dose** rather than a week-long course.",
+      "The course **\"1 week of prophylaxis for ulcerated lesions\"** is **not standard UK practice** (stewardship; adverse effects; *C. difficile*). Treat established infection instead (see *Aftercare: sutures, return to work and sport, infection and scars*)."
+     ]
+    },
+    {
+     "h": "Pacemakers and ICDs"
+    },
+    {
+     "ul": [
+      "Electrosurgery current can interfere with devices: inhibited pacing, inappropriate shocks, or reprogramming.",
+      "**Preferred:** **electrocautery (heated wire; no current through the patient)** or **bipolar diathermy** (current confined between the forceps tips), in **short bursts (<5 s)**, at the **lowest power**, **away from the device** (>15 cm).",
+      "**Avoid monopolar** diathermy near the device. With an **ICD**, follow the **BSDS cardiac devices flowchart**: contact the cardiac physiology team about **suspending tachytherapy** if monopolar diathermy is essential, and have monitoring and a defibrillator available.",
+      "Ask about devices at pre-assessment (see *Pre-operative assessment: patient factors*)."
+     ]
+    },
+    {
+     "h": "Other cardiac points"
+    },
+    {
+     "ul": [
+      "**Recent MI** (course teaching: \"defer for 6 months\"): elective procedures are usually deferred after ACS, but a short procedure under LA is low risk. Timing is individual, and **cancer surgery should not be delayed** unnecessarily. **Never stop DAPT** after a stent without cardiology input.",
+      "**Uncontrolled hypertension:** check BP before surgery (adrenaline; bleeding)."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "management",
+   "title": "Management",
+   "blocks": [
+    "Lead the **medicines and allergy** part of the assessment: produce a clear pre-op medicines plan, including the antithrombotic plan, which β-blocker the patient takes, and the allergy list with reaction type.",
+    {
+     "h": "Antithrombotics (BSDS 2023)"
+    },
+    {
+     "ul": [
+      "Write a **clear peri-operative antithrombotic plan** in the record and give it to the patient (date of surgery, doses to take or omit, restart time).",
+      "**Post-operative analgesia:** **paracetamol first-line**. Avoid NSAIDs (and aspirin as an analgesic) in anticoagulated patients.",
+      "**Post-operative antibiotics in warfarin patients:** many antibiotics raise the INR (clarithromycin, erythromycin, metronidazole, co-trimoxazole, fluoroquinolones, doxycycline) or lower it (rifampicin; flucloxacillin can reduce it). **Check the INR within 3–5 days** if starting an interacting antibiotic, and inform the anticoagulation service.",
+      "DOAC interactions: clarithromycin raises levels (P-gp/CYP3A4); rifampicin lowers them."
+     ]
+    },
+    {
+     "h": "Antibiotic prophylaxis and cardiac devices"
+    },
+    "Answer the \"do I need antibiotics, I have a heart valve?\" question with **CG64**: no routine prophylaxis. Advise good oral hygiene and prompt treatment of infections, and tell the patient to seek medical advice for symptoms of endocarditis (fever, night sweats, new murmur, weight loss).",
+    {
+     "h": "Worked cases"
+    },
+    {
+     "h": "Case 1: 54-year-old, painful arm DF; warfarin for AF; latex allergy; 60 kg"
+    },
+    {
+     "ul": [
+      "**Is removal indicated?** Yes. It is **symptomatic (painful)**, which meets most commissioning criteria. An elliptical excision along RSTL with histology (the DF diagnosis is confirmed and variants excluded).",
+      "**Warfarin:** **continue**; check the INR on the day (or within 72 h, per local policy); **proceed if INR <3.5** (BSDS 2023); meticulous haemostasis, a pressure dressing, and paracetamol for pain (no NSAIDs); check the INR if an interacting antibiotic is started",
+      "**Latex allergy:** first on the list, a latex-free room and kit, an anaphylaxis kit ready (IM adrenaline 500 micrograms of 1 mg/ml), and allergy documented. Check the chlorhexidine allergy status too.",
+      "**Consent (material risks):** bleeding/haematoma (higher on warfarin); infection; scar (≈3× lesion length; hypertrophic/keloid on the arm/shoulder); wound dehiscence; numbness/nerve injury; recurrence; histology result"
+     ]
+    },
+    "Alternatives: leave it, or analgesia.",
+    {
+     "ul": [
+      "**LA maximum (lidocaine with adrenaline, teaching):** 7 mg/kg × 60 kg = **420 mg = 21 ml of 2%** (the course \"~20 ml\"), within the BNF absolute maximum of **500 mg**. **Plain** lidocaine: BNF maximum **200 mg** (≈3 mg/kg = 180 mg = 9 ml of 2%). In practice, a few ml suffices.",
+      "**Adrenaline:** acceptable unless the patient is on a **non-selective β-blocker** such as propranolol or sotalol. Rate control in AF is often with bisoprolol, which is cardioselective and lower risk, so check which β-blocker they take. Use caution in Raynaud's."
+     ]
+    },
+    {
+     "h": "Case 2: 21-year-old builder/footballer, 9 mm bleeding PG on the posterior neck"
+    },
+    {
+     "ul": [
+      "**Diagnosis:** pyogenic granuloma (lobular capillary haemangioma). Exclude amelanotic melanoma, so **histology is mandatory**.",
+      "**Treatment:** **curettage and cautery** (shave/curette and cauterise the base) under LA, with the specimen to histology. Excision with layered closure is reserved for recurrence (deep absorbable plus surface nylon, as course teaching described).",
+      "**Aftercare:** keep dry and covered for 24–48 h; petroleum jelly; **no football, heavy lifting or contact sport for ~2 weeks**; **1–2 weeks of light duties** (fit note with adjustments); neck sutures (if used) out at 7–10 days; return if bleeding or infection; recurrence is possible (up to 15%)",
+      "**Anatomy:** posterior triangle, so the spinal accessory nerve is superficial. Superficial C&C is safe; deeper excision needs care."
+     ]
+    },
+    {
+     "h": "Case 3: see the melanoma teledermatology case"
+    },
+    "See the [melanoma](condition:melanoma) notes. In brief: Breslow 1.4 mm ulcerated = T2b, stage IIA if N0, ~93–94% 5-year MSS; WLE 2 cm; consider SLNB; no adjuvant at IIA.",
+    {
+     "h": "Referral"
+    },
+    {
+     "refer": [
+      {
+       "when": "never",
+       "t": "Do not stop anticoagulants without specialist advice in **mechanical valves, recent VTE (3 months), recent stroke/TIA or recent stent**."
+      },
+      {
+       "when": "routine",
+       "t": "Warfarin: check the INR before surgery; proceed for most procedures if **INR <3.5** (BSDS 2023)."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "red-flags",
+   "title": "Red flags and when to refer",
+   "blocks": [
+    {
+     "ul": [
+      "Do not stop anticoagulants without specialist advice in **mechanical valves, recent VTE (3 months), recent stroke/TIA or recent stent**.",
+      "Warfarin: check the INR before surgery; proceed for most procedures if **INR <3.5** (BSDS 2023)."
+     ]
+    }
+   ],
+   "short": "Red flags"
+  },
+  {
+   "id": "pearls",
+   "title": "Prescriber pearls (UK pharmacist IP)",
+   "blocks": [
+    {
+     "pearls": [
+      "Ask \"**Do you or your family form thick or raised scars?**\" Keloid-prone patients need to be told before surgery on high-risk sites.",
+      "Bleeding first aid after surgery: **firm continuous pressure for 20 minutes by the clock** with a clean pad, sitting upright, without peeking. If bleeding persists, or there is a rapidly expanding, tense, painful swelling (haematoma), seek same-day review.",
+      "Patients with valves may have been told \"antibiotics before the dentist\" in the past (pre-2008 practice). Explain the change and its basis (resistance and anaphylaxis risk outweighed unproven benefit)."
+     ]
+    },
+    {
+     "h": "Antithrombotics (BSDS 2023)"
+    },
+    {
+     "h": "Antibiotic prophylaxis and cardiac devices"
+    },
+    {
+     "h": "Where course teaching differs from UK guidance"
+    },
+    {
+     "table": {
+      "head": [
+       "Topic",
+       "Course teaching",
+       "UK guidance / practice",
+       "Teaching point"
+      ],
+      "rows": [
+       [
+        "DOACs",
+        "Stop 1–2 days before surgery",
+        "**BSDS 2023: continue for most procedures.** Omit 24 h (48 h if eGFR <50) only for high-bleeding-risk procedures in lower-thrombotic-risk patients; restart ~24 h after",
+        "Most skin surgery proceeds on DOACs"
+       ],
+       [
+        "Warfarin INR",
+        "Check on the day, proceed if <3.5",
+        "BSDS: INR <3.5 (check on the day or within 72 h)",
+        "Aligned"
+       ],
+       [
+        "Antibiotic prophylaxis for ulcerated lesions",
+        "1 week",
+        "Not routine (NICE NG125, stewardship). Consider a single dose in selected high-risk sites/situations. Treat established infection",
+        "—"
+       ],
+       [
+        "Endocarditis prophylaxis (valves)",
+        "",
+        "**NICE CG64: not recommended routinely**",
+        "ESC/SDCEP differ for dental procedures in high-risk patients"
+       ],
+       [
+        "Defer surgery 6 months after MI",
+        "6 months",
+        "Individualise. Elective procedures are deferred after ACS, but minor LA surgery is low risk. Never stop DAPT without cardiology input",
+        "Don't delay cancer surgery unnecessarily"
+       ],
+       [
+        "Adrenaline in ring/digital blocks",
+        "Avoid",
+        "Evidence supports dilute adrenaline as safe in healthy digits. Avoid in Raynaud's/PVD. **Follow local policy**",
+        "Changing practice"
+       ],
+       [
+        "Lidocaine maximum",
+        "7 mg/kg with adrenaline (20 ml 2% for 60 kg)",
+        "**BNF: 200 mg plain; 500 mg with adrenaline (adult)**; ideal body weight in obesity; reduce in frail, hepatic or cardiac patients",
+        "Know both conventions; never exceed the BNF absolute maximum"
+       ],
+       [
+        "Adrenaline 1:80,000",
+        "Stated",
+        "A dental cartridge strength. 1:200,000 is more usual for skin surgery",
+        "Concentration ≠ maximum dose"
+       ],
+       [
+        "Anaphylaxis",
+        "IM adrenaline 500 micrograms",
+        "RCUK 2021: repeat after 5 min; antihistamines/steroids not first-line",
+        "Aligned + update"
+       ],
+       [
+        "Skin prep",
+        "",
+        "Alcohol preps must dry before diathermy (fire); avoid chlorhexidine near eyes/ears",
+        "—"
+       ],
+       [
+        "Operative technique in course discussion",
+        "Detailed technique",
+        "**this page keeps it at knowledge level**",
+        "Skills need supervised training/credentialing"
+       ]
+      ]
+     }
+    }
+   ],
+   "short": "Pearls"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Skin surgery: pre-operative checks, anticoagulants & cardiac devices?",
+   "a": "A patient booked for an excision, curettage or biopsy, especially on anticoagulants, antiplatelets or with a pacemaker or valve."
+  },
+  {
+   "q": "What drives it?",
+   "a": "Bleeding, infection, poor healing and device interference are mostly predictable from the medicine list and history."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "Continue antiplatelets and warfarin (INR under 3.5) and, for most procedures, DOACs (BSDS 2023); no routine endocarditis prophylaxis (NICE CG64); bipolar diathermy or cautery near devices."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "Stopping anticoagulants in high thrombotic-risk patients; stopping DAPT after a recent stent; unchecked INR."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "Do not stop anticoagulants without specialist advice in **mechanical valves, recent VTE (3 months), recent stroke/TIA or recent stent**."
+  }
+ ],
+ "references": [],
+ "see_also": []
+}

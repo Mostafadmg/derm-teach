@@ -1,0 +1,291 @@
+{
+ "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
+ "key_facts": [
+  "Consenting, or answering a patient’s questions about the risks of minor skin surgery.",
+  "Tension, site, infection, bleeding and nerve anatomy drive most complications.",
+  "Montgomery consent covering material risks; know the danger zones (temporal and marginal mandibular branches of the facial nerve, accessory nerve); label specimens at the bedside; run a histology fail-safe log.",
+  "Nerve injury in danger zones; lost or unlabelled specimens; missed malignant histology without a fail-safe."
+ ],
+ "sections": [
+  {
+   "id": "overview",
+   "title": "Overview",
+   "blocks": [
+    "Valid consent in the UK is **informed, voluntary and given by a person with capacity**. Under **Montgomery v Lanarkshire* (2015)** and the **GMC *Decision making and consent* (2020)**, clinicians must discuss **material risks**: those a reasonable person in the patient's position would consider significant, or that this particular patient would. They must also discuss reasonable alternatives, including **doing nothing**."
+   ]
+  },
+  {
+   "id": "clinical-features",
+   "title": "Clinical features",
+   "blocks": [
+    {
+     "h": "Why complications happen"
+    },
+    "Bleeding (vascular site, antithrombotics), infection (contamination, site, host), tension (dehiscence, stretched scar), genetics (keloid), and anatomy (superficial nerves).",
+    {
+     "h": "Complications to discuss"
+    },
+    {
+     "table": {
+      "head": [
+       "Complication",
+       "Notes",
+       "Photo"
+      ],
+      "rows": [
+       [
+        "**Bleeding / haematoma**",
+        "Higher on antithrombotics. Pressure first aid (see *Antithrombotics and skin surgery*). An expanding haematoma needs review",
+        "—"
+       ],
+       [
+        "**Infection**",
+        "~1–3% overall; higher on the **lower leg, groin, axilla**, with diabetes, smoking, immunosuppression",
+        "—"
+       ],
+       [
+        "**Wound dehiscence**",
+        "Tension, infection, haematoma, early exertion (sport and lifting in [Case 2](condition:skin-surgery-preop)), smoking",
+        ""
+       ],
+       [
+        "**Scar** (always)",
+        "A line scar about **three times the lesion length** for an ellipse; **hypertrophic** (within the wound), **keloid** (beyond it), **stretched/atrophic** (back, shoulders), pigment change, \"dog ears\"",
+        ","
+       ],
+       [
+        "**Nerve damage**",
+        "Numbness around the scar is common and often improves. **Motor nerve injury** is rare but serious (danger zones, below)",
+        "—"
+       ],
+       [
+        "Pain",
+        "Usually mild; paracetamol",
+        "—"
+       ],
+       [
+        "Recurrence / incomplete excision",
+        "DF, cysts, lipomas, BCC; may need further surgery",
+        ""
+       ],
+       [
+        "Allergy / LA reactions",
+        "",
+        "—"
+       ],
+       [
+        "Histology surprise",
+        "The diagnosis may differ from the clinical one",
+        "—"
+       ]
+      ]
+     }
+    },
+    {
+     "h": "Anatomical danger zones"
+    },
+    "Knowledge for consent and referral decisions. These are **areas where motor nerves or key structures are superficial**:",
+    {
+     "table": {
+      "head": [
+       "Zone",
+       "Structure at risk",
+       "Consequence"
+      ],
+      "rows": [
+       [
+        "**Temple, over the zygomatic arch**",
+        "**Temporal (frontal) branch of the facial nerve** (lies just under the SMAS/temporoparietal fascia)",
+        "Brow droop; unable to raise the eyebrow"
+       ],
+       [
+        "**Along the mandible, anterior to masseter**",
+        "**Marginal mandibular branch of the facial nerve**",
+        "Asymmetric smile (lower lip weakness)"
+       ],
+       [
+        "**Posterior triangle of the neck (around Erb's point, mid-sternocleidomastoid)**",
+        "**Spinal accessory nerve (CN XI)** (very superficial)",
+        "Trapezius weakness, shoulder droop, pain. **Relevant to [Case 2](condition:skin-surgery-preop) (posterior neck)**: superficial C&C of a PG is safe, but deeper excisions need care"
+       ],
+       [
+        "Great auricular nerve (behind the ear, crossing SCM)",
+        "Sensory",
+        "Numb earlobe"
+       ],
+       [
+        "Cheek (a line from the tragus to the mid-upper lip)",
+        "**Parotid duct** and buccal branches",
+        "Sialocele/fistula; weakness"
+       ],
+       [
+        "Supraorbital and supratrochlear foramina",
+        "Sensory",
+        "Forehead/scalp numbness"
+       ],
+       [
+        "**Lateral fibular head**",
+        "Common peroneal nerve",
+        "Foot drop"
+       ],
+       [
+        "Digits",
+        "Digital nerves and vessels (lateral)",
+        "Numbness; ischaemia"
+       ],
+       [
+        "Eyelid margin, lip vermilion, nasal ala, ear helix",
+        "Free margins",
+        "Distortion (ectropion, notching): refer to a specialist"
+       ]
+      ]
+     }
+    },
+    {
+     "h": "Room, skin preparation and specimen handling"
+    },
+    {
+     "h": "Room and PPE"
+    },
+    {
+     "ul": [
+      "Minor skin surgery in primary care takes place in a clean treatment room meeting **CQC and local infection prevention standards**: washable surfaces, good lighting, an adjustable couch, a sharps bin, clinical waste, resuscitation equipment (anaphylaxis kit, AED access), and hand hygiene facilities.",
+      "**Aseptic non-touch technique (ANTT)**, sterile gloves for excisions, eye protection (splash/plume), and surgical masks.",
+      "**Surgical smoke** from electrosurgery contains particulates and may carry viable HPV. **Use smoke evacuation** for diathermy (NHS/HSE guidance) and FFP masks where indicated."
+     ]
+    },
+    {
+     "h": "Skin preparation"
+    },
+    {
+     "ul": [
+      "**Chlorhexidine 0.5% in 70% alcohol** (or 2% chlorhexidine in alcohol) or **povidone-iodine** (aqueous or alcoholic).",
+      "**Avoid chlorhexidine near the eyes** (keratitis) and **middle ear** (ototoxicity). Use aqueous povidone-iodine there.",
+      "**Fire risk:** **alcohol-based preps must dry completely** before electrosurgery or diathermy. Pooled alcohol in hair or drapes has caused burns (NPSA/MHRA alerts). Wait about 3 minutes, more on hairy skin.",
+      "Hair removal (if needed) by **clipping, not shaving** (NICE NG125)."
+     ]
+    },
+    {
+     "h": "Specimen handling"
+    },
+    {
+     "ul": [
+      "**Every excised specimen goes for histology**, as NICE IOG and good practice require. Do not discard specimens, even \"obvious\" SKs or PGs.",
+      "**Label the pot at the time** with **two patient identifiers**, the **site** (left/right, precise location) and the date. Use the **correct fixative** (10% neutral-buffered formalin, with about 10× the specimen volume). Use an **orientation suture** (e.g. \"suture at 12 o'clock\" or \"long suture = superior\") for malignancy excisions, so involved margins can be located.",
+      "The **request form** must carry clinical details: the provisional diagnosis, previous histology, immunosuppression, and the question being asked.",
+      "**Fail-safe:** keep a **minor surgery log** of all specimens, then check that every result has been **received, read, communicated to the patient and acted on**. Unexpected malignancy needs referral to the skin cancer MDT. This is a frequent root cause of patient-safety incidents."
+     ]
+    },
+    {
+     "h": "How to audit"
+    },
+    "Annual audit of histology concordance (clinical vs histological diagnosis), complete-excision rates for malignancies, infection rates, and patient satisfaction (IOG requirement for accredited GPs).",
+    {
+     "h": "Pitfalls"
+    },
+    "Unlabelled or mislabelled pots, missing request forms, results filed without action, and specimens lost in transport.",
+    {
+     "fig": {
+      "dermnet": "m2w6:C01"
+     }
+    }
+   ]
+  },
+  {
+   "id": "differentials",
+   "title": "Differential diagnoses",
+   "blocks": [
+    {
+     "h4": "(post-op)"
+    },
+    "Normal healing redness vs infection (spreading erythema, pain, pus, fever); haematoma vs seroma; contact dermatitis from dressings or antiseptics (itchy, square-edged rash) vs infection."
+   ],
+   "short": "Differentials"
+  },
+  {
+   "id": "management",
+   "title": "Management",
+   "blocks": [
+    {
+     "ul": [
+      "Support consent with **written information** (BAD/BSDS/PCDS leaflets) and **time to decide**. Document the material risks discussed and the alternatives (e.g. for a painful DF: leave alone, analgesia, or excision).",
+      "For complicated sites (eyelid margin, nose, lips, ears, danger zones) or high-risk patients, refer to dermatological surgery or plastics."
+     ]
+    },
+    {
+     "h": "Room, skin preparation and specimen handling"
+    },
+    "IPs can own the **results-tracking fail-safe** in a practice, and can check that **unexpected malignant histology** is referred within NG12 timeframes.",
+    {
+     "h": "Referral"
+    },
+    {
+     "refer": [
+      {
+       "when": "never",
+       "t": "Every specimen needs a **fail-safe** system so a malignant result is never missed."
+      },
+      {
+       "when": "routine",
+       "t": "Surgery over the temple, jawline or posterior triangle of the neck is a **danger zone**: specialist only."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "red-flags",
+   "title": "Red flags and when to refer",
+   "blocks": [
+    {
+     "ul": [
+      "Every specimen needs a **fail-safe** system so a malignant result is never missed.",
+      "Surgery over the temple, jawline or posterior triangle of the neck is a **danger zone**: specialist only."
+     ]
+    }
+   ],
+   "short": "Red flags"
+  },
+  {
+   "id": "pearls",
+   "title": "Prescriber pearls (UK pharmacist IP)",
+   "blocks": [
+    {
+     "pearls": [
+      "\"Every cut leaves a scar. The aim is a neat scar in a natural line, but we cannot guarantee how your skin heals.\"",
+      "Use the photos of the wound journey and complications to make the consent conversation concrete.",
+      "Tell patients when to expect results (often 2–6 weeks) and to **chase if they hear nothing**. \"No news is not good news.\""
+     ]
+    },
+    {
+     "h": "Room, skin preparation and specimen handling"
+    }
+   ],
+   "short": "Pearls"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Skin surgery: consent, complications & danger zones?",
+   "a": "Consenting, or answering a patient’s questions about the risks of minor skin surgery."
+  },
+  {
+   "q": "What drives it?",
+   "a": "Tension, site, infection, bleeding and nerve anatomy drive most complications."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "Montgomery consent covering material risks; know the danger zones (temporal and marginal mandibular branches of the facial nerve, accessory nerve); label specimens at the bedside; run a histology fail-safe log."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "Nerve injury in danger zones; lost or unlabelled specimens; missed malignant histology without a fail-safe."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "Every specimen needs a **fail-safe** system so a malignant result is never missed."
+  }
+ ],
+ "references": [],
+ "see_also": []
+}

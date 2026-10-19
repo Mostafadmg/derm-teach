@@ -1,0 +1,230 @@
+{
+ "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
+ "key_facts": [
+  "Tender subcutaneous nodules along vessels, livedo racemosa and painful ulcers on the lower legs.",
+  "Necrotising inflammation of medium-sized arteries; hepatitis B, streptococcal infection and some drugs are triggers.",
+  "BP, urine, renal function, hepatitis B/C serology; deep (incisional) biopsy; refer to rheumatology/dermatology; specialist immunosuppression.",
+  "Systemic PAN: mononeuritis multiplex, abdominal pain, testicular pain, hypertension, renal infarcts."
+ ],
+ "sections": [
+  {
+   "id": "overview",
+   "title": "Overview",
+   "blocks": [
+    "**PAN** is a **necrotising arteritis of medium (and small) muscular arteries**, **without glomerulonephritis** or vasculitis of arterioles/capillaries/venules, and **not associated with ANCA** (CHCC 2012). It is rare (~2–30 per million), with a peak at 40–60 years. Forms:",
+    {
+     "ul": [
+      "**systemic PAN** — idiopathic, or **HBV-associated** (now rare in vaccinated populations), HCV, HIV, hairy-cell leukaemia, **DADA2** (adenosine deaminase-2 deficiency, especially childhood or young-onset with strokes)",
+      "**cutaneous (single-organ) PAN** — skin ± local muscle/nerve/joint, a chronic relapsing course, rarely becoming systemic."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "pathophysiology",
+   "title": "Pathophysiology and pathology",
+   "blocks": [
+    {
+     "h": "How it is caused"
+    },
+    "Immune complexes (e.g. HBsAg–antibody in HBV-PAN, typically within 6–12 months of infection) or other triggers cause **segmental transmural fibrinoid necrosis** at arterial branch points → **microaneurysms**, thrombosis, stenosis → **infarction** of the organs supplied:",
+    {
+     "ul": [
+      "**renal arteries → renovascular hypertension, infarcts (not GN)**",
+      "vasa nervorum → **mononeuritis multiplex**",
+      "mesenteric → abdominal pain/bowel infarction",
+      "testes → orchitis",
+      "coronary arteries",
+      "skin → nodules, livedo racemosa, ulcers, digital gangrene."
+     ]
+    }
+   ],
+   "short": "Pathophysiology"
+  },
+  {
+   "id": "clinical-features",
+   "title": "Clinical features",
+   "blocks": [
+    {
+     "h": "Clinical features & sites"
+    },
+    {
+     "ul": [
+      "**Systemic:** fever, **weight loss**, myalgia, arthralgia; **mononeuritis multiplex/polyneuropathy** (foot/wrist drop, patchy numbness); **hypertension**; renal impairment; abdominal pain after meals (mesenteric angina), GI bleed; **testicular pain**; MI/heart failure; stroke (DADA2).",
+      "**Skin (~25–60%):** **tender subcutaneous nodules (0.5–2 cm) along arteries** of the lower legs/thighs; **livedo racemosa** (feet, legs); **punched-out ulcers** (D02 — sensitive); digital ischaemia; \"starburst\" livedo around nodules.",
+      "**Cutaneous PAN:** recurrent painful nodules ± livedo/ulcers on the lower legs, with local myalgia/arthralgia/neuropathy in the same limb. Triggers: **streptococcal infection** (children), IBD, HBV/HCV, **minocycline** (drug-induced cPAN — link to the [drug eruption](condition:drug-eruption-approach) notes/acne). ANCA negative; usually no internal organ involvement."
+     ]
+    },
+    {
+     "fig": {
+      "dermnet": "m1w4:D01"
+     }
+    }
+   ]
+  },
+  {
+   "id": "diagnosis",
+   "title": "Diagnosis and investigations",
+   "blocks": [
+    {
+     "ul": [
+      "**No single blood test**. Diagnosis combines clinical features, exclusion of mimics, **histology** and **angiography**: **ESR/CRP** raised; normocytic anaemia; leucocytosis; thrombocytosis; **ANCA negative** (positive ANCA points to MPA/GPA/EGPA); **Hepatitis B (HBsAg, HBeAg, HBV DNA) and C**, HIV, cryoglobulins, complement, ANA, APL antibodies, blood cultures; **Urinalysis** (no active sediment — red-cell casts suggest GN, so not PAN); **ADA2 activity/genetics** in young patients",
+      "**Biopsy:** deep **incisional skin biopsy of a nodule to subcutis** (medium artery with fibrinoid necrosis; DIF non-specific), or **muscle/sural nerve biopsy** guided by symptoms/EMG.",
+      "**Imaging:** **CT/MR angiography or catheter angiography** — **microaneurysms** and stenoses of renal/mesenteric/hepatic arteries (\"arteriographic abnormality\").",
+      "**ACR 1990 classification criteria (≥3 of 10):** weight loss ≥4 kg; livedo reticularis; testicular pain/tenderness; myalgias/weakness/leg tenderness; mono- or polyneuropathy; diastolic BP >90 mmHg; raised urea/creatinine (BUN >40 mg/dL or creatinine >1.5 mg/dL); HBV markers; arteriographic abnormality; biopsy showing neutrophils in a small/medium artery wall. These are **classification** criteria, not diagnostic.",
+      "**French Vasculitis Study Group predictive items (Henegar 2008; course list):** positive — **HBsAg+, arteriographic abnormalities, mono/polyneuropathy**; negative — **ANCA, asthma, ENT signs, glomerulopathy, cryoglobulinaemia**.",
+      "**Cutaneous vs systemic PAN:**"
+     ]
+    },
+    {
+     "table": {
+      "head": [
+       "",
+       "Cutaneous PAN",
+       "Systemic PAN"
+      ],
+      "rows": [
+       [
+        "Organs",
+        "Skin ± same-limb muscle/nerve/joint",
+        "Kidney (renovascular), nerves (mononeuritis multiplex), gut, heart, testes"
+       ],
+       [
+        "Systemic symptoms",
+        "Mild/none (low-grade fever)",
+        "Fever, weight loss, myalgia"
+       ],
+       [
+        "BP / renal",
+        "Normal",
+        "**Hypertension**, raised creatinine"
+       ],
+       [
+        "Angiography",
+        "Normal",
+        "**Microaneurysms**"
+       ],
+       [
+        "Associations",
+        "Strep, IBD, minocycline, HBV/HCV",
+        "HBV, HCV, hairy-cell leukaemia, DADA2"
+       ],
+       [
+        "Course",
+        "Chronic relapsing, benign",
+        "Potentially fatal untreated; relapses ~10–20%"
+       ],
+       [
+        "Treatment",
+        "NSAIDs, colchicine, dapsone, topical/intralesional/oral steroids, methotrexate, IVIg; penicillin if strep",
+        "Glucocorticoids ± cyclophosphamide; antivirals for HBV-PAN"
+       ]
+      ]
+     }
+    },
+    {
+     "ul": [
+      "**Severity — revised Five-Factor Score (FFS 2011)** for PAN: age >65, cardiac insufficiency, GI involvement, renal insufficiency (creatinine ≥150 µmol/L). Each = 1 point; ≥1 point = worse prognosis → cyclophosphamide added."
+     ]
+    }
+   ],
+   "short": "Diagnosis"
+  },
+  {
+   "id": "differentials",
+   "title": "Differential diagnoses",
+   "blocks": [
+    "ANCA-associated vasculitis (MPA — GN and lung haemorrhage; GPA; EGPA — asthma, eosinophilia), cryoglobulinaemic vasculitis (HCV), SLE/RA vasculitis, **infective endocarditis** (emboli, aneurysms — blood cultures), **antiphospholipid syndrome**, cholesterol emboli, segmental arterial mediolysis, fibromuscular dysplasia, Buerger's disease, calciphylaxis, lymphoma, EN/panniculitis (the [drug eruption](condition:drug-eruption-approach) notes see *Livedo reticularis vs livedo racemosa* for nodules), DADA2."
+   ],
+   "short": "Differentials"
+  },
+  {
+   "id": "management",
+   "title": "Management",
+   "blocks": [
+    {
+     "ul": [
+      "**Systemic PAN → urgent rheumatology/renal admission.** BP 160/100 with raised creatinine, neuropathy and necrotic ulcers is organ-threatening.",
+      "**Non-HBV systemic PAN (ACR/VF 2021; EULAR):** Induction: **high-dose glucocorticoids** (e.g. IV methylprednisolone pulses then prednisolone ~1 mg/kg/day, max ~60 mg, tapering over months); **Add cyclophosphamide** for severe disease (FFS ≥1, neuropathy, renal, GI, cardiac involvement); Maintenance: azathioprine or methotrexate (total ~18 months); Supportive: **BP control** (ACE-i/ARB for renin-mediated hypertension, with care if renal artery stenosis); PJP prophylaxis (co-trimoxazole) on cyclophosphamide; bone protection; gastroprotection; Steroid Emergency Card; vaccines (no live); fertility counselling before cyclophosphamide",
+      "**HBV-associated PAN (the case) — different strategy:** **Antiviral therapy** (entecavir or tenofovir; lamivudine historically) via hepatology; A **short course of glucocorticoids** (e.g. ~2 weeks, to control life-threatening inflammation) and **plasma exchange** to clear immune complexes, until HBeAg seroconversion; **Avoid prolonged steroids and cyclophosphamide**, which boost HBV replication and risk fulminant hepatitis (Guillevin regimen); Notify/contact-trace and vaccinate household and sexual contacts (UKHSA); This differs from the \"prednisolone 6 months + cyclophosphamide 12 months\" approach in a student answer, which suits severe **non-HBV** PAN",
+      "**Cutaneous PAN:** NSAIDs/colchicine/dapsone → short steroid courses → methotrexate/azathioprine; treat strep (penicillin prophylaxis in children with recurrent strep-triggered cPAN); stop minocycline."
+     ]
+    },
+    {
+     "h": "IP scope"
+    },
+    "Recognition, bloods (incl. hepatitis serology, urinalysis, BP), referral, and post-discharge support: shared-care monitoring of azathioprine/methotrexate (FBC/LFT/U&E schedules), PJP prophylaxis checks, steroid card, vaccines (inactivated only), BP management. Induction therapy is specialist.",
+    {
+     "h": "Referral"
+    },
+    {
+     "refer": [
+      {
+       "when": "urgent",
+       "t": "Foot drop or new numbness, severe abdominal pain or testicular pain with nodules or livedo: **urgent** referral for systemic PAN."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "red-flags",
+   "title": "Red flags and when to refer",
+   "blocks": [
+    {
+     "ul": [
+      "Foot drop or new numbness, severe abdominal pain or testicular pain with nodules or livedo: **urgent** referral for systemic PAN."
+     ]
+    },
+    {
+     "h4": "Red flags / refer"
+    },
+    "Hypertension + renal impairment; mononeuritis multiplex (foot/wrist drop); post-prandial abdominal pain/GI bleeding; testicular pain; chest pain; digital ischaemia/gangrene; nodules + livedo racemosa + ulcers; HBsAg positive with vasculitic features → urgent/same day."
+   ],
+   "short": "Red flags"
+  },
+  {
+   "id": "pearls",
+   "title": "Prescriber pearls (UK pharmacist IP)",
+   "blocks": [
+    {
+     "pearls": [
+      "\"**Nodules + livedo + neuropathy + hypertension, ANCA negative → think PAN, and check hepatitis B.**\"",
+      "PAN **spares glomeruli**. Haematuria with red-cell casts points to ANCA vasculitis.",
+      "Hepatitis B serology **before** starting steroids/immunosuppressants for any vasculitis (reactivation risk) — this applies to rituximab especially."
+     ]
+    }
+   ],
+   "short": "Pearls"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Polyarteritis nodosa (systemic & cutaneous)?",
+   "a": "Tender subcutaneous nodules along vessels, livedo racemosa and painful ulcers on the lower legs."
+  },
+  {
+   "q": "What drives it?",
+   "a": "Necrotising inflammation of medium-sized arteries; hepatitis B, streptococcal infection and some drugs are triggers."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "BP, urine, renal function, hepatitis B/C serology; deep (incisional) biopsy; refer to rheumatology/dermatology; specialist immunosuppression."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "Systemic PAN: mononeuritis multiplex, abdominal pain, testicular pain, hypertension, renal infarcts."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "Foot drop or new numbness, severe abdominal pain or testicular pain with nodules or livedo: **urgent** referral for systemic PAN."
+  }
+ ],
+ "references": [
+  {
+   "label": "Medscape: Polyarteritis nodosa (systemic & cutaneous)",
+   "url": "https://emedicine.medscape.com/article/330717-overview"
+  }
+ ],
+ "see_also": []
+}

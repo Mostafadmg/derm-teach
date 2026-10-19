@@ -1,0 +1,96 @@
+{
+ "_auto": true,
+ "glance": {
+  "chips": [
+   "Module 6 · Week 3",
+   "macular amyloidosis",
+   "lichen amyloidosis",
+   "primary localised cutaneous amyloidosis"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "Rippled grey-brown interscapular pigment, or itchy firm brown papules on the shins, in someone who scrubs or scratches."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "Damaged keratinocytes → keratin-derived amyloid in the papillary dermis."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "Stop friction and scratching, potent steroid ± occlusion, emollients, treat itch; refer if refractory or unsure."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "Systemic amyloidosis signs (purpura, macroglossia, nephrotic syndrome) are a different disease: refer.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "points": [
+   "Amyloid: chronic scratching/friction deposits keratin-derived amyloid in the papillary dermis."
+  ],
+  "visuals": []
+ },
+ "features": {
+  "photo": "m6w3:N08",
+  "points": [
+   "Amyloid: rippled “rippled” brown macular patches (interscapular) or lichenified papules on shins; itch can be severe."
+  ],
+  "visuals": [],
+  "variants": null,
+  "groups": [
+   0
+  ]
+ },
+ "confirm": {
+  "cols": []
+ },
+ "differentials": {
+  "cards": [
+   {
+    "name": "Macular amyloid vs LPP / friction PIH",
+    "clue": "Rippled pattern; biopsy if doubt"
+   }
+  ]
+ },
+ "manage": {
+  "rungs": []
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "routine",
+    "t": "Systemic amyloid signs are a different disease — this page is localised cutaneous only."
+   }
+  ]
+ },
+ "pearls": [],
+ "quiz": [
+  {
+   "q": "When should you think of Cutaneous amyloidosis (macular and lichen)?",
+   "a": "Rippled grey-brown interscapular pigment, or itchy firm brown papules on the shins, in someone who scrubs or scratches."
+  },
+  {
+   "q": "What drives it?",
+   "a": "Damaged keratinocytes → keratin-derived amyloid in the papillary dermis."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "Stop friction and scratching, potent steroid ± occlusion, emollients, treat itch; refer if refractory or unsure."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "Systemic amyloidosis signs (purpura, macroglossia, nephrotic syndrome) are a different disease: refer."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "Systemic amyloid signs are a different disease — this page is localised cutaneous only."
+  }
+ ]
+}

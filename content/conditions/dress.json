@@ -1,0 +1,88 @@
+{
+ "slug": "dress",
+ "title": "DRESS (drug reaction with eosinophilia and systemic symptoms)",
+ "category": "drug-eruptions",
+ "status": "published",
+ "order": 3,
+ "module": "Module 1 · Week 3",
+ "aka": [
+  "DRESS",
+  "DIHS",
+  "drug hypersensitivity syndrome",
+  "drug reaction with eosinophilia",
+  "RegiSCAR",
+  "allopurinol",
+  "carbamazepine"
+ ],
+ "summary": "A delayed (2–8 weeks), multi-organ drug reaction: widespread rash, fever, facial oedema, lymphadenopathy, eosinophilia and liver, kidney, lung or heart involvement. Same-day hospital assessment.",
+ "card_image": "m1w3:C01",
+ "sections": {
+  "what": [
+   "**DRESS** (drug reaction with eosinophilia and systemic symptoms; also called DIHS) is a delayed, multi-organ reaction with fever, rash and internal organ involvement. Mortality is about **2–10%**."
+  ],
+  "cause": [
+   {
+    "list": [
+     "Type IVb (Th2 / eosinophil) reaction with **sequential herpesvirus reactivation** (HHV-6, then EBV/CMV), which explains the relapsing course.",
+     "Culprits: **allopurinol**, **carbamazepine**, phenytoin, lamotrigine, phenobarbital, **sulfonamides/dapsone**, minocycline, vancomycin, abacavir/nevirapine, strontium.",
+     "Latency **2–8 weeks** (the longest of the severe drug reactions)."
+    ]
+   }
+  ],
+  "features": [
+   {
+    "list": [
+     "Morbilliform rash that becomes infiltrated and oedematous, often **over 50% of body surface**; may become exfoliative.",
+     "**Facial oedema** (key sign); fever above 38 °C; **lymphadenopathy**.",
+     "Blood: eosinophilia (over 1.5 × 10⁹/L), atypical lymphocytes.",
+     "**Organ involvement**: liver (commonest), kidney, lung, heart (myocarditis), thyroid.",
+     "Course over weeks to months with relapses; **late autoimmune disease** (thyroiditis, type 1 diabetes).",
+     "**RegiSCAR** score grades the likelihood of DRESS."
+    ]
+   }
+  ],
+  "diagnosis": [
+   "FBC with differential and film, LFT, U&E, urinalysis, troponin/ECG if symptomatic, TFT, lipase, HHV-6 PCR and skin biopsy. Patch testing later can help identify the culprit."
+  ],
+  "differentials": [
+   "Viral exanthem, lymphoma (especially angioimmunoblastic), hypereosinophilic syndrome, SJS/TEN, Kawasaki disease, simple [morbilliform drug eruption](condition:morbilliform-drug-eruption)."
+  ],
+  "management": [
+   {
+    "list": [
+     "**Stop the culprit**, document, Yellow Card, and avoid for life (including cross-reacting drugs).",
+     "**Same-day hospital assessment** if fever, facial oedema, eosinophilia or abnormal LFTs.",
+     "Mild disease without significant organ involvement: potent topical steroids.",
+     "With organ involvement: **systemic corticosteroids** (e.g. prednisolone 0.5–1 mg/kg/day) **tapered slowly over 6–12 weeks**: rapid tapers cause relapse.",
+     "Monitor organs for months, and check **TFT and glucose** for 1–2 years."
+    ]
+   },
+   {
+    "h": "IP scope"
+   },
+   "Recognise, stop, refer, document, Yellow Card. After discharge: support the specialist steroid taper (steroid card if prolonged) and monitor TFT/glucose per the specialist letter."
+  ],
+  "red_flags": [
+   "Fever + rash + facial oedema or lymphadenopathy **2–8 weeks** after a new anticonvulsant, allopurinol or sulfonamide: **same-day admission** (hepatitis, nephritis and myocarditis can follow).",
+   "Allopurinol (HLA-B*58:01), carbamazepine (HLA-B*15:02) and lamotrigine are high-risk starts: counsel to report a rash early."
+  ],
+  "pearls": [
+   "DRESS has the **longest latency** of the severe drug reactions (2–8 weeks).",
+   "\"**Allopurinol + CKD + recent start + rash** = DRESS/SJS risk\": dose adjustment and HLA-B*58:01 awareness."
+  ]
+ },
+ "photos": [
+  {
+   "title": "DRESS",
+   "items": [
+    "m1w3:C01"
+   ]
+  }
+ ],
+ "references": [
+  {
+   "label": "DermNet: Drug hypersensitivity syndrome (DRESS)",
+   "url": "https://dermnetnz.org/topics/drug-hypersensitivity-syndrome"
+  }
+ ]
+}

@@ -1,0 +1,67 @@
+{
+ "_note": "curated (split page, Oct 2026)",
+ "manage": {
+  "lead": "Recognise, stop, admit.",
+  "rungs": [
+   {
+    "k": "Stop and record",
+    "tone": "base",
+    "points": [
+     "Stop the culprit; record the allergy; Yellow Card."
+    ]
+   },
+   {
+    "k": "Mild, no organ involvement",
+    "tone": "first",
+    "points": [
+     "Potent topical steroid under specialist care; monitor bloods."
+    ]
+   },
+   {
+    "k": "Organ involvement",
+    "tone": "refer",
+    "points": [
+     "Hospital care; slow steroid taper over 6–12 weeks."
+    ],
+    "rx": [
+     {
+      "drug": "Prednisolone (specialist)",
+      "dose": "0.5–1 mg/kg/day",
+      "dur": "taper over 6–12 weeks",
+      "note": "Rapid tapers cause relapse."
+     }
+    ]
+   }
+  ]
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "same-day",
+    "t": "Rash + fever + facial oedema / lymph nodes 2–8 weeks after a new high-risk drug."
+   },
+   {
+    "when": "routine",
+    "t": "Follow-up TFT and glucose for 1–2 years (late autoimmunity)."
+   }
+  ]
+ },
+ "quiz": [
+  {
+   "q": "What is the typical latency of DRESS?",
+   "a": "2–8 weeks after starting the drug."
+  },
+  {
+   "q": "Name three common culprits.",
+   "a": "Allopurinol, carbamazepine (and other aromatic anticonvulsants), sulfonamides/dapsone, minocycline."
+  },
+  {
+   "q": "Which organ is most often involved?",
+   "a": "The liver."
+  },
+  {
+   "q": "Why taper steroids slowly?",
+   "a": "Rapid tapers cause relapse (linked to herpesvirus reactivation)."
+  }
+ ]
+}

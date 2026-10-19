@@ -1,0 +1,59 @@
+{
+ "_note": "curated (split page, Oct 2026)",
+ "manage": {
+  "lead": "Right patient, right operator, sun-safe aftercare.",
+  "rungs": [
+   {
+    "k": "Select",
+    "tone": "base",
+    "points": [
+     "Diagnose every pigmented lesion first; check skin type, tan, drugs, HSV."
+    ]
+   },
+   {
+    "k": "Treat",
+    "tone": "first",
+    "points": [
+     "3–6 sessions by a trained, registered operator; patch test."
+    ]
+   },
+   {
+    "k": "Aftercare",
+    "tone": "second",
+    "points": [
+     "SPF, no picking; review blistering or infection."
+    ]
+   }
+  ]
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "same-day",
+    "t": "Eye pain or visual change after IPL: ophthalmology."
+   },
+   {
+    "when": "urgent",
+    "t": "Undiagnosed changing pigmented lesion: suspected cancer pathway."
+   }
+  ]
+ },
+ "quiz": [
+  {
+   "q": "What are IPL's target chromophores?",
+   "a": "Melanin and oxyhaemoglobin (and hair melanin)."
+  },
+  {
+   "q": "Who is at higher risk of IPL burns and pigment change?",
+   "a": "Tanned or darker skin (types IV–VI)."
+  },
+  {
+   "q": "Is melasma a good IPL indication?",
+   "a": "Generally no; heat can worsen it."
+  },
+  {
+   "q": "What is the 'coffee grounds' effect?",
+   "a": "Expected darkening of treated pigment that flakes off over 1–2 weeks."
+  }
+ ]
+}

@@ -1,0 +1,89 @@
+{
+ "slug": "diabetic-foot-ulcer",
+ "title": "Neuropathic and diabetic foot ulcers",
+ "category": "ulcers-red-leg",
+ "status": "published",
+ "order": 4,
+ "module": "Module 5 · Week 2",
+ "aka": [
+  "neuropathic ulcer",
+  "diabetic foot ulcer",
+  "diabetic foot",
+  "NG19",
+  "osteomyelitis",
+  "Charcot foot",
+  "neuro-ischaemic foot"
+ ],
+ "summary": "Painless ulcers on plantar pressure points surrounded by callus, from loss of protective sensation. Any diabetic foot ulcer needs referral to the foot care service within 1 working day (NICE NG19).",
+ "card_image": "m5w2:S03",
+ "sections": {
+  "what": [
+   "A **neuropathic ulcer** follows loss of **protective sensation**, with or without deformity and ischaemia (‘neuro-ischaemic’ foot). Most are **diabetic foot ulcers**, a leading cause of amputation."
+  ],
+  "cause": [
+   "Peripheral neuropathy (usually diabetes; also alcohol, B12 deficiency, leprosy) means repetitive trauma goes unnoticed. Deep ulcers can reach bone, with a risk of **osteomyelitis**."
+  ],
+  "features": [
+   {
+    "list": [
+     "Site: **plantar** metatarsal heads, heel, tips of toes, under bunions.",
+     "Deep, punched-out, surrounded by **callus**; may reach bone.",
+     "Often **painless**; warm foot with good pulses (unless neuro-ischaemic).",
+     "Clawed toes, Charcot deformity, dry fissured skin."
+    ]
+   }
+  ],
+  "diagnosis": [
+   {
+    "list": [
+     "Test sensation with a **10 g monofilament** and vibration.",
+     "Pulses and ABPI/TBPI (neuro-ischaemic foot).",
+     "**Probe to bone**, plus X-ray or MRI if osteomyelitis is suspected.",
+     "Deep tissue samples rather than surface swabs if infected."
+    ]
+   }
+  ],
+  "differentials": [
+   "[Arterial ulcer](condition:arterial-leg-ulcer), pressure ulcer (immobile or paraplegic patients), [venous ulcer](condition:venous-leg-ulcer), malignancy (non-healing)."
+  ],
+  "management": [
+   {
+    "list": [
+     "**Any diabetic foot ulcer:** refer urgently to the **multidisciplinary foot care service** or foot protection service (within 1 working day, NICE NG19).",
+     "**Offloading**, glycaemic optimisation, debridement, and assessment for infection, which may need admission and IV antibiotics.",
+     "Diabetic foot infection: follow NICE NG19 and local antimicrobial guidance."
+    ]
+   }
+  ],
+  "red_flags": [
+   "Diabetic foot with **spreading redness, fever, crepitus or wet necrosis**: **ED / same-day admission**.",
+   "Probe to bone, or suspected osteomyelitis or **Charcot foot** (hot, swollen foot in neuropathy).",
+   "**Never ignore a ‘small’ plantar ulcer in diabetes.**"
+  ],
+  "pearls": [
+   "Teach **daily foot checks**, sensible footwear and podiatry follow-up; never walk barefoot with neuropathy.",
+   "Painless ulcer under a callus suggests neuropathic."
+  ]
+ },
+ "photos": [
+  {
+   "title": "Neuropathic plantar / pressure ulcers",
+   "items": [
+    "m5w2:S03",
+    "m5w2:S04",
+    "m5w2:S05",
+    "m5w2:S02"
+   ]
+  }
+ ],
+ "references": [
+  {
+   "label": "NICE NG19: Diabetic foot problems",
+   "url": "https://www.nice.org.uk/guidance/ng19"
+  },
+  {
+   "label": "DermNet: Diabetic foot ulcer",
+   "url": "https://dermnetnz.org/topics/diabetic-foot-ulcer"
+  }
+ ]
+}

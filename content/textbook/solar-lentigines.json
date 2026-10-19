@@ -141,7 +141,7 @@
       {
        "name": "Seborrhoeic keratosis",
        "f": "Stuck-on, waxy, raised",
-       "link": "actinic-keratoses"
+       "link": "seborrhoeic-keratosis"
       },
       {
        "name": "Lentigo maligna",
@@ -231,7 +231,7 @@
      "pearls": [
       "Solar lentigines are a UV dosimeter — use the visit for skin-cancer education.",
       "Hand spots are a classic patient question; same rules as the face.",
-      "See also [photoageing](condition:photoageing) and [IPL & eyelash enhancement](condition:ipl-eyelash).",
+      "See also [photoageing](condition:photoageing) and [intense pulsed light](condition:intense-pulsed-light).",
       "Flat brown marks that become raised and warty are usually [seborrhoeic keratoses](condition:seborrhoeic-keratosis); a lentigo that darkens or spreads unevenly on the face may be [lentigo maligna](condition:melanoma)."
      ]
     }

@@ -1,0 +1,213 @@
+{
+ "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
+ "key_facts": [
+  "Slow grey-brown reticulate facial/neck pigment in darker skin, sometimes with brief itchy flares after cosmetics or fragrances.",
+  "Type IV hypersensitivity or lichenoid basal-layer attack → pigment incontinence (dermal melanophages).",
+  "Stop fragrances/essential oils/non-essential cosmetics; fragrance-free regimen; refer for patch (± photopatch) testing.",
+  "Do not keep borrowing potent facial steroids — they mask dermatitis and damage the face."
+ ],
+ "sections": [
+  {
+   "id": "overview",
+   "title": "Overview",
+   "blocks": [
+    "**Pigmented contact dermatitis (PCD) / Riehl melanosis** presents mainly as grey-brown to slate facial and neck pigment with little visible eczema, typically in Fitzpatrick IV–VI skin, often linked to cosmetics (“pigmented cosmetic dermatitis”).",
+    "**Lichen planus pigmentosus (LPP)** and **erythema dyschromicum perstans (ashy dermatosis)** are related acquired dermal macular hyperpigmentation patterns with lichenoid histology. Overlap is common; specialist diagnosis matters."
+   ]
+  },
+  {
+   "id": "aetiology",
+   "title": "Aetiology: causes and risk factors",
+   "blocks": [
+    {
+     "ul": [
+      "PCD: repeated low-dose allergens (fragrances, essential oils, PPD hair dye, kumkum/bindi dyes, textile dyes, preservatives) → interface dermatitis → dermal pigment.",
+      "LPP: T-cell lichenoid attack; triggers may include UV, hair dyes, oils; association with frontal fibrosing alopecia — check the hairline.",
+      "Ashy dermatosis: idiopathic ash-grey ovals on trunk/proximal limbs."
+     ]
+    }
+   ],
+   "short": "Aetiology"
+  },
+  {
+   "id": "clinical-features",
+   "title": "Clinical features",
+   "blocks": [
+    {
+     "ul": [
+      "Gradual asymptomatic pigment; brief red/itchy flares after product use.",
+      "Forehead, temples, hairline, lateral cheeks, neck; may spare nose and perioral skin in cosmetic patterns.",
+      "LPP: face, neck, flexures (LPP inversus); slate-grey macules.",
+      "Ashy dermatosis: oval ash-grey patches on trunk."
+     ]
+    },
+    {
+     "fig": {
+      "dermnet": "m6w3:M03"
+     }
+    }
+   ]
+  },
+  {
+   "id": "diagnosis",
+   "title": "Diagnosis and investigations",
+   "blocks": [
+    {
+     "ul": [
+      "Detailed cosmetic/fragrance/hair-dye/textile history.",
+      "**Patch testing** (British baseline + cosmetic/fragrance/hair-dye + patient’s own products) at a contact clinic; readings day 2 and 3–4 (± day 7).",
+      "**Photopatch testing** when sunscreen filters, NSAIDs or photoallergens are suspected.",
+      "Biopsy when LPP / ashy dermatosis / ochronosis need separating."
+     ]
+    },
+    {
+     "h4": "Patch testing"
+    },
+    {
+     "ul": [
+      "(British baseline + cosmetic/fragrance/hair-dye + patient’s own products) at a contact clinic; readings day 2 and 3–4 (± day 7)."
+     ]
+    },
+    {
+     "h4": "Photopatch testing"
+    },
+    {
+     "ul": [
+      "when sunscreen filters, NSAIDs or photoallergens are suspected."
+     ]
+    },
+    {
+     "h4": "Key points"
+    },
+    {
+     "ul": [
+      "Detailed cosmetic/fragrance/hair-dye/textile history.",
+      "Biopsy when LPP / ashy dermatosis / ochronosis need separating."
+     ]
+    }
+   ],
+   "short": "Diagnosis"
+  },
+  {
+   "id": "differentials",
+   "title": "Differential diagnoses",
+   "blocks": [
+    {
+     "ddx": [
+      {
+       "name": "Melasma",
+       "f": "Brown, malar/centrofacial; no allergen story",
+       "link": "melasma-facial-melanosis"
+      },
+      {
+       "name": "Exogenous ochronosis",
+       "f": "Hydroquinone; caviar papules",
+       "link": "melasma-facial-melanosis"
+      },
+      {
+       "name": "Drug pigmentation",
+       "f": "Drug timeline"
+      },
+      {
+       "name": "Berloque dermatitis",
+       "f": "Bergamot perfume streaks + sun",
+       "link": "phytophotodermatitis"
+      },
+      {
+       "name": "Acanthosis nigricans (flexural)",
+       "f": "Velvety thickening",
+       "link": "acanthosis-nigricans"
+      }
+     ]
+    }
+   ],
+   "short": "Differentials"
+  },
+  {
+   "id": "management",
+   "title": "Management",
+   "blocks": [
+    {
+     "ul": [
+      "**Allergen avoidance** first: stop non-essential cosmetics, fragrances and essential oils; bland fragrance-free cleanser, emollient and mineral sunscreen.",
+      "Refer for patch (± photopatch) testing — the key next step.",
+      "Short mild/moderate topical steroid or topical calcineurin inhibitor for itchy flares only (avoid potent facial steroids).",
+      "Specialist lightening and lasers are slow; pigment may take many months to fade after avoidance."
+     ]
+    },
+    {
+     "h": "Referral"
+    },
+    {
+     "refer": [
+      {
+       "when": "routine",
+       "t": "Ongoing potent facial steroid from borrowed/imported creams."
+      },
+      {
+       "when": "routine",
+       "t": "Diagnostic uncertainty — refer before escalating lighteners."
+      },
+      {
+       "when": "routine",
+       "t": "Frontal fibrosing alopecia signs with facial pigment — dermatology."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "red-flags",
+   "title": "Red flags and when to refer",
+   "blocks": [
+    {
+     "ul": [
+      "Ongoing potent facial steroid from borrowed/imported creams.",
+      "Diagnostic uncertainty — refer before escalating lighteners.",
+      "Frontal fibrosing alopecia signs with facial pigment — dermatology."
+     ]
+    }
+   ],
+   "short": "Red flags"
+  },
+  {
+   "id": "pearls",
+   "title": "Prescriber pearls (UK pharmacist IP)",
+   "blocks": [
+    {
+     "pearls": [
+      "Ask about borrowed steroid creams and imported cosmetics.",
+      "Antihistamines do not block patch-test readings (type IV).",
+      "Pharmacists can help patients find fragrance-free, patch-test–compatible products.",
+      "Cross-link atopic/contact eczema pathways: [eczema / dermatitis](condition:eczema-dermatitis)."
+     ]
+    }
+   ],
+   "short": "Pearls"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Contact & lichenoid pigmentation?",
+   "a": "Slow grey-brown reticulate facial/neck pigment in darker skin, sometimes with brief itchy flares after cosmetics or fragrances."
+  },
+  {
+   "q": "What drives it?",
+   "a": "Type IV hypersensitivity or lichenoid basal-layer attack → pigment incontinence (dermal melanophages)."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "Stop fragrances/essential oils/non-essential cosmetics; fragrance-free regimen; refer for patch (± photopatch) testing."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "Do not keep borrowing potent facial steroids — they mask dermatitis and damage the face."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "Ongoing potent facial steroid from borrowed/imported creams."
+  }
+ ],
+ "references": [],
+ "see_also": []
+}

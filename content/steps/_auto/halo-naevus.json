@@ -1,0 +1,58 @@
+{
+ "_auto": true,
+ "glance": {
+  "chips": [
+   "Module 2 · Week 4",
+   "halo naevus",
+   "Sutton naevus",
+   "leukoderma acquisitum centrifugum"
+  ],
+  "points": []
+ },
+ "cause": {
+  "points": [],
+  "visuals": []
+ },
+ "features": {
+  "photo": "m2w4:E01",
+  "points": [
+   "Central brown naevus with a round or oval white ring; over months the centre fades and may disappear.",
+   "The white area later repigments in many.",
+   "Back is the commonest site."
+  ],
+  "visuals": [],
+  "variants": null,
+  "groups": [
+   0
+  ]
+ },
+ "confirm": {
+  "cols": []
+ },
+ "differentials": {
+  "cards": []
+ },
+ "manage": {
+  "rungs": []
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "urgent",
+    "t": "Atypical central lesion or new halo in an adult: **suspected cancer pathway**."
+   }
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "Halo naevi are benign in children; the halo is a sign of immune clearance, not of cancer."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "Atypical central lesion or new halo in an adult: **suspected cancer pathway**."
+  }
+ ]
+}

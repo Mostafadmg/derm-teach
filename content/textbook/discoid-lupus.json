@@ -1,0 +1,219 @@
+{
+ "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
+ "key_facts": [
+  "Red, scaly, coin-shaped plaques on the face, ears or scalp that leave scarring, pigment change or bald patches.",
+  "Autoimmune interface dermatitis triggered by UV; smoking makes it worse and blunts hydroxychloroquine.",
+  "Broad-spectrum sunscreen and sun avoidance, stop smoking, potent topical or intralesional steroid; specialist hydroxychloroquine.",
+  "Scarring alopecia, systemic lupus (screen symptoms and bloods), and SCC in long-standing scars."
+ ],
+ "sections": [
+  {
+   "id": "overview",
+   "title": "Overview",
+   "blocks": [
+    "**Discoid lupus erythematosus** is the most common form of **chronic cutaneous lupus**. Scarring inflammatory plaques favour head and neck; scalp disease causes **scarring alopecia**. Most patients have skin-limited disease, but a minority evolve toward systemic lupus erythematosus (SLE). Module 4 Formative Quiz-1 answer was DLE (vs alopecia areata, LPP, tinea capitis, trichotillomania)."
+   ]
+  },
+  {
+   "id": "aetiology",
+   "title": "Aetiology: causes and risk factors",
+   "blocks": [
+    {
+     "ul": [
+      "Autoimmune interface dermatitis with follicular involvement.",
+      "UV exposure flares lesions.",
+      "Risk factors emphasised in teaching: **darker skin phototypes** have higher rates of DLE and more disfiguring dyspigmentation/scarring; smoking associated with DLE activity/treatment resistance; female predominance overall (quiz noted male sex is *not* the higher-risk factor)."
+     ]
+    }
+   ],
+   "short": "Aetiology"
+  },
+  {
+   "id": "clinical-features",
+   "title": "Clinical features",
+   "blocks": [
+    {
+     "table": {
+      "head": [
+       "Feature",
+       "Detail"
+      ],
+      "rows": [
+       [
+        "Plaques",
+        "Well-defined erythematous discs; adherent scale; follicular plugging; “carpet tack” scale when removed"
+       ],
+       [
+        "Scarring",
+        "Central atrophy, permanent hair loss on scalp, pigment change"
+       ],
+       [
+        "Sites",
+        "Face, ears, scalp, neck; occasionally below neck"
+       ],
+       [
+        "Symptoms",
+        "May burn/itch; cosmetic distress high (quiz vignette)"
+       ]
+      ]
+     }
+    },
+    {
+     "fig": {
+      "dermnet": "m4w1:F01"
+     }
+    }
+   ]
+  },
+  {
+   "id": "diagnosis",
+   "title": "Diagnosis and investigations",
+   "blocks": [
+    {
+     "ul": [
+      "Clinical + **skin biopsy** (most important confirmatory test in quiz cluster).",
+      "Bloods: ANA, ENA, complement — useful to screen for systemic disease but **may be negative** in purely cutaneous DLE.",
+      "Mycology if tinea capitis plausible; trichoscopy helps vs AA/LPP."
+     ]
+    },
+    {
+     "h4": "Key points"
+    },
+    {
+     "ul": [
+      "Clinical + **skin biopsy** (most important confirmatory test in quiz cluster).",
+      "Bloods: ANA, ENA, complement — useful to screen for systemic disease but **may be negative** in purely cutaneous DLE.",
+      "Mycology if tinea capitis plausible; trichoscopy helps vs AA/LPP."
+     ]
+    }
+   ],
+   "short": "Diagnosis"
+  },
+  {
+   "id": "differentials",
+   "title": "Differential diagnoses",
+   "blocks": [
+    {
+     "ddx": [
+      {
+       "name": "Alopecia areata",
+       "f": "Non-scarring; exclamation hairs; no discoid scale plaques",
+       "link": "alopecia-areata"
+      },
+      {
+       "name": "Lichen planopilaris",
+       "f": "Scarring; perifollicular scale; less classic facial discoid plaques",
+       "link": "scarring-alopecia"
+      },
+      {
+       "name": "Tinea capitis",
+       "f": "Broken hairs, lymphadenopathy, mycology+"
+      },
+      {
+       "name": "Trichotillomania",
+       "f": "Bizarre geometric; hairs of different lengths",
+       "link": "trichotillomania"
+      },
+      {
+       "name": "Psoriasis / seb derm scalp",
+       "f": "Non-scarring usually; different morphology",
+       "link": "psoriasis"
+      }
+     ]
+    }
+   ],
+   "short": "Differentials"
+  },
+  {
+   "id": "management",
+   "title": "Management",
+   "blocks": [
+    {
+     "ul": [
+      "Strict **photoprotection** (SPF, hats); smoking cessation.",
+      "Potent/very potent TCS or intralesional steroid (often derm); topical calcineurin inhibitors on face sometimes.",
+      "Antimalarials (hydroxychloroquine) — **specialist/shared-care** with monitoring.",
+      "Early derm referral for scalp/face to minimise irreversible scarring.",
+      "Screen for SLE symptoms (arthritis, serositis, renal, photosensitivity beyond skin, cytopenias)."
+     ]
+    },
+    {
+     "h": "Referral"
+    },
+    {
+     "refer": [
+      {
+       "when": "routine",
+       "t": "Joint pain, mouth ulcers, fatigue, chest pain or Raynaud’s: screen for **SLE** (ANA, FBC, urine dipstick) and refer."
+      },
+      {
+       "when": "urgent",
+       "t": "Scalp DLE with hair loss: **urgent** dermatology (scarring alopecia)."
+      },
+      {
+       "when": "routine",
+       "t": "Hydroxychloroquine: baseline and annual eye screening after 5 years (RCOphth)."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "red-flags",
+   "title": "Red flags and when to refer",
+   "blocks": [
+    {
+     "ul": [
+      "Joint pain, mouth ulcers, fatigue, chest pain or Raynaud’s: screen for **SLE** (ANA, FBC, urine dipstick) and refer.",
+      "Scalp DLE with hair loss: **urgent** dermatology (scarring alopecia).",
+      "Hydroxychloroquine: baseline and annual eye screening after 5 years (RCOphth)."
+     ]
+    }
+   ],
+   "short": "Red flags"
+  },
+  {
+   "id": "pearls",
+   "title": "Prescriber pearls (UK pharmacist IP)",
+   "blocks": [
+    {
+     "pearls": [
+      "Emphasise scarring risk — early treatment matters.",
+      "Camouflage / psychological support for visible disease.",
+      "Check BNF interactions if hydroxychloroquine co-prescribed later (retinopathy monitoring is specialty)."
+     ]
+    }
+   ],
+   "short": "Pearls"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Discoid lupus erythematosus?",
+   "a": "Red, scaly, coin-shaped plaques on the face, ears or scalp that leave scarring, pigment change or bald patches."
+  },
+  {
+   "q": "What drives it?",
+   "a": "Autoimmune interface dermatitis triggered by UV; smoking makes it worse and blunts hydroxychloroquine."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "Broad-spectrum sunscreen and sun avoidance, stop smoking, potent topical or intralesional steroid; specialist hydroxychloroquine."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "Scarring alopecia, systemic lupus (screen symptoms and bloods), and SCC in long-standing scars."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "Joint pain, mouth ulcers, fatigue, chest pain or Raynaud’s: screen for **SLE** (ANA, FBC, urine dipstick) and refer."
+  }
+ ],
+ "references": [
+  {
+   "label": "Medscape: Discoid lupus erythematosus",
+   "url": "https://emedicine.medscape.com/article/1065529-overview"
+  }
+ ],
+ "see_also": []
+}

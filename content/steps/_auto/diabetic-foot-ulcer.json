@@ -1,0 +1,88 @@
+{
+ "_auto": true,
+ "glance": {
+  "chips": [
+   "Module 5 · Week 2",
+   "neuropathic ulcer",
+   "diabetic foot ulcer",
+   "diabetic foot"
+  ],
+  "points": []
+ },
+ "cause": {
+  "points": [],
+  "visuals": []
+ },
+ "features": {
+  "photo": "m5w2:S03",
+  "points": [
+   "Site: **plantar** metatarsal heads, heel, tips of toes, under bunions.",
+   "Deep, punched-out, surrounded by **callus**; may reach bone.",
+   "Often **painless**; warm foot with good pulses (unless neuro-ischaemic).",
+   "Clawed toes, Charcot deformity, dry fissured skin."
+  ],
+  "visuals": [],
+  "variants": null,
+  "groups": [
+   0
+  ]
+ },
+ "confirm": {
+  "cols": [
+   {
+    "k": "Probe to bone",
+    "icon": "check",
+    "points": [
+     ", plus X-ray or MRI if osteomyelitis is suspected."
+    ]
+   },
+   {
+    "k": "Key points",
+    "icon": "check",
+    "points": [
+     "Test sensation with a **10 g monofilament** and vibration.",
+     "Pulses and ABPI/TBPI (neuro-ischaemic foot).",
+     "Deep tissue samples rather than surface swabs if infected."
+    ]
+   }
+  ]
+ },
+ "differentials": {
+  "cards": []
+ },
+ "manage": {
+  "rungs": []
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "same-day",
+    "t": "Diabetic foot with **spreading redness, fever, crepitus or wet necrosis**: **ED / same-day admission**."
+   },
+   {
+    "when": "routine",
+    "t": "Probe to bone, or suspected osteomyelitis or **Charcot foot** (hot, swollen foot in neuropathy)."
+   },
+   {
+    "when": "never",
+    "t": "**Never ignore a ‘small’ plantar ulcer in diabetes.**"
+   }
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "Teach **daily foot checks**, sensible footwear and podiatry follow-up; never walk barefoot with neuropathy."
+  },
+  {
+   "icon": "bulb",
+   "t": "Painless ulcer under a callus suggests neuropathic."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "Diabetic foot with **spreading redness, fever, crepitus or wet necrosis**: **ED / same-day admission**."
+  }
+ ]
+}

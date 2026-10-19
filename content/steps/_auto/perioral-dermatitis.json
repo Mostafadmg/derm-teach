@@ -1,0 +1,86 @@
+{
+ "_auto": true,
+ "glance": {
+  "chips": [
+   "Module 6 · Week 2",
+   "perioral dermatitis",
+   "periorificial dermatitis",
+   "periocular dermatitis"
+  ],
+  "points": []
+ },
+ "cause": {
+  "points": [
+   "**Topical corticosteroids** on the face are the commonest trigger; also inhaled or nasal steroids, and heavy moisturisers or foundations.",
+   "Fluorinated toothpaste and barrier disruption may contribute."
+  ],
+  "visuals": []
+ },
+ "features": {
+  "photo": "m6w2:K09",
+  "points": [
+   "Monomorphic 1–2 mm red papules, papulovesicles and pustules on a red, sometimes scaly background.",
+   "Around the mouth, nasolabial folds, chin; may involve the sides of the nose and eyelids (**periocular**).",
+   "**Vermilion sparing**: a narrow clear rim around the lips.",
+   "Burning or tightness more than itch; no comedones."
+  ],
+  "visuals": [],
+  "variants": null,
+  "groups": [
+   0
+  ]
+ },
+ "confirm": {
+  "cols": []
+ },
+ "differentials": {
+  "cards": [
+   {
+    "name": "Rosacea",
+    "clue": "Older; flushing; central face; no clear perioral rim",
+    "link": "acne-mimics"
+   },
+   {
+    "name": "Acne vulgaris",
+    "clue": "Comedones; polymorphic lesions",
+    "link": "acne-vulgaris"
+   },
+   {
+    "name": "Seborrhoeic dermatitis",
+    "clue": "Greasy scale in nasolabial folds and brows"
+   },
+   {
+    "name": "Contact dermatitis",
+    "clue": "Itch, eczematous, linked to a product",
+    "link": "contact-dermatitis"
+   }
+  ]
+ },
+ "manage": {
+  "rungs": []
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "routine",
+    "t": "Granulomatous or periocular disease not responding, or diagnostic doubt: dermatology."
+   }
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "Pharmacists often spot inhaled-steroid perioral dermatitis: advise rinsing and wiping the face after inhalers."
+  },
+  {
+   "icon": "bulb",
+   "t": "Hydrocortisone makes it look better briefly, then worse."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "Granulomatous or periocular disease not responding, or diagnostic doubt: dermatology."
+  }
+ ]
+}

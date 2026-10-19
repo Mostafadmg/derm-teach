@@ -1,0 +1,233 @@
+{
+ "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
+ "key_facts": [
+  "Pits, oil-drop patches, lifting nails, transverse grooves, or a bulbous fingertip.",
+  "Psoriasis in the nail matrix and bed; a temporary halt in nail growth (Beau’s lines); tissue proliferation in clubbing.",
+  "Link the nail to the whole patient: joints for psoriasis, recent illness or drugs for Beau’s lines, a systemic review for clubbing.",
+  "New clubbing (lung cancer, fibrosis, endocarditis, IBD, cirrhosis)."
+ ],
+ "sections": [
+  {
+   "id": "overview",
+   "title": "Overview",
+   "blocks": [
+    "Nails grow slowly and record what has happened to the matrix and nail bed over months. Many nail signs are clues to skin disease (psoriasis, eczema, lichen planus) or systemic disease (illness, drugs, lung, heart, liver or bowel disease)."
+   ]
+  },
+  {
+   "id": "aetiology",
+   "title": "Aetiology: causes and risk factors",
+   "blocks": [
+    {
+     "ul": [
+      "**Matrix** disease changes the nail plate: pits, ridges, Beau’s lines, leukonychia.",
+      "**Nail-bed** disease changes how the plate attaches and its colour: onycholysis, oil-drop patches, splinter haemorrhages, subungual thickening.",
+      "**Clubbing** reflects soft-tissue overgrowth of the fingertip, thought to be driven by platelet-derived growth factors bypassing the lung capillaries."
+     ]
+    }
+   ],
+   "short": "Aetiology"
+  },
+  {
+   "id": "clinical-features",
+   "title": "Clinical features",
+   "blocks": [
+    {
+     "h": "Nail signs"
+    },
+    {
+     "h": "Psoriatic nails (cross-link Module 4)"
+    },
+    "**Matrix disease:** irregular **pitting**, leukonychia, red lunula spots, Beau lines, crumbling. **Nail-bed disease:** **onycholysis**, oil-drop/salmon patches, subungual hyperkeratosis, splinter haemorrhages. Often coexists with skin/scalp/genital psoriasis or psoriatic arthritis — examine beyond the nail. DDx onychomycosis (mycology if treating as fungus). Management is that of psoriasis (topicals, systemic/biologic pathways via dermatology) — deepen in **Module 4**.",
+    {
+     "h": "Beau’s lines"
+    },
+    "Transverse **depressions** across the nail (often multiple nails at same level) after temporary **arrest of matrix growth** — severe systemic illness, high fever, chemotherapy, childbirth, major stressor. Grow out with the nail (fingernails ~3–4 mm/month rough guide). Usually no specific nail drug therapy — explain and date the insult. Multiple waves can mark repeated insults.",
+    {
+     "h": "Clubbing — red-flag awareness"
+    },
+    "**Clubbing:** increased nail-fold soft tissue, increased nail curvature, **loss of Lovibond angle** (<165° normally preserved), often boggy nail bed. Associated with lung cancer, interstitial lung disease, bronchiectasis/abscess, cyanotic heart disease, IBD, cirrhosis, and other systemic diseases; also hypertrophic osteoarthropathy.",
+    "**IP action:** recognise → **history/exam for cardiopulmonary/GI red flags** → urgent appropriate medical referral/investigation — **not** a dermatology cream problem. Congenital/familial clubbing exists but new clubbing in adults is sinister until proven otherwise.",
+    {
+     "fig": {
+      "dermnet": "m3w2:D01"
+     }
+    }
+   ]
+  },
+  {
+   "id": "diagnosis",
+   "title": "Diagnosis and investigations",
+   "blocks": [
+    {
+     "ul": [
+      "Look at **all 20 nails**, the skin, scalp and joints.",
+      "Ask about recent illness, chemotherapy, new drugs, trauma, wet work and nail cosmetics.",
+      "Send clippings if fungal infection is possible, because psoriasis and onychomycosis can look identical and can coexist.",
+      "For clubbing, check Schamroth’s window (lost diamond-shaped gap when the backs of two fingertips are pressed together) and look for chest, cardiac, liver or bowel signs."
+     ]
+    }
+   ],
+   "short": "Diagnosis"
+  },
+  {
+   "id": "differentials",
+   "title": "Differential diagnoses",
+   "blocks": [
+    {
+     "table": {
+      "head": [
+       "Sign",
+       "Common causes",
+       "Think also of"
+      ],
+      "rows": [
+       [
+        "Pitting",
+        "Psoriasis, eczema, alopecia areata",
+        "Lichen planus"
+       ],
+       [
+        "Onycholysis",
+        "Psoriasis, trauma, fungal infection, wet work",
+        "Thyroid disease, drug photo-onycholysis (doxycycline)"
+       ],
+       [
+        "Beau’s lines",
+        "Severe illness, high fever, chemotherapy",
+        "Hand, foot and mouth disease (nail shedding weeks later)"
+       ],
+       [
+        "Clubbing",
+        "Lung cancer, interstitial lung disease, bronchiectasis",
+        "Cyanotic heart disease, endocarditis, IBD, cirrhosis, thyroid acropachy"
+       ],
+       [
+        "Splinter haemorrhages",
+        "Trauma, psoriasis",
+        "Infective endocarditis (with fever or murmur)"
+       ]
+      ]
+     }
+    }
+   ],
+   "short": "Differentials"
+  },
+  {
+   "id": "management",
+   "title": "Management",
+   "blocks": [
+    {
+     "h": "Quick reference for nails"
+    },
+    {
+     "table": {
+      "head": [
+       "Scenario",
+       "Do",
+       "Avoid"
+      ],
+      "rows": [
+       [
+        "Wet-work chronic paronychia + yeast",
+        "Dryness/PPE + fold care; Candida-active azole if systemic needed",
+        "Blind long terbinafine; ignoring occupation"
+       ],
+       [
+        "Suspected onychomycosis",
+        "Mycology before long oral Rx; treat associated tinea pedis",
+        "Months of oral antifungal with repeatedly negative mycology and no clinical review"
+       ],
+       [
+        "New single-digit irregular melanonychia ± Hutchinson",
+        "**Urgent derm / skin cancer referral** for biopsy pathway",
+        "Reassuring as “football bruise” without follow-through; community matrix biopsy"
+       ],
+       [
+        "Multi-nail stable racial melanonychia",
+        "Explain; photo diary; safety-net",
+        "Unnecessary biopsy of classic multi-nail racial pattern without change"
+       ],
+       [
+        "New clubbing",
+        "Systemic work-up / medical referral",
+        "Treating as local nail dystrophy"
+       ]
+      ]
+     }
+    },
+    {
+     "h": "Referral"
+    },
+    {
+     "refer": [
+      {
+       "when": "urgent",
+       "t": "**New clubbing**: same-week GP review for chest, cardiac, liver or bowel causes; chest X-ray is often the first test."
+      },
+      {
+       "when": "urgent",
+       "t": "Nail psoriasis with joint pain or dactylitis: screen for **psoriatic arthritis** (PEST) and refer to rheumatology."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "red-flags",
+   "title": "Red flags and when to refer",
+   "blocks": [
+    {
+     "ul": [
+      "**New clubbing**: same-week GP review for chest, cardiac, liver or bowel causes; chest X-ray is often the first test.",
+      "Nail psoriasis with joint pain or dactylitis: screen for **psoriatic arthritis** (PEST) and refer to rheumatology."
+     ]
+    }
+   ],
+   "short": "Red flags"
+  },
+  {
+   "id": "pearls",
+   "title": "Prescriber pearls (UK pharmacist IP)",
+   "blocks": [
+    {
+     "pearls": [
+      "Dating a Beau’s line: fingernails grow about 3 mm a month, so a line 6 mm from the cuticle marks an event about 2 months ago.",
+      "Nail psoriasis predicts psoriatic arthritis: ask about joint pain and morning stiffness at every review.",
+      "Treat nail psoriasis expectations carefully: improvement takes months, and topical treatment works best on the nail folds."
+     ]
+    }
+   ],
+   "short": "Pearls"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Nail signs: psoriatic nails, Beau’s lines & clubbing?",
+   "a": "Pits, oil-drop patches, lifting nails, transverse grooves, or a bulbous fingertip."
+  },
+  {
+   "q": "What drives it?",
+   "a": "Psoriasis in the nail matrix and bed; a temporary halt in nail growth (Beau’s lines); tissue proliferation in clubbing."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "Link the nail to the whole patient: joints for psoriasis, recent illness or drugs for Beau’s lines, a systemic review for clubbing."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "New clubbing (lung cancer, fibrosis, endocarditis, IBD, cirrhosis)."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "**New clubbing**: same-week GP review for chest, cardiac, liver or bowel causes; chest X-ray is often the first test."
+  }
+ ],
+ "references": [
+  {
+   "label": "Medscape: Nail signs: psoriatic nails, Beau’s lines & clubbing",
+   "url": "https://emedicine.medscape.com/article/1105738-overview"
+  }
+ ],
+ "see_also": []
+}

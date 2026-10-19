@@ -1,0 +1,345 @@
+{
+ "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
+ "key_facts": [
+  "**Infantile haemangioma** is the commonest tumour of infancy (about 4–10% of infants): absent or faint at birth, then rapid growth.",
+  "Most growth happens in the **first 1–3 months**; involution over years, often leaving fibrofatty tissue or telangiectasia.",
+  "High-risk sites: **periocular, airway/beard, lip, nasal tip, large segmental facial, perineal**, ulcerated, or 5 or more lesions.",
+  "Refer high-risk lesions early, ideally by about **4 weeks** of age; **propranolol** is first-line and specialist-initiated.",
+  "Five or more skin haemangiomas: liver ultrasound. Large facial segmental lesions: think PHACE."
+ ],
+ "sections": [
+  {
+   "id": "overview",
+   "title": "Overview",
+   "blocks": [
+    "An **infantile haemangioma (IH)** is a benign vascular **tumour** of infancy. It is absent or a faint mark at birth, **grows rapidly** (mostly in the first 1–3 months, largely complete by about 5 months), plateaus, then **involutes** over years. About **4–10%** of infants are affected."
+   ]
+  },
+  {
+   "id": "epidemiology",
+   "title": "Epidemiology",
+   "blocks": [
+    {
+     "ul": [
+      {
+       "t": "**Who**",
+       "sub": [
+        "More in girls, premature and low-birth-weight babies, and twins.",
+        "Head and neck in about 60%."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "aetiology",
+   "title": "Aetiology: causes and risk factors",
+   "blocks": [
+    {
+     "ul": [
+      "Clonal endothelial proliferation, **GLUT-1 positive** (unlike malformations and congenital haemangiomas).",
+      "Risk factors: prematurity, low birth weight, female sex, multiple pregnancy, placental anomalies."
+     ]
+    },
+    {
+     "h": "Myths to address"
+    },
+    {
+     "ul": [
+      "**\"Wait and it will go away\"**: most do, but high-risk ones need treatment in the early growth window."
+     ]
+    }
+   ],
+   "short": "Aetiology"
+  },
+  {
+   "id": "pathophysiology",
+   "title": "Pathophysiology and pathology",
+   "blocks": [
+    "A haemangioma is a **benign proliferation of immature endothelial cells** that later switches off.",
+    {
+     "mech": [
+      {
+       "k": "Trigger",
+       "t": "Tissue hypoxia (possibly placental) induces HIF-1α and VEGF in a progenitor cell population."
+      },
+      {
+       "k": "Proliferation",
+       "t": "GLUT-1–positive endothelial cells proliferate rapidly in the first months."
+      },
+      {
+       "k": "Plateau",
+       "t": "Growth slows by about 5 months."
+      },
+      {
+       "k": "Involution",
+       "t": "Endothelial cells undergo apoptosis and are replaced by fibrofatty tissue over years.",
+       "img": "haemangioma-natural-history.jpg",
+       "caption": "Natural history: appearance, rapid growth, slow involution."
+      },
+      {
+       "k": "Propranolol effect",
+       "t": "Beta-blockade causes vasoconstriction, reduces VEGF signalling and speeds involution."
+      }
+     ]
+    },
+    {
+     "histo": [
+      "Lobules of capillaries lined by GLUT-1–positive endothelium (GLUT-1 negative in congenital haemangiomas and malformations)."
+     ]
+    }
+   ],
+   "short": "Pathophysiology"
+  },
+  {
+   "id": "clinical-features",
+   "title": "Clinical features",
+   "blocks": [
+    {
+     "table": {
+      "head": [
+       "Type",
+       "Appearance"
+      ],
+      "rows": [
+       [
+        "Superficial",
+        "Bright red, raised, well-defined (‘strawberry’)"
+       ],
+       [
+        "Deep",
+        "Bluish, rubbery swelling under the skin"
+       ],
+       [
+        "Mixed",
+        "Both"
+       ]
+      ]
+     }
+    },
+    "Haemangiomas can occur anywhere, most often on the head and neck. **5 or more** skin haemangiomas raise concern for **liver haemangiomas**. White surface change can herald **ulceration**.",
+    {
+     "fig": {
+      "ai": "haemangioma-natural-history.jpg",
+      "caption": "Natural history of infantile haemangioma: appearance (0–2 weeks), rapid growth (1–6 months), slow involution, and completion (5–7+ years)."
+     }
+    },
+    {
+     "h": "Special groups"
+    },
+    {
+     "ul": [
+      {
+       "t": "**PHACE syndrome**",
+       "sub": [
+        "Posterior fossa anomalies, Haemangioma (large facial segmental), Arterial, Cardiac (coarctation) and Eye anomalies: needs MRI/MRA, echo and eye review."
+       ]
+      },
+      {
+       "t": "**LUMBAR syndrome**",
+       "sub": [
+        "Lumbosacral segmental haemangioma with spinal and urogenital anomalies: spinal imaging."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "diagnosis",
+   "title": "Diagnosis and investigations",
+   "blocks": [
+    {
+     "ul": [
+      "Usually **clinical**.",
+      "Ultrasound if deep, or uncertain against a malformation or soft-tissue mass. MRI for complex facial or segmental lesions.",
+      "Abdominal ultrasound if there are 5 or more skin lesions."
+     ]
+    }
+   ],
+   "short": "Diagnosis"
+  },
+  {
+   "id": "differentials",
+   "title": "Differential diagnoses",
+   "blocks": [
+    {
+     "table": {
+      "head": [
+       "Look-alike",
+       "Distinguishing clues"
+      ],
+      "rows": [
+       [
+        "**Port-wine stain** (see [Port-wine stain](condition:port-wine-stain))",
+        "Present at birth, flat, **grows with the child**, no rapid tumour growth"
+       ],
+       [
+        "Congenital haemangioma",
+        "Fully formed at birth; different natural history"
+       ],
+       [
+        "Venous or lymphatic malformation",
+        "Soft, compressible, persistent; imaging differs"
+       ],
+       [
+        "Pyogenic granuloma",
+        "Later onset; often a pedunculated bleeding papule"
+       ]
+      ]
+     }
+    }
+   ],
+   "short": "Differentials"
+  },
+  {
+   "id": "management",
+   "title": "Management",
+   "blocks": [
+    {
+     "h": "Uncomplicated small haemangioma"
+    },
+    "Active observation with **photo documentation**. Reassure parents about involution.",
+    {
+     "h": "Specialist treatment"
+    },
+    {
+     "ul": [
+      "Oral **propranolol** is first line for problematic IH. It is started and supervised by a specialist, with heart rate, BP and glucose monitoring. Feed regularly, and **hold doses if the baby is unwell or not feeding**.",
+      "Topical **timolol** for selected small, thin, superficial lesions (off-label; NICE ESUOM47).",
+      "Wound care, analgesia and antibiotics for ulceration; laser or surgery for selected residual changes."
+     ]
+    },
+    {
+     "h": "Treatment ladder"
+    },
+    {
+     "ladder": [
+      {
+       "k": "Uncomplicated",
+       "t": "Active observation with photographs; reassure.",
+       "tone": "base"
+      },
+      {
+       "k": "Small superficial (specialist)",
+       "t": "Topical timolol (off-label; NICE ESUOM47).",
+       "tone": "first"
+      },
+      {
+       "k": "Problematic / high-risk",
+       "t": "Oral propranolol, specialist-initiated with monitoring; hold doses if not feeding or unwell.",
+       "tone": "refer"
+      }
+     ]
+    },
+    {
+     "h": "Referral"
+    },
+    {
+     "refer": [
+      {
+       "when": "urgent",
+       "t": "Periocular, airway/beard, lip, nasal tip, segmental facial, perineal, ulcerated or ≥5 lesions: refer ideally by about 4 weeks of age."
+      },
+      {
+       "when": "same-day",
+       "t": "Stridor with a beard-area haemangioma."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "red-flags",
+   "title": "Red flags and when to refer",
+   "blocks": [
+    {
+     "ul": [
+      "High-risk haemangioma sites (listed above): **do not wait to see if it goes away**.",
+      "Stridor or noisy breathing with a beard-area haemangioma: **urgent**.",
+      "Ulcerated or bleeding haemangioma."
+     ]
+    },
+    {
+     "h4": "Refer promptly (ideally by about 4 weeks of age if high risk)"
+    },
+    {
+     "ul": [
+      "**Periocular** (risk to vision and amblyopia)",
+      "**Beard or airway** distribution (risk of stridor)",
+      "**Lip or perioral** (feeding)",
+      "Nasal tip, large facial, or **segmental** (PHACE risk with large facial segmental lesions)",
+      "**Perineal or flexural** (ulceration)",
+      "**Ulcerated, bleeding or rapidly enlarging**",
+      "**5 or more** skin lesions",
+      "Breast (girls) or large scalp lesions"
+     ]
+    }
+   ],
+   "short": "Red flags"
+  },
+  {
+   "id": "complications",
+   "title": "Complications and prognosis",
+   "blocks": [
+    {
+     "h": "Complications"
+    },
+    {
+     "ul": [
+      "Ulceration (painful, scarring), bleeding, amblyopia, airway obstruction, feeding problems, disfigurement; heart failure with large liver haemangiomas."
+     ]
+    },
+    {
+     "h": "Prognosis"
+    },
+    {
+     "ul": [
+      "Most involute; residual skin changes are common in large or deep lesions."
+     ]
+    }
+   ],
+   "short": "Complications"
+  },
+  {
+   "id": "pearls",
+   "title": "Prescriber pearls (UK pharmacist IP)",
+   "blocks": [
+    {
+     "pearls": [
+      "The rapid growth window is early, so **late referral misses the easiest window for treatment**.",
+      "IP role: recognise high-risk sites, explain that beta-blockers are specialist-supervised, and support dressings for ulceration under the specialist plan.",
+      "BAD patient leaflet and the Birthmark Support Group are useful for families."
+     ]
+    }
+   ],
+   "short": "Pearls"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When does most haemangioma growth occur?",
+   "a": "In the first 1–3 months; largely complete by about 5 months."
+  },
+  {
+   "q": "Which marker distinguishes IH from malformations?",
+   "a": "GLUT-1."
+  },
+  {
+   "q": "What does ≥5 skin haemangiomas prompt?",
+   "a": "Abdominal (liver) ultrasound."
+  },
+  {
+   "q": "First-line systemic treatment?",
+   "a": "Oral propranolol, started by a specialist."
+  }
+ ],
+ "references": [],
+ "see_also": [
+  "port-wine-stain",
+  "pyogenic-granuloma",
+  "pigmented-birthmarks",
+  "neonatal-rashes"
+ ]
+}

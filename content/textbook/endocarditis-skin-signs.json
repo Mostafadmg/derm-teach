@@ -1,0 +1,203 @@
+{
+ "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
+ "key_facts": [
+  "Tender pulp nodules (Osler), painless palm or sole macules (Janeway) or splinters, especially with fever or a murmur.",
+  "Immune-complex vasculitis (Osler) and septic micro-emboli (Janeway) from infected heart valves.",
+  "Fever + signs = same-day admission for blood cultures before antibiotics and echocardiography (modified Duke criteria).",
+  "Endocarditis in injecting drug users, people with prosthetic valves or devices; starting antibiotics before cultures."
+ ],
+ "sections": [
+  {
+   "id": "overview",
+   "title": "Overview",
+   "blocks": [
+    "Classic peripheral signs of **infective endocarditis (IE)**. They are now uncommon (each is seen in <10–15% of modern IE cases) because IE is diagnosed earlier.",
+    {
+     "ul": [
+      "**Osler nodes:** **tender**, pea-sized red-purple nodules on the **pads of fingers and toes** (and thenar/hypothenar eminences), lasting hours to days.",
+      "**Janeway lesions:** **painless**, flat or slightly raised haemorrhagic macules on the **palms and soles**.",
+      "**Splinter haemorrhages:** thin, longitudinal, red-brown/black lines in the nail bed, running in the direction of nail growth."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "pathophysiology",
+   "title": "Pathophysiology and pathology",
+   "blocks": [
+    {
+     "h": "How it is caused"
+    },
+    {
+     "ul": [
+      "**Osler nodes:** traditionally **immunological** (immune-complex vasculitis); histology also shows microemboli. They count as an **immunological phenomenon** in the Duke criteria.",
+      "**Janeway lesions:** **septic microemboli** with dermal microabscesses (a **vascular phenomenon**), so organisms may be cultured from them.",
+      "**Splinters:** rupture of longitudinally oriented nail-bed capillaries (trauma) or microemboli/vasculitis."
+     ]
+    }
+   ],
+   "short": "Pathophysiology"
+  },
+  {
+   "id": "clinical-features",
+   "title": "Clinical features",
+   "blocks": [
+    {
+     "h": "Clinical features & sites"
+    },
+    "The Osler/Janeway distinction is tender vs painless. Look also for **Roth spots** (retinal haemorrhages with pale centres — fundoscopy), conjunctival petechiae, clubbing (subacute), new murmur, fever, splenomegaly, haematuria, and embolic events (stroke, limb ischaemia).",
+    {
+     "fig": {
+      "dermnet": "m1w4:B01"
+     }
+    }
+   ]
+  },
+  {
+   "id": "diagnosis",
+   "title": "Diagnosis and investigations",
+   "blocks": [
+    {
+     "ul": [
+      "**Endocarditis:** **2023 Duke–ISCVID / ESC 2023 criteria**: **Major:** typical organisms in ≥2 blood cultures; imaging evidence (echo/PET-CT vegetation, abscess, new valvular regurgitation); **Minor:** predisposition (prosthetic valve, previous IE, IV drug use, congenital heart disease, cardiac devices), **fever ≥38 °C**, **vascular phenomena** (major arterial emboli, septic pulmonary infarcts, mycotic aneurysm, intracranial haemorrhage, conjunctival haemorrhages, **Janeway lesions**), **immunological phenomena** (glomerulonephritis, **Osler nodes**, Roth spots, positive rheumatoid factor), microbiological evidence not meeting the major criterion",
+      "**Tests (hospital):** ≥3 sets of blood cultures **before antibiotics**, echocardiography (TTE → TOE), FBC, CRP, urinalysis."
+     ]
+    }
+   ],
+   "short": "Diagnosis"
+  },
+  {
+   "id": "differentials",
+   "title": "Differential diagnoses",
+   "blocks": [
+    {
+     "ddx": [
+      {
+       "name": "Osler nodes",
+       "f": "SLE, **gonococcaemia**, typhoid, haemolytic anaemia, marantic (non-bacterial thrombotic) endocarditis, infected radial-artery lines (distal emboli), vasculitis"
+      },
+      {
+       "name": "Janeway lesions",
+       "f": "SLE, gonococcaemia, typhoid, other septicaemia, haemolytic anaemia"
+      },
+      {
+       "name": "Splinter haemorrhages",
+       "f": "**Trauma (commonest — manual workers, distal splinters)**, **psoriasis**, **onychomycosis**, eczema, haemodialysis, vasculitis/connective tissue disease, **antiphospholipid syndrome**, trichinosis, high altitude, mitral stenosis, scurvy, drugs (tetracyclines, VEGF-inhibitors such as sunitinib/sorafenib), and some normal elderly people"
+      }
+     ]
+    },
+    "**No.** None of the three is specific to IE.",
+    {
+     "table": {
+      "head": [
+       "Sign",
+       "Other causes"
+      ],
+      "rows": [
+       [
+        "Osler nodes",
+        "SLE, **gonococcaemia**, typhoid, haemolytic anaemia, marantic (non-bacterial thrombotic) endocarditis, infected radial-artery lines (distal emboli), vasculitis"
+       ],
+       [
+        "Janeway lesions",
+        "SLE, gonococcaemia, typhoid, other septicaemia, haemolytic anaemia"
+       ],
+       [
+        "Splinter haemorrhages",
+        "**Trauma (commonest — manual workers, distal splinters)**, **psoriasis**, **onychomycosis**, eczema, haemodialysis, vasculitis/connective tissue disease, **antiphospholipid syndrome**, trichinosis, high altitude, mitral stenosis, scurvy, drugs (tetracyclines, VEGF-inhibitors such as sunitinib/sorafenib), and some normal elderly people"
+       ]
+      ]
+     }
+    },
+    "**How many splinters matter?** There is **no validated number**. Splinters are more suspicious when they are **new**, **multiple** (several in one nail or across **several nails** — some texts suggest ≥4), **proximal** (rather than distal — trauma), **painful**, and **accompanied by fever, a murmur or IE risk factors**. Context, not count, makes the diagnosis."
+   ],
+   "short": "Differentials"
+  },
+  {
+   "id": "management",
+   "title": "Management",
+   "blocks": [
+    {
+     "ul": [
+      "**Suspected IE** (fever + new murmur or IE risk + embolic/vascular signs) → **same-day hospital assessment**. **Do not start oral antibiotics** before blood cultures — this sterilises cultures and delays diagnosis (a common primary-care pitfall).",
+      "**IE prophylaxis (NICE CG64, updated 2016):** antibiotic prophylaxis for dental/other procedures is **not routinely recommended**. Advise high-risk patients on good **dental hygiene**, to avoid body piercing/tattooing, and on **symptoms to report** (persistent fever, night sweats, weight loss).",
+      "**People who inject drugs:** harm reduction (needle-exchange, PWID services), awareness of IE (often right-sided, *S. aureus*)."
+     ]
+    },
+    {
+     "h": "IP scope"
+    },
+    "Recognition and urgent referral; no antibiotic initiation for suspected IE in primary care; counselling of at-risk patients.",
+    {
+     "h": "Referral"
+    },
+    {
+     "refer": [
+      {
+       "when": "same-day",
+       "t": "Fever with a new murmur, splinters or Osler/Janeway lesions: **same-day admission**; do not give antibiotics before blood cultures unless septic."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "red-flags",
+   "title": "Red flags and when to refer",
+   "blocks": [
+    {
+     "ul": [
+      "Fever with a new murmur, splinters or Osler/Janeway lesions: **same-day admission**; do not give antibiotics before blood cultures unless septic."
+     ]
+    },
+    {
+     "h4": "Red flags / refer"
+    },
+    "Any febrile patient with new splinters/Osler/Janeway lesions, a murmur, a prosthetic valve, IV drug use or embolic events → same day. Isolated distal splinters in a well manual worker → reassure and review."
+   ],
+   "short": "Red flags"
+  },
+  {
+   "id": "pearls",
+   "title": "Prescriber pearls (UK pharmacist IP)",
+   "blocks": [
+    {
+     "pearls": [
+      "\"**Osler = Ouch** (tender); **Janeway = painless**.\"",
+      "\"Fever + murmur + splinters = **blood cultures before antibiotics**.\""
+     ]
+    }
+   ],
+   "short": "Pearls"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Osler nodes, Janeway lesions & splinter haemorrhages?",
+   "a": "Tender pulp nodules (Osler), painless palm or sole macules (Janeway) or splinters, especially with fever or a murmur."
+  },
+  {
+   "q": "What drives it?",
+   "a": "Immune-complex vasculitis (Osler) and septic micro-emboli (Janeway) from infected heart valves."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "Fever + signs = same-day admission for blood cultures before antibiotics and echocardiography (modified Duke criteria)."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "Endocarditis in injecting drug users, people with prosthetic valves or devices; starting antibiotics before cultures."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "Fever with a new murmur, splinters or Osler/Janeway lesions: **same-day admission**; do not give antibiotics before blood cultures unless septic."
+  }
+ ],
+ "references": [
+  {
+   "label": "Medscape: Osler nodes, Janeway lesions & splinter haemorrhages",
+   "url": "https://emedicine.medscape.com/article/216650-overview"
+  }
+ ],
+ "see_also": []
+}

@@ -1,0 +1,204 @@
+{
+ "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
+ "key_facts": [
+  "A **blue naevus** is a benign collection of **dermal melanocytes**: a steel-blue, firm, dome-shaped papule.",
+  "Blue because deep pigment scatters back blue light (**Tyndall effect**).",
+  "Head and neck, backs of hands and feet, buttocks; usually under 1 cm.",
+  "Reassure if long-standing and stable; dermoscopy shows homogeneous blue pigment.",
+  "Refer new, enlarging or large (>1 cm) lesions in adults: nodular or metastatic melanoma can look blue."
+ ],
+ "sections": [
+  {
+   "id": "overview",
+   "title": "Overview",
+   "blocks": [
+    "A **blue naevus** is a benign collection of pigment-producing **dermal melanocytes**. It appears as a steel-blue, firm, dome-shaped papule, usually under 1 cm, often appearing in childhood or adolescence."
+   ]
+  },
+  {
+   "id": "aetiology",
+   "title": "Aetiology: causes and risk factors",
+   "blocks": [
+    "Melanocytes arrested in the dermis during their embryonic migration; GNAQ/GNA11 mutations. The colour is blue because deep pigment scatters back mainly blue light (**Tyndall effect**).",
+    {
+     "h": "Myths to address"
+    },
+    {
+     "ul": [
+      "**\"Blue moles are bruises or tattoos\"**: a persisting blue papule without trauma is often a blue naevus, but must be stable."
+     ]
+    }
+   ],
+   "short": "Aetiology"
+  },
+  {
+   "id": "pathophysiology",
+   "title": "Pathophysiology and pathology",
+   "blocks": [
+    "Melanocytes that **stopped in the dermis** during development produce pigment deep in the skin.",
+    {
+     "mech": [
+      {
+       "k": "Arrested migration",
+       "t": "Melanocytes travelling from the neural crest to the epidermis stop in the dermis."
+      },
+      {
+       "k": "GNAQ/GNA11 mutation",
+       "t": "A mutation drives a small clonal proliferation."
+      },
+      {
+       "k": "Tyndall effect",
+       "t": "Deep pigment scatters blue light back to the eye.",
+       "img": "v3-tyndall-blue.jpg",
+       "caption": "Deep dermal pigment looks blue (Tyndall effect); superficial pigment looks brown."
+      }
+     ]
+    },
+    {
+     "histo": [
+      "Dendritic, heavily pigmented melanocytes and melanophages in the dermis; cellular blue naevus has nodules of spindle cells."
+     ]
+    }
+   ],
+   "short": "Pathophysiology"
+  },
+  {
+   "id": "clinical-features",
+   "title": "Clinical features",
+   "blocks": [
+    {
+     "ul": [
+      "Uniform slate- or steel-blue dome papule.",
+      "Head and neck, backs of hands and feet, buttocks.",
+      "**Cellular blue naevus**: larger (over 1 cm), often on the buttocks or scalp."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "diagnosis",
+   "title": "Diagnosis and investigations",
+   "blocks": [
+    "Clinical with dermoscopy (structureless homogeneous blue pigmentation). Excise if new in an adult, changing or large."
+   ],
+   "short": "Diagnosis"
+  },
+  {
+   "id": "differentials",
+   "title": "Differential diagnoses",
+   "blocks": [
+    "**Nodular or metastatic melanoma** (can look blue), traumatic tattoo, venous lake, pigmented BCC, angiokeratoma."
+   ],
+   "short": "Differentials"
+  },
+  {
+   "id": "management",
+   "title": "Management",
+   "blocks": [
+    {
+     "ul": [
+      "Reassure if long-standing and stable.",
+      "Refer if new in an adult, enlarging, or over 1 cm (cellular blue naevus; melanoma differential)."
+     ]
+    },
+    {
+     "h": "Treatment ladder"
+    },
+    {
+     "ladder": [
+      {
+       "k": "Typical, stable",
+       "t": "Reassure; photograph; sun protection.",
+       "tone": "base"
+      },
+      {
+       "k": "Atypical or adult",
+       "t": "Dermatology via the suspected cancer pathway; excision for histology.",
+       "tone": "refer"
+      }
+     ]
+    },
+    {
+     "h": "Referral"
+    },
+    {
+     "refer": [
+      {
+       "when": "urgent",
+       "t": "New, enlarging or >1 cm blue lesion in an adult."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "red-flags",
+   "title": "Red flags and when to refer",
+   "blocks": [
+    {
+     "ul": [
+      "New or changing blue papule in an adult, or a history of melanoma (metastasis looks blue): **suspected cancer pathway**."
+     ]
+    }
+   ],
+   "short": "Red flags"
+  },
+  {
+   "id": "complications",
+   "title": "Complications and prognosis",
+   "blocks": [
+    {
+     "h": "Complications"
+    },
+    {
+     "ul": [
+      "Rarely, malignant blue naevus (melanoma arising in a blue naevus)."
+     ]
+    },
+    {
+     "h": "Prognosis"
+    },
+    {
+     "ul": [
+      "Stable for life in almost all."
+     ]
+    }
+   ],
+   "short": "Complications"
+  },
+  {
+   "id": "pearls",
+   "title": "Prescriber pearls (UK pharmacist IP)",
+   "blocks": [
+    {
+     "pearls": [
+      "Blue = deep pigment (Tyndall effect); brown = pigment near the surface."
+     ]
+    }
+   ],
+   "short": "Pearls"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Why does a blue naevus look blue?",
+   "a": "Deep dermal pigment scatters blue light (Tyndall effect)."
+  },
+  {
+   "q": "Which dangerous lesion can look blue?",
+   "a": "Nodular or metastatic melanoma."
+  },
+  {
+   "q": "Size threshold for concern?",
+   "a": "Over 1 cm (cellular blue naevus) or enlarging."
+  }
+ ],
+ "references": [],
+ "see_also": [
+  "melanocytic-naevi",
+  "halo-naevus",
+  "spitz-naevus",
+  "melanoma",
+  "pigmented-birthmarks"
+ ]
+}

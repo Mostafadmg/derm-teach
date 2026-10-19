@@ -1,0 +1,55 @@
+{
+ "kf": [
+  "**Spitz naevi** are benign naevi of large epithelioid/spindle melanocytes that **grow quickly in children**.",
+  "Pink-red or pigmented dome; dermoscopy starburst pattern or dotted vessels. **Reed naevus**: dark symmetrical starburst, often thigh of young women.",
+  "They can be clinically and histologically hard to tell from melanoma (spitzoid melanoma).",
+  "Children under 12 with typical lesions may be monitored by specialists; **adolescents and adults: excision**.",
+  "Atypical Spitz tumours need specialist histopathology review."
+ ],
+ "epi": [
+  {
+   "t": "**Who**",
+   "sub": [
+    "Mostly children and young adults; face and limbs."
+   ]
+  }
+ ],
+ "myths": [
+  "**\"Fast growth always means melanoma\"**: in young children it is typical of Spitz naevi, but needs specialist assessment."
+ ],
+ "patho_lead": "Spitz naevi grow from a **single driver event** (HRAS mutation or kinase fusion), then stop.",
+ "mech": [
+  {
+   "k": "Driver",
+   "t": "An HRAS mutation or a kinase fusion (ALK, ROS1, NTRK, BRAF, MET) starts growth."
+  },
+  {
+   "k": "Rapid growth",
+   "t": "Large epithelioid and spindle melanocytes proliferate over months."
+  },
+  {
+   "k": "Stabilisation",
+   "t": "Senescence halts growth; many involute or become fibrotic over years."
+  },
+  {
+   "k": "Spectrum",
+   "t": "Additional mutations push lesions towards atypical Spitz tumour and spitzoid melanoma."
+  }
+ ],
+ "histo": [
+  "Symmetrical, well-circumscribed proliferation of large epithelioid/spindle melanocytes with Kamino bodies; maturation with depth."
+ ],
+ "comp": [
+  "Diagnostic uncertainty; rarely malignant behaviour (atypical Spitz tumour)."
+ ],
+ "prog": [
+  "Benign in most children; may regress."
+ ],
+ "see_also": [
+  "melanocytic-naevi",
+  "halo-naevus",
+  "blue-naevus",
+  "melanoma",
+  "pyogenic-granuloma"
+ ]
+}

@@ -1,0 +1,247 @@
+{
+ "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
+ "key_facts": [
+  "**IPL** uses filtered broad-spectrum flashlamp light to target **melanin** (lentigines, hair) and **haemoglobin** (redness, telangiectasia).",
+  "Usually 3–6 sessions; treated pigment darkens ('coffee grounds') then flakes over 1–2 weeks.",
+  "Risks: burns, blistering, hypo- or hyperpigmentation, scarring, eye injury; highest in tanned or darker skin.",
+  "Never treat undiagnosed pigmented lesions; caution with photosensitising drugs, recent isotretinoin, HSV.",
+  "Melasma is a poor candidate; cosmetic and not NHS-funded."
+ ],
+ "sections": [
+  {
+   "id": "overview",
+   "title": "Overview",
+   "blocks": [
+    "**Intense pulsed light (IPL)** is a non-laser flashlamp delivering broad-spectrum light through filters to treat vascular redness, solar lentigines and unwanted dark hair, with modest texture benefit."
+   ]
+  },
+  {
+   "id": "aetiology",
+   "title": "Aetiology: causes and risk factors",
+   "blocks": [
+    {
+     "ul": [
+      "Selective photothermolysis: melanin and oxyhaemoglobin absorb the light and heat up; dermal heating may remodel collagen modestly.",
+      "Darker or tanned skin absorbs more epidermal energy, giving a higher risk of burns and pigment change."
+     ]
+    },
+    {
+     "h": "Myths to address"
+    },
+    {
+     "ul": [
+      "**\"IPL is a laser\"**: it is non-coherent broad-spectrum light, less selective than lasers."
+     ]
+    }
+   ],
+   "short": "Aetiology"
+  },
+  {
+   "id": "pathophysiology",
+   "title": "Pathophysiology and pathology",
+   "blocks": [
+    "IPL heats **coloured targets** in the skin, which absorb the light more than their surroundings.",
+    {
+     "mech": [
+      {
+       "k": "Light absorption",
+       "t": "Melanin and oxyhaemoglobin absorb specific wavelengths."
+      },
+      {
+       "k": "Selective heating",
+       "t": "Short pulses heat the target faster than heat spreads (selective photothermolysis)."
+      },
+      {
+       "k": "Clearance",
+       "t": "Damaged pigment is shed; heated vessels collapse and are reabsorbed."
+      },
+      {
+       "k": "Collateral risk",
+       "t": "Epidermal melanin also absorbs energy, so tanned or darker skin burns more easily."
+      }
+     ]
+    }
+   ],
+   "short": "Pathophysiology"
+  },
+  {
+   "id": "clinical-features",
+   "title": "Clinical features",
+   "blocks": [
+    {
+     "ul": [
+      "Sessions often 3–6, weeks apart; treated pigment darkens like “coffee grounds” then flakes over 1–2 weeks.",
+      "Adverse effects: burns, blistering, **hypo-/hyperpigmentation** (sometimes grid footprints), scarring, paradoxical hair growth, eye injury."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "diagnosis",
+   "title": "Diagnosis and investigations",
+   "blocks": [
+    "Before IPL: confirm the diagnosis of every pigmented spot (no undiagnosed lesions), Fitzpatrick type, recent tan, photosensitising drugs and HSV history. Melasma is generally a poor IPL candidate."
+   ],
+   "short": "Diagnosis"
+  },
+  {
+   "id": "differentials",
+   "title": "Differential diagnoses",
+   "blocks": [
+    {
+     "table": {
+      "head": [
+       "Request",
+       "Better framed as"
+      ],
+      "rows": [
+       [
+        "Diffuse redness + lentigines",
+        "IPL photofacial after a skin cancer check"
+       ],
+       [
+        "Discrete stubborn lentigo",
+        "Often a pigment laser rather than IPL"
+       ],
+       [
+        "Melasma",
+        "Sunscreen + medical therapy; avoid heat devices first-line (see [Melasma](condition:melasma-facial-melanosis))"
+       ]
+      ]
+     }
+    }
+   ],
+   "short": "Differentials"
+  },
+  {
+   "id": "management",
+   "title": "Management",
+   "blocks": [
+    {
+     "h": "IPL counselling (UK)"
+    },
+    {
+     "ul": [
+      "Check practitioner training, insurance, patch test and (in Wales) HIW registration for Class 3B/4 lasers/IPL in independent clinics.",
+      "Contraindications/cautions: undiagnosed pigmented lesions, active infection/HSV, recent tan, photosensitivity disorders, many photosensitising drugs; extra caution in skin types IV–VI and on isotretinoin (many delay treatment).",
+      "Aftercare: SPF, gentle skincare, no picking; seek review for blistering or infection.",
+      "See also [solar lentigines](condition:solar-lentigines) and [photoageing](condition:photoageing)."
+     ]
+    },
+    {
+     "h": "Treatment ladder"
+    },
+    {
+     "ladder": [
+      {
+       "k": "Select",
+       "t": "Diagnose every pigmented lesion first; check skin type, tan, drugs, HSV.",
+       "tone": "base"
+      },
+      {
+       "k": "Treat",
+       "t": "3–6 sessions by a trained, registered operator; patch test.",
+       "tone": "first"
+      },
+      {
+       "k": "Aftercare",
+       "t": "SPF, no picking; review blistering or infection.",
+       "tone": "second"
+      }
+     ]
+    },
+    {
+     "h": "Referral"
+    },
+    {
+     "refer": [
+      {
+       "when": "same-day",
+       "t": "Eye pain or visual change after IPL: ophthalmology."
+      },
+      {
+       "when": "urgent",
+       "t": "Undiagnosed changing pigmented lesion: suspected cancer pathway."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "red-flags",
+   "title": "Red flags and when to refer",
+   "blocks": [
+    {
+     "ul": [
+      "Eye pain or visual change during/after IPL: **urgent ophthalmology**.",
+      "Blistering burns or striped hypopigmentation: stop further treatment; specialist wound/pigment advice.",
+      "Undiagnosed changing pigmented lesion: cancel IPL; refer."
+     ]
+    }
+   ],
+   "short": "Red flags"
+  },
+  {
+   "id": "complications",
+   "title": "Complications and prognosis",
+   "blocks": [
+    {
+     "h": "Complications"
+    },
+    {
+     "ul": [
+      "Burns, pigment change (grid pattern), scarring, eye injury, paradoxical hair growth."
+     ]
+    },
+    {
+     "h": "Prognosis"
+    },
+    {
+     "ul": [
+      "Results fade with new sun damage; maintenance sessions are common."
+     ]
+    }
+   ],
+   "short": "Complications"
+  },
+  {
+   "id": "pearls",
+   "title": "Prescriber pearls (UK pharmacist IP)",
+   "blocks": [
+    {
+     "pearls": [
+      "IPL is versatile but unforgiving on tanned or darker skin without expert settings.",
+      "Coffee-ground darkening is expected; picking prolongs marks."
+     ]
+    }
+   ],
+   "short": "Pearls"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "What are IPL's target chromophores?",
+   "a": "Melanin and oxyhaemoglobin (and hair melanin)."
+  },
+  {
+   "q": "Who is at higher risk of IPL burns and pigment change?",
+   "a": "Tanned or darker skin (types IV–VI)."
+  },
+  {
+   "q": "Is melasma a good IPL indication?",
+   "a": "Generally no; heat can worsen it."
+  },
+  {
+   "q": "What is the 'coffee grounds' effect?",
+   "a": "Expected darkening of treated pigment that flakes off over 1–2 weeks."
+  }
+ ],
+ "references": [],
+ "see_also": [
+  "solar-lentigines",
+  "photoageing",
+  "rosacea",
+  "cosmetic-procedures",
+  "eyelash-enhancement"
+ ]
+}

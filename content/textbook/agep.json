@@ -1,0 +1,243 @@
+{
+ "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
+ "key_facts": [
+  "**AGEP** is a pustular drug reaction: hundreds of tiny **non-follicular** sterile pustules on red, swollen skin, with fever.",
+  "Starts in the flexures and face **within hours to 2 days** of an antibiotic (aminopenicillins, macrolides) or other drug (hydroxychloroquine, diltiazem, terbinafine).",
+  "Neutrophilia is common; organ involvement is mild and uncommon.",
+  "Stop the drug, potent topical steroid and supportive care; settles in **1–2 weeks** with peeling.",
+  "Main differential: generalised pustular psoriasis (history of psoriasis, slower course)."
+ ],
+ "sections": [
+  {
+   "id": "overview",
+   "title": "Overview",
+   "blocks": [
+    "**AGEP** (acute generalised exanthematous pustulosis) is an abrupt eruption of **sterile, non-follicular pinhead pustules** on oedematous erythema. It is usually self-limiting; mortality is under 5%."
+   ]
+  },
+  {
+   "id": "epidemiology",
+   "title": "Epidemiology",
+   "blocks": [
+    {
+     "ul": [
+      {
+       "t": "**Who**",
+       "sub": [
+        "Rare (about 1–5 per million per year); any age; more women."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "aetiology",
+   "title": "Aetiology: causes and risk factors",
+   "blocks": [
+    {
+     "ul": [
+      "Type IVd reaction: drug-specific T cells release **IL-8 (CXCL8)**, recruiting neutrophils into the epidermis.",
+      "Culprits: **aminopenicillins**, macrolides, cephalosporins, **pristinamycin**, **hydroxychloroquine**, **diltiazem**, terbinafine.",
+      "Latency **under 48 hours** for antibiotics; up to 1–2 weeks for some drugs.",
+      "IL36RN variants overlap with generalised pustular psoriasis."
+     ]
+    },
+    {
+     "h": "Myths to address"
+    },
+    {
+     "ul": [
+      "**\"Pustules mean infection\"**: AGEP pustules are sterile; more antibiotics can make it worse."
+     ]
+    }
+   ],
+   "short": "Aetiology"
+  },
+  {
+   "id": "pathophysiology",
+   "title": "Pathophysiology and pathology",
+   "blocks": [
+    "Drug-specific T cells summon **neutrophils** into the top of the epidermis.",
+    {
+     "mech": [
+      {
+       "k": "T-cell activation",
+       "t": "Drug-specific CD4+ and CD8+ T cells migrate into the epidermis."
+      },
+      {
+       "k": "IL-8 release",
+       "t": "T cells and keratinocytes release **IL-8 (CXCL8)** and IL-17."
+      },
+      {
+       "k": "Subcorneal pustules",
+       "t": "Neutrophils gather just under the stratum corneum, forming pinhead pustules.",
+       "img": "v4-agep-subcorneal.jpg",
+       "caption": "AGEP: neutrophil-filled pustules collect just under the stratum corneum (subcorneal), not around hair follicles, over swollen inflamed skin."
+      },
+      {
+       "k": "Desquamation",
+       "t": "As pustules dry, the surface peels in collarettes over 1–2 weeks."
+      }
+     ]
+    },
+    {
+     "histo": [
+      "Subcorneal or intraepidermal spongiform pustules, papillary oedema, eosinophils, sometimes necrotic keratinocytes."
+     ]
+    }
+   ],
+   "short": "Pathophysiology"
+  },
+  {
+   "id": "clinical-features",
+   "title": "Clinical features",
+   "blocks": [
+    {
+     "ul": [
+      "Pinhead pustules on erythema, starting in the **flexures and face** and becoming generalised; burning or itch.",
+      "Fever above 38 °C; neutrophilia; mild organ involvement in up to 20%.",
+      "Resolves in 1–2 weeks with **collarette desquamation**."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "diagnosis",
+   "title": "Diagnosis and investigations",
+   "blocks": [
+    "Clinical with history; FBC (neutrophilia), U&E, LFT. Biopsy shows subcorneal or intraepidermal spongiform pustules (to distinguish it from pustular psoriasis). The EuroSCAR score helps. Patch testing later."
+   ],
+   "short": "Diagnosis"
+  },
+  {
+   "id": "differentials",
+   "title": "Differential diagnoses",
+   "blocks": [
+    "**Generalised pustular psoriasis** (history of psoriasis, slower onset, longer course), subcorneal pustular dermatosis, pustular DRESS, folliculitis, SJS/TEN (early AGEP can show Nikolsky-like sloughing)."
+   ],
+   "short": "Differentials"
+  },
+  {
+   "id": "management",
+   "title": "Management",
+   "blocks": [
+    {
+     "ul": [
+      "**Stop the drug**, document, Yellow Card, avoid for life.",
+      "Potent topical steroid; antipyretics; supportive care. Systemic steroids are rarely needed.",
+      "Usually managed in dermatology, with admission if unwell."
+     ]
+    },
+    {
+     "h": "Treatment ladder"
+    },
+    {
+     "ladder": [
+      {
+       "k": "Stop and record",
+       "t": "Stop the culprit; record allergy; Yellow Card.",
+       "tone": "base"
+      },
+      {
+       "k": "Symptom control",
+       "t": "Potent topical steroid, emollients, antipyretics.",
+       "tone": "first"
+      },
+      {
+       "k": "Unwell",
+       "t": "Same-day dermatology or admission.",
+       "tone": "refer"
+      }
+     ]
+    },
+    {
+     "h": "Referral"
+    },
+    {
+     "refer": [
+      {
+       "when": "same-day",
+       "t": "Widespread pustules with fever within days of a new drug."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "red-flags",
+   "title": "Red flags and when to refer",
+   "blocks": [
+    {
+     "ul": [
+      "Widespread pustules within days of an antibiotic: **same-day dermatology**.",
+      "Mucosal erosions, skin sloughing or systemic organ dysfunction: hospital."
+     ]
+    }
+   ],
+   "short": "Red flags"
+  },
+  {
+   "id": "complications",
+   "title": "Complications and prognosis",
+   "blocks": [
+    {
+     "h": "Complications"
+    },
+    {
+     "ul": [
+      "Superinfection; rarely liver, kidney or lung involvement; fluid loss in frail patients."
+     ]
+    },
+    {
+     "h": "Prognosis"
+    },
+    {
+     "ul": [
+      "Excellent once the drug is stopped; recurs on re-exposure."
+     ]
+    }
+   ],
+   "short": "Complications"
+  },
+  {
+   "id": "pearls",
+   "title": "Prescriber pearls (UK pharmacist IP)",
+   "blocks": [
+    {
+     "pearls": [
+      "AGEP has the **shortest latency** of the severe drug reactions (hours to 2 days).",
+      "Pustules in AGEP are **non-follicular** (unlike folliculitis)."
+     ]
+    }
+   ],
+   "short": "Pearls"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "What is the typical latency of AGEP after an antibiotic?",
+   "a": "Under 48 hours."
+  },
+  {
+   "q": "Which cytokine drives the neutrophils in AGEP?",
+   "a": "IL-8 (CXCL8)."
+  },
+  {
+   "q": "Main differential?",
+   "a": "Generalised pustular psoriasis."
+  },
+  {
+   "q": "How does AGEP resolve?",
+   "a": "Over 1–2 weeks with collarette desquamation after stopping the drug."
+  }
+ ],
+ "references": [],
+ "see_also": [
+  "dress",
+  "palmoplantar-pustulosis",
+  "psoriasis",
+  "drug-eruption-approach",
+  "folliculitis"
+ ]
+}

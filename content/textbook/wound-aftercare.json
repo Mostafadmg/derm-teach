@@ -1,0 +1,159 @@
+{
+ "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
+ "key_facts": [
+  "A patient a few days to weeks after minor skin surgery with a question about the wound, stitches, activity or scar.",
+  "Healing goes through inflammation, proliferation and remodelling; tension and infection disrupt it; some people form keloids.",
+  "Keep dry 24–48 h then wash; sutures out at 5–7 days on the face, 10–14 on the trunk and arms and about 14 on the back and legs (local protocols vary); avoid strenuous activity for 1–2 weeks; flucloxacillin for wound infection (clarithromycin or doxycycline if penicillin-allergic, checking interactions).",
+  "Spreading cellulitis, abscess, dehiscence; keloids in people with skin of colour or on the chest, shoulders and earlobes."
+ ],
+ "sections": [
+  {
+   "id": "clinical-features",
+   "title": "Clinical features",
+   "blocks": [
+    {
+     "h": "Wound care"
+    },
+    "Keep the dressing on and **dry for 24–48 h**, then gently wash and pat dry. A thin layer of **plain petroleum jelly** keeps the wound moist (no routine topical antibiotics: they cause allergy (neomycin, bacitracin) and resistance). For scalp and posterior neck, keep the hair clean.",
+    {
+     "h": "Suture removal (typical; local protocols vary)"
+    },
+    {
+     "table": {
+      "head": [
+       "Site",
+       "Days"
+      ],
+      "rows": [
+       [
+        "Face, eyelids",
+        "5–7 (3–5 for eyelids)"
+       ],
+       [
+        "Scalp",
+        "7–10"
+       ],
+       [
+        "Neck",
+        "7–10"
+       ],
+       [
+        "Trunk, upper limb",
+        "10–14"
+       ],
+       [
+        "Back, lower limb, over joints",
+        "14 (up to 21)"
+       ]
+      ]
+     }
+    },
+    "Absorbable deep sutures (e.g. poliglecaprone; the course Monocryl) dissolve over weeks. Surface nylon (Ethilon) is removed at the times above.",
+    {
+     "h": "Activity"
+    },
+    {
+     "ul": [
+      "**Avoid strenuous exercise, heavy lifting, contact sport and swimming for ~1–2 weeks** (until sutures are out and the wound is sound) to prevent **dehiscence and stretched scars**. course teaching said no football for 2 weeks.",
+      "**Work:** a construction worker may need **1–2 weeks of modified or light duties**. The fit note (from any eligible healthcare professional, including pharmacists since July 2022) can advise \"may be fit for work with adjustments\".",
+      "Protect the wound from dust and dirt at work (a waterproof dressing)."
+     ]
+    },
+    {
+     "h": "Scars"
+    },
+    {
+     "ul": [
+      "Scars mature over 12–18 months.",
+      "**Massage** with emollient once healed (from about 2–3 weeks).",
+      "**Sun protection (SPF 30+) for at least a year** to avoid pigmentation.",
+      "**Silicone gel or sheets** for hypertrophic-scar-prone patients (OTC/prescribable).",
+      "**Keloids:** specialist intralesional triamcinolone (hypopigmentation and atrophy are possible), pressure, cryotherapy, or radiotherapy after excision. **Avoid elective surgery on high-risk sites** in keloid formers."
+     ]
+    },
+    {
+     "fig": {
+      "dermnet": "m2w6:C03"
+     }
+    }
+   ]
+  },
+  {
+   "id": "management",
+   "title": "Management",
+   "blocks": [
+    {
+     "h": "Infection (recognise and treat)"
+    },
+    {
+     "ul": [
+      "**Signs:** increasing pain, redness spreading **>1–2 cm** from the edge, swelling; **pus**, wound breakdown; fever",
+      "Mild stitch-line redness in the first 48 h is normal.",
+      "**Management (NICE NG125/NG141 principles, local formulary):** swab if there is discharge; **flucloxacillin** first-line for *S. aureus*/streptococci; **penicillin allergy: clarithromycin or doxycycline**, but check **warfarin/DOAC interactions** and **statins** (clarithromycin with simvastatin is contraindicated; hold the statin); remove sutures if there is an abscess; same-day review if systemically unwell",
+      "**MRSA** history needs a microbiology-guided choice."
+     ]
+    },
+    "The IP can prescribe analgesia (paracetamol), treat confirmed wound infection, advise on dressings and silicone, issue fit notes, and **check the INR** after interacting antibiotics. Review isotretinoin/acitretin users' wound healing.",
+    {
+     "h": "Referral"
+    },
+    {
+     "refer": [
+      {
+       "when": "same-day",
+       "t": "Spreading redness, fever, pus or increasing pain after surgery: assess for **wound infection or abscess** the same day."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "red-flags",
+   "title": "Red flags and when to refer",
+   "blocks": [
+    {
+     "ul": [
+      "Spreading redness, fever, pus or increasing pain after surgery: assess for **wound infection or abscess** the same day."
+     ]
+    }
+   ],
+   "short": "Red flags"
+  },
+  {
+   "id": "pearls",
+   "title": "Prescriber pearls (UK pharmacist IP)",
+   "blocks": [
+    {
+     "pearls": [
+      "Give written aftercare with a **named contact for bleeding/infection** and the **date for suture removal and results**."
+     ]
+    }
+   ],
+   "short": "Pearls"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Wound aftercare: sutures, activity, infection & scars?",
+   "a": "A patient a few days to weeks after minor skin surgery with a question about the wound, stitches, activity or scar."
+  },
+  {
+   "q": "What drives it?",
+   "a": "Healing goes through inflammation, proliferation and remodelling; tension and infection disrupt it; some people form keloids."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "Keep dry 24–48 h then wash; sutures out at 5–7 days on the face, 10–14 on the trunk and arms and about 14 on the back and legs (local protocols vary); avoid strenuous activity for 1–2 weeks; flucloxacillin for wound infection (clarithromycin or doxycycline if penicillin-allergic, checking interactions)."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "Spreading cellulitis, abscess, dehiscence; keloids in people with skin of colour or on the chest, shoulders and earlobes."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "Spreading redness, fever, pus or increasing pain after surgery: assess for **wound infection or abscess** the same day."
+  }
+ ],
+ "references": [],
+ "see_also": []
+}

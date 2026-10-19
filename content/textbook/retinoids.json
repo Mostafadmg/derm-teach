@@ -1,0 +1,422 @@
+{
+ "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
+ "key_facts": [
+  "Acne needing a **topical retinoid**, or a patient on **isotretinoin, acitretin or alitretinoin**.",
+  "Retinoic-acid receptor binding **normalises keratinisation**, shrinks sebaceous glands (isotretinoin) and slows turnover.",
+  "Topicals: alternate nights, **pea-sized**, sunscreen. Oral retinoids: specialist-initiated with the **MHRA PPP** and mood monitoring.",
+  "**Pregnancy exposure** (acitretin: avoid pregnancy 3 years after); **mood change**; lipids / LFTs; **tetracycline** → raised ICP."
+ ],
+ "sections": [
+  {
+   "id": "overview",
+   "title": "Overview",
+   "blocks": [
+    "Natural and synthetic compounds related to **vitamin A (retinol)** that act on retinoid receptors.",
+    {
+     "table": {
+      "head": [
+       "Generation (classic grouping)",
+       "Agents",
+       "UK use"
+      ],
+      "rows": [
+       [
+        "1st (non-aromatic)",
+        "**Tretinoin** (all-trans retinoic acid), **isotretinoin** (13-cis), **alitretinoin** (9-cis)",
+        "Topical tretinoin with clindamycin (Treclin); **oral isotretinoin** (severe acne); **oral alitretinoin** (severe chronic hand eczema, NICE TA177)"
+       ],
+       [
+        "2nd (mono-aromatic)",
+        "Etretinate (withdrawn), **acitretin**",
+        "**Oral acitretin** — severe/pustular/palmoplantar psoriasis, keratinisation disorders (Darier's, ichthyoses), chemoprevention in transplant recipients"
+       ],
+       [
+        "3rd (poly-aromatic, \"arotinoids\")",
+        "**Adapalene**, tazarotene (UK topical discontinued), bexarotene",
+        "**Adapalene** 0.1% (Differin) and with BPO (**Epiduo** 0.1%/2.5% and 0.3%/2.5%); oral **bexarotene** for CTCL (specialist)"
+       ],
+       [
+        "4th",
+        "**Trifarotene** (RAR-γ selective)",
+        "Topical (Aklief) for facial and truncal acne — formulary status varies"
+       ]
+      ]
+     }
+    },
+    "Over-the-counter cosmetic **retinol/retinaldehyde** are weaker precursors that the skin converts."
+   ]
+  },
+  {
+   "id": "aetiology",
+   "title": "Aetiology: causes and risk factors",
+   "blocks": [
+    {
+     "fig": {
+      "ai": "v3-sebaceous-shrink.jpg",
+      "caption": "Isotretinoin shrinks the sebaceous gland and clears the plugged follicle (left: before; right: on treatment). That is why it acts on every acne mechanism.",
+      "alt": "Follicle with large gland and plug beside a follicle with a shrunken gland"
+     }
+    }
+   ],
+   "short": "Aetiology"
+  },
+  {
+   "id": "clinical-features",
+   "title": "Clinical features",
+   "blocks": [
+    {
+     "h": "How it works"
+    },
+    {
+     "ul": [
+      "Retinoids bind the nuclear **retinoic acid receptors (RAR-α, -β, -γ)** and **retinoid X receptors (RXR)**. Receptor dimers bind retinoic-acid response elements and regulate genes for **keratinocyte proliferation and differentiation**. RAR-γ predominates in the epidermis, which is why adapalene and trifarotene are skin-selective.",
+      "**Topical retinoids in acne:** They normalise follicular keratinisation: **comedolytic**, and anti-comedogenic because they prevent the microcomedone; They are anti-inflammatory (down-regulate **TLR-2** and AP-1) and help other agents penetrate; In photoageing they stimulate collagen and even out pigment",
+      "**Oral isotretinoin** is the only drug that acts on **all four acne mechanisms**: profound **sebaceous-gland shrinkage and sebum suppression** (largely through intracellular isomerisation and sebocyte apoptosis, not simply direct receptor binding); normalised keratinisation; fewer *C. acnes* (a knock-on effect of sebum loss); anti-inflammatory effects",
+      "**Acitretin** is anti-proliferative and normalises differentiation in psoriasis. It is not immunosuppressive, so it is useful when infection or malignancy risk rules out immunosuppressants."
+     ]
+    },
+    {
+     "h": "Clinical uses & where it fits"
+    },
+    {
+     "ul": [
+      "**Topical:** acne (first-line, NICE NG198); photoageing (tretinoin — cosmetic, not NHS); some ichthyoses; off-label melasma combinations.",
+      "**Isotretinoin:** severe acne (nodular/conglobate), acne at risk of **permanent scarring**, or moderate acne that has failed adequate standard therapy including an oral antibiotic. **Specialist-initiated only** (consultant-led team).",
+      "**Acitretin, alitretinoin, bexarotene:** specialist-initiated (hospital-only prescribing)."
+     ]
+    },
+    {
+     "h": "How to choose / assess"
+    },
+    {
+     "ul": [
+      "Topical retinoids suit **comedonal and mixed acne**. Choose adapalene for tolerability, or adapalene/BPO for inflammatory lesions. Avoid in pregnancy or when planning pregnancy.",
+      "Before an oral retinoid, assess **whether the patient could become pregnant**, mental health, lipids/liver, and whether a tetracycline is being taken."
+     ]
+    },
+    {
+     "h": "Key comparisons"
+    },
+    {
+     "table": {
+      "head": [
+       "",
+       "Topical retinoid",
+       "Isotretinoin",
+       "Acitretin",
+       "Alitretinoin"
+      ],
+      "rows": [
+       [
+        "Teratogenic",
+        "Low systemic absorption; **avoid in pregnancy/when planning**",
+        "**Yes — PPP**; contraception until **1 month** after",
+        "**Yes — PPP**; contraception until **3 YEARS** after (etretinate depot)",
+        "**Yes — PPP**; until 1 month after"
+       ],
+       [
+        "Alcohol",
+        "—",
+        "Caution",
+        "**Avoid during and for 2 months after** (forms etretinate)",
+        "—"
+       ],
+       [
+        "Blood donation",
+        "—",
+        "Not during or for 1 month after",
+        "Not during or for 3 years after",
+        "Not during or for 1 month after"
+       ],
+       [
+        "Key AE",
+        "Irritation, dryness, photosensitivity",
+        "Mucocutaneous dryness, **mood/psychiatric effects**, **sexual dysfunction**, lipids/LFTs, myalgia/↑CK, IIH, poor night vision",
+        "Mucocutaneous dryness, hair loss, nail fragility, lipids/LFTs, hyperostosis",
+        "Headache (IIH), lipids, TFTs (central hypothyroidism)"
+       ]
+      ]
+     }
+    },
+    {
+     "fig": {
+      "dermnet": "m1w2:E01"
+     }
+    },
+    {
+     "h": "Adverse effects to recognise"
+    },
+    {
+     "variants": [
+      {
+       "name": "Sunburn on isotretinoin",
+       "t": "Photosensitivity and fragility. *Site: Face.*",
+       "photo": "m1w2:E01"
+      },
+      {
+       "name": "Impetigo",
+       "t": "Dry cracked skin, S. aureus. *Site: Face.*",
+       "photo": "m1w2:E02"
+      },
+      {
+       "name": "Retinoid dermatitis",
+       "t": "Dryness and peeling: start slowly. *Site: Face.*",
+       "photo": "m1w2:E03"
+      },
+      {
+       "name": "Acitretin nails",
+       "t": "Fragility, paronychia. *Site: Nails.*",
+       "photo": "m1w2:E04"
+      },
+      {
+       "name": "Hair shedding",
+       "t": "Dose-related telogen effluvium (acitretin). *Site: Scalp.*",
+       "photo": "m1w2:E05"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "diagnosis",
+   "title": "Diagnosis and investigations",
+   "blocks": [
+    {
+     "h4": "Before oral retinoid"
+    },
+    {
+     "ul": [
+      "Could they become pregnant? Mental health, lipids / liver, any tetracycline?"
+     ]
+    },
+    {
+     "h4": "PPP contraception"
+    },
+    {
+     "ul": [
+      "**≥ 1 highly effective user-independent method** (LARC, sterilisation) or **two complementary** methods, from 1 month before."
+     ]
+    },
+    {
+     "h4": "PPP pregnancy tests"
+    },
+    {
+     "ul": [
+      "Supervised test before, **ideally monthly** during, **1 month after** (acitretin: periodically for 3 years)."
+     ]
+    },
+    {
+     "h4": "Monitor"
+    },
+    {
+     "ul": [
+      "Isotretinoin: mood, sexual function, lipids, LFTs. Acitretin: lipids, LFTs. Alitretinoin: lipids, TFTs, headache."
+     ]
+    }
+   ],
+   "short": "Diagnosis"
+  },
+  {
+   "id": "differentials",
+   "title": "Differential diagnoses",
+   "blocks": [
+    {
+     "ddx": [
+      {
+       "name": "Isotretinoin",
+       "f": "Dryness, **mood / psychiatric**, sexual dysfunction, lipids, LFTs, myalgia, IIH, night vision."
+      },
+      {
+       "name": "Acitretin",
+       "f": "Dryness, hair loss, nail fragility, lipids / LFTs; **no alcohol** (forms etretinate); no blood donation."
+      },
+      {
+       "name": "Alitretinoin",
+       "f": "Headache (IIH), lipids, central hypothyroidism."
+      },
+      {
+       "name": "Tetracycline + retinoid",
+       "f": "**Raised intracranial pressure**: don’t combine.",
+       "danger": true
+      },
+      {
+       "name": "Topical in pregnancy",
+       "f": "Contraindicated (EMA 2018); ask and record."
+      }
+     ]
+    }
+   ],
+   "short": "Differentials"
+  },
+  {
+   "id": "management",
+   "title": "Management",
+   "blocks": [
+    {
+     "h": "Pregnancy and topical retinoids"
+    },
+    {
+     "ul": [
+      "Systemic absorption from topical tretinoin/adapalene is very low. Observational data have **not shown a clear rise in malformations**, though isolated case reports exist.",
+      "Since the **EMA 2018 retinoid review** (reflected in MHRA materials and SmPCs), the EU/UK position is that **topical retinoids are contraindicated in pregnancy and in women planning pregnancy**. No formal PPP is needed for topicals, but **ask about pregnancy intention and contraception**, and record the advice.",
+      "**Inadvertent exposure to a topical:** stop the product, reassure that the risk appears very low, and seek advice from **UKTIS** (UK Teratology Information Service, 0344 892 0909).",
+      "**Exposure to an oral retinoid:** urgent specialist/obstetric referral and a Yellow Card report."
+     ]
+    },
+    {
+     "h": "Oral retinoid Pregnancy Prevention Programme (PPP) — MHRA (2019 materials, still current)"
+    },
+    {
+     "ul": [
+      "Applies to **isotretinoin, acitretin and alitretinoin** in anyone who **could become pregnant**.",
+      "**Contraception:** **at least one highly effective, user-independent method** (LARC — implant, IUD/IUS — or sterilisation) **or two complementary user-dependent methods** (e.g. combined pill + condom), started at least 1 month before treatment.",
+      "**Pregnancy testing:** a **medically supervised test** before starting, **ideally monthly** during treatment, and **1 month after stopping** (acitretin: periodically for 3 years).",
+      "**Supply:** prescriptions within the PPP are limited to **30 days' supply** and must be dispensed within **7 days** of the prescription date.",
+      "**Paperwork:** an annual **acknowledgement of risk** form, a patient reminder card and a **pharmacist checklist** at dispensing."
+     ]
+    },
+    {
+     "h": "Isotretinoin — MHRA rules (Oct 2023, updated Jan 2026)"
+    },
+    {
+     "ul": [
+      "**31 Oct 2023 (CHM Isotretinoin Expert Working Group):** Counselling on possible **psychiatric and sexual side effects**, including reports of sexual dysfunction persisting after stopping; **Assessment of mental health and sexual function before starting** and at every follow-up (patient-reported measures, e.g. PHQ-9/GAD-7); An **in-person review about 1 month** after starting; A new Acknowledgement of Risk Form, Patient Reminder Card and Pharmacist Checklist; The **Lead Prescriber** must have expertise in systemic retinoids (consultant-led); For **under-18s, agreement of two independent prescribers**",
+      "**October 2025 clarifications:** follow-ups after the first may be **remote**; supervised pregnancy testing may be done remotely with oversight; by the third appointment the sexual-function questions can be brief.",
+      "**Update, 22 Jan 2026:** The **two-prescriber requirement for under-18s was removed**; It was replaced by an updated two-page Acknowledgement of Risk Form: the prescriber confirms there is no other appropriate effective treatment, and the patient confirms they know they can ask for a second opinion; A **BAD-run national clinical audit** starts in 2026, and patients should watch a **BAD patient information video** before starting; All other measures remain",
+      "**What this means for a primary-care IP:** You **do not initiate** isotretinoin; you **refer** (NICE NG198 criteria); **Pre-counsel**: MHRA asks the referrer to give initial information on the risks, including mental health and sexual function; **Check and record contraception** and **screen mood**; Avoid interacting prescriptions: **no tetracyclines** (IIH) and no high-dose vitamin A supplements; Report suspected ADRs via **Yellow Card**; If a patient on isotretinoin presents with low mood or suicidal thoughts → stop the drug, arrange urgent mental-health review, and inform the dermatologist",
+      "**Monitoring (BNF/BAD):** LFTs and fasting lipids before starting, after ~1 month, then 3-monthly (or per the specialist protocol); pregnancy tests as above. Typical dose 0.5–1 mg/kg/day to a cumulative 120–150 mg/kg; lower-dose regimens are common.",
+      "**Counselling list:** Dry lips, skin and eyes (lip balm, emollient, lubricant eye drops; contact lenses may become uncomfortable), nosebleeds; Photosensitivity and **sunburn**; Skin fragility: **no waxing, laser or dermabrasion during treatment and for 6 months after**; An early **acne flare**; Myalgia (cut back strenuous exercise); Headache or visual disturbance (**IIH** — urgent); reduced night vision (driving); **Hair thinning**: telogen effluvium that usually recovers after treatment, though persistent cases are reported; Impetigo/S. aureus colonisation; Mood and sexual changes; No blood donation during treatment or for 1 month after"
+     ]
+    },
+    {
+     "h": "Acitretin and alitretinoin (hospital-only)"
+    },
+    {
+     "ul": [
+      "**Acitretin:** PPP with contraception continuing for **3 years** after stopping; **No alcohol** during treatment and for 2 months after, because alcohol converts acitretin to etretinate, which has a very long half-life; Avoid tetracyclines and methotrexate (hepatotoxicity); monitor LFTs and lipids; Nail fragility and hair loss",
+      "**Alitretinoin** (NICE TA177): severe chronic hand eczema unresponsive to potent TCS; PPP; check lipids and TFTs; headache."
+     ]
+    },
+    {
+     "h": "IP scope"
+    },
+    "Topical retinoids: initiate within competence (NICE NG198). Oral retinoids: **specialist-only** initiation and supply (hospital/homecare). Your role is referral, counselling, interaction and contraception checks, and safety-netting.",
+    {
+     "fig": {
+      "ai": "v3-pea-sized-face.jpg",
+      "caption": "A pea-sized amount covers the whole face: dot it on, then spread thinly at night on dry skin.",
+      "alt": "Pea-sized gel on fingertip and dotted on a face"
+     }
+    },
+    {
+     "h": "Treatment ladder"
+    },
+    {
+     "ladder": [
+      {
+       "k": "Topical technique",
+       "t": "**Pea-sized for the whole face**, at night, on dry skin; alternate nights at first. Moisturiser and daily SPF; expect ‘purging’ 2–4 weeks, benefit 8–12 weeks.",
+       "tone": "base"
+      },
+      {
+       "k": "Pregnancy and topicals",
+       "t": "Contraindicated in pregnancy / planning; no formal PPP, but **ask about pregnancy and contraception** and record. Inadvertent exposure: stop, reassure risk looks very low, advice from **UKTIS**.",
+       "tone": "first"
+      },
+      {
+       "k": "Oral retinoid support",
+       "t": "Support PPP checks, mood questions, and bloods per specialist plan. Oral retinoid exposure in pregnancy: urgent specialist / obstetric referral and Yellow Card.",
+       "tone": "second"
+      }
+     ]
+    },
+    {
+     "callout": "warn",
+     "title": "Prescribing limits and pitfalls",
+     "list": [
+      "**Pregnancy**: Oral retinoids are highly teratogenic: PPP applies to anyone who could become pregnant.",
+      "**Mood**: New low mood or suicidal thoughts on isotretinoin: stop, same-day referral."
+     ]
+    },
+    {
+     "h": "Referral"
+    },
+    {
+     "refer": [
+      {
+       "when": "same-day",
+       "t": "**Low mood, anxiety or suicidal thoughts** on isotretinoin: stop, same-day referral."
+      },
+      {
+       "when": "same-day",
+       "t": "Possible **pregnancy** on an oral retinoid: stop, urgent specialist advice."
+      },
+      {
+       "when": "urgent",
+       "t": "Headache, visual disturbance, vomiting on retinoid + tetracycline: possible **raised ICP**."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "red-flags",
+   "title": "Red flags and when to refer",
+   "blocks": [
+    {
+     "ul": [
+      "Any possibility of pregnancy on an oral retinoid: stop and seek urgent specialist advice.",
+      "New low mood, anxiety or suicidal thoughts on isotretinoin: stop and refer the same day.",
+      "Headache, visual disturbance or vomiting on a retinoid plus a tetracycline: possible **raised intracranial pressure**."
+     ]
+    },
+    {
+     "h4": "Red flags / refer"
+    },
+    {
+     "ul": [
+      "Pregnancy on an oral retinoid → urgent: stop the drug, obstetric/fetal medicine referral, UKTIS, Yellow Card.",
+      "**Mood change, suicidal ideation or psychosis** on isotretinoin → stop, urgent mental-health assessment.",
+      "Severe headache with visual symptoms (IIH), severe abdominal pain (pancreatitis with very high triglycerides), jaundice.",
+      "**Acne fulminans** (see *Acne therapeutics case and the combined oral contraceptive*) → dermatology the same day or within 24 h."
+     ]
+    }
+   ],
+   "short": "Red flags"
+  },
+  {
+   "id": "pearls",
+   "title": "Prescriber pearls (UK pharmacist IP)",
+   "blocks": [
+    {
+     "pearls": [
+      "Topical: a **pea-sized amount for the whole face**, at night, on dry skin. Start on alternate nights, use a moisturiser and daily SPF. Expect \"purging\" for 2–4 weeks and benefit by 8–12 weeks. Avoid if pregnant or trying to conceive.",
+      "Ask every woman on a topical retinoid \"Could you be pregnant, or are you planning to be?\" — and document the answer.",
+      "Isotretinoin memory aid: \"contraception, mood, sex, sun, skin procedures, no tetracyclines\"."
+     ]
+    }
+   ],
+   "short": "Pearls"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Why not combine isotretinoin with doxycycline?",
+   "a": "Risk of raised intracranial pressure."
+  },
+  {
+   "q": "How long to avoid pregnancy after acitretin?",
+   "a": "3 years after stopping."
+  },
+  {
+   "q": "PPP contraception requirement?",
+   "a": "At least one highly effective user-independent method, or two complementary user-dependent methods."
+  },
+  {
+   "q": "How much topical retinoid for the face?",
+   "a": "A pea-sized amount for the whole face, at night."
+  }
+ ],
+ "references": [],
+ "see_also": []
+}

@@ -1,0 +1,291 @@
+{
+ "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
+ "key_facts": [
+  "A **painless, slowly enlarging swollen foot** with **multiple discharging sinuses** in someone from an endemic tropical area.",
+  "Soil **fungi (eumycetoma)** or **actinomycete bacteria (actinomycetoma)** implanted by a thorn or wound form **grains** in deep tissue.",
+  "Specialist diagnosis (grain culture, deep biopsy, imaging); long antibiotics for actinomycetoma; antifungals + surgery for eumycetoma.",
+  "**Bone involvement** and late presentation → amputation; other causes of sinuses (TB, osteomyelitis, HS)."
+ ],
+ "sections": [
+  {
+   "id": "overview",
+   "title": "Overview",
+   "blocks": [
+    "**Mycetoma** is a chronic, slowly progressive, granulomatous infection of the **skin, subcutaneous tissue, fascia and eventually bone**. It is caused by organisms from soil or plants introduced through minor injury. Its hallmark is a **triad**:",
+    {
+     "ol": [
+      "**painless firm subcutaneous swelling**",
+      "**multiple sinuses**",
+      "**discharge containing grains** (colonies of the organism)"
+     ]
+    },
+    "There are two forms:",
+    {
+     "ul": [
+      "**Eumycetoma** is **fungal** (e.g. *Madurella mycetomatis*, the most common cause worldwide).",
+      "**Actinomycetoma** is **bacterial**, from filamentous aerobic actinomycetes (*Nocardia*, *Actinomadura*, *Streptomyces*)."
+     ]
+    },
+    "WHO recognised mycetoma as a **neglected tropical disease in 2016** (WHA69.21). It is endemic in the **\"mycetoma belt\"** between latitudes about 15°S and 30°N: **Sudan** (the highest burden), Senegal, Mauritania, Chad, Niger, Somalia, Yemen, **India**, **Mexico** (mainly actinomycetoma, *Nocardia brasiliensis*), Venezuela and Brazil. In the UK it is seen only in **migrants or long-term residents from endemic areas**, often years after exposure."
+   ]
+  },
+  {
+   "id": "aetiology",
+   "title": "Aetiology: causes and risk factors",
+   "blocks": [
+    {
+     "ul": [
+      "**Inoculation** happens through thorn pricks, splinters or minor cuts, typically on the **feet of barefoot rural workers** such as farmers, herders and labourers (Case 5 is a 52-year-old farmer). Most patients are men aged 20–40, though any age can be affected.",
+      "There is **no person-to-person spread** and no known vector or animal reservoir. Incubation runs from months to years.",
+      "The organism forms **grains** (compact colonies in a matrix). These provoke suppurative and granulomatous inflammation with **abscesses that track to the skin as sinuses**, and also spread along fascial planes into **muscle and bone** (osteomyelitis, periosteal reaction, lytic lesions).",
+      "**Actinomycetoma** tends to be more inflammatory, spreads faster and **invades bone earlier**. **Eumycetoma** is slower, better encapsulated and more localised.",
+      "**Grain colour hints at the cause:** **black** = eumycetoma (*Madurella*, *Trematosphaeria*, *Falciformispora*); **white/pale** = eumycetoma (*Scedosporium*, *Fusarium*, *Acremonium*) or actinomycetoma (*Nocardia*, *Actinomadura madurae*); **red/pink** = *Actinomadura pelletieri*; **yellow/brown** = *Streptomyces somaliensis*"
+     ]
+    }
+   ],
+   "short": "Aetiology"
+  },
+  {
+   "id": "clinical-features",
+   "title": "Clinical features",
+   "blocks": [
+    {
+     "ul": [
+      "**Site:** about **70% on the foot** (forefoot, dorsum, sole), then hand, leg and knee. The **back, shoulder, head and neck** can be affected in carriers of loads or sacks (often *Nocardia*). The chest wall and scalp are rare sites but dangerous.",
+      "**Course:** A small, painless, firm subcutaneous nodule, easily dismissed as a \"boil\" or \"cyst\"; Gradual **swelling**, then multiple nodules that soften and **open as sinuses**; Discharge of **serous, serosanguinous or purulent fluid containing grains**; Sinuses heal and new ones open (old sinuses scar); The skin becomes **hyperpigmented**, shiny and stretched",
+      "**Pain is mild or absent** until bone involvement or secondary bacterial infection. Lymph nodes are usually not involved, except sometimes with actinomycetoma.",
+      "**The patient is typically systemically well** (fever is rare unless there is secondary infection), which helps explain the late presentation.",
+      "**Late features:** massive swelling and deformity, bone destruction, joint ankylosis, disuse atrophy, chronic lymphoedema, disability, sometimes **amputation**, and rarely death from cranial, spinal or thoracic spread or sepsis."
+     ]
+    },
+    {
+     "fig": {
+      "dermnet": "m5w4:W4E01"
+     }
+    },
+    {
+     "fig": {
+      "ai": "v3-mycetoma-foot-grains.jpg",
+      "caption": "Mycetoma: a swollen forefoot with multiple sinus openings discharging fluid containing tiny grains; shake the gauze in saline to see them (black grains suggest a fungal cause).",
+      "alt": "Swollen foot with discharging sinuses and inset of black grains on gauze"
+     }
+    },
+    {
+     "h": "Types to recognise"
+    },
+    {
+     "variants": [
+      {
+       "name": "Classic triad",
+       "t": "Swelling + sinuses + grains. *Site: Foot.*",
+       "photo": "m5w4:W4E01"
+      },
+      {
+       "name": "Advanced",
+       "t": "Gross forefoot swelling. *Site: Foot.*",
+       "photo": "m5w4:W4E02"
+      },
+      {
+       "name": "Actinomycetoma",
+       "t": "Numerous crusted sinuses. *Site: Foot, limb.*",
+       "photo": "m5w4:W4E03"
+      },
+      {
+       "name": "Spread up the leg",
+       "t": "Chronic indurated limb. *Site: Leg.*",
+       "photo": "m5w4:W4E04"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "diagnosis",
+   "title": "Diagnosis and investigations",
+   "blocks": [
+    {
+     "ul": [
+      "**Clinical triad + endemic exposure.** Look for grains in the discharge (shake gauze in saline; dermoscopy may show grains).",
+      "**Grains and tissue:** collect by **deep surgical biopsy or FNA** (not superficial swabs) for: **direct microscopy** (KOH: **fine filaments under 1 µm = actinomycete; broad septate hyphae 2–5 µm = fungus**); **Gram/PAS/Grocott stains**; **culture** (slow, up to 6 weeks; tell the lab); **histology** (grains in abscesses surrounded by neutrophils, then granuloma; Splendore–Hoeppli material); **PCR/sequencing** for species ID, now standard at reference centres",
+      "**Imaging:** **Plain X-ray:** soft-tissue mass, periosteal reaction, lytic \"moth-eaten\" bone, cortical thinning; **Ultrasound:** grains as bright hyper-reflective echoes in cavities (helps tell eumycetoma from actinomycetoma); **MRI:** extent and bone involvement, with the characteristic **\"dot-in-circle\" sign**; **CT:** bony involvement",
+      "**Baseline before long antimicrobial courses:** FBC, LFTs, U&E, glucose and HIV status."
+     ]
+    }
+   ],
+   "short": "Diagnosis"
+  },
+  {
+   "id": "differentials",
+   "title": "Differential diagnoses",
+   "blocks": [
+    {
+     "ddx": [
+      {
+       "name": "Chronic osteomyelitis",
+       "f": "Sinus over bone, prior fracture, metalwork, diabetic foot; no grains."
+      },
+      {
+       "name": "Scrofuloderma / NTM",
+       "f": "Over nodes or bone; AFB; undermined sinuses.",
+       "link": "cutaneous-tuberculosis"
+      },
+      {
+       "name": "Botryomycosis",
+       "f": "Grain-forming *S. aureus*; standard antibiotics work."
+      },
+      {
+       "name": "Actinomycosis",
+       "f": "Cervicofacial / dental; ‘sulphur granules’."
+      },
+      {
+       "name": "Hidradenitis",
+       "f": "Flexural tunnels, comedones.",
+       "link": "hidradenitis-suppurativa"
+      },
+      {
+       "name": "Podoconiosis / lymphoedema",
+       "f": "Mossy foot, no sinuses with grains."
+      }
+     ]
+    },
+    "**Infective mimics of mycetoma:**",
+    "**Non-infective mimics:**",
+    {
+     "ul": [
+      "**Podoconiosis** (non-filarial \"mossy foot\" from irritant volcanic soil) or **lymphatic filariasis/lymphoedema**: swelling **without** sinuses or grains",
+      "**Kaposi sarcoma**, **soft-tissue/bone sarcoma**, **SCC in a chronic sinus (Marjolin ulcer)**, foreign-body granuloma"
+     ]
+    },
+    "**Causes of discharging sinuses in general:**",
+    {
+     "ul": [
+      "**Skin follicular/inflammatory:** **hidradenitis suppurativa**, **acne conglobata**, **dissecting cellulitis of the scalp** (the follicular occlusion tetrad, with pilonidal sinus), pyoderma vegetans, **Crohn's disease** (perianal/cutaneous fistulae)",
+      "**Dental (odontogenic):** chronic dental abscess draining on the chin or jaw skin, often misdiagnosed as a skin lesion",
+      "**Infective:** osteomyelitis, mycetoma, actinomycosis, botryomycosis, scrofuloderma/TB, NTM, chronic furuncles/carbuncles",
+      "**Other:** foreign body, post-surgical (suture/mesh), congenital (preauricular sinus, branchial cleft, thyroglossal duct), malignancy (carcinoma breaking down)"
+     ]
+    }
+   ],
+   "short": "Differentials"
+  },
+  {
+   "id": "management",
+   "title": "Management",
+   "blocks": [
+    "**Primary-care role: recognise, avoid inappropriate repeated antibiotic courses or incision, and refer.**",
+    {
+     "ul": [
+      "**Refer every suspected case** to **Infectious Diseases / tropical medicine** (e.g. **HTD London**, which runs a fungal infections service, or a regional ID unit), working jointly with **orthopaedic/plastic surgery** and **dermatology**. Mark it urgent if there is spread toward the trunk or scalp, rapid progression, or secondary sepsis.",
+      "**Do not** perform simple incision and drainage or partial excision in primary care. Inadequate excision causes recurrence and spread. Do not label the condition \"recurrent cellulitis/abscess\".",
+      "**Interim:** treat **acute secondary bacterial infection** per NICE cellulitis guidance, keep wounds clean and dressed, give simple analgesia and limb elevation, check tetanus status, and offer footwear advice.",
+      "**Specialist treatment:** **Actinomycetoma (bacterial):** usually curable **medically**. Prolonged combination antibiotics for months, e.g. **co-trimoxazole + amikacin** cycles (the \"Welsh regimen\"). Alternatives include co-amoxiclav, dapsone, rifampicin, doxycycline/minocycline, linezolid or carbapenems depending on species and severity. Surgery is rarely needed; **Eumycetoma (fungal):** **prolonged oral itraconazole** (e.g. 200 mg twice daily for at least 6–12 months, often longer). This shrinks and encapsulates the lesion, which is then followed by **wide surgical excision** and continued antifungal. Alternatives include voriconazole, posaconazole and terbinafine (ketoconazole is no longer used systemically in the UK because of hepatotoxicity). Recurrence is common and cure rates are modest. Advanced disease may need **amputation**. Fosravuconazole is under evaluation (DNDi/Sudan trial)"
+     ]
+    },
+    {
+     "h": "Treatment ladder"
+    },
+    {
+     "ladder": [
+      {
+       "k": "Refer",
+       "t": "Every suspected case → **ID / tropical medicine** (e.g. HTD) with orthopaedics / plastics and dermatology. **Urgent** if spreading toward trunk or scalp, rapid progression or sepsis.",
+       "tone": "base"
+      },
+      {
+       "k": "Interim",
+       "t": "Treat acute secondary infection per NICE cellulitis guidance; clean dressings; analgesia; elevation; **tetanus check**; footwear advice.",
+       "tone": "first"
+      },
+      {
+       "k": "Specialist",
+       "t": "**Actinomycetoma**: usually medically curable with prolonged combination antibiotics. **Eumycetoma**: long antifungals (e.g. itraconazole) + surgery.",
+       "tone": "refer"
+      },
+      {
+       "k": "Co-management checks",
+       "t": "**Itraconazole**: capsules need food and acid (avoid PPIs / antacids); strong CYP3A4 inhibitor (simvastatin, some DOACs, CCBs, colchicine…); LFTs; avoid in heart failure. **Co-trimoxazole** for months: FBC, potassium, renal function, rash; avoid with methotrexate; warfarin / phenytoin interactions.",
+       "tone": "second"
+      }
+     ]
+    },
+    {
+     "callout": "warn",
+     "title": "Prescribing limits and pitfalls",
+     "list": [
+      "**Don’t**: Incise, partially excise, or label as ‘recurrent cellulitis / abscess’."
+     ]
+    },
+    {
+     "h": "Referral"
+    },
+    {
+     "refer": [
+      {
+       "when": "urgent",
+       "t": "Bone pain, deformity, rapid spread: urgent specialist imaging and referral."
+      },
+      {
+       "when": "routine",
+       "t": "Any suspected mycetoma: ID / tropical medicine."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "red-flags",
+   "title": "Red flags and when to refer",
+   "blocks": [
+    {
+     "ul": [
+      "Bone pain, deformity or rapid spread: urgent specialist imaging and referral.",
+      "Do not treat repeatedly with short courses of antibiotics without a diagnosis."
+     ]
+    }
+   ],
+   "short": "Red flags"
+  },
+  {
+   "id": "pearls",
+   "title": "Prescriber pearls (UK pharmacist IP)",
+   "blocks": [
+    {
+     "pearls": [
+      "**The farmer with a foot that keeps \"discharging\" despite antibiotics:** think mycetoma, chronic osteomyelitis or TB. Ask where they grew up and worked, and whether they went barefoot.",
+      "**Itraconazole** (if co-managing): **Capsules** need food and stomach acid, so avoid PPIs/H2 blockers/antacids around the dose or use the oral solution (empty stomach). Formulations are not interchangeable; It is a **strong CYP3A4 inhibitor**. Many interactions, some contraindicated: simvastatin, some DOACs, certain calcium-channel blockers, colchicine in renal/hepatic impairment, some antiarrhythmics, ergot alkaloids, midazolam; Monitor **LFTs**. It is a **negative inotrope**, so avoid in heart failure. Take TDM levels if available",
+      "**Co-trimoxazole for months:** FBC (folate antagonism, marrow), **potassium** and renal function, rash (SJS/TEN warning); Avoid with methotrexate; interacts with warfarin and phenytoin; Folic acid supplementation per specialist",
+      "**Amikacin:** therapeutic drug monitoring, renal function, and **audiometry** (ototoxicity is cumulative over cycles).",
+      "**Adherence:** therapy lasts months to years. Explain that **stopping early = relapse**, and that swelling and scarring may persist after cure. Arrange physiotherapy.",
+      "**Prevention:** wear **shoes** and protective clothing during farming and herding, clean and dress minor wounds promptly, and seek early care for any slowly enlarging painless lump on the foot."
+     ]
+    }
+   ],
+   "short": "Pearls"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Mycetoma triad?",
+   "a": "Painless swelling, multiple sinuses, discharge with grains."
+  },
+  {
+   "q": "Black grains suggest?",
+   "a": "Eumycetoma (fungal)."
+  },
+  {
+   "q": "Which form is usually medically curable?",
+   "a": "Actinomycetoma (bacterial)."
+  },
+  {
+   "q": "Why not incise in primary care?",
+   "a": "Inadequate excision causes recurrence and spread."
+  }
+ ],
+ "references": [
+  {
+   "label": "Medscape: Mycetoma (Madura foot)",
+   "url": "https://emedicine.medscape.com/article/211459-overview"
+  }
+ ],
+ "see_also": []
+}

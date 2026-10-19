@@ -1,0 +1,261 @@
+{
+ "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
+ "key_facts": [
+  "**Neuropathic (diabetic foot) ulcers** form on insensate pressure points: plantar metatarsal heads, heel and toe tips.",
+  "Painless, surrounded by **callus**, with warm feet and good pulses unless neuro-ischaemic.",
+  "Test with a **10 g monofilament**; probe to bone and X-ray/MRI for osteomyelitis.",
+  "Any diabetic foot ulcer: refer to the multidisciplinary foot service **within 1 working day** (NICE NG19).",
+  "Same-day admission for spreading infection, sepsis, crepitus, wet gangrene or suspected Charcot foot."
+ ],
+ "sections": [
+  {
+   "id": "overview",
+   "title": "Overview",
+   "blocks": [
+    "A **neuropathic ulcer** follows loss of **protective sensation**, with or without deformity and ischaemia (‘neuro-ischaemic’ foot). Most are **diabetic foot ulcers**, a leading cause of amputation."
+   ]
+  },
+  {
+   "id": "epidemiology",
+   "title": "Epidemiology",
+   "blocks": [
+    {
+     "ul": [
+      {
+       "t": "**Who**",
+       "sub": [
+        "Up to a quarter of people with diabetes develop a foot ulcer in their lifetime; most amputations in diabetes follow an ulcer."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "aetiology",
+   "title": "Aetiology: causes and risk factors",
+   "blocks": [
+    "Peripheral neuropathy (usually diabetes; also alcohol, B12 deficiency, leprosy) means repetitive trauma goes unnoticed. Deep ulcers can reach bone, with a risk of **osteomyelitis**.",
+    {
+     "h": "Myths to address"
+    },
+    {
+     "ul": [
+      "**\"It doesn't hurt, so it's not serious\"**: absence of pain is the problem."
+     ]
+    }
+   ],
+   "short": "Aetiology"
+  },
+  {
+   "id": "pathophysiology",
+   "title": "Pathophysiology and pathology",
+   "blocks": [
+    "Without **protective sensation**, repeated pressure goes unnoticed and breaks down the skin.",
+    {
+     "mech": [
+      {
+       "k": "Neuropathy",
+       "t": "Sensory loss removes pain warning; motor neuropathy causes clawing and abnormal pressure; autonomic neuropathy dries and cracks skin."
+      },
+      {
+       "k": "Callus",
+       "t": "High plantar pressure builds thick callus, which raises pressure further."
+      },
+      {
+       "k": "Ulceration",
+       "t": "Tissue breaks down beneath the callus and the ulcer deepens towards bone.",
+       "img": "v4-dfu-pressure.jpg",
+       "caption": "Neuropathic plantar ulcer: callus over a deep ulcer above the metatarsal head, with damaged nerve fibres and concentrated pressure."
+      },
+      {
+       "k": "Infection and ischaemia",
+       "t": "Poor perfusion and impaired immunity let infection spread to bone (osteomyelitis)."
+      }
+     ]
+    },
+    {
+     "histo": [
+      "Bone biopsy or deep tissue samples guide treatment of osteomyelitis."
+     ]
+    }
+   ],
+   "short": "Pathophysiology"
+  },
+  {
+   "id": "clinical-features",
+   "title": "Clinical features",
+   "blocks": [
+    {
+     "ul": [
+      "Site: **plantar** metatarsal heads, heel, tips of toes, under bunions.",
+      "Deep, punched-out, surrounded by **callus**; may reach bone.",
+      "Often **painless**; warm foot with good pulses (unless neuro-ischaemic).",
+      "Clawed toes, Charcot deformity, dry fissured skin."
+     ]
+    },
+    {
+     "h": "Special groups"
+    },
+    {
+     "ul": [
+      {
+       "t": "**Charcot foot**",
+       "sub": [
+        "Hot, swollen, red foot in neuropathy, often painless: immobilise and refer the same day."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "diagnosis",
+   "title": "Diagnosis and investigations",
+   "blocks": [
+    {
+     "ul": [
+      "Test sensation with a **10 g monofilament** and vibration.",
+      "Pulses and ABPI/TBPI (neuro-ischaemic foot).",
+      "**Probe to bone**, plus X-ray or MRI if osteomyelitis is suspected.",
+      "Deep tissue samples rather than surface swabs if infected."
+     ]
+    }
+   ],
+   "short": "Diagnosis"
+  },
+  {
+   "id": "differentials",
+   "title": "Differential diagnoses",
+   "blocks": [
+    "[Arterial ulcer](condition:arterial-leg-ulcer), pressure ulcer (immobile or paraplegic patients), [venous ulcer](condition:venous-leg-ulcer), malignancy (non-healing)."
+   ],
+   "short": "Differentials"
+  },
+  {
+   "id": "management",
+   "title": "Management",
+   "blocks": [
+    {
+     "ul": [
+      "**Any diabetic foot ulcer:** refer urgently to the **multidisciplinary foot care service** or foot protection service (within 1 working day, NICE NG19).",
+      "**Offloading**, glycaemic optimisation, debridement, and assessment for infection, which may need admission and IV antibiotics.",
+      "Diabetic foot infection: follow NICE NG19 and local antimicrobial guidance."
+     ]
+    },
+    {
+     "h": "Treatment ladder"
+    },
+    {
+     "ladder": [
+      {
+       "k": "Prevention",
+       "t": "Daily foot checks, footwear, podiatry; glycaemic control.",
+       "tone": "base"
+      },
+      {
+       "k": "Any ulcer",
+       "t": "Multidisciplinary foot care service within 1 working day; offloading, debridement.",
+       "tone": "refer"
+      },
+      {
+       "k": "Infected",
+       "t": "Antibiotics per NICE NG19 and local guidance; admit if severe.",
+       "tone": "refer"
+      }
+     ]
+    },
+    {
+     "h": "Referral"
+    },
+    {
+     "refer": [
+      {
+       "when": "same-day",
+       "t": "Spreading infection, fever, crepitus, wet necrosis or suspected Charcot foot."
+      },
+      {
+       "when": "urgent",
+       "t": "Any diabetic foot ulcer (within 1 working day)."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "red-flags",
+   "title": "Red flags and when to refer",
+   "blocks": [
+    {
+     "ul": [
+      "Diabetic foot with **spreading redness, fever, crepitus or wet necrosis**: **ED / same-day admission**.",
+      "Probe to bone, or suspected osteomyelitis or **Charcot foot** (hot, swollen foot in neuropathy).",
+      "**Never ignore a ‘small’ plantar ulcer in diabetes.**"
+     ]
+    }
+   ],
+   "short": "Red flags"
+  },
+  {
+   "id": "complications",
+   "title": "Complications and prognosis",
+   "blocks": [
+    {
+     "h": "Complications"
+    },
+    {
+     "ul": [
+      "Osteomyelitis, sepsis, amputation; high mortality."
+     ]
+    },
+    {
+     "h": "Prognosis"
+    },
+    {
+     "ul": [
+      "Many heal with offloading; recurrence is common, so lifelong foot protection is needed."
+     ]
+    }
+   ],
+   "short": "Complications"
+  },
+  {
+   "id": "pearls",
+   "title": "Prescriber pearls (UK pharmacist IP)",
+   "blocks": [
+    {
+     "pearls": [
+      "Teach **daily foot checks**, sensible footwear and podiatry follow-up; never walk barefoot with neuropathy.",
+      "Painless ulcer under a callus suggests neuropathic."
+     ]
+    }
+   ],
+   "short": "Pearls"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "How is protective sensation tested?",
+   "a": "10 g monofilament (plus vibration)."
+  },
+  {
+   "q": "What does a positive probe-to-bone test suggest?",
+   "a": "Osteomyelitis."
+  },
+  {
+   "q": "How quickly should a diabetic foot ulcer be referred?",
+   "a": "Within 1 working day to the foot care service (NG19)."
+  },
+  {
+   "q": "What is a hot swollen foot in neuropathy until proven otherwise?",
+   "a": "Charcot neuroarthropathy."
+  }
+ ],
+ "references": [],
+ "see_also": [
+  "arterial-leg-ulcer",
+  "venous-leg-ulcer",
+  "cellulitis-erysipelas",
+  "leprosy"
+ ]
+}

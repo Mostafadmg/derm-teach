@@ -1,0 +1,252 @@
+{
+ "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
+ "key_facts": [
+  "**Bimatoprost** is a prostamide (glaucoma drug) that lengthens, thickens and darkens eyelashes when applied to the upper lid margin.",
+  "Works by **prolonging anagen**; results build over weeks to months and reverse on stopping.",
+  "Warn about **permanent iris darkening** (hazel/green eyes), reversible eyelid pigmentation, irritation and redness.",
+  "Exclude a disease cause of lash loss (alopecia areata, thyroid disease, blepharitis, trichotillomania).",
+  "Cosmetic serums vary in content; prescription products need proper counselling."
+ ],
+ "sections": [
+  {
+   "id": "overview",
+   "title": "Overview",
+   "blocks": [
+    "**Eyelash enhancement** options include cosmetics, lifts and **bimatoprost** (a prostamide also used in glaucoma drops) applied to the upper lid margin to lengthen lashes."
+   ]
+  },
+  {
+   "id": "aetiology",
+   "title": "Aetiology: causes and risk factors",
+   "blocks": [
+    "Bimatoprost increases eyelash length, thickness and darkness by **extending anagen** and stimulating follicle melanogenesis; periocular skin and iris melanocytes can also respond.",
+    {
+     "h": "Myths to address"
+    },
+    {
+     "ul": [
+      "**\"Natural serums are safer\"**: many contain undeclared prostaglandin analogues."
+     ]
+    }
+   ],
+   "short": "Aetiology"
+  },
+  {
+   "id": "pathophysiology",
+   "title": "Pathophysiology and pathology",
+   "blocks": [
+    "Bimatoprost acts on **prostamide receptors** in the lash follicle to keep it growing.",
+    {
+     "mech": [
+      {
+       "k": "Receptor binding",
+       "t": "Bimatoprost binds prostamide/FP receptors in the dermal papilla."
+      },
+      {
+       "k": "Longer anagen",
+       "t": "Follicles stay in the growth phase longer and more follicles enter anagen."
+      },
+      {
+       "k": "Thicker, darker lashes",
+       "t": "Follicle size and melanogenesis increase."
+      },
+      {
+       "k": "Melanocyte side effects",
+       "t": "Iris and eyelid melanocytes increase pigment production."
+      }
+     ]
+    }
+   ],
+   "short": "Pathophysiology"
+  },
+  {
+   "id": "clinical-features",
+   "title": "Clinical features",
+   "blocks": [
+    {
+     "ul": [
+      "Longer, darker lashes over weeks to months.",
+      "Side effects: periocular hyperpigmentation, **iris colour change** (especially hazel/green eyes), itch, redness; periorbital fat atrophy (glaucoma-dose context)."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "diagnosis",
+   "title": "Diagnosis and investigations",
+   "blocks": [
+    "Before use: exclude a disease cause of sparse lashes (**madarosis**): alopecia areata, thyroid disease, blepharitis, trichotillomania, chemotherapy."
+   ],
+   "short": "Diagnosis"
+  },
+  {
+   "id": "differentials",
+   "title": "Differential diagnoses",
+   "blocks": [
+    {
+     "table": {
+      "head": [
+       "Cause of sparse lashes",
+       "Clue"
+      ],
+      "rows": [
+       [
+        "[Alopecia areata](condition:alopecia-areata)",
+        "Patchy loss elsewhere; exclamation-mark hairs"
+       ],
+       [
+        "[Trichotillomania](condition:trichotillomania)",
+        "Broken lashes of different lengths"
+       ],
+       [
+        "Blepharitis",
+        "Crusted, red lid margins"
+       ],
+       [
+        "Thyroid disease",
+        "Loss of the outer brows; systemic symptoms"
+       ]
+      ]
+     }
+    }
+   ],
+   "short": "Differentials"
+  },
+  {
+   "id": "management",
+   "title": "Management",
+   "blocks": [
+    {
+     "h": "Bimatoprost eyelash counselling"
+    },
+    {
+     "ul": [
+      "Explain cosmetic versus glaucoma origins; apply only as directed to the upper lid margin, not into the eye for cosmetic use.",
+      "Warn about **permanent iris darkening**, reversible periocular skin darkening, possible hair growth on unintended skin if the product migrates, and ocular irritation.",
+      "Avoid with active ocular inflammation unless an ophthalmologist agrees; remove contact lenses as per product advice.",
+      "Effects reverse over weeks to months if stopped.",
+      "Check the current SmPC/BNF; this page does not cover off-label periocular protocols."
+     ]
+    },
+    {
+     "h": "Medicines at a glance"
+    },
+    {
+     "drugs": [
+      {
+       "name": "Bimatoprost (eyelash)",
+       "cls": "Bimatoprost",
+       "dose": "as per SmPC/BNF · continuous",
+       "cautions": "Permanent iris darkening possible; periocular pigment reverses."
+      }
+     ]
+    },
+    {
+     "h": "Treatment ladder"
+    },
+    {
+     "ladder": [
+      {
+       "k": "Exclude disease",
+       "t": "Check for alopecia areata, blepharitis, thyroid disease, trichotillomania.",
+       "tone": "base"
+      },
+      {
+       "k": "Bimatoprost",
+       "t": "Bimatoprost (eyelash)",
+       "tone": "first"
+      }
+     ]
+    },
+    {
+     "h": "Referral"
+    },
+    {
+     "refer": [
+      {
+       "when": "routine",
+       "t": "Lash loss with scalp or brow loss, or lid disease: GP/dermatology/ophthalmology."
+      },
+      {
+       "when": "urgent",
+       "t": "Eye pain, redness or visual change on treatment."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "red-flags",
+   "title": "Red flags and when to refer",
+   "blocks": [
+    {
+     "ul": [
+      "Eye pain, redness or visual change: stop and seek ophthalmology review.",
+      "Patients on glaucoma drops: discuss with their ophthalmologist (additive effect on intraocular pressure)."
+     ]
+    }
+   ],
+   "short": "Red flags"
+  },
+  {
+   "id": "complications",
+   "title": "Complications and prognosis",
+   "blocks": [
+    {
+     "h": "Complications"
+    },
+    {
+     "ul": [
+      "Iris pigmentation (permanent), periocular pigmentation, conjunctival hyperaemia, periorbital fat atrophy."
+     ]
+    },
+    {
+     "h": "Prognosis"
+    },
+    {
+     "ul": [
+      "Lashes return to baseline within weeks to months after stopping."
+     ]
+    }
+   ],
+   "short": "Complications"
+  },
+  {
+   "id": "pearls",
+   "title": "Prescriber pearls (UK pharmacist IP)",
+   "blocks": [
+    {
+     "pearls": [
+      "Eyelash serums sold cosmetically vary widely; prescription bimatoprost needs proper counselling on iris pigment."
+     ]
+    }
+   ],
+   "short": "Pearls"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "How does bimatoprost lengthen lashes?",
+   "a": "It prolongs the anagen (growth) phase."
+  },
+  {
+   "q": "Which side effect is permanent?",
+   "a": "Iris darkening."
+  },
+  {
+   "q": "Which effect reverses on stopping?",
+   "a": "Periocular skin darkening and the lash growth."
+  },
+  {
+   "q": "What is madarosis?",
+   "a": "Loss of eyelashes or eyebrows, which may signal disease."
+  }
+ ],
+ "references": [],
+ "see_also": [
+  "alopecia-areata",
+  "trichotillomania",
+  "intense-pulsed-light",
+  "cosmetic-procedures"
+ ]
+}

@@ -1,0 +1,426 @@
+{
+ "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
+ "key_facts": [
+  "Blisters or erosions without an obvious burn, bite, friction or infection.",
+  "Autoantibodies against desmosomes (intraepidermal, flaccid) or hemidesmosomes (subepidermal, tense); drugs; infection; genetics (EB).",
+  "Identify the pattern, refer at the right speed, look for a drug cause, and prescribe and monitor within the specialist plan.",
+  "SJS/TEN, pemphigus with mouth erosions, eye involvement, pemphigoid in pregnancy, eczema herpeticum and SSSS in children."
+ ],
+ "sections": [
+  {
+   "id": "overview",
+   "title": "Overview",
+   "blocks": [
+    "A **vesicle** is a fluid-filled lesion under 5 mm (some texts say 10 mm) and a **bulla** is a larger one. An **erosion** is loss of epidermis only, often all that remains of a fragile, superficial blister. The depth of the split explains what you see. The higher the split, the more flaccid the blister and the more erosions there are. The deeper the split, the more tense the blister, and haemorrhage, scarring and milia can follow."
+   ]
+  },
+  {
+   "id": "aetiology",
+   "title": "Aetiology: causes and risk factors",
+   "blocks": [
+    {
+     "table": {
+      "head": [
+       "Level",
+       "Mechanism",
+       "Examples"
+      ],
+      "rows": [
+       [
+        "Subcorneal / granular",
+        "Toxin or antibody against **desmoglein 1** (Dsg1, superficial epidermis)",
+        "Bullous impetigo and SSSS (exfoliative toxin cleaves Dsg1), pemphigus foliaceus, subcorneal pustular dermatosis, AGEP (pustules), miliaria crystallina"
+       ],
+       [
+        "Intraepidermal, suprabasal",
+        "**Acantholysis**, i.e. loss of keratinocyte adhesion (anti-Dsg3 ± Dsg1)",
+        "Pemphigus vulgaris; Hailey-Hailey, Darier and Grover (genetic or acquired, **DIF-negative**)"
+       ],
+       [
+        "Intraepidermal, spongiotic / ballooning",
+        "Intercellular oedema; viral cytopathic effect",
+        "Pompholyx, acute ACD, bullous insect bites; HSV/VZV"
+       ],
+       [
+        "Intraepidermal, basal",
+        "Keratin 5/14 defect",
+        "**EB simplex**"
+       ],
+       [
+        "Subepidermal, lamina lucida",
+        "Antibodies to BP180 (collagen XVII)/BP230; laminin-332; laminin-332 gene defect",
+        "BP, pemphigoid gestationis, MMP, linear IgA disease; **junctional EB**"
+       ],
+       [
+        "Subepidermal, sublamina densa (\"dermolytic\")",
+        "Antibody to or defect in **collagen VII**",
+        "EBA, bullous SLE; **dystrophic EB**"
+       ],
+       [
+        "Subepidermal, dermal papillae",
+        "IgA against **epidermal (TG3)** transglutaminase with neutrophil microabscesses",
+        "Dermatitis herpetiformis"
+       ],
+       [
+        "Full-thickness epidermal necrosis",
+        "Cytotoxic T-cell and Fas-FasL/granulysin keratinocyte apoptosis",
+        "SJS/TEN, bullous FDE"
+       ],
+       [
+        "Other subepidermal",
+        "Porphyrin phototoxicity; oedema; ischaemia",
+        "PCT, pseudoporphyria; bullae from oedema, diabetes (bullosis diabeticorum), coma or barbiturates; friction or burns"
+       ]
+      ]
+     }
+    }
+   ],
+   "short": "Aetiology"
+  },
+  {
+   "id": "clinical-features",
+   "title": "Clinical features",
+   "blocks": [
+    {
+     "ul": [
+      "**Flaccid blisters or erosions only, with oral ulcers** suggest pemphigus (PV), or SJS/TEN if acute and the patient is unwell.",
+      "**Tense blisters, sometimes haemorrhagic, on an urticarial or eczematous base in an elderly person with itch** suggest BP.",
+      "**Excoriations and tiny grouped vesicles on extensors and buttocks, intensely itchy** suggest DH.",
+      "**Fragile blisters, scars and milia on the backs of the hands with hypertrichosis** suggest PCT (or pseudoporphyria, or EBA).",
+      "**A \"string of pearls\" annular arrangement** suggests linear IgA disease (often drug-induced, e.g. vancomycin).",
+      "**Flexural erosions with fissured maceration** suggest Hailey-Hailey. **Sudden, painful, targetoid or dusky skin with mucosal involvement** suggests SJS/TEN."
+     ]
+    },
+    "The **Nikolsky sign** (shearing the epidermis off with lateral pressure) is positive in PV, SSSS and TEN, and *usually* negative in BP. The **Asboe-Hansen sign** (pressure spreads the blister edge sideways) points to PV.",
+    {
+     "fig": {
+      "dermnet": "m4w6:B01"
+     }
+    }
+   ]
+  },
+  {
+   "id": "diagnosis",
+   "title": "Diagnosis and investigations",
+   "blocks": [
+    {
+     "h": "(specialist workup that the IP should know)"
+    },
+    {
+     "ul": [
+      "**Two biopsies:** **Lesional**, from the edge of a **fresh** (<48 h) blister, for H&E (split level, acantholysis, eosinophils/neutrophils), sent in formalin; **Perilesional**, from normal-looking skin about 1 cm from a blister (or uninvolved skin for DH), for **direct immunofluorescence (DIF)**. Send it in **Michel's medium** or fresh on saline gauze, **never formalin**. Biopsy of an eroded or ulcerated site gives a false negative",
+      "**DIF patterns** (use photos A06 and C05): intercellular **\"chicken-wire/fishnet\" IgG ± C3** = pemphigus; **linear IgG/C3 at the BMZ** = BP/MMP/PG; linear **IgA** = LAD; **granular IgA** in the dermal papillae = DH; perivascular IgG/C3 and \"doughnut\" deposits = PCT",
+      "**Salt-split skin** separates BP (epidermal roof) from EBA (dermal floor).",
+      "**Serology:** ELISA for anti-Dsg1/Dsg3 (titres roughly follow activity) and anti-BP180/BP230; indirect IMF; for DH, **tTG-IgA + total IgA** (± EMA); for paraneoplastic pemphigus, anti-envoplakin/periplakin",
+      "**Baseline for systemic therapy** (the IP will be asked about these): FBC, U&E, LFT, glucose/HbA1c, BP, weight, bone profile + vitamin D, **TPMT** (azathioprine), **G6PD** (dapsone), hepatitis B/C, HIV, VZV serology, TB screen (IGRA/chest X-ray) before rituximab or high-dose steroids, a pregnancy test, and immunoglobulins before rituximab."
+     ]
+    }
+   ],
+   "short": "Diagnosis"
+  },
+  {
+   "id": "differentials",
+   "title": "Differential diagnoses",
+   "blocks": [
+    "\"Not everything that blisters is immunobullous\":",
+    {
+     "ul": [
+      "bullous impetigo and SSSS",
+      "HSV/VZV (eczema herpeticum)",
+      "bullous insect bites (**Module 4 exam Q15**)",
+      "acute contact dermatitis and phytophotodermatitis",
+      "pompholyx",
+      "friction, burns and oedema blisters",
+      "bullous drug reactions",
+      "EM",
+      "bullous tinea",
+      "bullous LP",
+      "genodermatoses (EB, Hailey-Hailey)"
+     ]
+    }
+   ],
+   "short": "Differentials"
+  },
+  {
+   "id": "management",
+   "title": "Management",
+   "blocks": [
+    {
+     "ul": [
+      "**Do not start oral steroids \"to see\" before biopsy unless the specialist advises it.** They reduce the diagnostic yield, and in DH/coeliac a gluten-free diet would do the same to serology.",
+      "Supportive care while waiting for an urgent appointment: bland emollients and a soap substitute; puncture large tense blisters at the base with a sterile needle but leave the roof on; non-adherent dressings (silicone/paraffin gauze) and no adhesive tape on fragile skin; a potent or superpotent TCS **only** for suspected BP once dermatology agrees; analgesia, plus benzydamine/chlorhexidine mouthwash or an antiseptic mouthwash for oral erosions",
+      "**Medication review is the IP's core skill:** gliptins, loop diuretics, spironolactone, PD-1 inhibitors, thiol drugs (penicillamine, captopril), vancomycin, NSAIDs, and recent new drugs (SJS/TEN window 4–28 days)."
+     ]
+    },
+    {
+     "h": "Referral"
+    },
+    {
+     "refer": [
+      {
+       "when": "routine",
+       "t": "**IP do's:** stop suspected drugs; document; take photos; give fluid, analgesia and dressing advice; check for steroid or immunosuppressant use; Yellow Card."
+      },
+      {
+       "when": "routine",
+       "t": "**IP don'ts:** don't start oral prednisolone for undiagnosed blistering without a specialist discussion; don't put adhesive dressings on fragile skin; don't de-roof tense blisters; don't advise a gluten-free diet before coeliac tests."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "red-flags",
+   "title": "Red flags and when to refer",
+   "blocks": [
+    {
+     "ul": [
+      "**IP do's:** stop suspected drugs; document; take photos; give fluid, analgesia and dressing advice; check for steroid or immunosuppressant use; Yellow Card.",
+      "**IP don'ts:** don't start oral prednisolone for undiagnosed blistering without a specialist discussion; don't put adhesive dressings on fragile skin; don't de-roof tense blisters; don't advise a gluten-free diet before coeliac tests."
+     ]
+    },
+    {
+     "h": "Blistering red flags and referral routes"
+    },
+    {
+     "table": {
+      "head": [
+       "Presentation",
+       "Why it matters",
+       "Route / timeframe"
+      ],
+      "rows": [
+       [
+        "Widespread painful skin, dusky/target lesions, **detachment**, **≥2 mucosal sites**, fever; new drug in the last 4–28 days",
+        "**SJS/TEN** (mortality up to ~30% with TEN)",
+        "**999 / ED now.** Stop culprit drugs. Ask ED to involve on-call dermatology and ophthalmology; burns or ITU transfer"
+       ],
+       [
+        "Widespread erosions **± oral ulcers**, unable to eat or drink, dehydrated or hypotensive (Case 1)",
+        "Severe PV, fluid/protein loss, sepsis",
+        "**Same-day acute medical admission** + on-call dermatology"
+       ],
+       [
+        "Fever, unwell, **facial oedema**, widespread rash, eosinophilia, abnormal LFT/U&E, 2–8 weeks after a new drug",
+        "DRESS",
+        "Same-day acute medicine / dermatology"
+       ],
+       [
+        "Pustular sheets on erythema with fever 1–2 days after an antibiotic",
+        "AGEP (also consider GPP)",
+        "Same-day dermatology advice; admit if unwell"
+       ],
+       [
+        "Child, febrile, tender red skin with superficial peeling, mucosa spared",
+        "**SSSS**",
+        "**Same-day paediatrics** (IV flucloxacillin)"
+       ],
+       [
+        "Eczema with sudden clustered punched-out erosions, fever, unwell",
+        "**Eczema herpeticum** (Module 4 exam Q29)",
+        "Same-day: start oral aciclovir if well; if unwell, eye involvement or infant → admit (see the [eczema](condition:eczema-dermatitis) notes)"
+       ],
+       [
+        "Eye pain, red eye, photophobia, reduced vision, or symblepharon with blistering",
+        "Ocular SJS/MMP/HSV",
+        "**Same-day ophthalmology** (eye casualty)"
+       ],
+       [
+        "Hoarseness, dysphagia or stridor with mucosal blistering",
+        "Laryngeal MMP/PV",
+        "**999 / ED**"
+       ],
+       [
+        "Pregnant woman with periumbilical urticated plaques and blisters",
+        "Pemphigoid gestationis",
+        "**Urgent (same/next day) dermatology + obstetrics**"
+       ],
+       [
+        "Elderly person with new tense blisters, not systemically unwell",
+        "BP",
+        "**Urgent dermatology** (within ~1–2 weeks; teledermatology photos speed triage). Medication review now"
+       ],
+       [
+        "Persistent oral erosions (>3 weeks) ± skin erosions",
+        "PV/MMP/LP/**SCC**",
+        "Urgent dermatology or oral medicine. **Suspected-cancer (2WW) pathway** if a single non-healing ulcer"
+       ],
+       [
+        "Grouped itchy excoriations on extensors ± gut symptoms",
+        "DH",
+        "Routine dermatology + gastroenterology; coeliac serology **on gluten** first"
+       ],
+       [
+        "Neonate or infant with blisters",
+        "HSV, SSSS, EB, mastocytosis",
+        "**Same-day paediatrics** (neonatal HSV is an emergency)"
+       ],
+       [
+        "Immunosuppressed patient with blisters",
+        "Disseminated HSV/VZV, sepsis",
+        "Same-day assessment; low threshold to admit"
+       ]
+      ]
+     }
+    }
+   ],
+   "short": "Red flags"
+  },
+  {
+   "id": "pearls",
+   "title": "Prescriber pearls (UK pharmacist IP)",
+   "blocks": [
+    {
+     "pearls": [
+      "Ask about **mouth, eyes and genitals** at every blistering consultation. Mucosal involvement changes the urgency and the referral route.",
+      "This helps triage by teledermatology.",
+      "Infection risk: crusting, pain, fever or a sudden spread of erosions may mean secondary *S. aureus* or HSV. Swab and treat."
+     ]
+    },
+    {
+     "h": "Common misconceptions corrected"
+    },
+    {
+     "table": {
+      "head": [
+       "Post",
+       "Statement",
+       "Correction"
+      ],
+      "rows": [
+       [
+        "Worked case",
+        "Split levels: \"dermolytic: EB\"",
+        "EB occurs at **three** levels. **EB simplex** is intraepidermal (basal keratinocyte, keratin 5/14). **Junctional EB** is in the lamina lucida (laminin-332, collagen XVII). Only **dystrophic EB** (collagen VII) is dermolytic, below the lamina densa. EBA (acquired, collagen VII) is also dermolytic. See the [infant skin pages](condition:neonatal-rashes) notes"
+       ],
+       [
+        "Worked case",
+        "Pemphigoid drug triggers: etanercept, furosemide",
+        "Furosemide is a fair example, and etanercept is a case-report association. **Add DPP-4 inhibitors (gliptins), the best-established and most relevant to primary care**, plus spironolactone and PD-1 inhibitors"
+       ],
+       [
+        "Worked case",
+        "Subcorneal: impetigo, PF",
+        "Correct. SSSS also belongs here (exfoliative toxin cleaving Dsg1, the same target as PF)."
+       ],
+       [
+        "Short notes",
+        "Pemphigus = vulgaris, foliaceus, erythematosus, vegetans, paraneoplastic",
+        "Good. Add **IgA pemphigus** and **drug-induced** pemphigus. Erythematosus is a localised form of PF, and vegetans is a variant of PV"
+       ],
+       [
+        "Formative quiz",
+        "QA answered \"intraepidermal acantholysis\" or \"granular IgA\"",
+        "That is PV or DH. BP is **subepidermal with linear BMZ IgG/C3**"
+       ],
+       [
+        "Overview",
+        "\"DPP-4 inhibitors are a common cause of drug-induced bullous **pemphigus**; lisinopril can prevent it\"",
+        "Gliptins cause **pemphigoid**. ACE inhibitors (including lisinopril) are a *weak cause* of pemphigus, not prevention. There is no evidence that lisinopril prevents gliptin-associated BP"
+       ],
+       [
+        "Overview",
+        "IVIG works by blocking CD95 (Fas) in TEN",
+        "That was the in-vitro rationale. Clinical evidence is mixed, and the UK 2016 guideline does not routinely recommend IVIG. Ciclosporin is often preferred"
+       ]
+      ]
+     }
+    },
+    {
+     "h": "Where the course differs from UK guidance"
+    },
+    {
+     "table": {
+      "head": [
+       "Topic",
+       "Course teaching",
+       "UK guidance / practice",
+       "Practical impact for the IP"
+      ],
+      "rows": [
+       [
+        "**PV first line (Case 1)**",
+        "Prednisolone + azathioprine/MMF; rituximab/IVIG only if these fail",
+        "**BAD 2017 + Ritux 3:** rituximab + prednisolone **first line** for new moderate–severe PV. NHS England commissions rituximab",
+        "Expect rituximab plans. Support hep B screening, vaccines and infection counselling"
+       ],
+       [
+        "**Case 1 acute care**",
+        "Systemic steroids, monitor BP",
+        "Clinically hypovolaemic with extensive erosions, so **same-day admission**",
+        "Treat as an emergency, not an outpatient"
+       ],
+       [
+        "**PV antibodies**",
+        "Dsg3 explains the oral ulceration",
+        "Mucocutaneous PV has **Dsg3 + Dsg1**",
+        "Teaching nuance"
+       ],
+       [
+        "**BP drug trigger**",
+        "DPP-4 inhibitors linked to \"pemphigus\"; lisinopril preventive",
+        "Gliptins cause **pemphigoid** (SmPCs list BP); no preventive role for ACE inhibitors",
+        "Gliptin review in every elderly patient with BP"
+       ],
+       [
+        "**BP treatment**",
+        "(Quiz: doxycycline)",
+        "Matches BAD/BLISTER. **Whole-body clobetasol** is also first-line for extensive disease. High-dose prednisolone (1 mg/kg) is **not** recommended",
+        "Quantify the clobetasol supply; doxycycline counselling"
+       ],
+       [
+        "**SJS/TEN IVIG**",
+        "IVIG blocks CD95, so it is used",
+        "UK 2016: supportive care in a burns or ITU setting is the cornerstone; no immunomodulator is routinely recommended (ciclosporin is used at many centres)",
+        "Awareness only"
+       ],
+       [
+        "**DH diagnosis**",
+        "(No model answer given)",
+        "NICE NG20: serology **on gluten**; DIF on **perilesional** skin; refer to gastroenterology",
+        "Don't let the \"IBS dietitian\" start a GFD first"
+       ],
+       [
+        "**PCT HCQ**",
+        "Low-dose HCQ (as in the [photodermatoses](condition:polymorphic-light-eruption) notes)",
+        "**Twice weekly** 100–200 mg; daily dosing causes hepatotoxic flares",
+        "Check the dose on the script"
+       ],
+       [
+        "**Burow's solution**",
+        "Aluminium acetate compresses",
+        "Not routinely stocked in UK community pharmacy (specials or extemporaneous). Saline or potassium permanganate 1:10,000 soaks are the usual UK alternatives",
+        "Use permanganate with care (staining, toxic if ingested, NPSA alert: dilute properly)"
+       ]
+      ]
+     }
+    }
+   ],
+   "short": "Pearls"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Approach to blistering diseases?",
+   "a": "Blisters or erosions without an obvious burn, bite, friction or infection."
+  },
+  {
+   "q": "What drives it?",
+   "a": "Autoantibodies against desmosomes (intraepidermal, flaccid) or hemidesmosomes (subepidermal, tense); drugs; infection; genetics (EB)."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "Identify the pattern, refer at the right speed, look for a drug cause, and prescribe and monitor within the specialist plan."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "SJS/TEN, pemphigus with mouth erosions, eye involvement, pemphigoid in pregnancy, eczema herpeticum and SSSS in children."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "**IP do's:** stop suspected drugs; document; take photos; give fluid, analgesia and dressing advice; check for steroid or immunosuppressant use; Yellow Card."
+  }
+ ],
+ "references": [],
+ "see_also": []
+}

@@ -1,0 +1,76 @@
+{
+ "_auto": true,
+ "glance": {
+  "chips": [
+   "Module 5 · Week 2",
+   "arterial ulcer",
+   "ischaemic ulcer",
+   "peripheral arterial disease"
+  ],
+  "points": []
+ },
+ "cause": {
+  "points": [],
+  "visuals": []
+ },
+ "features": {
+  "photo": "m5w2:S01",
+  "points": [
+   "Site: toes, heel, bony prominences, lateral malleolus, shin.",
+   "**Punched-out**, deep, dry or necrotic base.",
+   "Pain often **severe**, worse on elevation and at night (eased by hanging the leg out of bed).",
+   "Foot: cold, pale or mottled, shiny, hairless, weak or absent pulses; dependent rubor; **claudication**."
+  ],
+  "visuals": [],
+  "variants": null,
+  "groups": [
+   0
+  ]
+ },
+ "confirm": {
+  "cols": [
+   {
+    "k": "Key points",
+    "icon": "check",
+    "points": [
+     "Examine pulses and measure **ABPI** (or TBPI in diabetes, where calcified vessels give falsely high ABPI).",
+     "Urgent vascular assessment (duplex, angiography) for critical limb ischaemia."
+    ]
+   }
+  ]
+ },
+ "differentials": {
+  "cards": []
+ },
+ "manage": {
+  "rungs": []
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "same-day",
+    "t": "**Critical limb ischaemia:** rest pain, gangrene, tissue loss, or a cold pulseless foot: **same-day vascular**."
+   },
+   {
+    "when": "emergency",
+    "t": "Acute limb ischaemia (pain, pallor, pulselessness, paraesthesia, paralysis, perishingly cold): emergency."
+   }
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "**Any leg ulcer may be mixed.** Always assess the arterial supply before compression."
+  },
+  {
+   "icon": "bulb",
+   "t": "Painful ulcer worse on elevation suggests arterial."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "**Critical limb ischaemia:** rest pain, gangrene, tissue loss, or a cold pulseless foot: **same-day vascular**."
+  }
+ ]
+}

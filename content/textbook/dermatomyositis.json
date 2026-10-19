@@ -1,0 +1,414 @@
+{
+ "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
+ "key_facts": [
+  "Violaceous eyelids, scaly papules over the knuckles, a red V or shawl on the chest and back, ragged cuticles, with or without proximal muscle weakness.",
+  "Autoimmune damage to small vessels of skin and muscle; myositis-specific antibodies predict cancer (TIF1-γ, NXP-2) or lung disease (MDA5).",
+  "CK, ANA and myositis antibodies, urgent rheumatology/dermatology referral; age-appropriate cancer screening; strict photoprotection.",
+  "Underlying malignancy (ovary, lung, gut, breast); interstitial lung disease; swallowing and respiratory muscle weakness."
+ ],
+ "sections": [
+  {
+   "id": "overview",
+   "title": "Overview",
+   "blocks": [
+    "An idiopathic **inflammatory myopathy** with characteristic skin signs. Incidence ~1 per 100,000. Peaks in childhood (juvenile DM, 5–14 years) and at 40–60 years (F>M). Around **20% are clinically amyopathic** (skin only — CADM). In adults it is a **paraneoplastic** marker in a significant minority."
+   ]
+  },
+  {
+   "id": "pathophysiology",
+   "title": "Pathophysiology and pathology",
+   "blocks": [
+    {
+     "h": "How it is caused"
+    },
+    {
+     "ul": [
+      "Complement-mediated **microangiopathy** (MAC deposition in capillaries → perifascicular atrophy), with type I interferon signatures, in genetically predisposed people.",
+      "Triggers: malignancy, UV, drugs (hydroxyurea, statins — more often necrotising myopathy; TNF-i; checkpoint inhibitors).",
+      "**Myositis-specific antibodies (MSA) predict phenotype:**"
+     ]
+    },
+    {
+     "table": {
+      "head": [
+       "Antibody",
+       "Phenotype"
+      ],
+      "rows": [
+       [
+        "**Anti-TIF1-γ**",
+        "**Strongest cancer association** (adults >40; ~50–75% of cancer-associated DM); extensive skin disease, mild myositis"
+       ],
+       [
+        "**Anti-NXP2**",
+        "Cancer (adults), calcinosis (juvenile), oedema"
+       ],
+       [
+        "Anti-SAE",
+        "Skin first, then myositis; dysphagia; some cancer risk"
+       ],
+       [
+        "**Anti-MDA5**",
+        "**Rapidly progressive ILD**, skin ulcers, palmar papules, arthritis; little myositis (CADM); high mortality"
+       ],
+       [
+        "Anti-Mi-2",
+        "Classic DM, florid skin, good steroid response, low cancer risk"
+       ],
+       [
+        "Anti-synthetase (Jo-1 etc.)",
+        "ILD, **mechanic's hands**, arthritis, Raynaud's, fever"
+       ]
+      ]
+     }
+    }
+   ],
+   "short": "Pathophysiology"
+  },
+  {
+   "id": "clinical-features",
+   "title": "Clinical features",
+   "blocks": [
+    {
+     "ul": [
+      "**Heliotrope rash:** violaceous upper-eyelid erythema ± periorbital oedema.",
+      "**Gottron papules:** violaceous flat-topped papules over the **MCP/PIP/DIP joints** (pathognomonic, A02). **Gottron sign:** macular erythema over the knuckles, **elbows, knees**.",
+      "**Nailfold:** dilated capillary loops, **ragged cuticles** (Samitz sign), periungual erythema.",
+      "Others: **itchy, scaly scalp** (psoriasiform/seb-derm-like), **mechanic's hands** (antisynthetase), calcinosis (juvenile), flagellate erythema, panniculitis, ulcers (MDA5), oedema.",
+      "**Itch is prominent** — a useful contrast with lupus.",
+      "**Muscle:** symmetrical **proximal weakness** (rising from a chair, climbing stairs, combing hair), myalgia, **dysphagia** (pharyngeal), respiratory muscle weakness.",
+      "**Systemic:** ILD (cough, breathlessness), arthritis, Raynaud's, myocarditis/arrhythmia."
+     ]
+    },
+    {
+     "fig": {
+      "dermnet": "m1w5:A02"
+     }
+    }
+   ]
+  },
+  {
+   "id": "diagnosis",
+   "title": "Diagnosis and investigations",
+   "blocks": [
+    {
+     "ul": [
+      "**Bloods:** **CK** (may be normal in CADM), aldolase, LDH, ALT/AST (raised from muscle — don't misread as liver disease), ESR/CRP, **ANA and myositis antibody panel (MSA/MAA)**, TFT, FBC, U&E.",
+      "**Specialist tests:** **EMG**, **MRI of thighs** (oedema → guides biopsy), **muscle ± skin biopsy** (interface dermatitis with mucin, similar to lupus).",
+      "**ILD screen:** HRCT, **PFTs incl. TLCO**.",
+      "**Heart:** ECG ± echo/troponin.",
+      "**Swallow assessment.**",
+      "**EULAR/ACR 2017 classification criteria.**",
+      "**Cancer screening:** Adult DM carries a **~3–7× increased cancer risk** (~15–25% of adults with DM). Highest in the 3 years around diagnosis (especially the first year), in those >40, with anti-TIF1-γ/NXP2, rapid onset, dysphagia, cutaneous necrosis, or a poor treatment response; Typical cancers: **ovarian**, **lung**, pancreatic, stomach, colorectal, breast, **non-Hodgkin lymphoma**; **nasopharyngeal** in South-East Asian patients; **IMACS 2023 international guideline** stratifies risk:; **Basic screen for all:** history/exam (incl. breast, pelvic, rectal/prostate, lymph nodes), FBC, LFT, ESR/CRP, SPEP/free light chains, urinalysis, CXR, and **age-appropriate national screening** (cervical, breast, bowel); **Enhanced screen for moderate/high risk:** **CT chest/abdomen/pelvis**, ± mammography, pelvic/transvaginal USS + CA-125, PSA, upper/lower endoscopy, **FDG-PET/CT**; Repeat annually for **3 years** in high-risk patients; Juvenile DM is **not** cancer-associated"
+     ]
+    }
+   ],
+   "short": "Diagnosis"
+  },
+  {
+   "id": "differentials",
+   "title": "Differential diagnoses",
+   "blocks": [
+    "**SLE/SCLE** (spares knuckles — lupus favours skin *between* the joints; nasolabial folds spared; less itch), psoriasis (scalp/elbows), seborrhoeic dermatitis, contact/photo-dermatitis (eyelids), rosacea, **drug-induced DM-like eruptions** (hydroxyurea), lichen planus, polymorphic light eruption. For weakness: statin myopathy/**immune-mediated necrotising myopathy (anti-HMGCR)**, hypothyroid myopathy, inclusion-body myositis, steroid myopathy, polymyalgia rheumatica (pain, stiffness, not weakness; normal CK)."
+   ],
+   "short": "Differentials"
+  },
+  {
+   "id": "management",
+   "title": "Management",
+   "blocks": [
+    {
+     "ul": [
+      "**Refer** to dermatology + rheumatology (urgently if weakness, dysphagia, breathlessness or a high CK). Same-day if there is respiratory compromise or difficulty swallowing.",
+      "**Skin:** **strict photoprotection** (broad-spectrum high-UVA sunscreen); potent TCS or **topical tacrolimus** (face); antihistamines for itch; **hydroxychloroquine** — note that drug eruptions to HCQ are more common in DM than in lupus; RCOphth retinal screening applies",
+      "**Systemic (specialist):** high-dose oral prednisolone (~1 mg/kg) ± IV methylprednisolone; steroid-sparing **methotrexate**, azathioprine or **mycophenolate**; **IVIg** (licensed in the UK for DM since 2021 — Octagam 10%); rituximab; JAK inhibitors (emerging, off-label); Anti-MDA5 ILD → combination immunosuppression urgently",
+      "**Pharmacist checklist:** **Steroid Emergency Card**, bone protection (calcium/vitamin D ± bisphosphonate — NOGG), gastroprotection as needed; PJP prophylaxis on combination therapy (specialist); inactivated vaccines (flu, COVID-19, pneumococcal; Shingrix); no live vaccines; methotrexate safety (the [therapeutics](condition:topical-corticosteroids) notes see *Dermatitis herpetiformis*); **review statins** if weakness develops (statin-associated IMNM); support cancer screening appointments"
+     ]
+    },
+    {
+     "h": "IP scope"
+    },
+    "Recognition, CK/bloods, photoprotection and topical care, safe-prescribing support (steroids, MTX, HCQ shared care), and urgent referral. Diagnosis and immunosuppression are specialist.",
+    {
+     "h": "Worked cases"
+    },
+    {
+     "h": "Case 1: dermatomyositis, lung cancer and the striae case"
+    },
+    {
+     "ul": [
+      "**Skin signs of dermatomyositis:** heliotrope rash (± periorbital oedema); **Gottron papules** (pathognomonic) and Gottron sign over knuckles, elbows and knees; photodistributed poikiloderma — **shawl, V and holster signs**; facial erythema that **involves the nasolabial folds**; **ragged cuticles and dilated nailfold capillaries**; itchy scaly scalp; mechanic's hands (antisynthetase); calcinosis (juvenile); ulcers (anti-MDA5). Itch is prominent (see *Dermatomyositis*).",
+      "**Association with underlying disease:** **Malignancy in adults** — 3–7× risk (ovary, lung, pancreas, stomach, colorectal, breast, NHL; nasopharynx in South-East Asian patients), highest within 3 years of diagnosis, with **anti-TIF1-γ or anti-NXP2**; screen using the **IMACS 2023** risk-stratified approach (see *Dermatomyositis*); **Interstitial lung disease** (anti-MDA5, antisynthetase antibodies), dysphagia, myocarditis; overlap with other connective tissue diseases; Juvenile DM is not cancer-associated",
+      "**Skin signs of lung cancer:** clubbing ± HPOA; cutaneous metastases (chest wall, scalp, umbilicus; carcinoma erysipeloides); SVC obstruction; Horner's syndrome (Pancoast); dermatomyositis; **tripe palms** and malignant AN; ectopic ACTH pigmentation; erythema gyratum repens, acquired hypertrichosis lanuginosa, Leser–Trélat, Trousseau's sign, Bazex syndrome; EGFR-inhibitor and checkpoint-inhibitor rashes. Know the **NICE NG12 CXR triggers** (see *Skin signs of lung cancer*).",
+      "**40-year-old woman with abdominal striae, amenorrhoea, weight gain, BP 142/92:** **Most probable diagnosis: Cushing's syndrome** — the striae are wide, purple (\"livid\"), with menstrual disturbance, central weight gain and hypertension. **Exclude exogenous glucocorticoids first** (all routes, skin-lighteners, ritonavir/cobicistat + inhaled or nasal steroid); **Bedside/clinical tests:** BP; **proximal myopathy** (rise from a chair or squat without the arms); thin skin and bruising; width and colour of striae; facial plethora, fat pads; capillary glucose/urine dipstick; weight and waist; visual fields; **Single primary-care investigation:** the course teaches **24-h urinary free cortisol** (or late-night salivary cortisol where available). UK practice most often uses the **1 mg overnight dexamethasone suppression test** (cortisol < 50 nmol/L = normal suppression), and many pathways send suspected Cushing's straight to endocrinology. Any of the three is an acceptable first test; avoid the DST in women on oestrogen-containing contraception (see *Cushing's syndrome — the striae case*; see *Where course teaching differs from UK guidance*)"
+     ]
+    },
+    {
+     "h": "Case 2: 41-year-old man with hyperhidrosis"
+    },
+    {
+     "ul": [
+      "**Further history:** onset, pattern (**focal vs generalised, day vs night, symmetry**), triggers, family history; **drugs** (SSRIs/SNRIs, TCAs, opioids, insulin/sulfonylureas, anabolic steroids or testosterone withdrawal, PPIs); **alcohol and recreational drugs — specifically ask about cocaine** (common and often not asked); **hypogonadism** (erectile dysfunction, low libido, **reduced shaving**, fatigue, gynaecomastia); **acromegaly** (**ring or shoe size change**, coarse features, headache); **OSA** (snoring, apnoeas, sleepiness); phaeochromocytoma (paroxysms of headache, palpitations, pallor), carcinoid (flushing, diarrhoea), infection or lymphoma (fever, **night sweats**, weight loss, lymph nodes, TB/HIV risk), hypoglycaemia, anxiety, GORD; impact (HDSS, DLQI)",
+      "**Is primary hyperhidrosis likely?** **No.** Primary focal hyperhidrosis needs ≥ 6 months of focal sweating plus ≥ 2 of: bilateral and symmetrical; impairs daily activity; ≥ 1 episode a week; **onset before 25**; positive family history; **no sweating during sleep**. New sweating at 41, at most times of day, with obesity, points to a **secondary cause** (see *Hyperhidrosis — the 41-year-old man*)."
+     ]
+    },
+    {
+     "table": {
+      "head": [
+       "",
+       "Primary (focal)",
+       "Secondary"
+      ],
+      "rows": [
+       [
+        "Onset",
+        "Childhood–adolescence (< 25)",
+        "Any age, often adult"
+       ],
+       [
+        "Distribution",
+        "Focal, symmetrical (axillae, palms, soles, face)",
+        "Generalised, or asymmetrical/unilateral"
+       ],
+       [
+        "Sleep",
+        "No night sweats",
+        "Often at night"
+       ],
+       [
+        "Family history",
+        "Positive in 30–50%",
+        "Usually negative"
+       ],
+       [
+        "Cause",
+        "Central sympathetic overactivity",
+        "Drugs, endocrine, infection, malignancy, neurological, obesity"
+       ]
+      ]
+     }
+    },
+    {
+     "ul": [
+      "**Differential:** obesity-related sweating and **obesity-related functional hypogonadism** (the course answer), OSA, drugs/alcohol/cocaine, thyrotoxicosis (excluded by normal TFT), hypoglycaemia on treatment, acromegaly, phaeochromocytoma, carcinoid, lymphoma/TB/HIV, anxiety, primary focal hyperhidrosis (unlikely).",
+      "**Further investigations:** **9 am fasting total testosterone** (repeat if low) with **SHBG, LH/FSH and prolactin**; fasting glucose and lipids; urine drug screen with consent; metanephrines if paroxysmal or hypertensive; **IGF-1** if acromegalic; ESR/CRP, HIV test and CXR if systemic features; 24-h urinary 5-HIAA if flushing; sleep study if OSA likely (see *Hyperhidrosis — the 41-year-old man*)."
+     ]
+    },
+    {
+     "h": "Case 3: Addison's disease and the 40-year-old man with new diabetes"
+    },
+    {
+     "ul": [
+      "**Addison's — skin features:** generalised bronze hyperpigmentation, most marked in **palmar creases, knuckles, elbows, knees, scars, nipples, gums and buccal mucosa**; darkening of naevi; vitiligo (autoimmune overlap); loss of axillary/pubic hair in women. On black or brown skin the change may be subtle — ask and look inside the mouth (NICE NG243).",
+      "**Screening test in primary care:** an **8–9 am serum cortisol** with **U&E** (low sodium, high potassium), glucose and FBC (NICE NG243): **< 150 nmol/L refer to endocrinology** (and treat as crisis if unwell); **150–300 nmol/L** uncertain, repeat or seek advice; **> 300 nmol/L** AI very unlikely. **Never delay hydrocortisone 100 mg IM/IV in suspected adrenal crisis** (see *Addison's disease*).",
+      "**Why does pigmentation occur?** Low cortisol removes negative feedback → more **POMC** → cleaved into **ACTH and α-MSH**, which stimulate **MC1R** on melanocytes → more melanin. Secondary (pituitary) adrenal insufficiency therefore causes **pallor, not pigmentation**.",
+      "**One investigation:** a **fasting lipid profile** — expect a **turbid/milky (lipaemic) sample** with **very high triglycerides**. The diagnosis is **eruptive xanthomas** from hypertriglyceridaemia driven by uncontrolled type 2 diabetes (± obesity, alcohol, drugs, familial). It matters because of the **high risk of acute pancreatitis**: **TG > 20 mmol/L → urgent specialist referral** (NICE NG238).",
+      "**Differentials:** molluscum contagiosum, dermatitis herpetiformis, folliculitis, acne/keloidal papules, papular granuloma annulare, xanthoma disseminatum/histiocytoses, papular sarcoidosis, lichen planus, insect bites. A shave biopsy (foamy macrophages ± extracellular lipid) is needed only if uncertain. \"Nappy rash with cleansers and emollients\" is not a diagnosis for persistent papules in an adult — re-examine and test."
+     ]
+    },
+    {
+     "h": "Case 4: acanthosis nigricans with PCOS, and dermatitis herpetiformis"
+    },
+    {
+     "ul": [
+      "**Describe the rash:** ill-defined, symmetrical, **velvety brown-grey thickening with accentuated skin markings** on the back of the neck, ± skin tags.",
+      "**Likely diagnosis:** **acanthosis nigricans** with **polycystic ovary syndrome and insulin resistance** (HAIR-AN phenotype). Rotterdam criteria: oligo-ovulation + clinical and biochemical hyperandrogenism (jawline hirsutism; testosterone 2.3 nmol/L, mildly raised). The COC had masked the symptoms. Normal TFT and prolactin help exclude other causes; check **SHBG/free androgen index, 17-OH-progesterone** (NC-CAH) and a **75 g OGTT or HbA1c** (see *Acanthosis nigricans and PCOS*).",
+      "**Associations of AN:** obesity and **insulin resistance** (pre-diabetes, type 2 diabetes, metabolic syndrome), PCOS, other endocrinopathies (Cushing's, acromegaly, hypothyroidism), familial/syndromic forms, **drugs** (systemic glucocorticoids, nicotinic acid, insulin injection sites, oral contraceptives, protease inhibitors), and **malignancy** (see *Acanthosis nigricans and PCOS*).",
+      "**Histology and malignancy link:** **papillomatosis and hyperkeratosis with only mild acanthosis**, little or no extra melanin — the brown colour comes from the thickened keratin. **Why some people get it:** **hyperinsulinaemia** activates **IGF-1 receptors** on keratinocytes and fibroblasts (endocrine AN, mild, gradual); in **malignant AN** tumour-derived growth factors (TGF-α acting on EGFR) cause **sudden, extensive, often mucosal or palmar (\"tripe palms\") disease** in older, non-obese people — most often **gastric adenocarcinoma**; endocrine AN is mild, malignant AN is severe and rapid. Advise about diabetes risk and weight (see *Acanthosis nigricans and PCOS*).",
+      "**Visible abnormalities:** grouped small papules and vesicles on the extensor elbows, mostly **excoriated, eroded and crusted** (intact blisters are rare because of the intense itch); symmetrical, also knees and sacrum (see *Dermatitis herpetiformis*).",
+      "**Clinical diagnosis:** **dermatitis herpetiformis**, the skin form of **coeliac disease** (bloating, malaise and weight loss support it).",
+      "**Confirm and further tests:** **Skin biopsy** — **perilesional** skin for **DIF (granular IgA in the dermal papillae)**, sent in **Michel's medium or saline, not formalin**, ± lesional biopsy **in formalin** for H&E; usually by dermatology; **tTG-IgA with total IgA** while the patient is **eating gluten** (more than one meal a day for ≥ 6 weeks; NICE NG20); IgG-based tests if IgA-deficient; EMA if equivocal; FBC, ferritin, folate, B12, LFT, calcium, vitamin D, TFT, HbA1c; **G6PD before dapsone**; bone density if indicated; Duodenal biopsy is usually not needed when skin DIF confirms DH (BSG), but refer to gastroenterology for significant GI symptoms or red flags (see *Dermatitis herpetiformis*)"
+     ]
+    },
+    {
+     "h": "Case 5: 40-year-old man with breathlessness, weight loss, night sweats and painful shins"
+    },
+    {
+     "ul": [
+      "**Describe the rash:** bilateral, **tender, warm, ill-defined red-violaceous nodules and plaques on the shins** = **erythema nodosum** (see *Sarcoidosis — Löfgren syndrome*).",
+      "**CXR:** **bilateral hilar lymphadenopathy** (Scadding stage I) ± right paratracheal nodes.",
+      "**Likely diagnosis and why:** **acute sarcoidosis, Löfgren-type** — EN + BHL, with **hypercalcaemia (2.7 mmol/L)** from granuloma 1-α-hydroxylase activity and normocytic anaemia. **But weight loss, night sweats and anaemia mean TB and lymphoma must be excluded**: IGRA, sputum AFB/culture, HIV, LDH, film, HRCT and tissue (EBUS-TBNA) — classic Löfgren without B symptoms can skip tissue confirmation, this case cannot (see *Sarcoidosis — Löfgren syndrome*).",
+      "**Related question — how an EN nodule evolves:** bright red, raised, tender nodule (**1–5 cm**) → flattens over 1–2 weeks and turns **dusky violaceous, then yellow-green like a bruise** (erythema contusiformis) → fades **without ulceration or scarring** over **3–6 weeks** (occasionally up to 8); crops recur; post-inflammatory pigmentation may linger in darker skin.",
+      "**Related question — causes of EN:** **idiopathic** (~30–50%); **infection** (streptococcal pharyngitis — the commonest identifiable cause; TB; *Yersinia*, *Salmonella*, *Campylobacter*; *Chlamydia*, *Mycoplasma*; EBV; hepatitis B; fungal infections such as coccidioidomycosis); **sarcoidosis**; **IBD**; **pregnancy and oestrogen-containing contraception**; **drugs** (sulfonamides, penicillins, oral contraceptives, bromides, vemurafenib/BRAF inhibitors); Behçet's; lymphoma and leukaemia (rare). First tests: throat swab/ASO titre, FBC, CRP/ESR, CXR, IGRA, pregnancy test, stool culture if diarrhoea, faecal calprotectin.",
+      "**Related question — differentials of EN:** cellulitis (unilateral, spreading, fever); superficial thrombophlebitis and DVT; **erythema induratum (nodular vasculitis)** — calves, ulcerates, linked to TB; other panniculitides (lupus profundus, pancreatic panniculitis, α1-antitrypsin deficiency, cold panniculitis); cutaneous polyarteritis nodosa (painful nodules with livedo); Sweet syndrome; insect bites; bruises/trauma; subcutaneous sarcoid; lymphoma. See the [drug eruption](condition:drug-eruption-approach) notes for the full table."
+     ]
+    },
+    {
+     "h": "Practice case: 38-year-old woman with Crohn's on azathioprine"
+    },
+    {
+     "ul": [
+      "**QA = 4, pyoderma gangrenosum.** A minor graze (pathergy) → pustule within days → **rapidly enlarging, very painful ulcer** in a woman with **Crohn's disease**, low-grade fever and raised CRP/ESR (see *Pyoderma gangrenosum*): *1. Atypical mycobacterial infection:* evolves over weeks to months; it should still be excluded (tissue culture) because she is on azathioprine; *2. S. aureus infection:* would not usually produce a violaceous undermined ulcer this painful and fast, and would respond to antibiotics; swab anyway; *3. Martorell ulcer:* an ischaemic ulcer of long-standing **hypertension ± diabetes**, usually older patients, lateral/posterior leg; her BP is 125/80; *5. SCC:* would not reach this size in 4 weeks, is rarely this painful and lacks an inflammatory violaceous border (see *Pyoderma gangrenosum*)",
+      "**QB = 2, diagnosis based on clinical and laboratory criteria.** There is no confirmatory test; PG is a diagnosis of exclusion using the **Su criteria** (the course answer); current UK specialist practice uses the **Delphi consensus criteria** (see *Pyoderma gangrenosum*): *4/5. Skin biopsy for histology (and tissue culture):* an essential part of the work-up — mainly to **exclude infection, vasculitis and malignancy** — but histology is non-specific, so biopsy alone does not confirm PG (and a biopsy of the edge is the major Delphi criterion; see *Where course teaching differs from UK guidance*); *1. ABPI:* assesses arterial disease and safety of compression; no diagnostic role in PG; *3. Nerve conduction studies/EMG:* for neuropathic ulcers",
+      "**QC = 1, myeloid blood dyscrasias** (AML, myelodysplasia, myeloproliferative disorders; also IgA monoclonal gammopathy/myeloma). Other well-described associations are **rheumatoid and other inflammatory arthritis** and **IBD**. Eosinophilic asthma, penicillin antibiotics, pregnancy and ischaemic heart disease are not recognised associations (see *Pyoderma gangrenosum*).",
+      "**UK additions for this patient:** exclude infection first (swab, FBC — azathioprine can cause neutropenia — CRP, tissue culture via biopsy); **urgent dermatology referral and tell her IBD team**; no debridement; analgesia (avoid NSAIDs in Crohn's); non-adherent dressings; check her Crohn's activity. Expect **prednisolone or ciclosporin** (STOP GAP), given active IBD, an **anti-TNF (infliximab/adalimumab)**; steroid safety, interaction and vaccination checks."
+     ]
+    },
+    {
+     "h": "Week summary"
+    },
+    "The course summary lists the week's themes: Cushing's, dermatomyositis, sarcoid and dermatitis herpetiformis (diagnosis, differentials, investigations and associations); Addison's features and screening; eruptive xanthomas and their pancreatitis risk; and pyoderma gangrenosum, a painful ulcerating disease whose commonest association is IBD. The common thread: **name the skin sign, think of the internal disease, do the first test, and refer at the right speed.**",
+    {
+     "h": "Referral"
+    },
+    {
+     "refer": [
+      {
+       "when": "same-day",
+       "t": "Difficulty swallowing, breathlessness or rapidly worsening weakness: **same-day** assessment."
+      },
+      {
+       "when": "routine",
+       "t": "New dermatomyositis in an adult: screen for **cancer** (NICE NG12 symptoms plus specialist-led screening)."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "red-flags",
+   "title": "Red flags and when to refer",
+   "blocks": [
+    {
+     "ul": [
+      "Difficulty swallowing, breathlessness or rapidly worsening weakness: **same-day** assessment.",
+      "New dermatomyositis in an adult: screen for **cancer** (NICE NG12 symptoms plus specialist-led screening)."
+     ]
+    },
+    {
+     "h4": "Red flags / refer"
+    },
+    "Proximal weakness, **dysphagia/aspiration**, breathlessness/cough (ILD), very high CK, chest pain/palpitations (myocarditis), skin ulceration (MDA5), constitutional symptoms or other cancer red flags (NG12 — urgent cancer pathway)."
+   ],
+   "short": "Red flags"
+  },
+  {
+   "id": "pearls",
+   "title": "Prescriber pearls (UK pharmacist IP)",
+   "blocks": [
+    {
+     "pearls": [
+      "\"**Purple eyelids + knuckle papules + itch = dermatomyositis — check CK and look for cancer.**\"",
+      "A DM rash with \"raised ALT\" may be muscle, not liver — check CK before stopping a statin for \"LFTs\".",
+      "Itchy scalp in a middle-aged woman with eyelid redness: think DM, not just seborrhoeic dermatitis.",
+      "The worked practice case on the painful leg ulcer in Crohn’s disease is on the [pyoderma gangrenosum](condition:pyoderma-gangrenosum) page, with diagnostic criteria and UK treatment."
+     ]
+    },
+    {
+     "h": "Where course teaching differs from UK guidance"
+    },
+    {
+     "table": {
+      "head": [
+       "Topic",
+       "Course teaching",
+       "UK position (2026)"
+      ],
+      "rows": [
+       [
+        "Cushing's first test",
+        "Course teaching: 24-h urinary free cortisol, or late-night salivary cortisol where available",
+        "All three tests are valid (Endocrine Society); UK pathways most often use the **1 mg overnight dexamethasone suppression test** (cortisol < 50 nmol/L normal) or refer straight to endocrinology. **Exclude exogenous steroids first** (incl. ritonavir/cobicistat + inhaled/nasal steroids). Avoid the DST in women on oral oestrogen (false positive)"
+       ],
+       [
+        "Addison's screen",
+        "Course teaching: \"8 am cortisol\"; a student answer: 9 am cortisol < 100 nmol/L suggests Addison's",
+        "**NICE NG243 (2024):** 8–9 am serum cortisol with U&E; **< 150 nmol/L = refer** (consider treating); 150–300 uncertain; > 300 very unlikely. Do not wait for tests in suspected crisis: **hydrocortisone 100 mg IM/IV and 999**"
+       ],
+       [
+        "Addison's pigmentation",
+        "Course: generalised darkening of the skin",
+        "NG243 adds that pigmentation **may not be visible on black or brown skin** — ask, and check the buccal mucosa and scars"
+       ],
+       [
+        "Estradiol units",
+        "450 nmol/L (range 150–800)",
+        "**pmol/L** — UK labs report estradiol in pmol/L; nmol/L values would be 1,000-fold too high"
+       ],
+       [
+        "Female testosterone",
+        "2.3 nmol/L flagged against \"< 2\"",
+        "Reference ranges vary by lab and assay; interpret with **SHBG/free androgen index**. A total testosterone **≥ 5 nmol/L**, rapidly worsening hirsutism or virilisation → **urgent endocrinology referral** to exclude an androgen-secreting tumour, NC-CAH or Cushing's (NICE draft PMOS/PCOS guideline 2026; local pathways)"
+       ],
+       [
+        "DH biopsy medium",
+        "Course teaching: \"skin biopsy for histology in formalin with DIF (requires special media)\"",
+        "Two samples: **lesional skin in formalin** (H&E) and **perilesional skin in Michel's medium or saline for DIF — never formalin**"
+       ],
+       [
+        "Coeliac serology before testing",
+        "Course teaching: \"prep to the test\"",
+        "**NICE NG20:** the patient must eat gluten in **more than one meal every day for at least 6 weeks** before serology; always measure **total IgA** with tTG-IgA"
+       ],
+       [
+        "Eruptive xanthoma investigation",
+        "Course teaching: lipids (turbid sample, very high TG); GP in the case: \"nappy rash\", cleansers and emollients",
+        "Agree with lipids; add **NICE NG238**: **TG > 20 mmol/L → urgent specialist referral**; 10–20 mmol/L → repeat fasting within 5–14 days. Treat glycaemia urgently; review alcohol and drugs (thiazides, β-blockers, oestrogens, retinoids, antipsychotics)"
+       ],
+       [
+        "Hyperhidrosis and hypogonadism",
+        "Course teaching: check testosterone — obesity-related hypogonadism",
+        "Agree; repeat a **9 am fasting** sample with SHBG and LH/FSH before diagnosing; **weight loss is first-line** for obesity-related functional hypogonadism and testosterone replacement is a specialist decision (Society for Endocrinology / BSSM). Treat sweating per **NICE CKS *Hyperhidrosis** (aluminium chloride; iontophoresis; specialist botulinum toxin or anticholinergics)"
+       ],
+       [
+        "EN nodule size and course",
+        "Student answers: nodules \"2–5 mm\" resolving over 8 weeks",
+        "EN nodules are **1–5 cm**; they usually fade in **3–6 weeks** (sometimes up to 8) through bruise-like colour change, without scarring"
+       ],
+       [
+        "Sarcoid diagnosis",
+        "Student answers: EN + BHL + hypercalcaemia = sarcoid",
+        "Agree it fits Löfgren, but **weight loss, night sweats and anaemia demand exclusion of TB and lymphoma** (BTS 2021); serum ACE is supportive only. **Stop vitamin D/calcium supplements** if hypercalcaemic"
+       ],
+       [
+        "PG — what confirms it",
+        "Answer 2: clinical and laboratory criteria (Su 2004); some students chose 5 (biopsy + tissue culture)",
+        "Agree there is no single confirmatory test. Current consensus (**Delphi 2018**) makes **biopsy of the ulcer edge the major criterion**, with ≥ 4 minor criteria including **exclusion of infection by histology and tissue culture** — so biopsy + culture is expected in practice, even though it does not confirm PG on its own"
+       ],
+       [
+        "PG treatment",
+        "Course: rapid response to systemic steroids (a minor criterion)",
+        "UK STOP GAP RCT: **prednisolone 0.75 mg/kg/day and ciclosporin 4 mg/kg/day are equally effective**; very potent topical steroid or topical tacrolimus for smaller ulcers; anti-TNF (infliximab) when IBD coexists. **Never debride active PG**"
+       ],
+       [
+        "Martorell ulcer distractor",
+        "Course teaching: excluded because there is no history of hypertension",
+        "Correct; teach also that Martorell responds to **debridement and grafting**, the opposite of PG — a practical reason the distinction matters"
+       ]
+      ]
+     }
+    }
+   ],
+   "short": "Pearls"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Dermatomyositis?",
+   "a": "Violaceous eyelids, scaly papules over the knuckles, a red V or shawl on the chest and back, ragged cuticles, with or without proximal muscle weakness."
+  },
+  {
+   "q": "What drives it?",
+   "a": "Autoimmune damage to small vessels of skin and muscle; myositis-specific antibodies predict cancer (TIF1-γ, NXP-2) or lung disease (MDA5)."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "CK, ANA and myositis antibodies, urgent rheumatology/dermatology referral; age-appropriate cancer screening; strict photoprotection."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "Underlying malignancy (ovary, lung, gut, breast); interstitial lung disease; swallowing and respiratory muscle weakness."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "Difficulty swallowing, breathlessness or rapidly worsening weakness: **same-day** assessment."
+  }
+ ],
+ "references": [
+  {
+   "label": "Medscape: Dermatomyositis",
+   "url": "https://emedicine.medscape.com/article/332783-overview"
+  }
+ ],
+ "see_also": []
+}

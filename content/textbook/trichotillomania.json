@@ -1,0 +1,179 @@
+{
+ "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
+ "key_facts": [
+  "Irregular or geometric bald patch with hairs of many different lengths; pull test negative; often on the dominant-hand side.",
+  "Body-focused repetitive behaviour (OCRD spectrum) — automatic or focused pulling; broken shafts, not autoimmune bulb attack.",
+  "Non-judgemental recognition, habit-reversal / CBT referral, wound care if excoriated; do not treat as alopecia areata with steroids alone.",
+  "Trichophagia with abdominal pain, vomiting or mass → urgent surgical assessment for trichobezoar."
+ ],
+ "sections": [
+  {
+   "id": "overview",
+   "title": "Overview",
+   "blocks": [
+    "**Trichotillomania** (hair-pulling disorder) is a body-focused repetitive behaviour causing noticeable hair loss. It is not scarring in early disease. It is commoner in children and adolescents and often under-disclosed."
+   ]
+  },
+  {
+   "id": "aetiology",
+   "title": "Aetiology: causes and risk factors",
+   "blocks": [
+    {
+     "ul": [
+      "Classed with obsessive–compulsive related disorders; anxiety, boredom or sensory urge often precede pulling.",
+      "**Automatic** pulling (unaware, while reading/screens) vs **focused** pulling (conscious tension relief).",
+      "May coexist with skin picking or nail biting."
+     ]
+    }
+   ],
+   "short": "Aetiology"
+  },
+  {
+   "id": "clinical-features",
+   "title": "Clinical features",
+   "blocks": [
+    {
+     "ul": [
+      "Irregular, angular or tonsure-like patches; hairs of **unequal lengths**; broken hairs firmly anchored.",
+      "Common sites: vertex, frontotemporal (dominant-hand side), brows and lashes.",
+      "Trichoscopy: black dots, broken hairs, **V-sign**, flame hairs — contrast with AA exclamation marks.",
+      "Chronic severe pulling can eventually scar; secondary infection/crust possible."
+     ]
+    },
+    {
+     "fig": {
+      "dermnet": "m3w3:B01"
+     }
+    }
+   ]
+  },
+  {
+   "id": "diagnosis",
+   "title": "Diagnosis and investigations",
+   "blocks": [
+    "Clinical pattern ± behaviour history (ask privately, without blame). Pull test negative. Exclude tinea if scaly. Differentiate from [alopecia areata](condition:alopecia-areata) and [scarring alopecia](condition:scarring-alopecia)."
+   ],
+   "short": "Diagnosis"
+  },
+  {
+   "id": "differentials",
+   "title": "Differential diagnoses",
+   "blocks": [
+    {
+     "ddx": [
+      {
+       "name": "Alopecia areata",
+       "f": "Smooth patch; exclamation hairs; positive edge pull test",
+       "link": "alopecia-areata"
+      },
+      {
+       "name": "Tinea capitis",
+       "f": "Scale; mycology"
+      },
+      {
+       "name": "Traction alopecia",
+       "f": "Hairstyle distribution; fringe sign"
+      },
+      {
+       "name": "Scarring alopecia",
+       "f": "Lost ostia; symptoms",
+       "link": "discoid-lupus"
+      }
+     ]
+    }
+   ],
+   "short": "Differentials"
+  },
+  {
+   "id": "management",
+   "title": "Management",
+   "blocks": [
+    {
+     "ul": [
+      "Validate and reduce shame; involve parents/carers sensitively in children.",
+      "**Habit-reversal training / CBT** via CAMHS, psychology or specialist services is first-line.",
+      "Stimulus control (fidget tools, gloves at night, shorter nails); treat secondary infection if present.",
+      "Medicines are not first-line in primary care; any drug therapy is specialist.",
+      "Ask about **chewing/swallowing hair** every time."
+     ]
+    },
+    {
+     "h": "Referral"
+    },
+    {
+     "refer": [
+      {
+       "when": "urgent",
+       "t": "Abdominal pain, early satiety, vomiting, weight loss, halitosis, epigastric mass → urgent surgical review (trichobezoar / Rapunzel syndrome)."
+      },
+      {
+       "when": "urgent",
+       "t": "Self-harm or suicidal ideation → urgent mental-health assessment."
+      },
+      {
+       "when": "routine",
+       "t": "Diagnostic doubt or progressive scarring → dermatology."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "red-flags",
+   "title": "Red flags and when to refer",
+   "blocks": [
+    {
+     "ul": [
+      "Abdominal pain, early satiety, vomiting, weight loss, halitosis, epigastric mass → urgent surgical review (trichobezoar / Rapunzel syndrome).",
+      "Self-harm or suicidal ideation → urgent mental-health assessment.",
+      "Diagnostic doubt or progressive scarring → dermatology."
+     ]
+    }
+   ],
+   "short": "Red flags"
+  },
+  {
+   "id": "pearls",
+   "title": "Prescriber pearls (UK pharmacist IP)",
+   "blocks": [
+    {
+     "pearls": [
+      "Different hair lengths in one patch is the bedside clue.",
+      "Eyebrow/eyelash pulling in a child is still trichotillomania until proven otherwise — also consider AA and hypothyroidism for lateral brows.",
+      "Steroids will not fix the behaviour."
+     ]
+    }
+   ],
+   "short": "Pearls"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Trichotillomania?",
+   "a": "Irregular or geometric bald patch with hairs of many different lengths; pull test negative; often on the dominant-hand side."
+  },
+  {
+   "q": "What drives it?",
+   "a": "Body-focused repetitive behaviour (OCRD spectrum) — automatic or focused pulling; broken shafts, not autoimmune bulb attack."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "Non-judgemental recognition, habit-reversal / CBT referral, wound care if excoriated; do not treat as alopecia areata with steroids alone."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "Trichophagia with abdominal pain, vomiting or mass → urgent surgical assessment for trichobezoar."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "Abdominal pain, early satiety, vomiting, weight loss, halitosis, epigastric mass → urgent surgical review (trichobezoar / Rapunzel syndrome)."
+  }
+ ],
+ "references": [
+  {
+   "label": "Medscape: Trichotillomania",
+   "url": "https://emedicine.medscape.com/article/1071854-overview"
+  }
+ ],
+ "see_also": []
+}

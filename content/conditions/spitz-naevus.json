@@ -1,0 +1,69 @@
+{
+ "slug": "spitz-naevus",
+ "title": "Spitz and Reed naevi",
+ "category": "lumps-lesions-cancer",
+ "status": "published",
+ "order": 20,
+ "module": "Module 2 · Week 4",
+ "aka": [
+  "Spitz naevus",
+  "Reed naevus",
+  "pigmented spindle cell naevus",
+  "atypical Spitz tumour",
+  "spitzoid melanoma"
+ ],
+ "summary": "Benign naevi of large epithelioid or spindle melanocytes that grow quickly in children and can mimic melanoma. Children under 12 with typical lesions may be monitored by specialists; adolescents and adults usually need excision.",
+ "card_image": "m2w4:E04",
+ "sections": {
+  "what": [
+   "A **Spitz naevus** is a benign naevus made of large epithelioid and/or spindle melanocytes, typically a fast-growing pink or pigmented dome in a **child**. A **Reed naevus** (pigmented spindle cell naevus) is a dark, symmetrical variant, often on the thigh of young women."
+  ],
+  "cause": [
+   "Driven by HRAS mutations or kinase fusions (ALK, ROS1, NTRK and others); growth is followed by stabilisation. **Atypical Spitz tumours** lie between benign Spitz naevi and spitzoid melanoma."
+  ],
+  "features": [
+   {
+    "list": [
+     "**Spitz**: pink-red or pigmented, dome-shaped, smooth, rapidly growing over months in a child; face and limbs. Dermoscopy: starburst or dotted vessels.",
+     "**Reed**: black, symmetrical, starburst pattern; thigh in young women."
+    ]
+   }
+  ],
+  "diagnosis": [
+   "Dermoscopy plus age and growth pattern. Excision for histology in adolescents and adults, and in any atypical lesion; specialist histopathology review."
+  ],
+  "differentials": [
+   "**Spitzoid melanoma** (adults, asymmetry), pyogenic granuloma, juvenile xanthogranuloma, haemangioma, dermatofibroma, nodular melanoma."
+  ],
+  "management": [
+   {
+    "list": [
+     "Children under 12 with a typical lesion: specialist may monitor with dermoscopy.",
+     "**Adolescents/adults: excision** (atypical Spitz tumour and spitzoid melanoma differential).",
+     "Reed naevi are usually excised for histology."
+    ]
+   }
+  ],
+  "red_flags": [
+   "A Spitz-like lesion in an adult, or any atypical, ulcerated or rapidly growing lesion: **suspected cancer pathway**."
+  ],
+  "pearls": [
+   "Rapid growth worries parents but is typical of Spitz naevi in children; age decides how worried to be."
+  ]
+ },
+ "photos": [
+  {
+   "title": "Spitz and Reed naevi",
+   "items": [
+    "m2w4:E04",
+    "m2w4:E05"
+   ]
+  }
+ ],
+ "references": [
+  {
+   "label": "DermNet: Spitz naevus",
+   "url": "https://dermnetnz.org/topics/spitz-naevus"
+  }
+ ]
+}

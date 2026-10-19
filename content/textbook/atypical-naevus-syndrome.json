@@ -1,0 +1,360 @@
+{
+ "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
+ "key_facts": [
+  "**Many naevi of varied size and colour** (often > 100), some atypical, ± a **family history of melanoma or pancreatic cancer**.",
+  "Inherited and UV risk (**CDKN2A**, CDK4, BAP1, MC1R) producing a high-naevus phenotype; most melanomas arise **de novo**.",
+  "Refer for **dermatology surveillance** (mole mapping + digital dermoscopy); **clinical genetics** if criteria met; sun protection; whole-skin self-checks.",
+  "Melanoma presenting as an ugly duckling; **pancreatic cancer** in CDKN2A families; BAP1 (uveal melanoma, mesothelioma)."
+ ],
+ "sections": [
+  {
+   "id": "overview",
+   "title": "Overview",
+   "blocks": [
+    {
+     "ul": [
+      "**Atypical (dysplastic) naevi:** clinically \"funny-looking\" naevi (≥5 mm, irregular or ill-defined border, variable colour, flat component. Histologically they show architectural disorder ± cytological atypia.",
+      "**Atypical mole syndrome (AMS) phenotype:** many naevi (often >100, or >50 in younger people), several atypical naevi, and naevi in unusual sites (scalp, buttocks, feet, iris).",
+      "**FAMMM** (familial atypical multiple mole melanoma syndrome): AMS phenotype + **melanoma in ≥1–2 first- or second-degree relatives**. Germline **CDKN2A** (p16) in about 20–40% of melanoma-prone families; CDK4 is rarer. FAMMM is covered in a worked case in the [melanoma](condition:melanoma) notes too."
+     ]
+    },
+    {
+     "h4": "Inherited melanoma and syndromes"
+    },
+    "About 5–10% of melanomas occur in people with a family history; a smaller proportion carry a **high-penetrance germline mutation**. **FAMMM** = many (often atypical) naevi + melanoma in relatives (the [naevi](condition:melanocytic-naevi) notes see *AJCC 8th edition staging and prognosis*)."
+   ]
+  },
+  {
+   "id": "aetiology",
+   "title": "Aetiology: causes and risk factors",
+   "blocks": [
+    "Inherited susceptibility (CDKN2A, CDK4, MC1R variants, MITF E318K, BAP1, POT1, TERT) **plus UV**, especially intermittent intense exposure and **blistering childhood sunburn**.",
+    {
+     "h": "Inherited melanoma and syndromes"
+    }
+   ],
+   "short": "Aetiology"
+  },
+  {
+   "id": "pathophysiology",
+   "title": "Pathophysiology and pathology",
+   "blocks": [
+    {
+     "h": "How it is caused / genes"
+    },
+    {
+     "table": {
+      "head": [
+       "Gene / syndrome",
+       "Penetrance / features",
+       "Other cancers / notes"
+      ],
+      "rows": [
+       [
+        "**CDKN2A** (p16INK4a / p14ARF)",
+        "Commonest high-penetrance gene (~20–40% of melanoma-prone families). Early-onset, multiple primaries",
+        "**Pancreatic cancer** (lifetime ~15–25% in some families; e.g. the p16-Leiden variant). UK pancreatic surveillance through EUROPAC/specialist programmes"
+       ],
+       [
+        "CDK4",
+        "Rare; similar phenotype",
+        "—"
+       ],
+       [
+        "**BAP1** tumour predisposition",
+        "Cutaneous and **uveal** melanoma, BAP1-inactivated melanocytic tumours",
+        "Mesothelioma, renal cancer"
+       ],
+       [
+        "POT1, TERT, ACD, TERF2IP",
+        "Telomere genes",
+        "Gliomas (POT1)"
+       ],
+       [
+        "**MC1R** variants",
+        "Red hair, freckles, fair skin (**Irish ancestry**, [Case 2](condition:melanoma))",
+        "Moderate penetrance; multiplies CDKN2A risk"
+       ],
+       [
+        "MITF E318K",
+        "Moderate risk",
+        "Renal"
+       ],
+       [
+        "**Xeroderma pigmentosum**",
+        "Defective nucleotide excision repair; extreme photosensitivity; melanoma risk >2000× before age 20",
+        "SCC/BCC in childhood; ocular; neurological. National XP service (Guy's)"
+       ],
+       [
+        "**Werner syndrome** (WRN)",
+        "Progeroid; **acral/mucosal melanoma**",
+        "Sarcomas, thyroid"
+       ],
+       [
+        "**Cowden / PTEN hamartoma**",
+        "Modestly raised melanoma risk",
+        "Breast, thyroid, endometrial, renal, colorectal (the [skin lumps](condition:dermatofibroma) notes )"
+       ],
+       [
+        "Noonan syndrome with multiple lentigines (LEOPARD; **PTPN11**)",
+        "Multiple lentigines; **not** a major melanoma predisposition",
+        "Cardiac (HCM), deafness"
+       ],
+       [
+        "Li–Fraumeni, hereditary retinoblastoma (RB1), BRCA2",
+        "Small increases",
+        "—"
+       ],
+       [
+        "**c-KIT**",
+        "*Somatic* (not germline) in acral/mucosal/CSD melanoma",
+        "Imatinib-sensitive in selected advanced cases"
+       ]
+      ]
+     }
+    },
+    {
+     "fig": {
+      "ai": "v3-mole-mapping.jpg",
+      "caption": "High-risk patients are followed with total-body photography and sequential digital dermoscopy so new or changing lesions stand out.",
+      "alt": "Back with many moles beside a camera and dermatoscope"
+     }
+    }
+   ],
+   "short": "Pathophysiology"
+  },
+  {
+   "id": "clinical-features",
+   "title": "Clinical features",
+   "blocks": [
+    "Many naevi on the trunk and limbs, of varied sizes and colours. Look for the **\"ugly duckling\"**.",
+    {
+     "h": "Inherited melanoma and syndromes"
+    },
+    {
+     "h": "Clinical features"
+    },
+    "Early age at onset (<40), multiple primary melanomas, several affected relatives, pancreatic cancer in the family, and the AMS phenotype.",
+    {
+     "fig": {
+      "dermnet": "m2w4:D01"
+     }
+    },
+    {
+     "fig": {
+      "ai": "v3-ugly-duckling.jpg",
+      "caption": "In a person with many moles, compare: the lesion that looks different is the one to worry about.",
+      "alt": "Moles with one outlier ringed"
+     }
+    },
+    {
+     "h": "Types to recognise"
+    },
+    {
+     "variants": [
+      {
+       "name": "Many naevi",
+       "t": "Varied size, shape, colour. *Site: Back.*",
+       "photo": "m2w4:D01"
+      },
+      {
+       "name": "Atypical naevi",
+       "t": "Mark for comparison. *Site: Back, flank.*",
+       "photo": "m2w4:D02"
+      },
+      {
+       "name": "Irregular naevus",
+       "t": "Variable pigment. *Site: Trunk.*",
+       "photo": "m2w4:D04"
+      },
+      {
+       "name": "Eccentric dark area",
+       "t": "Dysplastic naevus. *Site: Trunk.*",
+       "photo": "m2w4:D05"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "diagnosis",
+   "title": "Diagnosis and investigations",
+   "blocks": [
+    "Full-skin examination, a naevus count, family history (melanoma, **pancreatic cancer**, which suggests CDKN2A), personal history, and dermoscopy. Total-body photography plus sequential digital dermoscopy (specialist).",
+    {
+     "h": "Inherited melanoma and syndromes"
+    },
+    "Detailed three-generation pedigree. Refer to **clinical genetics** for germline testing (NHS National Genomic Test Directory criteria). A common UK rule of thumb: **≥3 melanomas** in an individual or family (or **2 in a high-incidence country** in some guidelines), or **melanoma + pancreatic cancer**, or melanoma + mesothelioma/uveal melanoma (BAP1)."
+   ],
+   "short": "Diagnosis"
+  },
+  {
+   "id": "differentials",
+   "title": "Differential diagnoses",
+   "blocks": [
+    {
+     "ddx": [
+      {
+       "name": "Common naevi, high count",
+       "f": "Uniform, no atypia."
+      },
+      {
+       "name": "Melanoma",
+       "f": "Individual changing / outlier lesion.",
+       "link": "melanoma",
+       "danger": true
+      },
+      {
+       "name": "Solar lentigines",
+       "f": "Flat, sun-exposed, older.",
+       "link": "solar-lentigines"
+      },
+      {
+       "name": "Sporadic multiple melanoma",
+       "f": "High UV, fair skin, no family pattern."
+      }
+     ]
+    },
+    "Common naevi in a high-naevus-count person; melanoma (individual lesion); solar lentigines (flat, sun-exposed, older).",
+    {
+     "h4": "Inherited melanoma and syndromes"
+    },
+    "Multiple sporadic melanomas from high UV exposure in a fair-skinned person; a common naevus phenotype."
+   ],
+   "short": "Differentials"
+  },
+  {
+   "id": "management",
+   "title": "Management",
+   "blocks": [
+    {
+     "ul": [
+      "**Lifetime melanoma risk.** Each of the following raises it: Having >100 naevi (relative risk ~7); Atypical naevi; **One first-degree relative with melanoma** (about doubles the risk); **FAMMM with CDKN2A** (cumulative risk of roughly 30–70% by age 80, depending on country). The course \"~15%\" is a reasonable mid-range figure for AMS without a known mutation",
+      "**Refer** (routine) to dermatology for assessment: a person with an **AMS phenotype**, **≥2 first-degree relatives with melanoma**, or a personal history of melanoma. Refer to **clinical genetics** for ≥3 melanomas in the family or individual, melanoma + pancreatic cancer in the family, or multiple primary melanomas (UK cancer-genetics criteria).",
+      "**Surveillance (specialist):** total-body photography (\"mole mapping\") and **sequential digital dermoscopy every 3–12 months** (course teaching said 6–12) in high-risk clinics. Excise only lesions that change. **Do not prophylactically excise** atypical naevi.",
+      "**NICE NG14:** give people at increased risk **information on self-examination, sun protection and what changes to report**, and provide psychological support.",
+      "**Primary prevention:** sun protection, no sunbeds, vitamin D advice (see *Hormones, pregnancy and sunbeds*). **Children of FAMMM families** should have sun protection from birth and be examined from adolescence."
+     ]
+    },
+    {
+     "h": "Inherited melanoma and syndromes"
+    },
+    {
+     "ul": [
+      "Refer the 17-year-old to **dermatology** (total-body photography plus sequential digital dermoscopy) and to **clinical genetics** (father and grandfather with early melanoma plus other family cancers).",
+      "Counsel: strict sun protection, **no sunbeds** (the under-18 ban applies to him in commercial premises), monthly self-examination, and vitamin D.",
+      "**Pancreatic cancer:** CDKN2A carriers may be offered surveillance (MRI/EUS) in research or specialist programmes, usually from 40–50 or 10 years before the youngest case. **Smoking cessation is critical** because smoking multiplies the pancreatic risk."
+     ]
+    },
+    {
+     "h": "Treatment ladder"
+    },
+    {
+     "ladder": [
+      {
+       "k": "Refer",
+       "t": "**Dermatology** (routine): AMS phenotype, **≥ 2 first-degree relatives with melanoma**, or personal melanoma (NG14). **Clinical genetics**: criteria above.",
+       "tone": "base"
+      },
+      {
+       "k": "Specialist surveillance",
+       "t": "Total-body photography + **sequential digital dermoscopy every 3–12 months**; CDKN2A families: pancreatic surveillance programmes (e.g. EUROPAC).",
+       "tone": "refer"
+      },
+      {
+       "k": "Prevention",
+       "t": "Shade, UV clothing, hat, **SPF 30–50 reapplied every 2 h**; no sunbeds; no smoking. Outdoor workers: employer duties (HSE).",
+       "tone": "first"
+      },
+      {
+       "k": "Self-checks",
+       "t": "Monthly **whole-skin** checks with partner / photos: most AMS melanomas arise de novo.",
+       "tone": "second"
+      }
+     ]
+    },
+    {
+     "callout": "warn",
+     "title": "Prescribing limits and pitfalls",
+     "list": [
+      "**Genetic testing & insurance**: UK Code: insurers can’t require predictive results (except very large policies / Huntington’s)."
+     ]
+    },
+    {
+     "h": "Referral"
+    },
+    {
+     "refer": [
+      {
+       "when": "routine",
+       "t": "Multiple atypical naevi + family history of melanoma: **dermatology surveillance**."
+      },
+      {
+       "when": "routine",
+       "t": "Melanoma and pancreatic cancer in the same family: **clinical genetics** (CDKN2A)."
+      },
+      {
+       "when": "urgent",
+       "t": "Any changing outlier lesion: suspected cancer pathway."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "red-flags",
+   "title": "Red flags and when to refer",
+   "blocks": [
+    {
+     "ul": [
+      "Multiple atypical naevi with a family history of melanoma: refer to a **dermatology surveillance** service (NICE NG14).",
+      "Melanoma and pancreatic cancer in the same family: refer to **clinical genetics** (CDKN2A)."
+     ]
+    }
+   ],
+   "short": "Red flags"
+  },
+  {
+   "id": "pearls",
+   "title": "Prescriber pearls (UK pharmacist IP)",
+   "blocks": [
+    {
+     "pearls": [
+      "The PE teacher has an outdoor occupation: shade during outdoor lessons, long-sleeved UV tops, a hat, SPF 30–50 reapplied every 2 h and after sweating. The employer has duties (HSE outdoor workers' advice).",
+      "Explain that **most melanomas in AMS arise de novo, not from existing moles**. That is why whole-skin self-checks matter more than watching one mole.",
+      "Genetic testing affects family members and insurance (UK Code on Genetic Testing and Insurance: insurers can't require predictive test results except for very large policies and Huntington's). Arrange genetic counselling before testing."
+     ]
+    },
+    {
+     "h": "Inherited melanoma and syndromes"
+    }
+   ],
+   "short": "Pearls"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Cancer linked to CDKN2A besides melanoma?",
+   "a": "Pancreatic adenocarcinoma."
+  },
+  {
+   "q": "BAP1 is linked with which melanoma?",
+   "a": "Uveal (plus mesothelioma, renal cancer)."
+  },
+  {
+   "q": "Do most AMS melanomas arise in existing moles?",
+   "a": "No: most arise de novo."
+  },
+  {
+   "q": "Surveillance tools?",
+   "a": "Total-body photography + sequential digital dermoscopy."
+  }
+ ],
+ "references": [
+  {
+   "label": "Medscape: Atypical naevus syndrome & familial melanoma",
+   "url": "https://emedicine.medscape.com/article/1056283-overview"
+  }
+ ],
+ "see_also": []
+}

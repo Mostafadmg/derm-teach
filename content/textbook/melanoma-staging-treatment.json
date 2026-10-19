@@ -1,0 +1,570 @@
+{
+ "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
+ "key_facts": [
+  "A patient with a **new melanoma diagnosis** asking what their report, stage and treatment mean.",
+  "**Breslow thickness and ulceration** set T; **nodes (N)** and **spread (M)** set the stage.",
+  "Excision biopsy (2 mm margin); **WLE 0.5 / 1 / 2 cm** by stage (NG14 2022); SLNB if Breslow > 0.8 mm with risk features; adjuvant therapy for resected stage III (and IIB / IIC).",
+  "**Outdated survival data**: AJCC 8 5-year MSS for stage IIA is **~93–94%**, not 80%."
+ ],
+ "sections": [
+  {
+   "id": "overview",
+   "title": "Overview",
+   "blocks": [
+    "**Breslow thickness** is the depth of invasion in millimetres. It is measured from the top of the granular layer (or the base of an ulcer) to the deepest invasive melanoma cell, and it is the single strongest prognostic factor in localised melanoma. **It is a depth in mm, never a lesion diameter in cm**."
+   ]
+  },
+  {
+   "id": "pathophysiology",
+   "title": "Pathophysiology and pathology",
+   "blocks": [
+    {
+     "h": "The histopathology report (RCPath dataset, 2019 / updates)"
+    },
+    {
+     "table": {
+      "head": [
+       "Item",
+       "Why it matters"
+      ],
+      "rows": [
+       [
+        "Subtype; in situ vs invasive",
+        "Classification"
+       ],
+       [
+        "**Breslow thickness** (to 0.1 mm)",
+        "T category, SLNB eligibility, margins"
+       ],
+       [
+        "**Ulceration** (present/absent; extent)",
+        "Upstages (T \"b\")"
+       ],
+       [
+        "Mitotic rate (/mm²)",
+        "Prognostic; **no longer a staging criterion in AJCC 8** (removed from T1 subcategorisation). Still reported"
+       ],
+       [
+        "Microsatellites",
+        "N1c/N2c/N3c (stage III)"
+       ],
+       [
+        "Lymphovascular and perineural invasion",
+        "Risk; NG14 SLNB considerations"
+       ],
+       [
+        "Regression, tumour-infiltrating lymphocytes (TILs)",
+        "Prognostic"
+       ],
+       [
+        "Growth phase, associated naevus, Clark level",
+        "**Clark level is not used in AJCC 8**"
+       ],
+       [
+        "Peripheral and deep margins",
+        "Re-excision planning"
+       ],
+       [
+        "pT stage (AJCC 8)",
+        "Stage"
+       ],
+       [
+        "BRAF/molecular",
+        "Requested for stage III–IV or adjuvant decisions"
+       ]
+      ]
+     }
+    },
+    {
+     "fig": {
+      "ai": "v3-breslow-depth.jpg",
+      "caption": "Breslow thickness is measured in millimetres from the top of the granular layer down to the deepest melanoma cell; it is the strongest prognostic factor for localised melanoma.",
+      "alt": "Melanoma cross-section with a vertical depth gauge"
+     }
+    }
+   ],
+   "short": "Pathophysiology"
+  },
+  {
+   "id": "clinical-features",
+   "title": "Clinical features",
+   "blocks": [
+    {
+     "h": "Biopsy principles"
+    },
+    {
+     "ul": [
+      "**Excision biopsy with a 2 mm clinical margin**, full thickness including subcutaneous fat, oriented to allow later WLE/SLNB (along the long axis of limbs).",
+      "Done by the skin cancer team/specialist. In primary care, **refer rather than excise** suspected melanoma (NICE IOG).",
+      "**Avoid shave, punch or incisional biopsy** except for specialist situations (large facial LM, acral/nail)."
+     ]
+    },
+    {
+     "fig": {
+      "dermnet": "m2w5:E04"
+     }
+    },
+    {
+     "h": "Types to recognise"
+    },
+    {
+     "variants": [
+      {
+       "name": "In-transit metastases",
+       "t": "Lumps between scar and nodes. *Site: Limb.*",
+       "photo": "m2w5:E01",
+       "danger": true
+      },
+      {
+       "name": "Nodal disease",
+       "t": "New regional node lump. *Site: Groin, axilla.*",
+       "photo": "m2w5:E02",
+       "danger": true
+      },
+      {
+       "name": "Cutaneous metastases",
+       "t": "Blue-grey nodules. *Site: Skin.*",
+       "photo": "m2w5:E03",
+       "danger": true
+      },
+      {
+       "name": "SLNB tattoo",
+       "t": "Persistent blue dye mark. *Site: Node site.*",
+       "photo": "m2w5:E04"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "diagnosis",
+   "title": "Diagnosis and investigations",
+   "blocks": [
+    "Histology. Immunohistochemistry: SOX10, Melan-A, HMB-45, PRAME, Ki-67. FISH/NGS for ambiguous spitzoid lesions.",
+    {
+     "h": "AJCC 8th edition staging and survival"
+    },
+    {
+     "h": "T category (primary tumour)"
+    },
+    {
+     "table": {
+      "head": [
+       "T",
+       "Breslow",
+       "a",
+       "b"
+      ],
+      "rows": [
+       [
+        "Tis",
+        "in situ",
+        "—",
+        "—"
+       ],
+       [
+        "T1",
+        "≤1.0 mm",
+        "T1a: <0.8 mm, no ulceration",
+        "T1b: <0.8 mm *with* ulceration, or 0.8–1.0 mm ± ulceration"
+       ],
+       [
+        "T2",
+        ">1.0–2.0 mm",
+        "no ulceration",
+        "**with ulceration**"
+       ],
+       [
+        "T3",
+        ">2.0–4.0 mm",
+        "no ulceration",
+        "with ulceration"
+       ],
+       [
+        "T4",
+        ">4.0 mm",
+        "no ulceration",
+        "with ulceration"
+       ]
+      ]
+     }
+    },
+    "N = regional nodes, in-transit, satellite or microsatellite metastases (N1–N3, a/b/c). M = distant (M1a skin/soft tissue/non-regional node; M1b lung; M1c other visceral; M1d CNS; with LDH suffix).",
+    {
+     "h": "Pathological stage groups and approximate 5-year melanoma-specific survival (AJCC 8; Gershenwald 2017)"
+    },
+    {
+     "table": {
+      "head": [
+       "Stage",
+       "Includes",
+       "~5-yr MSS"
+      ],
+      "rows": [
+       [
+        "0",
+        "Tis",
+        "~100%"
+       ],
+       [
+        "IA",
+        "T1a, T1b N0",
+        "~99%"
+       ],
+       [
+        "IB",
+        "T2a N0",
+        "~97%"
+       ],
+       [
+        "**IIA**",
+        "**T2b N0**, T3a N0",
+        "**~94%** (T2b ≈ 93%)"
+       ],
+       [
+        "IIB",
+        "T3b, T4a N0",
+        "~87%"
+       ],
+       [
+        "IIC",
+        "T4b N0",
+        "~82%"
+       ],
+       [
+        "IIIA",
+        "T1–T2a with N1a/N2a",
+        "~93%"
+       ],
+       [
+        "IIIB",
+        "—",
+        "~83%"
+       ],
+       [
+        "IIIC",
+        "—",
+        "~69%"
+       ],
+       [
+        "IIID",
+        "T4b with N3",
+        "~32%"
+       ],
+       [
+        "IV",
+        "M1",
+        "Historically <20%. Now ~50% at 5 years or more with combination immunotherapy in trials (CheckMate 067: ~49% 10-year MSS with ipi+nivo)"
+       ]
+      ]
+     }
+    },
+    "**[Case 3](condition:melanoma) worked example:**",
+    {
+     "ul": [
+      "Breslow **1.4 mm with ulceration = T2b**.",
+      "If N0 (clinically and after SLNB), this is **stage IIA**, with ~93–94% 5-year MSS. The course \"~80%\" reflects older AJCC 7-era data, and it is closer to stage IIC today.",
+      "**Mitoses >5/mm² do not alter the stage in AJCC 8** (they are prognostic only).",
+      "If SLNB is positive → stage III (e.g. T2b N1a = **IIIA**).",
+      "Until SLNB is done, the stage is clinical (\"cIIA\")."
+     ]
+    },
+    {
+     "h": "Reference URLs"
+    },
+    {
+     "ul": [
+      "Gershenwald JE et al. Melanoma staging: evidence-based changes in the AJCC 8th edition. *CA Cancer J Clin* 2017;67:472–92.",
+      "Keung EZ, Gershenwald JE. AJCC 8 update. *Expert Rev Anticancer Ther* 2018."
+     ]
+    }
+   ],
+   "short": "Diagnosis"
+  },
+  {
+   "id": "differentials",
+   "title": "Differential diagnoses",
+   "blocks": [
+    {
+     "ddx": [
+      {
+       "name": "Dysplastic naevus",
+       "f": "Histological look-alike.",
+       "link": "atypical-naevus-syndrome"
+      },
+      {
+       "name": "Spitz / atypical Spitz",
+       "f": "Young, pink; FISH / NGS.",
+       "link": "spitz-naevus"
+      },
+      {
+       "name": "MELTUMP",
+       "f": "Uncertain malignant potential: specialist plan."
+      },
+      {
+       "name": "Recurrent / halo naevus",
+       "f": "Re-grown pigment, halo.",
+       "link": "halo-naevus"
+      }
+     ]
+    },
+    {
+     "h4": "(histological)"
+    },
+    "Dysplastic naevus, Spitz naevus/atypical Spitz tumour, MELTUMP (melanocytic tumour of uncertain malignant potential), recurrent naevus, and halo naevus."
+   ],
+   "short": "Differentials"
+  },
+  {
+   "id": "management",
+   "title": "Management",
+   "blocks": [
+    "Know what the letter means, so you can help patients understand it. \"Breslow 0.6 mm, no ulceration\" = stage IA, an excellent prognosis. Encourage patients to ask their **clinical nurse specialist (CNS)** keyworker any questions.",
+    {
+     "h": "NICE NG14 management"
+    },
+    {
+     "h": "Wide local excision (WLE) margins (NG14 2022)"
+    },
+    {
+     "table": {
+      "head": [
+       "Stage",
+       "Clinical peripheral margin (measured from the biopsy scar/lesion edge)"
+      ],
+      "rows": [
+       [
+        "0 (in situ)",
+        "**At least 0.5 cm** (LM: consider imiquimod or radiotherapy if surgery would be disfiguring or unsuitable; specialist)"
+       ],
+       [
+        "I",
+        "**1 cm**"
+       ],
+       [
+        "II",
+        "**2 cm** (consider 1 cm if a 2 cm margin would cause unacceptable morbidity/disfigurement, e.g. face)"
+       ],
+       [
+        "III",
+        "As stage II, plus nodal management"
+       ]
+      ]
+     }
+    },
+    "So [Case 3](condition:melanoma) (stage IIA) needs WLE with a **2 cm margin** (two-stage surgery, the course answer).",
+    {
+     "h": "Sentinel lymph node biopsy (SLNB)"
+    },
+    {
+     "ul": [
+      "**What:** lymphoscintigraphy plus blue dye, a persistent blue tattoo) identifies the first draining node(s). These are excised for histology at the time of WLE.",
+      "**NG14 2022:** **Do not offer** SLNB (or imaging) for **stage IA**; **Consider SLNB** for **Breslow 0.8–1.0 mm** with ≥1 of: ulceration, lymphovascular invasion, or mitotic rate ≥2/mm²; **Consider (offer to discuss)** SLNB for **Breslow >1.0 mm**; **Discuss the pros and cons:** SLNB is a **staging** procedure (it determines eligibility for adjuvant therapy). It **does not improve melanoma-specific survival** (MSLT-I). Complications include seroma, infection, lymphoedema and nerve injury",
+      "**Completion lymph node dissection** after a positive SLNB is **no longer routine** (MSLT-II, DeCOG-SLT showed no survival benefit). **Nodal ultrasound surveillance** is used instead.",
+      "[Case 3](condition:melanoma): **consider SLNB** (Breslow >1 mm). The course answer was \"consider SLNB\" ."
+     ]
+    },
+    {
+     "h": "Imaging"
+    },
+    {
+     "ul": [
+      "Stage I–IIA: no routine imaging.",
+      "**Stage IIB: consider** contrast-enhanced CT (CE-CT) staging.",
+      "**Stage IIC–IV: offer** CE-CT (and **MRI brain** for stage IV, and for III where relevant; children may have whole-body MRI).",
+      "**Measure vitamin D at diagnosis** and give advice on correction/supplementation."
+     ]
+    },
+    {
+     "h": "Adjuvant systemic therapy (after complete resection)"
+    },
+    {
+     "table": {
+      "head": [
+       "Setting",
+       "NICE-recommended options",
+       "TA"
+      ],
+      "rows": [
+       [
+        "**Stage IIB/IIC**",
+        "**Pembrolizumab** (age ≥12)",
+        "**TA837**"
+       ],
+       [
+        "Stage IIB/IIC",
+        "Nivolumab: **no NICE TA identified** in this session (licensed by MHRA; check for updates)",
+        "—"
+       ],
+       [
+        "**Stage III** (node-positive, completely resected)",
+        "**Nivolumab**, **pembrolizumab**, **dabrafenib + trametinib** if BRAF V600",
+        "—"
+       ],
+       [
+        "Resected stage IV",
+        "Nivolumab",
+        "—"
+       ],
+       [
+        "**Stage IIA**",
+        "**None.** Adjuvant therapy is not recommended at IIA",
+        "—"
+       ]
+      ]
+     }
+    },
+    {
+     "h": "Unresectable stage III / stage IV"
+    },
+    {
+     "ul": [
+      "**BRAF testing** for all patients with stage III–IV disease.",
+      "**Immunotherapy** (checkpoint inhibitors): **Ipilimumab + nivolumab** (anti-CTLA-4 + anti-PD-1; TA400): highest response and highest toxicity; **Pembrolizumab** or **nivolumab** monotherapy; **Nivolumab + relatlimab** (anti-LAG-3; NICE-recommended for untreated advanced melanoma in people aged ≥12; check the current TA)",
+      "**Targeted therapy** (BRAF V600): **dabrafenib + trametinib**, **encorafenib + binimetinib**, vemurafenib + cobimetinib.",
+      "**Talimogene laherparepvec (T-VEC)** intralesional oncolytic virus for unresectable injectable stage IIIB–IVM1a without bone/brain/lung/visceral disease.",
+      "Other: radiotherapy and stereotactic radiosurgery (brain metastases); TIL therapy (lifileucel; licensed in the US; not routine in the UK at the time of writing); trials.",
+      "In-transit metastases: surgery, T-VEC, isolated limb perfusion/infusion, electrochemotherapy, systemic therapy."
+     ]
+    },
+    {
+     "h": "Follow-up"
+    },
+    {
+     "ul": [
+      "**Stage IA:** 2–4 follow-up visits in the first year, then discharge with self-examination education.",
+      "**Stage IB–IIB (and IIC without imaging):** every **3 months for 3 years**, then **every 6 months to 5 years**.",
+      "**Stage IIC–III:** imaging surveillance (CT or whole-body MRI) per NG14 schedules (e.g. 6-monthly for 3 years, then 12-monthly to 5 years) in addition to clinical review.",
+      "**Teach self-examination** of the scar, the in-transit route, regional nodes and the whole skin.",
+      "**Psychological support** and a CNS keyworker. Fertility and pregnancy advice where relevant."
+     ]
+    },
+    {
+     "h": "Prescriber pearls & counselling"
+    },
+    "A new lump near the scar or in the groin/axilla/neck after melanoma means **urgent contact with the skin cancer CNS/MDT**. Do not wait for a routine appointment.",
+    {
+     "fig": {
+      "ai": "v3-wle-margins.jpg",
+      "caption": "Wide local excision is planned around the biopsy scar, with margin size set by stage (0.5, 1 or 2 cm), oriented along the limb’s long axis.",
+      "alt": "Biopsy scar with three concentric dashed ellipses"
+     }
+    },
+    {
+     "h": "Treatment ladder"
+    },
+    {
+     "ladder": [
+      {
+       "k": "Explain",
+       "t": "Breslow = depth, not size. “0.6 mm, no ulceration” = stage IA, excellent prognosis. Link patients with their **CNS keyworker**.",
+       "tone": "base"
+      },
+      {
+       "k": "WLE margins",
+       "t": "**In situ ≥ 0.5 cm**; **stage I 1 cm**; **stage II 2 cm** (1 cm if 2 cm would disfigure); III as II + nodes.",
+       "tone": "first"
+      },
+      {
+       "k": "SLNB",
+       "t": "Consider if Breslow > 0.8 mm with risk features / > 1 mm; staging, **not survival**. Completion dissection no longer routine (MSLT-II): nodal ultrasound surveillance.",
+       "tone": "second"
+      },
+      {
+       "k": "Adjuvant (resected)",
+       "t": "**IIB / IIC**: pembrolizumab (TA837). **III**: nivolumab, pembrolizumab, or **dabrafenib + trametinib** (BRAF V600). Resected IV: nivolumab. **IIA: none**.",
+       "tone": "refer"
+      },
+      {
+       "k": "Advanced",
+       "t": "BRAF test all III–IV. **Ipilimumab + nivolumab** (TA400), PD-1 monotherapy, nivolumab + relatlimab; BRAF / MEK combos; T-VEC; radiotherapy / SRS.",
+       "tone": "third"
+      }
+     ]
+    },
+    {
+     "callout": "warn",
+     "title": "Prescribing limits and pitfalls",
+     "list": [
+      "**Follow-up**: **IA**: 2–4 visits in year 1 then discharge. **IB–IIB**: 3-monthly for 3 years, then 6-monthly to 5 years. **IIC–III**: plus imaging surveillance. Teach self-examination."
+     ]
+    },
+    {
+     "h": "Referral"
+    },
+    {
+     "refer": [
+      {
+       "when": "urgent",
+       "t": "New lumps in or near the scar, between scar and nodes, or new nodes: **recurrence or in-transit disease**."
+      },
+      {
+       "when": "routine",
+       "t": "Counsel with AJCC 8 (Gershenwald 2017) survival figures."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "red-flags",
+   "title": "Red flags and when to refer",
+   "blocks": [
+    {
+     "ul": [
+      "New lumps in or near the scar, in the limb between the scar and nodes, or new nodes: **urgent** review for **recurrence or in-transit disease**.",
+      "Survival figures change with each AJCC edition: use AJCC 8 (Gershenwald 2017) when counselling."
+     ]
+    },
+    {
+     "h4": "Reference URLs"
+    },
+    {
+     "ul": [
+      "NICE NG14 (updated July 2022): [nice.org.uk](https://www.nice.org.uk/guidance/ng14)",
+      "NICE TA837, TA684, TA766, TA544, TA400, TA366, TA384, TA396, TA562, TA410: [nice.org.uk](https://www.nice.org.uk/guidance/published?q=melanoma)",
+      "Morton DL et al. MSLT-I. *NEJM* 2014. Faries MB et al. MSLT-II. *NEJM* 2017."
+     ]
+    }
+   ],
+   "short": "Red flags"
+  },
+  {
+   "id": "pearls",
+   "title": "Prescriber pearls (UK pharmacist IP)",
+   "blocks": [
+    {
+     "pearls": [
+      "Patients often confuse lesion size with thickness. Explain: \"Breslow is how deep it went, measured under the microscope.\""
+     ]
+    }
+   ],
+   "short": "Pearls"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Breslow 1.4 mm, ulcerated, node-negative: stage?",
+   "a": "IIA (T2b N0), ~93–94% 5-year MSS."
+  },
+  {
+   "q": "WLE margin for stage II?",
+   "a": "2 cm (1 cm if 2 cm would cause unacceptable morbidity)."
+  },
+  {
+   "q": "Adjuvant therapy at stage IIA?",
+   "a": "None; pembrolizumab is for IIB / IIC."
+  },
+  {
+   "q": "Does SLNB improve survival?",
+   "a": "No: it stages (MSLT-I)."
+  }
+ ],
+ "references": [
+  {
+   "label": "Medscape: Melanoma: Breslow, AJCC 8 staging & NICE NG14 treatment",
+   "url": "https://emedicine.medscape.com/article/1295718-overview"
+  }
+ ],
+ "see_also": []
+}

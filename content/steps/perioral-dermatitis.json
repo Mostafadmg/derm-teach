@@ -1,0 +1,55 @@
+{
+ "_note": "curated (split page, Oct 2026)",
+ "manage": {
+  "lead": "Stop the steroid; expect a rebound; treat for weeks.",
+  "rungs": [
+   {
+    "k": "Stop triggers",
+    "tone": "base",
+    "points": [
+     "Stop facial steroids and heavy creams; gentle cleanser only."
+    ]
+   },
+   {
+    "k": "Topical",
+    "tone": "first",
+    "points": [
+     "Topical metronidazole or azelaic acid."
+    ]
+   },
+   {
+    "k": "Oral",
+    "tone": "second",
+    "points": [
+     "Oral tetracycline 6–8 weeks if needed (erythromycin if under 12)."
+    ]
+   }
+  ]
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "routine",
+    "t": "Not responding after 8–12 weeks, granulomatous or periocular disease, diagnostic doubt."
+   }
+  ]
+ },
+ "quiz": [
+  {
+   "q": "Commonest trigger of perioral dermatitis?",
+   "a": "Topical (or inhaled/nasal) corticosteroids on the face."
+  },
+  {
+   "q": "What is the classic sign around the lips?",
+   "a": "A clear rim next to the vermilion (vermilion sparing)."
+  },
+  {
+   "q": "What happens after stopping the steroid?",
+   "a": "A rebound flare for 1–2 weeks."
+  },
+  {
+   "q": "Oral option in under-12s?",
+   "a": "Erythromycin (tetracyclines avoided)."
+  }
+ ]
+}

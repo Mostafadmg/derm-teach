@@ -1,0 +1,58 @@
+{
+ "_auto": true,
+ "glance": {
+  "chips": [
+   "Module 2 · Week 4",
+   "blue naevus",
+   "blue nevus",
+   "cellular blue naevus"
+  ],
+  "points": []
+ },
+ "cause": {
+  "points": [],
+  "visuals": []
+ },
+ "features": {
+  "photo": "m2w4:E03",
+  "points": [
+   "Uniform slate- or steel-blue dome papule.",
+   "Head and neck, backs of hands and feet, buttocks.",
+   "**Cellular blue naevus**: larger (over 1 cm), often on the buttocks or scalp."
+  ],
+  "visuals": [],
+  "variants": null,
+  "groups": [
+   0
+  ]
+ },
+ "confirm": {
+  "cols": []
+ },
+ "differentials": {
+  "cards": []
+ },
+ "manage": {
+  "rungs": []
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "urgent",
+    "t": "New or changing blue papule in an adult, or a history of melanoma (metastasis looks blue): **suspected cancer pathway**."
+   }
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "Blue = deep pigment (Tyndall effect); brown = pigment near the surface."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "New or changing blue papule in an adult, or a history of melanoma (metastasis looks blue): **suspected cancer pathway**."
+  }
+ ]
+}

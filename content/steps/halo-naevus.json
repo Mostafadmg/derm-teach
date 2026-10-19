@@ -1,0 +1,44 @@
+{
+ "_note": "curated (split page, Oct 2026)",
+ "manage": {
+  "lead": "Reassure children; assess adults.",
+  "rungs": [
+   {
+    "k": "Typical, stable",
+    "tone": "base",
+    "points": [
+     "Reassure; photograph; sun protection."
+    ]
+   },
+   {
+    "k": "Atypical or adult",
+    "tone": "refer",
+    "points": [
+     "Dermatology via the suspected cancer pathway; excision for histology."
+    ]
+   }
+  ]
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "urgent",
+    "t": "New halo over 40 or atypical centre."
+   }
+  ]
+ },
+ "quiz": [
+  {
+   "q": "What causes the white ring?",
+   "a": "T-cell destruction of the naevus and surrounding melanocytes."
+  },
+  {
+   "q": "Which condition is associated?",
+   "a": "Vitiligo."
+  },
+  {
+   "q": "When should a halo naevus be referred?",
+   "a": "New halo in an adult over 40, or an atypical central lesion."
+  }
+ ]
+}

@@ -112,7 +112,7 @@
         "Malignant blue naevus",
         "**Malignant blue naevus**",
         "A melanoma arising in or resembling a blue naevus: change, a satellite and atypia. LMM is facial and chronic sun damage. Pigmented BCC is S100-negative. KS is a vascular tumour",
-        "[Halo, blue, Spitz & recurrent naevi](condition:spitz-blue-halo-naevi), [Melanoma: recognition & referral](condition:melanoma)"
+        "[Halo naevus](condition:halo-naevus), [blue naevus](condition:blue-naevus), [Spitz and Reed naevi](condition:spitz-naevus), [Melanoma: recognition & referral](condition:melanoma)"
        ],
        [
         "7",
@@ -208,7 +208,7 @@
         "Blue naevus",
         "**Blue naevus** (as the dermoscopy image showed homogeneous steel-blue pigment)",
         "A homogeneous blue structureless pattern is typical. Itch and a family member with melanoma warrant documented review, not alarm",
-        "[Halo, blue, Spitz & recurrent naevi](condition:spitz-blue-halo-naevi)"
+        "[Halo naevus](condition:halo-naevus), [blue naevus](condition:blue-naevus), [Spitz and Reed naevi](condition:spitz-naevus)"
        ],
        [
         "19",
@@ -224,7 +224,7 @@
         "Halo naevus",
         "**Halo naevus**",
         "A symmetrical depigmented rim around a regressing naevus, common in young people (vitiligo link). Refer if the central naevus is atypical or the patient is older",
-        "[Halo, blue, Spitz & recurrent naevi](condition:spitz-blue-halo-naevi)"
+        "[Halo naevus](condition:halo-naevus), [blue naevus](condition:blue-naevus), [Spitz and Reed naevi](condition:spitz-naevus)"
        ],
        [
         "21",
@@ -296,7 +296,7 @@
         "Pseudomelanoma",
         "**Pseudomelanoma (recurrent naevus)**",
         "Pigment confined to the scar, early recurrence, benign original histology. **Always get the original histology** and refer if it spreads beyond the scar",
-        "[Halo, blue, Spitz & recurrent naevi](condition:spitz-blue-halo-naevi)"
+        "[Halo naevus](condition:halo-naevus), [blue naevus](condition:blue-naevus), [Spitz and Reed naevi](condition:spitz-naevus)"
        ],
        [
         "30",

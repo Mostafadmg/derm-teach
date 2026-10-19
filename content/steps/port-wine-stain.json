@@ -1,0 +1,52 @@
+{
+ "_note": "curated (split page, Oct 2026)",
+ "manage": {
+  "lead": "Reassure; screen facial and limb stains; laser is specialist.",
+  "rungs": [
+   {
+    "k": "Reassure",
+    "tone": "base",
+    "points": [
+     "Explain permanence; camouflage."
+    ]
+   },
+   {
+    "k": "Laser",
+    "tone": "refer",
+    "points": [
+     "Pulsed dye laser via specialist; earlier childhood treatment often preferred."
+    ]
+   }
+  ]
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "urgent",
+    "t": "Facial V1 stain: ophthalmology (glaucoma) and neurology (Sturge–Weber)."
+   },
+   {
+    "when": "routine",
+    "t": "Limb stain with overgrowth or asymmetry."
+   }
+  ]
+ },
+ "quiz": [
+  {
+   "q": "Does a port-wine stain fade?",
+   "a": "No; it grows with the child and may darken and thicken."
+  },
+  {
+   "q": "Which mutation is usually responsible?",
+   "a": "Somatic mosaic GNAQ."
+  },
+  {
+   "q": "Which syndrome must be considered with a V1 facial stain?",
+   "a": "Sturge–Weber syndrome."
+  },
+  {
+   "q": "How is a salmon patch different?",
+   "a": "Pale, midline and fades in early childhood."
+  }
+ ]
+}

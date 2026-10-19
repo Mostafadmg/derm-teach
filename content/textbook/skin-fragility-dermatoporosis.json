@@ -1,0 +1,180 @@
+{
+ "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
+ "key_facts": [
+  "Painless purple patches on thin sun-damaged forearms after minimal trauma in an older person.",
+  "UV and age destroy dermal support around vessels → easy shear bleeding; advanced form is dermatoporosis with skin tears.",
+  "Reassure, protect (sleeves, pad furniture), daily emollient and sun protection; medication review with the prescriber.",
+  "Palpable purpura, non-exposed-site bruising, mucosal bleeding or safeguarding patterns — investigate / escalate."
+ ],
+ "sections": [
+  {
+   "id": "overview",
+   "title": "Overview",
+   "blocks": [
+    "**Actinic (senile/Bateman) purpura** is benign purple-red ecchymoses on thin sun-damaged forearms and hands after minimal trauma. **Dermatoporosis** describes chronic cutaneous insufficiency — atrophy, purpura, stellate pseudoscars and **skin tears**."
+   ]
+  },
+  {
+   "id": "aetiology",
+   "title": "Aetiology: causes and risk factors",
+   "blocks": [
+    {
+     "ul": [
+      "Chronic UV + intrinsic ageing → dermal collagen/elastin loss; vessels rupture with minor shear.",
+      "Aggravators: anticoagulants, antiplatelets, topical/oral/inhaled **corticosteroids**, SSRIs, fish oil/ginkgo/high-dose vitamin E.",
+      "Platelets and clotting are usually normal in classic actinic purpura."
+     ]
+    }
+   ],
+   "short": "Aetiology"
+  },
+  {
+   "id": "clinical-features",
+   "title": "Clinical features",
+   "blocks": [
+    {
+     "ul": [
+      "Irregular dark-red/purple patches 1–5 cm on extensor forearms and dorsal hands; fade to brown haemosiderin.",
+      "Thin translucent wrinkled skin; stellate pseudoscars; skin tears from shear/adhesive dressings.",
+      "Not tender; **not palpable** (palpable = vasculitis)."
+     ]
+    },
+    {
+     "fig": {
+      "dermnet": "m6w4:W4B-01"
+     }
+    }
+   ]
+  },
+  {
+   "id": "diagnosis",
+   "title": "Diagnosis and investigations",
+   "blocks": [
+    "Clinical at typical sites. Investigate FBC/clotting/LFTs (± INR) if purpura is on covered sites, palpable, with mucosal bleeding, systemic symptoms, new anticoagulant, or unexpected INR rise. Consider elder abuse if history/pattern mismatch."
+   ],
+   "short": "Diagnosis"
+  },
+  {
+   "id": "differentials",
+   "title": "Differential diagnoses",
+   "blocks": [
+    {
+     "ddx": [
+      {
+       "name": "Steroid purpura",
+       "f": "Long-term steroid exposure"
+      },
+      {
+       "name": "Thrombocytopenia / coagulopathy",
+       "f": "Petechiae, mucosa, abnormal bloods"
+      },
+      {
+       "name": "Vasculitis",
+       "f": "Palpable purpura, legs, systemic features"
+      },
+      {
+       "name": "Scurvy",
+       "f": "Perifollicular haemorrhage, corkscrew hairs"
+      },
+      {
+       "name": "Non-accidental injury",
+       "f": "Grip marks, multiple ages of bruise"
+      }
+     ]
+    }
+   ],
+   "short": "Differentials"
+  },
+  {
+   "id": "management",
+   "title": "Management",
+   "blocks": [
+    {
+     "ul": [
+      "Reassure: benign but marks fragility.",
+      "Protect: long sleeves, tubular forearm protectors, pad furniture, careful carer transfers; avoid harsh adhesives.",
+      "Sun protection and daily emollient.",
+      "Medication review with the GP — **never stop an anticoagulant solely for actinic purpura** without discussion.",
+      "Skin tears: gently approximate, non-adherent dressings, tetanus status; refer complex wounds."
+     ]
+    },
+    {
+     "h": "Referral"
+    },
+    {
+     "refer": [
+      {
+       "when": "routine",
+       "t": "Palpable purpura or systemic vasculitis signs."
+      },
+      {
+       "when": "routine",
+       "t": "Unusual distribution / safeguarding concern."
+      },
+      {
+       "when": "routine",
+       "t": "Large unexplained bruises with rising INR."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "red-flags",
+   "title": "Red flags and when to refer",
+   "blocks": [
+    {
+     "ul": [
+      "Palpable purpura or systemic vasculitis signs.",
+      "Unusual distribution / safeguarding concern.",
+      "Large unexplained bruises with rising INR."
+     ]
+    }
+   ],
+   "short": "Red flags"
+  },
+  {
+   "id": "pearls",
+   "title": "Prescriber pearls (UK pharmacist IP)",
+   "blocks": [
+    {
+     "pearls": [
+      "Actinic purpura is a counselling and protection problem more than a cream problem.",
+      "Inhaled as well as topical steroids can contribute — ask.",
+      "Document skin-tear classification if using local wound pathways."
+     ]
+    }
+   ],
+   "short": "Pearls"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Skin fragility & dermatoporosis?",
+   "a": "Painless purple patches on thin sun-damaged forearms after minimal trauma in an older person."
+  },
+  {
+   "q": "What drives it?",
+   "a": "UV and age destroy dermal support around vessels → easy shear bleeding; advanced form is dermatoporosis with skin tears."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "Reassure, protect (sleeves, pad furniture), daily emollient and sun protection; medication review with the prescriber."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "Palpable purpura, non-exposed-site bruising, mucosal bleeding or safeguarding patterns — investigate / escalate."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "Palpable purpura or systemic vasculitis signs."
+  }
+ ],
+ "references": [
+  {
+   "label": "Medscape: Skin fragility & dermatoporosis",
+   "url": "https://emedicine.medscape.com/article/1087008-overview"
+  }
+ ],
+ "see_also": []
+}

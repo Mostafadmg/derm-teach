@@ -1,0 +1,224 @@
+{
+ "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
+ "key_facts": [
+  "A **solitary, slow-growing, red-pink, moist dome** with a collarette of scale on the **shin** of an older adult.",
+  "A benign epidermal tumour of **pale glycogen-rich keratinocytes**; possibly reactive.",
+  "**Dermoscopy**; excision or curettage for diagnosis or symptoms.",
+  "**Amelanotic melanoma**, BCC, SCC and Bowen’s look similar: biopsy if doubt."
+ ],
+ "sections": [
+  {
+   "id": "overview",
+   "title": "Overview",
+   "blocks": [
+    "A rare benign epidermal tumour (Degos acanthoma) made of pale, glycogen-rich keratinocytes. Some regard it as a reactive inflammatory dermatosis rather than a true neoplasm."
+   ]
+  },
+  {
+   "id": "aetiology",
+   "title": "Aetiology: causes and risk factors",
+   "blocks": [
+    "Unknown. It often occurs on legs with venous stasis or chronic inflammation. Histology shows sharply demarcated psoriasiform acanthosis of PAS-positive pale cells, with neutrophils in the epidermis."
+   ],
+   "short": "Aetiology"
+  },
+  {
+   "id": "clinical-features",
+   "title": "Clinical features",
+   "blocks": [
+    "A solitary, slowly growing, **moist red-brown dome-shaped papule/nodule (5–20 mm)** on the **lower leg** of a middle-aged/older adult, often with a peripheral collarette of scale. It can bleed. Multiple forms are rare.",
+    {
+     "fig": {
+      "dermnet": "m2w2:F01"
+     }
+    },
+    {
+     "fig": {
+      "ai": "v3-cca-string-of-pearls.jpg",
+      "caption": "Clear cell acanthoma on dermoscopy: dotted vessels lined up in curving strings like a pearl necklace (Bowen’s has clustered vessels instead).",
+      "alt": "Dermoscopy circle with dotted vessels in curved strings"
+     }
+    },
+    {
+     "h": "Types to recognise"
+    },
+    {
+     "variants": [
+      {
+       "name": "Moist red dome",
+       "t": "Solitary, lower leg. *Site: Shin.*",
+       "photo": "m2w2:F01"
+      },
+      {
+       "name": "Collarette",
+       "t": "Scaly rim on hairy leg. *Site: Leg.*",
+       "photo": "m2w2:F02"
+      },
+      {
+       "name": "Vessels close-up",
+       "t": "Dotted / glomerular. *Site: Dermoscopy.*",
+       "photo": "m2w2:F03"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "diagnosis",
+   "title": "Diagnosis and investigations",
+   "blocks": [
+    "**Dermoscopy:** dotted/glomerular vessels in a **\"string of pearls\"** (necklace/reticular) arrangement. This is highly characteristic. Confirm with biopsy if there is doubt.",
+    {
+     "h4": "Dermoscopy"
+    },
+    {
+     "ul": [
+      "‘String of pearls’ vessels."
+     ]
+    },
+    {
+     "h4": "Biopsy"
+    },
+    {
+     "ul": [
+      "If any doubt."
+     ]
+    }
+   ],
+   "short": "Diagnosis"
+  },
+  {
+   "id": "differentials",
+   "title": "Differential diagnoses",
+   "blocks": [
+    {
+     "ddx": [
+      {
+       "name": "Amelanotic melanoma",
+       "f": "Pink lesion you can’t name confidently.",
+       "link": "melanoma",
+       "danger": true
+      },
+      {
+       "name": "Bowen’s disease",
+       "f": "Glomerular vessels in **clusters**, not strings.",
+       "link": "squamous-cell-carcinoma"
+      },
+      {
+       "name": "Psoriasis plaque",
+       "f": "Usually multiple, symmetrical.",
+       "link": "psoriasis"
+      },
+      {
+       "name": "Pyogenic granuloma",
+       "f": "Faster, bleeds.",
+       "link": "pyogenic-granuloma"
+      },
+      {
+       "name": "BCC",
+       "f": "Pearly, arborising vessels.",
+       "link": "basal-cell-carcinoma"
+      },
+      {
+       "name": "Irritated SK",
+       "f": "Cysts, openings.",
+       "link": "seborrhoeic-keratosis"
+      }
+     ]
+    },
+    "Amelanotic melanoma; Bowen's disease (glomerular vessels in clusters, not strings); psoriasis plaque; pyogenic granuloma; BCC; dermatofibroma; irritated SK; eccrine poroma."
+   ],
+   "short": "Differentials"
+  },
+  {
+   "id": "management",
+   "title": "Management",
+   "blocks": [
+    "Refer routinely to confirm (the differential includes amelanotic melanoma and Bowen's). Treatment (specialist/GP surgeon): excision, curettage, cryotherapy. Recurrence is uncommon.",
+    {
+     "h": "Treatment ladder"
+    },
+    {
+     "ladder": [
+      {
+       "k": "Refer",
+       "t": "**Routine** referral to confirm (differential includes amelanotic melanoma and Bowen’s).",
+       "tone": "base"
+      },
+      {
+       "k": "Specialist / GP surgeon",
+       "t": "Excision, curettage or cryotherapy; recurrence uncommon.",
+       "tone": "refer"
+      }
+     ]
+    },
+    {
+     "callout": "warn",
+     "title": "Prescribing limits and pitfalls",
+     "list": [
+      "**Don’t escalate steroid**: A solitary red scaly leg papule not responding to emollient / steroid isn’t necessarily eczema."
+     ]
+    },
+    {
+     "h": "Referral"
+    },
+    {
+     "refer": [
+      {
+       "when": "urgent",
+       "t": "Pink lesion you **cannot confidently name**: exclude **amelanotic melanoma**."
+      },
+      {
+       "when": "routine",
+       "t": "Typical CCA: refer to confirm."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "red-flags",
+   "title": "Red flags and when to refer",
+   "blocks": [
+    {
+     "ul": [
+      "Pink lesion you cannot confidently name: refer, as **amelanotic melanoma** must be excluded."
+     ]
+    }
+   ],
+   "short": "Red flags"
+  },
+  {
+   "id": "pearls",
+   "title": "Prescriber pearls (UK pharmacist IP)",
+   "blocks": [
+    {
+     "pearls": [
+      "A red, scaly leg papule that does not respond to emollient/steroid is not necessarily eczema or psoriasis. Look for a solitary lesion and **refer it for dermoscopy/biopsy** rather than escalating steroid potency."
+     ]
+    }
+   ],
+   "short": "Pearls"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Classic site?",
+   "a": "Lower leg (shin) of a middle-aged / older adult."
+  },
+  {
+   "q": "Pathognomonic dermoscopy?",
+   "a": "Dotted vessels in a ‘string of pearls’ pattern."
+  },
+  {
+   "q": "Critical differential?",
+   "a": "Amelanotic melanoma."
+  },
+  {
+   "q": "Bowen’s vessel pattern?",
+   "a": "Glomerular vessels in clusters."
+  }
+ ],
+ "references": [],
+ "see_also": []
+}

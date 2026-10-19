@@ -1,0 +1,297 @@
+{
+ "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
+ "key_facts": [
+  "Small **dark red, purple or black papules** on the scrotum or vulva, a limb, or **clustered between umbilicus and knees**.",
+  "**Dilated papillary dermal capillaries** with thickened epidermis; **Fabry disease** is X-linked α-galactosidase A deficiency.",
+  "Reassure typical Fordyce lesions; dermoscopy (dark lacunae); refer a solitary dark lesion if doubt; **enzyme / genetic testing** for possible Fabry.",
+  "**Melanoma mimic**; **Fabry** with burning hand / foot pain, kidney, heart and stroke risk."
+ ],
+ "sections": [
+  {
+   "id": "overview",
+   "title": "Overview",
+   "blocks": [
+    "Benign vascular lesions: dilated superficial dermal capillaries with overlying hyperkeratosis."
+   ]
+  },
+  {
+   "id": "aetiology",
+   "title": "Aetiology: causes and risk factors",
+   "blocks": [
+    "Ectatic papillary dermal vessels with reactive epidermal thickening. **Angiokeratoma corporis diffusum** (multiple lesions) is a marker of lysosomal storage disease. The classic one is **Fabry disease**: X-linked, **GLA** gene, α-galactosidase A deficiency, with globotriaosylceramide (Gb3) accumulating in vessels, kidney, heart and nerves. Others are fucosidosis and sialidosis.",
+    {
+     "fig": {
+      "ai": "v3-angiokeratoma-section.jpg",
+      "caption": "Angiokeratoma: blood-filled dilated vessels just under a thickened epidermis give a small dark red-purple papule.",
+      "alt": "Skin section with dark blood spaces under thick epidermis"
+     }
+    }
+   ],
+   "short": "Aetiology"
+  },
+  {
+   "id": "clinical-features",
+   "title": "Clinical features",
+   "blocks": [
+    {
+     "table": {
+      "head": [
+       "Variant",
+       "Who / where",
+       "Clue"
+      ],
+      "rows": [
+       [
+        "Solitary / multiple angiokeratoma",
+        "Adults, legs",
+        "Dark red-black papule. **Can mimic melanoma**"
+       ],
+       [
+        "Angiokeratoma of Fordyce",
+        "Older men (scrotum), women (vulva)",
+        "Multiple small purple papules; may bleed"
+       ],
+       [
+        "Angiokeratoma of Mibelli",
+        "Children/teens, dorsal fingers and toes",
+        "Associated with chilblains/acrocyanosis"
+       ],
+       [
+        "Angiokeratoma circumscriptum",
+        "Congenital, a limb",
+        "Plaque of coalescent papules"
+       ],
+       [
+        "Angiokeratoma corporis diffusum",
+        "\"Bathing-trunk\" distribution (lower trunk, buttocks, groin, umbilicus)",
+        "Suggests **Fabry**"
+       ]
+      ]
+     }
+    },
+    "Fabry features: acroparaesthesia (burning hands/feet triggered by heat, exercise, fever) starting in childhood; **hypohidrosis** and heat intolerance; cornea verticillata; proteinuria and later renal failure; left ventricular hypertrophy and arrhythmias; stroke at a young age. Heterozygous women are often affected too.",
+    {
+     "fig": {
+      "dermnet": "m2w1:F03"
+     }
+    },
+    {
+     "h": "Types to recognise"
+    },
+    {
+     "variants": [
+      {
+       "name": "Fordyce",
+       "t": "Scrotal purple papules. *Site: Scrotum.*",
+       "photo": "m2w1:F04"
+      },
+      {
+       "name": "Solitary dark",
+       "t": "Melanoma mimic. *Site: Leg.*",
+       "photo": "m2w1:F05",
+       "danger": true
+      },
+      {
+       "name": "Circumscriptum",
+       "t": "Congenital plaque. *Site: Limb.*",
+       "photo": "m2w1:F03"
+      },
+      {
+       "name": "Multiple (Fabry?)",
+       "t": "Bathing-trunk cluster. *Site: Lower trunk.*",
+       "photo": "m2w1:F06",
+       "danger": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "diagnosis",
+   "title": "Diagnosis and investigations",
+   "blocks": [
+    {
+     "ul": [
+      "Dermoscopy: red-blue lacunae, whitish veil, and haemorrhagic crusts.",
+      "Biopsy if a dark lesion could be melanoma.",
+      "**Fabry:** α-Gal A enzyme activity in males; GLA gene testing (needed in females); plasma lyso-Gb3. Urine protein, eGFR, ECG/echo."
+     ]
+    },
+    {
+     "h4": "Dermoscopy"
+    },
+    {
+     "ul": [
+      "Red-blue **lacunae**, whitish veil, haemorrhagic crusts."
+     ]
+    },
+    {
+     "h4": "Biopsy"
+    },
+    {
+     "ul": [
+      "If a dark lesion could be melanoma."
+     ]
+    },
+    {
+     "h4": "Fabry tests"
+    },
+    {
+     "ul": [
+      "α-Gal A activity (males); **GLA gene test** (needed in females); plasma lyso-Gb3; urine protein, eGFR, ECG / echo."
+     ]
+    }
+   ],
+   "short": "Diagnosis"
+  },
+  {
+   "id": "differentials",
+   "title": "Differential diagnoses",
+   "blocks": [
+    {
+     "ddx": [
+      {
+       "name": "Melanoma / pigmented BCC",
+       "f": "Dark solitary lesion.",
+       "link": "melanoma",
+       "danger": true
+      },
+      {
+       "name": "Cherry angioma",
+       "f": "Bright red, dome, older."
+      },
+      {
+       "name": "Venous lake",
+       "f": "Lip, blanches."
+      },
+      {
+       "name": "Kaposi sarcoma",
+       "f": "Violaceous plaques; HIV."
+      },
+      {
+       "name": "Pyogenic granuloma",
+       "f": "Fast, bleeds.",
+       "link": "pyogenic-granuloma"
+      },
+      {
+       "name": "Viral wart",
+       "f": "Hands; capillary dots.",
+       "link": "viral-warts"
+      }
+     ]
+    },
+    "Melanoma or pigmented BCC (dark solitary lesion), cherry angioma, haemangioma, venous lake, Kaposi sarcoma, warts (on the hands), pyogenic granuloma, and lymphangioma circumscriptum."
+   ],
+   "short": "Differentials"
+  },
+  {
+   "id": "management",
+   "title": "Management",
+   "blocks": [
+    {
+     "ul": [
+      "Benign isolated angiokeratomas: reassure. Treatment is cosmetic (laser, cautery, excision; specialist/not NHS-funded).",
+      "**Uncertain dark lesion → refer** (dermoscopy/biopsy). Use NG12 urgency if the 7-point score is ≥3.",
+      "**Multiple angiokeratomas in a bathing-trunk distribution, or with neuropathic pain, sweating problems, proteinuria or early cardiac/stroke history → refer** to dermatology/GP for **Fabry testing**. Diagnosis and treatment are at a **national lysosomal storage disorder centre** (enzyme replacement with agalsidase alfa/beta, pegunigalsidase alfa; or oral migalastat for amenable mutations). Cascade-screen family members.",
+      "Neuropathic pain in Fabry: specialist-guided (carbamazepine, gabapentinoids). Avoid triggers."
+     ]
+    },
+    {
+     "h": "Treatment ladder"
+    },
+    {
+     "ladder": [
+      {
+       "k": "Benign",
+       "t": "Reassure isolated angiokeratomas; treatment is cosmetic (laser, cautery, excision; not NHS-funded).",
+       "tone": "base"
+      },
+      {
+       "k": "Doubt",
+       "t": "Uncertain dark lesion → refer (dermoscopy / biopsy); NG12 urgency if 7-point ≥ 3.",
+       "tone": "refer"
+      },
+      {
+       "k": "Fabry",
+       "t": "Bathing-trunk angiokeratomas, neuropathic pain, sweating problems, proteinuria or early cardiac / stroke history → **Fabry testing**. National lysosomal storage centre: enzyme replacement (agalsidase alfa / beta, pegunigalsidase alfa) or oral **migalastat** (amenable mutations); cascade-screen family.",
+       "tone": "second"
+      }
+     ]
+    },
+    {
+     "callout": "warn",
+     "title": "Prescribing limits and pitfalls",
+     "list": [
+      "**Migalastat**: Every other day; no food 2 h before and after."
+     ]
+    },
+    {
+     "h": "Referral"
+    },
+    {
+     "refer": [
+      {
+       "when": "routine",
+       "t": "Many angiokeratomas in a child / young adult with burning hand / foot pain, reduced sweating or proteinuria: test for **Fabry**."
+      },
+      {
+       "when": "urgent",
+       "t": "Solitary changing dark papule you can’t confidently call an angiokeratoma: **possible melanoma**."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "red-flags",
+   "title": "Red flags and when to refer",
+   "blocks": [
+    {
+     "ul": [
+      "Many angiokeratomas in a child or young adult with burning hand/foot pain, reduced sweating or proteinuria: test for **Fabry disease**.",
+      "Solitary changing dark papule: if you cannot confidently call it an angiokeratoma, refer as a **possible melanoma**."
+     ]
+    }
+   ],
+   "short": "Red flags"
+  },
+  {
+   "id": "pearls",
+   "title": "Prescriber pearls (UK pharmacist IP)",
+   "blocks": [
+    {
+     "pearls": [
+      "Fordyce angiokeratomas bleeding on the scrotum are benign, but **always ask about other symptoms** (the patient is often embarrassed).",
+      "**Migalastat** is taken every other day, with no food 2 h before and after."
+     ]
+    }
+   ],
+   "short": "Pearls"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Inheritance and enzyme in Fabry?",
+   "a": "X-linked; α-galactosidase A (GLA)."
+  },
+  {
+   "q": "Distribution suggesting Fabry?",
+   "a": "Bathing-trunk (umbilicus to knees)."
+  },
+  {
+   "q": "Test needed in females?",
+   "a": "GLA gene testing (enzyme may be normal)."
+  },
+  {
+   "q": "Migalastat food rule?",
+   "a": "No food 2 hours before and after; every other day."
+  }
+ ],
+ "references": [
+  {
+   "label": "Medscape: Angiokeratomas & Fabry disease",
+   "url": "https://emedicine.medscape.com/article/1056046-overview"
+  }
+ ],
+ "see_also": []
+}

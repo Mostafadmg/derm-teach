@@ -1,0 +1,821 @@
+{
+ "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
+ "key_facts": [
+  "You need to describe a rash in notes, a referral, an advice-and-guidance request or a photo request.",
+  "The level of the skin involved (epidermis, dermis, subcutis) decides what you see and feel.",
+  "Describe lesion type → colour → surface → configuration → distribution, then build the differential from that description.",
+  "Non-blanching purpura, blisters or erosions with mucosal involvement, and any changing pigmented lesion."
+ ],
+ "sections": [
+  {
+   "id": "overview",
+   "title": "Overview",
+   "blocks": [
+    {
+     "h4": "Primary lesions (macule → cyst)"
+    },
+    "A **primary lesion** is the initial morphological change produced directly by the disease process, before scratching, infection, treatment or time alter it. Correctly naming it is the first step to a differential diagnosis.",
+    {
+     "table": {
+      "head": [
+       "Term",
+       "Definition (paraphrased; DermNet terminology)",
+       "Palpable?",
+       "Size cut-off"
+      ],
+      "rows": [
+       [
+        "**Macule**",
+        "Flat, circumscribed change in colour/texture only",
+        "No",
+        "<1 cm"
+       ],
+       [
+        "**Patch**",
+        "Flat area of colour/texture change (a large macule)",
+        "No",
+        ">1 cm"
+       ],
+       [
+        "**Papule**",
+        "Solid, raised, palpable lesion",
+        "Yes",
+        "<1 cm"
+       ],
+       [
+        "**Plaque**",
+        "Raised, palpable, flat-topped area, wider than it is tall (papules may coalesce into plaques)",
+        "Yes",
+        ">1 cm"
+       ],
+       [
+        "**Nodule**",
+        "Solid, palpable lump, often deeper (dermis/subcutis) — may be felt more than seen",
+        "Yes",
+        ">1 cm (some: >0.5 cm)"
+       ],
+       [
+        "**Vesicle**",
+        "Small fluid-filled (clear) blister",
+        "Yes",
+        "<1 cm"
+       ],
+       [
+        "**Bulla**",
+        "Large fluid-filled blister",
+        "Yes",
+        ">1 cm"
+       ],
+       [
+        "**Pustule**",
+        "Visible collection of pus (neutrophils ± debris) — can be infective *or* sterile",
+        "Yes",
+        "Usually <1 cm"
+       ],
+       [
+        "**Wheal (weal)**",
+        "Transient, itchy, oedematous, pale-centred/pink papule or plaque from dermal oedema; individual lesions last <24 h",
+        "Yes",
+        "Any"
+       ],
+       [
+        "**Cyst**",
+        "Closed sac lined by epithelium containing fluid or semi-solid material (e.g. keratin)",
+        "Yes (fluctuant/firm)",
+        "Any"
+       ]
+      ]
+     }
+    },
+    "Related terms worth knowing: **purpura/petechiae** (non-blanching bleeding into skin: petechiae <2–3 mm, purpura larger, ecchymosis = bruise), **telangiectasia** (visible dilated superficial vessels), **burrow** (scabies), **comedone** (blocked follicle: open/blackhead, closed/whitehead), **abscess** (deep localised pus collection), **erythema** (blanching redness), **tumour** (large nodule — avoid alarming patients with the word).",
+    {
+     "h4": "Secondary lesions (scale → scar)"
+    },
+    "**Secondary lesions** develop from primary lesions over time or because of external factors — scratching, rubbing, infection, healing or treatment. They tell you about **chronicity, itch, and depth of tissue damage**.",
+    {
+     "table": {
+      "head": [
+       "Term",
+       "Definition (paraphrased)",
+       "Depth / key point"
+      ],
+      "rows": [
+       [
+        "**Scale**",
+        "Visible flakes of excess or abnormally shed stratum corneum (hyperkeratosis/parakeratosis)",
+        "Epidermal surface"
+       ],
+       [
+        "**Crust**",
+        "Dried serum, blood or pus on the skin surface (\"scab\")",
+        "Surface — often after vesicles/pustules/erosions break"
+       ],
+       [
+        "**Erosion**",
+        "Partial loss of epidermis (dermis not breached)",
+        "Heals **without** scarring"
+       ],
+       [
+        "**Ulcer**",
+        "Full-thickness loss of epidermis plus part of dermis ± deeper",
+        "Heals **with** scarring"
+       ],
+       [
+        "**Fissure**",
+        "Linear crack or split through epidermis, often into dermis",
+        "Painful; thick/dry skin over joints, heels, angles of mouth"
+       ],
+       [
+        "**Lichenification**",
+        "Thickened, leathery skin with exaggerated normal skin markings from chronic rubbing/scratching",
+        "Epidermal hyperplasia (acanthosis) + hyperkeratosis"
+       ],
+       [
+        "**Atrophy**",
+        "Thinning of epidermis (fine wrinkling, translucency, visible vessels) and/or dermis/subcutis (depression)",
+        "Steroid atrophy, striae, lichen sclerosus, ageing"
+       ],
+       [
+        "**Excoriation**",
+        "Linear or punctate erosions/ulcers caused by scratching or picking",
+        "Marker of itch (or skin picking)"
+       ],
+       [
+        "**Scar**",
+        "Fibrous tissue replacing normal dermis after injury that breached the dermis",
+        "Atrophic, hypertrophic (within wound) or keloid (beyond wound)"
+       ]
+      ]
+     }
+    },
+    "Other secondary/descriptive terms: **maceration** (soggy white skin in occluded folds/webs), **xerosis** (dryness), **post-inflammatory hyper-/hypopigmentation**, **eschar** (black adherent necrotic crust).",
+    {
+     "h4": "Distribution & configuration"
+    },
+    {
+     "ul": [
+      "**Distribution** = *where* lesions are on the body and how widespread.",
+      "**Configuration (arrangement/shape)** = how individual lesions are shaped or grouped relative to one another."
+     ]
+    },
+    {
+     "h4": "Lichenification in chronic atopic eczema"
+    },
+    "**Case:** an 8-year-old boy with longstanding atopic dermatitis, worst in the **flexures**, troubled by itch and poor sleep. Image shows thickened skin, accentuated skin creases and hyperpigmentation.",
+    {
+     "table": {
+      "head": [
+       "Q",
+       "Correct answer",
+       "Why (short explanation)"
+      ],
+      "rows": [
+       [
+        "Q1 — term for thickened skin, accentuated creases, hyperpigmentation",
+        "**Lichenification**",
+        "Secondary change from chronic rubbing/scratching; epidermal thickening (acanthosis/hyperkeratosis) exaggerates normal skin lines. Distractors: *atrophy* = thinning; *excoriation* = scratch erosions; *PIH* = colour change only (flat); *xerosis* = dryness without thickening"
+       ],
+       [
+        "Q2 — where are spongiotic changes?",
+        "**Epidermis**",
+        "Spongiosis = intercellular oedema between keratinocytes (stretched desmosomes give a \"sponge\" look) — hallmark of eczema/dermatitis. Not basement membrane, dermis, stratum corneum alone, or subcutis"
+       ],
+       [
+        "Q3 — primary lesions of eczema herpeticum",
+        "**Vesicles**",
+        "HSV-1 spreading through eczematous skin produces clustered monomorphic vesicles/pustules that rupture into punched-out erosions → crusts. Crusts, erosions, ulcers are **secondary**; bullae are not typical; fissures belong to chronic dry eczema"
+       ]
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "aetiology",
+   "title": "Aetiology: causes and risk factors",
+   "blocks": [
+    {
+     "h": "Primary lesions (macule → cyst)"
+    },
+    {
+     "ul": [
+      "**Macule/patch:** change only in pigment or vascularity without thickening — more/less melanin (freckle, lentigo, café-au-lait; vitiligo) or vascular change (erythema, port-wine stain).",
+      "**Papule/plaque:** epidermal thickening (acanthosis, hyperkeratosis) and/or dermal inflammatory infiltrate (psoriasis, lichen planus, eczema) or cellular proliferation.",
+      "**Nodule:** deeper dermal/subcutaneous infiltrate, proliferation or deposit (tumour, granuloma, prurigo).",
+      "**Vesicle/bulla:** fluid accumulates *within* or *beneath* the epidermis when cell–cell (desmosome) or cell–basement-membrane (hemidesmosome) adhesion fails, or when keratinocytes are damaged (viral ballooning, spongiosis). - **Pustule:** neutrophils collect in the epidermis or follicle — bacteria (folliculitis, impetigo), or sterile inflammation (pustular psoriasis, acne, PPP).",
+      "**Wheal:** mast-cell degranulation (histamine) → transient vasodilation and leaky superficial dermal capillaries → dermal oedema without epidermal change (hence no scale, resolves without mark).",
+      "**Cyst:** epithelial-lined cavity, e.g. epidermoid cyst from infundibular epithelium producing keratin."
+     ]
+    },
+    {
+     "h": "Secondary lesions (scale → scar)"
+    },
+    {
+     "ul": [
+      "**Scale:** accelerated epidermal turnover (psoriasis — keratinocytes reach the surface in days and retain nuclei = parakeratosis) or abnormal desquamation (ichthyosis, eczema, tinea).",
+      "**Crust:** serous exudate from damaged epidermis dries on the surface; golden/honey colour suggests *S. aureus*/streptococcal impetigo.",
+      "**Erosion/ulcer:** loss of a blister roof, trauma, ischaemia (arterial), venous hypertension, neuropathy (diabetic foot), infection or malignancy. Depth relative to the basement membrane decides scarring.",
+      "**Fissure:** dry, inelastic thickened stratum corneum splits under movement/tension.",
+      "**Lichenification:** repeated mechanical trauma (rubbing/scratching) → keratinocyte proliferation, thickened epidermis and dermal fibrosis — the visible footprint of the **itch–scratch cycle**.",
+      "**Atrophy:** reduced keratinocyte proliferation and collagen synthesis (potent topical/systemic corticosteroids, ageing, photo-damage) or inflammatory destruction (lichen sclerosus, discoid lupus).",
+      "**Excoriation:** scratching removes epidermis; may be the only visible sign in itch without rash (e.g. cholestasis, iron deficiency, scabies).",
+      "**Scar:** fibroblasts lay down collagen to repair dermis; excess collagen → hypertrophic/keloid; insufficient → atrophic (acne, varicella)."
+     ]
+    },
+    {
+     "h": "Distribution & configuration"
+    },
+    "Pattern reflects mechanism: nerve (dermatomal = reactivated VZV in a sensory ganglion), external contact (sharp lines, geometric shapes = contact/irritant/artefact), light (photo-exposed sites with sparing under chin/behind ears), trauma (Koebner), blood/lymph vessels, embryological lines (Blaschko), friction/moisture (flexures), centrifugal fungal spread (annular).",
+    {
+     "h": "Lichenification in chronic atopic eczema"
+    },
+    "Barrier dysfunction (e.g. filaggrin loss-of-function, reduced ceramides) + type-2 inflammation (IL-4/IL-13/IL-31 itch signalling) → itch → scratch → further barrier damage and inflammation → keratinocyte hyperproliferation → **lichenification**. Pigment change follows inflammation (PIH), more marked in darker phototypes."
+   ],
+   "short": "Aetiology"
+  },
+  {
+   "id": "clinical-features",
+   "title": "Clinical features",
+   "blocks": [
+    {
+     "h": "Primary lesions (macule → cyst)"
+    },
+    {
+     "table": {
+      "head": [
+       "Primary lesion",
+       "Example diagnoses (2–3)",
+       "Teaching clue"
+      ],
+      "rows": [
+       [
+        "Macule",
+        "Freckles (ephelides); lentigo; flat drug-eruption/viral exanthem macules",
+        "Close eyes and run a finger over it — no change"
+       ],
+       [
+        "Patch",
+        "Vitiligo; café-au-lait patch; solar lentigo; pityriasis versicolor",
+        "≥6 café-au-lait >0.5 cm (child)/ >1.5 cm (adult) → consider NF1"
+       ],
+       [
+        "Papule",
+        "Lichen planus (flat-topped, polygonal, purple); molluscum contagiosum (umbilicated); acne papules; viral warts",
+        "Look at the top: flat, dome, umbilicated, scaly, warty"
+       ],
+       [
+        "Plaque",
+        "Chronic plaque psoriasis; discoid (nummular) eczema; tinea corporis; mycosis fungoides (rare, persistent)",
+        "Psoriasis = well-demarcated + silvery scale + extensors"
+       ],
+       [
+        "Nodule",
+        "Nodular basal cell carcinoma; nodular prurigo; dermatofibroma; nodular melanoma/SCC; erythema nodosum",
+        "Firm, persistent, growing, bleeding nodule → think malignancy"
+       ],
+       [
+        "Vesicle",
+        "Herpes simplex/eczema herpeticum; varicella/zoster; pompholyx; acute contact dermatitis",
+        "Grouped vesicles on red base = herpes until proven otherwise"
+       ],
+       [
+        "Bulla",
+        "Bullous pemphigoid (tense); bullous impetigo; burns/friction blister; pemphigus (flaccid, rapidly erode); bullous drug reaction",
+        "Tense vs flaccid tells you the split level"
+       ],
+       [
+        "Pustule",
+        "Bacterial folliculitis; acne vulgaris; palmoplantar pustulosis / pustular psoriasis (sterile); rosacea",
+        "A pustule is not automatically infection"
+       ],
+       [
+        "Wheal",
+        "Urticaria (spontaneous/inducible); angio-oedema overlap; insect bites (papular urticaria); dermographism",
+        "Ask: do individual lesions last <24 h and leave no mark?"
+       ],
+       [
+        "Cyst",
+        "Epidermoid cyst (central punctum); pilar (trichilemmal) cyst on scalp; acne cysts; milia (tiny keratin cysts)",
+        "Punctum + cheesy keratin = epidermoid"
+       ]
+      ]
+     }
+    },
+    {
+     "h": "Secondary lesions (scale → scar)"
+    },
+    {
+     "table": {
+      "head": [
+       "Secondary lesion",
+       "Example diagnoses (2–3)"
+      ],
+      "rows": [
+       [
+        "Scale",
+        "Psoriasis (thick silvery); pityriasis rosea (collarette); tinea (scaly active edge); seborrhoeic dermatitis (greasy yellow)"
+       ],
+       [
+        "Crust",
+        "Impetigo (honey-coloured); eczema herpeticum (haemorrhagic crusts after vesicles); infected eczema"
+       ],
+       [
+        "Erosion",
+        "Bullous impetigo; pemphigus vulgaris (flaccid blisters rupture); erosive oral lichen planus; burst vesicles of herpes"
+       ],
+       [
+        "Ulcer",
+        "Venous leg ulcer (gaiter area); diabetic neuropathic foot ulcer (pressure points); ulcerated BCC/SCC; pyoderma gangrenosum"
+       ],
+       [
+        "Fissure",
+        "Hand/foot eczema; juvenile plantar dermatosis; angular cheilitis; cracked heels; eczema craquelé"
+       ],
+       [
+        "Lichenification",
+        "Chronic atopic eczema (flexures — quiz case); lichen simplex chronicus (nape, shins, ankles, genitals); chronic contact dermatitis"
+       ],
+       [
+        "Atrophy",
+        "Topical steroid atrophy and striae; lichen sclerosus; striae distensae; discoid lupus (with scarring)"
+       ],
+       [
+        "Excoriation",
+        "Atopic eczema; scabies; nodular prurigo; skin-picking disorder / acne excoriée"
+       ],
+       [
+        "Scar",
+        "Acne scarring (atrophic); hypertrophic surgical/burn scar; keloid (earlobe, chest, shoulders)"
+       ]
+      ]
+     }
+    },
+    {
+     "h": "Distribution & configuration"
+    },
+    "**Distribution terms**",
+    {
+     "table": {
+      "head": [
+       "Term",
+       "Meaning",
+       "Classic examples"
+      ],
+      "rows": [
+       [
+        "Localised / generalised / widespread",
+        "Extent",
+        "—"
+       ],
+       [
+        "Symmetrical",
+        "Both sides alike — often endogenous",
+        "Psoriasis, atopic eczema, vitiligo"
+       ],
+       [
+        "Asymmetrical / unilateral",
+        "Often exogenous or infective",
+        "Tinea, contact dermatitis, zoster"
+       ],
+       [
+        "**Flexural**",
+        "Skin folds (antecubital/popliteal fossae, axillae, groin, inframammary)",
+        "Atopic eczema (children/adults), flexural (inverse) psoriasis, intertrigo, candida"
+       ],
+       [
+        "**Extensor**",
+        "Outer surfaces of elbows/knees",
+        "Plaque psoriasis; infantile atopic eczema; dermatitis herpetiformis"
+       ],
+       [
+        "**Dermatomal**",
+        "Band in one sensory nerve territory, not crossing midline",
+        "Herpes zoster"
+       ],
+       [
+        "Acral",
+        "Hands, feet, ears, nose",
+        "Erythema multiforme, chilblains, hand-foot-mouth"
+       ],
+       [
+        "Photo-distributed",
+        "Face, V of neck, dorsal hands, forearms; sparing shaded areas",
+        "Polymorphic light eruption, drug photosensitivity, lupus"
+       ],
+       [
+        "Seborrhoeic",
+        "Scalp, eyebrows, nasolabial folds, ears, central chest",
+        "Seborrhoeic dermatitis"
+       ],
+       [
+        "Follicular",
+        "Centred on hair follicles",
+        "Folliculitis, keratosis pilaris"
+       ],
+       [
+        "Intertriginous",
+        "Opposed skin surfaces",
+        "Candidal intertrigo, erythrasma"
+       ]
+      ]
+     }
+    },
+    "**Configuration terms**",
+    {
+     "table": {
+      "head": [
+       "Term",
+       "Meaning",
+       "Examples"
+      ],
+      "rows": [
+       [
+        "**Annular**",
+        "Ring with clearer centre",
+        "Tinea corporis (scaly edge), granuloma annulare (smooth edge), urticaria, erythema migrans"
+       ],
+       [
+        "Arcuate / polycyclic",
+        "Part-rings / merged rings",
+        "Urticaria, subacute cutaneous lupus"
+       ],
+       [
+        "**Target (iris)**",
+        "Concentric zones (three in typical targets)",
+        "Erythema multiforme"
+       ],
+       [
+        "Discoid / nummular",
+        "Coin-shaped, uniformly involved",
+        "Discoid eczema"
+       ],
+       [
+        "**Linear**",
+        "In a line",
+        "Koebner (psoriasis, lichen planus, vitiligo, warts), contact with plants (phytophotodermatitis), excoriations, Blaschko-linear naevi"
+       ],
+       [
+        "Grouped / herpetiform",
+        "Clustered",
+        "Herpes simplex, dermatitis herpetiformis"
+       ],
+       [
+        "Reticulate",
+        "Net-like",
+        "Livedo reticularis, Wickham striae (oral LP)"
+       ],
+       [
+        "Serpiginous",
+        "Snake-like, wavy",
+        "Cutaneous larva migrans"
+       ],
+       [
+        "Satellite lesions",
+        "Outlying lesions near a main patch",
+        "Candida"
+       ],
+       [
+        "Confluent / coalescing",
+        "Lesions merging",
+        "Viral exanthems, psoriasis"
+       ],
+       [
+        "Guttate",
+        "Drop-like",
+        "Guttate psoriasis (post-streptococcal)"
+       ]
+      ]
+     }
+    },
+    {
+     "h": "Lichenification in chronic atopic eczema"
+    },
+    {
+     "ul": [
+      "Age pattern: infants — face/cheeks, scalp, extensors (napkin often spared); children — **flexures** (antecubital/popliteal fossae, wrists, ankles, neck); adults — flexures, hands, face/neck, generalised.",
+      "Chronic phase: lichenification, excoriations, xerosis, fissures, PIH/hypopigmentation; acute phase: erythema, papulovesicles, weeping, crust.",
+      "Sleep disturbance = marker of severity and impact (POEM, CDLQI)."
+     ]
+    },
+    {
+     "fig": {
+      "dermnet": "m1w1:A06"
+     }
+    },
+    {
+     "h": "Types to recognise"
+    },
+    {
+     "variants": [
+      {
+       "name": "Macule",
+       "t": "Freckles (ephelides); lentigo; flat drug-eruption/viral exanthem macules *Site: Close eyes and run a finger over it — no change.*"
+      },
+      {
+       "name": "Patch",
+       "t": "Vitiligo; café-au-lait patch; solar lentigo; pityriasis versicolor *Site: ≥6 café-au-lait >0.5 cm (child)/ >1.5 cm (adult) → consider NF1.*"
+      },
+      {
+       "name": "Papule",
+       "t": "Lichen planus (flat-topped, polygonal, purple); molluscum contagiosum (umbilicated); acne papules; viral warts *Site: Look at the top: flat, dome, umbilicated, scaly, warty.*"
+      },
+      {
+       "name": "Plaque",
+       "t": "Chronic plaque psoriasis; discoid (nummular) eczema; tinea corporis; mycosis fungoides (rare, persistent) *Site: Psoriasis = well-demarcated + silvery scale + extensors.*"
+      },
+      {
+       "name": "Nodule",
+       "t": "Nodular basal cell carcinoma; nodular prurigo; dermatofibroma; nodular melanoma/SCC; erythema nodosum *Site: Firm, persistent, growing, bleeding nodule → think malignancy.*"
+      },
+      {
+       "name": "Vesicle",
+       "t": "Herpes simplex/eczema herpeticum; varicella/zoster; pompholyx; acute contact dermatitis *Site: Grouped vesicles on red base = herpes until proven otherwise.*"
+      },
+      {
+       "name": "Bulla",
+       "t": "Bullous pemphigoid (tense); bullous impetigo; burns/friction blister; pemphigus (flaccid, rapidly erode); bullous drug reaction *Site: Tense vs flaccid tells you the split level.*"
+      },
+      {
+       "name": "Pustule",
+       "t": "Bacterial folliculitis; acne vulgaris; palmoplantar pustulosis / pustular psoriasis (sterile); rosacea *Site: A pustule is not automatically infection.*"
+      },
+      {
+       "name": "Wheal",
+       "t": "Urticaria (spontaneous/inducible); angio-oedema overlap; insect bites (papular urticaria); dermographism *Site: Ask: do individual lesions last <24 h and leave no mark?.*"
+      },
+      {
+       "name": "Cyst",
+       "t": "Epidermoid cyst (central punctum); pilar (trichilemmal) cyst on scalp; acne cysts; milia (tiny keratin cysts) *Site: Punctum + cheesy keratin = epidermoid.*"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "diagnosis",
+   "title": "Diagnosis and investigations",
+   "blocks": [
+    {
+     "h": "Primary lesions (macule → cyst)"
+    },
+    {
+     "ul": [
+      "Inspect in good light with magnification; palpate (wear gloves where appropriate).",
+      "Decide **flat vs raised vs fluid-filled vs pus-filled vs deep**; then measure (ruler/photo with scale) to choose the correct size-based term.",
+      "Use **diascopy** (press a glass slide): blanching = erythema/vascular dilation; non-blanching = purpura.",
+      "Document primary lesion first, then the secondary change (e.g. \"erythematous plaques with silvery scale\")."
+     ]
+    },
+    {
+     "h": "Secondary lesions (scale → scar)"
+    },
+    {
+     "ul": [
+      "Describe in order: **primary lesion + secondary change** (e.g. \"lichenified, excoriated plaques in both antecubital fossae\").",
+      "Gently lift scale/crust — bleeding points under psoriatic scale (Auspitz sign; not routinely elicited).",
+      "Assess ulcer: site, size, edge (sloping = venous; punched-out = arterial/neuropathic; rolled = BCC; undermined violaceous = pyoderma), base, exudate, surrounding skin, pulses/ABPI (per local wound pathway).",
+      "Atrophy: shiny, wrinkled \"cigarette-paper\" surface, visible vessels; ask about steroid use, potency, duration."
+     ]
+    },
+    {
+     "h": "Distribution & configuration"
+    },
+    "Undress adequately and inspect the whole skin (plus scalp, nails, mouth) — distribution clues are missed in partial examinations. Note sparing as well as involvement (e.g. napkin-area sparing in infant atopic eczema; under-chin sparing in photosensitivity).",
+    {
+     "h": "Lichenification in chronic atopic eczema"
+    },
+    "Clinical diagnosis (NICE CG57 / UK Working Party criteria: itchy skin + ≥3 of flexural involvement history, asthma/hay fever history, generally dry skin, onset <2 years, visible flexural eczema). Assess severity (clear/mild/moderate/severe — NICE) noting lichenification and excoriation as features of moderate–severe disease; check for infection (bacterial and herpetic)."
+   ],
+   "short": "Diagnosis"
+  },
+  {
+   "id": "differentials",
+   "title": "Differential diagnoses",
+   "blocks": [
+    {
+     "ddx": [
+      {
+       "name": "Macule vs patch",
+       "f": "Size (<1 cm vs >1 cm) — both flat"
+      },
+      {
+       "name": "Papule vs nodule",
+       "f": "Size and depth; nodules are deeper/firmer"
+      },
+      {
+       "name": "Plaque vs patch",
+       "f": "Plaque is palpable (thickened); patch is flat"
+      },
+      {
+       "name": "Vesicle vs bulla",
+       "f": "Size (<1 cm vs >1 cm)"
+      },
+      {
+       "name": "Pustule vs vesicle",
+       "f": "Contents: yellow/white pus vs clear fluid (vesicles may become pustular with time)"
+      },
+      {
+       "name": "Wheal vs plaque",
+       "f": "Wheals are transient (<24 h), shifting, no surface change"
+      },
+      {
+       "name": "Cyst vs nodule/lipoma",
+       "f": "Punctum, fluctuance, epithelial lining; lipoma is soft, rubbery, no punctum"
+      },
+      {
+       "name": "Erosion vs ulcer",
+       "f": "Depth — erosion is epidermal only (no scar); ulcer reaches dermis (scar)"
+      },
+      {
+       "name": "Scale vs crust",
+       "f": "Scale = keratin flakes (white/silver/yellow); crust = dried exudate (honey, brown, haemorrhagic)"
+      },
+      {
+       "name": "Lichenification vs plaque",
+       "f": "Lichenification = secondary thickening with exaggerated skin lines from rubbing; plaque is the primary raised lesion"
+      },
+      {
+       "name": "Lichenification vs PIH",
+       "f": "Both often coexist in skin of colour; PIH is colour only (flat), lichenification is palpable thickening"
+      },
+      {
+       "name": "Excoriation vs fissure",
+       "f": "Excoriation = linear scratch marks (patient-made); fissure = crack from dryness/tension"
+      },
+      {
+       "name": "Hypertrophic scar vs keloid",
+       "f": "Keloid extends beyond wound and rarely regresses; hypertrophic stays within and may improve",
+       "link": "keloids-hypertrophic-scars"
+      },
+      {
+       "name": "Atrophy vs atrophic scar",
+       "f": "Atrophy can be reversible (steroid epidermal thinning early); scars are permanent dermal repair"
+      }
+     ]
+    },
+    {
+     "h4": "Distribution & configuration"
+    },
+    {
+     "ul": [
+      "Annular + scale at edge + asymmetry → **tinea** (scrape before steroids); annular smooth, no scale → **granuloma annulare**; annular evanescent → **urticaria**.",
+      "Flexural red, well-demarcated, little scale → **inverse psoriasis**; flexural with satellite pustules → **candida**; flexural lichenified → **atopic eczema**.",
+      "Dermatomal pain before rash → **zoster** (early antivirals)."
+     ]
+    },
+    {
+     "h4": "Lichenification in chronic atopic eczema"
+    },
+    "Lichen simplex chronicus (localised, adult, no atopy needed); psoriasis (well-demarcated, silvery scale, extensors); scabies (burrows, family itch, web spaces); contact dermatitis; tinea (asymmetric, scaly edge)."
+   ],
+   "short": "Differentials"
+  },
+  {
+   "id": "management",
+   "title": "Management",
+   "blocks": [
+    {
+     "h": "Primary lesions (macule → cyst)"
+    },
+    {
+     "ul": [
+      "The primary lesion steers the **differential** and therefore whether you can treat (e.g. plaque psoriasis, acne papules, urticarial wheals) or must **refer** (new growing nodule, unexplained bullae, rapidly evolving pigmented patch).",
+      "Bullae, widespread pustules with systemic upset, or eczema herpeticum vesicles → same-day medical review (not OTC management).",
+      "Suspicious lesions: follow NICE NG12 suspected-cancer recognition and local 2WW/urgent pathways (melanoma, SCC); BCC usually routine unless high-risk site/behaviour."
+     ]
+    },
+    {
+     "h": "Secondary lesions (scale → scar)"
+    },
+    {
+     "ul": [
+      "**Scale:** keratolytics (e.g. salicylic acid preparations, urea) and emollients; choose ointments for thick scale.",
+      "**Crust (impetigo):** hydrogen peroxide 1% cream for localised non-bullous impetigo per NICE NG153; topical/oral antibiotics per extent, local guidance. (Pharmacy First in England covers impetigo in eligible patients — check current service specification.)",
+      "**Erosions/ulcers:** wound care, infection review, **refer** unexplained erosions/ulcers (pemphigus, malignancy, non-healing >2 weeks/suspicious edge). Leg ulcers → local leg-ulcer/tissue-viability pathway; diabetic foot ulcer → urgent foot protection/MDT service.",
+      "**Fissures:** greasy emollients, occlusion overnight, treat underlying eczema; angular cheilitis — consider candida/staph cover, dentures, iron/B12/folate.",
+      "**Lichenification:** needs **potent** topical corticosteroid for adequate duration under emollient regimen (ointment, occlusion may help), break itch–scratch cycle; refer if refractory.",
+      "**Atrophy:** prevention — right potency, right site, right duration, fingertip units; avoid potent steroids on face/flexures/genitals unless specialist directed.",
+      "**Excoriation:** treat the itch cause (eczema, scabies, systemic causes); keep nails short; consider infection.",
+      "**Scar/keloid:** counsel early treatment of inflammatory acne; keloid → refer (intralesional steroid/specialist)."
+     ]
+    },
+    {
+     "h": "Distribution & configuration"
+    },
+    "Pattern changes management: e.g. **zoster** (antiviral within 72 h, ophthalmic branch → same-day eye review), **tinea** (antifungal; avoid steroid-alone \"tinea incognito\"), **photo-distributed** (review photosensitising drugs), **contact pattern** (identify/avoid trigger; patch test referral).",
+    {
+     "h": "Lichenification in chronic atopic eczema"
+    },
+    {
+     "h": "Management for pharmacist/IP (UK — NICE CG57 / CKS)"
+    },
+    {
+     "ul": [
+      "**Emollients** liberally and often (250–500 g/week for a child, as soap substitute; leave-on).",
+      "**Topical corticosteroid by severity and site:** lichenified flexural areas in a child usually need a **moderate** (or short-course potent, per CKS/specialist guidance on limbs, not face) steroid once or twice daily until clear, then step down; consider weekend \"proactive\" maintenance for frequent flares. Mild potency for face/neck (moderate short courses only if severe).",
+      "Topical calcineurin inhibitors (tacrolimus/pimecrolimus) as second line for face/flexures in children ≥2 years when steroids unsuitable — prescriber/specialist initiation per local policy.",
+      "**Itch and sleep:** sedating antihistamine short-term only (≥6 months; not routine), cool environment, cotton clothing, short nails, bandaging/wet wraps under specialist advice.",
+      "**Infection:** bacterial — see NICE NG190 (secondary bacterial infection of eczema); **eczema herpeticum → same-day referral**, start aciclovir per guidance (ophthalmology if periocular).",
+      "Refer if uncontrolled despite optimal therapy, diagnostic doubt, recurrent infections, significant sleep/psychosocial impact, or suspected contact allergy."
+     ]
+    },
+    {
+     "h": "Referral"
+    },
+    {
+     "refer": [
+      {
+       "when": "same-day",
+       "t": "**Non-blanching** spots or purpura in an unwell patient: think meningococcal sepsis or vasculitis and escalate the same day."
+      },
+      {
+       "when": "routine",
+       "t": "Blisters or erosions with **mouth, eye or genital** involvement: SJS/TEN or immunobullous disease."
+      },
+      {
+       "when": "same-day",
+       "t": "Punched-out erosions on eczema: **eczema herpeticum**, same-day assessment."
+      },
+      {
+       "when": "routine",
+       "t": "A **new or changing pigmented lesion**: refer on the suspected-cancer pathway (NICE NG12)."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "red-flags",
+   "title": "Red flags and when to refer",
+   "blocks": [
+    {
+     "ul": [
+      "**Non-blanching** spots or purpura in an unwell patient: think meningococcal sepsis or vasculitis and escalate the same day.",
+      "Blisters or erosions with **mouth, eye or genital** involvement: SJS/TEN or immunobullous disease.",
+      "Punched-out erosions on eczema: **eczema herpeticum**, same-day assessment.",
+      "A **new or changing pigmented lesion**: refer on the suspected-cancer pathway (NICE NG12)."
+     ]
+    }
+   ],
+   "short": "Red flags"
+  },
+  {
+   "id": "pearls",
+   "title": "Prescriber pearls (UK pharmacist IP)",
+   "blocks": [
+    {
+     "pearls": [
+      "Write the description **before** you write the diagnosis — it protects against anchoring.",
+      "Use plain language with patients (\"small raised spots\", \"flat brown mark\") but precise terms in notes and referrals.",
+      "In skin of colour, erythema may look violaceous, grey, dark brown or be subtle — rely more on texture, warmth and palpation.",
+      "Secondary changes tell you **chronicity**: lichenification and atrophy take weeks–months to develop and to reverse — set expectations.",
+      "Crust or weeping on eczema = think infection (bacterial **or** herpetic). Punched-out erosions/monomorphic vesicles = eczema herpeticum → urgent same-day review.",
+      "Explain atrophy risk honestly but avoid \"steroid phobia\": under-treatment drives lichenification.",
+      "Ask \"where did it start and how did it spread?\" Geometric or \"outside-in\" shapes suggest something external. Bilateral symmetrical = more likely endogenous.",
+      "Show the family the **difference between lichenification and PIH**: thick skin should soften with adequate steroid + emollient over weeks; pigment change takes months and is not a sign of steroid damage.",
+      "Lichenified skin is less permeable — ointments and adequate potency/duration are needed; under-treatment due to steroid fear prolongs the itch–scratch cycle.",
+      "Fingertip-unit teaching; written eczema action plan; \"steroids first, then emollient after ~15–30 min\" (order matters less than adequate quantities).",
+      "Red flag script: \"If the eczema suddenly becomes painful with clusters of small blisters or punched-out sores, or your child has a fever, seek same-day help.\""
+     ]
+    },
+    {
+     "h": "Primary lesions (macule → cyst)"
+    },
+    {
+     "h": "Secondary lesions (scale → scar)"
+    },
+    {
+     "h": "Distribution & configuration"
+    },
+    {
+     "h": "Lichenification in chronic atopic eczema"
+    }
+   ],
+   "short": "Pearls"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Describing skin lesions: the language of dermatology?",
+   "a": "You need to describe a rash in notes, a referral, an advice-and-guidance request or a photo request."
+  },
+  {
+   "q": "What drives it?",
+   "a": "The level of the skin involved (epidermis, dermis, subcutis) decides what you see and feel."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "Describe lesion type → colour → surface → configuration → distribution, then build the differential from that description."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "Non-blanching purpura, blisters or erosions with mucosal involvement, and any changing pigmented lesion."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "**Non-blanching** spots or purpura in an unwell patient: think meningococcal sepsis or vasculitis and escalate the same day."
+  }
+ ],
+ "references": [],
+ "see_also": []
+}

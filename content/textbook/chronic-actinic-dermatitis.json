@@ -1,0 +1,198 @@
+{
+ "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
+ "key_facts": [
+  "Thickened, itchy eczema on the face, scalp, neck and backs of hands in an older man, sparing the upper eyelids, behind the ears and under the chin.",
+  "Extreme sensitivity to UVB, UVA and sometimes visible light, behaving like contact allergy to an endogenous light-altered antigen; contact allergy is common alongside.",
+  "Strict photoprotection (including visible light), emollients, potent topical steroid or tacrolimus; refer for phototesting and patch testing; specialist immunosuppression.",
+  "Cutaneous T-cell lymphoma and drug photosensitivity as mimics; erythroderma."
+ ],
+ "sections": [
+  {
+   "id": "overview",
+   "title": "Overview",
+   "blocks": [
+    "A **chronic, persistent, often severe eczema of sun-exposed skin** caused by abnormal sensitivity to UVB, often UVA and sometimes visible light. Typically affects **older men (60+), usually fair-skinned**, in the UK; also seen in younger people with darker skin types and in people with longstanding atopic eczema. Older synonyms: persistent light reaction, photosensitive eczema, actinic reticuloid (severe pseudolymphomatous end of the spectrum)."
+   ]
+  },
+  {
+   "id": "aetiology",
+   "title": "Aetiology: causes and risk factors",
+   "blocks": [
+    "Thought to be a **delayed-type hypersensitivity (allergic contact-type) reaction to an endogenous skin antigen photo-modified by UV** — i.e. \"photo-allergy to one's own skin\". Strong links with **contact allergy**: up to ~3/4 have positive patch tests, especially to **Compositae (sesquiterpene lactones — chrysanthemums, daisies, dandelions)**, fragrance, colophony, rubber chemicals and **sunscreen filters**. May follow a photoallergic drug reaction (persistent light reaction) or airborne contact dermatitis. Cumulative sun damage and outdoor work/gardening/hobbies in older men are risk factors. Some drugs (thiazides, certain antibiotics) can aggravate it."
+   ],
+   "short": "Aetiology"
+  },
+  {
+   "id": "clinical-features",
+   "title": "Clinical features",
+   "blocks": [
+    {
+     "ul": [
+      "**Itchy, red, thickened, lichenified eczematous plaques** on face (forehead, cheeks, nose), scalp in bald men, ears, **back and sides of neck, V of chest, dorsal hands/forearms**.",
+      "**Sharp cut-off** at collar and wrist/cuff; **sparing** of upper eyelids, skin creases, behind/under ears, under chin, finger webs (DermNet gallery).",
+      "Can extend to covered sites and progress to **erythroderma** in severe cases.",
+      "Present year-round but worse in summer; patients may say even indoor light/fluorescent light triggers flares.",
+      "Darker skin: hyperpigmentation and lichenification more than redness.",
+      "Severe: infiltrated papules/plaques with atypical lymphocytes (actinic reticuloid) — mimics cutaneous T-cell lymphoma (Sézary syndrome)."
+     ]
+    },
+    {
+     "fig": {
+      "dermnet": "m5w6:C01"
+     }
+    }
+   ]
+  },
+  {
+   "id": "diagnosis",
+   "title": "Diagnosis and investigations",
+   "blocks": [
+    "Clinical suspicion + specialist confirmation:",
+    {
+     "ul": [
+      "**Monochromator phototesting** (photobiology unit): reduced minimal erythema dose to UVB ± UVA ± visible — confirms diagnosis and guides photoprotection.",
+      "**Patch testing and photopatch testing** (Compositae mix, fragrance, sunscreen agents, plant extracts).",
+      "Biopsy: chronic spongiotic dermatitis ± atypical lymphoid infiltrate; exclude lymphoma (Sézary cells, T-cell receptor gene studies if erythrodermic).",
+      "Bloods: ANA/ENA (exclude lupus), porphyrins; HIV in younger patients with new severe photosensitivity.",
+      "Drug history (exclude drug photosensitivity)."
+     ]
+    }
+   ],
+   "short": "Diagnosis"
+  },
+  {
+   "id": "differentials",
+   "title": "Differential diagnoses",
+   "blocks": [
+    {
+     "ddx": [
+      {
+       "name": "Airborne contact dermatitis (e.g. Compositae, sawdust)",
+       "f": "Involves **shaded** sites too (upper eyelids, under chin, behind ears); patch tests; may coexist with CAD"
+      },
+      {
+       "name": "Photoallergic drug reaction",
+       "f": "Temporal link to drug; resolves after stopping (persistent light reaction = CAD-like evolution)",
+       "link": "drug-photosensitivity"
+      },
+      {
+       "name": "Seborrhoeic / atopic eczema",
+       "f": "Flexural/scalp/nasolabial involvement; not light-cut-off"
+      },
+      {
+       "name": "Cutaneous lupus",
+       "f": "Plaques with scarring/atrophy; ANA/Ro"
+      },
+      {
+       "name": "Cutaneous T-cell lymphoma / Sézary",
+       "f": "Erythroderma, lymphadenopathy, atypical cells — biopsy",
+       "link": "mycosis-fungoides"
+      },
+      {
+       "name": "PMLE",
+       "f": "Younger, intermittent, clears within weeks, not lichenified",
+       "link": "polymorphic-light-eruption"
+      },
+      {
+       "name": "Rosacea",
+       "f": "Central face, papulopustules, telangiectasia, flushing; no eczema",
+       "link": "acne-mimics"
+      }
+     ]
+    }
+   ],
+   "short": "Differentials"
+  },
+  {
+   "id": "management",
+   "title": "Management",
+   "blocks": [
+    "**Refer to dermatology** (phototesting/patch testing are specialist). While waiting and long-term:",
+    {
+     "ul": [
+      "**Rigorous photoprotection** (UVB, UVA ± visible): broad-spectrum SPF 50+ high UVA, **fragrance-free**, ideally **mineral/tinted** if visible-light sensitive or sunscreen-allergic; wide-brimmed hats, long sleeves, gloves, UV-protective window film; avoid sun 10:00–16:00.",
+      "**Allergen avoidance** per patch tests (e.g. Compositae plants in garden, fragrance).",
+      "**Emollients + soap substitutes.**",
+      "**Topical corticosteroids** — potent to body/hands; moderate short courses to face; **topical calcineurin inhibitors** (tacrolimus 0.1%/pimecrolimus — off-label for CAD, specialist-guided) as steroid-sparing on the face. Counsel: TCIs can cause transient burning; strict sun protection while using them.",
+      "Flares: short oral prednisolone (prescriber decision).",
+      "Specialist systemic: **azathioprine**, ciclosporin, mycophenolate, methotrexate, dupilumab (case reports); low-dose PUVA/narrowband UVB under steroid cover (hardening) in selected patients.",
+      "**Vitamin D supplementation** (10 micrograms daily, or check levels) because of strict sun avoidance.",
+      "Review **aggravating drugs** (thiazides, etc.)."
+     ]
+    },
+    {
+     "h": "Referral"
+    },
+    {
+     "refer": [
+      {
+       "when": "same-day",
+       "t": "Erythroderma or rapidly spreading eczema: same-day dermatology."
+      },
+      {
+       "when": "routine",
+       "t": "Persistent photosensitive eczema in an older adult: refer for **phototesting and patch testing**."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "red-flags",
+   "title": "Red flags and when to refer",
+   "blocks": [
+    {
+     "ul": [
+      "Erythroderma or rapidly spreading eczema: same-day dermatology.",
+      "Persistent photosensitive eczema in an older adult: refer for **phototesting and patch testing**."
+     ]
+    },
+    {
+     "h4": "Red flags / refer"
+    },
+    "Suspected CAD → routine dermatology (photobiology). **Urgent** if erythrodermic, systemically unwell, lymphadenopathy or atypical infiltrated plaques (exclude lymphoma)."
+   ],
+   "short": "Red flags"
+  },
+  {
+   "id": "pearls",
+   "title": "Prescriber pearls (UK pharmacist IP)",
+   "blocks": [
+    {
+     "pearls": [
+      "\"Eczema in an older man that is worst on the face, neck and backs of hands — and spares behind the ears\" = think CAD.",
+      "Patients may be sensitised to their **own sunscreen** — choose fragrance-free, minimal-filter or physical products and ask about reactions.",
+      "Gardening is a double hit (UV + Compositae): gloves, long sleeves, avoid chrysanthemums/daisies if allergic.",
+      "Severe disease can be life-limiting (house-bound): signpost BAD leaflet and support; consider mental health.",
+      "Many improve over years with strict avoidance."
+     ]
+    }
+   ],
+   "short": "Pearls"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Chronic actinic dermatitis?",
+   "a": "Thickened, itchy eczema on the face, scalp, neck and backs of hands in an older man, sparing the upper eyelids, behind the ears and under the chin."
+  },
+  {
+   "q": "What drives it?",
+   "a": "Extreme sensitivity to UVB, UVA and sometimes visible light, behaving like contact allergy to an endogenous light-altered antigen; contact allergy is common alongside."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "Strict photoprotection (including visible light), emollients, potent topical steroid or tacrolimus; refer for phototesting and patch testing; specialist immunosuppression."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "Cutaneous T-cell lymphoma and drug photosensitivity as mimics; erythroderma."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "Erythroderma or rapidly spreading eczema: same-day dermatology."
+  }
+ ],
+ "references": [],
+ "see_also": []
+}

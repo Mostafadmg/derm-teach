@@ -1,0 +1,293 @@
+{
+ "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
+ "key_facts": [
+  "**Hypertrophic scars** stay within the wound and often settle; **keloids** extend beyond it, persist and recur.",
+  "Keloids are much commoner in skin of colour and families; sites: earlobes, jawline, chest, shoulders, upper back.",
+  "First line: **silicone gel or sheet** for months; pressure; potent topical steroid under occlusion.",
+  "Specialist: intralesional steroid, cryotherapy, laser, excision with adjuvant therapy.",
+  "Biopsy an atypical or rapidly growing 'keloid' to exclude DFSP."
+ ],
+ "sections": [
+  {
+   "id": "overview",
+   "title": "Overview",
+   "blocks": [
+    "A **hypertrophic scar** is a raised scar that stays **within** the original wound and often improves over 1–2 years. A **keloid** is firm scar tissue that grows **beyond** the original wound border, persists and often recurs after excision."
+   ]
+  },
+  {
+   "id": "epidemiology",
+   "title": "Epidemiology",
+   "blocks": [
+    {
+     "ul": [
+      {
+       "t": "**Who**",
+       "sub": [
+        "Keloids peak at 10–30 years; up to 15–20× more common in people of African descent."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "aetiology",
+   "title": "Aetiology: causes and risk factors",
+   "blocks": [
+    {
+     "ul": [
+      "Excess collagen production with reduced breakdown during wound healing.",
+      "Triggers: acne, piercing, surgery (especially under tension), burns, vaccination, minor trauma.",
+      "**Keloids** are much more common in **skin of colour** and run in families."
+     ]
+    },
+    {
+     "h": "Myths to address"
+    },
+    {
+     "ul": [
+      "**\"Cut it out and it's gone\"**: keloids recur in most cases after simple excision."
+     ]
+    }
+   ],
+   "short": "Aetiology"
+  },
+  {
+   "id": "pathophysiology",
+   "title": "Pathophysiology and pathology",
+   "blocks": [
+    "Raised scars come from **too much collagen** and not enough breakdown.",
+    {
+     "mech": [
+      {
+       "k": "Wound",
+       "t": "Injury starts normal healing: inflammation, proliferation, remodelling."
+      },
+      {
+       "k": "Overactive fibroblasts",
+       "t": "TGF-β signalling keeps fibroblasts producing collagen."
+      },
+      {
+       "k": "Hypertrophic vs keloid",
+       "t": "Hypertrophic scars stay in the wound; keloids invade surrounding skin with thick, glassy collagen.",
+       "img": "v3-hypertrophic-vs-keloid.jpg",
+       "caption": "Hypertrophic scar (left) within the wound; keloid (right) extends beyond it."
+      },
+      {
+       "k": "Tension",
+       "t": "Wounds under tension (chest, shoulders) are most prone."
+      }
+     ]
+    },
+    {
+     "histo": [
+      "Keloid: thick hyalinised (glassy) collagen bundles; hypertrophic scar: nodules of collagen parallel to the surface."
+     ]
+    }
+   ],
+   "short": "Pathophysiology"
+  },
+  {
+   "id": "clinical-features",
+   "title": "Clinical features",
+   "blocks": [
+    {
+     "table": {
+      "head": [
+       "",
+       "Hypertrophic scar",
+       "Keloid"
+      ],
+      "rows": [
+       [
+        "Border",
+        "Stays within the wound",
+        "Extends **beyond** the wound"
+       ],
+       [
+        "Onset",
+        "Weeks after injury",
+        "Months, may keep growing"
+       ],
+       [
+        "Course",
+        "Often flattens over 1–2 years",
+        "Persists; **high recurrence** after excision"
+       ],
+       [
+        "Sites",
+        "Anywhere, under tension",
+        "Earlobes, jawline, chest, shoulders, upper back"
+       ]
+      ]
+     }
+    },
+    "Keloids may itch or hurt."
+   ]
+  },
+  {
+   "id": "diagnosis",
+   "title": "Diagnosis and investigations",
+   "blocks": [
+    "Clinical. Biopsy only for an atypical, rapidly growing or ulcerated ‘keloid’ (exclude dermatofibrosarcoma protuberans or other tumour)."
+   ],
+   "short": "Diagnosis"
+  },
+  {
+   "id": "differentials",
+   "title": "Differential diagnoses",
+   "blocks": [
+    {
+     "table": {
+      "head": [
+       "Look-alike",
+       "Distinguishing clues"
+      ],
+      "rows": [
+       [
+        "[Dermatofibroma](condition:dermatofibroma)",
+        "Small firm papule, dimple sign"
+       ],
+       [
+        "[DFSP](condition:dermatofibrosarcoma-protuberans)",
+        "Slowly enlarging plaque without a clear injury: biopsy"
+       ],
+       [
+        "Sarcoidosis in a scar",
+        "Purple papules in old scars; systemic signs"
+       ]
+      ]
+     }
+    }
+   ],
+   "short": "Differentials"
+  },
+  {
+   "id": "management",
+   "title": "Management",
+   "blocks": [
+    {
+     "ul": [
+      "Prevention: avoid elective procedures (piercing, cosmetic surgery) on keloid-prone sites in people with a keloid history.",
+      "**Silicone gel or sheet** (OTC) for months, not weeks; pressure (earlobe pressure clips).",
+      "Potent topical steroid under occlusion for early raised scars.",
+      "Specialist: **intralesional steroid**, cryotherapy, pulsed dye laser, careful excision with adjuvant therapy (**high recurrence** after excision alone)."
+     ]
+    },
+    "Explain that the aim is **improvement, not removal**.",
+    {
+     "h": "Treatment ladder"
+    },
+    {
+     "ladder": [
+      {
+       "k": "Early raised scar",
+       "t": "**Silicone gel or sheet** for months; pressure for earlobes.",
+       "tone": "base"
+      },
+      {
+       "k": "Persistent",
+       "t": "Potent topical steroid under occlusion.",
+       "tone": "first"
+      },
+      {
+       "k": "Specialist",
+       "t": "Intralesional steroid, cryotherapy, pulsed dye laser, excision with adjuvant (high recurrence).",
+       "tone": "refer"
+      }
+     ]
+    },
+    {
+     "h": "Referral"
+    },
+    {
+     "refer": [
+      {
+       "when": "urgent",
+       "t": "Rapidly growing or atypical ‘keloid’: exclude a tumour."
+      },
+      {
+       "when": "routine",
+       "t": "Symptomatic or disfiguring keloids."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "red-flags",
+   "title": "Red flags and when to refer",
+   "blocks": [
+    {
+     "ul": [
+      "A rapidly growing or atypical ‘keloid’: exclude a tumour.",
+      "Keloid tendency or skin of colour before elective procedures: experienced operator only."
+     ]
+    }
+   ],
+   "short": "Red flags"
+  },
+  {
+   "id": "complications",
+   "title": "Complications and prognosis",
+   "blocks": [
+    {
+     "h": "Complications"
+    },
+    {
+     "ul": [
+      "Itch, pain, restricted movement, disfigurement."
+     ]
+    },
+    {
+     "h": "Prognosis"
+    },
+    {
+     "ul": [
+      "Hypertrophic scars often improve over 1–2 years; keloids persist."
+     ]
+    }
+   ],
+   "short": "Complications"
+  },
+  {
+   "id": "pearls",
+   "title": "Prescriber pearls (UK pharmacist IP)",
+   "blocks": [
+    {
+     "pearls": [
+      "Keloids extend beyond the wound; hypertrophic scars do not.",
+      "OTC silicone gel is a reasonable first step for early raised scars: months, not weeks."
+     ]
+    }
+   ],
+   "short": "Pearls"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Key difference between keloid and hypertrophic scar?",
+   "a": "Keloids extend beyond the original wound; hypertrophic scars do not."
+  },
+  {
+   "q": "Which skin types are most keloid-prone?",
+   "a": "Skin of colour (Fitzpatrick IV–VI), with family history."
+  },
+  {
+   "q": "First-line OTC treatment?",
+   "a": "Silicone gel or sheet for months."
+  },
+  {
+   "q": "Why avoid excision alone?",
+   "a": "Keloids recur in most cases without adjuvant therapy."
+  }
+ ],
+ "references": [],
+ "see_also": [
+  "acne-scars",
+  "dermatofibroma",
+  "dermatofibrosarcoma-protuberans",
+  "skin-surgery-consent-complications"
+ ]
+}

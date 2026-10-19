@@ -156,7 +156,37 @@
    {
     "h": "–7.5 Limitations"
    },
-   "False reassurance is the main harm. Amelanotic and nodular melanomas are often missed by both apps and ABCDE."
+   "False reassurance is the main harm. Amelanotic and nodular melanomas are often missed by both apps and ABCDE.",
+   {
+    "h": "Other naevus types"
+   },
+   {
+    "table": {
+     "head": [
+      "Naevus",
+      "Key features",
+      "Management"
+     ],
+     "rows": [
+      [
+       "**Recurrent naevus** (\"pseudomelanoma\")",
+       "Pigment returning in a scar after a shave or incomplete excision",
+       "Refer **with the previous histology**; it mimics melanoma on dermoscopy"
+      ],
+      [
+       "Naevus spilus (speckled lentiginous)",
+       "Tan patch with darker speckles",
+       "Monitor; small melanoma risk"
+      ],
+      [
+       "Acral naevus",
+       "Parallel-**furrow** pattern on dermoscopy",
+       "Parallel-**ridge** pattern = melanoma (see [melanoma](condition:melanoma))"
+      ]
+     ]
+    }
+   },
+   "Special naevi have their own pages: [halo naevus](condition:halo-naevus), [blue naevus](condition:blue-naevus) and [Spitz and Reed naevi](condition:spitz-naevus)."
   ],
   "diagnosis": [
    {
@@ -345,6 +375,12 @@
     "m2w4:B03",
     "m2w4:B04",
     "m2w4:B05"
+   ]
+  },
+  {
+   "title": "Recurrent naevus in a scar",
+   "items": [
+    "m2w4:E06"
    ]
   }
  ],

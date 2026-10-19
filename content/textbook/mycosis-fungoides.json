@@ -1,0 +1,336 @@
+{
+ "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
+ "key_facts": [
+  "**Persistent scaly salmon-pink patches** or thin plaques on buttocks, hips, trunk or breasts that **never quite clear** despite steroids.",
+  "**Skin-homing clonal helper T cells**; slow patch → plaque → tumour; **Sézary syndrome** is the leukaemic form with erythroderma.",
+  "Suspect, **stop repeated empirical treatment**, refer for multiple biopsies; specialist skin-directed therapy for early disease.",
+  "**Tumour-stage disease**, **erythroderma with nodes (Sézary)**, years of misdiagnosis as eczema or psoriasis."
+ ],
+ "sections": [
+  {
+   "id": "overview",
+   "title": "Overview",
+   "blocks": [
+    "**MF is the commonest primary cutaneous T-cell lymphoma (CTCL)**, about half of all primary cutaneous lymphomas. It is usually indolent over years to decades, with a minority progressing. **Sézary syndrome** is the leukaemic, erythrodermic variant."
+   ]
+  },
+  {
+   "id": "aetiology",
+   "title": "Aetiology: causes and risk factors",
+   "blocks": [
+    "Clonal skin-homing CD4+ memory T-cells (CD4+, often CD7- and CD26-). Cause unknown; links to chronic antigen stimulation have been proposed. **Pautrier microabscesses** (intraepidermal collections of atypical lymphocytes) and **epidermotropism** without spongiosis are the histological hallmark, but they are absent in many early biopsies.",
+    {
+     "fig": {
+      "ai": "v3-mf-patch-plaque-tumour.jpg",
+      "caption": "Mycosis fungoides progresses slowly: patch (few atypical T cells in the epidermis) → plaque (more cells, thicker) → tumour (dermal nodule packed with lymphoma cells).",
+      "alt": "Three skin sections showing patch, plaque and tumour stages"
+     }
+    }
+   ],
+   "short": "Aetiology"
+  },
+  {
+   "id": "clinical-features",
+   "title": "Clinical features",
+   "blocks": [
+    {
+     "ul": [
+      "**Patch stage:** persistent, variably shaped, often **finely wrinkled (\"cigarette-paper\") pink-brown patches in sun-protected \"bathing-trunk\" sites** (buttocks, hips, breasts, inner thighs). Itchy or asymptomatic, **steroid-resistant or relapsing**.",
+      "**Plaque stage:** infiltrated, scaly, annular plaques.",
+      "**Tumour stage:** nodules that may ulcerate.",
+      "**Erythroderma**, poikiloderma (atrophy, mottled pigmentation, telangiectasia), and variants (folliculotropic, hypopigmented in skin of colour and children, granulomatous slack skin, pagetoid reticulosis)."
+     ]
+    },
+    {
+     "fig": {
+      "dermnet": "m2w3:G01"
+     }
+    },
+    {
+     "h": "Types to recognise"
+    },
+    {
+     "variants": [
+      {
+       "name": "Patches & plaques",
+       "t": "Trunk / hips. *Site: Trunk.*",
+       "photo": "m2w3:G01"
+      },
+      {
+       "name": "Plaque stage",
+       "t": "Sharply defined, variable. *Site: Trunk.*",
+       "photo": "m2w3:G02"
+      },
+      {
+       "name": "Tumour stage",
+       "t": "Ulcerated nodule. *Site: Any.*",
+       "photo": "m2w3:G03",
+       "danger": true
+      },
+      {
+       "name": "Sézary syndrome",
+       "t": "Erythroderma. *Site: Whole skin.*",
+       "photo": "m2w3:G04",
+       "danger": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "diagnosis",
+   "title": "Diagnosis and investigations",
+   "blocks": [
+    {
+     "ul": [
+      "**Multiple biopsies** (ideally after a 2–4-week washout of topical steroids) with immunohistochemistry and **TCR gene rearrangement** (clonality). Diagnosis often takes years.",
+      "**ISCL/EORTC algorithm for early MF**. Diagnosis needs **≥4 points**: **Clinical:** 2 points for the basic criterion (persistent and/or progressive patches/plaques) plus 2 of the additional criteria (non-sun-exposed distribution; size or shape variation; poikiloderma), or 1 point for the basic criterion plus 1 additional; **Histopathology:** 2 points for a superficial lymphoid infiltrate plus both epidermotropism without spongiosis and lymphoid atypia, or 1 point for the infiltrate plus one of those; **Molecular:** clonal TCR rearrangement = 1 point; **Immunopathology:** CD2/3/5 <50% of T-cells, CD7 <10%, or epidermal/dermal discordance = 1 point",
+      "**Staging (ISCL/EORTC TNMB)**:"
+     ]
+    },
+    {
+     "table": {
+      "head": [
+       "Stage",
+       "Skin (T)",
+       "Notes"
+      ],
+      "rows": [
+       [
+        "IA",
+        "T1: patches/plaques **<10% BSA**",
+        "Life expectancy similar to the general population"
+       ],
+       [
+        "IB",
+        "T2: **≥10% BSA**",
+        ""
+       ],
+       [
+        "IIA",
+        "T1–2 with dermatopathic (N1–2) nodes",
+        ""
+       ],
+       [
+        "**IIB**",
+        "**T3: ≥1 tumour (≥1 cm)**",
+        "\"Advanced\" begins at IIB"
+       ],
+       [
+        "III",
+        "T4: erythroderma (≥80% BSA)",
+        ""
+       ],
+       [
+        "IVA–IVB",
+        "Blood B2 (Sézary), N3 nodes, or visceral (M1)",
+        ""
+       ]
+      ]
+     }
+    },
+    {
+     "ul": [
+      "Staging investigations (specialist): FBC + blood film/flow cytometry for Sézary cells, LDH, LFTs, HTLV-1 serology, and CT (or PET-CT) for stage ≥IIA or as indicated. Biopsy suspicious nodes."
+     ]
+    }
+   ],
+   "short": "Diagnosis"
+  },
+  {
+   "id": "differentials",
+   "title": "Differential diagnoses",
+   "blocks": [
+    {
+     "ddx": [
+      {
+       "name": "Chronic eczema / contact dermatitis",
+       "f": "Patch test (e.g. mechanic).",
+       "link": "eczema-dermatitis"
+      },
+      {
+       "name": "Psoriasis",
+       "f": "Silvery scale, extensors.",
+       "link": "psoriasis"
+      },
+      {
+       "name": "Tinea corporis",
+       "f": "Scrape.",
+       "link": "tinea"
+      },
+      {
+       "name": "Parapsoriasis",
+       "f": "Small / large plaque (large can progress)."
+      },
+      {
+       "name": "Drug pseudolymphoma",
+       "f": "Anticonvulsants, ACE-i / ARBs, **amlodipine**; dupilumab unmasking.",
+       "link": "drug-eruption-approach"
+      },
+      {
+       "name": "Lichen planus / cutaneous lupus",
+       "f": "Biopsy distinguishes.",
+       "link": "lichen-planus"
+      }
+     ]
+    },
+    "**Chronic eczema (including occupational contact dermatitis, relevant to a mechanic; patch test)**, psoriasis, tinea corporis (scrape), parapsoriasis (small- and large-plaque, where large-plaque can progress), pityriasis lichenoides, **drug-induced pseudolymphoma / MF-like drug eruptions** (reported with, among others, anticonvulsants, ACE inhibitors/ARBs, **amlodipine** and other calcium-channel blockers, and dupilumab-associated CTCL unmasking), lichen planus, cutaneous lupus."
+   ],
+   "short": "Differentials"
+  },
+  {
+   "id": "management",
+   "title": "Management",
+   "blocks": [
+    "**IP role**",
+    {
+     "ul": [
+      "A **rash not responding to an appropriate potent topical steroid over several weeks, especially in sun-protected sites, should be referred for biopsy**. Do not repeat or escalate steroids indefinitely, as happened for 12 months in [Case 5](condition:basal-cell-carcinoma). Refer **routinely to urgently depending on stage clues** (tumours, erythroderma, lymphadenopathy, systemic symptoms: urgent). Primary cutaneous lymphoma is managed in **specialist supra-network skin lymphoma MDTs**.",
+      "Review drug triggers. Stopping a suspected culprit (e.g. amlodipine) and reviewing after 6–12 weeks may be appropriate *before or alongside* biopsy. This is a joint decision with the GP/dermatologist.",
+      "[Case 5](condition:basal-cell-carcinoma) medicines: **canagliflozin (SGLT2 inhibitor)** has no link to MF but carries genital mycotic infection and DKA risk (check the patient's wellbeing). Metformin: none. Simvastatin + amlodipine: the BNF/MHRA cap simvastatin at **20 mg** with amlodipine (CYP3A4 interaction), so check the dose."
+     ]
+    },
+    "**Specialist treatment (BAD/UKCLG Gilson 2019)**",
+    {
+     "ul": [
+      "**Early (IA–IIA): skin-directed therapy.** Potent/very potent topical steroid; **phototherapy** (narrowband UVB for patches, PUVA for thicker plaques; the course answer); topical **chlormethine gel** (Ledaga®); localised radiotherapy; topical bexarotene (not UK-licensed); and for many IA patients, \"expectant\" skin-directed care.",
+      "**Advanced (IIB–IV):** Total-skin electron beam therapy; Systemic **bexarotene** (hypertriglyceridaemia and central hypothyroidism; needs a lipid-lowering agent and levothyroxine; **avoid gemfibrozil**); Low-dose **methotrexate**; Interferon-α; **Mogamulizumab** (anti-CCR4; NICE TA754: Sézary after ≥1 systemic therapy, MF stage IIB+ after ≥2); **Brentuximab vedotin** for CD30+ (NICE TA577); Extracorporeal photopheresis (Sézary); Chemotherapy; Allogeneic stem-cell transplant in selected patients",
+      "Quality of life: **itch** (emollients, antihistamines, gabapentin/pregabalin, mirtazapine, aprepitant for refractory itch), and work and psychological impact."
+     ]
+    },
+    "**Other primary cutaneous lymphomas**",
+    {
+     "table": {
+      "head": [
+       "Group",
+       "Examples",
+       "Behaviour"
+      ],
+      "rows": [
+       [
+        "CTCL",
+        "MF (and variants), **Sézary syndrome**",
+        "Sézary is aggressive"
+       ],
+       [
+        "CD30+ lymphoproliferative disorders",
+        "**Lymphomatoid papulosis** (recurrent self-healing papules), **primary cutaneous anaplastic large-cell lymphoma**",
+        "Excellent prognosis"
+       ],
+       [
+        "Others",
+        "Subcutaneous panniculitis-like TCL; primary cutaneous γδ TCL (aggressive); adult T-cell leukaemia/lymphoma (**HTLV-1**); extranodal NK/T-cell (nasal type)",
+        "Variable"
+       ],
+       [
+        "**CBCL**",
+        "Primary cutaneous **marginal zone** and **follicle centre** lymphoma (indolent: head/trunk nodules); **diffuse large B-cell lymphoma, leg type** (older women, red nodules on the leg; aggressive)",
+        "Indolent vs aggressive"
+       ]
+      ]
+     }
+    },
+    {
+     "h": "Treatment ladder"
+    },
+    {
+     "ladder": [
+      {
+       "k": "Refer",
+       "t": "Rash not responding to an appropriate **potent topical steroid over several weeks**, esp. sun-protected sites → biopsy. **Don’t escalate indefinitely.** Routine → urgent by stage clues; managed by **supra-network skin lymphoma MDTs**.",
+       "tone": "base"
+      },
+      {
+       "k": "Drug review",
+       "t": "Consider stopping a suspected culprit (e.g. amlodipine) and reviewing at 6–12 weeks, jointly with GP / dermatology.",
+       "tone": "first"
+      },
+      {
+       "k": "Specialist (early)",
+       "t": "Skin-directed: topical steroids, phototherapy; advanced disease: systemic therapy.",
+       "tone": "refer"
+      }
+     ]
+    },
+    {
+     "callout": "warn",
+     "title": "Prescribing limits and pitfalls",
+     "list": [
+      "**Dupilumab**: Biopsy atypical adult-onset ‘eczema’ before biologics: CTCL can be unmasked."
+     ]
+    },
+    {
+     "h": "Referral"
+    },
+    {
+     "refer": [
+      {
+       "when": "routine",
+       "t": "Fixed patches or plaques in sun-protected sites failing treatment for months: biopsy."
+      },
+      {
+       "when": "urgent",
+       "t": "**Erythroderma with lymph nodes**, intense itch, weight loss: **Sézary syndrome**."
+      },
+      {
+       "when": "urgent",
+       "t": "Tumours or ulcerated nodules in known or suspected MF."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "red-flags",
+   "title": "Red flags and when to refer",
+   "blocks": [
+    {
+     "ul": [
+      "Fixed patches or plaques in sun-protected sites that fail to respond to treatment over months: refer for **biopsy** (MF).",
+      "Erythroderma with lymph nodes, intense itch and weight loss: **urgent** referral (Sézary syndrome)."
+     ]
+    }
+   ],
+   "short": "Red flags"
+  },
+  {
+   "id": "pearls",
+   "title": "Prescriber pearls (UK pharmacist IP)",
+   "blocks": [
+    {
+     "pearls": [
+      "Explain that early MF is usually a **chronic, indolent** condition (stage IA has near-normal life expectancy). Avoid the \"advanced cancer\" framing without staging.",
+      "Cumulative UV raises skin cancer risk.",
+      "**Dupilumab caveat:** CTCL has been unmasked or accelerated in patients misdiagnosed with atopic dermatitis. In an atypical adult-onset \"eczema\" that is failing treatment, biopsy before biologics."
+     ]
+    }
+   ],
+   "short": "Pearls"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Classic distribution?",
+   "a": "Sun-protected ‘bathing-trunk’ sites."
+  },
+  {
+   "q": "Leukaemic form with erythroderma?",
+   "a": "Sézary syndrome."
+  },
+  {
+   "q": "Biopsy tip?",
+   "a": "Multiple biopsies after a 2–4-week steroid washout."
+  },
+  {
+   "q": "Why biopsy before dupilumab in atypical adult eczema?",
+   "a": "CTCL can be unmasked or accelerated."
+  }
+ ],
+ "references": [
+  {
+   "label": "Medscape: Mycosis fungoides & cutaneous lymphoma",
+   "url": "https://emedicine.medscape.com/article/2139720-overview"
+  }
+ ],
+ "see_also": []
+}

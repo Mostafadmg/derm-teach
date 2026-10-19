@@ -1,0 +1,258 @@
+{
+ "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
+ "key_facts": [
+  "A brown or black longitudinal stripe in one or more nails.",
+  "Melanocyte activation in the nail matrix (ethnic, drug, trauma, inflammation) or proliferation (naevus, melanoma).",
+  "Use the nail ABCDEF rule, photograph with a ruler, and refer suspicious single-digit bands on the suspected-cancer pathway.",
+  "Subungual melanoma: often diagnosed late, especially in darker skin where bands are common."
+ ],
+ "sections": [
+  {
+   "id": "overview",
+   "title": "Overview",
+   "blocks": [
+    "**Melanonychia** = brown/black nail discolouration, often a **longitudinal** band (melanonychia striata) from melanin deposited in the growing nail plate. May be diffuse. Pigment arises from:",
+    {
+     "ol": [
+      "**Melanocytic activation** (more melanin, normal melanocyte numbers) — racial/physiological, trauma, drugs, inflammatory disease, endocrine, infection, etc.",
+      "**Melanocytic hyperplasia** — lentigo, naevus, or **melanoma** of the nail unit."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "aetiology",
+   "title": "Aetiology: causes and risk factors",
+   "blocks": [
+    {
+     "h": "Who gets it / risk context"
+    },
+    {
+     "ul": [
+      "Common in **skin of colour** (Fitzpatrick V–VI); nearly all Afro-Caribbean adults develop some nail pigmentation by mid-life; also frequent in some Asian populations. Multiple regular bands = often benign racial pattern.",
+      "**Nail-unit melanoma** is uncommon but important: any age possible; relatively higher proportion of melanomas in people with darker skin types are acral/nail; classic teaching ages ~50–70; digits = **thumb, hallux, index** most often. Family history of melanoma increases risk. Trauma association is debated — trauma may draw attention to a lesion already present (Bob Marley's acral melanoma is the famous example).",
+      "Up to a substantial fraction of nail melanomas are **amelanotic/hypomelanotic** — do not wait for a black streak."
+     ]
+    }
+   ],
+   "short": "Aetiology"
+  },
+  {
+   "id": "clinical-features",
+   "title": "Clinical features",
+   "blocks": [
+    {
+     "h": "Benign vs concerning features"
+    },
+    {
+     "table": {
+      "head": [
+       "More reassuring (often benign)",
+       "More concerning (refer urgently)"
+      ],
+      "rows": [
+       [
+        "Multiple nails, stable, similar bands",
+        "**Single** nail, new or changing band"
+       ],
+       [
+        "Narrow (<~3 mm), regular parallel lines, homogeneous brown",
+        "Width **≥3 mm**, especially widening **proximally**; irregular borders"
+       ],
+       [
+        "Stable over years",
+        "Change in colour/width/speed of growth; dystrophy, splitting, bleeding, nodule"
+       ],
+       [
+        "No periungual pigment",
+        "**Hutchinson’s sign** — pigment on proximal/lateral nail fold/cuticle"
+       ],
+       [
+        "Child with stable congenital naevus pattern (still specialist if unsure)",
+        "Adult new single-digit band without clear racial/multi-nail pattern"
+       ]
+      ]
+     }
+    },
+    "**Hutchinson’s sign:** periungual extension of pigment historically linked to nail melanoma. Valuable but **not pathognomonic** — pseudo-Hutchinson’s can occur (e.g. pigment showing through thin fold, Bowen disease, some benign naevi). Still, Hutchinson’s + irregular dermoscopy in an adult single nail = **urgent specialist pathway**, not watchful waiting in primary care IP practice.",
+    {
+     "h": "ABCDE / ABCDEF of nail melanoma"
+    },
+    "Both **ABCDE** (Seebacher-style teaching) and full **ABCDEF**:",
+    {
+     "table": {
+      "head": [
+       "Letter",
+       "Meaning (paraphrased)"
+      ],
+      "rows": [
+       [
+        "**A**",
+        "**Age** ~50–70; higher relative concern in African, Asian, Native American ancestry (any ethnicity can be affected)"
+       ],
+       [
+        "**B**",
+        "**Band** brown-black, width **≥3 mm**, blurred/irregular borders"
+       ],
+       [
+        "**C**",
+        "**Change** — size, colour, or nail structure not improving"
+       ],
+       [
+        "**D**",
+        "**Digit** — thumb, hallux, or index finger most often"
+       ],
+       [
+        "**E**",
+        "**Extension** — Hutchinson’s sign (pigment onto periungual skin)"
+       ],
+       [
+        "**F**",
+        "**Family** history of melanoma (ABCDEF version)"
+       ]
+      ]
+     }
+    },
+    "Use as a **memory aid**, not a scoring rule that replaces clinical judgement.",
+    {
+     "h": "Worked case (incidental toe pigment)"
+    },
+    "Adult of African descent; incidental second-toe band; football (trauma history possible); dermoscopy heterogeneous irregular brown/black pigment **extending to proximal fold and cuticle** (= Hutchinson’s). Differentials include subungual haematoma and fungal melanonychia, but irregular pigment + Hutchinson’s → **do not reassure on trauma alone**.",
+    {
+     "fig": {
+      "dermnet": "m3w2:C01"
+     }
+    }
+   ]
+  },
+  {
+   "id": "diagnosis",
+   "title": "Diagnosis and investigations",
+   "blocks": [
+    {
+     "h": "Dermoscopic clues (onychoscopy)"
+    },
+    "**Benign pattern (typical):** regular brown lines, even spacing/thickness/colour, parallel, sharp margins.",
+    "**Suspicious pattern:** irregular lines (colour, spacing, thickness, parallelism), grey-black colours, width occupying large fraction of plate, granular pigmentation, micro-Hutchinson (pigment only visible on dermoscopy), associated dystrophy. Dermoscopy helps target biopsy site but **does not replace histology** when melanoma is plausible.",
+    {
+     "h": "Diagnosis & next step for UK IP"
+    },
+    {
+     "ul": [
+      "History: onset, change, trauma, drugs (e.g. hydroxyurea, chemotherapies, antimalarials), endocrine, family history, occupation.",
+      "Examine **all nails**, skin, mucosa if syndromic clues (Laugier–Hunziker, Peutz–Jeghers).",
+      "**Next step if suspicious:** **urgent specialist dermatology / skin-cancer pathway referral** for consideration of **nail-unit biopsy** (matrix ± bed as directed by dermatosurgeon; histopathology is gold standard).",
+      "**IP role:** recognise red flags, photograph if helpful, **do not** attempt nail-matrix biopsy in community pharmacy/primary-care IP settings; avoid prolonged antifungal “trials” that delay cancer referral.",
+      "Subungual haematoma usually migrates distally with growth; static/widening proximal pigment does not behave like simple blood."
+     ]
+    }
+   ],
+   "short": "Diagnosis"
+  },
+  {
+   "id": "differentials",
+   "title": "Differential diagnoses",
+   "blocks": [
+    {
+     "ul": [
+      "**Ethnic (racial) melanonychia**: several nails, often thumbs and index fingers, in darker skin types; stable, even bands.",
+      "**Drug-induced**: several nails after chemotherapy (hydroxyurea, cyclophosphamide), zidovudine, antimalarials or minocycline.",
+      "**Frictional or traumatic**: toenails rubbed by footwear; **subungual haematoma** is red-purple to black, grows out and does not reach the cuticle as a band.",
+      "**Fungal melanonychia** (*Trichophyton rubrum* var. nigricans, moulds): often wider distally, with nail-plate debris.",
+      "**Nail matrix naevus or lentigo**: a single even band in a child or young adult; still needs specialist assessment if changing.",
+      "**Nail-unit melanoma** and pigmented SCC (Bowen’s disease of the nail)."
+     ]
+    }
+   ],
+   "short": "Differentials"
+  },
+  {
+   "id": "management",
+   "title": "Management",
+   "blocks": [
+    {
+     "h": "Management outlook"
+    },
+    {
+     "ul": [
+      "Benign activation/racial melanonychia: explanation, photo-monitor, safety-net for change.",
+      "Confirmed nail melanoma: specialist surgical excision pathways (may include digit amputation depending on stage); prognosis historically worse than many cutaneous melanomas — **early referral saves lives**."
+     ]
+    },
+    {
+     "h": "Referral"
+    },
+    {
+     "refer": [
+      {
+       "when": "urgent",
+       "t": "**Single nail**, band **>3 mm** or widening, irregular colour, blurred borders, **Hutchinson sign** (pigment on the nail fold), nail dystrophy or bleeding: **urgent suspected-cancer referral** (NICE NG12)."
+      },
+      {
+       "when": "routine",
+       "t": "Any new band in an adult over 50, or a history of melanoma."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "red-flags",
+   "title": "Red flags and when to refer",
+   "blocks": [
+    {
+     "ul": [
+      "**Single nail**, band **>3 mm** or widening, irregular colour, blurred borders, **Hutchinson sign** (pigment on the nail fold), nail dystrophy or bleeding: **urgent suspected-cancer referral** (NICE NG12).",
+      "Any new band in an adult over 50, or a history of melanoma."
+     ]
+    }
+   ],
+   "short": "Red flags"
+  },
+  {
+   "id": "pearls",
+   "title": "Prescriber pearls (UK pharmacist IP)",
+   "blocks": [
+    {
+     "pearls": [
+      "Photograph the nail with a ruler and date it: change over time is the most useful sign.",
+      "Mark the top of a suspected haematoma with a small notch: if the pigment moves out with the nail, it is blood.",
+      "Pigment on the nail fold (Hutchinson sign) can be faked by a see-through cuticle (pseudo-Hutchinson sign), so let a specialist decide.",
+      "Ask about change, family history and previous melanoma; examine all nails and the skin.",
+      "A widening band, pigment spilling onto the nail fold (Hutchinson’s sign) or a dark mark on the sole: see [melanoma recognition](condition:melanoma) (acral melanoma)."
+     ]
+    }
+   ],
+   "short": "Pearls"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Melanonychia & nail melanoma?",
+   "a": "A brown or black longitudinal stripe in one or more nails."
+  },
+  {
+   "q": "What drives it?",
+   "a": "Melanocyte activation in the nail matrix (ethnic, drug, trauma, inflammation) or proliferation (naevus, melanoma)."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "Use the nail ABCDEF rule, photograph with a ruler, and refer suspicious single-digit bands on the suspected-cancer pathway."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "Subungual melanoma: often diagnosed late, especially in darker skin where bands are common."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "**Single nail**, band **>3 mm** or widening, irregular colour, blurred borders, **Hutchinson sign** (pigment on the nail fold), nail dystrophy or bleeding: **urgent suspected-cancer referral** (NICE NG12)."
+  }
+ ],
+ "references": [
+  {
+   "label": "Medscape: Melanonychia & nail melanoma",
+   "url": "https://emedicine.medscape.com/article/1375850-overview"
+  }
+ ],
+ "see_also": []
+}

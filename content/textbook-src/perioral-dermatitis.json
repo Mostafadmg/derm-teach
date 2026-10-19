@@ -1,0 +1,68 @@
+{
+ "kf": [
+  "**Perioral dermatitis** is a facial eruption of tiny papules and pustules around the mouth, nose or eyes with **sparing next to the lips**.",
+  "Commonest in women aged 20–45 and children; often provoked by **topical, inhaled or nasal steroids** and heavy creams.",
+  "No comedones (unlike acne); no flushing (unlike rosacea).",
+  "Stop steroids and cosmetics, expect a rebound; topical metronidazole or azelaic acid; oral tetracycline for 6–8 weeks if needed.",
+  "Children under 12: erythromycin rather than tetracycline."
+ ],
+ "epi": [
+  {
+   "t": "**Who**",
+   "sub": [
+    "Women 20–45 most; prepubertal children (often periocular, steroid-related)."
+   ]
+  }
+ ],
+ "aet": [
+  "Steroids disrupt the barrier and the follicle; occlusive cosmetics; possibly fluorinated toothpaste and microbiome changes."
+ ],
+ "myths": [
+  "**\"Hydrocortisone will settle it\"**: it masks it briefly and then makes it worse."
+ ],
+ "patho_lead": "Steroids and occlusion damage the **barrier around facial follicles**, triggering inflammation.",
+ "mech": [
+  {
+   "k": "Barrier disruption",
+   "t": "Steroids and heavy creams thin the barrier and alter the follicular microbiome."
+  },
+  {
+   "k": "Follicular inflammation",
+   "t": "Innate immune activation causes small papules and pustules around follicles."
+  },
+  {
+   "k": "Steroid dependence",
+   "t": "Steroids suppress the rash; stopping causes rebound, so patients reapply.",
+   "img": "v3-perioral-face.jpg",
+   "cap": "Perioral dermatitis: papules around the mouth and nose, with a clear rim next to the lips."
+  },
+  {
+   "k": "Resolution",
+   "t": "Stopping the trigger and anti-inflammatory treatment restores the barrier over weeks."
+  }
+ ],
+ "histo": [
+  "Rarely needed: perifollicular lymphohistiocytic infiltrate; granulomatous in the granulomatous variant."
+ ],
+ "special": [
+  {
+   "t": "**Granulomatous periorificial dermatitis**",
+   "sub": [
+    "Yellow-brown papules in children of African descent; slower to clear; refer if persistent."
+   ]
+  }
+ ],
+ "comp": [
+  "Steroid dependence, rebound flares, distress."
+ ],
+ "prog": [
+  "Clears over 6–12 weeks with treatment; recurs if steroids are restarted."
+ ],
+ "see_also": [
+  "rosacea",
+  "acne-mimics",
+  "acne-vulgaris",
+  "topical-corticosteroids",
+  "contact-dermatitis"
+ ]
+}

@@ -1,0 +1,49 @@
+{
+ "kf": [
+  "A **halo naevus** is a mole with a symmetrical white ring caused by immune destruction of melanocytes.",
+  "Common in children and teenagers (about 1%); often on the back; may be multiple.",
+  "Associated with **vitiligo**; the centre may disappear and the ring later repigment.",
+  "Reassure if the central naevus is regular; sun-protect the white skin.",
+  "Refer a **new halo in an adult over 40** or any atypical centre (melanoma can provoke halos)."
+ ],
+ "myths": [
+  "**\"The ring means cancer\"**: in young people it is a sign of benign immune clearance."
+ ],
+ "patho_lead": "The immune system **clears the naevus** and the melanocytes around it.",
+ "mech": [
+  {
+   "k": "Immune recognition",
+   "t": "CD8+ T cells recognise antigens on naevus melanocytes."
+  },
+  {
+   "k": "Destruction",
+   "t": "Naevus cells and surrounding normal melanocytes are destroyed, creating the white halo.",
+   "img": "v3-halo-blue-spitz.jpg",
+   "cap": "Halo naevus (white ring), blue naevus and Spitz naevus."
+  },
+  {
+   "k": "Regression",
+   "t": "The central naevus fades and may vanish."
+  },
+  {
+   "k": "Repigmentation",
+   "t": "Melanocytes repopulate the ring over months to years in many."
+  }
+ ],
+ "histo": [
+  "Naevus with a dense lymphocytic infiltrate; loss of melanocytes in the halo."
+ ],
+ "comp": [
+  "Sunburn of the white ring; association with vitiligo."
+ ],
+ "prog": [
+  "Benign; often regresses fully."
+ ],
+ "see_also": [
+  "melanocytic-naevi",
+  "blue-naevus",
+  "spitz-naevus",
+  "melanoma",
+  "hypopigmentation-skin-of-colour"
+ ]
+}

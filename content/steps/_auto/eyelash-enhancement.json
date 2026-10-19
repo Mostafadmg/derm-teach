@@ -1,0 +1,80 @@
+{
+ "_auto": true,
+ "glance": {
+  "chips": [
+   "Module 6 · Week 5",
+   "bimatoprost",
+   "Latisse",
+   "eyelash growth"
+  ],
+  "points": []
+ },
+ "cause": {
+  "points": [],
+  "visuals": []
+ },
+ "features": {
+  "photo": "m6w5:W5E-01",
+  "points": [
+   "Longer, darker lashes over weeks to months.",
+   "Side effects: periocular hyperpigmentation, **iris colour change** (especially hazel/green eyes), itch, redness; periorbital fat atrophy (glaucoma-dose context)."
+  ],
+  "visuals": [],
+  "variants": null,
+  "groups": [
+   0
+  ]
+ },
+ "confirm": {
+  "cols": []
+ },
+ "differentials": {
+  "cards": [
+   {
+    "name": "Alopecia areata",
+    "clue": "Patchy loss elsewhere; exclamation-mark hairs",
+    "link": "alopecia-areata"
+   },
+   {
+    "name": "Trichotillomania",
+    "clue": "Broken lashes of different lengths",
+    "link": "trichotillomania"
+   },
+   {
+    "name": "Blepharitis",
+    "clue": "Crusted, red lid margins"
+   },
+   {
+    "name": "Thyroid disease",
+    "clue": "Loss of the outer brows; systemic symptoms"
+   }
+  ]
+ },
+ "manage": {
+  "rungs": []
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "routine",
+    "t": "Eye pain, redness or visual change: stop and seek ophthalmology review."
+   },
+   {
+    "when": "routine",
+    "t": "Patients on glaucoma drops: discuss with their ophthalmologist (additive effect on intraocular pressure)."
+   }
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "Eyelash serums sold cosmetically vary widely; prescription bimatoprost needs proper counselling on iris pigment."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "Eye pain, redness or visual change: stop and seek ophthalmology review."
+  }
+ ]
+}

@@ -1,0 +1,293 @@
+{
+ "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
+ "key_facts": [
+  "Blisters and erosions on the backs of the hands after minor knocks, healing with scars and milia; facial hypertrichosis; reddish-brown urine.",
+  "Reduced hepatic uroporphyrinogen decarboxylase activity (iron, alcohol, hepatitis C, oestrogen) causes porphyrin build-up that reacts with visible light.",
+  "Refer for porphyrin testing; stop alcohol and oestrogens; screen liver, iron, hepatitis B/C and HIV; specialist venesection or low-dose hydroxychloroquine; visible-light protection.",
+  "Underlying liver disease or hepatocellular carcinoma; haemochromatosis; pseudoporphyria from naproxen or other drugs."
+ ],
+ "sections": [
+  {
+   "id": "overview",
+   "title": "Overview",
+   "blocks": [
+    "The commonest porphyria worldwide: a **blistering photosensitivity with skin fragility** caused by reduced activity of the hepatic haem-pathway enzyme **uroporphyrinogen decarboxylase (UROD)**. Usually presents in middle-aged adults (more often men). **Sporadic/acquired (type 1, ~75–80%)** or **familial (type 2, inherited heterozygous UROD mutation)** — the latter still needs acquired triggers to become clinically active. A **non-acute** porphyria: no neurovisceral attacks."
+   ]
+  },
+  {
+   "id": "aetiology",
+   "title": "Aetiology: causes and risk factors",
+   "blocks": [
+    "When hepatic UROD activity falls below ~20–25% of normal, **uroporphyrin and heptacarboxyl porphyrins accumulate in the liver**, spill into plasma and urine, and deposit in skin. Porphyrins absorb strongly in the **Soret band (~400–410 nm, visible violet light)**, generating reactive oxygen species → damage at the dermo-epidermal junction → fragility and subepidermal blisters. **Triggers / associations (mostly hepatic iron and oxidative stress):**",
+    {
+     "ul": [
+      "**Alcohol** (Case 2: ~40 units/week) and **smoking** (Case 2: 10/day)",
+      "**Iron overload** — including **HFE haemochromatosis** mutations",
+      "**Hepatitis C** (also hepatitis B), **HIV**",
+      "**Oestrogens** (COC, HRT, prostate cancer therapy)",
+      "Chronic kidney disease/haemodialysis; occasionally hepatocellular carcinoma (\"hepatic porphyrinoma\"); polyhalogenated aromatic hydrocarbons (historical)"
+     ]
+    },
+    "**Liver** is the internal organ most affected: steatosis, siderosis, fibrosis/cirrhosis and raised risk of hepatocellular carcinoma."
+   ],
+   "short": "Aetiology"
+  },
+  {
+   "id": "clinical-features",
+   "title": "Clinical features",
+   "blocks": [
+    {
+     "ul": [
+      "**Tense vesicles and bullae (some haemorrhagic)** on **dorsal hands and fingers**, forearms, face, and scalp/ears in bald men — often after minor knocks.",
+      "**Skin fragility**: erosions and crusts from trivial trauma; slow healing over weeks.",
+      "**Milia**, atrophic and white/pink scars on dorsal hands.",
+      "**Hypertrichosis** of temples/cheeks, mottled hyper/hypopigmentation, sclerodermoid thickening (late).",
+      "**Dark, red-brown or \"tea\"/port-wine urine**; fluoresces pink-red under Wood's lamp.",
+      "Worse in summer (Case 2) — but patients often don't link it to sun, because the trigger is visible light through windows and damage is delayed."
+     ]
+    },
+    {
+     "fig": {
+      "dermnet": "m5w6:B01"
+     }
+    }
+   ]
+  },
+  {
+   "id": "diagnosis",
+   "title": "Diagnosis and investigations",
+   "blocks": [
+    {
+     "ul": [
+      "**Most relevant first test: urine (and/or plasma) porphyrins** — raised uroporphyrin and heptacarboxylic porphyrin; faecal isocoproporphyrin raised. Plasma fluorescence emission peak ~619–620 nm distinguishes PCT from variegate porphyria (~626 nm) — this matters because variegate porphyria can cause acute attacks. ALA and porphobilinogen normal.",
+      "**Associated-cause work-up:** LFTs, **ferritin + transferrin saturation**, **HFE genotyping**, **hepatitis C and B, HIV serology**, glucose/HbA1c, renal function, consider liver ultrasound (± HCC surveillance if cirrhotic), ANA if diagnostic overlap.",
+      "Skin biopsy (subepidermal blister with \"festooning\" of dermal papillae; immunofluorescence) when needed to exclude other bullous disease.",
+      "Sent via specialist porphyria laboratory; UK National Acute Porphyria Service / specialist dermatology."
+     ]
+    }
+   ],
+   "short": "Diagnosis"
+  },
+  {
+   "id": "differentials",
+   "title": "Differential diagnoses",
+   "blocks": [
+    {
+     "ddx": [
+      {
+       "name": "Pseudoporphyria",
+       "f": "Same clinical picture but **normal porphyrins**; drugs — **naproxen** (and other NSAIDs), tetracyclines, **furosemide**, bumetanide, nalidixic acid, isotretinoin, dapsone, voriconazole; **sunbeds**; haemodialysis. Hypertrichosis and dark urine absent. Stop the drug/sunbed."
+      },
+      {
+       "name": "Variegate porphyria / hereditary coproporphyria",
+       "f": "Same skin changes **plus risk of acute neurovisceral attacks** — porphyrin pattern differs; dangerous drug list applies"
+      },
+      {
+       "name": "Epidermolysis bullosa acquisita",
+       "f": "Trauma-induced blisters/milia, but not photo-related; biopsy/immunofluorescence",
+       "link": "epidermolysis-bullosa"
+      },
+      {
+       "name": "Bullous pemphigoid",
+       "f": "Elderly, itchy urticated plaques + tense blisters trunk/flexures",
+       "link": "bullous-pemphigoid"
+      },
+      {
+       "name": "Bullous drug eruption / fixed drug eruption",
+       "f": "Drug timing; recurring same site"
+      },
+      {
+       "name": "Phytophotodermatitis / phototoxic drug",
+       "f": "Acute single episode; streaks; no fragility/milia",
+       "link": "phytophotodermatitis"
+      },
+      {
+       "name": "Erythropoietic protoporphyria",
+       "f": "Childhood, immediate burning pain in sun, little blistering"
+      }
+     ]
+    },
+    {
+     "h4": "Pseudoporphyria and EBA"
+    },
+    {
+     "callout": "info",
+     "title": "Full PCT coverage",
+     "text": "(pathophysiology, urine porphyrin testing, venesection, low-dose hydroxychloroquine, visible-light sunscreen) is in the [photodermatoses](condition:polymorphic-light-eruption) notes. Only the case-specific points and the mimics are covered here."
+    },
+    {
+     "h4": "What it is"
+    },
+    "PCT is the **commonest porphyria**. It comes from reduced **hepatic uroporphyrinogen decarboxylase (UROD)** activity, which is acquired (type 1, ~80%) or familial (type 2). Uroporphyrins build up and cause **blistering photosensitivity on sun-exposed skin**.",
+    {
+     "h4": "How it is caused / pathophysiology"
+    },
+    "Porphyrins absorb visible light (Soret band ~400–410 nm), which damages the dermal–epidermal junction, so the skin becomes fragile and blisters below the epidermis. **Triggers that the history in Case 3 points to:**",
+    {
+     "ul": [
+      "**alcohol** (dependence)",
+      "**hepatitis C** and **HIV** (homelessness and possible injecting drug use, which may also explain the **forearm scars**)",
+      "**iron overload / HFE haemochromatosis**",
+      "oestrogens",
+      "smoking"
+     ]
+    },
+    {
+     "h4": "Clinical features & typical sites"
+    },
+    {
+     "ul": [
+      "**fragile skin, tense and haemorrhagic blisters and erosions on the backs of the hands** after minor trauma (Case 3; photo D01, and the [photodermatoses](condition:polymorphic-light-eruption) notes B01–B06)",
+      "healing with **scarring, milia** and dyspigmentation",
+      "**facial hypertrichosis** (upper cheeks and temples)",
+      "photo-distributed hyperpigmentation or \"tanned\" face",
+      "morphoea-like sclerodermoid plaques later on",
+      "**dark or red-brown urine**"
+     ]
+    },
+    {
+     "h4": "How to diagnose"
+    },
+    "Urine porphyrins (a random urine sample **protected from light**; it may glow pink under Wood's lamp), plasma porphyrins with a **plasma fluorescence emission scan (peak ~619 nm)** to separate PCT from variegate porphyria, and stool porphyrins. Add LFT, **ferritin/transferrin saturation, HFE genotype**, **HCV, HBV and HIV serology**, glucose and liver ultrasound (HCC risk). Skin biopsy with DIF (perivascular IgG/C3) is not usually needed. Specialist support: **UK Porphyria Medicines Information Service / National Acute Porphyria Service**, Cardiff and King's.",
+    {
+     "h4": "Key differentials"
+    },
+    "Differentials for Case 3:",
+    {
+     "ul": [
+      "**Pseudoporphyria**: looks the same but porphyrins are **normal**. Drug causes are **naproxen** and other NSAIDs, tetracyclines, nalidixic acid, furosemide, retinoids, and **sunbeds**. Also seen in dialysis. Stop the drug (**Module 5 exam Q2**).",
+      "**Variegate porphyria / hereditary coproporphyria:** the skin looks the same, but there is a risk of **acute neurovisceral attacks** with porphyrinogenic drugs. This is why the plasma scan matters before choosing drugs.",
+      "**EBA**: trauma-induced acral blisters, scarring and milia; porphyrins normal; linear IgG on the *dermal* floor of salt-split skin.",
+      "**BP**, **bullous impetigo**, **friction or trauma blisters** (rough sleeping), **bullous drug eruption**, **bullosis diabeticorum**, **burns** (cigarettes in intoxication), and **erythropoietic protoporphyria** (painful, burning, no blisters, children)."
+     ]
+    },
+    {
+     "h4": "Management for pharmacist/IP (UK)"
+    },
+    {
+     "ul": [
+      "Refer to dermatology or hepatology (routine to urgent). Treat the drivers: **alcohol cessation** (local alcohol services, thiamine), **HCV direct-acting antivirals** (which often cure PCT), and stop oestrogens. Specialists then use **venesection** (to ferritin ~20 µg/L) or **low-dose hydroxychloroquine 100–200 mg twice weekly** (*not* daily, which causes hepatotoxicity), with eye screening per the RCOphth schedule. **Visible-light protection:** reflectant tinted sunscreen such as zinc/titanium with iron oxides; standard UV sunscreen is not enough.",
+      "**Social context for Case 3:** homelessness makes venesection and follow-up hard. Arrange a GP registration route, link with the hepatology outreach or HCV peer-support team, and give **gloves and hand protection**."
+     ]
+    },
+    {
+     "h4": "Prescriber pearls & counselling"
+    },
+    {
+     "ul": [
+      "**Blisters on the backs of the hands plus hypertrichosis or dark urine: check porphyrins and do a medication review (NSAIDs, so think pseudoporphyria).**",
+      "The porphyria drug-safety database (Welsh Medicines Information / NAPS) matters for **acute** porphyrias, *not* for PCT. Until the plasma scan excludes variegate porphyria, prescribe cautiously."
+     ]
+    },
+    {
+     "h4": "Photo / reference URLs"
+    },
+    {
+     "ul": [
+      "See the the [photodermatoses](condition:polymorphic-light-eruption) notes URL list. DermNet: [dermnetnz.org](https://dermnetnz.org/topics/pseudoporphyria) · [dermnetnz.org](https://dermnetnz.org/topics/epidermolysis-bullosa-acquisita)",
+      "UK Porphyria Medicines Information Service / NAPS: [wmic.wales.nhs.uk](https://www.wmic.wales.nhs.uk/specialist-services/drugs-in-porphyria/)"
+     ]
+    }
+   ],
+   "short": "Differentials"
+  },
+  {
+   "id": "management",
+   "title": "Management",
+   "blocks": [
+    "**Refer** — PCT diagnosis and treatment are specialist (dermatology ± hepatology/porphyria service). The pharmacist/IP role:",
+    {
+     "ul": [
+      "**Recognise** the pattern (blisters + fragility + scars/milia on dorsal hands; alcohol/smoking/oestrogen/hep C) and **refer** with suspicion stated; topical steroids don't help (Case 2).",
+      "**Remove triggers:** stop alcohol and smoking (offer NHS stop-smoking support and alcohol brief intervention), **review oestrogens** (COC/HRT — discuss alternatives with prescriber), **stop iron supplements and iron-containing multivitamins**.",
+      "Specialist treatments (know, don't initiate): **venesection** (reduce ferritin), **low-dose hydroxychloroquine** (e.g. 100 mg–200 mg **twice weekly**, not standard daily antimalarial doses, which can cause hepatotoxicity), treatment of hepatitis C with direct-acting antivirals often induces remission. Chloroquine sometimes used at low dose.",
+      "**Visible-light photoprotection**: conventional chemical UV filters don't cover 400–410 nm — recommend **reflectant sunscreens containing titanium dioxide/zinc oxide, ideally tinted (iron-oxide)**, e.g. Dundee cream (via specialists) or tinted mineral SPF 50; gloves, long sleeves, hats; **window film** for car/home.",
+      "Wound care for erosions (non-adherent dressings, watch for infection); protect hands from trauma (gloves for DIY/gardening)."
+     ]
+    },
+    {
+     "h": "Referral"
+    },
+    {
+     "refer": [
+      {
+       "when": "urgent",
+       "t": "Signs of chronic liver disease or a known liver mass: urgent review."
+      },
+      {
+       "when": "never",
+       "t": "Ordinary sunscreens do not block visible light: use opaque or tinted (iron oxide) protection."
+      },
+      {
+       "when": "never",
+       "t": "Do not use standard-dose hydroxychloroquine: only low-dose under specialist advice (risk of hepatotoxicity)."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "red-flags",
+   "title": "Red flags and when to refer",
+   "blocks": [
+    {
+     "ul": [
+      "Signs of chronic liver disease or a known liver mass: urgent review.",
+      "Ordinary sunscreens do not block visible light: use opaque or tinted (iron oxide) protection.",
+      "Do not use standard-dose hydroxychloroquine: only low-dose under specialist advice (risk of hepatotoxicity)."
+     ]
+    },
+    {
+     "h4": "Red flags / refer"
+    },
+    "All suspected PCT → routine-soon dermatology with urine porphyrins requested in primary care if local pathway allows. Urgent if abdominal pain, neuropathy, psychiatric features or hyponatraemia (possible acute porphyria — check drug safety via the Welsh Medicines Advice/UK Porphyria Medicines Information Service database). Signs of decompensated liver disease → urgent."
+   ],
+   "short": "Red flags"
+  },
+  {
+   "id": "pearls",
+   "title": "Prescriber pearls (UK pharmacist IP)",
+   "blocks": [
+    {
+     "pearls": [
+      "**Blisters on the back of the hands in a drinker = check porphyrins**; \"worse in summer\" but light through glass counts.",
+      "**Pseudoporphyria** is the pharmacist's catch: look for **naproxen**, doxycycline, furosemide or sunbed use — normal porphyrins, resolves (slowly, months) after withdrawal.",
+      "Before supplying drugs to anyone with a porphyria diagnosis, check porphyria drug safety lists (BNF \"Acute porphyrias\" section and UK Porphyria Medicines Information Service) — strictly relevant to acute porphyrias, but confirm the type.",
+      "Ask about **urine colour**.",
+      "Long-term: alcohol abstinence reduces relapse; screen for HCC if cirrhosis."
+     ]
+    }
+   ],
+   "short": "Pearls"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Porphyria cutanea tarda (& pseudoporphyria)?",
+   "a": "Blisters and erosions on the backs of the hands after minor knocks, healing with scars and milia; facial hypertrichosis; reddish-brown urine."
+  },
+  {
+   "q": "What drives it?",
+   "a": "Reduced hepatic uroporphyrinogen decarboxylase activity (iron, alcohol, hepatitis C, oestrogen) causes porphyrin build-up that reacts with visible light."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "Refer for porphyrin testing; stop alcohol and oestrogens; screen liver, iron, hepatitis B/C and HIV; specialist venesection or low-dose hydroxychloroquine; visible-light protection."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "Underlying liver disease or hepatocellular carcinoma; haemochromatosis; pseudoporphyria from naproxen or other drugs."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "Signs of chronic liver disease or a known liver mass: urgent review."
+  }
+ ],
+ "references": [
+  {
+   "label": "Medscape: Porphyria cutanea tarda (& pseudoporphyria)",
+   "url": "https://emedicine.medscape.com/article/1103643-overview"
+  }
+ ],
+ "see_also": []
+}

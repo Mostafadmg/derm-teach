@@ -1,0 +1,170 @@
+{
+ "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
+ "key_facts": [
+  "Non-blanching red or purple spots or bruises, in a child or an adult.",
+  "Low or faulty platelets, clotting problems, fragile vessels (age, steroids, scurvy) or vessel inflammation.",
+  "Glass test; is the patient unwell? FBC and film, clotting, U&E, LFT, CRP, urine; same-day if unwell or platelets low.",
+  "Meningococcal sepsis, leukaemia, ITP, DIC, cryoglobulinaemic or ANCA vasculitis, non-accidental injury."
+ ],
+ "sections": [
+  {
+   "id": "overview",
+   "title": "Overview",
+   "blocks": [
+    "Short comparison cards for the four other options and the emergency that must always be excluded."
+   ]
+  },
+  {
+   "id": "aetiology",
+   "title": "Aetiology: causes and risk factors",
+   "blocks": [
+    {
+     "h": "How they are caused / 8.3 Clinical features"
+    },
+    {
+     "table": {
+      "head": [
+       "Condition",
+       "Mechanism",
+       "Who / features"
+      ],
+      "rows": [
+       [
+        "**Acute haemorrhagic oedema of infancy (AHEI)**",
+        "Immune-complex LCV (often post-infection/vaccine/antibiotic)",
+        "**Infants 4 months–2 years**: large **rosette/target/medallion purpuric plaques** on face, ears and limbs with oedema and fever, but **the child looks well**. Usually skin-only; resolves in 1–3 weeks"
+       ],
+       [
+        "**Cryoglobulinaemic vasculitis**",
+        "Cold-precipitating immunoglobulins (type II/III mixed — **hepatitis C**, Sjögren's, lymphoma; type I — myeloma/Waldenström's occlusion)",
+        "Adults; palpable purpura on legs, **acral necrosis/ulcers, livedo**, Raynaud's, arthralgia, neuropathy, **membranoproliferative GN**, low C4; DIF IgM ( option 5)"
+       ],
+       [
+        "**Granulomatosis with polyangiitis (GPA)**",
+        "**PR3-ANCA (c-ANCA)** necrotising granulomatous small/medium-vessel vasculitis",
+        "Rare in children; sinusitis, crusting, epistaxis, saddle nose, lung nodules/haemorrhage, **GN**; skin: palpable purpura, ulcers, nodules, **oral ulcers/\"strawberry gums\"**. Biopsy: **necrotising vasculitis with granulomas** ( option 2)"
+       ],
+       [
+        "**ITP**",
+        "Autoantibody platelet destruction (often post-viral in children)",
+        "**Well child, flat petechiae and bruising, mucosal bleeding; platelets <100 (often <20) × 10⁹/L**; otherwise normal FBC/film. Most children recover in 6 months"
+       ],
+       [
+        "**Meningococcal sepsis / DIC**",
+        "*N. meningitidis* endotoxin → DIC and septic vasculitis",
+        "**Unwell, febrile child or young adult**; rapidly spreading **non-blanching petechiae → purpura fulminans**; cold peripheries, leg pain, abnormal colour, tachycardia, ± neck stiffness — a **999 emergency**"
+       ]
+      ]
+     }
+    }
+   ],
+   "short": "Aetiology"
+  },
+  {
+   "id": "clinical-features",
+   "title": "Clinical features",
+   "blocks": [
+    {
+     "fig": {
+      "dermnet": "m1w4:F01"
+     }
+    }
+   ]
+  },
+  {
+   "id": "diagnosis",
+   "title": "Diagnosis and investigations",
+   "blocks": [
+    "FBC + film (platelets), clotting/D-dimer/fibrinogen (DIC), blood cultures/meningococcal PCR, ANCA, cryoglobulins (37 °C), HCV, C3/C4, urinalysis."
+   ],
+   "short": "Diagnosis"
+  },
+  {
+   "id": "differentials",
+   "title": "Differential diagnoses",
+   "blocks": [
+    "Also: non-accidental injury, Henoch–Schönlein purpura (see *IgA vasculitis*), leukaemia, haemophilia/von Willebrand, scurvy, HUS, drug-induced thrombocytopenia (heparin, quinine, valproate, co-trimoxazole)."
+   ],
+   "short": "Differentials"
+  },
+  {
+   "id": "management",
+   "title": "Management",
+   "blocks": [
+    "**NICE NG240:** in suspected meningococcal disease, transfer immediately to hospital; give **parenteral benzylpenicillin** (or ceftriaxone/cefotaxime) at the earliest opportunity **if it will not delay transfer**. Doses: benzylpenicillin IM/IV — **adults and children ≥10 years 1.2 g; 1–9 years 600 mg; <1 year 300 mg** (check BNF/BNFC). Many community IP settings will not hold it — call 999.",
+    {
+     "h": "IP scope"
+    },
+    "Recognition and emergency referral.",
+    {
+     "h": "Referral"
+    },
+    {
+     "refer": [
+      {
+       "when": "emergency",
+       "t": "Unwell with a non-blanching rash: **999**, benzylpenicillin if there will be a delay (NICE NG240)."
+      },
+      {
+       "when": "same-day",
+       "t": "Petechiae with pallor, lymph nodes, bone pain or bruising: **same-day FBC and film** (leukaemia, ITP)."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "red-flags",
+   "title": "Red flags and when to refer",
+   "blocks": [
+    {
+     "ul": [
+      "Unwell with a non-blanching rash: **999**, benzylpenicillin if there will be a delay (NICE NG240).",
+      "Petechiae with pallor, lymph nodes, bone pain or bruising: **same-day FBC and film** (leukaemia, ITP)."
+     ]
+    },
+    {
+     "h4": "Red flags / refer"
+    },
+    "Any non-blanching rash in an unwell or febrile patient → 999. Purpura + low platelets → same-day haematology. Purpura + sinus/lung/renal symptoms or positive ANCA → urgent rheumatology/renal."
+   ],
+   "short": "Red flags"
+  },
+  {
+   "id": "pearls",
+   "title": "Prescriber pearls (UK pharmacist IP)",
+   "blocks": [
+    {
+     "pearls": [
+      "Teach parents the **glass/tumbler test**, but stress that an **unwell child needs urgent help even if the rash blanches**."
+     ]
+    }
+   ],
+   "short": "Pearls"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Purpura: the differential diagnosis?",
+   "a": "Non-blanching red or purple spots or bruises, in a child or an adult."
+  },
+  {
+   "q": "What drives it?",
+   "a": "Low or faulty platelets, clotting problems, fragile vessels (age, steroids, scurvy) or vessel inflammation."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "Glass test; is the patient unwell? FBC and film, clotting, U&E, LFT, CRP, urine; same-day if unwell or platelets low."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "Meningococcal sepsis, leukaemia, ITP, DIC, cryoglobulinaemic or ANCA vasculitis, non-accidental injury."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "Unwell with a non-blanching rash: **999**, benzylpenicillin if there will be a delay (NICE NG240)."
+  }
+ ],
+ "references": [],
+ "see_also": []
+}

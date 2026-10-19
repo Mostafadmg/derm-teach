@@ -1,0 +1,44 @@
+{
+ "_note": "curated (split page, Oct 2026)",
+ "manage": {
+  "lead": "Monitor typical lesions in young children; excise in teens and adults.",
+  "rungs": [
+   {
+    "k": "Typical, stable",
+    "tone": "base",
+    "points": [
+     "Reassure; photograph; sun protection."
+    ]
+   },
+   {
+    "k": "Atypical or adult",
+    "tone": "refer",
+    "points": [
+     "Dermatology via the suspected cancer pathway; excision for histology."
+    ]
+   }
+  ]
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "urgent",
+    "t": "Spitz-like lesion in an adolescent or adult; any atypical features."
+   }
+  ]
+ },
+ "quiz": [
+  {
+   "q": "Typical patient with a Spitz naevus?",
+   "a": "A child with a fast-growing pink dome."
+  },
+  {
+   "q": "What is a Reed naevus?",
+   "a": "A pigmented spindle-cell naevus: dark symmetrical starburst, often on a young woman's thigh."
+  },
+  {
+   "q": "Management in adults?",
+   "a": "Excision (spitzoid melanoma differential)."
+  }
+ ]
+}

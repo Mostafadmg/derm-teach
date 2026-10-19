@@ -1,0 +1,222 @@
+{
+ "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
+ "key_facts": [
+  "**Spitz naevi** are benign naevi of large epithelioid/spindle melanocytes that **grow quickly in children**.",
+  "Pink-red or pigmented dome; dermoscopy starburst pattern or dotted vessels. **Reed naevus**: dark symmetrical starburst, often thigh of young women.",
+  "They can be clinically and histologically hard to tell from melanoma (spitzoid melanoma).",
+  "Children under 12 with typical lesions may be monitored by specialists; **adolescents and adults: excision**.",
+  "Atypical Spitz tumours need specialist histopathology review."
+ ],
+ "sections": [
+  {
+   "id": "overview",
+   "title": "Overview",
+   "blocks": [
+    "A **Spitz naevus** is a benign naevus made of large epithelioid and/or spindle melanocytes, typically a fast-growing pink or pigmented dome in a **child**. A **Reed naevus** (pigmented spindle cell naevus) is a dark, symmetrical variant, often on the thigh of young women."
+   ]
+  },
+  {
+   "id": "epidemiology",
+   "title": "Epidemiology",
+   "blocks": [
+    {
+     "ul": [
+      {
+       "t": "**Who**",
+       "sub": [
+        "Mostly children and young adults; face and limbs."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "aetiology",
+   "title": "Aetiology: causes and risk factors",
+   "blocks": [
+    "Driven by HRAS mutations or kinase fusions (ALK, ROS1, NTRK and others); growth is followed by stabilisation. **Atypical Spitz tumours** lie between benign Spitz naevi and spitzoid melanoma.",
+    {
+     "h": "Myths to address"
+    },
+    {
+     "ul": [
+      "**\"Fast growth always means melanoma\"**: in young children it is typical of Spitz naevi, but needs specialist assessment."
+     ]
+    }
+   ],
+   "short": "Aetiology"
+  },
+  {
+   "id": "pathophysiology",
+   "title": "Pathophysiology and pathology",
+   "blocks": [
+    "Spitz naevi grow from a **single driver event** (HRAS mutation or kinase fusion), then stop.",
+    {
+     "mech": [
+      {
+       "k": "Driver",
+       "t": "An HRAS mutation or a kinase fusion (ALK, ROS1, NTRK, BRAF, MET) starts growth."
+      },
+      {
+       "k": "Rapid growth",
+       "t": "Large epithelioid and spindle melanocytes proliferate over months."
+      },
+      {
+       "k": "Stabilisation",
+       "t": "Senescence halts growth; many involute or become fibrotic over years."
+      },
+      {
+       "k": "Spectrum",
+       "t": "Additional mutations push lesions towards atypical Spitz tumour and spitzoid melanoma."
+      }
+     ]
+    },
+    {
+     "histo": [
+      "Symmetrical, well-circumscribed proliferation of large epithelioid/spindle melanocytes with Kamino bodies; maturation with depth."
+     ]
+    }
+   ],
+   "short": "Pathophysiology"
+  },
+  {
+   "id": "clinical-features",
+   "title": "Clinical features",
+   "blocks": [
+    {
+     "ul": [
+      "**Spitz**: pink-red or pigmented, dome-shaped, smooth, rapidly growing over months in a child; face and limbs. Dermoscopy: starburst or dotted vessels.",
+      "**Reed**: black, symmetrical, starburst pattern; thigh in young women."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "diagnosis",
+   "title": "Diagnosis and investigations",
+   "blocks": [
+    "Dermoscopy plus age and growth pattern. Excision for histology in adolescents and adults, and in any atypical lesion; specialist histopathology review."
+   ],
+   "short": "Diagnosis"
+  },
+  {
+   "id": "differentials",
+   "title": "Differential diagnoses",
+   "blocks": [
+    "**Spitzoid melanoma** (adults, asymmetry), pyogenic granuloma, juvenile xanthogranuloma, haemangioma, dermatofibroma, nodular melanoma."
+   ],
+   "short": "Differentials"
+  },
+  {
+   "id": "management",
+   "title": "Management",
+   "blocks": [
+    {
+     "ul": [
+      "Children under 12 with a typical lesion: specialist may monitor with dermoscopy.",
+      "**Adolescents/adults: excision** (atypical Spitz tumour and spitzoid melanoma differential).",
+      "Reed naevi are usually excised for histology."
+     ]
+    },
+    {
+     "h": "Treatment ladder"
+    },
+    {
+     "ladder": [
+      {
+       "k": "Typical, stable",
+       "t": "Reassure; photograph; sun protection.",
+       "tone": "base"
+      },
+      {
+       "k": "Atypical or adult",
+       "t": "Dermatology via the suspected cancer pathway; excision for histology.",
+       "tone": "refer"
+      }
+     ]
+    },
+    {
+     "h": "Referral"
+    },
+    {
+     "refer": [
+      {
+       "when": "urgent",
+       "t": "Spitz-like lesion in an adolescent or adult; any atypical features."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "red-flags",
+   "title": "Red flags and when to refer",
+   "blocks": [
+    {
+     "ul": [
+      "A Spitz-like lesion in an adult, or any atypical, ulcerated or rapidly growing lesion: **suspected cancer pathway**."
+     ]
+    }
+   ],
+   "short": "Red flags"
+  },
+  {
+   "id": "complications",
+   "title": "Complications and prognosis",
+   "blocks": [
+    {
+     "h": "Complications"
+    },
+    {
+     "ul": [
+      "Diagnostic uncertainty; rarely malignant behaviour (atypical Spitz tumour)."
+     ]
+    },
+    {
+     "h": "Prognosis"
+    },
+    {
+     "ul": [
+      "Benign in most children; may regress."
+     ]
+    }
+   ],
+   "short": "Complications"
+  },
+  {
+   "id": "pearls",
+   "title": "Prescriber pearls (UK pharmacist IP)",
+   "blocks": [
+    {
+     "pearls": [
+      "Rapid growth worries parents but is typical of Spitz naevi in children; age decides how worried to be."
+     ]
+    }
+   ],
+   "short": "Pearls"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Typical patient with a Spitz naevus?",
+   "a": "A child with a fast-growing pink dome."
+  },
+  {
+   "q": "What is a Reed naevus?",
+   "a": "A pigmented spindle-cell naevus: dark symmetrical starburst, often on a young woman's thigh."
+  },
+  {
+   "q": "Management in adults?",
+   "a": "Excision (spitzoid melanoma differential)."
+  }
+ ],
+ "references": [],
+ "see_also": [
+  "melanocytic-naevi",
+  "halo-naevus",
+  "blue-naevus",
+  "melanoma",
+  "pyogenic-granuloma"
+ ]
+}

@@ -1,0 +1,68 @@
+{
+ "kf": [
+  "**DRESS** is a severe, delayed drug reaction: rash, fever, **facial oedema**, lymphadenopathy, eosinophilia and organ involvement.",
+  "Latency **2–8 weeks**; culprits: allopurinol, carbamazepine and other aromatic anticonvulsants, lamotrigine, sulfonamides/dapsone, minocycline, vancomycin.",
+  "The liver is the commonest organ involved; also kidney, lung, heart, thyroid. Mortality about 2–10%.",
+  "Stop the drug and arrange **same-day hospital assessment**; systemic steroids tapered slowly over 6–12 weeks.",
+  "Follow up thyroid function and glucose for 1–2 years (late autoimmunity)."
+ ],
+ "epi": [
+  {
+   "t": "**Who**",
+   "sub": [
+    "About 1 in 1,000 to 1 in 10,000 exposures to high-risk drugs; adults more than children.",
+    "HLA risk alleles: HLA-B*58:01 (allopurinol), HLA-A*31:01 (carbamazepine in Europeans)."
+   ]
+  }
+ ],
+ "myths": [
+  "**\"It's just a drug rash\"**: facial swelling, fever and abnormal blood tests mean a systemic emergency."
+ ],
+ "patho_lead": "DRESS combines a **drug-specific T-cell attack** with **herpesvirus reactivation**.",
+ "mech": [
+  {
+   "k": "Drug presentation",
+   "t": "The drug or a metabolite binds HLA molecules and activates T cells (often in genetically susceptible people)."
+  },
+  {
+   "k": "Th2 and eosinophils",
+   "t": "IL-5 and other Th2 cytokines drive eosinophilia and tissue infiltration."
+  },
+  {
+   "k": "Viral reactivation",
+   "t": "HHV-6, then EBV and CMV reactivate, sustaining inflammation and relapses."
+  },
+  {
+   "k": "Organ damage",
+   "t": "Infiltrating T cells and eosinophils injure the liver, kidney, lung and heart."
+  },
+  {
+   "k": "Late autoimmunity",
+   "t": "Immune dysregulation after recovery can cause thyroiditis or type 1 diabetes."
+  }
+ ],
+ "histo": [
+  "Interface or spongiotic dermatitis with dense perivascular lymphocytes and eosinophils; not specific. RegiSCAR scoring combines clinical and lab features."
+ ],
+ "special": [
+  {
+   "t": "**Allopurinol in CKD**",
+   "sub": [
+    "Highest risk with recent start, high dose, renal impairment and HLA-B*58:01 (common in Han Chinese, Thai and Korean people)."
+   ]
+  }
+ ],
+ "comp": [
+  "Fulminant hepatitis, interstitial nephritis, pneumonitis, myocarditis; death.",
+  "Autoimmune thyroiditis, type 1 diabetes, alopecia areata after recovery."
+ ],
+ "prog": [
+  "Recovery over weeks to months; relapses during steroid taper are common."
+ ],
+ "see_also": [
+  "agep",
+  "morbilliform-drug-eruption",
+  "drug-induced-blistering",
+  "drug-eruption-approach"
+ ]
+}

@@ -1,0 +1,43 @@
+{
+ "kf": [
+  "**Bimatoprost** is a prostamide (glaucoma drug) that lengthens, thickens and darkens eyelashes when applied to the upper lid margin.",
+  "Works by **prolonging anagen**; results build over weeks to months and reverse on stopping.",
+  "Warn about **permanent iris darkening** (hazel/green eyes), reversible eyelid pigmentation, irritation and redness.",
+  "Exclude a disease cause of lash loss (alopecia areata, thyroid disease, blepharitis, trichotillomania).",
+  "Cosmetic serums vary in content; prescription products need proper counselling."
+ ],
+ "myths": [
+  "**\"Natural serums are safer\"**: many contain undeclared prostaglandin analogues."
+ ],
+ "patho_lead": "Bimatoprost acts on **prostamide receptors** in the lash follicle to keep it growing.",
+ "mech": [
+  {
+   "k": "Receptor binding",
+   "t": "Bimatoprost binds prostamide/FP receptors in the dermal papilla."
+  },
+  {
+   "k": "Longer anagen",
+   "t": "Follicles stay in the growth phase longer and more follicles enter anagen."
+  },
+  {
+   "k": "Thicker, darker lashes",
+   "t": "Follicle size and melanogenesis increase."
+  },
+  {
+   "k": "Melanocyte side effects",
+   "t": "Iris and eyelid melanocytes increase pigment production."
+  }
+ ],
+ "comp": [
+  "Iris pigmentation (permanent), periocular pigmentation, conjunctival hyperaemia, periorbital fat atrophy."
+ ],
+ "prog": [
+  "Lashes return to baseline within weeks to months after stopping."
+ ],
+ "see_also": [
+  "alopecia-areata",
+  "trichotillomania",
+  "intense-pulsed-light",
+  "cosmetic-procedures"
+ ]
+}

@@ -1,0 +1,55 @@
+{
+ "_note": "curated (split page, Oct 2026)",
+ "manage": {
+  "lead": "Stop the drug; it settles in 1–2 weeks.",
+  "rungs": [
+   {
+    "k": "Stop and record",
+    "tone": "base",
+    "points": [
+     "Stop the culprit; record allergy; Yellow Card."
+    ]
+   },
+   {
+    "k": "Symptom control",
+    "tone": "first",
+    "points": [
+     "Potent topical steroid, emollients, antipyretics."
+    ]
+   },
+   {
+    "k": "Unwell",
+    "tone": "refer",
+    "points": [
+     "Same-day dermatology or admission."
+    ]
+   }
+  ]
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "same-day",
+    "t": "Widespread pustules with fever within days of a new drug."
+   }
+  ]
+ },
+ "quiz": [
+  {
+   "q": "What is the typical latency of AGEP after an antibiotic?",
+   "a": "Under 48 hours."
+  },
+  {
+   "q": "Which cytokine drives the neutrophils in AGEP?",
+   "a": "IL-8 (CXCL8)."
+  },
+  {
+   "q": "Main differential?",
+   "a": "Generalised pustular psoriasis."
+  },
+  {
+   "q": "How does AGEP resolve?",
+   "a": "Over 1–2 weeks with collarette desquamation after stopping the drug."
+  }
+ ]
+}

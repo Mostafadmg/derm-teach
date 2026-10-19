@@ -1,0 +1,271 @@
+{
+ "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
+ "key_facts": [
+  "Facial papules and pustules in a baby. **Comedones** = true acne; pustules without comedones = **cephalic pustulosis**.",
+  "Sebaceous glands driven by **maternal and neonatal androgens**, plus *Cutibacterium*.",
+  "Neonatal: **observe**, gentle cleansing. Infantile: **BPO ± topical retinoid**. No tetracyclines under 12.",
+  "Acne **between ages 1 and 6**, signs of hyperandrogenism, or nodular / scarring disease: refer."
+ ],
+ "sections": [
+  {
+   "id": "overview",
+   "title": "Overview",
+   "blocks": [
+    {
+     "table": {
+      "head": [
+       "Type",
+       "Age",
+       "Features"
+      ],
+      "rows": [
+       [
+        "**Neonatal acne**",
+        "Birth to about 6 weeks",
+        "Common (about 20% of newborns); facial papules and pustules ± comedones; usually no scarring"
+       ],
+       [
+        "**Infantile acne**",
+        "About 6 weeks to 12–16 months",
+        "Rarer; comedones, papules, pustules, occasional nodules; **may scar**; boys more than girls"
+       ],
+       [
+        "Neonatal cephalic pustulosis",
+        "First weeks",
+        "Facial pustules **without true comedones**, often linked to *Malassezia*"
+       ]
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "aetiology",
+   "title": "Aetiology: causes and risk factors",
+   "blocks": [
+    "Overactive sebaceous glands respond to **maternal and neonatal androgens**, with follicular *Cutibacterium* colonisation and the same plugging and inflammation cascade as later acne. Androgen drive falls after infancy and rises again at adrenarche, which is why **mid-childhood acne (ages 1–6) is very rare** and suggests an endocrine cause.",
+    {
+     "fig": {
+      "ai": "v3-acne-follicle-stages.jpg",
+      "caption": "The same follicle steps as teenage acne: a plug forms, then inflammation. True acne needs comedones.",
+      "alt": "Acne follicle stages"
+     }
+    }
+   ],
+   "short": "Aetiology"
+  },
+  {
+   "id": "clinical-features",
+   "title": "Clinical features",
+   "blocks": [
+    {
+     "ul": [
+      "**Neonatal:** comedones on the scalp, chest and back; inflammatory lesions on the cheeks, chin and forehead.",
+      "**Infantile:** mainly the cheeks; can be more inflammatory or nodular."
+     ]
+    },
+    {
+     "fig": {
+      "dermnet": "m6w1:F10"
+     }
+    },
+    {
+     "fig": {
+      "ai": "v3-neonatal-acne-face.jpg",
+      "caption": "Neonatal acne: small papules and pustules on the cheeks, chin and forehead of a well baby, with a few tiny comedones. It is not caused by poor hygiene.",
+      "alt": "Newborn face with small papules on cheeks"
+     }
+    },
+    {
+     "h": "Types to recognise"
+    },
+    {
+     "variants": [
+      {
+       "name": "Cephalic pustulosis / neonatal acne",
+       "t": "Facial papules and pustules in the first weeks. *Site: Face.*",
+       "photo": "m6w1:F09"
+      },
+      {
+       "name": "Infantile acne",
+       "t": "Comedones, papules, pustules over weeks–months. *Site: Cheeks.*",
+       "photo": "m6w1:F10"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "diagnosis",
+   "title": "Diagnosis and investigations",
+   "blocks": [
+    "Clinical. If the age is atypical or the disease severe, look for accelerated growth, early sexual development or hirsutism. Refer mid-childhood or severe unresponsive acne to endocrinology.",
+    {
+     "h4": "Clinical"
+    },
+    {
+     "ul": [
+      "Age + comedones confirm the type."
+     ]
+    },
+    {
+     "h4": "Atypical age or severe"
+    },
+    {
+     "ul": [
+      "Look for fast growth, early puberty signs, hirsutism, body odour."
+     ]
+    },
+    {
+     "h4": "Refer"
+    },
+    {
+     "ul": [
+      "Mid-childhood or severe unresponsive acne → endocrinology."
+     ]
+    }
+   ],
+   "short": "Diagnosis"
+  },
+  {
+   "id": "differentials",
+   "title": "Differential diagnoses",
+   "blocks": [
+    {
+     "ddx": [
+      {
+       "name": "Cephalic pustulosis",
+       "f": "No or few comedones; may respond to topical antifungal."
+      },
+      {
+       "name": "ETN / miliaria",
+       "f": "Timing and distribution; not comedonal.",
+       "link": "neonatal-rashes"
+      },
+      {
+       "name": "Periorificial dermatitis",
+       "f": "Around mouth and eyes; often steroid-related.",
+       "link": "acne-mimics"
+      },
+      {
+       "name": "Folliculitis",
+       "f": "Follicular; culture.",
+       "link": "folliculitis"
+      }
+     ]
+    }
+   ],
+   "short": "Differentials"
+  },
+  {
+   "id": "management",
+   "title": "Management",
+   "blocks": [
+    {
+     "h": "Neonatal acne"
+    },
+    "Usually **observe**. Gentle cleansing; avoid greasy, comedogenic products. Most cases clear without scarring.",
+    {
+     "h": "Infantile acne (if treatment needed)"
+    },
+    {
+     "ul": [
+      "**Mild:** benzoyl peroxide ± topical retinoid (adapalene or tretinoin) as tolerated. Check the age licence.",
+      "**Moderate:** a topical regimen ± an age-appropriate oral **erythromycin**-class antibiotic. **Avoid tetracyclines under 12.**",
+      "**Severe, nodular or scarring:** refer to dermatology. Specialists do use isotretinoin in infants when indicated."
+     ]
+    },
+    {
+     "h": "Treatment ladder"
+    },
+    {
+     "ladder": [
+      {
+       "k": "Neonatal",
+       "t": "**Observe**; gentle cleansing; avoid greasy, comedogenic products.",
+       "tone": "base"
+      },
+      {
+       "k": "Infantile, mild",
+       "t": "**Benzoyl peroxide ± topical retinoid** (adapalene or tretinoin) as tolerated; check age licence.",
+       "tone": "first"
+      },
+      {
+       "k": "Infantile, moderate",
+       "t": "Topical regimen ± age-appropriate oral **erythromycin**-class antibiotic. **Avoid tetracyclines under 12.**",
+       "tone": "second"
+      },
+      {
+       "k": "Severe / nodular / scarring",
+       "t": "Dermatology: specialists may use isotretinoin in infants.",
+       "tone": "refer"
+      }
+     ]
+    },
+    {
+     "h": "Referral"
+    },
+    {
+     "refer": [
+      {
+       "when": "urgent",
+       "t": "**Mid-childhood acne (1–6 years)** or signs of hyperandrogenism (fast growth, body odour, pubic hair, clitoromegaly)."
+      },
+      {
+       "when": "routine",
+       "t": "Nodular or scarring disease, or treatment failure."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "red-flags",
+   "title": "Red flags and when to refer",
+   "blocks": [
+    {
+     "ul": [
+      "**Mid-childhood acne (age 1–6).**",
+      "Suspected hyperandrogenism (accelerated growth, body odour, pubic hair, clitoromegaly).",
+      "Nodular or scarring disease, or treatment failure."
+     ]
+    }
+   ],
+   "short": "Red flags"
+  },
+  {
+   "id": "pearls",
+   "title": "Prescriber pearls (UK pharmacist IP)",
+   "blocks": [
+    {
+     "pearls": [
+      "Reassure parents that neonatal acne is not caused by poor hygiene.",
+      "Do not use adult OTC acne kits on infants without checking age licences.",
+      "Persistent facial pustules in a neonate: consider cephalic pustulosis rather than true acne."
+     ]
+    }
+   ],
+   "short": "Pearls"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Neonatal vs infantile acne: age ranges?",
+   "a": "Neonatal: birth to ~6 weeks. Infantile: ~6 weeks to 12–16 months."
+  },
+  {
+   "q": "Which oral antibiotic class to avoid under 12?",
+   "a": "Tetracyclines."
+  },
+  {
+   "q": "Acne in a 4-year-old?",
+   "a": "Very rare: look for hyperandrogenism and refer to endocrinology."
+  },
+  {
+   "q": "Pustules without comedones in a 3-week-old?",
+   "a": "Neonatal cephalic pustulosis (Malassezia-linked)."
+  }
+ ],
+ "references": [],
+ "see_also": []
+}

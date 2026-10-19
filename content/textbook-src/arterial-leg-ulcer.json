@@ -1,0 +1,62 @@
+{
+ "kf": [
+  "**Arterial ulcers** are caused by **peripheral arterial disease** and account for about 10–20% of leg ulcers (alone or mixed).",
+  "Punched-out, deep, painful ulcers on the toes, heel, lateral malleolus or shin; cold, hairless foot with weak pulses.",
+  "Pain worse on elevation and at night, eased by hanging the leg down.",
+  "Measure ABPI (toe pressures in diabetes); **never compress** an ischaemic limb.",
+  "Urgent vascular referral; same day for critical limb ischaemia. Stop smoking; antiplatelet and statin."
+ ],
+ "epi": [
+  {
+   "t": "**Who**",
+   "sub": [
+    "Older smokers, people with diabetes, CKD, hypertension and hyperlipidaemia."
+   ]
+  }
+ ],
+ "myths": [
+  "**\"All leg ulcers need compression\"**: compression can cause gangrene in arterial disease."
+ ],
+ "patho_lead": "Too little arterial blood reaches the skin, so it **dies from ischaemia**.",
+ "mech": [
+  {
+   "k": "Atherosclerosis",
+   "t": "Plaques narrow the arteries of the leg."
+  },
+  {
+   "k": "Reduced perfusion",
+   "t": "Distal skin receives too little oxygen, especially at pressure points and on elevation."
+  },
+  {
+   "k": "Necrosis",
+   "t": "Minor trauma causes tissue death that cannot heal: a punched-out ulcer."
+  },
+  {
+   "k": "Critical ischaemia",
+   "t": "Rest pain, gangrene and tissue loss signal limb-threatening disease."
+  }
+ ],
+ "histo": [
+  "Not used; diagnosis is clinical and vascular (ABPI, duplex, angiography)."
+ ],
+ "special": [
+  {
+   "t": "**Mixed ulcers**",
+   "sub": [
+    "ABPI 0.5–0.8: reduced compression only under specialist guidance; below 0.5: no compression, urgent vascular."
+   ]
+  }
+ ],
+ "comp": [
+  "Infection, gangrene, amputation; high cardiovascular mortality."
+ ],
+ "prog": [
+  "Healing depends on revascularisation."
+ ],
+ "see_also": [
+  "diabetic-foot-ulcer",
+  "venous-leg-ulcer",
+  "pyoderma-gangrenosum",
+  "red-leg"
+ ]
+}

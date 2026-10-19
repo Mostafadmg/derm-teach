@@ -65,7 +65,7 @@
    {
     "name": "Seborrhoeic keratosis",
     "clue": "Stuck-on, waxy, raised",
-    "link": "actinic-keratoses"
+    "link": "seborrhoeic-keratosis"
    },
    {
     "name": "Lentigo maligna",
@@ -110,7 +110,7 @@
   },
   {
    "icon": "bulb",
-   "t": "See also [photoageing](condition:photoageing) and [IPL & eyelash enhancement](condition:ipl-eyelash)."
+   "t": "See also [photoageing](condition:photoageing) and [intense pulsed light](condition:intense-pulsed-light)."
   },
   {
    "icon": "bulb",

@@ -1,0 +1,163 @@
+{
+ "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
+ "key_facts": [
+  "A well-demarcated erosion, ulcer or shiny membrane on the vertex scalp at birth, healing to a hairless scar.",
+  "Varied causes: genetic, teratogens (carbimazole or methimazole), intrauterine infection, vascular disruption, amniotic bands.",
+  "Small and superficial: gentle cleansing, bland ointment and protection from trauma.",
+  "Hair collar sign (possible neural tube defect), a large midline defect (sagittal sinus), and ACC with blistering (EB) or limb defects (Adams–Oliver)."
+ ],
+ "sections": [
+  {
+   "id": "overview",
+   "title": "Overview",
+   "blocks": [
+    "Congenital **focal absence of skin**. Depth varies from epidermis only through to bone or dura. Most often it is a **solitary scalp vertex** defect. It may be isolated or part of a syndrome (e.g. **Adams–Oliver**, or **Bart syndrome** when limb ACC occurs with EB)."
+   ]
+  },
+  {
+   "id": "aetiology",
+   "title": "Aetiology: causes and risk factors",
+   "blocks": [
+    {
+     "ul": [
+      "Genetic factors (e.g. BMS1 and other loci).",
+      "**Teratogens:** **methimazole/carbimazole**, misoprostol, valproate, cocaine.",
+      "Intrauterine infection (varicella, HSV), vascular disruption, amniotic bands, fetus papyraceus.",
+      "Tension at the hair whorl during rapid fetal brain growth."
+     ]
+    }
+   ],
+   "short": "Aetiology"
+  },
+  {
+   "id": "clinical-features",
+   "title": "Clinical features",
+   "blocks": [
+    {
+     "ul": [
+      "Well-demarcated **ulcer, erosion, membrane or bullous lesion** on the vertex scalp at birth, healing to an **alopecic scar**.",
+      "Less often on the trunk or limbs.",
+      "**Hair collar sign:** a ring of darker, longer, coarser hair around a scalp lesion. It marks possible **cranial dysraphism or ectopic neural tissue** (encephalocele or meningocele spectrum).",
+      "Large midline defects, vascular stains or neurological signs increase the risk of underlying skull or CNS involvement."
+     ]
+    },
+    {
+     "fig": {
+      "dermnet": "m6w1:H05"
+     }
+    }
+   ]
+  },
+  {
+   "id": "diagnosis",
+   "title": "Diagnosis and investigations",
+   "blocks": [
+    "Clinical at birth. Document size and depth. **Imaging** (ultrasound ± MRI) for large, midline, deep or hair-collar lesions. Exclude birth-trauma mimics (forceps, scalp electrode) from the history and appearance. Genetic or syndrome work-up if there are other anomalies."
+   ],
+   "short": "Diagnosis"
+  },
+  {
+   "id": "differentials",
+   "title": "Differential diagnoses",
+   "blocks": [
+    "Birth trauma, herpes erosions, EB with congenital absence of skin, sebaceous naevus, heterotopic brain tissue, and sinus pericranii."
+   ],
+   "short": "Differentials"
+  },
+  {
+   "id": "management",
+   "title": "Management",
+   "blocks": [
+    {
+     "ul": [
+      "**Small, superficial lesions:** usually heal with conservative care. Cleanse gently, apply a bland ointment (± a topical antibacterial if infected), and protect from trauma.",
+      "**Large, deep, multiple, hair-collar or midline lesions:** urgent paediatric, plastic surgery or neurosurgery input. Grafting or careful dressings may be needed to prevent **sagittal sinus haemorrhage** and infection.",
+      "**Counselling:** a scar and bald patch may remain. The teratogen history matters for future pregnancy counselling (specialist or obstetric).",
+      "**Pharmacist angle:** know the carbimazole/methimazole association. **Do not stop** maternal antithyroid treatment without obstetric or endocrine advice; flag the association to specialists."
+     ]
+    },
+    {
+     "h": "Referral"
+    },
+    {
+     "refer": [
+      {
+       "when": "routine",
+       "t": "**Hair collar sign: image before assuming it is ‘just a scar’.**"
+      },
+      {
+       "when": "routine",
+       "t": "Large, deep or midline defects, or exposed dura or bone."
+      },
+      {
+       "when": "routine",
+       "t": "ACC with blistering (think EB) or limb defects (think Adams–Oliver)."
+      },
+      {
+       "when": "routine",
+       "t": "Bleeding or signs of infection."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "red-flags",
+   "title": "Red flags and when to refer",
+   "blocks": [
+    {
+     "ul": [
+      "**Hair collar sign: image before assuming it is ‘just a scar’.**",
+      "Large, deep or midline defects, or exposed dura or bone.",
+      "ACC with blistering (think EB) or limb defects (think Adams–Oliver).",
+      "Bleeding or signs of infection."
+     ]
+    }
+   ],
+   "short": "Red flags"
+  },
+  {
+   "id": "pearls",
+   "title": "Prescriber pearls (UK pharmacist IP)",
+   "blocks": [
+    {
+     "pearls": [
+      "**Never probe deep scalp defects.**",
+      "Ask about maternal medicines in pregnancy, especially antithyroid drugs.",
+      "Most small defects heal well, so reassure while arranging appropriate follow-up."
+     ]
+    }
+   ],
+   "short": "Pearls"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Aplasia cutis congenita?",
+   "a": "A well-demarcated erosion, ulcer or shiny membrane on the vertex scalp at birth, healing to a hairless scar."
+  },
+  {
+   "q": "What drives it?",
+   "a": "Varied causes: genetic, teratogens (carbimazole or methimazole), intrauterine infection, vascular disruption, amniotic bands."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "Small and superficial: gentle cleansing, bland ointment and protection from trauma."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "Hair collar sign (possible neural tube defect), a large midline defect (sagittal sinus), and ACC with blistering (EB) or limb defects (Adams–Oliver)."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "**Hair collar sign: image before assuming it is ‘just a scar’.**"
+  }
+ ],
+ "references": [
+  {
+   "label": "Medscape: Aplasia cutis congenita",
+   "url": "https://emedicine.medscape.com/article/1110134-overview"
+  }
+ ],
+ "see_also": []
+}

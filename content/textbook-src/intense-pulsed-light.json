@@ -1,0 +1,44 @@
+{
+ "kf": [
+  "**IPL** uses filtered broad-spectrum flashlamp light to target **melanin** (lentigines, hair) and **haemoglobin** (redness, telangiectasia).",
+  "Usually 3–6 sessions; treated pigment darkens ('coffee grounds') then flakes over 1–2 weeks.",
+  "Risks: burns, blistering, hypo- or hyperpigmentation, scarring, eye injury; highest in tanned or darker skin.",
+  "Never treat undiagnosed pigmented lesions; caution with photosensitising drugs, recent isotretinoin, HSV.",
+  "Melasma is a poor candidate; cosmetic and not NHS-funded."
+ ],
+ "myths": [
+  "**\"IPL is a laser\"**: it is non-coherent broad-spectrum light, less selective than lasers."
+ ],
+ "patho_lead": "IPL heats **coloured targets** in the skin, which absorb the light more than their surroundings.",
+ "mech": [
+  {
+   "k": "Light absorption",
+   "t": "Melanin and oxyhaemoglobin absorb specific wavelengths."
+  },
+  {
+   "k": "Selective heating",
+   "t": "Short pulses heat the target faster than heat spreads (selective photothermolysis)."
+  },
+  {
+   "k": "Clearance",
+   "t": "Damaged pigment is shed; heated vessels collapse and are reabsorbed."
+  },
+  {
+   "k": "Collateral risk",
+   "t": "Epidermal melanin also absorbs energy, so tanned or darker skin burns more easily."
+  }
+ ],
+ "comp": [
+  "Burns, pigment change (grid pattern), scarring, eye injury, paradoxical hair growth."
+ ],
+ "prog": [
+  "Results fade with new sun damage; maintenance sessions are common."
+ ],
+ "see_also": [
+  "solar-lentigines",
+  "photoageing",
+  "rosacea",
+  "cosmetic-procedures",
+  "eyelash-enhancement"
+ ]
+}

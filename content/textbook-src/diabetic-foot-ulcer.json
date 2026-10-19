@@ -1,0 +1,64 @@
+{
+ "kf": [
+  "**Neuropathic (diabetic foot) ulcers** form on insensate pressure points: plantar metatarsal heads, heel and toe tips.",
+  "Painless, surrounded by **callus**, with warm feet and good pulses unless neuro-ischaemic.",
+  "Test with a **10 g monofilament**; probe to bone and X-ray/MRI for osteomyelitis.",
+  "Any diabetic foot ulcer: refer to the multidisciplinary foot service **within 1 working day** (NICE NG19).",
+  "Same-day admission for spreading infection, sepsis, crepitus, wet gangrene or suspected Charcot foot."
+ ],
+ "epi": [
+  {
+   "t": "**Who**",
+   "sub": [
+    "Up to a quarter of people with diabetes develop a foot ulcer in their lifetime; most amputations in diabetes follow an ulcer."
+   ]
+  }
+ ],
+ "myths": [
+  "**\"It doesn't hurt, so it's not serious\"**: absence of pain is the problem."
+ ],
+ "patho_lead": "Without **protective sensation**, repeated pressure goes unnoticed and breaks down the skin.",
+ "mech": [
+  {
+   "k": "Neuropathy",
+   "t": "Sensory loss removes pain warning; motor neuropathy causes clawing and abnormal pressure; autonomic neuropathy dries and cracks skin."
+  },
+  {
+   "k": "Callus",
+   "t": "High plantar pressure builds thick callus, which raises pressure further."
+  },
+  {
+   "k": "Ulceration",
+   "t": "Tissue breaks down beneath the callus and the ulcer deepens towards bone.",
+   "img": "v4-dfu-pressure.jpg",
+   "cap": "Neuropathic plantar ulcer: callus over a deep ulcer above the metatarsal head, with damaged nerve fibres and concentrated pressure."
+  },
+  {
+   "k": "Infection and ischaemia",
+   "t": "Poor perfusion and impaired immunity let infection spread to bone (osteomyelitis)."
+  }
+ ],
+ "histo": [
+  "Bone biopsy or deep tissue samples guide treatment of osteomyelitis."
+ ],
+ "special": [
+  {
+   "t": "**Charcot foot**",
+   "sub": [
+    "Hot, swollen, red foot in neuropathy, often painless: immobilise and refer the same day."
+   ]
+  }
+ ],
+ "comp": [
+  "Osteomyelitis, sepsis, amputation; high mortality."
+ ],
+ "prog": [
+  "Many heal with offloading; recurrence is common, so lifelong foot protection is needed."
+ ],
+ "see_also": [
+  "arterial-leg-ulcer",
+  "venous-leg-ulcer",
+  "cellulitis-erysipelas",
+  "leprosy"
+ ]
+}

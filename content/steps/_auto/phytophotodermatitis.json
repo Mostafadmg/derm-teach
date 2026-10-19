@@ -1,0 +1,150 @@
+{
+ "_auto": true,
+ "glance": {
+  "chips": [
+   "Module 6 · Week 3",
+   "phytophotodermatitis",
+   "phototoxic plant dermatitis",
+   "berloque dermatitis"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "Bizarre drip, streak or hand-print burns after gardening, strimming or lime cocktails in the sun, then deep brown marks."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "Phototoxic furocoumarin + UVA damage (non-immune)."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "Wash sap off, keep out of sun 48 h, cool care, short topical steroid, strict sun protection while pigment fades."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "Hand-print phytophotodermatitis in a child can mimic non-accidental injury: take a careful plant and sun history.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "points": [
+   "Psoralens + UVA → epidermal damage and later melanogenesis.",
+   "Exposure: strimming, hiking, holiday drinks, cooking with limes."
+  ],
+  "visuals": []
+ },
+ "features": {
+  "photo": "m6w3:N01",
+  "points": [
+   "Onset **~24 h (up to 48–72 h)** after contact + sun; peaks 48–72 h.",
+   "Burning/stinging (pain > itch), erythema, oedema, vesicles and **bullae** — can resemble partial-thickness burns.",
+   "**Bizarre geometric/linear streaks, drips, splash marks, fingerprints/handprints**, on hands, forearms, legs, perioral (citrus), neck (perfume).",
+   "Followed by **post-inflammatory hyperpigmentation** that can last months to years — sometimes the presenting complaint (no memory of inflammatory phase).",
+   "No systemic features (except large hogweed burns)."
+  ],
+  "visuals": [],
+  "variants": null,
+  "groups": [
+   0,
+   1
+  ]
+ },
+ "confirm": {
+  "cols": []
+ },
+ "differentials": {
+  "cards": [
+   {
+    "name": "Allergic plant dermatitis",
+    "clue": "Itchy eczema; no sun required"
+   },
+   {
+    "name": "Non-accidental injury",
+    "clue": "Inconsistent history — safeguarding assessment"
+   },
+   {
+    "name": "Drug photosensitivity",
+    "clue": "Uniform photo distribution",
+    "link": "melasma-facial-melanosis"
+   }
+  ]
+ },
+ "manage": {
+  "rungs": [
+   {
+    "k": "Self-care / OTC",
+    "tone": "base",
+    "points": [
+     "Cool compresses, emollients, simple analgesia; leave blisters intact or use non-adherent dressings; keep clean (topical antiseptic only if needed).",
+     "OTC hydrocortisone 1% for mild small areas (not on broken skin)."
+    ]
+   },
+   {
+    "k": "First-line Rx",
+    "tone": "first",
+    "points": [
+     "**Potent topical corticosteroid** short course (5–7 days) to inflamed intact skin on limbs/trunk; moderate on face. Oral antihistamine if itchy.",
+     "Large/extensive blistering, facial/genital/hand burns, signs of infection, or severe pain → **same-day GP/urgent care or burns unit** (giant hogweed burns can need specialist burns care).",
+     "Infected blisters: per NICE impetigo/secondary infection guidance."
+    ]
+   }
+  ]
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "urgent",
+    "t": "Extensive hogweed burns or eye exposure → urgent assessment."
+   },
+   {
+    "when": "routine",
+    "t": "Safeguarding concern when phytophotodermatitis mimics injury patterns in children."
+   }
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "Pigmentation, not the acute burn, is often why patients attend."
+  },
+  {
+   "icon": "bulb",
+   "t": "Berloque = perfume + sun streaks."
+  },
+  {
+   "icon": "bulb",
+   "t": "Tell gardeners about giant hogweed — sap plus sun is a classic UK summer presentation."
+  },
+  {
+   "icon": "bulb",
+   "t": "Other light-related rashes: [polymorphic light eruption](condition:polymorphic-light-eruption), [drug-induced photosensitivity](condition:drug-photosensitivity) and [chronic actinic dermatitis](condition:chronic-actinic-dermatitis)."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Phytophotodermatitis?",
+   "a": "Bizarre drip, streak or hand-print burns after gardening, strimming or lime cocktails in the sun, then deep brown marks."
+  },
+  {
+   "q": "What drives it?",
+   "a": "Phototoxic furocoumarin + UVA damage (non-immune)."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "Wash sap off, keep out of sun 48 h, cool care, short topical steroid, strict sun protection while pigment fades."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "Hand-print phytophotodermatitis in a child can mimic non-accidental injury: take a careful plant and sun history."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "Extensive hogweed burns or eye exposure → urgent assessment."
+  }
+ ]
+}

@@ -1,0 +1,245 @@
+{
+ "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
+ "key_facts": [
+  "A soft ‘button-hole’ papule (neurofibroma), a hard chalky lump on a child’s face (pilomatricoma), a cyst by the nail (myxoid), yellow umbilicated papules on the face (sebaceous hyperplasia).",
+  "Different tissues of origin: nerve sheath, hair matrix, joint-related mucin, enlarged sebaceous glands.",
+  "Recognise and reassure where typical; refer when uncertain, growing or syndromic.",
+  "NF1 (≥6 café-au-lait macules, axillary freckling), plexiform neurofibroma change, BCC mimicking sebaceous hyperplasia."
+ ],
+ "sections": [
+  {
+   "id": "clinical-features",
+   "title": "Clinical features",
+   "blocks": [
+    {
+     "h": "Lump by lump"
+    },
+    "Each card is a compressed 8-heading entry.",
+    {
+     "h": "Neurofibroma and plexiform neurofibroma"
+    },
+    {
+     "ul": [
+      "**What/cause:** a benign peripheral nerve sheath tumour. A solitary sporadic lesion is common; multiple lesions suggest **NF1** (NF1 gene, neurofibromin, RAS-MAPK, autosomal dominant, about 50% de novo).",
+      "**Clinical:** soft, skin-coloured to pinkish papule or pedunculated nodule that **invaginates on pressure (buttonhole sign)**. **Plexiform neurofibroma** is congenital or early, diffuse, \"bag of worms\", with overlying hyperpigmentation or hypertrichosis, and it can deform tissue.",
+      "**NF1 criteria (revised 2021):** two or more of the following: ≥6 café-au-lait macules (>5 mm before puberty, >15 mm after); ≥2 neurofibromas or 1 plexiform; axillary/inguinal freckling; optic pathway glioma; ≥2 Lisch nodules or choroidal abnormalities; distinctive bony lesion; pathogenic NF1 variant; an affected parent",
+      "**Red flags:** a plexiform neurofibroma that becomes **painful, rapidly growing, hard, or causes neurological deficit** suggests **malignant peripheral nerve sheath tumour (MPNST; lifetime risk about 8–13% in NF1)**. Urgent referral to an NF1 specialist centre or sarcoma service. NF1 also raises breast cancer risk (screening from 40 in the UK).",
+      "**Treatment:** surgery or laser for symptomatic cutaneous lesions. **Selumetinib** (MEK inhibitor) for symptomatic inoperable plexiform neurofibromas in children ≥3 years (NICE HST20, 2022), specialist-led.",
+      "**IP role:** recognise the NF1 pattern and refer to the national NF1 complex service or genetics. Selumetinib interactions (CYP3A4/2C19 inhibitors; vitamin E content of capsules with anticoagulants).",
+      "DermNet: [dermnetnz.org](https://dermnetnz.org/topics/neurofibromatosis)"
+     ]
+    },
+    {
+     "h": "Pilomatricoma (pilomatrixoma)"
+    },
+    {
+     "ul": [
+      "**What/cause:** a benign tumour of hair matrix cells. **CTNNB1 (β-catenin)** activating mutations. Histology shows basaloid cells maturing into **ghost (shadow) cells** with calcification.",
+      "**Clinical:** children and teens (a second peak in older adults); head, neck and upper limbs. A **rock-hard**, irregular, angulated nodule, sometimes bluish. The \"tent sign\" (stretching the skin shows facets). It may become inflamed or extrude chalky material.",
+      "**Diagnosis/DDx:** clinical ± ultrasound (calcified). DDx: epidermoid or dermoid cyst, calcinosis cutis. **Multiple pilomatricomas** may indicate myotonic dystrophy, Gardner, Turner, Rubinstein–Taybi or Sotos.",
+      "**Management:** routine referral for **surgical excision** (it does not regress; recurrence is rare after complete removal). Pilomatrix carcinoma is very rare, in adults.",
+      "DermNet: [dermnetnz.org](https://dermnetnz.org/topics/pilomatricoma)"
+     ]
+    },
+    {
+     "h": "Digital myxoid (mucous) cyst"
+    },
+    {
+     "ul": [
+      "**What/cause:** a ganglion-like cyst of the distal finger (sometimes toe), usually over or near the **DIP joint**, connected to the joint in many cases. Associated with **osteoarthritis** and Heberden's nodes.",
+      "**Clinical:** a translucent dome-shaped papule between the DIP joint and the nail fold. A **longitudinal nail groove** comes from pressure on the matrix. Clear, sticky jelly if punctured.",
+      "**DDx:** wart, giant cell tumour of tendon sheath, fibrokeratoma, SCC/Bowen's of the nail fold.",
+      "**Management:** reassure; many resolve. **Advise patients not to puncture the cyst themselves** because of infection and **septic arthritis** risk. Options (GP/hand surgery/dermatology) include repeated sterile needling, steroid injection, cryotherapy, sclerotherapy, or surgery ligating the joint connection (lowest recurrence). For a red, hot, painful joint, same-day review.",
+      "DermNet: [dermnetnz.org](https://dermnetnz.org/topics/digital-myxoid-pseudocyst)"
+     ]
+    },
+    {
+     "h": "Sebaceous hyperplasia"
+    },
+    {
+     "ul": [
+      "Yellowish, 2–4 mm, **umbilicated** papules on the forehead and cheeks of middle-aged and older adults. Common in transplant recipients on **ciclosporin**.",
+      "Dermoscopy: yellow lobules with **\"crown\" vessels** that do not cross the centre (vs BCC arborising vessels).",
+      "**Key DDx: BCC** (pearly, translucent, ulcerating, solitary, enlarging; refer if in doubt). Multiple sebaceous *adenomas* (not hyperplasia) suggest **Muir–Torre syndrome** (Lynch).",
+      "Treatment is cosmetic only (not NHS-funded). Low-dose isotretinoin is used privately (specialist; pregnancy prevention programme applies).",
+      "DermNet: [dermnetnz.org](https://dermnetnz.org/topics/sebaceous-hyperplasia)"
+     ]
+    },
+    {
+     "h": "Connective tissue naevi"
+    },
+    "Hamartomas of collagen (collagenoma) or elastin (elastoma): skin-coloured to yellowish plaques or papules, often on the lower back.",
+    {
+     "ul": [
+      "**Shagreen patch** (lumbosacral, orange-peel) is a major criterion for **tuberous sclerosis complex** (with hypomelanotic macules, facial angiofibromas, periungual fibromas, forehead plaque). Refer for TSC assessment.",
+      "**Buschke–Ollendorff syndrome:** elastomas plus osteopoikilosis (LEMD3).",
+      "**Proteus syndrome:** cerebriform plantar collagenoma.",
+      "**Management:** benign. Refer to look for the syndrome when there are associated signs.",
+      "DermNet: [dermnetnz.org](https://dermnetnz.org/topics/connective-tissue-naevi)"
+     ]
+    },
+    {
+     "h": "Aplasia cutis congenita"
+    },
+    {
+     "ul": [
+      "Congenital absence of skin, most often a **solitary vertex scalp defect**. It may be a healed atrophic, hairless scar, a membranous \"bullous\" form, or an ulcer at birth.",
+      "**\"Hair collar sign\"** (a ring of long dark hair around the defect) suggests neural tube or ectopic neural tissue: **imaging before any procedure**.",
+      "Associations: Adams–Oliver syndrome (limb defects); Bart syndrome (with epidermolysis bullosa); trisomy 13; fetus papyraceus.",
+      "**Pharmacist pearl:** maternal **carbimazole/methimazole** exposure in early pregnancy is linked to scalp aplasia cutis (part of carbimazole embryopathy, MHRA 2019 advice on contraception in women of childbearing potential). Misoprostol and valproate have also been reported.",
+      "**Management:** gentle wound care (moist dressings) for small defects; most heal with a scar. Large or deep defects need specialist care (risk of haemorrhage or infection of the sagittal sinus). Scar revision later. More in the [infant skin pages](condition:neonatal-rashes) notes W1.",
+      "DermNet: [dermnetnz.org](https://dermnetnz.org/topics/aplasia-cutis)"
+     ]
+    },
+    {
+     "h": "Linear morphoea *en coup de sabre*"
+    },
+    {
+     "ul": [
+      "Linear localised scleroderma of the frontoparietal scalp/forehead: an **indurated, ivory or hyperpigmented band with hair loss** that becomes a depressed groove, like a sabre cut. It usually starts in childhood shows linear morphoea elsewhere; no captioned *en coup de sabre* image was available on DermNet).",
+      "Overlaps with **Parry–Romberg syndrome** (progressive hemifacial atrophy). It may have **neurological** (seizures, headaches, MRI changes) and **ocular** (uveitis) involvement.",
+      "**Key difference from sebaceous naevus:** it is acquired, progressive, indurated rather than waxy-yellow, and causes tissue loss.",
+      "**Management:** **prompt referral** (paediatric dermatology/rheumatology). Active disease is treated with systemic **methotrexate ± corticosteroids** to prevent permanent atrophy (BAD/ PRES consensus). Ophthalmology screening; neurology if there are symptoms.",
+      "DermNet: [dermnetnz.org](https://dermnetnz.org/topics/morphoea)"
+     ]
+    },
+    {
+     "h": "Birt–Hogg–Dubé syndrome"
+    },
+    {
+     "ul": [
+      "Autosomal dominant; **FLCN** (folliculin).",
+      "Multiple small skin-coloured papules on the face, neck and upper trunk from about age 20–40 (**fibrofolliculomas**, trichodiscomas, acrochordons).",
+      "**Lung cysts → spontaneous pneumothorax**, and **renal tumours** (chromophobe/hybrid oncocytic; bilateral, multifocal).",
+      "**Action:** refer to clinical genetics. Renal **MRI surveillance** (UK practice: every 1–2 years from about age 20). Advise against smoking. Seek urgent review for sudden breathlessness or chest pain.",
+      "DermNet: [dermnetnz.org](https://dermnetnz.org/topics/birt-hogg-dube-syndrome)"
+     ]
+    },
+    {
+     "h": "PTEN hamartoma tumour syndrome: Bannayan–Riley–Ruvalcaba"
+    },
+    {
+     "ul": [
+      "BRRS and Cowden syndrome are a spectrum caused by **PTEN** mutations.",
+      "**BRRS** (usually diagnosed in childhood): macrocephaly, multiple **lipomas**, haemangiomas or vascular malformations, **pigmented macules on the glans penis**, intestinal hamartomatous polyps, and developmental delay.",
+      "**Cowden:** facial trichilemmomas, acral keratoses, oral papillomatosis, macrocephaly. Raised risk of **breast, thyroid, endometrial, kidney and colorectal cancers**.",
+      "**Action:** genetics referral and cancer surveillance. Melanoma risk is also modestly raised (see the [melanoma](condition:melanoma) notes).",
+      "DermNet: [dermnetnz.org](https://dermnetnz.org/topics/cowden-disease)"
+     ]
+    },
+    {
+     "h": "Eponymous signs"
+    },
+    {
+     "table": {
+      "head": [
+       "Sign",
+       "Elicit",
+       "Positive in"
+      ],
+      "rows": [
+       [
+        "Dimple / Fitzpatrick",
+        "Lateral pinch → central depression",
+        "Dermatofibroma"
+       ],
+       [
+        "Buttonhole",
+        "Press → nodule invaginates",
+        "Neurofibroma"
+       ],
+       [
+        "Darier",
+        "Rub lesion → wheal/flare within minutes",
+        "Mastocytosis (urticaria pigmentosa, mastocytoma)"
+       ],
+       [
+        "Nikolsky",
+        "Lateral pressure → epidermis shears off",
+        "Pemphigus vulgaris, SSSS, TEN (not BP)"
+       ],
+       [
+        "Asboe-Hansen",
+        "Pressure on bulla → it spreads laterally",
+        "Pemphigus"
+       ],
+       [
+        "Leser–Trélat",
+        "Sudden eruption of many SKs",
+        "Possible internal malignancy (often GI adenocarcinoma). Contentious; see the [benign lesion](condition:seborrhoeic-keratosis) notes"
+       ],
+       [
+        "Tent sign",
+        "Stretch skin → angulated facets",
+        "Pilomatricoma"
+       ]
+      ]
+     }
+    },
+    {
+     "fig": {
+      "dermnet": "m2w1:G01"
+     }
+    }
+   ]
+  },
+  {
+   "id": "management",
+   "title": "Management",
+   "blocks": [
+    {
+     "h": "Referral"
+    },
+    {
+     "refer": [
+      {
+       "when": "urgent",
+       "t": "Rapid growth or pain in a plexiform neurofibroma: refer urgently (malignant peripheral nerve sheath tumour)."
+      },
+      {
+       "when": "routine",
+       "t": "Six or more café-au-lait macules in a child: refer to assess for **NF1**."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "red-flags",
+   "title": "Red flags and when to refer",
+   "blocks": [
+    {
+     "ul": [
+      "Rapid growth or pain in a plexiform neurofibroma: refer urgently (malignant peripheral nerve sheath tumour).",
+      "Six or more café-au-lait macules in a child: refer to assess for **NF1**."
+     ]
+    }
+   ],
+   "short": "Red flags"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Other skin lumps: neurofibroma, pilomatricoma, myxoid cyst & more?",
+   "a": "A soft ‘button-hole’ papule (neurofibroma), a hard chalky lump on a child’s face (pilomatricoma), a cyst by the nail (myxoid), yellow umbilicated papules on the face (sebaceous hyperplasia)."
+  },
+  {
+   "q": "What drives it?",
+   "a": "Different tissues of origin: nerve sheath, hair matrix, joint-related mucin, enlarged sebaceous glands."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "Recognise and reassure where typical; refer when uncertain, growing or syndromic."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "NF1 (≥6 café-au-lait macules, axillary freckling), plexiform neurofibroma change, BCC mimicking sebaceous hyperplasia."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "Rapid growth or pain in a plexiform neurofibroma: refer urgently (malignant peripheral nerve sheath tumour)."
+  }
+ ],
+ "references": [],
+ "see_also": []
+}

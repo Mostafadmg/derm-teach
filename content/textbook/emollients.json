@@ -1,0 +1,314 @@
+{
+ "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
+ "key_facts": [
+  "Any **dry or eczematous skin**, at every review, alongside active treatment.",
+  "They replace lipids and water in the stratum corneum, restore the barrier and reduce itch and flares.",
+  "The right emollient is **the one they’ll use**: children **250–500 g / week**, also as a soap substitute.",
+  "**Fire risk** with any emollient soaked into fabrics (MHRA); slips; stinging from aqueous cream."
+ ],
+ "sections": [
+  {
+   "id": "overview",
+   "title": "Overview",
+   "blocks": [
+    "Moisturisers that soften and hydrate the stratum corneum.",
+    {
+     "ul": [
+      "**Occlusives** (paraffins, petrolatum, dimeticone) reduce transepidermal water loss.",
+      "**Humectants** (urea, glycerol, lactic acid) draw water in.",
+      "**Emollient lipids** (ceramides, oils) fill gaps in the barrier."
+     ]
+    },
+    "Formulations range from light lotions/gels → creams → greasy ointments, which work best and contain the least preservative. They are used as **leave-on** treatments, as **soap substitutes**, and (now rarely) as bath additives."
+   ]
+  },
+  {
+   "id": "aetiology",
+   "title": "Aetiology: causes and risk factors",
+   "blocks": [
+    {
+     "fig": {
+      "ai": "v3-eczema-barrier-section.jpg",
+      "caption": "Emollients restore the lipid ‘mortar’ between skin cells, so less water escapes and fewer irritants get in.",
+      "alt": "Skin barrier section"
+     }
+    }
+   ],
+   "short": "Aetiology"
+  },
+  {
+   "id": "clinical-features",
+   "title": "Clinical features",
+   "blocks": [
+    {
+     "h": "How it works"
+    },
+    "Emollients restore the lipid \"mortar\" between corneocytes. They reduce water loss, irritant/allergen penetration and itch, and have a **steroid-sparing** effect (fewer flares, less steroid needed). In atopic eczema, filaggrin loss and soap/surfactant exposure drive barrier failure (see the [eczema](condition:eczema-dermatitis) notes see *Vitamin D analogues, coal tar*).",
+    {
+     "h": "Clinical uses & where it fits"
+    },
+    "Step 0 of every eczema, psoriasis and ichthyosis plan. Also xerosis in older people, hand dermatitis and dryness after isotretinoin.",
+    {
+     "h": "How to choose / assess"
+    },
+    {
+     "ul": [
+      "**\"The best emollient is the one the patient will use.\"** Offer 2–4 to try (sample packs or self-selection, photo C03). Consider dryness, site, time of day, school/work, preference and **allergens/irritants**: avoid **fragrance**, and check for **lanolin** (wool alcohols), **SLS**, **methylisothiazolinone** and preservatives in creams.",
+      "**Quantity check:** NICE CG57 — **250–500 g/week** for children; about **500 g/week** for adults with widespread dryness. A patient collecting one 500 g tub every 3 months is under-using.",
+      "Prescribe enough for **home and nursery/school** (NICE CG57)."
+     ]
+    },
+    {
+     "h": "Key comparisons — the options"
+    },
+    {
+     "table": {
+      "head": [
+       "Product",
+       "Leave-on?",
+       "Teaching point"
+      ],
+      "rows": [
+       [
+        "**Aqueous cream BP**",
+        "**No** — contraindicated as a leave-on",
+        "Contains **sodium lauryl sulfate (SLS)** → stinging, burning, redness and measurable **barrier damage** (Danby 2011; MHRA 2013). At most a wash product; most formularies have dropped it"
+       ],
+       [
+        "Aveeno cream (colloidal oatmeal)",
+        "Yes",
+        "Oat protein — rare contact allergy; check the formulary (many ICBs restrict it)"
+       ],
+       [
+        "Cetraben cream",
+        "Yes",
+        "Paraffin-based cream"
+       ],
+       [
+        "Diprobase cream",
+        "Yes",
+        "Lighter paraffin-based cream"
+       ],
+       [
+        "Epaderm ointment",
+        "Yes",
+        "Greasy ointment, also a soap substitute; **high fire risk** when soaked into fabric"
+       ],
+       [
+        "Emulsifying ointment",
+        "Yes (and as a wash)",
+        "Older versions contained SLS — switch if it stings"
+       ]
+      ]
+     }
+    },
+    {
+     "fig": {
+      "dermnet": "m1w2:C03"
+     }
+    },
+    {
+     "fig": {
+      "ai": "v3-emollient-spectrum.jpg",
+      "caption": "From light to greasy: lotion, cream, gel and ointment. Greasier products hold water in best and contain the least preservative; lighter ones suit daytime and hairy areas.",
+      "alt": "Four emollient containers from light to greasy"
+     }
+    }
+   ]
+  },
+  {
+   "id": "diagnosis",
+   "title": "Diagnosis and investigations",
+   "blocks": [
+    {
+     "h4": "Quantity"
+    },
+    {
+     "ul": [
+      "**250–500 g / week** for children; **~500 g / week** for adults with widespread dryness."
+     ]
+    },
+    {
+     "h4": "Under-use check"
+    },
+    {
+     "ul": [
+      "One 500 g tub every 3 months = under-using."
+     ]
+    },
+    {
+     "h4": "Allergy?"
+    },
+    {
+     "ul": [
+      "Worse with a product: suspect contact allergy; patch test."
+     ]
+    }
+   ],
+   "short": "Diagnosis"
+  },
+  {
+   "id": "differentials",
+   "title": "Differential diagnoses",
+   "blocks": [
+    {
+     "ddx": [
+      {
+       "name": "Aqueous cream BP",
+       "f": "**Not** a leave-on: SLS stings and damages the barrier (MHRA 2013)."
+      },
+      {
+       "name": "Colloidal oatmeal cream",
+       "f": "Leave-on; rare oat allergy; check formulary."
+      },
+      {
+       "name": "Paraffin-based creams",
+       "f": "Leave-on; lighter, daytime."
+      },
+      {
+       "name": "Greasy ointments",
+       "f": "Leave-on and soap substitute; **high fire risk** on fabric."
+      },
+      {
+       "name": "Emulsifying ointment",
+       "f": "Leave-on and wash; older versions had SLS: switch if it stings."
+      }
+     ]
+    }
+   ],
+   "short": "Differentials"
+  },
+  {
+   "id": "management",
+   "title": "Management",
+   "blocks": [
+    {
+     "ul": [
+      "**Prescribe generously** (250–500 g/week for a child; ~500 g for an adult), in **pump dispensers** to reduce contamination, with a separate tub for the soap substitute.",
+      "**How to apply:** smooth on in the direction of hair growth (reduces folliculitis), often (at least 2–4 times daily and after washing), including when the skin is clear. Leave a gap between emollient and steroid.",
+      "**MHRA safety:** **Fire risk** with **both paraffin-containing and paraffin-free** emollients that dry onto clothing, bedding or dressings (DSU Dec 2018; reinforced 2020). Advise no smoking or naked flames; washing fabrics at high temperature may not remove all residue; tell carers and care homes; **Slips** in the bath/shower with emollient bath additives. Bath additives add no benefit (BATHE trial), and NICE CG57 (updated 2023) no longer advises offering them routinely",
+      "**Aqueous cream** (MHRA DSU 2013): may irritate the skin, particularly in children with eczema, probably because of SLS."
+     ]
+    },
+    {
+     "h": "IP scope"
+    },
+    {
+     "ul": [
+      "Fully within community/primary-care IP and OTC practice. Follow ICB self-care/formulary policies; many ICBs expect OTC purchase for mild dry skin."
+     ]
+    },
+    {
+     "fig": {
+      "ai": "v3-emollient-strokes.jpg",
+      "caption": "Smooth emollient on in long strokes along the direction of hair growth; rubbing hard against it can block follicles and cause folliculitis.",
+      "alt": "Hand applying cream along the forearm"
+     }
+    },
+    {
+     "h": "Treatment ladder"
+    },
+    {
+     "ladder": [
+      {
+       "k": "Prescribe",
+       "t": "**Pump dispensers**; separate tub for soap substitute. Generous quantities (as above).",
+       "tone": "base"
+      },
+      {
+       "k": "Apply",
+       "t": "Smooth on **in the direction of hair growth** (less folliculitis). At least **2–4 times daily** and after washing, even when clear.",
+       "tone": "first"
+      },
+      {
+       "k": "Counsel safety",
+       "t": "**Fire risk** with paraffin and paraffin-free emollients on clothing, bedding, dressings: no smoking or naked flames; tell carers. **Slips** with bath additives; BATHE trial: no added benefit.",
+       "tone": "second"
+      }
+     ]
+    },
+    {
+     "callout": "warn",
+     "title": "Prescribing limits and pitfalls",
+     "list": [
+      "**Fire**: Residue on fabric burns easily; washing may not remove it.",
+      "**Aqueous cream**: Wash product at most."
+     ]
+    },
+    {
+     "h": "Referral"
+    },
+    {
+     "refer": [
+      {
+       "when": "routine",
+       "t": "Uncontrolled despite adequate emollient + TCS: refer per NICE CG57."
+      },
+      {
+       "when": "routine",
+       "t": "Suspected emollient contact allergy: patch testing."
+      },
+      {
+       "when": "same-day",
+       "t": "Erythroderma or infected eczema: assess promptly."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "red-flags",
+   "title": "Red flags and when to refer",
+   "blocks": [
+    {
+     "ul": [
+      "Warn about **fire risk**: dressings, clothing and bedding soaked in any emollient (paraffin or paraffin-free) can catch fire easily (MHRA)."
+     ]
+    },
+    {
+     "h4": "Red flags / refer"
+    },
+    {
+     "ul": [
+      "Eczema still uncontrolled despite adequate emollient + TCS (see NICE CG57 referral criteria); suspected emollient contact allergy (patch testing); erythroderma; infection."
+     ]
+    }
+   ],
+   "short": "Red flags"
+  },
+  {
+   "id": "pearls",
+   "title": "Prescriber pearls (UK pharmacist IP)",
+   "blocks": [
+    {
+     "pearls": [
+      "\"Emollients are the treatment, not an extra.\"",
+      "Show the FTU *and* a handful of emollient. For a child with widespread eczema, a 500 g tub should last about a week.",
+      "Fire-safety counselling is an MHRA expectation — record that you gave it."
+     ]
+    }
+   ],
+   "short": "Pearls"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Weekly emollient for a child with eczema (NICE)?",
+   "a": "250–500 g a week."
+  },
+  {
+   "q": "Why not aqueous cream as a leave-on?",
+   "a": "Contains SLS: stinging and barrier damage (MHRA 2013)."
+  },
+  {
+   "q": "Which direction to apply?",
+   "a": "In the direction of hair growth, to reduce folliculitis."
+  },
+  {
+   "q": "Fire risk applies to which emollients?",
+   "a": "Both paraffin-containing and paraffin-free products soaked into fabric."
+  }
+ ],
+ "references": [],
+ "see_also": []
+}

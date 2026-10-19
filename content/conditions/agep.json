@@ -1,0 +1,78 @@
+{
+ "slug": "agep",
+ "title": "AGEP (acute generalised exanthematous pustulosis)",
+ "category": "drug-eruptions",
+ "status": "published",
+ "order": 4,
+ "module": "Module 1 · Week 3",
+ "aka": [
+  "AGEP",
+  "acute generalised exanthematous pustulosis",
+  "pustular drug eruption",
+  "toxic pustuloderma"
+ ],
+ "summary": "Sudden sheets of tiny sterile non-follicular pustules on red, swollen skin within hours to 2 days of a drug (often an antibiotic), with fever. Usually settles in 1–2 weeks once the drug is stopped.",
+ "card_image": "m1w3:C02",
+ "sections": {
+  "what": [
+   "**AGEP** (acute generalised exanthematous pustulosis) is an abrupt eruption of **sterile, non-follicular pinhead pustules** on oedematous erythema. It is usually self-limiting; mortality is under 5%."
+  ],
+  "cause": [
+   {
+    "list": [
+     "Type IVd reaction: drug-specific T cells release **IL-8 (CXCL8)**, recruiting neutrophils into the epidermis.",
+     "Culprits: **aminopenicillins**, macrolides, cephalosporins, **pristinamycin**, **hydroxychloroquine**, **diltiazem**, terbinafine.",
+     "Latency **under 48 hours** for antibiotics; up to 1–2 weeks for some drugs.",
+     "IL36RN variants overlap with generalised pustular psoriasis."
+    ]
+   }
+  ],
+  "features": [
+   {
+    "list": [
+     "Pinhead pustules on erythema, starting in the **flexures and face** and becoming generalised; burning or itch.",
+     "Fever above 38 °C; neutrophilia; mild organ involvement in up to 20%.",
+     "Resolves in 1–2 weeks with **collarette desquamation**."
+    ]
+   }
+  ],
+  "diagnosis": [
+   "Clinical with history; FBC (neutrophilia), U&E, LFT. Biopsy shows subcorneal or intraepidermal spongiform pustules (to distinguish it from pustular psoriasis). The EuroSCAR score helps. Patch testing later."
+  ],
+  "differentials": [
+   "**Generalised pustular psoriasis** (history of psoriasis, slower onset, longer course), subcorneal pustular dermatosis, pustular DRESS, folliculitis, SJS/TEN (early AGEP can show Nikolsky-like sloughing)."
+  ],
+  "management": [
+   {
+    "list": [
+     "**Stop the drug**, document, Yellow Card, avoid for life.",
+     "Potent topical steroid; antipyretics; supportive care. Systemic steroids are rarely needed.",
+     "Usually managed in dermatology, with admission if unwell."
+    ]
+   }
+  ],
+  "red_flags": [
+   "Widespread pustules within days of an antibiotic: **same-day dermatology**.",
+   "Mucosal erosions, skin sloughing or systemic organ dysfunction: hospital."
+  ],
+  "pearls": [
+   "AGEP has the **shortest latency** of the severe drug reactions (hours to 2 days).",
+   "Pustules in AGEP are **non-follicular** (unlike folliculitis)."
+  ]
+ },
+ "photos": [
+  {
+   "title": "AGEP",
+   "items": [
+    "m1w3:C02",
+    "m1w3:C03"
+   ]
+  }
+ ],
+ "references": [
+  {
+   "label": "DermNet: AGEP",
+   "url": "https://dermnetnz.org/topics/acute-generalised-exanthematous-pustulosis"
+  }
+ ]
+}

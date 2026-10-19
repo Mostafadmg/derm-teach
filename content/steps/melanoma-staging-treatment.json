@@ -130,7 +130,7 @@
    {
     "name": "Spitz / atypical Spitz",
     "clue": "Young, pink; FISH / NGS.",
-    "link": "spitz-blue-halo-naevi"
+    "link": "spitz-naevus"
    },
    {
     "name": "MELTUMP",
@@ -139,7 +139,7 @@
    {
     "name": "Recurrent / halo naevus",
     "clue": "Re-grown pigment, halo.",
-    "link": "spitz-blue-halo-naevi"
+    "link": "halo-naevus"
    }
   ]
  },

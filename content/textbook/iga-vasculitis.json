@@ -1,0 +1,175 @@
+{
+ "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
+ "key_facts": [
+  "A child (often 3–10 years) with palpable purpura on the legs and buttocks after a cold or sore throat, with sore joints or tummy pain.",
+  "IgA-containing immune complexes in small vessels of the skin, gut, joints and kidneys.",
+  "Exclude sepsis; BP and urine dipstick; FBC and clotting if unsure; simple analgesia; urine and BP monitoring for 6–12 months.",
+  "Meningococcal sepsis, leukaemia or ITP (check platelets), intussusception, nephritis."
+ ],
+ "sections": [
+  {
+   "id": "overview",
+   "title": "Overview",
+   "blocks": [
+    "The **commonest childhood vasculitis** (~20 per 100,000 children/year). A systemic **IgA-immune-complex small-vessel vasculitis** affecting skin, joints, gut and kidneys. **~90% of cases are in children** (peak 3–10 years; ~75% under 8; slightly more boys), but it **does occur in adults**, where renal disease is more often severe."
+   ]
+  },
+  {
+   "id": "pathophysiology",
+   "title": "Pathophysiology and pathology",
+   "blocks": [
+    {
+     "h": "How it is caused"
+    },
+    "**Galactose-deficient IgA1** forms immune complexes (with anti-glycan IgG) that deposit in vessel walls and the glomerular mesangium. It often follows an **upper respiratory infection** — **group A β-haemolytic streptococcus** is the most reported trigger (positive throat swabs in 10–30%, raised ASO in 20–50%). Other triggers: parainfluenza, adenovirus, *Mycoplasma*, parvovirus, drugs, vaccines, malignancy in adults."
+   ],
+   "short": "Pathophysiology"
+  },
+  {
+   "id": "clinical-features",
+   "title": "Clinical features",
+   "blocks": [
+    {
+     "h": "Clinical features & sites"
+    },
+    {
+     "ul": [
+      "**Palpable purpura** (100%, required): symmetrical on the **buttocks, legs, ankles and extensor arms**, ± urticarial and bullous/necrotic lesions; scrotal oedema; oedema of the scalp/face in toddlers.",
+      "**Arthralgia/arthritis** (~75%): knees and ankles, transient and non-erosive.",
+      "**Abdominal pain** (~65%) ± GI bleeding (~30%), **intussusception** (ileo-ileal — 1–5%), pancreatitis.",
+      "**Renal** (~30–50%): microscopic/macroscopic **haematuria**, proteinuria, nephritic/nephrotic syndrome, hypertension, raised creatinine. Usually within **4–6 weeks** (up to 6 months). The main long-term risk: ~1–2% of children progress to CKD; higher if nephrotic/nephritic at onset.",
+      "Rare: orchitis/testicular torsion mimic, CNS involvement, pulmonary haemorrhage."
+     ]
+    },
+    {
+     "fig": {
+      "dermnet": "m1w4:E01"
+     }
+    }
+   ]
+  },
+  {
+   "id": "diagnosis",
+   "title": "Diagnosis and investigations",
+   "blocks": [
+    {
+     "ul": [
+      "**EULAR/PRINTO/PRES classification (children):** **purpura or petechiae, lower-limb predominant (mandatory)** + ≥1 of: abdominal pain; histology with IgA deposition; arthritis/arthralgia; renal involvement (proteinuria >0.3 g/24 h or uACR >30 mg/mmol, or haematuria/red-cell casts).",
+      "**Bloods:** **FBC + film (platelets normal — excludes ITP/leukaemia)**, clotting, U&E/creatinine, albumin, CRP; ASO ± throat swab; IgA (raised in ~50%; not diagnostic).",
+      "**Urinalysis + BP** at diagnosis; **urine ACR/PCR** if proteinuria.",
+      "**Biopsy** only if atypical (adults, uncertain diagnosis): LCV with **perivascular IgA and C3 on DIF**. Renal biopsy if significant proteinuria or impaired function."
+     ]
+    }
+   ],
+   "short": "Diagnosis"
+  },
+  {
+   "id": "differentials",
+   "title": "Differential diagnoses",
+   "blocks": [
+    "**Meningococcal septicaemia** (unwell, fever, rapidly spreading non-blanching rash — must be excluded first), **ITP** (low platelets, flat petechiae/bruising, well), **acute leukaemia** (pallor, bone pain, lymphadenopathy, abnormal FBC), **acute haemorrhagic oedema of infancy**, non-accidental injury, cryoglobulinaemia, GPA, SLE, post-streptococcal GN, HUS (diarrhoea, anaemia, low platelets, AKI), papular-purpuric gloves-and-socks syndrome (parvovirus), scurvy, drug vasculitis."
+   ],
+   "short": "Differentials"
+  },
+  {
+   "id": "management",
+   "title": "Management",
+   "blocks": [
+    {
+     "ul": [
+      "**Exclude sepsis first.** A child with non-blanching rash who is unwell or febrile → **NICE NG240**: treat as **meningococcal disease** — 999. Give **IM/IV benzylpenicillin** in primary care if it does not delay transfer.",
+      "**Most children are managed at home:** rest, **paracetamol** for joint pain. **NSAIDs** may be used for arthralgia if there is **no renal involvement** and no GI bleeding (avoid in renal disease). Elevate the legs for purpura.",
+      "**Oral corticosteroids** may help **severe abdominal pain/arthritis/orchitis** (specialist advice). They do **not prevent nephritis** and are not given routinely.",
+      "**Renal monitoring** (core primary-care task — the course mentions it only briefly): **urinalysis and BP** at presentation and then regularly for **at least 6 months** — typically **weekly for the first month, then every 2 weeks to month 3, monthly to month 6, then at 12 months** (CKS/UK paediatric nephrology practice — check the current CKS schedule). Any proteinuria or hypertension → paediatric/renal referral.",
+      "**Recurrence** occurs in ~1/3, usually within 4 months.",
+      "**Pregnancy:** women with a history of HSP nephritis need BP/urine monitoring in pregnancy (pre-eclampsia risk)."
+     ]
+    },
+    {
+     "h": "IP scope"
+    },
+    "Within IP scope for a well child or adult with typical HSP and normal urine/BP: analgesia, safety-netting, arranging the urinalysis/BP schedule and recognising when to escalate. Paediatric IPs: follow local competence frameworks for children.",
+    {
+     "h": "Referral"
+    },
+    {
+     "refer": [
+      {
+       "when": "routine",
+       "t": "Child unwell, febrile or with spreading non-blanching rash: treat as **meningococcal disease** until proven otherwise."
+      },
+      {
+       "when": "same-day",
+       "t": "Severe abdominal pain or blood in stool: possible **intussusception**, same-day paediatric review."
+      },
+      {
+       "when": "routine",
+       "t": "Proteinuria, haematuria or high BP: paediatric nephrology advice; keep checking urine for 6–12 months."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "red-flags",
+   "title": "Red flags and when to refer",
+   "blocks": [
+    {
+     "ul": [
+      "Child unwell, febrile or with spreading non-blanching rash: treat as **meningococcal disease** until proven otherwise.",
+      "Severe abdominal pain or blood in stool: possible **intussusception**, same-day paediatric review.",
+      "Proteinuria, haematuria or high BP: paediatric nephrology advice; keep checking urine for 6–12 months."
+     ]
+    },
+    {
+     "h4": "Red flags / refer"
+    },
+    "Unwell/febrile child or **atypical rash** (exclude meningococcal sepsis/leukaemia); **severe abdominal pain**, bloody stools, signs of **intussusception**; **testicular pain/swelling** (exclude torsion); **renal involvement** — macroscopic haematuria, proteinuria ≥2+ or uPCR >100 mg/mmol (nephrotic range — CKS), oedema, **hypertension**, raised creatinine; adults (higher renal risk — refer for assessment); diagnostic uncertainty; low platelets."
+   ],
+   "short": "Red flags"
+  },
+  {
+   "id": "pearls",
+   "title": "Prescriber pearls (UK pharmacist IP)",
+   "blocks": [
+    {
+     "pearls": [
+      "\"**HSP = purpura with a NORMAL platelet count.**\" If platelets are low, it is not HSP.",
+      "Give the family a **urine dipstick plan** and a written list of red flags (abdominal pain, blood in urine/stools, swollen testicles, headache, reduced urine output).",
+      "The rash can recur with activity/standing — reassure."
+     ]
+    }
+   ],
+   "short": "Pearls"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of IgA vasculitis (Henoch–Schönlein purpura)?",
+   "a": "A child (often 3–10 years) with palpable purpura on the legs and buttocks after a cold or sore throat, with sore joints or tummy pain."
+  },
+  {
+   "q": "What drives it?",
+   "a": "IgA-containing immune complexes in small vessels of the skin, gut, joints and kidneys."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "Exclude sepsis; BP and urine dipstick; FBC and clotting if unsure; simple analgesia; urine and BP monitoring for 6–12 months."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "Meningococcal sepsis, leukaemia or ITP (check platelets), intussusception, nephritis."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "Child unwell, febrile or with spreading non-blanching rash: treat as **meningococcal disease** until proven otherwise."
+  }
+ ],
+ "references": [
+  {
+   "label": "Medscape: IgA vasculitis (Henoch–Schönlein purpura)",
+   "url": "https://emedicine.medscape.com/article/984105-overview"
+  }
+ ],
+ "see_also": []
+}

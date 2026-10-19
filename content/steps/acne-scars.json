@@ -1,0 +1,78 @@
+{
+ "_note": "curated (split page, Oct 2026)",
+ "features": {
+  "visuals": [
+   {
+    "ai": "v3-atrophic-scar-types.jpg",
+    "caption": "Atrophic acne scars: ice-pick, boxcar and rolling.",
+    "alt": "Atrophic scar types"
+   }
+  ]
+ },
+ "manage": {
+  "lead": "Prevent by treating acne early; scar treatment is specialist and multi-session.",
+  "rungs": [
+   {
+    "k": "Prevent",
+    "tone": "base",
+    "points": [
+     "Treat active acne **early and adequately**; scarring = refer (NG198)."
+    ]
+   },
+   {
+    "k": "Specialist: atrophic",
+    "tone": "refer",
+    "points": [
+     "Ice-pick: TCA CROSS, punch excision / grafting.",
+     "Boxcar: fractional laser, peels, punch, microneedling.",
+     "Rolling: subcision, fillers, microneedling, laser."
+    ]
+   }
+  ],
+  "limits": [
+   {
+    "k": "Expectations",
+    "t": "Improvement, not removal."
+   },
+   {
+    "k": "Isotretinoin",
+    "t": "Check status before procedures."
+   },
+   {
+    "k": "Skin of colour",
+    "t": "Higher PIH risk: experienced operator only.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "routine",
+    "t": "Scarring or significant distress at any acne severity (NG198)."
+   },
+   {
+    "when": "routine",
+    "t": "Low mood or body dysmorphic concerns: mental-health support."
+   }
+  ]
+ },
+ "quiz": [
+  {
+   "q": "Which atrophic scar type is commonest?",
+   "a": "Ice-pick (about 60–70%)."
+  },
+  {
+   "q": "What treatment suits rolling scars?",
+   "a": "Subcision (± fillers, microneedling, laser)."
+  },
+  {
+   "q": "How do you tell PIH from a scar?",
+   "a": "PIH is flat colour change with no contour change."
+  },
+  {
+   "q": "What does NICE say about scarring?",
+   "a": "Scarring is a referral trigger at any acne severity."
+  }
+ ]
+}

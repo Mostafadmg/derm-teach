@@ -1,0 +1,335 @@
+{
+ "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
+ "key_facts": [
+  "**Atrophic acne scars** follow collagen loss after inflammatory acne: **ice-pick**, **boxcar** and **rolling**.",
+  "Ice-pick scars are the commonest (about 60–70%).",
+  "Separate true scars from **post-inflammatory hyperpigmentation or erythema** (flat colour change, which fades).",
+  "Prevention matters most: treat acne early; scarring is a referral trigger under NICE NG198.",
+  "Treatments (TCA CROSS, subcision, lasers, microneedling) are specialist or cosmetic; aim for improvement, not removal."
+ ],
+ "sections": [
+  {
+   "id": "overview",
+   "title": "Overview",
+   "blocks": [
+    {
+     "callout": "info",
+     "title": "Scope: counselling and recognition",
+     "text": "For the pharmacist/IP, this page covers recognising scar types, setting expectations, safety and referral. It is **not** a procedure how-to."
+    },
+    "Acne scarring is fibrous remodelling after inflammatory acne. **Atrophic** scars follow collagen destruction; raised scars are covered on [Keloids and hypertrophic scars](condition:keloids-hypertrophic-scars). Scars are usually permanent but may soften with time or combined treatment. The psychological impact is often high, even when scarring looks ‘mild’."
+   ]
+  },
+  {
+   "id": "epidemiology",
+   "title": "Epidemiology",
+   "blocks": [
+    {
+     "ul": [
+      {
+       "t": "**Who**",
+       "sub": [
+        "Some scarring affects many people with moderate to severe acne; risk rises with delayed treatment and picking."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "aetiology",
+   "title": "Aetiology: causes and risk factors",
+   "blocks": [
+    {
+     "ul": [
+      "Inflammatory nodules and cysts cause net **collagen destruction**, giving **atrophic** scars.",
+      "Risk rises with acne severity and duration, delay in treatment, picking (acne excoriée) and smoking.",
+      "**Post-inflammatory erythema and hyper- or hypopigmentation** are colour change, not true scarring, but patients often call both ‘scars’."
+     ]
+    },
+    {
+     "h": "Myths to address"
+    },
+    {
+     "ul": [
+      "**\"Scars will fade completely\"**: atrophic scars are permanent; colour marks fade."
+     ]
+    }
+   ],
+   "short": "Aetiology"
+  },
+  {
+   "id": "pathophysiology",
+   "title": "Pathophysiology and pathology",
+   "blocks": [
+    "Deep inflammation **destroys collagen** faster than it can be rebuilt.",
+    {
+     "mech": [
+      {
+       "k": "Deep inflammation",
+       "t": "Ruptured follicles release contents into the dermis, causing intense inflammation."
+      },
+      {
+       "k": "Collagen destruction",
+       "t": "Enzymes (MMPs) break down dermal collagen."
+      },
+      {
+       "k": "Imperfect repair",
+       "t": "Healing lays down too little collagen, leaving a depression.",
+       "img": "v3-atrophic-scar-types.jpg",
+       "caption": "Atrophic scar types: ice-pick, boxcar and rolling."
+      },
+      {
+       "k": "Tethering",
+       "t": "Fibrous bands pull the surface down in rolling scars (released by subcision)."
+      }
+     ]
+    }
+   ],
+   "short": "Pathophysiology"
+  },
+  {
+   "id": "clinical-features",
+   "title": "Clinical features",
+   "blocks": [
+    {
+     "table": {
+      "head": [
+       "Type",
+       "Appearance",
+       "Typical sites"
+      ],
+      "rows": [
+       [
+        "Ice-pick",
+        "Narrow, deep, V-shaped; deeper than wide (about 60–70% of atrophic scars)",
+        "Cheeks"
+       ],
+       [
+        "Boxcar",
+        "Round or oval depressions with sharp vertical edges",
+        "Cheeks, temples"
+       ],
+       [
+        "Rolling",
+        "Wider, sloping edges, tethered by dermal bands",
+        "Cheeks"
+       ],
+       [
+        "Perifollicular elastolysis",
+        "Small, pale, follicular atrophic scars",
+        "Back, chest"
+       ],
+       [
+        "PIH / PIE (not scar)",
+        "Flat brown or red marks; no change in skin contour",
+        "Anywhere acne occurred"
+       ]
+      ]
+     }
+    },
+    {
+     "h": "Special groups"
+    },
+    {
+     "ul": [
+      {
+       "t": "**Skin of colour**",
+       "sub": [
+        "PIH is very common and often more distressing than scars; higher procedure risk."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "diagnosis",
+   "title": "Diagnosis and investigations",
+   "blocks": [
+    "Clinical: history of acne plus scar morphology. Document **Fitzpatrick skin type**, whether acne is still active, and the patient’s goals."
+   ],
+   "short": "Diagnosis"
+  },
+  {
+   "id": "differentials",
+   "title": "Differential diagnoses",
+   "blocks": [
+    {
+     "table": {
+      "head": [
+       "Look-alike",
+       "Distinguishing clues"
+      ],
+      "rows": [
+       [
+        "PIH or erythema alone",
+        "Flat colour change, with no depression"
+       ],
+       [
+        "Chickenpox scars",
+        "History of varicella; scattered"
+       ],
+       [
+        "Traumatic or surgical scar",
+        "History of injury"
+       ]
+      ]
+     }
+    }
+   ],
+   "short": "Differentials"
+  },
+  {
+   "id": "management",
+   "title": "Management",
+   "blocks": [
+    {
+     "h": "Prevent"
+    },
+    "Treat active acne **early and adequately** (see [Acne vulgaris](condition:acne-vulgaris)). **Scarring is a referral trigger** under NICE NG198. Treat active acne first, before any scar procedures.",
+    {
+     "h": "Specialist modalities (overview)"
+    },
+    {
+     "table": {
+      "head": [
+       "Scar type",
+       "Options (specialist or cosmetic)"
+      ],
+      "rows": [
+       [
+        "Ice-pick",
+        "**TCA CROSS** (chemical reconstruction of skin scars), punch excision or grafting"
+       ],
+       [
+        "Boxcar",
+        "Resurfacing (fractional lasers, peels), punch techniques, microneedling"
+       ],
+       [
+        "Rolling",
+        "**Subcision**, dermal fillers or fat, microneedling, fractional laser"
+       ]
+      ]
+     }
+    },
+    "Combined, multi-session approaches are usual. Refer to dermatology, plastic surgery or a reputable aesthetic clinic, and explain that the aim is **improvement, not removal**.",
+    {
+     "h": "Treatment ladder"
+    },
+    {
+     "ladder": [
+      {
+       "k": "Prevent",
+       "t": "Treat active acne **early and adequately**; scarring = refer (NG198).",
+       "tone": "base"
+      },
+      {
+       "k": "Specialist: atrophic",
+       "t": "Ice-pick: TCA CROSS, punch excision / grafting. Boxcar: fractional laser, peels, punch, microneedling.",
+       "tone": "refer"
+      }
+     ]
+    },
+    {
+     "callout": "warn",
+     "title": "Prescribing limits and pitfalls",
+     "list": [
+      "**Expectations**: Improvement, not removal.",
+      "**Isotretinoin**: Check status before procedures.",
+      "**Skin of colour**: Higher PIH risk: experienced operator only."
+     ]
+    },
+    {
+     "h": "Referral"
+    },
+    {
+     "refer": [
+      {
+       "when": "routine",
+       "t": "Scarring or significant distress at any acne severity (NG198)."
+      },
+      {
+       "when": "routine",
+       "t": "Low mood or body dysmorphic concerns: mental-health support."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "red-flags",
+   "title": "Red flags and when to refer",
+   "blocks": [
+    {
+     "ul": [
+      "Scarring or significant distress at any acne severity: refer (NG198).",
+      "Low mood, anxiety or body dysmorphic concerns: signpost or refer for mental health support."
+     ]
+    }
+   ],
+   "short": "Red flags"
+  },
+  {
+   "id": "complications",
+   "title": "Complications and prognosis",
+   "blocks": [
+    {
+     "h": "Complications"
+    },
+    {
+     "ul": [
+      "Psychological distress, low self-esteem, depression."
+     ]
+    },
+    {
+     "h": "Prognosis"
+    },
+    {
+     "ul": [
+      "Permanent but improvable with combined treatment."
+     ]
+    }
+   ],
+   "short": "Complications"
+  },
+  {
+   "id": "pearls",
+   "title": "Prescriber pearls (UK pharmacist IP)",
+   "blocks": [
+    {
+     "pearls": [
+      "**Separate scar from pigment.** The treatments are different.",
+      "Check isotretinoin status before procedures: see [Cosmetic procedures](condition:cosmetic-procedures)."
+     ]
+    }
+   ],
+   "short": "Pearls"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Which atrophic scar type is commonest?",
+   "a": "Ice-pick (about 60–70%)."
+  },
+  {
+   "q": "What treatment suits rolling scars?",
+   "a": "Subcision (± fillers, microneedling, laser)."
+  },
+  {
+   "q": "How do you tell PIH from a scar?",
+   "a": "PIH is flat colour change with no contour change."
+  },
+  {
+   "q": "What does NICE say about scarring?",
+   "a": "Scarring is a referral trigger at any acne severity."
+  }
+ ],
+ "references": [],
+ "see_also": [
+  "acne-vulgaris",
+  "keloids-hypertrophic-scars",
+  "cosmetic-procedures",
+  "retinoids"
+ ]
+}
