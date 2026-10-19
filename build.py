@@ -21,6 +21,13 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
+
+
+def asset_v(rel):
+    """Short content hash for cache-busting CSS/JS, so phones pick up presentation fixes at once."""
+    import hashlib
+    try: return "?v=" + hashlib.sha1((ROOT / "assets" / rel).read_bytes()).hexdigest()[:10]
+    except OSError: return ""
 CONTENT = ROOT / "content"
 WARNINGS = []
 
@@ -408,7 +415,7 @@ def page(title, prefix, body, *, desc="", active_slug=None, active_cat=None, bod
 <meta name="color-scheme" content="light dark">
 {THEME_BOOT}
 <link rel="preload" href="{prefix}assets/fonts/inter-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="{prefix}assets/css/style.css">
+<link rel="stylesheet" href="{prefix}assets/css/style.css{asset_v("css/style.css")}">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='9' fill='%230d5e63'/%3E%3Ccircle cx='16' cy='16' r='8' fill='none' stroke='%23fff' stroke-width='2.5'/%3E%3Ccircle cx='16' cy='16' r='2.5' fill='%23fff'/%3E%3C/svg%3E">
 </head>
 <body class="{body_cls}" data-root="{prefix}">
@@ -448,7 +455,7 @@ def page(title, prefix, body, *, desc="", active_slug=None, active_cat=None, bod
   <button type="button" class="lb-next icon-btn" aria-label="Next image">{ui("arrow")}</button>
 </div>
 <script src="{prefix}assets/js/search-index.js"></script>
-<script src="{prefix}assets/js/app.js"></script>
+<script src="{prefix}assets/js/app.js{asset_v("js/app.js")}"></script>
 </body>
 </html>
 """

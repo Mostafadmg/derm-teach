@@ -77,8 +77,11 @@
 
 /* ---------- base ---------- */
 *, *::before, *::after { box-sizing: border-box; }
-html { -webkit-text-size-adjust: 100%; scroll-padding-top: calc(var(--top) + 64px); scroll-behavior: smooth; }
-@media (min-width: 1100px) { html { scroll-padding-top: calc(var(--top) + 20px); } }
+/* scroll-padding = exactly the sticky header (plus the sticky section bar on narrow condition pages, height set by app.js) */
+html { -webkit-text-size-adjust: 100%; scroll-padding-top: var(--top); }
+@media (max-width: 1099.98px) { html.has-toc { scroll-padding-top: calc(var(--top) + var(--toc-h, 54px)); } }
+/* smooth scrolling only for in-page jumps after load, never for load-time restoration (iOS jumps) */
+@media (prefers-reduced-motion: no-preference) { html.ready { scroll-behavior: smooth; } }
 body {
   margin: 0; font-family: var(--sans); font-size: 16px; line-height: 1.65; color: var(--ink); background: var(--bg);
   font-feature-settings: "cv11", "ss03"; font-optical-sizing: auto;

@@ -7,6 +7,27 @@
   var $$ = function (s, el) { return Array.prototype.slice.call((el || doc).querySelectorAll(s)); };
   function escH(s) { return String(s).replace(/[&<>"]/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]; }); }
 
+  /* ---------------- initial scroll position ----------------
+     A fresh load without a #hash must start at the very top. Some iOS in-app browsers (WKWebView /
+     SFSafariViewController) restore or nudge the scroll position while fonts and the sticky header settle,
+     which left the hero title under the header. Back/forward keeps the browser's normal restoration. */
+  var navType = ""; try { var ne = performance.getEntriesByType("navigation")[0]; navType = ne ? ne.type : ""; } catch (e) {}
+  var userMoved = false;
+  ["touchstart", "wheel", "keydown", "mousedown"].forEach(function (ev) { window.addEventListener(ev, function () { userMoved = true; }, { passive: true, once: true }); });
+  function toTop() { if (!location.hash && navType !== "back_forward" && !userMoved && window.scrollY !== 0) window.scrollTo(0, 0); }
+  if (!location.hash && navType !== "back_forward" && "scrollRestoration" in history) history.scrollRestoration = "manual";
+  toTop();
+  window.addEventListener("load", function () { toTop(); requestAnimationFrame(function () { toTop(); html.classList.add("ready"); }); });
+  window.addEventListener("pageshow", function (e) { if (!e.persisted) toTop(); });
+  if (doc.fonts && doc.fonts.ready) doc.fonts.ready.then(toTop);
+  /* sticky section bar on narrow condition pages: keep scroll-padding equal to header + bar */
+  var tocBar = doc.querySelector(".toc");
+  if (tocBar) {
+    html.classList.add("has-toc");
+    var setTocH = function () { var h = tocBar.getBoundingClientRect().height; if (h) html.style.setProperty("--toc-h", Math.round(h) + "px"); };
+    setTocH(); window.addEventListener("resize", setTocH, { passive: true });
+  }
+
   /* ---------------- theme ---------------- */
   var mq = window.matchMedia ? window.matchMedia("(prefers-color-scheme: dark)") : null;
   function effectiveTheme() { var t = html.getAttribute("data-theme"); return t || (mq && mq.matches ? "dark" : "light"); }
@@ -41,8 +62,12 @@
     if (open) {
       lastOpener = opener || null;
       var cur = drawer.querySelector("[aria-current=page]") || drawer.querySelector("a,button,summary");
-      if (cur) { cur.focus({ preventScroll: true }); cur.scrollIntoView({ block: "center" }); }
-    } else if (lastOpener) lastOpener.focus();
+      if (cur) {
+        cur.focus({ preventScroll: true });
+        var sc = drawer.querySelector(".drawer-scroll");
+        if (sc) { var r = cur.getBoundingClientRect(), sr = sc.getBoundingClientRect(); sc.scrollTop += (r.top - sr.top) - (sc.clientHeight - r.height) / 2; }
+      }
+    } else if (lastOpener) lastOpener.focus({ preventScroll: true });
   }
   openBtns.forEach(function (b) { b.addEventListener("click", function () { setDrawer(true, b); }); });
   $$("[data-drawer-close]").forEach(function (b) { b.addEventListener("click", function () { setDrawer(false); }); });
@@ -111,7 +136,8 @@
       sel = (sel + d + links.length) % links.length;
       links.forEach(function (a, i) { a.setAttribute("aria-selected", i === sel ? "true" : "false"); });
       input.setAttribute("aria-activedescendant", links[sel].id);
-      links[sel].scrollIntoView({ block: "nearest" });
+      var lr = links[sel].getBoundingClientRect(), br = list.getBoundingClientRect();
+      if (lr.top < br.top) list.scrollTop -= br.top - lr.top; else if (lr.bottom > br.bottom) list.scrollTop += lr.bottom - br.bottom;
     }
     input.addEventListener("input", render);
     input.addEventListener("focus", function () { if (input.value) render(); });
@@ -133,7 +159,7 @@
     var open = !body.classList.contains("search-open");
     body.classList.toggle("search-open", open);
     st.setAttribute("aria-expanded", open ? "true" : "false");
-    if (open) { var i = $(".search-top .search-input"); if (i) setTimeout(function () { i.focus(); }, 30); }
+    if (open) { var i = $(".search-top .search-input"); if (i) setTimeout(function () { i.focus({ preventScroll: true }); }, 30); }
   });
   function focusSearch() {
     var s = $(".search-hero .search-input");
@@ -141,7 +167,7 @@
       if (st && getComputedStyle(st).display !== "none") { body.classList.add("search-open"); }
       s = $(".search-top .search-input");
     }
-    if (s) { s.focus(); s.select(); }
+    if (s) { s.focus({ preventScroll: true }); s.select(); }
   }
   doc.addEventListener("keydown", function (e) {
     var tag = ((doc.activeElement || {}).tagName || "").toLowerCase();
@@ -223,8 +249,8 @@
       // preload neighbours
       [cur - 1, cur + 1].forEach(function (k) { var n = triggers[(k + triggers.length) % triggers.length]; (new Image()).src = n.getAttribute("data-src"); });
     };
-    var open = function (i) { lastFocus = doc.activeElement; show(i); lb.hidden = false; body.style.overflow = "hidden"; $(".lb-close", lb).focus(); };
-    var close = function () { lb.hidden = true; body.style.overflow = ""; img.removeAttribute("src"); if (lastFocus) lastFocus.focus(); };
+    var open = function (i) { lastFocus = doc.activeElement; show(i); lb.hidden = false; body.style.overflow = "hidden"; $(".lb-close", lb).focus({ preventScroll: true }); };
+    var close = function () { lb.hidden = true; body.style.overflow = ""; img.removeAttribute("src"); if (lastFocus) lastFocus.focus({ preventScroll: true }); };
     triggers.forEach(function (t, i) { t.addEventListener("click", function () { open(i); }); });
     $(".lb-close", lb).addEventListener("click", close);
     $(".lb-prev", lb).addEventListener("click", function () { show(cur - 1); });
