@@ -1,0 +1,88 @@
+{
+ "slug": "teledermatology",
+ "title": "Teledermatology & lesion photography",
+ "category": "lumps-lesions-cancer",
+ "status": "published",
+ "order": 22,
+ "module": "Module 2 · Week 5",
+ "aka": [
+  "advice and guidance",
+  "dermoscopic images",
+  "image standards",
+  "store-and-forward",
+  "PCDS image quality",
+  "digital referral"
+ ],
+ "summary": "How store-and-forward teledermatology works in the UK, the three images every lesion referral needs (regional, close-up with scale, dermoscopic), what it does well, and its pitfalls.",
+ "card_image": "",
+ "glance": {
+  "think": "Referring a skin lesion through a teledermatology or advice-and-guidance service.",
+  "engine": "Images and history are triaged by a dermatologist, who can discharge, advise, book surgery directly or fast-track.",
+  "backbone": "Three views: regional for location, close-up with a ruler, and a polarised in-focus dermoscopic image; full history including change and risk factors; consent.",
+  "never_miss": "Poor-quality images, missing dermoscopy, lesions on the scalp, genitals or nails, and delay in a suspected melanoma pathway."
+ },
+ "sections": {
+  "what": [
+   "Remote assessment of skin lesions from. In the UK it is mostly **store-and-forward** (asynchronous) **advice-and-guidance** or **2WW triage**, using dermoscopic + close-up + regional photographs."
+  ],
+  "cause": [],
+  "features": [
+   {
+    "h": "How it works"
+   },
+   "NHS England's **A teledermatology roadmap** (2023) describes models:",
+   {
+    "list": [
+     "primary-care advice and guidance",
+     "referral triage (images attached to all 2WW skin referrals)",
+     "community \"image capture hubs\" with trained medical photographers",
+     "AI-assisted triage (HTG746; see *Recognition, diagnostic accuracy, dermoscopy and AI*)."
+    ]
+   },
+   {
+    "h": "Image standards (BAD/PCDS/Primary Care Dermatology quality standards)"
+   },
+   {
+    "list": [
+     "**Three views:** a regional/whole-site image (anatomical location), a close-up with a **ruler/scale**, and a **dermoscopic image** (polarised, in focus, the whole lesion in view).",
+     "Good lighting, no flash glare, a plain background, a labelled patient ID, consent, and secure NHS-approved systems (**no personal phones/WhatsApp** without an approved app and policy). Include history (duration, change, symptoms, 7-point score, risk factors, Fitzpatrick type)."
+    ]
+   },
+   {
+    "h": "How it performs"
+   },
+   "For lesion triage, accuracy is comparable to face-to-face assessment for many lesions when dermoscopic images are of good quality. It reduces unnecessary face-to-face appointments and speeds up the management of cancers. Image quality is the main failure mode. Darker skin types are under-represented in training.",
+   {
+    "h": "Limitations / pitfalls"
+   },
+   "Nodular/amelanotic melanoma can be under-called on. Teledermatology must not delay a 2WW-meeting referral; where a pathway uses, they **accompany** the urgent referral rather than replace it."
+  ],
+  "diagnosis": [],
+  "differentials": [],
+  "management": [
+   {
+    "list": [
+     "Learn the local teledermatology pathway and image capture standards. An IP in a PCN may capture images if trained.",
+     "**[Case 3](condition:melanoma):** a lesion changing over 2 years (change = 2, plus any other feature) → 2WW referral with. The specialist arranges excision biopsy within the pathway."
+    ]
+   }
+  ],
+  "red_flags": [
+   "Teledermatology must not delay a **suspected cancer pathway** referral: if images are poor, refer face to face."
+  ],
+  "pearls": [
+   "Tell the patient that photos may be reviewed by a specialist first and they may be booked straight for surgery. Get consent for image storage."
+  ]
+ },
+ "photos": [],
+ "references": [
+  {
+   "label": "NHS England A teledermatology roadmap: implementing safe and effective teledermatology triage pathways and pro",
+   "url": "https://www.england.nhs.uk/long-read/a-teledermatology-roadmap/"
+  },
+  {
+   "label": "BAD Quality standards for teledermatology 2019/2023 update",
+   "url": "https://www.bad.org.uk/"
+  }
+ ]
+}

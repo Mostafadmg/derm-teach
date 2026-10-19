@@ -1,124 +1,134 @@
 {
-  "slug": "pyoderma-gangrenosum",
-  "title": "Pyoderma gangrenosum",
-  "category": "ulcers-red-leg",
-  "order": 2,
-  "module": "Module 5 · Week 2",
-  "aka": [
-    "PG",
-    "neutrophilic dermatosis",
-    "pathergy",
-    "violaceous undermined ulcer",
-    "IBD skin ulcer"
+ "slug": "pyoderma-gangrenosum",
+ "title": "Pyoderma gangrenosum",
+ "category": "ulcers-red-leg",
+ "order": 2,
+ "module": "Module 5 · Week 2",
+ "aka": [
+  "PG",
+  "neutrophilic dermatosis",
+  "pathergy",
+  "violaceous undermined ulcer",
+  "IBD skin ulcer"
+ ],
+ "summary": "A rare, very painful, rapidly enlarging neutrophilic ulcer with a purple undermined edge. It is not an infection. Avoid debridement and refer urgently to dermatology.",
+ "card_image": "m5w2:R01",
+ "glance": {
+  "think": "A pustule or small wound that rapidly becomes an exquisitely painful ulcer with a violaceous, overhanging edge, often in a patient with IBD or rheumatoid arthritis.",
+  "engine": "Neutrophilic autoinflammation, not infection. Trauma makes it worse (pathergy).",
+  "backbone": "Recognise it and refer urgently. Specialist treatment with oral steroids or ciclosporin. No wide debridement.",
+  "never_miss": "Misdiagnosis as an infected ulcer, with repeated antibiotics and surgical debridement that make it worse."
+ },
+ "sections": {
+  "what": [
+   "Pyoderma gangrenosum (PG) is a rare **neutrophilic**, autoinflammatory ulcerating skin disease. Despite the name, it is **not an infection**. It causes a rapidly enlarging, very painful ulcer with a **violaceous, undermined** border, and shows **pathergy**: it worsens after trauma or surgery."
   ],
-  "summary": "A rare, very painful, rapidly enlarging neutrophilic ulcer with a purple undermined edge. It is not an infection. Avoid debridement and refer urgently to dermatology.",
-  "card_image": "m5w2:R01",
-  "glance": {
-    "think": "A pustule or small wound that rapidly becomes an exquisitely painful ulcer with a violaceous, overhanging edge, often in a patient with IBD or rheumatoid arthritis.",
-    "engine": "Neutrophilic autoinflammation, not infection. Trauma makes it worse (pathergy).",
-    "backbone": "Recognise it and refer urgently. Specialist treatment with oral steroids or ciclosporin. No wide debridement.",
-    "never_miss": "Misdiagnosis as an infected ulcer, with repeated antibiotics and surgical debridement that make it worse."
-  },
-  "sections": {
-    "what": [
-      "Pyoderma gangrenosum (PG) is a rare **neutrophilic**, autoinflammatory ulcerating skin disease. Despite the name, it is **not an infection**. It causes a rapidly enlarging, very painful ulcer with a **violaceous, undermined** border, and shows **pathergy**: it worsens after trauma or surgery."
-    ],
-    "cause": [
-      "Neutrophil dysfunction and autoinflammation. About **half are idiopathic**. Associations include:",
-      {
-        "list": [
-          "Inflammatory bowel disease (ulcerative colitis more than Crohn’s)",
-          "Rheumatoid arthritis",
-          "Haematological malignancy and monoclonal gammopathy",
-          "Behçet disease and PAPA syndrome",
-          "Drugs, e.g. cocaine contaminated with levamisole"
-        ]
-      }
-    ],
-    "features": [
-      {
-        "list": [
-          "Starts as a pustule, papule or haemorrhagic blister, often after a **minor injury**, then becomes a deep ulcer within days.",
-          "Classic **purple, overhanging (undermined) edge** with a necrotic or purulent base.",
-          "**Severe pain**, out of proportion to the size.",
-          "Legs most often; also around stomas in IBD, and at surgical sites (pathergy).",
-          "Heals with **cribriform** (sieve-like) scars."
-        ]
-      }
-    ],
-    "diagnosis": [
-      {
-        "list": [
-          "Clinical, after **excluding** infection, vasculitis and malignancy. Biopsy of the edge supports the diagnosis (neutrophilic infiltrate; Delphi/Maverakis criteria).",
-          "Swabs only to look for secondary infection.",
-          "**Seek dermatology urgently.**"
-        ]
-      }
-    ],
-    "differentials": [
-      "Misdiagnosis is common. Consider venous or arterial ulcers, vasculitis, antiphospholipid syndrome ulcers, infection (ecthyma, atypical mycobacteria, deep fungal), factitious ulcers and ulcerated tumours."
-    ],
-    "management": [
-      {
-        "callout": "danger",
-        "title": "Recognise and refer: do not debride",
-        "text": "**Do not** debride or excise active PG, because pathergy makes it worse. Do not assume antibiotics will cure it. Refer **urgently** to dermatology."
-      },
-      {
-        "h": "Specialist treatment (awareness, Module 5)"
-      },
-      {
-        "list": [
-          "**Oral corticosteroids** first line for rapidly progressive disease. **Ciclosporin** is an alternative first-line option.",
-          "Later lines: dapsone, tetracyclines, and biologics (e.g. **infliximab**, particularly with IBD).",
-          "Potent topical or intralesional steroid, or topical tacrolimus, for small or early lesions.",
-          "Gentle, non-adherent wound care, good **analgesia**, and treatment of the associated disease (e.g. IBD)."
-        ]
-      },
-      {
-        "h": "Steroid safety: the IP role"
-      },
-      {
-        "list": [
-          "Monitor **blood glucose and blood pressure**.",
-          "**Bone health:** the Module 5 notes flag prednisolone **above 7.5 mg daily for 6 months or more** as an osteoporosis risk needing bone assessment (DEXA). UK guidance (NOGG) advises assessing bone health in **anyone expected to take oral steroids for 3 months or more**, so follow local policy and consider bone protection early.",
-          "Counsel on steroid cards, infection risk and not stopping abruptly."
-        ]
-      }
-    ],
-    "red_flags": [
-      "A painful ulcer with a **purple undermined edge** that expands over days.",
-      "An ulcer getting worse after debridement or surgery (pathergy).",
-      "Peristomal ulcer in IBD.",
-      "Systemic upset, or rapid spread despite antibiotics."
-    ],
-    "pearls": [
-      "**Pathergy counselling:** protect the skin, and plan procedures only when the disease is quiet, with specialist input.",
-      "In the community, escalate early. Do not trial antibiotic after antibiotic.",
-      "Ask about bowel symptoms and joint pain. PG can be the first sign of IBD."
+  "cause": [
+   "Neutrophil dysfunction and autoinflammation. About **half are idiopathic**. Associations include:",
+   {
+    "list": [
+     "Inflammatory bowel disease (ulcerative colitis more than Crohn’s)",
+     "Rheumatoid arthritis",
+     "Haematological malignancy and monoclonal gammopathy",
+     "Behçet disease and PAPA syndrome",
+     "Drugs, e.g. cocaine contaminated with levamisole"
     ]
+   }
+  ],
+  "features": [
+   {
+    "list": [
+     "Starts as a pustule, papule or haemorrhagic blister, often after a **minor injury**, then becomes a deep ulcer within days.",
+     "Classic **purple, overhanging (undermined) edge** with a necrotic or purulent base.",
+     "**Severe pain**, out of proportion to the size.",
+     "Legs most often; also around stomas in IBD, and at surgical sites (pathergy).",
+     "Heals with **cribriform** (sieve-like) scars."
+    ]
+   }
+  ],
+  "diagnosis": [
+   {
+    "list": [
+     "Clinical, after **excluding** infection, vasculitis and malignancy. Biopsy of the edge supports the diagnosis (neutrophilic infiltrate; Delphi/Maverakis criteria).",
+     "Swabs only to look for secondary infection.",
+     "**Seek dermatology urgently.**"
+    ]
+   }
+  ],
+  "differentials": [
+   "Misdiagnosis is common. Consider venous or arterial ulcers, vasculitis, antiphospholipid syndrome ulcers, infection (ecthyma, atypical mycobacteria, deep fungal), factitious ulcers and ulcerated tumours."
+  ],
+  "management": [
+   {
+    "callout": "danger",
+    "title": "Recognise and refer: do not debride",
+    "text": "**Do not** debride or excise active PG, because pathergy makes it worse. Do not assume antibiotics will cure it. Refer **urgently** to dermatology."
+   },
+   {
+    "h": "Specialist treatment (awareness, Module 5)"
+   },
+   {
+    "list": [
+     "**Oral corticosteroids** first line for rapidly progressive disease. **Ciclosporin** is an alternative first-line option.",
+     "Later lines: dapsone, tetracyclines, and biologics (e.g. **infliximab**, particularly with IBD).",
+     "Potent topical or intralesional steroid, or topical tacrolimus, for small or early lesions.",
+     "Gentle, non-adherent wound care, good **analgesia**, and treatment of the associated disease (e.g. IBD)."
+    ]
+   },
+   {
+    "h": "Steroid safety: the IP role"
+   },
+   {
+    "list": [
+     "Monitor **blood glucose and blood pressure**.",
+     "**Bone health:** the Module 5 notes flag prednisolone **above 7.5 mg daily for 6 months or more** as an osteoporosis risk needing bone assessment (DEXA). UK guidance (NOGG) advises assessing bone health in **anyone expected to take oral steroids for 3 months or more**, so follow local policy and consider bone protection early.",
+     "Counsel on steroid cards, infection risk and not stopping abruptly."
+    ]
+   }
+  ],
+  "red_flags": [
+   "A painful ulcer with a **purple undermined edge** that expands over days.",
+   "An ulcer getting worse after debridement or surgery (pathergy).",
+   "Peristomal ulcer in IBD.",
+   "Systemic upset, or rapid spread despite antibiotics."
+  ],
+  "pearls": [
+   "**Pathergy counselling:** protect the skin, and plan procedures only when the disease is quiet, with specialist input.",
+   "In the community, escalate early. Do not trial antibiotic after antibiotic.",
+   "Ask about bowel symptoms and joint pain. PG can be the first sign of IBD.",
+   "Pyoderma gangrenosum is one of the skin signs of systemic disease (IBD, arthritis, blood disorders): see also [skin signs of systemic disease](condition:dermatomyositis)."
+  ]
+ },
+ "photos": [
+  {
+   "title": "Pyoderma gangrenosum: violaceous undermined edge",
+   "tone": "danger",
+   "items": [
+    "m5w2:R01",
+    "m5w2:R02",
+    "m5w2:R03",
+    "m5w2:R04"
+   ]
   },
-  "photos": [
-    {
-      "title": "Pyoderma gangrenosum: violaceous undermined edge",
-      "tone": "danger",
-      "items": [
-        "m5w2:R01",
-        "m5w2:R02",
-        "m5w2:R03",
-        "m5w2:R04"
-      ]
-    }
-  ],
-  "references": [
-    {
-      "label": "DermNet: Pyoderma gangrenosum",
-      "url": "https://dermnetnz.org/topics/pyoderma-gangrenosum"
-    },
-    {
-      "label": "PCDS: Pyoderma gangrenosum",
-      "url": "https://www.pcds.org.uk/clinical-guidance/pyoderma-gangrenosum"
-    }
-  ],
-  "status": "published"
+  {
+   "title": "Multiple ulcers, pathergy after surgery and cribriform scarring",
+   "tone": "danger",
+   "items": [
+    "m1w5:I01",
+    "m1w5:I02",
+    "m1w5:I03"
+   ]
+  }
+ ],
+ "references": [
+  {
+   "label": "DermNet: Pyoderma gangrenosum",
+   "url": "https://dermnetnz.org/topics/pyoderma-gangrenosum"
+  },
+  {
+   "label": "PCDS: Pyoderma gangrenosum",
+   "url": "https://www.pcds.org.uk/clinical-guidance/pyoderma-gangrenosum"
+  }
+ ],
+ "status": "published"
 }

@@ -25,10 +25,28 @@
  },
  "sections": {
   "what": [
-   "Dermatitis herpetiformis is the **skin form of coeliac disease**. It is an intensely itchy, chronic, grouped papulovesicular eruption on the extensor surfaces, caused by gluten sensitivity. Almost all patients have gluten-sensitive enteropathy on biopsy, even though **most have few or no gut symptoms** (or symptoms labelled \"IBS\", as in Cases 2 and 4). It mostly affects people of Northern European descent aged 30–40 and is slightly commoner in men. It is rare in children, and in Japanese and African-heritage populations."
+   "Dermatitis herpetiformis is the **skin form of coeliac disease**. It is an intensely itchy, chronic, grouped papulovesicular eruption on the extensor surfaces, caused by gluten sensitivity. Almost all patients have gluten-sensitive enteropathy on biopsy, even though **most have few or no gut symptoms** (or symptoms labelled \"IBS\", as in Cases 2 and 4). It mostly affects people of Northern European descent aged 30–40 and is slightly commoner in men. It is rare in children, and in Japanese and African-heritage populations.",
+   "The **skin manifestation of coeliac disease (gluten-sensitive enteropathy)**: an intensely itchy, symmetrical papulovesicular eruption on the extensor surfaces.",
+   {
+    "list": [
+     "It affects ~10–20% of coeliac patients; adults aged 30–40 are typical; M ≥ F (unlike coeliac overall).",
+     "**Most have coeliac enteropathy on biopsy**, though GI symptoms are often absent or mild. **This case has bloating, malaise and weight loss.**"
+    ]
+   }
   ],
   "cause": [
-   "Genetic background is **HLA-DQ2/DQ8**. Gliadin is deamidated by tissue transglutaminase (TG2), which drives mucosal IgA anti-TG2 and then, by epitope spreading, IgA against **epidermal transglutaminase (TG3)**. IgA–TG3 complexes deposit in the **dermal papillae**, neutrophils gather into papillary microabscesses, and a subepidermal vesicle forms. Iodide (e.g. iodinated contrast or seaweed) and NSAIDs can make it flare."
+   "Genetic background is **HLA-DQ2/DQ8**. Gliadin is deamidated by tissue transglutaminase (TG2), which drives mucosal IgA anti-TG2 and then, by epitope spreading, IgA against **epidermal transglutaminase (TG3)**. IgA–TG3 complexes deposit in the **dermal papillae**, neutrophils gather into papillary microabscesses, and a subepidermal vesicle forms. Iodide (e.g. iodinated contrast or seaweed) and NSAIDs can make it flare.",
+   {
+    "h": "How it is caused"
+   },
+   {
+    "list": [
+     "In genetically predisposed people (**HLA-DQ2/DQ8**), gluten triggers IgA autoantibodies to tissue transglutaminase (**TG2**, gut) and **epidermal transglutaminase (TG3)**.",
+     "**IgA–TG3 complexes deposit in the dermal papillae** → neutrophil recruitment → subepidermal vesicles.",
+     "Iodine and NSAIDs can flare it.",
+     "Associations: autoimmune thyroid disease, T1DM, pernicious anaemia, vitiligo, alopecia areata, Sjögren's; **small-bowel (enteropathy-associated T-cell) lymphoma** (risk reduced by a gluten-free diet)."
+    ]
+   }
   ],
   "features": [
    {
@@ -37,6 +55,17 @@
      "**Intense itch or burning**, often before lesions appear. Tiny vesicles are scratched off quickly, so patients usually present with **excoriations, crusted erosions and post-inflammatory change only** (Case 4: \"excoriations without blisters\"; photo C04).",
      "Associated features: **gut:** bloating, loose stool, \"IBS\" (Cases 2 and 4); **iron-deficiency anaemia or pallor** (Case 2); aphthae, dental enamel defects, fatigue; personal or family history of autoimmunity (thyroid disease, T1DM, pernicious anaemia, vitiligo)",
      "Case 2's atopic history is a **red herring** that steers people toward \"eczema\". Case 4's **failure of Betnovate** (TCS barely touches DH) and the **normal routine bloods** are also typical."
+    ]
+   },
+   {
+    "h": "Clinical features & sites (visible abnormalities)"
+   },
+   {
+    "list": [
+     "Grouped (\"herpetiform\") **small vesicles and papules**, usually seen as **excoriations, erosions and crusts** because the itch is intense — patients scratch the vesicles off. Post-inflammatory pigment change.",
+     "Symmetrical on the **elbows/extensor forearms, knees, buttocks/sacrum**, shoulders, and **scalp/posterior hairline**; facial and palmar purpura (rare).",
+     "Mucosa is usually spared.",
+     "**Systemic/GI:** bloating, diarrhoea, weight loss, malaise; iron/folate deficiency; dental enamel defects; osteoporosis."
     ]
    }
   ],
@@ -48,6 +77,14 @@
      "**Skin biopsy for DIF from perilesional, uninvolved skin** (about 1 cm from a lesion, ideally on the buttock or forearm; *not* lesional skin, where inflammation destroys the IgA). It shows **granular IgA in the dermal papillae**, which is the **diagnostic gold standard**. Lesional H&E (if an intact vesicle exists) shows a subepidermal blister with papillary neutrophil microabscesses.",
      "**Gastroenterology:** NICE NG20 says to refer anyone with DH for specialist assessment. Whether a duodenal biopsy is needed in proven DH is decided by gastroenterology and dermatology together (many UK centres skip it when skin DIF is positive).",
      "**Baseline bloods:** FBC, ferritin, folate, B12, calcium/vitamin D/ALP, LFT, TFT, glucose; **G6PD before dapsone**. Consider a DXA scan (NG20 criteria)."
+    ]
+   },
+   {
+    "list": [
+     "**Skin biopsy is the gold standard**: **perilesional, normal-looking skin** (~1 cm from a lesion) for **DIF** — **granular IgA in the dermal papillae**. Send it in **Michel's transport medium or saline, not formalin**; ± **lesional biopsy in formalin** for H&E: subepidermal blister with **neutrophil microabscesses in the dermal papillae**; Usually done by dermatology",
+     "**Coeliac serology** (NICE NG20): **tTG-IgA + total IgA**. If IgA-deficient, use IgG-based tests (tTG-IgG, DGP-IgG or EMA-IgG); EMA-IgA if tTG is equivocal; epidermal TG3 antibodies (specialist); **The patient must be eating gluten** — **in more than one meal every day for at least 6 weeks** before testing. Ask before any gluten-free trial (course teaching: \"prep to the test\")",
+     "**Other investigations:** FBC, **ferritin, folate, B12**, LFT, U&E, calcium, **vitamin D**, TFT (autoimmune thyroid), HbA1c; **DEXA** if risk factors or at diagnosis per BSG; **G6PD** before dapsone",
+     "A **duodenal biopsy is usually not required** when DH is confirmed on skin biopsy (BSG 2014), though GI referral may still be needed for significant GI symptoms, red flags or uncertainty."
     ]
    }
   ],
@@ -65,7 +102,8 @@
      "**EM**",
      "**scabies + DH both possible**"
     ]
-   }
+   },
+   "**Scabies** (burrows, finger webs, genitals, contacts itchy), **atopic/nummular eczema**, **papular urticaria/insect bites**, **linear IgA disease** (linear IgA on DIF; drug-induced — vancomycin), **bullous pemphigoid** (older, tense bullae, linear IgG/C3), neurotic excoriations/prurigo, folliculitis, **eruptive xanthoma** (see *Eruptive xanthomas — new diabetes* — same sites, the course DDx), psoriasis (elbows/knees), herpes zoster/simplex (unilateral, grouped)."
   ],
   "management": [
    "Case 4 Q3–Q5:",
@@ -76,7 +114,23 @@
      "**Lifestyle (Q5):** **lifelong strict gluten-free diet (GFD)**, which is the definitive treatment. It lets dapsone be reduced or stopped, usually after **1–2 years** (the skin lags behind the gut), and lowers the risk of lymphoma. Wheat, barley, rye and cross-contaminated oats are excluded; uncontaminated oats are allowed for most. Refer to a **dietitian**, and offer **Coeliac UK** membership. Gluten-free food prescribing varies across the UK (e.g. England restricted it to bread and mixes in 2018, and ICBs vary).",
      "**Complications to screen for or counsel about (Q6):** **enteropathy-associated T-cell lymphoma and other NHL** (risk falls with strict GFD); small-bowel adenocarcinoma (rare); **osteoporosis/osteopenia** (calcium, vitamin D, DXA per NICE); **iron, folate and B12 deficiency**; **autoimmune thyroid disease, T1DM**, pernicious anaemia, vitiligo, alopecia areata; **hyposplenism** (NG20: consider pneumococcal and other vaccines); reduced fertility and adverse pregnancy outcomes if untreated; **dapsone toxicity**; psychosocial burden of the diet; first-degree relatives have ~10% risk (offer serology if symptomatic; NG20)"
     ]
-   }
+   },
+   {
+    "ol": [
+     "**Lifelong strict gluten-free diet (GFD)** — first-line and essential. It treats the enteropathy, eventually controls the rash (**itch improves over months; full skin remission can take 6 months–2 years**), lets dapsone be withdrawn, and **lowers lymphoma risk**. Refer to a **dietitian**; Coeliac UK membership. Gluten-free food prescriptions vary by ICB in England (many have withdrawn them) and are free in Wales/Scotland.",
+     "**Dapsone** for rapid symptom control (itch settles within 48–72 h), specialist-initiated: **Check G6PD first.** Start 25–50 mg daily and titrate (usually ≤100–200 mg); **Haemolysis and methaemoglobinaemia** (dose-related, near universal) — breathlessness, cyanosis, fatigue; **Agranulocytosis** (mainly in the first 3 months — sore throat, fever, mouth ulcers → urgent FBC); **Dapsone hypersensitivity syndrome** (DRESS-like, weeks 3–6; HLA-B*13:01 in Asian patients), hepatitis, peripheral neuropathy; **Monitoring (BNF/local shared care):** FBC (incl. reticulocytes/methaemoglobin as indicated) and LFT, e.g. weekly for the first month, then monthly for 6 months, then 6-monthly; Alternatives if intolerant: sulfapyridine/sulfamethoxypyridazine (limited availability), potent topical steroids, antihistamines (minor benefit)",
+     "**Coeliac follow-up (NICE NG20/BSG):** annual review (weight, symptoms, diet adherence, **tTG** to monitor adherence, FBC, ferritin, folate, B12, LFT, TFT, bone health); **pneumococcal vaccination** (hyposplenism — BSG); calcium/vitamin D; **offer serological testing to first-degree relatives**.",
+     "**Avoid** iodine-containing preparations, ideally, NSAIDs if they trigger flares."
+    ]
+   },
+   {
+    "h": "Red flags / refer"
+   },
+   "Suspected DH (dermatology for biopsy with DIF); weight loss, anaemia, dysphagia or persistent GI symptoms despite GFD (gastroenterology — exclude refractory coeliac disease/lymphoma); symptoms of dapsone toxicity (urgent bloods); new lymphadenopathy, night sweats or abdominal pain (lymphoma).",
+   {
+    "h": "IP scope"
+   },
+   "Coeliac serology (while the patient is still eating gluten), baseline bloods, dietary counselling and referral, symptomatic topical steroid/antihistamine, shared-care dapsone monitoring (where locally agreed), and family testing."
   ],
   "red_flags": [
    "Do not start a gluten-free diet before serology and biopsy: it gives false-negative results.",
@@ -87,7 +141,10 @@
    "**\"Itchy elbows and buttocks plus 'IBS' or anaemia\" means DH.** Test before the patient tries a gluten-free diet on their own (Case 4's dietitian referral could start this by accident; tell the dietitian).",
    "Check excipients: wheat starch in tablet excipients is usually at negligible gluten levels (per BNF/Coeliac UK), but counsel patients who ask.",
    "Dapsone: **record the G6PD result before the first dose**, give written agranulocytosis and methaemoglobinaemia warnings, and do not issue repeats without up-to-date bloods.",
-   "An annual coeliac review covers weight, symptoms, diet adherence, dietitian referral if needed, and bloods."
+   "An annual coeliac review covers weight, symptoms, diet adherence, dietitian referral if needed, and bloods.",
+   "\"**Itchy elbows, knees and buttocks with excoriations and no intact blisters = think DH — and don't let them go gluten-free before testing.**\"",
+   "Dapsone brings quick relief, but **the diet is the treatment**.",
+   "Total IgA, always — IgA deficiency (~2–3% of coeliac patients) gives false-negative tTG-IgA."
   ]
  },
  "photos": [
@@ -99,6 +156,12 @@
     "m4w6:C03",
     "m4w6:C04",
     "m4w6:C05"
+   ]
+  },
+  {
+   "title": "Dermatitis herpetiformis",
+   "items": [
+    "m1w5:H01"
    ]
   }
  ],

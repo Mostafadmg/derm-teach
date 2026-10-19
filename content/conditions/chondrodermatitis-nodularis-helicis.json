@@ -1,0 +1,227 @@
+{
+ "slug": "chondrodermatitis-nodularis-helicis",
+ "title": "Chondrodermatitis nodularis helicis & ear nodules",
+ "category": "lumps-lesions-cancer",
+ "status": "published",
+ "order": 9,
+ "module": "Module 2 · Week 2",
+ "aka": [
+  "CNH",
+  "painful ear nodule",
+  "Winkler’s disease",
+  "pressure-relief pillow",
+  "gouty tophus",
+  "keratoacanthoma"
+ ],
+ "summary": "A painful, tender nodule on the rim of the ear that stops people sleeping on that side. Relieve pressure first; know the ear-nodule differentials (BCC, SCC, keratoacanthoma, gouty tophus, AK).",
+ "card_image": "m2w2:B01",
+ "glance": {
+  "think": "A small painful crusted nodule on the helix or antihelix, worse lying on that side, in an older adult.",
+  "engine": "Pressure on cartilage with poor blood supply leads to inflammation and cartilage damage.",
+  "backbone": "Pressure-relief pillow or ring for 4–6 weeks; consider a potent topical steroid; refer if failing or atypical.",
+  "never_miss": "SCC or BCC of the ear (biopsy if not settling), keratoacanthoma (rapid crater), tophaceous gout."
+ },
+ "sections": {
+  "what": [
+   "A benign, **painful**, inflamed nodule of the ear cartilage and overlying skin. It is commonest on the **helix in older men** and on the **antihelix in women**.",
+   {
+    "h": "Ear nodule differentials"
+   },
+   "The pinna is a **high-risk site for skin cancer**: it is sun-exposed and thin-skinned, and spread to the parotid and cervical nodes happens early. BAD 2020 classifies **ear cSCC as high-risk by site**."
+  ],
+  "cause": [
+   "**Pressure-induced ischaemia.** Ear cartilage has little subcutaneous padding and a poor blood supply. Sustained pressure (sleeping on one side, headsets, phones, hats), cold or sun damage causes perichondrial inflammation and focal cartilage necrosis that extrudes through the skin. **One-sided sleeping is typical, e.g. after a stroke, or with arthritis or CPAP masks.** In [Case 2](condition:seborrhoeic-keratosis) with a previous right-sided stroke, ask which side she lies on.",
+   {
+    "h": "Ear nodule differentials"
+   },
+   "Chronic UV (helix, especially in men with short hair), immunosuppression, and for gout, urate deposition in cool tissue."
+  ],
+  "features": [
+   {
+    "list": [
+     "A firm, round, 4–10 mm nodule with a **central crust, scale or keratin plug**, sometimes ulcerated.",
+     "**Exquisitely tender**: it wakes the patient at night when they lie on it, and **light squeezing causes disproportionate pain** (the course bedside test). Usually on the side the patient sleeps on."
+    ]
+   },
+   {
+    "h": "Ear nodule differentials"
+   },
+   {
+    "table": {
+     "head": [
+      "Diagnosis",
+      "Clues",
+      "Photo"
+     ],
+     "rows": [
+      [
+       "**CNH**",
+       "Very tender, central crust, the side slept on",
+       ""
+      ],
+      [
+       "**cSCC**",
+       "Indurated, keratotic or ulcerated, growing over weeks to months, bleeds. Often painless or mildly tender. ± palpable pre-auricular/cervical node",
+       ""
+      ],
+      [
+       "**Keratoacanthoma**",
+       "Rapid growth over **weeks**, a dome with a **central keratin crater**, may involute",
+       ""
+      ],
+      [
+       "**BCC**",
+       "Pearly, rolled edge, telangiectasia, slowly growing; often posterior ear or sulcus",
+       ""
+      ],
+      [
+       "**Actinic keratosis**",
+       "Rough, flat-to-slightly-raised scale; not nodular or tender",
+       "see *Worked cases*"
+      ],
+      [
+       "**Gouty tophi**",
+       "Firm, **chalky white-yellow** papules on the helix/antihelix, may discharge, ± a history of gout, diuretics (e.g. thiazides)",
+       ""
+      ],
+      [
+       "Weathering nodules / elastotic nodules",
+       "Small, white, painless, bilateral helical-rim papules",
+       "—"
+      ],
+      [
+       "Cutaneous horn",
+       "Keratin projection; the **base** may be SCC",
+       ""
+      ]
+     ]
+    }
+   }
+  ],
+  "diagnosis": [
+   {
+    "list": [
+     "Clinical: site + pain + central crust + sleeping history.",
+     "Dermoscopy: central white-yellow keratin/ulcer with a radiating whitish \"starburst\" and peripheral dotted or linear vessels. It is **non-specific** and **cannot reliably exclude SCC/BCC**.",
+     "**Biopsy when:** atypical features (rapid growth, bleeding, induration, a size >1 cm, a rolled pearly edge, no pain); no improvement after **6–8 weeks of strict offloading**; immunosuppression; or patient anxiety."
+    ]
+   },
+   {
+    "h": "Ear nodule differentials"
+   },
+   "Pain pattern, growth tempo, and palpation of regional nodes. Biopsy anything unexplained. Serum urate (when not in an acute flare) if tophi are suspected."
+  ],
+  "differentials": [
+   "See *Ear nodule differentials* (SCC, BCC, keratoacanthoma, AK, gouty tophi, also cutaneous horn, wart, elastotic nodules of the ear, weathering nodules, chilblain).",
+   {
+    "h": "Ear nodule differentials"
+   },
+   "As above. Also chilblain (cold, bilateral, purple), relapsing polychondritis (the whole ear red, sparing the lobe), and discoid lupus."
+  ],
+  "management": [
+   "**Step 1: pressure relief, for everyone (first-line; the course answer)**",
+   {
+    "list": [
+     "A **pressure-relieving device**: a CNH prosthesis/\"ear protector\" made of foam with a hole for the ear (sold OTC and online), a pillow with a hole, or a travel pillow; sleep on the other side. Remove headphone and phone pressure.",
+     "Resolution or major improvement occurs in a large proportion of patients within weeks to months. Recurrence is common if offloading stops.",
+     "Analgesia as needed. Emollient/protective dressing over the crust."
+    ]
+   },
+   "**Step 2: second-line (GP, GPwSI or dermatology); these are a student answers**",
+   {
+    "table": {
+     "head": [
+      "Option",
+      "Notes"
+     ],
+     "rows": [
+      [
+       "Intralesional triamcinolone",
+       "Specialist/trained GP. Risk of atrophy"
+      ],
+      [
+       "Potent topical steroid ± occlusion",
+       "Low-quality evidence. IP-prescribable (e.g. betamethasone valerate 0.1%) for a short trial **only once SCC/BCC has been reasonably excluded**"
+      ],
+      [
+       "Topical nitroglycerin (GTN) 2% gel",
+       "Off-label. Small studies show benefit via vasodilatation. Headache and hypotension. **Check PDE-5 inhibitor co-prescription** (contraindicated). Not routinely available as a dermatology product in the UK"
+      ],
+      [
+       "Cryotherapy",
+       "Painful, variable results"
+      ],
+      [
+       "Surgical excision of the abnormal cartilage ± skin",
+       "For refractory cases. Recurrence 10–30%"
+      ]
+     ]
+    }
+   },
+   "**Refer:** **NG12 1.7.4** says to consider a suspected cancer pathway referral if SCC is suspected (a growing, indurated, bleeding, non-tender or atypical ear nodule). Refer routinely if CNH is not settling after 6–8 weeks of offloading.",
+   {
+    "h": "Ear nodule differentials"
+   },
+   {
+    "list": [
+     "**Suspected SCC or keratoacanthoma:** NG12 1.7.4, consider a **suspected cancer pathway referral**. BAD guidance is to **treat KA as SCC** (excise) because they cannot be reliably distinguished clinically.",
+     "Suspected BCC: NG12 1.7.5, routine referral, unless the site or size makes delay important (1.7.6). The ear is a high-risk \"H-zone\" site.",
+     "Gouty tophi: a GP/IP gout pathway. **Urate-lowering therapy (allopurinol, treat to target <360 µmol/L, or <300 if tophaceous)**, per NICE NG219 (gout, 2022). Review diuretics.",
+     "AK: cross-reference the [older skin pages](condition:itch-xerosis-older-adults) notes see *Worked cases* (field therapy)."
+    ]
+   }
+  ],
+  "red_flags": [
+   "Rapidly growing, ulcerating or bleeding ear nodule, or an ear nodule with a nearby lymph node: **suspected SCC**, suspected-cancer referral (NICE NG12)."
+  ],
+  "pearls": [
+   "[Case 2](condition:seborrhoeic-keratosis) medicines: aspirin is relevant only if a biopsy or excision is done. **Do not stop aspirin for minor skin surgery** (BSDS 2023; see the [skin surgery](condition:skin-surgery-preop) notes). Losartan and simvastatin are not causative.",
+   "Explain the mechanism (\"a pressure sore of the ear cartilage\"). Adherence to offloading for at least a month is the key to success.",
+   {
+    "h": "Ear nodule differentials"
+   },
+   "**Painless** ear nodule plus rapid growth means think SCC/KA. **Very painful at night** means think CNH. But both can coexist, which is why non-resolving CNH gets a biopsy.",
+   "Check transplant or immunosuppressant history (azathioprine, ciclosporin, tacrolimus): cSCC risk rises up to 65–100× in organ transplant recipients."
+  ]
+ },
+ "photos": [
+  {
+   "title": "Chondrodermatitis nodularis helicis",
+   "items": [
+    "m2w2:B01",
+    "m2w2:B02",
+    "m2w2:B03"
+   ]
+  },
+  {
+   "title": "Ear nodule differentials",
+   "items": [
+    "m2w2:C01",
+    "m2w2:C02"
+   ],
+   "tone": "danger"
+  }
+ ],
+ "references": [
+  {
+   "label": "DermNet: Chondrodermatitis nodularis",
+   "url": "https://dermnetnz.org/topics/chondrodermatitis-nodularis"
+  },
+  {
+   "label": "PCDS",
+   "url": "https://www.pcds.org.uk/clinical-guidance/chondermatitis-nodularis-helicis"
+  },
+  {
+   "label": "BAD PIL chondrodermatitis nodularis",
+   "url": "https://www.bad.org.uk/pils/chondrodermatitis-nodularis/"
+  },
+  {
+   "label": "DermNet: Keratoacanthoma",
+   "url": "https://dermnetnz.org/topics/keratoacanthoma"
+  },
+  {
+   "label": "DermNet: Gout",
+   "url": "https://dermnetnz.org/topics/gout"
+  }
+ ]
+}

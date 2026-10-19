@@ -1,0 +1,318 @@
+{
+ "slug": "vitamin-d-tar-phototherapy",
+ "title": "Vitamin D analogues, coal tar, dithranol & phototherapy",
+ "category": "therapeutics",
+ "status": "published",
+ "order": 3,
+ "module": "Module 1 · Week 2",
+ "aka": [
+  "calcipotriol",
+  "calcitriol",
+  "Dovobet",
+  "Enstilar",
+  "coal tar",
+  "dithranol",
+  "narrowband UVB",
+  "NB-UVB",
+  "PUVA",
+  "psoralen"
+ ],
+ "summary": "The non-steroid topical options for psoriasis and the hospital light treatments: how they work, where they fit on the NICE CG153 ladder, how to counsel, and their safety issues.",
+ "card_image": "m1w2:D01",
+ "glance": {
+  "think": "Plaque, scalp or flexural psoriasis needing more than a steroid, or a patient referred for light treatment.",
+  "engine": "Vitamin D analogues normalise keratinocyte growth; tar and dithranol slow proliferation; UVB and PUVA suppress skin immune cells.",
+  "backbone": "NICE CG153: potent steroid + vitamin D analogue (separately or combined) first; calcitriol for flexures/face; phototherapy is specialist-delivered.",
+  "never_miss": "Hypercalcaemia with excessive vitamin D analogue; burning and skin-cancer risk with cumulative PUVA; eye protection after oral psoralen."
+ },
+ "sections": {
+  "what": [
+   {
+    "list": [
+     "**Vitamin D analogues (UK):** **Calcipotriol** 50 micrograms/g ointment or scalp solution (Dovonex), and combined with betamethasone dipropionate 0.05% (**Dovobet** gel/ointment, **Enstilar** foam, generics); **Calcitriol** 3 micrograms/g ointment (Silkis) — gentler, used on face/flexures; **Tacalcitol** 4 micrograms/g (Curatoderm) — once daily",
+     "**Coal tar:** crude coal tar or refined extracts in creams, ointments, scalp shampoos and bath products (e.g. Exorex lotion, Sebco, Capasal, Polytar, Cocois). Specialist units compound crude tar.",
+     "**Dithranol** (anthralin): short-contact therapy for chronic plaques in specialist/day units. It stains purple-brown and burns normal skin."
+    ]
+   },
+   {
+    "h": "Phototherapy and PUVA"
+   },
+   "Controlled ultraviolet exposure, delivered in **hospital dermatology units** and some home-phototherapy schemes. Main types:",
+   {
+    "table": {
+     "head": [
+      "Modality",
+      "Wavelength",
+      "Main uses"
+     ],
+     "rows": [
+      [
+       "**Narrowband UVB (NB-UVB, TL-01)**",
+       "**311–313 nm**",
+       "First-line phototherapy: psoriasis, atopic eczema, PLE desensitisation, vitiligo, pruritus"
+      ],
+      [
+       "Broadband UVB",
+       "290–320 nm",
+       "Largely replaced by NB-UVB"
+      ],
+      [
+       "**PUVA** = psoralen + UVA",
+       "UVA **320–400 nm**",
+       "Thick/resistant psoriasis, palmoplantar pustulosis, hand eczema (hand-and-foot PUVA), mycosis fungoides, some vitiligo"
+      ],
+      [
+       "UVA1",
+       "340–400 nm",
+       "Morphoea, scleroderma, some eczema (specialist)"
+      ],
+      [
+       "Targeted UVB / excimer 308 nm",
+       "308 nm",
+       "Localised psoriasis/vitiligo"
+      ],
+      [
+       "Photodynamic therapy (PDT)",
+       "Visible light + photosensitiser",
+       "Actinic keratoses, superficial BCC, Bowen's"
+      ]
+     ]
+    }
+   },
+   "**Psoralens** are furocoumarins. **8-methoxypsoralen (methoxsalen, 8-MOP)** is taken orally ~2 h before UVA, or used as **bath/soak** (topical) PUVA. 5-MOP, where available, causes fewer GI effects."
+  ],
+  "cause": [],
+  "features": [
+   {
+    "h": "How it works"
+   },
+   {
+    "list": [
+     "**Vitamin D analogues:** They bind the nuclear **vitamin D receptor (VDR)**, which pairs with RXR to regulate genes; This **slows keratinocyte proliferation** (e.g. via the cyclin-dependent kinase inhibitors p21/p27) and **promotes normal differentiation** (cornified-envelope proteins); They are also **immunomodulatory**: they lower Th1/Th17 cytokines such as IL-17 and IL-8, and promote regulatory responses; Clinically they flatten and de-scale plaques but do less for erythema than steroids",
+     "**Coal tar:** A complex mixture (polycyclic aromatic hydrocarbons, phenols). It activates the **aryl hydrocarbon receptor (AhR)**, which normalises keratinocyte differentiation, restores barrier proteins (filaggrin) and damps Th2/Th17 inflammation; It is also anti-proliferative (reduces DNA synthesis), antipruritic and antifungal (Malassezia); It is phototoxic with UVA; the historic Goeckerman regimen combined it with UVB",
+     "**Dithranol:** generates free radicals, giving an anti-proliferative effect; it stains and irritates."
+    ]
+   },
+   {
+    "h": "Clinical uses & where it fits"
+   },
+   {
+    "list": [
+     "**Plaque psoriasis (NICE CG153), trunk/limbs:** First-line: **potent corticosteroid once daily + vitamin D once daily**, applied separately (one in the morning, the other in the evening), for **up to 4 weeks**; No improvement after **8 weeks**: vitamin D **twice daily** alone; Still poor after 8–12 weeks: potent steroid twice daily for up to 4 weeks, *or* coal tar once/twice daily, *or* the **combined calcipotriol + betamethasone dipropionate** product once daily for up to 4 weeks. NICE places the combined product where the separate regimen fails or adherence is the problem",
+     "**Scalp psoriasis:** potent steroid for up to 4 weeks first, then the combined product, then vitamin D alone.",
+     "**Face/flexures/genitals:** mild–moderate steroid short-term, or calcitriol / a TCI (off-label).",
+     "**Coal tar:** chronic plaque and scalp psoriasis, seborrhoeic dermatitis (shampoos), and some specialist use in lichenified eczema."
+    ]
+   },
+   {
+    "h": "How to choose / assess"
+   },
+   {
+    "list": [
+     "Thin plaques, or patients who struggle with adherence → combined once-daily gel/foam.",
+     "Thick scale → descale first (salicylic acid; coal tar/salicylic acid/sulfur scalp ointments such as Cocois).",
+     "Flexures → avoid calcipotriol irritation (use calcitriol).",
+     "Large BSA → watch the vitamin D maximum doses."
+    ]
+   },
+   {
+    "h": "Key comparisons"
+   },
+   {
+    "table": {
+     "head": [
+      "",
+      "Vitamin D analogue",
+      "Potent TCS",
+      "Coal tar"
+     ],
+     "rows": [
+      [
+       "Speed",
+       "Weeks (4–8)",
+       "Days",
+       "Weeks"
+      ],
+      [
+       "Atrophy",
+       "None",
+       "Yes",
+       "None"
+      ],
+      [
+       "Irritation",
+       "Common (face/flexures)",
+       "Rare",
+       "Folliculitis common; stains, odour"
+      ],
+      [
+       "Safety",
+       "**Hypercalcaemia** if the maximum is exceeded",
+       "HPA suppression, rebound",
+       "Phototoxicity; theoretical carcinogenicity"
+      ],
+      [
+       "Pregnancy",
+       "Avoid unless essential (limited data)",
+       "Mild–potent acceptable short-term",
+       "Avoid in first trimester (manufacturers)"
+      ]
+     ]
+    }
+   },
+   {
+    "h": "Phototherapy and PUVA"
+   },
+   {
+    "h": "How it works"
+   },
+   {
+    "list": [
+     "UV light is **immunosuppressive** and anti-proliferative: It induces **T-cell apoptosis** and depletes Langerhans cells; It shifts cytokines (↓ IL-12/IL-23/IL-17 and TNF-α; ↑ IL-10 and regulatory T cells); It forms DNA photoproducts that slow keratinocyte turnover",
+     "**Psoralens** intercalate into DNA. On UVA activation they form **mono-adducts and interstrand cross-links**, which block DNA replication and proliferation, and they also generate reactive oxygen species.",
+     "UVA penetrates to the dermis, deeper than UVB."
+    ]
+   },
+   {
+    "h": "Clinical uses & where it fits"
+   },
+   "NICE CG153: offer **NB-UVB** for plaque or guttate psoriasis that topical treatment alone cannot control. Offer **PUVA** for palmoplantar pustulosis and when NB-UVB fails.",
+   {
+    "h": "How to choose / assess"
+   },
+   {
+    "list": [
+     "**Course logistics:** 2–3 visits a week for ~6–10 weeks (NB-UVB ~20–30 exposures). Dose is set by **skin type or minimal erythema dose (MED) testing**. Patients must be able to attend regularly.",
+     "**Exclude:** photosensitising drugs or conditions (lupus, porphyria, xeroderma pigmentosum); previous skin cancer or high cumulative UV; inability to stand, or claustrophobia; pregnancy (oral PUVA)"
+    ]
+   },
+   {
+    "h": "Key comparisons"
+   },
+   {
+    "table": {
+     "head": [
+      "",
+      "NB-UVB",
+      "PUVA"
+     ],
+     "rows": [
+      [
+       "Efficacy (psoriasis)",
+       "Good",
+       "Slightly higher, longer remissions"
+      ],
+      [
+       "Pregnancy/children",
+       "**Can be used** (folate may be depleted — check)",
+       "Oral PUVA **avoided** in pregnancy and children"
+      ],
+      [
+       "Acute AE",
+       "Erythema/burn, itch, PLE flare",
+       "Nausea (8-MOP), phototoxic burn (peaks at 48–72 h), **eye damage** (cataract)"
+      ],
+      [
+       "Long-term risk",
+       "Small; skin ageing; NMSC risk thought low",
+       "**Dose-dependent SCC** (much higher after >150–200 treatments), BCC; **melanoma** reported after very high exposure; lentigines"
+      ],
+      [
+       "UK caps",
+       "Lifetime counts recorded; review after >500 exposures (BAD/BPG)",
+       "**Lifetime ~150–200 treatments** as a guide (BAD/BPG); skin-cancer surveillance after high exposure"
+      ]
+     ]
+    }
+   }
+  ],
+  "diagnosis": [],
+  "differentials": [],
+  "management": [
+   {
+    "list": [
+     "**Maximum doses (adults, BNF — recheck):** Calcipotriol: **100 g/week** (less if the scalp solution is also used); **Calcipotriol + betamethasone** products: **max 15 g/day and 100 g/week, ≤30% BSA, 4-week courses**. The foam can be used longer as twice-weekly maintenance per its SmPC; Calcitriol: **max 30 g/day** and ≤35% BSA; Children: specialist use, with lower age-based maxima",
+     "**Avoid in:** hypercalcaemia and severe renal impairment (calcium handling). Use with caution in generalised pustular or erythrodermic psoriasis (absorption, hypercalcaemia).",
+     "**Counsel:** wash hands after use; keep calcipotriol off the face; irritation usually settles; with phototherapy, apply after UV exposure, not before.",
+     "**Coal tar safety (course teaching question):** **Percivall Pott (1775)** described **scrotal squamous cell carcinoma** (\"chimney sweeps' cancer\") from soot — the first recognised occupational cancer; Large cohort data (e.g. Roelofzen et al. 2010, ~13,000 psoriasis/eczema patients) found **no increase in overall cancer risk** from therapeutic coal tar, so the risk at dermatological concentrations is considered very low; Coal tar is used less now mainly because of mess, odour, staining and EU/UK reformulation of products, not because of cancer data; Avoid on inflamed/pustular psoriasis and broken skin, avoid concentrated products on face/genitals, and avoid sun after application (phototoxicity)"
+    ]
+   },
+   {
+    "h": "Red flags / refer"
+   },
+   {
+    "list": [
+     "Erythrodermic or generalised pustular psoriasis (same day).",
+     "Psoriasis not responding to two topical steps, extensive (>10% BSA) or high-impact disease (NICE CG153 criteria for referral, phototherapy or systemic therapy).",
+     "Suspected hypercalcaemia (thirst, confusion) after heavy vitamin D use."
+    ]
+   },
+   {
+    "h": "IP scope"
+   },
+   "Starting vitamin D analogues, combined calcipotriol/betamethasone and coal-tar preparations for chronic plaque/scalp psoriasis is within primary-care IP competence. Dithranol is specialist.",
+   {
+    "h": "Phototherapy and PUVA"
+   },
+   {
+    "list": [
+     "**Oral psoralen:** Wear **UVA-protective wrap-around glasses for 24 h** after each dose (some units say 12 h); Avoid the sun on treatment days, and take the dose with food to reduce nausea; Avoid eating large amounts of furocoumarin-rich foods (celery, figs, parsnips, limes)",
+     "**Long-term:** lifelong **skin-cancer surveillance** after high PUVA exposure, with self-examination. Any new keratotic or ulcerated lesion goes on the NICE NG12 pathway.",
+     "**With calcipotriol or acitretin:** units may combine them with light (e.g. re-PUVA with acitretin). Apply topical vitamin D after UV exposure, not before."
+    ]
+   },
+   {
+    "h": "Red flags / refer"
+   },
+   {
+    "h": "IP scope"
+   },
+   "Referral and counselling only; phototherapy prescription and dosing are specialist."
+  ],
+  "red_flags": [
+   "More than the BNF weekly maximum of calcipotriol, or symptoms of hypercalcaemia: check calcium and stop.",
+   "Patients on PUVA need UVA-blocking eye protection for about 24 hours after oral psoralen, and lifelong skin-cancer checks."
+  ],
+  "pearls": [
+   "\"Steroid in the morning, vitamin D at night\" (or the other way round) for the first 4 weeks, or one combined product once daily.",
+   "Combined products **contain a steroid** — count them in the steroid budget and use breaks.",
+   "Tar shampoo: lather, leave 5–10 minutes, rinse. It can discolour blond, grey or dyed hair.",
+   {
+    "h": "Phototherapy and PUVA"
+   },
+   "\"Phototherapy is a prescription of light\" — the dose, course length and lifetime total are recorded like a drug's.",
+   "NB-UVB is often the **safest step-up in pregnancy** for psoriasis/eczema."
+  ]
+ },
+ "photos": [
+  {
+   "title": "Vitamin D analogues and coal tar",
+   "items": [
+    "m1w2:D01",
+    "m1w2:D02",
+    "m1w2:D03"
+   ]
+  },
+  {
+   "title": "Phototherapy",
+   "items": [
+    "m1w2:D04",
+    "m1w2:D05"
+   ]
+  }
+ ],
+ "references": [
+  {
+   "label": "DermNet: Calcipotriol",
+   "url": "https://dermnetnz.org/topics/calcipotriol"
+  },
+  {
+   "label": "NICE CG153 psoriasis:   BNF calcipotriol / calcitriol / calcipotriol with betamethasone  Roelofzen JH et al. J",
+   "url": "https://www.nice.org.uk/guidance/cg153"
+  },
+  {
+   "label": "DermNet: Puva photochemotherapy",
+   "url": "https://dermnetnz.org/topics/puva-photochemotherapy"
+  }
+ ]
+}

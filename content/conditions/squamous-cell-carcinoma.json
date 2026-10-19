@@ -1,0 +1,278 @@
+{
+ "slug": "squamous-cell-carcinoma",
+ "title": "Cutaneous squamous cell carcinoma (cSCC)",
+ "category": "lumps-lesions-cancer",
+ "status": "published",
+ "order": 13,
+ "module": "Module 2 · Week 3",
+ "aka": [
+  "SCC",
+  "cSCC",
+  "lip SCC",
+  "keratoacanthoma",
+  "cutaneous horn",
+  "Marjolin ulcer",
+  "Bowen’s disease",
+  "actinic cheilitis",
+  "transplant skin cancer"
+ ],
+ "summary": "A growing, tender, keratotic or ulcerated nodule on sun-damaged skin that can spread to lymph nodes, especially on the lip and ear. Know the precursors (AK, Bowen’s, actinic cheilitis) and refer on the suspected-cancer pathway.",
+ "card_image": "m2w3:E01",
+ "glance": {
+  "think": "A tender, growing, crusted or keratotic nodule or non-healing ulcer on the face, lip, ear, scalp, hands or a chronic wound.",
+  "engine": "Cumulative UV, immunosuppression (organ transplant), HPV, chronic wounds and scars; arises from AK or Bowen’s disease.",
+  "backbone": "Suspected cancer pathway (NG12 1.7.4); surgical excision first-line; check nodes; transplant patients need specialist surveillance.",
+  "never_miss": "Lip and ear SCC (higher metastatic risk), SCC in a chronic ulcer or scar, rapid keratoacanthoma-like growth, immunosuppressed patients."
+ },
+ "sections": {
+  "what": [
+   "A malignant tumour of keratinocytes. It is the second commonest skin cancer, with real potential to metastasise (overall about 2–5%; higher for high-risk tumours). **Lip and ear SCCs metastasise more often** (lip around 10–15% in older series).",
+   {
+    "h": "SCC precursors and related lesions"
+   },
+   "Lesions that sit on the UV → keratinocyte dysplasia → SCC pathway, plus clinical forms that conceal SCC."
+  ],
+  "cause": [
+   {
+    "list": [
+     "**Cumulative UV** (outdoor workers, as in [Case 3](condition:basal-cell-carcinoma)), older age, fair skin.",
+     "**Immunosuppression:** organ transplant recipients have 65–250× the risk; CLL; HIV.",
+     "**Drugs:** azathioprine, voriconazole, hydrochlorothiazide, BRAF inhibitors (vemurafenib monotherapy: KA-type SCCs).",
+     "**HPV.**",
+     "Chronic wounds, scars and burns (**Marjolin ulcer**, ).",
+     "Radiation, arsenic, smoking (lip), lichen sclerosus/planus (genital and oral).",
+     "Genetic: xeroderma pigmentosum, recessive dystrophic epidermolysis bullosa, albinism.",
+     "Path: UV-signature TP53 mutations progress through AK or Bowen's to invasive SCC (see *SCC precursors and related lesions*)."
+    ]
+   },
+   {
+    "h": "SCC precursors and related lesions"
+   },
+   {
+    "table": {
+     "head": [
+      "Precursor",
+      "Progression risk",
+      "Notes"
+     ],
+     "rows": [
+      [
+       "**Actinic keratosis**",
+       "Low per lesion (~0.1%/year; up to ~10% of patients with many AKs over a decade)",
+       "**Core in the [older skin pages](condition:itch-xerosis-older-adults) notes** (field therapy, PCDS AK pathway)"
+      ],
+      [
+       "**Actinic cheilitis**",
+       "Higher than AK; lip SCC often arises on it",
+       ". Biopsy any induration or ulcer. Treatments: 5-FU, imiquimod (off-label), PDT, laser, vermilionectomy"
+      ],
+      [
+       "**Bowen's disease** (SCC in situ)",
+       "About 3–5% to invasive SCC (higher genital/perianal)",
+       ". BAD 2014 guideline (Morton): 5-FU, imiquimod (off-label), cryo, PDT, curettage, excision; on the lower leg, PDT/5-FU is preferred over cryo (poor healing)"
+      ],
+      [
+       "Keratoacanthoma",
+       "Treat as SCC",
+       "See the [benign lesion](condition:seborrhoeic-keratosis) notes see *Cutaneous squamous cell carcinoma (cSCC), including lip SCC*"
+      ],
+      [
+       "Cutaneous horn",
+       "20–30% have SCC/AK at the base",
+       "; excise for histology"
+      ],
+      [
+       "Chronic ulcers/scars/burns",
+       "Marjolin ulcer",
+       "; biopsy non-healing ulcers with rolled edges or exuberant granulation"
+      ],
+      [
+       "Lichen sclerosus (vulval/penile)",
+       "~3–5% vulval SCC",
+       "Long-term potent steroid reduces risk"
+      ],
+      [
+       "HPV-related (genital/periungual)",
+       "Bowenoid papulosis, periungual SCC",
+       "—"
+      ],
+      [
+       "Porokeratosis (disseminated superficial actinic)",
+       "Small risk",
+       "—"
+      ]
+     ]
+    }
+   }
+  ],
+  "features": [
+   {
+    "list": [
+     "An indurated, **tender** keratotic nodule or plaque, or an **ulcer with hard everted edges**, growing over weeks to months, often bleeding.",
+     "Sun-exposed sites: scalp, ears, lower lip, the back of the hands, and the lower legs in women.",
+     "**Lip SCC:** usually the **lower lip vermilion** (more UV), often on a background of **actinic cheilitis**. Smoking or pipe use. Persistent ulcer or crust, induration.",
+     "Variants: well-differentiated/keratinising, cutaneous horn, verrucous carcinoma/carcinoma cuniculatum (plantar, slow, locally destructive; ), keratoacanthoma-type (the [benign lesion](condition:seborrhoeic-keratosis) notes see *Cutaneous squamous cell carcinoma (cSCC), including lip SCC*), poorly differentiated, acantholytic, desmoplastic."
+    ]
+   },
+   {
+    "h": "SCC precursors and related lesions"
+   },
+   "Signs that an AK or Bowen's has become SCC (refer under NG12 1.7.4):",
+   {
+    "list": [
+     "**induration/thickening**",
+     "**tenderness/pain**",
+     "**rapid growth**",
+     "**bleeding**",
+     "**ulceration**",
+     "diameter >1 cm",
+     "failure to respond to treatment."
+    ]
+   }
+  ],
+  "diagnosis": [
+   {
+    "list": [
+     "**Clinical + palpation of regional lymph nodes** (pre-auricular, parotid, cervical, submental/submandibular for the lip; ).",
+     "**Biopsy:** excision biopsy is preferred where feasible. Otherwise an incisional/punch biopsy deep enough to assess depth.",
+     "**Pathology report items:** differentiation, thickness/depth, perineural and lymphovascular invasion, margins.",
+     "**Staging:** the AJCC 8th edition (head and neck cSCC) or UICC 8. The BAD 2020 risk categories (low, high, very high) guide management.",
+     "**Imaging** (specialist): ultrasound ± FNA of clinically suspicious nodes; CT/MRI for very high-risk tumours or perineural symptoms. **Consider SLNB only in trials** (not standard UK practice)."
+    ]
+   },
+   {
+    "h": "SCC precursors and related lesions"
+   },
+   "Clinical + dermoscopy (Bowen's: glomerular vessels in clusters + scale). Biopsy if there is doubt or atypia."
+  ],
+  "differentials": [
+   "KA, BCC, AK (hypertrophic), Bowen's, irritated SK, viral wart, amelanotic melanoma, Merkel cell carcinoma (rapid red-violet nodule in the elderly), chancre (syphilis; lip), herpes labialis (it heals), aphthous ulcer, traumatic ulcer, and for the lip discoid lupus or lichen planus.",
+   {
+    "h": "SCC precursors and related lesions"
+   },
+   "For Bowen's: psoriasis, eczema, superficial BCC, tinea (scrape), and extramammary Paget's (genital)."
+  ],
+  "management": [
+   "**Recognition and referral**",
+   {
+    "list": [
+     "**NICE NG12 1.7.4:** **consider a suspected cancer pathway referral** (appointment within 2 weeks) for suspected cSCC. [Case 3](condition:basal-cell-carcinoma) (a 6-week indurated bleeding lip ulcer in an outdoor worker) should be referred on that pathway. **Make the referral within 1 working day of deciding.**",
+     "**Any lip or oral ulcer that persists for more than 3 weeks** also meets NG12 head-and-neck/oral cancer criteria (suspected cancer pathway or urgent dental referral).",
+     "**Do not:** freeze, curette or treat a suspected SCC in primary care unless you are an accredited skin-surgery practitioner working to the IOG."
+    ]
+   },
+   "**Specialist management (BAD 2020; teaching)**",
+   {
+    "table": {
+     "head": [
+      "Risk group",
+      "Peripheral clinical margin (excision)",
+      "Notes"
+     ],
+     "rows": [
+      [
+       "Low risk",
+       "**4 mm**",
+       "Aim for ≥1 mm histological clearance"
+      ],
+      [
+       "High risk",
+       "**6 mm**",
+       "Lip and ear are high-risk by site"
+      ],
+      [
+       "Very high risk",
+       "**10 mm**",
+       "Consider adjuvant radiotherapy; MDT"
+      ]
+     ]
+    }
+   },
+   {
+    "list": [
+     "**Surgery is first-line** (the course answer). Lip: wedge or V-excision ± vermilionectomy for associated actinic cheilitis (maxillofacial/plastics).",
+     "Mohs: selected high-risk facial tumours.",
+     "**Radiotherapy:** primary treatment if surgery is unsuitable; adjuvant for close/positive margins, perineural invasion or nodal disease.",
+     "Nodal disease: neck dissection ± parotidectomy, then adjuvant RT.",
+     "Advanced/metastatic: **cemiplimab** (anti-PD-1; NICE TA802, 2022).",
+     "**Follow-up:** BAD suggests clinical review for high-risk tumours (e.g. 3–6-monthly for 2 years), plus education about self-examination of the scar and nodes.",
+     "**Immunosuppressed/transplant patients:** joint care with the transplant team. Specialists may switch to mTOR inhibitors (sirolimus) or use acitretin chemoprevention. Oral **nicotinamide 500 mg twice daily** reduced new keratinocyte cancers in immunocompetent high-risk patients (ONTRAC 2015), but **showed no benefit in a 2023 trial in transplant recipients**; it is a specialist recommendation."
+    ]
+   },
+   "**SIGN 140 / BAD high-risk features:**",
+   {
+    "list": [
+     "Site: lip, ear, non-sun-exposed sites, or within scars or chronic wounds.",
+     "Diameter >20 mm.",
+     "Thickness >4 mm or invasion beyond the subcutaneous fat.",
+     "Poor differentiation.",
+     "Perineural or lymphovascular invasion.",
+     "Recurrence.",
+     "Immunosuppression."
+    ]
+   },
+   {
+    "h": "SCC precursors and related lesions"
+   },
+   {
+    "list": [
+     "AK: IP-manageable field therapy per the [older skin pages](condition:itch-xerosis-older-adults) notes see *Worked cases* (5-FU, diclofenac 3%, imiquimod, tirbanibulin; check the BNF/formulary).",
+     "**Bowen's disease:** treatment is usually a confirmed diagnosis + GP/dermatology plan. An IP may prescribe topical 5-FU 5% **within a documented specialist or GP plan after diagnosis** (e.g. once or twice daily for 3–4 weeks; local protocol).",
+     "Actinic cheilitis: refer for diagnosis. Topical options are specialist-initiated (lip reactions can be severe)."
+    ]
+   }
+  ],
+  "red_flags": [
+   "Suspected cSCC: **suspected cancer pathway** referral (NICE NG12 1.7.4).",
+   "Any lip or mouth ulcer persisting more than 3 weeks: suspected head-and-neck cancer pathway.",
+   "A non-healing area or new growth in a long-standing ulcer or scar: biopsy to exclude **SCC (Marjolin ulcer)**."
+  ],
+  "pearls": [
+   "**Review hydrochlorothiazide** (MHRA) and **voriconazole** (photosensitivity; consider an alternative azole for long-term use in high-risk patients), and remind transplant patients of photoprotection.",
+   "Smoking cessation: lip/oral SCC risk and wound healing.",
+   "Lip sun protection: an SPF lip balm.",
+   "Teach patients to report a new lump in the scar or the neck.",
+   {
+    "h": "SCC precursors and related lesions"
+   },
+   "5-FU: expect redness, crusting and soreness. Do not apply near the eyes or mucosa; wash hands after.",
+   "Topical 5-FU is minimally absorbed, but **never use it with brivudine** (fatal DPD inhibition), and take care over large areas in patients with known DPD deficiency.",
+   "Mark lesions on a body map for follow-up."
+  ]
+ },
+ "photos": [
+  {
+   "title": "Cutaneous SCC",
+   "items": [
+    "m2w3:E01",
+    "m2w3:E02",
+    "m2w3:E03",
+    "m2w3:E04",
+    "m2w3:E05",
+    "m2w3:E06"
+   ],
+   "tone": "danger"
+  },
+  {
+   "title": "Precursors",
+   "items": [
+    "m2w3:F01",
+    "m2w3:F02"
+   ]
+  }
+ ],
+ "references": [
+  {
+   "label": "DermNet: Cutaneous squamous cell carcinoma",
+   "url": "https://dermnetnz.org/topics/cutaneous-squamous-cell-carcinoma"
+  },
+  {
+   "label": "DermNet: Intraepidermal squamous cell carcinoma",
+   "url": "https://dermnetnz.org/topics/intraepidermal-squamous-cell-carcinoma"
+  },
+  {
+   "label": "DermNet: Actinic cheilitis",
+   "url": "https://dermnetnz.org/topics/actinic-cheilitis"
+  }
+ ]
+}

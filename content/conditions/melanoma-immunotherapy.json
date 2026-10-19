@@ -1,0 +1,130 @@
+{
+ "slug": "melanoma-immunotherapy",
+ "title": "Melanoma immunotherapy & targeted therapy: side-effects",
+ "category": "lumps-lesions-cancer",
+ "status": "published",
+ "order": 21,
+ "module": "Module 2 · Week 5",
+ "aka": [
+  "checkpoint inhibitor",
+  "pembrolizumab",
+  "nivolumab",
+  "ipilimumab",
+  "irAE",
+  "immune-related adverse events",
+  "dabrafenib",
+  "trametinib",
+  "acute oncology"
+ ],
+ "summary": "What a primary-care prescriber must know about patients on checkpoint inhibitors or BRAF/MEK inhibitors: immune-related side-effects (colitis, pneumonitis, hypophysitis, diabetes, skin), interactions and when to ring the acute oncology hotline.",
+ "card_image": "",
+ "glance": {
+  "think": "A patient on (or recently stopped) pembrolizumab, nivolumab, ipilimumab or dabrafenib + trametinib with any new symptom.",
+  "engine": "Checkpoint inhibitors release T-cell brakes, so autoimmune inflammation can hit any organ, even months after stopping.",
+  "backbone": "Ask ‘are you on cancer treatment?’; contact the 24-hour acute oncology hotline rather than treating alone; check interactions (dabrafenib lowers hormonal contraceptive levels).",
+  "never_miss": "Colitis, pneumonitis, hepatitis, myocarditis, hypophysitis/adrenal crisis, new type 1 diabetes/DKA, SJS/TEN."
+ },
+ "sections": {
+  "what": [
+   {
+    "list": [
+     "**Checkpoint inhibitors** (anti-PD-1: pembrolizumab, nivolumab; anti-CTLA-4: ipilimumab; anti-LAG-3: relatlimab) release T-cell \"brakes\".",
+     "**BRAF/MEK inhibitors** block MAPK signalling in BRAF-mutant tumours."
+    ]
+   }
+  ],
+  "cause": [],
+  "features": [
+   {
+    "h": "Immune-related adverse events (irAEs): mechanism and timing"
+   },
+   "These come from autoimmune inflammation of any organ. They can start **weeks to months after the first dose, and even after stopping**. Combination ipi+nivo causes grade 3–4 irAEs in more than half of patients.",
+   {
+    "h": "Clinical features: irAE table"
+   },
+   {
+    "table": {
+     "head": [
+      "System",
+      "Watch for",
+      "Primary-care action"
+     ],
+     "rows": [
+      [
+       "**Gut (colitis)**",
+       "Diarrhoea (≥4 stools above baseline), blood, abdominal pain",
+       "**Same-day acute oncology contact.** Don't just give loperamide and wait"
+      ],
+      [
+       "**Liver (hepatitis)**",
+       "Raised ALT/AST, jaundice",
+       "Urgent bloods/oncology"
+      ],
+      [
+       "**Lung (pneumonitis)**",
+       "New cough, breathlessness, hypoxia",
+       "Same-day assessment. Don't assume a chest infection"
+      ],
+      [
+       "**Endocrine**",
+       "**Hypophysitis** (headache, fatigue, hyponatraemia); **thyroiditis** (hyper → hypothyroid); **adrenal insufficiency**; **new type 1 diabetes / DKA**",
+       "Check TFTs, glucose, cortisol, sodium. Endocrinopathies are often permanent (lifelong levothyroxine, hydrocortisone, insulin)"
+      ],
+      [
+       "**Skin**",
+       "Rash, itch, **vitiligo** (associated with response), lichenoid, bullous pemphigoid; rarely SJS/TEN",
+       "Emollient + topical steroid for grade 1–2. Urgent for blistering/mucosal"
+      ],
+      [
+       "Kidney",
+       "Rising creatinine (nephritis)",
+       "Review NSAIDs/PPIs"
+      ],
+      [
+       "Heart, nerve, muscle",
+       "**Myocarditis** (chest pain, troponin), myasthenia, myositis",
+       "Emergency"
+      ],
+      [
+       "Joints",
+       "Arthralgia/inflammatory arthritis",
+       "Rheumatology"
+      ]
+     ]
+    }
+   }
+  ],
+  "diagnosis": [
+   "Use a low threshold. Patients carry an **immunotherapy alert card** and a **24-hour acute oncology hotline** (UKONS triage tool). Always ask \"are you on cancer treatment?\""
+  ],
+  "differentials": [
+   "Infection (e.g. *C. difficile* in a patient with diarrhoea), drug reactions, and disease progression."
+  ],
+  "management": [
+   {
+    "list": [
+     "**Never start immunosuppression independently. Contact the acute oncology team**, who will grade the event and prescribe high-dose corticosteroids/other immunosuppressants (per ESMO/UKONS).",
+     "**Steroid stewardship:** patients on high-dose steroids for irAEs need **PPI/gastroprotection, glucose monitoring, bone protection if prolonged, PJP prophylaxis (co-trimoxazole) if ≥20 mg prednisolone for ≥4 weeks**, a **steroid emergency card**, and \"sick-day\" rules for adrenal insufficiency.",
+     "**Vaccines:** inactivated vaccines (influenza, COVID-19, pneumococcal) are fine. Live vaccines need specialist advice.",
+     "**BRAF/MEK inhibitors:** **Pyrexia** (dabrafenib + trametinib) needs interrupting treatment per the protocol and contacting the oncology team; **Photosensitivity** (vemurafenib): sun protection; New SCC/KA and new naevi (BRAF monotherapy); **QT prolongation** (vemurafenib, encorafenib): check interacting drugs; **CYP3A4 interactions**: dabrafenib is an inducer, which lowers levels of hormonal contraceptives (use a non-hormonal method; contraception is needed during treatment), warfarin and others. Use the BNF/SmPC interaction checker; **LVEF reduction and ocular toxicity** (MEK inhibitors: serous retinopathy); **Hand–foot skin reaction.**",
+     "**Pregnancy:** effective contraception during treatment and for months afterwards (per SmPC; e.g. 4 months after pembrolizumab)."
+    ]
+   }
+  ],
+  "red_flags": [
+   "Diarrhoea, breathlessness, severe headache, chest pain or new thirst/polyuria in a patient on immunotherapy: **same-day acute oncology** contact.",
+   "Fever on dabrafenib + trametinib: follow the protocol (interrupt) and contact the oncology team."
+  ],
+  "pearls": [
+   "Explain that side-effects can be serious but are usually treatable *if caught early*: \"ring the hotline, not the GP's routine line\".",
+   "Vitiligo during anti-PD-1 therapy is common and often correlates with better response. Protect the depigmented skin from sun."
+  ]
+ },
+ "photos": [],
+ "references": [
+  {
+   "label": "UKONS 24-hour triage tool v3, 2023",
+   "url": "https://www.ukons.org/"
+  }
+ ]
+}

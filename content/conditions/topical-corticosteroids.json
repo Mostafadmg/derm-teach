@@ -1,0 +1,473 @@
+{
+ "slug": "topical-corticosteroids",
+ "title": "Topical corticosteroids: potency, quantities & safety",
+ "category": "therapeutics",
+ "status": "published",
+ "order": 1,
+ "module": "Module 1 · Week 2",
+ "aka": [
+  "TCS",
+  "steroid cream",
+  "potency ladder",
+  "fingertip unit",
+  "FTU",
+  "steroid atrophy",
+  "topical steroid withdrawal",
+  "TSW",
+  "hydrocortisone",
+  "clobetasol"
+ ],
+ "summary": "How topical steroids work, the UK potency ladder, matching potency to age, site and severity, fingertip-unit quantities, adverse effects and when not to use them.",
+ "card_image": "m1w2:A01",
+ "glance": {
+  "think": "Choosing, quantifying or reviewing a topical steroid for eczema, psoriasis or another inflammatory rash.",
+  "engine": "Glucocorticoid-receptor effects switch off inflammatory genes, constrict vessels and slow cell turnover; the same effects thin skin with overuse.",
+  "backbone": "Lowest potency that works for the shortest time; potency by site and age (BNF); fingertip units; review rather than repeat; step down once controlled.",
+  "never_miss": "Tinea incognito, steroid rosacea and perioral dermatitis, atrophy and striae, topical steroid withdrawal, and adrenal suppression with large amounts of potent steroid."
+ },
+ "sections": {
+  "what": [
+   "Synthetic analogues of cortisol applied to the skin for their **anti-inflammatory, immunosuppressive, anti-proliferative and vasoconstrictive** effects. They are the mainstay for eczema/dermatitis flares. They are also used in psoriasis (with vitamin D), lichen planus, lichen sclerosus, discoid lupus, insect-bite reactions and many other inflammatory dermatoses.",
+   "Systemic glucocorticoids covered on [Case 1](condition:topical-corticosteroids) (approximate anti-inflammatory potency vs hydrocortisone = 1): cortisone 0.8; prednisolone 4; methylprednisolone 5; dexamethasone and betamethasone ~25–30. Topical potency is a separate scale (see *Topical corticosteroids*). It depends on the molecule, its esterification (more lipophilic → better skin penetration), the concentration and the vehicle."
+  ],
+  "cause": [],
+  "features": [
+   {
+    "h": "How it works"
+   },
+   {
+    "list": [
+     "**Genomic (classical) pathway:** the lipophilic steroid crosses the cell membrane and binds the cytoplasmic **glucocorticoid receptor (GR)**, which is released from heat-shock proteins. The complex then moves into the nucleus: **Transactivation:** the complex binds glucocorticoid response elements and switches *on* anti-inflammatory genes. Examples: **annexin-1 (lipocortin-1)**, which inhibits phospholipase A2 → less arachidonic acid → fewer prostaglandins and leukotrienes; also MKP-1, IκBα and IL-10; **Transrepression:** the GR \"tethers\" to the pro-inflammatory transcription factors **NF-κB and AP-1** and blocks them. This switches *off* cytokines (IL-1, IL-2, IL-6, TNF-α), chemokines, adhesion molecules and COX-2, and probably drives most of the anti-inflammatory effect",
+     "**Non-genomic (rapid) pathways:** *mostly, but not entirely.* Rapid effects (seconds to minutes) occur through (a) **membrane-bound GR**, (b) cytosolic GR signalling that needs no gene transcription, and (c) at high concentrations, **non-specific physicochemical membrane interactions** that need no receptor at all. Vasoconstriction (the basis of the potency assay) appears within hours and is partly non-genomic.",
+     "**Cell effects that matter in skin:** inhibition of Langerhans cells, T cells, mast-cell mediator release and eosinophils; an **anti-proliferative** effect on keratinocytes (useful in psoriasis); and **inhibition of fibroblast collagen and hyaluronic-acid synthesis**. That last effect causes atrophy, striae and purpura; course teaching singled it out.",
+     "**Potency testing:** the McKenzie–Stoughton **vasoconstrictor (skin-blanching) assay** tracks clinical potency and underlies the BNF classes."
+    ]
+   },
+   {
+    "h": "Clinical uses & where it fits — the UK potency ladder"
+   },
+   "UK practice uses **four BNF classes**. The US uses seven (I = super-potent → VII = least potent). The two systems do **not** line up product by product, so use UK classes for UK prescribing and teaching.",
+   {
+    "table": {
+     "head": [
+      "UK class (BNF)",
+      "Examples (UK brand)",
+      "Typical use"
+     ],
+     "rows": [
+      [
+       "**Mild**",
+       "Hydrocortisone 0.5–2.5% (1% most used)",
+       "Face, flexures, infants; mild eczema"
+      ],
+      [
+       "**Moderate**",
+       "Clobetasone butyrate 0.05% (Eumovate); betamethasone valerate 0.025% (Betnovate-RD); alclometasone 0.05%; fluocinolone acetonide 0.00625% (Synalar 1 in 4)",
+       "Moderate eczema on the body; short courses on face/flexures in adults; flares in children"
+      ],
+      [
+       "**Potent**",
+       "Betamethasone valerate 0.1% (Betnovate); **mometasone furoate 0.1% (Elocon)**; fluticasone propionate 0.05% (Cutivate); betamethasone dipropionate 0.05% (Diprosone); hydrocortisone butyrate 0.1% (Locoid); fluocinolone acetonide 0.025% (Synalar)",
+       "Severe eczema on trunk/limbs; psoriasis (with vitamin D); lichen planus; hand eczema"
+      ],
+      [
+       "**Very potent**",
+       "**Clobetasol propionate 0.05% (Dermovate)**; diflucortolone valerate 0.3% (Nerisone Forte)",
+       "Short courses for thick/lichenified plaques, palms/soles, lichen sclerosus, discoid lupus, scalp; in children usually only with specialist advice"
+      ]
+     ]
+    }
+   },
+   "**Combination products** take the potency of their steroid. Examples: steroid + antimicrobial (Fucibet, Fucidin H, Daktacort, Trimovate, Timodine, Canesten HC) and steroid + salicylic acid (Diprosalic). The course point: use them **only when infection and inflammation genuinely coexist, and only briefly** (e.g. fusidic acid for ≤1–2 weeks because of resistance), then continue the plain steroid. If there is no response, **recheck the diagnosis**.",
+   "**The vehicle matters:**",
+   {
+    "list": [
+     "**Ointments** are greasy and occlusive, with the fewest preservatives. Best for dry or lichenified skin and for eczema.",
+     "**Creams** suit weeping or hair-bearing skin and are more acceptable to patients, but their preservatives can cause contact allergy.",
+     "**Lotions, scalp applications, foams and mousses** are for hairy areas.",
+     "**Occlusion** (wet wraps, hydrocolloid, steroid tape such as fludroxycortide) raises effective potency."
+    ]
+   },
+   "**Regional absorption** (approximate, forearm = 1): soles ~0.1, palms ~0.8, scalp ~3.5, face ~7–13, eyelids/genitals up to ~40. Thin, flexural and infant skin absorbs more, which is why the face, flexures and infants get mild potency.",
+   {
+    "h": "How to choose / assess"
+   },
+   {
+    "list": [
+     "**Match potency to severity, site and age.** Use the lowest potency that works, for the shortest time. In practice, under-treatment from steroid phobia is commoner than harm: NICE CG57 (children): mild for mild eczema, moderate for moderate, potent for severe; **Do not use potent steroids on the face/neck, or very potent steroids in children, without specialist advice.**; On the face/neck, use moderate potency for only 3–5 days in severe flares; Apply once or twice daily; once daily is usually enough for potent preparations",
+     "**Step down** once the eczema is controlled. For frequently relapsing eczema, consider **proactive \"weekend\" therapy** (twice weekly to the usual flare sites) (NICE CG57 / CKS).",
+     "**Assess before every re-issue:** how often repeats are requested, the amount used (FTU arithmetic, see *Topical corticosteroids*), sites, signs of atrophy, alternative diagnoses (scabies, tinea, contact allergy), infection, and emollient adherence.",
+     "**Signs of steroid overuse:** *Epidermal/dermal atrophy:* shiny, thin, translucent skin with fine \"cigarette-paper\" wrinkling, visible veins and loss of skin markings; *Telangiectasia* (especially on the face), **steroid rosacea**, and **perioral/periorificial dermatitis**; **Striae** (irreversible; flexures, inner thighs, axillae; adolescents in growth spurts), **purpura/easy bruising**, stellate pseudoscars; Hypopigmentation (more visible in skin of colour), hypertrichosis, **steroid acne/folliculitis**; Delayed wound healing and ulceration. Infections masked or changed by the steroid (**tinea incognita**, crusted scabies, spread of HSV); Allergic contact dermatitis *to* the steroid or a preservative. Suspect it when eczema gets worse on treatment; Systemic effects (large areas, occlusion, very potent steroids, infants): HPA-axis suppression, iatrogenic Cushing's, growth suppression, hyperglycaemia. Periocular use → glaucoma, cataract; Grading scales exist (e.g. atrophy and telangiectasia scored 0–3 in trials — the \"objective gradings\" a classmate posted). In practice, record the sign, the site and the steroid history"
+    ]
+   }
+  ],
+  "diagnosis": [],
+  "differentials": [
+   {
+    "h": "Key comparisons / differentials — where TCS are contraindicated or need caution"
+   },
+   {
+    "table": {
+     "head": [
+      "Condition",
+      "Why TCS harm",
+      "What to do instead"
+     ],
+     "rows": [
+      [
+       "1. **Untreated bacterial infection** (impetigo, cellulitis, infected ulcer)",
+       "Suppresses local immunity → spread",
+       "Treat the infection (NICE NG153/NG141); add a steroid only once it is controlled, if eczema underlies it"
+      ],
+      [
+       "2. **Untreated fungal infection** (tinea corporis/cruris/faciei, candida)",
+       "**Tinea incognita** — scale is lost and the rash spreads, making diagnosis harder",
+       "Skin scrapings for mycology; topical/oral antifungal"
+      ],
+      [
+       "3. **Viral infection** (HSV, varicella/zoster, molluscum, warts)",
+       "Spread/dissemination (e.g. eczema herpeticum)",
+       "Antiviral; same-day referral if eczema herpeticum"
+      ],
+      [
+       "4. **Scabies** (untreated)",
+       "Masks itch and signs → crusted scabies / \"scabies incognito\"",
+       "Permethrin or malathion for the patient and contacts"
+      ],
+      [
+       "5. **Rosacea**",
+       "Steroid rosacea, rebound",
+       "Ivermectin, metronidazole or azelaic acid; oral doxycycline"
+      ],
+      [
+       "6. **Perioral / periorificial dermatitis**",
+       "Steroids are a major cause; rebound",
+       "Stop the steroid (warn about rebound), \"zero therapy\", topical metronidazole/azelaic acid, oral lymecycline/doxycycline (erythromycin under 12)"
+      ],
+      [
+       "7. **Acne vulgaris**",
+       "Steroid acne/folliculitis",
+       "NICE NG198 acne treatments"
+      ],
+      [
+       "8. **Leg ulcers / broken skin / wounds**",
+       "Impair healing; absorbed more",
+       "Treat the cause (compression etc.); steroid only on surrounding eczema"
+      ],
+      [
+       "9. **Widespread plaque psoriasis (as monotherapy)**",
+       "Rebound, unstable/**pustular** psoriasis on withdrawal, tachyphylaxis",
+       "Vitamin D ± short course of potent steroid, coal tar, phototherapy (NICE CG153)"
+      ],
+      [
+       "10. **Pruritus without inflammation**; **hypersensitivity** to the steroid or an excipient; **very potent steroids in children under 1 year** (BNF)",
+       "No benefit; allergy; systemic absorption",
+       "Treat the cause; patch test for steroid allergy"
+      ]
+     ]
+    }
+   },
+   "Any eight with reasons answers the course question. The BNF wording: contraindicated in untreated bacterial, fungal or viral skin lesions, acne, rosacea and perioral dermatitis. It adds cautions for widespread psoriasis, infants and long-term use.",
+   "**TCS vs topical calcineurin inhibitors (TCIs) — [Case 1](condition:topical-corticosteroids) alternative:**",
+   {
+    "table": {
+     "head": [
+      "",
+      "Topical steroid",
+      "Tacrolimus 0.03%/0.1% ointment (Protopic) · pimecrolimus 1% cream (Elidel)"
+     ],
+     "rows": [
+      [
+       "Mechanism",
+       "GR — broad anti-inflammatory",
+       "Binds macrophilin-12 → inhibits **calcineurin** → blocks NFAT dephosphorylation → **less IL-2 and less T-cell activation**; fewer mast-cell mediators"
+      ],
+      [
+       "Atrophy/striae/telangiectasia",
+       "Yes (depends on dose, site and duration)",
+       "**No** (no effect on collagen), so ideal for **face, eyelids, flexures** and long-term maintenance"
+      ],
+      [
+       "Main AE",
+       "See *Topical corticosteroids*",
+       "**Burning/stinging** in the first days (warn the patient; apply to dry skin; it settles), flushing with alcohol, local HSV/skin infection; avoid on infected skin"
+      ],
+      [
+       "UK licence",
+       "Many",
+       "Tacrolimus 0.03% from 2 years, 0.1% from 16 years; pimecrolimus from 2 years. NICE TA82 makes TCIs **second-line** for moderate–severe AE not controlled by TCS, or where atrophy risk is high. Twice-weekly proactive tacrolimus is licensed for maintenance"
+      ],
+      [
+       "Safety messages",
+       "Manage steroid phobia",
+       "Theoretical malignancy (lymphoma/skin cancer) signal from animal studies; large registries are reassuring. Advise **sun protection**; no concurrent phototherapy; no use under occlusion; avoid in immunosuppression"
+      ]
+     ]
+    }
+   }
+  ],
+  "management": [
+   {
+    "h": "Fingertip units (FTU) and quantities"
+   },
+   {
+    "list": [
+     "**1 FTU** is the ointment squeezed from a tube with a **5 mm nozzle**, from the **distal skin crease to the tip of an adult index finger**. It weighs about **0.5 g** and covers **two adult palms with fingers together** (~2% BSA). For children, still measure on an adult finger; fewer FTUs are needed per site.",
+     "Adult FTUs per application (Long & Finlay 1991; BAD/NES charts): face & neck **2.5**; one arm **3**; one hand (both sides) **1**; one leg **6**; one foot **2**; front of trunk **7**; back incl. buttocks **7**. The whole adult body takes about 40 FTU (≈20 g) per application.",
+     "**BNF suitable quantities (adult, twice daily for 1 week):** face & neck 15–30 g; both hands 15–30 g; scalp 15–30 g; both arms 30–60 g; both legs 100 g; trunk 100 g; groins & genitalia 15–30 g. These are rounded teaching values — recheck the current BNF table.",
+     "**Practical prescribing:** state the **name, potency, site, frequency, duration and number of FTUs** on the label/instructions, not \"use as directed\". MHRA asks that packaging and counselling make the **potency** clear. Apply the emollient first and wait ~15–30 minutes before the steroid (or always use the same order). The gap and the quantity matter more than the order."
+    ]
+   },
+   {
+    "h": "MHRA Drug Safety Update (Sept 2021): topical steroid withdrawal (TSW) reactions"
+   },
+   {
+    "list": [
+     "Rare but potentially severe reactions after **long-term, continuous or inappropriate use** of topical steroids, mainly **moderate-to-high potency**, typically **on stopping**.",
+     "Features: redness that may look like a flare but **spreads beyond the treated area**; burning or stinging worse than the original condition; peeling; oedema; oozing. The **\"red sleeve\" sign** (forearm erythema sparing the palms) and facial/eyelid redness are described.",
+     "**Advice to prescribers and pharmacists:** Use the **lowest potency for the shortest time**; Review patients on long-term use, and **reduce gradually rather than stopping abruptly** after prolonged use; If TSW is suspected, seek specialist advice rather than restarting the same potent steroid as if it were a \"flare\"; Report via **Yellow Card**, and counsel on potency and duration",
+     "TSW has to be told apart from a rebound flare, contact allergy and the underlying disease, which often needs dermatology."
+    ]
+   },
+   {
+    "h": "Tachyphylaxis"
+   },
+   {
+    "list": [
+     "A reduced response with continuous use. In experimental models the vasoconstriction fades within days, but how much this matters clinically is debated. Poor adherence and a wrong diagnosis are commoner reasons that \"the steroid stopped working\".",
+     "**What to do:** Check adherence, quantity used and the diagnosis (tinea, scabies, contact allergy, infection); Use **intermittent or pulsed regimens** (e.g. potent once daily, then weekends only) or short rest periods; Step up briefly, then down; Or switch to a **steroid-sparing agent** (TCI; vitamin D in psoriasis; phototherapy)"
+    ]
+   },
+   {
+    "h": "Steroid-phobic patients (Sophie's and Siddharth's experience)"
+   },
+   {
+    "list": [
+     "Explore the patient's beliefs (online TSW content is common). Explain potency, FTU and duration, and that **untreated eczema** causes more lichenification and infection than correctly used TCS. Offer written plans, TCIs for face/flexures, and follow-up."
+    ]
+   },
+   {
+    "h": "Red flags / refer"
+   },
+   {
+    "list": [
+     "Suspected **TSW**, **contact allergy** to a steroid (patch testing), or widespread atrophy/striae.",
+     "Adult eczema not controlled after 4 weeks of correct potent TCS + emollients, or children meeting the NICE CG57 referral criteria; facial eczema needing repeated moderate/potent steroid; diagnostic doubt.",
+     "**Eczema herpeticum** (same day), erythroderma, suspected HPA suppression or Cushingoid features.",
+     "Children who need **very potent** steroids, or potent steroids on the face/flexures."
+    ]
+   },
+   {
+    "h": "IP scope"
+   },
+   {
+    "list": [
+     "Starting and continuing mild–potent TCS for common dermatoses, within competence and the local formulary, is routine IP practice.",
+     "Very potent steroids, steroids in infants, genital lichen sclerosus regimens and TCIs may be within competence after training, but follow local formulary/shared-care rules.",
+     "TCIs in under-2s and any long-term facial/eyelid plan are specialist decisions."
+    ]
+   },
+   {
+    "h": "Worked cases"
+   },
+   {
+    "h": "Case 1: moderate–severe eczema with steroid atrophy"
+   },
+   {
+    "list": [
+     "**Signs of overuse:** thin, shiny, translucent skin; fine wrinkling; telangiectasia; purpura/bruising; striae; hypopigmentation; perioral dermatitis, steroid rosacea or acne; infection modified by the steroid (tinea incognita); delayed healing; TSW on stopping.",
+     "**What to advise:** potency and site rules; FTU quantity; **duration and step-down**; stinging on application; signs of infection and allergy; **do not stop abruptly after long-term use** (MHRA TSW); periocular risks (glaucoma/cataract); a steroid-sparing plan; emollients; fire risk from paraffin-soaked fabrics.",
+     "**Alternative:** a **topical calcineurin inhibitor** (tacrolimus 0.03%/0.1% ointment or pimecrolimus 1% cream). It blocks calcineurin/IL-2 T-cell activation without collagen loss, so there is **no atrophy** — suitable for face, eyelids, flexures and long-term proactive twice-weekly use. Counsel about initial burning and sun protection. Alongside it: generous emollients, and referral for **phototherapy** or systemic therapy if still uncontrolled.",
+     "**Mechanism, types, potency:** see *Topical corticosteroids* (four UK classes; vasoconstrictor assay).",
+     "**All via GR?** Mostly, via cytosolic GR (genomic transactivation/transrepression). There are also **non-genomic** effects via membrane GR, cytosolic GR signalling, at high concentration, non-specific membrane effects (see *Topical corticosteroids*).",
+     "**Questions 6–8:** see *Vitamin D analogues, coal tar* (vitamin D analogues; coal tar — Pott 1775, scrotal SCC; cohort data reassuring) and (phototherapy/PUVA). **Tachyphylaxis:** see *Topical corticosteroids*."
+    ]
+   },
+   {
+    "h": "Case 2: retinoids and steroid contraindications"
+   },
+   {
+    "list": [
+     "**Class/MoA/uses:** see *Retinoids*. **Topical retinoids in pregnancy:** low absorption and no clear signal, but **contraindicated in pregnancy and when planning** (EMA 2018/MHRA). Inadvertent exposure → stop, reassure, contact **UKTIS**.",
+     "**8 contraindications:** see *Topical corticosteroids* (untreated bacterial/fungal/viral infection, scabies, rosacea, perioral dermatitis, acne, ulcers/wounds; caution in widespread psoriasis, infants and allergy).",
+     "**Combination creams:** use briefly for genuinely infected eczema, then switch to the plain steroid; recheck the diagnosis if it does not settle."
+    ]
+   },
+   {
+    "h": "Case 3: 19-year-old with mild–moderate acne"
+   },
+   {
+    "list": [
+     "**Question 1:** skin care + a **12-week fixed-combination topical** (adapalene/BPO, tretinoin/clindamycin or BPO/clindamycin) per NICE NG198. Review at 12 weeks; maintain with a topical retinoid; screen mood; refer if failing or scarring. No antibiotic monotherapy; no minocycline.",
+     "**Question 2:** **yes**. COCs reduce inflammatory and comedonal acne (↑ SHBG, ↓ ovarian androgen) and match oral antibiotics at 6 months. The evidence is best for mild–moderate and hormonally influenced lower-face acne; benefit takes 3–6 months.",
+     "**Question 3:** if she wants contraception, start with a **low-VTE (levonorgestrel) COC**, checked against UKMEC. Move to drospirenone/desogestrel options if needed. Use **co-cyprindiol** only for moderate–severe acne after topicals + an oral antibiotic have failed, with VTE counselling and a stop plan (MHRA 2013). Mechanism as above, plus androgen-receptor blockade by cyproterone/drospirenone.",
+     "**Acne fulminans:** systemic, ulcerating, haemorrhagic acne. It needs **dermatology within 24 h** for urgent oral steroids to prevent scarring and manage the systemic illness; it is often triggered by isotretinoin."
+    ]
+   },
+   {
+    "h": "Case 4: 25-year-old with localised facial hirsutism"
+   },
+   {
+    "list": [
+     "**Question 1:** most likely **idiopathic/peripheral hirsutism** (normal androgens, regular cycles). Check SHBG/FAI, consider HbA1c, ± mid-luteal progesterone to confirm ovulation. Then: **weight loss**; **cosmetic methods, laser or electrolysis**; eflornithine only if still obtainable (now discontinued in UK dm+d); a **COC** if distress persists; anti-androgens only via a specialist and with contraception; psychological support; red flags for referral (see *Hirsutism case and the Ferriman–Gallwey score*).",
+     "**Question 2:** mFG = 9 areas × 0–4, total 36. The traditional cut-off is ≥8 (≥4–6 in some ethnic groups). Use it to track response, not as the only basis for decisions (see *Hirsutism case and the Ferriman–Gallwey score*)."
+    ]
+   },
+   {
+    "h": "Case 5: biologics"
+   },
+   "See *Biologics, JAK inhibitors and conventional systemics — the primary-care interface*: targets (TNF, IL-12/23, IL-23, IL-17; IL-4Rα/IL-13; JAK); NICE eligibility (psoriasis: PASI ≥10 and DLQI >10 after a conventional systemic; AE: after systemic failure). The **primary-care role**: record the drug, check interactions, no live vaccines, recognise infections and AEs, and do shared care where it applies.",
+   {
+    "h": "Practice case: 6-year-old with AE not responding to 1% hydrocortisone"
+   },
+   {
+    "list": [
+     "**QA = 1, aqueous cream** (SLS → irritation and barrier damage; MHRA 2013).",
+     "**QB = 4, 250–500 g/week** (NICE CG57).",
+     "**QC = 3:** 5 mm nozzle, from the distal crease to the tip of an **adult** index finger (≈0.5 g; covers two adult palms).",
+     "**Extra teaching:** a 6-year-old failing hydrocortisone 1% on the body probably needs a **moderate** steroid (e.g. clobetasone butyrate 0.05%) for 7–14 days during flares, adequate emollient quantities, and review for infection or an alternative diagnosis. Give fire-safety advice."
+    ]
+   }
+  ],
+  "red_flags": [
+   "Rash worse or spreading on a steroid with scale at the edge: scrape for **tinea incognito** before going on.",
+   "Facial redness, burning and rebound after stopping a potent steroid: think **steroid rosacea / topical steroid withdrawal** (MHRA 2021).",
+   "Large quantities of potent or very potent steroid in a child or under occlusion: risk of **adrenal suppression**, so review and seek advice."
+  ],
+  "pearls": [
+   "\"**Right potency, right place, right amount, right duration** — then step down.\"",
+   "Write the FTU count on the prescription (e.g. \"apply 2.5 FTU to face once daily for 5 days then stop\").",
+   "Inflamed skin may **sting** briefly with creams/TCIs. Persistent burning or worsening needs review (allergy, TSW, infection).",
+   "Eyelids: mild steroid for a few days only; TCI preferred for recurrent eyelid eczema. Consider ophthalmology if periocular steroid has been used long-term (IOP).",
+   "Skin of colour: atrophy and hypopigmentation are more conspicuous — warn patients.",
+   "**Never** sell or supply potent steroids (e.g. clobetasol creams) for skin lightening. Illegal cosmetic use causes severe atrophy, striae and Cushing's (relevant in community pharmacy).",
+   "Paraffin-based steroid preparations soaked into dressings/clothing are a **fire hazard** (the same MHRA 2018 warning as for emollients).",
+   {
+    "h": "Where course teaching differs from UK guidance"
+   },
+   {
+    "table": {
+     "head": [
+      "Topic",
+      "Course teaching",
+      "UK position (2026)"
+     ],
+     "rows": [
+      [
+       "Steroid potency classes",
+       "A student answer (and some students) used the **US 7-class** list — e.g. betamethasone valerate 0.1% cream \"mild\", mometasone \"moderate\", hydrocortisone butyrate \"mild\"",
+       "UK BNF uses **4 classes**, and all three are **potent**; clobetasol is very potent. Teach and prescribe by **BNF class**"
+      ],
+      [
+       "Contraindications",
+       "Course materials varied",
+       "BNF: contraindicated in untreated bacterial/fungal/viral lesions, acne, rosacea and perioral dermatitis; cautions in widespread psoriasis, infants, long-term/large-area use. MHRA TSW 2021 adds stopping gradually after long-term use"
+      ],
+      [
+       "Topical retinoids in pregnancy",
+       "Course teaching: \"limited data — avoid\"",
+       "Agrees. EMA/MHRA: **contraindicated in pregnancy and in women planning pregnancy**; UKTIS for exposures"
+      ],
+      [
+       "Isotretinoin regulation",
+       "Course (Sept 2023) predates the MHRA Oct 2023 rules",
+       "MHRA **Oct 2023**: mental health and sexual function assessment, new forms, two prescribers for under-18s. **Jan 2026**: two-prescriber rule removed, new AoR form, BAD audit and video. PPP unchanged"
+      ],
+      [
+       "COC in acne",
+       "\"Yasmin, Dianette and dienogest are used for acne in the UK\"; \"co-cyprindiol 2 mg + EE 35–50 mcg\"; newer progestogens carry \"2–4×\" the VTE risk",
+       "Only **co-cyprindiol** is **licensed for acne** in the UK, and it contains EE **35 micrograms** only. Drospirenone/dienogest pills are contraceptives (acne benefit is off-label). FSRH/EMA: desogestrel/gestodene/drospirenone ≈ **1.5–2×** LNG (9–12 vs 5–7 per 10,000); cyproterone ≈ 1.5–2×. NICE NG198: consider a COC alongside topicals; co-cyprindiol not first-line"
+      ],
+      [
+       "Spironolactone dose",
+       "\"50–100 mg **twice** daily\"",
+       "Usual acne dose is **50–100 mg once daily** (up to 200 mg/day under specialist guidance), off-label, with contraception"
+      ],
+      [
+       "Acne first-line",
+       "Some student answers suggested \"oral doxycycline 14 days\"",
+       "NICE NG198: oral tetracycline only with a topical retinoid/BPO, review at 12 weeks, maximum ~6 months"
+      ],
+      [
+       "Eflornithine",
+       "Students suggested eflornithine for the hirsutism case",
+       "**Vaniqa is now discontinued/not available in the UK (dm+d)** and \"not recommended\" in several ICB formularies — check availability"
+      ],
+      [
+       "Hirsutism referral",
+       "Course discussion: \"UK hirsutism is managed by endocrine/private clinics\"",
+       "CKS: primary care can assess, exclude red flags and start a COC; refer for red flags or failed treatment. Laser is mostly self-funded"
+      ],
+      [
+       "Oral steroids in psoriasis",
+       "Course teaching: avoid (pustular flare)",
+       "Agrees with UK practice (NICE CG153/BAD)"
+      ],
+      [
+       "Short oral steroid in eczema",
+       "Course teaching: acceptable as a bridge",
+       "UK: occasionally, short and specialist-guided; avoid repeated courses; steroid emergency card if prolonged"
+      ],
+      [
+       "Biologics in primary care",
+       "Course teaching: GPs may not initiate",
+       "Correct: **hospital-only (red)** in the UK. Primary care records the drug, watches for AEs and avoids live vaccines; methotrexate is via shared care"
+      ],
+      [
+       "Coal tar",
+       "\"Contraindicated in pregnancy/breastfeeding\"",
+       "Manufacturers advise caution (avoid in the first trimester and over large areas); not an absolute contraindication in UK SmPCs — check the product"
+      ]
+     ]
+    }
+   }
+  ]
+ },
+ "photos": [
+  {
+   "title": "Adverse effects of topical steroids",
+   "items": [
+    "m1w2:A01",
+    "m1w2:A02",
+    "m1w2:A03",
+    "m1w2:A04",
+    "m1w2:A05",
+    "m1w2:A06",
+    "m1w2:A07"
+   ],
+   "tone": "danger"
+  },
+  {
+   "title": "Topical steroid withdrawal",
+   "items": [
+    "m1w2:B01",
+    "m1w2:B02"
+   ]
+  },
+  {
+   "title": "Fingertip unit and vehicles",
+   "items": [
+    "m1w2:C01",
+    "m1w2:C02"
+   ]
+  }
+ ],
+ "references": [
+  {
+   "label": "DermNet: Topical steroid",
+   "url": "https://dermnetnz.org/topics/topical-steroid"
+  },
+  {
+   "label": "MHRA TSW 2021",
+   "url": "https://www.gov.uk/drug-safety-update/topical-corticosteroids-information-on-the-risk-of-topical-steroid-withdrawal-reactions"
+  },
+  {
+   "label": "bnf.nice.org.uk",
+   "url": "https://bnf.nice.org.uk/treatment-summaries/topical-corticosteroids/"
+  },
+  {
+   "label": "cks.nice.org.uk",
+   "url": "https://cks.nice.org.uk/topics/corticosteroids-topical-skin-nose-eyes/"
+  }
+ ]
+}

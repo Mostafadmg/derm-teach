@@ -1,0 +1,88 @@
+{
+ "slug": "dermatofibrosarcoma-protuberans",
+ "title": "Dermatofibrosarcoma protuberans (DFSP)",
+ "category": "lumps-lesions-cancer",
+ "status": "published",
+ "order": 2,
+ "module": "Module 2 · Week 1",
+ "aka": [
+  "DFSP",
+  "slow-growing sarcoma",
+  "trunk plaque",
+  "COL1A1-PDGFB",
+  "imatinib"
+ ],
+ "summary": "A rare, slow-growing skin sarcoma that starts as a firm plaque, often on the trunk, and is easily mistaken for a scar, keloid or dermatofibroma. It rarely spreads but recurs locally unless widely excised (often Mohs).",
+ "card_image": "m2w1:B01",
+ "glance": {
+  "think": "A firm, slowly enlarging plaque on the trunk or shoulder that later becomes lumpy (protuberant).",
+  "engine": "A low-grade fibroblastic sarcoma driven by a COL1A1–PDGFB gene fusion.",
+  "backbone": "Refer on a suspected sarcoma or skin-cancer pathway; deep biopsy; Mohs or wide excision; imatinib for inoperable disease.",
+  "never_miss": "Delayed diagnosis because it is called a scar, keloid or dermatofibroma for years."
+ },
+ "sections": {
+  "what": [
+   "A rare, locally aggressive, low-grade **cutaneous sarcoma**. It infiltrates widely beneath clinically normal skin (\"tentacles\") and recurs if under-excised. Metastasis is rare (<5%) and mostly follows fibrosarcomatous transformation or repeated recurrence."
+  ],
+  "cause": [
+   {
+    "list": [
+     "Over 90% carry the translocation **t(17;22)** (often as a ring chromosome), fusing **COL1A1–PDGFB**. This drives autocrine PDGF receptor stimulation and is the rationale for **imatinib** in unresectable or metastatic disease.",
+     "Histology: storiform spindle cells infiltrating fat in a \"honeycomb\" pattern; **CD34 positive, Factor XIIIa negative** (contrast DF)."
+    ]
+   }
+  ],
+  "features": [
+   {
+    "list": [
+     "Adults aged 20–50; trunk (especially chest and shoulder), proximal limbs, head and neck.",
+     "Starts as a slowly enlarging, firm, skin-coloured, pink-violet or brown **indurated plaque**, often mistaken for a scar, keloid, morphoea or DF for years, the same lesion a year apart). Later it becomes **protuberant and multinodular**.",
+     "Variants: pigmented (Bednar tumour), atrophic (looks like morphoea), and childhood/congenital forms. The the [skin cancer](condition:basal-cell-carcinoma) notes the course summary notes DFSP can **mimic a keloidal BCC**."
+    ]
+   }
+  ],
+  "diagnosis": [
+   {
+    "list": [
+     "Deep incisional or punch biopsy that includes subcutis (shave biopsies miss it). CD34 immunohistochemistry; FISH/RT-PCR for COL1A1–PDGFB when needed.",
+     "MRI for large or recurrent tumours to define deep extent. Chest imaging only for fibrosarcomatous or metastatic disease (specialist)."
+    ]
+   }
+  ],
+  "differentials": [
+   "DF (smaller, dimple sign), keloid/hypertrophic scar (history of injury, but beware a \"keloid\" that appeared without one), morphoea, lipoma, epidermoid cyst, metastasis, other sarcomas, and in children vascular malformation."
+  ],
+  "management": [
+   {
+    "list": [
+     "**IP role: suspicion and referral only.** Any \"scar\", \"keloid\" or \"DF\" that keeps enlarging, is >2–3 cm, or is nodular on the trunk goes to dermatology urgently (the local skin cancer or sarcoma pathway). NG12's sarcoma recommendation is a reasonable primary-care route where dermatology access is slow.",
+     "Specialist treatment: **surgery with complete peripheral and deep margin assessment** (Mohs or \"slow Mohs\"/staged excision with en-face margins) gives lower recurrence rates than conventional wide local excision with 2–3 cm margins, and spares tissue. European consensus (EORTC/EADO 2015, updated 2022) prefers margin-controlled surgery. Radiotherapy is for positive margins that cannot be re-excised. **Imatinib** is for unresectable or metastatic PDGFB-rearranged disease.",
+     "Follow-up: clinical, with recurrence most likely within 3–5 years."
+    ]
+   }
+  ],
+  "red_flags": [
+   "A ‘dermatofibroma’ or ‘keloid’ that keeps growing, is larger than about 3 cm or becomes nodular: refer to exclude **DFSP**."
+  ],
+  "pearls": [
+   "\"A keloid without an injury is not a keloid until proved otherwise.\"",
+   "Imatinib interactions (CYP3A4; warfarin; paracetamol hepatotoxicity at high doses) are worth knowing if a patient on it presents to primary care."
+  ]
+ },
+ "photos": [
+  {
+   "title": "DFSP over one year",
+   "items": [
+    "m2w1:B01",
+    "m2w1:B02"
+   ],
+   "tone": "danger"
+  }
+ ],
+ "references": [
+  {
+   "label": "DermNet: Dermatofibrosarcoma protuberans",
+   "url": "https://dermnetnz.org/topics/dermatofibrosarcoma-protuberans"
+  }
+ ]
+}

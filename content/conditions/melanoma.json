@@ -1,0 +1,425 @@
+{
+ "slug": "melanoma",
+ "title": "Melanoma: recognition & referral",
+ "category": "lumps-lesions-cancer",
+ "status": "published",
+ "order": 19,
+ "module": "Module 2 · Week 5",
+ "aka": [
+  "malignant melanoma",
+  "ABCDE",
+  "7-point checklist",
+  "ugly duckling",
+  "EFG",
+  "nodular melanoma",
+  "lentigo maligna",
+  "acral melanoma",
+  "amelanotic melanoma",
+  "superficial spreading melanoma"
+ ],
+ "summary": "How to spot melanoma: ABCDE, the NICE weighted 7-point checklist, the ugly-duckling sign and EFG for nodular melanoma, the clinical subtypes (including acral and amelanotic), dermoscopy and AI, and fast referral.",
+ "card_image": "m2w5:C01",
+ "glance": {
+  "think": "A new or changing pigmented lesion, an ugly duckling, a firm growing nodule (pink or dark), a dark streak on the sole or nail, or a slowly spreading facial patch.",
+  "engine": "UV-driven (or, on acral skin, non-UV) mutations in melanocytes (BRAF, NRAS, NF1, KIT) with inherited risk (CDKN2A, MC1R).",
+  "backbone": "NICE NG12: weighted 7-point checklist score of 3 or more, or dermoscopy suggesting melanoma = suspected cancer pathway; do not excise or biopsy in primary care; teledermatology with good images.",
+  "never_miss": "Nodular and amelanotic melanoma (EFG: elevated, firm, growing; may not fit ABCD); acral melanoma in skin of colour; repeated reassurance of a changing lesion."
+ },
+ "sections": {
+  "what": [
+   "Melanoma is a malignant tumour of melanocytes. In the UK it is the **5th commonest cancer** (about 17,500–20,000 new cases a year), with rising incidence, especially in people over 65. It is one of the commonest cancers in young adults (15–34).",
+   {
+    "h": "Clinical subtypes"
+   },
+   "Subtypes describe the growth pattern. **Breslow thickness, not subtype, drives stage and prognosis.**"
+  ],
+  "cause": [
+   {
+    "list": [
+     "**Intermittent intense UV and sunburn** (especially in childhood), sunbeds, fair skin (MC1R), many or atypical naevi, family history, previous melanoma, and immunosuppression.",
+     "**Driver mutations:** **BRAF V600** in ~40–50% (intermittently sun-exposed skin). This is the target for BRAF/MEK inhibitors; NRAS ~20%; NF1 (chronically sun-damaged skin, desmoplastic); **KIT** in acral/mucosal/CSD melanomas (the course c-KIT)",
+     "Growth phases: radial (in situ / thin), then vertical (nodular, invasive). Breslow thickness tracks the vertical phase."
+    ]
+   }
+  ],
+  "features": [
+   {
+    "h": "Clinical features: the recognition tools"
+   },
+   {
+    "table": {
+     "head": [
+      "Tool",
+      "Content",
+      "Strength / weakness"
+     ],
+     "rows": [
+      [
+       "**NICE NG12 weighted 7-point checklist**",
+       "**Major (2 points each):** change in size, irregular shape, irregular colour. **Minor (1 point each):** largest diameter ≥7 mm, inflammation, oozing, change in sensation. **≥3 → suspected cancer pathway** (NG12 1.7.1)",
+       "The UK primary-care standard; emphasises change"
+      ],
+      [
+       "**ABCDE**",
+       "Asymmetry, Border, Colour, Diameter >6 mm, Evolving",
+       "Good for SSM; **misses nodular and amelanotic melanoma**"
+      ],
+      [
+       "**EFG**",
+       "**Elevated, Firm, Growing** progressively for >1 month",
+       "**Nodular melanoma**. NG12 1.7.3: consider the suspected cancer pathway for possible nodular melanoma"
+      ],
+      [
+       "**Ugly duckling**",
+       "A lesion that looks different from the person's other naevi",
+       "Useful with many naevi"
+      ],
+      [
+       "Dermoscopy (trained)",
+       "NG12 1.7.2: dermoscopy suggesting melanoma → suspected cancer pathway",
+       "Training-dependent"
+      ]
+     ]
+    }
+   },
+   "[Case 1](condition:melanoma) shows why EFG matters: a nodule growing for 12 months scores **change in size (2) + possibly diameter ≥7 mm (1)**, so the threshold is met, and nodular melanoma needs urgent referral even when it is symmetrical or uniformly coloured.",
+   {
+    "h": "Clinical subtypes"
+   },
+   {
+    "h": "–2.3 Features and typical sites"
+   },
+   {
+    "table": {
+     "head": [
+      "Subtype",
+      "Share (white populations)",
+      "Who/where",
+      "Look",
+      "Photos"
+     ],
+     "rows": [
+      [
+       "**Superficial spreading (SSM)**",
+       "~60–70%",
+       "Young/middle-aged; trunk (men), legs (women)",
+       "Flat → slightly raised, irregular, multicoloured. A **nodule** within it means vertical growth",
+       ""
+      ],
+      [
+       "**Nodular**",
+       "~15–30%",
+       "Middle-aged/older; trunk, head and neck",
+       "Rapid (weeks to months) dome-shaped nodule, black-blue or **pink (amelanotic)**, ulcerates and bleeds. Fails ABCD; **use EFG**. Often thick at diagnosis",
+       ""
+      ],
+      [
+       "**Lentigo maligna / LMM**",
+       "~10–15%",
+       "Older adults, **chronically sun-damaged face**",
+       "LM = melanoma in situ: a slowly enlarging irregular brown macule over years. A **nodule or darker raised area** = invasive LMM",
+       ""
+      ],
+      [
+       "**Acral lentiginous (ALM)**",
+       "~2–3% in white people, but the **commonest subtype in Black and Asian people**",
+       "Soles, palms, nail unit",
+       "Irregular brown-black macule on the sole; **parallel-ridge** dermoscopy; Hutchinson's sign in the nail. Often diagnosed late",
+       ""
+      ],
+      [
+       "**Amelanotic**",
+       "~2–8%",
+       "Any subtype",
+       "Pink or red; mimics PG, BCC, eczema, Bowen's",
+       ","
+      ],
+      [
+       "Desmoplastic",
+       "Rare",
+       "Older; head and neck",
+       "Scar-like firm plaque; neurotropic",
+       "—"
+      ],
+      [
+       "Mucosal",
+       "~1%",
+       "Oral, nasal, anogenital, vulval",
+       "Late; poor prognosis; KIT",
+       "—"
+      ],
+      [
+       "Uveal",
+       "(not cutaneous)",
+       "Eye",
+       "GNAQ/GNA11; BAP1; liver metastases",
+       "—"
+      ],
+      [
+       "Childhood/adolescent",
+       "Rare",
+       "Spitzoid or amelanotic, often nodular",
+       "\"Bleeding pink bump\" in a child",
+       "—"
+      ]
+     ]
+    }
+   }
+  ],
+  "diagnosis": [
+   {
+    "list": [
+     "**Diagnostic accuracy by eye** rises with experience. The course figures (consultant ~80%, registrar 50–60%, GP ~40%) are in line with older studies, but published estimates vary widely.",
+     "**Dermoscopy** improves accuracy in trained users: meta-analyses show sensitivity rising from about 70% to about 90%, with an odds ratio of ~15 for diagnostic accuracy versus the naked eye. **Untrained use may not help.**",
+     "**Dermoscopic melanoma features:** atypical network; irregular streaks / pseudopods; irregular dots and globules; **blue-white veil**; regression structures; negative network; shiny white lines; atypical (polymorphous/dotted) vessels; acral **parallel-ridge** pattern; facial LM: asymmetric follicular openings, rhomboid structures, annular-granular pattern; Algorithms: **3-point checklist** (asymmetry, atypical network, blue-white structures; ≥2 = refer), 7-point dermoscopic checklist, ABCD rule (Stolz), CASH, TADA, \"chaos and clues\"",
+     "**Training and simulators:** PCDS dermoscopy courses, the BAD/BDNG, International Dermoscopy Society (dermoscopy-ids.org) online tutorials, DermNet's dermoscopy course, and image-based simulators (e.g. \"Dermoscopedia\", quiz banks). The evidence supports structured training with regular practice and feedback.",
+     "**AI and algorithms:** **NICE HTG746** (formerly HTE24) supports *conditional* NHS use of **DERM** (Skin Analytics) to triage lesions **already referred** on the urgent skin cancer pathway, with dermatologist oversight. Images of black or brown skin (Fitzpatrick V–VI) still need human review. Consumer apps are mostly unregulated. **An app result never overrides clinical concern** in either direction."
+    ]
+   }
+  ],
+  "differentials": [
+   "SK (the [benign lesion](condition:seborrhoeic-keratosis) notes see *Biopsy, Breslow thickness and the histopathology report*; ), atypical naevus, pigmented BCC, DF, angiokeratoma (the [skin lumps](condition:dermatofibroma) notes see *Immunotherapy and targeted therapy: what the IP must know*), haemangioma/thrombosed angioma, pyogenic granuloma (amelanotic nodular melanoma mimic; ), subungual haematoma (nail), acral naevus, lentigo/flat SK (vs LM), and metastasis.",
+   {
+    "h": "Clinical subtypes"
+   },
+   {
+    "h": "–2.5 Diagnosis and differentials"
+   },
+   "As in *Recognition, diagnostic accuracy, dermoscopy and AI*. LM vs solar lentigo/flat SK (dermoscopy, biopsy). ALM vs acral naevus, haematoma (talon noir, \"black heel\"), wart, and fungal (tinea nigra)."
+  ],
+  "management": [
+   {
+    "list": [
+     "**Suspected cancer pathway referral (2WW)** if: the 7-point score is ≥3; dermoscopy suggests melanoma; or; a nodule fits EFG (nodular melanoma)",
+     "**Make the referral within 1 working day** of deciding. Include dermoscopic/clinical images if a teledermatology triage route exists (see *Teledermatology*).",
+     "Document size (ruler), duration, change, the 7-point score, and safety-netting.",
+     "**Do not:** freeze, shave, laser or \"watch and wait\" on a lesion meeting criteria; or reassure because an app is negative.",
+     "Previous **repeated reassurance** is a classic **diagnostic-delay pattern**. When a patient re-presents with persistent concern, take it seriously, and consider reporting it as a learning event."
+    ]
+   },
+   {
+    "h": "Clinical subtypes"
+   },
+   {
+    "list": [
+     "**Check soles, palms and nails** in every skin of colour presentation, and **do not label a pigmented sole lesion as a \"bruise\" or \"verruca\"** without follow-up. Subungual: Hutchinson's sign → suspected cancer pathway (the [nail disorders](condition:paronychia) notes).",
+     "LM on the face of an older person: an elderly red flag (the [older skin pages](condition:itch-xerosis-older-adults) notes quick reference), so use the suspected cancer pathway."
+    ]
+   },
+   {
+    "h": "Worked cases"
+   },
+   {
+    "h": "Case 1: 54-year-old, nodule >12 months, repeatedly reassured; an app flagged it"
+   },
+   {
+    "list": [
+     "**Diagnosis:** nodular melanoma (EFG: elevated, firm, growing).",
+     "**Action:** **NG12 suspected cancer pathway** (1.7.1 score ≥3 and/or 1.7.3 nodular melanoma), referral within 1 working day.",
+     "**Excision biopsy with a 2 mm margin** (the course \"narrow margin\") by the skin cancer team, then WLE per Breslow.",
+     "**Diagnostic accuracy:** consultants ~80%, registrars 50–60%, GPs ~40% (course teaching; study-dependent); dermoscopy adds about 10–20% in trained hands.",
+     "**Learning points:** repeated reassurance = diagnostic delay; an app is not a diagnostic tool, but a flag deserves clinical review."
+    ]
+   },
+   {
+    "h": "Case 2: 17-year-old of Irish ancestry, >50 atypical moles, father and grandfather with melanoma in their 30s, other family cancers"
+   },
+   {
+    "list": [
+     "**Diagnosis:** FAMMM (familial atypical multiple mole melanoma) syndrome.",
+     "**Gene:** **CDKN2A** (p16). Also consider CDK4, BAP1 and MC1R modifiers.",
+     "**Associated cancer:** **pancreatic adenocarcinoma**.",
+     "**Plan:** dermatology surveillance (total-body photography plus digital dermoscopy), clinical genetics, sun protection, no sunbeds (under-18 law), self-examination, no smoking."
+    ]
+   },
+   {
+    "h": "Case 3: 30-year-old, lesion changing over 2 years, teledermatology images"
+   },
+   {
+    "list": [
+     "**Pathway:** 2WW with images → excision biopsy (2 mm) → WLE.",
+     "**Pathology:** Breslow **1.4 mm** (depth, not 1.5 cm diameter), **ulcerated** → **T2b**.",
+     "**Stage:** **IIA** if node-negative; SLNB decides (if positive → IIIA or higher).",
+     "**5-year MSS:** ~93–94% (AJCC 8), not ~80%. Mitoses >5/mm² are prognostic only, not staging.",
+     "**WLE:** **2 cm margin** (stage II, NG14).",
+     "**SLNB:** **consider/discuss** (Breslow >1 mm).",
+     "**Imaging:** not required at IIA (consider at IIB).",
+     "**Adjuvant:** none at IIA (pembrolizumab TA837 is for IIB/IIC).",
+     "**Follow-up:** 3-monthly for 3 years, then 6-monthly to 5 years. Self-examination; vitamin D measured at diagnosis."
+    ]
+   }
+  ],
+  "red_flags": [
+   "NICE weighted 7-point checklist score **3 or more**, or dermoscopy suggesting melanoma: **suspected cancer pathway** referral (NG12 1.7.1–1.7.3).",
+   "A firm, growing nodule over a month (EFG), even if pink or symmetrical: suspected **nodular melanoma**.",
+   "A new dark mark on the sole, palm or nail that is growing: suspected **acral melanoma** (check the nail fold for Hutchinson’s sign)."
+  ],
+  "pearls": [
+   "\"Any spot that is raised, firm and growing, of any colour, needs to be seen within two weeks.\"",
+   "Sun-protection counselling and full-skin self-checks for family members (first-degree relatives have about twice the risk).",
+   {
+    "h": "Clinical subtypes"
+   },
+   "A \"verruca\" that doesn't respond to salicylic acid or cryo and is pigmented or bleeding needs referral, not more destructive treatment.",
+   {
+    "h": "Where course teaching differs from UK guidance"
+   },
+   {
+    "table": {
+     "head": [
+      "Topic",
+      "Course teaching or student answer",
+      "UK guidance / evidence",
+      "Teaching point"
+     ],
+     "rows": [
+      [
+       "[Case 3](condition:melanoma) survival",
+       "\"Stage IIA, ~80% 5-year survival\"",
+       "AJCC 8: T2b N0 = IIA, **~93–94% 5-year MSS**",
+       "80% is AJCC 7/Balch 2009-era data"
+      ],
+      [
+       "Mitoses in staging",
+       "Mitoses >5 used to support the stage",
+       "AJCC 8 removed mitotic rate from T1 staging; it is prognostic only. **Clark level is not used**",
+       "Report it, but don't stage on it"
+      ],
+      [
+       "Ulceration",
+       "\"Not ulcerated\"",
+       "The case states ulceration → T2b (not T2a/IB)",
+       "Ulceration upstages"
+      ],
+      [
+       "Breslow",
+       "Read \"1.5 cm\" as Breslow",
+       "Breslow is a **depth in mm** (1.4 mm)",
+       "Size ≠ thickness"
+      ],
+      [
+       "SLNB",
+       "\"Consider SLNB\"",
+       "NG14 2022: consider for >1.0 mm (and 0.8–1.0 mm with risk features); not for IA",
+       "Aligned"
+      ],
+      [
+       "WLE margin",
+       "Two-stage excision",
+       "NG14: stage II **2 cm** (1 cm if 2 cm would cause unacceptable morbidity)",
+       "Add the margin"
+      ],
+      [
+       "Adjuvant at IIA",
+       "(Not stated)",
+       "None. TA837 pembrolizumab covers **IIB/IIC**; stage III options TA684/TA766/TA544",
+       "—"
+      ],
+      [
+       "Completion lymphadenectomy",
+       "(Not stated)",
+       "No longer routine (MSLT-II)",
+       "—"
+      ],
+      [
+       "Accuracy figures",
+       "Consultant 80%, GP 40%",
+       "Wide variation in studies; dermoscopy benefit depends on training",
+       "Use as illustrative"
+      ],
+      [
+       "App use",
+       "App flagged it",
+       "Unregulated apps are not recommended. NICE HTG746 covers AI *within* NHS triage only",
+       "Never let an app reassure"
+      ]
+     ]
+    }
+   }
+  ]
+ },
+ "photos": [
+  {
+   "title": "Nodular and amelanotic melanoma",
+   "items": [
+    "m2w5:A01",
+    "m2w5:A02",
+    "m2w5:A03",
+    "m2w5:A04",
+    "m2w5:A05",
+    "m2w5:A06",
+    "m2w5:A07"
+   ],
+   "tone": "danger"
+  },
+  {
+   "title": "ABCDE in practice",
+   "items": [
+    "m2w5:B01",
+    "m2w5:B02",
+    "m2w5:B03",
+    "m2w5:B04",
+    "m2w5:B05"
+   ]
+  },
+  {
+   "title": "Superficial spreading melanoma and the ugly duckling",
+   "items": [
+    "m2w5:C01",
+    "m2w5:C02",
+    "m2w5:C03",
+    "m2w5:C04"
+   ]
+  },
+  {
+   "title": "Lentigo maligna, acral and amelanotic melanoma",
+   "items": [
+    "m2w5:D01",
+    "m2w5:D02",
+    "m2w5:D03",
+    "m2w5:D04",
+    "m2w5:D05",
+    "m2w5:D06"
+   ],
+   "tone": "danger"
+  }
+ ],
+ "references": [
+  {
+   "label": "nice.org.uk: ng12",
+   "url": "https://www.nice.org.uk/guidance/ng12"
+  },
+  {
+   "label": "nice.org.uk: htg746",
+   "url": "https://www.nice.org.uk/guidance/htg746"
+  },
+  {
+   "label": "DermNet: Melanoma",
+   "url": "https://dermnetnz.org/topics/melanoma"
+  },
+  {
+   "label": "DermNet: Abcdes of melanoma",
+   "url": "https://dermnetnz.org/topics/abcdes-of-melanoma"
+  },
+  {
+   "label": "DermNet: Nodular melanoma",
+   "url": "https://dermnetnz.org/topics/nodular-melanoma"
+  },
+  {
+   "label": "DermNet: Lentigo maligna and lentigo maligna melanoma",
+   "url": "https://dermnetnz.org/topics/lentigo-maligna-and-lentigo-maligna-melanoma"
+  },
+  {
+   "label": "DermNet: Acral lentiginous melanoma",
+   "url": "https://dermnetnz.org/topics/acral-lentiginous-melanoma"
+  },
+  {
+   "label": "DermNet: Amelanotic melanoma",
+   "url": "https://dermnetnz.org/topics/amelanotic-melanoma"
+  },
+  {
+   "label": "DermNet: Melanoma in skin of colour",
+   "url": "https://dermnetnz.org/topics/melanoma-in-skin-of-colour"
+  }
+ ]
+}

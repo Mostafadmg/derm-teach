@@ -1,0 +1,114 @@
+{
+ "slug": "spitz-blue-halo-naevi",
+ "title": "Halo, blue, Spitz & recurrent naevi",
+ "category": "lumps-lesions-cancer",
+ "status": "published",
+ "order": 18,
+ "module": "Module 2 · Week 4",
+ "aka": [
+  "halo naevus",
+  "Sutton naevus",
+  "blue naevus",
+  "Spitz naevus",
+  "Reed naevus",
+  "recurrent naevus",
+  "pseudomelanoma"
+ ],
+ "summary": "Special naevi that worry patients and clinicians: halo naevi with a white ring, blue naevi, Spitz and Reed naevi in children, and moles that regrow in a scar.",
+ "card_image": "m2w4:E01",
+ "glance": {
+  "think": "A mole with a white ring, a steel-blue papule, a fast-growing pink dome in a child, or pigment returning in a scar.",
+  "engine": "Immune clearance (halo), deep dermal melanocytes (blue), epithelioid/spindle melanocytes (Spitz/Reed), residual cells (recurrent).",
+  "backbone": "Reassure typical halo and blue naevi; refer Spitz-like lesions in adults, atypical or changing ones; send previous histology with recurrent naevi.",
+  "never_miss": "Melanoma with regression or a halo; spitzoid melanoma in adults; recurrent melanoma in a scar."
+ },
+ "sections": {
+  "what": [],
+  "cause": [],
+  "features": [
+   {
+    "h": "Naevus by naevus"
+   },
+   {
+    "table": {
+     "head": [
+      "Naevus",
+      "Key features",
+      "Management (IP)",
+      "Photo"
+     ],
+     "rows": [
+      [
+       "**Halo naevus**",
+       "A naevus with a symmetrical white ring (immune destruction), in children and teens; may be multiple; **association with vitiligo**",
+       "Reassure if the central naevus is benign and symmetrical. **Refer an adult (>40) with a new halo or an atypical central lesion** (melanoma can provoke halos). Sun-protect the white ring",
+       ""
+      ],
+      [
+       "**Blue naevus**",
+       "Steel-blue, firm, dome-shaped; dermal melanocytes; head, hands, buttocks",
+       "Reassure if long-standing and stable. Refer if new in an adult, enlarging, or >1 cm (cellular blue naevus; melanoma DDx; also metastatic melanoma looks blue)",
+       ""
+      ],
+      [
+       "**Spitz naevus**",
+       "Pink-red or pigmented, dome-shaped, rapidly growing in a **child**; dermoscopy starburst/dotted vessels",
+       "Children <12 with a typical lesion: specialist may monitor. **Adolescents/adults: excision** (atypical Spitz tumour and spitzoid melanoma DDx)",
+       ""
+      ],
+      [
+       "**Reed (pigmented spindle cell) naevus**",
+       "Black, symmetrical starburst on the thigh in young women",
+       "Usually excised for histology",
+       ""
+      ],
+      [
+       "**Recurrent naevus** (\"pseudomelanoma\")",
+       "Pigment returning in a scar after a shave or incomplete excision",
+       "Refer **with the previous histology**. It mimics melanoma on dermoscopy",
+       ""
+      ],
+      [
+       "Naevus spilus (speckled lentiginous)",
+       "Tan patch with darker speckles",
+       "Monitor; small melanoma risk",
+       "—"
+      ],
+      [
+       "Acral naevus",
+       "Parallel-furrow pattern on dermoscopy",
+       "Ridge pattern = melanoma (the [melanoma](condition:melanoma) notes)",
+       "—"
+      ]
+     ]
+    }
+   }
+  ],
+  "diagnosis": [],
+  "differentials": [],
+  "management": [],
+  "red_flags": [
+   "A Spitz-like lesion in an adult, an atypical halo naevus, or a recurrent pigmented lesion in a scar: refer on a **suspected cancer pathway**."
+  ],
+  "pearls": []
+ },
+ "photos": [
+  {
+   "title": "Halo and blue naevi",
+   "items": [
+    "m2w4:E01",
+    "m2w4:E02",
+    "m2w4:E03"
+   ]
+  },
+  {
+   "title": "Spitz, Reed and recurrent naevi",
+   "items": [
+    "m2w4:E04",
+    "m2w4:E05",
+    "m2w4:E06"
+   ]
+  }
+ ],
+ "references": []
+}

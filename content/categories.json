@@ -170,6 +170,66 @@
     "order": 17
   },
   {
+    "id": "therapeutics",
+    "title": "Therapeutics",
+    "short": "Therapeutics",
+    "accent": "#5a6fa8",
+    "icon": "pill",
+    "status": "published",
+    "order": 19,
+    "blurb": "Prescribing tools: topical steroids and fingertip units, emollients, vitamin D analogues, tar and phototherapy, retinoids, acne pills, hirsutism and the biologics interface."
+  },
+  {
+    "id": "drug-eruptions",
+    "title": "Drug eruptions",
+    "short": "Drug eruptions",
+    "accent": "#b5523b",
+    "icon": "capsule",
+    "status": "published",
+    "order": 20,
+    "blurb": "When a medicine causes the rash: morbilliform eruptions, DRESS and AGEP, ACE-inhibitor angioedema, erythema nodosum, pigmentation, fixed drug eruption and how to report."
+  },
+  {
+    "id": "vasculitis",
+    "title": "Vasculitis & purpura",
+    "short": "Vasculitis",
+    "accent": "#8e3b5f",
+    "icon": "vessel",
+    "status": "published",
+    "order": 21,
+    "blurb": "Palpable purpura, urticarial vasculitis, polyarteritis nodosa, livedo, IgA vasculitis, endocarditis signs and the purpura differential, with the same-day checks."
+  },
+  {
+    "id": "systemic-disease",
+    "title": "Skin signs of systemic disease",
+    "short": "Systemic disease",
+    "accent": "#3f7a76",
+    "icon": "body",
+    "status": "published",
+    "order": 22,
+    "blurb": "When the skin points inside: dermatomyositis, lung cancer signs, Cushing’s, hyperhidrosis, Addison’s, eruptive xanthomas, acanthosis nigricans, sarcoidosis."
+  },
+  {
+    "id": "lumps-lesions-cancer",
+    "title": "Lumps, lesions & skin cancer",
+    "short": "Lesions & cancer",
+    "accent": "#7d4a3a",
+    "icon": "mole",
+    "status": "published",
+    "order": 23,
+    "blurb": "Benign lumps and lesions, BCC, SCC and cutaneous lymphoma, moles and naevi, melanoma recognition, staging and treatment, NICE NG12 referral routes and teledermatology."
+  },
+  {
+    "id": "skin-surgery",
+    "title": "Skin surgery",
+    "short": "Skin surgery",
+    "accent": "#4d6d5a",
+    "icon": "scalpel",
+    "status": "published",
+    "order": 24,
+    "blurb": "Minor skin surgery at knowledge level: pre-operative checks, anticoagulants, local anaesthetic doses, allergy, consent and complications, procedures and aftercare."
+  },
+  {
     "id": "exam-review",
     "title": "Exam review",
     "short": "Exams",
@@ -177,6 +237,6 @@
     "accent": "#445566",
     "icon": "check",
     "status": "published",
-    "order": 18
+    "order": 25
   }
 ]

@@ -1,0 +1,139 @@
+{
+ "slug": "lung-cancer-skin-signs",
+ "title": "Skin signs of lung cancer & internal malignancy",
+ "category": "systemic-disease",
+ "status": "published",
+ "order": 2,
+ "module": "Module 1 · Week 5",
+ "aka": [
+  "paraneoplastic",
+  "clubbing",
+  "tripe palms",
+  "carcinoma erysipeloides",
+  "skin metastases",
+  "Leser–Trélat",
+  "acanthosis nigricans maligna"
+ ],
+ "summary": "Clubbing, tripe palms, sudden acanthosis nigricans, eruptive seborrhoeic keratoses, skin metastases and other paraneoplastic clues that should prompt an urgent cancer search.",
+ "card_image": "m1w5:B02",
+ "glance": {
+  "think": "New clubbing, velvety ridged palms, sudden widespread acanthosis nigricans or seborrhoeic keratoses, or a firm red ‘cellulitis’ that does not respond.",
+  "engine": "Tumour-derived growth factors and cytokines, or direct spread of cancer to the skin.",
+  "backbone": "Take a smoking and symptom history; CXR and NICE NG12 urgent pathways; don’t keep treating a non-responding ‘cellulitis’.",
+  "never_miss": "Lung, gastric and breast cancer; carcinoma erysipeloides mistaken for infection."
+ },
+ "sections": {
+  "what": [
+   "Lung cancer is the commonest cause of UK cancer death. Its skin signs are **direct** (metastases), **local** (SVC obstruction, Horner's syndrome), **paraneoplastic** (clubbing/HPOA, dermatomyositis, acanthosis/tripe palms, ectopic ACTH) or **treatment-related** (EGFR-inhibitor acneiform rash, checkpoint-inhibitor rashes, radiotherapy)."
+  ],
+  "cause": [
+   {
+    "h": "How it is caused"
+   },
+   "Tumour-derived growth factors (TGF-α, EGF, VEGF, PDGF in clubbing/HPOA), ectopic hormones (ACTH — small-cell lung cancer), immune cross-reactivity (DM), haematogenous/lymphatic spread, mechanical obstruction (SVC)."
+  ],
+  "features": [
+   {
+    "h": "Clinical features & sites"
+   },
+   {
+    "table": {
+     "head": [
+      "Sign",
+      "Notes"
+     ],
+     "rows": [
+      [
+       "**Finger clubbing ± hypertrophic pulmonary osteoarthropathy (HPOA)**",
+       "Loss of the nail-fold angle, Schamroth window lost; HPOA = painful wrists/ankles with periostitis. **NSCLC** especially (adenocarcinoma). Also bronchiectasis, ILD, cyanotic heart disease, IBD, cirrhosis, endocarditis"
+      ],
+      [
+       "**Cutaneous metastases**",
+       "Firm, painless pink-purple or skin-coloured nodules on the **chest wall, scalp, abdomen/umbilicus**; **carcinoma erysipeloides** (inflammatory, cellulitis-like plaque — photo B01)"
+      ],
+      [
+       "**SVC obstruction**",
+       "Facial/neck oedema and plethora, dilated chest-wall veins, worse lying down — an oncological emergency"
+      ],
+      [
+       "**Horner's syndrome**",
+       "Pancoast (apical) tumour: ptosis, miosis, anhidrosis, ± shoulder/arm pain (T1)"
+      ],
+      [
+       "**Dermatomyositis**",
+       "see *Dermatomyositis*"
+      ],
+      [
+       "**Acanthosis nigricans (malignant) / tripe palms**",
+       "Velvety ridged palms; tripe palms alone → lung cancer more likely; with AN → gastric (see *Acanthosis nigricans and PCOS*)"
+      ],
+      [
+       "**Ectopic ACTH (small-cell)**",
+       "Rapid **hyperpigmentation**, hypokalaemia, myopathy, oedema, hypertension; usually **no time for classic striae**"
+      ],
+      [
+       "**Others**",
+       "**Erythema gyratum repens** (rare, wood-grain concentric bands — strongly associated with lung cancer), **acquired hypertrichosis lanuginosa**, sign of **Leser–Trélat** (sudden eruptive seborrhoeic keratoses), **Trousseau's migratory thrombophlebitis**, **Bazex syndrome** (acrokeratosis paraneoplastica — upper aerodigestive SCC, psoriasiform acral plaques), pruritus, Sweet syndrome, paraneoplastic pemphigus, palmar hyperkeratosis"
+      ],
+      [
+       "**Treatment-related**",
+       "**EGFR inhibitors** (erlotinib, gefitinib, osimertinib): acneiform folliculitis, paronychia, xerosis — doxycycline/lymecycline + topical steroid; **checkpoint inhibitors**: lichenoid/eczematous rashes, vitiligo, bullous pemphigoid, SJS (rare)"
+      ]
+     ]
+    }
+   }
+  ],
+  "diagnosis": [
+   {
+    "list": [
+     "**Refer on a suspected cancer pathway** if CXR findings suggest lung cancer, or if aged **≥40 with unexplained haemoptysis**.",
+     "**Offer an urgent CXR (within 2 weeks)** to people **≥40** with **two or more** unexplained symptoms — or **one** if they have **ever smoked**: cough, fatigue, shortness of breath, chest pain, weight loss, appetite loss.",
+     "**Consider an urgent CXR** in people ≥40 with: persistent or recurrent chest infection; **finger clubbing**; supraclavicular or persistent cervical lymphadenopathy; chest signs consistent with lung cancer; **thrombocytosis**.",
+     "Skin metastasis → biopsy (usually via a dermatology urgent pathway) + CT."
+    ]
+   }
+  ],
+  "differentials": [
+   "Clubbing (above); carcinoma erysipeloides vs **cellulitis** (afebrile, no response to antibiotics, firm); metastases vs cysts/lipomas/DFSP; SVC obstruction vs angioedema/heart failure."
+  ],
+  "management": [
+   "Recognise and refer per NG12. Use **smoking history as a red-flag multiplier**. Smoking cessation support (NCSCT, varenicline/NRT). Manage EGFR-inhibitor rashes with oncology protocols (pre-emptive doxycycline, emollients, SPF, mild steroid).",
+   {
+    "h": "Red flags / refer"
+   },
+   "SVC obstruction (same day); haemoptysis ≥40 (suspected cancer pathway); new clubbing with chest symptoms; cutaneous nodules in a smoker; rapid pigmentation + hypokalaemia (ectopic ACTH).",
+   {
+    "h": "IP scope"
+   },
+   "Recognition, CXR request (where the IP can order it locally), suspected-cancer referral per local IP rights, smoking cessation, supportive dermatology for oncology drug rashes."
+  ],
+  "red_flags": [
+   "New finger clubbing, haemoptysis, weight loss or persistent cough in a smoker over 40: **urgent CXR / suspected cancer pathway** (NICE NG12).",
+   "‘Cellulitis’ on the chest wall after breast cancer that does not respond to antibiotics: think **carcinoma erysipeloides**, urgent referral."
+  ],
+  "pearls": [
+   "\"**Clubbing in a smoker over 40 = chest X-ray.**\"",
+   "An \"**antibiotic-resistant cellulitis**\" on the chest wall of a cancer patient may be carcinoma erysipeloides."
+  ]
+ },
+ "photos": [
+  {
+   "title": "Paraneoplastic and metastatic signs",
+   "items": [
+    "m1w5:B01",
+    "m1w5:B02"
+   ],
+   "tone": "danger"
+  }
+ ],
+ "references": [
+  {
+   "label": "DermNet: Cutaneous metastasis",
+   "url": "https://dermnetnz.org/topics/skin-metastasis"
+  },
+  {
+   "label": "NICE NG12 Suspected cancer: recognition and referral:   NICE NG122 lung cancer",
+   "url": "https://www.nice.org.uk/guidance/ng12"
+  }
+ ]
+}

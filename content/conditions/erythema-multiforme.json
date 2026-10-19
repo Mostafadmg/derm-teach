@@ -199,7 +199,67 @@
       ]
      ]
     }
-   }
+   },
+   {
+    "h": "EM vs SJS vs TEN"
+   },
+   {
+    "table": {
+     "head": [
+      "",
+      "EM major",
+      "SJS",
+      "TEN",
+      "SSSS",
+      "AGEP",
+      "GBFDE",
+      "Pemphigus / BP"
+     ],
+     "rows": [
+      [
+       "Trigger",
+       "HSV, *Mycoplasma*",
+       "Drugs",
+       "Drugs",
+       "*S. aureus* toxin",
+       "Drugs (<48 h)",
+       "Drug re-exposure",
+       "Autoimmune"
+      ],
+      [
+       "Lesion",
+       "Typical raised targets, acral",
+       "Atypical flat targets, trunk",
+       "Confluent erythema, sheet detachment",
+       "Tender erythema, superficial peel, flexures; children/renal failure",
+       "Pustules on erythema",
+       "Few large dusky plaques at recurring sites",
+       "Erosions (PV) / tense bullae (BP)"
+      ],
+      [
+       "Mucosa",
+       "± mild",
+       "**Yes, severe**",
+       "**Yes, severe**",
+       "**No**",
+       "Rare",
+       "Mild",
+       "PV yes"
+      ],
+      [
+       "Histology",
+       "Interface",
+       "Full-thickness necrosis",
+       "Full-thickness necrosis",
+       "**Subcorneal** split",
+       "Subcorneal pustules",
+       "Similar to SJS",
+       "DIF positive"
+      ]
+     ]
+    }
+   },
+   "Also consider: *Mycoplasma pneumoniae*-induced rash and mucositis (RIME), Kawasaki disease, toxic shock syndrome, acute GVHD, linear IgA bullous dermatosis (vancomycin), acute cutaneous lupus (TEN-like), paraneoplastic pemphigus."
   ],
   "management": [
    {
@@ -255,6 +315,15 @@
     "m3w6:G03",
     "m3w6:G04"
    ]
+  },
+  {
+   "title": "EM vs SJS/TEN",
+   "items": [
+    "m1w3:B01",
+    "m1w3:B02",
+    "m1w3:B03"
+   ],
+   "tone": "danger"
   }
  ],
  "references": [

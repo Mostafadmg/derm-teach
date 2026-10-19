@@ -47,7 +47,7 @@
      }
     },
     "**Main themes of errors:** Vascular vs malignant lookalikes, adnexal tumours, AK vs Bowen's, anatomy, electrosurgery.",
-    "Module 2 (skin lesions and surgery) does not yet have its own condition pages, so most questions here have no link yet."
+    "Each question links to the matching page in [Lumps, lesions & skin cancer](../categories/lumps-lesions-cancer.html) or [Skin surgery](../categories/skin-surgery.html), where one exists."
    ]
   },
   {
@@ -72,7 +72,7 @@
         "Lobular capillary haemangioma",
         "**Lobular capillary haemangioma (pyogenic granuloma)**",
         "Rapid growth after trauma, friable, collarette on histology. Amelanotic melanoma is the important DDx, so **always send for histology**. Bacillary angiomatosis needs HIV/Bartonella. Glomus is painful and subungual. KS is spindle cells and HHV-8",
-        "—"
+        "[Pyogenic granuloma](condition:pyogenic-granuloma)"
        ],
        [
         "2",
@@ -88,7 +88,7 @@
         "Shave biopsy",
         "**Excision biopsy** (likely course key)",
         "Looks like nodular BCC. UK practice: diagnostic **excision with a 4 mm margin** for a well-defined primary BCC (BAD BCC guideline, NICE CSG8) gives diagnosis and cure together. If unsure, a **punch/incisional** biopsy is used. **Shave biopsy** misses depth/subtype for nodular lesions. Tru-cut is for deep masses, triamcinolone is for keloid, and microneedling is cosmetic",
-        "—"
+        "[Basal cell carcinoma (BCC)](condition:basal-cell-carcinoma)"
        ],
        [
         "4",
@@ -96,7 +96,7 @@
         "Postpone until after the birth",
         "**Postpone excision until after delivery**",
         "BCC is slow-growing and rarely metastasises, so elective surgery can wait. Local anaesthetic is safe if surgery is needed, but there is no urgency. Cryotherapy is unsuitable for nodular BCC. Radiotherapy in pregnancy is inappropriate",
-        "—"
+        "[Basal cell carcinoma (BCC)](condition:basal-cell-carcinoma)"
        ],
        [
         "5",
@@ -104,7 +104,7 @@
         "Junctional naevus",
         "**Atypical (dysplastic) naevus** is more likely",
         "New or flat junctional naevi are unusual at 60, because naevi mature to compound or intradermal with age. Irregular, multiple lesions in an older adult fit atypical naevi. Use the image: if one lesion meets the ABCDE/7-point checklist, think melanoma and **refer on the suspected-cancer pathway (NICE NG12)**",
-        "—"
+        "[Atypical naevus syndrome & familial melanoma](condition:atypical-naevus-syndrome)"
        ],
        [
         "6",
@@ -112,7 +112,7 @@
         "Malignant blue naevus",
         "**Malignant blue naevus**",
         "A melanoma arising in or resembling a blue naevus: change, a satellite and atypia. LMM is facial and chronic sun damage. Pigmented BCC is S100-negative. KS is a vascular tumour",
-        "—"
+        "[Halo, blue, Spitz & recurrent naevi](condition:spitz-blue-halo-naevi), [Melanoma: recognition & referral](condition:melanoma)"
        ],
        [
         "7",
@@ -120,7 +120,7 @@
         "Breslow",
         "**Breslow thickness**",
         "AJCC 8 T-stage is based on Breslow + ulceration, and Breslow is the strongest single predictor. Clark level is no longer used for staging. Mitotic rate was dropped from AJCC 8 T1 staging",
-        "—"
+        "[Melanoma: Breslow, AJCC 8 staging & NICE NG14 treatment](condition:melanoma-staging-treatment)"
        ],
        [
         "8",
@@ -128,7 +128,7 @@
         "Pre/post checks + **monopolar**",
         "**Bipolar** short bursts + monitoring + arrest trolley + **inform cardiac physiology**. Option 4 is the likely course key; option 1 (bipolar + pre/post checks) is acceptable and more cautious",
         "Bipolar current stays between the forceps tips, so pacemaker interference is minimal. Monopolar current runs through the patient and can cause oversensing or inhibition. With a stable, recently checked **pacemaker** (not an ICD), routine pre/post checks aren't needed if there are no clinical concerns. ICDs need deactivation. Options 2, 3 and 5 all use monopolar",
-        "—"
+        "[Skin surgery: pre-operative checks, anticoagulants & cardiac devices](condition:skin-surgery-preop)"
        ],
        [
         "9",
@@ -136,7 +136,7 @@
         "Sebaceous hyperplasia",
         "**Sebaceous hyperplasia**",
         "Ciclosporin is a classic driver. Umbilicated yellow papules with \"crown\" vessels on dermoscopy. Transplant patients also get many SCCs and BCCs, so examine everything. Fibrofolliculomas suggest Birt-Hogg-Dubé. Syringomas are periorbital. Trichoepitheliomas are skin-coloured and central-facial",
-        "—"
+        "[Other skin lumps: neurofibroma, pilomatricoma, myxoid cyst & more](condition:other-skin-lumps)"
        ],
        [
         "10",
@@ -144,7 +144,7 @@
         "Epidermoid cyst",
         "**Epidermoid cyst**",
         "Multiple epidermoid cysts in FAP/Gardner (APC), so check colonoscopy surveillance. A punctum + keratin contents is diagnostic. Dermoid cysts are congenital lines of fusion. Milia are tiny. Hidrocystomas are translucent and periocular",
-        "—"
+        "[Epidermoid & pilar cysts, milia and Gardner syndrome](condition:skin-cysts)"
        ],
        [
         "11",
@@ -152,7 +152,7 @@
         "Pilomatricoma",
         "**Pilomatricoma**",
         "Children, head and neck, rock-hard, \"tent sign\", calcification. Pilomatrical carcinoma is rare and occurs in adults. Dermatofibroma is on the legs with a dimple sign",
-        "—"
+        "[Other skin lumps: neurofibroma, pilomatricoma, myxoid cyst & more](condition:other-skin-lumps)"
        ],
        [
         "12",
@@ -160,7 +160,7 @@
         "Amelanotic melanoma",
         "**Campbell de Morgan spots (cherry angiomas)**",
         "Multiple, small, bright red, increasing with age, benign. Reassure. Amelanotic melanoma is usually a *single*, changing, often nodular lesion. HHT gives mucosal/digital telangiectasias with epistaxis. Pyogenic granuloma is solitary and bleeding. No drug causes this",
-        "—"
+        "[Angiokeratomas & Fabry disease](condition:angiokeratoma-fabry)"
        ],
        [
         "13",
@@ -168,7 +168,7 @@
         "Excision",
         "**Surgical excision**",
         "Likely cutaneous SCC (or KA, which is treated as SCC): excise with a 4–6 mm margin (BAD cSCC 2020). Curettage alone, PDT and imiquimod are not for invasive SCC. Radiotherapy is for people unfit for surgery",
-        "—"
+        "[Cutaneous squamous cell carcinoma (cSCC)](condition:squamous-cell-carcinoma)"
        ],
        [
         "14",
@@ -176,7 +176,7 @@
         "Lentigo maligna",
         "**Lentigo maligna**",
         "Irregular, slowly enlarging facial pigmentation in chronically sun-damaged skin. Melanoma in situ, so refer (NG12). Solar lentigo is uniform and stable. SK is stuck-on/waxy. Nodular melanoma is raised",
-        "[Solar lentigines](condition:solar-lentigines)"
+        "[Melanoma: recognition & referral](condition:melanoma), [Solar lentigines](condition:solar-lentigines)"
        ],
        [
         "15",
@@ -184,7 +184,7 @@
         "Digital myxoid cyst",
         "**Digital (mucous) myxoid cyst**",
         "Linked to DIP osteoarthritis. Pressure on the matrix causes a longitudinal groove. Glomus is painful, blue and subungual. Subungual exostosis is hard and under the nail",
-        "[Nail signs: psoriatic nails, Beau’s lines & clubbing](condition:nail-signs)"
+        "[Other skin lumps: neurofibroma, pilomatricoma, myxoid cyst & more](condition:other-skin-lumps), [Nail signs: psoriatic nails, Beau’s lines & clubbing](condition:nail-signs)"
        ],
        [
         "16",
@@ -192,7 +192,7 @@
         "<1 in 2000",
         "**Smaller than 1 in 2000**",
         "The per-naevus risk is tiny (estimates ~1 in 200,000/year). Total naevus count matters more than any single mole",
-        "—"
+        "[Melanocytic naevi (moles) & the changing mole](condition:melanocytic-naevi)"
        ],
        [
         "17",
@@ -200,7 +200,7 @@
         "Skin biopsy",
         "**Skin biopsy**",
         "Persistent \"eczema\" that fails treatment in older age: exclude **mycosis fungoides/CTCL** (and drug eruption), which needs multiple biopsies. Oral steroids would mask it. Porphyrin screen and PDT are irrelevant",
-        "—"
+        "[Mycosis fungoides & cutaneous lymphoma](condition:mycosis-fungoides)"
        ],
        [
         "18",
@@ -208,7 +208,7 @@
         "Blue naevus",
         "**Blue naevus** (as the dermoscopy image showed homogeneous steel-blue pigment)",
         "A homogeneous blue structureless pattern is typical. Itch and a family member with melanoma warrant documented review, not alarm",
-        "—"
+        "[Halo, blue, Spitz & recurrent naevi](condition:spitz-blue-halo-naevi)"
        ],
        [
         "19",
@@ -224,7 +224,7 @@
         "Halo naevus",
         "**Halo naevus**",
         "A symmetrical depigmented rim around a regressing naevus, common in young people (vitiligo link). Refer if the central naevus is atypical or the patient is older",
-        "—"
+        "[Halo, blue, Spitz & recurrent naevi](condition:spitz-blue-halo-naevi)"
        ],
        [
         "21",
@@ -232,7 +232,7 @@
         "Curettage and cautery",
         "**Curettage and cautery (send for histology)**",
         "Pyogenic granuloma. C&C removes it and gives tissue for histology. Steroids, antibiotics and reassurance are inappropriate",
-        "—"
+        "[Pyogenic granuloma](condition:pyogenic-granuloma), [Skin surgery procedures: excision, curettage, cryotherapy & Mohs](condition:skin-surgery-procedures)"
        ],
        [
         "22",
@@ -240,7 +240,7 @@
         "BCC",
         "BCC vs **keratoacanthoma/SCC**, depending on the image",
         "Six weeks of growth and firmness favour **KA (manage as well-differentiated SCC)**. A pearly rolled edge with telangiectasia would favour BCC. Either way the UK route is **excision and histology**, not watchful waiting. AK is flat/scaly. LM is pigmented",
-        "—"
+        "[Cutaneous squamous cell carcinoma (cSCC)](condition:squamous-cell-carcinoma), [Basal cell carcinoma (BCC)](condition:basal-cell-carcinoma)"
        ],
        [
         "23",
@@ -248,7 +248,7 @@
         "49 ml",
         "**49 ml**",
         "7 mg/kg with adrenaline × 70 = 490 mg = 49 ml of 10 mg/ml. Plain lidocaine max is 3 mg/kg (≈21 ml). Use the BNF/local policy",
-        "—"
+        "[Local anaesthetics & allergy in skin surgery](condition:local-anaesthetics-skin-surgery)"
        ],
        [
         "24",
@@ -256,7 +256,7 @@
         "Option 3",
         "**Rebook and ask him to liaise with his anticoagulation team/GP to get INR <3.5**",
         "Don't stop warfarin unilaterally (PE indication). INR 3.6 is above the usual skin-surgery threshold (≤3.5, checked within 72 h). Missing doses or stopping for 3 days without the anticoagulation team risks VTE",
-        "—"
+        "[Skin surgery: pre-operative checks, anticoagulants & cardiac devices](condition:skin-surgery-preop)"
        ],
        [
         "25",
@@ -264,7 +264,7 @@
         "Actinic keratosis",
         "**Bowen's disease (SCC in situ)**",
         "A **well-demarcated** red scaly *plaque* on the lower legs of a woman is classic Bowen's. AK is a rough, ill-defined small macule or papule on the head and hands. UK management: 5-FU, imiquimod, PDT, cryotherapy, or C&C (BAD 2014 guideline)",
-        "[Actinic & seborrhoeic keratoses](condition:actinic-keratoses)"
+        "[Actinic & seborrhoeic keratoses](condition:actinic-keratoses), [Cutaneous squamous cell carcinoma (cSCC)](condition:squamous-cell-carcinoma)"
        ],
        [
         "26",
@@ -272,7 +272,7 @@
         "Trichoblastoma",
         "**Trichoblastoma**",
         "Naevus sebaceous. The commonest secondary tumour is **trichoblastoma**, then syringocystadenoma papilliferum. BCC is rare (old data overestimated it). Excision is elective",
-        "—"
+        "[Sebaceous naevus (naevus sebaceous)](condition:sebaceous-naevus)"
        ],
        [
         "27",
@@ -280,7 +280,7 @@
         "25%",
         "**25%** (~20–30%)",
         "Most melanomas arise de novo, so new or changing lesions matter most",
-        "—"
+        "[Melanocytic naevi (moles) & the changing mole](condition:melanocytic-naevi), [Melanoma: recognition & referral](condition:melanoma)"
        ],
        [
         "28",
@@ -288,7 +288,7 @@
         ">90%",
         "**>90%**",
         "pT1a has a 5-year melanoma-specific survival of ~98–99%",
-        "—"
+        "[Melanoma: Breslow, AJCC 8 staging & NICE NG14 treatment](condition:melanoma-staging-treatment)"
        ],
        [
         "29",
@@ -296,7 +296,7 @@
         "Pseudomelanoma",
         "**Pseudomelanoma (recurrent naevus)**",
         "Pigment confined to the scar, early recurrence, benign original histology. **Always get the original histology** and refer if it spreads beyond the scar",
-        "—"
+        "[Halo, blue, Spitz & recurrent naevi](condition:spitz-blue-halo-naevi)"
        ],
        [
         "30",
@@ -304,7 +304,7 @@
         "Anterior-border option",
         "**Halfway down the *posterior* border of sternocleidomastoid, ~2–3 cm above the clavicle; spinal accessory nerve**, which causes trapezius weakness and shoulder drop (option 2)",
         "The accessory nerve runs superficially in the posterior triangle. The marginal mandibular nerve is at the jaw, not Erb's point. The anterior border options are wrong anatomically",
-        "—"
+        "[Skin surgery: consent, complications & danger zones](condition:skin-surgery-consent-complications)"
        ]
       ]
      }

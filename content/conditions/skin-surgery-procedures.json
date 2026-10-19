@@ -1,0 +1,231 @@
+{
+ "slug": "skin-surgery-procedures",
+ "title": "Skin surgery procedures: excision, curettage, cryotherapy & Mohs",
+ "category": "skin-surgery",
+ "status": "published",
+ "order": 4,
+ "module": "Module 2 · Week 6",
+ "aka": [
+  "elliptical excision",
+  "shave",
+  "punch biopsy",
+  "curettage and cautery",
+  "cryotherapy",
+  "Mohs micrographic surgery",
+  "flap",
+  "graft",
+  "RSTL",
+  "Langer’s lines"
+ ],
+ "summary": "What each procedure is for, at knowledge level: elliptical excision along relaxed skin tension lines, shave and punch biopsy, curettage and cautery, cryotherapy (and its blisters), Mohs surgery, flaps and grafts.",
+ "card_image": "m2w6:B04",
+ "glance": {
+  "think": "Explaining a planned procedure to a patient, or recognising expected after-effects (cryotherapy blisters, flap scars).",
+  "engine": "Each technique trades tissue sampling, margin control, cosmesis and recurrence differently.",
+  "backbone": "Excision for diagnosis and most cancers (3:1 ellipse along RSTLs); C&C for small low-risk lesions; cryotherapy only for confidently diagnosed benign or low-risk lesions; Mohs for high-risk or recurrent facial BCC.",
+  "never_miss": "Freezing an undiagnosed lesion (no histology, recurrence); cryotherapy blisters and pigment loss in skin of colour."
+ },
+ "sections": {
+  "what": [
+   "**Concepts only, for understanding referrals, consent and aftercare. Performing these needs supervised training and credentialing.**"
+  ],
+  "cause": [],
+  "features": [
+   {
+    "h": "Overview table"
+   },
+   {
+    "table": {
+     "head": [
+      "Procedure",
+      "What it does",
+      "Typical uses",
+      "Specimen?",
+      "Key limitations"
+     ],
+     "rows": [
+      [
+       "**Shave excision/biopsy**",
+       "Removes a raised lesion level with the skin",
+       "SK, dermal naevus (cosmetic, private), skin tags, some BCC biopsies",
+       "Yes",
+       "**Not for suspected melanoma** (Breslow lost); naevi may recur"
+      ],
+      [
+       "**Curettage & cautery (C&C)**",
+       "Scrapes off friable tissue, then cauterises the base",
+       "**Pyogenic granuloma**, SK, small low-risk BCC (trunk/limbs), viral warts",
+       "Yes (fragmented)",
+       "No margin assessment. Not for high-risk or facial BCC or for melanoma"
+      ],
+      [
+       "**Punch biopsy**",
+       "Cylindrical core (2–8 mm)",
+       "Diagnosing rashes and tumours (BCC/SCC subtype, MF)",
+       "Yes",
+       "Samples only part; **not for melanoma diagnosis** (except specialist situations)"
+      ],
+      [
+       "**Elliptical excision**",
+       "Full-thickness removal with margin, closed in a line",
+       "Suspected malignancy (with margin), symptomatic benign lesions, cysts",
+       "Yes (with margins)",
+       "Scar about 3× the lesion length; oriented along **relaxed skin tension lines (RSTL)**"
+      ],
+      [
+       "**Cryotherapy**",
+       "Liquid nitrogen (−196 °C) freezes and destroys tissue",
+       "**AK, viral warts, SK**, some superficial BCC (specialist)",
+       "**No**",
+       "**Never on an undiagnosed or pigmented lesion that might be melanoma**"
+      ],
+      [
+       "**Electrosurgery**",
+       "Heat or current: electrocautery (heated wire, no current through the patient), electrodesiccation/fulguration, electrosection, **bipolar diathermy** (current between forceps tips)",
+       "Haemostasis, C&C, small lesions",
+       "Variable",
+       "Pacemakers/ICDs (see *Antibiotic prophylaxis and cardiac devices*); burns; fire risk with alcohol prep (see *Room, PPE, skin preparation, specimen handling and the fail-safe*); smoke plume"
+      ],
+      [
+       "**Secondary intention**",
+       "Leaves the wound to heal by granulation",
+       "**Concave sites** (inner canthus, nasal alar groove, conchal bowl, temple), after C&C or shave, Mohs defects",
+       "—",
+       "Slower (weeks); dressing burden; contraction near free margins"
+      ],
+      [
+       "**Undermining**",
+       "Freeing the skin edges in a tissue plane to reduce tension before closure",
+       "Larger ellipses",
+       "—",
+       "Haematoma risk; danger zones"
+      ],
+      [
+       "**Flaps / grafts**",
+       "Moving adjacent skin (flap) or transferring skin from elsewhere (graft) to close defects",
+       "Larger facial defects after cancer excision",
+       "—",
+       "Specialist"
+      ],
+      [
+       "**Mohs micrographic surgery**",
+       "Staged excision with **complete (100%) peripheral and deep margin examination** on frozen sections, repeated until clear",
+       "High-risk/recurrent BCC (BAD 2021), some cSCC, DFSP, LM (specialist)",
+       "Yes",
+       "Specialist centres; time-consuming"
+      ]
+     ]
+    }
+   },
+   {
+    "h": "Langer's lines vs RSTL"
+   },
+   {
+    "list": [
+     "**Langer's lines** were mapped on cadavers (collagen orientation). Surgeons now prefer **relaxed skin tension lines (RSTL)** (Borges), seen as natural wrinkle lines in a living person and found by pinching the skin.",
+     "Placing scars **parallel to RSTL** gives narrower, less visible scars. In practice: horizontal on the forehead, radial around the mouth and eyes, transverse in the neck creases, and along the long axis of limbs for melanoma excision biopsies (lymphatic drainage)."
+    ]
+   },
+   {
+    "h": "Cryotherapy: (knowledge level)"
+   },
+   {
+    "list": [
+     "**Expected reactions:** redness and swelling within hours; **blister** (sometimes **haemorrhagic**) within 24–48 h; periorbital oedema after facial treatment; crusting and healing over 1–3 weeks",
+     "**Adverse effects:** **hypopigmentation** (avoid or use caution in skin of colour); hyperpigmentation; scarring; nail dystrophy; **nerve damage** over superficial nerves (sides of fingers); tendon damage; **recurrence or missed cancer** (recurrent BCC after cryotherapy)",
+     "**Cautions:** cold urticaria, cryoglobulinaemia, Raynaud's, poor circulation (lower legs in elderly people heal poorly), and **undiagnosed lesions**.",
+     "**NHS:** commissioning for warts and SK is restricted in many areas (EBI/local policies). Self-care alternatives for warts: salicylic acid, OTC cryogen products (dimethyl ether/propane). These are less effective but suitable for many patients."
+    ]
+   },
+   {
+    "h": "Pyogenic granuloma: why C&C"
+   },
+   {
+    "list": [
+     "A **friable, bleeding vascular lesion** that would bleed during shave alone. **C&C removes it and seals the base**, and the curettings go for **histology** (amelanotic melanoma, SCC and Kaposi are the \"must-not-miss\" mimics; the [skin lumps](condition:dermatofibroma) notes see *Procedures at knowledge level*).",
+     "Alternatives: shave + cautery; excision for recurrent lesions (with closure, as course teaching described); silver nitrate or cryotherapy for very small lesions where the diagnosis is certain (no specimen).",
+     "**Posterior neck:** superficial procedures are safe. A deeper excision would need awareness of the spinal accessory nerve (see *Consent, complications and anatomical danger zones*)."
+    ]
+   }
+  ],
+  "diagnosis": [],
+  "differentials": [],
+  "management": [
+   {
+    "h": "BCC treatment ladder"
+   },
+   "See the [skin cancer](condition:basal-cell-carcinoma) notes:",
+   {
+    "list": [
+     "surgery (standard excision 4 mm / ≥5 mm margins) → Mohs for high-risk/recurrent",
+     "C&C or cryo for small low-risk lesions",
+     "imiquimod, 5-FU or PDT for superficial BCC",
+     "radiotherapy if unfit",
+     "hedgehog inhibitors for advanced disease."
+    ]
+   },
+   "Use the table to explain to patients **why** a clinician chose a method, and why some lesions (suspected melanoma) must be excised whole by the specialist team rather than shaved or frozen."
+  ],
+  "red_flags": [
+   "Never use cryotherapy on a lesion without a **confident diagnosis**: there is no histology and cancers can recur beneath the scar."
+  ],
+  "pearls": [
+   "After cryotherapy: **leave blisters intact**, or drain with a sterile needle if tense and painful, keeping the roof. Use simple dressings and paracetamol. Seek help for signs of infection.",
+   "After C&C or shave: the wound is moist and heals over 2–3 weeks; petrolatum and a simple dressing."
+  ]
+ },
+ "photos": [
+  {
+   "title": "Excision and healing",
+   "items": [
+    "m2w6:B01",
+    "m2w6:B02",
+    "m2w6:B03",
+    "m2w6:B04"
+   ]
+  },
+  {
+   "title": "Cryotherapy after-effects",
+   "items": [
+    "m2w6:D01",
+    "m2w6:D02",
+    "m2w6:D03",
+    "m2w6:D04"
+   ]
+  },
+  {
+   "title": "Mohs, flaps and grafts",
+   "items": [
+    "m2w6:F01",
+    "m2w6:F02",
+    "m2w6:F03"
+   ]
+  }
+ ],
+ "references": [
+  {
+   "label": "DermNet: Curettage and cautery",
+   "url": "https://dermnetnz.org/topics/curettage-and-cautery"
+  },
+  {
+   "label": "DermNet: Cryotherapy",
+   "url": "https://dermnetnz.org/topics/cryotherapy"
+  },
+  {
+   "label": "DermNet: Electrosurgery",
+   "url": "https://dermnetnz.org/topics/electrosurgery"
+  },
+  {
+   "label": "DermNet: Mohs micrographic surgery",
+   "url": "https://dermnetnz.org/topics/mohs-micrographic-surgery"
+  },
+  {
+   "label": "DermNet: Skin tension lines",
+   "url": "https://dermnetnz.org/topics/skin-tension-lines"
+  },
+  {
+   "label": "BAD PIL: cryotherapy; Mohs micrographic surgery",
+   "url": "https://www.bad.org.uk/pils/"
+  }
+ ]
+}

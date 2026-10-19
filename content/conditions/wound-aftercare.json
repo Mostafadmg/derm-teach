@@ -1,0 +1,134 @@
+{
+ "slug": "wound-aftercare",
+ "title": "Wound aftercare: sutures, activity, infection & scars",
+ "category": "skin-surgery",
+ "status": "published",
+ "order": 5,
+ "module": "Module 2 · Week 6",
+ "aka": [
+  "suture removal",
+  "post-op wound infection",
+  "return to work",
+  "hypertrophic scar",
+  "keloid",
+  "silicone gel",
+  "wound dressing"
+ ],
+ "summary": "Aftercare advice following minor skin surgery: dressing and washing, typical suture removal times by site, return to work and sport, recognising and treating wound infection, and managing hypertrophic and keloid scars.",
+ "card_image": "m2w6:C03",
+ "glance": {
+  "think": "A patient a few days to weeks after minor skin surgery with a question about the wound, stitches, activity or scar.",
+  "engine": "Healing goes through inflammation, proliferation and remodelling; tension and infection disrupt it; some people form keloids.",
+  "backbone": "Keep dry 24–48 h then wash; sutures out at 5–7 days on the face, 10–14 on the trunk and arms and about 14 on the back and legs (local protocols vary); avoid strenuous activity for 1–2 weeks; flucloxacillin for wound infection (clarithromycin or doxycycline if penicillin-allergic, checking interactions).",
+  "never_miss": "Spreading cellulitis, abscess, dehiscence; keloids in people with skin of colour or on the chest, shoulders and earlobes."
+ },
+ "sections": {
+  "what": [],
+  "cause": [],
+  "features": [
+   {
+    "h": "Wound care"
+   },
+   "Keep the dressing on and **dry for 24–48 h**, then gently wash and pat dry. A thin layer of **plain petroleum jelly** keeps the wound moist (no routine topical antibiotics: they cause allergy (neomycin, bacitracin) and resistance). For scalp and posterior neck, keep the hair clean.",
+   {
+    "h": "Suture removal (typical; local protocols vary)"
+   },
+   {
+    "table": {
+     "head": [
+      "Site",
+      "Days"
+     ],
+     "rows": [
+      [
+       "Face, eyelids",
+       "5–7 (3–5 for eyelids)"
+      ],
+      [
+       "Scalp",
+       "7–10"
+      ],
+      [
+       "Neck",
+       "7–10"
+      ],
+      [
+       "Trunk, upper limb",
+       "10–14"
+      ],
+      [
+       "Back, lower limb, over joints",
+       "14 (up to 21)"
+      ]
+     ]
+    }
+   },
+   "Absorbable deep sutures (e.g. poliglecaprone; the course Monocryl) dissolve over weeks. Surface nylon (Ethilon) is removed at the times above.",
+   {
+    "h": "Activity"
+   },
+   {
+    "list": [
+     "**Avoid strenuous exercise, heavy lifting, contact sport and swimming for ~1–2 weeks** (until sutures are out and the wound is sound) to prevent **dehiscence and stretched scars**. course teaching said no football for 2 weeks.",
+     "**Work:** a construction worker may need **1–2 weeks of modified or light duties**. The fit note (from any eligible healthcare professional, including pharmacists since July 2022) can advise \"may be fit for work with adjustments\".",
+     "Protect the wound from dust and dirt at work (a waterproof dressing)."
+    ]
+   },
+   {
+    "h": "Scars"
+   },
+   {
+    "list": [
+     "Scars mature over 12–18 months.",
+     "**Massage** with emollient once healed (from about 2–3 weeks).",
+     "**Sun protection (SPF 30+) for at least a year** to avoid pigmentation.",
+     "**Silicone gel or sheets** for hypertrophic-scar-prone patients (OTC/prescribable).",
+     "**Keloids:** specialist intralesional triamcinolone (hypopigmentation and atrophy are possible), pressure, cryotherapy, or radiotherapy after excision. **Avoid elective surgery on high-risk sites** in keloid formers."
+    ]
+   }
+  ],
+  "diagnosis": [],
+  "differentials": [],
+  "management": [
+   {
+    "h": "Infection (recognise and treat)"
+   },
+   {
+    "list": [
+     "**Signs:** increasing pain, redness spreading **>1–2 cm** from the edge, swelling; **pus**, wound breakdown; fever",
+     "Mild stitch-line redness in the first 48 h is normal.",
+     "**Management (NICE NG125/NG141 principles, local formulary):** swab if there is discharge; **flucloxacillin** first-line for *S. aureus*/streptococci; **penicillin allergy: clarithromycin or doxycycline**, but check **warfarin/DOAC interactions** and **statins** (clarithromycin with simvastatin is contraindicated; hold the statin); remove sutures if there is an abscess; same-day review if systemically unwell",
+     "**MRSA** history needs a microbiology-guided choice."
+    ]
+   },
+   "The IP can prescribe analgesia (paracetamol), treat confirmed wound infection, advise on dressings and silicone, issue fit notes, and **check the INR** after interacting antibiotics. Review isotretinoin/acitretin users' wound healing."
+  ],
+  "red_flags": [
+   "Spreading redness, fever, pus or increasing pain after surgery: assess for **wound infection or abscess** the same day."
+  ],
+  "pearls": [
+   "Give written aftercare with a **named contact for bleeding/infection** and the **date for suture removal and results**."
+  ]
+ },
+ "photos": [
+  {
+   "title": "Scars and keloids",
+   "items": [
+    "m2w6:C03",
+    "m2w6:C04",
+    "m2w6:C05",
+    "m2w6:C06"
+   ]
+  }
+ ],
+ "references": [
+  {
+   "label": "DermNet: Wound closure",
+   "url": "https://dermnetnz.org/topics/wound-closure"
+  },
+  {
+   "label": "DermNet: Suturing techniques",
+   "url": "https://dermnetnz.org/topics/suturing-techniques"
+  }
+ ]
+}

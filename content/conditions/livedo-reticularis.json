@@ -1,0 +1,135 @@
+{
+ "slug": "livedo-reticularis",
+ "title": "Livedo reticularis vs livedo racemosa",
+ "category": "vasculitis",
+ "status": "published",
+ "order": 5,
+ "module": "Module 1 · Week 4",
+ "aka": [
+  "mottled skin",
+  "net-like rash",
+  "cutis marmorata",
+  "antiphospholipid",
+  "Sneddon syndrome",
+  "livedoid vasculopathy"
+ ],
+ "summary": "A violaceous net-like pattern on the skin. A regular, complete net that fades on warming is usually physiological; a broken, irregular, persistent net (racemosa) points to vessel disease such as antiphospholipid syndrome or vasculitis.",
+ "card_image": "m1w4:D03",
+ "glance": {
+  "think": "A purple-blue lace-like pattern on the legs, arms or trunk.",
+  "engine": "Slowed blood flow in the venous plexus around each skin ‘cone’: physiological in cold, or due to vessel blockage, hyperviscosity or vasculitis.",
+  "backbone": "Decide: complete and fading (reassure) or broken and fixed (investigate: FBC, clotting, antiphospholipid antibodies, ANA, cryoglobulins, lipids).",
+  "never_miss": "Antiphospholipid syndrome, Sneddon syndrome (stroke), cholesterol emboli after angiography, PAN, calciphylaxis."
+ },
+ "sections": {
+  "what": [
+   "A **violaceous, net-like mottling** of the skin, caused by reduced blood flow/deoxygenation at the edges of the cone-shaped skin segments supplied by single ascending dermal arterioles.",
+   {
+    "list": [
+     "**Livedo reticularis:** a **regular, complete, fine** net. Often physiological.",
+     "**Livedo racemosa:** **irregular, broken, branching** rings (\"lightning bolt\") that **persist when warm**. Always pathological.",
+     "**Cutis marmorata:** physiological cold-induced mottling (infants, young women) that **disappears on rewarming**."
+    ]
+   }
+  ],
+  "cause": [
+   {
+    "h": "How it is caused"
+   },
+   "Each cone's centre is supplied by an ascending arteriole at the **dermal–subcutaneous junction**. The periphery (venous plexus) is least oxygenated. Anything that **slows arteriolar inflow** (spasm, occlusion, vasculitis), **raises blood viscosity** or **impairs venous outflow** dilates and deoxygenates the peripheral venous plexus → visible blue-violet net.",
+   {
+    "table": {
+     "head": [
+      "Mechanism",
+      "Causes"
+     ],
+     "rows": [
+      [
+       "**Physiological / vasospasm**",
+       "Cold (cutis marmorata), Raynaud's"
+      ],
+      [
+       "**Vessel-wall disease (vasculitis)**",
+       "**PAN / cutaneous PAN**, cryoglobulinaemic vasculitis, SLE/RA vasculitis, ANCA vasculitis"
+      ],
+      [
+       "**Intraluminal occlusion (non-inflammatory)**",
+       "**Antiphospholipid syndrome** (± **Sneddon syndrome** — livedo racemosa + strokes), **cholesterol emboli** (after angiography/vascular surgery/anticoagulation — painful toes, eosinophilia, AKI), livedoid vasculopathy, **calciphylaxis** (renal failure), cryoglobulins/cryofibrinogen/cold agglutinins, thrombocythaemia/polycythaemia, DIC, hyperoxaluria, septic emboli"
+      ],
+      [
+       "**Hyperviscosity**",
+       "Myeloma, Waldenström's, polycythaemia"
+      ],
+      [
+       "**Drugs**",
+       "**Amantadine** (classic), catecholamines (noradrenaline, adrenaline), interferon, minocycline, bismuth, quinidine, cocaine/levamisole; **heparin/warfarin** (necrosis)"
+      ],
+      [
+       "Other",
+       "Intravascular lymphoma, hypothyroidism, CNS lesions, erythema ab igne (heat), endocarditis"
+      ]
+     ]
+    }
+   }
+  ],
+  "features": [
+   {
+    "h": "Clinical features & sites"
+   },
+   "Legs, feet, buttocks, arms; pattern, persistence on warming, pain, ulceration (atrophie blanche/livedoid vasculopathy, calciphylaxis), nodules (PAN), and neurological symptoms (Sneddon)."
+  ],
+  "diagnosis": [
+   "Warm the limb (does it fade?). FBC, clotting, **APL antibodies (lupus anticoagulant, anticardiolipin, anti-β2GPI)**, ANA, ANCA, cryoglobulins, complement, hepatitis B/C, SPEP, U&E (calciphylaxis/cholesterol emboli), eosinophils, lipids. **Deep biopsy from the white centre** (or several biopsies) if pathological; MRI brain if neurological symptoms."
+  ],
+  "differentials": [
+   "Erythema ab igne (reticulate pigmentation from heat — laptops, hot-water bottles), reticulate eruptions (confluent and reticulated papillomatosis, poikiloderma), port-wine stain/cutis marmorata telangiectatica congenita."
+  ],
+  "management": [
+   {
+    "list": [
+     "Physiological: warmth, reassurance.",
+     "Pathological: treat the cause (anticoagulation in APS; stop amantadine/vasopressors if possible; PAN treatment).",
+     "**Livedoid vasculopathy:** compression, antiplatelet/anticoagulant (e.g. rivaroxaban — specialist), pain control."
+    ]
+   },
+   {
+    "h": "Red flags / refer"
+   },
+   "Livedo **racemosa**, livedo with **ulcers/nodules/purpura**, livedo + neurological symptoms (stroke/TIA — Sneddon), new livedo after an arterial procedure (cholesterol emboli), in renal failure (calciphylaxis — urgent), or in pregnancy loss (APS).",
+   {
+    "h": "IP scope"
+   },
+   "Recognition, drug review (amantadine, vasopressors), bloods and referral."
+  ],
+  "red_flags": [
+   "New livedo racemosa with stroke, TIA, miscarriage or clots: test for **antiphospholipid syndrome**.",
+   "Painful purple toes and livedo after an arterial procedure: **cholesterol emboli**, urgent referral."
+  ],
+  "pearls": [
+   "\"**Regular, complete and fades with warmth = reticularis (usually benign). Broken and persistent = racemosa — find the cause.**\"",
+   "Ask about **amantadine** in Parkinson's patients with leg mottling and ankle oedema."
+  ]
+ },
+ "photos": [
+  {
+   "title": "Livedo reticularis and racemosa",
+   "items": [
+    "m1w4:D03",
+    "m1w4:D04",
+    "m1w4:D05"
+   ]
+  },
+  {
+   "title": "Livedoid vasculopathy",
+   "items": [
+    "m1w4:D06"
+   ]
+  }
+ ],
+ "references": [
+  {
+   "label": "DermNet: Livedo reticularis",
+   "url": "https://dermnetnz.org/topics/livedo-reticularis"
+  }
+ ]
+}

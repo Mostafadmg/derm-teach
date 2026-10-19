@@ -1,0 +1,128 @@
+{
+ "slug": "sebaceous-naevus",
+ "title": "Sebaceous naevus (naevus sebaceous)",
+ "category": "lumps-lesions-cancer",
+ "status": "published",
+ "order": 3,
+ "module": "Module 2 · Week 1",
+ "aka": [
+  "naevus sebaceous of Jadassohn",
+  "hairless scalp patch",
+  "organoid naevus",
+  "epidermal naevus"
+ ],
+ "summary": "A yellow-orange hairless plaque on the scalp or face present from birth, which thickens at puberty. Benign tumours can develop within it in adulthood; true BCC is rare, so removal is now case by case.",
+ "card_image": "m2w1:C01",
+ "glance": {
+  "think": "A child with a smooth, yellow-orange, hairless plaque on the scalp, or an adult with a warty plaque there.",
+  "engine": "A hamartoma of epidermis, hair follicles and sebaceous glands (mosaic HRAS/KRAS mutations); hormones thicken it at puberty.",
+  "backbone": "Recognise, photograph and monitor; discuss elective excision; refer any new nodule, ulcer or bleeding within it.",
+  "never_miss": "A new lump or crusted area within the naevus (trichoblastoma, rarely BCC); extensive lesions with eye, brain or bone involvement (syndromic)."
+ },
+ "sections": {
+  "what": [
+   "A congenital **hamartoma** of the folliculosebaceous-apocrine unit, present at birth in about 0.3% of newborns. It is mostly on the scalp, then the face."
+  ],
+  "cause": [
+   {
+    "list": [
+     "**Post-zygotic (mosaic) HRAS (most) or KRAS mutations.** This is why it follows Blaschko's lines and why the same mutation underlies the syndromic forms.",
+     "It changes with hormones in **three stages**: infancy (smooth, waxy, yellow-orange, hairless); puberty (sebaceous glands enlarge, so it becomes thick, verrucous and pebbly, as in the boy in [Case 2](condition:dermatofibroma)); adulthood (secondary adnexal tumours may develop)."
+    ]
+   }
+  ],
+  "features": [
+   {
+    "list": [
+     "Well-demarcated, hairless, yellow-orange or pink plaque, usually oval on the scalp or linear on the face/neck child; skin of colour).",
+     "In adults: rough, warty, sometimes with papules or nodules inside it.",
+     "**Secondary tumours:** they occur in perhaps 10–20% of lesions, mostly in adults, and **most are benign**. Trichoblastoma is commonest, then syringocystadenoma papilliferum, trichilemmoma, sebaceoma and apocrine tumours. **BCC is rare (<1% in modern series)**, and older reports that called trichoblastomas \"BCC\" exaggerated the risk. SCC, sebaceous carcinoma and apocrine carcinoma are very rare.",
+     "**Syndromic forms:** *Schimmelpenning (linear naevus sebaceous) syndrome*: an extensive, often facial, linear naevus with CNS (seizures, developmental delay, hemimegalencephaly), eye (colobomas, choristomas) and skeletal (rickets from hypophosphataemia, FGF23) involvement. *Phacomatosis pigmentokeratotica*: sebaceous naevus plus a speckled lentiginous naevus (HRAS)."
+    ]
+   }
+  ],
+  "diagnosis": [
+   {
+    "list": [
+     "Clinical in most cases. Dermoscopy shows yellow globules and a cerebriform/papillomatous pattern.",
+     "Biopsy any **new nodule, ulcer, bleeding or rapid change** within a sebaceous naevus.",
+     "An extensive or facial lesion with neurological, ocular or skeletal signs needs paediatric referral for syndrome work-up."
+    ]
+   }
+  ],
+  "differentials": [
+   {
+    "table": {
+     "head": [
+      "Lesion",
+      "Points"
+     ],
+     "rows": [
+      [
+       "Aplasia cutis congenita",
+       "Membranous or scarred, atrophic, sometimes a \"hair collar\"; not yellow or waxy"
+      ],
+      [
+       "Epidermal (verrucous) naevus",
+       "Warty, brown, not yellow; often off the scalp"
+      ],
+      [
+       "Juvenile xanthogranuloma",
+       "Dome-shaped orange papule, not a plaque"
+      ],
+      [
+       "Solitary mastocytoma",
+       "Darier sign positive"
+      ],
+      [
+       "Linear morphoea *en coup de sabre* (see *Other lumps and syndromes*)",
+       "Acquired (not congenital), indurated, ivory, with hair loss and a groove; **progressive**"
+      ],
+      [
+       "Alopecia areata / tinea capitis",
+       "Acquired, with normal skin texture or scale"
+      ]
+     ]
+    }
+   }
+  ],
+  "management": [
+   {
+    "list": [
+     "Explain the natural history and the low (mainly benign) tumour risk. **Observation is reasonable**, and many UK paediatric dermatologists no longer advise routine prophylactic excision.",
+     "Elective **excision** (the course answer, often in late childhood or adolescence under local anaesthetic, earlier for facial lesions or under GA) is offered for cosmetic, practical (comb trauma, bleeding) or anxiety reasons. It is a shared decision with paediatric dermatology or plastics.",
+     "**Refer:** routine to dermatology for confirmation and discussion. **Sooner** for a new nodule, ulceration or bleeding, which needs biopsy. **Paediatrics/neurology** for extensive or syndromic presentations.",
+     "Not IP options: laser, PDT, **topical sirolimus** (case reports only; unlicensed; does not remove tumour risk; specialist-only)."
+    ]
+   }
+  ],
+  "red_flags": [
+   "A new lump, crust, ulcer or bleeding within a sebaceous naevus: refer for **biopsy**."
+  ],
+  "pearls": [
+   "Parents often worry about \"cancer\". Give the honest figures (secondary tumours are mostly benign, BCC under 1%) and teach them to look for **any lump growing within the patch**.",
+   "Teenagers notice the change at puberty. Reassure them it is expected, not malignant."
+  ]
+ },
+ "photos": [
+  {
+   "title": "Sebaceous naevus",
+   "items": [
+    "m2w1:C01",
+    "m2w1:C02",
+    "m2w1:C03",
+    "m2w1:C04"
+   ]
+  }
+ ],
+ "references": [
+  {
+   "label": "DermNet: Sebaceous naevus",
+   "url": "https://dermnetnz.org/topics/sebaceous-naevus"
+  },
+  {
+   "label": "BAD PIL naevus sebaceous",
+   "url": "https://www.bad.org.uk/pils/"
+  }
+ ]
+}

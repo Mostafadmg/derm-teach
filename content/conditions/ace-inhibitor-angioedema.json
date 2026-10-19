@@ -1,0 +1,136 @@
+{
+ "slug": "ace-inhibitor-angioedema",
+ "title": "ACE-inhibitor (bradykinin) angioedema",
+ "category": "drug-eruptions",
+ "status": "published",
+ "order": 4,
+ "module": "Module 1 · Week 3",
+ "aka": [
+  "ramipril angioedema",
+  "lisinopril",
+  "bradykinin",
+  "swelling without wheals",
+  "ARB",
+  "sacubitril",
+  "gliptin"
+ ],
+ "summary": "Deep swelling of the lips, tongue or face without wheals or itch in a patient on an ACE inhibitor, which can start years into treatment and does not respond to antihistamines.",
+ "card_image": "m1w3:D01",
+ "glance": {
+  "think": "Recurrent lip, tongue or face swelling without hives in someone on ramipril, lisinopril or another ACE inhibitor.",
+  "engine": "ACE inhibitors block bradykinin breakdown; bradykinin leaks fluid into deep tissue, so histamine-based treatments work poorly.",
+  "backbone": "Airway first (999 if needed); stop the ACE inhibitor permanently and record it; choose a non-ACE alternative with care.",
+  "never_miss": "Airway compromise; hereditary angioedema; ARB or sacubitril/valsartan cross-reactivity; DPP-4 inhibitors raising the risk."
+ },
+ "sections": {
+  "what": [
+   "Episodic, non-pitting swelling of the deep dermis/submucosa (lips, tongue, face, larynx, gut) **without wheals or itch**, caused by ACE inhibitors. It affects ~0.1–0.7% of users and accounts for up to a third of angioedema presentations to emergency departments. It can start **at any time — from the first dose to years later** (often within the first months)."
+  ],
+  "cause": [
+   {
+    "h": "How it is caused"
+   },
+   {
+    "list": [
+     "ACE (kininase II) normally breaks down **bradykinin**. ACE inhibition → bradykinin (and substance P) accumulate → **B2 receptors** → vasodilatation and increased vascular permeability. It is **not histamine- or IgE-mediated**, which is why antihistamines, steroids and often adrenaline don't work.",
+     "**Risk factors:** **black ethnicity** (≈3–5×), female sex, age >65, smoking, previous idiopathic angioedema, seasonal allergies, and **co-prescription of DPP-4 inhibitors (gliptins)**, mTOR inhibitors (sirolimus, everolimus), **sacubitril/valsartan** (neprilysin inhibition — contraindicated within 36 h of an ACE-i) or alteplase.",
+     "**Triggers:** minor trauma/surgery, dental work and intubation can precipitate attacks. That fits this case (swelling a week after skin-tag removal), though the procedure is a trigger, not the cause."
+    ]
+   }
+  ],
+  "features": [
+   "Face, periorbital tissue, lips, **tongue**, floor of mouth and larynx; recurrent intestinal angioedema (abdominal pain). Swelling develops over hours and lasts **24–72 h**. Attacks may recur for weeks after stopping the ACE-i (the effect wanes over ~1–3 months), so the episodes that follow are not \"treatment failure\"."
+  ],
+  "diagnosis": [
+   {
+    "list": [
+     "Clinical: angioedema with **no urticaria**, on an ACE-i, not responding to antihistamine/steroid.",
+     "**Investigations:** Usually none are needed to diagnose it; **C4** (+ C1-inhibitor level and function) if there is no ACE-i, a family history, onset before 40, or recurrence after stopping — to exclude **hereditary/acquired C1-inhibitor deficiency** (C4 low in both). In acquired deficiency, look for lymphoproliferative disease and C1q; **Mast-cell tryptase** if anaphylaxis is possible; FBC/TFT if chronic urticaria is in the differential"
+    ]
+   }
+  ],
+  "differentials": [
+   {
+    "table": {
+     "head": [
+      "",
+      "Histamine (allergic/mast-cell) angioedema",
+      "Bradykinin angioedema (ACE-i, HAE)"
+     ],
+     "rows": [
+      [
+       "Wheals/itch",
+       "Usually present",
+       "**Absent**"
+      ],
+      [
+       "Onset/duration",
+       "Minutes; <24 h",
+       "Hours; **24–72 h**"
+      ],
+      [
+       "Response",
+       "Antihistamine, steroids, adrenaline",
+       "**Poor**; icatibant/C1-INH in HAE"
+      ],
+      [
+       "Triggers",
+       "Allergen, NSAID, food",
+       "ACE-i, trauma, oestrogens (HAE)"
+      ],
+      [
+       "Tests",
+       "Tryptase (acute), specific IgE",
+       "**C4 low in HAE/AAE**; normal in ACE-i"
+      ]
+     ]
+    }
+   },
+   "Also: contact dermatitis of the eyelids/face, cellulitis/erysipelas, SVC obstruction, hypothyroid myxoedema, Melkersson–Rosenthal syndrome / orofacial granulomatosis, dermatomyositis (periorbital oedema — the [skin signs of systemic disease](condition:dermatomyositis) notes)."
+  ],
+  "management": [
+   {
+    "ol": [
+     "**Airway first.** Tongue, floor-of-mouth or laryngeal swelling, voice change, stridor or dysphagia → **999 / ED**. Adrenaline is given if anaphylaxis cannot be excluded. In hospital, airway management is the priority; off-label icatibant, C1-INH concentrate or fresh frozen plasma are sometimes used (evidence is mixed — RCTs of icatibant in ACE-i angioedema were negative).",
+     "**Stop ramipril permanently** and record \"**ACE inhibitor — angioedema (class reaction): avoid all ACE inhibitors**\". Do not rechallenge. Yellow Card.",
+     "**Alternative for hypertension/T2DM renoprotection (NICE NG136/NG28):** An **ARB** can be considered **with caution**. Recurrence on ARBs is uncommon (~2–10% in studies), so discuss with the patient, consider specialist advice, and safety-net; Or use a **calcium-channel blocker** (amlodipine), with an SGLT2 inhibitor for renal protection where indicated",
+     "**Avoid** sacubitril/valsartan, and think twice before adding a **gliptin** (DPP-4 inhibitors also reduce bradykinin/substance-P breakdown).",
+     "**Explain** that swelling may recur for several weeks after stopping. Stop cetirizine/prednisolone if they gave no benefit (avoid steroid harm in new diabetes — hyperglycaemia).",
+     "**Metformin and simvastatin** are not implicated and can continue."
+    ]
+   },
+   {
+    "h": "Red flags / refer"
+   },
+   "Airway involvement (999); recurrent angioedema without an ACE-i, or with a family history (immunology — C4/C1-INH); abdominal attacks; angioedema persisting >3 months after stopping.",
+   {
+    "h": "IP scope"
+   },
+   "Recognise, stop and switch the ACE-i (within competence for hypertension/diabetes), document the class allergy, Yellow Card, safety-net. Immunology referral for suspected HAE/AAE."
+  ],
+  "red_flags": [
+   "Tongue or throat swelling, voice change, stridor or difficulty swallowing: **999** now.",
+   "Stop the ACE inhibitor **permanently** even if the swelling has settled, and document it as an adverse reaction."
+  ],
+  "pearls": [
+   "\"Angioedema **without wheals** on an ACE-i = bradykinin. Antihistamines won't fix it — **stopping the ACE-i** will (eventually).\"",
+   "Check every ACE-i patient on the medication review for previous facial or tongue swelling — patients often don't link it to a long-standing tablet.",
+   "The risk persists for years on treatment, so this is not just a \"first-month\" issue."
+  ]
+ },
+ "photos": [
+  {
+   "title": "ACE-inhibitor angioedema",
+   "items": [
+    "m1w3:D01"
+   ],
+   "tone": "danger"
+  }
+ ],
+ "references": [
+  {
+   "label": "DermNet: Angioedema",
+   "url": "https://dermnetnz.org/topics/angioedema"
+  }
+ ]
+}

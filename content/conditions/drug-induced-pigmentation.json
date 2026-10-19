@@ -1,0 +1,106 @@
+{
+ "slug": "drug-induced-pigmentation",
+ "title": "Drug-induced pigmentation (amiodarone, minocycline)",
+ "category": "drug-eruptions",
+ "status": "published",
+ "order": 6,
+ "module": "Module 1 · Week 3",
+ "aka": [
+  "blue-grey skin",
+  "slate-grey",
+  "amiodarone",
+  "minocycline",
+  "antimalarial",
+  "drug hyperpigmentation"
+ ],
+ "summary": "Blue-grey, slate or brown discolouration caused by drugs such as amiodarone and minocycline, usually on sun-exposed skin or scars. Recognise it, review the drug and set expectations about slow fading.",
+ "card_image": "m1w3:F01",
+ "glance": {
+  "think": "Blue-grey or slate discolouration of the face or sun-exposed skin in someone on long-term amiodarone or minocycline.",
+  "engine": "Drug or drug–melanin complexes deposited in the dermis, often worsened by UV light.",
+  "backbone": "Medication review with the prescriber (amiodarone is often essential); sun protection; explain fading takes months to years.",
+  "never_miss": "Other amiodarone toxicity (thyroid, liver, lung, eyes); Addison’s disease or haemochromatosis as non-drug causes."
+ },
+ "sections": {
+  "what": [
+   {
+    "list": [
+     "**Amiodarone** causes two linked skin problems: **Phototoxicity** — burning/erythema within hours of sun exposure (UVA); up to 30–75% of patients; **Blue-grey (slate) pigmentation** of sun-exposed skin (~1–10%), usually after **months of treatment and high cumulative doses** (>40–160 g)",
+     "The case: a 50-year-old man in a sunny country, 3 months after starting amiodarone (dose recently increased), with increased sun sensitivity and a facial photo showing blue-grey discoloration."
+    ]
+   }
+  ],
+  "cause": [
+   {
+    "h": "How it is caused"
+   },
+   {
+    "list": [
+     "Amiodarone and its metabolite **desethylamiodarone** absorb **UVA (300–400 nm)** and generate reactive oxygen species → phototoxic injury.",
+     "Both are **lipophilic**, with an extremely **long half-life (~50 days, range 20–100)**. They accumulate in dermal macrophages as **lipofuscin-like granules with drug–lipid complexes**, and melanin rises → blue-grey colour."
+    ]
+   }
+  ],
+  "features": [
+   "Burning, erythema and prickling minutes to hours after sun, even through glass (UVA). Later, **blue-grey/violaceous** colour of the **face (nose, cheeks), ears and backs of hands**. Also look for other amiodarone toxicity: thyroid (hypo-/hyperthyroidism), liver, lung (pneumonitis/fibrosis), eyes (corneal microdeposits, optic neuropathy), peripheral neuropathy."
+  ],
+  "diagnosis": [
+   "Clinical (history + distribution). Biopsy only if doubtful (yellow-brown granules in macrophages; Fontana-Masson). Check **TFT, LFT**, CXR ± PFT, and arrange ophthalmology review per the amiodarone monitoring schedule (BNF: TFT/LFT every 6 months)."
+  ],
+  "differentials": [
+   "**Causes of photosensitivity:**",
+   {
+    "list": [
+     "**Exogenous:** systemic drugs — phototoxic or photoallergic (see *Drug-induced photosensitivity — thiazide case*); topical agents — fragrances, sunscreens (photoallergic), **phytophotodermatitis** (psoralens in limes, figs, celery, giant hogweed), tar",
+     "**Endogenous/metabolic:** **porphyrias** (PCT, EPP), pellagra (niacin deficiency).",
+     "**Idiopathic photodermatoses:** **polymorphic light eruption (PLE)**, actinic prurigo, **chronic actinic dermatitis**, solar urticaria, hydroa vacciniforme.",
+     "**Genetic:** xeroderma pigmentosum, albinism, Bloom, Cockayne and Rothmund–Thomson syndromes."
+    ]
+   },
+   "**Blue-grey pigmentation DDx:** **minocycline**, antimalarials (hydroxychloroquine — shins/palate), phenothiazines (chlorpromazine), tricyclics (imipramine), argyria (silver), chrysiasis (gold), ochronosis (hydroquinone), Addison's (brown, not blue — the [skin signs of systemic disease](condition:dermatomyositis) notes), haemochromatosis, cyanosis, methaemoglobinaemia (dapsone)."
+  ],
+  "management": [
+   {
+    "ol": [
+     "**Do not stop amiodarone yourself.** Discuss with the **cardiologist** (dose reduction or an alternative antiarrhythmic, rate/rhythm strategy, ablation).",
+     "The BNF advises avoiding sun exposure **during treatment and for several months after stopping** (long half-life).",
+     "**Pigmentation** fades very slowly over months to years after stopping or reducing the dose, and may be permanent. Camouflage makeup; Q-switched/picosecond laser (specialist, private) for persistent cases.",
+     "**Review other photosensitisers** (thiazides, doxycycline, quinolones, NSAIDs).",
+     "**Monitoring:** TFT, LFT (6-monthly), annual eye check, CXR baseline. Yellow Card."
+    ]
+   },
+   {
+    "h": "Red flags / refer"
+   },
+   "Blistering phototoxicity; new breathlessness/cough (pneumonitis); visual change (optic neuropathy); thyroid symptoms; jaundice.",
+   {
+    "h": "IP scope"
+   },
+   "Counselling, photoprotection, monitoring, liaison with cardiology, Yellow Card. Antiarrhythmic changes are specialist/shared-care decisions."
+  ],
+  "red_flags": [
+   "New pigmentation on amiodarone: check **thyroid and liver function** and ask about breathlessness (amiodarone toxicity).",
+   "Generalised pigmentation with tiredness, weight loss or low blood pressure: exclude **Addison’s disease**."
+  ],
+  "pearls": [
+   "\"Amiodarone sensitivity **goes through window glass**\" — UVA, so driving and office windows count.",
+   "Effects persist for months after stopping (half-life ~50 days), and the pigment for longer.",
+   "Counsel at the first supply — the BNF lists phototoxicity among the amiodarone counselling points."
+  ]
+ },
+ "photos": [
+  {
+   "title": "Amiodarone and minocycline pigmentation",
+   "items": [
+    "m1w3:F01",
+    "m1w3:F02"
+   ]
+  }
+ ],
+ "references": [
+  {
+   "label": "DermNet: Drug induced pigmentation",
+   "url": "https://dermnetnz.org/topics/drug-induced-pigmentation"
+  }
+ ]
+}

@@ -142,5 +142,65 @@
     "label": "Module 5 · Week 6 — photodermatoses",
     "dir": "assets/img/m5w6",
     "manifest": "content/manifests/m5w6.json"
+  },
+  {
+    "id": "m1w2",
+    "label": "Module 1 · Week 2 — therapeutics",
+    "dir": "assets/img/m1w2",
+    "manifest": "content/manifests/m1w2.json"
+  },
+  {
+    "id": "m1w3",
+    "label": "Module 1 · Week 3 — drug eruptions",
+    "dir": "assets/img/m1w3",
+    "manifest": "content/manifests/m1w3.json"
+  },
+  {
+    "id": "m1w4",
+    "label": "Module 1 · Week 4 — vasculitis",
+    "dir": "assets/img/m1w4",
+    "manifest": "content/manifests/m1w4.json"
+  },
+  {
+    "id": "m1w5",
+    "label": "Module 1 · Week 5 — skin signs of systemic disease",
+    "dir": "assets/img/m1w5",
+    "manifest": "content/manifests/m1w5.json"
+  },
+  {
+    "id": "m2w1",
+    "label": "Module 2 · Week 1 — lumps & bumps",
+    "dir": "assets/img/m2w1",
+    "manifest": "content/manifests/m2w1.json"
+  },
+  {
+    "id": "m2w2",
+    "label": "Module 2 · Week 2 — benign lesions",
+    "dir": "assets/img/m2w2",
+    "manifest": "content/manifests/m2w2.json"
+  },
+  {
+    "id": "m2w3",
+    "label": "Module 2 · Week 3 — skin cancer & lymphoma",
+    "dir": "assets/img/m2w3",
+    "manifest": "content/manifests/m2w3.json"
+  },
+  {
+    "id": "m2w4",
+    "label": "Module 2 · Week 4 — naevi",
+    "dir": "assets/img/m2w4",
+    "manifest": "content/manifests/m2w4.json"
+  },
+  {
+    "id": "m2w5",
+    "label": "Module 2 · Week 5 — melanoma",
+    "dir": "assets/img/m2w5",
+    "manifest": "content/manifests/m2w5.json"
+  },
+  {
+    "id": "m2w6",
+    "label": "Module 2 · Week 6 — skin surgery",
+    "dir": "assets/img/m2w6",
+    "manifest": "content/manifests/m2w6.json"
   }
 ]

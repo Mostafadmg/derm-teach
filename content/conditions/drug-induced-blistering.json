@@ -29,7 +29,35 @@
  },
  "sections": {
   "what": [
-   "This is a group of reactions in which a drug causes vesicles, bullae, pustules or epidermal necrosis. They range from trivial (localised FDE) to life-threatening (TEN). For the IP, **drug causation** is the main reason to know them."
+   "This is a group of reactions in which a drug causes vesicles, bullae, pustules or epidermal necrosis. They range from trivial (localised FDE) to life-threatening (TEN). For the IP, **drug causation** is the main reason to know them.",
+   {
+    "h": "SJS/TEN in depth"
+   },
+   "**SJS and TEN** are one disease spectrum. They are rare, life-threatening **mucocutaneous** reactions, almost always drug-induced, with widespread **keratinocyte death and epidermal detachment**. They are classified by the **maximum % BSA detached** (Bastuji-Garin):",
+   {
+    "table": {
+     "head": [
+      "Category",
+      "Detached / detachable BSA"
+     ],
+     "rows": [
+      [
+       "**SJS**",
+       "**<10%**"
+      ],
+      [
+       "SJS/TEN overlap",
+       "10–30%"
+      ],
+      [
+       "**TEN**",
+       "**>30%**"
+      ]
+     ]
+    }
+   },
+   "Incidence is ~1–6 per million per year (higher in HIV). Mortality is ~**5–10% for SJS** and **~30% (25–50%) for TEN**; it is higher in older people and those with comorbidity.",
+   "**Erythema multiforme (EM)** is a *different* disease. It is usually triggered by **HSV** (or *Mycoplasma*), and drugs cause it only rarely. It gives **typical raised 3-zone target lesions on the acral skin**, with or without mild mucosal involvement (\"EM major\"), and has a good prognosis (see the [inflammatory rash pages](condition:erythema-multiforme) notes)."
   ],
   "cause": [
    {
@@ -87,6 +115,60 @@
       ]
      ]
     }
+   },
+   {
+    "h": "SJS/TEN in depth"
+   },
+   {
+    "h": "How it is caused"
+   },
+   {
+    "list": [
+     "A **type IVc** reaction: drug-specific **cytotoxic CD8+ T cells and NK cells** release **granulysin** (the key mediator), perforin/granzyme B and soluble Fas ligand → widespread **keratinocyte apoptosis/necrosis** → full-thickness epidermal necrosis with subepidermal separation.",
+     "**HLA associations** (pharmacogenomics), with UK screening implications:"
+    ]
+   },
+   {
+    "table": {
+     "head": [
+      "Drug",
+      "Allele",
+      "Population",
+      "UK practice"
+     ],
+     "rows": [
+      [
+       "**Carbamazepine** (also oxcarbazepine, phenytoin, fosphenytoin)",
+       "**HLA-B*15:02**",
+       "**Han Chinese, Thai, Malaysian, other SE Asian**",
+       "MHRA/BNF/SmPC: **test before starting carbamazepine** in people of these ancestries; do not start if positive unless no alternative"
+      ],
+      [
+       "Carbamazepine",
+       "**HLA-A*31:01**",
+       "Europeans, Japanese",
+       "Associated with DRESS, MPE and SJS/TEN; testing considered (SmPC) — not routine in the UK"
+      ],
+      [
+       "**Allopurinol**",
+       "**HLA-B*58:01**",
+       "Han Chinese, Korean, Thai; also African ancestry",
+       "Start low (100 mg or less in CKD) and titrate; testing where available in high-risk groups (BSR gout guidance)"
+      ],
+      [
+       "Abacavir",
+       "HLA-B*57:01",
+       "All",
+       "Mandatory pre-treatment test (hypersensitivity syndrome)"
+      ]
+     ]
+    }
+   },
+   {
+    "list": [
+     "**High-risk (\"notorious\") drugs** (EuroSCAR/RegiSCAR, BAD 2016): **allopurinol** (the commonest in Europe), **carbamazepine**, **lamotrigine** (especially fast titration or co-prescribed with **valproate**), **phenytoin**, **phenobarbital**, **sulfonamides** (co-trimoxazole, sulfasalazine), **oxicam NSAIDs** (meloxicam, piroxicam), **nevirapine**. Lower risk: other antibiotics (aminopenicillins, cephalosporins, quinolones), paracetamol (controversial), PPIs. ~5–15% of cases are idiopathic or *Mycoplasma*-related (especially in children).",
+     "**Latency:** typically **4–28 days** after the first dose (BAD 2016; ALDEN \"suggestive\" window **5–28 days**). It is shorter on re-exposure (hours to 2 days). Drugs used for many months are rarely culprits, and anticonvulsants mostly cause it within the first 8 weeks."
+    ]
    }
   ],
   "features": [
@@ -98,7 +180,19 @@
      "**≥2 mucosal sites** are involved (oral haemorrhagic crusting of the lips, conjunctivitis, genital; photo E02)."
     ]
    },
-   "**SSSS** is the toxin-mediated mimic in young children: superficial peeling, mucosa **spared**, and the child is irritable and tender."
+   "**SSSS** is the toxin-mediated mimic in young children: superficial peeling, mucosa **spared**, and the child is irritable and tender.",
+   {
+    "h": "SJS/TEN in depth"
+   },
+   {
+    "list": [
+     "**Prodrome (1–3 days):** fever, malaise, sore throat, conjunctivitis/photophobia, painful swallowing — often treated as an infection, which leads to new drugs (NSAIDs, antibiotics) that confuse the timeline.",
+     "**Skin:** **painful** dusky-red macules and **atypical flat targets** (two zones, purpuric centres) on the trunk and face, spreading and coalescing. Flaccid blisters and **sheet-like detachment** follow (\"wet cigarette paper\"); **Nikolsky positive**.",
+     "**Mucosae (≥2 sites in >90%):** haemorrhagic crusted lips, oral erosions, conjunctivitis/pseudomembranes, genital and urethral erosions; also respiratory/GI epithelium.",
+     "**Systemic:** fever, tachycardia, fluid and protein loss, hypothermia, sepsis (skin barrier lost), acute kidney injury, hepatitis (raised ALT), anaemia, **lymphopenia** (common), neutropenia (poor prognosis), and respiratory involvement (bronchial sloughing).",
+     "**Sequelae** (in up to 50–90% of survivors): **ocular** dry eye, trichiasis, **symblepharon** and corneal scarring/blindness; pigmentary change; **nail loss/dystrophy**; scarring; genital adhesions; oesophageal/urethral strictures; psychological trauma."
+    ]
+   }
   ],
   "diagnosis": [
    "Diagnosis is mostly clinical, with urgent specialist confirmation and frozen-section or standard biopsy. **SCORTEN** (calculated in the first 24 h) predicts mortality. Its 7 points are:",
@@ -113,7 +207,125 @@
      "glucose >14"
     ]
    },
-   "For drug causation use **ALDEN** (for SJS/TEN). Patch testing is useful later for FDE and AGEP. For DRESS (the systemic DDx), RegiSCAR."
+   "For drug causation use **ALDEN** (for SJS/TEN). Patch testing is useful later for FDE and AGEP. For DRESS (the systemic DDx), RegiSCAR.",
+   {
+    "h": "SJS/TEN in depth"
+   },
+   {
+    "list": [
+     "**Clinical diagnosis + urgent skin biopsy:** H&E shows full-thickness epidermal necrosis with sparse dermal infiltrate. Take a second sample for **direct immunofluorescence (negative)** to exclude autoimmune bullous disease.",
+     "**Severity at admission — SCORTEN** (calculate within 24 h, repeat on day 3), 1 point each:"
+    ]
+   },
+   {
+    "table": {
+     "head": [
+      "SCORTEN item",
+      "Point if"
+     ],
+     "rows": [
+      [
+       "Age",
+       "**≥40 years**"
+      ],
+      [
+       "Malignancy",
+       "Present (active)"
+      ],
+      [
+       "Heart rate",
+       "**≥120/min**"
+      ],
+      [
+       "Epidermal detachment at day 1",
+       "**>10% BSA**"
+      ],
+      [
+       "Serum urea",
+       "**>10 mmol/L**"
+      ],
+      [
+       "Serum glucose",
+       "**>14 mmol/L**"
+      ],
+      [
+       "Serum bicarbonate",
+       "**<20 mmol/L**"
+      ]
+     ]
+    }
+   },
+   {
+    "table": {
+     "head": [
+      "SCORTEN",
+      "0–1",
+      "2",
+      "3",
+      "4",
+      "≥5"
+     ],
+     "rows": [
+      [
+       "Predicted mortality",
+       "**3.2%**",
+       "**12.1%**",
+       "**35.3%**",
+       "**58.3%**",
+       "**>90%**"
+      ]
+     ]
+    }
+   },
+   "(Bastuji-Garin et al., 2000. It is endorsed by BAD 2016 and tends to over-predict mortality in modern care; ABCD-10 is an alternative.)",
+   {
+    "list": [
+     "**Drug causality — ALDEN** (Algorithm of Drug causality for Epidermal Necrolysis; Sassolas et al., 2010). Score **every** drug taken in the 8 weeks before the **index day** (the first day of symptoms, including the prodrome):"
+    ]
+   },
+   {
+    "table": {
+     "head": [
+      "Criterion",
+      "Scoring (summary)"
+     ],
+     "rows": [
+      [
+       "1. **Delay** from first intake to index day",
+       "**5–28 days +3**; 29–56 days +2; 1–4 days +1; >56 days −1; **started on or after the index day −3** (previous reaction to the same drug: 1–4 days +3, 5–56 days +1)"
+      ],
+      [
+       "2. **Drug present** in the body on the index day",
+       "Definite 0; doubtful −1; **excluded −3** (stopped >5 half-lives before the index day, with normal clearance)"
+      ],
+      [
+       "3. **Prechallenge/rechallenge**",
+       "SJS/TEN with same drug +4; similar drug or other reaction with the same drug +2; other reaction with a similar drug +1; no known exposure 0; **previous exposure without reaction −2**"
+      ],
+      [
+       "4. **Dechallenge**",
+       "Stopped (or unknown) 0; **continued without harm −2**"
+      ],
+      [
+       "5. **Type of drug (notoriety)**",
+       "**High-risk (\"strongly associated\") +3**; associated +2; suspected +1; unknown 0; not suspected −1"
+      ],
+      [
+       "6. **Other cause**",
+       "If any drug has an intermediate score >3, subtract 1 from each of the other drugs"
+      ],
+      [
+       "**Interpretation**",
+       "**<0 very unlikely; 0–1 unlikely; 2–3 possible; 4–5 probable; ≥6 very probable**"
+      ]
+     ]
+    }
+   },
+   {
+    "list": [
+     "**Baseline tests:** FBC, U&E, LFT, glucose, bicarbonate/venous gas, CRP, coagulation, Mg/phosphate, albumin; skin, mucosal and blood cultures; *Mycoplasma* serology/PCR (in children/young adults); CXR (respiratory); HIV test."
+    ]
+   }
   ],
   "differentials": [
    {
@@ -129,7 +341,67 @@
      "phototoxic reactions",
      "burns"
     ]
-   }
+   },
+   {
+    "h": "SJS/TEN in depth"
+   },
+   {
+    "table": {
+     "head": [
+      "",
+      "EM major",
+      "SJS",
+      "TEN",
+      "SSSS",
+      "AGEP",
+      "GBFDE",
+      "Pemphigus / BP"
+     ],
+     "rows": [
+      [
+       "Trigger",
+       "HSV, *Mycoplasma*",
+       "Drugs",
+       "Drugs",
+       "*S. aureus* toxin",
+       "Drugs (<48 h)",
+       "Drug re-exposure",
+       "Autoimmune"
+      ],
+      [
+       "Lesion",
+       "Typical raised targets, acral",
+       "Atypical flat targets, trunk",
+       "Confluent erythema, sheet detachment",
+       "Tender erythema, superficial peel, flexures; children/renal failure",
+       "Pustules on erythema",
+       "Few large dusky plaques at recurring sites",
+       "Erosions (PV) / tense bullae (BP)"
+      ],
+      [
+       "Mucosa",
+       "± mild",
+       "**Yes, severe**",
+       "**Yes, severe**",
+       "**No**",
+       "Rare",
+       "Mild",
+       "PV yes"
+      ],
+      [
+       "Histology",
+       "Interface",
+       "Full-thickness necrosis",
+       "Full-thickness necrosis",
+       "**Subcorneal** split",
+       "Subcorneal pustules",
+       "Similar to SJS",
+       "DIF positive"
+      ]
+     ]
+    }
+   },
+   "Also consider: *Mycoplasma pneumoniae*-induced rash and mucositis (RIME), Kawasaki disease, toxic shock syndrome, acute GVHD, linear IgA bullous dermatosis (vancomycin), acute cutaneous lupus (TEN-like), paraneoplastic pemphigus."
   ],
   "management": [
    {
@@ -141,7 +413,39 @@
      "**Allergy documentation:** Record the exact drug and reaction in the GP record (SNOMED) and on the patient's allergy list; **Report to MHRA Yellow Card** (all serious reactions; anything involving a black-triangle drug); For SJS/TEN: lifelong avoidance of the culprit and **structurally related drugs**, and **advice for first-degree relatives** about HLA risk. A MedicAlert bracelet is reasonable",
      "**Prevention (pharmacist role):** **HLA-B*15:02** screening before carbamazepine in people of Han Chinese or Thai ancestry (BNF/MHRA); Start allopurinol low (100 mg) and titrate in CKD; Follow the **lamotrigine** titration schedule (halve doses with valproate), and counsel all new starters to **stop and seek help with any rash, fever or mouth ulcers in the first 8 weeks**"
     ]
-   }
+   },
+   {
+    "h": "SJS/TEN in depth"
+   },
+   "**Primary-care/community actions (you will see the prodrome or early rash):**",
+   {
+    "ol": [
+     "**Suspect it:** a new drug in the past 8 weeks + skin pain + dusky/target lesions or blisters + **mucositis** + fever.",
+     "**Stop all suspect drugs immediately.** Delay in withdrawal raises mortality; early withdrawal of drugs with a short half-life improves survival (Garcia-Doval 2000).",
+     "**Same-day emergency admission** (999/ED with a call to on-call dermatology). The BAD advises transfer to a **specialist centre (burns unit/ITU or dermatology with specialist MDT)** when BSA >10% or the patient is unwell. Do **not** start oral steroids or antibiotics in primary care \"to cover\".",
+     "**Document** the culprit(s) prominently, **report via Yellow Card**, and tell the patient and family that the drug and **structurally related drugs** must be avoided for life (aromatic anticonvulsants carbamazepine/phenytoin/phenobarbital/oxcarbazepine/lamotrigine cross-react; avoid all sulfonamide antibiotics after co-trimoxazole SJS). Advise a **medical alert** bracelet/card.",
+     "**First-degree relatives** may share the HLA risk — mention this for carbamazepine/allopurinol."
+    ]
+   },
+   "**Hospital care (BAD 2016 UK guideline — for teaching):**",
+   {
+    "list": [
+     "**Supportive care is the cornerstone:** warmed environment (25–28 °C); pressure-relieving/air-fluidised mattress; barrier nursing; fluids guided by urine output (avoid over-resuscitation); nutrition (NG feed); analgesia (incl. for dressing changes); VTE prophylaxis; stress-ulcer prophylaxis; repeated swabs, with **no prophylactic antibiotics**",
+     "**Skin:** leave detached epidermis in place as a biological dressing; decompress blisters; whole-body greasy emollient (e.g. 50% white soft paraffin/50% liquid paraffin); non-adherent silicone dressings.",
+     "**Eyes:** **ophthalmology review within 24 h** of admission, then daily. Lubricants, topical steroid/antibiotic drops, lysis of adhesions (amniotic membrane in severe disease).",
+     "**Mouth:** white soft paraffin to the lips, benzydamine/mucoprotectant mouthwashes, antiseptic chlorhexidine mouthwash, and a corticosteroid mouthwash (e.g. betamethasone soluble tablet in water) — doses per BAD/BNF.",
+     "**Urogenital:** review; catheter; potent topical steroid to non-eroded mucosa; dressings to prevent adhesions.",
+     "**Immunomodulation:** no treatment is proven (BAD 2016, Cochrane 2022). Options used in UK centres, decided by the specialist team: **ciclosporin** (~3 mg/kg/day for 7–10 days), which has the most observational support; IVIg; short pulsed corticosteroids early; **etanercept** (emerging RCT data)"
+    ]
+   },
+   {
+    "h": "Red flags / refer"
+   },
+   "Any suspected SJS/TEN → **same-day admission**. Red flags: skin pain, ≥2 mucosal sites, dusky/atypical targets, Nikolsky sign, fever, conjunctivitis with rash, BSA detachment, dehydration, inability to eat/drink.",
+   {
+    "h": "IP scope"
+   },
+   "Recognition, **stopping drugs, emergency referral, documentation and Yellow Card** are core IP responsibilities. All treatment is in secondary care. After discharge: lifelong avoidance list, eye follow-up, psychological support, and checks on all new prescriptions and OTC sales (e.g. no ibuprofen if an NSAID was implicated)."
   ],
   "red_flags": [
    "**Skin pain, fever, dusky targets, mucosal erosions or skin detachment**: SJS/TEN, stop all non-essential drugs and call 999 / admit (burns unit or ICU).",
@@ -151,7 +455,14 @@
   "pearls": [
    "Ask **\"What new medicine did you start in the last 8 weeks?\"** at every acute rash with fever, skin pain or mucosal involvement.",
    "**Skin pain out of proportion + mucosal erosions + dusky skin = SJS/TEN** until proven otherwise.",
-   "Paracetamol can cause FDE, so don't assume over-the-counter means innocent. Always ask about OTC and herbal products."
+   "Paracetamol can cause FDE, so don't assume over-the-counter means innocent. Always ask about OTC and herbal products.",
+   {
+    "h": "SJS/TEN in depth"
+   },
+   "\"**Pain out of proportion + mouth/eye involvement + a new drug = SJS until proven otherwise.**\"",
+   "The prodrome is treated as an infection, so the drugs given for it (NSAIDs, antibiotics) appear on the chart just before the rash — **ALDEN's \"started after index day −3\"** stops you blaming them.",
+   "**Prevention at prescribing:** test for HLA-B*15:02 before carbamazepine in people of SE Asian ancestry. Start allopurinol low (≤100 mg, lower in CKD) and titrate. **Titrate lamotrigine exactly as in the SmPC** (halve the dose with valproate) and warn about rash in the first 8 weeks. Avoid co-trimoxazole where alternatives exist.",
+   "Patient leaflet: \"If you develop a rash with blisters, sore mouth or sore eyes, stop the medicine and seek urgent help.\""
   ]
  },
  "photos": [
@@ -170,6 +481,18 @@
     "m4w6:E04",
     "m4w6:E05"
    ]
+  },
+  {
+   "title": "SJS/TEN and sequelae",
+   "items": [
+    "m1w3:B01",
+    "m1w3:B02",
+    "m1w3:B03",
+    "m1w3:B04",
+    "m1w3:B05",
+    "m1w3:B06"
+   ],
+   "tone": "danger"
   }
  ],
  "references": [

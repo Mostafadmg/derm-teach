@@ -1,0 +1,157 @@
+{
+ "slug": "erythema-nodosum",
+ "title": "Erythema nodosum (incl. drug-induced)",
+ "category": "drug-eruptions",
+ "status": "published",
+ "order": 5,
+ "module": "Module 1 · Week 3",
+ "aka": [
+  "EN",
+  "tender shin nodules",
+  "septal panniculitis",
+  "COC",
+  "streptococcal",
+  "sarcoidosis",
+  "Löfgren"
+ ],
+ "summary": "Tender red nodules on the shins that bruise as they fade. Causes include streptococcal infection, sarcoidosis, IBD, pregnancy and drugs such as the combined pill; the work-up looks for the trigger.",
+ "card_image": "m1w3:E01",
+ "glance": {
+  "think": "Painful, warm, ill-defined red nodules on both shins, often with fever or aching joints.",
+  "engine": "A hypersensitivity reaction in the fat septa (septal panniculitis) to an infection, drug, inflammatory disease or pregnancy.",
+  "backbone": "Find the trigger (throat swab/ASO, CXR, FBC, CRP, pregnancy test, drug review); rest, elevation, NSAID if suitable; stop a culprit COC.",
+  "never_miss": "Sarcoidosis with hilar nodes; TB; IBD flare; cellulitis or DVT mistaken for EN."
+ },
+ "sections": {
+  "what": [
+   "**Erythema nodosum (EN)** is the commonest **septal panniculitis**: a hypersensitivity reaction producing tender red nodules, usually on the shins. It is most common in women aged 20–45."
+  ],
+  "cause": [
+   {
+    "h": "How it is caused"
+   },
+   "A delayed hypersensitivity response to many antigens:",
+   {
+    "list": [
+     "**idiopathic** (~30–50%)",
+     "**streptococcal infection** (the commonest identifiable cause, especially in children)",
+     "**sarcoidosis** (Löfgren syndrome — the [skin signs of systemic disease](condition:dermatomyositis) notes)",
+     "**drugs** — **oestrogen-containing contraceptives/HRT**, sulfonamides, penicillins/amoxicillin, bromides, minocycline, gold, and newer agents (BRAF inhibitors, immune checkpoint inhibitors, isotretinoin rarely)",
+     "**pregnancy**",
+     "**IBD** (Crohn's/UC)",
+     "TB; *Yersinia*, *Salmonella*, *Campylobacter*; *Chlamydia*, *Mycoplasma*; Behçet's; lymphoma (rare)."
+    ]
+   }
+  ],
+  "features": [
+   {
+    "list": [
+     "Crops of **tender, warm, ill-defined red nodules 1–5 cm** on the **anterior shins**, usually **bilateral**. Less often on the thighs, forearms or trunk.",
+     "They evolve through bruise-like colours (\"**erythema contusiformis**\", photo E02) and resolve in **3–6 weeks without ulceration or scarring**.",
+     "Prodrome: fever, malaise, arthralgia (ankles), sometimes before the nodules.",
+     "**Unilateral EN is uncommon but described**. A single unilateral lesion makes it essential to exclude the differentials below."
+    ]
+   }
+  ],
+  "diagnosis": [
+   {
+    "list": [
+     "Clinical diagnosis; look for the cause: **FBC, ESR/CRP, U&E/LFT**; **ASO/anti-DNase B** titre ± throat swab; **CXR** (bilateral hilar lymphadenopathy — sarcoid/TB/lymphoma) ± serum ACE/calcium; **IGRA**/Mantoux if TB risk; **pregnancy test**; stool culture if diarrhoea; faecal calprotectin if bowel symptoms; urinalysis",
+     "**Deep incisional/punch biopsy** (to fat) if atypical — unilateral, ulcerating or persistent >6–8 weeks.",
+     "**Case-specific:** she has a **unilateral tender shin lesion** and takes a **COC + tranexamic acid** (both prothrombotic). Apply **Wells/D-dimer and venous Doppler** if there is calf swelling, cord-like tenderness or leg oedema, to exclude **DVT/superficial thrombophlebitis**. The course discussion did not mention this."
+    ]
+   }
+  ],
+  "differentials": [
+   {
+    "table": {
+     "head": [
+      "",
+      "EN",
+      "Cellulitis",
+      "Superficial thrombophlebitis / DVT",
+      "Erythema induratum (nodular vasculitis)",
+      "Other panniculitis"
+     ],
+     "rows": [
+      [
+       "Laterality",
+       "Usually bilateral",
+       "**Unilateral**",
+       "Unilateral",
+       "Bilateral",
+       "Variable"
+      ],
+      [
+       "Site",
+       "Anterior shins",
+       "Any, spreading",
+       "Along a vein (cord) / calf",
+       "**Posterior calves**",
+       "Pancreatic (ulcerates), lupus profundus (face/arms)"
+      ],
+      [
+       "Features",
+       "Tender nodules, no ulcer",
+       "Spreading erythema, fever, portal of entry, raised WCC",
+       "Tender cord; calf swelling",
+       "Ulcerates, scars; TB association",
+       "Atrophy/scarring"
+      ],
+      [
+       "Course",
+       "3–6 weeks, resolves",
+       "Responds to antibiotics",
+       "—",
+       "Chronic",
+       "—"
+      ]
+     ]
+    }
+   },
+   "Also: insect-bite reactions, cutaneous PAN (nodules + livedo — the [vasculitis](condition:cutaneous-vasculitis-approach) notes), Sweet syndrome, lipodermatosclerosis."
+  ],
+  "management": [
+   {
+    "ol": [
+     "**Treat the cause.** In this case, **consider stopping the COC**, which is the most likely drug trigger. **Tranexamic acid** is a less established EN trigger but adds thrombotic risk with the COC. **Metformin** is not a recognised cause: **Contraception and cycle control for PCOS:** a progestogen-only method (desogestrel POP, implant, **LNG-IUS 52 mg** — also helps dysmenorrhoea and heavy bleeding), or cyclical progestogen to protect the endometrium. Weight loss and metformin help cycle regularity; **Dysmenorrhoea:** an NSAID such as mefenamic acid or naproxen (both effective for dysmenorrhoea and EN pain); LNG-IUS; Note the **FSRH/BNF caution** about combining tranexamic acid with a COC — prescribe TXA only for heavy menstrual bleeding, at the licensed dose, and not in people at VTE risk",
+     "**Symptomatic:** rest, **leg elevation**, compression hosiery (if arterial supply is adequate), cool compresses; **NSAIDs** (ibuprofen/naproxen) for pain if not contraindicated; paracetamol.",
+     "**Specialist options:** potassium iodide (rarely used in the UK); colchicine; systemic corticosteroids only after infection (TB, strep) and malignancy are excluded.",
+     "**Review in 2–4 weeks.** Persistent or recurrent EN → dermatology/rheumatology; biopsy if atypical."
+    ]
+   },
+   {
+    "h": "Red flags / refer"
+   },
+   "Unilateral swelling with features of DVT (same-day DVT pathway); fever + spreading erythema (cellulitis); BHL on CXR or respiratory symptoms (sarcoid/TB/lymphoma); bowel symptoms (IBD); ulceration (not EN); pregnancy; lesions lasting >6–8 weeks.",
+   {
+    "h": "IP scope"
+   },
+   "Investigation, contraceptive switch (within competence and UKMEC), NSAID analgesia, and referral. Thrombosis assessment through local DVT pathways."
+  ],
+  "red_flags": [
+   "EN with cough, breathlessness, weight loss or night sweats: CXR to look for **sarcoidosis, TB or lymphoma**.",
+   "Ulcerating or one-sided nodules: not typical EN, so think again (erythema induratum, vasculitis, cellulitis)."
+  ],
+  "pearls": [
+   "\"EN is a **sign, not a diagnosis**\" — the job is finding the trigger.",
+   "It heals without scarring, but **new crops can appear for several weeks** after the trigger is removed.",
+   "In any woman on a COC + TXA with a **tender, red, unilateral leg**, think **clot** before panniculitis."
+  ]
+ },
+ "photos": [
+  {
+   "title": "Erythema nodosum",
+   "items": [
+    "m1w3:E01",
+    "m1w3:E02"
+   ]
+  }
+ ],
+ "references": [
+  {
+   "label": "DermNet: Erythema nodosum",
+   "url": "https://dermnetnz.org/topics/erythema-nodosum"
+  }
+ ]
+}

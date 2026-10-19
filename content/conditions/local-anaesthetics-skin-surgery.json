@@ -1,0 +1,319 @@
+{
+ "slug": "local-anaesthetics-skin-surgery",
+ "title": "Local anaesthetics & allergy in skin surgery",
+ "category": "skin-surgery",
+ "status": "published",
+ "order": 2,
+ "module": "Module 2 · Week 6",
+ "aka": [
+  "lidocaine maximum dose",
+  "lidocaine with adrenaline",
+  "LAST",
+  "Intralipid",
+  "EMLA",
+  "Ametop",
+  "latex allergy",
+  "chlorhexidine allergy",
+  "anaphylaxis"
+ ],
+ "summary": "Lidocaine maximum doses (BNF: 200 mg plain, 500 mg with adrenaline), how to calculate them, adrenaline cautions, local anaesthetic systemic toxicity, topical anaesthetics and allergy to latex, chlorhexidine or local anaesthetic.",
+ "card_image": "m2w6:E01",
+ "glance": {
+  "think": "Planning or checking a local anaesthetic dose, or a patient reporting an ‘allergy’ to local anaesthetic, latex or skin prep.",
+  "engine": "Sodium-channel blockade stops nerve conduction; adrenaline prolongs action and reduces bleeding; overdose affects brain and heart.",
+  "backbone": "1% = 10 mg/ml; BNF maximum 200 mg plain and 500 mg with adrenaline (weight-based 3 and 7 mg/kg as a cross-check); reduce in frailty, liver disease and heart failure; latex-free room and alternative prep for allergy.",
+  "never_miss": "Local anaesthetic systemic toxicity (perioral tingling, seizures, arrhythmia): stop, call for help, AAGBI/Intralipid protocol; chlorhexidine anaphylaxis."
+ },
+ "sections": {
+  "what": [
+   "Amide local anaesthetics (lidocaine, prilocaine, bupivacaine, levobupivacaine, articaine, mepivacaine) and esters (tetracaine/amethocaine, benzocaine, chloroprocaine) block voltage-gated sodium channels in nerves. **Adrenaline** is added for vasoconstriction: less bleeding, longer action, and a higher maximum dose.",
+   {
+    "h": "Allergy: latex, chlorhexidine and local anaesthetic"
+   },
+   {
+    "list": [
+     "**Latex allergy** is either **type I** (IgE-mediated: urticaria, rhinitis, asthma, **anaphylaxis**) or **type IV** (allergic contact dermatitis to rubber accelerators: thiurams, carbamates, MBT). Irritant hand dermatitis from gloves is not an allergy.",
+     "**Chlorhexidine** is an increasingly recognised cause of **perioperative anaphylaxis** (MHRA 2012 alert). It is found in skin preps, catheters, lubricants and wipes."
+    ]
+   }
+  ],
+  "cause": [
+   {
+    "h": "Allergy: latex, chlorhexidine and local anaesthetic"
+   },
+   {
+    "h": "Risk factors"
+   },
+   {
+    "list": [
+     "Healthcare workers.",
+     "**Spina bifida and multiple childhood surgeries.**",
+     "Atopy.",
+     "**Latex–fruit syndrome**: cross-reaction with **banana, avocado, kiwi, chestnut** and others."
+    ]
+   }
+  ],
+  "features": [
+   {
+    "h": "Lidocaine maximum dose (BNF): the key Case 1 calculation"
+   },
+   "**Useful conversion:** **1% = 10 mg/ml; 2% = 20 mg/ml.**",
+   {
+    "table": {
+     "head": [
+      "",
+      "BNF adult maximum (infiltration)",
+      "Weight-based convention (common teaching)"
+     ],
+     "rows": [
+      [
+       "**Plain lidocaine**",
+       "**200 mg**",
+       "~3 mg/kg (some SmPCs: 4.5 mg/kg, maximum 300 mg)"
+      ],
+      [
+       "**Lidocaine with adrenaline**",
+       "**500 mg**",
+       "~7 mg/kg"
+      ],
+      [
+       "Children (BNFC)",
+       "**Up to 3 mg/kg** (check the BNFC entry and age band)",
+       "—"
+      ]
+     ]
+    }
+   },
+   {
+    "list": [
+     "**Use ideal body weight in obesity.** **Reduce the dose in frail elderly people, in hepatic impairment, in heart failure** (reduced clearance), and in highly vascular sites (absorption).",
+     "**[Case 1](condition:skin-surgery-preop), worked (teaching only):** 60 kg × 7 mg/kg = **420 mg** with adrenaline. This is below the BNF absolute ceiling of 500 mg. At 2% (20 mg/ml), 420 mg is **21 ml** (course teaching rounded to \"20 ml\"). **Plain** lidocaine at 3 mg/kg is 180 mg = **9 ml of 2%** (and under the 200 mg BNF cap). For a small DF excision, the volume actually used is typically a **few millilitres**, far below the maximum.",
+     "**Note on 1:80,000 adrenaline:** lidocaine 2% with adrenaline 1:80,000 is the **dental cartridge** formulation. For skin surgery in UK practice, **1% or 2% with 1:200,000 adrenaline** is more usual. The maximum-dose principle is the same."
+    ]
+   },
+   {
+    "h": "Adrenaline: cautions"
+   },
+   {
+    "table": {
+     "head": [
+      "Situation",
+      "Concern",
+      "UK teaching position"
+     ],
+     "rows": [
+      [
+       "**Non-selective β-blockers** (propranolol, nadolol, sotalol, timolol eye drops in large doses)",
+       "Unopposed α-stimulation, which can cause **severe hypertension with reflex bradycardia**",
+       "**Real interaction.** Use the lowest effective dose and concentration (or plain LA). Cardioselective β-blockers (bisoprolol, atenolol) are lower risk"
+      ],
+      [
+       "**Digital / ring blocks**, penis, ear lobe, nasal tip",
+       "Historical fear of ischaemic necrosis",
+       "**Modern evidence (including large series and Cochrane review) suggests dilute adrenaline is safe in digits** in healthy patients. Phentolamine can reverse it. **Follow local policy.** Avoid in **Raynaud's, peripheral vascular disease, scleroderma and vasospasm**"
+      ],
+      [
+       "Uncontrolled hypertension, ischaemic heart disease, arrhythmia, hyperthyroidism, phaeochromocytoma",
+       "Sympathomimetic effects",
+       "Minimise or use plain LA"
+      ],
+      [
+       "TCAs, MAOIs, cocaine use",
+       "Potentiated pressor response (TCAs > MAOIs for exogenous adrenaline)",
+       "Caution"
+      ],
+      [
+       "Sulfite allergy",
+       "Adrenaline-containing preparations contain sodium metabisulfite",
+       "Use plain LA"
+      ]
+     ]
+    }
+   },
+   {
+    "h": "Local anaesthetic systemic toxicity (LAST): recognise and respond"
+   },
+   {
+    "list": [
+     "**Early (CNS):** perioral numbness or tingling, **metallic taste**, tinnitus, light-headedness, visual disturbance, slurred speech, agitation or drowsiness.",
+     "**Late:** muscle twitching → **seizures** → coma; **cardiovascular:** bradycardia, arrhythmias, hypotension, **cardiac arrest** (bupivacaine is most cardiotoxic).",
+     "**Response (Association of Anaesthetists LAST guideline):** stop injecting; call for help (999 in community settings); airway, 100% oxygen, ABC; treat seizures (benzodiazepine); CPR if arrested; **IV 20% lipid emulsion** (Intralipid®) per the guideline, where available. Settings using larger LA volumes should know where it is kept",
+     "**Prevention:** calculate the maximum dose before starting, **aspirate before injecting**, inject slowly, use the lowest effective volume, and keep patients under observation.",
+     "**Distinguish from vasovagal** (pallor, sweating, bradycardia, quick recovery when lying flat; the commonest event) and **adrenaline effect** (palpitations, tremor, anxiety, tachycardia)."
+    ]
+   },
+   {
+    "h": "Alternatives"
+   },
+   {
+    "table": {
+     "head": [
+      "Agent",
+      "Onset / duration",
+      "Adult maximum (BNF / SmPC summary; check current)",
+      "Notes"
+     ],
+     "rows": [
+      [
+       "**Lidocaine**",
+       "Fast / 1–2 h (longer with adrenaline)",
+       "200 mg plain; 500 mg with adrenaline",
+       "Workhorse"
+      ],
+      [
+       "**Prilocaine**",
+       "Fast / medium",
+       "**400 mg** (plain or with felypressin)",
+       "Least toxic amide. **Methaemoglobinaemia** at high doses (avoid in infants, G6PD deficiency, and with other oxidising drugs)"
+      ],
+      [
+       "**Bupivacaine**",
+       "Slow / long (4–8 h)",
+       "**150 mg** (with or without adrenaline; BNF); 2 mg/kg is a common convention",
+       "Most cardiotoxic. Used for post-op analgesia in larger procedures"
+      ],
+      [
+       "**Levobupivacaine**",
+       "Slow / long",
+       "**150 mg** single dose",
+       "Less cardiotoxic S-enantiomer"
+      ],
+      [
+       "Articaine",
+       "Fast / medium",
+       "Up to **7 mg/kg** (dental)",
+       "Dental mainly"
+      ],
+      [
+       "Mepivacaine",
+       "Fast / medium",
+       "Per SmPC",
+       "Dental"
+      ],
+      [
+       "Tetracaine (ester)",
+       "Topical",
+       "—",
+       "Higher allergy potential (PABA)"
+      ]
+     ]
+    }
+   },
+   "**True LA allergy** is rare. Most \"allergies\" are vasovagal, adrenaline effects or anxiety. **Ester allergy (PABA)** does not cross-react with amides. **Methylparaben** (the course point) is a preservative in **multi-dose vials** and can cause reactions in paraben-sensitive patients, so use **single-dose, preservative-free ampoules**. Refer suspected LA allergy for allergy testing before elective surgery.",
+   {
+    "h": "Topical anaesthesia"
+   },
+   {
+    "table": {
+     "head": [
+      "Product",
+      "Content",
+      "Application",
+      "Notes"
+     ],
+     "rows": [
+      [
+       "**EMLA®** 5% cream",
+       "Lidocaine 2.5% + prilocaine 2.5%",
+       "Under occlusive dressing for **≥60 min** (up to 5 h)",
+       "**Methaemoglobinaemia risk** in infants under 3 months and with oxidising drugs (dapsone, sulfonamides, nitrates). Blanching then erythema is normal. Max area/dose varies by age (BNF/BNFC)"
+      ],
+      [
+       "**Ametop®** 4% gel",
+       "Tetracaine",
+       "Under occlusion for **30–45 min** (remove by 60 min)",
+       "Vasodilatation helps cannulation. Ester, so allergy is possible. Not for infants under 1 month"
+      ],
+      [
+       "LMX4®",
+       "Lidocaine 4% liposomal",
+       "30 min",
+       "Prescribe/OTC"
+      ]
+     ]
+    }
+   },
+   "Topicals reduce needle pain. They **do not** provide surgical anaesthesia for an excision.",
+   {
+    "h": "Allergy: latex, chlorhexidine and local anaesthetic"
+   },
+   {
+    "h": "Clinical features"
+   },
+   "Type I reactions within minutes of contact: urticaria, angioedema, wheeze, hypotension. Type IV: eczema at the contact site 24–72 h later."
+  ],
+  "diagnosis": [
+   {
+    "h": "Allergy: latex, chlorhexidine and local anaesthetic"
+   },
+   "History. Specific IgE to latex (k82) and components (Hev b 1, 3, 5, 6.01); skin prick test; patch testing for type IV."
+  ],
+  "differentials": [
+   {
+    "h": "Allergy: latex, chlorhexidine and local anaesthetic"
+   },
+   "Irritant glove dermatitis; reaction to chlorhexidine, LA (rare), antibiotics, or adhesive dressings (acrylates, colophony); vasovagal syncope."
+  ],
+  "management": [
+   {
+    "h": "Allergy: latex, chlorhexidine and local anaesthetic"
+   },
+   "**Latex-allergic patient:**",
+   {
+    "list": [
+     "**First on the list** (the course answer) so latex particles in the room are minimised. A **latex-free environment**: nitrile or neoprene gloves, latex-free tourniquets, BP cuffs, catheters, dressings and drug vial stoppers (check), and a sign on the door.",
+     "**Prepared anaphylaxis kit.**",
+     "Document the allergy clearly (type and reaction) in the record and referral."
+    ]
+   },
+   "**Anaphylaxis (Resuscitation Council UK 2021):**",
+   {
+    "list": [
+     "**IM adrenaline 1 mg/ml (1:1000): adults and children >12 years 500 micrograms (0.5 ml)**, into the anterolateral thigh. **Repeat after 5 minutes** if there is no improvement.",
+     "Lie flat (or sit up if breathless), legs raised; call 999; high-flow oxygen; IV fluids if trained.",
+     "**Antihistamines and steroids are not first-line** (RCUK 2021 de-emphasised them for the emergency phase).",
+     "Refractory anaphylaxis (two IM doses without improvement) needs specialist help urgently.",
+     "**Mast cell tryptase** samples (as soon as possible, at 1–2 h and at 24 h or later) and **referral to an allergy clinic** (NICE CG134)."
+    ]
+   },
+   "**Chlorhexidine:** for an allergic patient use an alternative prep, e.g. **povidone-iodine** if not allergic, or alcohol alone."
+  ],
+  "red_flags": [
+   "Perioral tingling, metallic taste, confusion, seizures or arrhythmia after injection: **local anaesthetic systemic toxicity**, stop, 999 and lipid emulsion per the AAGBI guideline.",
+   "Never exceed the **BNF maximum**: lidocaine 200 mg plain or 500 mg with adrenaline (adult)."
+  ],
+  "pearls": [
+   "Warm, buffered lidocaine (with 8.4% sodium bicarbonate, 1:10) injected slowly through a fine needle reduces pain (practitioner technique; local policy).",
+   "Tell the patient the numbness lasts 1–3 h (longer with bupivacaine). Avoid hot drinks or biting the lip after facial or oral blocks.",
+   {
+    "h": "Allergy: latex, chlorhexidine and local anaesthetic"
+   },
+   "**Adrenaline auto-injector** patients: check they carry **two** devices in date (MHRA 2017 advice), and that they know latex is hidden in balloons, condoms, rubber gloves and some dental and medical products.",
+   "Latex-fruit syndrome foods may cause oral allergy or anaphylaxis."
+  ]
+ },
+ "photos": [
+  {
+   "title": "Latex allergy",
+   "items": [
+    "m2w6:E01",
+    "m2w6:E02"
+   ],
+   "tone": "danger"
+  }
+ ],
+ "references": [
+  {
+   "label": "BNF: lidocaine hydrochloride; prilocaine; bupivacaine; levobupivacaine; lidocaine with prilocaine EMLA; tetrac",
+   "url": "https://bnf.nice.org.uk/"
+  },
+  {
+   "label": "Resuscitation Council UK Emergency treatment of anaphylaxis 2021",
+   "url": "https://www.resus.org.uk/library/additional-guidance/guidance-anaphylaxis/emergency-treatment"
+  },
+  {
+   "label": "DermNet: Latex allergy",
+   "url": "https://dermnetnz.org/topics/latex-allergy"
+  }
+ ]
+}

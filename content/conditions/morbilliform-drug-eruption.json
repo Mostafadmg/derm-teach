@@ -1,0 +1,110 @@
+{
+ "slug": "morbilliform-drug-eruption",
+ "title": "Morbilliform drug eruption & drug urticaria",
+ "category": "drug-eruptions",
+ "status": "published",
+ "order": 2,
+ "module": "Module 1 · Week 3",
+ "aka": [
+  "maculopapular drug rash",
+  "exanthematous eruption",
+  "amoxicillin rash",
+  "drug urticaria",
+  "penicillin allergy label"
+ ],
+ "summary": "The commonest drug rash: symmetrical pink macules and papules 4–14 days after a new drug, and drug-induced urticaria. How to tell them from SCARs and viral rashes, what to stop, and how to label the allergy.",
+ "card_image": "m1w3:A01",
+ "glance": {
+  "think": "A symmetrical, itchy measles-like rash on the trunk 1–2 weeks after an antibiotic, anticonvulsant or allopurinol.",
+  "engine": "Delayed T-cell reaction (morbilliform) or immediate IgE/mast-cell reaction (urticaria) to the drug.",
+  "backbone": "Stop the culprit if possible; emollient, antihistamine and a moderate steroid; review in 48 h; record the reaction type precisely.",
+  "never_miss": "Fever, facial oedema, mucosal or skin pain, blisters or organ involvement: it is not a simple exanthem."
+ },
+ "sections": {
+  "what": [
+   {
+    "list": [
+     "**Morbilliform/maculopapular exanthem (MPE):** the commonest cADR (~75–95%). Symmetrical, itchy, pink macules and papules starting on the trunk.",
+     "**Drug urticaria/angioedema:** wheals lasting <24 h ± angioedema, in the minutes to hours after a dose."
+    ]
+   }
+  ],
+  "cause": [
+   {
+    "h": "How it is caused"
+   },
+   {
+    "list": [
+     "MPE is a delayed **type IVb/IVc** T-cell reaction; latency is typically 4–14 days.",
+     "Urticaria is **IgE-mediated** (β-lactams), **pseudo-allergic** (NSAIDs via COX-1 inhibition → leukotriene shift; opioids, vancomycin, contrast → direct mast-cell degranulation), or part of a serum-sickness-like reaction (cefaclor, amoxicillin in children; 1–3 weeks).",
+     "The **amoxicillin–EBV rash** occurs in most patients with infectious mononucleosis given aminopenicillins. It is usually not a true allergy."
+    ]
+   }
+  ],
+  "features": [
+   {
+    "h": "Clinical features & sites"
+   },
+   {
+    "list": [
+     "**MPE:** begins on the trunk/flexures and spreads to the limbs, symmetrically. It often spares the face and does not involve mucosae. Mild fever is possible. It resolves in 1–2 weeks after stopping, often with fine desquamation.",
+     "**Urticaria:** wheals with a flare, individual lesions lasting <24 h; ± angioedema of lips, eyelids or genitals."
+    ]
+   }
+  ],
+  "diagnosis": [
+   "Clinical diagnosis plus the drug timeline. For MPE, **FBC/LFTs** help exclude early DRESS (eosinophilia, transaminitis). With urticaria, check for anaphylaxis. Refer to allergy for possible β-lactam allergy testing/de-labelling."
+  ],
+  "differentials": [
+   "Viral exanthem; early **DRESS** (facial oedema, fever, eosinophilia, longer latency); early **SJS/TEN** (skin pain, dusky lesions, mucositis); urticarial vasculitis (the [vasculitis](condition:cutaneous-vasculitis-approach) notes: wheals >24 h, bruising); acute GVHD; scarlet fever."
+  ],
+  "management": [
+   {
+    "list": [
+     "Stop the drug (or \"treat through\" only if essential and benign, in hospital with specialist agreement).",
+     "MPE: emollient + moderate/potent TCS twice daily for 5–7 days, and an antihistamine for itch.",
+     "Urticaria: a **non-sedating antihistamine** (e.g. cetirizine 10 mg; up to 4× the licensed dose off-label for chronic urticaria — BSACI). A short oral prednisolone course only for severe acute urticaria. Anaphylaxis → adrenaline.",
+     "**NSAID-exacerbated urticaria/angioedema:** avoid all COX-1 inhibitors. Paracetamol is usually tolerated (below 1 g); a selective COX-2 inhibitor may be tolerated after specialist challenge.",
+     "Document, Yellow Card if serious, and arrange allergy referral if the label matters (e.g. penicillin)."
+    ]
+   },
+   {
+    "h": "Red flags / refer"
+   },
+   "Mucosal involvement, skin pain, blistering, fever >38.5 °C with facial oedema/lymphadenopathy, eosinophilia >1.5 × 10⁹/L, deranged LFTs → treat as a possible SCAR. Anaphylaxis → 999.",
+   {
+    "h": "IP scope"
+   },
+   "Within IP scope (symptomatic treatment, stopping/switching drugs, documentation, referral to allergy)."
+  ],
+  "red_flags": [
+   "Rash with fever, facial swelling, eosinophilia or abnormal LFTs: treat as possible **DRESS**.",
+   "Urticaria with breathing, throat or circulation symptoms: anaphylaxis, IM adrenaline and **999**."
+  ],
+  "pearls": [
+   "The rash may worsen for a couple of days after stopping — that does not mean the stop failed.",
+   "\"Amoxicillin rash in glandular fever\" is not usually penicillin allergy — but label carefully and refer for de-labelling rather than ignoring it."
+  ]
+ },
+ "photos": [
+  {
+   "title": "Morbilliform drug eruption",
+   "items": [
+    "m1w3:A01",
+    "m1w3:A02"
+   ]
+  },
+  {
+   "title": "Drug urticaria",
+   "items": [
+    "m1w3:A03"
+   ]
+  }
+ ],
+ "references": [
+  {
+   "label": "DermNet: Morbilliform drug reaction",
+   "url": "https://dermnetnz.org/topics/morbilliform-drug-reaction"
+  }
+ ]
+}

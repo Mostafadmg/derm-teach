@@ -1,0 +1,150 @@
+{
+ "slug": "fixed-drug-eruption",
+ "title": "Fixed drug eruption",
+ "category": "drug-eruptions",
+ "status": "published",
+ "order": 7,
+ "module": "Module 1 · Week 3",
+ "aka": [
+  "FDE",
+  "recurring rash same place",
+  "NSAID",
+  "co-trimoxazole",
+  "paracetamol",
+  "lip FDE",
+  "genital FDE"
+ ],
+ "summary": "A round dusky patch or blister that comes back in exactly the same place each time a drug is taken, leaving brown-grey pigmentation. Common triggers are NSAIDs, paracetamol, antibiotics and laxatives.",
+ "card_image": "m1w3:H01",
+ "glance": {
+  "think": "A round, dusky red-brown patch on the lip, genitals, hands or face that recurs at the same site, often mistaken for a cold sore.",
+  "engine": "Memory T cells sitting in the skin at that site are reactivated by the drug within hours.",
+  "backbone": "Find the intermittent drug (ask about period pain relief, cold remedies, laxatives); stop and avoid it; potent topical steroid; document.",
+  "never_miss": "Generalised bullous FDE, which can resemble SJS/TEN and needs same-day assessment."
+ },
+ "sections": {
+  "what": [
+   "A drug reaction that **recurs at exactly the same site(s)** each time the drug is taken. Usually there are one or a few round, dusky-violet plaques, leaving **slate-brown/grey pigmentation**."
+  ],
+  "cause": [
+   {
+    "h": "How it is caused"
+   },
+   "**Intraepidermal CD8+ tissue-resident memory T cells** persist at the original site. On re-exposure they activate within hours and release IFN-γ and granzymes → localised keratinocyte death (type IVc, like a \"mini-TEN\"). Melanin dropping into the dermis gives the persistent pigment.",
+   "**Common culprits:** **NSAIDs** (diclofenac, ibuprofen, naproxen, **mefenamic acid** — note the menstrual link), **co-trimoxazole/sulfonamides**, **tetracyclines**, **paracetamol**, metronidazole, fluconazole, barbiturates, carbamazepine, **sildenafil** (genital), antihistamines (cetirizine, hydroxyzine), quinine (in tonic water), phenolphthalein (old laxatives) and food dyes."
+  ],
+  "features": [
+   {
+    "list": [
+     "**Lips**, **genitals** (glans penis), hands, feet, face; the trunk and limbs less often.",
+     "Round/oval, sharply demarcated, **dusky red-violet plaques**, often with a darker/targetoid or bullous centre. Burning or itch appears **30 min–8 h** (up to 48 h) after a dose.",
+     "Each recurrence may add **new sites**. Lesions resolve over 1–3 weeks with **post-inflammatory hyperpigmentation**, which is especially marked in skin of colour.",
+     "**Generalised bullous FDE (GBFDE):** multiple large blistering plaques (>10% BSA) in older patients. It mimics SJS/TEN, carries significant mortality (~20%) and **needs admission**.",
+     "**The case:** a 26-year-old with a **pigmented patch on the upper lip**, after **diclofenac during two consecutive periods**. Erythema/blistering recurring at the same site, then pigmentation → **FDE (diclofenac)**. It had been treated as a **cold sore**."
+    ]
+   }
+  ],
+  "diagnosis": [
+   {
+    "list": [
+     "History of **recurrence at the same site** after intermittent drug use (menstrual NSAIDs, weekend antibiotics, \"headache tablets\") — ask specifically about intermittent OTC products.",
+     "Biopsy if doubtful (interface dermatitis, necrotic keratinocytes, dermal melanophages).",
+     "**Lesional patch test** (drug applied to the old site) or supervised **oral provocation** in specialist settings. Not for GBFDE."
+    ]
+   }
+  ],
+  "differentials": [
+   {
+    "table": {
+     "head": [
+      "",
+      "FDE",
+      "Herpes labialis (the misdiagnosis)",
+      "EM",
+      "Insect bite",
+      "PIH / melasma"
+     ],
+     "rows": [
+      [
+       "Recurs at same site",
+       "**Yes, after the drug**",
+       "Yes, after triggers (sun, stress, menses)",
+       "No",
+       "No",
+       "—"
+      ],
+      [
+       "Prodrome",
+       "Burning hours after the drug",
+       "Tingling 24 h before",
+       "HSV preceding",
+       "—",
+       "—"
+      ],
+      [
+       "Lesion",
+       "Dusky plaque ± bulla, **then slate pigmentation**",
+       "**Grouped vesicles** → crust, no lasting pigment",
+       "Typical targets, acral",
+       "Papule with punctum",
+       "Flat brown, no inflammation"
+      ],
+      [
+       "Test",
+       "Patch/provocation",
+       "**HSV PCR swab**",
+       "Clinical",
+       "—",
+       "—"
+      ]
+     ]
+    }
+   },
+   "Also: lichen planus pigmentosus, Bowen's disease (fixed, but persistent), bullous pemphigoid, SJS/TEN (vs GBFDE)."
+  ],
+  "management": [
+   {
+    "ol": [
+     "**Stop and avoid diclofenac.** Record \"**diclofenac — fixed drug eruption (lip)**\", and inform her that structurally related NSAIDs (acetic-acid group: aceclofenac, indometacin, etodolac) may cross-react. Some patients tolerate structurally unrelated NSAIDs, but cross-reactivity is unpredictable — specialist advice before a trial.",
+     "**Dysmenorrhoea alternatives:** **paracetamol**, local heat, a hormonal method (COC/LNG-IUS/desogestrel) that suppresses ovulation/pain, TENS. Consider gynaecology review if dysmenorrhoea is severe (endometriosis).",
+     "**Acute lesion:** potent topical steroid for a few days (a moderate steroid on the lip, short course), emollient/lip balm; for erosions, non-adherent care. The pigmentation fades slowly (months), and more slowly with repeated exposure — sun protection helps.",
+     "**Check OTC purchases** (diclofenac gel, combination cold remedies, mefenamic acid) and tell her community pharmacy. Yellow Card (FDE is reportable, especially if bullous)."
+    ]
+   },
+   {
+    "h": "Red flags / refer"
+   },
+   "Multiple/generalised blistering plaques (GBFDE → same-day admission); mucosal erosions beyond the lip; uncertain diagnosis (genital lesions — exclude STI/HSV).",
+   {
+    "h": "IP scope"
+   },
+   "Fully within IP scope (recognition, stopping the drug, alternative analgesia/contraception, topical steroid, documentation, Yellow Card). Provocation testing is specialist."
+  ],
+  "red_flags": [
+   "Many or widespread blistering patches, mucosal involvement or an unwell patient: possible **generalised bullous FDE**, same-day assessment.",
+   "A 'cold sore' that always appears after the same tablet: ask about over-the-counter NSAIDs and paracetamol combinations."
+  ],
+  "pearls": [
+   "\"**Same place, same drug, every time.**\" Ask what she took in the 24 h before each flare.",
+   "A \"cold sore\" that leaves a **dark patch** and no vesicles is FDE until proven otherwise.",
+   "Menstrual NSAIDs are a classic hidden culprit; so are the \"weekend antibiotics\" for UTIs (co-trimoxazole/trimethoprim)."
+  ]
+ },
+ "photos": [
+  {
+   "title": "Fixed drug eruption",
+   "items": [
+    "m1w3:H01",
+    "m1w3:H02",
+    "m1w3:H03",
+    "m1w3:H04"
+   ]
+  }
+ ],
+ "references": [
+  {
+   "label": "DermNet: Fixed drug eruption",
+   "url": "https://dermnetnz.org/topics/fixed-drug-eruption"
+  }
+ ]
+}

@@ -1,0 +1,117 @@
+{
+ "slug": "pyogenic-granuloma",
+ "title": "Pyogenic granuloma",
+ "category": "lumps-lesions-cancer",
+ "status": "published",
+ "order": 6,
+ "module": "Module 2 · Week 1",
+ "aka": [
+  "lobular capillary haemangioma",
+  "bleeding red lump",
+  "granuloma gravidarum",
+  "curettage and cautery"
+ ],
+ "summary": "A fast-growing, bright-red, friable lump that bleeds easily, often on a finger, lip or gum after minor injury or in pregnancy. Treat by curettage and cautery with histology, because amelanotic melanoma can look the same.",
+ "card_image": "m2w6:A01",
+ "glance": {
+  "think": "A bright-red, shiny, easily bleeding lump that grew over a few weeks on a finger, lip, gum or face.",
+  "engine": "A reactive proliferation of small blood vessels, triggered by trauma, pregnancy or drugs (e.g. isotretinoin, some cancer drugs).",
+  "backbone": "Pressure for bleeding; refer for curettage and cautery and **always send for histology**; pregnancy lesions may resolve after birth.",
+  "never_miss": "Amelanotic nodular melanoma and SCC mimicking a pyogenic granuloma; recurrence if the base is not cauterised."
+ },
+ "sections": {
+  "what": [
+   "A common, benign, rapidly growing vascular tumour of skin and mucosa. The name is a misnomer: it is neither pyogenic nor a granuloma."
+  ],
+  "cause": [
+   "Reactive proliferation of lobules of capillaries, often after minor trauma. Hormonal (pregnancy, the \"granuloma gravidarum\" on the gums) and **drug triggers**, which a pharmacist should know:",
+   {
+    "list": [
+     "systemic retinoids (isotretinoin, acitretin)",
+     "EGFR inhibitors (cetuximab, erlotinib, gefitinib; around the nail folds)",
+     "BRAF/MEK inhibitors",
+     "some antiretrovirals (indinavir)",
+     "ciclosporin",
+     "capecitabine and taxanes",
+     "the combined oral contraceptive"
+    ]
+   }
+  ],
+  "features": [
+   {
+    "list": [
+     "A bright red, glistening, friable papule or polyp, 5–10 mm, developing over **weeks** (the 4-week series is in ). It often has a collarette of scale.",
+     "**Bleeds profusely with minor trauma.** Fingers, lips, gums, face, eyelid, and nail folds."
+    ]
+   }
+  ],
+  "diagnosis": [
+   {
+    "list": [
+     "Clinical plus dermoscopy (red homogeneous areas, white \"rail\" lines, collarette).",
+     "**Histology is mandatory after removal, because amelanotic melanoma can look identical** (see , )."
+    ]
+   }
+  ],
+  "differentials": [
+   "**Amelanotic nodular melanoma** (the critical one; consider in any adult with a \"PG\" on a non-traumatised site, recurrence, or atypical vessels), SCC/keratoacanthoma, BCC, Kaposi sarcoma, bacillary angiomatosis (HIV), cherry angioma (older, stable), infantile haemangioma (infants), metastasis (kidney, thyroid), and periungual granulation tissue from an ingrown nail."
+  ],
+  "management": [
+   {
+    "list": [
+     "**Bleeding first aid:** firm pressure for 10–15 minutes; a non-adherent dressing.",
+     "**Refer for removal with histology.** Curettage and cautery (shave/curette plus base cautery) is the usual UK primary-care or dermatology approach. It is discussed at knowledge level in the [skin surgery](condition:skin-surgery-preop) notes.",
+     "Silver nitrate or cryotherapy alone gives no specimen and recurs more. Only use them where the diagnosis is not in doubt (e.g. a small pregnancy gum lesion, managed by a dentist).",
+     "**Drug-induced PG:** discuss with the prescribing specialist before stopping a cancer drug. Topical timolol or potent steroid are sometimes used by specialists for small periungual lesions.",
+     "Pregnancy PGs may regress after delivery; manage conservatively unless bleeding."
+    ]
+   },
+   {
+    "h": "Why curettage and cautery"
+   },
+   {
+    "list": [
+     "A **friable, bleeding vascular lesion** that would bleed during shave alone. **C&C removes it and seals the base**, and the curettings go for **histology** (amelanotic melanoma, SCC and Kaposi are the \"must-not-miss\" mimics; the [skin lumps](condition:dermatofibroma) notes see *Procedures at knowledge level*).",
+     "Alternatives: shave + cautery; excision for recurrent lesions (with closure, as course teaching described); silver nitrate or cryotherapy for very small lesions where the diagnosis is certain (no specimen).",
+     "**Posterior neck:** superficial procedures are safe. A deeper excision would need awareness of the spinal accessory nerve (see *Consent, complications and anatomical danger zones*)."
+    ]
+   }
+  ],
+  "red_flags": [
+   "A rapidly growing red nodule in an adult, especially on the sole, nail unit or in someone over 50: send tissue for histology; refer on a **suspected cancer pathway** if atypical (amelanotic melanoma)."
+  ],
+  "pearls": [
+   "Recurrence (up to 15%) and satellite lesions happen. Return if it recurs, and do not assume it is benign.",
+   "On isotretinoin? PG-like granulation tissue at the nail folds is a known adverse effect. Report it (Yellow Card) and liaise with the prescriber."
+  ]
+ },
+ "photos": [
+  {
+   "title": "Pyogenic granuloma",
+   "items": [
+    "m2w1:F01",
+    "m2w1:F02"
+   ]
+  },
+  {
+   "title": "Growth over four weeks",
+   "items": [
+    "m2w6:A01",
+    "m2w6:A02",
+    "m2w6:A03",
+    "m2w6:A04",
+    "m2w6:A05"
+   ]
+  }
+ ],
+ "references": [
+  {
+   "label": "DermNet: Pyogenic granuloma",
+   "url": "https://dermnetnz.org/topics/pyogenic-granuloma"
+  },
+  {
+   "label": "BAD PIL",
+   "url": "https://www.bad.org.uk/pils/"
+  }
+ ]
+}

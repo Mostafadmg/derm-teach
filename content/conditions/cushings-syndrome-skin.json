@@ -1,0 +1,109 @@
+{
+ "slug": "cushings-syndrome-skin",
+ "title": "Cushing’s syndrome: skin signs",
+ "category": "systemic-disease",
+ "status": "published",
+ "order": 3,
+ "module": "Module 1 · Week 5",
+ "aka": [
+  "striae",
+  "moon face",
+  "steroid excess",
+  "iatrogenic Cushing’s",
+  "purple striae",
+  "buffalo hump"
+ ],
+ "summary": "Wide purple striae, thin bruising skin, a round red face and central weight gain from too much cortisol, most often from steroid medicines (oral, inhaled, topical or injected).",
+ "card_image": "m1w5:C01",
+ "glance": {
+  "think": "Wide purple striae, easy bruising, thin skin, moon face, acne and central weight gain, often in someone on steroids.",
+  "engine": "Excess glucocorticoid breaks down collagen and redistributes fat; usually iatrogenic, sometimes pituitary, adrenal or ectopic ACTH.",
+  "backbone": "Total steroid review (all routes); if not iatrogenic, overnight dexamethasone suppression test or late-night salivary cortisol and endocrine referral; never stop long-term steroids abruptly.",
+  "never_miss": "Adrenal crisis from stopping steroids suddenly; hypertension, diabetes, osteoporosis; ectopic ACTH from lung cancer."
+ },
+ "sections": {
+  "what": [
+   "The clinical state caused by prolonged **glucocorticoid excess**.",
+   {
+    "list": [
+     "**Exogenous (iatrogenic)** — by far the commonest: oral, inhaled, injected, **potent topical** steroids, and unlicensed skin-lightening creams (link to the [therapeutics](condition:topical-corticosteroids) notes see *Dermatomyositis*).",
+     "**Endogenous** (~2–3 per million/year): **ACTH-dependent** (~80%): **pituitary adenoma = Cushing's disease** (~70%) or **ectopic ACTH** (small-cell lung cancer, carcinoid); **ACTH-independent:** adrenal adenoma/carcinoma, bilateral adrenal hyperplasia"
+    ]
+   }
+  ],
+  "cause": [
+   {
+    "h": "How it is caused"
+   },
+   "Cortisol is catabolic to protein → **thin skin, striae, bruising, proximal myopathy**, osteoporosis. It causes insulin resistance → diabetes and central fat redistribution (moon face, dorsocervical and supraclavicular fat pads). Mineralocorticoid effect → **hypertension**, hypokalaemia. Gonadotrophin suppression and adrenal androgens → **amenorrhoea/oligomenorrhoea**, hirsutism, acne. Immunosuppression → infections, poor healing."
+  ],
+  "features": [
+   {
+    "h": "Clinical features & sites"
+   },
+   {
+    "list": [
+     "**Most discriminating features** (Endocrine Society): **easy bruising**, **facial plethora**, **proximal myopathy**, and **wide (>1 cm), purple/\"livid\" striae** on the abdomen, flanks, axillae and thighs.",
+     "Others: moon face, dorsocervical \"buffalo hump\", supraclavicular fat pads, central obesity with thin limbs, thin skin with purpura, acne, hirsutism, acanthosis nigricans, fungal infections (tinea versicolor), poor wound healing, oedema, depression/psychosis, insomnia, kidney stones, osteoporotic fractures. **Children: weight gain with slowed growth.**",
+     "**The case:** a 40-year-old woman with **abdominal striae, amenorrhoea, weight gain and BP 142/92** → most likely **Cushing's syndrome** (after excluding exogenous steroids). Why: wide purple striae + menstrual disturbance + hypertension + weight gain is a combination of discriminatory and common features; at 40 (not pregnant, no recent large weight change) striae should not be dismissed as physiological."
+    ]
+   }
+  ],
+  "diagnosis": [
+   {
+    "list": [
+     "**First, exclude exogenous glucocorticoids:** prescribed, OTC (hydrocortisone creams), inhaled/nasal, joint injections, **skin-lightening products**, herbal remedies adulterated with dexamethasone. Ritonavir/cobicistat + inhaled/nasal fluticasone or budesonide (CYP3A4) → iatrogenic Cushing's — a key pharmacist check.",
+     "**Bedside/clinical tests:** **BP**; **capillary glucose**/urinalysis for glycosuria; weight, BMI and waist; **Proximal muscle strength** — rise from a chair or squat without using the arms; climb a step; **Skin thickness** (skin fold on the back of the hand <2 mm — Liddle's sign); look for bruises, striae width and colour, plethora, fat pads; Visual fields (pituitary macroadenoma — bitemporal hemianopia), mood, and signs of infection",
+     "**Single primary-care investigation:** Course teaching suggests **24-h urinary free cortisol** (≥2 collections), or **late-night salivary cortisol** (≥2) where available; **UK practice:** the **1 mg overnight dexamethasone suppression test** (dexamethasone 1 mg at 23:00, serum cortisol at 08:00–09:00; normal suppression **<50 nmol/L**) is the most commonly used first-line screen. Many ICB pathways advise **referring to endocrinology for testing** rather than testing in primary care — follow the local pathway; Pitfalls: oestrogen-containing COCs raise CBG (false-positive DST — stop the COC 6 weeks before or use UFC/salivary cortisol); enzyme inducers (carbamazepine, phenytoin, rifampicin) speed dexamethasone clearance (false positive); pseudo-Cushing's states (alcohol, depression, severe obesity, poorly controlled diabetes)",
+     "**Secondary care:** ACTH (dependent vs independent), high-dose DST/CRH test, pituitary MRI, inferior petrosal sinus sampling, adrenal CT, K⁺, HbA1c, DEXA."
+    ]
+   }
+  ],
+  "differentials": [
+   "Physiological striae (pregnancy, adolescence, rapid weight gain/bodybuilding — usually narrower, pink then silvery-white), **iatrogenic Cushing's** (topical/inhaled/oral steroids), metabolic syndrome/obesity, **PCOS** (oligomenorrhoea, hirsutism, acne, AN — no myopathy/bruising), pseudo-Cushing's (alcohol, depression), hypothyroidism, Marfan/Ehlers–Danlos (striae)."
+  ],
+  "management": [
+   {
+    "list": [
+     "**Refer to endocrinology** (urgently if hypokalaemia, severe hypertension, rapid progression, psychosis or suspected ectopic ACTH/adrenal carcinoma).",
+     "**Iatrogenic Cushing's:** **Do not stop steroids abruptly** — the HPA axis is suppressed. Taper to the lowest effective dose; use steroid-sparing therapy; **Steroid Emergency Card** and sick-day advice (NatPSA 2020; NICE NG243); Bone protection; glucose and BP monitoring; Review inhaled/nasal steroid + CYP3A4 inhibitor combinations",
+     "**Meanwhile, manage the comorbidities:** BP (NICE NG136), diabetes, VTE risk (Cushing's is prothrombotic), osteoporosis, infection, mood.",
+     "**Definitive treatment (specialist):** transsphenoidal surgery, adrenalectomy, or medical therapy (metyrapone, osilodrostat, ketoconazole — interaction-heavy; levoketoconazole), radiotherapy."
+    ]
+   },
+   {
+    "h": "Red flags / refer"
+   },
+   "Rapid onset with hypokalaemia, hyperpigmentation, muscle wasting (ectopic ACTH — urgent); virilisation (adrenal carcinoma); visual field loss; severe hypertension, psychosis or fractures.",
+   {
+    "h": "IP scope"
+   },
+   "History and medicine review (crucial — iatrogenic causes), bedside assessment, bloods/first-line screen per local pathway, steroid-taper planning and emergency cards, comorbidity management, and referral."
+  ],
+  "red_flags": [
+   "Never stop long-term systemic steroids suddenly: taper, issue a **steroid emergency card** and sick-day rules.",
+   "Cushingoid features without steroid exposure, especially with rapid onset, weakness or low potassium: **urgent endocrine** referral."
+  ],
+  "pearls": [
+   "\"**Before you test for Cushing's, take the steroid history — every route.**\"",
+   "\"**Wide, purple, and with weakness or bruising** — not just stretch marks.\"",
+   "Fluticasone (inhaled/nasal) + ritonavir = a classic, preventable cause."
+  ]
+ },
+ "photos": [
+  {
+   "title": "Cushing’s syndrome",
+   "items": [
+    "m1w5:C01",
+    "m1w5:C02",
+    "m1w5:C03"
+   ]
+  }
+ ],
+ "references": [
+  {
+   "label": "DermNet: Cushing syndrome",
+   "url": "https://dermnetnz.org/topics/cushing-syndrome"
+  }
+ ]
+}

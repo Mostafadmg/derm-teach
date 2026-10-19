@@ -25,13 +25,25 @@
  },
  "sections": {
   "what": [
-   "An abnormal skin reaction to UV (mostly **UVA, 320–400 nm**) or visible light caused by a **systemic or topical drug** (or chemical). Two mechanisms: **phototoxic** (common; non-immune) and **photoallergic** (uncommon; immune). Some drugs do both. A core pharmacist topic because most cases follow a medicine started in the previous days–months, and many are preventable with counselling at the point of supply."
+   "An abnormal skin reaction to UV (mostly **UVA, 320–400 nm**) or visible light caused by a **systemic or topical drug** (or chemical). Two mechanisms: **phototoxic** (common; non-immune) and **photoallergic** (uncommon; immune). Some drugs do both. A core pharmacist topic because most cases follow a medicine started in the previous days–months, and many are preventable with counselling at the point of supply.",
+   "An abnormal skin reaction to light (usually **UVA**, 320–400 nm) caused by a systemic or topical drug."
   ],
   "cause": [
    {
     "list": [
      "**Dose- and light-dose-dependent**; can happen to **anyone, on first exposure**, no sensitisation needed.",
      "Requires **prior sensitisation**, only affects a minority, not strictly dose-related; may cross-react with chemically related drugs and may **persist** after drug withdrawal (persistent light reaction → CAD). Topical agents (ketoprofen gel, sunscreen filters, fragrances, phenothiazine creams) are commoner causes than oral drugs."
+    ]
+   },
+   {
+    "h": "How it is caused"
+   },
+   {
+    "list": [
+     "Some drugs do both (**thiazides**, quinine, NSAIDs, phenothiazines).",
+     "Thiazides/sulfonamides can also cause **photo-distributed lichenoid eruptions**, **SCLE** and **pseudoporphyria**.",
+     "**Hydrochlorothiazide** carries a dose-dependent increased risk of **non-melanoma skin cancer** (MHRA DSU Nov 2018). The evidence applies to HCTZ — bendroflumethiazide data are limited — but photoprotection advice applies to all thiazides.",
+     "**Common UK photosensitisers:** thiazides (bendroflumethiazide, HCTZ, indapamide), **doxycycline/tetracyclines**, **quinolones**, sulfonamides (co-trimoxazole), **amiodarone**, NSAIDs (piroxicam, naproxen, ketoprofen gel — photoallergic), phenothiazines (chlorpromazine), **voriconazole** (SCC risk), St John's wort, retinoids, methotrexate (UV recall), quinine, hydroxychloroquine, furosemide (pseudoporphyria), vemurafenib."
     ]
    }
   ],
@@ -98,10 +110,22 @@
     }
    },
    "(Tutor's three discriminators: sensitisation, distribution, burning vs itching.)",
-   "Other drug-related photo-patterns: **drug-induced subacute cutaneous lupus** (thiazides, terbinafine, PPIs, calcium-channel blockers, checkpoint inhibitors), **drug-induced pellagra** (isoniazid), **lichenoid photo-eruption** (thiazides, quinine), **methotrexate UV-recall** of a recent sunburn."
+   "Other drug-related photo-patterns: **drug-induced subacute cutaneous lupus** (thiazides, terbinafine, PPIs, calcium-channel blockers, checkpoint inhibitors), **drug-induced pellagra** (isoniazid), **lichenoid photo-eruption** (thiazides, quinine), **methotrexate UV-recall** of a recent sunburn.",
+   {
+    "list": [
+     "Itchy or burning erythema on the **face, V of the neck, nape, backs of hands and forearms**.",
+     "There is a sharp cut-off at clothing, with **sparing of the upper eyelids, under the chin (submental), behind the ears, nasolabial folds and finger webs**."
+    ]
+   }
   ],
   "diagnosis": [
-   "Clinical + **temporal drug history** (including OTC, topical, herbal — St John's wort — and supplements, and recent dose increases). Specialist: **phototesting on and off the drug**, **photopatch testing** for suspected photoallergens, biopsy if lupus/lichenoid suspected; ANA/Ro if lupus-like."
+   "Clinical + **temporal drug history** (including OTC, topical, herbal — St John's wort — and supplements, and recent dose increases). Specialist: **phototesting on and off the drug**, **photopatch testing** for suspected photoallergens, biopsy if lupus/lichenoid suspected; ANA/Ro if lupus-like.",
+   {
+    "list": [
+     "Clinical: distribution + drug history + sun exposure.",
+     "**Investigations** mainly exclude differentials: **ANA, anti-Ro/La** (SCLE — note her **omeprazole**, the commonest drug cause of SCLE, and thiazides also cause SCLE); porphyrin screen if blistering or fragility (PCT, pseudoporphyria); biopsy if uncertain"
+    ]
+   }
   ],
   "differentials": [
    {
@@ -141,7 +165,8 @@
       ]
      ]
     }
-   }
+   },
+   "PLE (spring, no drug, papulovesicular), **SCLE** (annular/psoriasiform, Ro+, drugs: PPIs, thiazides, terbinafine, calcium-channel blockers), **chronic actinic dermatitis** (older men, lichenified), airborne contact dermatitis (Compositae — involves the shaded areas too), dermatomyositis (heliotrope, Gottron's — the [skin signs of systemic disease](condition:dermatomyositis) notes), rosacea, seborrhoeic dermatitis, pellagra."
   ],
   "management": [
    {
@@ -255,7 +280,23 @@
       ]
      ]
     }
-   }
+   },
+   {
+    "ol": [
+     "**Stop the probable culprit — bendroflumethiazide** (the classic phototoxic agent here). Choose an alternative antihypertensive per **NICE NG136**: She already takes an ARB (losartan) for T2DM/HTN; Add a **CCB (amlodipine)**. Avoid indapamide, a sulfonamide-type thiazide-like diuretic that also photosensitises; Check BP after the switch",
+     "**Symptomatic:** potent topical steroid (body/hands) and moderate/mild steroid on the face for 1–2 weeks; emollient; antihistamine for itch; cool compresses.",
+     "**Review other contributors:** omeprazole (SCLE — ask about annular lesions, check Ro; deprescribe if no ongoing indication); the HbA1c of 78 means diabetes needs intensifying (NICE NG28 — SGLT2 inhibitor/GLP-1 RA). Sitagliptin is linked to **bullous pemphigoid** rather than photosensitivity — keep that in mind if blisters appear.",
+     "**Yellow Card**; document \"photosensitivity — bendroflumethiazide\"."
+    ]
+   },
+   {
+    "h": "Red flags / refer"
+   },
+   "Blistering/erosions, widespread or persistent eruption after stopping the drug (persistent light reaction/chronic actinic dermatitis), suspected SCLE/lupus, diagnostic doubt → dermatology (photobiology).",
+   {
+    "h": "IP scope"
+   },
+   "Stopping/switching antihypertensives within competence, topical steroids, photoprotection advice, Yellow Card."
   ],
   "red_flags": [
    "Blistering, extensive or systemic reaction: same-day assessment.",
@@ -270,7 +311,10 @@
    "**Fluoroquinolones** — photosensitivity listed; MHRA restrictions on use for other safety reasons; avoid strong sun/sunbeds during and for a few days after.",
    "**Methotrexate** — sunburn recall; advise sun protection.",
    "**Isotretinoin/acitretin** — increased sunburn/skin fragility (retinoid effect, not classic phototoxicity).",
-   "Check the **BNF monograph side-effects / \"Patient and carer advice\"** for photosensitivity statements — the definitive UK source for counselling labels."
+   "Check the **BNF monograph side-effects / \"Patient and carer advice\"** for photosensitivity statements — the definitive UK source for counselling labels.",
+   "**BNF cautionary label 11** applies to doxycycline, demeclocycline, chlorpromazine and others. Use the same wording verbally for thiazides and amiodarone.",
+   "Doxycycline photosensitivity is dose-related — useful when choosing lymecycline vs doxycycline for summer acne courses.",
+   "Thiazide users with lots of sun exposure or previous skin cancer: discuss NMSC risk (MHRA 2018) and **skin checks**."
   ]
  },
  "photos": [
@@ -284,6 +328,13 @@
     "m5w6:D05",
     "m5w6:D06",
     "m5w6:D07"
+   ]
+  },
+  {
+   "title": "Drug photosensitivity",
+   "items": [
+    "m1w3:G01",
+    "m1w3:G02"
    ]
   }
  ],

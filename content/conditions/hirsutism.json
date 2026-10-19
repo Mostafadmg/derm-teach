@@ -1,0 +1,161 @@
+{
+ "slug": "hirsutism",
+ "title": "Hirsutism & the Ferriman–Gallwey score",
+ "category": "therapeutics",
+ "status": "published",
+ "order": 6,
+ "module": "Module 1 · Week 2",
+ "aka": [
+  "excess hair",
+  "mFG score",
+  "PCOS",
+  "eflornithine",
+  "Vaniqa",
+  "androgen excess",
+  "idiopathic hirsutism"
+ ],
+ "summary": "Male-pattern terminal hair growth in women: scoring with the modified Ferriman–Gallwey scale, causes (mostly PCOS or idiopathic), the tests that matter, and treatment from hair removal and the pill to specialist anti-androgens.",
+ "card_image": "m1w2:F01",
+ "glance": {
+  "think": "A woman distressed by terminal hair on the face, chest, abdomen or back.",
+  "engine": "Androgen excess (ovary, adrenal, drugs) or increased follicle sensitivity to normal androgens (idiopathic).",
+  "backbone": "Score and record impact, check testosterone and screen for PCOS; hair removal methods and a COC; eflornithine cream has been discontinued in the UK, so check availability; specialist anti-androgens with contraception.",
+  "never_miss": "Rapid-onset virilisation (deep voice, clitoromegaly, testosterone >5 nmol/L): androgen-secreting tumour."
+ },
+ "sections": {
+  "what": [
+   "**Hirsutism** is excess **terminal** hair in a woman, in an **androgen-dependent (male-pattern)** distribution: upper lip, chin, jawline/sideburns, chest, abdomen, back, thighs. It differs from **hypertrichosis**, which is excess hair in a non-androgen pattern (e.g. drug-induced by ciclosporin, minoxidil or phenytoin, or paraneoplastic lanugo)."
+  ],
+  "cause": [
+   {
+    "h": "How it is caused"
+   },
+   "The cause is increased **androgen production** (ovary, adrenal) and/or increased **follicle sensitivity**: 5α-reductase in the pilosebaceous unit converts testosterone to DHT.",
+   {
+    "list": [
+     "**PCOS** (~70–80% of hirsutism); **idiopathic hirsutism** (normal androgens and ovulatory cycles, ~5–15%); idiopathic hyperandrogenaemia.",
+     "Less common causes: **non-classic congenital adrenal hyperplasia** (21-hydroxylase deficiency — check 17-OH-progesterone); **Cushing's**, acromegaly, hyperprolactinaemia, thyroid disease; **androgen-secreting ovarian/adrenal tumours** (rapid onset, virilisation, testosterone often >5 nmol/L); drugs (anabolic steroids, testosterone, danazol, valproate); menopause",
+     "Normal hair density varies widely with ethnicity and family. Mediterranean, Middle Eastern and South Asian women often have more terminal hair; East Asian women less."
+    ]
+   }
+  ],
+  "features": [
+   "The case: **dark terminal hair limited to the jawline and sideburns**, FG ≈2 in that area, **regular periods**, distress, **BMI 28**, **testosterone 1.2 nmol/L (<2)**, **androstenedione 6.5 nmol/L (<10)**. No virilisation, acne or AN is recorded."
+  ],
+  "diagnosis": [
+   {
+    "list": [
+     "**Scoring:** **9 androgen-sensitive areas** — upper lip, chin, chest, upper abdomen, lower abdomen, upper arms, thighs, upper back, lower back. Each scores **0 (no terminal hair) to 4 (frankly virile)**, for a **total of 0–36**.",
+     "**Cut-offs:** **≥8** is the traditional threshold in white and black women; Lower cut-offs (**≥4–6**) are used in some populations, e.g. East Asian women. The 2018/2023 International PCOS guideline accepts **≥4–6** depending on ethnicity; Also recognise \"**patient-important hirsutism**\": localised hair that distresses the patient even with a low total, as here",
+     "**Limitations:** subjective, with inter-observer variation; underestimates hair after hair removal; no extra weighting for the face (the most distressing site); does not capture distress, so pair it with a QoL measure; Its main use is to **monitor response**",
+     "**Work-up (UK — CKS hirsutism / Endocrine Society):** **History:** onset and pace, cycles, fertility, weight change, drugs (including supplements and anabolic steroids), family history; **Examination:** virilisation (clitoromegaly, deep voice, male-pattern balding, increased muscle bulk), acne, AN, Cushingoid signs, BP, BMI; **Bloods:**; **Total testosterone** (early follicular, morning) and **SHBG/free androgen index**; As indicated: **LH/FSH, prolactin, TSH, 17-OH-progesterone**; If PCOS is likely: HbA1c/OGTT and lipids; Pregnancy test; **Pelvic USS** only if PCOS criteria are uncertain. It is not needed when 2 criteria are already met, and is not used within 8 years of menarche",
+     "**Interpreting the case:** Normal androgens, regular cycles and mild localised hair are most consistent with **idiopathic (peripheral) hirsutism** or a constitutional/ethnic hair pattern; PCOS is **not excluded**: regular cycles can still be anovulatory (check mid-luteal progesterone), and ~20–30% of women with PCOS have a normal total testosterone (check SHBG/FAI); Her BMI of 28 justifies an insulin-resistance work-up (HbA1c)"
+    ]
+   }
+  ],
+  "differentials": [
+   {
+    "table": {
+     "head": [
+      "",
+      "Idiopathic hirsutism",
+      "PCOS",
+      "NC-CAH",
+      "Androgen-secreting tumour",
+      "Cushing's"
+     ],
+     "rows": [
+      [
+       "Onset",
+       "Peripubertal, slow",
+       "Peripubertal, slow",
+       "Peripubertal",
+       "**Rapid (months)**, any age",
+       "Subacute"
+      ],
+      [
+       "Cycles",
+       "Regular, ovulatory",
+       "**Oligo-/anovulation**",
+       "Often irregular",
+       "Amenorrhoea",
+       "Irregular"
+      ],
+      [
+       "Androgens",
+       "Normal",
+       "Mildly ↑ T, ↓ SHBG",
+       "↑ 17-OHP",
+       "**T >5 nmol/L**; ↑ DHEAS (adrenal)",
+       "±"
+      ],
+      [
+       "Other",
+       "—",
+       "AN, obesity, acne, polycystic ovaries",
+       "Family history; certain ethnic groups",
+       "**Virilisation**",
+       "Striae, myopathy, HTN"
+      ]
+     ]
+    }
+   }
+  ],
+  "management": [
+   "**Therapeutic strategy for the case:** treat the patient's goals, layer treatments, and set expectations — hormonal effects take 6–12 months, and a hair cycle is about 6 months.",
+   {
+    "ol": [
+     "**Lifestyle:** **weight reduction** (even 5% improves SHBG, androgens and insulin resistance) and exercise; address any PCOS/metabolic risk.",
+     "**Cosmetic/physical methods** (first-line; mostly self-funded in the UK): Shaving — it does *not* make hair thicker; Plucking, threading or waxing — risk of folliculitis and PIH; Depilatory creams (irritant) and bleaching; **Laser/IPL** — best for dark hair on light skin; **Nd:YAG** for darker skin; needs multiple sessions. NHS funding is very limited and ICB-specific, often only for severe cases or gender services; **Electrolysis** — permanent but slow; works on any hair colour",
+     "**Topical eflornithine 11.5% cream (Vaniqa):** An irreversible ornithine-decarboxylase inhibitor that slows facial hair growth. Apply twice daily; effect by 6–8 weeks; stop if no benefit at 4 months. The effect is lost about 8 weeks after stopping. Works best combined with laser; **2026 status:** NHS dm+d lists **Vaniqa as discontinued/not available** in the UK, and several ICBs (e.g. Pan Mersey, BSW) class it as **not recommended**. Check local availability before suggesting it",
+     "**Systemic hormonal therapy** (if distress persists despite ≥6 months of cosmetic measures): A **COC** is the first-line systemic option (↓ ovarian androgen, ↑ SHBG); any low-VTE COC such as a levonorgestrel pill is a reasonable start; **Co-cyprindiol** is licensed for **severe hirsutism** but carries ~1.5–2× the VTE risk (MHRA 2013); stop 3–4 cycles after control; **Anti-androgens** (spironolactone 50–200 mg/day, higher-dose cyproterone acetate, finasteride) are **off-label and specialist-advised**, need **reliable contraception** (feminisation of a male fetus), and are usually added to a COC after 6 months of inadequate response; **Higher-dose cyproterone (≥10 mg/day)** carries a dose-related **meningioma** risk (MHRA 2020) — specialist only",
+     "**Psychological support** — hirsutism has a major impact on self-."
+    ]
+   },
+   {
+    "h": "Red flags / refer"
+   },
+   {
+    "list": [
+     "**Rapid onset or progression**, **virilisation**, **testosterone >5 nmol/L** (or >2× ULN), raised DHEAS, or a pelvic/abdominal mass → **urgent endocrinology/gynaecology** for a suspected androgen-secreting tumour (NICE NG12 if there is a mass).",
+     "Features of **Cushing's**, acromegaly or hyperprolactinaemia; suspected NC-CAH; new hirsutism after the menopause.",
+     "Distress not responding to primary-care measures → endocrinology/dermatology per the local pathway."
+    ]
+   },
+   {
+    "h": "IP scope"
+   },
+   "Assessment, bloods, lifestyle and cosmetic advice, and **COC prescribing within contraceptive competence and UKMEC** are within IP scope. Anti-androgens, co-cyprindiol for hirsutism (formulary-dependent) and laser referral criteria follow local specialist pathways."
+  ],
+  "red_flags": [
+   "Rapid onset over months, virilisation or a very high testosterone: **urgent** endocrine referral to exclude an androgen-secreting tumour.",
+   "Anti-androgens (spironolactone, cyproterone, finasteride) are teratogenic to a male fetus: effective contraception is essential."
+  ],
+  "pearls": [
+   "\"Hormonal treatment stops **new** hair coarsening; it doesn't remove existing hair\" — so combine it with physical removal.",
+   "Shaving is safe and effective, and does not make regrowth thicker or darker.",
+   "Ask about **drugs and supplements**: testosterone gel transferred by contact with a partner, anabolic steroids, valproate; minoxidil causes hypertrichosis."
+  ]
+ },
+ "photos": [
+  {
+   "title": "Scoring and patterns",
+   "items": [
+    "m1w2:F01",
+    "m1w2:F02",
+    "m1w2:F03",
+    "m1w2:F04"
+   ]
+  }
+ ],
+ "references": [
+  {
+   "label": "DermNet: Hirsutism",
+   "url": "https://dermnetnz.org/topics/hirsutism"
+  },
+  {
+   "label": "CKS Hirsutism:   Endocrine Society hirsutism guideline 2018  International evidence-based PCOS guideline 2023 ",
+   "url": "https://cks.nice.org.uk/topics/hirsutism/"
+  }
+ ]
+}

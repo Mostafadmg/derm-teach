@@ -1,0 +1,154 @@
+{
+ "slug": "urticarial-vasculitis",
+ "title": "Urticarial vasculitis & HUVS",
+ "category": "vasculitis",
+ "status": "published",
+ "order": 3,
+ "module": "Module 1 · Week 4",
+ "aka": [
+  "UV",
+  "hypocomplementaemic urticarial vasculitis",
+  "HUVS",
+  "wheals lasting more than 24 hours",
+  "bruising wheals"
+ ],
+ "summary": "Wheal-like plaques that last longer than 24 hours, burn rather than itch and leave bruising. Low complement (HUVS) points to systemic disease such as lupus.",
+ "card_image": "m1w4:C01",
+ "glance": {
+  "think": "‘Urticaria’ where each wheal lasts more than 24 hours, burns or hurts, and leaves bruising or brown staining.",
+  "engine": "Immune-complex small-vessel vasculitis; low C3/C4 and anti-C1q in the hypocomplementaemic form.",
+  "backbone": "Mark a wheal to time it; check complement, ESR/CRP, urine, ANA; refer for biopsy; antihistamines help itch but not the vasculitis.",
+  "never_miss": "HUVS with lupus, kidney, lung (COPD-like) or eye involvement."
+ },
+ "sections": {
+  "what": [
+   "**Urticarial vasculitis (UV):** a small-vessel (leukocytoclastic) vasculitis that presents as **urticaria-like lesions**. Two forms:",
+   {
+    "list": [
+     "**Normocomplementaemic UV** (~70–80%): usually skin-limited, often idiopathic, and milder.",
+     "**Hypocomplementaemic UV** (~20–30%): associated with systemic disease. Its severe form is **HUVS** (McDuffie syndrome; CHCC 2012: **anti-C1q vasculitis**), with **arthritis, angioedema, ocular inflammation, COPD, glomerulonephritis** and a strong overlap with **SLE**."
+    ]
+   }
+  ],
+  "cause": [
+   {
+    "h": "How it is caused"
+   },
+   "Immune-complex deposition in post-capillary venules with complement consumption (low C3/C4/C1q). **Anti-C1q autoantibodies** in HUVS. **Causes**:",
+   {
+    "list": [
+     "**drugs** (ACE-i, penicillins, sulfonamides, fluoxetine, cimetidine, diltiazem, thiazides, potassium iodide, NSAIDs, glatiramer; also TNF inhibitors)",
+     "**CTD** (SLE, Sjögren's)",
+     "**paraproteins** (IgM — **Schnitzler syndrome** — and IgA gammopathy), mixed cryoglobulinaemia",
+     "**malignancy** (haematological, solid)",
+     "**infection** (hepatitis B/C, EBV, Lyme)",
+     "idiopathic."
+    ]
+   }
+  ],
+  "features": [
+   {
+    "h": "Clinical features & sites"
+   },
+   {
+    "table": {
+     "head": [
+      "Feature",
+      "Urticarial vasculitis",
+      "Ordinary (chronic spontaneous) urticaria"
+     ],
+     "rows": [
+      [
+       "Lesion duration",
+       "**>24 h (often 1–3 days)**",
+       "<24 h (each wheal)"
+      ],
+      [
+       "Symptom",
+       "**Burning, pain, tenderness** ± itch",
+       "Itch"
+      ],
+      [
+       "Resolution",
+       "**Leaves purpura/bruising or brown pigment**",
+       "Leaves normal skin"
+      ],
+      [
+       "Systemic",
+       "Fever, arthralgia, abdominal pain, angioedema, lymphadenopathy, eye/kidney/lung involvement (especially HUVS)",
+       "Rarely (angioedema only)"
+      ],
+      [
+       "Bloods",
+       "ESR ↑; **C3/C4/C1q low in HUV**; ANA ±",
+       "Usually normal (± thyroid autoantibodies)"
+      ],
+      [
+       "Antihistamine response",
+       "**Poor**",
+       "Good"
+      ],
+      [
+       "Biopsy",
+       "**LCV** (fibrinoid necrosis, nuclear dust, RBC extravasation); DIF Ig/C3 around vessels ± lupus band at the DEJ",
+       "Dermal oedema, sparse infiltrate, no vasculitis"
+      ]
+     ]
+    }
+   }
+  ],
+  "diagnosis": [
+   {
+    "list": [
+     "**Biopsy a lesion** (H&E + DIF, ideally a lesion <48 h old) — essential, because the clinical overlap with urticaria is large.",
+     "**Underlying cause and organ screen**: **C3, C4, C1q, anti-C1q, CH50**; **ANA, dsDNA, ENA (Ro/La/Sm)**; ESR/CRP, FBC, U&E/eGFR, LFT; **urinalysis + uPCR** (± renal biopsy); **hepatitis B/C**, HIV, EBV; **SPEP/immunofixation** (IgM paraprotein — Schnitzler), **cryoglobulins**; ASO; CXR and **PFTs** (COPD/emphysema in HUVS, especially smokers); **ophthalmology** (uveitis/episcleritis/conjunctivitis); a cancer screen if indicated",
+     "**HUVS criteria (Schwartz 1982):** **Major (both required):** chronic urticarial exanthem for **≥6 months**, and **hypocomplementaemia**; **Minor (≥2):** dermal venulitis on biopsy; arthralgia/arthritis; uveitis/episcleritis; glomerulonephritis; recurrent abdominal pain; positive C1q precipitin (anti-C1q); **Exclusions:** cryoglobulinaemia, high-titre anti-dsDNA, HBV, C1-INH deficiency"
+    ]
+   }
+  ],
+  "differentials": [
+   "Chronic spontaneous urticaria; **SLE** (photosensitivity, ANA+, low complement and nephritis also fit — HUVS and SLE overlap, and ~50% of HUVS patients meet SLE criteria); Schnitzler syndrome (IgM paraprotein, fever, bone pain); cryoglobulinaemic vasculitis; serum-sickness-like reaction; Still's disease; neutrophilic urticarial dermatosis; urticarial bullous pemphigoid; erythema multiforme."
+  ],
+  "management": [
+   {
+    "list": [
+     "**Refer** to dermatology ± rheumatology/renal (urgently if renal involvement — the case has a creatinine of ~203 µmol/L).",
+     "Stop any suspect drug (ACE-i, NSAIDs, etc.). Yellow Card.",
+     "**Symptomatic:** non-sedating antihistamines (help itch/angioedema, but not the vasculitis), NSAIDs only if renal function allows.",
+     "**Specialist ladder:** **dapsone**, **colchicine**, **hydroxychloroquine** (first-line for mild/normocomplementaemic disease) → oral corticosteroids for flares → steroid-sparing **mycophenolate, azathioprine, methotrexate** → **rituximab** (HUVS/SLE), omalizumab (case reports, normocomplementaemic UV), anakinra/canakinumab (Schnitzler). Cyclophosphamide/MMF for nephritis.",
+     "**Shared-care monitoring** (dapsone — FBC, LFT, methaemoglobin; HCQ — annual eye screening after 5 years, or from 1 year if risk factors, RCOphth 2020; MMF — FBC/LFT; contraception)."
+    ]
+   },
+   {
+    "h": "Red flags / refer"
+   },
+   "Wheals lasting >24 h, painful, leaving bruising; systemic symptoms; abnormal urine, creatinine or complement; angioedema with laryngeal symptoms (999); eye pain/redness (same-day ophthalmology); breathlessness.",
+   {
+    "h": "IP scope"
+   },
+   "Recognition (do not keep up-titrating antihistamines for \"urticaria\" that bruises), urinalysis, bloods, drug review, referral, and shared-care monitoring."
+  ],
+  "red_flags": [
+   "Wheals with joint pain, fever, abdominal pain, breathlessness or abnormal urine: suspect **systemic (hypocomplementaemic) disease**, refer urgently."
+  ],
+  "pearls": [
+   "\"**Wheals that last more than a day, burn, and leave a bruise = biopsy.**\"",
+   "Ask patients to **circle a wheal with a pen** and photograph it daily — it documents duration (cheap, effective)."
+  ]
+ },
+ "photos": [
+  {
+   "title": "Urticarial vasculitis",
+   "items": [
+    "m1w4:C01",
+    "m1w4:C02"
+   ]
+  }
+ ],
+ "references": [
+  {
+   "label": "DermNet: Urticarial vasculitis",
+   "url": "https://dermnetnz.org/topics/urticarial-vasculitis"
+  }
+ ]
+}

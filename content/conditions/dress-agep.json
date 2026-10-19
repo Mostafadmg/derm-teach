@@ -1,0 +1,135 @@
+{
+ "slug": "dress-agep",
+ "title": "DRESS & AGEP (severe drug reactions)",
+ "category": "drug-eruptions",
+ "status": "published",
+ "order": 3,
+ "module": "Module 1 · Week 3",
+ "aka": [
+  "drug reaction with eosinophilia",
+  "DIHS",
+  "acute generalised exanthematous pustulosis",
+  "RegiSCAR",
+  "allopurinol",
+  "carbamazepine"
+ ],
+ "summary": "Two severe cutaneous adverse reactions that are easy to miss: DRESS (late-onset rash, fever, facial oedema, eosinophilia and organ damage) and AGEP (sudden sheets of tiny sterile pustules within days of a drug).",
+ "card_image": "m1w3:C01",
+ "glance": {
+  "think": "A widespread rash with fever 2–8 weeks after a new drug (DRESS), or sudden pinhead pustules in the folds within days (AGEP).",
+  "engine": "T-cell mediated reactions, with viral (HHV-6) reactivation in DRESS and neutrophil recruitment in AGEP.",
+  "backbone": "Stop the culprit and arrange same-day hospital assessment; bloods for eosinophils, LFTs, renal function; lifelong avoidance and alert.",
+  "never_miss": "Liver, kidney, lung or heart involvement in DRESS; misdiagnosing AGEP as pustular psoriasis or infection."
+ },
+ "sections": {
+  "what": [
+   {
+    "list": [
+     "**DRESS** (drug reaction with eosinophilia and systemic symptoms; also called DIHS): a delayed, multi-organ reaction with fever, rash and internal organ involvement. Mortality ~**2–10%**.",
+     "**AGEP** (acute generalised exanthematous pustulosis): an abrupt eruption of **sterile, non-follicular pinhead pustules** on oedematous erythema. Usually self-limiting; mortality <5%."
+    ]
+   }
+  ],
+  "cause": [
+   {
+    "h": "How it is caused"
+   },
+   {
+    "list": [
+     "**DRESS:** type IVb (Th2/eosinophils) with **sequential herpesvirus reactivation** (HHV-6, then EBV/CMV), which explains the relapsing course. Culprits: **allopurinol**, **carbamazepine**, phenytoin, lamotrigine, phenobarbital, **sulfonamides/dapsone**, minocycline, vancomycin, abacavir/nevirapine, strontium. Latency **2–8 weeks** (long).",
+     "**AGEP:** type IVd (T cells → IL-8 → neutrophils). Culprits: **aminopenicillins**, macrolides, cephalosporins, **pristinamycin**, **hydroxychloroquine**, **diltiazem**, terbinafine. Latency **<48 h** (antibiotics) — up to 1–2 weeks for some drugs. IL36RN variants overlap with generalised pustular psoriasis."
+    ]
+   }
+  ],
+  "features": [
+   {
+    "table": {
+     "head": [
+      "",
+      "DRESS",
+      "AGEP"
+     ],
+     "rows": [
+      [
+       "Rash",
+       "Morbilliform, becomes infiltrated/oedematous, **>50% BSA**; **facial oedema** (key sign); may become exfoliative",
+       "Pinhead pustules on erythema, starting in **flexures/face** and becoming generalised; burning/itch"
+      ],
+      [
+       "Fever",
+       ">38 °C",
+       ">38 °C"
+      ],
+      [
+       "Other",
+       "**Lymphadenopathy**, eosinophilia (>1.5), atypical lymphocytes; **organ involvement — liver (commonest), kidney, lung, heart (myocarditis), thyroid**",
+       "Neutrophilia; mild organ involvement (≤20%)"
+      ],
+      [
+       "Course",
+       "Weeks–months; relapses; **late autoimmune disease** (thyroiditis, type 1 diabetes)",
+       "Resolves in 1–2 weeks with **collarette desquamation**"
+      ],
+      [
+       "Scoring",
+       "**RegiSCAR** (≥6 definite)",
+       "**EuroSCAR AGEP score**"
+      ]
+     ]
+    }
+   }
+  ],
+  "diagnosis": [
+   "FBC with differential and film, LFT, U&E, urinalysis, troponin/ECG if symptomatic, TFT, lipase, HHV-6 PCR, skin biopsy. AGEP: biopsy shows subcorneal/intraepidermal spongiform pustules (to distinguish it from pustular psoriasis). Patch testing later (useful for both)."
+  ],
+  "differentials": [
+   "DRESS: viral exanthem, lymphoma (especially angioimmunoblastic), hypereosinophilic syndrome, SJS/TEN, Kawasaki disease. AGEP: **generalised pustular psoriasis** (history of psoriasis, slower onset, longer course), subcorneal pustular dermatosis, pustular DRESS, folliculitis, SJS/TEN (early AGEP can show Nikolsky-like sloughing)."
+  ],
+  "management": [
+   {
+    "list": [
+     "**Stop the culprit**, document, Yellow Card, and avoid for life (including cross-reacting drugs).",
+     "**DRESS:** Same-day hospital assessment if fever/facial oedema/eosinophilia or abnormal LFTs; Mild disease without significant organ involvement: potent topical steroids; With organ involvement: **systemic corticosteroids** (e.g. prednisolone 0.5–1 mg/kg/day) **tapered slowly over 6–12 weeks** — rapid tapers cause relapse; Monitor organs for months, and check **TFT/glucose** for 1–2 years",
+     "**AGEP:** stop the drug; potent TCS; antipyretics; supportive care. Systemic steroids are rarely needed. Usually managed in dermatology or with admission if unwell."
+    ]
+   },
+   {
+    "h": "Red flags / refer"
+   },
+   "Fever + rash + facial oedema/lymphadenopathy 2–8 weeks after a new anticonvulsant/allopurinol/sulfonamide → same-day admission (check FBC/LFT/U&E). Widespread pustules within days of an antibiotic → same-day dermatology.",
+   {
+    "h": "IP scope"
+   },
+   "Recognise, stop, refer, document, Yellow Card. After discharge: support the specialist steroid taper (steroid card if prolonged), and monitor TFT/glucose per the specialist letter."
+  ],
+  "red_flags": [
+   "Suspected DRESS: **same-day** hospital assessment, because hepatitis, nephritis and myocarditis can follow.",
+   "Allopurinol (HLA-B*58:01), carbamazepine (HLA-B*15:02) and lamotrigine are high-risk starts: counsel to report a rash early."
+  ],
+  "pearls": [
+   "DRESS has the **longest latency** of the SCARs (2–8 weeks), and AGEP the shortest (hours–2 days).",
+   "\"**Allopurinol + CKD + recent start + rash** = DRESS/SJS risk\" — dose adjustment and HLA-B*58:01 awareness."
+  ]
+ },
+ "photos": [
+  {
+   "title": "DRESS",
+   "items": [
+    "m1w3:C01"
+   ]
+  },
+  {
+   "title": "AGEP",
+   "items": [
+    "m1w3:C02",
+    "m1w3:C03"
+   ]
+  }
+ ],
+ "references": [
+  {
+   "label": "DermNet: Drug hypersensitivity syndrome",
+   "url": "https://dermnetnz.org/topics/drug-hypersensitivity-syndrome"
+  }
+ ]
+}

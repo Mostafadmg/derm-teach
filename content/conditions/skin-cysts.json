@@ -1,0 +1,123 @@
+{
+ "slug": "skin-cysts",
+ "title": "Epidermoid & pilar cysts, milia and Gardner syndrome",
+ "category": "lumps-lesions-cancer",
+ "status": "published",
+ "order": 4,
+ "module": "Module 2 · Week 1",
+ "aka": [
+  "sebaceous cyst",
+  "epidermal cyst",
+  "pilar cyst",
+  "trichilemmal cyst",
+  "dermoid cyst",
+  "milia",
+  "punctum",
+  "Gardner syndrome",
+  "FAP"
+ ],
+ "summary": "Smooth, mobile lumps under the skin. Epidermoid cysts have a central punctum; pilar cysts sit on the scalp. Recognise the inflamed cyst, when to excise, and the rare syndromic clue (multiple facial cysts in Gardner syndrome).",
+ "card_image": "m2w1:D01",
+ "glance": {
+  "think": "A smooth, round, mobile lump with a central pore (epidermoid), or several firm scalp lumps (pilar).",
+  "engine": "Keratin-filled sacs lined by epidermis or hair-root sheath; dermoid cysts are embryonic, often at the outer eyebrow.",
+  "backbone": "Reassure; leave alone or excise the whole wall when not inflamed; inflamed cysts usually are not infected (antibiotics only for cellulitis).",
+  "never_miss": "Recurrence after incomplete removal; midline nasal or scalp lumps in children (intracranial connection); multiple cysts with osteomas in Gardner syndrome (FAP)."
+ },
+ "sections": {
+  "what": [
+   {
+    "list": [
+     "**Epidermoid (epidermal inclusion) cyst:** the commonest cutaneous cyst. Its wall resembles epidermis/infundibulum and it is filled with keratin (the \"cheesy\", foul-smelling contents in [Case 3](condition:dermatofibroma)). \"Sebaceous cyst\" is a misnomer.",
+     "**Pilar (trichilemmal) cyst:** the scalp in ~90%. Firm, smooth, no punctum, often multiple and familial (autosomal dominant). It shells out easily.",
+     "**Dermoid cyst:** congenital, along embryonic fusion lines. The classic site is the **lateral eyebrow** (external angular dermoid); midline nasal or scalp dermoids may connect intracranially.",
+     "**Milia:** 1–2 mm superficial keratin cysts (primary in neonates/face; secondary after blistering, trauma, steroids).",
+     "**Vellus hair cysts / steatocystoma:** small multiple cysts on the chest; steatocystoma multiplex."
+    ]
+   }
+  ],
+  "cause": [
+   "Most epidermoid cysts arise from occluded hair follicle infundibula. Others come from implantation of epidermis after trauma (palms/soles), acne, or HPV (plantar). **Rupture** releases keratin into the dermis and causes a sterile foreign-body inflammatory reaction. Most \"infected cysts\" are actually inflamed, not infected."
+  ],
+  "features": [
+   {
+    "list": [
+     "Mobile, dome-shaped dermal nodule, 0.5–5 cm, on the face, neck, trunk or scrotum, with a **central punctum** in many.",
+     "Inflamed or ruptured cysts are red, tender and fluctuant. Recurrence follows incomplete wall removal.",
+     "**Gardner syndrome** (a familial adenomatous polyposis variant, **APC** gene): **multiple epidermoid cysts**, often atypical sites (face, scalp, limbs) and **appearing before puberty**; **osteomas** of the skull or jaw; dental anomalies (supernumerary or unerupted teeth); desmoid tumours; CHRPE (retinal pigment lesions); and colorectal polyposis with near-100% colorectal cancer risk if untreated."
+    ]
+   }
+  ],
+  "diagnosis": [
+   {
+    "list": [
+     "Clinical. Ultrasound if unsure (helps distinguish lipoma, lymph node or sarcoma).",
+     "**Dermoid cysts in the midline (nasal bridge, scalp), or any lesion with a sinus or hair, need imaging (MRI) before surgery** because of possible intracranial extension. This was the course point.",
+     "Gardner: refer to genetics or colorectal services. Triggers are multiple cysts in a child or young adult, especially with osteomas, dental anomalies, or a family history of polyposis or young colorectal cancer."
+    ]
+   }
+  ],
+  "differentials": [
+   "Lipoma (soft, no punctum, lobulated); pilomatricoma (rock-hard, child, see *Other lumps and syndromes*); dermoid; abscess / hidradenitis (flexural, recurrent, sinus tracts); lymph node; BCC with a cystic component; metastasis; on the scalp, pilar cyst vs proliferating trichilemmal tumour (rapidly growing, ulcerating, elderly woman → biopsy)."
+  ],
+  "management": [
+   {
+    "list": [
+     "**Asymptomatic cysts:** reassure. **Cosmetic removal is usually not NHS-funded** (EBI/local policy). Squeezing worsens inflammation and scarring.",
+     "**Inflamed (not infected) cyst:** warm compresses; analgesia. A fluctuant cyst may need incision and drainage, which can be done in some GP settings. **Antibiotics only if there is spreading cellulitis or systemic features** (choose per NICE NG141 cellulitis / local formulary). Avoid routine antibiotics for a \"red cyst\" (antimicrobial stewardship).",
+     "**Elective excision once the inflammation settles (6–8 weeks)** removes the entire wall to prevent recurrence. options include standard elliptical excision, or minimal-incision / punch techniques with lower scar burden but slightly higher recurrence. These are clinician-surgeon decisions (knowledge level only; see the [skin surgery](condition:skin-surgery-preop) notes).",
+     "**Refer:** suspected dermoid near the midline or orbit (plastics/paediatric surgery, imaging first); suspected Gardner (genetics/colorectal); rapidly enlarging scalp \"cyst\" in an older person (biopsy); any lump with sarcoma features (see *Lipoma, angiolipoma and Dercum's disease; the sarcoma lump pathway*)."
+    ]
+   }
+  ],
+  "red_flags": [
+   "Midline lump on the nose, scalp or spine in a child: **imaging before any surgery**.",
+   "Multiple cysts in childhood with osteomas or a family history of bowel cancer: consider **Gardner syndrome (FAP)** and refer."
+  ],
+  "pearls": [
+   "Explain that the smell comes from keratin breakdown, not poor hygiene.",
+   "Recurrence after \"popping\" or drainage is expected because the wall remains.",
+   "Isotretinoin, ciclosporin and BRAF inhibitors can provoke milia or epidermoid cysts. Look at the drug history if cysts erupt."
+  ]
+ },
+ "photos": [
+  {
+   "title": "Epidermoid cysts",
+   "items": [
+    "m2w1:D01",
+    "m2w1:D02"
+   ]
+  },
+  {
+   "title": "Gardner syndrome",
+   "items": [
+    "m2w1:D03",
+    "m2w1:D04"
+   ]
+  },
+  {
+   "title": "Pilar cyst",
+   "items": [
+    "m2w1:D05"
+   ]
+  }
+ ],
+ "references": [
+  {
+   "label": "DermNet: Epidermoid cyst",
+   "url": "https://dermnetnz.org/topics/epidermoid-cyst"
+  },
+  {
+   "label": "DermNet: Trichilemmal cyst",
+   "url": "https://dermnetnz.org/topics/trichilemmal-cyst"
+  },
+  {
+   "label": "DermNet: Gardner syndrome",
+   "url": "https://dermnetnz.org/topics/gardner-syndrome"
+  },
+  {
+   "label": "BAD PIL epidermoid and pilar cysts",
+   "url": "https://www.bad.org.uk/pils/"
+  }
+ ]
+}

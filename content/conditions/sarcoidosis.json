@@ -1,0 +1,126 @@
+{
+ "slug": "sarcoidosis",
+ "title": "Sarcoidosis (incl. Löfgren syndrome)",
+ "category": "systemic-disease",
+ "status": "published",
+ "order": 7,
+ "module": "Module 1 · Week 5",
+ "aka": [
+  "Löfgren",
+  "lupus pernio",
+  "scar sarcoid",
+  "granuloma",
+  "bilateral hilar lymphadenopathy",
+  "BHL",
+  "ACE level"
+ ],
+ "summary": "A multisystem granulomatous disease. Specific skin lesions (papules, plaques, lupus pernio, scar sarcoid) and non-specific erythema nodosum; Löfgren syndrome (EN, hilar nodes, ankle arthritis, fever) usually settles.",
+ "card_image": "m1w5:G03",
+ "glance": {
+  "think": "Red-brown papules or plaques around the nose, lips or old scars and tattoos, or a young adult with erythema nodosum, sore ankles and fever.",
+  "engine": "Non-caseating granulomas from an exaggerated immune response to an unknown trigger.",
+  "backbone": "CXR, calcium, renal and liver function, ECG, eye review; biopsy skin lesions; respiratory or dermatology referral; Löfgren usually needs NSAIDs only.",
+  "never_miss": "Cardiac sarcoid (palpitations, syncope), eye inflammation, hypercalcaemia, lupus pernio with nasal involvement."
+ },
+ "sections": {
+  "what": [
+   "A multisystem **granulomatous** disease of unknown cause, with **non-caseating epithelioid granulomas**. It affects lungs/mediastinal nodes (~90%), skin (~25–35%), eyes (~25%), liver, heart, nerves, kidneys and bones. Peak onset 25–45 years; commoner in Afro-Caribbean and Scandinavian people.",
+   {
+    "list": [
+     "**Löfgren syndrome:** acute sarcoidosis with **erythema nodosum + bilateral hilar lymphadenopathy (BHL)** ± fever and **ankle periarthritis**. It has a **good prognosis (>80–90% resolve within 2 years)**."
+    ]
+   }
+  ],
+  "cause": [
+   {
+    "h": "How it is caused"
+   },
+   "An exaggerated Th1/Th17 response to an unidentified antigen (mycobacterial/propionibacterial antigens, environmental dusts are proposed) in genetically susceptible people (HLA-DRB1*03 linked with Löfgren). It forms granulomas.",
+   {
+    "list": [
+     "**Hypercalcaemia:** granuloma macrophages express **1-α-hydroxylase** → convert 25-OH vitamin D to **calcitriol** independently of PTH → ↑ gut calcium absorption. Worse with sun or vitamin D supplements.",
+     "**Anaemia:** chronic disease, marrow/splenic involvement.",
+     "**EN** is a reactive (non-specific) septal panniculitis, **not a granuloma**. \"Specific\" lesions (papules, plaques, lupus pernio, scar sarcoid) contain granulomas."
+    ]
+   }
+  ],
+  "features": [
+   {
+    "h": "Clinical features & sites"
+   },
+   {
+    "list": [
+     "**Rash:** **bilateral tender, warm, red-violaceous, ill-defined nodules/plaques on the shins** (EN, photo G01), with fever, malaise and arthralgia.",
+     "**How an EN nodule evolves clinically**: bright red, raised, tender nodule → flattens and turns **dusky violaceous/blue** → **yellow-green bruise-like** colour (\"erythema contusiformis\") over 1–2 weeks → fades **without ulceration, atrophy or scarring** in **3–6 weeks**; new crops may appear.",
+     "**Specific cutaneous sarcoid:** **red-brown papules/plaques** (face, lips, nose — \"**apple-jelly**\" on diascopy, G05); **lupus pernio** (violaceous nose/cheeks/ears — chronic disease, upper-airway/lung fibrosis, bone cysts; G03); **scar/tattoo sarcoid**; subcutaneous (Darier–Roussy) nodules; annular, hypopigmented, ichthyosiform, ulcerative forms; scarring alopecia; nail dystrophy",
+     "**Systemic:** cough, breathlessness, chest pain; uveitis (red/painful eye, blurred vision — can be asymptomatic); parotid enlargement; facial palsy (Heerfordt); arrhythmia/heart block (cardiac sarcoid — sudden death); hepatosplenomegaly; renal stones; fatigue (very common).",
+     "**The case:** breathlessness, **weight loss 3 kg, night sweats**, EN, **anaemia (Hb 10.8)**, **calcium 2.7 mmol/L**, CXR showing **BHL**."
+    ]
+   }
+  ],
+  "diagnosis": [
+   {
+    "list": [
+     "**CXR: bilateral hilar lymphadenopathy** ± right paratracheal nodes and parenchymal changes. Scadding stages: 0 normal; **I BHL only**; II BHL + infiltrates; III infiltrates only; IV fibrosis.",
+     "**Diagnosis: acute sarcoidosis, Löfgren-type** (EN + BHL; hypercalcaemia supports sarcoid): BUT **weight loss + night sweats + anaemia** mean **TB and lymphoma must be excluded** — both cause BHL, systemic symptoms and EN",
+     "**Investigations (BTS clinical statement 2021 / ERS):** **TB:** IGRA, sputum AFB/culture, HIV test; **Bloods:** FBC + film, LDH (lymphoma), **calcium (adjusted) + 24-h urine calcium**, U&E/eGFR, LFT, **serum ACE** (supportive only — low sensitivity/specificity; raised by ACE-i users? no — **ACE-inhibitors lower it**), vitamin D (25-OH and 1,25-OH), immunoglobulins; **Lungs:** **HRCT chest**; **PFTs with TLCO**; **ECG for all** (heart block) ± Holter, echo, cardiac MRI if symptomatic or abnormal ECG; **Ophthalmology review for all** (uveitis); **Tissue:** **EBUS-TBNA** of mediastinal nodes or biopsy of a **specific skin lesion** (non-caseating granulomas; stain and culture for AFB/fungi). In a **classic Löfgren presentation** without atypical features, tissue confirmation can be omitted — **not here**, given the B symptoms; Urinalysis"
+    ]
+   }
+  ],
+  "differentials": [
+   "**TB** (caseating granulomas, IGRA), **lymphoma** (B symptoms, high LDH, nodes elsewhere), metastatic cancer, histoplasmosis/fungal infection, **berylliosis** (occupational), hypersensitivity pneumonitis, drug-induced sarcoid-like reactions (**checkpoint inhibitors, TNF inhibitors, interferon**), granulomatosis with polyangiitis, IgG4 disease. Skin: granuloma annulare, lupus vulgaris (cutaneous TB), leishmaniasis, foreign-body granulomas, lupus, rosacea, lymphoma. **EN differentials**: see the [drug eruption](condition:drug-eruption-approach) notes see *Eruptive xanthomas — new diabetes* (cellulitis, thrombophlebitis/DVT, erythema induratum, other panniculitis, cutaneous PAN, insect bites, Sweet syndrome, bruising)."
+  ],
+  "management": [
+   {
+    "list": [
+     "**Refer to respiratory (sarcoid clinic). Admit** if hypoxic, unwell, severe hypercalcaemia (≥3.0 mmol/L or symptomatic), cardiac or neurological involvement.",
+     "**Löfgren syndrome:** usually self-limiting — **NSAIDs** for EN/arthralgia (if renal function/GI risk allow), rest, leg elevation. A **short oral corticosteroid course** if severe.",
+     "**Hypercalcaemia:** hydration; **stop vitamin D/calcium supplements**; avoid excess sun; review thiazides (raise calcium) and lithium; glucocorticoids treat sarcoid hypercalcaemia (specialist); monitor U&E (nephrocalcinosis/stones)",
+     "**Systemic/organ-threatening sarcoid (specialist; ERS 2021):** prednisolone (e.g. 20–40 mg/day, tapering), methotrexate (steroid-sparing), azathioprine/leflunomide/mycophenolate, **infliximab/adalimumab** for refractory disease and lupus pernio.",
+     "**Cutaneous sarcoid:** potent/very potent TCS or **intralesional triamcinolone**, **hydroxychloroquine**, **doxycycline/minocycline**, methotrexate; TNF inhibitors for disfiguring lupus pernio; JAK inhibitors (emerging, off-label). Camouflage.",
+     "**Pharmacist checklist:** steroid card, bone protection (**caution with vitamin D/calcium supplements in hypercalcaemic sarcoid** — specialist advice), PJP prophylaxis if heavily immunosuppressed, vaccines (inactivated), TB screening before TNF inhibitors, MTX safety, HCQ eye screening, ECG awareness (QT, conduction)."
+    ]
+   },
+   {
+    "h": "Red flags / refer"
+   },
+   "Hypercalcaemia (thirst, polyuria, confusion), palpitations/syncope/heart block (cardiac sarcoid — urgent), visual symptoms/red eye (same-day ophthalmology), facial palsy/neurology, worsening breathlessness/hypoxia, B symptoms suggesting lymphoma/TB, lupus pernio (chronic disease).",
+   {
+    "h": "IP scope"
+   },
+   "Recognition, bloods (calcium, U&E, LFT), CXR request (where the IP has rights), NSAID analgesia, stopping vitamin D/calcium supplements, referral, and long-term medicines support. Specialist diagnosis and immunosuppression."
+  ],
+  "red_flags": [
+   "Palpitations, syncope or heart block: possible **cardiac sarcoid**, urgent assessment.",
+   "Red painful eye or blurred vision: same-day ophthalmology (uveitis)."
+  ],
+  "pearls": [
+   "\"**EN + BHL = Löfgren — but B symptoms or anaemia mean exclude TB and lymphoma.**\"",
+   "In patients with sarcoid, **check before recommending OTC vitamin D or calcium**.",
+   "Every patient with sarcoid needs an **eye check and an ECG**."
+  ]
+ },
+ "photos": [
+  {
+   "title": "Löfgren syndrome",
+   "items": [
+    "m1w5:G01",
+    "m1w5:G02"
+   ]
+  },
+  {
+   "title": "Specific skin sarcoid",
+   "items": [
+    "m1w5:G03",
+    "m1w5:G04",
+    "m1w5:G05"
+   ]
+  }
+ ],
+ "references": [
+  {
+   "label": "DermNet: Sarcoidosis",
+   "url": "https://dermnetnz.org/topics/sarcoidosis"
+  }
+ ]
+}

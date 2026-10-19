@@ -1,0 +1,64 @@
+{
+ "slug": "clear-cell-acanthoma",
+ "title": "Clear cell acanthoma",
+ "category": "lumps-lesions-cancer",
+ "status": "published",
+ "order": 11,
+ "module": "Module 2 · Week 2",
+ "aka": [
+  "CCA",
+  "Degos acanthoma",
+  "string of pearls vessels",
+  "red dome papule on the leg"
+ ],
+ "summary": "An uncommon benign red, moist dome-shaped papule on the lower leg with a scaly collar. Dermoscopy shows dotted vessels in a ‘string of pearls’ pattern.",
+ "card_image": "m2w2:F01",
+ "glance": {
+  "think": "A solitary, slow-growing, red-pink, moist dome with a collarette of scale on the shin of an older adult.",
+  "engine": "A benign epidermal tumour of pale glycogen-rich keratinocytes; possibly reactive.",
+  "backbone": "Dermoscopy; excision or curettage for diagnosis or symptoms.",
+  "never_miss": "Amelanotic melanoma, BCC, SCC and Bowen’s disease look similar, so biopsy if doubt."
+ },
+ "sections": {
+  "what": [
+   "A rare benign epidermal tumour (Degos acanthoma) made of pale, glycogen-rich keratinocytes. Some regard it as a reactive inflammatory dermatosis rather than a true neoplasm."
+  ],
+  "cause": [
+   "Unknown. It often occurs on legs with venous stasis or chronic inflammation. Histology shows sharply demarcated psoriasiform acanthosis of PAS-positive pale cells, with neutrophils in the epidermis."
+  ],
+  "features": [
+   "A solitary, slowly growing, **moist red-brown dome-shaped papule/nodule (5–20 mm)** on the **lower leg** of a middle-aged/older adult, often with a peripheral collarette of scale. It can bleed. Multiple forms are rare."
+  ],
+  "diagnosis": [
+   "**Dermoscopy:** dotted/glomerular vessels in a **\"string of pearls\"** (necklace/reticular) arrangement. This is highly characteristic. Confirm with biopsy if there is doubt."
+  ],
+  "differentials": [
+   "Amelanotic melanoma; Bowen's disease (glomerular vessels in clusters, not strings); psoriasis plaque; pyogenic granuloma; BCC; dermatofibroma; irritated SK; eccrine poroma."
+  ],
+  "management": [
+   "Refer routinely to confirm (the differential includes amelanotic melanoma and Bowen's). Treatment (specialist/GP surgeon): excision, curettage, cryotherapy. Recurrence is uncommon."
+  ],
+  "red_flags": [
+   "Pink lesion you cannot confidently name: refer, as **amelanotic melanoma** must be excluded."
+  ],
+  "pearls": [
+   "A red, scaly leg papule that does not respond to emollient/steroid is not necessarily eczema or psoriasis. Look for a solitary lesion and **refer it for dermoscopy/biopsy** rather than escalating steroid potency."
+  ]
+ },
+ "photos": [
+  {
+   "title": "Clear cell acanthoma",
+   "items": [
+    "m2w2:F01",
+    "m2w2:F02",
+    "m2w2:F03"
+   ]
+  }
+ ],
+ "references": [
+  {
+   "label": "DermNet: Clear cell acanthoma",
+   "url": "https://dermnetnz.org/topics/clear-cell-acanthoma"
+  }
+ ]
+}

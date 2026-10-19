@@ -1,0 +1,259 @@
+{
+ "slug": "acne-prescribing-combined-pill",
+ "title": "Acne prescribing & the combined pill",
+ "category": "therapeutics",
+ "status": "published",
+ "order": 5,
+ "module": "Module 1 · Week 2",
+ "aka": [
+  "NICE NG198",
+  "benzoyl peroxide",
+  "adapalene",
+  "clindamycin",
+  "lymecycline",
+  "doxycycline",
+  "co-cyprindiol",
+  "Dianette",
+  "COC acne"
+ ],
+ "summary": "The NICE NG198 12-week first-line combinations for acne, how to choose and counsel, antibiotic stewardship, and how combined oral contraceptives (including co-cyprindiol) fit in, with their VTE risk.",
+ "card_image": "m1w2:E03",
+ "glance": {
+  "think": "Mild to moderate acne in a young adult, or a woman who also wants contraception or has hormonal acne.",
+  "engine": "Sebum, follicular plugging, *C. acnes* and inflammation; androgens drive sebum, so oestrogen-containing pills help.",
+  "backbone": "NG198: fixed topical combinations for 12 weeks; add an oral tetracycline for moderate–severe acne (never alone, never with a topical antibiotic); COC as an option, co-cyprindiol with a stop plan.",
+  "never_miss": "VTE risk with co-cyprindiol and other COCs (UKMEC); mood change; severe or scarring acne needing referral for isotretinoin."
+ },
+ "sections": {
+  "what": [
+   {
+    "h": "(the case)"
+   },
+   "A **19-year-old woman** with numerous **comedones and pustules** on the cheeks, jawline, perioral and nasolabial areas, unresponsive to cleansers. Periods are regular; she does not smoke or drink and has had no treatment yet.",
+   {
+    "list": [
+     "Under **NICE NG198** definitions this is **mild-to-moderate acne**: any number of non-inflammatory lesions, **up to 34 inflammatory lesions and up to 2 nodules**. The lesion count, scarring or psychological impact could move her higher (course teaching: **psychological impact can raise the grade**).",
+     "Moderate-to-severe acne = **≥35 inflammatory lesions and/or ≥3 nodules**."
+    ]
+   },
+   "The **lower-face/jawline** distribution suggests an androgen (\"hormonal\") component. Regular cycles and no hirsutism make PCOS less likely, but still ask about hirsutism, weight, cycle changes and family history."
+  ],
+  "cause": [
+   {
+    "h": "How it works (acne pathophysiology → drug targets)"
+   },
+   "Four mechanisms:",
+   {
+    "ol": [
+     "**Androgen-driven sebum** production.",
+     "**Follicular hyperkeratinisation** (the microcomedone).",
+     "*Cutibacterium acnes* proliferation/biofilm.",
+     "**Inflammation** (TLR-2, IL-1)."
+    ]
+   },
+   {
+    "table": {
+     "head": [
+      "Drug",
+      "Mechanisms targeted"
+     ],
+     "rows": [
+      [
+       "Topical retinoids",
+       "2, 4"
+      ],
+      [
+       "BPO",
+       "3, 2 — no resistance"
+      ],
+      [
+       "Topical/oral antibiotics",
+       "3, 4 — but resistance"
+      ],
+      [
+       "Azelaic acid",
+       "2, 3, 4"
+      ],
+      [
+       "Hormonal therapy (COC, spironolactone, co-cyprindiol)",
+       "1"
+      ],
+      [
+       "Isotretinoin",
+       "All four"
+      ]
+     ]
+    }
+   }
+  ],
+  "features": [
+   {
+    "h": "Clinical uses & where it fits — NICE NG198 first-line (12-week courses)"
+   },
+   {
+    "table": {
+     "head": [
+      "Severity",
+      "Offer one of (fixed combinations preferred)"
+     ],
+     "rows": [
+      [
+       "**Mild–moderate**",
+       "(a) **adapalene 0.1% + BPO 2.5%** gel (Epiduo); (b) **tretinoin 0.025% + clindamycin 1%** gel (Treclin); (c) **BPO 3–5% + clindamycin 1%** gel (Duac)"
+      ],
+      [
+       "**Moderate–severe**",
+       "(a) **adapalene 0.3% + BPO 2.5%**; (b) tretinoin + clindamycin; (c) adapalene/BPO **+ oral lymecycline or doxycycline**; (d) **azelaic acid 15–20% + oral lymecycline/doxycycline**"
+      ],
+      [
+       "Alternatives",
+       "BPO alone if the above are contraindicated; **COC** in women (with topicals); oral erythromycin/trimethoprim if tetracyclines are contraindicated (specialist advice)"
+      ]
+     ]
+    }
+   },
+   {
+    "list": [
+     "**NG198 rules:** **No** topical or oral antibiotic **monotherapy**, and **no** topical + oral antibiotic together; Oral antibiotics **only with a topical retinoid or BPO**; Review at **12 weeks**; continue oral antibiotics beyond 6 months only in exceptional cases; Once clear, **maintain** with a topical retinoid ± BPO (fixed combination)",
+     "**Minocycline is not recommended** (lupus-like syndrome, autoimmune hepatitis, blue-grey pigmentation — see.",
+     "**Tetracyclines:** **Avoid in pregnancy, breastfeeding and under-12s.**; Doxycycline causes photosensitivity; take it upright with water and use sun protection; Doses: lymecycline 408 mg once daily; doxycycline 100 mg once daily (BNF — recheck)"
+    ]
+   },
+   {
+    "h": "How to choose / assess"
+   },
+   "For this case:",
+   {
+    "list": [
+     "Start **adapalene 0.1%/BPO 2.5% gel once daily at night**: it covers comedones and pustules with no antibiotic resistance.",
+     "Use tretinoin/clindamycin instead if BPO irritation or bleaching is a concern.",
+     "If she could become pregnant, NICE says to discuss that **topical retinoids should not be used in pregnancy**; **BPO/clindamycin** is the option without a retinoid.",
+     "Discuss her **contraceptive needs** at the same visit. If she wants contraception anyway, a COC can be added for its acne benefit."
+    ]
+   },
+   {
+    "h": "Key comparisons — COCs in acne"
+   },
+   "**Does the COC have merit? Yes.**",
+   {
+    "list": [
+     "**How it works:** oestrogen ↑ hepatic **SHBG** (less free testosterone) and suppresses **LH-driven ovarian androgen** production. Progestogens with anti-androgenic activity (cyproterone, drospirenone, dienogest) also **block the androgen receptor** and reduce 5α-reductase activity.",
+     "**Evidence:** Systematic reviews (Cochrane; Arowojolu 2012) show every COC studied reduces inflammatory and non-inflammatory lesions vs placebo, with **few consistent differences between progestogens**; A meta-analysis (Koo 2014, which you cited) found COCs **comparable to oral antibiotics by 6 months**; antibiotics work faster at 3 months",
+     "**In practice:** benefit takes **3–6 months**. COCs help inflammatory and comedonal acne and acne with hyperandrogenism (PCOS). They are not monotherapy for severe/nodular acne."
+    ]
+   },
+   {
+    "table": {
+     "head": [
+      "Option (UK)",
+      "Licensed for acne?",
+      "VTE risk per 10,000 women/year (FSRH/EMA)",
+      "Notes"
+     ],
+     "rows": [
+      [
+       "Non-user",
+       "—",
+       "~2",
+       "Pregnancy itself ~29"
+      ],
+      [
+       "**Levonorgestrel / norethisterone / norgestimate** COC (e.g. Microgynon 30, Rigevidon, Cilest)",
+       "No (contraceptive)",
+       "**~5–7**",
+       "Reasonable first COC. The progestogen is androgenic in theory, but acne still improves via the oestrogen/SHBG effect"
+      ],
+      [
+       "Desogestrel / gestodene COC (e.g. Marvelon, Femodene)",
+       "No",
+       "~9–12",
+       "Less androgenic"
+      ],
+      [
+       "**Drospirenone/EE** (Yasmin; 24/4 Eloine/Yaz-type)",
+       "**Not in the UK** (anti-androgenic progestogen; Yaz-type pills have an acne indication in the US)",
+       "~9–12",
+       "Also anti-mineralocorticoid — check potassium if on ACE-i/ARB/spironolactone"
+      ],
+      [
+       "**Co-cyprindiol** (cyproterone 2 mg + EE **35 micrograms**, Dianette/Clairette)",
+       "**Yes** — moderate–severe acne related to androgen sensitivity and/or hirsutism, **after topical therapy and oral antibiotics have failed**",
+       "**~1.5–2× LNG** (EMA 2013)",
+       "MHRA 2013: use only for the licensed indication. It is also a contraceptive, so **do not combine with another hormonal contraceptive**. **Stop 3–4 cycles after the condition has resolved**; review regularly"
+      ],
+      [
+       "Dienogest + estradiol valerate (Qlaira)",
+       "No",
+       "~8–11 (limited data)",
+       "—"
+      ]
+     ]
+    }
+   },
+   {
+    "list": [
+     "**UKMEC (FSRH):** before any COC, check: BMI (≥35 = UKMEC 3) and BP; **migraine with aura (UKMEC 4)**; smoking at age ≥35; personal/family VTE, thrombophilia, immobility, postpartum, breastfeeding; liver disease, breast cancer, SLE with antiphospholipid antibodies, multiple CV risk factors",
+     "**Choice for this 19-year-old (if she wants hormonal contraception):** Start a **second-generation (levonorgestrel) COC** alongside the topical regimen; If acne is still a problem after 6 months, consider a third-generation or drospirenone pill; If acne is moderate–severe after topical + antibiotic failure, consider **co-cyprindiol**, with explicit VTE counselling and a stop date; NICE NG198 also says to **consider a COC in addition to topicals** in women, and not to use co-cyprindiol first-line",
+     "**Common question: breakthrough bleeding (BTB):** BTB is common in the first **3 cycles**; Check adherence, interacting drugs (enzyme inducers, St John's wort), vomiting/diarrhoea and smoking. **Exclude STI (chlamydia) and pregnancy**, and check cervical screening status; If it persists beyond 3 months, FSRH suggests trying a pill with a different progestogen or a higher oestrogen dose (30–35 micrograms); Tailored regimens (shortened or no pill-free interval) can increase early BTB; A student observation that COCs cause less BTB than progestogen-only pills fits the FSRH data",
+     "**Spironolactone:** Off-label anti-androgen for persistent lower-face acne in women, typically **50–100 mg once daily** (up to 200 mg/day under specialist guidance); Needs **effective contraception** (risk of feminising a male fetus); Check U&E/potassium at baseline. Routine monitoring is often unnecessary in young healthy women — follow the local/specialist protocol; Side effects: menstrual irregularity, breast tenderness. Not used in men (gynaecomastia). In the UK it is usually started on **dermatology advice**"
+    ]
+   }
+  ],
+  "diagnosis": [],
+  "differentials": [],
+  "management": [
+   {
+    "ol": [
+     "**Skin care:** non-comedogenic products, a gentle pH-neutral cleanser twice daily, no picking or squeezing, oil-free sunscreen. Diet: no strong evidence for elimination diets (NICE).",
+     "**12-week fixed-combination topical** (as above), applied thinly to the whole affected area, not just the spots. If irritated, start on alternate nights or wash off after 1 h, then build up to daily.",
+     "**Discuss contraception**, if wanted, choose a COC using UKMEC (above).",
+     "**Review at 12 weeks:** Clear → stop antibiotics and **maintain** with a topical retinoid ± BPO; Improving → continue; Not improved → switch to another first-line option; Moderate–severe acne that has failed two courses, including an oral antibiotic → **refer for isotretinoin**",
+     "**Screen psychologically** (mood, self-harm) at every review — acne carries a high psychosocial burden."
+    ]
+   },
+   {
+    "h": "Red flags / refer (NICE NG198)"
+   },
+   {
+    "list": [
+     "**Acne fulminans → urgent referral, to be seen by a dermatologist within 24 hours** (the course \"why?\"): It is sudden, severe, ulcerating and haemorrhagic acne with **systemic features**: fever, malaise, arthralgia/bone pain (osteitis), raised inflammatory markers, leucocytosis; It is often triggered by **starting isotretinoin**, or by testosterone/anabolic steroids; It needs **oral corticosteroids** quickly (± pausing or reducing isotretinoin) to prevent severe scarring",
+     "**Refer to consultant dermatology for:** diagnostic uncertainty; **acne conglobata** or **nodulocystic acne**; mild–moderate acne not responding to two 12-week courses; moderate–severe acne not responding to a course that included an oral antibiotic; **scarring** or persistent PIH; **psychological distress** or a mental health disorder (also refer to mental health services for suicidal ideation); a suspected underlying endocrine disorder (PCOS with abnormal results → GP/endocrinology)"
+    ]
+   },
+   {
+    "h": "IP scope"
+   },
+   "All NICE NG198 primary-care options (topicals, oral tetracyclines, and COCs within contraceptive competence) are within IP scope if you are competent. For **co-cyprindiol** and spironolactone in acne, follow the local formulary (often specialist advice). Isotretinoin: refer."
+  ],
+  "red_flags": [
+   "Scarring, nodulocystic or rapidly worsening acne, or severe psychological distress: refer for isotretinoin assessment.",
+   "Calf swelling, chest pain or breathlessness on a combined pill: possible **VTE**, same-day assessment.",
+   "Co-cyprindiol: review at 3 months and stop once acne is controlled (MHRA)."
+  ],
+  "pearls": [
+   "\"Twelve weeks before judging\" — show her a calendar.",
+   "BPO **bleaches** towels, clothes and hair; retinoids **dry the skin and sensitise it to sun**.",
+   "On doxycycline: photosensitivity; oesophagitis (take upright with water); keep indigestion remedies and iron 2–3 h apart.",
+   "Women on a COC should know the **VTE warning symptoms** (calf pain/swelling, chest pain, breathlessness) and the **stroke symptoms**."
+  ]
+ },
+ "photos": [],
+ "references": [
+  {
+   "label": "nice.org.uk: ng198",
+   "url": "https://www.nice.org.uk/guidance/ng198"
+  },
+  {
+   "label": "gov.uk: cyproterone acetate with ethinylestradiol co cyprindiol bala",
+   "url": "https://www.gov.uk/drug-safety-update/cyproterone-acetate-with-ethinylestradiol-co-cyprindiol-balance-of-benefits-and-risks-remains-positive"
+  },
+  {
+   "label": "fsrh.org",
+   "url": "https://www.fsrh.org"
+  },
+  {
+   "label": "pcds.org.uk: acne vulgaris",
+   "url": "https://www.pcds.org.uk/clinical-guidance/acne-vulgaris"
+  }
+ ]
+}

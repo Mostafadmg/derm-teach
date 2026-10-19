@@ -1,160 +1,161 @@
 {
-  "title": "Actinic & seborrhoeic keratoses",
-  "aka": [
-    "actinic keratosis",
-    "solar keratosis",
-    "AK",
-    "actinic cheilitis",
-    "seborrhoeic keratosis",
-    "SK",
-    "field change",
-    "5-FU",
-    "imiquimod"
+ "title": "Actinic & seborrhoeic keratoses",
+ "aka": [
+  "actinic keratosis",
+  "solar keratosis",
+  "AK",
+  "actinic cheilitis",
+  "seborrhoeic keratosis",
+  "SK",
+  "field change",
+  "5-FU",
+  "imiquimod"
+ ],
+ "category": "older-skin",
+ "order": 3,
+ "module": "Module 6 · Week 4",
+ "summary": "Rough sun-damaged AKs and field-directed treatment options versus harmless stuck-on seborrhoeic keratoses — and when to refer.",
+ "card_image": "m6w4:W4C-01",
+ "glance": {
+  "think": "Gritty, scaly, sun-exposed macules that are easier to feel than see — versus waxy “stuck-on” seborrhoeic keratoses.",
+  "engine": "AK: UV-driven keratinocyte dysplasia (field cancerisation). SK: benign clonal keratinocyte proliferation.",
+  "backbone": "Photoprotection for everyone; single AKs — cryotherapy; field change — 5-FU / imiquimod / diclofenac per local pathway; reassure on typical SKs.",
+  "never_miss": "Tender, enlarging, ulcerated or hypertrophic lesions — rule out SCC. Pigmented facial “lentigo” that is irregular — think lentigo maligna."
+ },
+ "sections": {
+  "what": [
+   "**Actinic keratoses (AKs)** are common UV-induced dysplastic lesions on chronically sun-exposed skin of older adults. They mark **field cancerisation** and a small risk of progression to squamous cell carcinoma.",
+   "**Seborrhoeic keratoses (SKs)** are benign “stuck-on” waxy growths — a frequent Week 4 teaching contrast with AKs and with solar lentigines."
   ],
-  "category": "older-skin",
-  "order": 3,
-  "module": "Module 6 · Week 4",
-  "summary": "Rough sun-damaged AKs and field-directed treatment options versus harmless stuck-on seborrhoeic keratoses — and when to refer.",
-  "card_image": "m6w4:W4C-01",
-  "glance": {
-    "think": "Gritty, scaly, sun-exposed macules that are easier to feel than see — versus waxy “stuck-on” seborrhoeic keratoses.",
-    "engine": "AK: UV-driven keratinocyte dysplasia (field cancerisation). SK: benign clonal keratinocyte proliferation.",
-    "backbone": "Photoprotection for everyone; single AKs — cryotherapy; field change — 5-FU / imiquimod / diclofenac per local pathway; reassure on typical SKs.",
-    "never_miss": "Tender, enlarging, ulcerated or hypertrophic lesions — rule out SCC. Pigmented facial “lentigo” that is irregular — think lentigo maligna."
-  },
-  "sections": {
-    "what": [
-      "**Actinic keratoses (AKs)** are common UV-induced dysplastic lesions on chronically sun-exposed skin of older adults. They mark **field cancerisation** and a small risk of progression to squamous cell carcinoma.",
-      "**Seborrhoeic keratoses (SKs)** are benign “stuck-on” waxy growths — a frequent Week 4 teaching contrast with AKs and with solar lentigines."
-    ],
-    "cause": [
-      {
-        "list": [
-          "AK: cumulative UVB/UVA; fair skin, outdoor work, immunosuppression (transplant) raise burden and SCC risk.",
-          "Actinic cheilitis is AK of the lip vermilion.",
-          "SK: age-related benign clones; not premalignant (though irritated SKs worry patients)."
-        ]
-      }
-    ],
-    "features": [
-      {
-        "list": [
-          "AK: rough sandpaper scale on erythematous base; face, bald scalp, ears, forearms, hands; often multiple.",
-          "Hypertrophic AK and cutaneous horn need careful SCC exclusion.",
-          "SK: waxy, verrucous, stuck-on; milia-like cysts on dermoscopy; trunk and face."
-        ]
-      }
-    ],
-    "diagnosis": [
-      "Clinical ± dermoscopy. Biopsy or 2WW/urgent skin cancer referral if SCC or melanoma cannot be excluded. Never destroy an undiagnosed pigmented lesion with cryotherapy or laser."
-    ],
-    "differentials": [
-      {
-        "table": {
-          "head": [
-            "Look-alike",
-            "Clues"
-          ],
-          "rows": [
-            [
-              "SCC",
-              "Indurated, tender, enlarging, ulcerated"
-            ],
-            [
-              "Bowen’s disease",
-              "Persistent scaly plaque"
-            ],
-            [
-              "SK vs AK",
-              "Stuck-on waxy vs gritty flat scale"
-            ],
-            [
-              "Solar lentigo",
-              "Flat even brown macule — see [solar lentigines](condition:solar-lentigines)"
-            ],
-            [
-              "Lentigo maligna",
-              "Irregular facial pigment — urgent pathway"
-            ]
-          ]
-        }
-      }
-    ],
-    "management": [
-      {
-        "h": "Everyone with AKs"
-      },
-      {
-        "list": [
-          "Daily broad-spectrum SPF 30–50, hat, behaviour change; skin self-check education.",
-          "Emollient to reduce scale."
-        ]
-      },
-      {
-        "h": "Lesion- and field-directed options (local formulary / CKS themes)"
-      },
-      {
-        "list": [
-          "Few discrete AKs: **cryotherapy** (light freeze) in trained hands.",
-          "Field change: topical **5-fluorouracil**, **imiquimod**, **diclofenac 3% gel**, or photodynamic therapy via dermatology — expect an inflammatory treatment phase; counsel clearly.",
-          "Actinic cheilitis: lower threshold for specialist review.",
-          "Immunosuppressed: lower threshold for dermatology."
-        ]
-      },
-      {
-        "h": "Seborrhoeic keratoses"
-      },
-      {
-        "list": [
-          "Reassure when typical. Cryotherapy/curettage only if symptomatic or diagnostic doubt — usually private/cosmetic on the NHS unless catching or bleeding.",
-          "Ugly-duckling or atypical → refer, do not freeze."
-        ]
-      }
-    ],
-    "red_flags": [
-      "Possible SCC or melanoma → urgent suspected-cancer referral (NG12).",
-      "Rapidly enlarging tender nodule in an AK field.",
-      "Lip AK with induration or ulceration."
-    ],
-    "pearls": [
-      "Feel with a fingertip — AKs are gritty.",
-      "Treating the field matters more than chasing every spot once cancer is excluded.",
-      "Warn that 5-FU/imiquimod look worse before they look better."
+  "cause": [
+   {
+    "list": [
+     "AK: cumulative UVB/UVA; fair skin, outdoor work, immunosuppression (transplant) raise burden and SCC risk.",
+     "Actinic cheilitis is AK of the lip vermilion.",
+     "SK: age-related benign clones; not premalignant (though irritated SKs worry patients)."
     ]
-  },
-  "photos": [
-    {
-      "title": "Actinic keratoses and seborrhoeic keratoses",
-      "items": [
-        "m6w4:W4C-01",
-        "m6w4:W4C-02",
-        "m6w4:W4C-03",
-        "m6w4:W4C-04",
-        "m6w4:W4C-05",
-        "m6w4:W4C-06",
-        "m6w4:W4C-07",
-        "m6w4:W4C-08"
+   }
+  ],
+  "features": [
+   {
+    "list": [
+     "AK: rough sandpaper scale on erythematous base; face, bald scalp, ears, forearms, hands; often multiple.",
+     "Hypertrophic AK and cutaneous horn need careful SCC exclusion.",
+     "SK: waxy, verrucous, stuck-on; milia-like cysts on dermoscopy; trunk and face."
+    ]
+   }
+  ],
+  "diagnosis": [
+   "Clinical ± dermoscopy. Biopsy or 2WW/urgent skin cancer referral if SCC or melanoma cannot be excluded. Never destroy an undiagnosed pigmented lesion with cryotherapy or laser."
+  ],
+  "differentials": [
+   {
+    "table": {
+     "head": [
+      "Look-alike",
+      "Clues"
+     ],
+     "rows": [
+      [
+       "SCC",
+       "Indurated, tender, enlarging, ulcerated"
+      ],
+      [
+       "Bowen’s disease",
+       "Persistent scaly plaque"
+      ],
+      [
+       "SK vs AK",
+       "Stuck-on waxy vs gritty flat scale"
+      ],
+      [
+       "Solar lentigo",
+       "Flat even brown macule — see [solar lentigines](condition:solar-lentigines)"
+      ],
+      [
+       "Lentigo maligna",
+       "Irregular facial pigment — urgent pathway"
       ]
+     ]
     }
+   }
   ],
-  "references": [
-    {
-      "label": "NICE CKS: Actinic keratosis",
-      "url": "https://cks.nice.org.uk/topics/actinic-keratosis/"
-    },
-    {
-      "label": "PCDS: Actinic keratosis",
-      "url": "https://www.pcds.org.uk/clinical-guidance/actinic-keratosis"
-    },
-    {
-      "label": "DermNet: Actinic keratosis",
-      "url": "https://dermnetnz.org/topics/actinic-keratosis"
-    },
-    {
-      "label": "DermNet: Seborrhoeic keratosis",
-      "url": "https://dermnetnz.org/topics/seborrhoeic-keratosis"
-    }
+  "management": [
+   {
+    "h": "Everyone with AKs"
+   },
+   {
+    "list": [
+     "Daily broad-spectrum SPF 30–50, hat, behaviour change; skin self-check education.",
+     "Emollient to reduce scale."
+    ]
+   },
+   {
+    "h": "Lesion- and field-directed options (local formulary / CKS themes)"
+   },
+   {
+    "list": [
+     "Few discrete AKs: **cryotherapy** (light freeze) in trained hands.",
+     "Field change: topical **5-fluorouracil**, **imiquimod**, **diclofenac 3% gel**, or photodynamic therapy via dermatology — expect an inflammatory treatment phase; counsel clearly.",
+     "Actinic cheilitis: lower threshold for specialist review.",
+     "Immunosuppressed: lower threshold for dermatology."
+    ]
+   },
+   {
+    "h": "Seborrhoeic keratoses"
+   },
+   {
+    "list": [
+     "Reassure when typical. Cryotherapy/curettage only if symptomatic or diagnostic doubt — usually private/cosmetic on the NHS unless catching or bleeding.",
+     "Ugly-duckling or atypical → refer, do not freeze."
+    ]
+   }
   ],
-  "slug": "actinic-keratoses",
-  "status": "published"
+  "red_flags": [
+   "Possible SCC or melanoma → urgent suspected-cancer referral (NG12).",
+   "Rapidly enlarging tender nodule in an AK field.",
+   "Lip AK with induration or ulceration."
+  ],
+  "pearls": [
+   "Feel with a fingertip — AKs are gritty.",
+   "Treating the field matters more than chasing every spot once cancer is excluded.",
+   "Warn that 5-FU/imiquimod look worse before they look better.",
+   "Tender, thickened or growing AK, or an AK on the lip or ear: see [cutaneous squamous cell carcinoma](condition:squamous-cell-carcinoma) for when it may have become SCC."
+  ]
+ },
+ "photos": [
+  {
+   "title": "Actinic keratoses and seborrhoeic keratoses",
+   "items": [
+    "m6w4:W4C-01",
+    "m6w4:W4C-02",
+    "m6w4:W4C-03",
+    "m6w4:W4C-04",
+    "m6w4:W4C-05",
+    "m6w4:W4C-06",
+    "m6w4:W4C-07",
+    "m6w4:W4C-08"
+   ]
+  }
+ ],
+ "references": [
+  {
+   "label": "NICE CKS: Actinic keratosis",
+   "url": "https://cks.nice.org.uk/topics/actinic-keratosis/"
+  },
+  {
+   "label": "PCDS: Actinic keratosis",
+   "url": "https://www.pcds.org.uk/clinical-guidance/actinic-keratosis"
+  },
+  {
+   "label": "DermNet: Actinic keratosis",
+   "url": "https://dermnetnz.org/topics/actinic-keratosis"
+  },
+  {
+   "label": "DermNet: Seborrhoeic keratosis",
+   "url": "https://dermnetnz.org/topics/seborrhoeic-keratosis"
+  }
+ ],
+ "slug": "actinic-keratoses",
+ "status": "published"
 }

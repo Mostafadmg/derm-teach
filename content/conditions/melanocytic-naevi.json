@@ -1,0 +1,381 @@
+{
+ "slug": "melanocytic-naevi",
+ "title": "Melanocytic naevi (moles) & the changing mole",
+ "category": "lumps-lesions-cancer",
+ "status": "published",
+ "order": 15,
+ "module": "Module 2 · Week 4",
+ "aka": [
+  "mole",
+  "junctional naevus",
+  "compound naevus",
+  "dermal naevus",
+  "changing mole",
+  "dermoscopy of naevi",
+  "sunbeds",
+  "pregnancy moles",
+  "mole mapping"
+ ],
+ "summary": "Common moles, how they evolve through life, benign dermoscopy patterns, and how to assess a changing mole with the NICE weighted 7-point checklist. Includes hormones, pregnancy, sunbeds, apps and mole mapping.",
+ "card_image": "m2w4:A02",
+ "glance": {
+  "think": "A mole that is new, changing, itchy or worrying the patient, or someone with many moles asking for a check.",
+  "engine": "Benign clonal proliferations of melanocytes (often BRAF), driven by genes and childhood sun; they evolve from flat (junctional) to raised (dermal) with age.",
+  "backbone": "History of change, full skin check, ugly-duckling comparison, NICE weighted 7-point checklist (≥3 = suspected cancer pathway); reassure only with confidence (ideally dermoscopy).",
+  "never_miss": "Melanoma in a young adult mistaken for a benign mole; sunbed use; reassurance without dermoscopy."
+ },
+ "sections": {
+  "what": [
+   "Benign clonal proliferations of melanocytes (\"moles\"). They appear from early childhood and peak in number in the 20s–30s (a typical white adult has 10–40). Many involute after 50.",
+   {
+    "h": "Dermoscopy of naevi"
+   },
+   "Dermoscopy (epiluminescence microscopy) shows structures in the epidermis and papillary dermis. In trained hands it raises sensitivity for melanoma by roughly 10–30% over the naked eye. In untrained hands it may not improve accuracy.",
+   {
+    "h": "Hormones, pregnancy and sunbeds"
+   },
+   "Common patient questions about whether contraception, pregnancy, HRT or sunbeds change moles or melanoma risk."
+  ],
+  "cause": [
+   {
+    "list": [
+     "Most acquired naevi carry **BRAF V600E**, and congenital naevi carry **NRAS** mutations. After growth they enter **oncogene-induced senescence**, which is why most never become melanoma.",
+     "**Life cycle:** **junctional** (nests at the dermo-epidermal junction; flat, brown) → **compound** (junctional + dermal; raised centre) → **dermal (intradermal)** (dermal only; soft, skin-coloured to light-brown dome, often hair-bearing; adults).",
+     "Drivers of naevus number: genetics (MC1R, family), **childhood sunburn and intermittent UV**, immunosuppression, BRAF inhibitors (eruptive naevi), and pregnancy/hormones (darkening rather than true growth in most cases)."
+    ]
+   },
+   {
+    "h": "Dermoscopy of naevi"
+   },
+   {
+    "h": "How it works / pathophysiology"
+   },
+   "Pigment depth predicts colour: black is in the stratum corneum or epidermis; brown is at the dermo-epidermal junction; blue-grey is in the dermis (Tyndall effect). Network = pigmented rete ridges; globules = nests.",
+   {
+    "h": "Hormones, pregnancy and sunbeds"
+   },
+   {
+    "h": "Evidence / pathophysiology"
+   },
+   {
+    "list": [
+     "**COCP:** large meta-analyses show **no meaningful increase in melanoma risk**. Melanocytes express oestrogen receptors, and darkening of naevi or melasma can occur.",
+     "**Pregnancy:** naevi may darken or enlarge on the abdomen and breasts (skin stretch). **Changing naevi in pregnancy still need assessment**, and pregnancy-associated melanoma is not more aggressive stage-for-stage, but diagnosis is often delayed.",
+     "**HRT:** observational studies show at most a small association. **No requirement to stop HRT** because of moles. The course \"stop HRT if lesions increase\" is not standard UK advice (see *Where course teaching differs from UK guidance*). Review the overall benefit-risk with the patient. For **people with a history of melanoma**, HRT is not contraindicated in most guidance (individualise with the oncology team).",
+     "**Sunbeds:** **IARC Group 1 carcinogen.** Ever-use raises melanoma risk by ~20%, and **first use before 35 raises it by ~60–75%** (Boniol 2012; Colantonio 2014). Use also accelerates photoageing, and the risk rises with the number of sessions. [Case 1](condition:melanocytic-naevi) (3×/week for 18 months, about 230 sessions) represents substantial exposure."
+    ]
+   }
+  ],
+  "features": [
+   {
+    "table": {
+     "head": [
+      "Type",
+      "Look",
+      "Photo"
+     ],
+     "rows": [
+      [
+       "Junctional",
+       "Flat, uniformly brown, round",
+       ""
+      ],
+      [
+       "Compound",
+       "Slightly raised, brown, may have a flat rim",
+       ""
+      ],
+      [
+       "Dermal (intradermal)",
+       "Soft, dome-shaped, skin-coloured or pink-tan; may have a few fine vessels; face, trunk",
+       ". [Case 1](condition:melanocytic-naevi) diagnosis"
+      ],
+      [
+       "Miescher naevus",
+       "Face; dome-shaped, firm, often hairy",
+       ""
+      ],
+      [
+       "Unna naevus",
+       "Trunk/neck; papillomatous, \"raspberry-like\", soft",
+       ""
+      ],
+      [
+       "Common mole",
+       "Symmetrical, regular border, one or two colours",
+       ""
+      ]
+     ]
+    }
+   },
+   "**Benign change:** a slow gradual elevation of a naevus with age (junctional → dermal), lightening, and evenly spread darkening in pregnancy or adolescence.",
+   {
+    "h": "Dermoscopy of naevi"
+   },
+   {
+    "h": "Benign naevus patterns"
+   },
+   {
+    "list": [
+     "**Reticular**: a regular network that fades at the periphery (junctional/compound; trunk).",
+     "**Globular**: regular brown globules (compound/dermal, children and young adults; the **[Case 1](condition:melanocytic-naevi)** pattern).",
+     "**Homogeneous** (blue = blue naevus; tan = dermal naevus).",
+     "**Starburst**: symmetrical peripheral streaks, typical of a pigmented Spitz/Reed naevus (in adults it needs excision because it mimics melanoma).",
+     "**Mixed reticular-globular** with symmetry.",
+     "Dermal naevus vessels: **comma vessels, out of focus** (\"hazy\", because they are deeper)."
+    ]
+   },
+   {
+    "h": "Atypical / melanoma-specific features"
+   },
+   "Atypical network, irregular streaks, irregular dots/globules (especially peripheral), blue-white veil, regression structures (white scar-like, peppering), negative network, atypical vessels (dotted, polymorphous), and more than one pattern asymmetrically.",
+   "**Naevus vs BCC** (the course [Case 1](condition:melanocytic-naevi) point): **BCC arborising vessels are bright red and sharply in focus** on the surface, and there is **no pigment network**. Dermal naevus vessels are comma-shaped and blurred, with residual globules or homogeneous tan.",
+   {
+    "h": "Hormones, pregnancy and sunbeds"
+   },
+   {
+    "h": "Law and regulation"
+   },
+   {
+    "list": [
+     "**Sunbeds (Regulation) Act 2010**: **under-18s are banned** from using sunbeds in commercial premises. Scotland (Public Health etc. (Scotland) Act 2008 and the 2009 regulations) and Northern Ireland (Sunbeds Act (NI) 2011) have equivalent bans, plus supervision and information requirements. At 19, [Case 1](condition:melanocytic-naevi) is legally entitled to use them, so counselling is the lever."
+    ]
+   },
+   {
+    "h": "Mole mapping, apps and AI"
+   },
+   {
+    "h": "–7.3 What they are"
+   },
+   {
+    "list": [
+     "**Mole mapping:** total-body photography ± sequential digital dermoscopy (specialist or private). Most useful for high-risk people (AMS, FAMMM), and it reduces unnecessary excisions.",
+     "**Smartphone apps and AI:** many consumer apps are unregulated or have poor sensitivity. Under UK MDR 2002 and MHRA rules, apps that diagnose are medical devices. Some UKCA/CE-marked AI tools, e.g. **DERM (Skin Analytics)**, are used *within* NHS teledermatology pathways with dermatologist oversight. NICE early value assessment HTE24, now HealthTech guidance **HTG746**, supports **conditional use of DERM** for triaging adults already referred on the urgent suspected skin cancer pathway, with evidence generation over 3 years. People with black or brown skin (Fitzpatrick V–VI) need healthcare-professional review."
+    ]
+   },
+   {
+    "h": "–7.5 Limitations"
+   },
+   "False reassurance is the main harm. Amelanotic and nodular melanomas are often missed by both apps and ABCDE."
+  ],
+  "diagnosis": [
+   {
+    "list": [
+     "History of change (who noticed it, over what time, photos?), the **NG12 weighted 7-point checklist**, the **ABCDE** rule, and the **\"ugly duckling\" sign**. See the [describing skin lesions](condition:lesion-language) notes.",
+     "**Dermoscopy** (trained clinician; see *Dermoscopy of naevi; naevus vs BCC; biopsy rules*).",
+     "**Excision biopsy** (2 mm margin, full thickness) if melanoma cannot be excluded."
+    ]
+   }
+  ],
+  "differentials": [
+   "Melanoma (SSM or nodular), SK, dermatofibroma, BCC (pigmented or nodular, for a pink dermal naevus), neurofibroma (soft, buttonhole sign), and molluscum.",
+   {
+    "h": "Dermoscopy of naevi"
+   },
+   "See *Acquired melanocytic naevi* and the [melanoma](condition:melanoma) notes.",
+   {
+    "h": "Hormones, pregnancy and sunbeds"
+   },
+   {
+    "h": "–3.5 Diagnosis / differentials"
+   },
+   "See *Acquired melanocytic naevi* and *Dermoscopy of naevi; naevus vs BCC; biopsy rules*. Melasma, pregnancy-related hyperpigmentation and new SKs are non-naevus differentials."
+  ],
+  "management": [
+   {
+    "list": [
+     "**Apply the NG12 weighted 7-point checklist:** Major features (2 points each): change in size, irregular shape, irregular colour; Minor features (1 point each): diameter ≥7 mm, inflammation, oozing, change in sensation; **≥3 points → suspected cancer pathway** (NG12 1.7.1); **Below 3: still refer if there is any concern** (the score is a minimum, not a ceiling)",
+     "**[Case 1](condition:melanocytic-naevi):** change in size = 2, which is below 3. But the history is a growing mole in a heavy sunbed user. If the IP cannot confidently diagnose a dermal naevus with dermoscopy, **refer** (routine dermatology or teledermatology with dermoscopic) and **photograph with a ruler**.",
+     "**Cosmetic removal** of benign naevi is generally not NHS-funded. Shave removal of a dermal naevus for cosmetic reasons is private and done by a dermatologist or surgeon who sends the specimen for histology."
+    ]
+   },
+   {
+    "h": "Dermoscopy of naevi"
+   },
+   {
+    "list": [
+     "**Use dermoscopy only if trained and competent.** Otherwise send good dermoscopic images via teledermatology (many ICSs run \"photo-triage\" for 2WW skin referrals) or refer.",
+     "**Biopsy rules for suspected melanoma:** **excision biopsy with a 2 mm clinical margin and a cuff of fat**, oriented along the limb's long axis (to preserve options for wide local excision and SLNB). **Do not shave, punch or incise** a suspected melanoma or a naevus of uncertain nature in primary care, because partial biopsy risks sampling error and makes Breslow thickness impossible to measure. Exceptions (specialist only): large facial lentigo maligna or acral/nail lesions, where incisional biopsy is accepted.",
+     "The NICE IOG says that **lesions suspected of melanoma should be referred, not excised, in primary care**."
+    ]
+   },
+   {
+    "h": "Hormones, pregnancy and sunbeds"
+   },
+   {
+    "list": [
+     "**COCP:** continue. No need to change the method because of moles. Melasma on the COCP: consider a progestogen-only or non-hormonal method if it is troublesome (UKMEC).",
+     "**Sunbed counselling (NICE NG34 and NICE PH32 on skin cancer prevention):** explain the risk with concrete numbers. Use brief-intervention techniques (relate to appearance; photoageing and \"self-tan alternatives\"); **fake tan / DHA products are safe alternatives but do not protect** against UV. Sun protection: shade 11:00–15:00, clothing, SPF 30+ with 4–5-star UVA, reapply.",
+     "**Vitamin D:** heavy UV avoidance should not lead to deficiency. Consider 10 micrograms (400 IU) daily, especially October–March (NICE NG34/PH56)."
+    ]
+   },
+   {
+    "h": "Mole mapping, apps and AI"
+   },
+   {
+    "list": [
+     "Recommend **monthly self-examination** with dated, rather than relying on an unregulated app. **A reassuring app result never overrides clinical concern.** Conversely, an app \"flag\" alone justifies professional review, not panic (the [melanoma](condition:melanoma) notes [Case 1](condition:melanocytic-naevi)).",
+     "**Lifestyle:** sun protection, no sunbeds, stop smoking (general health; not a melanoma risk factor), vitamin D. **Diet and supplements do not prevent melanoma**, although nicotinamide does prevent keratinocyte cancer in high-risk patients (the [skin cancer](condition:basal-cell-carcinoma) notes). Evidence for nicotinamide in melanoma prevention is lacking."
+    ]
+   },
+   {
+    "h": "Worked cases"
+   },
+   {
+    "h": "Case 1: 19-year-old woman, long-standing back mole growing over 6 months; sunbeds 3×/week for 18 months; COCP"
+   },
+   {
+    "list": [
+     "**Diagnosis (course teaching, from the lost):** benign **dermal (intradermal) naevus**. Dermoscopy: globular/homogeneous pattern with blurred (out-of-focus) comma vessels, **not** the sharp arborising vessels of BCC.",
+     "**Management:** reassurance + **sunbed and sun-protection counselling** + self-monitoring with; continue the COCP. **Never partially biopsy** a naevus.",
+     "**UK IP caveat:** NG12 score = 2 (change in size), below the threshold. But without competent dermoscopy, **refer** (teledermatology with dermoscopic, or routine dermatology) rather than reassure. The under-18 sunbed ban doesn't apply; counselling does."
+    ]
+   },
+   {
+    "h": "Case 2: 5-year-old, 30 cm trunk CMN becoming darker, rougher, larger"
+   },
+   {
+    "list": [
+     "**Diagnosis:** large → **giant** (projected adult size >40 cm) congenital melanocytic naevus.",
+     "**Melanoma risk:** roughly 2–5% lifetime overall for large/giant (up to 10–15% with satellites/multiple CMN). The course 5–10% sits in this range. **Small/medium CMN: <1%.**",
+     "**Plan:** paediatric dermatology for **lifelong surveillance**; urgent review of any nodule; MRI if multiple CMN or neurological signs; MDT decisions about surgery (which does not reduce melanoma risk); psychological support. Roughness and hairiness are benign maturation."
+    ]
+   },
+   {
+    "h": "Case 3: 30-year-old PE teacher, mother had melanoma, blistering childhood sunburn"
+   },
+   {
+    "list": [
+     "**Diagnosis:** atypical naevus syndrome. **FAMMM** if ≥2 affected relatives (or a CDKN2A mutation).",
+     "**Risk:** substantially raised. >100 naevi is significant; course teaching gave a lifetime risk of ~15%. CDKN2A carriers carry much higher risk.",
+     "**Plan:** dermatology for dermoscopy + total-body photography + **digital follow-up every 6–12 months**; consider genetics (ask about pancreatic cancer); self-examination; sun protection at work; no sunbeds."
+    ]
+   }
+  ],
+  "red_flags": [
+   "NICE weighted 7-point checklist score of **3 or more**, or strong suspicion: **suspected cancer pathway** referral (NG12).",
+   "A mole that stands out from the patient’s others (ugly duckling), or a new mole after 40: low threshold to refer.",
+   "Under-18s cannot legally use sunbeds in the UK (Sunbeds (Regulation) Act 2010); advise everyone to avoid them."
+  ],
+  "pearls": [
+   "Teach monthly self-examination using a partner or mirror, and photographs on the phone.",
+   "Immunosuppressed patients (transplant, biologics, methotrexate) and those on **BRAF inhibitors** can develop new or eruptive naevi. Refer lesions that look new or atypical.",
+   {
+    "h": "Dermoscopy of naevi"
+   },
+   "Patients ask \"can't you just shave it off?\" Explain that removing a whole mole is necessary for an accurate diagnosis, and that cosmetic shaves may leave pigment that regrows (recurrent naevus, which then mimics melanoma.",
+   {
+    "h": "Hormones, pregnancy and sunbeds"
+   },
+   "\"A tan is your skin's damage response.\" People with many moles, red hair or freckles, a family history, or a history of sunburn should never use sunbeds.",
+   {
+    "h": "Mole mapping, apps and AI"
+   },
+   "Check that sunscreen is applied in an adequate amount (about 2 mg/cm²: roughly 6–8 teaspoons for the whole adult body) and reapplied. Most people apply a quarter to a half of this.",
+   {
+    "h": "Where course teaching differs from UK guidance"
+   },
+   {
+    "table": {
+     "head": [
+      "Topic",
+      "Course teaching",
+      "UK guidance / evidence",
+      "Teaching point"
+     ],
+     "rows": [
+      [
+       "[Case 1](condition:melanocytic-naevi) reassurance",
+       "Reassure (benign dermal naevus)",
+       "NG12 change = 2 points; refer if any concern. Reassure only after competent dermoscopy",
+       "IP without dermoscopy refers"
+      ],
+      [
+       "HRT and naevi",
+       "\"Stop HRT if lesions increase\"",
+       "No UK guideline recommends stopping HRT because of naevi; evidence of association is weak",
+       "Individualise; review change on its own merits"
+      ],
+      [
+       "CMN risk",
+       "5–10% applied to small/medium CMN",
+       "Small/medium **<1%**; large/giant ~2–5% (up to 10–15% in highest-risk)",
+       "Risk depends on size and satellites"
+      ],
+      [
+       "CMN laser",
+       "",
+       "Not recommended routinely; deep cells remain; surveillance harder",
+       "Specialist only"
+      ],
+      [
+       "Surveillance interval in AMS",
+       "6–12 months",
+       "UK high-risk clinics typically use 3–12 months, risk-tailored (sequential digital dermoscopy at 3–6 months for single lesions)",
+       "Broadly aligned"
+      ],
+      [
+       "Lifetime risk in FAMMM",
+       "~15%",
+       "AMS without a mutation: several-fold relative risk. **CDKN2A carriers: about 30–70% by 80**",
+       "Distinguish phenotype from genotype"
+      ]
+     ]
+    }
+   }
+  ]
+ },
+ "photos": [
+  {
+   "title": "Common naevi",
+   "items": [
+    "m2w4:A01",
+    "m2w4:A02",
+    "m2w4:A03",
+    "m2w4:A04",
+    "m2w4:A05",
+    "m2w4:A06"
+   ]
+  },
+  {
+   "title": "Dermoscopy of naevi",
+   "items": [
+    "m2w4:B01",
+    "m2w4:B02",
+    "m2w4:B03",
+    "m2w4:B04",
+    "m2w4:B05"
+   ]
+  }
+ ],
+ "references": [
+  {
+   "label": "DermNet: Melanocytic naevus",
+   "url": "https://dermnetnz.org/topics/melanocytic-naevus"
+  },
+  {
+   "label": "NICE NG12 .1",
+   "url": "https://www.nice.org.uk/guidance/ng12"
+  },
+  {
+   "label": "DermNet: Dermoscopy",
+   "url": "https://dermnetnz.org/topics/dermoscopy"
+  },
+  {
+   "label": "International Dermoscopy Society tutorials",
+   "url": "https://dermoscopy-ids.org/"
+  },
+  {
+   "label": "Sunbeds Regulation Act 2010",
+   "url": "https://www.legislation.gov.uk/ukpga/2010/20"
+  },
+  {
+   "label": "NICE NG34 Sunlight exposure: risks and benefits",
+   "url": "https://www.nice.org.uk/guidance/ng34"
+  },
+  {
+   "label": "NICE HTG746 formerly HTE24 AI technologies for assessing and triaging skin lesions referred to the urgent susp",
+   "url": "https://www.nice.org.uk/guidance/htg746"
+  }
+ ]
+}

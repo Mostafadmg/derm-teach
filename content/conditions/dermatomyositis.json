@@ -1,0 +1,152 @@
+{
+ "slug": "dermatomyositis",
+ "title": "Dermatomyositis",
+ "category": "systemic-disease",
+ "status": "published",
+ "order": 1,
+ "module": "Module 1 · Week 5",
+ "aka": [
+  "heliotrope rash",
+  "Gottron papules",
+  "shawl sign",
+  "V-sign",
+  "myositis",
+  "anti-TIF1-γ",
+  "anti-MDA5",
+  "paraneoplastic"
+ ],
+ "summary": "An autoimmune disease of skin and muscle: violet eyelids, Gottron papules over the knuckles, a photo-distributed rash and proximal weakness. In adults it can herald a cancer, so every new case needs a cancer screen.",
+ "card_image": "m1w5:A02",
+ "glance": {
+  "think": "Violaceous eyelids, scaly papules over the knuckles, a red V or shawl on the chest and back, ragged cuticles, with or without proximal muscle weakness.",
+  "engine": "Autoimmune damage to small vessels of skin and muscle; myositis-specific antibodies predict cancer (TIF1-γ, NXP-2) or lung disease (MDA5).",
+  "backbone": "CK, ANA and myositis antibodies, urgent rheumatology/dermatology referral; age-appropriate cancer screening; strict photoprotection.",
+  "never_miss": "Underlying malignancy (ovary, lung, gut, breast); interstitial lung disease; swallowing and respiratory muscle weakness."
+ },
+ "sections": {
+  "what": [
+   "An idiopathic **inflammatory myopathy** with characteristic skin signs. Incidence ~1 per 100,000. Peaks in childhood (juvenile DM, 5–14 years) and at 40–60 years (F>M). Around **20% are clinically amyopathic** (skin only — CADM). In adults it is a **paraneoplastic** marker in a significant minority."
+  ],
+  "cause": [
+   {
+    "h": "How it is caused"
+   },
+   {
+    "list": [
+     "Complement-mediated **microangiopathy** (MAC deposition in capillaries → perifascicular atrophy), with type I interferon signatures, in genetically predisposed people.",
+     "Triggers: malignancy, UV, drugs (hydroxyurea, statins — more often necrotising myopathy; TNF-i; checkpoint inhibitors).",
+     "**Myositis-specific antibodies (MSA) predict phenotype:**"
+    ]
+   },
+   {
+    "table": {
+     "head": [
+      "Antibody",
+      "Phenotype"
+     ],
+     "rows": [
+      [
+       "**Anti-TIF1-γ**",
+       "**Strongest cancer association** (adults >40; ~50–75% of cancer-associated DM); extensive skin disease, mild myositis"
+      ],
+      [
+       "**Anti-NXP2**",
+       "Cancer (adults), calcinosis (juvenile), oedema"
+      ],
+      [
+       "Anti-SAE",
+       "Skin first, then myositis; dysphagia; some cancer risk"
+      ],
+      [
+       "**Anti-MDA5**",
+       "**Rapidly progressive ILD**, skin ulcers, palmar papules, arthritis; little myositis (CADM); high mortality"
+      ],
+      [
+       "Anti-Mi-2",
+       "Classic DM, florid skin, good steroid response, low cancer risk"
+      ],
+      [
+       "Anti-synthetase (Jo-1 etc.)",
+       "ILD, **mechanic's hands**, arthritis, Raynaud's, fever"
+      ]
+     ]
+    }
+   }
+  ],
+  "features": [
+   {
+    "list": [
+     "**Heliotrope rash:** violaceous upper-eyelid erythema ± periorbital oedema.",
+     "**Gottron papules:** violaceous flat-topped papules over the **MCP/PIP/DIP joints** (pathognomonic, A02). **Gottron sign:** macular erythema over the knuckles, **elbows, knees**.",
+     "**Nailfold:** dilated capillary loops, **ragged cuticles** (Samitz sign), periungual erythema.",
+     "Others: **itchy, scaly scalp** (psoriasiform/seb-derm-like), **mechanic's hands** (antisynthetase), calcinosis (juvenile), flagellate erythema, panniculitis, ulcers (MDA5), oedema.",
+     "**Itch is prominent** — a useful contrast with lupus.",
+     "**Muscle:** symmetrical **proximal weakness** (rising from a chair, climbing stairs, combing hair), myalgia, **dysphagia** (pharyngeal), respiratory muscle weakness.",
+     "**Systemic:** ILD (cough, breathlessness), arthritis, Raynaud's, myocarditis/arrhythmia."
+    ]
+   }
+  ],
+  "diagnosis": [
+   {
+    "list": [
+     "**Bloods:** **CK** (may be normal in CADM), aldolase, LDH, ALT/AST (raised from muscle — don't misread as liver disease), ESR/CRP, **ANA and myositis antibody panel (MSA/MAA)**, TFT, FBC, U&E.",
+     "**Specialist tests:** **EMG**, **MRI of thighs** (oedema → guides biopsy), **muscle ± skin biopsy** (interface dermatitis with mucin, similar to lupus).",
+     "**ILD screen:** HRCT, **PFTs incl. TLCO**.",
+     "**Heart:** ECG ± echo/troponin.",
+     "**Swallow assessment.**",
+     "**EULAR/ACR 2017 classification criteria.**",
+     "**Cancer screening:** Adult DM carries a **~3–7× increased cancer risk** (~15–25% of adults with DM). Highest in the 3 years around diagnosis (especially the first year), in those >40, with anti-TIF1-γ/NXP2, rapid onset, dysphagia, cutaneous necrosis, or a poor treatment response; Typical cancers: **ovarian**, **lung**, pancreatic, stomach, colorectal, breast, **non-Hodgkin lymphoma**; **nasopharyngeal** in South-East Asian patients; **IMACS 2023 international guideline** stratifies risk:; **Basic screen for all:** history/exam (incl. breast, pelvic, rectal/prostate, lymph nodes), FBC, LFT, ESR/CRP, SPEP/free light chains, urinalysis, CXR, and **age-appropriate national screening** (cervical, breast, bowel); **Enhanced screen for moderate/high risk:** **CT chest/abdomen/pelvis**, ± mammography, pelvic/transvaginal USS + CA-125, PSA, upper/lower endoscopy, **FDG-PET/CT**; Repeat annually for **3 years** in high-risk patients; Juvenile DM is **not** cancer-associated"
+    ]
+   }
+  ],
+  "differentials": [
+   "**SLE/SCLE** (spares knuckles — lupus favours skin *between* the joints; nasolabial folds spared; less itch), psoriasis (scalp/elbows), seborrhoeic dermatitis, contact/photo-dermatitis (eyelids), rosacea, **drug-induced DM-like eruptions** (hydroxyurea), lichen planus, polymorphic light eruption. For weakness: statin myopathy/**immune-mediated necrotising myopathy (anti-HMGCR)**, hypothyroid myopathy, inclusion-body myositis, steroid myopathy, polymyalgia rheumatica (pain, stiffness, not weakness; normal CK)."
+  ],
+  "management": [
+   {
+    "list": [
+     "**Refer** to dermatology + rheumatology (urgently if weakness, dysphagia, breathlessness or a high CK). Same-day if there is respiratory compromise or difficulty swallowing.",
+     "**Skin:** **strict photoprotection** (broad-spectrum high-UVA sunscreen); potent TCS or **topical tacrolimus** (face); antihistamines for itch; **hydroxychloroquine** — note that drug eruptions to HCQ are more common in DM than in lupus; RCOphth retinal screening applies",
+     "**Systemic (specialist):** high-dose oral prednisolone (~1 mg/kg) ± IV methylprednisolone; steroid-sparing **methotrexate**, azathioprine or **mycophenolate**; **IVIg** (licensed in the UK for DM since 2021 — Octagam 10%); rituximab; JAK inhibitors (emerging, off-label); Anti-MDA5 ILD → combination immunosuppression urgently",
+     "**Pharmacist checklist:** **Steroid Emergency Card**, bone protection (calcium/vitamin D ± bisphosphonate — NOGG), gastroprotection as needed; PJP prophylaxis on combination therapy (specialist); inactivated vaccines (flu, COVID-19, pneumococcal; Shingrix); no live vaccines; methotrexate safety (the [therapeutics](condition:topical-corticosteroids) notes see *Dermatitis herpetiformis*); **review statins** if weakness develops (statin-associated IMNM); support cancer screening appointments"
+    ]
+   },
+   {
+    "h": "Red flags / refer"
+   },
+   "Proximal weakness, **dysphagia/aspiration**, breathlessness/cough (ILD), very high CK, chest pain/palpitations (myocarditis), skin ulceration (MDA5), constitutional symptoms or other cancer red flags (NG12 — urgent cancer pathway).",
+   {
+    "h": "IP scope"
+   },
+   "Recognition, CK/bloods, photoprotection and topical care, safe-prescribing support (steroids, MTX, HCQ shared care), and urgent referral. Diagnosis and immunosuppression are specialist."
+  ],
+  "red_flags": [
+   "Difficulty swallowing, breathlessness or rapidly worsening weakness: **same-day** assessment.",
+   "New dermatomyositis in an adult: screen for **cancer** (NICE NG12 symptoms plus specialist-led screening)."
+  ],
+  "pearls": [
+   "\"**Purple eyelids + knuckle papules + itch = dermatomyositis — check CK and look for cancer.**\"",
+   "A DM rash with \"raised ALT\" may be muscle, not liver — check CK before stopping a statin for \"LFTs\".",
+   "Itchy scalp in a middle-aged woman with eyelid redness: think DM, not just seborrhoeic dermatitis."
+  ]
+ },
+ "photos": [
+  {
+   "title": "Dermatomyositis",
+   "items": [
+    "m1w5:A01",
+    "m1w5:A02",
+    "m1w5:A03",
+    "m1w5:A04",
+    "m1w5:A05",
+    "m1w5:A06"
+   ]
+  }
+ ],
+ "references": [
+  {
+   "label": "DermNet: Adult onset dermatomyositis",
+   "url": "https://dermnetnz.org/topics/adult-onset-dermatomyositis"
+  }
+ ]
+}

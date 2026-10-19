@@ -1,0 +1,103 @@
+{
+ "slug": "leukocytoclastic-vasculitis",
+ "title": "Cutaneous small-vessel (leukocytoclastic) vasculitis",
+ "category": "vasculitis",
+ "status": "published",
+ "order": 2,
+ "module": "Module 1 · Week 4",
+ "aka": [
+  "CSVV",
+  "hypersensitivity vasculitis",
+  "NSAID vasculitis",
+  "palpable purpura",
+  "drug-induced vasculitis"
+ ],
+ "summary": "Crops of palpable purpura on the lower legs, often 1–3 weeks after a drug (such as an NSAID) or infection. Usually skin-limited, but every patient needs a urine and BP check.",
+ "card_image": "m1w4:A01",
+ "glance": {
+  "think": "Symmetrical palpable purpura, sometimes with blisters or small ulcers, on the shins and ankles after a new drug or infection.",
+  "engine": "Immune complexes lodge in small skin vessels, recruit neutrophils and break down (leukocytoclasis).",
+  "backbone": "Stop the trigger; rest, elevation and compression if no arterial disease; analgesia (not the culprit NSAID); dipstick and bloods; refer if systemic or persistent.",
+  "never_miss": "Kidney involvement; IgA vasculitis in children; vasculitis that is part of lupus, ANCA disease or cryoglobulinaemia."
+ },
+ "sections": {
+  "what": [
+   "**Leukocytoclastic vasculitis (LCV)** is the histological term for neutrophil-rich small-vessel vasculitis of dermal post-capillary venules. Clinically, when it is **single-organ**, it is called **cutaneous small-vessel vasculitis (CSVV)**, **hypersensitivity vasculitis** or cutaneous leukocytoclastic angiitis (CHCC). [Case 3](condition:cutaneous-vasculitis-approach) is **drug-induced LCV after an NSAID**."
+  ],
+  "cause": [
+   {
+    "h": "How it is caused"
+   },
+   "Immune complexes (drug–antibody) form and deposit in venules, activating complement and attracting neutrophils.",
+   {
+    "list": [
+     "Drug-induced LCV usually starts **7–21 days** after a new drug (sooner on re-exposure; this case says \"a few days\").",
+     "**Why the legs?**: **gravity/hydrostatic pressure** and **venous stasis** in dependent limbs → slower flow and turbulence in post-capillary venules; so immune complexes deposit more readily; plus cooler peripheral temperature; and tight footwear/socks — the same reason it appears on the buttocks/back in people lying in bed; That is why **bed rest, elevation and support hosiery** help"
+    ]
+   }
+  ],
+  "features": [
+   {
+    "h": "Clinical features & sites"
+   },
+   "**Symmetrical, non-blanching, palpable purpuric papules and macules (1–3 mm), some coalescing**, on the **lower legs/ankles/dorsal feet**, appearing in crops; ± haemorrhagic vesicles, pustules, small necrotic centres or shallow ulcers; ± mild oedema. Burning/itch. Well otherwise."
+  ],
+  "diagnosis": [
+   {
+    "list": [
+     "**3e — the single bedside test: urinalysis** (dipstick for **blood and protein**). It tells you whether the kidneys are involved (systemic vasculitis/IgA nephritis), which changes urgency and management. Measure BP at the same visit.",
+     "**3f — other investigations:** FBC (platelet count — exclude thrombocytopenic purpura; eosinophilia), U&E/eGFR, LFT, CRP/ESR, clotting; **urine ACR/PCR** and microscopy; **ANA, ANCA, C3/C4, RF, cryoglobulins**; **hepatitis B/C, HIV**, ASO/throat swab; **SPEP**/immunofixation; **IgA**; blood cultures if febrile; faecal occult blood if abdominal pain; CXR if respiratory symptoms; **skin biopsy for H&E (LCV) + DIF** (IgA deposition → IgA vasculitis even in adults, with a higher nephritis risk)"
+    ]
+   }
+  ],
+  "differentials": [
+   "IgA vasculitis (HSP — adults, abdominal pain, arthritis, haematuria), urticarial vasculitis, cryoglobulinaemic vasculitis (HCV), ANCA vasculitis (MPA/GPA — renal/lung), vasculitis secondary to CTD (SLE, RA, Sjögren's), septic vasculitis/emboli (endocarditis, meningococcaemia, gonococcaemia), thrombocytopenic purpura (ITP, drug-induced — **NSAIDs rarely cause thrombocytopenia too**), pigmented purpuric dermatosis, stasis/capillaritis, **exercise-induced vasculitis** (\"golfer's vasculitis\" — after long walks in heat), scurvy, Waldenström hypergammaglobulinaemic purpura."
+  ],
+  "management": [
+   {
+    "ol": [
+     "**Stop the NSAID.** Record \"NSAID (name) — cutaneous vasculitis\" and **Yellow Card**. Advise against OTC NSAIDs (ibuprofen, naproxen, aspirin in analgesic doses) until specialist advice clarifies cross-reactivity.",
+     "**Back pain analgesia without NSAIDs (NICE NG59):** exercise/physiotherapy, heat, and — if needed — a short course of a **weak opioid ± paracetamol** (paracetamol alone is not recommended for low back pain in NG59, but may be used as an adjunct). Avoid gabapentinoids for non-specific back pain.",
+     "**General measures:** rest, **leg elevation**, **graduated compression hosiery** (check ABPI/pulses if arterial disease is possible), emollient, potent TCS on symptomatic lesions, antihistamine for itch. Expect resolution in **2–4 weeks**, sometimes with residual pigmentation.",
+     "**Ulcerating/necrotic or persistent (>4 weeks) disease:** specialist — **short oral prednisolone course** (e.g. 0.5 mg/kg tapering over 2–4 weeks), **dapsone** (course teaching; 50–100 mg/day after G6PD check; FBC/LFT/methaemoglobin monitoring), **colchicine** 500 micrograms once–twice daily; immunosuppressants for chronic disease.",
+     "**Monitoring:** clinical (old lesions healing, new crops) + **ESR/CRP**; repeat **urinalysis and BP** at each review (e.g. weekly while active)."
+    ]
+   },
+   {
+    "h": "Red flags / refer"
+   },
+   "Haematuria/proteinuria, raised creatinine, hypertension, systemic symptoms, abdominal pain/GI bleed, haemoptysis, neuropathy, necrosis/ulceration, persistence >4 weeks, recurrence, or positive ANCA/cryoglobulins → urgent specialist (rheumatology/renal/dermatology). Fever + purpura + unwell → same day.",
+   {
+    "h": "IP scope"
+   },
+   "Within IP scope: stop the NSAID, alternative analgesia, urinalysis/bloods, compression and topical care, Yellow Card, and referral. Systemic steroids/dapsone are usually specialist-advised."
+  ],
+  "red_flags": [
+   "Haematuria, proteinuria or rising creatinine: same-day renal advice.",
+   "Necrosis, ulceration or purpura above the waist: consider systemic vasculitis and refer urgently."
+  ],
+  "pearls": [
+   "\"**Drug, legs, palpable purpura, well patient → stop the drug, dip the urine, elevate.**\"",
+   "Warn that **new crops can appear for 1–2 weeks** after stopping the drug."
+  ]
+ },
+ "photos": [
+  {
+   "title": "Small-vessel vasculitis",
+   "items": [
+    "m1w4:A01",
+    "m1w4:A02",
+    "m1w4:A03",
+    "m1w4:A04",
+    "m1w4:A05",
+    "m1w4:A06"
+   ]
+  }
+ ],
+ "references": [
+  {
+   "label": "DermNet: Cutaneous small vessel vasculitis",
+   "url": "https://dermnetnz.org/topics/cutaneous-small-vessel-vasculitis"
+  }
+ ]
+}
