@@ -1,0 +1,226 @@
+{
+ "_note": "Curated v3 overlay (batch 4), condensed from content/conditions/angiokeratoma-fabry.json; full text kept under 'More detail'.",
+ "glance": {
+  "chips": [
+   "Dark red papules",
+   "Usually benign",
+   "Melanoma mimic",
+   "Fabry if many"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "Small **dark red, purple or black papules** on the scrotum or vulva, a limb, or **clustered between umbilicus and knees**."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "**Dilated papillary dermal capillaries** with thickened epidermis; **Fabry disease** is X-linked α-galactosidase A deficiency."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "Reassure typical Fordyce lesions; dermoscopy (dark lacunae); refer a solitary dark lesion if doubt; **enzyme / genetic testing** for possible Fabry."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "**Melanoma mimic**; **Fabry** with burning hand / foot pain, kidney, heart and stroke risk.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "lead": "Dilated vessels under a warty surface.",
+  "points": [
+   "Ectatic papillary dermal vessels + reactive epidermal thickening.",
+   "**Angiokeratoma corporis diffusum** (many, bathing-trunk) → lysosomal storage disease: classically **Fabry** (GLA gene, Gb3 build-up in vessels, kidney, heart, nerves); also fucosidosis, sialidosis."
+  ],
+  "visuals": [
+   {
+    "ai": "v3-angiokeratoma-section.jpg",
+    "caption": "Angiokeratoma: blood-filled dilated vessels just under a thickened epidermis give a small dark red-purple papule.",
+    "alt": "Skin section with dark blood spaces under thick epidermis"
+   }
+  ]
+ },
+ "features": {
+  "lead": "Know the variants.",
+  "points": [
+   "**Solitary / multiple**: adults, legs; dark red-black: **can mimic melanoma**.",
+   "**Fordyce**: older men (scrotum), women (vulva); multiple small purple papules; may bleed.",
+   "**Mibelli**: children / teens, dorsal fingers and toes; chilblains.",
+   "**Circumscriptum**: congenital plaque on a limb.",
+   "**Corporis diffusum**: bathing-trunk → **Fabry**: childhood **acroparaesthesia** (burning hands / feet with heat, exercise, fever), **hypohidrosis**, proteinuria, cardiac / stroke."
+  ],
+  "variants": {
+   "title": "Types to recognise",
+   "items": [
+    {
+     "name": "Fordyce",
+     "t": "Scrotal purple papules.",
+     "where": "Scrotum",
+     "photo": "m2w1:F04"
+    },
+    {
+     "name": "Solitary dark",
+     "t": "Melanoma mimic.",
+     "where": "Leg",
+     "photo": "m2w1:F05",
+     "tone": "danger"
+    },
+    {
+     "name": "Circumscriptum",
+     "t": "Congenital plaque.",
+     "where": "Limb",
+     "photo": "m2w1:F03"
+    },
+    {
+     "name": "Multiple (Fabry?)",
+     "t": "Bathing-trunk cluster.",
+     "where": "Lower trunk",
+     "photo": "m2w1:F06",
+     "tone": "danger"
+    }
+   ]
+  },
+  "photo": "m2w1:F03"
+ },
+ "confirm": {
+  "cols": [
+   {
+    "k": "Dermoscopy",
+    "icon": "search",
+    "points": [
+     "Red-blue **lacunae**, whitish veil, haemorrhagic crusts."
+    ]
+   },
+   {
+    "k": "Biopsy",
+    "icon": "flask",
+    "points": [
+     "If a dark lesion could be melanoma."
+    ]
+   },
+   {
+    "k": "Fabry tests",
+    "icon": "drop",
+    "points": [
+     "α-Gal A activity (males); **GLA gene test** (needed in females); plasma lyso-Gb3; urine protein, eGFR, ECG / echo."
+    ]
+   }
+  ]
+ },
+ "differentials": {
+  "cards": [
+   {
+    "name": "Melanoma / pigmented BCC",
+    "clue": "Dark solitary lesion.",
+    "tone": "danger",
+    "link": "melanoma"
+   },
+   {
+    "name": "Cherry angioma",
+    "clue": "Bright red, dome, older.",
+    "link": "vascular-birthmarks"
+   },
+   {
+    "name": "Venous lake",
+    "clue": "Lip, blanches.",
+    "link": "vascular-birthmarks"
+   },
+   {
+    "name": "Kaposi sarcoma",
+    "clue": "Violaceous plaques; HIV."
+   },
+   {
+    "name": "Pyogenic granuloma",
+    "clue": "Fast, bleeds.",
+    "link": "pyogenic-granuloma"
+   },
+   {
+    "name": "Viral wart",
+    "clue": "Hands; capillary dots.",
+    "link": "viral-warts"
+   }
+  ]
+ },
+ "manage": {
+  "lead": "Reassure, refer the doubtful, test the pattern.",
+  "rungs": [
+   {
+    "k": "Benign",
+    "tone": "base",
+    "points": [
+     "Reassure isolated angiokeratomas; treatment is cosmetic (laser, cautery, excision; not NHS-funded)."
+    ]
+   },
+   {
+    "k": "Doubt",
+    "tone": "refer",
+    "points": [
+     "Uncertain dark lesion → refer (dermoscopy / biopsy); NG12 urgency if 7-point ≥ 3."
+    ]
+   },
+   {
+    "k": "Fabry",
+    "tone": "second",
+    "points": [
+     "Bathing-trunk angiokeratomas, neuropathic pain, sweating problems, proteinuria or early cardiac / stroke history → **Fabry testing**.",
+     "National lysosomal storage centre: enzyme replacement (agalsidase alfa / beta, pegunigalsidase alfa) or oral **migalastat** (amenable mutations); cascade-screen family."
+    ]
+   }
+  ],
+  "limits": [
+   {
+    "k": "Migalastat",
+    "t": "Every other day; no food 2 h before and after."
+   }
+  ]
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "routine",
+    "t": "Many angiokeratomas in a child / young adult with burning hand / foot pain, reduced sweating or proteinuria: test for **Fabry**."
+   },
+   {
+    "when": "urgent",
+    "t": "Solitary changing dark papule you can’t confidently call an angiokeratoma: **possible melanoma**."
+   }
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "chat",
+   "t": "Bleeding scrotal Fordyce lesions are benign, but **ask about other symptoms** (patients are often embarrassed)."
+  },
+  {
+   "icon": "bulb",
+   "t": "Burning hands in childhood + reduced sweating + bathing-trunk papules = think Fabry."
+  },
+  {
+   "icon": "search",
+   "t": "Lacunae on dermoscopy reassure."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Inheritance and enzyme in Fabry?",
+   "a": "X-linked; α-galactosidase A (GLA)."
+  },
+  {
+   "q": "Distribution suggesting Fabry?",
+   "a": "Bathing-trunk (umbilicus to knees)."
+  },
+  {
+   "q": "Test needed in females?",
+   "a": "GLA gene testing (enzyme may be normal)."
+  },
+  {
+   "q": "Migalastat food rule?",
+   "a": "No food 2 hours before and after; every other day."
+  }
+ ]
+}

@@ -1,0 +1,232 @@
+{
+ "_note": "Curated v3 overlay (batch 4), condensed from content/conditions/pyogenic-granuloma.json; full text kept under 'More detail'.",
+ "glance": {
+  "chips": [
+   "Bleeding red lump",
+   "Weeks to grow",
+   "Curette + cautery",
+   "Always histology"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "A **bright-red, shiny, easily bleeding lump** that grew over a few weeks on a finger, lip, gum or face."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "**Reactive proliferation of small blood vessels**, triggered by trauma, pregnancy or drugs (e.g. isotretinoin, some cancer drugs)."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "Pressure for bleeding; refer for **curettage and cautery** and **always send for histology**; pregnancy lesions may resolve after birth."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "**Amelanotic nodular melanoma** and SCC mimicking PG; recurrence if the base isn’t cauterised.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "lead": "Capillaries that overgrow after a trigger.",
+  "points": [
+   "Lobular capillary proliferation, often after minor trauma.",
+   "Hormonal: pregnancy (**granuloma gravidarum** on gums), combined pill.",
+   "**Drugs**: systemic retinoids (isotretinoin, acitretin), **EGFR inhibitors** (nail folds), BRAF / MEK inhibitors, indinavir, ciclosporin, capecitabine, taxanes."
+  ],
+  "visuals": [
+   {
+    "ai": "v3-pyogenic-granuloma-section.jpg",
+    "caption": "Pyogenic granuloma: a glistening red lobular capillary lump on a narrow base that bleeds easily; curettage must include the base, and the specimen always goes to histology.",
+    "alt": "Red lobular polyp on a stalk with a drop of blood"
+   }
+  ]
+ },
+ "features": {
+  "lead": "Red, glistening, friable, fast.",
+  "points": [
+   "Bright red papule or polyp, **5–10 mm**, developing over **weeks**; collarette of scale.",
+   "**Bleeds profusely** with minor trauma.",
+   "Sites: fingers, lips, gums, face, eyelid, **nail folds**.",
+   "Dermoscopy: red homogeneous areas, white ‘rail’ lines, collarette."
+  ],
+  "variants": {
+   "title": "Types to recognise",
+   "items": [
+    {
+     "name": "Lip PG",
+     "t": "Rapidly growing red papule.",
+     "where": "Lip",
+     "photo": "m2w1:F01"
+    },
+    {
+     "name": "Eyelid",
+     "t": "Pedunculated.",
+     "where": "Eyelid",
+     "photo": "m2w1:F02"
+    },
+    {
+     "name": "Week 4",
+     "t": "Pedunculated, friable.",
+     "where": "Finger",
+     "photo": "m2w6:A03"
+    },
+    {
+     "name": "Dermoscopy",
+     "t": "Red clods, white lines.",
+     "where": "Dermoscopy",
+     "photo": "m2w6:A04"
+    }
+   ]
+  },
+  "photo": "m2w6:A01"
+ },
+ "confirm": {
+  "cols": [
+   {
+    "k": "Clinical",
+    "icon": "eye",
+    "points": [
+     "+ dermoscopy."
+    ]
+   },
+   {
+    "k": "Histology",
+    "icon": "flask",
+    "points": [
+     "**Mandatory** after removal: amelanotic melanoma can look identical."
+    ]
+   },
+   {
+    "k": "Drug history",
+    "icon": "pill",
+    "points": [
+     "Retinoids, EGFR / BRAF inhibitors, ciclosporin, pill."
+    ]
+   }
+  ]
+ },
+ "differentials": {
+  "cards": [
+   {
+    "name": "Amelanotic nodular melanoma",
+    "clue": "Adult, non-traumatised site, recurrence, atypical vessels.",
+    "tone": "danger",
+    "link": "melanoma"
+   },
+   {
+    "name": "SCC / keratoacanthoma",
+    "clue": "Keratin, induration.",
+    "link": "squamous-cell-carcinoma"
+   },
+   {
+    "name": "BCC",
+    "clue": "Pearly, arborising vessels.",
+    "link": "basal-cell-carcinoma"
+   },
+   {
+    "name": "Kaposi sarcoma / bacillary angiomatosis",
+    "clue": "HIV context; violaceous."
+   },
+   {
+    "name": "Cherry angioma",
+    "clue": "Older, stable, small.",
+    "link": "vascular-birthmarks"
+   },
+   {
+    "name": "Ingrown-nail granulation",
+    "clue": "Periungual, nail spike.",
+    "link": "paronychia"
+   }
+  ]
+ },
+ "manage": {
+  "lead": "Stop the bleed, then remove with histology.",
+  "rungs": [
+   {
+    "k": "First aid",
+    "tone": "base",
+    "points": [
+     "**Firm pressure 10–15 minutes**; non-adherent dressing."
+    ]
+   },
+   {
+    "k": "Remove",
+    "tone": "refer",
+    "points": [
+     "Refer for **curettage and cautery** (shave / curette + base cautery) **with histology**."
+    ]
+   },
+   {
+    "k": "Drug-induced",
+    "tone": "second",
+    "points": [
+     "Discuss with the prescribing specialist before stopping a cancer drug; specialists may use topical timolol or potent steroid for small periungual lesions.",
+     "Isotretinoin nail-fold granulation: **Yellow Card** + liaise with prescriber."
+    ]
+   },
+   {
+    "k": "Pregnancy",
+    "tone": "first",
+    "points": [
+     "Gum lesions may resolve after birth (dentist-managed)."
+    ]
+   }
+  ],
+  "limits": [
+   {
+    "k": "Silver nitrate / cryo alone",
+    "t": "No specimen, more recurrence: only if diagnosis isn’t in doubt.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "urgent",
+    "t": "Rapidly growing red nodule in an adult, especially **sole, nail unit or > 50**: histology; suspected cancer pathway if atypical (amelanotic melanoma)."
+   },
+   {
+    "when": "routine",
+    "t": "Typical PG: refer for curettage and cautery with histology."
+   }
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "Every ‘PG’ goes to histology."
+  },
+  {
+   "icon": "alert",
+   "t": "Recurrence (up to 15%) or satellites: return, don’t assume benign."
+  },
+  {
+   "icon": "pill",
+   "t": "On isotretinoin? Nail-fold granulation tissue is a known adverse effect."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Why always send histology?",
+   "a": "Amelanotic melanoma can look identical."
+  },
+  {
+   "q": "Usual treatment?",
+   "a": "Curettage and cautery of the base, with histology."
+  },
+  {
+   "q": "Drug classes that trigger PG?",
+   "a": "Systemic retinoids, EGFR / BRAF inhibitors, ciclosporin, some antiretrovirals."
+  },
+  {
+   "q": "Bleeding first aid?",
+   "a": "Firm pressure for 10–15 minutes."
+  }
+ ]
+}

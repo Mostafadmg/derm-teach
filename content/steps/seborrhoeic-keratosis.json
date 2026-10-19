@@ -1,0 +1,232 @@
+{
+ "_note": "Curated v3 overlay (batch 4), condensed from content/conditions/seborrhoeic-keratosis.json; full text kept under 'More detail'.",
+ "glance": {
+  "chips": [
+   "Stuck-on",
+   "Milia-like cysts",
+   "Itchy & changing = score it",
+   "Leser–Trélat"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "A **waxy, warty, stuck-on** brown or tan papule or plaque on the trunk or face in an adult, often many."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "**Benign keratinocyte proliferation** (FGFR3 / PIK3CA); not sun- or HPV-related; not a pre-cancer."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "Diagnose clinically + dermoscopy; reassure; cryotherapy or curettage only if symptomatic (often not NHS-funded)."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "**Melanoma that looks like an SK**; irritated SK mistaken for SCC; **sudden eruption** of many SKs (Leser–Trélat).",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "lead": "A benign clone that thickens and darkens.",
+  "points": [
+   "Activating **FGFR3 / PIK3CA** mutations.",
+   "Lesions thicken, darken, catch on clothing, become **irritated** and itch: the same ‘changing, itchy’ story as melanoma.",
+   "Eruptive SKs: drugs (cytarabine, docetaxel, BRAF inhibitors), after erythroderma; Leser–Trélat link to malignancy is **weak**."
+  ],
+  "visuals": []
+ },
+ "features": {
+  "lead": "Stuck-on, waxy, cracked.",
+  "points": [
+   "Waxy, verrucous, fissured papules / plaques, tan to black; trunk, face, scalp.",
+   "**Irritated SK**: red rim, crust, itch: mimics SCC / melanoma.",
+   "**Dermoscopy**: **milia-like cysts**, **comedo-like openings**, **fissures and ridges** (brain-like), sharp **moth-eaten border**, hairpin vessels.",
+   "Caveat: some SKs are multicoloured; **collision lesions** exist; melanoma can mimic SK."
+  ],
+  "visuals": [
+   {
+    "ai": "v3-sk-stuck-on.jpg",
+    "caption": "Seborrhoeic keratosis: a waxy brown plaque that looks stuck on, with brain-like ridges, white milia-like cysts and dark comedo-like openings.",
+    "alt": "Waxy brown plaque with ridges, white dots and dark pores"
+   }
+  ],
+  "variants": {
+   "title": "Types to recognise",
+   "items": [
+    {
+     "name": "Classic stuck-on",
+     "t": "Waxy warty papule.",
+     "where": "Trunk",
+     "photo": "m2w2:D05"
+    },
+    {
+     "name": "Many SKs",
+     "t": "Older back.",
+     "where": "Back",
+     "photo": "m2w2:D01"
+    },
+    {
+     "name": "Irritated SK",
+     "t": "Red, crusted.",
+     "where": "Trunk",
+     "photo": "m2w2:D06"
+    },
+    {
+     "name": "Flat tan SK",
+     "t": "Like a solar lentigo.",
+     "where": "Face",
+     "photo": "m2w2:D03"
+    },
+    {
+     "name": "Milia-like cysts",
+     "t": "Dermoscopy.",
+     "where": "Dermoscopy",
+     "photo": "m2w2:E01"
+    },
+    {
+     "name": "Brain-like ridges",
+     "t": "Dermoscopy.",
+     "where": "Dermoscopy",
+     "photo": "m2w2:E02"
+    }
+   ]
+  },
+  "photo": "m2w2:D05"
+ },
+ "confirm": {
+  "cols": [
+   {
+    "k": "Score any change",
+    "icon": "gauge",
+    "points": [
+     "**NG12 7-point**: ‘changing’ (2) + itch (1) = **3** → refer unless confidently classic SK on dermoscopy."
+    ]
+   },
+   {
+    "k": "Dermoscopy",
+    "icon": "search",
+    "points": [
+     "Cysts, openings, ridges, moth-eaten border."
+    ]
+   },
+   {
+    "k": "Full skin check",
+    "icon": "eye",
+    "points": [
+     "Look for the ugly duckling."
+    ]
+   }
+  ]
+ },
+ "differentials": {
+  "cards": [
+   {
+    "name": "Melanoma",
+    "clue": "Evolving asymmetry, atypical network, blue-white veil; no cysts or openings.",
+    "tone": "danger",
+    "link": "melanoma",
+    "photo": "m2w2:D02"
+   },
+   {
+    "name": "Pigmented BCC",
+    "clue": "Pearly, leaf-like areas, arborising vessels.",
+    "link": "basal-cell-carcinoma"
+   },
+   {
+    "name": "Solar lentigo",
+    "clue": "Flat, fingerprint pattern.",
+    "link": "solar-lentigines"
+   },
+   {
+    "name": "Viral wart",
+    "clue": "Thrombosed capillaries; younger.",
+    "link": "viral-warts"
+   },
+   {
+    "name": "SCC / Bowen’s",
+    "clue": "Glomerular vessels, tender.",
+    "link": "squamous-cell-carcinoma"
+   },
+   {
+    "name": "Clear cell acanthoma",
+    "clue": "‘String of pearls’ vessels.",
+    "link": "clear-cell-acanthoma"
+   }
+  ]
+ },
+ "manage": {
+  "lead": "Reassure confidently, or refer.",
+  "rungs": [
+   {
+    "k": "Confident SK",
+    "tone": "base",
+    "points": [
+     "Reassure; leaflet; itch: emollient ± short mild steroid."
+    ]
+   },
+   {
+    "k": "Doubt",
+    "tone": "refer",
+    "points": [
+     "Score ≥ 3, dermoscopy suggesting melanoma (NG12 1.7.2), or **any doubt**: refer."
+    ]
+   },
+   {
+    "k": "Removal",
+    "tone": "first",
+    "points": [
+     "Cryo / curettage only if symptomatic (catching, bleeding, inflamed); cosmetic removal usually not NHS-funded."
+    ]
+   }
+  ]
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "urgent",
+    "t": "An ‘SK’ that is changing, has atypical dermoscopy, or stands out from the patient’s other SKs: **possible melanoma**."
+   },
+   {
+    "when": "routine",
+    "t": "Sudden eruption of many SKs with itch: consider internal malignancy (**Leser–Trélat**)."
+   }
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "Lifelong UV exposure (sailors, farmers): full skin check, not just the one lesion."
+  },
+  {
+   "icon": "image",
+   "t": "Monthly photos help answer “is it changing?”"
+  },
+  {
+   "icon": "alert",
+   "t": "Never freeze a pigmented lesion you’re not sure of."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Two dermoscopic SK clues?",
+   "a": "Milia-like cysts and comedo-like openings."
+  },
+  {
+   "q": "Changing itchy pigmented lesion: 7-point score?",
+   "a": "3: suspected cancer pathway unless confidently SK."
+  },
+  {
+   "q": "Leser–Trélat sign?",
+   "a": "Sudden eruption of many SKs (weak malignancy link)."
+  },
+  {
+   "q": "Is SK related to HPV or sun?",
+   "a": "No."
+  }
+ ]
+}

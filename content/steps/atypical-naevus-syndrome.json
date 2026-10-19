@@ -1,0 +1,232 @@
+{
+ "_note": "Curated v3 overlay (batch 4), condensed from content/conditions/atypical-naevus-syndrome.json; full text kept under 'More detail'.",
+ "glance": {
+  "chips": [
+   "Many atypical moles",
+   "Family melanoma",
+   "CDKN2A / pancreas",
+   "Surveillance"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "**Many naevi of varied size and colour** (often > 100), some atypical, ± a **family history of melanoma or pancreatic cancer**."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "Inherited and UV risk (**CDKN2A**, CDK4, BAP1, MC1R) producing a high-naevus phenotype; most melanomas arise **de novo**."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "Refer for **dermatology surveillance** (mole mapping + digital dermoscopy); **clinical genetics** if criteria met; sun protection; whole-skin self-checks."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "Melanoma presenting as an ugly duckling; **pancreatic cancer** in CDKN2A families; BAP1 (uveal melanoma, mesothelioma).",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "lead": "A risk phenotype, sometimes a gene.",
+  "points": [
+   "**FAMMM / CDKN2A** (p16): early, multiple melanomas; **pancreatic cancer** (~15–25% lifetime in some families).",
+   "**BAP1**: cutaneous and **uveal** melanoma, mesothelioma, renal cancer.",
+   "CDK4, telomere genes (POT1…); **MC1R** variants (red hair, freckles).",
+   "> 100 naevi ~7× risk; one first-degree relative ~2×; CDKN2A ~30–70% by 80."
+  ],
+  "visuals": [
+   {
+    "ai": "v3-mole-mapping.jpg",
+    "caption": "High-risk patients are followed with total-body photography and sequential digital dermoscopy so new or changing lesions stand out.",
+    "alt": "Back with many moles beside a camera and dermatoscope"
+   }
+  ]
+ },
+ "features": {
+  "lead": "Count, compare, find the outlier.",
+  "points": [
+   "Many naevi on trunk and limbs, **varied sizes and colours**; atypical: > 5 mm, irregular, variegated.",
+   "Look for the **ugly duckling**.",
+   "Family pointers: onset < 40, multiple primaries, several relatives, pancreatic cancer."
+  ],
+  "visuals": [
+   {
+    "ai": "v3-ugly-duckling.jpg",
+    "caption": "In a person with many moles, compare: the lesion that looks different is the one to worry about.",
+    "alt": "Moles with one outlier ringed"
+   }
+  ],
+  "variants": {
+   "title": "Types to recognise",
+   "items": [
+    {
+     "name": "Many naevi",
+     "t": "Varied size, shape, colour.",
+     "where": "Back",
+     "photo": "m2w4:D01"
+    },
+    {
+     "name": "Atypical naevi",
+     "t": "Mark for comparison.",
+     "where": "Back, flank",
+     "photo": "m2w4:D02"
+    },
+    {
+     "name": "Irregular naevus",
+     "t": "Variable pigment.",
+     "where": "Trunk",
+     "photo": "m2w4:D04"
+    },
+    {
+     "name": "Eccentric dark area",
+     "t": "Dysplastic naevus.",
+     "where": "Trunk",
+     "photo": "m2w4:D05"
+    }
+   ]
+  },
+  "photo": "m2w4:D01"
+ },
+ "confirm": {
+  "cols": [
+   {
+    "k": "Examine",
+    "icon": "eye",
+    "points": [
+     "Full skin, naevus count, dermoscopy."
+    ]
+   },
+   {
+    "k": "Pedigree",
+    "icon": "chat",
+    "points": [
+     "**Three-generation**: melanoma, pancreatic cancer, uveal melanoma, mesothelioma."
+    ]
+   },
+   {
+    "k": "Genetics criteria",
+    "icon": "book",
+    "points": [
+     "≥ 3 melanomas (individual / family), **melanoma + pancreatic cancer**, melanoma + mesothelioma / uveal (BAP1); counselling before testing."
+    ]
+   }
+  ]
+ },
+ "differentials": {
+  "cards": [
+   {
+    "name": "Common naevi, high count",
+    "clue": "Uniform, no atypia."
+   },
+   {
+    "name": "Melanoma",
+    "clue": "Individual changing / outlier lesion.",
+    "tone": "danger",
+    "link": "melanoma"
+   },
+   {
+    "name": "Solar lentigines",
+    "clue": "Flat, sun-exposed, older.",
+    "link": "solar-lentigines"
+   },
+   {
+    "name": "Sporadic multiple melanoma",
+    "clue": "High UV, fair skin, no family pattern."
+   }
+  ]
+ },
+ "manage": {
+  "lead": "Surveillance plus prevention.",
+  "rungs": [
+   {
+    "k": "Refer",
+    "tone": "base",
+    "points": [
+     "**Dermatology** (routine): AMS phenotype, **≥ 2 first-degree relatives with melanoma**, or personal melanoma (NG14).",
+     "**Clinical genetics**: criteria above."
+    ]
+   },
+   {
+    "k": "Specialist surveillance",
+    "tone": "refer",
+    "points": [
+     "Total-body photography + **sequential digital dermoscopy every 3–12 months**; CDKN2A families: pancreatic surveillance programmes (e.g. EUROPAC)."
+    ]
+   },
+   {
+    "k": "Prevention",
+    "tone": "first",
+    "points": [
+     "Shade, UV clothing, hat, **SPF 30–50 reapplied every 2 h**; no sunbeds; no smoking.",
+     "Outdoor workers: employer duties (HSE)."
+    ]
+   },
+   {
+    "k": "Self-checks",
+    "tone": "second",
+    "points": [
+     "Monthly **whole-skin** checks with partner / photos: most AMS melanomas arise de novo."
+    ]
+   }
+  ],
+  "limits": [
+   {
+    "k": "Genetic testing & insurance",
+    "t": "UK Code: insurers can’t require predictive results (except very large policies / Huntington’s)."
+   }
+  ]
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "routine",
+    "t": "Multiple atypical naevi + family history of melanoma: **dermatology surveillance**."
+   },
+   {
+    "when": "routine",
+    "t": "Melanoma and pancreatic cancer in the same family: **clinical genetics** (CDKN2A)."
+   },
+   {
+    "when": "urgent",
+    "t": "Any changing outlier lesion: suspected cancer pathway."
+   }
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "**Most melanomas in AMS arise de novo**, so watch the whole skin, not one mole."
+  },
+  {
+   "icon": "alert",
+   "t": "Ask about pancreatic cancer in the family."
+  },
+  {
+   "icon": "chat",
+   "t": "Arrange genetic counselling before testing."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Cancer linked to CDKN2A besides melanoma?",
+   "a": "Pancreatic adenocarcinoma."
+  },
+  {
+   "q": "BAP1 is linked with which melanoma?",
+   "a": "Uveal (plus mesothelioma, renal cancer)."
+  },
+  {
+   "q": "Do most AMS melanomas arise in existing moles?",
+   "a": "No: most arise de novo."
+  },
+  {
+   "q": "Surveillance tools?",
+   "a": "Total-body photography + sequential digital dermoscopy."
+  }
+ ]
+}

@@ -1,0 +1,246 @@
+{
+ "_note": "Curated v3 overlay (batch 4), condensed from content/conditions/melanocytic-naevi.json; full text kept under 'More detail'.",
+ "glance": {
+  "chips": [
+   "Moles",
+   "Junctional → dermal",
+   "7-point checklist",
+   "Dermoscopy"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "A mole that is **new, changing, itchy or worrying** the patient, or someone with many moles wanting a check."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "**Benign clonal melanocyte proliferations** (often BRAF) driven by genes and childhood sun; they evolve **flat → raised** with age."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "History of change, full skin check, **ugly-duckling** comparison, NICE **7-point** (≥ 3 = suspected cancer pathway); reassure only with confidence (ideally dermoscopy)."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "**Melanoma in a young adult** mistaken for a benign mole; **sunbed use**; reassurance without dermoscopy.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "lead": "Clones that grow, then go to sleep.",
+  "points": [
+   "Acquired naevi: **BRAF V600E**; congenital: **NRAS**; then **oncogene-induced senescence**.",
+   "Number driven by genetics (MC1R, family), **childhood sunburn**, immunosuppression, BRAF inhibitors (eruptive naevi).",
+   "Pregnancy / adolescence: even darkening rather than true growth in most.",
+   "Pigment depth sets colour: black (surface), brown (junction), blue-grey (dermis)."
+  ],
+  "visuals": [
+   {
+    "ai": "v3-naevus-life-cycle.jpg",
+    "caption": "Mole life cycle: junctional (flat, nests at the junction) → compound (slightly raised, junction + dermis) → dermal (soft dome, dermal nests only, may be hair-bearing).",
+    "alt": "Three cross-sections of junctional, compound and dermal naevi"
+   }
+  ]
+ },
+ "features": {
+  "lead": "Common, symmetrical, one or two colours.",
+  "points": [
+   "**Junctional**: flat, uniformly brown, round. **Compound**: slightly raised, may have a flat rim.",
+   "**Dermal**: soft dome, skin-coloured / pink-tan, fine vessels; Miescher (face, firm, hairy), Unna (trunk, raspberry-like).",
+   "**Benign change**: slow elevation with age, lightening, even darkening in pregnancy / adolescence.",
+   "Dermoscopy: **reticular** (network fading at periphery), **globular** (young), homogeneous."
+  ],
+  "variants": {
+   "title": "Types to recognise",
+   "items": [
+    {
+     "name": "Junctional",
+     "t": "Flat, even brown.",
+     "where": "Trunk, limbs",
+     "photo": "m2w4:A01"
+    },
+    {
+     "name": "Compound",
+     "t": "Raised centre.",
+     "where": "Any",
+     "photo": "m2w4:A02"
+    },
+    {
+     "name": "Dermal",
+     "t": "Soft pale dome.",
+     "where": "Face, trunk",
+     "photo": "m2w4:A03"
+    },
+    {
+     "name": "Unna naevus",
+     "t": "Papillomatous.",
+     "where": "Trunk, neck",
+     "photo": "m2w4:A05"
+    },
+    {
+     "name": "Reticular dermoscopy",
+     "t": "Regular fading network.",
+     "where": "Dermoscopy",
+     "photo": "m2w4:B01"
+    },
+    {
+     "name": "Atypical dermoscopy",
+     "t": "Irregular network.",
+     "where": "Dermoscopy",
+     "photo": "m2w4:B05"
+    }
+   ]
+  },
+  "photo": "m2w4:A02"
+ },
+ "confirm": {
+  "cols": [
+   {
+    "k": "History",
+    "icon": "chat",
+    "points": [
+     "Who noticed change, over what time, photos?"
+    ]
+   },
+   {
+    "k": "Score",
+    "icon": "gauge",
+    "points": [
+     "**NG12 weighted 7-point**, ABCDE, ugly duckling."
+    ]
+   },
+   {
+    "k": "Dermoscopy",
+    "icon": "search",
+    "points": [
+     "Trained clinician; photograph with a ruler."
+    ]
+   },
+   {
+    "k": "Biopsy",
+    "icon": "flask",
+    "points": [
+     "Excision (2 mm margin) if melanoma can’t be excluded."
+    ]
+   }
+  ]
+ },
+ "differentials": {
+  "cards": [
+   {
+    "name": "Melanoma",
+    "clue": "Change, asymmetry, multiple colours; EFG nodule.",
+    "tone": "danger",
+    "link": "melanoma",
+    "photo": "m2w4:B05"
+   },
+   {
+    "name": "Seborrhoeic keratosis",
+    "clue": "Stuck-on, waxy.",
+    "link": "seborrhoeic-keratosis"
+   },
+   {
+    "name": "Dermatofibroma",
+    "clue": "Firm, dimples on pinching.",
+    "link": "dermatofibroma"
+   },
+   {
+    "name": "BCC",
+    "clue": "Pink pearly, for a pink dermal naevus.",
+    "link": "basal-cell-carcinoma"
+   },
+   {
+    "name": "Neurofibroma",
+    "clue": "Soft, buttonhole sign.",
+    "link": "other-skin-lumps"
+   }
+  ]
+ },
+ "manage": {
+  "lead": "Score, then decide.",
+  "rungs": [
+   {
+    "k": "7-point checklist",
+    "tone": "base",
+    "points": [
+     "Major (2): change in size, irregular shape, irregular colour. Minor (1): ≥ 7 mm, inflammation, oozing, sensation change.",
+     "**≥ 3 → suspected cancer pathway**; **< 3: still refer if any concern** (a minimum, not a ceiling)."
+    ]
+   },
+   {
+    "k": "Uncertain",
+    "tone": "first",
+    "points": [
+     "Can’t confidently call it benign with dermoscopy → refer (routine / teledermatology) with dermoscopic images and a ruler."
+    ]
+   },
+   {
+    "k": "Cosmetic",
+    "tone": "second",
+    "points": [
+     "Cosmetic removal generally not NHS-funded; specimens always to histology."
+    ]
+   },
+   {
+    "k": "Prevention",
+    "tone": "third",
+    "points": [
+     "No sunbeds (**illegal < 18**); SPF ~2 mg/cm² (6–8 teaspoons whole body), reapply; monthly self-checks with photos."
+    ]
+   }
+  ]
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "urgent",
+    "t": "7-point score **≥ 3** or strong suspicion: suspected cancer pathway."
+   },
+   {
+    "when": "routine",
+    "t": "Ugly duckling or a **new mole after 40**: low threshold to refer."
+   },
+   {
+    "when": "routine",
+    "t": "New / eruptive naevi on immunosuppression or BRAF inhibitors that look atypical."
+   }
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "A score below 3 is **not** reassurance if you’re uncertain."
+  },
+  {
+   "icon": "alert",
+   "t": "Shaved moles can regrow pigment (recurrent naevus) that mimics melanoma."
+  },
+  {
+   "icon": "chat",
+   "t": "“A tan is your skin’s damage response.”"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Referral threshold on the 7-point checklist?",
+   "a": "3 or more (but refer below 3 if concerned)."
+  },
+  {
+   "q": "Mole life cycle?",
+   "a": "Junctional → compound → dermal."
+  },
+  {
+   "q": "Mutation in most acquired naevi?",
+   "a": "BRAF V600E."
+  },
+  {
+   "q": "Can under-18s use sunbeds in the UK?",
+   "a": "No (Sunbeds (Regulation) Act 2010)."
+  }
+ ]
+}

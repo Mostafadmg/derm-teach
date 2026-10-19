@@ -1,0 +1,214 @@
+{
+ "_note": "Curated v3 overlay (batch 4), condensed from content/conditions/melanoma-immunotherapy.json; full text kept under 'More detail'.",
+ "glance": {
+  "chips": [
+   "Checkpoint inhibitors",
+   "BRAF/MEK",
+   "Any organ, any time",
+   "Ring acute oncology"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "A patient on (or recently off) **pembrolizumab, nivolumab, ipilimumab** or **dabrafenib + trametinib** with **any new symptom**."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "Checkpoint inhibitors **release T-cell brakes**, so autoimmune inflammation can hit any organ, even months after stopping."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "Ask **‘are you on cancer treatment?’**; contact the **24-hour acute oncology hotline** rather than treating alone; check interactions."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "**Colitis, pneumonitis, hepatitis, myocarditis, hypophysitis / adrenal crisis, new type 1 diabetes / DKA, SJS / TEN.**",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "lead": "Taking the brakes off the immune system.",
+  "points": [
+   "Anti-PD-1 (pembrolizumab, nivolumab), anti-CTLA-4 (ipilimumab), anti-LAG-3 (relatlimab) unleash T cells against melanoma.",
+   "The same T cells can attack normal organs: **immune-related adverse events (irAEs)**.",
+   "Onset **weeks to months after the first dose, even after stopping**; ipi + nivo: grade 3–4 irAEs in > half.",
+   "BRAF / MEK inhibitors cause a different, drug-specific set."
+  ],
+  "visuals": [
+   {
+    "ai": "v3-checkpoint-release.jpg",
+    "caption": "Checkpoint inhibitor antibodies block the brake on T cells so they can attack melanoma; the same release can inflame normal organs.",
+    "alt": "T cell, blocking antibody and melanoma cell"
+   }
+  ]
+ },
+ "features": {
+  "lead": "irAEs by system.",
+  "points": [
+   "**Gut (colitis)**: diarrhoea ≥ 4 above baseline, blood, pain → **same-day acute oncology**; don’t just give loperamide.",
+   "**Liver**: raised ALT / AST, jaundice. **Lung**: new cough, breathlessness, hypoxia; don’t assume infection.",
+   "**Endocrine**: hypophysitis (headache, fatigue, low sodium), thyroiditis, adrenal insufficiency, **new type 1 diabetes / DKA**: often permanent.",
+   "**Skin**: rash, itch, **vitiligo** (linked with response), lichenoid, bullous pemphigoid; rarely SJS / TEN.",
+   "Kidney (nephritis); **heart (myocarditis)**, myasthenia, myositis: emergency; joints (arthritis).",
+   "**BRAF / MEK**: **pyrexia** (dabrafenib + trametinib), photosensitivity (vemurafenib), new SCC / KA / naevi, QT, LVEF fall, serous retinopathy, hand–foot reaction."
+  ],
+  "visuals": [
+   {
+    "ai": "v3-irae-organ-map.jpg",
+    "caption": "Immune-related adverse events can affect almost any organ: pituitary, thyroid, lungs, heart, liver, adrenals, bowel and skin.",
+    "alt": "Mannequin with highlighted organs"
+   }
+  ]
+ },
+ "confirm": {
+  "cols": [
+   {
+    "k": "Ask",
+    "icon": "chat",
+    "points": [
+     "**“Are you on cancer treatment?”**; alert card + **24-hour hotline** (UKONS triage)."
+    ]
+   },
+   {
+    "k": "Bloods",
+    "icon": "flask",
+    "points": [
+     "TFTs, glucose, cortisol, sodium, LFT, U&E as directed."
+    ]
+   },
+   {
+    "k": "Think also",
+    "icon": "search",
+    "points": [
+     "Infection (e.g. *C. difficile*), other drug reactions, progression."
+    ]
+   }
+  ]
+ },
+ "differentials": {
+  "cards": [
+   {
+    "name": "Infection",
+    "clue": "*C. difficile*, chest infection: but don’t assume."
+   },
+   {
+    "name": "Drug eruption",
+    "clue": "Other new drugs.",
+    "link": "drug-eruption-approach"
+   },
+   {
+    "name": "SJS / TEN",
+    "clue": "Blistering, mucosal erosions: emergency.",
+    "tone": "danger",
+    "link": "drug-induced-blistering"
+   },
+   {
+    "name": "Bullous pemphigoid",
+    "clue": "Tense blisters on immunotherapy.",
+    "link": "bullous-pemphigoid"
+   },
+   {
+    "name": "Vitiligo",
+    "clue": "Depigmentation on anti-PD-1.",
+    "link": "hypopigmentation-skin-of-colour"
+   }
+  ]
+ },
+ "manage": {
+  "lead": "Contact the team; support safely.",
+  "rungs": [
+   {
+    "k": "Contact",
+    "tone": "base",
+    "points": [
+     "**Never start immunosuppression independently**: acute oncology grades and prescribes (ESMO / UKONS).",
+     "Skin grade 1–2: emollient + topical steroid; urgent if blistering / mucosal."
+    ]
+   },
+   {
+    "k": "Steroid stewardship",
+    "tone": "first",
+    "points": [
+     "High-dose steroids: **PPI**, **glucose monitoring**, bone protection if prolonged, **PJP prophylaxis (co-trimoxazole)** if ≥ 20 mg prednisolone ≥ 4 weeks, **steroid emergency card**, sick-day rules."
+    ]
+   },
+   {
+    "k": "BRAF / MEK",
+    "tone": "second",
+    "points": [
+     "**Fever** on dabrafenib + trametinib: interrupt per protocol and call oncology.",
+     "**Dabrafenib induces CYP3A4**: hormonal contraception unreliable (non-hormonal method); warfarin and others: interaction checker.",
+     "Vemurafenib: sun protection; QT-interacting drugs."
+    ]
+   },
+   {
+    "k": "Vaccines & pregnancy",
+    "tone": "third",
+    "points": [
+     "Inactivated vaccines fine; live vaccines: specialist advice.",
+     "Effective contraception during and for months after (e.g. 4 months after pembrolizumab)."
+    ]
+   }
+  ],
+  "limits": [
+   {
+    "k": "Loperamide-and-wait",
+    "t": "Not for diarrhoea on immunotherapy.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "emergency",
+    "t": "Chest pain / suspected myocarditis, DKA, adrenal crisis, SJS / TEN."
+   },
+   {
+    "when": "same-day",
+    "t": "**Diarrhoea, breathlessness, severe headache, chest pain, new thirst / polyuria** on immunotherapy: acute oncology."
+   },
+   {
+    "when": "same-day",
+    "t": "Fever on dabrafenib + trametinib: protocol + oncology team."
+   }
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "“Ring the **hotline**, not the GP’s routine line.” Side-effects are usually treatable if caught early."
+  },
+  {
+   "icon": "eye",
+   "t": "Vitiligo on anti-PD-1 often means a better response: sun-protect the white skin."
+  },
+  {
+   "icon": "clock",
+   "t": "irAEs can start months after the last dose."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Diarrhoea × 5 on nivolumab: action?",
+   "a": "Same-day acute oncology contact; don’t just give loperamide."
+  },
+  {
+   "q": "PJP prophylaxis threshold?",
+   "a": "≥ 20 mg prednisolone for ≥ 4 weeks."
+  },
+  {
+   "q": "Contraception issue with dabrafenib?",
+   "a": "CYP3A4 induction lowers hormonal levels: non-hormonal method."
+  },
+  {
+   "q": "Fever on dabrafenib + trametinib?",
+   "a": "Interrupt per protocol and contact oncology."
+  }
+ ]
+}

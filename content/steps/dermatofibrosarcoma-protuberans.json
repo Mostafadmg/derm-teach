@@ -1,0 +1,201 @@
+{
+ "_note": "Curated v3 overlay (batch 4), condensed from content/conditions/dermatofibrosarcoma-protuberans.json; full text kept under 'More detail'.",
+ "glance": {
+  "chips": [
+   "Low-grade sarcoma",
+   "Trunk plaque",
+   "COL1A1–PDGFB",
+   "Mohs / imatinib"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "A **firm, slowly enlarging plaque** on the trunk or shoulder that later becomes **lumpy (protuberant)**."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "Low-grade fibroblastic sarcoma driven by a **COL1A1–PDGFB** fusion."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "Refer on a **suspected sarcoma / skin-cancer pathway**; deep biopsy; Mohs or wide excision; **imatinib** for inoperable disease."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "**Delayed diagnosis** because it is called a scar, keloid or dermatofibroma for years.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "lead": "A fusion gene that drives PDGF signalling.",
+  "points": [
+   "> 90%: **t(17;22)** (often ring chromosome) → **COL1A1–PDGFB** → autocrine PDGF receptor stimulation (imatinib rationale).",
+   "Histology: storiform spindle cells infiltrating fat (‘honeycomb’); **CD34 +, Factor XIIIa −**."
+  ],
+  "visuals": [
+   {
+    "ai": "v3-dfsp-progression.jpg",
+    "caption": "DFSP over years: a firm scar-like plaque enlarges and later becomes protuberant and multinodular.",
+    "alt": "Three shoulders showing a plaque growing into a nodular mass"
+   }
+  ]
+ },
+ "features": {
+  "lead": "Slow, firm, mistaken for years.",
+  "points": [
+   "Adults 20–50; **trunk (chest, shoulder)**, proximal limbs, head and neck.",
+   "Starts as a firm skin-coloured, pink-violet or brown **indurated plaque** (‘scar’, ‘keloid’, ‘morphoea’, ‘DF’).",
+   "Later **protuberant and multinodular**.",
+   "Variants: pigmented (Bednar), atrophic (morphoea-like), childhood; can mimic keloidal BCC."
+  ],
+  "variants": {
+   "title": "Types to recognise",
+   "items": [
+    {
+     "name": "Early DFSP",
+     "t": "Ill-defined firm plaque.",
+     "where": "Trunk",
+     "photo": "m2w1:B01"
+    },
+    {
+     "name": "A year later",
+     "t": "Enlarging, nodular.",
+     "where": "Trunk",
+     "photo": "m2w1:B02"
+    }
+   ]
+  },
+  "photo": "m2w1:B01"
+ },
+ "confirm": {
+  "cols": [
+   {
+    "k": "Deep biopsy",
+    "icon": "search",
+    "points": [
+     "Incisional / punch **including subcutis** (shave misses it)."
+    ]
+   },
+   {
+    "k": "Pathology",
+    "icon": "flask",
+    "points": [
+     "CD34; FISH / RT-PCR for COL1A1–PDGFB."
+    ]
+   },
+   {
+    "k": "Imaging",
+    "icon": "image",
+    "points": [
+     "MRI for large / recurrent tumours; chest imaging only if fibrosarcomatous / metastatic."
+    ]
+   }
+  ]
+ },
+ "differentials": {
+  "cards": [
+   {
+    "name": "Dermatofibroma",
+    "clue": "Smaller, dimple sign, Factor XIIIa +.",
+    "link": "dermatofibroma"
+   },
+   {
+    "name": "Keloid / hypertrophic scar",
+    "clue": "Injury history: beware a ‘keloid’ without one.",
+    "link": "acne-scars-keloids"
+   },
+   {
+    "name": "Morphoea",
+    "clue": "Ivory sclerotic plaque, lilac edge."
+   },
+   {
+    "name": "Lipoma / epidermoid cyst",
+    "clue": "Soft / punctum.",
+    "link": "lipoma"
+   },
+   {
+    "name": "Other sarcoma / metastasis",
+    "clue": "Rapid, deep."
+   }
+  ]
+ },
+ "manage": {
+  "lead": "IP role: suspicion and referral only.",
+  "rungs": [
+   {
+    "k": "Refer",
+    "tone": "base",
+    "points": [
+     "Enlarging ‘scar’, ‘keloid’ or ‘DF’, > 2–3 cm, or nodular on the trunk → **urgent** dermatology (skin cancer or sarcoma pathway; NG12 sarcoma route if access is slow)."
+    ]
+   },
+   {
+    "k": "Specialist surgery",
+    "tone": "refer",
+    "points": [
+     "**Margin-controlled surgery** (Mohs / slow Mohs) preferred (EORTC / EADO) over WLE with 2–3 cm margins.",
+     "Radiotherapy for positive margins that can’t be re-excised."
+    ]
+   },
+   {
+    "k": "Systemic",
+    "tone": "second",
+    "points": [
+     "**Imatinib** for unresectable / metastatic disease."
+    ]
+   },
+   {
+    "k": "If on imatinib",
+    "tone": "first",
+    "points": [
+     "CYP3A4 interactions; warfarin; caution with high-dose paracetamol."
+    ]
+   }
+  ]
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "urgent",
+    "t": "A ‘dermatofibroma’ or ‘keloid’ that keeps growing, is > ~3 cm or becomes nodular: exclude **DFSP**."
+   }
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "“A keloid **without an injury** is not a keloid until proved otherwise.”"
+  },
+  {
+   "icon": "flask",
+   "t": "DFSP: CD34 +, Factor XIIIa − (DF the reverse)."
+  },
+  {
+   "icon": "search",
+   "t": "Shave biopsy misses it: biopsy deep."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Driver fusion?",
+   "a": "COL1A1–PDGFB (t(17;22))."
+  },
+  {
+   "q": "Targeted drug and why?",
+   "a": "Imatinib: blocks PDGF receptor signalling."
+  },
+  {
+   "q": "Preferred surgery?",
+   "a": "Margin-controlled (Mohs / slow Mohs)."
+  },
+  {
+   "q": "Stain pattern?",
+   "a": "CD34 positive, Factor XIIIa negative."
+  }
+ ]
+}

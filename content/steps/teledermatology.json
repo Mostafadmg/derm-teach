@@ -1,0 +1,180 @@
+{
+ "_note": "Curated v3 overlay (batch 4), condensed from content/conditions/teledermatology.json; full text kept under 'More detail'.",
+ "glance": {
+  "chips": [
+   "Advice & guidance",
+   "Three views",
+   "Dermoscopy",
+   "Never delay 2WW"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "Referring a skin lesion through a **teledermatology or advice-and-guidance** service."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "Images + history are **triaged by a dermatologist**, who can discharge, advise, book surgery directly or fast-track."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "**Three views** (regional, close-up with ruler, polarised in-focus dermoscopy) + full history including change and risk factors + consent."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "**Poor images**, missing dermoscopy, scalp / genital / nail lesions, and **delay** in a suspected melanoma pathway.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "lead": "Images travel; the patient doesn’t have to (yet).",
+  "points": [
+   "NHS England **teledermatology roadmap (2023)**: primary-care advice and guidance; **referral triage** (images on all 2WW skin referrals); community **image capture hubs**; **AI-assisted triage** (HTG746).",
+   "The dermatologist may discharge, advise, list for surgery, or fast-track."
+  ],
+  "visuals": [
+   {
+    "ai": "v3-tele-three-views.jpg",
+    "caption": "Three standard views: regional (where on the body), close-up with a ruler (size and surface), and a polarised, in-focus dermoscopic image of the whole lesion.",
+    "alt": "Three frames: forearm location, close-up with ruler, dermoscopy"
+   }
+  ]
+ },
+ "features": {
+  "lead": "Image standards (BAD / PCDS).",
+  "points": [
+   "**Regional / whole-site** image for anatomical location.",
+   "**Close-up with a ruler / scale.**",
+   "**Dermoscopic image**: polarised, in focus, whole lesion in view.",
+   "Good lighting, no flash glare, plain background, patient ID label, consent, secure storage."
+  ]
+ },
+ "confirm": {
+  "cols": [
+   {
+    "k": "History",
+    "icon": "chat",
+    "points": [
+     "Duration, **change**, symptoms, risk factors (sunburn, sunbeds, family history, immunosuppression), 7-point score."
+    ]
+   },
+   {
+    "k": "Quality",
+    "icon": "image",
+    "points": [
+     "Check focus and framing before sending."
+    ]
+   },
+   {
+    "k": "Tricky sites",
+    "icon": "alert",
+    "points": [
+     "Scalp, genitals, nails: may need face-to-face."
+    ]
+   }
+  ]
+ },
+ "differentials": {
+  "cards": [
+   {
+    "name": "Melanoma pathway",
+    "clue": "Score ≥ 3: 2WW with images.",
+    "link": "melanoma"
+   },
+   {
+    "name": "Changing naevus",
+    "clue": "Dermoscopy essential.",
+    "link": "melanocytic-naevi"
+   },
+   {
+    "name": "SCC",
+    "clue": "Palpate nodes; images can’t.",
+    "link": "squamous-cell-carcinoma"
+   },
+   {
+    "name": "BCC",
+    "clue": "Routine pathway usually.",
+    "link": "basal-cell-carcinoma"
+   }
+  ]
+ },
+ "manage": {
+  "lead": "Know your local pathway.",
+  "rungs": [
+   {
+    "k": "Learn",
+    "tone": "base",
+    "points": [
+     "Local teledermatology pathway and image capture standards.",
+     "IPs in a PCN may capture images if trained."
+    ]
+   },
+   {
+    "k": "Refer",
+    "tone": "first",
+    "points": [
+     "Changing lesion (change = 2 + any other) → 2WW **with images**; specialist arranges excision biopsy."
+    ]
+   },
+   {
+    "k": "Consent",
+    "tone": "second",
+    "points": [
+     "Explain photos may be reviewed first and they may be booked straight for surgery; consent for storage."
+    ]
+   }
+  ],
+  "limits": [
+   {
+    "k": "Poor images",
+    "t": "Refer face to face rather than delay.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "urgent",
+    "t": "Teledermatology must **not delay** a suspected cancer pathway: poor images → refer face to face."
+   }
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "Three views, every time: where, how big, what structure."
+  },
+  {
+   "icon": "chat",
+   "t": "Tell patients they might go straight to surgery."
+  },
+  {
+   "icon": "alert",
+   "t": "An AI or app result never overrides clinical concern."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Three standard views?",
+   "a": "Regional, close-up with ruler, dermoscopic."
+  },
+  {
+   "q": "Dermoscopic image requirements?",
+   "a": "Polarised, in focus, whole lesion in view."
+  },
+  {
+   "q": "Images poor on a suspected melanoma?",
+   "a": "Refer face to face; don’t delay."
+  },
+  {
+   "q": "What must the patient consent to?",
+   "a": "Image capture and storage, and specialist review."
+  }
+ ]
+}

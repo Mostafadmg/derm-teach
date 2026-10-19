@@ -1,0 +1,211 @@
+{
+ "_note": "Curated v3 overlay (batch 4), condensed from content/conditions/actinic-keratoses.json; full text kept under 'More detail'.",
+ "glance": {
+  "chips": [
+   "Gritty, sun-exposed",
+   "Field change",
+   "Cryo / 5-FU / imiquimod",
+   "Exclude SCC"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "**Gritty, scaly, sun-exposed macules** that are easier to feel than see, versus **waxy ‘stuck-on’** seborrhoeic keratoses."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "**AK**: UV-driven keratinocyte dysplasia (**field cancerisation**). **SK**: benign clonal keratinocyte proliferation."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "**Photoprotection for everyone**; single AKs: **cryotherapy**; field change: **5-FU / imiquimod / diclofenac** per local pathway; reassure typical SKs."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "**Tender, enlarging, ulcerated or hypertrophic** lesions: rule out SCC. Irregular pigmented facial ‘lentigo’: **lentigo maligna**.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "lead": "UV writes the field; the AK is the visible part.",
+  "points": [
+   "Cumulative UVB / UVA; fair skin, outdoor work, **immunosuppression** (transplant) raise burden and SCC risk.",
+   "**Actinic cheilitis** = AK of the lip vermilion.",
+   "SK: age-related benign clones; **not premalignant**."
+  ],
+  "visuals": [
+   {
+    "ai": "v3-ak-vs-sk-section.jpg",
+    "caption": "Actinic keratosis (left): flat rough scale over dysplastic epidermis. Seborrhoeic keratosis (right): a waxy brown plaque sitting on the surface with horn cysts.",
+    "alt": "Two skin sections comparing AK and SK"
+   }
+  ]
+ },
+ "features": {
+  "lead": "Feel the AK; see the SK.",
+  "points": [
+   "**AK**: rough **sandpaper scale** on a red base; face, bald scalp, ears, forearms, hands; often multiple.",
+   "**Hypertrophic AK / cutaneous horn**: careful SCC exclusion.",
+   "**SK**: waxy, verrucous, **stuck-on**; milia-like cysts on dermoscopy; trunk and face."
+  ],
+  "visuals": [
+   {
+    "ai": "v3-ak-scalp-field.jpg",
+    "caption": "AKs on a bald scalp: multiple rough patches across the sun-exposed field, often easier to feel with a fingertip than to see.",
+    "alt": "Bald scalp with scattered rough pink patches and a fingertip"
+   }
+  ],
+  "photo": "m6w4:W4C-01"
+ },
+ "confirm": {
+  "cols": [
+   {
+    "k": "Clinical",
+    "icon": "hand",
+    "points": [
+     "Fingertip + dermoscopy."
+    ]
+   },
+   {
+    "k": "Doubt",
+    "icon": "alert",
+    "points": [
+     "Biopsy or **suspected cancer referral** if SCC or melanoma can’t be excluded."
+    ]
+   },
+   {
+    "k": "Never",
+    "icon": "shield",
+    "points": [
+     "Destroy an undiagnosed pigmented lesion with cryo or laser."
+    ]
+   }
+  ]
+ },
+ "differentials": {
+  "cards": [
+   {
+    "name": "SCC",
+    "clue": "Indurated, tender, enlarging, ulcerated.",
+    "tone": "danger",
+    "link": "squamous-cell-carcinoma"
+   },
+   {
+    "name": "Bowen’s disease",
+    "clue": "Persistent scaly plaque.",
+    "link": "squamous-cell-carcinoma"
+   },
+   {
+    "name": "SK",
+    "clue": "Stuck-on waxy vs gritty flat scale.",
+    "link": "seborrhoeic-keratosis"
+   },
+   {
+    "name": "Solar lentigo",
+    "clue": "Flat even brown macule.",
+    "link": "solar-lentigines"
+   },
+   {
+    "name": "Lentigo maligna",
+    "clue": "Irregular facial pigment: urgent pathway.",
+    "tone": "danger",
+    "link": "melanoma"
+   }
+  ]
+ },
+ "manage": {
+  "lead": "Local formulary / CKS themes.",
+  "rungs": [
+   {
+    "k": "Everyone",
+    "tone": "base",
+    "points": [
+     "Daily broad-spectrum **SPF 30–50**, hat, behaviour change; self-check education.",
+     "Emollient to reduce scale."
+    ]
+   },
+   {
+    "k": "Few discrete AKs",
+    "tone": "first",
+    "points": [
+     "**Cryotherapy** (light freeze) in trained hands."
+    ]
+   },
+   {
+    "k": "Field change",
+    "tone": "second",
+    "points": [
+     "Topical **5-fluorouracil**, **imiquimod**, **diclofenac 3% gel**, or PDT via dermatology.",
+     "Counsel: an **inflammatory phase** is expected."
+    ]
+   },
+   {
+    "k": "Lower threshold for dermatology",
+    "tone": "refer",
+    "points": [
+     "Actinic cheilitis; immunosuppressed patients."
+    ]
+   },
+   {
+    "k": "SKs",
+    "tone": "third",
+    "points": [
+     "Reassure when typical; cryo / curettage only if symptomatic or doubtful (often not NHS-funded if cosmetic)."
+    ]
+   }
+  ]
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "urgent",
+    "t": "Possible SCC or melanoma: suspected cancer referral (NG12)."
+   },
+   {
+    "when": "urgent",
+    "t": "Rapidly enlarging tender nodule in an AK field."
+   },
+   {
+    "when": "urgent",
+    "t": "Lip AK with induration or ulceration."
+   }
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "hand",
+   "t": "**Feel with a fingertip**: AKs are gritty."
+  },
+  {
+   "icon": "bulb",
+   "t": "Treat the field, not every spot, once cancer is excluded."
+  },
+  {
+   "icon": "chat",
+   "t": "5-FU / imiquimod look worse before they look better."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Hallmark texture of an AK?",
+   "a": "Rough, gritty ‘sandpaper’ scale."
+  },
+  {
+   "q": "Field-directed options?",
+   "a": "5-FU, imiquimod, diclofenac 3%, PDT."
+  },
+  {
+   "q": "Is an SK premalignant?",
+   "a": "No."
+  },
+  {
+   "q": "Tender thickened AK on the ear?",
+   "a": "Suspect SCC: suspected cancer pathway."
+  }
+ ]
+}

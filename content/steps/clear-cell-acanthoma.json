@@ -1,0 +1,199 @@
+{
+ "_note": "Curated v3 overlay (batch 4), condensed from content/conditions/clear-cell-acanthoma.json; full text kept under 'More detail'.",
+ "glance": {
+  "chips": [
+   "Red dome on the shin",
+   "String of pearls",
+   "Benign",
+   "Exclude amelanotic melanoma"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "A **solitary, slow-growing, red-pink, moist dome** with a collarette of scale on the **shin** of an older adult."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "A benign epidermal tumour of **pale glycogen-rich keratinocytes**; possibly reactive."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "**Dermoscopy**; excision or curettage for diagnosis or symptoms."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "**Amelanotic melanoma**, BCC, SCC and Bowen’s look similar: biopsy if doubt.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "lead": "Pale glycogen-filled cells in a neat plaque.",
+  "points": [
+   "Cause unknown; often on legs with venous stasis or chronic inflammation.",
+   "Histology: sharply demarcated psoriasiform acanthosis of PAS-positive pale cells with intraepidermal neutrophils."
+  ],
+  "visuals": []
+ },
+ "features": {
+  "lead": "Solitary, moist, on the lower leg.",
+  "points": [
+   "**Moist red-brown dome** papule / nodule **5–20 mm** on the lower leg of a middle-aged / older adult.",
+   "Peripheral **collarette** of scale; can bleed.",
+   "Dermoscopy: dotted / glomerular vessels in a **‘string of pearls’** (necklace) arrangement: highly characteristic."
+  ],
+  "visuals": [
+   {
+    "ai": "v3-cca-string-of-pearls.jpg",
+    "caption": "Clear cell acanthoma on dermoscopy: dotted vessels lined up in curving strings like a pearl necklace (Bowen’s has clustered vessels instead).",
+    "alt": "Dermoscopy circle with dotted vessels in curved strings"
+   }
+  ],
+  "variants": {
+   "title": "Types to recognise",
+   "items": [
+    {
+     "name": "Moist red dome",
+     "t": "Solitary, lower leg.",
+     "where": "Shin",
+     "photo": "m2w2:F01"
+    },
+    {
+     "name": "Collarette",
+     "t": "Scaly rim on hairy leg.",
+     "where": "Leg",
+     "photo": "m2w2:F02"
+    },
+    {
+     "name": "Vessels close-up",
+     "t": "Dotted / glomerular.",
+     "where": "Dermoscopy",
+     "photo": "m2w2:F03"
+    }
+   ]
+  },
+  "photo": "m2w2:F01"
+ },
+ "confirm": {
+  "cols": [
+   {
+    "k": "Dermoscopy",
+    "icon": "search",
+    "points": [
+     "‘String of pearls’ vessels."
+    ]
+   },
+   {
+    "k": "Biopsy",
+    "icon": "flask",
+    "points": [
+     "If any doubt."
+    ]
+   }
+  ]
+ },
+ "differentials": {
+  "cards": [
+   {
+    "name": "Amelanotic melanoma",
+    "clue": "Pink lesion you can’t name confidently.",
+    "tone": "danger",
+    "link": "melanoma"
+   },
+   {
+    "name": "Bowen’s disease",
+    "clue": "Glomerular vessels in **clusters**, not strings.",
+    "link": "squamous-cell-carcinoma"
+   },
+   {
+    "name": "Psoriasis plaque",
+    "clue": "Usually multiple, symmetrical.",
+    "link": "psoriasis"
+   },
+   {
+    "name": "Pyogenic granuloma",
+    "clue": "Faster, bleeds.",
+    "link": "pyogenic-granuloma"
+   },
+   {
+    "name": "BCC",
+    "clue": "Pearly, arborising vessels.",
+    "link": "basal-cell-carcinoma"
+   },
+   {
+    "name": "Irritated SK",
+    "clue": "Cysts, openings.",
+    "link": "seborrhoeic-keratosis"
+   }
+  ]
+ },
+ "manage": {
+  "lead": "Refer to confirm.",
+  "rungs": [
+   {
+    "k": "Refer",
+    "tone": "base",
+    "points": [
+     "**Routine** referral to confirm (differential includes amelanotic melanoma and Bowen’s)."
+    ]
+   },
+   {
+    "k": "Specialist / GP surgeon",
+    "tone": "refer",
+    "points": [
+     "Excision, curettage or cryotherapy; recurrence uncommon."
+    ]
+   }
+  ],
+  "limits": [
+   {
+    "k": "Don’t escalate steroid",
+    "t": "A solitary red scaly leg papule not responding to emollient / steroid isn’t necessarily eczema."
+   }
+  ]
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "urgent",
+    "t": "Pink lesion you **cannot confidently name**: exclude **amelanotic melanoma**."
+   },
+   {
+    "when": "routine",
+    "t": "Typical CCA: refer to confirm."
+   }
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "Solitary red scaly leg papule that won’t settle → dermoscopy / biopsy, not stronger steroid."
+  },
+  {
+   "icon": "search",
+   "t": "Strings of pearls = CCA; clusters = Bowen’s."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Classic site?",
+   "a": "Lower leg (shin) of a middle-aged / older adult."
+  },
+  {
+   "q": "Pathognomonic dermoscopy?",
+   "a": "Dotted vessels in a ‘string of pearls’ pattern."
+  },
+  {
+   "q": "Critical differential?",
+   "a": "Amelanotic melanoma."
+  },
+  {
+   "q": "Bowen’s vessel pattern?",
+   "a": "Glomerular vessels in clusters."
+  }
+ ]
+}

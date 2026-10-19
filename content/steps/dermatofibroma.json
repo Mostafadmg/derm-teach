@@ -1,0 +1,217 @@
+{
+ "_note": "Curated v3 overlay (batch 4), condensed from content/conditions/dermatofibroma.json; full text kept under 'More detail'.",
+ "glance": {
+  "chips": [
+   "Firm button",
+   "Dimple sign",
+   "Benign",
+   "DFSP if growing"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "A **firm, pink-brown, button-like papule** on a limb (often a woman’s lower leg) that **dimples when pinched**."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "Benign reactive proliferation of **dermal fibroblasts and histiocytes**, sometimes after a bite or minor injury."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "Clinical diagnosis + dermoscopy; **reassure**; excise only if symptomatic or uncertain (scar, may recur)."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "**DFSP** (growing, > 2–3 cm, trunk), **melanoma** (pigmented or changing), atypical dermoscopy.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "lead": "A little knot of scar-like tissue.",
+  "points": [
+   "Often after an insect bite, folliculitis or shaving nick.",
+   "Fibroblasts and histiocytes trap collagen; overlying epidermis thickens and pigments.",
+   "**Eruptive DFs** (≥ 15 or rapid): SLE, HIV, immunosuppressants, pregnancy.",
+   "Histology: **Factor XIIIa +, CD34 −** (the reverse of DFSP)."
+  ],
+  "visuals": []
+ },
+ "features": {
+  "lead": "Firm, tethered, dimples.",
+  "points": [
+   "Firm dome-shaped pink-brown papule, < 1 cm usually; legs > arms.",
+   "**Dimple (Fitzpatrick) sign**: lateral pinch makes it dip inward.",
+   "May itch; bleeds when shaved.",
+   "Dermoscopy: **fine peripheral network + central white scar-like patch**."
+  ],
+  "visuals": [
+   {
+    "ai": "v3-df-dimple-sign.jpg",
+    "caption": "Dimple sign: squeezing the skin either side of a dermatofibroma makes it sink into a small pit, because it is tethered to the dermis.",
+    "alt": "Fingers pinching leg skin around a small dimpling papule"
+   }
+  ],
+  "variants": {
+   "title": "Types to recognise",
+   "items": [
+    {
+     "name": "Dimple sign",
+     "t": "Lateral pinch → dip.",
+     "where": "Leg",
+     "photo": "m2w1:A01"
+    },
+    {
+     "name": "Typical papule",
+     "t": "Firm pink-brown dome.",
+     "where": "Leg",
+     "photo": "m2w1:A02"
+    },
+    {
+     "name": "Pigmented DF",
+     "t": "Darker rim.",
+     "where": "Arm",
+     "photo": "m2w2:A02"
+    },
+    {
+     "name": "Dermoscopy",
+     "t": "Peripheral network, white centre.",
+     "where": "Dermoscopy",
+     "photo": "m2w1:A03"
+    }
+   ]
+  },
+  "photo": "m2w1:A01"
+ },
+ "confirm": {
+  "cols": [
+   {
+    "k": "Pinch",
+    "icon": "hand",
+    "points": [
+     "Dimple sign."
+    ]
+   },
+   {
+    "k": "Dermoscopy",
+    "icon": "search",
+    "points": [
+     "Peripheral network + central white patch."
+    ]
+   },
+   {
+    "k": "Score change",
+    "icon": "gauge",
+    "points": [
+     "Growth is still a 7-point major feature (2): document."
+    ]
+   }
+  ]
+ },
+ "differentials": {
+  "cards": [
+   {
+    "name": "DFSP",
+    "clue": "Growing plaque > 2–3 cm, trunk; CD34 +.",
+    "tone": "danger",
+    "link": "dermatofibrosarcoma-protuberans"
+   },
+   {
+    "name": "Melanoma",
+    "clue": "Changing pigmented lesion, atypical dermoscopy.",
+    "tone": "danger",
+    "link": "melanoma"
+   },
+   {
+    "name": "Naevus",
+    "clue": "Soft, no dimple.",
+    "link": "melanocytic-naevi"
+   },
+   {
+    "name": "Hypertrophic scar / keloid",
+    "clue": "Injury history.",
+    "link": "acne-scars-keloids"
+   },
+   {
+    "name": "Epidermoid cyst",
+    "clue": "Punctum, mobile.",
+    "link": "skin-cysts"
+   }
+  ]
+ },
+ "manage": {
+  "lead": "Reassure; removal is restricted.",
+  "rungs": [
+   {
+    "k": "Reassure",
+    "tone": "base",
+    "points": [
+     "Explain the pinch test and benign nature; shaving guard if it catches."
+    ]
+   },
+   {
+    "k": "Removal",
+    "tone": "second",
+    "points": [
+     "NHS **Evidence-Based Interventions**: only for diagnostic doubt, recurrent bleeding / infection, function or significant pain.",
+     "Excision scar often bigger than the DF; recurrence if incomplete; cryo / shave leaves white mark (specialist / GP-surgeon decision)."
+    ]
+   },
+   {
+    "k": "Refer",
+    "tone": "refer",
+    "points": [
+     "Routine dermatology if uncertain or symptomatic; eruptive DFs on immunosuppressants: review drugs."
+    ]
+   }
+  ]
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "urgent",
+    "t": "Changing pigmented lesion with atypical dermoscopy: suspected cancer pathway."
+   },
+   {
+    "when": "urgent",
+    "t": "Growing beyond 2–3 cm, irregular, nodular or on the trunk: **DFSP**."
+   }
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "hand",
+   "t": "Teach the pinch test: “a little knot of scar-like tissue”."
+  },
+  {
+   "icon": "flask",
+   "t": "Exam pair: DF Factor XIIIa + / CD34 −; DFSP the reverse."
+  },
+  {
+   "icon": "alert",
+   "t": "Many new DFs: think SLE, HIV, immunosuppression."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Dimple sign?",
+   "a": "Lateral pinch makes the papule dip inward."
+  },
+  {
+   "q": "Classic dermoscopy?",
+   "a": "Peripheral fine network + central white patch."
+  },
+  {
+   "q": "Stain pattern of DF?",
+   "a": "Factor XIIIa positive, CD34 negative."
+  },
+  {
+   "q": "‘DF’ growing to 4 cm on the chest?",
+   "a": "Refer to exclude DFSP."
+  }
+ ]
+}

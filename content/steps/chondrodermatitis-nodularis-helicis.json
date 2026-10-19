@@ -1,0 +1,239 @@
+{
+ "_note": "Curated v3 overlay (batch 4), condensed from content/conditions/chondrodermatitis-nodularis-helicis.json; full text kept under 'More detail'.",
+ "glance": {
+  "chips": [
+   "Painful ear nodule",
+   "Side slept on",
+   "Pressure relief 4–6 weeks",
+   "Biopsy if not settling"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "A **small painful crusted nodule on the helix or antihelix**, worse lying on that side, in an older adult."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "**Pressure on cartilage** with poor blood supply → inflammation and cartilage damage (‘a pressure sore of the ear’)."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "**Pressure-relief pillow / ear protector for 4–6 weeks**; consider potent topical steroid; refer if failing or atypical."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "**SCC or BCC of the ear**; **keratoacanthoma** (rapid crater); **tophaceous gout**.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "lead": "A pressure sore of the ear cartilage.",
+  "points": [
+   "Little padding and poor blood supply over cartilage.",
+   "Sustained pressure (sleeping on one side, headsets, phones, hats, CPAP), cold, sun damage → perichondritis → focal cartilage necrosis that extrudes.",
+   "**One-sided sleeping** (after stroke, arthritis, CPAP)."
+  ],
+  "visuals": [
+   {
+    "ai": "v3-cnh-ear-protector.jpg",
+    "caption": "Chondrodermatitis: a tender crusted nodule on the upper ear rim. First line is offloading with a foam ear protector or pillow with a hole, for at least 4–6 weeks.",
+    "alt": "Ear with a crusted rim nodule beside a foam ring pillow"
+   }
+  ]
+ },
+ "features": {
+  "lead": "Small, crusted, exquisitely tender.",
+  "points": [
+   "Firm round **4–10 mm** nodule with a **central crust, scale or keratin plug**; may ulcerate.",
+   "**Wakes them at night** lying on it; light squeeze → disproportionate pain.",
+   "Helix (men) or antihelix (women), on the **side slept on**.",
+   "Dermoscopy is non-specific: **can’t exclude SCC / BCC**."
+  ],
+  "variants": {
+   "title": "Types to recognise",
+   "items": [
+    {
+     "name": "Helical CNH",
+     "t": "Tender crusted rim nodule.",
+     "where": "Helix",
+     "photo": "m2w2:B01"
+    },
+    {
+     "name": "With erythema",
+     "t": "Upper helix.",
+     "where": "Helix",
+     "photo": "m2w2:B02"
+    },
+    {
+     "name": "Antihelix CNH",
+     "t": "Commoner in women.",
+     "where": "Antihelix",
+     "photo": "m2w2:B03"
+    },
+    {
+     "name": "Gouty tophi",
+     "t": "Chalky white-yellow.",
+     "where": "Ear",
+     "photo": "m2w2:C01"
+    },
+    {
+     "name": "Keratoacanthoma",
+     "t": "Rapid dome with crater.",
+     "where": "Ear",
+     "photo": "m2w2:C02",
+     "tone": "danger"
+    }
+   ]
+  },
+  "photo": "m2w2:B01"
+ },
+ "confirm": {
+  "cols": [
+   {
+    "k": "History",
+    "icon": "chat",
+    "points": [
+     "Which side do they sleep on? Headsets, CPAP?"
+    ]
+   },
+   {
+    "k": "Examine",
+    "icon": "hand",
+    "points": [
+     "Squeeze test; palpate pre-auricular / cervical nodes."
+    ]
+   },
+   {
+    "k": "Biopsy when",
+    "icon": "search",
+    "points": [
+     "Rapid growth, bleeding, induration, > 1 cm, pearly edge, **painless**, no improvement after **6–8 weeks** offloading, immunosuppression, anxiety."
+    ]
+   },
+   {
+    "k": "Urate",
+    "icon": "flask",
+    "points": [
+     "If tophi suspected (not in a flare)."
+    ]
+   }
+  ]
+ },
+ "differentials": {
+  "cards": [
+   {
+    "name": "cSCC",
+    "clue": "Indurated, keratotic / ulcerated, growing; often painless ± node.",
+    "tone": "danger",
+    "link": "squamous-cell-carcinoma"
+   },
+   {
+    "name": "BCC",
+    "clue": "Pearly rolled edge.",
+    "link": "basal-cell-carcinoma"
+   },
+   {
+    "name": "Keratoacanthoma",
+    "clue": "Rapid weeks, central keratin crater.",
+    "tone": "danger",
+    "link": "squamous-cell-carcinoma"
+   },
+   {
+    "name": "AK",
+    "clue": "Rough scale, flat.",
+    "link": "actinic-keratoses"
+   },
+   {
+    "name": "Gouty tophi",
+    "clue": "Chalky, multiple, gout history."
+   },
+   {
+    "name": "Chilblain / relapsing polychondritis",
+    "clue": "Cold, bilateral / whole ear red sparing lobe."
+   }
+  ]
+ },
+ "manage": {
+  "lead": "Offload first, for everyone.",
+  "rungs": [
+   {
+    "k": "Pressure relief",
+    "tone": "base",
+    "points": [
+     "**Foam ear protector** (OTC / online), pillow with a hole or travel pillow; sleep on the other side; remove headset / phone pressure.",
+     "At least a month; recurrence common if offloading stops.",
+     "Analgesia; emollient / protective dressing over the crust."
+    ]
+   },
+   {
+    "k": "Second line",
+    "tone": "second",
+    "points": [
+     "Potent topical steroid; intralesional triamcinolone (trained; atrophy risk) via GP / GPwSI / dermatology."
+    ]
+   },
+   {
+    "k": "Refer",
+    "tone": "refer",
+    "points": [
+     "Failing or atypical: biopsy / surgery (cartilage excision)."
+    ]
+   }
+  ],
+  "limits": [
+   {
+    "k": "Aspirin",
+    "t": "Don’t stop for minor skin surgery (BSDS 2023)."
+   }
+  ]
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "urgent",
+    "t": "Rapidly growing, ulcerating or bleeding ear nodule, or with a nearby node: **suspected SCC** (NG12)."
+   },
+   {
+    "when": "routine",
+    "t": "No improvement after 6–8 weeks of strict offloading: biopsy."
+   }
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "**Very painful at night** → CNH. **Painless and growing** → SCC / KA. Both can coexist."
+  },
+  {
+   "icon": "chat",
+   "t": "Explain it as a pressure sore; adherence to offloading is the key."
+  },
+  {
+   "icon": "pill",
+   "t": "Check immunosuppressant history (azathioprine, ciclosporin): SCC risk."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Typical history?",
+   "a": "Painful ear nodule waking them when lying on that side."
+  },
+  {
+   "q": "First-line treatment?",
+   "a": "Pressure relief (ear protector / pillow with a hole) for 4–6+ weeks."
+  },
+  {
+   "q": "When to biopsy?",
+   "a": "Atypical features or no improvement after 6–8 weeks."
+  },
+  {
+   "q": "Painless rapidly growing crater on the ear?",
+   "a": "SCC / keratoacanthoma: suspected cancer pathway."
+  }
+ ]
+}
