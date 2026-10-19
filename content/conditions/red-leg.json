@@ -1,0 +1,218 @@
+{
+  "slug": "red-leg",
+  "title": "Red leg: differentials & referral",
+  "category": "ulcers-red-leg",
+  "order": 4,
+  "module": "Module 5 · Week 2",
+  "aka": [
+    "red leg",
+    "bilateral cellulitis",
+    "pseudocellulitis",
+    "cellulitis mimics",
+    "stasis dermatitis",
+    "lipodermatosclerosis",
+    "leg ulcer referral",
+    "necrotising fasciitis"
+  ],
+  "summary": "A structured approach to the red leg: is it really cellulitis? Bilateral, chronic, itchy redness is usually venous. Plus a one-table guide to when to refer urgently.",
+  "card_image": "m6w4:W4A-07",
+  "glance": {
+    "think": "Any patient presenting with ‘cellulitis’, especially if both legs are involved, it is chronic or itchy, or there is no fever.",
+    "engine": "Most bilateral red legs are venous (stasis dermatitis, lipodermatosclerosis) or oedema, not infection.",
+    "backbone": "Ask: one leg or two, acute or chronic, fever or not, itch or pain? Treat the actual cause.",
+    "never_miss": "Necrotising fasciitis, sepsis, DVT, critical ischaemia and diabetic foot infection."
+  },
+  "sections": {
+    "what": [
+      "‘Red leg’ is a presentation, not a diagnosis. Up to a third of patients admitted with ‘cellulitis’ turn out to have a **mimic** (pseudocellulitis). This page brings together the Module 5 red-leg teaching and the referral triggers for leg ulcers."
+    ],
+    "cause": [
+      {
+        "table": {
+          "head": [
+            "Clue",
+            "Points towards"
+          ],
+          "rows": [
+            [
+              "**Unilateral, acute, fever or malaise, spreading**",
+              "Cellulitis or erysipelas"
+            ],
+            [
+              "**Bilateral, chronic, itchy, scaly**",
+              "Venous (stasis) eczema"
+            ],
+            [
+              "Painful, woody, red gaiter skin, often bilateral",
+              "Acute lipodermatosclerosis"
+            ],
+            [
+              "Calf swelling and tenderness, less skin redness",
+              "DVT"
+            ],
+            [
+              "Joint-centred, exquisitely tender",
+              "Gout or septic arthritis"
+            ],
+            [
+              "Long history of swelling",
+              "Lymphoedema (with or without a flare)"
+            ],
+            [
+              "Pain out of proportion, rapid spread, toxic",
+              "**Necrotising fasciitis**"
+            ]
+          ]
+        }
+      }
+    ],
+    "features": [
+      "Compare the photos below. Venous eczema is scaly and itchy on **both** legs. Lipodermatosclerosis is indurated and tapering. True cellulitis is hot, tender, **one-sided** and expanding."
+    ],
+    "diagnosis": [
+      {
+        "list": [
+          "Ask: **one leg or two?** Acute or chronic? Fever or rigors? Itch or pain? Is there a portal of entry?",
+          "Mark the border and record observations (NEWS2).",
+          "Wells score with D-dimer or Doppler if DVT is possible.",
+          "Check pulses or ABPI if there is an ulcer, or before compression."
+        ]
+      }
+    ],
+    "differentials": [
+      {
+        "table": {
+          "head": [
+            "Mimic",
+            "Distinguishing clues"
+          ],
+          "rows": [
+            [
+              "Venous eczema / stasis dermatitis",
+              "Bilateral or chronic, itchy, scale, haemosiderin, no fever"
+            ],
+            [
+              "Acute lipodermatosclerosis",
+              "Painful, woody, red skin above the ankle, often misdiagnosed as cellulitis"
+            ],
+            [
+              "DVT",
+              "Calf pain and swelling, less intense redness"
+            ],
+            [
+              "Lymphoedema flare",
+              "Chronic swelling history"
+            ],
+            [
+              "Gout / septic arthritis",
+              "Joint-centred"
+            ],
+            [
+              "Contact dermatitis (e.g. to dressings)",
+              "Itchy, vesicular, matches the area covered"
+            ],
+            [
+              "Necrotising fasciitis",
+              "**Severe pain out of proportion**, rapid progression, systemic toxicity. **ED**"
+            ],
+            [
+              "Pyoderma gangrenosum / vasculitis",
+              "Ulcer edge features, purpura, systemic disease"
+            ]
+          ]
+        }
+      }
+    ],
+    "management": [
+      {
+        "h": "Referral summary (Module 5)"
+      },
+      {
+        "table": {
+          "head": [
+            "Situation",
+            "Action"
+          ],
+          "rows": [
+            [
+              "Suspected necrotising infection or sepsis",
+              "**Immediate ED (999)**"
+            ],
+            [
+              "Facial or orbital cellulitis, or rapidly spreading",
+              "**Urgent, same day**"
+            ],
+            [
+              "Critical limb ischaemia, rest pain or gangrene",
+              "**Urgent vascular**"
+            ],
+            [
+              "Diabetic foot ulcer",
+              "**Urgent diabetic foot pathway (NG19)**"
+            ],
+            [
+              "Suspected PG (painful violaceous undermined ulcer)",
+              "**Urgent dermatology**; avoid debridement"
+            ],
+            [
+              "Leg ulcer not improving, or atypical edge",
+              "Tissue viability plus dermatology or vascular"
+            ],
+            [
+              "Red leg with no fever, bilateral, chronic and itchy",
+              "Rethink: venous eczema. Emollient, topical steroid and compression, **no antibiotic**"
+            ],
+            [
+              "Recurrent cellulitis",
+              "Treat portals of entry; discuss prophylaxis with a clinician"
+            ]
+          ]
+        }
+      },
+      "Cellulitis treatment itself: see [Cellulitis & erysipelas](condition:cellulitis-erysipelas)."
+    ],
+    "red_flags": [
+      "Pain out of proportion, purple bullae, crepitus, or a rapidly spreading area: **necrotising fasciitis**.",
+      "Sepsis signs: low blood pressure, tachycardia, confusion, mottling.",
+      "A cold, pulseless or ischaemic limb.",
+      "A diabetic foot that is hot, red or ulcerated."
+    ],
+    "pearls": [
+      "**Bilateral ‘cellulitis’ is rarely infection.**",
+      "Venous eczema responds to emollient plus a topical steroid and compression (after ABPI). Antibiotics do nothing for it.",
+      "Recurrent ‘cellulitis’ in the same leg may be lipodermatosclerosis. Look at the whole leg history."
+    ]
+  },
+  "photos": [
+    {
+      "title": "True infection: cellulitis",
+      "items": [
+        "m5w2:Q01",
+        "E07"
+      ]
+    },
+    {
+      "title": "Mimics: venous eczema and lipodermatosclerosis",
+      "items": [
+        "m6w4:W4A-07",
+        "m6w4:W4A-08",
+        "m5w2:P03"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "label": "DermNet: Cellulitis mimics",
+      "url": "https://dermnetnz.org/topics/cellulitis-mimics"
+    },
+    {
+      "label": "NICE NG141: Cellulitis and erysipelas",
+      "url": "https://www.nice.org.uk/guidance/ng141"
+    },
+    {
+      "label": "NICE NG19: Diabetic foot",
+      "url": "https://www.nice.org.uk/guidance/ng19"
+    }
+  ],
+  "status": "published"
+}

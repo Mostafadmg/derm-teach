@@ -1,0 +1,273 @@
+{
+  "title": "Scabies",
+  "aka": [
+    "scabies",
+    "Sarcoptes",
+    "burrows",
+    "permethrin",
+    "malathion",
+    "ivermectin",
+    "crusted scabies",
+    "Norwegian scabies"
+  ],
+  "category": "viral-infestations",
+  "order": 2,
+  "module": "Module 5 · Week 3",
+  "summary": "Burrows, nocturnal itch and itchy contacts. Treat the whole household with permethrin or malathion, and never miss crusted scabies.",
+  "card_image": "m5w3:T01",
+  "glance": {
+    "think": "Generalised itch worse at night, itchy household contacts, and burrows in web spaces, wrists or genitals.",
+    "engine": "Sarcoptes scabiei burrows in the stratum corneum; itch is delayed type IV hypersensitivity to mites, eggs and faeces.",
+    "backbone": "Permethrin 5% cream (or malathion 0.5%) whole body, repeat after 7 days, for every close contact on the same night.",
+    "never_miss": "Crusted (Norwegian) scabies in a frail or immunosuppressed person: urgent specialist referral the same day."
+  },
+  "sections": {
+    "what": [
+      "Scabies is an intensely itchy infestation with the human itch mite **Sarcoptes scabiei**. It occurs at all ages and social backgrounds. UK clusters are common in households, care homes, nurseries and student halls.",
+      "**Classical scabies** usually involves only about 10–15 mites per person. **Crusted (Norwegian) scabies** is a hyperinfestation with thousands to millions of mites and is highly contagious.",
+      {
+        "callout": "info",
+        "title": "Not a hygiene failure",
+        "text": "Reassure patients: scabies is not caused by poor hygiene. Keep consultations confidential and stigma-aware."
+      }
+    ],
+    "cause": [
+      {
+        "list": [
+          "Spread is mainly by **prolonged skin-to-skin contact** (household, sexual, carer–patient). Brief handshakes rarely transmit it. Fomites matter more in crusted disease.",
+          "The fertilised female burrows into the stratum corneum and lays eggs. Larvae hatch in about 3–4 days and mature in about 10–14 days. Off the host, mites usually die within a few days.",
+          "**Itch is delayed hypersensitivity.** At first infestation it starts about **3–6 weeks** later; on re-infestation within 1–3 days. People can transmit before they itch, so asymptomatic contacts still need treatment.",
+          "**Crusted scabies** occurs when the host cannot mount an effective immune or scratch response (frailty, dementia, learning disability, neurological disease, immunosuppression, or potent topical steroids)."
+        ]
+      }
+    ],
+    "features": [
+      {
+        "table": {
+          "head": [
+            "Feature",
+            "What you see"
+          ],
+          "rows": [
+            [
+              "Symptom",
+              "Generalised itch, often worse at night and after a warm bath; contacts itchy too"
+            ],
+            [
+              "Burrows (pathognomonic)",
+              "Short wavy greyish threads (2–10 mm), sometimes with a vesicle; mite at the leading end"
+            ],
+            [
+              "Secondary eruption",
+              "Excoriated papules and eczematised patches, often away from the burrows"
+            ],
+            [
+              "Nodules",
+              "Itchy red-brown nodules in axillae, groin, penis/scrotum; may persist weeks after cure"
+            ],
+            [
+              "Infants",
+              "Palms, soles, face and scalp can be involved; irritability"
+            ],
+            [
+              "Older adults",
+              "Few signs, atypical distribution; back involvement; care-home crusted disease"
+            ]
+          ]
+        }
+      },
+      "**Typical sites:** finger web spaces, flexor wrists, elbows, axillae, nipples, beltline, buttocks, genitalia and feet. Head and neck are usually spared in healthy adults but not in infants, older adults or immunocompromised people.",
+      {
+        "callout": "tip",
+        "title": "Skin of colour",
+        "text": "Erythema is less obvious. Papules and nodules look violaceous or hyperpigmented; post-inflammatory pigmentation is common."
+      },
+      {
+        "callout": "danger",
+        "title": "Red flag: crusted scabies",
+        "text": "Thick grey-yellow hyperkeratotic crusts on hands, feet, scalp or trunk; itch may be mild or absent. Refer urgently the same day. Combination oral ivermectin plus topical scabicide, isolation and outbreak control are needed."
+      }
+    ],
+    "diagnosis": [
+      "Diagnosis is **clinical** in most primary-care cases: nocturnal itch plus itchy contacts plus typical sites plus burrows.",
+      {
+        "list": [
+          "**Burrow ink test:** rub washable ink over a suspected burrow, wipe with alcohol; ink tracks the burrow.",
+          "**Dermoscopy:** dark triangular “delta-wing jet” (mite head/forelegs) at the end of the burrow “contrail”.",
+          "**Skin scraping** for microscopy (mites, eggs, scybala) when available.",
+          "Offer an **STI screen** when scabies seems sexually acquired; refer to GUM for partner notification if needed.",
+          "Refer if diagnosis uncertain, treatment fails despite correct use and simultaneous contact treatment, age under 2 months, crusted disease, or an institutional outbreak."
+        ]
+      }
+    ],
+    "differentials": [
+      {
+        "table": {
+          "head": [
+            "Look-alike",
+            "Distinguishing clues"
+          ],
+          "rows": [
+            [
+              "Atopic eczema",
+              "Flexural history and atopy; no burrows; contacts not itchy"
+            ],
+            [
+              "Papular urticaria / insect bites",
+              "Grouped papules on exposed sites; pets or bed bugs; no burrows"
+            ],
+            [
+              "Dermatitis herpetiformis",
+              "Grouped vesicles on elbows, knees, buttocks; coeliac link"
+            ],
+            [
+              "Pompholyx",
+              "Deep palm/finger vesicles; no trunk or genital papules"
+            ],
+            [
+              "Body lice",
+              "Lice/eggs in clothing seams; poor housing or homelessness"
+            ],
+            [
+              "Crusted look-alikes",
+              "Psoriasis or hyperkeratotic eczema — scrape “psoriasis” in a care home"
+            ]
+          ]
+        }
+      }
+    ],
+    "management": [
+      {
+        "h": "Self-care / OTC"
+      },
+      {
+        "list": [
+          "**Permethrin 5% cream** is a Pharmacy medicine for ages 2 months and over. Supply enough for **two applications for every person** treated at the same time.",
+          "Do not put topical steroid on undiagnosed itch before scabicide treatment — it can mask scabies or encourage crusted disease.",
+          "Avoid repeated excessive applications; they irritate and are a common cause of “failure” itch."
+        ]
+      },
+      {
+        "h": "First-line treatment (NICE CKS / BNF)"
+      },
+      {
+        "table": {
+          "head": [
+            "Option",
+            "How to use",
+            "Notes"
+          ],
+          "rows": [
+            [
+              "Permethrin 5% cream (first-line)",
+              "Cool dry skin, whole body from neck down including webs, under nails, genitals and soles. Include scalp/face/neck/ears (avoid eyes/mouth) if under 2, aged ≥65, immunocompromised, or lesions there. Leave 8–12 h; reapply to washed hands. **Repeat after 7 days.**",
+              "OK in pregnancy and breastfeeding. ~30 g per adult application."
+            ],
+            [
+              "Malathion 0.5% aqueous liquid",
+              "Whole body, leave 24 h; repeat after 7 days. Aqueous (not alcohol) if eczema/asthma.",
+              "Alternative if permethrin allergy or intolerance; ≥6 months."
+            ],
+            [
+              "Oral ivermectin 200 micrograms/kg",
+              "With food; single dose repeated after 7 days.",
+              "CKS alternative (e.g. if eczema reacts to topicals). Avoid in pregnancy, breastfeeding and <15 kg. Check local formulary."
+            ]
+          ]
+        }
+      },
+      {
+        "h": "Contacts, laundry and return to school"
+      },
+      {
+        "list": [
+          "**Treat everyone at the same time** — household, sexual partners (past month), carers and regular sleep-over contacts — symptomatic or not.",
+          "On day 1: hot-wash and hot-tumble bedding, towels and recent clothing, or bag unwashables for **3–4 days**. Classical scabies does not need fumigation.",
+          "Children can return to school or nursery **after the first treatment** (UKHSA)."
+        ]
+      },
+      {
+        "h": "After treatment: post-scabetic itch"
+      },
+      {
+        "list": [
+          "Warn that itch and rash can last **2–4 weeks** (nodules longer). This is hypersensitivity, not failure.",
+          "Crotamiton 10%, hydrocortisone 1% once mites are eradicated, emollients, and a night-time sedating antihistamine if sleep is poor.",
+          "Review if itch lasts >2–4 weeks after the last application or if **new burrows** appear — check technique and contacts before re-treating."
+        ]
+      },
+      {
+        "callout": "warn",
+        "title": "Always check BNF / SmPC",
+        "text": "Doses, age limits and pregnancy advice change. Confirm current BNF and local formulary before prescribing."
+      }
+    ],
+    "red_flags": [
+      "Suspected **crusted scabies** → same-day specialist advice; isolation and outbreak control in care homes.",
+      "Infant **under 2 months** → paediatric dermatology advice.",
+      "Treatment failure after two correctly applied courses with all contacts treated.",
+      "Significant secondary infection, systemic illness, or diagnostic uncertainty."
+    ],
+    "pearls": [
+      "**Treat the household, not the patient.** Agree one treatment night for everyone.",
+      "Itch will not stop immediately — saying so prevents over-application and irritant dermatitis.",
+      "Cut nails short; apply cream under nails; reapply to hands after every wash; mittens on infants.",
+      "**Fire risk:** paraffin-containing products on clothing or bedding can catch fire easily — keep away from naked flames.",
+      "Pregnancy: permethrin first choice; malathion alternative; avoid ivermectin.",
+      "Care homes: think crusted scabies in any resident with “psoriasis” or “eczema” plus itchy staff."
+    ]
+  },
+  "photos": [
+    {
+      "title": "Classic scabies: burrows, web spaces, genital and axillary papules",
+      "items": [
+        "m5w3:T01",
+        "m5w3:T02",
+        "m5w3:T03",
+        "m5w3:T04",
+        "m5w3:T05",
+        "m5w3:T06",
+        "m5w3:T07",
+        "m5w3:T08",
+        "m5w3:T09",
+        "m5w3:T10"
+      ]
+    },
+    {
+      "title": "Red flag: crusted scabies",
+      "tone": "danger",
+      "items": [
+        "m5w3:T11",
+        "m5w3:T12"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "label": "NICE CKS: Scabies",
+      "url": "https://cks.nice.org.uk/topics/scabies/"
+    },
+    {
+      "label": "PCDS: Scabies",
+      "url": "https://www.pcds.org.uk/clinical-guidance/scabies"
+    },
+    {
+      "label": "DermNet: Scabies",
+      "url": "https://dermnetnz.org/topics/scabies"
+    },
+    {
+      "label": "DermNet: Crusted scabies",
+      "url": "https://dermnetnz.org/topics/crusted-scabies"
+    },
+    {
+      "label": "NHS: Scabies",
+      "url": "https://www.nhs.uk/conditions/scabies/"
+    },
+    {
+      "label": "BNF: Permethrin / malathion",
+      "url": "https://bnf.nice.org.uk/"
+    }
+  ],
+  "slug": "scabies",
+  "status": "published"
+}

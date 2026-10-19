@@ -1,0 +1,192 @@
+{
+  "title": "Papular urticaria & insect bites",
+  "aka": [
+    "papular urticaria",
+    "insect bite hypersensitivity",
+    "flea bites",
+    "bed bugs",
+    "Cimex",
+    "breakfast lunch dinner"
+  ],
+  "category": "viral-infestations",
+  "order": 6,
+  "module": "Module 5 · Week 3",
+  "summary": "Recurrent itchy grouped papules from flea, mite or bed-bug hypersensitivity. Treat the source (pets, home, pest control) as well as the itch.",
+  "card_image": "m5w3:X01",
+  "glance": {
+    "think": "Crops of very itchy firm papules in clusters or lines, often on a child’s legs or on exposed sleep sites — only one household member may react.",
+    "engine": "Immediate and delayed hypersensitivity to arthropod saliva; new bites can flare old lesions. Children usually desensitise over time.",
+    "backbone": "Eradicate the source (vet flea products + vacuum / professional bed-bug control) plus short topical steroid and antihistamine.",
+    "never_miss": "Anaphylaxis pathways for systemic allergy; fever after bites abroad; do not antibiotic-treat ordinary itchy redness lasting up to ~10 days."
+  },
+  "sections": {
+    "what": [
+      "Papular urticaria is a **chronic or recurrent eruption of intensely itchy grouped papules** (± vesicles). It is a hypersensitivity reaction to arthropod bites — most often **fleas**, mites, **bed bugs**, mosquitoes and gnats. Despite the name it is **not true urticaria** (lesions last days, not hours). It is commonest in children aged about 2–10."
+    ],
+    "cause": [
+      {
+        "list": [
+          "Arthropod saliva triggers type I and type IV hypersensitivity. Bites are often unnoticed; reactions arrive hours to days later.",
+          "**Cat fleas** are the commonest fleas biting UK humans (even in dog-only homes). The home holds most of the eggs/larvae/pupae.",
+          "**Bed bugs** hide in mattress seams and feed at night; linked to travel and second-hand furniture.",
+          "Most children grow out of it as they desensitise."
+        ]
+      }
+    ],
+    "features": [
+      {
+        "list": [
+          "Firm red itchy papules 3–10 mm, sometimes with a punctum, vesicle or blister; excoriation and later pigmentation are common.",
+          "Grouping in clusters or lines of three (“breakfast, lunch and dinner”).",
+          "Seasonal spring–autumn for fleas/outdoor insects; bed bugs all year."
+        ]
+      },
+      {
+        "table": {
+          "head": [
+            "Source",
+            "Clues"
+          ],
+          "rows": [
+            [
+              "Fleas",
+              "Lower legs/ankles, waistband; pets; often only one person reacts; new house can awaken pupae"
+            ],
+            [
+              "Bed bugs",
+              "Face, neck, arms (exposed in bed); linear clusters; blood/faecal spots on sheets; travel"
+            ],
+            [
+              "Mosquitoes/midges",
+              "Exposed outdoor sites; seasonal"
+            ]
+          ]
+        }
+      }
+    ],
+    "diagnosis": [
+      "Clinical from morphology, grouping and history (pets, new house, travel, season). Find the source: flea-comb pets, inspect mattress seams. Investigations are rarely needed. Explain that only the sensitised person reacts."
+    ],
+    "differentials": [
+      {
+        "table": {
+          "head": [
+            "Look-alike",
+            "Distinguishing clues"
+          ],
+          "rows": [
+            [
+              "Scabies",
+              "Web spaces, wrists, genitals, burrows; whole household itchy"
+            ],
+            [
+              "Acute urticaria",
+              "Wheals fade within 24 h; no crusted papules"
+            ],
+            [
+              "Chickenpox",
+              "Fever; crops at different stages including scalp"
+            ],
+            [
+              "Molluscum",
+              "Pearly umbilicated; minimally itchy"
+            ],
+            [
+              "Delusional infestation",
+              "Conviction of infestation without confirming insects or lesions"
+            ]
+          ]
+        }
+      }
+    ],
+    "management": [
+      {
+        "h": "1. Eradicate the source"
+      },
+      {
+        "list": [
+          "**Fleas:** veterinary flea products for **all** pets; hot-wash bedding; vacuum thoroughly; household IGR spray for weeks.",
+          "**Bed bugs:** council pest control or BPCA/NPTA professional firm — home sprays rarely suffice.",
+          "Outdoor: clothing and DEET-type repellent."
+        ]
+      },
+      {
+        "h": "2. Symptom control"
+      },
+      {
+        "list": [
+          "Cool compresses, short nails, soap and water.",
+          "Non-sedating antihistamine by day; short sedating antihistamine at night if sleep is poor (check age licence).",
+          "Short mild-to-moderate **topical corticosteroid** on new itchy spots (potent short courses only on thick adult lesions)."
+        ]
+      },
+      {
+        "h": "3. Secondary infection"
+      },
+      {
+        "list": [
+          "Most bites do **not** need antibiotics — redness and itch can last ~10 days.",
+          "If spreading cellulitis/impetigo: flucloxacillin first-line (NICE NG182); Pharmacy First pathway for infected insect bites (England, age ≥1) within PGD rules."
+        ]
+      }
+    ],
+    "red_flags": [
+      "Anaphylaxis or ABC compromise → emergency.",
+      "Systemically unwell, spreading cellulitis, immunocompromised with infection, bites in mouth/throat or around eyes.",
+      "Bites abroad with fever or persistent exotic lesion.",
+      "Atypical persistent eruption or suspected delusional infestation → GP/dermatology."
+    ],
+    "pearls": [
+      "**The pet may look fine — the house is the reservoir.**",
+      "Antihistamines and steroids control symptoms; recurrences stop only when the source is gone.",
+      "Bed bug vs flea: sleep-exposed sites and linen spots vs ankles/pets.",
+      "Avoid long-term potent steroids and antibiotics without infection."
+    ]
+  },
+  "photos": [
+    {
+      "title": "Papular urticaria pattern",
+      "items": [
+        "m5w3:X01",
+        "m5w3:X02",
+        "m5w3:X03",
+        "m5w3:X04"
+      ]
+    },
+    {
+      "title": "Flea vs bed-bug clues",
+      "items": [
+        "m5w3:X05",
+        "m5w3:X06",
+        "m5w3:X07",
+        "m5w3:X08",
+        "m5w3:X09",
+        "m5w3:X10"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "label": "NICE CKS: Insect bites and stings",
+      "url": "https://cks.nice.org.uk/topics/insect-bites-stings/"
+    },
+    {
+      "label": "NICE NG182: Insect bites antimicrobial prescribing",
+      "url": "https://www.nice.org.uk/guidance/ng182"
+    },
+    {
+      "label": "PCDS: Papular urticaria",
+      "url": "https://www.pcds.org.uk/clinical-guidance/papular-urticaria"
+    },
+    {
+      "label": "DermNet: Papular urticaria",
+      "url": "https://dermnetnz.org/topics/papular-urticaria"
+    },
+    {
+      "label": "DermNet: Bed bugs",
+      "url": "https://dermnetnz.org/topics/bed-bugs"
+    }
+  ],
+  "slug": "papular-urticaria-bites",
+  "status": "published"
+}

@@ -1,0 +1,173 @@
+{
+  "slug": "viral-warts",
+  "title": "Viral warts (HPV)",
+  "category": "viral-infestations",
+  "order": 1,
+  "module": "Module 5 · Week 1",
+  "aka": [
+    "warts",
+    "verruca",
+    "verrucae",
+    "plantar wart",
+    "common wart",
+    "plane warts",
+    "filiform wart",
+    "periungual wart",
+    "HPV",
+    "salicylic acid",
+    "cryotherapy"
+  ],
+  "summary": "Benign HPV-driven epidermal growths. Most clear on their own. Salicylic acid is the community first line, cryotherapy is clinic-based, and refer the immunosuppressed and anything atypical.",
+  "card_image": "m5w1:L01",
+  "glance": {
+    "think": "A rough, hyperkeratotic papule with black dots (thrombosed capillaries) that interrupts the skin lines, on hands, feet or around the nails.",
+    "engine": "Cutaneous HPV infects basal keratinocytes and causes hyperkeratosis. Spread is by contact, fomites and autoinoculation.",
+    "backbone": "Reassure (many resolve), or salicylic acid daily after paring for 8–12 weeks, with or without cryotherapy.",
+    "never_miss": "A rapidly growing or ulcerating ‘wart’, especially in an immunosuppressed patient, may be SCC. Refer."
+  },
+  "sections": {
+    "what": [
+      "Viral warts (verrucae) are very common **benign** growths of the epidermis caused by cutaneous **human papillomavirus (HPV)**. This page covers **cutaneous** warts. Anogenital warts belong to sexual health and are counselled separately."
+    ],
+    "cause": [
+      {
+        "list": [
+          "HPV is a double-stranded DNA virus. Common cutaneous types are **1, 2, 3, 4, 10, 27, 29 and 57**.",
+          "It infects **basal keratinocytes**, producing hyperkeratosis and new virus particles.",
+          "Spread is by skin-to-skin contact, fomites (swimming pools, changing rooms), and **autoinoculation**. A line of warts along a scratch is the pseudo-Koebner phenomenon.",
+          "Incubation takes weeks to months. The wart burden is higher with dermatitis or **immunosuppression** (transplant, HIV)."
+        ]
+      }
+    ],
+    "features": [
+      {
+        "table": {
+          "head": [
+            "Type",
+            "Features",
+            "Sites"
+          ],
+          "rows": [
+            [
+              "Common (verruca vulgaris)",
+              "Rough hyperkeratotic papules; black or red dots are thrombosed capillaries",
+              "Hands, knees, around the nails"
+            ],
+            [
+              "Plantar",
+              "Inward-growing and painful (myrmecia), or clustered ‘mosaic’ warts; **interrupt the skin lines**",
+              "Soles"
+            ],
+            [
+              "Plane (plana)",
+              "Flat-topped, skin-coloured, often numerous; spread by shaving",
+              "Face, backs of hands, shins"
+            ],
+            [
+              "Filiform / digitate",
+              "Thin fronds on a narrow base",
+              "Face"
+            ],
+            [
+              "Periungual / subungual",
+              "Around or under the nail; risk of nail dystrophy",
+              "Nail folds"
+            ]
+          ]
+        }
+      }
+    ],
+    "diagnosis": [
+      {
+        "list": [
+          "**Clinical.** Paring reveals pinpoint bleeding or black dots. Dermoscopy helps.",
+          "**Plantar wart vs corn:** a wart is tender when **squeezed from the sides**. A corn is tender on **direct pressure**, and the skin lines run through it.",
+          "**Biopsy** if SCC is a concern, especially in immunosuppressed patients."
+        ]
+      }
+    ],
+    "differentials": [
+      {
+        "table": {
+          "head": [
+            "Look-alike",
+            "Distinguishing clues"
+          ],
+          "rows": [
+            [
+              "Corn / callus",
+              "At a pressure site; skin lines continue through it; no capillary dots"
+            ],
+            [
+              "Seborrhoeic keratosis",
+              "‘Stuck-on’ appearance in an older adult"
+            ],
+            [
+              "SCC / keratoacanthoma",
+              "Rapid growth, ulceration or tenderness, often in an older or immunosuppressed patient. **Refer**"
+            ],
+            [
+              "Molluscum contagiosum",
+              "Pearly, umbilicated papules (poxvirus)"
+            ]
+          ]
+        }
+      }
+    ],
+    "management": [
+      "Many warts **resolve without treatment**: roughly half of childhood warts within 6 months, and most within 2 years. Treat if they are painful, disabling, in an immunosuppressed patient, or if the patient prefers.",
+      {
+        "h": "First line (community)"
+      },
+      {
+        "list": [
+          "**Salicylic acid** paint, gel or plaster **daily**. Soak and pare (or file) first. Persist for **8–12 weeks**. Protect the surrounding skin, and avoid in diabetes or neuropathy with poor sensation.",
+          "**Cryotherapy** (liquid nitrogen) is clinic-based and needs repeated sessions. It can blister and hurt, and may cause hypo- or hyperpigmentation (more so in skin of colour). Take care over superficial nerves."
+        ]
+      },
+      {
+        "h": "Second line / specialist (BAD guideline themes)"
+      },
+      "Curettage or electrosurgery (scarring risk), radiofrequency cautery, CO₂ laser, intralesional bleomycin, contact immunotherapy (e.g. diphencyprone), microwave (plantar), and podophyllin or imiquimod (better evidence for anogenital than cutaneous warts)."
+    ],
+    "red_flags": [
+      "Rapid growth, bleeding, ulceration or an atypical appearance: consider **SCC** and refer.",
+      "**Immunosuppressed** patient (transplant, HIV) with extensive or recalcitrant warts: refer to dermatology.",
+      "Extensive facial or periungual warts where destructive treatment risks scarring or nail damage.",
+      "Diabetes, peripheral neuropathy or vascular disease: avoid self-treatment with salicylic acid or cryotherapy on the feet."
+    ],
+    "pearls": [
+      "No treatment ‘kills’ HPV instantly. Treatment removes virus-bearing skin, and recurrence is common until immunity clears that type.",
+      "Duct-tape occlusion has mixed evidence. It is an optional add-on, not a cure.",
+      "Periungual warts: avoid aggressive destruction near the **nail matrix**.",
+      "Advise flip-flops in communal showers, not sharing towels, and covering verrucae for swimming."
+    ]
+  },
+  "photos": [
+    {
+      "title": "Common, plantar, plane, filiform and periungual warts",
+      "items": [
+        "m5w1:L01",
+        "m5w1:L02",
+        "m5w1:L03",
+        "m5w1:L04",
+        "m5w1:L05"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "label": "DermNet: Viral wart",
+      "url": "https://dermnetnz.org/topics/viral-wart"
+    },
+    {
+      "label": "NICE CKS: Warts and verrucae",
+      "url": "https://cks.nice.org.uk/topics/warts-verrucae/"
+    },
+    {
+      "label": "BAD guidelines: cutaneous warts",
+      "url": "https://www.bad.org.uk/guidelines-and-standards/clinical-guidelines/"
+    }
+  ],
+  "status": "published"
+}

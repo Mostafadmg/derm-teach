@@ -1,0 +1,191 @@
+{
+  "title": "Scarring alopecia overview",
+  "aka": [
+    "cicatricial alopecia",
+    "lichen planopilaris",
+    "frontal fibrosing alopecia",
+    "discoid lupus",
+    "folliculitis decalvans",
+    "CCCA",
+    "lost follicular ostia"
+  ],
+  "category": "cosmetic-hair",
+  "order": 9,
+  "module": "Module 3 · Week 3",
+  "summary": "When follicular openings are lost, hair loss is permanent. Recognise LPP, FFA, DLE, FD and CCCA and refer early — primary care holds the line while waiting.",
+  "card_image": "m3w3:C04",
+  "glance": {
+    "think": "Shiny bald patch without follicular openings, often with itch, burning, perifollicular scale or pustules at the active edge.",
+    "engine": "Inflammation destroys the stem-cell bulge → fibrosis replaces the follicle.",
+    "backbone": "Photograph, swab/mycology if pus or scale, baseline bloods, Advice & Guidance / urgent dermatology — do not watch and wait for “AA to regrow”.",
+    "never_miss": "Scarring alopecia is irreversible once established. Also refer non-healing nodules on bald scalp via suspected-cancer pathways."
+  },
+  "sections": {
+    "what": [
+      "**Scarring (cicatricial) alopecia** permanently destroys follicles. Primary types target the follicle (lymphocytic: LPP, FFA, DLE, CCCA; neutrophilic: folliculitis decalvans). Secondary scarring follows burns, trauma, tumours, kerion or long-standing traction.",
+      "Contrast with non-scarring loss ([alopecia areata](condition:alopecia-areata), [telogen effluvium](condition:telogen-effluvium), [androgenetic alopecia](condition:androgenetic-alopecia)) where ostia remain."
+    ],
+    "cause": [
+      {
+        "list": [
+          "Lymphocytic attack (LPP/FFA/DLE/CCCA) or neutrophilic folliculitis (FD, often *S. aureus*).",
+          "FFA incidence is rising, mainly in post-menopausal women.",
+          "CCCA predominantly affects women of African descent; hair practices contribute alongside genetics."
+        ]
+      }
+    ],
+    "features": [
+      {
+        "table": {
+          "head": [
+            "Clue",
+            "Non-scarring",
+            "Scarring"
+          ],
+          "rows": [
+            [
+              "Follicular ostia",
+              "Present (yellow/black dots)",
+              "Absent — shiny polished scalp"
+            ],
+            [
+              "Edge signs",
+              "Exclamation hairs / miniaturisation",
+              "Perifollicular erythema, scale, plugs, pustules, tufting"
+            ],
+            [
+              "Symptoms",
+              "Often none",
+              "Itch, pain, burning, tenderness"
+            ],
+            [
+              "Prognosis",
+              "Regrowth possible",
+              "Permanent — treat to halt spread"
+            ]
+          ]
+        }
+      },
+      {
+        "list": [
+          "**LPP:** white patches with spiky perifollicular scale; check mouth/skin LP.",
+          "**FFA:** frontal/temporal recession, lonely hairs, eyebrow loss, “unsunned” forehead band.",
+          "**DLE:** red scaly plugged plaques → dyspigmented scars; ears/face; ask lupus systemic features.",
+          "**FD:** pustules, crusts, doll’s-hair tufting at the vertex — swab.",
+          "**CCCA:** crown spreading centrifugally."
+        ]
+      }
+    ],
+    "diagnosis": [
+      "Clinical + trichoscopy (absent ostia). Specialist biopsy from the **active inflamed margin**. Primary care: good photos (clinical + dermoscopy if available), swab pustules, mycology if scale."
+    ],
+    "differentials": [
+      {
+        "table": {
+          "head": [
+            "Look-alike",
+            "Clues"
+          ],
+          "rows": [
+            [
+              "Alopecia areata",
+              "Ostia preserved; yellow dots"
+            ],
+            [
+              "Kerion",
+              "Boggy child scalp infection — can scar; start antifungal pathway; do not incise"
+            ],
+            [
+              "Skin cancer on bald scalp",
+              "Ulcerated/bleeding nodule → NG12"
+            ],
+            [
+              "End-stage traction / trichotillomania",
+              "History; may finally scar"
+            ]
+          ]
+        }
+      }
+    ],
+    "management": [
+      {
+        "list": [
+          "**Urgent dermatology / Advice & Guidance** with photos (PCDS: scarring alopecia needs early referral).",
+          "While waiting: swab, mycology if indicated; baseline FBC, ferritin, U&E/LFT, TFT, vitamin D; ANA if lupus suspected; syphilis serology if indicated.",
+          "Do not delay referral for blood results.",
+          "Dermatologist may suggest potent topical steroid via A&G for symptoms.",
+          "Specialist ladders (awareness only): hydroxychloroquine, doxycycline, anti-androgens (FFA), systemic immunosuppressants, culture-guided antibiotics for FD — not routine IP initiation.",
+          "Signpost Alopecia UK and camouflage."
+        ]
+      }
+    ],
+    "red_flags": [
+      "Any loss of ostia, symptomatic inflamed edge, FFA pattern, CCCA pattern, lupus features, kerion, or uncertain “AA that will not regrow”.",
+      "Ulcerated/bleeding lesion on bald scalp → suspected-cancer pathway."
+    ],
+    "pearls": [
+      "Side-by-side teaching: yellow dots (AA) vs absent ostia (scar).",
+      "FFA is often dismissed as “just ageing” — check brows and the frontal band.",
+      "Once scarred, the goal is halt progression, not regrowth."
+    ]
+  },
+  "photos": [
+    {
+      "title": "Discoid lupus erythematosus",
+      "items": [
+        "m3w3:C01",
+        "m3w3:C02",
+        "m3w3:C03",
+        "m3w3:C04"
+      ]
+    },
+    {
+      "title": "Lichen planopilaris",
+      "items": [
+        "m3w3:C05",
+        "m3w3:C06",
+        "m3w3:C07"
+      ]
+    },
+    {
+      "title": "Frontal fibrosing alopecia",
+      "items": [
+        "m3w3:C08",
+        "m3w3:C09",
+        "m3w3:C10"
+      ]
+    },
+    {
+      "title": "Folliculitis decalvans & CCCA",
+      "tone": "danger",
+      "items": [
+        "m3w3:C11",
+        "m3w3:C12"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "label": "PCDS: Alopecia overview",
+      "url": "https://www.pcds.org.uk/clinical-guidance/alopecia-an-overview"
+    },
+    {
+      "label": "PCDS: Hair-loss pathway",
+      "url": "https://www.pcds.org.uk/files/general/Hair-Loss-Pathway-web.pdf"
+    },
+    {
+      "label": "DermNet: Lichen planopilaris",
+      "url": "https://dermnetnz.org/topics/lichen-planopilaris"
+    },
+    {
+      "label": "DermNet: Frontal fibrosing alopecia",
+      "url": "https://dermnetnz.org/topics/frontal-fibrosing-alopecia"
+    },
+    {
+      "label": "DermNet: Folliculitis decalvans",
+      "url": "https://dermnetnz.org/topics/folliculitis-decalvans"
+    }
+  ],
+  "slug": "scarring-alopecia",
+  "status": "published"
+}

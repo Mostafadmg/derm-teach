@@ -1,0 +1,95 @@
+{
+  "slug": "boils-carbuncles",
+  "title": "Boils & carbuncles",
+  "aka": ["boil", "furuncle", "carbuncle", "skin abscess", "PVL", "MRSA", "staphylococcal carriage", "incision and drainage"],
+  "category": "bacterial",
+  "status": "published",
+  "order": 4,
+  "summary": "Deep staphylococcal follicular abscesses. Use warm compresses for small boils, incision and drainage for large boils and all carbuncles, and antibiotics only with specific risk features. Think about PVL if recurrent.",
+  "card_image": "E13",
+  "glance": {
+    "think": "A painful, red, fluctuant nodule that ‘points’ to a central pustule. A carbuncle is several interconnected heads, often on the neck or back.",
+    "engine": "S. aureus infection of the deep follicle, forming a dermal abscess. Recurrent cases suggest carriage, PVL or diabetes.",
+    "backbone": "Moist heat, incision and drainage when fluctuant, and flucloxacillin only if fever, cellulitis, facial site or high risk.",
+    "never_miss": "PVL-S. aureus clusters, facial boils (danger triangle), and undiagnosed diabetes."
+  },
+  "sections": {
+    "what": [
+      "A **boil (furuncle)** is a deep infection of a hair follicle that forms a small abscess. A **carbuncle** is a group of interconnected boils with several openings, and is more likely to cause systemic upset.",
+      "Most are caused by *Staphylococcus aureus*. Recurrent or severe cases raise the possibility of **Panton–Valentine leukocidin (PVL)-producing** *S. aureus* or **MRSA**."
+    ],
+    "cause": [
+      { "list": [
+        "Deep follicular infection, usually from the patient’s own *S. aureus* carriage (nose, axillae, perineum).",
+        "Friction, shaving, sweating and minor trauma help bacteria enter.",
+        "Risk factors: **diabetes**, obesity, immunosuppression, poor hygiene, close-contact sport, crowded living, and household contacts with boils."
+      ] }
+    ],
+    "features": [
+      { "list": [
+        "A **painful, red, hot nodule** that becomes fluctuant and **points** to a yellow-white head before discharging.",
+        "Common sites: neck, face, axillae, buttocks and thighs.",
+        "**Carbuncle:** a larger, indurated area with **multiple heads**. Fever and malaise are more likely.",
+        "Surrounding cellulitis may develop."
+      ] }
+    ],
+    "diagnosis": [
+      { "list": [
+        "Clinical.",
+        "**Swab pus** if drained, recurrent, or PVL/MRSA is suspected.",
+        "**Recurrent boils:** check glucose or HbA1c, ask about household and close contacts, and consider nasal carriage, PVL and MRSA risk."
+      ] }
+    ],
+    "differentials": [
+      { "table": { "head": ["Look-alike", "Distinguishing clues"], "rows": [
+        ["Inflamed epidermoid cyst", "Long-standing lump with a punctum, which flares and becomes inflamed"],
+        ["Hidradenitis suppurativa", "**Recurrent** nodules, sinus tracts and scarring in the axillae, groin or under the breasts. Think of it with ‘recurrent boils’ in the folds"],
+        ["Folliculitis", "Superficial, small pustules; no deep abscess"],
+        ["Cellulitis", "Diffuse, spreading redness with no collection"]
+      ] } }
+    ],
+    "management": [
+      { "h": "Small boil" },
+      { "list": [
+        "Apply **moist heat** (a warm compress) 3–4 times a day to encourage spontaneous drainage.",
+        "**Do not squeeze.** Cover with a dressing and give hygiene advice."
+      ] },
+      { "h": "Large or fluctuant boils, and all carbuncles" },
+      "**Incision and drainage**, the same day: in primary care if skilled, otherwise via surgical or urgent care.",
+      { "h": "Antibiotics are needed if" },
+      { "list": [
+        "Fever or systemic upset",
+        "Surrounding **cellulitis**",
+        "**Facial** lesion, especially the central face or ‘danger triangle’",
+        "Severe pain or a large lesion",
+        "**Diabetes** or immunosuppression"
+      ] },
+      "First line: **flucloxacillin**. Penicillin allergy: clarithromycin, or erythromycin in pregnancy.",
+      { "h": "Recurrent boils" },
+      "Screen for diabetes, discuss PVL and MRSA, and arrange **decolonisation** (e.g. topical nasal treatment plus antiseptic body wash) through local infection control or a microbiologist. Treat household contacts if advised."
+    ],
+    "red_flags": [
+      "**Carbuncle** or a large abscess: needs drainage.",
+      "Boil on the **central face** or near the eye.",
+      "Spreading cellulitis, fever or a systemically unwell patient.",
+      "**PVL-S. aureus suspicion:** recurrent, painful, aggressive boils, clusters in a household, gym or team, or necrotising features. Escalate to microbiology or public health.",
+      "Immunocompromised or diabetic patient with a deep infection."
+    ],
+    "pearls": [
+      "**Pus needs a way out.** Drainage is the treatment, and antibiotics are an add-on only with specific features.",
+      "‘Recurrent boils’ in the axillae or groin may be **hidradenitis suppurativa**, which follows a different pathway.",
+      "Ask about **household contacts and close-contact sport**, as PVL clusters spread this way.",
+      "Do not squeeze facial boils. Use a lower threshold for antibiotics and review.",
+      "Give practical hygiene advice: own towel, hot-wash bedding, cover the lesion, and wash hands."
+    ]
+  },
+  "photos": [
+    { "title": "Boils (furuncles)", "items": ["E13", "E14", "E15"] },
+    { "title": "Carbuncle: refer for drainage", "tone": "danger", "items": ["E16"] }
+  ],
+  "references": [
+    { "label": "NICE CKS: Boils, carbuncles and staphylococcal carriage", "url": "https://cks.nice.org.uk/topics/boils-carbuncles-staphylococcal-carriage/" },
+    { "label": "DermNet: Boil (furuncle)", "url": "https://dermnetnz.org/topics/boil" },
+    { "label": "UKHSA: PVL-associated S. aureus guidance", "url": "https://www.gov.uk/government/publications/pvl-staphylococcus-aureus-infections-diagnosis-and-management" }
+  ]
+}

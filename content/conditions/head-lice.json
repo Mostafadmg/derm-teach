@@ -1,0 +1,187 @@
+{
+  "title": "Head lice (pediculosis capitis)",
+  "aka": [
+    "head lice",
+    "nits",
+    "pediculosis",
+    "dimeticone",
+    "wet combing",
+    "bug busting"
+  ],
+  "category": "viral-infestations",
+  "order": 3,
+  "module": "Module 5 · Week 3",
+  "summary": "Only a live louse confirms infestation. Wet combing or dimeticone 4% are first-line; permethrin is not recommended in the UK.",
+  "card_image": "m5w3:U01",
+  "glance": {
+    "think": "Scalp itch (or none), nape/behind-ear excoriation, and a live louse found on detection combing.",
+    "engine": "Pediculus humanus capitis crawls head-to-head; itch is hypersensitivity to saliva. Eggs are cemented to the hair shaft.",
+    "backbone": "Treat only live infestation. Wet combing or dimeticone 4% (repeat after 7 days); check all household members the same day.",
+    "never_miss": "No live louse means no treatment. Pubic lice on a child’s eyelashes need a safeguarding pathway."
+  },
+  "sections": {
+    "what": [
+      "Head lice are scalp infestations with *Pediculus humanus capitis*, a wingless blood-feeding insect about 2–3 mm long. They are commonest in **children aged about 4–11**, especially girls. They are **not a sign of poor hygiene** and do not transmit disease in the UK."
+    ],
+    "cause": [
+      {
+        "list": [
+          "Spread is by **direct head-to-head contact**. Lice crawl; they cannot jump, fly or swim. Hats and brushes rarely matter because lice die within about 1–2 days off the scalp.",
+          "Females glue eggs near the scalp. Eggs hatch in about 7–10 days; adults live about 3–4 weeks on the host.",
+          "**Nits** are empty white egg cases that move out as hair grows. Nits far from the scalp usually mean an old infestation.",
+          "Itch may take **4–6 weeks** to appear at first infestation; many children never itch."
+        ]
+      }
+    ],
+    "features": [
+      {
+        "list": [
+          "Scalp itch (often absent), tickling, and excoriations — especially **behind the ears and at the nape**.",
+          "Live grey-brown lice that move away from light; eggs/nits cemented to the shaft.",
+          "Complications: secondary impetigo, occipital lymphadenopathy, eczematisation, sleep disturbance and school stigma."
+        ]
+      }
+    ],
+    "diagnosis": [
+      "**Only a live louse confirms active infestation (NICE CKS).** Nits alone do not justify treatment.",
+      {
+        "list": [
+          "**Detection combing** with a fine-toothed plastic comb on wet conditioned hair (or dry) is more sensitive than looking alone.",
+          "Check **all household members** and treat only those with live lice, **all on the same day**.",
+          "Nits stay put; dandruff and hair casts brush or slide off."
+        ]
+      }
+    ],
+    "differentials": [
+      {
+        "table": {
+          "head": [
+            "Look-alike",
+            "Distinguishing clues"
+          ],
+          "rows": [
+            [
+              "Seborrhoeic dermatitis / dandruff",
+              "Greasy or flaky scale that brushes off; no lice"
+            ],
+            [
+              "Hair casts",
+              "Tubular casts that slide along the shaft"
+            ],
+            [
+              "Scalp psoriasis",
+              "Thick scale beyond the hairline; nail or body plaques"
+            ],
+            [
+              "Tinea capitis",
+              "Broken hairs, alopecia, black dots; mycology"
+            ],
+            [
+              "Impetigo of the nape",
+              "Honey crust — look for lice as the driver"
+            ]
+          ]
+        }
+      }
+    ],
+    "management": [
+      "Treat **only when a live louse is found**. Choice depends on preference, age, asthma/eczema and previous treatment.",
+      {
+        "table": {
+          "head": [
+            "Option",
+            "How to use",
+            "Notes"
+          ],
+          "rows": [
+            [
+              "Wet combing (Bug Busting)",
+              "Conditioner + detection comb days 1, 5, 9 and 13; check day 17",
+              "Suitable for everyone including infants, pregnancy, asthma and eczema"
+            ],
+            [
+              "Dimeticone 4% lotion/spray/gel",
+              "Dry hair, leave overnight (check product), wash out; **repeat after 7 days**",
+              "Physical insecticide; CKS first-line in pregnancy, breastfeeding, young children, asthma/eczema. Flammable while on hair"
+            ],
+            [
+              "Isopropyl myristate + cyclomethicone",
+              "Short contact (~10 min), comb out; repeat after 7 days",
+              "Check age and scalp licence"
+            ],
+            [
+              "Malathion 0.5% aqueous liquid",
+              "Dry hair, leave 12 h; repeat after 7 days",
+              "Only chemical insecticide still recommended; resistance common; aqueous if asthma/eczema"
+            ]
+          ]
+        }
+      },
+      {
+        "callout": "warn",
+        "title": "Not recommended in the UK",
+        "text": "**Permethrin** creme rinses (unsuitable contact time and widespread resistance), shampoos alone, herbal/essential-oil products, electric combs, and “preventive” treatment of people without live lice."
+      },
+      {
+        "h": "Checking cure"
+      },
+      {
+        "list": [
+          "Detection-comb 2–3 days after finishing treatment and again after 7 days.",
+          "If live lice persist, check technique then switch to a **different mode of action**.",
+          "Oral ivermectin or co-trimoxazole for resistant lice are **specialist/off-label** — refer rather than start them yourself."
+        ]
+      }
+    ],
+    "red_flags": [
+      "Infant under 6 months (wet combing only; seek advice if this fails).",
+      "Repeated failure despite correct technique.",
+      "Extensive secondary infection or severe eczematous scalp.",
+      "Pubic lice on a child’s eyelashes → safeguarding pathway.",
+      "Suspected misdiagnosis (tinea capitis, psoriasis)."
+    ],
+    "pearls": [
+      "**No live louse, no treatment.**",
+      "There is **no school exclusion** and no need to boil-wash bedding or fumigate. Inform school only as local practice.",
+      "Asthma/eczema: prefer wet combing or aqueous dimeticone; avoid alcohol-based lotions.",
+      "Itch can persist a few days after cure; leftover nits alone do not mean failure.",
+      "UK teaching point: course materials that recommend permethrin for head lice are **out of step with CKS**."
+    ]
+  },
+  "photos": [
+    {
+      "title": "Lice, nits and nape dermatitis",
+      "items": [
+        "m5w3:U01",
+        "m5w3:U02",
+        "m5w3:U03",
+        "m5w3:U04",
+        "m5w3:U05"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "label": "NICE CKS: Head lice",
+      "url": "https://cks.nice.org.uk/topics/head-lice/"
+    },
+    {
+      "label": "PCDS: Head lice",
+      "url": "https://www.pcds.org.uk/clinical-guidance/head-lice"
+    },
+    {
+      "label": "DermNet: Head lice",
+      "url": "https://dermnetnz.org/topics/head-lice"
+    },
+    {
+      "label": "NHS: Head lice and nits",
+      "url": "https://www.nhs.uk/conditions/head-lice-and-nits/"
+    },
+    {
+      "label": "BNF / NPF: Drugs for scabies and head lice",
+      "url": "https://bnf.nice.org.uk/nurse-prescribers-formulary/drugs-for-scabies-and-head-lice/"
+    }
+  ],
+  "slug": "head-lice",
+  "status": "published"
+}

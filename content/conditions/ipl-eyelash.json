@@ -1,0 +1,151 @@
+{
+  "title": "IPL & eyelash enhancement",
+  "aka": [
+    "IPL",
+    "intense pulsed light",
+    "photofacial",
+    "bimatoprost",
+    "Latisse",
+    "eyelash growth",
+    "hypopigmentation"
+  ],
+  "category": "cosmetic-hair",
+  "order": 6,
+  "module": "Module 6 · Week 5",
+  "summary": "Counselling on intense pulsed light for pigment and vessels (including hypopigmentation risk) and bimatoprost for eyelash growth.",
+  "card_image": "m6w5:W5D-01",
+  "glance": {
+    "think": "Someone booking a “photofacial” for sun spots and redness, or asking about prescription eyelash growers.",
+    "engine": "IPL uses broad-spectrum light absorbed by melanin and haemoglobin (selective photothermolysis). Bimatoprost prolongs the eyelash anagen phase via prostamide pathways.",
+    "backbone": "IPL only after lesion diagnosis and skin-type assessment; patch test; strict aftercare SPF. Bimatoprost: counsel iris/periocular pigment and glaucoma-drop origins.",
+    "never_miss": "Never IPL an undiagnosed pigmented lesion. Eye injury risk without proper protection. Bimatoprost can darken iris permanently."
+  },
+  "sections": {
+    "what": [
+      "**Intense pulsed light (IPL)** is a non-laser flashlamp delivering broad-spectrum light through filters to treat vascular redness, solar lentigines and unwanted dark hair, with modest texture benefit.",
+      "**Eyelash enhancement** options include cosmetics, lifts and **bimatoprost** (a prostamide also used in glaucoma drops) applied to the upper lid margin to lengthen lashes — counselling points below."
+    ],
+    "cause": [
+      {
+        "list": [
+          "IPL: selective photothermolysis of melanin and oxyhaemoglobin; dermal heating may remodel collagen modestly.",
+          "Darker or tanned skin absorbs more epidermal energy → higher burn and pigment-change risk.",
+          "Bimatoprost: increases eyelash length, thickness and darkness by extending anagen; periocular skin and iris melanocytes can also respond."
+        ]
+      }
+    ],
+    "features": [
+      {
+        "list": [
+          "IPL sessions often 3–6, weeks apart; treated pigment darkens like “coffee grounds” then flakes over 1–2 weeks.",
+          "Adverse: burns, blistering, **hypo-/hyperpigmentation** (sometimes grid footprints), scarring, paradoxical hair growth, eye injury.",
+          "Bimatoprost: longer darker lashes over weeks to months; may cause periocular hyperpigmentation, iris colour change (especially hazel/green), itch, redness, fat atrophy (glaucoma-dose context)."
+        ]
+      }
+    ],
+    "diagnosis": [
+      "Before IPL: confirm the diagnosis of every pigmented spot; Fitzpatrick type; recent tan; photosensitising drugs; HSV history. Melasma is generally a poor IPL candidate."
+    ],
+    "differentials": [
+      {
+        "table": {
+          "head": [
+            "Request",
+            "Better framed as"
+          ],
+          "rows": [
+            [
+              "Diffuse redness + lentigines",
+              "IPL photofacial after cancer check"
+            ],
+            [
+              "Discrete stubborn lentigo",
+              "Often pigment laser > IPL"
+            ],
+            [
+              "Melasma",
+              "Sunscreen + medical therapy — avoid heat devices first-line"
+            ],
+            [
+              "Sparse lashes",
+              "Bimatoprost counselling vs cosmetics; exclude madarosis disease"
+            ]
+          ]
+        }
+      }
+    ],
+    "management": [
+      {
+        "h": "IPL counselling (UK)"
+      },
+      {
+        "list": [
+          "Check practitioner training, insurance, patch test and (in Wales) HIW registration for Class 3B/4 lasers/IPL in independent clinics.",
+          "Contraindications/cautions: undiagnosed pigmented lesions, active infection/HSV, recent tan, photosensitivity disorders, many photosensitising drugs; extra caution in skin types IV–VI and on isotretinoin (many delay treatment).",
+          "Aftercare: SPF, gentle skincare, no picking; seek review for blistering or infection.",
+          "Cross-link [solar lentigines](condition:solar-lentigines) and [photoageing](condition:photoageing)."
+        ]
+      },
+      {
+        "h": "Bimatoprost eyelash counselling"
+      },
+      {
+        "list": [
+          "Explain cosmetic vs glaucoma origins; apply only as directed to the upper lid margin — not into the eye for cosmetic use.",
+          "Warn about **permanent iris darkening**, reversible periocular skin darkening, possible eyelash growth on unintended skin if product migrates, and ocular irritation.",
+          "Avoid if active ocular inflammation unless an ophthalmologist agrees; remove contact lenses as per product advice.",
+          "Effects reverse over weeks to months if stopped.",
+          "This page does not cover compounding, dosing schedules or off-label periocular aesthetic protocols beyond licensed counselling themes — check current SmPC/BNF."
+        ]
+      }
+    ],
+    "red_flags": [
+      "Eye pain or visual change during/after IPL → urgent ophthalmology.",
+      "Blistering burns or striped hypopigmentation — stop further treatment; specialist wound/pigment advice.",
+      "Undiagnosed changing pigmented lesion — cancel IPL; refer."
+    ],
+    "pearls": [
+      "IPL is versatile but unforgiving on tanned or darker skin without expert settings.",
+      "Coffee-ground darkening is expected — picking prolongs marks.",
+      "Eyelash serums sold cosmetically vary widely; prescription bimatoprost needs proper counselling on iris pigment."
+    ]
+  },
+  "photos": [
+    {
+      "title": "IPL effects and adverse effects",
+      "items": [
+        "m6w5:W5D-01",
+        "m6w5:W5D-02",
+        "m6w5:W5D-03",
+        "m6w5:W5D-04"
+      ]
+    },
+    {
+      "title": "Bimatoprost eyelash growth",
+      "items": [
+        "m6w5:W5E-01",
+        "m6w5:W5E-02"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "label": "DermNet: Intense pulsed light",
+      "url": "https://dermnetnz.org/topics/intense-pulsed-light-therapy"
+    },
+    {
+      "label": "DermNet: Lasers in dermatology",
+      "url": "https://dermnetnz.org/topics/lasers-in-dermatology"
+    },
+    {
+      "label": "Healthcare Inspectorate Wales: Lasers/IPL",
+      "url": "https://www.hiw.org.uk/"
+    },
+    {
+      "label": "BNF / SmPC: Bimatoprost",
+      "url": "https://bnf.nice.org.uk/"
+    }
+  ],
+  "slug": "ipl-eyelash",
+  "status": "published"
+}

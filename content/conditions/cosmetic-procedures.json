@@ -1,0 +1,231 @@
+{
+  "slug": "cosmetic-procedures",
+  "title": "Cosmetic procedures: peels, needling & lasers",
+  "order": 3,
+  "aka": [
+    "chemical peel",
+    "microneedling",
+    "skin needling",
+    "collagen induction",
+    "laser",
+    "fractional laser",
+    "ablative laser",
+    "pulsed dye laser",
+    "PDL",
+    "isotretinoin and procedures",
+    "6-month rule",
+    "frosting"
+  ],
+  "summary": "A counselling guide to peel depths, microneedling and laser classes, and an evidence-based view on procedures during or after isotretinoin (the old blanket 6-month wait is outdated).",
+  "card_image": "m6w6:I03",
+  "glance": {
+    "think": "A patient asking about peels, needling or laser for scars, pigment or ageing, or a patient on isotretinoin asking ‘can I have this done?’",
+    "engine": "Controlled injury (chemical, mechanical or thermal) leading to re-epithelialisation and collagen remodelling.",
+    "backbone": "Match depth and risk to the goal and skin type, refer to trained operators, and counsel on SPF and aftercare.",
+    "never_miss": "PIH and keloid risk in skin of colour, HSV reactivation, and unregulated providers. Do not ‘clear’ isotretinoin patients yourself."
+  },
+  "sections": {
+    "what": [
+      {
+        "callout": "info",
+        "title": "Scope: counselling and recognition",
+        "text": "For the pharmacist/IP, this page covers recognising types, setting expectations, safety and referral. It is **not** a procedure how-to (no injection technique, laser settings or peel recipes)."
+      },
+      {
+        "table": {
+          "head": [
+            "Procedure",
+            "What it is"
+          ],
+          "rows": [
+            [
+              "**Chemical peel**",
+              "Controlled chemical injury to the epidermis ± dermis to resurface skin (photoageing, pigment, fine lines, acne, superficial scars)"
+            ],
+            [
+              "**Microneedling**",
+              "Collagen induction therapy: fine needles (professional about 0.5–3 mm; home devices much shorter) create micro-injuries that trigger new collagen"
+            ],
+            [
+              "**Lasers**",
+              "Selective photothermolysis: the wavelength targets a chromophore (water, haemoglobin or melanin)"
+            ]
+          ]
+        }
+      }
+    ],
+    "cause": [
+      "Each procedure injures the skin in a controlled way, triggering inflammation, re-epithelialisation and collagen remodelling. **‘Frosting’** (whitening) with some peel agents, such as TCA, reflects protein coagulation and indicates depth. This is for recognition only.",
+      "Microneedling microchannels close within minutes and the epidermis is largely preserved, so it often suits darker skin better than ablative options."
+    ],
+    "features": [
+      {
+        "h": "Peel depth"
+      },
+      {
+        "table": {
+          "head": [
+            "Depth",
+            "Example agents",
+            "Downtime (approx.)",
+            "Common aims"
+          ],
+          "rows": [
+            [
+              "Superficial (‘lunchtime’)",
+              "Glycolic (AHA), salicylic, Jessner",
+              "Hours to 2 days",
+              "Dullness, mild pigment, acne adjunct"
+            ],
+            [
+              "Medium",
+              "TCA about 20–35%",
+              "About a week of crusting and swelling",
+              "Texture, freckling, AKs, fine lines, some scars"
+            ],
+            [
+              "Deep",
+              "Phenol–croton oil (rare now)",
+              "Prolonged; **systemic (cardiac) toxicity risk**",
+              "Deep wrinkles. Specialist only"
+            ]
+          ]
+        }
+      },
+      {
+        "h": "Laser classes"
+      },
+      {
+        "table": {
+          "head": [
+            "Class",
+            "Examples",
+            "Use (overview)"
+          ],
+          "rows": [
+            [
+              "Ablative",
+              "CO₂, Er:YAG",
+              "Deep wrinkles and scars; more downtime and risk"
+            ],
+            [
+              "Non-ablative",
+              "Nd:YAG, infrared",
+              "Milder, more sessions"
+            ],
+            [
+              "Fractional (ablative or non-ablative)",
+              "Microscopic columns with skin bridges left intact",
+              "Atrophic acne scars, photoageing; faster healing"
+            ],
+            [
+              "Vascular",
+              "**PDL**, KTP",
+              "Telangiectasia, redness, **pink hypertrophic scars**, some vascular birthmarks"
+            ],
+            [
+              "Pigment / melasma",
+              "Various",
+              "Specialist; melasma often relapses and laser can **worsen PIH**"
+            ]
+          ]
+        }
+      }
+    ],
+    "diagnosis": [
+      "There is no disease to diagnose. Instead, the **pre-procedure assessment** covers: Fitzpatrick type, **HSV history**, **isotretinoin status**, keloid tendency, pregnancy, sun exposure, active acne or infection, and realistic goals."
+    ],
+    "differentials": [
+      {
+        "h": "Isotretinoin and procedures: the evidence"
+      },
+      "The old rule was to delay elective procedures for **about 6 months after isotretinoin**, because of theoretical impaired healing and scarring. A task force review (Mysore et al., *Standard Guidelines of Care*), cited in Module 6, found **insufficient evidence** to support a blanket delay for many procedures.",
+      {
+        "table": {
+          "head": [
+            "Generally considered acceptable (in experienced hands)",
+            "Still a higher-risk discussion"
+          ],
+          "rows": [
+            [
+              "Laser hair removal; fractional lasers; pigment lasers; fractional RF microneedling; **superficial and medium peels**; microdermabrasion; dermaroller; biopsies; superficial excisions",
+              "**Deep** phenol peels; fully ablative resurfacing; mechanical dermabrasion"
+            ]
+          ]
+        }
+      }
+    ],
+    "management": [
+      {
+        "list": [
+          "**Do not** perform medium or deep peels or procedures without the appropriate training, governance and insurance.",
+          "**Isotretinoin:** do **not** clear patients for procedures yourself. Document isotretinoin use and **refer the decision to the operating clinician**. Some UK centres remain conservative. Continue standard isotretinoin safety (pregnancy prevention programme, blood tests, mucocutaneous effects).",
+          "**Aftercare counselling:** gentle cleansing, **SPF**, moisturiser, no picking, and expect temporary redness, peeling or swelling.",
+          "**Antiviral prophylaxis** may be advised by the operator if there is a history of HSV.",
+          "**Home microneedling rollers:** warn about infection and poor hygiene or quality."
+        ]
+      },
+      {
+        "h": "Adverse effects to recognise"
+      },
+      {
+        "list": [
+          "Infection (bacterial, candida, **HSV reactivation**)",
+          "**PIH or hypopigmentation** (especially darker skin), scarring, burns, blistering",
+          "Acne flare, persistent redness, granulomatous reactions (products driven into the skin with needling)",
+          "Paradoxical hypertrichosis (hair lasers)"
+        ]
+      }
+    ],
+    "red_flags": [
+      "Pain, spreading redness, pus or fever after a procedure: infection.",
+      "Grouped vesicles after a facial procedure: **HSV**, needing prompt antivirals.",
+      "Blistering, burns or dyspigmentation: refer back to the operator or dermatology.",
+      "Deep peels: systemic toxicity risk. Specialist settings only."
+    ],
+    "pearls": [
+      "**More ablative is not always better.** Match downtime and risk to the goal and skin type.",
+      "Darker skin: start cautiously, as there is a higher risk of dyspigmentation and keloid.",
+      "Pregnancy: most elective peels and lasers are deferred.",
+      "Advise patients to check the provider’s **qualifications and insurance**.",
+      "Patient phrase: “Many modern guidelines no longer insist on a blanket 6-month wait for milder procedures, but your dermatologist or cosmetic clinician decides case by case.”"
+    ]
+  },
+  "photos": [
+    {
+      "title": "Common targets: atrophic acne scars",
+      "items": [
+        "m6w6:I03",
+        "m6w6:I02"
+      ]
+    },
+    {
+      "title": "Procedure risk in skin of colour: PIH and keloid",
+      "items": [
+        "m6w6:I05",
+        "m6w6:J02"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "label": "DermNet: Chemical peels",
+      "url": "https://dermnetnz.org/topics/chemical-peels"
+    },
+    {
+      "label": "DermNet: Skin needling",
+      "url": "https://dermnetnz.org/topics/skin-needling"
+    },
+    {
+      "label": "DermNet: Lasers in dermatology",
+      "url": "https://dermnetnz.org/topics/lasers-in-dermatology"
+    },
+    {
+      "label": "Mysore V et al. Standard guidelines of care: procedures in patients on isotretinoin (Indian J Dermatol Venereol Leprol)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Mysore+isotretinoin+procedures+standard+guidelines"
+    }
+  ],
+  "status": "published",
+  "category": "cosmetic-hair",
+  "module": "Module 6 · Week 6"
+}

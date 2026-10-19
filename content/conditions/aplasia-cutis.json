@@ -1,0 +1,97 @@
+{
+  "slug": "aplasia-cutis",
+  "title": "Aplasia cutis congenita",
+  "order": 7,
+  "aka": [
+    "aplasia cutis congenita",
+    "ACC",
+    "scalp defect newborn",
+    "absent skin",
+    "hair collar sign",
+    "Adams-Oliver",
+    "carbimazole",
+    "methimazole"
+  ],
+  "summary": "Congenital focal absence of skin, usually on the vertex scalp. Small superficial lesions heal with gentle care. The hair collar sign, large size or a midline position means imaging and urgent specialist care.",
+  "card_image": "m6w1:H05",
+  "glance": {
+    "think": "A well-demarcated erosion, ulcer or shiny membrane on the vertex scalp at birth, healing to a hairless scar.",
+    "engine": "Varied causes: genetic, teratogens (carbimazole or methimazole), intrauterine infection, vascular disruption, amniotic bands.",
+    "backbone": "Small and superficial: gentle cleansing, bland ointment and protection from trauma.",
+    "never_miss": "Hair collar sign (possible neural tube defect), a large midline defect (sagittal sinus), and ACC with blistering (EB) or limb defects (Adams–Oliver)."
+  },
+  "sections": {
+    "what": [
+      "Congenital **focal absence of skin**. Depth varies from epidermis only through to bone or dura. Most often it is a **solitary scalp vertex** defect. It may be isolated or part of a syndrome (e.g. **Adams–Oliver**, or **Bart syndrome** when limb ACC occurs with EB)."
+    ],
+    "cause": [
+      {
+        "list": [
+          "Genetic factors (e.g. BMS1 and other loci).",
+          "**Teratogens:** **methimazole/carbimazole**, misoprostol, valproate, cocaine.",
+          "Intrauterine infection (varicella, HSV), vascular disruption, amniotic bands, fetus papyraceus.",
+          "Tension at the hair whorl during rapid fetal brain growth."
+        ]
+      }
+    ],
+    "features": [
+      {
+        "list": [
+          "Well-demarcated **ulcer, erosion, membrane or bullous lesion** on the vertex scalp at birth, healing to an **alopecic scar**.",
+          "Less often on the trunk or limbs.",
+          "**Hair collar sign:** a ring of darker, longer, coarser hair around a scalp lesion. It marks possible **cranial dysraphism or ectopic neural tissue** (encephalocele or meningocele spectrum).",
+          "Large midline defects, vascular stains or neurological signs increase the risk of underlying skull or CNS involvement."
+        ]
+      }
+    ],
+    "diagnosis": [
+      "Clinical at birth. Document size and depth. **Imaging** (ultrasound ± MRI) for large, midline, deep or hair-collar lesions. Exclude birth-trauma mimics (forceps, scalp electrode) from the history and appearance. Genetic or syndrome work-up if there are other anomalies."
+    ],
+    "differentials": [
+      "Birth trauma, herpes erosions, EB with congenital absence of skin, sebaceous naevus, heterotopic brain tissue, and sinus pericranii."
+    ],
+    "management": [
+      {
+        "list": [
+          "**Small, superficial lesions:** usually heal with conservative care. Cleanse gently, apply a bland ointment (± a topical antibacterial if infected), and protect from trauma.",
+          "**Large, deep, multiple, hair-collar or midline lesions:** urgent paediatric, plastic surgery or neurosurgery input. Grafting or careful dressings may be needed to prevent **sagittal sinus haemorrhage** and infection.",
+          "**Counselling:** a scar and bald patch may remain. The teratogen history matters for future pregnancy counselling (specialist or obstetric).",
+          "**Pharmacist angle:** know the carbimazole/methimazole association. **Do not stop** maternal antithyroid treatment without obstetric or endocrine advice; flag the association to specialists."
+        ]
+      }
+    ],
+    "red_flags": [
+      "**Hair collar sign: image before assuming it is ‘just a scar’.**",
+      "Large, deep or midline defects, or exposed dura or bone.",
+      "ACC with blistering (think EB) or limb defects (think Adams–Oliver).",
+      "Bleeding or signs of infection."
+    ],
+    "pearls": [
+      "**Never probe deep scalp defects.**",
+      "Ask about maternal medicines in pregnancy, especially antithyroid drugs.",
+      "Most small defects heal well, so reassure while arranging appropriate follow-up."
+    ]
+  },
+  "photos": [
+    {
+      "title": "Aplasia cutis congenita: at birth and healed",
+      "items": [
+        "m6w1:H05",
+        "m6w1:H06"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "label": "DermNet: Aplasia cutis",
+      "url": "https://dermnetnz.org/topics/aplasia-cutis"
+    },
+    {
+      "label": "DermNet: EB with congenital absence of skin",
+      "url": "https://dermnetnz.org/topics/epidermolysis-bullosa-with-congenital-absence-of-skin"
+    }
+  ],
+  "status": "published",
+  "category": "childhood-neonatal",
+  "module": "Module 6 · Week 1"
+}

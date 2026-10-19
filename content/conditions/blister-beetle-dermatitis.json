@@ -1,0 +1,154 @@
+{
+  "title": "Blister beetle & Paederus dermatitis",
+  "aka": [
+    "blister beetle",
+    "cantharidin",
+    "Paederus",
+    "rove beetle",
+    "Nairobi fly",
+    "kissing lesions"
+  ],
+  "category": "viral-infestations",
+  "order": 5,
+  "module": "Module 5 · Week 3",
+  "summary": "Burning linear blisters after a beetle is crushed on the skin (cantharidin or paederin). Wash promptly; do not crush beetles; refer eye involvement same day.",
+  "card_image": "m5w3:W01",
+  "glance": {
+    "think": "Burning (not itchy) vesicles or linear “kissing” plaques on exposed skin within about 24–48 h of outdoor night-time exposure or travel.",
+    "engine": "Vesicant contact dermatitis from beetle haemolymph — cantharidin (Meloidae) or paederin (Paederus) — causing intraepidermal blistering without a bite.",
+    "backbone": "Flick the beetle off, wash with soap and water, cool compresses, short topical steroid; leave small blisters intact.",
+    "never_miss": "Eye involvement → same-day ophthalmology. Ingestion of cantharidin → A&E / TOXBASE."
+  },
+  "sections": {
+    "what": [
+      "**Blister beetle dermatitis** is an acute irritant contact reaction to **cantharidin** in Meloidae beetles (e.g. *Lytta vesicatoria*, *Mylabris*). The beetle does **not** bite — lesions follow crushing or brushing it on the skin, often at night near lights. It is uncommon in the UK and mainly seen in travellers or outdoor workers from endemic regions.",
+      "**Paederus (rove beetle) dermatitis** is the closely related look-alike taught alongside it. The toxin is **paederin**, producing linear and “kissing” lesions. Management overlaps heavily."
+    ],
+    "cause": [
+      {
+        "list": [
+          "Cantharidin breaks desmosomes → acantholysis and an intraepidermal blister with little dermal inflammation (usually no scarring). The same mechanism is used therapeutically on warts and molluscum.",
+          "Paederin from crushed *Paederus* beetles causes delayed linear erythema then vesicles/pustules.",
+          "**Ingesting** cantharidin (e.g. as a purported aphrodisiac) is systemically toxic — a medical emergency, not a skin problem."
+        ]
+      }
+    ],
+    "features": [
+      {
+        "list": [
+          "Onset within hours to about 24–48 h; the patient often does not link the insect.",
+          "Vesicles/bullae on an erythematous base — often **linear or bizarre** where the beetle was wiped; “kissing” lesions in flexures favour Paederus.",
+          "**Burning or stinging** more than itch.",
+          "Exposed sites: face, neck, arms, lower legs; toxin can be finger-transferred to eyes or genitals.",
+          "Heals in about a week, sometimes with lasting pigmentation in skin of colour."
+        ]
+      }
+    ],
+    "diagnosis": [
+      "Clinical: burning blisters on exposed skin after possible beetle contact, travel, camping or night lights. Clusters of cases support the diagnosis. Swab only if secondary infection or HSV/impetigo is realistic."
+    ],
+    "differentials": [
+      {
+        "table": {
+          "head": [
+            "Look-alike",
+            "Distinguishing clues"
+          ],
+          "rows": [
+            [
+              "Paederus vs blister beetle",
+              "Both crush toxins; Paederus more linear/kissing/pustular; Meloidae more cantharidin bullae"
+            ],
+            [
+              "Herpes zoster",
+              "Dermatomal, unilateral, prodromal pain"
+            ],
+            [
+              "Bullous impetigo",
+              "Flaccid bullae, honey crust, children"
+            ],
+            [
+              "Phytophotodermatitis",
+              "Plant juice + sun; drip pattern; marked later pigmentation"
+            ],
+            [
+              "Bullous insect bite",
+              "Itchy, punctum, bite history"
+            ]
+          ]
+        }
+      }
+    ],
+    "management": [
+      {
+        "h": "First aid"
+      },
+      {
+        "list": [
+          "If a beetle lands on skin, **blow or flick it off — do not crush or swat**.",
+          "Wash promptly with soap and water; avoid touching eyes or genitals.",
+          "Cool compresses; leave small blisters intact; drain large tense bullae aseptically keeping the roof on.",
+          "Simple analgesia."
+        ]
+      },
+      {
+        "h": "Prescriber options"
+      },
+      {
+        "list": [
+          "Short course of **potent topical corticosteroid** on inflamed non-facial skin (mild/moderate on face or flexures).",
+          "Antihistamine if itch; sedating at night if sleep is poor.",
+          "Secondary infection: treat as impetigo/cellulitis per NICE — no routine prophylactic antibiotics."
+        ]
+      }
+    ],
+    "red_flags": [
+      "Eye pain, redness, photophobia or reduced vision → irrigate and **same-day eye casualty**.",
+      "Extensive blistering, genital involvement, severe pain or systemic illness.",
+      "Ingestion → A&E / NPIS (TOXBASE).",
+      "Returned traveller with fever — think beyond beetle dermatitis."
+    ],
+    "pearls": [
+      "Ask “Did it **burn** or itch?” Burning linear blisters after lights outdoors → beetle; itchy grouped papules → bites.",
+      "Prevention: nets, screens, cover skin, shake bedding; never crush beetles on skin.",
+      "Teaching: quiz images of linear kissing lesions are usually **Paederus**, not Meloidae — but first aid is the same."
+    ]
+  },
+  "photos": [
+    {
+      "title": "Cantharidin and Paederus dermatitis; the beetles",
+      "items": [
+        "m5w3:W01",
+        "m5w3:W02",
+        "m5w3:W03",
+        "m5w3:W04",
+        "m5w3:W05",
+        "m5w3:W06"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "label": "DermNet: Paederus dermatitis",
+      "url": "https://dermnetnz.org/topics/paederus-dermatitis"
+    },
+    {
+      "label": "DermNet: Cantharidin",
+      "url": "https://dermnetnz.org/topics/cantharidin"
+    },
+    {
+      "label": "NICE NG153: Impetigo",
+      "url": "https://www.nice.org.uk/guidance/ng153"
+    },
+    {
+      "label": "NHS: Insect bites and stings",
+      "url": "https://www.nhs.uk/conditions/insect-bites-and-stings/"
+    },
+    {
+      "label": "TOXBASE / NPIS",
+      "url": "https://www.toxbase.org/"
+    }
+  ],
+  "slug": "blister-beetle-dermatitis",
+  "status": "published"
+}

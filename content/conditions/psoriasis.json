@@ -1,0 +1,130 @@
+{
+  "slug": "psoriasis",
+  "title": "Psoriasis",
+  "aka": ["plaque psoriasis", "guttate psoriasis", "scalp psoriasis", "nail psoriasis", "flexural psoriasis", "inverse psoriasis", "psoriatic arthritis"],
+  "category": "inflammatory",
+  "status": "published",
+  "order": 2,
+  "summary": "Sharply defined, scaly plaques caused by IL-23/IL-17 inflammation. Manage with topical steroid and vitamin D, steroid breaks, and screening for joints and comorbidities.",
+  "card_image": "B03",
+  "hero": { "ai": "psoriasis-plaques.jpg", "alt": "AI illustration of silvery-scaled psoriasis plaques on elbows and knees" },
+  "glance": {
+    "think": "Well-demarcated salmon-pink plaques with silvery scale on elbows, knees, scalp or lower back; nail pitting.",
+    "engine": "IL-23/Th17/IL-17 inflammation driving very fast keratinocyte turnover (3–5 days instead of about a month).",
+    "backbone": "Emollient plus potent steroid and vitamin D analogue, with planned steroid breaks.",
+    "never_miss": "Erythroderma or generalised pustular psoriasis (same day), and joint symptoms suggesting psoriatic arthritis."
+  },
+  "sections": {
+    "what": [
+      "Psoriasis is a chronic, immune-mediated inflammatory skin disease that relapses and remits. It affects roughly **1–3%** of the UK population. Onset peaks in young adulthood and again in mid-life, and about a third of patients have a family history.",
+      "It can involve the nails and joints (**psoriatic arthritis**). It is associated with metabolic syndrome, cardiovascular disease, inflammatory bowel disease and depression.",
+      { "callout": "info", "title": "Main types", "text": "Chronic plaque (most common, about 80–90%), guttate, flexural (inverse), scalp, palmoplantar and nail. Erythrodermic and generalised pustular psoriasis are rare emergencies." }
+    ],
+    "cause": [
+      { "figure": { "ai": "psoriasis-pathophysiology.jpg", "caption": "Psoriasis pathogenesis: immune activation (IL-23/IL-17, TNF-α) drives keratinocyte hyperproliferation, giving a turnover of 3–5 days instead of about 28 days and producing thick scaly plaques." } },
+      { "list": [
+        "**Genetic predisposition** (e.g. HLA-C*06:02, linked with early-onset and guttate disease) plus immune activation.",
+        "Key cytokine axis: **IL-23 → Th17 → IL-17**, plus TNF-α, causing keratinocyte hyperproliferation and inflammation.",
+        "Very fast epidermal turnover produces thick, scaly plaques."
+      ] },
+      { "h": "Triggers to ask about" },
+      { "list": [
+        "Streptococcal throat infection (guttate psoriasis)",
+        "Trauma, scratches and surgery: the **Koebner phenomenon**",
+        "Drugs: lithium, beta-blockers, antimalarials, and abrupt withdrawal of systemic steroids",
+        "Smoking, alcohol, obesity and stress",
+        "HIV, which can cause severe or atypical disease"
+      ] }
+    ],
+    "features": [
+      { "table": { "head": ["Type", "What you see", "Where"], "rows": [
+        ["Chronic plaque", "Sharply demarcated red plaques with silvery-white scale; pinpoint bleeding when scale is removed (Auspitz sign)", "Elbows, knees, lower back, scalp"],
+        ["Flexural (inverse)", "Shiny, well-defined, moist, little or no scale; may be colonised by Candida", "Axillae, groin, natal cleft, under the breasts"],
+        ["Guttate", "Many small ‘raindrop’ plaques, often 2–3 weeks after a strep throat", "Trunk and limbs"],
+        ["Scalp", "Thick adherent scale, often extending beyond the hairline", "Scalp, hairline, behind the ears"],
+        ["Nail", "Pitting, onycholysis, oil-drop discolouration, subungual hyperkeratosis", "Fingernails and toenails"]
+      ] } },
+      "Itch is usually mild to moderate but can be severe. Fissures on the palms and soles are painful. **Nail disease is a clue to a higher risk of psoriatic arthritis.**",
+      { "callout": "tip", "title": "Skin of colour", "text": "Scale may be thicker and erythema harder to see, often looking violaceous or grey. Post-inflammatory pigment change is marked and can last longer than the plaques." }
+    ],
+    "diagnosis": [
+      { "list": [
+        "**Clinical:** morphology, distribution, nails and joints.",
+        "**Assess:** body surface area (BSA), high-impact sites (face, hands, genitals, scalp) and quality of life.",
+        "**Screen for psoriatic arthritis** every year with the PEST questionnaire, especially in the first 10 years.",
+        "**Tests are rarely needed.** Biopsy if uncertain. Take a throat swab if guttate psoriasis follows a recent sore throat.",
+        "**Comorbidities:** assess cardiovascular risk (NICE: at presentation, and at least every 5 years if severe), lifestyle and mood."
+      ] }
+    ],
+    "differentials": [
+      { "table": { "head": ["Look-alike", "Distinguishing clues"], "rows": [
+        ["Atopic eczema", "Ill-defined, flexural, intensely itchy, lichenified"],
+        ["Seborrhoeic dermatitis", "Greasier scale on the central face; can overlap (‘sebopsoriasis’)"],
+        ["Tinea corporis", "Asymmetrical with an advancing edge; mycology positive"],
+        ["Lichen planus", "Violaceous, flat-topped papules with Wickham striae; wrists and mucosa"],
+        ["Discoid eczema", "Coin-shaped, very itchy, often on the legs"],
+        ["Candidal intertrigo (vs flexural psoriasis)", "Satellite papules and pustules, macerated; flexural psoriasis is sharply defined with no satellites"],
+        ["Cutaneous lymphoma", "Persistent, atypical plaques; refer"]
+      ] } }
+    ],
+    "management": [
+      "Aligned with **NICE CG153** and the CKS summary.",
+      { "h": "Self-care" },
+      { "list": [
+        "Use emollients regularly. They reduce scale and itch and help active topicals work.",
+        "Lifestyle: weight loss if overweight, stopping smoking, moderating alcohol, and support with stress.",
+        "Seek review promptly for unexplained joint pain or swelling."
+      ] },
+      { "h": "First-line topicals: trunk and limbs (adults)" },
+      { "ol": [
+        "**Potent steroid once daily plus vitamin D analogue once daily**, applied at different times of day, for up to 4 weeks.",
+        "If not controlled: **vitamin D analogue twice daily** for 8–12 weeks.",
+        "Then either a potent steroid twice daily (short course) or coal tar, **or** fixed-combination **calcipotriol/betamethasone** once daily for up to 4 weeks, which helps adherence.",
+        "Plan a **4-week break** between courses of potent or very potent steroid, using a non-steroid topical in between.",
+        "Do not exceed the maximum durations: potent steroid **≤ 8 weeks** per site; very potent **≤ 4 weeks**, usually on specialist advice."
+      ] },
+      { "h": "Scalp" },
+      "Start with a **potent steroid** in a suitable formulation (lotion, gel or shampoo). Next steps are calcipotriol/betamethasone combination or a vitamin D analogue. Use scale softeners (e.g. salicylic acid) for thick scale. Coal tar shampoo alone is not enough for severe scalp disease.",
+      { "h": "Face, flexures and genitals" },
+      "Use a **mild to moderate** steroid short term (up to about 2 weeks). **Do not** use potent or very potent steroids here. Experienced clinicians may use calcineurin inhibitors to spare steroids.",
+      { "h": "Children" },
+      "NICE recommends **specialist referral at presentation**. Primary care options are limited by age and licensing.",
+      { "h": "Specialist systemic therapy (not IP-initiated)" },
+      "Methotrexate (often the first conventional option), ciclosporin (for rapid control or when planning conception) and acitretin, followed by biologics or TYK2 inhibitors under NICE technology appraisals."
+    ],
+    "red_flags": [
+      "**Erythroderma** (widespread redness over 90% of the skin) or **generalised pustular psoriasis**: same-day dermatology or hospital assessment.",
+      "Suspected **psoriatic arthritis** (swollen or painful joints, dactylitis, enthesitis): refer to rheumatology.",
+      "BSA over 10%, moderate or worse severity, failure of topicals, or a major impact on quality of life: refer for phototherapy or systemics.",
+      "Severe nail disease, children, and diagnostic uncertainty: refer."
+    ],
+    "pearls": [
+      "Explain that psoriasis is **chronic** and treatment is intermittent. Most patients relapse after stopping.",
+      "Demonstrate how to apply treatment. Cosmetic acceptability drives adherence, so gels and foams often beat ointments for daytime use.",
+      "Spell out **steroid breaks** to prevent atrophy and rebound.",
+      "Calcipotriol/betamethasone combinations (Dovobet®-type gel, foam or ointment) vary by formulary, so check local brands.",
+      "**Avoid oral steroids.** Withdrawal can trigger rebound or pustular flares.",
+      "Counsel on vaccination and infection risk if the patient later moves to immunosuppression (specialist-led).",
+      "NICE notes a higher VTE risk in severe psoriasis, so keep it in mind."
+    ]
+  },
+  "photos": [
+    { "title": "Chronic plaque psoriasis: morphology and extensor sites", "items": ["B03", "B01", "B02", "B04"] },
+    { "title": "Scalp", "items": ["B06", "B07"] },
+    { "title": "Nails", "items": ["B08", "B10", "B09"] },
+    { "title": "Guttate", "items": ["B11", "B12"] },
+    { "title": "Flexural (inverse): no scale", "items": ["B13", "B14"] },
+    { "title": "Skin of colour", "items": ["B05"] },
+    { "title": "Differential pairing: flexural psoriasis vs candida vs tinea", "items": ["B14", "D15", "D11"] },
+    { "title": "AI teaching illustrations", "items": [
+      { "ai": "psoriasis-plaques.jpg", "caption": "Well-demarcated plaques with silvery scale on the extensor elbows and knees." },
+      { "ai": "psoriasis-pathophysiology.jpg", "caption": "Immune activation, keratinocyte hyperproliferation and plaque formation." }
+    ] }
+  ],
+  "references": [
+    { "label": "NICE CG153: Psoriasis assessment and management", "url": "https://www.nice.org.uk/guidance/cg153" },
+    { "label": "NICE CKS: Psoriasis", "url": "https://cks.nice.org.uk/topics/psoriasis/" },
+    { "label": "PCDS clinical A–Z", "url": "https://www.pcds.org.uk/clinical-a-z-list" },
+    { "label": "DermNet: Psoriasis", "url": "https://dermnetnz.org/topics/psoriasis" }
+  ]
+}

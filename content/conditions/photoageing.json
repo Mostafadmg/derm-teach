@@ -1,0 +1,143 @@
+{
+  "title": "Photoageing",
+  "aka": [
+    "photoageing",
+    "dermatoheliosis",
+    "solar elastosis",
+    "Favre-Racouchot",
+    "cutis rhomboidalis nuchae",
+    "poikiloderma of Civatte",
+    "idiopathic guttate hypomelanosis",
+    "senile comedones"
+  ],
+  "category": "older-skin",
+  "order": 4,
+  "module": "Module 6 · Week 4",
+  "summary": "UV-driven dermatoheliosis: solar elastosis, Favre–Racouchot, poikiloderma of Civatte, IGH and related patterns — prevention first.",
+  "card_image": "m6w4:W4D-01",
+  "glance": {
+    "think": "Leathery, wrinkled, unevenly pigmented sun-exposed skin with open comedones on the cheeks or rhomboid nuchal furrows.",
+    "engine": "Chronic UV degrades collagen/elastin (solar elastosis) and dysregulates pigment and follicular keratinisation.",
+    "backbone": "Lifelong photoprotection, smoking cessation, emollients; retinoids/procedures are adjunctive and usually private.",
+    "never_miss": "Photoaged fields hide AK, BCC, SCC and lentigo maligna — examine the whole field, not just the wrinkle."
+  },
+  "sections": {
+    "what": [
+      "**Photoageing (dermatoheliosis)** is the cumulative UV contribution to ageing skin, distinct from intrinsic chronological ageing. Patterns include solar elastosis, cutis rhomboidalis nuchae, Favre–Racouchot (nodular elastosis with cysts and comedones), poikiloderma of Civatte, idiopathic guttate hypomelanosis (IGH) and senile comedones."
+    ],
+    "cause": [
+      {
+        "list": [
+          "UVA/UVB → matrix metalloproteinases, DNA damage, solar elastosis.",
+          "Smoking and pollution amplify extrinsic ageing.",
+          "Favre–Racouchot: severe elastosis + follicular plugging on the malar/periorbital skin, mainly in older men with heavy sun/smoking history."
+        ]
+      }
+    ],
+    "features": [
+      {
+        "list": [
+          "Atrophy or thickened leathery skin, deep wrinkles, blotchy pigment, telangiectasia.",
+          "Cutis rhomboidalis nuchae: deep crossed furrows on the nape.",
+          "Poikiloderma of Civatte: red-brown reticulate pigment and atrophy on the sides of the neck, sparing shaded under-chin.",
+          "IGH: small porcelain-white macules on sun-exposed limbs.",
+          "Senile comedones / Favre–Racouchot: open blackheads in elastotic cheek skin."
+        ]
+      }
+    ],
+    "diagnosis": [
+      "Clinical. Use photoageing as a prompt to examine for skin cancer and AK field change. Biopsy atypical pigmented or ulcerated lesions."
+    ],
+    "differentials": [
+      {
+        "table": {
+          "head": [
+            "Look-alike",
+            "Clues"
+          ],
+          "rows": [
+            [
+              "Intrinsic ageing alone",
+              "Less elastosis on covered sites"
+            ],
+            [
+              "Rosacea / steroid damage",
+              "Central face papules or atrophy history"
+            ],
+            [
+              "Vitiligo vs IGH",
+              "Larger milky patches; Wood’s lamp; progression"
+            ],
+            [
+              "Acne comedones",
+              "Younger; inflammatory lesions"
+            ]
+          ]
+        }
+      }
+    ],
+    "management": [
+      {
+        "list": [
+          "**Prevention:** daily SPF 30–50, shade, clothing, no sunbeds; stop smoking.",
+          "Emollients; treat xerosis as on the itch/xerosis page.",
+          "Topical retinoids (POM) can modestly improve texture — irritation and photosensitivity counselling; avoid in pregnancy.",
+          "Extraction/retinoids for Favre–Racouchot comedones; procedures (laser, peels, IPL) are usually private — counselling only here.",
+          "Evidence for oral collagen/HA supplements is limited — do not oversell; prioritise sunscreen and lifestyle.",
+          "Cross-link cosmetic counselling: [facial ageing & neuromodulators](condition:facial-ageing-neuromodulators), [solar lentigines](condition:solar-lentigines)."
+        ]
+      }
+    ],
+    "red_flags": [
+      "Any changing, bleeding or irregular lesion in a photoaged field → urgent skin-cancer pathway.",
+      "Unilateral or atypical “poikiloderma” — reconsider contact, connective tissue disease or mycosis fungoides (rare)."
+    ],
+    "pearls": [
+      "Photoageing is a **risk marker**, not only a cosmetic complaint.",
+      "Under-chin sparing is a useful Civatte clue.",
+      "Supplements are not a substitute for SPF."
+    ]
+  },
+  "photos": [
+    {
+      "title": "Photoageing and benign lesions",
+      "items": [
+        "m6w4:W4D-01",
+        "m6w4:W4D-02",
+        "m6w4:W4D-03",
+        "m6w4:W4D-04",
+        "m6w4:W4D-05",
+        "m6w4:W4D-06",
+        "m6w4:W4D-07",
+        "m6w4:W4D-08",
+        "m6w4:W4D-09",
+        "m6w4:W4D-10",
+        "m6w4:W4D-11",
+        "m6w4:W4D-12",
+        "m6w4:W4D-13",
+        "m6w4:W4D-14",
+        "m6w4:W4D-15"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "label": "DermNet: Photoageing",
+      "url": "https://dermnetnz.org/topics/photoageing"
+    },
+    {
+      "label": "DermNet: Favre–Racouchot syndrome",
+      "url": "https://dermnetnz.org/topics/favre-racouchot-syndrome"
+    },
+    {
+      "label": "DermNet: Poikiloderma of Civatte",
+      "url": "https://dermnetnz.org/topics/poikiloderma-of-civatte"
+    },
+    {
+      "label": "NICE NG34: Sunlight exposure",
+      "url": "https://www.nice.org.uk/guidance/ng34"
+    }
+  ],
+  "slug": "photoageing",
+  "status": "published"
+}

@@ -1,0 +1,139 @@
+{
+  "slug": "eczema-dermatitis",
+  "title": "Eczema / dermatitis",
+  "aka": ["atopic eczema", "atopic dermatitis", "contact dermatitis", "irritant dermatitis", "allergic contact dermatitis", "hand eczema", "eczema herpeticum", "infected eczema"],
+  "category": "inflammatory",
+  "status": "published",
+  "order": 1,
+  "summary": "Itchy, barrier-driven inflammation. Treat with generous emollients and a topical steroid matched to site and severity, and never miss eczema herpeticum.",
+  "card_image": "A01",
+  "hero": { "ai": "eczema-flexural.jpg", "alt": "AI illustration of flexural eczema in the elbow crease and on the hand" },
+  "glance": {
+    "think": "Itchy, ill-defined, dry or weeping patches in the flexures (child/adult) or on the cheeks (infant); a personal or family history of atopy.",
+    "engine": "A leaky skin barrier plus Th2-driven inflammation, kept going by the itch–scratch cycle.",
+    "backbone": "Emollient for everyone, every day. Add a topical steroid stepped to severity and body site.",
+    "never_miss": "Eczema herpeticum: punched-out erosions in an unwell patient. Admit the same day."
+  },
+  "sections": {
+    "what": [
+      "**Atopic eczema** (atopic dermatitis) is a chronic, relapsing, itchy inflammatory skin disease built on a faulty skin barrier. It is the commonest inflammatory skin disease. Most cases start in early childhood, usually before age 5, and a sizeable minority carry on into adult life or come back later. It clusters with asthma, hay fever and food allergy.",
+      "**Contact dermatitis** is eczema caused by something touching the skin. **Irritant** contact dermatitis is the more common type. **Allergic** contact dermatitis is a delayed (type IV) hypersensitivity reaction. Contact dermatitis is a major cause of occupational skin disease in cleaners, healthcare staff, caterers and hairdressers.",
+      { "callout": "info", "title": "Other eczema patterns you will meet", "text": "Discoid (nummular), asteatotic (eczema craquelé), pompholyx (dyshidrotic), seborrhoeic dermatitis and venous (gravitational) eczema." }
+    ],
+    "cause": [
+      { "figure": { "ai": "eczema-pathophysiology-cropped.jpg", "caption": "The barrier–inflammation–itch cycle in atopic eczema. A defective stratum corneum lets water out and irritants and allergens in, which drives immune activation, itch and scratching." } },
+      { "h": "Atopic eczema: a gene–environment problem" },
+      { "list": [
+        "**Barrier defect.** Filaggrin-related dryness and a disordered lipid layer increase water loss and let irritants and allergens in.",
+        "**Immune dysregulation.** Th2-skewed inflammation drives the itch.",
+        "**Triggers:** soaps and detergents, *S. aureus*, allergens, heat, wool, climate and stress.",
+        "**Scratching** perpetuates the cycle, causing lichenification and secondary infection."
+      ] },
+      { "h": "Contact dermatitis" },
+      "**Irritant:** direct chemical, toxic or frictional damage from wet work, soaps and solvents. It depends on dose and exposure, so anyone can get it, but atopic skin gets it more easily.",
+      "**Allergic:** needs prior **sensitisation**. On re-exposure a delayed eczematous reaction appears, often a day or more later, and it can spread beyond the contact site. Common culprits are nickel, fragrance, rubber accelerants, preservatives and topical medicines themselves."
+    ],
+    "features": [
+      { "table": { "head": ["Pattern", "Typical features", "Common sites"], "rows": [
+        ["Acute atopic flare", "Red, weeping, vesicles or crust; intense itch", "Varies with age (below)"],
+        ["Chronic atopic", "Dry, scaly, lichenified, excoriated; pigment change", "Flexures; hands in adults"],
+        ["Infant", "Red, rough cheeks, scalp and trunk; nappy area often spared", "Face and extensors"],
+        ["Child", "Flexural eczema; eyelids and neck", "Elbow and knee creases"],
+        ["Adult", "Flexural or diffuse; hand and nipple eczema common", "Hands, face, flexures"],
+        ["Irritant contact", "Dry, fissured or red, sore skin at exposure sites", "Hands especially"],
+        ["Allergic contact", "Eczema matching the contact pattern; may spread", "Hands, face, eyelids, under jewellery"]
+      ] } },
+      { "callout": "tip", "title": "Skin of colour", "text": "Erythema can look violaceous or grey-brown and is easily underestimated. Papular and follicular patterns are more common, and post-inflammatory hypo- or hyperpigmentation is often the most visible sign. Judge severity on thickening, scale and symptoms." },
+      { "callout": "warn", "title": "Clues to infected eczema", "text": "Weeping, honey-coloured crusts, pustules, rapid worsening, fever or malaise suggest secondary bacterial infection. Punched-out erosions with systemic illness suggest **eczema herpeticum**, which is an emergency." }
+    ],
+    "diagnosis": [
+      "Diagnosis is **clinical** in most cases: itch, plus typical morphology and distribution, plus personal or family atopy.",
+      { "list": [
+        "**History:** onset and course, triggers, occupation and hobbies, products used on the skin, response to past treatment, sleep and quality of life.",
+        "**Examination:** look at the whole skin for excoriation, lichenification and infection; check nails and eyes.",
+        "**Investigate when:** the diagnosis is uncertain or treatment fails. Consider **patch testing** for suspected contact allergy, a swab if infection is suspected or recurrent, and rarely a biopsy.",
+        "**Severity:** EASI and SCORAD are specialist and audit tools. In practice, grade as mild, moderate or severe using area, itch, sleep loss, exudate and thickening."
+      ] }
+    ],
+    "differentials": [
+      { "table": { "head": ["Look-alike", "Distinguishing clues"], "rows": [
+        ["Psoriasis", "Well-demarcated plaques with silvery scale on extensors and scalp; usually less itchy; nail pitting"],
+        ["Seborrhoeic dermatitis", "Greasy yellow scale on scalp, nasolabial folds, eyebrows and chest"],
+        ["Tinea corporis", "Asymmetrical annular plaque with an active scaly edge; scrapings positive"],
+        ["Scabies", "Intense itch, worse at night; burrows in web spaces, wrists and genitals; itchy contacts"],
+        ["Contact vs atopic", "Contact eczema matches exposure in time and place, is often asymmetrical, and may be occupational"],
+        ["Cutaneous T-cell lymphoma (rare)", "Persistent, atypical plaques in an older adult; refer if anything seems odd"]
+      ] } }
+    ],
+    "management": [
+      { "h": "Self-care and OTC" },
+      { "list": [
+        "Apply **emollients** liberally and often. Use an ointment for very dry skin and a cream or gel if greasiness puts the patient off. Use a soap substitute, and do not use aqueous cream as a leave-on product.",
+        "Avoid triggers such as fragranced soaps, bubble baths and wool next to the skin. Keep nails short.",
+        "OTC **hydrocortisone 1%** for short courses on suitable sites, within product licence age and site limits.",
+        "Non-sedating antihistamines do little for eczema itch. A short course of a sedating one is sometimes used when sleep is badly disturbed."
+      ] },
+      { "h": "Stepped prescribing (NICE/CKS atopic eczema)" },
+      { "table": { "head": ["Severity", "Emollient", "Topical corticosteroid (example class)"], "rows": [
+        ["Mild", "Always", "Mild, e.g. hydrocortisone 1%"],
+        ["Moderate", "Always, more liberally in a flare", "Moderate, e.g. clobetasone butyrate 0.05%, betamethasone valerate 0.025%"],
+        ["Severe", "Always", "Potent, e.g. betamethasone valerate 0.1%. On the face and flexures, use moderate potency at most, for a short course"]
+      ] } },
+      { "list": [
+        "Continue the steroid for about **48 hours after the flare settles**. Then return to emollient maintenance, with or without intermittent (e.g. weekend) steroid on hotspots. Do not use this approach on the face, genitals or axillae without specialist advice.",
+        "**Face and flexures:** mild to moderate potency for short courses.",
+        "**Infants under 12 months:** avoid potent steroids without specialist advice. Never use very potent steroids in children without specialist input.",
+        "**Topical calcineurin inhibitors** (tacrolimus, pimecrolimus) are second line and often started by a specialist or GPwER."
+      ] },
+      { "h": "Infected eczema" },
+      { "list": [
+        "If the patient is not systemically unwell, do **not** add an antibiotic routinely. Treating the eczema is often enough.",
+        "If an antibiotic is needed, **flucloxacillin** is first line. Use clarithromycin for penicillin allergy, or erythromycin if pregnant and allergic. For small localised areas, consider topical fusidic acid.",
+        "Replace emollient and steroid pots that may be contaminated."
+      ] },
+      { "h": "Contact dermatitis" },
+      { "list": [
+        "Identify and **avoid** the irritant or allergen. Improvement can take weeks.",
+        "Emollients and soap substitutes. Wear gloves for wet work, with cotton liners under rubber if needed.",
+        "A short steroid course matched to site and severity.",
+        "Refer for **patch testing** if the problem is chronic or recurrent, occupational, on the face or hands, or not responding to treatment."
+      ] }
+    ],
+    "red_flags": [
+      "**Suspected eczema herpeticum:** clustered punched-out erosions or vesicles, often with fever. Needs **same-day hospital assessment** and aciclovir.",
+      "Severe or spreading infection, or a systemically unwell patient.",
+      "Severe disease not controlled after about a week of appropriate stepped treatment.",
+      "Diagnostic uncertainty, recurrent deep infections, or a major psychosocial impact.",
+      "Possible need for phototherapy or systemic treatment, or occupational disease needing workplace advice."
+    ],
+    "pearls": [
+      "**Prescribe enough emollient.** Adults often need several hundred grams a month, and under-prescribing is the commonest reason treatment fails. Apply in the direction of hair growth, ideally after bathing while the skin is still damp.",
+      "**Fire risk:** dressings, clothing and bedding soaked in paraffin-based (and other) emollients can catch fire easily. Warn patients to keep away from naked flames.",
+      "Teach **fingertip units** (FTUs) so steroid doses are understood.",
+      "Tackle **steroid phobia** with clear advice on potency, site and duration. Under-treatment and rebound are far more common than harm.",
+      "**Inflamed is not the same as infected.** Weeping crust does not automatically mean an antibiotic.",
+      "**Pregnancy:** most emollients and mild to moderate steroids are acceptable. Check the BNF for each product.",
+      "Counselling: eczema is not caused by poor hygiene, and the barrier tendency is lifelong even when the skin is clear."
+    ]
+  },
+  "photos": [
+    { "title": "Site by age: infant, child, adult", "items": ["A05", "A06", "A02", "A01"] },
+    { "title": "Chronic eczema: lichenification", "items": ["A03", "A04"] },
+    { "title": "Hand eczema", "items": ["A09", "A10"] },
+    { "title": "Skin of colour", "items": ["A13", "A12"] },
+    { "title": "Infected eczema", "items": ["A07", "A11"] },
+    { "title": "Red flag: eczema herpeticum", "tone": "danger", "items": ["A08"] },
+    { "title": "AI teaching illustrations", "items": [
+      { "ai": "eczema-flexural.jpg", "caption": "Flexural eczema: ill-defined, dry, red patches in the elbow crease and on the hand." },
+      { "ai": "eczema-pathophysiology.jpg", "caption": "Barrier dysfunction, immune activation and the itch–scratch cycle." }
+    ] }
+  ],
+  "references": [
+    { "label": "NICE CKS: Eczema – atopic", "url": "https://cks.nice.org.uk/topics/eczema-atopic/" },
+    { "label": "NICE CKS: Dermatitis – contact", "url": "https://cks.nice.org.uk/topics/dermatitis-contact/" },
+    { "label": "PCDS: Atopic eczema", "url": "https://www.pcds.org.uk/clinical-guidance/atopic-eczema" },
+    { "label": "DermNet: Atopic dermatitis", "url": "https://dermnetnz.org/topics/atopic-dermatitis" },
+    { "label": "DermNet: Contact dermatitis", "url": "https://dermnetnz.org/topics/contact-dermatitis" },
+    { "label": "BNF: Topical corticosteroids", "url": "https://bnf.nice.org.uk/" }
+  ]
+}

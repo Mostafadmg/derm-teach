@@ -1,0 +1,240 @@
+{
+  "title": "Contact dermatitis",
+  "aka": [
+    "allergic contact dermatitis",
+    "irritant contact dermatitis",
+    "ACD",
+    "ICD",
+    "patch testing",
+    "occupational dermatitis",
+    "hand eczema",
+    "fragrance allergy"
+  ],
+  "category": "inflammatory",
+  "order": 4,
+  "module": "Module 4 · Week 3",
+  "summary": "Irritant vs allergic contact eczema — avoidance, emollients, stepped topical steroids, and when to refer for patch testing. Deepens the contact themes on the eczema page.",
+  "card_image": "m4w3:A01",
+  "glance": {
+    "think": "Eczema that matches an exposure in time and place — wet-work hands, under a watch, eyelids from nail varnish, or airborne fragrance.",
+    "engine": "ICD: direct barrier injury (innate). ACD: type IV hypersensitivity after sensitisation, elicitation at 24–72 h.",
+    "backbone": "Identify and avoid the cause; soap substitute + liberal emollient; topical steroid matched to site; refer chronic/occupational/facial cases for patch testing.",
+    "never_miss": "Occupational hand dermatitis needing workplace adjustments; airborne allergy presenting as facial/eyelid eczema; do not use aqueous cream as leave-on."
+  },
+  "sections": {
+    "what": [
+      "**Contact dermatitis** is eczema caused by something touching the skin. **Irritant contact dermatitis (ICD)** is commoner and dose-dependent. **Allergic contact dermatitis (ACD)** needs prior sensitisation and is confirmed by **patch testing**.",
+      "Atopic eczema pathways and general steroid/emollient skills sit on [eczema / dermatitis](condition:eczema-dermatitis). This page deepens ICD vs ACD, occupational disease, cosmetics, tattoos and patch-testing referral."
+    ],
+    "cause": [
+      {
+        "table": {
+          "head": [
+            "",
+            "ICD",
+            "ACD"
+          ],
+          "rows": [
+            [
+              "Mechanism",
+              "Direct toxic/physical barrier injury",
+              "Type IV T-cell hypersensitivity"
+            ],
+            [
+              "Sensitisation",
+              "Not required",
+              "Required"
+            ],
+            [
+              "Onset",
+              "Minutes–hours or cumulative",
+              "Typically 24–72 h after re-exposure"
+            ],
+            [
+              "Dose",
+              "Concentration/duration matter",
+              "Tiny amounts can elicit once sensitised"
+            ]
+          ]
+        }
+      },
+      {
+        "list": [
+          "Common irritants: water, detergents, solvents, cutting oils, friction, heat.",
+          "Common allergens: nickel, fragrance mixes, rubber accelerators, preservatives (MI/MCI), PPD hair dye, topical antibiotics/steroids, epoxy resins.",
+          "Mixed ICD+ACD is frequent on hands. About four-fifths of occupational hand dermatitis starts as irritant."
+        ]
+      }
+    ],
+    "features": [
+      {
+        "list": [
+          "Both look eczematous: erythema, vesicles, scale, fissures, lichenification.",
+          "ICD: burning/stinging often > itch; sharp borders early; interdigital “sentinel” wet-work dermatitis.",
+          "ACD: itch dominates; geometric patterns (glove, plaster, jewellery); may spread beyond contact.",
+          "Facial/cosmetic ACD: eyelids, hairline; airborne fragrance can affect exposed face.",
+          "Tattoo ink allergy: localised eczema or lichenoid reaction in a colour distribution.",
+          "Skin of colour: erythema less obvious; violaceous pigment and lichenification more prominent."
+        ]
+      }
+    ],
+    "diagnosis": [
+      {
+        "list": [
+          "History: occupation, hobbies, cosmetics, topical medicines, holiday improvement.",
+          "ICD: clinical exposure story; no confirmatory lab test.",
+          "Suspected ACD that is chronic, recurrent, occupational, facial or treatment-resistant → **refer for patch testing** (British baseline ± relevant series + patient’s own products).",
+          "Photopatch testing when sunscreen filters or photoallergens are suspected.",
+          "Prick testing / specific IgE is for immediate contact urticaria (e.g. latex), not delayed ACD."
+        ]
+      }
+    ],
+    "differentials": [
+      {
+        "table": {
+          "head": [
+            "Look-alike",
+            "Clues"
+          ],
+          "rows": [
+            [
+              "Atopic eczema",
+              "Flexural history; not strictly contact-limited"
+            ],
+            [
+              "Contact urticaria",
+              "Minutes; wheals; latex"
+            ],
+            [
+              "Psoriasis of hands",
+              "Sharp plaques, nail changes"
+            ],
+            [
+              "Tinea",
+              "KOH/culture; annular edge"
+            ],
+            [
+              "Photocontact",
+              "Spared shadow zones"
+            ]
+          ]
+        }
+      }
+    ],
+    "management": [
+      {
+        "ol": [
+          "Identify and **avoid** the irritant/allergen — improvement can take weeks.",
+          "Soap substitute + liberal emollient; cotton liners under gloves for wet work.",
+          "Short topical corticosteroid matched to site and severity (face/flexures: mild–moderate).",
+          "Refer for patch testing when indicated (CKS/BAD/PCDS).",
+          "Occupational cases: fit-note/workplace adjustments; RIDDOR awareness is employer-led — IPs recognise and signpost."
+        ]
+      },
+      {
+        "callout": "warn",
+        "title": "Emollient cautions",
+        "text": "Do not use aqueous cream as a leave-on. Counsel paraffin fire risk and slippery bathroom floors."
+      },
+      {
+        "callout": "info",
+        "title": "Pigmented contact dermatitis",
+        "text": "Grey-brown facial pigment from cosmetics/fragrances in darker skin — see [contact & lichenoid pigmentation](condition:contact-lichenoid-pigmentation)."
+      }
+    ],
+    "red_flags": [
+      "Occupational disease threatening livelihood — early patch testing and workplace advice.",
+      "Severe facial/eyelid swelling or systemic contact dermatitis.",
+      "Suspected airborne allergy continuing despite “stopping perfume”.",
+      "Non-healing dermatitis on medicaments — think contact allergy to the treatment itself."
+    ],
+    "pearls": [
+      "Many “allergies” on the hands are **irritant** — still treat the barrier aggressively.",
+      "Atopics get ICD more easily and can still develop ACD.",
+      "Hair-dye (PPD) and nail-varnish eyelid patterns are classic teaching cases.",
+      "Always check BNF/SmPC for topical steroid site limits."
+    ]
+  },
+  "photos": [
+    {
+      "title": "ACD vs ICD",
+      "items": [
+        "m4w3:A01",
+        "m4w3:A02",
+        "m4w3:A03",
+        "m4w3:A04"
+      ]
+    },
+    {
+      "title": "Facial and cosmetic contact",
+      "items": [
+        "m4w3:B01",
+        "m4w3:B02",
+        "m4w3:B03"
+      ]
+    },
+    {
+      "title": "Airborne / fragrance",
+      "items": [
+        "m4w3:C01",
+        "m4w3:C02",
+        "m4w3:C03"
+      ]
+    },
+    {
+      "title": "Tattoo ink allergy",
+      "items": [
+        "m4w3:D01",
+        "m4w3:D02",
+        "m4w3:D03"
+      ]
+    },
+    {
+      "title": "Occupational hand dermatitis",
+      "items": [
+        "m4w3:E01",
+        "m4w3:E02",
+        "m4w3:E03"
+      ]
+    },
+    {
+      "title": "Patch testing",
+      "items": [
+        "m4w3:F01",
+        "m4w3:F02",
+        "m4w3:F03",
+        "m4w3:F04"
+      ]
+    },
+    {
+      "title": "Device / drug contact",
+      "items": [
+        "m4w3:G01"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "label": "NICE CKS: Dermatitis – contact",
+      "url": "https://cks.nice.org.uk/topics/dermatitis-contact/"
+    },
+    {
+      "label": "DermNet: Contact dermatitis",
+      "url": "https://dermnetnz.org/topics/contact-dermatitis"
+    },
+    {
+      "label": "DermNet: Patch tests",
+      "url": "https://dermnetnz.org/topics/patch-tests"
+    },
+    {
+      "label": "BAD: Contact dermatitis PIL",
+      "url": "https://www.bad.org.uk/pils/contact-dermatitis/"
+    },
+    {
+      "label": "PCDS: Contact dermatitis",
+      "url": "https://www.pcds.org.uk/clinical-guidance/dermatitis-contact"
+    }
+  ],
+  "slug": "contact-dermatitis",
+  "status": "published"
+}
