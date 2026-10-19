@@ -189,27 +189,117 @@ def resolve_photo(item, prefix, ctx=""):
     return None
 
 
+# ---------------------------------------------------------------- UI (redesign)
+from datetime import datetime  # noqa: E402
+
+UI = {
+    "search": '<circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/>',
+    "menu": '<path d="M4 7h16M4 12h16M4 17h10"/>',
+    "sun": '<circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/>',
+    "moon": '<path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5Z"/>',
+    "x": '<path d="M6 6l12 12M18 6 6 18"/>',
+    "arrow": '<path d="M5 12h14M13 6l6 6-6 6"/>',
+    "arrow-l": '<path d="M19 12H5M11 6l-6 6 6 6"/>',
+    "chev": '<path d="m9 6 6 6-6 6"/>',
+    "chev-d": '<path d="m6 9 6 6 6-6"/>',
+    "alert": '<path d="M12 3.5 2.5 20h19L12 3.5Z"/><path d="M12 10v4.5M12 17.5h.01"/>',
+    "refer": '<circle cx="12" cy="12" r="9"/><path d="M8 12h8M13 8.5l3.5 3.5-3.5 3.5"/>',
+    "shield": '<path d="M12 3 4.5 6v5.5c0 4.6 3.2 8.2 7.5 9.5 4.3-1.3 7.5-4.9 7.5-9.5V6L12 3Z"/><path d="m9 12 2 2 4-4"/>',
+    "pill": '<rect x="3" y="8.5" width="18" height="7" rx="3.5" transform="rotate(-45 12 12)"/><path d="m9.5 9.5 5 5"/>',
+    "info": '<circle cx="12" cy="12" r="9"/><path d="M12 11v5.5M12 7.5h.01"/>',
+    "bulb": '<path d="M9 18h6M10 21h4M12 3a6 6 0 0 0-3.6 10.8c.7.5 1.1 1.3 1.1 2.2h5c0-.9.4-1.7 1.1-2.2A6 6 0 0 0 12 3Z"/>',
+    "image": '<rect x="3" y="4.5" width="18" height="15" rx="2.5"/><circle cx="9" cy="10" r="1.8"/><path d="m21 16-5-5-8.5 8.5"/>',
+    "external": '<path d="M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/>',
+    "expand": '<path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5"/>',
+    "clock": '<circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/>',
+    "layers": '<path d="m12 3 9 5-9 5-9-5 9-5Z"/><path d="m3 13 9 5 9-5"/>',
+    "home": '<path d="M4 11 12 4l8 7v8.5a.5.5 0 0 1-.5.5H15v-6H9v6H4.5a.5.5 0 0 1-.5-.5V11Z"/>',
+    "print": '<path d="M7 9V4h10v5M7 17H5a1 1 0 0 1-1-1v-5a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v5a1 1 0 0 1-1 1h-2"/><rect x="7" y="14" width="10" height="6" rx="1"/>',
+}
+
+
+def ui(name, cls="ui", size=None):
+    s = f' width="{size}" height="{size}"' if size else ""
+    return (f'<svg class="{cls}" viewBox="0 0 24 24"{s} fill="none" stroke="currentColor" stroke-width="1.8" '
+            f'stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">{UI[name]}</svg>')
+
+
+def plural(n, word):
+    return f"{n} {word}{'' if n == 1 else 's'}"
+
+
+def module_rank(d):
+    """(module, week) parsed from the optional free-text module tag; used only for ordering."""
+    m = re.findall(r"Module\s+(\d+)\s*·\s*Week\s+(\d+)", d.get("module") or "")
+    return max(((int(a), int(b)) for a, b in m), default=(0, 0))
+
+
+# ---------------------------------------------------------------- photos
 def figure(ph, cls=""):
     if not ph:
         return ""
-    badge = ('<span class="badge badge-ai">AI diagram</span>' if ph["kind"] == "ai"
-             else f'<span class="badge badge-dn">{esc(ph.get("site", "DermNet"))}</span>')
-    credit = esc(ph["credit"])
-    if ph["href"]:
-        credit += f' — <a href="{esc(ph["href"])}" target="_blank" rel="noopener">source</a>'
+    ai = ph["kind"] == "ai"
+    badge = ('<span class="badge badge-ai">AI diagram</span>' if ai
+             else f'<span class="badge badge-src">{esc(ph.get("site", "DermNet"))}</span>')
+    src = (f' <a class="src-link" href="{esc(ph["href"])}" target="_blank" rel="noopener">Source{ui("external", "ui ui-xs")}</a>'
+           if ph["href"] else "")
+    credit = f'<span class="credit">{esc(ph["credit"])}{src}</span>'
     return (
         f'<figure class="ph ph-{ph["kind"]} {cls}">'
         f'<button type="button" class="ph-btn" data-lb data-src="{esc(ph["src"])}" '
         f'data-caption="{esc(ph["caption"])}" data-credit="{esc(ph["credit"])}" data-href="{esc(ph["href"])}" '
-        f'aria-label="Enlarge: {esc(ph["alt"])}">'
-        f'<img src="{esc(ph["src"])}" alt="{esc(ph["alt"])}" loading="lazy" width="{ph["w"]}" height="{ph["h"]}">'
-        f'{badge}<span class="zoom" aria-hidden="true">⤢</span></button>'
-        f'<figcaption><span class="tp">{md(ph["caption"], "")}</span>'
-        f'<span class="credit">{credit}</span></figcaption></figure>'
+        f'data-ai="{1 if ai else 0}" aria-label="Enlarge image: {esc(ph["alt"])}">'
+        f'<img src="{esc(ph["src"])}" alt="{esc(ph["alt"])}" loading="lazy" decoding="async" width="{ph["w"]}" height="{ph["h"]}">'
+        f'{badge}<span class="zoom" aria-hidden="true">{ui("expand", "ui ui-sm")}</span></button>'
+        f'<figcaption><span class="tp">{md(ph["caption"], "")}</span>{credit}</figcaption></figure>'
     )
 
 
 # ---------------------------------------------------------------- blocks
+CALLOUT_KIND = {
+    # kind: (icon, eyebrow label)
+    "redflag": ("alert", "Red flag"),
+    "refer": ("refer", "Refer"),
+    "uk": ("shield", "UK guidance"),
+    "caution": ("alert", "Caution"),
+    "tip": ("pill", "Prescriber tip"),
+    "note": ("info", "Note"),
+}
+
+
+def callout_kind(tone, title, text):
+    """Presentation-only classification of a callout (no schema change): picks icon + label."""
+    t = f"{title} {text}".lower()
+    if tone == "danger":
+        return "refer" if re.search(r"\brefer|same[- ]day|urgent|999|a&e\b", title.lower()) else "redflag"
+    if re.search(r"\brefer(ral)?\b|same[- ]day|two[- ]week wait|2ww", title.lower()):
+        return "refer"
+    if tone == "warn":
+        if re.search(r"\buk\b|bnf|nice|cks|mhra|smpc|licen[cs]|formulary|not recommended|correction|stewardship", t):
+            return "uk"
+        return "caution"
+    if tone == "tip":
+        return "tip"
+    return "note"
+
+
+def render_table(t, prefix):
+    head = t.get("head", [])
+    # columns headed "Correction", "Recommended", "UK" get a highlight (UK-guidance corrections)
+    hl = {i for i, h in enumerate(head) if re.search(r"correction|recommended|\(uk\)", str(h), re.I)}
+    ncol = max([len(head)] + [len(r) for r in t["rows"]])
+    rows = "".join(
+        "<tr>" + "".join(
+            f'<td data-label="{esc(head[i]) if i < len(head) else ""}"{" class=col-uk" if i in hl else ""}>{md(cell, prefix)}</td>'
+            for i, cell in enumerate(r)) + "</tr>"
+        for r in t["rows"])
+    cap = f'<caption>{md(t["caption"], prefix)}</caption>' if t.get("caption") else ""
+    wide = " is-wide" if ncol >= 5 else ""
+    return (f'<div class="table-wrap{wide}"><table class="rtable">{cap}<thead><tr>'
+            + "".join(f'<th scope="col"{" class=col-uk" if i in hl else ""}>{esc(h)}</th>' for i, h in enumerate(head))
+            + f"</tr></thead><tbody>{rows}</tbody></table></div>")
+
+
 def render_blocks(blocks, prefix, ctx, list_cls=""):
     out = []
     loose = []  # consecutive plain strings in red_flags/pearls become one list
@@ -234,26 +324,19 @@ def render_blocks(blocks, prefix, ctx, list_cls=""):
         elif "ol" in b:
             out.append('<ol class="steps">' + "".join(f"<li>{md(x, prefix)}</li>" for x in b["ol"]) + "</ol>")
         elif "table" in b:
-            t = b["table"]
-            head = t.get("head", [])
-            rows = "".join(
-                "<tr>" + "".join(
-                    f'<td data-label="{esc(head[i]) if i < len(head) else ""}">{md(cell, prefix)}</td>'
-                    for i, cell in enumerate(r)) + "</tr>"
-                for r in t["rows"])
-            cap = f'<caption>{md(t["caption"], prefix)}</caption>' if t.get("caption") else ""
-            out.append(f'<div class="table-wrap"><table class="rtable">{cap}<thead><tr>'
-                       + "".join(f"<th>{esc(h)}</th>" for h in head)
-                       + f"</tr></thead><tbody>{rows}</tbody></table></div>")
+            out.append(render_table(b["table"], prefix))
         elif "callout" in b:
             tone = b["callout"] if b["callout"] in ("info", "tip", "warn", "danger") else "info"
+            kind = callout_kind(tone, b.get("title", ""), b.get("text", ""))
+            ico, label = CALLOUT_KIND[kind]
             inner = ""
             if b.get("text"):
                 inner += f"<p>{md(b['text'], prefix)}</p>"
             if b.get("list"):
                 inner += "<ul>" + "".join(f"<li>{md(x, prefix)}</li>" for x in b["list"]) + "</ul>"
             title = f'<p class="callout-title">{md(b.get("title", ""), prefix)}</p>' if b.get("title") else ""
-            out.append(f'<aside class="callout callout-{tone}">{title}{inner}</aside>')
+            out.append(f'<aside class="callout callout-{tone} co-{kind}"><span class="co-ico">{ui(ico)}</span>'
+                       f'<div class="co-body"><p class="co-label">{label}</p>{title}{inner}</div></aside>')
         elif "figure" in b:
             out.append(figure(resolve_photo(b["figure"], prefix, ctx), "ph-inline"))
         elif "figures" in b:
@@ -278,30 +361,36 @@ def nav_drawer(prefix, active_slug=None, active_cat=None):
         cur = ' aria-current="page"' if (active_cat == c["id"] and not active_slug) else ""
         parts.append(
             f'<details class="nav-cat" style="--accent:{c["accent"]}"{open_}>'
-            f'<summary><span class="nav-ico">{icon(c["icon"])}</span><span>{esc(c["title"])}</span>'
-            f'<span class="nav-count">{len(BY_CAT[c["id"]])}</span></summary>'
-            f'<ul><li><a class="nav-all" href="{prefix}categories/{c["id"]}.html"{cur}>Category overview →</a></li>'
+            f'<summary><span class="nav-ico">{icon(c["icon"])}</span><span class="nav-t">{esc(c["title"])}</span>'
+            f'<span class="nav-count">{len(BY_CAT[c["id"]])}</span>{ui("chev", "ui nav-chev")}</summary>'
+            f'<ul><li><a class="nav-all" href="{prefix}categories/{c["id"]}.html"{cur}>Category overview</a></li>'
             + "".join(items) + "</ul></details>")
     return (
         '<div class="drawer-backdrop" data-drawer-close hidden></div>'
-        '<nav class="drawer" id="drawer" aria-label="Library" aria-hidden="true">'
-        '<div class="drawer-head"><span>Browse library</span>'
-        '<button type="button" class="icon-btn" data-drawer-close aria-label="Close menu">✕</button></div>'
-        f'<a class="drawer-home" href="{prefix}index.html">⌂ Home</a>'
+        '<nav class="drawer" id="drawer" aria-label="Library" aria-hidden="true" inert>'
+        '<div class="drawer-head"><span class="drawer-title">Library</span>'
+        f'<button type="button" class="icon-btn" data-drawer-close aria-label="Close menu">{ui("x")}</button></div>'
+        '<div class="drawer-scroll">'
+        f'<a class="drawer-link" href="{prefix}index.html">{ui("home")}Home</a>'
         + "".join(parts) +
-        f'<a class="drawer-home" href="{prefix}credits.html">Image credits</a></nav>'
+        f'<a class="drawer-link" href="{prefix}credits.html">{ui("image")}Image credits</a></div></nav>'
     )
 
 
-def search_box(cls="search", placeholder="Search conditions… e.g. tinea, boil, guttate"):
+def search_box(cls="search", placeholder="Search conditions, synonyms or categories…", kbd=True):
     return (
         f'<div class="{cls}" role="search">'
-        '<svg class="search-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">'
-        '<circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>'
+        f'{ui("search", "search-ico")}'
         f'<input type="search" class="search-input" placeholder="{placeholder}" '
-        'aria-label="Search conditions" autocomplete="off" spellcheck="false">'
-        '<ul class="search-results" role="listbox" hidden></ul></div>'
+        'aria-label="Search conditions, synonyms and categories" autocomplete="off" spellcheck="false" '
+        'role="combobox" aria-expanded="false" aria-autocomplete="list">'
+        + ('<kbd class="search-kbd" aria-hidden="true">/</kbd>' if kbd else "")
+        + '<ul class="search-results" role="listbox" hidden></ul></div>'
     )
+
+
+THEME_BOOT = ("<script>(function(){try{var t=localStorage.getItem('dt-theme');"
+              "if(t==='light'||t==='dark')document.documentElement.setAttribute('data-theme',t)}catch(e){}})()</script>")
 
 
 def page(title, prefix, body, *, desc="", active_slug=None, active_cat=None, body_cls=""):
@@ -314,21 +403,28 @@ def page(title, prefix, body, *, desc="", active_slug=None, active_cat=None, bod
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>{esc(full_title)}</title>
 <meta name="description" content="{esc(desc or SITE['tagline'])}">
-<meta name="theme-color" content="#0f4c5c">
+<meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0b1214" media="(prefers-color-scheme: dark)">
+<meta name="color-scheme" content="light dark">
+{THEME_BOOT}
+<link rel="preload" href="{prefix}assets/fonts/inter-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="{prefix}assets/css/style.css">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230f4c5c'/%3E%3Ccircle cx='16' cy='16' r='8' fill='none' stroke='%23fff' stroke-width='2.5'/%3E%3Ccircle cx='16' cy='16' r='2.5' fill='%23fff'/%3E%3C/svg%3E">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='9' fill='%230d5e63'/%3E%3Ccircle cx='16' cy='16' r='8' fill='none' stroke='%23fff' stroke-width='2.5'/%3E%3Ccircle cx='16' cy='16' r='2.5' fill='%23fff'/%3E%3C/svg%3E">
 </head>
 <body class="{body_cls}" data-root="{prefix}">
 <a class="skip" href="#main">Skip to content</a>
 <header class="topbar">
   <div class="topbar-in">
-    <button type="button" class="icon-btn menu-btn" data-drawer-open aria-controls="drawer" aria-expanded="false" aria-label="Open library menu">
-      <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
-      <span class="menu-label">Browse</span>
-    </button>
-    <a class="brand" href="{prefix}index.html"><span class="brand-mark" aria-hidden="true"></span><span class="brand-text"><b>{esc(SITE['title'])}</b><small>{esc(SITE['subtitle'])}</small></span></a>
+    <a class="brand" href="{prefix}index.html" aria-label="{esc(SITE['title'])} home"><span class="brand-mark" aria-hidden="true"></span><span class="brand-text"><b>{esc(SITE['title'])}</b><small>{esc(SITE['subtitle'])}</small></span></a>
+    <button type="button" class="nav-btn" data-drawer-open aria-controls="drawer" aria-expanded="false">{ui("layers")}<span>Browse</span></button>
     {search_box("search search-top", "Search conditions…")}
+    <div class="top-actions">
+      <button type="button" class="icon-btn search-toggle" aria-label="Search" aria-expanded="false">{ui("search")}</button>
+      <button type="button" class="icon-btn theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">{ui("moon", "ui i-moon")}{ui("sun", "ui i-sun")}</button>
+      <button type="button" class="icon-btn menu-btn" data-drawer-open aria-controls="drawer" aria-expanded="false" aria-label="Open library menu">{ui("menu")}</button>
+    </div>
   </div>
+  <div class="progress" aria-hidden="true"><span></span></div>
 </header>
 {nav_drawer(prefix, active_slug, active_cat)}
 <main id="main">
@@ -336,16 +432,20 @@ def page(title, prefix, body, *, desc="", active_slug=None, active_cat=None, bod
 </main>
 <footer class="footer">
   <div class="wrap footer-in">
+    <div class="foot-brand"><a class="brand" href="{prefix}index.html"><span class="brand-mark" aria-hidden="true"></span><span class="brand-text"><b>{esc(SITE['title'])}</b><small>{esc(SITE['subtitle'])}</small></span></a>
+    <p class="foot-meta">{esc(SITE['owner'])} · {year} · UK English</p>
+    <p class="foot-links"><a href="{prefix}index.html#categories">All categories</a><a href="{prefix}credits.html">Image credits</a><a href="https://bnf.nice.org.uk/" target="_blank" rel="noopener">BNF</a><a href="https://cks.nice.org.uk/" target="_blank" rel="noopener">NICE CKS</a></p></div>
+    <div class="foot-notes">
     <p class="disclaimer"><strong>Personal study resource.</strong> These are {esc(SITE['owner'])}’s own learning notes. They are not a clinical guideline and are not for patient-facing use. Doses, licences and pathways change, so always check the current <a href="https://bnf.nice.org.uk/" target="_blank" rel="noopener">BNF</a>, <a href="https://cks.nice.org.uk/" target="_blank" rel="noopener">NICE CKS</a>, SmPC, MHRA alerts and your local formulary before prescribing.</p>
     <p class="disclaimer">Clinical photographs © <a href="https://dermnetnz.org/" target="_blank" rel="noopener">DermNet</a> or the named holder, reproduced for personal education under the <a href="https://dermnetnz.org/image-licence" target="_blank" rel="noopener">DermNet image licence</a> with attribution on every image. Images marked “AI diagram” are AI-generated teaching illustrations, not clinical photographs. <a href="{prefix}credits.html">Full image credits</a>.</p>
-    <p class="foot-meta">{esc(SITE['title'])} · {year} · UK English · Built from <code>content/*.json</code></p>
+    </div>
   </div>
 </footer>
 <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Image viewer" hidden>
-  <button type="button" class="lb-close icon-btn" aria-label="Close">✕</button>
-  <button type="button" class="lb-prev icon-btn" aria-label="Previous image">‹</button>
-  <figure class="lb-fig"><img alt=""><figcaption><span class="lb-cap"></span><span class="lb-credit"></span><span class="lb-count"></span></figcaption></figure>
-  <button type="button" class="lb-next icon-btn" aria-label="Next image">›</button>
+  <div class="lb-bar"><span class="lb-count"></span><button type="button" class="lb-close icon-btn" aria-label="Close image viewer">{ui("x")}</button></div>
+  <button type="button" class="lb-prev icon-btn" aria-label="Previous image">{ui("arrow-l")}</button>
+  <figure class="lb-fig"><div class="lb-stage"><img alt=""></div><figcaption><span class="lb-cap"></span><span class="lb-credit"></span></figcaption></figure>
+  <button type="button" class="lb-next icon-btn" aria-label="Next image">{ui("arrow")}</button>
 </div>
 <script src="{prefix}assets/js/search-index.js"></script>
 <script src="{prefix}assets/js/app.js"></script>
@@ -362,11 +462,14 @@ def thumb_for(d, prefix):
                 item = g["items"][0]
                 break
     if not item:
-        return '<div class="card-thumb card-thumb-empty" aria-hidden="true">' + icon(CAT_BY_ID[d["category"]]["icon"], "ico ico-xl") + "</div>"
+        return ('<div class="card-thumb card-thumb-empty" aria-hidden="true">'
+                + icon(CAT_BY_ID[d["category"]]["icon"], "ico ico-xl") + "</div>")
     ph = resolve_photo(item, prefix, d["slug"])
     if not ph:
         return ""
-    return f'<div class="card-thumb"><img src="{esc(ph["src"])}" alt="" loading="lazy"></div>'
+    tag = "AI diagram" if ph["kind"] == "ai" else f'© {ph.get("site", "DermNet")}'
+    return (f'<div class="card-thumb"><img src="{esc(ph["src"])}" alt="" loading="lazy" decoding="async">'
+            f'<span class="thumb-credit">{esc(tag)}</span></div>')
 
 
 def count_photos(d):
@@ -374,6 +477,54 @@ def count_photos(d):
     for g in d.get("photos", []):
         n += len(g.get("items", []))
     return n
+
+
+def crumbs(items):
+    """items: list of (label, href or None)."""
+    out = []
+    for i, (lbl, href) in enumerate(items):
+        if i:
+            out.append(ui("chev", "ui crumb-sep"))
+        out.append(f'<a href="{href}">{esc(lbl)}</a>' if href else f'<span aria-current="page">{esc(lbl)}</span>')
+    return f'<nav class="crumbs" aria-label="Breadcrumb">{"".join(out)}</nav>'
+
+
+def first_seen():
+    """Generated ledger (assets/data/first-seen.json) of when each page first appeared in a build.
+    Seeded from content-file mtimes the first time; used only to order 'Recently added'."""
+    p = ROOT / "assets/data/first-seen.json"
+    p.parent.mkdir(parents=True, exist_ok=True)
+    seeded = p.exists()
+    led = load_json(p) if seeded else {}
+    now = datetime.now().strftime("%Y-%m-%dT%H:%M")
+    for d in CONDS:
+        if d["slug"] not in led:
+            f = CONTENT / "conditions" / f"{d['slug']}.json"
+            led[d["slug"]] = now if seeded else datetime.fromtimestamp(f.stat().st_mtime).strftime("%Y-%m-%dT%H:%M")
+    led = {k: v for k, v in sorted(led.items()) if k in SLUGS}
+    p.write_text(json.dumps(led, indent=1) + "\n", encoding="utf-8")
+    return led
+
+
+def cond_card(d, p, show_cat=False):
+    c = CAT_BY_ID[d["category"]]
+    soon = d["status"] != "published"
+    never = d.get("glance", {}).get("never_miss", "")
+    aka = "".join(f'<span class="chip">{esc(a)}</span>' for a in d.get("aka", [])[:3])
+    n = count_photos(d)
+    top = (f'<span class="card-cat" style="--accent:{c["accent"]}">{icon(c["icon"])}{esc(c.get("short") or c["title"])}</span>'
+           if show_cat else (f'<span class="card-mod">{esc(d["module"])}</span>' if d.get("module") else ""))
+    return (
+        f'<article class="cond-card{" is-soon" if soon else ""}" id="{esc(d["slug"])}" style="--accent:{c["accent"]}">'
+        f'{thumb_for(d, p)}<div class="cond-card-body">{top}'
+        f'<h3><a class="stretch" href="{p}conditions/{d["slug"]}.html">{esc(d["title"])}</a>'
+        + (' <span class="pill pill-soon">Coming soon</span>' if soon else "") + "</h3>"
+        f'<p class="cond-sum">{md(d.get("summary", ""), p)}</p>'
+        + (f'<div class="never"><p><span>Never miss</span>{md(never, p)}</p></div>' if never and not show_cat else "")
+        + (f'<div class="chips">{aka}</div>' if aka and not show_cat else "")
+        + f'<span class="cond-meta"><span>{ui("image", "ui ui-xs")}{plural(n, "image")}</span>'
+        f'<span class="go">{"Read" if not soon else "Outline"}{ui("arrow", "ui ui-xs")}</span></span>'
+        "</div></article>")
 
 
 # ---------------------------------------------------------------- pages
@@ -384,57 +535,69 @@ def build_home():
         conds = BY_CAT[c["id"]]
         pub = [d for d in conds if d["status"] == "published"]
         soon = c.get("status") != "published"
-        lis = "".join(
-            f'<li><a href="conditions/{d["slug"]}.html">{esc(d["title"])}</a>'
-            + ("" if d["status"] == "published" else ' <span class="pill pill-soon">soon</span>') + "</li>"
-            for d in conds)
-        meta = (f'{len(pub)} condition{"s" if len(pub) != 1 else ""}' if not soon
-                else f'{len(conds)} topics · coming soon')
+        names = ", ".join(esc(d["title"]) for d in conds[:3]) + ("…" if len(conds) > 3 else "")
+        meta = plural(len(pub), "page") if not soon else f"{len(conds)} topics · soon"
         cards.append(
             f'<article class="cat-card{" is-soon" if soon else ""}" style="--accent:{c["accent"]}">'
-            f'<a class="cat-card-link" href="categories/{c["id"]}.html" aria-label="{esc(c["title"])}"></a>'
             f'<div class="cat-card-top"><span class="cat-ico">{icon(c["icon"])}</span>'
-            f'<span class="cat-meta">{meta}</span></div>'
-            f'<h3>{esc(c["title"])}</h3><p>{esc(c["blurb"])}</p>'
-            f'<ul class="cat-list">{lis}</ul>'
-            f'<span class="cat-go">Open category →</span></article>')
+            f'<span class="count">{meta}</span></div>'
+            f'<h3><a class="stretch" href="categories/{c["id"]}.html">{esc(c["title"])}</a></h3>'
+            f'<p class="cat-blurb">{esc(c["blurb"])}</p>'
+            f'<p class="cat-names">{names}</p>'
+            f'<span class="cat-go">Explore{ui("arrow", "ui ui-xs")}</span></article>')
 
-    steps = "".join(f'<li><span>{i+1}</span>{esc(lbl)}</li>' for i, (_, _, lbl) in enumerate(SECTIONS + [("photos", "photos", "Photos & diagrams")]))
+    led = first_seen()
+    recent = sorted((d for d in CONDS if d["status"] == "published"),
+                    key=lambda d: (led.get(d["slug"], ""), module_rank(d), d["title"]), reverse=True)[:6]
+    recent_html = "".join(cond_card(d, p, show_cat=True) for d in recent)
+
+    steps = "".join(f'<li><span>{i+1:02d}</span>{esc(lbl)}</li>' for i, (_, _, lbl) in enumerate(SECTIONS + [("photos", "photos", "Photos & diagrams")]))
     pearls = "".join(f"<li>{md(x, p)}</li>" for x in SITE.get("cross_cutting_pearls", []))
     flags = "".join(f"<li>{esc(x)}</li>" for x in SITE.get("shared_red_flags", []))
     n_pub = sum(1 for d in CONDS if d["status"] == "published")
     n_ph = len(MANIFEST)
-    n_soon = sum(1 for d in CONDS if d["status"] != "published")
+    popular = [s for s in ("psoriasis", "eczema-dermatitis", "acne-vulgaris", "tinea", "cellulitis-erysipelas", "scabies") if s in SLUGS][:6]
+    by_slug = {d["slug"]: d for d in CONDS}
+    try_links = "".join(f'<a class="try" href="conditions/{s}.html">{esc(by_slug[s]["title"])}</a>' for s in popular)
     body = f"""
 <section class="hero">
   <div class="wrap hero-in">
-    <p class="eyebrow">{esc(SITE['owner'])} · Teaching library</p>
-    <h1>Primary-care dermatology,<br>organised for prescribers.</h1>
-    <p class="lede">{esc(SITE['tagline'])}</p>
-    {search_box("search search-hero")}
-    <ul class="stats"><li><b>{len(CATS)}</b> categories</li><li><b>{n_pub}</b> condition pages</li><li><b>{n_soon}</b> pages coming soon</li><li><b>{n_ph}</b> clinical photos</li></ul>
+    <div class="hero-copy">
+      <p class="eyebrow"><span class="dot"></span>{esc(SITE['owner'])} · Teaching library</p>
+      <h1>Primary-care dermatology, <span class="grad">organised for prescribers.</span></h1>
+      <p class="lede">{esc(SITE['tagline'])}</p>
+      {search_box("search search-hero", "Search conditions, e.g. tinea, boil…")}
+      {f'<p class="tries"><span>Popular:</span>{try_links}</p>' if try_links else ''}
+    </div>
+    <aside class="hero-card" aria-label="Shared red flags">
+      <p class="hero-card-k">{ui("alert", "ui ui-sm")}Never-miss emergencies</p>
+      <ul class="flag-list compact">{flags}</ul>
+      <p class="muted small">Escalate the same day, across every category.</p>
+    </aside>
   </div>
+  <div class="wrap"><ul class="stats">
+    <li><b>{len(CATS)}</b><span>categories</span></li><li><b>{n_pub}</b><span>condition pages</span></li>
+    <li><b>{n_ph}</b><span>clinical photos</span></li><li><b>UK</b><span>NICE · CKS · BNF aligned</span></li></ul></div>
+</section>
+<section class="wrap block" id="categories">
+  <div class="block-head"><div><p class="kicker">Browse</p><h2>Categories</h2></div><p class="muted">Pick a category, then a condition.</p></div>
+  <div class="cat-grid">{''.join(cards)}</div>
 </section>
 <section class="wrap block">
-  <div class="block-head"><h2>Browse by category</h2><p>Pick a category, then a condition.</p></div>
-  <div class="cat-grid">{''.join(cards)}</div>
+  <div class="block-head"><div><p class="kicker">{ui("clock", "ui ui-xs")}Latest</p><h2>Recently added</h2></div><p class="muted">The newest pages in the library.</p></div>
+  <div class="cond-grid recent">{recent_html}</div>
 </section>
 <section class="wrap block two-col">
   <div class="panel">
-    <h2>How every condition page is laid out</h2>
+    <p class="kicker">Structure</p>
+    <h2>Every condition page reads the same way</h2>
     <ol class="flow">{steps}</ol>
-    <p class="muted">Desktop: use the sticky contents bar on the right. Phone: swipe the section chips and tap a heading to collapse it.</p>
+    <p class="muted small">Desktop: use the sticky contents on the right. Phone: swipe the section chips under the top bar, and tap a heading to collapse it.</p>
   </div>
-  <div class="panel panel-danger">
-    <h2>Shared red flags</h2>
-    <p class="muted">Emergencies that cut across every category, so escalate the same day:</p>
-    <ul class="flag-list">{flags}</ul>
-  </div>
-</section>
-<section class="wrap block">
   <div class="panel">
-    <h2>Cross-cutting prescriber pearls</h2>
-    <ul class="pearl-list cols">{pearls}</ul>
+    <p class="kicker">{ui("bulb", "ui ui-xs")}Prescriber pearls</p>
+    <h2>Cross-cutting principles</h2>
+    <ul class="pearl-list">{pearls}</ul>
   </div>
 </section>
 """
@@ -444,42 +607,45 @@ def build_home():
 def build_category(c):
     p = "../"
     conds = BY_CAT[c["id"]]
-    cards = []
-    for d in conds:
-        soon = d["status"] != "published"
-        never = d.get("glance", {}).get("never_miss", "")
-        aka = "".join(f'<span class="chip">{esc(a)}</span>' for a in d.get("aka", [])[:4])
-        cards.append(
-            f'<article class="cond-card{" is-soon" if soon else ""}" id="{esc(d["slug"])}">'
-            f'<a class="cond-card-link" href="{p}conditions/{d["slug"]}.html" aria-label="{esc(d["title"])}"></a>'
-            f'{thumb_for(d, p)}<div class="cond-card-body">'
-            f'<h3>{esc(d["title"])}' + (' <span class="pill pill-soon">Coming soon</span>' if soon else "") + "</h3>"
-            f'<p>{md(d.get("summary", ""), p)}</p>'
-            + (f'<p class="never"><b>Never miss:</b> {md(never, p)}</p>' if never else "")
-            + f'<div class="chips">{aka}</div>'
-            f'<span class="cond-meta">{count_photos(d)} images · {"Read page →" if not soon else "View outline →"}</span>'
-            "</div></article>")
+    cards = [cond_card(d, p) for d in conds]
+    n_img = sum(count_photos(d) for d in conds)
     soon_note = ""
     if c.get("status") != "published":
-        soon_note = ('<aside class="callout callout-info"><p class="callout-title">Ready for content</p>'
+        soon_note = ('<aside class="callout callout-info co-note"><span class="co-ico">' + ui("info") + '</span><div class="co-body">'
+                     '<p class="co-label">Note</p><p class="callout-title">Ready for content</p>'
                      '<p>Each topic below already has its own page, with section anchors (<code>#what</code>, <code>#cause</code> … <code>#pearls</code>). '
                      'To publish one, fill in its JSON file in <code>content/conditions/</code>, set <code>"status": "published"</code>, and run <code>python3 build.py</code>. '
-                     'See <code>ADD_CONDITION.md</code>.</p></aside>')
+                     'See <code>ADD_CONDITION.md</code>.</p></div></aside>')
+    i = next(k for k, x in enumerate(CATS) if x["id"] == c["id"])
+    prv, nxt = (CATS[i - 1] if i else None), (CATS[i + 1] if i + 1 < len(CATS) else None)
+    pn = '<nav class="prevnext" aria-label="More categories">'
+    pn += (f'<a class="pn pn-prev" href="{prv["id"]}.html"><small>{ui("arrow-l", "ui ui-xs")}Previous category</small><b>{esc(prv["title"])}</b></a>' if prv else "<span></span>")
+    pn += (f'<a class="pn pn-next" href="{nxt["id"]}.html"><small>Next category{ui("arrow", "ui ui-xs")}</small><b>{esc(nxt["title"])}</b></a>' if nxt else "<span></span>")
+    pn += "</nav>"
     body = f"""
-<section class="cat-hero" style="--accent:{c['accent']}">
+<section class="page-head" style="--accent:{c['accent']}">
   <div class="wrap">
-    <nav class="crumbs" aria-label="Breadcrumb"><a href="{p}index.html">Home</a><span>›</span><span aria-current="page">{esc(c['title'])}</span></nav>
+    {crumbs([("Home", f"{p}index.html"), (c['title'], None)])}
     <div class="cat-hero-row"><span class="cat-ico cat-ico-lg">{icon(c['icon'])}</span>
-    <div><h1>{esc(c['title'])}</h1><p class="lede">{esc(c['blurb'])}</p></div></div>
+    <div><h1>{esc(c['title'])}</h1><p class="lede">{esc(c['blurb'])}</p>
+    <p class="head-meta">{plural(len(conds), "page")} · {plural(n_img, "image")}</p></div></div>
   </div>
 </section>
 <section class="wrap block">
   {soon_note}
   <div class="cond-grid">{''.join(cards)}</div>
+  {pn}
 </section>
 """
     out = ROOT / "categories" / f"{c['id']}.html"
-    out.write_text(page(c["title"], p, body, desc=c["blurb"], active_cat=c["id"]), encoding="utf-8")
+    out.write_text(page(c["title"], p, body, desc=c["blurb"], active_cat=c["id"], body_cls="category"), encoding="utf-8")
+
+
+def sec_html(anchor, num, label, inner, tone="", extra=""):
+    return (f'<section class="sec{tone}" id="{esc(anchor)}" aria-labelledby="h-{esc(anchor)}"><details open>'
+            f'<summary><span class="sec-num">{num:02d}</span><h2 id="h-{esc(anchor)}">{label}</h2>{extra}'
+            f'{ui("chev-d", "ui chev")}</summary>'
+            f'<div class="sec-body">{inner}</div></details></section>')
 
 
 def build_condition(d, idx, seq):
@@ -510,7 +676,7 @@ def build_condition(d, idx, seq):
     for key, anchor, label in ([] if article else SECTIONS):
         blocks = d["sections"].get(key, [])
         num += 1
-        toc.append(f'<li><a href="#{anchor}" data-toc="{anchor}"><span>{num}</span>{label}</a></li>')
+        toc.append(f'<li><a href="#{anchor}" data-toc="{anchor}"><span>{num:02d}</span>{label}</a></li>')
         if blocks:
             lc = {"red_flags": "flag-list", "pearls": "pearl-list"}.get(key, "")
             inner = render_blocks(blocks, p, f"{ctx}/{key}", lc)
@@ -518,45 +684,41 @@ def build_condition(d, idx, seq):
             inner = ('<div class="placeholder"><p><b>Content coming soon.</b> This section is wired up and ready. '
                      f'Add blocks to <code>sections.{key}</code> in <code>content/conditions/{esc(d["slug"])}.json</code>.</p></div>')
         tone = {"red_flags": " sec-danger", "pearls": " sec-tip", "management": " sec-rx"}.get(key, "")
-        secs.append(
-            f'<section class="sec{tone}" id="{anchor}" aria-labelledby="h-{anchor}"><details open>'
-            f'<summary><span class="sec-num">{num}</span><h2 id="h-{anchor}">{label}</h2><span class="chev" aria-hidden="true"></span></summary>'
-            f'<div class="sec-body">{inner}</div></details></section>')
+        extra = {"management": '<span class="sec-tag">Pharmacist / IP</span>',
+                 "red_flags": f'<span class="sec-tag sec-tag-danger">{ui("alert", "ui ui-xs")}Escalate</span>'}.get(key, "")
+        secs.append(sec_html(anchor, num, label, inner, tone, extra))
 
     for a in (d.get("article", []) if article else []):
         num += 1
         anchor = a["id"]
-        toc.append(f'<li><a href="#{esc(anchor)}" data-toc="{esc(anchor)}"><span>{num}</span>{esc(a.get("short", a["title"]))}</a></li>')
+        toc.append(f'<li><a href="#{esc(anchor)}" data-toc="{esc(anchor)}"><span>{num:02d}</span>{esc(a.get("short", a["title"]))}</a></li>')
         tone = {"danger": " sec-danger", "tip": " sec-tip", "rx": " sec-rx"}.get(a.get("tone", ""), "")
-        secs.append(
-            f'<section class="sec{tone}" id="{esc(anchor)}" aria-labelledby="h-{esc(anchor)}"><details open>'
-            f'<summary><span class="sec-num">{num}</span><h2 id="h-{esc(anchor)}">{esc(a["title"])}</h2><span class="chev" aria-hidden="true"></span></summary>'
-            f'<div class="sec-body">{render_blocks(a.get("blocks", []), p, f"{ctx}/{anchor}")}</div></details></section>')
+        secs.append(sec_html(anchor, num, esc(a["title"]), render_blocks(a.get("blocks", []), p, f"{ctx}/{anchor}"), tone))
 
     # photos
-    num += 1
-    if article:
-        num -= 1
-    else:
-        toc.append(f'<li><a href="#photos" data-toc="photos"><span>{num}</span>Photos</a></li>')
-    groups = []
-    for g in d.get("photos", []):
-        figs = "".join(figure(resolve_photo(x, p, ctx)) for x in g.get("items", []))
-        tone = " gal-danger" if g.get("tone") == "danger" else ""
-        groups.append(f'<div class="gal-group{tone}"><h3>{md(g.get("title", ""), p)}</h3><div class="gallery">{figs}</div></div>')
-    if not groups:
-        groups.append('<div class="placeholder"><p><b>Photos coming soon.</b> Add DermNet codes or AI images to <code>photos</code>.</p></div>')
+    n_img = count_photos(d)
     if not article:
-      secs.append(
-        f'<section class="sec" id="photos" aria-labelledby="h-photos"><details open>'
-        f'<summary><span class="sec-num">{num}</span><h2 id="h-photos">Photos &amp; diagrams</h2><span class="chev" aria-hidden="true"></span></summary>'
-        f'<div class="sec-body"><p class="muted small">Tap any image to enlarge. DermNet photographs are © DermNet or the named holder, with the source linked under each image. Images marked <span class="badge badge-ai badge-inline">AI diagram</span> are AI-generated teaching illustrations.</p>'
-        f'{"".join(groups)}</div></details></section>')
+        num += 1
+        toc.append(f'<li><a href="#photos" data-toc="photos"><span>{num:02d}</span>Photos</a></li>')
+        groups = []
+        for g in d.get("photos", []):
+            items = g.get("items", [])
+            figs = "".join(figure(resolve_photo(x, p, ctx)) for x in items)
+            tone = " gal-danger" if g.get("tone") == "danger" else ""
+            groups.append(f'<div class="gal-group{tone}"><h3>{md(g.get("title", ""), p)}<span class="gal-n">{len(items)}</span></h3>'
+                          f'<div class="gallery">{figs}</div></div>')
+        if not groups:
+            groups.append('<div class="placeholder"><p><b>Photos coming soon.</b> Add DermNet codes or AI images to <code>photos</code>.</p></div>')
+        intro = ('<p class="gal-note">' + ui("image", "ui ui-sm") + '<span>Select any image to enlarge. Photographs are © DermNet or the named holder, '
+                 'with the source linked under each image. Images marked <span class="badge badge-ai badge-inline">AI diagram</span> are AI-generated teaching illustrations.</span></p>')
+        secs.append(sec_html("photos", num, "Photos &amp; diagrams", intro + "".join(groups),
+                             extra=f'<span class="sec-tag">{plural(n_img, "image")}</span>' if n_img else ""))
 
     # references
     if d.get("references"):
         num += 1
-        toc.append(f'<li><a href="#references" data-toc="references"><span>{num}</span>References</a></li>')
+        toc.append(f'<li><a href="#references" data-toc="references"><span>{num:02d}</span>References</a></li>')
+
         def ref_li(r):
             u = r["url"]
             if u.startswith("condition:"):
@@ -564,43 +726,52 @@ def build_condition(d, idx, seq):
                 if slug not in SLUGS:
                     WARNINGS.append(f"{ctx}: reference to unknown condition '{slug}'")
                 return f'<li><a href="{p}conditions/{esc(slug)}.html">{esc(r["label"])}</a></li>'
-            return f'<li><a href="{esc(u)}" target="_blank" rel="noopener">{esc(r["label"])}</a></li>'
+            host = re.sub(r"^https?://(www\.)?", "", u).split("/")[0]
+            return (f'<li><a href="{esc(u)}" target="_blank" rel="noopener">{esc(r["label"])}</a>'
+                    f'<span class="ref-host">{esc(host)}</span></li>')
         refs = "".join(ref_li(r) for r in d["references"])
-        secs.append(
-            f'<section class="sec" id="references" aria-labelledby="h-references"><details open>'
-            f'<summary><span class="sec-num">{num}</span><h2 id="h-references">References &amp; further reading</h2><span class="chev" aria-hidden="true"></span></summary>'
-            f'<div class="sec-body"><ul class="ref-list">{refs}</ul></div></details></section>')
+        secs.append(sec_html("references", num, "References &amp; further reading", f'<ol class="ref-list">{refs}</ol>'))
 
     soon_banner = ""
     if soon:
         planned = "".join(f"<li>{md(x, p)}</li>" for x in d.get("planned", []))
         mod = d.get("module", "a future module")
-        soon_banner = (f'<aside class="callout callout-info soon-banner"><p class="callout-title">Coming soon: {esc(mod)}</p>'
+        soon_banner = (f'<aside class="callout callout-info co-note soon-banner"><span class="co-ico">{ui("clock")}</span><div class="co-body">'
+                       f'<p class="co-label">Coming soon</p><p class="callout-title">{esc(mod)}</p>'
                        '<p>This page is a stub waiting for its research pack. Every section below has its anchor in place, '
                        'and the clinical photos (with attribution) are already filed in the Photos section.</p>'
-                       + (f"<p><b>Planned coverage:</b></p><ul>{planned}</ul>" if planned else "") + "</aside>")
+                       + (f"<p><b>Planned coverage:</b></p><ul>{planned}</ul>" if planned else "") + "</div></aside>")
 
     # prev / next (within whole library)
     prev_d = seq[idx - 1] if idx > 0 else None
     next_d = seq[idx + 1] if idx + 1 < len(seq) else None
+
+    def pn_link(x, cls, lbl):
+        cx = CAT_BY_ID[x["category"]]
+        return (f'<a class="pn {cls}" href="{p}conditions/{x["slug"]}.html" style="--accent:{cx["accent"]}">'
+                f'<small>{lbl}</small><b>{esc(x["title"])}</b><span class="pn-cat">{esc(cx["title"])}</span></a>')
     pn = '<nav class="prevnext" aria-label="More conditions">'
-    pn += (f'<a class="pn pn-prev" href="{p}conditions/{prev_d["slug"]}.html"><small>← Previous</small><b>{esc(prev_d["title"])}</b></a>'
-           if prev_d else "<span></span>")
-    pn += (f'<a class="pn pn-next" href="{p}conditions/{next_d["slug"]}.html"><small>Next →</small><b>{esc(next_d["title"])}</b></a>'
-           if next_d else "<span></span>")
+    pn += pn_link(prev_d, "pn-prev", f'{ui("arrow-l", "ui ui-xs")}Previous') if prev_d else "<span></span>"
+    pn += pn_link(next_d, "pn-next", f'Next{ui("arrow", "ui ui-xs")}') if next_d else "<span></span>"
     pn += "</nav>"
 
+    meta = []
+    if d.get("module"):
+        meta.append(f'<span>{esc(d["module"])}</span>')
+    if not article and n_img:
+        meta.append(f'<span>{plural(n_img, "image")}</span>')
+    meta = " · ".join(meta)
     body = f"""
-<section class="cond-head" style="--accent:{c['accent']}">
+<section class="page-head cond-head" style="--accent:{c['accent']}">
   <div class="wrap">
-    <nav class="crumbs" aria-label="Breadcrumb"><a href="{p}index.html">Home</a><span>›</span><a href="{p}categories/{c['id']}.html">{esc(c['title'])}</a><span>›</span><span aria-current="page">{esc(d['title'])}</span></nav>
+    {crumbs([("Home", f"{p}index.html"), (c['title'], f"{p}categories/{c['id']}.html"), (d['title'], None)])}
     <div class="cond-head-grid{' has-hero' if hero else ''}">
-      <div>
+      <div class="cond-head-copy">
         <a class="cat-pill" href="{p}categories/{c['id']}.html">{icon(c['icon'])}{esc(c['title'])}</a>
         <h1>{esc(d['title'])}{' <span class="pill pill-soon">Coming soon</span>' if soon else ''}</h1>
-        {f'<p class="module-tag">{esc(d["module"])}</p>' if d.get("module") else ''}
         <p class="lede">{md(d.get('summary', ''), p)}</p>
-        {f'<div class="chips chips-aka"><span class="chips-label">Covers</span>{aka}</div>' if aka else ''}
+        {f'<p class="head-meta">{meta}</p>' if meta else ''}
+        {f'<div class="chips chips-aka"><span class="chips-label">Also covers</span>{aka}</div>' if aka else ''}
       </div>
       {hero}
     </div>
@@ -612,7 +783,7 @@ def build_condition(d, idx, seq):
     <div class="toc-in">
       <p class="toc-title">On this page</p>
       <ol class="toc-list">{''.join(toc)}</ol>
-      <div class="toc-tools"><button type="button" class="btn-sm" data-expand>Expand all</button><button type="button" class="btn-sm" data-collapse>Collapse all</button></div>
+      <div class="toc-tools"><button type="button" class="btn-sm" data-expand>Expand all</button><button type="button" class="btn-sm" data-collapse>Collapse all</button><button type="button" class="btn-sm" data-print>{ui("print", "ui ui-xs")}Print</button></div>
     </div>
   </aside>
   <article class="cond-body">
@@ -624,7 +795,7 @@ def build_condition(d, idx, seq):
 """
     out = ROOT / "conditions" / f"{d['slug']}.html"
     out.write_text(page(d["title"], p, body, desc=d.get("summary", ""), active_slug=d["slug"], active_cat=c["id"],
-                        body_cls="condition"), encoding="utf-8")
+                        body_cls="condition" + (" layout-article" if article else "")), encoding="utf-8")
 
 
 def build_credits():
@@ -636,10 +807,12 @@ def build_credits():
                 code = it if isinstance(it, str) else it.get("dermnet")
                 if code:
                     used.setdefault(code, set()).add(d["title"])
+
     def norm_code(c):
         return c if ":" in c else f"core:{c}"
     used = {norm_code(k): v for k, v in used.items()}
     tables = []
+    jump = []
     for ps in PHOTO_SETS:
         rows = []
         for m in [x for x in MANIFEST if x["_set"] == ps["id"]]:
@@ -647,29 +820,31 @@ def build_credits():
             ref = m["_code"] if ps["id"] == "core" else m["_key"]
             cap = m.get("dermnet_caption") or m.get("source_caption") or ""
             rows.append(
-                f'<tr><td data-label="Image"><img class="credit-thumb" src="{esc(m["_dir"])}/{esc(m["filename"])}" alt="" loading="lazy"></td>'
+                f'<tr><td data-label="Image"><img class="credit-thumb" src="{esc(m["_dir"])}/{esc(m["filename"])}" alt="" loading="lazy" decoding="async"></td>'
                 f'<td data-label="Code"><code>{esc(ref)}</code></td>'
                 f'<td data-label="Caption">{esc(cap)}</td>'
                 f'<td data-label="©">{esc(m.get("copyright") or "")}</td>'
                 f'<td data-label="Source"><a href="{esc(m["source_page_url"])}" target="_blank" rel="noopener">{esc(m["source_page_url"].replace("https://", ""))}</a></td>'
                 f'<td data-label="Used on">{esc(pages)}</td></tr>')
-        tables.append(f'<h2 class="credits-h" id="set-{ps["id"]}">{esc(ps["label"])} <small>({len(rows)} images · <code>{esc(ps["dir"])}</code>)</small></h2>'
-                      '<div class="table-wrap"><table class="rtable credits"><thead><tr><th>Image</th><th>Code</th><th>Caption</th><th>©</th><th>Source page</th><th>Used on</th></tr></thead>'
+        jump.append(f'<a class="chip" href="#set-{ps["id"]}">{esc(ps["label"].split(" — ")[0])}</a>')
+        tables.append(f'<h2 class="credits-h" id="set-{ps["id"]}">{esc(ps["label"])} <small>{len(rows)} images · <code>{esc(ps["dir"])}</code></small></h2>'
+                      '<div class="table-wrap is-wide"><table class="rtable credits"><thead><tr><th>Image</th><th>Code</th><th>Caption</th><th>©</th><th>Source page</th><th>Used on</th></tr></thead>'
                       f'<tbody>{"".join(rows)}</tbody></table></div>')
     ai = sorted(x.name for x in (ROOT / "assets/img/ai").glob("*.jpg"))
     ai_li = "".join(f"<li><code>{esc(x)}</code></li>" for x in ai)
     body = f"""
-<section class="cat-hero" style="--accent:#0f4c5c"><div class="wrap">
-<nav class="crumbs" aria-label="Breadcrumb"><a href="index.html">Home</a><span>›</span><span aria-current="page">Image credits</span></nav>
+<section class="page-head"><div class="wrap">
+{crumbs([("Home", "index.html"), ("Image credits", None)])}
 <h1>Image credits &amp; attribution</h1>
 <p class="lede">Clinical photographs are from <a href="https://dermnetnz.org/" target="_blank" rel="noopener">DermNet</a>, plus a few Wikimedia Commons and open-access images, each credited to its holder. DermNet images are reproduced for personal, non-commercial study under the <a href="https://dermnetnz.org/image-licence" target="_blank" rel="noopener">DermNet image licence</a>, as watermarked low-resolution web versions. Copyright remains with DermNet or the named holder.</p>
+<div class="chips jump">{''.join(jump)}</div>
 </div></section>
-<section class="wrap block">
+<section class="wrap block credits-page">
 {''.join(tables)}
 <div class="panel" style="margin-top:2rem"><h2>AI teaching illustrations</h2>
 <p class="muted">These were generated for this library as conceptual diagrams. They are not clinical photographs and must not be used for diagnosis.</p><ul class="ai-files">{ai_li}</ul></div>
 </section>"""
-    (ROOT / "credits.html").write_text(page("Image credits", p, body), encoding="utf-8")
+    (ROOT / "credits.html").write_text(page("Image credits", p, body, body_cls="credits"), encoding="utf-8")
 
 
 def build_search_index():
@@ -680,14 +855,47 @@ def build_search_index():
             "t": d["title"], "a": d.get("aka", []), "c": c["title"], "cid": c["id"],
             "s": re.sub(r"\*+", "", d.get("summary", ""))[:180],
             "u": f"conditions/{d['slug']}.html", "soon": d["status"] != "published",
-            "col": c["accent"],
+            "col": c["accent"], "m": d.get("module", ""),
         })
     for c in CATS:
         idx.append({"t": c["title"], "a": [c.get("short", "")], "c": "Category", "cid": c["id"],
                     "s": c["blurb"][:180], "u": f"categories/{c['id']}.html", "soon": False,
-                    "col": c["accent"], "cat": True})
-    js = "/* generated by build.py — do not edit */\nwindow.DERM_SEARCH = " + json.dumps(idx, ensure_ascii=False) + ";\n"
+                    "col": c["accent"], "cat": True, "n": len(BY_CAT[c["id"]])})
+    data = json.dumps(idx, ensure_ascii=False)
+    (ROOT / "assets/data").mkdir(parents=True, exist_ok=True)
+    (ROOT / "assets/data/search-index.json").write_text(data + "\n", encoding="utf-8")
+    # The same index as a script, so search also works when opened from file:// (no fetch needed).
+    js = "/* generated by build.py from the same data as assets/data/search-index.json — do not edit */\nwindow.DERM_SEARCH = " + data + ";\n"
     (ROOT / "assets/js/search-index.js").write_text(js, encoding="utf-8")
+
+
+LINK_RE = re.compile(r'(?:href|src)="([^"]*)"')
+ID_RE = re.compile(r'\sid="([^"]+)"')
+
+
+def check_links():
+    """Verify every relative href/src in the generated HTML points at a real file (and #anchor, if given)."""
+    pages = [ROOT / "index.html", ROOT / "credits.html"] + sorted((ROOT / "categories").glob("*.html")) + sorted((ROOT / "conditions").glob("*.html"))
+    text = {f.resolve(): f.read_text(encoding="utf-8") for f in pages}
+    ids = {}
+    bad = set()
+    for f in pages:
+        for raw in LINK_RE.findall(text[f.resolve()]):
+            u = html.unescape(raw)
+            if not u or re.match(r"^(https?:|mailto:|data:|tel:|javascript:)", u):
+                continue
+            path, _, frag = u.partition("#")
+            path = path.split("?")[0]
+            t = (f.parent / path).resolve() if path else f.resolve()
+            if not t.exists():
+                bad.add(f"{f.relative_to(ROOT)} → {u}")
+            elif frag and t in text:
+                if t not in ids:
+                    ids[t] = set(ID_RE.findall(text[t]))
+                if frag not in ids[t]:
+                    bad.add(f"{f.relative_to(ROOT)} → {u} (missing #{frag})")
+    for b in sorted(bad):
+        WARNINGS.append(f"broken link: {b}")
 
 
 def main():
@@ -705,6 +913,7 @@ def main():
         build_condition(d, i, CONDS)
     build_credits()
     build_search_index()
+    check_links()
     pub = sum(1 for d in CONDS if d["status"] == "published")
     print(f"Built: index.html, credits.html, {len(CATS)} category pages, {len(CONDS)} condition pages "
           f"({pub} published, {len(CONDS) - pub} coming soon).")
