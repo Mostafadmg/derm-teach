@@ -26,7 +26,7 @@ CHECK = """() => {
 JUMP = """(id) => { const a = document.querySelector('[data-toc="'+id+'"]'); if (!a) return null;
   document.documentElement.style.scrollBehavior = 'auto'; a.click();
   return new Promise(r => setTimeout(() => { const h = document.getElementById(id).querySelector('h2') || document.getElementById(id);
-    const bar = document.querySelector('.stepper'); const sb = bar && innerWidth < 1100 ? bar.getBoundingClientRect().bottom : 0;
+    const bar = document.querySelector(".stepper") || document.querySelector(".tb-toc"); const sb = bar && innerWidth < 1100 ? bar.getBoundingClientRect().bottom : 0;
     const tb = document.querySelector('.topbar').getBoundingClientRect().bottom;
     r({headingTop: Math.round(h.getBoundingClientRect().top), coveredUntil: Math.round(Math.max(sb, tb))}); }, 900)); }"""
 report = {}
@@ -44,7 +44,14 @@ with sync_playwright() as p:
                 r = pg.evaluate(CHECK)
                 pg.evaluate("Promise.all([...document.images].map(i=>{i.loading='eager'; return i.decode().catch(()=>{})}))")
                 pg.wait_for_timeout(300)
-                pg.screenshot(path=str(OUT / f"{name}-{dev}-{scheme}{'-full' if full else ''}.png"), full_page=full, scale=("css" if full else "device"))
+                H = pg.evaluate("document.documentElement.scrollHeight"); W = pg.evaluate("document.documentElement.clientWidth")
+                r["height"] = H
+                if full and H > 16000:  # long textbook pages: save in parts (WebKit caps one image at 32767 px)
+                    for k, y in enumerate(range(0, H, 14000)):
+                        pg.screenshot(path=str(OUT / f"{name}-{dev}-{scheme}-full-{k + 1}.png"), full_page=True, scale="css",
+                                      clip={"x": 0, "y": y, "width": W, "height": min(14000, H - y)})
+                else:
+                    pg.screenshot(path=str(OUT / f"{name}-{dev}-{scheme}{'-full' if full else ''}.png"), full_page=full, scale=("css" if full else "device"))
                 if rel.startswith("conditions/"):
                     r["jump"] = pg.evaluate(JUMP, "differentials")
                     pg.screenshot(path=str(OUT / f"{name}-{dev}-{scheme}-jump.png"))

@@ -1,0 +1,907 @@
+{
+ "_note": "v4 textbook page. Draft for clinical sign-off; doses only as in source notes / BNF.",
+ "key_facts": [
+  "Chronic inflammatory disease of the **pilosebaceous unit**: comedones, papules, pustules, nodules.",
+  "Affects **85–95% of adolescents**; 20–35% moderate–severe; often persists into adulthood, especially in women.",
+  "Four drivers: **sebum**, **follicular plugging**, ***C. acnes***, **inflammation**.",
+  "UK care follows **NICE NG198**: 12-week fixed-combination topicals ± an oral tetracycline; **never antibiotic alone**.",
+  "Refer **acne fulminans the same day**; refer scarring or distress at any severity."
+ ],
+ "sections": [
+  {
+   "id": "overview",
+   "title": "Overview",
+   "blocks": [
+    "Acne vulgaris is the common form of acne: a chronic inflammatory disorder of the **pilosebaceous unit** (the hair follicle and its sebaceous gland). It produces a mixed eruption of non-inflammatory lesions (**comedones**) and inflammatory lesions (**papules, pustules, nodules**).",
+    {
+     "ul": [
+      "It favours areas with the most sebaceous follicles: **face, neck, upper chest, shoulders and back**. About half of patients have truncal acne as well as facial acne.",
+      "Diagnosis is **clinical**. Comedones are the hallmark and help separate acne from rosacea and folliculitis.",
+      "It matters beyond the skin: **scarring**, persistent pigment change and real **psychological distress**, often out of proportion to how the acne looks.",
+      "Severe variants (**acne conglobata**, **acne fulminans**) are uncommon but need specialist care."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "epidemiology",
+   "title": "Epidemiology",
+   "blocks": [
+    {
+     "ul": [
+      {
+       "t": "**Prevalence**",
+       "sub": [
+        "Most adolescents (about **85–95%**) have acne to some degree; **20–35%** develop moderate to severe disease.",
+        "It is one of the most common skin conditions worldwide."
+       ]
+      },
+      {
+       "t": "**Age**",
+       "sub": [
+        "Usually starts around puberty and peaks in the **mid to late teens**.",
+        "It can persist into, or begin in, adult life: roughly **50% of women in their 20s** and 30–40% in their 30s have some acne.",
+        "About **a quarter of adult women** with acne had none as teenagers (adult-onset acne)."
+       ]
+      },
+      {
+       "t": "**Sex**",
+       "sub": [
+        "More common and often more severe in **males during adolescence**.",
+        "More common in **females in adulthood** (hormonal and PCOS-related acne)."
+       ]
+      },
+      {
+       "t": "**Ethnicity**",
+       "sub": [
+        "Affects all ethnic groups. In **skin of colour**, post-inflammatory hyperpigmentation and keloid scarring are more frequent and are often the main concern."
+       ]
+      },
+      {
+       "t": "**Family history**",
+       "sub": [
+        "Strongly heritable: twin studies attribute about **80%** of the variation in acne risk to genetics."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "aetiology",
+   "title": "Aetiology: causes and risk factors",
+   "blocks": [
+    "Acne results from a **genetic predisposition** acted on by androgens and local factors. No single cause is found in most patients.",
+    {
+     "h": "Causes and associated factors"
+    },
+    {
+     "ul": [
+      {
+       "t": "**Androgens**: drive sebum production and follicular plugging.",
+       "sub": [
+        "Puberty; **polycystic ovary syndrome (PCOS)**; congenital adrenal hyperplasia and other hyperandrogenic states.",
+        "Acne often changes in **pregnancy**."
+       ]
+      },
+      {
+       "t": "**Drugs**",
+       "sub": [
+        "Corticosteroids (systemic and topical), testosterone and **anabolic steroids**, lithium, **EGFR inhibitors**, JAK inhibitors, phenytoin, halogens (iodides, bromides)."
+       ]
+      },
+      {
+       "t": "**Occlusion and friction** (acne mechanica)",
+       "sub": [
+        "Headbands, helmets, chin straps, backpacks, sports pads, face masks."
+       ]
+      },
+      {
+       "t": "**Cosmetics and hair products**",
+       "sub": [
+        "Occlusive or comedogenic creams and make-up; **pomade acne** along the hairline from greasy hair products."
+       ]
+      },
+      "**Picking and squeezing**, humid environments and heavy sweating."
+     ]
+    },
+    {
+     "h": "Myths to address"
+    },
+    {
+     "ul": [
+      {
+       "t": "**Diet**: links with high-glycaemic foods and dairy (and whey protein supplements) have been reported, but **NICE finds insufficient evidence to recommend any specific acne diet**.",
+       "sub": [
+        "A balanced diet is reasonable; strict exclusion diets are not."
+       ]
+      },
+      {
+       "t": "**Dirt or poor hygiene** does not cause acne.",
+       "sub": [
+        "The dark colour of a blackhead is oxidised keratin and melanin, not dirt. Over-washing and scrubbing make irritation worse."
+       ]
+      },
+      "**Acne is not infectious** and cannot be caught.",
+      "**Sunlight does not cure acne**: any improvement is temporary, and retinoids and tetracyclines increase sun sensitivity."
+     ]
+    },
+    {
+     "callout": "info",
+     "title": "Drug-induced acneiform eruptions",
+     "text": "A sudden, **monomorphic** papulopustular eruption without comedones after starting a drug (steroids, EGFR inhibitors) is an acneiform drug eruption rather than acne vulgaris."
+    }
+   ],
+   "short": "Aetiology"
+  },
+  {
+   "id": "pathophysiology",
+   "title": "Pathophysiology and pathology",
+   "blocks": [
+    "Four linked processes act in a single follicle. They explain each lesion type and which drug targets which step.",
+    {
+     "mech": [
+      {
+       "k": "Androgens drive excess sebum",
+       "t": "At puberty, androgens (testosterone, DHEAS) enlarge the sebaceous glands and increase **sebum** output. IGF-1 also stimulates the glands, which may explain the reported link with high-glycaemic diets.",
+       "img": "v4-acne-sebum.jpg",
+       "caption": "Step 1: androgens from the blood stimulate an enlarged sebaceous gland to pour excess sebum into the follicle."
+      },
+      {
+       "k": "Follicular hyperkeratinisation forms a microcomedone",
+       "t": "Keratinocytes lining the upper follicle multiply and fail to shed. Sticky keratin and sebum **plug the follicle**, forming a **microcomedone**, the precursor of every acne lesion. A closed plug is a whitehead; a plug open to the surface is a blackhead.",
+       "img": "v4-acne-plug.jpg",
+       "caption": "Step 2: sticky keratinocytes and sebum plug the follicle opening, forming a comedone."
+      },
+      {
+       "k": "*Cutibacterium acnes* proliferates",
+       "t": "The plugged, lipid-rich, low-oxygen follicle lets the commensal ***C. acnes*** multiply. It activates **Toll-like receptor 2** on immune cells, releasing IL-1β, IL-8, IL-12 and TNF-α; Th17 cells and IL-17 recruit neutrophils.",
+       "img": "v4-acne-cacnes.jpg",
+       "caption": "Step 3: C. acnes multiplies inside the plug and immune cells gather around the follicle wall."
+      },
+      {
+       "k": "Inflammation and rupture",
+       "t": "Inflammation turns comedones into **papules and pustules**. If the follicle wall ruptures, keratin, sebum and bacteria spill into the dermis, causing a deeper **nodule** and, when healing is disordered, **scarring** or pigment change.",
+       "img": "v4-acne-rupture.jpg",
+       "caption": "Step 4: the follicle ruptures into the dermis, producing a pustule and deeper inflammatory nodule."
+      }
+     ]
+    },
+    {
+     "fig": {
+      "ai": "v3-acne-follicle-stages.jpg",
+      "caption": "One follicle, five stages: normal → closed comedone → open comedone → inflamed papule-pustule → deep nodule.",
+      "alt": "Five follicle cross-sections from normal to nodule"
+     }
+    },
+    {
+     "h": "How treatments map onto the mechanism"
+    },
+    {
+     "ul": [
+      "**Retinoids** (adapalene, tretinoin; isotretinoin): normalise keratinisation and unplug follicles (step 2). Isotretinoin also shrinks sebaceous glands (step 1).",
+      "**Benzoyl peroxide**: kills *C. acnes* without resistance and is mildly comedolytic (steps 2–3).",
+      "**Antibiotics** (topical clindamycin, oral tetracyclines): reduce *C. acnes* and are anti-inflammatory (steps 3–4).",
+      "**Azelaic acid**: antibacterial, comedolytic and reduces pigmentation.",
+      "**Combined pill and antiandrogens**: reduce androgen-driven sebum (step 1)."
+     ]
+    },
+    {
+     "histo": [
+      "**Microcomedone / comedone**: dilated follicular infundibulum filled with compact keratin and sebum; a narrow (closed) or wide (open) opening.",
+      "**Inflammatory papule / pustule**: perifollicular lymphocytes, then neutrophils; follicular wall thinning.",
+      "**Ruptured follicle / nodule**: dermal abscess with a **foreign-body granulomatous** reaction to keratin and hair.",
+      "**Scar**: dermal fibrosis (hypertrophic or keloid) or loss of dermal tissue (atrophic ice-pick, rolling, boxcar).",
+      "Biopsy is **rarely needed**; histology is mainly used when another diagnosis is suspected."
+     ]
+    }
+   ],
+   "short": "Pathophysiology"
+  },
+  {
+   "id": "clinical-features",
+   "title": "Clinical features",
+   "blocks": [
+    {
+     "h": "Symptoms"
+    },
+    {
+     "ul": [
+      "Often few physical symptoms; inflamed papules and nodules can be **tender or painful**.",
+      "Oily skin (**seborrhoea**) is common.",
+      "Ask about the **psychological impact**: embarrassment, social withdrawal, low mood, bullying.",
+      "Systemic symptoms (fever, joint pain) are **not** part of ordinary acne: think **acne fulminans**."
+     ]
+    },
+    {
+     "h": "Lesions and morphology"
+    },
+    "Several lesion types usually occur together. Individual lesions last under 2 weeks; deep nodules can persist for months.",
+    {
+     "lesions": [
+      {
+       "name": "Open comedones (blackheads)",
+       "t": "Dilated follicles with a dark keratin plug at the surface. Non-inflammatory.",
+       "photo": "C01"
+      },
+      {
+       "name": "Closed comedones (whiteheads)",
+       "t": "Small skin-coloured or white papules with no visible opening; easiest to see with side lighting.",
+       "photo": "C02"
+      },
+      {
+       "name": "Papules",
+       "t": "Small (< 5 mm), tender, red bumps arising from inflamed comedones.",
+       "photo": "C04"
+      },
+      {
+       "name": "Pustules",
+       "t": "Papules with a visible white or yellow centre of pus.",
+       "photo": "C05"
+      },
+      {
+       "name": "Nodules and pseudocysts",
+       "t": "Large, deep, painful red lumps (≥ 5 mm) or fluctuant cyst-like swellings. High risk of scarring: needs oral treatment or referral.",
+       "photo": "C08",
+       "danger": true
+      },
+      {
+       "name": "Secondary lesions",
+       "t": "Excoriations, red marks (**post-inflammatory erythema**), dark marks (**post-inflammatory hyperpigmentation**) and **scars**.",
+       "photo": "C12"
+      }
+     ]
+    },
+    {
+     "h": "Distribution"
+    },
+    {
+     "bodymap": {
+      "img": {
+       "ai": "v3-acne-distribution.jpg"
+      },
+      "caption": "Where acne appears: face, central chest, upper back and shoulders. Truncal involvement shapes the choice of treatment.",
+      "pts": [
+       "**Face** (most common): forehead, cheeks, nose, chin and jawline.",
+       "**Trunk**: upper chest, upper back and shoulders, in about half of patients.",
+       "Adult female acne favours the **lower face and jawline**.",
+       "Pomade acne follows the **hairline**; acne mechanica follows the area of friction."
+      ]
+     }
+    },
+    {
+     "h": "Variants and subtypes"
+    },
+    {
+     "variants": [
+      {
+       "name": "Comedonal acne",
+       "t": "Mainly open and closed comedones with few inflamed lesions. Topical retinoid territory.",
+       "photo": "C03"
+      },
+      {
+       "name": "Papulopustular acne",
+       "t": "Inflamed papules and pustules with comedones; the commonest pattern.",
+       "photo": "C06"
+      },
+      {
+       "name": "Truncal acne",
+       "t": "Papules, pustules and nodules across the back and chest.",
+       "photo": "C10"
+      },
+      {
+       "name": "Nodulocystic acne",
+       "t": "Deep nodules and cysts with scarring. Refer for isotretinoin.",
+       "photo": "C09",
+       "danger": true
+      },
+      {
+       "name": "Acne conglobata",
+       "t": "Interconnecting nodules, abscesses and sinus tracts on the trunk, with severe scarring.",
+       "photo": "C11",
+       "danger": true
+      },
+      {
+       "name": "Acne fulminans",
+       "t": "Sudden painful **ulcerating, haemorrhagic** nodules with fever, malaise and joint pain, typically in young males; can follow starting isotretinoin. **Same-day** dermatology.",
+       "photo": "m6w2:I11",
+       "danger": true
+      },
+      {
+       "name": "SAPHO-associated acne",
+       "t": "Synovitis, acne, pustulosis, hyperostosis, osteitis: severe acne with bone or joint pain.",
+       "photo": "m6w2:I13",
+       "danger": true
+      },
+      {
+       "name": "Adult female acne",
+       "t": "Inflamed papules on the lower face and jawline; ask about the menstrual cycle and PCOS.",
+       "photo": "m6w2:I19"
+      },
+      {
+       "name": "Neonatal and infantile acne",
+       "t": "A separate pattern in babies; see the dedicated page.",
+       "link": "neonatal-infantile-acne"
+      }
+     ]
+    },
+    {
+     "h": "Special groups"
+    },
+    {
+     "ul": [
+      {
+       "t": "**Skin of colour**",
+       "sub": [
+        "Redness is less visible; **post-inflammatory hyperpigmentation** is often the main reason to seek help and can last months.",
+        "Pomade acne is more common; **keloid scars** are more likely on the jawline, chest and upper back.",
+        "Treat inflammation early; azelaic acid helps pigmentation."
+       ]
+      },
+      {
+       "t": "**Pregnancy**",
+       "sub": [
+        "Topical and oral **retinoids** and **tetracyclines** are contraindicated.",
+        "**Benzoyl peroxide** with or without clindamycin can be used cautiously."
+       ]
+      },
+      {
+       "t": "**Adult women and PCOS**",
+       "sub": [
+        "Look for irregular periods, **hirsutism**, acanthosis nigricans and weight gain."
+       ]
+      },
+      {
+       "t": "**Children**",
+       "sub": [
+        "Acne before age 8–9 is unusual: consider an endocrine cause and seek advice."
+       ]
+      }
+     ]
+    },
+    {
+     "figs": [
+      {
+       "dermnet": "C12",
+       "caption": "Skin of colour: post-inflammatory hyperpigmentation after truncal acne."
+      },
+      {
+       "dermnet": "m6w2:I20",
+       "caption": "Acne with PCOS: check for hirsutism, irregular periods and acanthosis nigricans."
+      },
+      {
+       "dermnet": "m6w2:I22",
+       "caption": "Acne in pregnancy: avoid retinoids and tetracyclines."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "diagnosis",
+   "title": "Diagnosis and investigations",
+   "blocks": [
+    "Diagnosis is **clinical**, from the lesion mix and distribution. **Comedones** are the key sign.",
+    {
+     "h": "History"
+    },
+    {
+     "ul": [
+      "Duration and course; **previous treatments**, how long each was used and adherence.",
+      "**Contraception and pregnancy plans**; current drugs (steroids, lithium, anabolic steroids, EGFR inhibitors).",
+      "**PCOS features**: irregular periods, hirsutism, weight gain.",
+      "Cosmetics, hair products and occlusion; picking.",
+      "**Psychosocial impact**, mood and any self-harm thoughts; scarring."
+     ]
+    },
+    {
+     "h": "Examination"
+    },
+    {
+     "ul": [
+      "Lesion types and approximate counts; **nodules**; trunk involvement.",
+      "**Scarring** and pigment change.",
+      "Signs of hyperandrogenism (hirsutism, acanthosis nigricans, androgenic alopecia)."
+     ]
+    },
+    {
+     "h": "Defining severity (NICE NG198)"
+    },
+    {
+     "table": {
+      "head": [
+       "Category",
+       "Definition"
+      ],
+      "rows": [
+       [
+        "Mild to moderate",
+        "Any of: comedones; up to 34 inflammatory lesions; up to 2 nodules"
+       ],
+       [
+        "Moderate to severe",
+        "35 or more inflammatory lesions, and/or 3 or more nodules"
+       ]
+      ],
+      "caption": "NG198 uses this two-level split to choose a regimen."
+     }
+    },
+    {
+     "figs": [
+      {
+       "dermnet": "C04",
+       "caption": "Mild: scattered papules and comedones."
+      },
+      {
+       "dermnet": "C06",
+       "caption": "Moderate: papules and pustules on the chin with early marks."
+      },
+      {
+       "dermnet": "C07",
+       "caption": "Severe: many papulopustules with early scarring."
+      }
+     ]
+    },
+    {
+     "ul": [
+      "Other grading tools (Leeds, Investigator's Global Assessment, lesion counts) are mainly for specialist documentation and trials.",
+      "Record scarring, pigment change and psychological impact separately: they can justify referral at **any** severity."
+     ]
+    },
+    {
+     "h": "Investigations"
+    },
+    {
+     "ul": [
+      "**Usually none.**",
+      "**Hormone profile** (e.g. testosterone, SHBG, LH/FSH) if the picture is atypical or suggests hyperandrogenism or PCOS.",
+      "**Skin swab** if an unusual pustular infection is suspected (e.g. Gram-negative folliculitis after long antibiotic use).",
+      "Baseline bloods for isotretinoin are arranged by the specialist team."
+     ]
+    }
+   ],
+   "short": "Diagnosis"
+  },
+  {
+   "id": "differentials",
+   "title": "Differential diagnoses",
+   "blocks": [
+    {
+     "ddx": [
+      {
+       "name": "Rosacea",
+       "f": "Central facial flushing and telangiectasia; papules and pustules but **no comedones**; usually older adults; eye symptoms.",
+       "link": "rosacea"
+      },
+      {
+       "name": "Perioral (periorificial) dermatitis",
+       "f": "Small papules around the mouth, nose and eyes with a **spared rim** next to the lip; often triggered by topical steroid.",
+       "photo": "m3w1:R16"
+      },
+      {
+       "name": "Bacterial folliculitis",
+       "f": "Follicular pustules, often on the trunk, buttocks or beard area; **no comedones**; culture may help.",
+       "link": "folliculitis"
+      },
+      {
+       "name": "Malassezia (pityrosporum) folliculitis",
+       "f": "Itchy, **monomorphic** papules and pustules on the upper trunk; worse with heat and antibiotics.",
+       "link": "acne-mimics"
+      },
+      {
+       "name": "Milia",
+       "f": "Tiny white keratin cysts; firm, not inflamed.",
+       "link": "skin-cysts"
+      },
+      {
+       "name": "Acneiform drug eruption",
+       "f": "Sudden, monomorphic eruption after starting a drug (steroids, EGFR inhibitors); no comedones.",
+       "danger": true,
+       "link": "drug-eruption-approach"
+      },
+      {
+       "name": "Hidradenitis suppurativa",
+       "f": "Recurrent nodules, abscesses and **tunnels in the flexures** (axillae, groin); double-ended comedones.",
+       "link": "hidradenitis-suppurativa"
+      }
+     ]
+    }
+   ],
+   "short": "Differentials"
+  },
+  {
+   "id": "management",
+   "title": "Management",
+   "blocks": [
+    {
+     "h": "Principles"
+    },
+    {
+     "ul": [
+      "Follow **NICE NG198**: agree one **12-week** course after shared decision-making (severity, preference, adverse effects, pregnancy plans).",
+      "Treat early to **prevent scarring**; set expectations that improvement takes **6–8 weeks** and full effect up to 12.",
+      "**Antimicrobial stewardship**: never use an antibiotic alone; always pair it with BPO or a topical retinoid.",
+      "Review at **12 weeks**; then step down to **maintenance**.",
+      "Ask about mood and offer support at every review."
+     ]
+    },
+    {
+     "h": "Defining severity"
+    },
+    "Use the NG198 split above (**mild to moderate** vs **moderate to severe**) to choose a regimen. Scarring, pigment change or distress can justify escalation or referral at any severity.",
+    {
+     "h": "Conservative and self-care"
+    },
+    {
+     "ul": [
+      "Wash **twice daily** with a syndet (non-alkaline) cleanser; avoid harsh scrubbing and over-cleansing.",
+      "Use **non-comedogenic** moisturisers, sunscreen and make-up; remove make-up at night.",
+      "**Do not pick or squeeze**: it causes scarring.",
+      "OTC **benzoyl peroxide** (or adapalene where available) while waiting for a prescription.",
+      "No specific diet is recommended (NICE)."
+     ]
+    },
+    {
+     "h": "Medical treatment: topical"
+    },
+    {
+     "drugs": [
+      {
+       "name": "Adapalene + benzoyl peroxide",
+       "cls": "Fixed-combination topical retinoid + antimicrobial",
+       "dose": "Once daily in the evening, 12 weeks.",
+       "use": "First line at **any severity**; also maintenance.",
+       "cautions": "Retinoid: **avoid in pregnancy** and when planning pregnancy. Irritation, dryness.",
+       "counsel": "Start on alternate nights or as short contact; pea-sized amount to the whole area, not spot-treating. BPO **bleaches** fabric and hair. Use sunscreen."
+      },
+      {
+       "name": "Tretinoin + clindamycin",
+       "cls": "Fixed-combination topical retinoid + antibiotic",
+       "dose": "Once daily in the evening, 12 weeks.",
+       "use": "First line at any severity.",
+       "cautions": "Retinoid: avoid in pregnancy. Contains an antibiotic: **do not combine with an oral antibiotic**.",
+       "counsel": "Irritation and photosensitivity: start gradually and use sunscreen."
+      },
+      {
+       "name": "Benzoyl peroxide + clindamycin",
+       "cls": "Fixed-combination antimicrobial + antibiotic",
+       "dose": "Once daily, 12 weeks.",
+       "use": "**Mild to moderate** acne.",
+       "cautions": "Contains an antibiotic: not with oral antibiotics; can be used cautiously in pregnancy.",
+       "counsel": "Bleaches fabric; dryness and irritation."
+      },
+      {
+       "name": "Benzoyl peroxide alone",
+       "cls": "Antimicrobial, comedolytic",
+       "use": "If the patient wants to avoid a retinoid or antibiotic; OTC while awaiting review; maintenance.",
+       "cautions": "Irritation; **bleaching** of towels, pillowcases and hair.",
+       "counsel": "No bacterial resistance develops, so it is the preferred antibiotic partner."
+      },
+      {
+       "name": "Azelaic acid 15–20%",
+       "cls": "Antibacterial, comedolytic, depigmenting",
+       "dose": "Twice daily.",
+       "use": "With an oral tetracycline for moderate to severe acne; alone for maintenance; helpful for **post-inflammatory hyperpigmentation**.",
+       "counsel": "Mild stinging at first."
+      }
+     ]
+    },
+    {
+     "h": "Medical treatment: systemic"
+    },
+    {
+     "drugs": [
+      {
+       "name": "Lymecycline 408 mg",
+       "cls": "Oral tetracycline",
+       "dose": "Once daily; review at 12 weeks.",
+       "use": "**Moderate to severe** acne, always **with** adapalene + BPO or azelaic acid.",
+       "cautions": "**Contraindicated in pregnancy**, breastfeeding and under 12s. Never with a topical antibiotic.",
+       "counsel": "Separate from antacids, iron, zinc and calcium. Photosensitivity: use sunscreen."
+      },
+      {
+       "name": "Doxycycline 100 mg",
+       "cls": "Oral tetracycline",
+       "dose": "Once daily; review at 12 weeks.",
+       "use": "As lymecycline.",
+       "cautions": "Contraindicated in pregnancy and under 12s. **Photosensitivity** is more marked.",
+       "counsel": "Swallow with plenty of water, sitting or standing upright (oesophageal irritation). Separate from antacids, iron and calcium."
+      },
+      {
+       "name": "Trimethoprim or an oral macrolide",
+       "cls": "Alternative oral antibiotics",
+       "use": "Only when tetracyclines are unsuitable, in the combinations set out in NG198.",
+       "cautions": "Stewardship: same rules as tetracyclines."
+      },
+      {
+       "name": "Oral isotretinoin",
+       "cls": "Systemic retinoid",
+       "specialist": true,
+       "use": "Severe, scarring or treatment-resistant acne. Initiated **only by or under a consultant dermatologist-led team**; two independent prescribers must agree in **under-18s**.",
+       "cautions": [
+        "**Highly teratogenic**: Pregnancy Prevention Programme for anyone who could become pregnant (highly effective contraception from 1 month before to 1 month after; supervised pregnancy test before, **monthly** during and 1 month after; **30-day** prescription limit, dispensed within **7 days**).",
+        "**No tetracyclines** (benign intracranial hypertension); no vitamin A supplements; a progestogen-only pill alone is not adequate contraception for the PPP.",
+        "Acne may flare in the first weeks; a severe flare can be isotretinoin-triggered acne fulminans."
+       ],
+       "counsel": [
+        "**Mental health**: report low mood or suicidal thoughts; structured assessment at baseline and every visit.",
+        "**Sexual function**: possible erectile or libido problems, rarely persistent.",
+        "Dry lips and skin (lip balm), nosebleeds, muscle aches, photosensitivity."
+       ],
+       "monitor": "LFTs and fasting lipids at baseline and about 1 month. Pharmacy checks the PPP before every supply."
+      }
+     ]
+    },
+    {
+     "figs": [
+      {
+       "dermnet": "m6w2:I14",
+       "caption": "Isotretinoin cheilitis: near-universal lip dryness; counsel regular lip balm."
+      },
+      {
+       "dermnet": "m6w2:I15",
+       "caption": "Early flare on isotretinoin: warn patients; a severe flare needs urgent review."
+      }
+     ]
+    },
+    {
+     "h": "Hormonal treatment and antiandrogens"
+    },
+    {
+     "ul": [
+      "If hormonal contraception is wanted, a **combined oral contraceptive** can be added to topical treatment; it is preferred to a progestogen-only pill, which can worsen acne.",
+      "**Co-cyprindiol** (cyproterone acetate with ethinylestradiol) is an option in selected women (e.g. with PCOS) when other treatments fail. Discuss **VTE risk** and review at about 6 months.",
+      "**Spironolactone** is not among the NG198 options; dermatologists sometimes use it off-label for adult women.",
+      "Prescribing detail: [acne prescribing and the combined pill](condition:acne-prescribing-combined-pill)."
+     ]
+    },
+    {
+     "h": "Treatment ladder"
+    },
+    {
+     "ladder": [
+      {
+       "k": "Everyone",
+       "t": "Skin care, non-comedogenic products, no picking; OTC benzoyl peroxide.",
+       "tone": "base"
+      },
+      {
+       "k": "Mild to moderate",
+       "t": "12 weeks of **adapalene + BPO**, **tretinoin + clindamycin**, or **BPO + clindamycin**.",
+       "tone": "first"
+      },
+      {
+       "k": "Moderate to severe",
+       "t": "12 weeks of adapalene + BPO (or azelaic acid) **plus lymecycline 408 mg or doxycycline 100 mg** daily.",
+       "tone": "second"
+      },
+      {
+       "k": "Maintenance",
+       "t": "Once clear: adapalene + BPO, or adapalene, azelaic acid or BPO alone. Stop the oral antibiotic.",
+       "tone": "third"
+      },
+      {
+       "k": "Specialist",
+       "t": "Isotretinoin, under MHRA measures and the Pregnancy Prevention Programme.",
+       "tone": "refer"
+      }
+     ]
+    },
+    {
+     "callout": "warn",
+     "title": "Antimicrobial stewardship",
+     "list": [
+      "**Never** use a topical antibiotic alone, an oral antibiotic alone, or topical and oral antibiotics together.",
+      "Review at **12 weeks**. Stop the oral antibiotic once clear and continue the topical.",
+      "If improved but not clear, the oral antibiotic can continue for up to another 12 weeks. Use antibiotic regimens beyond 6 months only in exceptional cases, with 3-monthly review."
+     ]
+    },
+    {
+     "h": "Psychological impact"
+    },
+    {
+     "ul": [
+      "Acne is linked with **depression, anxiety, low self-esteem** and, in adolescents, increased **suicidal ideation**, regardless of treatment.",
+      "Ask about mood at every visit, not only when isotretinoin is involved.",
+      "Significant distress or a mental health disorder is a reason to **refer at any severity**.",
+      "Signpost support (e.g. the British Skin Foundation, Changing Faces) and involve the GP or mental health services when needed."
+     ]
+    },
+    {
+     "h": "Referral (NICE NG198)"
+    },
+    {
+     "refer": [
+      {
+       "when": "same-day",
+       "t": "**Acne fulminans**: refer the same day to on-call dermatology."
+      },
+      {
+       "when": "urgent",
+       "t": "Low mood, self-harm or suicidal thoughts: assess and escalate (mental health), especially around isotretinoin."
+      },
+      {
+       "when": "routine",
+       "t": "Diagnostic uncertainty; acne conglobata; nodulocystic acne."
+      },
+      {
+       "when": "routine",
+       "t": "Mild to moderate acne that has failed **two** completed courses; moderate to severe acne that has failed a regimen including an oral antibiotic."
+      },
+      {
+       "when": "routine",
+       "t": "**Scarring**, persistent pigment change, or psychological distress at **any** severity."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "red-flags",
+   "title": "Red flags and when to refer",
+   "blocks": [
+    {
+     "refer": [
+      {
+       "when": "same-day",
+       "t": "Sudden ulcerating, haemorrhagic nodules with **fever and joint pain** (acne fulminans), including after starting isotretinoin."
+      },
+      {
+       "when": "urgent",
+       "t": "Suicidal thoughts or severe low mood."
+      },
+      {
+       "when": "routine",
+       "t": "Scarring or keloids starting at any severity; acne before age 8–9 or with virilisation (endocrine cause)."
+      },
+      {
+       "when": "routine",
+       "t": "Sudden monomorphic eruption after a new drug: review the drug."
+      }
+     ]
+    },
+    {
+     "figs": [
+      {
+       "dermnet": "m6w2:I12",
+       "caption": "Acne fulminans with ulceration and crusting: same-day dermatology."
+      }
+     ]
+    }
+   ],
+   "short": "Red flags"
+  },
+  {
+   "id": "complications",
+   "title": "Complications and prognosis",
+   "blocks": [
+    {
+     "h": "Complications"
+    },
+    {
+     "ul": [
+      {
+       "t": "**Scarring**",
+       "sub": [
+        "Atrophic: **ice-pick**, rolling and boxcar scars.",
+        "Hypertrophic and **keloid** scars, especially on the jawline, chest and shoulders in skin of colour."
+       ]
+      },
+      "**Post-inflammatory erythema** (red marks, fair skin) and **hyperpigmentation** (dark marks, skin of colour).",
+      "**Psychological**: depression, anxiety, social withdrawal.",
+      "Treatment-related: antibiotic resistance, irritant dermatitis, isotretinoin adverse effects."
+     ]
+    },
+    {
+     "figs": [
+      {
+       "dermnet": "m6w2:I16",
+       "caption": "Ice-pick atrophic scars: scarring is a referral trigger at any severity."
+      },
+      {
+       "dermnet": "m6w2:I17",
+       "caption": "Post-inflammatory hyperpigmentation in skin of colour."
+      },
+      {
+       "dermnet": "m6w2:I18",
+       "caption": "Keloid scars on the shoulders after acne."
+      }
+     ]
+    },
+    "Scar treatment (and the timing of procedures around isotretinoin) is covered on [acne scars and keloids](condition:acne-scars-keloids).",
+    {
+     "h": "Prognosis"
+    },
+    {
+     "ul": [
+      "Most adolescent acne improves by the **early to mid-20s**, but it can persist or start in adulthood.",
+      "Relapse after stopping treatment is common: **maintenance** treatment reduces it.",
+      "Early effective treatment is the best way to prevent permanent scarring."
+     ]
+    }
+   ],
+   "short": "Complications"
+  },
+  {
+   "id": "pearls",
+   "title": "Prescriber pearls (UK pharmacist IP)",
+   "blocks": [
+    {
+     "pearls": [
+      "Start topicals on **alternate days** or as short-contact applications, then build up.",
+      "Apply topicals to the **whole affected area**, not just individual spots.",
+      "BPO **bleaches** fabric and hair: warn about towels and pillowcases.",
+      "Retinoids and tetracyclines cause **photosensitivity**: give sun advice.",
+      "**Pregnancy**: no topical or oral retinoids, no tetracyclines; BPO ± clindamycin can be used cautiously.",
+      "If hormonal contraception is wanted, a **combined pill** is preferred over a progestogen-only pill.",
+      "**Combination rules**: always pair an oral antibiotic with BPO and/or a topical retinoid; review at 12 weeks.",
+      "When referring for isotretinoin, document mental health history thoroughly.",
+      "In skin of colour, treat early and consider azelaic acid for pigmentation.",
+      "Depression is common with acne itself: screen regardless of the drug.",
+      "Related: [retinoids](condition:retinoids), [acne mimics](condition:acne-mimics), [acne prescribing and the combined pill](condition:acne-prescribing-combined-pill)."
+     ]
+    }
+   ],
+   "short": "Pearls"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "What is the hallmark lesion that separates acne from rosacea?",
+   "a": "Comedones (blackheads and whiteheads)."
+  },
+  {
+   "q": "Name the four pathogenic factors in acne.",
+   "a": "Androgen-driven sebum, follicular hyperkeratinisation, *C. acnes* proliferation and inflammation."
+  },
+  {
+   "q": "How does NICE NG198 define moderate to severe acne?",
+   "a": "35 or more inflammatory lesions and/or 3 or more nodules."
+  },
+  {
+   "q": "Which first-line option suits any severity?",
+   "a": "Fixed adapalene + BPO, or fixed tretinoin + clindamycin, once daily in the evening for 12 weeks."
+  },
+  {
+   "q": "Name three antibiotic combinations to avoid.",
+   "a": "Topical antibiotic alone; oral antibiotic alone; topical and oral antibiotics together."
+  },
+  {
+   "q": "Why must tetracyclines not be given with isotretinoin?",
+   "a": "Risk of benign intracranial hypertension."
+  },
+  {
+   "q": "Which acne patient needs same-day referral?",
+   "a": "Acne fulminans: systemically unwell with ulcerating nodules."
+  },
+  {
+   "q": "Is a specific acne diet recommended?",
+   "a": "No: NICE finds insufficient evidence for any specific diet."
+  }
+ ],
+ "references": [
+  {
+   "label": "Medscape: Acne vulgaris",
+   "url": "https://emedicine.medscape.com/article/1069804-overview"
+  },
+  {
+   "label": "DermNet: Acne vulgaris",
+   "url": "https://dermnetnz.org/topics/acne-vulgaris"
+  },
+  {
+   "label": "BNF: Acne",
+   "url": "https://bnf.nice.org.uk/treatment-summaries/acne/"
+  },
+  {
+   "label": "PCDS: Acne",
+   "url": "https://www.pcds.org.uk/clinical-guidance/acne"
+  }
+ ],
+ "see_also": [
+  "acne-mimics",
+  "acne-scars-keloids",
+  "acne-prescribing-combined-pill",
+  "retinoids",
+  "rosacea"
+ ]
+}

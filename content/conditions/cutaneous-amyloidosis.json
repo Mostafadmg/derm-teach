@@ -1,0 +1,92 @@
+{
+ "category": "pigmentation",
+ "module": "Module 6 · Week 3",
+ "status": "published",
+ "title": "Cutaneous amyloidosis (macular and lichen)",
+ "slug": "cutaneous-amyloidosis",
+ "order": 4.5,
+ "aka": [
+  "macular amyloidosis",
+  "lichen amyloidosis",
+  "primary localised cutaneous amyloidosis",
+  "PLCA",
+  "friction amyloidosis",
+  "amyloid"
+ ],
+ "summary": "Localised keratin-derived amyloid in the papillary dermis: rippled grey-brown patches on the upper back (macular) or very itchy firm papules on the shins (lichen), driven by chronic friction and scratching.",
+ "card_image": "m6w3:N08",
+ "glance": {
+  "think": "Rippled grey-brown interscapular pigment, or itchy firm brown papules on the shins, in someone who scrubs or scratches.",
+  "engine": "Damaged keratinocytes → keratin-derived amyloid in the papillary dermis.",
+  "backbone": "Stop friction and scratching, potent steroid ± occlusion, emollients, treat itch; refer if refractory or unsure.",
+  "never_miss": "Systemic amyloidosis signs (purpura, macroglossia, nephrotic syndrome) are a different disease: refer."
+ },
+ "sections": {
+  "what": [
+   "**Macular and lichen amyloidosis** are localised cutaneous amyloidoses: rippled brown macules or itchy keratotic papules from chronic friction, often on the upper back or shins."
+  ],
+  "cause": [
+   {
+    "list": [
+     "Amyloid: chronic scratching/friction deposits keratin-derived amyloid in the papillary dermis."
+    ]
+   }
+  ],
+  "features": [
+   {
+    "list": [
+     "Amyloid: rippled “rippled” brown macular patches (interscapular) or lichenified papules on shins; itch can be severe."
+    ]
+   }
+  ],
+  "diagnosis": [
+   "Clinical, with biopsy and special stains (Congo red) when needed."
+  ],
+  "differentials": [
+   {
+    "table": {
+     "head": [
+      "Look-alike",
+      "Clues"
+     ],
+     "rows": [
+      [
+       "Macular amyloid vs LPP / friction PIH",
+       "Rippled pattern; biopsy if doubt"
+      ]
+     ]
+    }
+   }
+  ],
+  "management": [
+   {
+    "list": [
+     "Stop scrubbing/loofahs; soft clothing; potent topical steroid ± occlusion or topical calcineurin inhibitor for itch.",
+     "Emollients; consider sedating antihistamine at night for sleep.",
+     "Refer if severe, diagnostic doubt, or for specialist options (retinoids, phototherapy)."
+    ]
+   }
+  ],
+  "red_flags": [
+   "Systemic amyloid signs are a different disease — this page is localised cutaneous only."
+  ]
+ },
+ "photos": [
+  {
+   "title": "Cutaneous amyloidosis",
+   "items": [
+    "m6w3:N07",
+    "m6w3:N08",
+    "m6w3:N09",
+    "m6w3:N10",
+    "m6w3:N11"
+   ]
+  }
+ ],
+ "references": [
+  {
+   "label": "DermNet: Amyloidosis",
+   "url": "https://dermnetnz.org/topics/cutaneous-amyloidosis"
+  }
+ ]
+}

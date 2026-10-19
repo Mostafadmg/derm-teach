@@ -417,6 +417,7 @@ def page(title, prefix, body, *, desc="", active_slug=None, active_cat=None, bod
 <link rel="preload" href="{prefix}assets/fonts/plus-jakarta-sans-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="{prefix}assets/css/style.css{asset_v("css/style.css")}">
 <link rel="stylesheet" href="{prefix}assets/css/v3.css{asset_v("css/v3.css")}">
+<link rel="stylesheet" href="{prefix}assets/css/v4.css{asset_v("css/v4.css")}">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='9' fill='%230d5e63'/%3E%3Ccircle cx='16' cy='16' r='8' fill='none' stroke='%23fff' stroke-width='2.5'/%3E%3Ccircle cx='16' cy='16' r='2.5' fill='%23fff'/%3E%3C/svg%3E">
 </head>
 <body class="{body_cls}" data-root="{prefix}">
@@ -1091,6 +1092,8 @@ def step_body(key, st, d, p, ctx):
 
 
 def build_condition(d, idx, seq):
+    if tb_exists(d["slug"]):
+        return build_condition_tb(d, idx, seq)
     if d.get("layout") == "article":
         return build_condition_v2(d, idx, seq)
     p = "../"
@@ -1211,6 +1214,7 @@ def build_condition(d, idx, seq):
 
 
 LESSON_META = {}
+exec(compile((ROOT / "tools" / "v4" / "textbook.py").read_text(encoding="utf-8"), "tools/v4/textbook.py", "exec"))  # v4 textbook pages
 
 
 def build_category(c):
@@ -1238,7 +1242,8 @@ def build_category(c):
             f'<span class="les-n" aria-hidden="true"><span>{k + 1}</span>{uix("check", "ui ui-sm")}</span>{thumb}'
             f'<div class="les-b"><h3><a class="stretch" href="{p}conditions/{d["slug"]}.html">{esc(d["title"])}</a></h3>'
             f'<p class="les-s">{md(d.get("summary", ""), p)}</p>'
-            f'<p class="les-m"><span>{ui("clock", "ui ui-xs")}{meta["mins"]} min</span><span>{meta["steps"]} steps</span>'
+            + (f'<p class="les-m"><span>{uix("book", "ui ui-xs")}{meta["sections"]} sections</span>' if meta.get("sections") else
+               f'<p class="les-m"><span>{ui("clock", "ui ui-xs")}{meta["mins"]} min</span><span>{meta["steps"]} steps</span>')
             + (f'<span>{plural(count_photos(d), "image")}</span>' if count_photos(d) else "")
             + (' <span class="pill pill-soon">Coming soon</span>' if soon else "")
             + f'<span class="les-state" aria-hidden="true"></span></p></div>{ui("chev", "ui les-go")}</li>')
@@ -1362,16 +1367,20 @@ def check_links():
         WARNINGS.append(f"broken link: {b}")
 
 
+REDIRECT_SLUGS = set(load_json(CONTENT / "redirects.json")) if (CONTENT / "redirects.json").exists() else set()
+
+
 def main():
     (ROOT / "categories").mkdir(exist_ok=True)
     (ROOT / "conditions").mkdir(exist_ok=True)
     # remove stale generated pages (e.g. after renaming a condition)
     for folder, keep in (("conditions", {d["slug"] for d in CONDS}), ("categories", {c["id"] for c in CATS})):
         for f in (ROOT / folder).glob("*.html"):
-            if f.stem not in keep:
+            if f.stem not in keep and not (folder == "conditions" and f.stem in REDIRECT_SLUGS):
                 f.unlink()
     for i, d in enumerate(CONDS):
         build_condition(d, i, CONDS)
+    build_redirects()
     build_home()
     for c in CATS:
         build_category(c)

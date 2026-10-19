@@ -1,0 +1,524 @@
+{
+ "_note": "v4 textbook page. Draft for clinical sign-off; doses only as in source notes / BNF.",
+ "key_facts": [
+  "**Primary localised cutaneous amyloidosis**: amyloid made from **damaged keratinocytes** builds up in the papillary dermis; it is **not** systemic amyloidosis.",
+  "Two common forms: **macular** (rippled grey-brown patches, upper back) and **lichen** (very itchy firm papules, shins); they coexist in about a quarter of cases.",
+  "Most common in people of **Asian, Middle Eastern and South American** descent with skin types IV–V.",
+  "Driven by chronic **friction and scratching** (nylon scrubs, brushes, notalgia paraesthetica); about 10% are familial.",
+  "Clinical diagnosis ± biopsy (**Congo red, apple-green birefringence**). Stop friction, potent steroid ± occlusion, treat itch; refer if refractory."
+ ],
+ "sections": [
+  {
+   "id": "overview",
+   "title": "Overview",
+   "blocks": [
+    "Cutaneous amyloidosis is a group of conditions in which **amyloid** (abnormally folded protein) is deposited in the skin. In the common **primary localised** forms, the amyloid comes from **keratin** released by damaged keratinocytes, and it stays in the skin.",
+    {
+     "ul": [
+      "**Macular amyloidosis**: itchy or symptomless, grey-brown, **rippled** (reticulate) pigmentation, usually between the shoulder blades.",
+      "**Lichen amyloidosis**: intensely **itchy**, firm, brown, scaly papules on the shins, often in rows, merging into plaques.",
+      "**Biphasic** amyloidosis: both forms together.",
+      "Rare forms (nodular amyloidosis, which can link to systemic disease) and **systemic** amyloidosis are different conditions needing specialist assessment."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "epidemiology",
+   "title": "Epidemiology",
+   "blocks": [
+    {
+     "ul": [
+      {
+       "t": "**Ethnicity and skin type**",
+       "sub": [
+        "Most common in people from **Asia, the Middle East and South America**, and in **skin types IV–V**."
+       ]
+      },
+      {
+       "t": "**Age and sex**",
+       "sub": [
+        "Usually adults; macular amyloidosis is more common in **women**; lichen amyloidosis is more common in **men** aged 50–60."
+       ]
+      },
+      {
+       "t": "**Family history**",
+       "sub": [
+        "Up to **10%** are familial (autosomal dominant, **OSMR** or **IL31RA** genes, part of the itch pathway)."
+       ]
+      },
+      {
+       "t": "**Overlap**",
+       "sub": [
+        "Macular and lichen amyloidosis **coexist in about 25%**."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "aetiology",
+   "title": "Aetiology: causes and risk factors",
+   "blocks": [
+    "Chronic **friction and scratching** damage keratinocytes; their keratin is processed into amyloid in the upper dermis.",
+    {
+     "h": "Causes and associations"
+    },
+    {
+     "ul": [
+      {
+       "t": "**Friction**",
+       "sub": [
+        "Nylon towels, bath brushes, loofahs, back scrubbers and rough clothing (\"friction amyloidosis\")."
+       ]
+      },
+      {
+       "t": "**Chronic itch**",
+       "sub": [
+        "**Notalgia paraesthetica** (itchy patch below the shoulder blade) often leads to macular amyloidosis.",
+        "**Atopic dermatitis** and lichen simplex are linked with lichen amyloidosis."
+       ]
+      },
+      {
+       "t": "**Genetic**",
+       "sub": [
+        "Familial forms (OSMR, IL31RA); rarely **multiple endocrine neoplasia type 2A** (RET mutations) with interscapular amyloidosis."
+       ]
+      },
+      "Sun exposure and darker skin types are risk factors.",
+      "Occasionally associated with autoimmune conditions."
+     ]
+    },
+    {
+     "fig": {
+      "ai": "v4-amy-friction.jpg",
+      "caption": "Repeated scrubbing of the upper back with a brush or nylon towel is a common trigger of macular amyloidosis.",
+      "alt": "Person scrubbing the upper back with a long-handled brush"
+     }
+    },
+    {
+     "h": "Myths to address"
+    },
+    {
+     "ul": [
+      "**\"It's dirt, so scrub harder\"**: scrubbing is the cause and makes it worse.",
+      "**\"Amyloid in the skin means organ disease\"**: localised cutaneous amyloidosis is not systemic amyloidosis."
+     ]
+    }
+   ],
+   "short": "Aetiology"
+  },
+  {
+   "id": "pathophysiology",
+   "title": "Pathophysiology and pathology",
+   "blocks": [
+    {
+     "mech": [
+      {
+       "k": "Friction and scratching injure keratinocytes",
+       "t": "Repeated rubbing or scratching damages basal keratinocytes, which undergo apoptosis."
+      },
+      {
+       "k": "Keratin becomes amyloid",
+       "t": "Keratin filaments from dying cells form **colloid (keratin) bodies** that drop into the papillary dermis, where macrophages and fibroblasts modify them into **amyloid**.",
+       "img": "v4-amy-keratin-bodies.jpg",
+       "caption": "Step 2: damaged basal keratinocytes shed keratin bodies into the papillary dermis."
+      },
+      {
+       "k": "Deposits and pigment build up",
+       "t": "Small globules of amyloid collect in the **dermal papillae** with melanin-laden macrophages, giving the grey-brown colour. In lichen amyloidosis the epidermis thickens over them, forming papules.",
+       "img": "v4-amy-deposits.jpg",
+       "caption": "Step 3: amyloid globules in the dermal papillae with pigment-laden macrophages; Congo-red staining shows apple-green birefringence (inset)."
+      },
+      {
+       "k": "Itch keeps the cycle going",
+       "t": "Amyloid and the thickened skin itch, so scratching continues and more amyloid forms. Faults in the **OSMR / IL-31** itch pathway explain familial cases."
+      }
+     ]
+    },
+    {
+     "histo": [
+      "Small globules of pink amorphous **amyloid** in the **dermal papillae**, just beneath the epidermis.",
+      "**Pigment incontinence** with melanophages.",
+      "Lichen amyloidosis: acanthosis and hyperkeratosis over the deposits.",
+      "**Congo red** stains amyloid, with **apple-green birefringence** in polarised light; crystal violet and thioflavin T also help; immunostaining shows keratin origin.",
+      "Deposits can be sparse, so multiple sections or a deeper biopsy may be needed."
+     ]
+    }
+   ],
+   "short": "Pathophysiology"
+  },
+  {
+   "id": "clinical-features",
+   "title": "Clinical features",
+   "blocks": [
+    {
+     "h": "Symptoms"
+    },
+    {
+     "ul": [
+      "**Itch**: mild or absent in macular amyloidosis, often **severe and persistent** in lichen amyloidosis.",
+      "Cosmetic concern about pigmentation."
+     ]
+    },
+    {
+     "h": "Lesions and morphology"
+    },
+    {
+     "lesions": [
+      {
+       "name": "Rippled grey-brown macules",
+       "t": "Small dusky macules merge into a **rippled or reticulate** pattern.",
+       "photo": "m6w3:N07"
+      },
+      {
+       "name": "Interscapular patch",
+       "t": "Ill-defined pigmentation between the shoulder blades.",
+       "photo": "m6w3:N08"
+      },
+      {
+       "name": "Firm itchy papules",
+       "t": "Tan-brown, scaly, dome-shaped papules, often in rows, on the shins.",
+       "photo": "m6w3:N10"
+      },
+      {
+       "name": "Confluent plaques",
+       "t": "Papules merge into thickened, ridged plaques.",
+       "photo": "m6w3:N11"
+      }
+     ]
+    },
+    {
+     "h": "Distribution"
+    },
+    {
+     "bodymap": {
+      "img": {
+       "ai": "v4-amy-body-map.jpg"
+      },
+      "caption": "Macular amyloidosis on the upper back, shoulders and upper arms; lichen amyloidosis on the shins.",
+      "pts": [
+       "**Macular**: interscapular back, upper chest, shoulders and outer upper arms.",
+       "**Lichen**: shins, then thighs, forearms and the backs of the hands."
+      ]
+     }
+    },
+    {
+     "h": "Variants and subtypes"
+    },
+    {
+     "variants": [
+      {
+       "name": "Macular amyloidosis",
+       "t": "Rippled grey-brown patches, upper back; women; friction.",
+       "photo": "m6w3:N08"
+      },
+      {
+       "name": "Notalgia-linked macular amyloidosis",
+       "t": "Pigmented patch below one shoulder blade from chronic scratching of notalgia paraesthetica.",
+       "photo": "m6w3:N09"
+      },
+      {
+       "name": "Lichen amyloidosis",
+       "t": "Intensely itchy papules on the shins; atopy.",
+       "photo": "m6w3:N10"
+      },
+      {
+       "name": "Biphasic",
+       "t": "Both forms together in about a quarter."
+      },
+      {
+       "name": "Nodular amyloidosis",
+       "t": "Waxy nodules; light-chain amyloid; may relate to plasma cell disorders: specialist work-up.",
+       "danger": true
+      }
+     ]
+    },
+    {
+     "h": "Special groups"
+    },
+    {
+     "ul": [
+      {
+       "t": "**Skin of colour**",
+       "sub": [
+        "The most affected group; pigmentation is often the main concern and can be confused with post-inflammatory hyperpigmentation."
+       ]
+      },
+      {
+       "t": "**Families**",
+       "sub": [
+        "Ask about relatives; consider MEN2A in familial interscapular amyloidosis (specialist)."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "diagnosis",
+   "title": "Diagnosis and investigations",
+   "blocks": [
+    "Diagnosis is usually **clinical** from the rippled pattern, site and history of friction or itch.",
+    {
+     "h": "History"
+    },
+    {
+     "ul": [
+      "Scrubbing habits, brushes, towels; chronic itch; atopy; family history.",
+      "Systemic symptoms (to exclude systemic amyloidosis): tiredness, weight loss, purpura, enlarged tongue, swelling, frothy urine."
+     ]
+    },
+    {
+     "h": "Investigations"
+    },
+    {
+     "ul": [
+      "**Dermoscopy**: a central white or brown hub with surrounding pigment.",
+      "**Skin biopsy** with Congo red when the diagnosis is uncertain.",
+      "If systemic or nodular amyloidosis is suspected: specialist investigations (serum and urine protein electrophoresis, free light chains)."
+     ]
+    }
+   ],
+   "short": "Diagnosis"
+  },
+  {
+   "id": "differentials",
+   "title": "Differential diagnoses",
+   "blocks": [
+    {
+     "ddx": [
+      {
+       "name": "Post-inflammatory hyperpigmentation",
+       "f": "Follows a known rash; no ripple; no papules.",
+       "link": "hypopigmentation-skin-of-colour"
+      },
+      {
+       "name": "Lichen planus pigmentosus",
+       "f": "Grey-brown patches on the face, neck and flexures; may follow lichen planus.",
+       "link": "contact-lichenoid-pigmentation"
+      },
+      {
+       "name": "Hypertrophic lichen planus",
+       "f": "Thick violaceous plaques on the shins; Wickham striae; biopsy.",
+       "link": "lichen-planus"
+      },
+      {
+       "name": "Lichen simplex chronicus / prurigo",
+       "f": "Single lichenified plaque or nodules from scratching; no amyloid on biopsy.",
+       "link": "eczema-dermatitis"
+      },
+      {
+       "name": "Acanthosis nigricans",
+       "f": "Velvety pigmentation in the flexures and neck; insulin resistance.",
+       "link": "acanthosis-nigricans"
+      },
+      {
+       "name": "Pretibial myxoedema",
+       "f": "Waxy plaques on shins with thyroid eye disease."
+      },
+      {
+       "name": "Drug-induced pigmentation",
+       "f": "Drug history (e.g. minocycline, amiodarone).",
+       "link": "drug-induced-pigmentation"
+      }
+     ]
+    }
+   ],
+   "short": "Differentials"
+  },
+  {
+   "id": "management",
+   "title": "Management",
+   "blocks": [
+    {
+     "h": "Principles"
+    },
+    {
+     "ul": [
+      "Break the **itch–scratch–friction** cycle; set realistic expectations: pigment improves slowly and recurs if friction restarts.",
+      "Treatment is often difficult; many options are specialist and evidence is limited."
+     ]
+    },
+    {
+     "h": "Conservative and self-care"
+    },
+    {
+     "ul": [
+      "**Stop scrubbing**: no loofahs, brushes or nylon towels; soft, loose clothing.",
+      "Regular **emollients**; keep nails short.",
+      "Sun protection for pigmentation."
+     ]
+    },
+    {
+     "h": "Medical treatment"
+    },
+    {
+     "drugs": [
+      {
+       "name": "Potent topical corticosteroid",
+       "cls": "Anti-itch, anti-inflammatory",
+       "use": "Itch and lichen amyloidosis; occlusion improves effect.",
+       "cautions": "Limit courses and monitor for atrophy, especially under occlusion."
+      },
+      {
+       "name": "Topical calcineurin inhibitor",
+       "cls": "Steroid-sparing (off-label)",
+       "use": "Itch where long-term steroid is unwanted."
+      },
+      {
+       "name": "Sedating antihistamine at night",
+       "cls": "Sleep",
+       "use": "To help sleep when itch is severe; does not treat the itch mechanism."
+      },
+      {
+       "name": "Specialist options",
+       "cls": "Dermatology",
+       "specialist": true,
+       "use": "Intralesional steroid, topical capsaicin or DMSO, phototherapy (NB-UVB, PUVA), oral acitretin, laser or dermabrasion for lichen amyloidosis."
+      }
+     ]
+    },
+    {
+     "h": "Treatment ladder"
+    },
+    {
+     "ladder": [
+      {
+       "k": "Everyone",
+       "t": "Stop friction, emollients, explanation.",
+       "tone": "base"
+      },
+      {
+       "k": "Itchy or papular",
+       "t": "Potent topical steroid ± occlusion, or calcineurin inhibitor; night sedating antihistamine if sleep is affected.",
+       "tone": "first"
+      },
+      {
+       "k": "Refractory",
+       "t": "Refer: phototherapy, retinoids, procedures.",
+       "tone": "refer"
+      }
+     ]
+    },
+    {
+     "h": "Referral"
+    },
+    {
+     "refer": [
+      {
+       "when": "urgent",
+       "t": "Features of **systemic amyloidosis** or **nodular** amyloidosis."
+      },
+      {
+       "when": "routine",
+       "t": "Severe or refractory itch, diagnostic doubt (biopsy), or for specialist treatments."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "red-flags",
+   "title": "Red flags and when to refer",
+   "blocks": [
+    {
+     "refer": [
+      {
+       "when": "urgent",
+       "t": "Purpura (especially around the eyes), enlarged tongue, nerve symptoms, heart or kidney symptoms: possible **systemic** amyloidosis."
+      },
+      {
+       "when": "routine",
+       "t": "Waxy nodules (nodular amyloidosis): screen for plasma cell disease."
+      }
+     ]
+    }
+   ],
+   "short": "Red flags"
+  },
+  {
+   "id": "complications",
+   "title": "Complications and prognosis",
+   "blocks": [
+    {
+     "ul": [
+      "Persistent itch, sleep disturbance and lichenification.",
+      "Long-lasting **cosmetic** pigmentation and distress.",
+      "Steroid side effects with long courses under occlusion."
+     ]
+    },
+    {
+     "h": "Prognosis"
+    },
+    {
+     "ul": [
+      "**Chronic** and benign; it does not progress to systemic amyloidosis.",
+      "Improves slowly once friction and scratching stop; tends to recur."
+     ]
+    }
+   ],
+   "short": "Complications"
+  },
+  {
+   "id": "pearls",
+   "title": "Prescriber pearls (UK pharmacist IP)",
+   "blocks": [
+    {
+     "pearls": [
+      "Ask about **back scrubbers, brushes and nylon towels**: stopping them is the key treatment.",
+      "Rippled interscapular pigmentation in skin of colour is often macular amyloidosis, not dirt or PIH.",
+      "An itchy patch under one shoulder blade suggests **notalgia paraesthetica**.",
+      "Potent steroid under occlusion helps lichen amyloidosis, but time-limit courses.",
+      "Localised cutaneous amyloid is **not** systemic amyloidosis; refer if systemic features appear.",
+      "Related: [phytophotodermatitis](condition:phytophotodermatitis) (the other half of the Module 6 · Week 3 topic)."
+     ]
+    }
+   ],
+   "short": "Pearls"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Where does the amyloid in macular and lichen amyloidosis come from?",
+   "a": "Keratin from damaged keratinocytes."
+  },
+  {
+   "q": "Typical site of macular amyloidosis?",
+   "a": "Between the shoulder blades (interscapular back)."
+  },
+  {
+   "q": "Typical site of lichen amyloidosis?",
+   "a": "Shins."
+  },
+  {
+   "q": "Which stain confirms amyloid?",
+   "a": "Congo red, with apple-green birefringence under polarised light."
+  },
+  {
+   "q": "Key self-care advice?",
+   "a": "Stop scrubbing with brushes, loofahs or nylon towels."
+  },
+  {
+   "q": "Does it progress to systemic amyloidosis?",
+   "a": "No; systemic features need separate specialist assessment."
+  }
+ ],
+ "references": [
+  {
+   "label": "DermNet: Macular amyloidosis",
+   "url": "https://dermnetnz.org/topics/macular-amyloidosis"
+  },
+  {
+   "label": "Medscape: Lichen amyloidosis",
+   "url": "https://emedicine.medscape.com/article/1102672-overview"
+  }
+ ],
+ "see_also": [
+  "phytophotodermatitis",
+  "lichen-planus",
+  "contact-lichenoid-pigmentation",
+  "acanthosis-nigricans"
+ ]
+}

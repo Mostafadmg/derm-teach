@@ -1,0 +1,601 @@
+{
+ "_note": "v4 textbook page. Draft for clinical sign-off; doses only as in source notes / BNF.",
+ "key_facts": [
+  "A **non-immune phototoxic** reaction: plant **furocoumarins** (psoralens) on the skin plus **UVA** light.",
+  "Anyone can be affected with enough sap and sun; no previous sensitisation is needed.",
+  "Burning redness and **blisters** appear about **24 h** after exposure and peak at **48–72 h**, in **streaks, drips or hand-prints**.",
+  "**Hyperpigmentation** follows and can last months to years; it is often why people present.",
+  "Manage like a superficial burn: wash sap off, keep out of sun for 48 h, short topical steroid, strict sun protection. Think **safeguarding** with odd marks in children."
+ ],
+ "sections": [
+  {
+   "id": "overview",
+   "title": "Overview",
+   "blocks": [
+    "Phytophotodermatitis is a **phototoxic** skin reaction that happens when light-sensitising chemicals in some plants (**furocoumarins**, also called psoralens) get on the skin and are then exposed to **ultraviolet A (UVA)**. It is not an allergy: the sap and light damage the skin directly, so it can happen to anyone at first exposure.",
+    {
+     "ul": [
+      "The burn has **bizarre, geometric shapes** (streaks, drips, splashes, finger- and hand-prints) that trace where the juice or sap touched.",
+      "It heals with **brown pigmentation** that can persist for months.",
+      "Classic UK sources: **giant hogweed**, wild parsnip and rue (strimming, walking), and **limes** (cocktails and cooking on holiday).",
+      "**Berloque dermatitis** is a variant from bergamot-containing perfume on the neck."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "epidemiology",
+   "title": "Epidemiology",
+   "blocks": [
+    {
+     "ul": [
+      {
+       "t": "**Who**",
+       "sub": [
+        "Any age, sex or skin type; incidence is unknown because mild cases are not reported."
+       ]
+      },
+      {
+       "t": "**When**",
+       "sub": [
+        "Mostly **summer** and sunny holidays, when people handle plants or citrus outdoors."
+       ]
+      },
+      {
+       "t": "**At-risk groups**",
+       "sub": [
+        "Gardeners, farm and grounds workers, bartenders and chefs (limes), children playing outdoors, hikers.",
+        "Fair skin may burn more readily, while darker skin shows more marked and longer-lasting pigmentation."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "aetiology",
+   "title": "Aetiology: causes and risk factors",
+   "blocks": [
+    "Two things are needed: a **furocoumarin on the skin** and enough **UVA**. Moisture (sweat, water) and heat increase absorption and the reaction.",
+    {
+     "h": "Common plant sources"
+    },
+    {
+     "table": {
+      "head": [
+       "Family",
+       "Examples"
+      ],
+      "rows": [
+       [
+        "Apiaceae (Umbelliferae)",
+        "**Giant hogweed**, cow parsley, wild and cultivated **parsnip**, celery, carrot, fennel, dill, parsley"
+       ],
+       [
+        "Rutaceae",
+        "**Lime**, lemon, bergamot orange, bitter orange, grapefruit, **rue**"
+       ],
+       [
+        "Moraceae",
+        "**Fig** (leaves and sap)"
+       ],
+       [
+        "Other",
+        "Some St John's wort and other garden plants"
+       ]
+      ]
+     }
+    },
+    {
+     "ul": [
+      "**Activities**: strimming or mowing weeds, clearing riverbanks, picking wild plants, squeezing limes or making drinks in the sun.",
+      "**Berloque dermatitis**: perfume containing bergamot oil (5-methoxypsoralen) applied to the neck, then sun."
+     ]
+    },
+    {
+     "h": "Myths to address"
+    },
+    {
+     "ul": [
+      "**\"It must be an allergy\"**: no; phototoxicity needs no sensitisation and anyone can react.",
+      "**\"It was a sunburn\"**: plain sunburn is uniform over exposed skin; the streaks and drips point to a plant or citrus.",
+      "**\"The marks are bruises or scars\"**: they are pigment and fade slowly without scarring."
+     ]
+    }
+   ],
+   "short": "Aetiology"
+  },
+  {
+   "id": "pathophysiology",
+   "title": "Pathophysiology and pathology",
+   "blocks": [
+    {
+     "mech": [
+      {
+       "k": "Sap meets light",
+       "t": "Furocoumarins in plant sap or citrus juice penetrate the epidermis. **UVA (320–400 nm, peak effect around 335 nm)** activates them; a cloudy day still delivers enough UVA.",
+       "img": "v4-ppd-sap-sun.jpg",
+       "caption": "Step 1: furocoumarin-rich sap (e.g. hogweed) on skin, then UVA exposure."
+      },
+      {
+       "k": "Phototoxic damage to DNA and membranes",
+       "t": "Activated psoralens act in two ways: **type I** reactions bind directly to **DNA**, forming cross-links between strands; **type II** reactions generate reactive oxygen species that damage cell membranes. No immune memory is involved.",
+       "img": "v4-ppd-dna-crosslink.jpg",
+       "caption": "Step 2: UVA-activated psoralen molecules slot between DNA strands and cross-link them."
+      },
+      {
+       "k": "Keratinocyte death and blistering",
+       "t": "Damaged keratinocytes die (\"sunburn cells\"), with dermal oedema and inflammation. Severe damage separates the epidermis, producing **vesicles and bullae** after about 24 h, peaking at 48–72 h.",
+       "img": "v4-ppd-blister.jpg",
+       "caption": "Step 3: necrotic keratinocytes and an intraepidermal blister above an inflamed dermis."
+      },
+      {
+       "k": "Pigment follows",
+       "t": "Psoralen–UVA stimulates **melanocytes** to make more melanin and melanin drops into the dermis where **melanophages** hold it, so brown or grey-brown pigment appears 1–2 weeks later and lasts months.",
+       "img": "v4-ppd-pigment.jpg",
+       "caption": "Step 4: active melanocytes and pigment-laden melanophages in the upper dermis cause the long-lasting brown marks."
+      }
+     ]
+    },
+    {
+     "fig": {
+      "ai": "v4-ppd-patterns.jpg",
+      "caption": "The shape gives it away: drips, streaks and hand-prints that follow where juice or sap touched the skin.",
+      "alt": "Limbs and hand with streaky and hand-print burns"
+     }
+    },
+    {
+     "histo": [
+      "Acute: necrotic keratinocytes, spongiosis, intraepidermal or subepidermal **vesicles**, dermal oedema and a mild perivascular infiltrate (like an acute sunburn).",
+      "Late: **pigment incontinence** with melanophages in the upper dermis and increased basal melanin.",
+      "Biopsy is rarely needed; history and shape are diagnostic."
+     ]
+    }
+   ],
+   "short": "Pathophysiology"
+  },
+  {
+   "id": "clinical-features",
+   "title": "Clinical features",
+   "blocks": [
+    {
+     "h": "Symptoms"
+    },
+    {
+     "ul": [
+      "**Burning or stinging pain** more than itch, starting about 24 h after sun exposure.",
+      "Usually no systemic symptoms, except with extensive hogweed burns.",
+      "Later, **brown marks** with no memory of the inflammatory phase: often the presenting complaint."
+     ]
+    },
+    {
+     "h": "Lesions and morphology"
+    },
+    {
+     "lesions": [
+      {
+       "name": "Streaky erythema",
+       "t": "Sharply outlined **linear streaks** of redness and oedema where sap brushed the skin.",
+       "photo": "m6w3:N01"
+      },
+      {
+       "name": "Vesicles and bullae",
+       "t": "Tense blisters, sometimes large, resembling a partial-thickness burn.",
+       "photo": "m6w3:N03"
+      },
+      {
+       "name": "Drips and hand-prints",
+       "t": "Drip, splash and finger-print shapes from citrus juice.",
+       "photo": "m6w3:N04"
+      },
+      {
+       "name": "Hyperpigmentation",
+       "t": "Brown to grey-brown streaks that persist for months after the burn settles.",
+       "photo": "m6w3:N05"
+      }
+     ]
+    },
+    {
+     "h": "Distribution"
+    },
+    {
+     "ul": [
+      "**Exposed skin** that touched the plant or juice: hands, forearms, legs and ankles (strimming), around the mouth and chin (citrus), neck (perfume).",
+      "Shapes follow contact, **not** the whole sun-exposed area (unlike drug photosensitivity)."
+     ]
+    },
+    {
+     "figs": [
+      {
+       "dermnet": "m6w3:N02",
+       "caption": "Linear redness and blisters after strimming."
+      },
+      {
+       "dermnet": "m5w6:E02",
+       "caption": "Streaks where juice brushed the skin: an outside cause."
+      }
+     ]
+    },
+    {
+     "h": "Variants"
+    },
+    {
+     "variants": [
+      {
+       "name": "Lime (\"margarita\") dermatitis",
+       "t": "Drips and hand-prints on hands, wrists, face and chest after squeezing limes in the sun.",
+       "photo": "m5w6:E01"
+      },
+      {
+       "name": "Giant hogweed burn",
+       "t": "Severe blistering on arms and legs after contact with sap on riverbanks and verges; can need burns care.",
+       "photo": "m5w6:E04",
+       "danger": true
+      },
+      {
+       "name": "Bullous phytophotodermatitis",
+       "t": "Large blisters, usually on the lower legs and ankles.",
+       "photo": "m5w6:E03"
+      },
+      {
+       "name": "Pigmentation-only presentation",
+       "t": "Streaky brown marks without remembered redness.",
+       "photo": "m6w3:N06"
+      },
+      {
+       "name": "Berloque dermatitis",
+       "t": "Pendant-shaped streaks on the neck from bergamot perfume plus sun."
+      }
+     ]
+    },
+    {
+     "h": "Special groups"
+    },
+    {
+     "ul": [
+      {
+       "t": "**Children**",
+       "sub": [
+        "Hand-print or splash patterns can look like **bruising or non-accidental injury**; take a careful plant and sun history and follow safeguarding procedures if the story does not fit."
+       ]
+      },
+      {
+       "t": "**Skin of colour**",
+       "sub": [
+        "Redness may be subtle; the **hyperpigmentation** is often marked and lasts longer."
+       ]
+      }
+     ]
+    },
+    {
+     "figs": [
+      {
+       "dermnet": "m5w6:E05",
+       "caption": "Residual pigmentation for months; atypical patterns in children need a careful history."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "diagnosis",
+   "title": "Diagnosis and investigations",
+   "blocks": [
+    "Diagnosis is **clinical**, from the **bizarre shape** plus an **exposure history**.",
+    {
+     "h": "History"
+    },
+    {
+     "ul": [
+      "Plants handled, strimming or gardening, walks through long vegetation, citrus drinks or cooking, perfumes.",
+      "Sun exposure in the previous 1–2 days; timing of symptoms.",
+      "Drugs (to exclude drug photosensitivity); previous similar episodes."
+     ]
+    },
+    {
+     "h": "Examination"
+    },
+    {
+     "ul": [
+      "Shape and site of lesions; blister size and extent; eye involvement; signs of infection."
+     ]
+    },
+    {
+     "h": "Investigations"
+    },
+    {
+     "ul": [
+      "**Usually none.**",
+      "Swab if secondary infection is suspected.",
+      "Patch or photopatch testing only if allergic contact dermatitis is a possibility.",
+      "Biopsy rarely."
+     ]
+    }
+   ],
+   "short": "Diagnosis"
+  },
+  {
+   "id": "differentials",
+   "title": "Differential diagnoses",
+   "blocks": [
+    {
+     "ddx": [
+      {
+       "name": "Allergic contact dermatitis (plants)",
+       "f": "Very **itchy** eczema; needs sensitisation; does not need sun; spreads beyond the contact.",
+       "link": "contact-dermatitis"
+      },
+      {
+       "name": "Drug photosensitivity",
+       "f": "**Uniform** redness over all sun-exposed skin with a drug history (e.g. doxycycline, thiazides).",
+       "link": "drug-photosensitivity"
+      },
+      {
+       "name": "Sunburn",
+       "f": "Uniform over exposed sites; no streaks."
+      },
+      {
+       "name": "Blister beetle dermatitis",
+       "f": "Linear blisters after crushing a beetle; no sun needed.",
+       "link": "blister-beetle-dermatitis"
+      },
+      {
+       "name": "Polymorphic light eruption",
+       "f": "Itchy papules on sun-exposed skin hours after sun; recurrent each spring.",
+       "link": "polymorphic-light-eruption"
+      },
+      {
+       "name": "Non-accidental injury",
+       "f": "Inconsistent or changing history, injuries in unusual places, other concerns: **safeguarding** assessment.",
+       "danger": true
+      },
+      {
+       "name": "Burns or artefact",
+       "f": "History of thermal or chemical injury; patterns may be self-inflicted."
+      },
+      {
+       "name": "Fixed drug eruption",
+       "f": "Round dusky patches that recur at the same site with each dose.",
+       "link": "fixed-drug-eruption"
+      }
+     ]
+    }
+   ],
+   "short": "Differentials"
+  },
+  {
+   "id": "management",
+   "title": "Management",
+   "blocks": [
+    {
+     "h": "Principles"
+    },
+    {
+     "ul": [
+      "Treat the acute phase like a **superficial burn**; then protect the pigmented skin from the sun.",
+      "Explain the cause so the patient can avoid it; most cases settle without scarring."
+     ]
+    },
+    {
+     "h": "Immediate care after contact (e.g. hogweed sap)"
+    },
+    {
+     "ul": [
+      "**Wash off sap promptly with soap and water**, cover the skin and keep it **out of sunlight for at least 48 h**.",
+      "If sap gets in the eyes: rinse and seek **urgent eye assessment**."
+     ]
+    },
+    {
+     "h": "Conservative and self-care"
+    },
+    {
+     "ul": [
+      "Cool compresses, emollients and simple analgesia.",
+      "Leave blisters intact or use non-adherent dressings; keep clean (topical antiseptic only if needed).",
+      "**OTC hydrocortisone 1%** for mild small areas (not on broken skin)."
+     ]
+    },
+    {
+     "h": "Medical treatment"
+    },
+    {
+     "drugs": [
+      {
+       "name": "Potent topical corticosteroid",
+       "cls": "Short course",
+       "dose": "Short course of **5–7 days** to inflamed **intact** skin on the limbs or trunk; **moderate** potency on the face.",
+       "cautions": "Not on broken or infected skin.",
+       "counsel": "Apply thinly; stop when redness settles."
+      },
+      {
+       "name": "Oral antihistamine",
+       "cls": "Symptom relief",
+       "use": "If itchy."
+      },
+      {
+       "name": "Secondary infection",
+       "cls": "Antibiotic per NICE guidance",
+       "use": "Infected blisters: treat per NICE impetigo / secondary bacterial infection guidance.",
+       "counsel": "Link: [impetigo](condition:impetigo)."
+      }
+     ]
+    },
+    {
+     "h": "Pigmentation phase"
+    },
+    {
+     "ul": [
+      "Reassure: it **fades slowly over months**.",
+      "**Strict sun protection** (even limited UV can darken it again): clothing, broad-spectrum high-SPF sunscreen.",
+      "Avoid bleaching agents unless advised by a specialist."
+     ]
+    },
+    {
+     "h": "Prevention"
+    },
+    {
+     "ul": [
+      "Learn to recognise **giant hogweed**; wear long sleeves, trousers and gloves when strimming or clearing plants.",
+      "Wash skin after gardening; avoid squeezing limes or applying citrus or perfume to skin before sun."
+     ]
+    },
+    {
+     "h": "Treatment ladder"
+    },
+    {
+     "ladder": [
+      {
+       "k": "Everyone",
+       "t": "Wash off sap, 48 h out of sun, cool compresses, analgesia, emollient.",
+       "tone": "base"
+      },
+      {
+       "k": "Inflamed intact skin",
+       "t": "Potent topical steroid 5–7 days (moderate on face); antihistamine if itchy.",
+       "tone": "first"
+      },
+      {
+       "k": "Pigmentation",
+       "t": "Reassurance and strict sun protection for months.",
+       "tone": "second"
+      },
+      {
+       "k": "Burns-level injury",
+       "t": "Large or blistering burns, face, genitals or hands: same-day urgent care or burns unit.",
+       "tone": "refer"
+      }
+     ]
+    },
+    {
+     "h": "Referral"
+    },
+    {
+     "refer": [
+      {
+       "when": "same-day",
+       "t": "Large or extensive blistering, burns on the **face, genitals or hands**, severe pain or infection: same-day GP, urgent care or **burns unit**."
+      },
+      {
+       "when": "same-day",
+       "t": "Sap in the eye: urgent eye assessment."
+      },
+      {
+       "when": "urgent",
+       "t": "**Safeguarding** concern in a child: follow local procedures."
+      },
+      {
+       "when": "routine",
+       "t": "Diagnostic doubt or persistent distressing pigmentation."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "red-flags",
+   "title": "Red flags and when to refer",
+   "blocks": [
+    {
+     "refer": [
+      {
+       "when": "same-day",
+       "t": "Extensive hogweed burns, eye exposure, or blistering of the face, hands or genitals."
+      },
+      {
+       "when": "urgent",
+       "t": "Unexplained marks in a child where the history does not fit: safeguarding."
+      },
+      {
+       "when": "routine",
+       "t": "Signs of infection: spreading redness, pus, fever."
+      }
+     ]
+    }
+   ],
+   "short": "Red flags"
+  },
+  {
+   "id": "complications",
+   "title": "Complications and prognosis",
+   "blocks": [
+    {
+     "ul": [
+      "**Post-inflammatory hyperpigmentation** for months, sometimes years.",
+      "Secondary bacterial infection of blisters.",
+      "Rarely scarring after severe bullous burns.",
+      "Misdiagnosis as abuse or burns causing distress."
+     ]
+    },
+    {
+     "h": "Prognosis"
+    },
+    {
+     "ul": [
+      "The acute reaction settles in 1–2 weeks; pigment fades gradually over months with sun protection.",
+      "Recurs only with re-exposure."
+     ]
+    }
+   ],
+   "short": "Complications"
+  },
+  {
+   "id": "pearls",
+   "title": "Prescriber pearls (UK pharmacist IP)",
+   "blocks": [
+    {
+     "pearls": [
+      "Pigmentation, not the acute burn, is often why patients attend.",
+      "Berloque = perfume + sun streaks.",
+      "Tell gardeners about **giant hogweed**: sap plus sun is a classic UK summer presentation.",
+      "Ask about holidays, cocktails and cooking with limes.",
+      "Check for photosensitising drugs before blaming the plant.",
+      "Other light-related rashes: [polymorphic light eruption](condition:polymorphic-light-eruption), [drug-induced photosensitivity](condition:drug-photosensitivity) and [chronic actinic dermatitis](condition:chronic-actinic-dermatitis)."
+     ]
+    }
+   ],
+   "short": "Pearls"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "What two things cause phytophotodermatitis?",
+   "a": "Plant furocoumarins (psoralens) on the skin plus UVA light."
+  },
+  {
+   "q": "Is it allergic?",
+   "a": "No: it is phototoxic and needs no previous sensitisation."
+  },
+  {
+   "q": "When does it appear and peak?",
+   "a": "About 24 h after exposure, peaking at 48–72 h."
+  },
+  {
+   "q": "What clue separates it from drug photosensitivity?",
+   "a": "Bizarre streaks, drips and hand-prints that follow contact, not uniform sun-exposed redness."
+  },
+  {
+   "q": "Immediate advice after hogweed sap contact?",
+   "a": "Wash with soap and water, cover and keep out of sunlight for at least 48 h."
+  },
+  {
+   "q": "Why mention safeguarding?",
+   "a": "Hand-prints and splashes in children can mimic non-accidental injury."
+  }
+ ],
+ "references": [
+  {
+   "label": "DermNet: Phytophotodermatitis",
+   "url": "https://dermnetnz.org/topics/phytophotodermatitis"
+  },
+  {
+   "label": "Medscape: Phytophotodermatitis",
+   "url": "https://emedicine.medscape.com/article/1119566-overview"
+  }
+ ],
+ "see_also": [
+  "cutaneous-amyloidosis",
+  "drug-photosensitivity",
+  "polymorphic-light-eruption",
+  "blister-beetle-dermatitis"
+ ]
+}
