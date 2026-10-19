@@ -27,7 +27,7 @@
  "sections": {
   "what": [
    "**Paronychia** = inflammation of the proximal and/or lateral nail folds. **Acute** (<~6 weeks) is usually bacterial (*S. aureus*, streptococci, sometimes *Pseudomonas*) or herpetic whitlow; **chronic** (>~6 weeks) is often related to irritant dermatitis of the nail fold plus secondary **Candida** (and sometimes Gram-negative bacteria).",
-   "**Candidal nail disease** usually follows chronic paronychia: yeast involves the fold first, then may spread to the nail plate (onychomycosis / onycholysis). Tutor consensus for the Module 3 Week 2 Day 1 case: **candidal onychomycosis with paronychia** in a wet-work hairdresser with KOH yeast cells."
+   "**Candidal nail disease** usually follows chronic paronychia: yeast involves the fold first, then may spread to the nail plate (onychomycosis / onycholysis). Typical case: **candidal onychomycosis with paronychia** in a wet-work hairdresser with KOH yeast cells."
   ],
   "cause": [
    {
@@ -60,7 +60,7 @@
        "Fingers (thumbs common); often **several** digits over time; wet-work hands"
       ],
       [
-       "Day 1 case clues",
+       "Case clues",
        "Hairdresser; 6 months yellow thumbnails; painful cuticles; yellow malodorous secretion; onycholysis; KOH **yeast**"
       ]
      ]
@@ -128,7 +128,7 @@
    {
     "list": [
      "Chronic paronychia: treat **dermatitis of the fold** (short courses of topical corticosteroid ointment to the fold are often used in specialist pathways) **plus** topical antifungal/antiseptic solutions to the nail fold for weeks–months (e.g. imidazole solutions — check BNF).",
-     "Confirmed Candida nail/fold disease not settling: oral **itraconazole** or **fluconazole** (Candida-active). Tutor teaching for this case favoured **itraconazole** (broader spectrum vs Candida than terbinafine; fingernail regimens often ~6 weeks continuous or pulsed per product licence — **verify current BNF/SmPC**).",
+     "Confirmed Candida nail/fold disease not settling: oral **itraconazole** or **fluconazole** (Candida-active). **Itraconazole** is usually preferred (broader spectrum vs Candida than terbinafine; fingernail regimens often ~6 weeks continuous or pulsed per product licence — **verify current BNF/SmPC**).",
      "**Terbinafine** is first-line for many **dermatophyte** nail infections but is **less reliable** for Candida — do not default to it when yeast is the culprit.",
      "Topical nail lacquers alone are often insufficient if matrix/proximal disease or significant fold infection.",
      "Abscess: drainage pathway; antibiotics only when bacterial infection is clear."
@@ -166,7 +166,7 @@
    "A single nail with persistent ‘paronychia’, nail destruction or pigment: exclude **nail-unit melanoma or SCC**."
   ],
   "pearls": [
-   "Treat the **fold environment**, not only the tablet — wet-work continuation is the common reason for “failed” antifungals (tutor follow-up question).",
+   "Treat the **fold environment**, not only the tablet — wet-work continuation is the common reason for “failed” antifungals.",
    "Warn about itraconazole/fluconazole **interactions** (CYP3A4), LFTs, pregnancy/contraception issues — counsel and check interactions software.",
    "Nails grow slowly: cosmetic improvement lags mycological cure by months.",
    "Yellow-green nails: consider *Pseudomonas* co-colonisation.",

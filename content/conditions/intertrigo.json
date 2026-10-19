@@ -35,7 +35,7 @@
     "list": [
      "Erythema, itch/burn, moist/macerated skin, fissures in crease depth, peeling.",
      "Sites: inframammary, axillae, groin, abdominal apron, natal cleft, neck, finger/toe webs.",
-     "**Day 2 case:** 50-year-old; 3-month itchy red **symmetrical inframammary** rash; smooth surface, well-defined borders, mild peripheral scale; **KOH negative**; on HRT; no other sites or new topicals → diagnosis **intertrigo** (inflammatory/irritant-predominant)."
+     "**Worked case:** 50-year-old; 3-month itchy red **symmetrical inframammary** rash; smooth surface, well-defined borders, mild peripheral scale; **KOH negative**; on HRT; no other sites or new topicals → diagnosis **intertrigo** (inflammatory/irritant-predominant)."
     ]
    },
    "Secondary infection clues: satellite pustules (candida), foul odour (Gram-negatives), honey crusts (impetigo), coral-red Wood lamp (erythrasma)."
@@ -44,7 +44,7 @@
    "Clinical. KOH/mycology if scale, satellites, or treatment failure; bacterial swab if pustules/crust/odour; consider patch testing if allergen suspected; biopsy if atypical or refractory (granular parakeratosis, Hailey–Hailey, etc.)."
   ],
   "differentials": [
-   "Day 2 KOH-negative picture still overlaps early inverse psoriasis and seborrhoeic dermatitis — reassess if not settling with dry-care + mild steroid.",
+   "A KOH-negative picture still overlaps early inverse psoriasis and seborrhoeic dermatitis — reassess if not settling with dry-care + mild steroid.",
    {
     "h": "Flexural differential table"
    },
@@ -108,10 +108,10 @@
      ]
     }
    },
-   "Tutor end-week takeaway: when treating flexural rashes, **keep dry**, address incontinence/sweating/obesity, and **screen secondary bacterial/fungal infection**."
+   "Key takeaway: when treating flexural rashes, **keep dry**, address incontinence/sweating/obesity, and **screen secondary bacterial/fungal infection**."
   ],
   "management": [
-   "**Cornerstone — keep dry and reduce friction** (tutor end-week emphasis):",
+   "**Cornerstone — keep dry and reduce friction**:",
    {
     "list": [
      "Shower after sweating; **dry folds thoroughly** (cool hairdryer useful under breasts/axillae).",
@@ -123,7 +123,7 @@
      "Avoid potent/very potent steroids in folds (atrophy, striae, rebound)."
     ]
    },
-   "Further management (Day 2): follow-up response; if persists → repeat mycology/culture; reconsider inverse psoriasis, contact allergy, seborrhoeic dermatitis; review HRT/medications only if clinically relevant contributors."
+   "Further management: follow-up response; if persists → repeat mycology/culture; reconsider inverse psoriasis, contact allergy, seborrhoeic dermatitis; review HRT/medications only if clinically relevant contributors."
   ],
   "red_flags": [
    "Rash that fails to clear in one fold, especially in an older adult: biopsy for **extramammary Paget disease**.",

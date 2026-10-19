@@ -186,7 +186,7 @@
      "head": [
       "Q",
       "Correct answer",
-      "Why (short explanation the tutor asked for)"
+      "Why (short explanation)"
      ],
      "rows": [
       [
@@ -265,7 +265,7 @@
       ],
       [
        "Patch",
-       "Vitiligo; café-au-lait patch; solar lentigo (forum Day 5 case); pityriasis versicolor",
+       "Vitiligo; café-au-lait patch; solar lentigo; pityriasis versicolor",
        "≥6 café-au-lait >0.5 cm (child)/ >1.5 cm (adult) → consider NF1"
       ],
       [
@@ -565,7 +565,7 @@
       ],
       [
        "Vesicle vs bulla",
-       "Size (<1 cm vs >1 cm) — tutor's Day 1 prompt"
+       "Size (<1 cm vs >1 cm)"
       ],
       [
        "Pustule vs vesicle",

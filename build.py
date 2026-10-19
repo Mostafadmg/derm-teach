@@ -246,8 +246,8 @@ def figure(ph, cls=""):
     if not ph:
         return ""
     ai = ph["kind"] == "ai"
-    badge = ('<span class="badge badge-ai">AI diagram</span>' if ai
-             else f'<span class="badge badge-src">{esc(ph.get("site", "DermNet"))}</span>')
+    # no source badge over real photos: the credit line and Source link sit under each image
+    badge = '<span class="badge badge-ai">AI diagram</span>' if ai else ""
     src = (f' <a class="src-link" href="{esc(ph["href"])}" target="_blank" rel="noopener">Source{ui("external", "ui ui-xs")}</a>'
            if ph["href"] else "")
     credit = f'<span class="credit">{esc(ph["credit"])}{src}</span>'
@@ -474,9 +474,9 @@ def thumb_for(d, prefix):
     ph = resolve_photo(item, prefix, d["slug"])
     if not ph:
         return ""
-    tag = "AI diagram" if ph["kind"] == "ai" else f'© {ph.get("site", "DermNet")}'
+    tag = '<span class="thumb-credit">AI diagram</span>' if ph["kind"] == "ai" else ""   # no source tag over photos
     return (f'<div class="card-thumb"><img src="{esc(ph["src"])}" alt="" loading="lazy" decoding="async">'
-            f'<span class="thumb-credit">{esc(tag)}</span></div>')
+            f'{tag}</div>')
 
 
 def count_photos(d):

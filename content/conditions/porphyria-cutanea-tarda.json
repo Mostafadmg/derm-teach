@@ -40,7 +40,7 @@
      "Chronic kidney disease/haemodialysis; occasionally hepatocellular carcinoma (\"hepatic porphyrinoma\"); polyhalogenated aromatic hydrocarbons (historical)"
     ]
    },
-   "**Liver** is the internal organ most affected (Case 2, Q3): steatosis, siderosis, fibrosis/cirrhosis and raised risk of hepatocellular carcinoma."
+   "**Liver** is the internal organ most affected: steatosis, siderosis, fibrosis/cirrhosis and raised risk of hepatocellular carcinoma."
   ],
   "features": [
    {
@@ -57,7 +57,7 @@
   "diagnosis": [
    {
     "list": [
-     "**Most relevant first test (Case 2, Q2): urine (and/or plasma) porphyrins** — raised uroporphyrin and heptacarboxylic porphyrin; faecal isocoproporphyrin raised. Plasma fluorescence emission peak ~619–620 nm distinguishes PCT from variegate porphyria (~626 nm) — this matters because variegate porphyria can cause acute attacks. ALA and porphobilinogen normal.",
+     "**Most relevant first test: urine (and/or plasma) porphyrins** — raised uroporphyrin and heptacarboxylic porphyrin; faecal isocoproporphyrin raised. Plasma fluorescence emission peak ~619–620 nm distinguishes PCT from variegate porphyria (~626 nm) — this matters because variegate porphyria can cause acute attacks. ALA and porphobilinogen normal.",
      "**Associated-cause work-up:** LFTs, **ferritin + transferrin saturation**, **HFE genotyping**, **hepatitis C and B, HIV serology**, glucose/HbA1c, renal function, consider liver ultrasound (± HCC surveillance if cirrhotic), ANA if diagnostic overlap.",
      "Skin biopsy (subepidermal blister with \"festooning\" of dermal papillae; immunofluorescence) when needed to exclude other bullous disease.",
      "Sent via specialist porphyria laboratory; UK National Acute Porphyria Service / specialist dermatology."
@@ -148,7 +148,7 @@
    {
     "h": "Key differentials"
    },
-   "These are the tutor-requested DDx for Case 3:",
+   "Differentials for Case 3:",
    {
     "list": [
      "**Pseudoporphyria**: looks the same but porphyrins are **normal**. Drug causes are **naproxen** and other NSAIDs, tetracyclines, nalidixic acid, furosemide, retinoids, and **sunbeds**. Also seen in dialysis. Stop the drug (**Module 5 exam Q2**).",
@@ -192,7 +192,7 @@
      "**Recognise** the pattern (blisters + fragility + scars/milia on dorsal hands; alcohol/smoking/oestrogen/hep C) and **refer** with suspicion stated; topical steroids don't help (Case 2).",
      "**Remove triggers:** stop alcohol and smoking (offer NHS stop-smoking support and alcohol brief intervention), **review oestrogens** (COC/HRT — discuss alternatives with prescriber), **stop iron supplements and iron-containing multivitamins**.",
      "Specialist treatments (know, don't initiate): **venesection** (reduce ferritin), **low-dose hydroxychloroquine** (e.g. 100 mg–200 mg **twice weekly**, not standard daily antimalarial doses, which can cause hepatotoxicity), treatment of hepatitis C with direct-acting antivirals often induces remission. Chloroquine sometimes used at low dose.",
-     "**Visible-light photoprotection** (tutor point): conventional chemical UV filters don't cover 400–410 nm — recommend **reflectant sunscreens containing titanium dioxide/zinc oxide, ideally tinted (iron-oxide)**, e.g. Dundee cream (via specialists) or tinted mineral SPF 50; gloves, long sleeves, hats; **window film** for car/home.",
+     "**Visible-light photoprotection**: conventional chemical UV filters don't cover 400–410 nm — recommend **reflectant sunscreens containing titanium dioxide/zinc oxide, ideally tinted (iron-oxide)**, e.g. Dundee cream (via specialists) or tinted mineral SPF 50; gloves, long sleeves, hats; **window film** for car/home.",
      "Wound care for erosions (non-adherent dressings, watch for infection); protect hands from trauma (gloves for DIY/gardening)."
     ]
    },

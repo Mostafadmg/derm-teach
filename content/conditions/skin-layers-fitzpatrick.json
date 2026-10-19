@@ -80,7 +80,7 @@
    {
     "h": "Fitzpatrick skin types I–VI"
    },
-   "The **Fitzpatrick skin phototype** classifies skin by its response to sun (burning vs tanning) after an initial exposure, originally (1975) to dose PUVA therapy. It is self-reported/clinically assessed and is the classification most widely used in practice and publications (tutor, Day 2).",
+   "The **Fitzpatrick skin phototype** classifies skin by its response to sun (burning vs tanning) after an initial exposure, originally (1975) to dose PUVA therapy. It is self-reported/clinically assessed and is the classification most widely used in practice and publications.",
    {
     "table": {
      "head": [
@@ -156,7 +156,7 @@
       ],
       [
        "**Vesicle (spongiotic)**",
-       "Eczema: inflammatory fluid separates keratinocytes → **intercellular oedema = spongiosis** within the **epidermis** (quiz Q2) → microvesicles (most visible on palms/soles as pompholyx)"
+       "Eczema: inflammatory fluid separates keratinocytes → **intercellular oedema = spongiosis** within the **epidermis** → microvesicles (most visible on palms/soles as pompholyx)"
       ],
       [
        "**Vesicle (viral)**",
@@ -197,15 +197,15 @@
      ]
     }
    },
-   "**Why does a blister develop? (Day 3 model answer, paraphrased):** a blister forms when the \"glue\" between cells fails or cells are damaged, and tissue fluid fills the gap. The *level* of failure predicts the clinical picture: high (intraepidermal) splits give fragile flaccid blisters and erosions; low (subepidermal) splits give tense, often haemorrhagic, durable bullae.",
-   "**Functions to link (Days 3–4):** barrier (physical, chemical — acid mantle, antimicrobial peptides, lipids; microbiological — commensal flora competes with pathogens; immunological — Langerhans cells), thermoregulation (eccrine sweat, dermal blood flow; hair traps heat), sensation, vitamin D synthesis, UV protection (melanin caps over nuclei), social/communication. Commensals rarely cause bacteraemia because the intact stratum corneum, acid pH, sebum fatty acids and innate immunity prevent invasion — breaches (cannulas, ulcers, eczema) raise risk.",
-   "**Ageing (Day 5):** intrinsic (thinner dermis, fewer fibroblasts, slower turnover, flattened dermo-epidermal junction → fragility) vs extrinsic/photo-ageing (UV + smoking → solar elastosis, wrinkles, lentigines). Twin studies show smoking and sun exposure produce visibly older skin in the exposed twin.",
+   "**Why does a blister develop?** a blister forms when the \"glue\" between cells fails or cells are damaged, and tissue fluid fills the gap. The *level* of failure predicts the clinical picture: high (intraepidermal) splits give fragile flaccid blisters and erosions; low (subepidermal) splits give tense, often haemorrhagic, durable bullae.",
+   "**Functions to link:** barrier (physical, chemical — acid mantle, antimicrobial peptides, lipids; microbiological — commensal flora competes with pathogens; immunological — Langerhans cells), thermoregulation (eccrine sweat, dermal blood flow; hair traps heat), sensation, vitamin D synthesis, UV protection (melanin caps over nuclei), social/communication. Commensals rarely cause bacteraemia because the intact stratum corneum, acid pH, sebum fatty acids and innate immunity prevent invasion — breaches (cannulas, ulcers, eczema) raise risk.",
+   "**Ageing:** intrinsic (thinner dermis, fewer fibroblasts, slower turnover, flattened dermo-epidermal junction → fragility) vs extrinsic/photo-ageing (UV + smoking → solar elastosis, wrinkles, lentigines). Twin studies show smoking and sun exposure produce visibly older skin in the exposed twin.",
    {
     "h": "Fitzpatrick skin types I–VI"
    },
    {
     "list": [
-     "**Melanocyte number is broadly similar across all phototypes** (answer to Day 3 Q2c: type IV does *not* have more melanocytes than type I). Differences arise from melanosome **size, number, packaging and distribution**, the **eumelanin (brown-black) : pheomelanin (red-yellow)** ratio, and how efficiently melanin is transferred to keratinocytes.",
+     "**Melanocyte number is broadly similar across all phototypes** (type IV does *not* have more melanocytes than type I). Differences arise from melanosome **size, number, packaging and distribution**, the **eumelanin (brown-black) : pheomelanin (red-yellow)** ratio, and how efficiently melanin is transferred to keratinocytes.",
      "Larger, singly dispersed eumelanin-rich melanosomes in darker skin absorb/scatter more UV → greater natural photoprotection (approx. SPF-equivalent differences), but also a more reactive melanocyte response to inflammation → **post-inflammatory hyperpigmentation (PIH)**.",
      "UVB converts 7-dehydrocholesterol in the epidermis to pre-vitamin D3 → liver (25-OH D) → kidney (1,25-(OH)2 D). Melanin competes for UVB, so darker skin needs **longer exposure** to make the same amount of vitamin D."
     ]
@@ -275,12 +275,12 @@
      ]
     }
    },
-   "**Is phototype protective against ageing at higher latitude? (Day 5)** — Partly: higher phototypes have more photoprotection and typically show fewer wrinkles and lentigines, but intrinsic ageing still occurs, and lifestyle (smoking, sunbeds) matters more than latitude alone. At UK latitude, darker phototypes gain photo-ageing protection but pay a vitamin D cost.",
-   "**Vitamin D at UK latitude (Day 4 table, paraphrased):**",
+   "**Is phototype protective against ageing at higher latitude?** — Partly: higher phototypes have more photoprotection and typically show fewer wrinkles and lentigines, but intrinsic ageing still occurs, and lifestyle (smoking, sunbeds) matters more than latitude alone. At UK latitude, darker phototypes gain photo-ageing protection but pay a vitamin D cost.",
+   "**Vitamin D at UK latitude:**",
    {
     "list": [
      "UK lies ~50–60°N: from roughly **October to March** UVB is too weak for meaningful cutaneous vitamin D synthesis in anyone.",
-     "People with darker skin (African, African-Caribbean, **South Asian** heritage), those who cover skin for cultural/religious reasons, the housebound/care-home residents, and those who use high-factor sunscreen constantly are at highest risk; UK South Asian populations consistently show high prevalence of deficiency (forum-cited studies, e.g. Darling; Correia et al. 2014).",
+     "People with darker skin (African, African-Caribbean, **South Asian** heritage), those who cover skin for cultural/religious reasons, the housebound/care-home residents, and those who use high-factor sunscreen constantly are at highest risk; UK South Asian populations consistently show high prevalence of deficiency (e.g. Darling; Correia et al. 2014).",
      "UK advice (SACN 2016 / UK government / NICE PH56 & CKS vitamin D deficiency): everyone aged ≥1 year should consider **10 micrograms (400 units) vitamin D daily** in autumn and winter; at-risk groups including people with dark skin should consider it **all year round**. Babies/young children have specific advice (Healthy Start). Check current guidance for treatment doses in confirmed deficiency (CKS/local formulary)."
     ]
    },
@@ -292,7 +292,7 @@
     "list": [
      "Meta-analyses and a Cochrane review (Dinnes et al. 2018) show dermoscopy improves **melanoma detection accuracy** versus naked-eye examination alone, with better sensitivity without loss of specificity when used by trained clinicians.",
      "Reduces unnecessary excisions of benign lesions (better benign:malignant excision ratio) and helps triage referrals.",
-     "Helps distinguish seborrhoeic keratosis (milia-like cysts, comedo-like openings, \"brain-like\" fissures), solar lentigo (homogeneous light-brown, moth-eaten border, fingerprint pattern) from lentigo maligna (asymmetric follicular pigmentation, rhomboidal structures, grey dots — forum Day 5 discussion), BCC (arborising vessels, blue-grey ovoid nests), dermatofibroma (central white patch, peripheral network), molluscum (central white polylobular structures with crown vessels), scabies (\"delta-wing jet\" mite), and nail/scalp conditions (trichoscopy).",
+     "Helps distinguish seborrhoeic keratosis (milia-like cysts, comedo-like openings, \"brain-like\" fissures), solar lentigo (homogeneous light-brown, moth-eaten border, fingerprint pattern) from lentigo maligna (asymmetric follicular pigmentation, rhomboidal structures, grey dots), BCC (arborising vessels, blue-grey ovoid nests), dermatofibroma (central white patch, peripheral network), molluscum (central white polylobular structures with crown vessels), scabies (\"delta-wing jet\" mite), and nail/scalp conditions (trichoscopy).",
      "Allows digital monitoring of atypical naevi and teledermatology image quality (UK referral pathways increasingly request dermoscopic images)."
     ]
    }

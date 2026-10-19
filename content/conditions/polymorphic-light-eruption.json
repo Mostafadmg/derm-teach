@@ -42,7 +42,7 @@
    }
   ],
   "diagnosis": [
-   "Clinical: timing (first strong sun), photodistribution, recurrent seasonal pattern, normal health. In **severe, atypical or treatment-resistant** cases (Case 1, Q3) specialists consider: **ANA, anti-Ro/La antibodies** (exclude lupus — SCLE can be triggered by sun and by drugs), **porphyrin screen** (exclude erythropoietic protoporphyria/other porphyrias), skin biopsy (dermal oedema, perivascular lymphocytes — non-specific but helps exclude lupus), and **phototesting/provocation testing** in a photobiology unit. Always take a full drug history to exclude drug-induced photosensitivity."
+   "Clinical: timing (first strong sun), photodistribution, recurrent seasonal pattern, normal health. In **severe, atypical or treatment-resistant** cases specialists consider: **ANA, anti-Ro/La antibodies** (exclude lupus — SCLE can be triggered by sun and by drugs), **porphyrin screen** (exclude erythropoietic protoporphyria/other porphyrias), skin biopsy (dermal oedema, perivascular lymphocytes — non-specific but helps exclude lupus), and **phototesting/provocation testing** in a photobiology unit. Always take a full drug history to exclude drug-induced photosensitivity."
   ],
   "differentials": [
    {
@@ -126,7 +126,7 @@
    {
     "h": "Sun-protection counselling script"
    },
-   "Tutor emphasis (Case 1): **SPF is not the only measure of sunscreen quality** — choose by UVA protection too.",
+   "**SPF is not the only measure of sunscreen quality** — choose by UVA protection too.",
    {
     "table": {
      "head": [
@@ -262,7 +262,7 @@
    }
   ],
   "pearls": [
-   "\"It's not an allergy to the sun cream — it's a reaction to UVA the cream didn't block.\" Check the **UVA rating**, not just SPF (tutor point, Case 1).",
+   "\"It's not an allergy to the sun cream — it's a reaction to UVA the cream didn't block.\" Check the **UVA rating**, not just SPF.",
    "Expect recurrence each spring/holiday but often milder later in summer; tends to improve over years.",
    "Vitamin D: if strict sun avoidance, advise 10 micrograms (400 units) daily supplement (UK public health advice).",
    "Always run a quick drug check — a new doxycycline or thiazide changes the diagnosis."

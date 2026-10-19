@@ -30,7 +30,7 @@
   "cause": [
    {
     "list": [
-     "**Aetiology (Case 3 Q5):** dengue virus is a **flavivirus** (same family as yellow fever and Zika). It is a single-stranded RNA virus with **four serotypes (DENV-1 to DENV-4)**.",
+     "**Aetiology:** dengue virus is a **flavivirus** (same family as yellow fever and Zika). It is a single-stranded RNA virus with **four serotypes (DENV-1 to DENV-4)**.",
      "**Vector:** **Aedes aegypti** (and *Ae. albopictus*). These are **day-biting** mosquitoes, most active in the early morning and late afternoon. They breed in **small collections of clean standing water** (containers, tyres, plant pots), so risk is high in **urban** areas. *Ae. albopictus* is found intermittently in parts of Europe, but not established in the UK, so UK onward transmission risk is negligible.",
      "Incubation is **4–10 days** (range about 3–14). A patient can infect feeding mosquitoes during the viraemic phase.",
      "**Immunity:** infection gives lifelong immunity to that serotype and only brief cross-protection to the others. **Antibody-dependent enhancement** at a later infection with a different serotype is thought to drive more severe disease.",
@@ -47,12 +47,12 @@
      "**Recovery phase:** fluid reabsorbs, and there may be bradycardia and the convalescent rash."
     ]
    },
-   "**Skin manifestations (Case 3 Q1).** About half of patients get a rash, and it is often missed on darker skin.",
+   "**Skin manifestations.** About half of patients get a rash, and it is often missed on darker skin.",
    {
     "list": [
      "**Early (first 24–48 h):** transient **flushing/blanching erythema** of the face, neck and chest.",
      "**Days 3–6:** a **maculopapular or morbilliform exanthem**. It often starts on the dorsum of the hands and feet, spreads to the limbs and trunk, and may be itchy.",
-     "**Convalescent rash:** confluent erythema with round pale **\"islands of sparing\", the classic \"white islands in a sea of red\"**, which the tutor called the characteristic sign. It is often **itchy** (palms/soles may be involved) and can be followed by fine desquamation.",
+     "**Convalescent rash:** confluent erythema with round pale **\"islands of sparing\", the classic \"white islands in a sea of red\"**, the characteristic sign. It is often **itchy** (palms/soles may be involved) and can be followed by fine desquamation.",
      "**Haemorrhagic signs:** **petechiae** (especially on the **lower legs**, feet and at pressure sites), purpura/ecchymoses, conjunctival injection or bleeding, gum bleeding and nosebleeds. A **positive tourniquet test** shows capillary fragility.",
      "**Case 3 final question (lesions on the legs):** these are **petechiae/purpura**. They signify **thrombocytopenia and increased vascular (capillary) fragility or leakage**. They can occur in uncomplicated dengue, but they are a prompt to check the **platelet count and haematocrit** and to look for **warning signs of severe dengue**."
     ]
@@ -91,7 +91,7 @@
   ],
   "differentials": [
    {
-    "h": "(Case 3 Q2)"
+    "h": ""
    },
    {
     "table": {
@@ -133,7 +133,7 @@
        "Rose spots (typhoid); freshwater exposure, conjunctival suffusion, jaundice/renal failure (leptospirosis)"
       ],
       [
-       "**COVID-19** (tutor point)",
+       "**COVID-19**",
        "Can also cause **purpuric/petechial** and morbilliform eruptions"
       ],
       [
@@ -157,7 +157,7 @@
    }
   ],
   "management": [
-   "**Treatment (Case 3 Q4):** there is **no specific antiviral**. Care is **supportive** and focuses on fluids and early detection of warning signs. Early supportive care brings case fatality in severe dengue below 1%.",
+   "**Treatment:** there is **no specific antiviral**. Care is **supportive** and focuses on fluids and early detection of warning signs. Early supportive care brings case fatality in severe dengue below 1%.",
    {
     "list": [
      "**Any fever in a returning traveller → same-day medical assessment** (GP, urgent care, or A&E/HTD walk-in if unwell). This is not a pharmacy-only problem.",

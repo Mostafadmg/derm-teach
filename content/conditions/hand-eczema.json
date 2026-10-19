@@ -67,19 +67,19 @@
   ],
   "cause": [
    {
-    "h": "(Day 2 Q2)"
+    "h": ""
    },
    "**Irritant contact dermatitis (ICD)** — non-immunological, no prior sensitisation needed:",
    {
     "list": [
      "Repeated exposure (wet work, detergents, solvents, alkaline cement, friction, abrasion, occlusive gloves) strips stratum-corneum lipids and damages keratinocytes → **↑ transepidermal water loss**, barrier failure.",
      "Damaged keratinocytes release IL-1α, TNF-α and other cytokines → innate inflammation; cumulative sub-threshold insults add up (\"cumulative ICD\").",
-     "Repetition drives **hyperkeratosis, acanthosis and lichenification**; in darker skin, **post-inflammatory hyperpigmentation** is prominent (Day 2).",
+     "Repetition drives **hyperkeratosis, acanthosis and lichenification**; in darker skin, **post-inflammatory hyperpigmentation** is prominent.",
      "Risk modifiers: atopy/filaggrin loss-of-function, low humidity/winter, hot water, dominant-hand exposure."
     ]
    },
    "**Allergic contact dermatitis (ACD)** — **type IV (delayed, T-cell mediated)**: sensitisation phase (hapten + skin protein → Langerhans cells → lymph node → memory T cells) then elicitation 24–72 h after re-exposure. A damaged irritant-barrier makes sensitisation more likely — so ICD and ACD frequently coexist.",
-   "**Construction worker exposures (Day 2):**",
+   "**Construction-worker exposures:**",
    {
     "list": [
      "**Wet cement** — alkaline (pH ~12–13) and abrasive → ICD; contains **hexavalent chromium (chromate)** and cobalt → ACD. EU/UK REACH restricts soluble Cr(VI) in cement to ≤ 2 ppm (ferrous-sulphate reduction), which reduced but did not abolish cement ACD.",
@@ -90,7 +90,7 @@
   ],
   "features": [
    {
-    "h": "(Day 3 Q1 — acute vs chronic)"
+    "h": ""
    },
    {
     "table": {
@@ -123,16 +123,16 @@
      "**Hyperkeratotic palmar eczema:** thick, fissured central palms, middle-aged men, little itch — closely mimics psoriasis."
     ]
    },
-   "**Day 2 case match:** itchy erythematous palms + scale + lichenification + PIH + dominant-hand predominance in a 20-yr cement worker → chronic occupational hand eczema; ICD most likely, ACD to chromate/rubber must be tested."
+   "**Worked case:** itchy erythematous palms + scale + lichenification + PIH + dominant-hand predominance in a 20-yr cement worker → chronic occupational hand eczema; ICD most likely, ACD to chromate/rubber must be tested."
   ],
   "diagnosis": [
    {
     "ol": [
      "**History:** onset vs job change; occupational tasks (wet work definition: hands wet or in occlusive gloves > 2 h/day, or > 20 hand-washes/day); products handled (ask for **safety data sheets**); gloves (type, duration, lining); hobbies (DIY, gardening, hair dye); improvement on holidays/weekends; atopy; previous treatment and response.",
      "**Examination:** both hands (dorsal/palmar/webs/nails), wrists, feet (tinea, pompholyx, psoriasis), scalp/elbows/nails (psoriasis), flexures (atopy).",
-     "**Skin scrapings** for mycology if any scale is asymmetric or treatment-resistant (students rightly listed tinea manuum for a manual worker).",
+     "**Skin scrapings** for mycology if any scale is asymmetric or treatment-resistant (tinea manuum is a real possibility in a manual worker).",
      "**Patch testing** (dermatology): indicated for **all chronic hand eczema (> 3 months)** or suspected ACD; baseline series (incl. **potassium dichromate**, cobalt, nickel, rubber mixes, fragrance mixes, isothiazolinones) plus extended/occupational series and patient's own products. Allergens applied on the back for 48 h, read at ~D2 and D4 (± D7); a positive must be judged for **relevance** to the exposure history.",
-     "**Prick test / specific IgE** only if immediate (type I) symptoms — latex or food proteins (protein contact dermatitis/urticaria). Students correctly contrasted prick (type I) vs patch (type IV).",
+     "**Prick test / specific IgE** only if immediate (type I) symptoms — latex or food proteins (protein contact dermatitis/urticaria). Prick testing is for type I reactions; patch testing for type IV.",
      "Diagnosis of ICD is largely **by exclusion** (negative/irrelevant patch tests + irritant history)."
     ]
    }
@@ -280,7 +280,7 @@
   ],
   "management": [
    {
-    "h": "Management for pharmacist/IP (Day 2 Q3, Day 3 Q6)"
+    "h": "Management for pharmacist/IP"
    },
    "**Step 1 — Skin protection & avoidance (all patients):**",
    {
@@ -295,7 +295,7 @@
    "**Step 2 — Topical anti-inflammatory (IP prescribing):**",
    {
     "list": [
-     "**Potent topical corticosteroid** (e.g. mometasone furoate 0.1% or betamethasone valerate 0.1% ointment) once daily for 2–4 weeks for a flare; **very potent** (clobetasol propionate 0.05%) often needed for thick palmar skin — short courses, then taper to twice-weekly **proactive maintenance** on usual sites. Ointments preferred on hands. Day 2 patient's \"topical dexamethasone\" with partial temporary relief = undertreatment + continuing exposure.",
+     "**Potent topical corticosteroid** (e.g. mometasone furoate 0.1% or betamethasone valerate 0.1% ointment) once daily for 2–4 weeks for a flare; **very potent** (clobetasol propionate 0.05%) often needed for thick palmar skin — short courses, then taper to twice-weekly **proactive maintenance** on usual sites. Ointments preferred on hands. A history of \"topical dexamethasone\" with partial temporary relief = undertreatment + continuing exposure.",
      "**Topical calcineurin inhibitors** (tacrolimus 0.1% ointment, off-label for hands) as steroid-sparing maintenance, especially dorsal skin.",
      "Treat **secondary infection** (swab; oral flucloxacillin or per local guidance if impetiginised). Potassium permanganate 1:10,000 soaks for weeping/vesicular phases (stains; never ingest).",
      "Oral antihistamines don't treat the eczema; a sedating one at night only if sleep is disturbed."
@@ -330,11 +330,11 @@
    "Thin palmar skin is uncommon — palms tolerate very potent TCS better than other sites, but dorsal hands thin easily; review every 4 weeks.",
    "Dominant-hand predominance, ring-site eczema, and finger-web involvement → irritant. Dorsal hand + wrist cut-off at glove cuff → think glove allergy.",
    "Always look at the **feet** in a hand rash.",
-   "Answering the forum question (healthcare hand hygiene): prefer alcohol rub when hands not visibly soiled, dry hands fully before gloving, emollient at breaks and end of shift, report skin problems early (NHS staff hand-dermatitis pocket guides support this).",
+   "Healthcare hand hygiene: prefer alcohol rub when hands not visibly soiled, dry hands fully before gloving, emollient at breaks and end of shift, report skin problems early (NHS staff hand-dermatitis pocket guides support this).",
    {
     "h": "Hand eczema questions and answers"
    },
-   "Concise answers to the six tutor prompts (paraphrased synthesis of student posts + guideline themes).",
+   "Concise answers to the six key questions, drawn from UK guidance.",
    {
     "h": "Clinical features — acute vs chronic"
    },

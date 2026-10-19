@@ -41,7 +41,7 @@
      "**Minor/secondary:** burning, stinging, oedema, dryness."
     ]
    },
-   "The tutor's \"four subtypes + phenotype\" answer matches this. **Teach phenotypes, and treat each feature separately.**",
+   "The older “four subtypes” teaching maps onto these phenotypes. **Teach phenotypes, and treat each feature separately.**",
    {
     "h": "Demodex and demodicosis"
    },
@@ -58,13 +58,13 @@
   "cause": [
    {
     "list": [
-     "**Heat, hot drinks and spicy food (capsaicin):** activate **TRPV1** on sensory nerves and vessels, so neuropeptides are released (substance P, CGRP) and vessels dilate. *Pepper is the Day 1 case trigger.*",
-     "**Alcohol, especially red wine:** acetaldehyde, histamine and polyphenols cause vasodilation. *Wine is the Day 1 case trigger.*",
+     "**Heat, hot drinks and spicy food (capsaicin):** activate **TRPV1** on sensory nerves and vessels, so neuropeptides are released (substance P, CGRP) and vessels dilate. *Pepper and chilli are classic triggers.*",
+     "**Alcohol, especially red wine:** acetaldehyde, histamine and polyphenols cause vasodilation. *Red wine is a classic trigger.*",
      "**UV:** induces MMPs, ROS and **cathelicidin** activation through **kallikrein-5**, and damages dermal matrix so telangiectasia shows. *This is the case's \"worse with sun\".*",
      "**Cold, wind, exercise, stress, menopause:** vascular reactivity through neurogenic routes.",
      "**Topical steroids and calcineurin inhibitors:** local immunosuppression lets *Demodex* overgrow, steroids cause vasodilation, and there is rebound on withdrawal.",
      "**Drugs that cause flushing:** nicotinic acid, CCBs (nifedipine, amlodipine), nitrates, sildenafil, opioids, vancomycin, tamoxifen and aromatase inhibitors.",
-     "**Systemic associations (tutor, Day 2):** *H. pylori* (conflicting evidence; **eradication is not routine**), **IBD/SIBO**, migraine, depression and anxiety, and possibly cardiovascular risk. These are associations, not reasons for routine tests."
+     "**Systemic associations:** *H. pylori* (conflicting evidence; **eradication is not routine**), **IBD/SIBO**, migraine, depression and anxiety, and possibly cardiovascular risk. These are associations, not reasons for routine tests."
     ]
    },
    {
@@ -76,7 +76,7 @@
      "Mites and their bacterium (*Bacillus oleronius*) activate **TLR2**, which drives kallikrein-5 → cathelicidin → inflammation.",
      "When dying mites burst, they release antigens.",
      "The **response to ivermectin and permethrin** is indirect evidence that the mites play a part.",
-     "Whether they *cause* rosacea or simply thrive in it is unresolved (tutor's Day 2 framing). Teach \"**contributor and amplifier**\"."
+     "Whether they *cause* rosacea or simply thrive in it is unresolved. Teach \"**contributor and amplifier**\"."
     ]
    },
    {
@@ -262,7 +262,7 @@
       [
        "**Clonidine** (flushing)",
        "**50 micrograms twice daily**, off-label",
-       "A student's post said \"50 mg\", which is wrong by 1000-fold. Watch for hypotension and do not stop abruptly"
+       "Doses quoted as \"50 mg\" are wrong by 1000-fold. Watch for hypotension and do not stop abruptly"
       ],
       [
        "**Propranolol / carvedilol** (flushing)",
@@ -337,67 +337,67 @@
      ],
      "rows": [
       [
-       "A student's Day 2 post (Feb 2024)",
+       "Student answer",
        "\"Clonidine orally **50 mg**\" for flushing",
        "**50 micrograms twice daily** (BNF; off-label for rosacea flushing; up to 75 micrograms BD). 50 mg would be a dangerous overdose"
       ],
       [
-       "A student's Day 2 post",
+       "Student answer",
        "Brimonidine \"0.5%\"",
        "The UK gel contains **3 mg/g brimonidine (≈0.33% base)**, which equals 5 mg/g (0.5%) **brimonidine tartrate**. Your figure is the salt strength. Prescribe by the BNF/product description to avoid confusion"
       ],
       [
-       "A student's Day 2 posts (29 Jan 2024)",
+       "Student answer",
        "Metronidazole, azelaic acid, ivermectin listed without regimens",
        "Metronidazole 0.75% **twice daily**; azelaic acid 15% gel **twice daily**; ivermectin 1% **once daily up to 4 months**; doxycycline **40 mg MR once daily** (licensed)"
       ],
       [
-       "A student's Day 2 post",
+       "Student answer",
        "Oral metronidazole and isotretinoin listed as options",
        "Both are **specialist and off-label** for rosacea. They are not IP-initiated in primary care"
       ],
       [
-       "Tutor Day 1",
+       "Course teaching",
        "\"Tetracycline 6–12 weeks\"",
        "Fine in principle. The UK licensed choice is **doxycycline 40 mg MR** (sub-antimicrobial), or lymecycline/doxycycline 100 mg off-label. Step down to topical maintenance"
       ],
       [
-       "Tutor Day 1",
+       "Course teaching",
        "\"Physical sunblock\"",
        "Agrees with UK advice (mineral SPF 30+, daily)"
       ],
       [
-       "Tutor Day 2",
+       "Course teaching",
        "H. pylori / IBD associations",
        "Evidence is inconsistent. **UK guidance does not recommend routine H. pylori testing** for rosacea"
       ],
       [
-       "A student's Day 4 post",
+       "Student answer",
        "Oral antibiotic with topical antibiotic, or oral alone",
        "**NG198: never.** Always combine with BPO and/or a topical retinoid"
       ],
       [
-       "A student's Day 4 post",
+       "Student answer",
        "Clarithromycin as the alternative oral",
        "**NG198 names erythromycin or trimethoprim**, not clarithromycin"
       ],
       [
-       "A student's Day 4 post",
+       "Student answer",
        "\"Switch at 16 weeks\"",
        "**Review at 12 weeks.** If improved but not clear, continue up to 12 more weeks. Exceptional use beyond 6 months needs 3-monthly review"
       ],
       [
-       "A student's Day 4 post",
+       "Student answer",
        "Monotherapy-led ladder",
        "**NG198 makes fixed-dose topical combinations first line** (adapalene/BPO, tretinoin/clindamycin, BPO/clindamycin)"
       ],
       [
-       "Day 3 case",
+       "Course case",
        "Clindamycin/BPO for 8 months",
        "Too long for an antibiotic-containing topical (resistance risk). Review at 12 weeks"
       ],
       [
-       "Day 3 case (peer)",
+       "Course case (student answer)",
        "\"Try another antibiotic course\"",
        "She has already failed an oral antibiotic regimen, so **refer for isotretinoin**"
       ]
@@ -469,7 +469,7 @@
    "url": "https://www.pcds.org.uk/clinical-guidance/rosacea"
   },
   {
-   "label": "BNF:   BNF Brimonidine tartrate topical, Ivermectin topical, Clonidine hydrochloride",
+   "label": "BNF: BNF Brimonidine tartrate topical, Ivermectin topical, Clonidine hydrochloride",
    "url": "https://bnf.nice.org.uk/treatment-summaries/rosacea/"
   },
   {

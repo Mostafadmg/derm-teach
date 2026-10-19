@@ -3,7 +3,7 @@
  "title": "Pyoderma gangrenosum",
  "category": "ulcers-red-leg",
  "order": 2,
- "module": "Module 5 · Week 2",
+ "module": "Module 5 · Week 2 · Module 1 · Week 5",
  "aka": [
   "PG",
   "neutrophilic dermatosis",
@@ -33,6 +33,51 @@
      "Behçet disease and PAPA syndrome",
      "Drugs, e.g. cocaine contaminated with levamisole"
     ]
+   },
+   {
+    "h": "Mechanism, pathergy and associations in more depth"
+   },
+   {
+    "list": [
+     "**Neutrophil dysregulation and autoinflammation:** overexpression of IL-1β, IL-8, IL-17, IL-23 and TNF-α drives neutrophils into the dermis, which then destroy tissue. Innate-immune gene variants (e.g. *PSTPIP1* in **PAPA** syndrome) show the mechanism.",
+     "**Pathergy:** minor trauma (a graze, a needle, surgery, a stoma, debridement) triggers or worsens lesions in ~25–30%. **The case: a car-door graze → pustule within days → painful ulcer.**",
+     "**Associations to screen for:**"
+    ]
+   },
+   {
+    "table": {
+     "head": [
+      "Group",
+      "Examples"
+     ],
+     "rows": [
+      [
+       "**Gut**",
+       "**Crohn's disease, ulcerative colitis** (PG activity often, but not always, parallels bowel activity); peristomal PG after IBD surgery"
+      ],
+      [
+       "**Joints**",
+       "**Rheumatoid arthritis**, seronegative spondyloarthritis, psoriatic arthritis"
+      ],
+      [
+       "**Blood**",
+       "**Myeloid dyscrasias**: AML, **myelodysplasia**, myeloproliferative neoplasms; **monoclonal gammopathy (especially IgA MGUS)**, myeloma"
+      ],
+      [
+       "**Other**",
+       "Hidradenitis suppurativa (PASH/PAPASH syndromes), Behçet's, granulomatosis with polyangiitis, autoimmune hepatitis, solid tumours (rare)"
+      ],
+      [
+       "**Drugs**",
+       "**Levamisole-adulterated cocaine**, isotretinoin, propylthiouracil, sunitinib and other kinase inhibitors, rituximab, G-CSF"
+      ]
+     ]
+    }
+   },
+   {
+    "list": [
+     "Azathioprine (the patient's Crohn's treatment) does **not** protect against PG; immunosuppression also raises the chance that an ulcer is **infected or atypical infection**, which must be excluded."
+    ]
    }
   ],
   "features": [
@@ -44,6 +89,18 @@
      "Legs most often; also around stomas in IBD, and at surgical sites (pathergy).",
      "Heals with **cribriform** (sieve-like) scars."
     ]
+   },
+   {
+    "h": "Variants and clinical clues (Module 1 Week 5)"
+   },
+   {
+    "list": [
+     "**Classic ulcerative PG:** starts as a **tender papule, pustule or haemorrhagic bulla**, often at a site of minor injury, which **breaks down within days** into an ulcer with: a **violaceous (purple-blue), undermined, ragged edge** and surrounding erythema; a **necrotic, purulent or haemorrhagic base**; **pain out of proportion** to the size (often ≥ 7/10); **rapid centrifugal growth** (centimetres in days to weeks)",
+     "**Sites:** **pretibial skin (commonest)**; also trunk, head and neck, **peristomal skin**, post-surgical wounds (breast surgery, caesarean section), genitals; rarely mucosa and internal organs (sterile neutrophilic abscesses in lung, spleen).",
+     "**Variants:** **Bullous** — superficial haemorrhagic blisters on the arms or face; **strong link with myeloid leukaemia/MDS** (check the blood film); **Pustular** — sterile pustules in active IBD; **Vegetative (superficial granulomatous)** — slow, less painful, rarely associated with systemic disease; **Peristomal** — around an ileostomy/colostomy; often misread as an irritant or allergic stoma reaction; **Postoperative** — wound \"dehiscence\" or \"infection\" that fails to respond to antibiotics and worsens with debridement",
+     "**Healing** leaves **atrophic cribriform (sieve-like) scars** — a useful clue to past PG.",
+     "**Systemic:** low-grade fever, malaise, arthralgia and raised CRP/ESR are common and **do not by themselves mean infection**. **The case: T 37.5 °C, HR 95, high CRP and ESR.**"
+    ]
    }
   ],
   "diagnosis": [
@@ -53,10 +110,60 @@
      "Swabs only to look for secondary infection.",
      "**Seek dermatology urgently.**"
     ]
+   },
+   {
+    "h": "Diagnostic criteria (Su, Delphi, PARACELSUS) and the work-up"
+   },
+   "**There is no single diagnostic test.** Diagnosis combines the clinical picture, **exclusion of mimics**, histology and the treatment response.",
+   {
+    "list": [
+     "**Su criteria (2004)** — the course answer: **both major** criteria (rapidly progressive painful necrolytic ulcer with an irregular violaceous undermined border; other causes excluded) **plus ≥ 2 minor** (pathergy or cribriform scarring; associated systemic disease; compatible histology; rapid response to systemic steroids).",
+     "**Delphi consensus criteria (Maverakis et al., *JAMA Dermatology* 2018)** — now widely used in UK specialist practice: **1 major criterion — biopsy of the ulcer edge showing a neutrophilic infiltrate** — plus **≥ 4 of 8 minor criteria**: exclusion of infection (including histology stains and tissue cultures); pathergy; personal history of IBD or inflammatory arthritis; papule, pustule or vesicle that ulcerates within 4 days; peripheral erythema, undermining border and tenderness at the ulcer site; multiple ulcers, at least one on the anterior lower leg; cribriform or \"wrinkled paper\" scars at healed sites; ulcer shrinking within 1 month of starting immunosuppression",
+     "**PARACELSUS score (2019)** — a weighted score from German wound clinics (rapid progression, assessment of differentials, violaceous border as the main items); a total of **≥ 10 points** suggests PG. Useful as a teaching checklist.",
+     "**Biopsy (specialist):** a **deep incisional or punch biopsy from the inflamed edge** (including subcutis) for **H&E** plus **tissue culture (bacteria, mycobacteria, fungi)** and special stains. Histology shows a **sterile dermal neutrophilic infiltrate** — supportive but non-specific. Its main job is to **exclude the mimics**. Pathergy makes biopsy a small risk; dermatology usually does it with steroid cover in mind.",
+     "**Primary-care work-up while referring:** **Swab** the ulcer (bacterial culture) — a positive swab often reflects colonisation, not the cause; **FBC and blood film** (myeloid disorders; **azathioprine-induced cytopenias**), **U&E, LFT, CRP/ESR**; **serum protein electrophoresis and serum free light chains** (paraprotein); **ANCA, ANA, rheumatoid factor/anti-CCP, antiphospholipid antibodies, cryoglobulins** (vasculitis and vasculopathy mimics), hepatitis B/C and HIV serology as indicated; **coagulation screen**; HbA1c; **ABPI** (vascular contribution and before any compression); **faecal calprotectin** and bowel history if IBD is not yet known; photograph and **measure the ulcer** (length × width, edge marked) to document speed of spread"
+    ]
    }
   ],
   "differentials": [
-   "Misdiagnosis is common. Consider venous or arterial ulcers, vasculitis, antiphospholipid syndrome ulcers, infection (ecthyma, atypical mycobacteria, deep fungal), factitious ulcers and ulcerated tumours."
+   "Misdiagnosis is common. Consider venous or arterial ulcers, vasculitis, antiphospholipid syndrome ulcers, infection (ecthyma, atypical mycobacteria, deep fungal), factitious ulcers and ulcerated tumours.",
+   {
+    "h": "Ulcer mimics in more depth"
+   },
+   {
+    "table": {
+     "head": [
+      "Mimic",
+      "Pointers"
+     ],
+     "rows": [
+      [
+       "**Infection** — *S. aureus*/streptococcal ecthyma, necrotising soft-tissue infection, **atypical mycobacteria** (*M. marinum*, *M. chelonae*, *M. ulcerans*), deep fungal infection, herpes simplex (immunosuppressed), leishmaniasis, synergistic gangrene",
+       "Responds to the right antimicrobial; tissue culture/PCR positive; atypical mycobacterial ulcers usually evolve **over weeks to months**; on azathioprine, infection must be excluded first"
+      ],
+      [
+       "**Martorell (hypertensive ischaemic) ulcer**",
+       "Older patient with **long-standing hypertension ± diabetes**; very painful necrotic ulcer on the **lateral or posterior lower leg / Achilles area**; subcutaneous arteriolosclerosis on deep biopsy. **Debridement and skin grafting help Martorell but worsen PG** — so the distinction matters"
+      ],
+      [
+       "**Vasculitis and vasculopathy** — GPA, PAN, cryoglobulinaemia, rheumatoid vasculitis, antiphospholipid syndrome, livedoid vasculopathy, calciphylaxis",
+       "Palpable purpura, livedo racemosa, nodules, renal involvement; ANCA, cryoglobulins, APL antibodies; calciphylaxis in renal failure"
+      ],
+      [
+       "**Venous, arterial and neuropathic ulcers**",
+       "Site, ABPI, varicose veins and haemosiderin, neuropathy; less painful and slower (venous/neuropathic)"
+      ],
+      [
+       "**Malignancy** — **SCC** (including Marjolin ulcer in a chronic wound), BCC, lymphoma",
+       "Rolled or heaped edge, slower growth, no inflammatory violaceous border; biopsy"
+      ],
+      [
+       "**Other**",
+       "Factitious ulcers (bizarre shapes, inaccessible sites spared), spider bite (loxoscelism — not UK), drug-induced (hydroxycarbamide leg ulcers, levamisole-cocaine vasculopathy), Sweet syndrome (plaques, not ulcers), Behçet's"
+      ]
+     ]
+    }
+   }
   ],
   "management": [
    {
@@ -84,6 +191,39 @@
      "**Bone health:** the Module 5 notes flag prednisolone **above 7.5 mg daily for 6 months or more** as an osteoporosis risk needing bone assessment (DEXA). UK guidance (NOGG) advises assessing bone health in **anyone expected to take oral steroids for 3 months or more**, so follow local policy and consider bone protection early.",
      "Counsel on steroid cards, infection risk and not stopping abruptly."
     ]
+   },
+   {
+    "h": "UK management in more depth: STOP GAP, IBD and medicines safety"
+   },
+   "There is no NICE guideline or BAD guideline specific to PG; UK practice follows the **UK STOP GAP trials**, BAD and PCDS clinical guidance, the BSG IBD guideline (2019) and specialist expert consensus. **PG is specialist-managed; the IP role is recognition, avoiding harm, symptom control and medicines safety.**",
+   {
+    "ol": [
+     "**Recognise and refer.**: **Urgent dermatology referral** (same week; **same day** if rapidly spreading, very painful, multiple ulcers, peristomal, or systemically unwell). **Tell the IBD/rheumatology team** already looking after the patient; **Admit / same-day medical review** if signs of sepsis (NEWS2), necrotising infection cannot be excluded, or there is severe pain or rapid spread",
+     "**Do no harm.**: **Do not debride, incise or excise** active PG, and avoid sharp debridement by wound clinics — **pathergy enlarges the ulcer**; Avoid repeated courses of antibiotics for a \"non-healing infection\" without a diagnosis — escalate instead. Antibiotics are appropriate only for **proven secondary infection** (e.g. cellulitis spreading from the ulcer); Compression only after an ABPI and specialist advice (painful, and trauma can provoke pathergy)",
+     "**Wound care and pain.**: Moist, **non-adherent** dressings (e.g. silicone or paraffin gauze, hydrogel or foam); antimicrobial dressings (silver, iodine) if heavily colonised; protect the surrounding skin. Involve the **tissue viability / district nursing** team; **Analgesia is a priority:** paracetamol ± weak or strong opioids (PG pain is often severe); **avoid NSAIDs in IBD** where possible (flare risk); review at dressing changes. Peristomal PG: **stoma nurse** for appliance fit",
+     "**Topical and local treatment** (small or early lesions; specialist advice) — **UK STOP GAP topical cohort (Thomas et al., *J Am Acad Dermatol* 2016; a prospective cohort, not an RCT)**: **very potent topical corticosteroid** (clobetasol propionate 0.05% ointment) to the ulcer edge/base, or; **topical tacrolimus** (0.03% or 0.1% ointment — off-label); overall **about 44% healed on topical treatment alone by 6 months** (median 145 days); **smaller ulcers healed faster**; **intralesional triamcinolone** into the active edge (specialist)",
+     "**Systemic treatment (specialist-initiated)** — **UK STOP GAP RCT (Ormerod et al., *BMJ* 2015)**: **Prednisolone 0.75 mg/kg/day** (maximum 75 mg) **or ciclosporin 4 mg/kg/day** (maximum 400 mg) gave **similar healing (about half healed by 6 months)**; serious adverse effects (especially infections) were somewhat commoner with prednisolone. Choice depends on comorbidity (diabetes, osteoporosis, hypertension, renal function, infection risk); **With IBD:** **anti-TNF therapy — infliximab** (the only biologic with RCT evidence in PG; BSG 2019 and ECCO) **or adalimumab** — is often preferred, treating gut and skin together. Ustekinumab, JAK inhibitors and IL-1/IL-23 blockers are emerging options (off-label); Others/steroid-sparing: **dapsone** (G6PD first), **doxycycline or minocycline** (mild disease, anti-neutrophil effect), mycophenolate, methotrexate, IVIG, tacrolimus (oral); **Treat the underlying disease** (IBD, arthritis, haematological disorder) and **stop a culprit drug** (e.g. cocaine; review isotretinoin)",
+     "**Pharmacist medicines-safety checklist:** **Steroids:** blood glucose and BP, mood/sleep; **bone protection** (FRAX; calcium/vitamin D ± bisphosphonate for those on ≥ 3 months of prednisolone at higher risk — NICE CKS *Corticosteroids – oral*; Royal Osteoporosis Society 2022); consider gastroprotection; **Steroid Emergency Card** and sick-day rules when on prednisolone **≥ 5 mg/day for ≥ 4 weeks** (NatPSA 2020); never stop abruptly; **Ciclosporin:** baseline and regular **BP, creatinine/eGFR (stop or reduce if creatinine rises > 25–30% above baseline), potassium, magnesium, LFT, lipids**; **major CYP3A4/P-gp interactions** (clarithromycin, azole antifungals, diltiazem, grapefruit, St John's wort, rifampicin, carbamazepine); avoid NSAIDs/nephrotoxins; sun protection; **Azathioprine** (already prescribed): TPMT checked at baseline; shared-care FBC/LFT monitoring; **allopurinol/febuxostat interaction** (dangerous myelosuppression); any new infection or cytopenia changes the picture; **Before biologics:** TB screen (IGRA ± CXR), hepatitis B/C, HIV, VZV status; inactivated vaccines (influenza, pneumococcal, COVID-19, Shingrix where eligible); **avoid live vaccines**; Counsel about **pathergy**: protect the legs, avoid injections into affected areas, and plan elective surgery (including stoma surgery) with dermatology input and the disease quiet"
+    ]
+   },
+   {
+    "h": "Red flags / refer"
+   },
+   "Rapidly enlarging, extremely painful ulcer with a violaceous undermined edge (urgent dermatology); fever with spreading cellulitis, crepitus, pain out of proportion or systemic toxicity (exclude **necrotising fasciitis** — same-day/999); an ulcer worsening after debridement or surgery (pathergy); bullous or haemorrhagic PG or abnormal blood film (**urgent haematology** — myeloid malignancy); peristomal ulcer in IBD; new PG with bowel symptoms (undiagnosed IBD — urgent GI referral); a patient on immunosuppressants with a new ulcer (infection first).",
+   {
+    "h": "IP scope"
+   },
+   "Recognition and urgent referral; ulcer measurement and photography; swabs and the baseline bloods above; wound-care and dressing advice with the nursing team; analgesia; stopping or questioning antibiotic cycling; medicines reconciliation, interaction checks and shared-care monitoring of steroids, ciclosporin, azathioprine and biologics; steroid card and bone protection; vaccination advice. Diagnosis (biopsy) and systemic or biologic treatment are specialist.",
+   {
+    "h": "Worked case: 38-year-old woman with Crohn's on azathioprine"
+   },
+   {
+    "list": [
+     "**QA = 4, pyoderma gangrenosum.** A minor graze (pathergy) → pustule within days → **rapidly enlarging, very painful ulcer** in a woman with **Crohn's disease**, low-grade fever and raised CRP/ESR: *1. Atypical mycobacterial infection:* evolves over weeks to months; it should still be excluded (tissue culture) because she is on azathioprine; *2. S. aureus infection:* would not usually produce a violaceous undermined ulcer this painful and fast, and would respond to antibiotics; swab anyway; *3. Martorell ulcer:* an ischaemic ulcer of long-standing **hypertension ± diabetes**, usually older patients, lateral/posterior leg; her BP is 125/80; *5. SCC:* would not reach this size in 4 weeks, is rarely this painful and lacks an inflammatory violaceous border",
+     "**QB = 2, diagnosis based on clinical and laboratory criteria.** There is no confirmatory test; PG is a diagnosis of exclusion using the **Su criteria** (the course answer); current UK specialist practice uses the **Delphi consensus criteria**: *4/5. Skin biopsy for histology (and tissue culture):* an essential part of the work-up — mainly to **exclude infection, vasculitis and malignancy** — but histology is non-specific, so biopsy alone does not confirm PG (and a biopsy of the edge is the major Delphi criterion; see the [course-vs-UK table](condition:dermatomyositis)); *1. ABPI:* assesses arterial disease and safety of compression; no diagnostic role in PG; *3. Nerve conduction studies/EMG:* for neuropathic ulcers",
+     "**QC = 1, myeloid blood dyscrasias** (AML, myelodysplasia, myeloproliferative disorders; also IgA monoclonal gammopathy/myeloma). Other well-described associations are **rheumatoid and other inflammatory arthritis** and **IBD**. Eosinophilic asthma, penicillin antibiotics, pregnancy and ischaemic heart disease are not recognised associations.",
+     "**UK additions for this patient:** exclude infection first (swab, FBC — azathioprine can cause neutropenia — CRP, tissue culture via biopsy); **urgent dermatology referral and tell her IBD team**; no debridement; analgesia (avoid NSAIDs in Crohn's); non-adherent dressings; check her Crohn's activity. Expect **prednisolone or ciclosporin** (STOP GAP), given active IBD, an **anti-TNF (infliximab/adalimumab)**; steroid safety, interaction and vaccination checks."
+    ]
    }
   ],
   "red_flags": [
@@ -96,6 +236,11 @@
    "**Pathergy counselling:** protect the skin, and plan procedures only when the disease is quiet, with specialist input.",
    "In the community, escalate early. Do not trial antibiotic after antibiotic.",
    "Ask about bowel symptoms and joint pain. PG can be the first sign of IBD.",
+   "\"**Graze → pustule → fast, agonising, purple-edged ulcer in someone with IBD = PG until proved otherwise — and never debride it.**\"",
+   "PG is a diagnosis of exclusion: **infection first** (especially on azathioprine or a biologic), then vasculitis, vascular disease and cancer.",
+   "**Pain out of proportion** and an ulcer that **gets bigger after debridement** are the two most useful bedside clues.",
+   "Cribriform scars on the legs at a later consultation = past PG: ask about the bowel, joints and blood disorders.",
+   "Steroids and ciclosporin heal PG equally (STOP GAP): the choice is a **medicines-safety decision** — a natural place for pharmacist input.",
    "Pyoderma gangrenosum is one of the skin signs of systemic disease (IBD, arthritis, blood disorders): see also [skin signs of systemic disease](condition:dermatomyositis)."
   ]
  },
@@ -128,6 +273,22 @@
   {
    "label": "PCDS: Pyoderma gangrenosum",
    "url": "https://www.pcds.org.uk/clinical-guidance/pyoderma-gangrenosum"
+  },
+  {
+   "label": "BAD patient information: Pyoderma gangrenosum",
+   "url": "https://www.bad.org.uk/pils/pyoderma-gangrenosum/"
+  },
+  {
+   "label": "Ormerod AD et al. STOP GAP trial (BMJ 2015)",
+   "url": "https://www.bmj.com/content/350/bmj.h2958"
+  },
+  {
+   "label": "Thomas KS et al. Topical therapy for PG, STOP GAP cohort (JAAD 2016)",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/27502313/"
+  },
+  {
+   "label": "DermNet: Martorell ulcer",
+   "url": "https://dermnetnz.org/topics/martorell-ulcer"
   }
  ],
  "status": "published"

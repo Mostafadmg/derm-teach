@@ -104,7 +104,7 @@
    },
    {
     "list": [
-     "**Two biopsies** (this is the tutor's summary point): **Lesional**, from the edge of a **fresh** (<48 h) blister, for H&E (split level, acantholysis, eosinophils/neutrophils), sent in formalin; **Perilesional**, from normal-looking skin about 1 cm from a blister (or uninvolved skin for DH), for **direct immunofluorescence (DIF)**. Send it in **Michel's medium** or fresh on saline gauze, **never formalin**. Biopsy of an eroded or ulcerated site gives a false negative",
+     "**Two biopsies:** **Lesional**, from the edge of a **fresh** (<48 h) blister, for H&E (split level, acantholysis, eosinophils/neutrophils), sent in formalin; **Perilesional**, from normal-looking skin about 1 cm from a blister (or uninvolved skin for DH), for **direct immunofluorescence (DIF)**. Send it in **Michel's medium** or fresh on saline gauze, **never formalin**. Biopsy of an eroded or ulcerated site gives a false negative",
      "**DIF patterns** (use photos A06 and C05): intercellular **\"chicken-wire/fishnet\" IgG ± C3** = pemphigus; **linear IgG/C3 at the BMZ** = BP/MMP/PG; linear **IgA** = LAD; **granular IgA** in the dermal papillae = DH; perivascular IgG/C3 and \"doughnut\" deposits = PCT",
      "**Salt-split skin** separates BP (epidermal roof) from EBA (dermal floor).",
      "**Serology:** ELISA for anti-Dsg1/Dsg3 (titres roughly follow activity) and anti-BP180/BP230; indirect IMF; for DH, **tTG-IgA + total IgA** (± EMA); for paraneoplastic pemphigus, anti-envoplakin/periplakin",
@@ -243,37 +243,37 @@
      ],
      "rows": [
       [
-       "Day 1 (yours)",
+       "Worked case",
        "Split levels: \"dermolytic: EB\"",
        "EB occurs at **three** levels. **EB simplex** is intraepidermal (basal keratinocyte, keratin 5/14). **Junctional EB** is in the lamina lucida (laminin-332, collagen XVII). Only **dystrophic EB** (collagen VII) is dermolytic, below the lamina densa. EBA (acquired, collagen VII) is also dermolytic. See the [infant skin pages](condition:neonatal-rashes) notes"
       ],
       [
-       "Day 1 (yours)",
+       "Worked case",
        "Pemphigoid drug triggers: etanercept, furosemide",
        "Furosemide is a fair example, and etanercept is a case-report association. **Add DPP-4 inhibitors (gliptins), the best-established and most relevant to primary care**, plus spironolactone and PD-1 inhibitors"
       ],
       [
-       "Day 1 (yours)",
+       "Worked case",
        "Subcorneal: impetigo, PF",
        "Correct. SSSS also belongs here (exfoliative toxin cleaving Dsg1, the same target as PF)."
       ],
       [
-       "Short notes (yours)",
+       "Short notes",
        "Pemphigus = vulgaris, foliaceus, erythematosus, vegetans, paraneoplastic",
        "Good. Add **IgA pemphigus** and **drug-induced** pemphigus. Erythematosus is a localised form of PF, and vegetans is a variant of PV"
       ],
       [
-       "Formative quiz (peers)",
+       "Formative quiz",
        "QA answered \"intraepidermal acantholysis\" or \"granular IgA\"",
        "That is PV or DH. BP is **subepidermal with linear BMZ IgG/C3**"
       ],
       [
-       "Overview (tutor)",
+       "Overview",
        "\"DPP-4 inhibitors are a common cause of drug-induced bullous **pemphigus**; lisinopril can prevent it\"",
        "Gliptins cause **pemphigoid**. ACE inhibitors (including lisinopril) are a *weak cause* of pemphigus, not prevention. There is no evidence that lisinopril prevents gliptin-associated BP"
       ],
       [
-       "Overview (tutor)",
+       "Overview",
        "IVIG works by blocking CD95 (Fas) in TEN",
        "That was the in-vitro rationale. Clinical evidence is mixed, and the UK 2016 guideline does not routinely recommend IVIG. Ciclosporin is often preferred"
       ]
@@ -317,7 +317,7 @@
        "Gliptin review in every elderly patient with BP"
       ],
       [
-       "**BP treatment (quiz QC)**",
+       "**BP treatment**",
        "(Quiz: doxycycline)",
        "Matches BAD/BLISTER. **Whole-body clobetasol** is also first-line for extensive disease. High-dose prednisolone (1 mg/kg) is **not** recommended",
        "Quantify the clobetasol supply; doxycycline counselling"
@@ -330,7 +330,7 @@
       ],
       [
        "**DH diagnosis**",
-       "(No tutor key)",
+       "(No model answer given)",
        "NICE NG20: serology **on gluten**; DIF on **perilesional** skin; refer to gastroenterology",
        "Don't let the \"IBS dietitian\" start a GFD first"
       ],

@@ -42,7 +42,7 @@
      "**Transmission:** mainly **respiratory droplets from the nasal secretions of untreated MB patients**, after **prolonged close (household) contact**. Most exposed people (around 95%) are naturally resistant. **Armadillos** are a zoonotic source in the southern USA and Brazil. Patients become **non-infectious within days of starting rifampicin-containing MDT**.",
      "**Immune spectrum:** **Tuberculoid pole (TT/BT):** strong Th1 cell-mediated immunity, few bacilli, few well-defined lesions, early and severe nerve damage near the lesions; **Lepromatous pole (LL/BL):** weak cell-mediated immunity, a Th2/antibody response, huge numbers of bacilli, widespread symmetrical infiltration, and slower but extensive nerve involvement (glove and stocking)",
      "**Nerve damage:** bacilli invade **Schwann cells**. This leads to sensory loss (temperature first, then light touch, pain, pressure), then autonomic loss (dry skin, anhidrosis), then motor loss (claw hand, foot drop, lagophthalmos).",
-     "**Lepra reactions** are immune flare-ups and cause most of the disability. They occur in **30–50%** of patients, before, **during** or after MDT: **Type 1 (reversal) reaction:** delayed-type hypersensitivity in **borderline** disease (BT/BB/BL). Existing lesions become red, swollen and tender, with **acute neuritis**; **Type 2 reaction = erythema nodosum leprosum (ENL):** an **immune-complex** (type III) systemic vasculitis/panniculitis in **LL/BL** (high bacillary load). Antigens from dying bacilli form antibody complexes that deposit in vessels and tissues, with high TNF-α. This is why Case 4 has **recurrent bouts of fever, joint pain and painful red nodules** on the legs and abdomen (Case 4 Q4)"
+     "**Lepra reactions** are immune flare-ups and cause most of the disability. They occur in **30–50%** of patients, before, **during** or after MDT: **Type 1 (reversal) reaction:** delayed-type hypersensitivity in **borderline** disease (BT/BB/BL). Existing lesions become red, swollen and tender, with **acute neuritis**; **Type 2 reaction = erythema nodosum leprosum (ENL):** an **immune-complex** (type III) systemic vasculitis/panniculitis in **LL/BL** (high bacillary load). Antigens from dying bacilli form antibody complexes that deposit in vessels and tissues, with high TNF-α. This is why Case 4 has **recurrent bouts of fever, joint pain and painful red nodules** on the legs and abdomen"
     ]
    }
   ],
@@ -117,7 +117,7 @@
     }
    },
    "**Nerves to palpate:** ulnar (elbow), median (wrist), radial cutaneous (wrist), **common peroneal / lateral popliteal** (fibular neck), posterior tibial (medial malleolus), great auricular (neck) and supra-orbital.",
-   "**Case 4: findings in favour of leprosy (Q1):**",
+   "**Case 4: findings in favour of leprosy:**",
    {
     "list": [
      "**Infiltrated facial lesions** for 2 years (LL infiltration, early leonine facies)",
@@ -157,7 +157,7 @@
   ],
   "diagnosis": [
    {
-    "h": "(Case 4 Q2)"
+    "h": ""
    },
    "UKHSA advice: **discuss every suspected case with a Consultant Advisor in Leprosy *before* smears or biopsies are taken**, and refer to a national leprosy centre.",
    "**Investigations:**",
@@ -173,7 +173,7 @@
      "**Before MDT:** FBC, LFTs, U&E, **G6PD** (dapsone), and screening for HIV, TB (before steroids and rifampicin), hepatitis B/C, *Strongyloides* (before prolonged steroids) and pregnancy."
     ]
    },
-   "**\"Leonine facies\" (Case 4 Q3):**",
+   "**\"Leonine facies\":**",
    {
     "list": [
      "**Meaning:** a lion-like face from diffuse infiltration and thickening of the facial skin, with deepened furrows on the forehead and cheeks, thickened earlobes and nose, and often loss of eyebrows.",
@@ -225,8 +225,8 @@
     "list": [
      "**Refer every suspected case** to a **national leprosy centre** via a Consultant Advisor in Leprosy (e.g. **HTD, UCLH, London**; see the UKHSA *Memorandum on leprosy 2023*, Appendix 5). The diagnosing doctor **notifies the case to the local authority proper officer / UKHSA health protection team** (England), handled confidentially. Contact management goes through the CCDC and UKHSA TB Unit.",
      "**Urgent/same-day referral:** a **reaction** (type 1 with new nerve pain or weakness; ENL with fever), **acute eye symptoms** (red painful eye, reduced vision, cannot close the eye), or a **new foot drop or claw hand**.",
-     "**WHO MDT 2018 (Case 4 Q5). Three drugs for all patients (adult doses, specialist-supervised):** **Rifampicin 600 mg once a month** (supervised); **Clofazimine 300 mg once a month (supervised) + 50 mg daily**; **Dapsone 100 mg daily**; **Duration:** **PB 6 months; MB 12 months.** Case 4 = **MB, 12 months**; **Rifampicin-resistant leprosy:** clofazimine + at least two of clarithromycin, minocycline or a fluoroquinolone (e.g. ofloxacin/moxifloxacin) for 6 months, then clofazimine + one of these for 18 months; UK centres may use modified regimens (e.g. daily rifampicin, or longer courses for high bacterial index)",
-     "**Management of ENL (tutor follow-up):** **Continue MDT.** Reactions are **not** a reason to stop; **Mild ENL:** rest, **NSAIDs/aspirin** for fever and arthralgia (with GI protection); **Moderate–severe ENL (or neuritis, iritis, orchitis):** **oral prednisolone** (e.g. starting around 40–60 mg/day, then tapered over weeks–months by the specialist); **Clofazimine at higher anti-inflammatory doses** (e.g. up to 300 mg/day for limited periods): a steroid-sparing option for chronic or recurrent ENL. Its effect is slow (4–6 weeks); **Thalidomide** (100–400 mg/day, then tapered) is very effective for recurrent ENL. It is **highly teratogenic**: in the UK it is supplied under a **Pregnancy Prevention Programme**, with neuropathy and VTE risks. It is used when steroids fail or cause problems; **Refractory ENL:** methotrexate, ciclosporin, **TNF-α inhibitors** (specialist, case-based); Treat iritis urgently with ophthalmology (topical steroid + mydriatic)",
+     "**WHO MDT 2018. Three drugs for all patients (adult doses, specialist-supervised):** **Rifampicin 600 mg once a month** (supervised); **Clofazimine 300 mg once a month (supervised) + 50 mg daily**; **Dapsone 100 mg daily**; **Duration:** **PB 6 months; MB 12 months.** Case 4 = **MB, 12 months**; **Rifampicin-resistant leprosy:** clofazimine + at least two of clarithromycin, minocycline or a fluoroquinolone (e.g. ofloxacin/moxifloxacin) for 6 months, then clofazimine + one of these for 18 months; UK centres may use modified regimens (e.g. daily rifampicin, or longer courses for high bacterial index)",
+     "**Management of ENL:** **Continue MDT.** Reactions are **not** a reason to stop; **Mild ENL:** rest, **NSAIDs/aspirin** for fever and arthralgia (with GI protection); **Moderate–severe ENL (or neuritis, iritis, orchitis):** **oral prednisolone** (e.g. starting around 40–60 mg/day, then tapered over weeks–months by the specialist); **Clofazimine at higher anti-inflammatory doses** (e.g. up to 300 mg/day for limited periods): a steroid-sparing option for chronic or recurrent ENL. Its effect is slow (4–6 weeks); **Thalidomide** (100–400 mg/day, then tapered) is very effective for recurrent ENL. It is **highly teratogenic**: in the UK it is supplied under a **Pregnancy Prevention Programme**, with neuropathy and VTE risks. It is used when steroids fail or cause problems; **Refractory ENL:** methotrexate, ciclosporin, **TNF-α inhibitors** (specialist, case-based); Treat iritis urgently with ophthalmology (topical steroid + mydriatic)",
      "**Type 1 reaction:** **prednisolone** (typically starting around 40 mg/day and tapering slowly over about 3–6 months under specialist supervision) to prevent permanent nerve damage. Splint the affected limb at rest.",
      "**Prevention of disability (POD):** Daily **self-examination of hands, feet and eyes**; Soak and oil dry skin; Protective **footwear** (microcellular rubber, well-fitting) and gloves for cooking or hot objects; Prompt dressing and rest of any wound; never walk on an ulcer; Eye protection (glasses; blink exercises; lubricants for lagophthalmos); Physiotherapy, splints, and reconstructive surgery later",
      "**Contacts:** examine household contacts. WHO recommends **single-dose rifampicin post-exposure prophylaxis (SDR-PEP)** for eligible contacts (adults 600 mg once) **after excluding leprosy and TB**. This reduces risk by around 50–60%. UK use is per the UKHSA/Consultant Advisor. BCG gives partial protection."
@@ -247,7 +247,7 @@
    "**Clofazimine:** **Red-brown to grey-black skin pigmentation** (most marked in lesions and on dark skin), which fades **slowly over months to years after stopping**. Warn patients in advance, as it adds to stigma; Dry, ichthyotic skin (use emollients), red-coloured sweat, tears and urine; GI upset and, at high doses, enteropathy (crystal deposition), so take with food. QT prolongation",
    "**Steroid courses** for reactions are often long. Give bone protection, GI protection where indicated, glucose and BP checks, steroid card and sick-day rules. Screen for and treat *Strongyloides* and latent TB first.",
    "**Adherence:** the course is long (6–12 months) and skin lesions fade slowly. Explain that **reactions are not treatment failure**, and that **numbness may not recover** even when the infection is cured.",
-   "**Stigma (forum discussion):** Use person-first language (\"person affected by leprosy\", not \"leper\"); Emphasise that leprosy is **curable**, that people are **not infectious once on MDT**, and that casual contact (touch, sharing meals, sex) does not spread it; Maintain **strict confidentiality** (notification is handled in confidence); Signpost **LEPRA** and **The Leprosy Mission England & Wales** for patient support"
+   "**Stigma:** Use person-first language (\"person affected by leprosy\", not \"leper\"); Emphasise that leprosy is **curable**, that people are **not infectious once on MDT**, and that casual contact (touch, sharing meals, sex) does not spread it; Maintain **strict confidentiality** (notification is handled in confidence); Signpost **LEPRA** and **The Leprosy Mission England & Wales** for patient support"
   ]
  },
  "photos": [
