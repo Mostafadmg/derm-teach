@@ -1,0 +1,100 @@
+{
+ "_note": "Curated v3 overlay (batch 1), condensed from content/conditions/hand-eczema.json; full text kept under 'More detail'.",
+ "glance": {
+  "chips": ["Commonest occupational skin disease", "Chronic > 3 months", "Usually multifactorial", "Patch test if persistent"],
+  "points": [
+   {"icon": "eye", "k": "Spot it", "t": "Dry, cracked, scaly or blistering hands; worse with work, cold or frequent washing."},
+   {"icon": "layers", "k": "Why", "t": "**Irritant** barrier breakdown ± delayed **allergy**; atopy lowers the threshold."},
+   {"icon": "pill", "k": "Treat", "t": "Emollient after every wash, soap substitute, lined gloves, **potent steroid** in short bursts."},
+   {"icon": "alert", "k": "Never miss", "t": "Eczema herpeticum, infection, occupational disease, and tinea manuum treated as eczema.", "tone": "danger"}
+  ]
+ },
+ "cause": {
+  "lead": "Wet work strips the barrier; allergy may join in.",
+  "points": [
+   "**Irritant**: wet work, detergents, solvents, cement, friction, occlusive gloves → ↑ water loss, barrier failure.",
+   "Small repeated insults add up (**cumulative ICD**) → thickening and lichenification.",
+   "**Allergic** (type IV): chromate, rubber accelerators, preservatives, fragrance, acrylates, epoxy.",
+   "A damaged barrier makes sensitisation easier, so **ICD and ACD often coexist**.",
+   "Modifiers: atopy / filaggrin loss, winter, hot water, dominant-hand exposure."
+  ]
+ },
+ "features": {
+  "lead": "Acute = wet. Chronic = dry.",
+  "photo": "m3w6:B01",
+  "points": [
+   "**Acute**: redness, vesicles on finger sides and palms, oozing.",
+   "**Chronic**: scale, hyperkeratosis, lichenification, painful **fissures**, nail ridging.",
+   "**Irritant clues**: finger webs, ring site, dorsal hands, dominant hand worse.",
+   "**Allergic clues**: matches contact sites (glove cuff, fingertips with acrylates); better on holiday.",
+   "**Hyperkeratotic palmar**: thick fissured central palms, little itch; mimics psoriasis."
+  ],
+  "visuals": [
+   {"ai": "v3-hand-eczema-patterns.jpg", "caption": "Irritant wet-work pattern (left): dry, red, fissured skin over the finger webs, knuckles and under a ring. Pompholyx (right): deep ‘tapioca’ vesicles along the sides of the fingers and across the palm.", "alt": "Two hands showing irritant hand eczema and pompholyx"}
+  ],
+  "variants": {
+   "title": "Patterns to recognise",
+   "items": [
+    {"name": "Chronic irritant", "t": "Dry, fissured, glazed; webs and ring site.", "where": "Dorsal hands, webs", "photo": "m3w6:B02"},
+    {"name": "Pompholyx", "t": "Recurrent crops of deep, very itchy vesicles; peels in 2–3 weeks.", "where": "Finger sides, palms, soles", "photo": "m3w6:C01"},
+    {"name": "Infected", "t": "Crusting, weeping, pain: swab and treat.", "where": "Anywhere", "photo": "m3w6:B11"}
+   ]
+  }
+ },
+ "confirm": {
+  "cols": [
+   {"k": "History", "icon": "chat", "points": ["Job tasks, **wet work** (> 2 h/day or > 20 washes/day), gloves, products (safety data sheets).", "Better at weekends or on holiday?"]},
+   {"k": "Examine", "icon": "eye", "points": ["Both hands, nails, wrists.", "**Always the feet** (tinea, pompholyx, psoriasis), scalp and elbows."]},
+   {"k": "Scrapings", "icon": "flask", "points": ["Any **asymmetric** or treatment-resistant scale: mycology for tinea manuum."]},
+   {"k": "Patch test", "icon": "hand", "points": ["All chronic hand eczema (> 3 months) or suspected ACD.", "Read D2 and D4 (± D7); judge **relevance**."]}
+  ]
+ },
+ "differentials": {
+  "cards": [
+   {"name": "Palmoplantar psoriasis", "clue": "Sharp margins, thick silvery scale, nails.", "link": "psoriasis"},
+   {"name": "Tinea manuum", "clue": "‘Two feet, one hand’; white scale in creases.", "link": "tinea", "tone": "danger"},
+   {"name": "Keratolysis exfoliativa", "clue": "No itch, no redness; air-filled peeling collarettes.", "link": "keratolysis-exfoliativa"},
+   {"name": "Palmoplantar pustulosis", "clue": "Sterile pustules → brown dots; smokers.", "link": "palmoplantar-pustulosis"},
+   {"name": "Scabies", "clue": "Burrows in webs and wrists; night itch; contacts.", "link": "scabies"}
+  ]
+ },
+ "manage": {
+  "lead": "Protection + adequate steroid + maintenance. Steroid alone relapses.",
+  "rungs": [
+   {"k": "Protect · every patient", "tone": "base", "points": ["Reduce or replace irritants and allergens.", "Right gloves, **cotton liners**, short occlusion; remove rings for wet work.", "Lukewarm water, soap substitute, dry webs; emollient after every wash and overnight."]},
+   {"k": "Flare", "tone": "first", "rx": [
+     {"drug": "Potent TCS (mometasone 0.1% or betamethasone valerate 0.1% ointment)", "dose": "Once daily", "dur": "2–4 weeks", "note": "Then twice-weekly proactive maintenance on usual sites."},
+     {"drug": "Very potent TCS (clobetasol 0.05%)", "dose": "Short courses", "dur": "Thick palmar skin", "note": "Taper; review every 4 weeks; dorsal skin thins easily."}
+   ]},
+   {"k": "Add-ons", "tone": "second", "points": ["Tacrolimus 0.1% ointment (off-label) as steroid-sparing maintenance.", "Potassium permanganate 1:10,000 soaks for weeping or vesicular phases.", "Treat infection: swab; flucloxacillin or as local guidance."]},
+   {"k": "Refer · dermatology", "tone": "refer", "points": ["Not controlled after ~4–6 weeks optimised TCS, chronic > 3 months, or uncertain.", "Specialist: **delgocitinib 2% cream** (NICE TA1107), **alitretinoin** (NICE TA177; Pregnancy Prevention Programme), phototherapy, systemics."]}
+  ],
+  "limits": [
+   {"k": "Antihistamines", "t": "Do not treat eczema; sedating one at night only for sleep."},
+   {"k": "Barrier creams", "t": "No substitute for gloves and emollients."},
+   {"k": "Oral prednisolone", "t": "Severe acute flares only, under specialist advice.", "tone": "danger"}
+  ]
+ },
+ "refer": {
+  "items": [
+   {"when": "same-day", "t": "Painful punched-out erosions or sudden worsening: **eczema herpeticum**."},
+   {"when": "urgent", "t": "Spreading infection, fever or lymphangitis."},
+   {"when": "routine", "t": "**Work-related**: occupational health, document exposures, patch-test referral."},
+   {"when": "never", "t": "One-sided scaly hand + tinea pedis: **scrape before steroids**."}
+  ]
+ },
+ "pearls": [
+  {"icon": "hand", "t": "One fingertip unit covers both sides of one hand."},
+  {"icon": "eye", "t": "Always look at the **feet** in a hand rash."},
+  {"icon": "shield", "t": "Glove-cuff cut-off on dorsal hands and wrists: think glove allergy."},
+  {"icon": "drop", "t": "Healthcare: alcohol rub when not soiled, dry fully before gloving, emollient at breaks."},
+  {"icon": "chat", "t": "Don’t advise quitting the job early: modification often succeeds."}
+ ],
+ "quiz": [
+  {"q": "When is hand eczema ‘chronic’?", "a": "Lasting more than 3 months, or relapsing at least twice a year despite adequate treatment."},
+  {"q": "‘Two feet, one hand’ suggests?", "a": "Tinea manuum (with tinea pedis): take scrapings before steroids."},
+  {"q": "Typical first-line steroid for a hand eczema flare?", "a": "A potent TCS ointment (e.g. mometasone 0.1%) once daily for 2–4 weeks, then twice-weekly maintenance."},
+  {"q": "Who needs patch testing?", "a": "All chronic hand eczema (> 3 months) or suspected allergic contact dermatitis."},
+  {"q": "Painful punched-out erosions on eczematous hands?", "a": "Eczema herpeticum: same-day assessment."}
+ ]
+}

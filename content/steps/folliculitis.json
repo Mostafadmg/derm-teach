@@ -1,0 +1,91 @@
+{
+ "_note": "Curated v3 overlay (batch 1), condensed from content/conditions/folliculitis.json; full text kept under 'More detail'.",
+ "glance": {
+  "chips": ["Common", "Follicle-centred", "Usually S. aureus", "Often no antibiotic"],
+  "points": [
+   {"icon": "eye", "k": "Spot it", "t": "Small pustules, **each pierced by a hair**: beard, scalp, thighs, buttocks, axillae."},
+   {"icon": "layers", "k": "Why", "t": "Inflamed follicle opening: usually *S. aureus*; also Pseudomonas, Malassezia, irritant / occlusive."},
+   {"icon": "pill", "k": "Treat", "t": "Stop the trigger, **antiseptic wash**; flucloxacillin only if persistent or extensive."},
+   {"icon": "alert", "k": "Never miss", "t": "Progression to boils or cellulitis; recurrence (carriage, diabetes); immunosuppression.", "tone": "danger"}
+  ]
+ },
+ "cause": {
+  "lead": "A damaged or blocked follicle that bacteria colonise.",
+  "points": [
+   "**Shaving, waxing, tight clothing, oils**, sweat, friction.",
+   "*S. aureus* in the follicle opening; **nasal carriage** drives recurrence.",
+   "Topical steroids and immunosuppression raise risk.",
+   "Not all folliculitis is staph: **hot tub** (Pseudomonas), **Pityrosporum** (Malassezia), Gram-negative, eosinophilic, pseudofolliculitis barbae."
+  ],
+  "visuals": [
+   {"ai": "v3-follicle-depths.jpg", "caption": "Depth matters: folliculitis is a superficial pustule at the follicle opening (left); a boil is a deep abscess around one follicle (centre); a carbuncle joins several follicles with multiple heads (right).", "alt": "Three skin sections: folliculitis, furuncle and carbuncle"}
+  ]
+ },
+ "features": {
+  "lead": "Read the history and the distribution.",
+  "photo": "E10",
+  "points": [
+   "**Follicular pustules** on a red base, often with a central hair.",
+   "Scalp, beard (**sycosis barbae**), trunk, buttocks, thighs, axillae.",
+   "Itchy or tender; systemic upset unusual.",
+   "**Hot tub**: 1–2 days after a spa, under swimwear.",
+   "**Pityrosporum**: itchy uniform papules, upper back and chest, after antibiotics."
+  ],
+  "variants": {
+   "title": "Look for",
+   "items": [
+    {"name": "Superficial bacterial", "t": "Small pustules centred on follicles.", "where": "Any hair-bearing skin", "photo": "E10"},
+    {"name": "Hair-bearing skin", "t": "Scattered inflamed follicular papules.", "where": "Thighs, buttocks", "photo": "E11"},
+    {"name": "Axillary", "t": "After shaving.", "where": "Axillae", "photo": "E12"}
+   ]
+  }
+ },
+ "confirm": {
+  "cols": [
+   {"k": "Clinical", "icon": "eye", "points": ["Distribution + history point to the type."]},
+   {"k": "Ask", "icon": "chat", "points": ["Shaving, waxing, hot tub, recent antibiotics, steroid creams?"]},
+   {"k": "Swab", "icon": "flask", "points": ["A pustule if persistent, recurrent, extensive or atypical."]},
+   {"k": "Recurrent", "icon": "drop", "points": ["**Nasal swab** for carriage; screen for **diabetes**."]}
+  ]
+ },
+ "differentials": {
+  "cards": [
+   {"name": "Acne vulgaris", "clue": "Comedones; face, chest, back; mixed lesions.", "link": "acne-vulgaris"},
+   {"name": "Pustular miliaria", "clue": "Heat and occlusion; pustules not follicle-centred."},
+   {"name": "Candida", "clue": "Satellite pustules around a red moist fold.", "link": "candida-intertrigo"},
+   {"name": "Keratosis pilaris", "clue": "Rough follicular papules, upper arms, thighs; not pustular."},
+   {"name": "Malassezia / Gram-negative", "clue": "After antibiotics; needs a different treatment.", "link": "acne-mimics"}
+  ]
+ },
+ "manage": {
+  "lead": "Most mild cases settle without antibiotics.",
+  "rungs": [
+   {"k": "Mild", "tone": "base", "points": ["Change shaving technique (clean sharp blade, with the grain, or pause).", "Loose clothing; avoid oils and occlusion.", "**Antiseptic wash** (chlorhexidine or benzoyl peroxide wash)."]},
+   {"k": "Persistent bacterial", "tone": "first", "points": ["Topical antiseptic or antibiotic, short course, per local guidance."]},
+   {"k": "Extensive", "tone": "second", "rx": [
+     {"drug": "Flucloxacillin (oral)", "dose": "As BNF", "dur": "Short course", "note": "Penicillin allergy: clarithromycin."}
+   ]},
+   {"k": "Recurrent", "tone": "refer", "points": ["Swab; decolonisation via local pathway; screen for diabetes.", "Rethink: Pityrosporum (antifungal) or Gram-negative (specialist)."]}
+  ]
+ },
+ "refer": {
+  "items": [
+   {"when": "urgent", "t": "Progression to **boils, carbuncles or cellulitis**, or fever."},
+   {"when": "routine", "t": "Recurrent despite measures: carriage, **PVL** or MRSA, diabetes, immunosuppression."},
+   {"when": "routine", "t": "Widespread itchy folliculitis in immunosuppression (eosinophilic): refer."}
+  ]
+ },
+ "pearls": [
+  {"icon": "help", "t": "Upper back and chest pustules after antibiotics? **Pityrosporum**: needs an antifungal."},
+  {"icon": "drop", "t": "Hot-tub history explains a sudden swimsuit-distribution rash."},
+  {"icon": "shield", "t": "Mild bacterial folliculitis: a stewardship opportunity."},
+  {"icon": "chat", "t": "Pseudofolliculitis barbae in curly hair: discuss shaving and beard growth sensitively."}
+ ],
+ "quiz": [
+  {"q": "What is the usual organism in superficial bacterial folliculitis?", "a": "Staphylococcus aureus."},
+  {"q": "Swimsuit-distribution pustules 1–2 days after a spa?", "a": "Hot-tub (Pseudomonas) folliculitis: usually self-limiting."},
+  {"q": "Itchy uniform papules on the upper back after antibiotics?", "a": "Pityrosporum (Malassezia) folliculitis: treat with an antifungal."},
+  {"q": "First step for mild folliculitis?", "a": "Stop or modify the trigger and use an antiseptic wash; often no antibiotic needed."},
+  {"q": "What to check in recurrent folliculitis?", "a": "Swab, nasal carriage, diabetes; consider PVL/MRSA and other types."}
+ ]
+}

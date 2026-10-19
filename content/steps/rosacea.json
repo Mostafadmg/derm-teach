@@ -1,0 +1,111 @@
+{
+ "_note": "Curated v3 overlay (batch 1), condensed from content/conditions/rosacea.json; full text kept under 'More detail'.",
+ "glance": {
+  "chips": ["Adults 30–60", "No comedones", "Treat by phenotype", "Never a potent steroid"],
+  "points": [
+   {"icon": "eye", "k": "Spot it", "t": "Central facial redness, flushing, papules or pustules, **no comedones**; triggered by heat, alcohol, spice."},
+   {"icon": "layers", "k": "Why", "t": "Neurovascular hyper-reactivity + innate immunity (cathelicidin, TLR2); *Demodex* amplifies."},
+   {"icon": "pill", "k": "Treat", "t": "Triggers, daily SPF, gentle skincare; ivermectin for papules, brimonidine for redness, doxycycline 40 mg MR if moderate–severe."},
+   {"icon": "alert", "k": "Never miss", "t": "**Eye pain, photophobia, reduced vision** (same-day). Flushing with diarrhoea or wheeze.", "tone": "danger"}
+  ]
+ },
+ "cause": {
+  "lead": "Reactive vessels, reactive immunity, too many mites.",
+  "points": [
+   "**Heat, spicy food, hot drinks** activate TRPV1 → neuropeptides → vasodilation.",
+   "**Alcohol** (red wine), **UV** (cathelicidin via kallikrein-5), cold, wind, exercise, stress, menopause.",
+   "**Demodex**: 6–15× more mites; they activate TLR2. Teach “contributor and amplifier”.",
+   "**Topical steroids / TCIs**: vasodilation, mite overgrowth, rebound on stopping.",
+   "Flushing drugs: nicotinic acid, CCBs, nitrates, sildenafil, opioids, tamoxifen."
+  ],
+  "visuals": [
+   {"ai": "v3-rosacea-skin-section.jpg", "caption": "Rosacea skin: widened vessels just under the surface (telangiectasia), inflamed papules and a pustule, and Demodex mites crowding a follicle. Note: no comedone plug.", "alt": "Skin cross-section of rosacea with dilated vessels and Demodex mites"}
+  ]
+ },
+ "features": {
+  "lead": "Name each phenotype; treat each one.",
+  "photo": "m3w1:R05",
+  "points": [
+   "**Diagnostic** (one is enough): persistent centrofacial erythema, or **phyma**.",
+   "**Major**: flushing, papules / pustules, telangiectasia, **ocular** signs.",
+   "**Minor**: burning, stinging, oedema, dryness.",
+   "**Skin of colour**: redness subtle or brownish; look for papules, warmth, stinging history.",
+   "Record **phenotype + severity + QoL** at every review."
+  ],
+  "visuals": [
+   {"ai": "v3-rosacea-face-map.jpg", "caption": "Where rosacea sits: the convex central face (cheeks, nose, chin, central forehead), with the skin around the eyes spared and no comedones.", "alt": "Face showing central facial distribution of rosacea"}
+  ],
+  "variants": {
+   "title": "Phenotypes to recognise",
+   "items": [
+    {"name": "Erythema & telangiectasia", "t": "Persistent central redness, visible vessels.", "where": "Cheeks, nose", "photo": "m3w1:R02"},
+    {"name": "Papulopustular", "t": "Dome-shaped papules and pustules, no comedones.", "where": "Cheeks, chin", "photo": "m3w1:R04"},
+    {"name": "Phymatous", "t": "Thickened skin, contour change; mostly men.", "where": "Nose", "photo": "m3w1:R07"},
+    {"name": "Ocular", "t": "Gritty eyes, lid-margin vessels, blepharitis.", "where": "Eyelids", "photo": "m3w1:R09"},
+    {"name": "Demodicosis", "t": "Fine ‘frosted’ follicular scale, itch, asymmetric.", "where": "Cheeks", "photo": "m3w1:R11"},
+    {"name": "Steroid rosacea", "t": "Fiery red, burning; flares within days of stopping.", "where": "Face", "photo": "m3w1:R14"}
+   ]
+  }
+ },
+ "confirm": {
+  "cols": [
+   {"k": "Clinical", "icon": "eye", "points": ["Diagnosis is clinical.", "Comedones dominate? **Rethink acne**."]},
+   {"k": "Atypical flushing", "icon": "flask", "points": ["Diarrhoea, wheeze, palpitations: **5-HIAA**, tryptase.", "Headache, sweats, hypertension: metanephrines."]},
+   {"k": "Ask about creams", "icon": "chat", "points": ["Every cream, strength and duration, incl. OTC, online, **skin-lightening**."]},
+   {"k": "Demodex", "icon": "help", "points": ["Dermoscopy: ‘Demodex tails’.", "Scaly and asymmetric? Scrape for **tinea incognito**."]}
+  ]
+ },
+ "differentials": {
+  "cards": [
+   {"name": "Acne vulgaris", "clue": "Comedones; younger; trunk too.", "link": "acne-vulgaris"},
+   {"name": "Perioral dermatitis", "clue": "Perioral papules, vermilion border spared; after steroids.", "photo": "m3w1:R16"},
+   {"name": "Seborrhoeic dermatitis", "clue": "Greasy scale in nasolabial folds, brows; often coexists.", "link": "eczema-dermatitis"},
+   {"name": "Lupus", "clue": "Photosensitive malar rash, systemic symptoms.", "link": "discoid-lupus", "tone": "danger"},
+   {"name": "Acne mimics", "clue": "Steroid acne, Gram-negative, Malassezia folliculitis.", "link": "acne-mimics"}
+  ]
+ },
+ "manage": {
+  "lead": "Phenotype-based (NICE CKS). Confirm doses in the BNF.",
+  "rungs": [
+   {"k": "Everyone", "tone": "base", "points": ["Trigger diary; gentle, fragrance-free skincare.", "**Daily SPF** (mineral if sensitive).", "**Stop facial steroids / TCIs.**"]},
+   {"k": "Papules & pustules", "tone": "first", "rx": [
+     {"drug": "Ivermectin 1% cream", "dose": "Once daily", "dur": "Up to 4 months; repeat courses allowed", "note": "CKS first line; anti-Demodex. Transient burning."},
+     {"drug": "Metronidazole 0.75% gel/cream", "dose": "Twice daily", "dur": "Usually 6–8 weeks, then review", "note": "Pregnancy-compatible topical choice."},
+     {"drug": "Azelaic acid 15% gel", "dose": "Twice daily (once if irritated)", "dur": "Review response", "note": "Stings at first; helps pigmentation."}
+   ]},
+   {"k": "Persistent redness", "tone": "second", "rx": [
+     {"drug": "Brimonidine 3 mg/g gel", "dose": "Once daily, pea-size over 5 areas", "dur": "Effect ~12 h", "note": "Rebound / paradoxical erythema in ~10–20%: test a small area. Not for flushing."}
+   ]},
+   {"k": "Moderate–severe", "tone": "third", "rx": [
+     {"drug": "Doxycycline 40 mg MR", "dose": "Once daily", "dur": "16 weeks, then review", "note": "Licensed. Not in pregnancy or under 12. Erythromycin if tetracyclines unsuitable."}
+   ]},
+   {"k": "Specialist", "tone": "refer", "points": ["Low-dose isotretinoin (PPP applies) for refractory disease or phyma.", "Laser / IPL for telangiectasia (usually private).", "Steroid rosacea: taper, warn of a 1–3-week rebound, cover with an oral tetracycline."]}
+  ],
+  "limits": [
+   {"k": "Potent facial steroid", "t": "Never without a specialist plan. OTC hydrocortisone licence excludes the face.", "tone": "danger"},
+   {"k": "Clonidine for flushing", "t": "50 **micrograms** twice daily (off-label), not 50 mg."},
+   {"k": "Relapsing", "t": "Maintenance topical therapy is often needed."}
+  ]
+ },
+ "refer": {
+  "items": [
+   {"when": "same-day", "t": "**Eye pain, photophobia or reduced vision**: possible keratitis → ophthalmology."},
+   {"when": "urgent", "t": "Flushing with **diarrhoea, wheeze, palpitations or hypotension**: carcinoid or mastocytosis."},
+   {"when": "urgent", "t": "Photosensitive malar rash with systemic symptoms: exclude **lupus**."},
+   {"when": "routine", "t": "Rash after potent topical steroids: stop or taper with support; refer if severe."}
+  ]
+ },
+ "pearls": [
+  {"icon": "eye", "t": "**No comedones + flushing + central face = rosacea** until proven otherwise."},
+  {"icon": "help", "t": "Fails metronidazole or azelaic acid, scaly or itchy? Think **Demodex** → ivermectin."},
+  {"icon": "shield", "t": "Mites are on everyone: not a hygiene problem."},
+  {"icon": "chat", "t": "Ask about skin-lightening creams kindly: clobetasol and mercury products are illegal in the UK."}
+ ],
+ "quiz": [
+  {"q": "Which lesion is absent in rosacea but the hallmark of acne?", "a": "Comedones."},
+  {"q": "First-line topical for papulopustular rosacea (CKS)?", "a": "Ivermectin 1% cream once daily, up to 4 months."},
+  {"q": "What is the key warning with brimonidine gel?", "a": "Rebound or paradoxical erythema in about 10–20%: test a small area first. It is for persistent redness, not flushing."},
+  {"q": "Licensed oral option for moderate–severe rosacea?", "a": "Doxycycline 40 mg MR once daily for 16 weeks, then review."},
+  {"q": "Rosacea with eye pain and photophobia?", "a": "Possible keratitis: same-day ophthalmology."}
+ ]
+}

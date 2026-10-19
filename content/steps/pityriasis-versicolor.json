@@ -1,0 +1,249 @@
+{
+ "_note": "Curated v3 overlay (batch 1), condensed from content/conditions/pityriasis-versicolor.json; full text kept under 'More detail'.",
+ "glance": {
+  "chips": [
+   "Common",
+   "Young adults",
+   "Normal skin yeast",
+   "Colour returns slowly"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "Pale, pink or fawn macules with **fine bran-like scale** on the upper trunk; noticed after a holiday."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "*Malassezia* overgrowth in warm, sweaty, oily skin interferes with melanin."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "**Ketoconazole 2% shampoo** as a body wash for 5 days, or an azole cream for small areas."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "Not dangerous. Make sure it isn’t **vitiligo** (no scale, chalk-white).",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "lead": "Overgrowth of a yeast everyone carries.",
+  "points": [
+   "Lipophilic *Malassezia* overgrows in sebum-rich skin: chest, back, shoulders, neck.",
+   "It **blocks melanin** (pale patches) or inflames mildly (pink-brown patches).",
+   "Promoters: heat, humidity, sweat, oily skin, young adulthood; mild immunosuppression.",
+   "An overgrowth, **not caught**: not contagious in the usual sense."
+  ]
+ },
+ "features": {
+  "lead": "Colour change with scale you can evoke.",
+  "photo": "D12",
+  "points": [
+   "Well-demarcated **hypo-, hyper- or pink-fawn** macules merging into patches.",
+   "**Fine scale** more obvious when the skin is stretched or scratched (evoked scale).",
+   "Upper trunk, shoulders, neck, upper arms.",
+   "Usually asymptomatic or mildly itchy; affected skin **doesn’t tan**."
+  ],
+  "visuals": [
+   {
+    "ai": "v3-pv-back-map.jpg",
+    "caption": "Typical spread over the upper back and shoulders: small round macules merging into patches, some paler and some pink-brown, with the lower back clear.",
+    "alt": "Upper back with pityriasis versicolor patches"
+   }
+  ],
+  "variants": {
+   "title": "Colour variants",
+   "items": [
+    {
+     "name": "Hypopigmented",
+     "t": "Coalescing pale scaly macules.",
+     "where": "Upper trunk",
+     "photo": "D12"
+    },
+    {
+     "name": "On tanned skin",
+     "t": "Small pale scaly macules; noticed after sun.",
+     "where": "Shoulders",
+     "photo": "D13"
+    },
+    {
+     "name": "Hyperpigmented / pink",
+     "t": "Fawn-pink scaly macules coalescing.",
+     "where": "Chest, back",
+     "photo": "D14"
+    }
+   ]
+  }
+ },
+ "confirm": {
+  "cols": [
+   {
+    "k": "Clinical",
+    "icon": "eye",
+    "points": [
+     "Usually clinical.",
+     "Stretch the skin to **evoke scale**."
+    ]
+   },
+   {
+    "k": "Microscopy",
+    "icon": "flask",
+    "points": [
+     "Scrapings or tape strip: **‘spaghetti and meatballs’** hyphae and spores."
+    ]
+   },
+   {
+    "k": "Wood’s lamp",
+    "icon": "sunx",
+    "points": [
+     "Yellow-green fluorescence: variable."
+    ]
+   },
+   {
+    "k": "If no scale",
+    "icon": "help",
+    "points": [
+     "Complete depigmentation, no scale → think **vitiligo**."
+    ]
+   }
+  ]
+ },
+ "differentials": {
+  "cards": [
+   {
+    "name": "Vitiligo",
+    "clue": "Chalk-white, **no scale**; hands, face, orifices.",
+    "link": "hypopigmentation-skin-of-colour"
+   },
+   {
+    "name": "Pityriasis alba",
+    "clue": "Children; ill-defined pale facial patches; atopy.",
+    "link": "hypopigmentation-skin-of-colour"
+   },
+   {
+    "name": "Post-inflammatory hypopigmentation",
+    "clue": "Previous rash at the same sites; no scale.",
+    "link": "hypopigmentation-skin-of-colour"
+   },
+   {
+    "name": "Seborrhoeic dermatitis",
+    "clue": "Greasy scale; scalp, face, central chest.",
+    "link": "eczema-dermatitis"
+   },
+   {
+    "name": "Pityriasis rosea",
+    "clue": "Herald patch, then ‘Christmas-tree’; settles in 6–8 weeks.",
+    "link": "pityriasis-rosea"
+   }
+  ]
+ },
+ "manage": {
+  "lead": "Clear the yeast; colour follows later (CKS).",
+  "rungs": [
+   {
+    "k": "First line",
+    "tone": "first",
+    "rx": [
+     {
+      "drug": "Ketoconazole 2% shampoo as body wash",
+      "dose": "Once daily; lather, leave 3–5 min, rinse",
+      "dur": "Up to 5 days",
+      "note": "Licensed for this use from age 12."
+     },
+     {
+      "drug": "Azole (clotrimazole, econazole, ketoconazole) or terbinafine cream",
+      "dose": "Twice daily",
+      "dur": "2–3 weeks",
+      "note": "Clotrimazole preferred in pregnancy."
+     }
+    ]
+   },
+   {
+    "k": "Topicals fail or very widespread",
+    "tone": "second",
+    "points": [
+     "Oral **itraconazole** or **fluconazole** in adults: check interactions and pregnancy.",
+     "Pregnancy or children: specialist advice."
+    ]
+   },
+   {
+    "k": "Prevent recurrence",
+    "tone": "third",
+    "points": [
+     "Ketoconazole shampoo every 1–4 weeks, or a **3-day course before a sunny holiday**."
+    ]
+   }
+  ],
+  "limits": [
+   {
+    "k": "Expectations",
+    "t": "Colour takes **weeks to months** to return: not treatment failure."
+   },
+   {
+    "k": "Ongoing scale",
+    "t": "Suggests the infection is still active."
+   }
+  ]
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "routine",
+    "t": "Diagnostic doubt: especially **no scale** or complete depigmentation (vitiligo)."
+   },
+   {
+    "when": "routine",
+    "t": "Very extensive, recurrent or unusual: consider immunosuppression."
+   },
+   {
+    "when": "routine",
+    "t": "Pregnancy or children needing oral therapy: specialist advice."
+   }
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "clock",
+   "t": "Warn up front: colour takes **months** to even out."
+  },
+  {
+   "icon": "shield",
+   "t": "Not poor hygiene and not usually catching."
+  },
+  {
+   "icon": "sunx",
+   "t": "Even sun exposure after treatment helps the colour match."
+  },
+  {
+   "icon": "book",
+   "t": "A pre-holiday prophylaxis plan saves repeat visits."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "What organism causes pityriasis versicolor?",
+   "a": "Malassezia, a normal skin yeast, overgrowing."
+  },
+  {
+   "q": "How is ketoconazole shampoo used?",
+   "a": "As a body wash once daily for up to 5 days: lather, leave 3–5 minutes, rinse."
+  },
+  {
+   "q": "What does microscopy show?",
+   "a": "‘Spaghetti and meatballs’ hyphae and spores."
+  },
+  {
+   "q": "Pale patches but no scale and chalk-white?",
+   "a": "Think vitiligo, not pityriasis versicolor."
+  },
+  {
+   "q": "Yeast cleared but still pale. Failure?",
+   "a": "No: colour takes weeks to months to return."
+  }
+ ]
+}

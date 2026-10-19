@@ -1,0 +1,100 @@
+{
+ "_note": "Curated v3 overlay (batch 1), condensed from content/conditions/head-lice.json; full text kept under 'More detail'.",
+ "glance": {
+  "chips": ["Children 4–11", "Live louse = proof", "Wet combing or dimeticone", "No permethrin (UK)"],
+  "points": [
+   {"icon": "eye", "k": "Spot it", "t": "Scalp itch (or none), nape and behind-ear excoriation, a **live louse** on detection combing."},
+   {"icon": "layers", "k": "Why", "t": "*Pediculus humanus capitis* crawls head-to-head; itch is hypersensitivity to saliva."},
+   {"icon": "pill", "k": "Treat", "t": "Only live infestation: **wet combing** or **dimeticone 4%** (repeat after 7 days); check the household."},
+   {"icon": "alert", "k": "Never miss", "t": "No live louse, no treatment. Pubic lice on a child’s eyelashes → **safeguarding**.", "tone": "danger"}
+  ]
+ },
+ "cause": {
+  "lead": "A crawling insect that glues its eggs near the scalp.",
+  "points": [
+   "Spread by **direct head-to-head contact**: lice crawl; they can’t jump, fly or swim.",
+   "Off the scalp they die in about **1–2 days**: hats and brushes rarely matter.",
+   "Eggs glued near the scalp hatch in 7–10 days; adults live 3–4 weeks.",
+   "**Nits** = empty egg cases moving out with hair growth: far from the scalp = old.",
+   "Itch can take **4–6 weeks**; many children never itch. **Not** poor hygiene."
+  ],
+  "visuals": [
+   {"ai": "v3-headlice-nits.jpg", "caption": "A six-legged head louse gripping a hair, live eggs cemented to the shafts within a few millimetres of the scalp, and an empty white nit case further out. A fine-toothed detection comb finds live lice.", "alt": "Magnified hair shafts with a head louse, nits and a detection comb"}
+  ]
+ },
+ "features": {
+  "lead": "Comb, don’t just look.",
+  "photo": "m5w3:U01",
+  "points": [
+   "Itch (often absent), tickling, excoriation **behind the ears and at the nape**.",
+   "Live grey-brown lice that move away from light.",
+   "Eggs and nits **cemented** to the shaft: they don’t slide off.",
+   "Complications: impetigo, occipital nodes, eczematisation, poor sleep, stigma."
+  ],
+  "variants": {
+   "title": "Signs to recognise",
+   "items": [
+    {"name": "Adult louse", "t": "Six legs with claws for gripping hair.", "where": "Scalp hair", "photo": "m5w3:U02"},
+    {"name": "Eggs / nits", "t": "Cemented to the shaft near the scalp.", "where": "Hair shafts", "photo": "m5w3:U03"},
+    {"name": "Nape dermatitis", "t": "Itchy excoriated skin with nits.", "where": "Nape", "photo": "m5w3:U04"}
+   ]
+  }
+ },
+ "confirm": {
+  "cols": [
+   {"k": "Proof", "icon": "eye", "points": ["**Only a live louse** confirms infestation (CKS).", "Nits alone don’t justify treatment."]},
+   {"k": "Detection comb", "icon": "hand", "points": ["Fine-toothed plastic comb on wet conditioned (or dry) hair: more sensitive than looking."]},
+   {"k": "Household", "icon": "chat", "points": ["Check **everyone**; treat only those with live lice, **same day**."]},
+   {"k": "Not lice?", "icon": "help", "points": ["Dandruff and hair casts brush or slide off; nits stay put."]}
+  ]
+ },
+ "differentials": {
+  "cards": [
+   {"name": "Dandruff / seborrhoeic", "clue": "Flaky scale that brushes off; no lice.", "link": "eczema-dermatitis"},
+   {"name": "Hair casts", "clue": "Tubular casts that slide along the shaft."},
+   {"name": "Scalp psoriasis", "clue": "Thick scale beyond the hairline; nails, body plaques.", "link": "psoriasis"},
+   {"name": "Tinea capitis", "clue": "Broken hairs, alopecia, black dots; mycology.", "link": "tinea"},
+   {"name": "Nape impetigo", "clue": "Honey crust: look for lice as the driver.", "link": "impetigo"}
+  ]
+ },
+ "manage": {
+  "lead": "Treat only when a live louse is found (NICE CKS).",
+  "rungs": [
+   {"k": "Option for everyone", "tone": "base", "points": ["**Wet combing** (Bug Busting): conditioner + detection comb on days **1, 5, 9 and 13**; check day 17.", "Fine for infants, pregnancy, asthma and eczema."]},
+   {"k": "Physical insecticide", "tone": "first", "rx": [
+     {"drug": "Dimeticone 4% lotion / spray / gel", "dose": "Dry hair, leave overnight (check product), wash out", "dur": "Repeat after 7 days", "note": "CKS first line in pregnancy, breastfeeding, young children, asthma / eczema. Flammable while on hair."},
+     {"drug": "Isopropyl myristate + cyclomethicone", "dose": "Short contact (~10 min), comb out", "dur": "Repeat after 7 days", "note": "Check age and scalp licence."}
+   ]},
+   {"k": "Chemical", "tone": "second", "rx": [
+     {"drug": "Malathion 0.5% aqueous liquid", "dose": "Dry hair, leave 12 h", "dur": "Repeat after 7 days", "note": "Only chemical still recommended; resistance common; aqueous if asthma / eczema."}
+   ]},
+   {"k": "Check cure", "tone": "third", "points": ["Detection-comb 2–3 days after finishing, and again after 7 days.", "Live lice persist: check technique, then **switch mode of action**."]},
+   {"k": "Resistant", "tone": "refer", "points": ["Oral ivermectin or co-trimoxazole are specialist / off-label: **refer**."]}
+  ],
+  "limits": [
+   {"k": "Not recommended (UK)", "t": "Permethrin creme rinse, shampoos alone, herbal oils, electric combs, ‘preventive’ treatment.", "tone": "danger"},
+   {"k": "No exclusion", "t": "No school exclusion, boil-washing or fumigation."}
+  ]
+ },
+ "refer": {
+  "items": [
+   {"when": "urgent", "t": "Pubic lice on a child’s **eyelashes** → safeguarding pathway."},
+   {"when": "routine", "t": "Infant **under 6 months**: wet combing only; seek advice if it fails."},
+   {"when": "routine", "t": "Repeated failure despite correct technique."},
+   {"when": "routine", "t": "Extensive secondary infection, severe eczematous scalp, or suspected misdiagnosis."}
+  ]
+ },
+ "pearls": [
+  {"icon": "eye", "t": "**No live louse, no treatment.**"},
+  {"icon": "drop", "t": "Asthma / eczema: wet combing or aqueous dimeticone; avoid alcohol lotions."},
+  {"icon": "clock", "t": "Itch can last a few days after cure; leftover nits ≠ failure."},
+  {"icon": "book", "t": "Course materials recommending permethrin are out of step with CKS."}
+ ],
+ "quiz": [
+  {"q": "What confirms active head lice?", "a": "A live louse (found by detection combing). Nits alone don’t."},
+  {"q": "Wet-combing schedule?", "a": "Days 1, 5, 9 and 13, with a check on day 17."},
+  {"q": "How is dimeticone 4% used?", "a": "On dry hair, left on (often overnight per product), washed out, repeated after 7 days."},
+  {"q": "Is permethrin recommended for head lice in the UK?", "a": "No: unsuitable contact time and widespread resistance."},
+  {"q": "Does a child need to stay off school?", "a": "No school exclusion is needed."}
+ ]
+}

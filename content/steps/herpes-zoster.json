@@ -1,0 +1,102 @@
+{
+ "_note": "Curated v3 overlay (batch 1), condensed from content/conditions/herpes-zoster.json; full text kept under 'More detail'.",
+ "glance": {
+  "chips": ["Lifetime risk ~1 in 4", "VZV reactivation", "Antiviral within 72 h", "Protect the eye"],
+  "points": [
+   {"icon": "eye", "k": "Spot it", "t": "One-sided **dermatomal pain**, then grouped vesicles that **don’t cross the midline**."},
+   {"icon": "layers", "k": "Why", "t": "Latent VZV in a sensory ganglion reactivates when **cell-mediated immunity** falls."},
+   {"icon": "pill", "k": "Treat", "t": "Antiviral **within 72 h** if ≥ 50, non-truncal, severe or immunosuppressed; analgesia; offer Shingrix."},
+   {"icon": "alert", "k": "Never miss", "t": "**Ophthalmic** zoster, disseminated zoster, zoster in pregnancy or immunosuppression.", "tone": "danger"}
+  ]
+ },
+ "cause": {
+  "lead": "Chickenpox virus waking up in one nerve.",
+  "points": [
+   "After chickenpox, VZV stays **latent in sensory ganglia**.",
+   "Waning T-cell immunity: **age**, HIV, chemo, transplant, high-dose steroids, biologics / JAK inhibitors, stress.",
+   "Virus travels down the nerve → **neuritis** (prodromal pain) → vesicles in that dermatome.",
+   "Under 50 with no cause? Zoster is an **HIV indicator** condition."
+  ],
+  "visuals": [
+   {"ai": "v3-hsv-ganglion.jpg", "caption": "Same family, same trick: herpesviruses lie latent in sensory ganglia and travel down the nerve when immunity dips. In zoster this happens once in one dermatome, with much more pain.", "alt": "Diagram of a herpesvirus latent in a sensory ganglion travelling down the nerve"}
+  ]
+ },
+ "features": {
+  "lead": "Pain first, then a band of blisters on one side.",
+  "photo": "m5w5:W5B01",
+  "points": [
+   "**Prodrome** 1–5 days: burning or severe pain; can mimic MI, pleurisy, renal colic.",
+   "Papules → **grouped vesicles on a red base** → crusts over 7–10 days.",
+   "**Unilateral**, respects the midline; usually 1–2 adjacent dermatomes. Thoracic commonest, then V1.",
+   "**HZO**: forehead, eyelid; **Hutchinson’s sign** (nose tip) = high eye risk.",
+   "**Ramsay Hunt**: ear vesicles + facial palsy ± vertigo, hearing loss.",
+   "Immunocompromised: haemorrhagic, > 2 dermatomes, > 20 vesicles outside, slow healing."
+  ],
+  "visuals": [
+   {"ai": "v3-zoster-dermatome.jpg", "caption": "Thoracic zoster: a band of grouped vesicles on red skin wrapping round one side of the chest wall and stopping sharply at the midline of the back.", "alt": "Back of torso showing a unilateral dermatomal band of zoster"}
+  ],
+  "variants": {
+   "title": "Patterns to recognise",
+   "items": [
+    {"name": "Thoracic band", "t": "Grouped vesicles, one side.", "where": "Chest, back", "photo": "m5w5:W5B01"},
+    {"name": "Crusting / haemorrhagic", "t": "Partly haemorrhagic: check for immunosuppression.", "where": "Dermatome", "photo": "m5w5:W5B03"},
+    {"name": "Ophthalmic (V1)", "t": "Forehead and eyelid; same-day eye review.", "where": "Forehead, eye", "photo": "m5w5:W5B06", "tone": "danger"}
+   ]
+  }
+ },
+ "confirm": {
+  "cols": [
+   {"k": "Clinical", "icon": "eye", "points": ["Usually clinical: dermatomal, unilateral, painful."]},
+   {"k": "Swab", "icon": "flask", "points": ["**VZV PCR** of vesicle base if atypical, immunocompromised or unsure."]},
+   {"k": "Immunosuppressed", "icon": "drop", "points": ["HIV viral load + CD4, FBC, U&E / LFT (renal dosing)."]},
+   {"k": "V1", "icon": "help", "points": ["Check the **nose tip** and the eye; ophthalmic exam."]}
+  ]
+ },
+ "differentials": {
+  "cards": [
+   {"name": "Zosteriform HSV", "clue": "Recurs at the same site; smaller; less pain. PCR.", "link": "herpes-simplex-labialis"},
+   {"name": "Contact / phytophotodermatitis", "clue": "Itch > pain; linear; exposure history.", "link": "contact-dermatitis"},
+   {"name": "Bullous impetigo", "clue": "Honey crust; not dermatomal; children.", "link": "impetigo"},
+   {"name": "Insect bites", "clue": "Scattered, itchy, bilateral.", "link": "papular-urticaria-bites"},
+   {"name": "Prodrome-only phase", "clue": "Cardiac, abdominal or pleuritic causes first.", "tone": "danger"}
+  ]
+ },
+ "manage": {
+  "lead": "Based on NICE CKS Shingles. Adjust for renal function.",
+  "rungs": [
+   {"k": "Everyone", "tone": "base", "points": ["Clean, dry, loose clothing; non-adherent dressing; no antiviral or antibiotic creams.", "Paracetamol ± NSAID.", "**Infectious until all crusted** (5–7 days): avoid non-immune pregnant women, neonates, immunosuppressed."]},
+   {"k": "Antiviral · within 72 h", "tone": "first", "rx": [
+     {"drug": "Aciclovir", "dose": "800 mg five times daily", "dur": "7 days", "note": "If ≥ 50, non-truncal, moderate–severe pain or rash, or other risk."},
+     {"drug": "Valaciclovir", "dose": "1 g three times daily", "dur": "7 days", "note": "Better adherence."},
+     {"drug": "Famciclovir", "dose": "500 mg three times daily", "dur": "7 days", "note": "Alternative."}
+   ]},
+   {"k": "Pharmacy First (England)", "tone": "second", "points": ["Shingles pathway for adults: follow the PGD; pregnancy, severe immunosuppression, eye or ear involvement = refer."]},
+   {"k": "Immunocompromised", "tone": "refer", "points": ["Antiviral **regardless of timing**; **same-day specialist** advice.", "Severe, disseminated, ophthalmic or visceral → **IV aciclovir** admission."]}
+  ],
+  "limits": [
+   {"k": "Neuropathic pain / PHN", "t": "Amitriptyline, duloxetine, gabapentin or pregabalin (NICE CG173); capsaicin once healed."},
+   {"k": "Vaccination", "t": "Shingrix (non-live) for eligible adults: check Green Book ch. 28a. Zostavax (live) contraindicated in immunosuppression."}
+  ]
+ },
+ "refer": {
+  "items": [
+   {"when": "same-day", "t": "Forehead, eyelid or **nose tip** (Hutchinson), eye pain or visual change → **ophthalmology**."},
+   {"when": "same-day", "t": "Facial palsy with ear vesicles (**Ramsay Hunt**) → ENT."},
+   {"when": "urgent", "t": "Immunosuppressed, disseminated or multi-dermatomal: specialist advice, often IV aciclovir."},
+   {"when": "routine", "t": "Under 50 with no cause, or recurrent zoster: offer an **HIV test**."}
+  ]
+ },
+ "pearls": [
+  {"icon": "alert", "t": "Dermatomal pain before a rash: consider zoster, but **don’t miss** cardiac or surgical causes."},
+  {"icon": "drop", "t": "Hydrate on aciclovir; check eGFR in older or renally impaired patients."},
+  {"icon": "clock", "t": "Explain **PHN** (pain > 3 months): commoner > 50, HZO, severe acute pain."},
+  {"icon": "shield", "t": "Offer **Shingrix** to eligible patients."}
+ ],
+ "quiz": [
+  {"q": "Antiviral and dose for shingles in an immunocompetent adult?", "a": "Aciclovir 800 mg five times daily for 7 days (or valaciclovir 1 g TDS / famciclovir 500 mg TDS for 7 days), ideally within 72 h."},
+  {"q": "What is Hutchinson’s sign?", "a": "Vesicles on the tip or side of the nose (nasociliary nerve): high risk of eye involvement, same-day ophthalmology."},
+  {"q": "Ear vesicles with facial palsy?", "a": "Ramsay Hunt syndrome: same-day ENT."},
+  {"q": "Zoster in a 32-year-old with no obvious cause?", "a": "Offer an HIV test: zoster is an HIV indicator condition."},
+  {"q": "How long is a patient infectious?", "a": "Until all lesions have crusted (usually 5–7 days)."}
+ ]
+}

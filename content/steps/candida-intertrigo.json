@@ -1,0 +1,95 @@
+{
+ "_note": "Curated v3 overlay (batch 1), condensed from content/conditions/candida-intertrigo.json; full text kept under 'More detail'.",
+ "glance": {
+  "chips": ["Common", "Skin folds", "Satellites = Candida", "Dry the fold first"],
+  "points": [
+   {"icon": "eye", "k": "Spot it", "t": "Bright, **beefy-red**, moist fold with **satellite** papules or pustules beyond the edge."},
+   {"icon": "layers", "k": "Why", "t": "*Candida albicans* overgrows in warm, wet, occluded folds."},
+   {"icon": "pill", "k": "Treat", "t": "Keep the fold dry, then a topical imidazole or nystatin; fix the risk factors."},
+   {"icon": "alert", "k": "Never miss", "t": "Undiagnosed **diabetes** or immunosuppression; psoriasis or tinea that won’t respond.", "tone": "danger"}
+  ]
+ },
+ "cause": {
+  "lead": "An opportunist in warm, wet, rubbed skin.",
+  "points": [
+   "Intertrigo = fold inflammation from heat, moisture, friction; **Candida** often joins in.",
+   "**Diabetes** (look for it), recent **antibiotics** or steroids, immunosuppression.",
+   "Obesity and deep folds; incontinence, nappies, pads.",
+   "Finger webs: **wet work** and rings."
+  ]
+ },
+ "features": {
+  "lead": "Look beyond the edge for satellites.",
+  "photo": "D15",
+  "points": [
+   "**Beefy-red, macerated** plaques, often glistening or eroded.",
+   "**Satellite** papules and pustules: the key sign.",
+   "Peeling scale at the margin; soreness, itch, burning.",
+   "Groin: often **involves the scrotum** (tinea spares it).",
+   "Sites: under breasts, abdominal apron, groin, axillae, finger and toe webs."
+  ],
+  "visuals": [
+   {"ai": "v3-candida-fold.jpg", "caption": "Candidal intertrigo: a moist, beefy-red rash deep in the fold on both skin surfaces, with separate satellite papules and pustules scattered beyond the edge.", "alt": "Skin fold with candidal intertrigo and satellite lesions"}
+  ],
+  "variants": {
+   "title": "Sites to recognise",
+   "items": [
+    {"name": "Groin fold", "t": "Macerated red fold with satellites.", "where": "Groin", "photo": "m5w1:O03"},
+    {"name": "Toe web", "t": "Moist, red, macerated web skin.", "where": "Toe webs", "photo": "D16"},
+    {"name": "Finger web", "t": "Erosio interdigitalis blastomycetica: wet work.", "where": "Finger webs", "photo": "D17"}
+   ]
+  }
+ },
+ "confirm": {
+  "cols": [
+   {"k": "Clinical", "icon": "eye", "points": ["Site + satellites.", "Ask about oral or genital thrush."]},
+   {"k": "Sample", "icon": "flask", "points": ["Swab or scrapings for yeast if uncertain, recurrent or not responding.", "Bacterial swab if secondary infection."]},
+   {"k": "Glucose", "icon": "drop", "points": ["**HbA1c or glucose** if recurrent or other risk features."]},
+   {"k": "Medicines", "icon": "pill", "points": ["Recent antibiotics, steroids, immunosuppressants?"]}
+  ]
+ },
+ "differentials": {
+  "cards": [
+   {"name": "Simple intertrigo", "clue": "Mirror-image redness, **no satellites**.", "link": "intertrigo"},
+   {"name": "Flexural psoriasis", "clue": "Sharp salmon-pink plaque, no satellites; nails.", "photo": "B14"},
+   {"name": "Tinea cruris", "clue": "Arcuate scaly edge onto the thigh; scrotum spared.", "link": "tinea"},
+   {"name": "Erythrasma", "clue": "Brown-red, fine scale; coral-red under Wood’s light.", "link": "intertrigo"},
+   {"name": "Hailey–Hailey / pemphigus vegetans", "clue": "Chronic eroded recurrent fold disease: refer.", "tone": "danger"}
+  ]
+ },
+ "manage": {
+  "lead": "Treatment fails without moisture control.",
+  "rungs": [
+   {"k": "Moisture control", "tone": "base", "points": ["Dry folds after washing (pat dry or cool hairdryer).", "Interface textiles or cotton separators; barrier products for incontinence.", "Loose cotton clothing; weight advice where relevant."]},
+   {"k": "Topical antifungal", "tone": "first", "rx": [
+     {"drug": "Imidazole (clotrimazole or miconazole) or nystatin", "dose": "As per product", "dur": "Until 1–2 weeks after clear", "note": "OTC clotrimazole is a sensible first pharmacy step."}
+   ]},
+   {"k": "Very inflamed", "tone": "second", "points": ["Short combination with mild steroid (hydrocortisone + clotrimazole or miconazole), per local formulary, **about 7 days**."]},
+   {"k": "Severe or recalcitrant", "tone": "third", "points": ["Oral **fluconazole**: check interactions and pregnancy status."]}
+  ],
+  "limits": [
+   {"k": "Find the cause", "t": "Review diabetes, antibiotics, immunosuppression."},
+   {"k": "Toe webs", "t": "Often mixed yeast, dermatophyte and bacteria: dry thoroughly plus the right antimicrobial."}
+  ]
+ },
+ "refer": {
+  "items": [
+   {"when": "urgent", "t": "Spreading **cellulitis**, fever or systemically unwell: escalate."},
+   {"when": "routine", "t": "Recurrent or extensive: **screen for diabetes**, consider immunosuppression."},
+   {"when": "routine", "t": "No response to an adequate course: rethink (psoriasis, tinea, erythrasma) and sample."}
+  ]
+ },
+ "pearls": [
+  {"icon": "eye", "t": "**Satellites mean Candida** until proven otherwise."},
+  {"icon": "help", "t": "No satellites and a very sharp edge → think flexural psoriasis."},
+  {"icon": "drop", "t": "Make drying advice practical and specific."},
+  {"icon": "hand", "t": "Finger-web disease: ask about wet work and rings."}
+ ],
+ "quiz": [
+  {"q": "What is the key diagnostic sign of candidal intertrigo?", "a": "Satellite papules and pustules beyond the main edge."},
+  {"q": "Which blood test for recurrent candidal intertrigo?", "a": "HbA1c or glucose: screen for diabetes."},
+  {"q": "First-line topical treatment and duration?", "a": "An imidazole (clotrimazole or miconazole) or nystatin until 1–2 weeks after clearance."},
+  {"q": "Sharp salmon-pink fold plaque with no satellites?", "a": "Think flexural (inverse) psoriasis."},
+  {"q": "What is the single most important step?", "a": "Moisture control: keep the fold dry."}
+ ]
+}

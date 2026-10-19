@@ -1,0 +1,109 @@
+{
+ "_note": "Curated v3 overlay (batch 1), condensed from content/conditions/herpes-simplex-labialis.json; full text kept under 'More detail'.",
+ "glance": {
+  "chips": ["Very common", "HSV-1", "Same site each time", "Treat at first tingle"],
+  "points": [
+   {"icon": "eye", "k": "Spot it", "t": "Tingling, then **grouped vesicles** and crust at the **same spot** on the lip, recurring with triggers."},
+   {"icon": "layers", "k": "Why", "t": "HSV-1 latent in the **trigeminal ganglion** reactivates and travels down the nerve."},
+   {"icon": "pill", "k": "Treat", "t": "Topical aciclovir at the first tingle, SPF lip balm, no kissing; oral antivirals if severe or frequent."},
+   {"icon": "alert", "k": "Never miss", "t": "Eczema herpeticum, herpetic eye disease, neonates, chronic ulcers in immunosuppression.", "tone": "danger"}
+  ]
+ },
+ "cause": {
+  "lead": "A virus that sleeps in a nerve and wakes with triggers.",
+  "points": [
+   "Spread by contact with lesions or **asymptomatic shedding** (saliva).",
+   "After primary infection (often childhood gingivostomatitis) it stays **latent in the trigeminal ganglion**.",
+   "**Triggers**: fever, URTI, UV, cold wind, menstruation, stress, dental or lip procedures.",
+   "Recurs at the **same site**; immunosuppression → larger, chronic ulcers."
+  ],
+  "visuals": [
+   {"ai": "v3-hsv-ganglion.jpg", "caption": "Latency and reactivation: the virus rests in the trigeminal ganglion in front of the ear, then travels down the sensory nerve to the same spot on the lip each time.", "alt": "Head diagram showing HSV in the trigeminal ganglion travelling to the lip"}
+  ]
+ },
+ "features": {
+  "lead": "Tingle → blisters → ulcer → crust in 7–10 days.",
+  "photo": "m5w5:W5D01",
+  "points": [
+   "**Prodrome** (hours–1 day): tingling, burning, itch.",
+   "**Grouped small vesicles** on a red base at the vermilion border.",
+   "→ pustules → painful erosions → crust → heals in **7–10 days**, no scar.",
+   "A few recurrences a year is typical; > 6 a year in some.",
+   "Other HSV: cheek, **whitlow**, gladiatorum, **eczema herpeticum**, keratitis, HSV-associated EM."
+  ],
+  "visuals": [
+   {"ai": "v3-hsv-stages.jpg", "caption": "The stages of a cold sore at the lip border: redness and tingling, grouped clear vesicles, burst weeping erosions, then a dry golden-brown crust.", "alt": "Four stages of a cold sore on the lip"}
+  ],
+  "variants": {
+   "title": "Patterns to recognise",
+   "items": [
+    {"name": "Crusting stage", "t": "Crust extending onto the skin above the lip.", "where": "Lip, perioral", "photo": "m5w5:W5D02"},
+    {"name": "Skin of colour", "t": "Redness less obvious; look for grouped vesicles.", "where": "Lip", "photo": "m5w5:W5D03"},
+    {"name": "Other facial site", "t": "Recurrent HSV can appear on the cheek.", "where": "Cheek", "photo": "m5w5:W5D04"},
+    {"name": "Herpetic whitlow", "t": "Painful vesicles and swelling of a fingertip.", "where": "Finger", "photo": "m5w5:W5D07"},
+    {"name": "Eczema herpeticum", "t": "Monomorphic punched-out erosions on eczema.", "where": "Eczematous skin", "photo": "m5w5:W5D06", "tone": "danger"}
+   ]
+  }
+ },
+ "confirm": {
+  "cols": [
+   {"k": "Clinical", "icon": "eye", "points": ["Typical recurrent labialis: clinical."]},
+   {"k": "Swab", "icon": "flask", "points": ["**HSV PCR** if atypical, severe, immunocompromised, near the eye, or recurrent EM."]},
+   {"k": "Serology", "icon": "help", "points": ["Little role in recurrent labialis."]},
+   {"k": "Who is at risk", "icon": "chat", "points": ["Eczema, pregnancy near term, neonates nearby, immunosuppression?"]}
+  ]
+ },
+ "differentials": {
+  "cards": [
+   {"name": "Impetigo", "clue": "Honey crusts, spreading, children; no prodrome.", "link": "impetigo"},
+   {"name": "Herpes zoster", "clue": "Dermatomal, more painful, usually one episode.", "link": "herpes-zoster"},
+   {"name": "Aphthous ulcers", "clue": "Inside the mouth; no vesicles."},
+   {"name": "Angular cheilitis", "clue": "Fissured mouth corners; dentures, iron / B12."},
+   {"name": "Fixed drug eruption", "clue": "Same site with each dose; dusky patch.", "link": "fixed-drug-eruption"},
+   {"name": "EM / SJS", "clue": "Targets, several mucosae, drug history: urgent if extensive.", "link": "erythema-multiforme", "tone": "danger"}
+  ]
+ },
+ "manage": {
+  "lead": "Based on NICE CKS Herpes simplex – oral.",
+  "rungs": [
+   {"k": "Self-care · OTC", "tone": "base", "points": ["Paracetamol or ibuprofen; fluids; cold-sore patches for comfort.", "Don’t pick; wash hands; no sharing cups or lip products.", "**Avoid kissing** (especially neonates, eczema, immunosuppressed); **SPF 30+** lip balm."]},
+   {"k": "First tingle", "tone": "first", "rx": [
+     {"drug": "Aciclovir 5% cream", "dose": "Five times daily", "dur": "5 days", "note": "Modest benefit (~½–1 day shorter). Penciclovir 1% alternative."}
+   ]},
+   {"k": "Severe or frequent · adults", "tone": "second", "rx": [
+     {"drug": "Aciclovir (oral)", "dose": "400 mg five times daily", "dur": "5 days, from prodrome", "note": "Dose-reduce in renal impairment."},
+     {"drug": "Valaciclovir (oral)", "dose": "2 g twice daily", "dur": "1 day", "note": "UK SmPC cold-sore regimen; check formulary."}
+   ]},
+   {"k": "Suppression", "tone": "third", "rx": [
+     {"drug": "Aciclovir (oral)", "dose": "400 mg twice daily", "dur": "Review after 6–12 months", "note": "Frequent / severe recurrences or HSV-associated EM; specialist advice often sought."}
+   ]},
+   {"k": "Immunocompromised", "tone": "refer", "points": ["Higher dose / longer oral antivirals; **specialist advice**; IV for chronic large ulcers."]}
+  ],
+  "limits": [
+   {"k": "No steroid or antibiotic creams", "t": "Unless secondary impetigo is confirmed.", "tone": "danger"},
+   {"k": "Timing", "t": "Benefit falls sharply once vesicles form."}
+  ]
+ },
+ "refer": {
+  "items": [
+   {"when": "same-day", "t": "Punched-out erosions spreading over eczema: **eczema herpeticum**."},
+   {"when": "same-day", "t": "Red painful eye, photophobia, blurred vision, vesicles on nose tip: **ophthalmology**. Never topical steroid."},
+   {"when": "urgent", "t": "**Neonate** (< 1 month) or primary HSV late in pregnancy."},
+   {"when": "urgent", "t": "Immunosuppressed with extensive or non-healing lesions (> 2 weeks)."},
+   {"when": "routine", "t": "Child with gingivostomatitis not drinking, or recurrent erythema multiforme."}
+  ]
+ },
+ "pearls": [
+  {"icon": "clock", "t": "Start antivirals at the **first tingle**."},
+  {"icon": "help", "t": "Same place + recurrent = HSV; one-off band of vesicles = zoster."},
+  {"icon": "shield", "t": "Frequent severe recurrences: consider immunosuppression (e.g. HIV testing if risk)."},
+  {"icon": "drop", "t": "Aciclovir: reduce dose in renal impairment; keep hydrated."}
+ ],
+ "quiz": [
+  {"q": "Where does HSV-1 lie latent?", "a": "In the trigeminal (sensory) ganglion."},
+  {"q": "OTC aciclovir cream regimen?", "a": "5% cream five times daily for 5 days, started at the first tingle."},
+  {"q": "An oral option for a severe cold sore in an adult?", "a": "Aciclovir 400 mg five times daily for 5 days, or valaciclovir 2 g twice daily for 1 day."},
+  {"q": "Vesicles on the nose tip with a red painful eye?", "a": "Possible herpetic eye disease: same-day ophthalmology; no topical steroid."},
+  {"q": "Which test if atypical?", "a": "Viral swab for HSV PCR."}
+ ]
+}

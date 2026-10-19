@@ -1,0 +1,95 @@
+{
+ "_note": "Curated v3 overlay (batch 1), condensed from content/conditions/boils-carbuncles.json; full text kept under 'More detail'.",
+ "glance": {
+  "chips": ["Deep follicle abscess", "S. aureus", "Pus needs a way out", "Think PVL if recurrent"],
+  "points": [
+   {"icon": "eye", "k": "Spot it", "t": "Painful, red, fluctuant nodule that **points** to a central pustule. Carbuncle: several heads."},
+   {"icon": "layers", "k": "Why", "t": "*S. aureus* in the deep follicle → dermal abscess; recurrence suggests carriage, **PVL** or diabetes."},
+   {"icon": "pill", "k": "Treat", "t": "Moist heat; **incision and drainage** when fluctuant; flucloxacillin only with risk features."},
+   {"icon": "alert", "k": "Never miss", "t": "PVL clusters, central facial boils, undiagnosed diabetes.", "tone": "danger"}
+  ]
+ },
+ "cause": {
+  "lead": "Your own staph, deep in a follicle.",
+  "points": [
+   "Usually the patient’s own **S. aureus carriage** (nose, axillae, perineum).",
+   "Friction, shaving, sweat, minor trauma let it in.",
+   "Risks: **diabetes**, obesity, immunosuppression, close-contact sport, crowded living, household boils.",
+   "Recurrent or severe: **PVL-producing** *S. aureus* or **MRSA**."
+  ],
+  "visuals": [
+   {"ai": "v3-follicle-depths.jpg", "caption": "Folliculitis (left) is superficial. A boil (centre) is a deep abscess around one follicle. A carbuncle (right) is several connected abscesses with multiple openings: it needs drainage.", "alt": "Three skin sections: folliculitis, furuncle and carbuncle"}
+  ]
+ },
+ "features": {
+  "lead": "Hot nodule → fluctuant → points → discharges.",
+  "photo": "E13",
+  "points": [
+   "**Painful, red, hot nodule** that becomes fluctuant and points to a yellow-white head.",
+   "Neck, face, axillae, buttocks, thighs.",
+   "**Carbuncle**: larger indurated area, **multiple heads**; fever and malaise more likely.",
+   "Surrounding cellulitis may develop."
+  ],
+  "variants": {
+   "title": "Look for",
+   "items": [
+    {"name": "Furuncle", "t": "Tender red nodule with a central yellow point.", "where": "Neck, thighs", "photo": "E13"},
+    {"name": "With cellulitis", "t": "Spreading redness around the boil.", "where": "Any", "photo": "E14"},
+    {"name": "Axillary abscess", "t": "Deep red fluctuant nodule; recurrent → think HS.", "where": "Axillae", "photo": "E15"},
+    {"name": "Carbuncle", "t": "Coalescent boils, multiple discharging heads.", "where": "Neck, back", "photo": "E16", "tone": "danger"}
+   ]
+  }
+ },
+ "confirm": {
+  "cols": [
+   {"k": "Clinical", "icon": "eye", "points": ["Diagnosis is clinical."]},
+   {"k": "Swab pus", "icon": "flask", "points": ["If drained, recurrent, or PVL / MRSA suspected."]},
+   {"k": "Recurrent", "icon": "drop", "points": ["**Glucose or HbA1c**; nasal carriage."]},
+   {"k": "Contacts", "icon": "chat", "points": ["Household, gym, team: **PVL clusters**?"]}
+  ]
+ },
+ "differentials": {
+  "cards": [
+   {"name": "Inflamed epidermoid cyst", "clue": "Long-standing lump with a punctum that flares.", "link": "skin-cysts"},
+   {"name": "Hidradenitis suppurativa", "clue": "**Recurrent** nodules, sinus tracts, scars in folds.", "link": "hidradenitis-suppurativa"},
+   {"name": "Folliculitis", "clue": "Superficial small pustules; no deep abscess.", "link": "folliculitis"},
+   {"name": "Cellulitis", "clue": "Diffuse spreading redness, no collection.", "link": "cellulitis-erysipelas"}
+  ]
+ },
+ "manage": {
+  "lead": "Drainage is the treatment; antibiotics are an add-on.",
+  "rungs": [
+   {"k": "Small boil", "tone": "base", "points": ["**Moist heat** (warm compress) 3–4 times a day.", "**Don’t squeeze**; dress; hygiene advice."]},
+   {"k": "Large, fluctuant, or any carbuncle", "tone": "first", "points": ["**Incision and drainage the same day**: primary care if skilled, otherwise surgical or urgent care."]},
+   {"k": "Antibiotics if…", "tone": "second", "rx": [
+     {"drug": "Flucloxacillin", "dose": "As BNF", "dur": "Per local guidance", "note": "Only with fever, cellulitis, facial site, large / very painful lesion, diabetes or immunosuppression. Penicillin allergy: clarithromycin (erythromycin in pregnancy)."}
+   ]},
+   {"k": "Recurrent", "tone": "refer", "points": ["Screen for diabetes; discuss **PVL** and MRSA.", "**Decolonisation** (nasal treatment + antiseptic body wash) via infection control or microbiology; household if advised."]}
+  ],
+  "limits": [
+   {"k": "Facial boils", "t": "Don’t squeeze; lower threshold for antibiotics and review.", "tone": "danger"},
+   {"k": "Hygiene", "t": "Own towel, hot-wash bedding, cover the lesion, wash hands."}
+  ]
+ },
+ "refer": {
+  "items": [
+   {"when": "same-day", "t": "**Carbuncle** or large abscess: needs drainage."},
+   {"when": "same-day", "t": "Boil on the **central face** or near the eye."},
+   {"when": "urgent", "t": "Spreading cellulitis, fever or systemically unwell; deep infection in diabetes or immunosuppression."},
+   {"when": "urgent", "t": "**PVL suspicion**: recurrent aggressive boils, household / team clusters, necrotising features → microbiology or public health."}
+  ]
+ },
+ "pearls": [
+  {"icon": "hand", "t": "**Pus needs a way out.**"},
+  {"icon": "help", "t": "‘Recurrent boils’ in axillae or groin may be **hidradenitis suppurativa**."},
+  {"icon": "chat", "t": "Ask about household contacts and close-contact sport."},
+  {"icon": "shield", "t": "Practical hygiene beats repeated antibiotics."}
+ ],
+ "quiz": [
+  {"q": "Treatment of a large fluctuant boil?", "a": "Incision and drainage, the same day."},
+  {"q": "When are antibiotics needed for a boil?", "a": "Fever, cellulitis, facial site, large or very painful lesion, diabetes or immunosuppression."},
+  {"q": "First-line antibiotic?", "a": "Flucloxacillin (clarithromycin if penicillin-allergic; erythromycin in pregnancy)."},
+  {"q": "Recurrent painful boils in a rugby team?", "a": "Suspect PVL-S. aureus: swab, escalate to microbiology/public health, decolonisation."},
+  {"q": "Recurrent ‘boils’ with sinus tracts in the groin?", "a": "Hidradenitis suppurativa."}
+ ]
+}

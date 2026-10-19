@@ -1,0 +1,106 @@
+{
+ "_note": "Curated v3 overlay (batch 1), condensed from content/conditions/tinea.json; full text kept under 'More detail'.",
+ "glance": {
+  "chips": ["Very common", "Dermatophyte", "Scrape the edge", "Never a steroid alone"],
+  "points": [
+   {"icon": "eye", "k": "Spot it", "t": "**Asymmetrical** ring with a red, scaly **advancing edge** and central clearing; macerated toe webs."},
+   {"icon": "layers", "k": "Why", "t": "Keratin-loving dermatophytes (mostly *T. rubrum*) spreading outwards in the stratum corneum."},
+   {"icon": "pill", "k": "Treat", "t": "Keep dry; topical terbinafine or an imidazole **until 1–2 weeks after clear**; treat feet and nails too."},
+   {"icon": "alert", "k": "Never miss", "t": "Tinea incognito, kerion, Majocchi granuloma, immunosuppression.", "tone": "danger"}
+  ]
+ },
+ "cause": {
+  "lead": "A fungus that eats keratin and spreads in a ring.",
+  "points": [
+   "Dermatophytes invade the **stratum corneum**, hair and nails.",
+   "Outward spread → **active edge with central clearing**.",
+   "**Autoinoculation**: feet and nails → groin and body.",
+   "Risks: occlusion, sweat, sport, shared towels, **diabetes**, immunosuppression; pets and farm animals (more inflamed).",
+   "**Steroid** suppresses the local immune response: redness fades, fungus spreads → **tinea incognito**."
+  ],
+  "visuals": [
+   {"ai": "v3-tinea-annular-scrape.jpg", "caption": "The ring grows outwards: the scaliest, most active fungus is at the edge, so that is where to scrape for microscopy.", "alt": "Annular tinea plaque with a blade scraping scale from the edge"}
+  ]
+ },
+ "features": {
+  "lead": "Body, groin, feet: one fungus, three looks.",
+  "photo": "D01",
+  "points": [
+   "**Corporis**: itchy asymmetrical annular plaques, scaly active edge.",
+   "**Cruris**: groin folds ± inner thighs; often one-sided at first; **scrotum usually spared**.",
+   "**Pedis**: 4th–5th web maceration; dry ‘moccasin’ sole; vesicles on the instep.",
+   "**Manuum**: ‘**two feet, one hand**’; white scale in palm creases.",
+   "Steroid-modified: larger, less scaly, atypical (**incognito**)."
+  ],
+  "visuals": [
+   {"ai": "v3-tinea-body-map.jpg", "caption": "Where tinea shows up: scalp, rings on the trunk and limbs, both groin folds onto the inner thighs, and the feet. Always check the feet and nails.", "alt": "Body map of tinea sites"}
+  ],
+  "variants": {
+   "title": "Forms to recognise",
+   "items": [
+    {"name": "Corporis", "t": "Annular plaque, raised scaly edge, central clearing.", "where": "Trunk, limbs", "photo": "D02"},
+    {"name": "Cruris", "t": "Arcuate scaly edge spreading onto the thigh.", "where": "Groin", "photo": "D11"},
+    {"name": "Interdigital pedis", "t": "White, macerated, peeling toe webs.", "where": "4th–5th web", "photo": "D05"},
+    {"name": "Moccasin pedis", "t": "Diffuse dry scaling of the soles.", "where": "Soles, sides", "photo": "D06"}
+   ]
+  }
+ },
+ "confirm": {
+  "cols": [
+   {"k": "Look", "icon": "eye", "points": ["Asymmetry + scaly active edge.", "**Always examine feet, nails and hands.**"]},
+   {"k": "Scrape", "icon": "flask", "points": ["From the **active edge**: microscopy ± culture.", "If uncertain, failed treatment, extensive, immunocompromised, or **before oral antifungals**."]},
+   {"k": "Ask", "icon": "chat", "points": ["Steroid creams used?", "Pets, sport, family members with it?"]},
+   {"k": "Swab", "icon": "drop", "points": ["Folds, if bacterial co-infection is suspected."]}
+  ]
+ },
+ "differentials": {
+  "cards": [
+   {"name": "Discoid eczema", "clue": "Coin-shaped, itchy, no central clearing.", "link": "eczema-dermatitis"},
+   {"name": "Pityriasis rosea", "clue": "Herald patch, then ‘Christmas-tree’ pattern.", "link": "pityriasis-rosea"},
+   {"name": "Granuloma annulare", "clue": "Ring of papules, **no scale**.", "link": "annular-rashes"},
+   {"name": "Candidal intertrigo", "clue": "Satellites; **involves the scrotum**.", "link": "candida-intertrigo"},
+   {"name": "Flexural psoriasis", "clue": "Sharp salmon-pink, no scale in folds, other sites.", "link": "psoriasis"},
+   {"name": "Erythrasma", "clue": "Brown-red; **coral-red** under Wood’s light.", "link": "intertrigo"}
+  ]
+ },
+ "manage": {
+  "lead": "Dry skin, enough antifungal, the whole reservoir.",
+  "rungs": [
+   {"k": "Self-care", "tone": "base", "points": ["Keep skin and toe webs **dry**; loose cotton.", "No shared towels; wash clothing and bedding hot.", "Children don’t usually need to miss school (CKS)."]},
+   {"k": "Mild, localised", "tone": "first", "rx": [
+     {"drug": "Terbinafine 1% cream", "dose": "As per product", "dur": "Until 1–2 weeks after clear (pedis 1–2 weeks)", "note": "Allylamines often preferred for dermatophytes."},
+     {"drug": "Imidazole (clotrimazole, miconazole, econazole)", "dose": "As per product", "dur": "Until 1–2 weeks after clear (pedis ~4 weeks)", "note": "Very inflamed: add hydrocortisone 1% for max 7 days."}
+   ]},
+   {"k": "Extensive or severe · adults", "tone": "second", "rx": [
+     {"drug": "Oral terbinafine", "dose": "250 mg daily (adult)", "dur": "Typically 2–6 weeks (e.g. manuum)", "note": "Ideally after scrapings. Check LFTs and interactions. Alternatives: itraconazole, griseofulvin."}
+   ]},
+   {"k": "Refer", "tone": "refer", "points": ["Children with extensive disease → paediatric dermatology.", "Diagnosis uncertain, or immunosuppressed."]}
+  ],
+  "limits": [
+   {"k": "Steroid alone", "t": "Never: it creates tinea incognito.", "tone": "danger"},
+   {"k": "Combinations", "t": "Steroid–antifungal is a short bridge only (up to 7 days)."},
+   {"k": "Azoles", "t": "Watch CYP interactions with oral itraconazole and fluconazole."}
+  ]
+ },
+ "refer": {
+  "items": [
+   {"when": "urgent", "t": "**Kerion**, **Majocchi granuloma**, or suspected deep infection."},
+   {"when": "urgent", "t": "Tinea pedis in **diabetes** or past cellulitis: fissured webs are an entry point."},
+   {"when": "routine", "t": "Immunocompromised with extensive or atypical disease; children needing oral treatment."},
+   {"when": "routine", "t": "Failure despite adherence: scrape and reconsider; occupational or institutional outbreak."}
+  ]
+ },
+ "pearls": [
+  {"icon": "eye", "t": "Always look at the **feet** in a ‘groin rash’."},
+  {"icon": "clock", "t": "Recurrent tinea cruris = an untreated **reservoir** (feet, nails, family)."},
+  {"icon": "pill", "t": "OTC clotrimazole or terbinafine is a good first pharmacy intervention for limited tinea."},
+  {"icon": "help", "t": "Scaly rings failing antifungals? Work through the annular rash differential."}
+ ],
+ "quiz": [
+  {"q": "Where do you take scrapings from in tinea corporis?", "a": "The scaly active (advancing) edge."},
+  {"q": "How long to continue a topical antifungal?", "a": "Until 1–2 weeks after the skin looks clear."},
+  {"q": "Groin rash involving the scrotum with satellites: tinea or Candida?", "a": "Candida. Tinea cruris usually spares the scrotum."},
+  {"q": "What does a steroid alone do to tinea?", "a": "Suppresses local immunity so the fungus spreads: tinea incognito (larger, less scaly, atypical)."},
+  {"q": "‘Two feet, one hand’ suggests?", "a": "Tinea manuum with tinea pedis."}
+ ]
+}

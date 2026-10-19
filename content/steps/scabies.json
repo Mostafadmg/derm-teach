@@ -1,0 +1,304 @@
+{
+ "_note": "Curated v3 overlay (batch 1), condensed from content/conditions/scabies.json; full text kept under 'More detail'.",
+ "glance": {
+  "chips": [
+   "Common",
+   "Household clusters",
+   "Treat everyone same night",
+   "Not a hygiene failure"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "Itch **worse at night**, itchy contacts, **burrows** in finger webs, wrists, genitals."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "*Sarcoptes scabiei* burrows in the stratum corneum; itch is a **delayed hypersensitivity**."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "**Permethrin 5%** whole body, repeat after 7 days, for every close contact on the same night."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "**Crusted (Norwegian) scabies** in a frail or immunosuppressed person: same-day specialist.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "lead": "A mite that tunnels and an immune reaction that itches.",
+  "points": [
+   "Spread by **prolonged skin-to-skin** contact (household, sexual, carer). Handshakes rarely.",
+   "Female burrows in the stratum corneum and lays eggs; larvae hatch in 3–4 days.",
+   "**Itch starts 3–6 weeks** after first infestation (1–3 days on re-infestation): contacts spread it before they itch.",
+   "**Crusted**: thousands–millions of mites when immunity or scratching fails (frailty, dementia, immunosuppression, potent steroids)."
+  ],
+  "visuals": [
+   {
+    "ai": "v3-scabies-burrow.jpg",
+    "caption": "A burrow in the outermost skin layer: the female mite at the leading end, with eggs and faecal pellets behind her. The itchy papule comes from the immune reaction in the dermis below.",
+    "alt": "Skin section with a scabies burrow, mite and eggs"
+   }
+  ]
+ },
+ "features": {
+  "lead": "Burrows are the proof; look where mites like it warm.",
+  "photo": "m5w3:T01",
+  "points": [
+   "Generalised itch, worse at **night** and after a warm bath; **contacts itchy** too.",
+   "**Burrows**: short wavy grey threads (2–10 mm), mite at the leading end.",
+   "Secondary eruption: excoriated papules, eczematised patches away from burrows.",
+   "**Nodules** in axillae, groin, penis / scrotum; may persist after cure.",
+   "**Infants**: palms, soles, face, scalp. **Older adults**: few signs, back involved.",
+   "**Skin of colour**: violaceous or hyperpigmented papules."
+  ],
+  "visuals": [
+   {
+    "ai": "v3-scabies-map.jpg",
+    "caption": "Where to look: finger webs and sides of fingers, front of wrists, elbows, front armpit folds, nipples, waistband and navel, and groin. The head and neck are usually spared in healthy adults.",
+    "alt": "Body map of typical scabies sites"
+   }
+  ],
+  "variants": {
+   "title": "Signs to recognise",
+   "items": [
+    {
+     "name": "Finger webs",
+     "t": "Commonest site: papules, scale, burrows.",
+     "where": "Web spaces",
+     "photo": "m5w3:T02"
+    },
+    {
+     "name": "Dermoscopy",
+     "t": "Dark ‘delta-wing jet’ at the burrow end.",
+     "where": "Burrow",
+     "photo": "m5w3:T05"
+    },
+    {
+     "name": "Genital papules",
+     "t": "Itchy papules on penis or scrotum: highly suggestive.",
+     "where": "Genitals",
+     "photo": "m5w3:T07"
+    },
+    {
+     "name": "Nodular",
+     "t": "Persistent itchy nodules.",
+     "where": "Axilla, groin",
+     "photo": "m5w3:T08"
+    },
+    {
+     "name": "Infants",
+     "t": "Palms, soles, face and scalp.",
+     "where": "Whole body",
+     "photo": "m5w3:T09"
+    },
+    {
+     "name": "Crusted",
+     "t": "Thick grey-yellow crusts; itch may be mild.",
+     "where": "Hands, feet, scalp",
+     "photo": "m5w3:T11",
+     "tone": "danger"
+    }
+   ]
+  }
+ },
+ "confirm": {
+  "cols": [
+   {
+    "k": "Clinical",
+    "icon": "eye",
+    "points": [
+     "Night itch + itchy contacts + typical sites + burrows."
+    ]
+   },
+   {
+    "k": "Ink test",
+    "icon": "drop",
+    "points": [
+     "Washable ink over a burrow, wipe with alcohol: ink tracks the tunnel."
+    ]
+   },
+   {
+    "k": "Dermoscopy / scrape",
+    "icon": "flask",
+    "points": [
+     "‘Delta-wing jet’; microscopy for mites, eggs, scybala."
+    ]
+   },
+   {
+    "k": "Sexual contact?",
+    "icon": "chat",
+    "points": [
+     "Offer an **STI screen**; GUM for partner notification."
+    ]
+   }
+  ]
+ },
+ "differentials": {
+  "cards": [
+   {
+    "name": "Atopic eczema",
+    "clue": "Flexural, atopy; no burrows; contacts not itchy.",
+    "link": "eczema-dermatitis"
+   },
+   {
+    "name": "Insect bites",
+    "clue": "Grouped on exposed sites; pets or bed bugs.",
+    "link": "papular-urticaria-bites"
+   },
+   {
+    "name": "Dermatitis herpetiformis",
+    "clue": "Grouped vesicles on elbows, knees, buttocks; coeliac.",
+    "link": "dermatitis-herpetiformis"
+   },
+   {
+    "name": "Pompholyx",
+    "clue": "Deep palm vesicles; no trunk or genital papules.",
+    "link": "hand-eczema"
+   },
+   {
+    "name": "Body lice",
+    "clue": "Lice and eggs in clothing seams; homelessness."
+   },
+   {
+    "name": "‘Psoriasis’ in a care home",
+    "clue": "Scrape it: could be **crusted scabies**.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "manage": {
+  "lead": "Treat the household, not just the patient (NICE CKS / BNF).",
+  "rungs": [
+   {
+    "k": "Contacts and laundry",
+    "tone": "base",
+    "points": [
+     "Treat **everyone at once**: household, sexual partners (past month), carers.",
+     "Day 1: hot-wash and tumble bedding, towels, clothes, or bag for 3–4 days.",
+     "Children return to school **after the first treatment** (UKHSA)."
+    ]
+   },
+   {
+    "k": "First line",
+    "tone": "first",
+    "rx": [
+     {
+      "drug": "Permethrin 5% cream",
+      "dose": "Whole body from neck down incl. webs, under nails, genitals, soles; leave 8–12 h",
+      "dur": "Repeat after 7 days",
+      "note": "~30 g per adult application. Include scalp, face, ears if < 2, ≥ 65, immunocompromised or lesions there. OK in pregnancy and breastfeeding. P medicine from 2 months."
+     }
+    ]
+   },
+   {
+    "k": "Alternatives",
+    "tone": "second",
+    "rx": [
+     {
+      "drug": "Malathion 0.5% aqueous liquid",
+      "dose": "Whole body, leave 24 h",
+      "dur": "Repeat after 7 days",
+      "note": "Permethrin allergy or intolerance; ≥ 6 months."
+     },
+     {
+      "drug": "Oral ivermectin",
+      "dose": "200 micrograms/kg with food",
+      "dur": "Repeat after 7 days",
+      "note": "Avoid in pregnancy, breastfeeding, < 15 kg. Check formulary."
+     }
+    ]
+   },
+   {
+    "k": "Post-scabetic itch",
+    "tone": "third",
+    "points": [
+     "Lasts **2–4 weeks** (nodules longer): not failure.",
+     "Crotamiton 10%, hydrocortisone 1% once mites cleared, emollients, night-time sedating antihistamine.",
+     "New burrows or itch > 2–4 weeks after last dose: check technique and contacts."
+    ]
+   }
+  ],
+  "limits": [
+   {
+    "k": "Steroid before scabicide",
+    "t": "Can mask scabies or encourage crusted disease.",
+    "tone": "danger"
+   },
+   {
+    "k": "Over-application",
+    "t": "Irritant dermatitis is a common cause of ‘failure’ itch."
+   },
+   {
+    "k": "Fire risk",
+    "t": "Paraffin products on fabrics catch fire easily."
+   }
+  ]
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "same-day",
+    "t": "Suspected **crusted scabies**: specialist advice; isolation and outbreak control in care homes."
+   },
+   {
+    "when": "urgent",
+    "t": "Infant **under 2 months**: paediatric dermatology advice."
+   },
+   {
+    "when": "routine",
+    "t": "Failure after two correct courses with all contacts treated."
+   },
+   {
+    "when": "routine",
+    "t": "Significant secondary infection, systemic illness, or diagnostic doubt."
+   }
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "chat",
+   "t": "**One treatment night for everyone.**"
+  },
+  {
+   "icon": "clock",
+   "t": "Say the itch won’t stop at once: prevents over-application."
+  },
+  {
+   "icon": "hand",
+   "t": "Cut nails short; cream under nails; reapply to hands after every wash; mittens on infants."
+  },
+  {
+   "icon": "shield",
+   "t": "Pregnancy: permethrin first; malathion alternative; avoid ivermectin."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "How is permethrin 5% applied and repeated?",
+   "a": "Whole body from the neck down (incl. webs, under nails, genitals, soles), left 8–12 h, repeated after 7 days."
+  },
+  {
+   "q": "Who else must be treated, and when?",
+   "a": "All close contacts (household, sexual partners in the past month, carers) on the same night, symptomatic or not."
+  },
+  {
+   "q": "Why do contacts need treatment without itch?",
+   "a": "Itch is a delayed hypersensitivity starting 3–6 weeks after first infestation: they can be infested and infectious already."
+  },
+  {
+   "q": "Itch 2 weeks after correct treatment?",
+   "a": "Usually post-scabetic itch (hypersensitivity), not failure. Review if beyond 2–4 weeks or new burrows."
+  },
+  {
+   "q": "Care-home resident with thick crusts and itchy staff?",
+   "a": "Suspect crusted scabies: same-day specialist advice and outbreak control."
+  }
+ ]
+}

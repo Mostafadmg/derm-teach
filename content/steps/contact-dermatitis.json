@@ -1,0 +1,89 @@
+{
+ "_note": "Curated v3 overlay (batch 1), condensed from content/conditions/contact-dermatitis.json; full text kept under 'More detail'.",
+ "glance": {
+  "chips": ["Common", "Irritant > allergic", "Patch test for allergy", "Avoidance is the treatment"],
+  "points": [
+   {"icon": "eye", "k": "Spot it", "t": "Eczema that **matches an exposure** in time and place: wet-work hands, under a watch, eyelids from nail varnish."},
+   {"icon": "layers", "k": "Why", "t": "**Irritant**: direct barrier injury. **Allergic**: type IV reaction 24–72 h after re-exposure."},
+   {"icon": "pill", "k": "Treat", "t": "Avoid the cause, soap substitute + emollient, topical steroid matched to site."},
+   {"icon": "alert", "k": "Never miss", "t": "Occupational hand dermatitis, airborne allergy on the face, allergy to the treatment itself.", "tone": "danger"}
+  ]
+ },
+ "cause": {
+  "lead": "Two routes to the same eczema.",
+  "points": [
+   "**Irritant (ICD)**: water, detergents, solvents, friction. No sensitisation; dose matters.",
+   "**Allergic (ACD)**: nickel, fragrance, rubber accelerators, MI/MCI preservatives, PPD hair dye, topical medicines.",
+   "ACD needs prior **sensitisation**; then tiny amounts trigger it.",
+   "Mixed ICD + ACD is common on hands; about **four-fifths** of occupational hand dermatitis starts as irritant."
+  ],
+  "visuals": [
+   {"ai": "v3-contact-icd-acd.jpg", "caption": "Irritant (left): water and detergent crack the surface barrier directly. Allergic (right): allergen particles are captured by Langerhans cells and a delayed T-cell response floods the upper skin, with small fluid pockets (spongiosis).", "alt": "Two skin sections comparing irritant and allergic contact dermatitis"}
+  ]
+ },
+ "features": {
+  "lead": "Both look eczematous; the pattern gives the clue.",
+  "points": [
+   "**ICD**: burning or stinging > itch; sharp borders early; finger webs in wet work.",
+   "**ACD**: itch dominates; **geometric** shapes (glove, plaster, jewellery); may spread beyond contact.",
+   "**Face**: eyelids and hairline (cosmetics, hair dye); airborne fragrance on exposed skin.",
+   "**Tattoo**: eczema or lichenoid reaction in one ink colour.",
+   "**Skin of colour**: less redness; more violaceous pigment and lichenification."
+  ],
+  "visuals": [
+   {"ai": "v3-contact-sites-map.jpg", "caption": "Classic allergic contact sites: eyelids (nail varnish, cosmetics), earlobes (nickel), wrist (watch strap), below the navel (jeans stud), hands (gloves, products).", "alt": "Body map of typical allergic contact dermatitis sites"}
+  ]
+ },
+ "confirm": {
+  "cols": [
+   {"k": "History", "icon": "chat", "points": ["Job, hobbies, cosmetics, topical medicines.", "**Better on holiday?**"]},
+   {"k": "Irritant", "icon": "drop", "points": ["Clinical: an exposure story.", "No confirmatory test."]},
+   {"k": "Patch test", "icon": "flask", "points": ["Refer if **chronic, recurrent, occupational, facial or resistant**.", "Baseline series ± own products; photopatch if sunscreen suspected."]},
+   {"k": "Not prick tests", "icon": "help", "points": ["Prick / IgE tests are for **immediate contact urticaria** (e.g. latex), not ACD."]}
+  ]
+ },
+ "differentials": {
+  "cards": [
+   {"name": "Atopic eczema", "clue": "Flexural history; not limited to a contact site.", "link": "eczema-dermatitis"},
+   {"name": "Contact urticaria", "clue": "Wheals within **minutes** (e.g. latex).", "link": "urticaria-angioedema"},
+   {"name": "Hand psoriasis", "clue": "Sharp plaques, nail changes.", "link": "psoriasis"},
+   {"name": "Tinea", "clue": "Annular scaly edge; scrape for mycology.", "link": "tinea"},
+   {"name": "Photocontact", "clue": "Sun-exposed sites; shadow areas spared.", "link": "drug-photosensitivity"}
+  ]
+ },
+ "manage": {
+  "lead": "Remove the cause. Improvement can take weeks.",
+  "rungs": [
+   {"k": "Every patient", "tone": "base", "points": ["Identify and **avoid** the irritant or allergen.", "Soap substitute + liberal emollient.", "Cotton liners under gloves for wet work."]},
+   {"k": "Calm the flare", "tone": "first", "points": ["**Short topical corticosteroid** matched to site and severity.", "Face and flexures: mild to moderate potency."]},
+   {"k": "Find the allergen", "tone": "second", "points": ["Refer for **patch testing** when indicated (CKS / BAD / PCDS)."]},
+   {"k": "Occupational", "tone": "refer", "points": ["Fit note and workplace adjustments.", "RIDDOR reporting is employer-led: recognise and signpost."]}
+  ],
+  "limits": [
+   {"k": "Aqueous cream", "t": "Not as a leave-on emollient.", "tone": "danger"},
+   {"k": "Paraffin emollients", "t": "Fire risk on fabrics; slippery floors."},
+   {"k": "Facial pigment", "t": "Grey-brown pigment from cosmetics in darker skin: see contact & lichenoid pigmentation."}
+  ]
+ },
+ "refer": {
+  "items": [
+   {"when": "urgent", "t": "Severe **facial or eyelid swelling**, or systemic contact dermatitis."},
+   {"when": "routine", "t": "**Occupational** disease threatening livelihood: early patch testing and workplace advice."},
+   {"when": "routine", "t": "Suspected **airborne** allergy continuing despite stopping perfume."},
+   {"when": "routine", "t": "Not healing on treatment: think allergy to the **medicament** itself."}
+  ]
+ },
+ "pearls": [
+  {"icon": "hand", "t": "Many hand “allergies” are **irritant**: treat the barrier hard anyway."},
+  {"icon": "layers", "t": "Atopic patients get ICD more easily and can still develop ACD."},
+  {"icon": "eye", "t": "PPD hair dye and nail-varnish eyelid patterns are classic teaching cases."},
+  {"icon": "book", "t": "Check BNF / SmPC for topical steroid site limits."}
+ ],
+ "quiz": [
+  {"q": "Irritant or allergic: which needs prior sensitisation?", "a": "Allergic contact dermatitis (type IV). Irritant needs no sensitisation and is dose-dependent."},
+  {"q": "When does allergic contact dermatitis appear after re-exposure?", "a": "Typically 24–72 hours."},
+  {"q": "Which test confirms allergic contact dermatitis?", "a": "Patch testing (prick tests / IgE are for immediate contact urticaria)."},
+  {"q": "Who should be referred for patch testing?", "a": "Chronic, recurrent, occupational, facial or treatment-resistant suspected allergic contact dermatitis."},
+  {"q": "A rash worsens under a cream you prescribed. Think?", "a": "Contact allergy to the medicament itself (e.g. topical antibiotic or steroid)."}
+ ]
+}
