@@ -1,0 +1,268 @@
+{
+ "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
+ "key_facts": [
+  "**Milia** are 1–2 mm white **keratin cysts** just under the epidermis.",
+  "**Primary**: very common in newborns (nose, cheeks) and on adult eyelids and cheeks.",
+  "**Secondary**: after blistering, burns, dermabrasion, or potent topical steroids.",
+  "Diagnosis is clinical; look for a cause of secondary milia (e.g. PCT on the backs of the hands).",
+  "Reassure; troublesome milia can be de-roofed and expressed; topical retinoids for multiple lesions."
+ ],
+ "sections": [
+  {
+   "id": "overview",
+   "title": "Overview",
+   "blocks": [
+    "**Milia** are 1–2 mm superficial **keratin cysts** (tiny epidermoid cysts). **Primary** milia arise spontaneously (up to half of newborns; also adults on the eyelids and cheeks). **Secondary** milia follow blistering, trauma, burns, dermabrasion or potent topical steroids."
+   ]
+  },
+  {
+   "id": "epidemiology",
+   "title": "Epidemiology",
+   "blocks": [
+    {
+     "ul": [
+      {
+       "t": "**Who**",
+       "sub": [
+        "Up to half of newborns have milia; common at all ages.",
+        "Milia en plaque: rare plaque of milia, usually behind the ear in middle-aged women."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "aetiology",
+   "title": "Aetiology: causes and risk factors",
+   "blocks": [
+    "Primary milia form from the lower **infundibulum of vellus hairs**; secondary milia form when damaged sweat ducts, follicles or epidermis become trapped during healing.",
+    {
+     "h": "Risk factors and associations"
+    },
+    {
+     "ul": [
+      "Primary: retention of keratin in the lower infundibulum of vellus hairs.",
+      "Secondary: damage to follicles or sweat ducts during blistering or trauma; steroid-induced skin atrophy."
+     ]
+    },
+    {
+     "h": "Myths to address"
+    },
+    {
+     "ul": [
+      "**\"They're whiteheads\"**: milia are closed cysts without an opening; they do not respond to acne cleansers."
+     ]
+    }
+   ],
+   "short": "Aetiology"
+  },
+  {
+   "id": "pathophysiology",
+   "title": "Pathophysiology and pathology",
+   "blocks": [
+    "A milium is a **miniature epidermoid cyst** trapped just under the surface.",
+    {
+     "mech": [
+      {
+       "k": "Keratin retention",
+       "t": "Keratin made by a tiny follicle or sweat duct cannot escape to the surface."
+      },
+      {
+       "k": "Microcyst",
+       "t": "A sac lined by epidermis fills with layered keratin, seen as a pearly white dot.",
+       "img": "v4-milia-section.jpg",
+       "caption": "Milia: tiny keratin cysts in the upper dermis just beneath the epidermis, seen as white dome papules."
+      },
+      {
+       "k": "Secondary milia",
+       "t": "When blisters or wounds heal, fragments of epithelium are trapped and form new cysts."
+      }
+     ]
+    },
+    {
+     "histo": [
+      "Small cyst with a stratified squamous lining and laminated keratin, like a tiny epidermoid cyst."
+     ]
+    }
+   ],
+   "short": "Pathophysiology"
+  },
+  {
+   "id": "clinical-features",
+   "title": "Clinical features",
+   "blocks": [
+    {
+     "ul": [
+      "Firm, pearly **white or yellow** dome papules, 1–2 mm.",
+      "Face (eyelids, cheeks, nose) in primary milia; at sites of previous blisters or scars in secondary milia (e.g. hands in porphyria cutanea tarda or epidermolysis bullosa).",
+      "Neonatal milia: nose and cheeks; resolve within weeks."
+     ]
+    },
+    {
+     "h": "Special groups"
+    },
+    {
+     "ul": [
+      {
+       "t": "**Newborns**",
+       "sub": [
+        "Often with Epstein pearls in the mouth; reassure, resolves in weeks."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "diagnosis",
+   "title": "Diagnosis and investigations",
+   "blocks": [
+    "Clinical. Dermoscopy shows a white-yellow globule. Look for a cause of secondary milia (blistering disease, PCT, steroid use)."
+   ],
+   "short": "Diagnosis"
+  },
+  {
+   "id": "differentials",
+   "title": "Differential diagnoses",
+   "blocks": [
+    {
+     "ul": [
+      "**Comedones** (acne): central keratin plug in a follicle, other acne lesions.",
+      "**Syringoma**: skin-coloured papules on the lower eyelids.",
+      "**Sebaceous hyperplasia**: yellow umbilicated papules with crown vessels.",
+      "**Xanthelasma**: yellow plaques on the eyelids.",
+      "**Molluscum contagiosum**: umbilicated, pearly papules, often in children."
+     ]
+    }
+   ],
+   "short": "Differentials"
+  },
+  {
+   "id": "management",
+   "title": "Management",
+   "blocks": [
+    {
+     "ul": [
+      "**Reassure**; neonatal milia resolve without treatment.",
+      "If cosmetically troublesome: de-roofing with a sterile needle and gentle expression (de-roofing and extraction).",
+      "Topical retinoids may help multiple milia; avoid potent steroids that provoke them."
+     ]
+    },
+    {
+     "h": "Treatment ladder"
+    },
+    {
+     "ladder": [
+      {
+       "k": "Reassure",
+       "t": "Neonatal milia resolve within weeks; many adult milia persist but are harmless.",
+       "tone": "base"
+      },
+      {
+       "k": "Cosmetic removal",
+       "t": "De-roof with a sterile needle or blade and express the keratin (trained clinician).",
+       "tone": "first"
+      },
+      {
+       "k": "Multiple / secondary",
+       "t": "Topical retinoid; treat the underlying blistering disease; avoid potent topical steroids on the face.",
+       "tone": "second"
+      }
+     ]
+    },
+    {
+     "h": "Referral"
+    },
+    {
+     "refer": [
+      {
+       "when": "routine",
+       "t": "Milia with skin fragility, blisters and scarring on the backs of the hands: investigate for **porphyria cutanea tarda** or epidermolysis bullosa."
+      },
+      {
+       "when": "routine",
+       "t": "Milia en plaque or widespread milia: dermatology."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "red-flags",
+   "title": "Red flags and when to refer",
+   "blocks": [
+    {
+     "ul": []
+    },
+    {
+     "ul": [
+      "Milia on scarred, fragile skin of the backs of the hands: think **porphyria cutanea tarda** or epidermolysis bullosa acquisita."
+     ]
+    }
+   ],
+   "short": "Red flags"
+  },
+  {
+   "id": "complications",
+   "title": "Complications and prognosis",
+   "blocks": [
+    {
+     "h": "Complications"
+    },
+    {
+     "ul": [
+      "Cosmetic concern only; scarring if picked."
+     ]
+    },
+    {
+     "h": "Prognosis"
+    },
+    {
+     "ul": [
+      "Neonatal milia clear; adult and secondary milia may persist."
+     ]
+    }
+   ],
+   "short": "Complications"
+  },
+  {
+   "id": "pearls",
+   "title": "Prescriber pearls (UK pharmacist IP)",
+   "blocks": [
+    {
+     "ul": [
+      "Milia are **cysts**, not blocked sebaceous glands; squeezing without de-roofing does not work."
+     ]
+    }
+   ],
+   "short": "Pearls"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "What are milia?",
+   "a": "Tiny superficial keratin cysts (miniature epidermoid cysts), 1–2 mm, white."
+  },
+  {
+   "q": "Name three causes of secondary milia.",
+   "a": "Blistering diseases (PCT, EB, pemphigoid), burns or dermabrasion, potent topical steroids."
+  },
+  {
+   "q": "How are troublesome milia removed?",
+   "a": "De-roofing with a sterile needle or blade and gentle expression."
+  },
+  {
+   "q": "Do neonatal milia need treatment?",
+   "a": "No; they resolve on their own within weeks."
+  }
+ ],
+ "references": [],
+ "see_also": [
+  "skin-cysts",
+  "neonatal-rashes",
+  "porphyria-cutanea-tarda",
+  "epidermolysis-bullosa",
+  "acne-vulgaris"
+ ]
+}

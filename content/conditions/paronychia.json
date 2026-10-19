@@ -1,6 +1,6 @@
 {
  "slug": "paronychia",
- "title": "Paronychia (acute & chronic) and ingrowing toenail",
+ "title": "Paronychia (acute and chronic)",
  "category": "nails",
  "status": "published",
  "order": 1,
@@ -12,11 +12,9 @@
   "chronic paronychia",
   "candida paronychia",
   "wet work",
-  "ingrowing toenail",
-  "onychocryptosis",
   "flucloxacillin"
  ],
- "summary": "Acute paronychia is a painful bacterial nail-fold infection; chronic paronychia is an irritant, wet-work inflammation of the nail fold with loss of the cuticle, often colonised by *Candida*. Ingrowing toenail is a common, related problem.",
+ "summary": "Acute paronychia is a painful bacterial nail-fold infection; chronic paronychia is an irritant, wet-work inflammation of the nail fold with loss of the cuticle, often colonised by *Candida*.",
  "card_image": "m3w2:A01",
  "glance": {
   "think": "A red, swollen, tender nail fold: hours to days (acute) or weeks to months with a lost cuticle (chronic).",
@@ -147,17 +145,7 @@
      "**Recurrent acute episodes** in the same fold should make you think of an underlying chronic paronychia, an ingrowing nail, HSV, or (single digit, persistent, in an older adult) **SCC of the nail unit or amelanotic melanoma**."
     ]
    },
-   {
-    "h": "Ingrowing toenail (onychocryptosis)"
-   },
-   {
-    "list": [
-     "**Causes:** cutting nails curved or too short, tight shoes, hyperhidrosis, a naturally involuted (\"pincer\") nail. Commonest in teenagers and young men. **Retinoids** (isotretinoin) and some EGFR inhibitors cause periungual granulation tissue that looks the same.",
-     "**Stages:** inflammation → infection with granulation tissue (\"proud flesh\") → chronic hypertrophy of the fold.",
-     "**Conservative care:** cut the nail straight across, wear wide-toe-box shoes, warm salt soaks, lift the edge (cotton wisp or dental floss), use a gutter splint. Topical antiseptic. Antibiotics only for spreading cellulitis.",
-     "**Definitive:** **partial nail avulsion with phenol matricectomy** by **podiatry**. Success is ~95% and lower recurrence than avulsion alone. Total avulsion is for recurrent or bilateral disease. Diabetes or PAD → **refer early to podiatry** (foot-protection service)."
-    ]
-   }
+   "**Ingrowing toenail** is a separate problem: see [Ingrowing toenail](condition:ingrowing-toenail)."
   ],
   "red_flags": [
    "Spreading cellulitis, lymphangitis, fever or a **tense swollen finger pulp** (felon) or tendon-sheath signs: same-day surgical assessment.",

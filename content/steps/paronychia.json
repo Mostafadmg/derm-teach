@@ -4,8 +4,7 @@
   "chips": [
    "Acute = bacterial",
    "Chronic = wet work",
-   "Herpetic whitlow: don’t cut",
-   "Ingrowing toenail"
+   "Herpetic whitlow: don’t cut"
   ],
   "points": [
    {
@@ -175,14 +174,6 @@
     "points": [
      "Oral **itraconazole** or fluconazole (not terbinafine); check CYP3A4 interactions."
     ]
-   },
-   {
-    "k": "Ingrowing toenail",
-    "tone": "refer",
-    "points": [
-     "Cut straight across, wide shoes, salt soaks, lift the edge.",
-     "Definitive: **partial avulsion + phenol** by podiatry (~95% success); diabetes / PAD → refer early."
-    ]
    }
   ],
   "visuals": [
@@ -235,10 +226,6 @@
   {
    "q": "Main driver of chronic paronychia?",
    "a": "Wet work and irritant damage to the cuticle, with secondary Candida."
-  },
-  {
-   "q": "Definitive treatment for recurrent ingrowing toenail?",
-   "a": "Partial nail avulsion with phenol matricectomy (podiatry)."
   }
  ]
 }

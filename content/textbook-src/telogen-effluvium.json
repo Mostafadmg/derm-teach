@@ -1,0 +1,66 @@
+{
+ "kf": [
+  "**Telogen effluvium** is diffuse shedding about **2–3 months after a trigger**, when many follicles shift into telogen together.",
+  "Triggers: childbirth, febrile illness (including COVID-19), surgery, crash diets, iron deficiency, thyroid disease, new drugs.",
+  "Positive **hair-pull test** (more than 4–6 club hairs) in the acute phase; no scarring, no miniaturisation.",
+  "Check ferritin, thyroid function and full blood count if the trigger is unclear.",
+  "Reassure: regrowth over **6–12 months** once the trigger has gone; chronic TE lasts longer than 6 months."
+ ],
+ "epi": [
+  {
+   "t": "**Who**",
+   "sub": [
+    "Common at any age, more often reported by women.",
+    "Postpartum shedding affects many women 2–4 months after delivery."
+   ]
+  }
+ ],
+ "aet": [
+  "Physiological stress, hormonal change, nutritional deficiency or drugs (retinoids, anticoagulants, beta-blockers, stopping the combined pill)."
+ ],
+ "myths": [
+  "**\"Shedding means I'll go bald\"**: follicles are alive and will regrow.",
+  "**\"Hair supplements cure it\"**: only replace a proven deficiency."
+ ],
+ "patho_lead": "A shock **synchronises** hair cycles so many hairs rest and then fall together.",
+ "mech": [
+  {
+   "k": "Normal cycle",
+   "t": "Normally about 85–90% of scalp hairs are growing (anagen) and 10–15% resting (telogen) at any time."
+  },
+  {
+   "k": "Trigger",
+   "t": "A physiological shock pushes many anagen follicles into early **telogen** at once."
+  },
+  {
+   "k": "Delayed shedding",
+   "t": "Telogen lasts about 3 months, so club hairs shed in large numbers 2–3 months after the trigger."
+  },
+  {
+   "k": "Recovery",
+   "t": "New anagen hairs push out the old ones; short regrowing hairs at the hairline are a good sign."
+  }
+ ],
+ "histo": [
+  "Biopsy only if unclear: normal follicle numbers with an increased proportion of telogen follicles; no miniaturisation or inflammation."
+ ],
+ "special": [
+  {
+   "t": "**Postpartum**",
+   "sub": [
+    "Shedding peaks 3–4 months after delivery and usually settles by 12 months."
+   ]
+  }
+ ],
+ "comp": [
+  "Anxiety; may unmask underlying androgenetic alopecia."
+ ],
+ "prog": [
+  "Acute TE resolves in most within 6–12 months; chronic TE fluctuates over years but rarely causes baldness."
+ ],
+ "see_also": [
+  "androgenetic-alopecia",
+  "alopecia-areata",
+  "trichotillomania"
+ ]
+}

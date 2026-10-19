@@ -1,0 +1,85 @@
+{
+ "kf": [
+  "**Hidradenitis suppurativa (HS)** is a chronic inflammatory disease of the **hair follicle** in the flexures, not an infection of sweat glands.",
+  "Recurrent painful nodules, abscesses, sinus tracts and **rope-like scars** in the axillae, groin, buttocks and under the breasts; **double-ended comedones**.",
+  "Diagnosis is clinical: typical lesions, typical sites, recurrence (at least twice in 6 months).",
+  "Stop smoking, lose weight, analgesia, topical clindamycin 1%, then a **12-week tetracycline course**; screen for metabolic syndrome and depression.",
+  "Refer early for Hurley II–III or failed primary care treatment; biologics (adalimumab, secukinumab) are specialist."
+ ],
+ "epi": [
+  {
+   "t": "**Who**",
+   "sub": [
+    "About 1% of people; women about 3× more; starts after puberty, average delay to diagnosis around 7–10 years.",
+    "Strong links with **smoking** and **obesity**; a third have a family history."
+   ]
+  }
+ ],
+ "aet": [
+  "Follicular occlusion with genetic susceptibility (γ-secretase mutations in familial HS).",
+  "Smoking (nicotine promotes follicular plugging), obesity, friction, hormones."
+ ],
+ "myths": [
+  "**\"It's caused by poor hygiene\"**: it is not.",
+  "**\"Repeated incision and drainage cures it\"**: lancing gives brief relief but scars and recurs; treat the disease."
+ ],
+ "patho_lead": "HS starts with a **blocked hair follicle** that ruptures and drives chronic inflammation.",
+ "mech": [
+  {
+   "k": "Follicular occlusion",
+   "t": "Hyperkeratosis plugs the hair follicle infundibulum in apocrine-gland–bearing skin."
+  },
+  {
+   "k": "Dilation and rupture",
+   "t": "The follicle swells and ruptures, spilling keratin and bacteria into the dermis."
+  },
+  {
+   "k": "Inflammatory cascade",
+   "t": "Innate immunity (IL-1β, **TNF-α**, **IL-17**) causes painful nodules and abscesses: the targets of biologic drugs."
+  },
+  {
+   "k": "Tunnels and scars",
+   "t": "Repeated inflammation forms epithelialised **sinus tracts**, bridged and **tombstone** comedones, and rope-like scars.",
+   "img": "v3-hs-tombstone-comedones.jpg",
+   "cap": "Double-ended (tombstone) comedones and sinus tracts in HS."
+  },
+  {
+   "k": "Staging",
+   "t": "Hurley I: abscesses without tracts; II: recurrent abscesses with tracts and scars; III: diffuse interconnected tracts.",
+   "img": "v3-hs-hurley-stages.jpg",
+   "cap": "Hurley stages I–III."
+  }
+ ],
+ "histo": [
+  "Not needed for diagnosis. Follicular occlusion, perifolliculitis, abscesses and sinus tracts lined by epithelium."
+ ],
+ "special": [
+  {
+   "t": "**Pregnancy and contraception**",
+   "sub": [
+    "Tetracyclines are avoided in pregnancy; specialist advice on alternatives (e.g. clindamycin, some biologics)."
+   ]
+  },
+  {
+   "t": "**Skin of colour**",
+   "sub": [
+    "More common and often more severe in people of African descent; scarring and keloids."
+   ]
+  }
+ ],
+ "comp": [
+  "Chronic pain, odour, depression and suicide risk; impaired work and relationships.",
+  "Strictures, lymphoedema, anaemia, fistulae.",
+  "SCC in long-standing buttock or perineal disease (rare); associated Crohn's disease, spondyloarthritis, PCOS."
+ ],
+ "prog": [
+  "Chronic, relapsing; early treatment and lifestyle change limit scarring. Surgery (deroofing, excision) for persistent tracts."
+ ],
+ "see_also": [
+  "boils-carbuncles",
+  "folliculitis",
+  "acne-vulgaris",
+  "intertrigo",
+  "biologics-systemics"
+ ]
+}

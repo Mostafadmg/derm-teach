@@ -1,0 +1,67 @@
+{
+ "kf": [
+  "**Ingrowing toenail** (onychocryptosis): the nail edge pierces the lateral fold, usually of the **big toe**.",
+  "Commonest in teenagers and young men; causes: cutting nails curved or too short, tight shoes, hyperhidrosis, involuted nails.",
+  "Stages: inflammation → infection with granulation tissue → chronic fold hypertrophy.",
+  "Cut straight across, wide shoes, soaks, lift the edge; antibiotics only for spreading cellulitis.",
+  "Recurrent: **partial nail avulsion with phenol** by podiatry (about 95% success). Diabetes or PAD: refer early."
+ ],
+ "epi": [
+  {
+   "t": "**Who**",
+   "sub": [
+    "Adolescents and young adults, males more than females; also older people with thickened nails."
+   ]
+  }
+ ],
+ "aet": [
+  "Nail cutting, footwear, sweaty feet, trauma, pincer nails.",
+  "Drugs: isotretinoin and EGFR inhibitors cause similar periungual granulation."
+ ],
+ "myths": [
+  "**\"Cut a V in the middle of the nail\"**: this does not work; cut straight across.",
+  "**\"Antibiotics fix it\"**: they do not remove the spike of nail."
+ ],
+ "patho_lead": "A **spike of nail** acts as a foreign body in the nail fold.",
+ "mech": [
+  {
+   "k": "Penetration",
+   "t": "A sharp nail edge pierces the lateral fold, often after cutting the corner short."
+  },
+  {
+   "k": "Inflammation",
+   "t": "The fold becomes red, swollen and painful; bacteria colonise the wound."
+  },
+  {
+   "k": "Granulation tissue",
+   "t": "Continued irritation produces moist, bleeding 'proud flesh' overhanging the nail.",
+   "img": "v4-ingrowing-toenail.jpg",
+   "cap": "Ingrowing toenail with granulation tissue on the lateral fold; inset: nail cut straight across."
+  },
+  {
+   "k": "Cure",
+   "t": "Removing the edge and destroying that strip of matrix (phenol) stops regrowth."
+  }
+ ],
+ "special": [
+  {
+   "t": "**Diabetes and peripheral arterial disease**",
+   "sub": [
+    "High risk of infection, ulceration and amputation: early podiatry."
+   ]
+  }
+ ],
+ "comp": [
+  "Paronychia, cellulitis, osteomyelitis (rare).",
+  "Recurrence after simple avulsion."
+ ],
+ "prog": [
+  "Mild cases settle with conservative care; phenol matricectomy rarely recurs."
+ ],
+ "see_also": [
+  "paronychia",
+  "pyogenic-granuloma",
+  "onychomycosis",
+  "nail-signs"
+ ]
+}

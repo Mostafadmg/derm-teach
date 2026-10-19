@@ -1,0 +1,521 @@
+{
+ "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
+ "key_facts": [
+  "**Dermatofibroma** (benign fibrous histiocytoma) is a common firm dermal papule, usually on the **legs**.",
+  "Firm 'button' with a brown rim; the **dimple sign**: it puckers inwards when pinched.",
+  "Dermoscopy: central white scar-like patch with a fine peripheral pigment network.",
+  "Benign: reassure. Refer if growing, large, atypical or pigmented in an unusual way (exclude melanoma and DFSP).",
+  "Excision leaves a scar often worse than the lesion."
+ ],
+ "sections": [
+  {
+   "id": "overview",
+   "title": "Overview",
+   "blocks": [
+    "Dermatofibroma (DF) is a very common benign fibrohistiocytic proliferation in the dermis. It is seen mostly in adults aged 20–50 and is more common in women. It is a reactive or neoplastic nodule; which of the two is still debated.",
+    {
+     "h4": "Pigmented dermatofibroma"
+    },
+    "A dermatofibroma (core: the [skin lumps](condition:dermatofibroma) notes) with marked overlying epidermal hyperpigmentation. It is **commoner and darker in skin of colour**, so it is often brought in as a \"mole\"."
+   ]
+  },
+  {
+   "id": "epidemiology",
+   "title": "Epidemiology",
+   "blocks": [
+    {
+     "ul": [
+      {
+       "t": "**Who**",
+       "sub": [
+        "Young to middle-aged adults, more women; lower legs commonest."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "aetiology",
+   "title": "Aetiology: causes and risk factors",
+   "blocks": [
+    {
+     "ul": [
+      "Often follows minor trauma such as an insect bite, folliculitis or a shaving nick, but many patients recall none.",
+      "Dermal fibroblasts and histiocytes proliferate and trap collagen bundles at the periphery. The overlying epidermis is induced to thicken and hyperpigment, which is why the surface is often brown.",
+      "Multiple (eruptive) DFs (≥15, or many appearing quickly) are associated with altered immunity: SLE, HIV, immunosuppressive drugs and pregnancy.",
+      "Histology: Factor XIIIa positive, CD34 negative. This is the reverse of DFSP (see *Dermatofibrosarcoma protuberans*), and the stain pair is a favourite exam question."
+     ]
+    },
+    {
+     "h": "Pigmented dermatofibroma"
+    },
+    "Dermal fibrohistiocytic proliferation induces the overlying epidermis to thicken (acanthosis) and to increase basal melanin (\"dirty fingers\" rete ridges). Haemosiderin deposits make the aneurysmal/haemosiderotic variant blue-black.",
+    {
+     "h": "Risk factors and associations"
+    },
+    {
+     "ul": [
+      "Possibly a reaction to minor trauma such as an insect bite or ingrown hair; multiple lesions in immunosuppression (HIV, lupus)."
+     ]
+    },
+    {
+     "h": "Myths to address"
+    },
+    {
+     "ul": [
+      "**\"It's a mole\"**: it is a fibrous lesion, which explains its firmness and the dimple sign."
+     ]
+    }
+   ],
+   "short": "Aetiology"
+  },
+  {
+   "id": "pathophysiology",
+   "title": "Pathophysiology and pathology",
+   "blocks": [
+    "A dermatofibroma is a **fibrous reaction** in the dermis that tethers the skin above.",
+    {
+     "mech": [
+      {
+       "k": "Injury",
+       "t": "Minor trauma triggers fibroblasts and histiocytes to proliferate in the dermis."
+      },
+      {
+       "k": "Fibrosis",
+       "t": "Collagen and cells form a firm nodule that tethers the overlying epidermis.",
+       "img": "v3-df-dimple-sign.jpg",
+       "caption": "The dimple sign: pinching pushes the dermatofibroma downwards."
+      },
+      {
+       "k": "Epidermal response",
+       "t": "Overlying epidermis thickens and becomes pigmented, causing the brown rim."
+      }
+     ]
+    },
+    {
+     "histo": [
+      "Spindle cells and histiocytes trapping collagen bundles at the periphery ('collagen balls'); overlying acanthosis with basal pigmentation; CD34 negative (unlike DFSP)."
+     ]
+    }
+   ],
+   "short": "Pathophysiology"
+  },
+  {
+   "id": "clinical-features",
+   "title": "Clinical features",
+   "blocks": [
+    {
+     "ul": [
+      "Firm to hard papule or nodule, 3–10 mm, that feels like a \"button\" tethered to the skin but mobile over deeper tissue.",
+      "Colour varies (skin-coloured, pink, brown, or a darker rim with a paler centre), especially in darker skin (see the [benign lesion](condition:seborrhoeic-keratosis) notes, pigmented DF).",
+      "**Lower legs** are the classic site, then arms and trunk. Usually solitary and asymptomatic. It may itch or be tender, and it is often nicked when shaving.",
+      "**Dimple (Fitzpatrick / pinch) sign:** pinching the lesion from the sides makes it dimple inward.",
+      "Variants to know: cellular, aneurysmal/haemosiderotic (can enlarge quickly and look blue-black), atypical (\"pseudosarcomatous\"), and deep or subcutaneous. **Cellular, aneurysmal and atypical variants recur more often after excision, and rare cases metastasise.** This is the course [Case 1](condition:dermatofibroma) answer."
+     ]
+    },
+    {
+     "h": "Pigmented dermatofibroma"
+    },
+    {
+     "ul": [
+      "A firm 3–10 mm papule, brown to dark brown, often **darker at the rim with a paler centre**. Sometimes pink-brown.",
+      "Limbs (arms in [Case 1](condition:seborrhoeic-keratosis), legs classically). Slow growth over years. A positive dimple sign."
+     ]
+    },
+    {
+     "fig": {
+      "dermnet": "m2w1:A01"
+     }
+    },
+    {
+     "h": "Types to recognise"
+    },
+    {
+     "variants": [
+      {
+       "name": "Dimple sign",
+       "t": "Lateral pinch → dip. *Site: Leg.*",
+       "photo": "m2w1:A01"
+      },
+      {
+       "name": "Typical papule",
+       "t": "Firm pink-brown dome. *Site: Leg.*",
+       "photo": "m2w1:A02"
+      },
+      {
+       "name": "Pigmented DF",
+       "t": "Darker rim. *Site: Arm.*",
+       "photo": "m2w2:A02"
+      },
+      {
+       "name": "Dermoscopy",
+       "t": "Peripheral network, white centre. *Site: Dermoscopy.*",
+       "photo": "m2w1:A03"
+      }
+     ]
+    },
+    {
+     "h": "Special groups"
+    },
+    {
+     "ul": [
+      {
+       "t": "**DFSP warning**",
+       "sub": [
+        "A slowly enlarging firm plaque over 2–3 cm, especially on the trunk, may be dermatofibrosarcoma protuberans: refer."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "diagnosis",
+   "title": "Diagnosis and investigations",
+   "blocks": [
+    {
+     "ul": [
+      "Clinical: typical site, firmness, and the dimple sign.",
+      "Dermoscopy: a delicate peripheral pigment network with a **central white scar-like patch**. The commonest pattern, but not universal.",
+      "Biopsy is needed only for atypical lesions: >1 cm, rapid growth, ulceration, bleeding, recurrence after removal, unusual site (face, scalp, acral), or doubt between DF and a melanocytic lesion."
+     ]
+    },
+    {
+     "h": "Pigmented dermatofibroma"
+    },
+    {
+     "ul": [
+      "Pinch test. Dermoscopy: **delicate peripheral pigment network + central white scar-like area**. Some show a bland structureless or homogeneous pattern, and those are less reassuring, so refer if unsure.",
+      "**Immunohistochemistry teaching table** (course teaching extension; useful for reading histology reports):"
+     ]
+    },
+    {
+     "table": {
+      "head": [
+       "Stain",
+       "Positive in",
+       "Use"
+      ],
+      "rows": [
+       [
+        "**Factor XIIIa**",
+        "Dermatofibroma (dermal dendrocytes)",
+        "DF vs DFSP"
+       ],
+       [
+        "**CD34**",
+        "DFSP (also some vascular tumours, spindle cell lipoma)",
+        "DFSP vs DF"
+       ],
+       [
+        "**S100**",
+        "Melanocytes and melanoma, Langerhans cells, nerve sheath (neurofibroma, schwannoma)",
+        "Broad melanocytic/neural marker (sensitive, not specific)"
+       ],
+       [
+        "SOX10, Melan-A, HMB-45",
+        "Melanocytic lesions",
+        "More specific melanocytic markers. HMB-45 is patchy in naevi, diffuse in melanoma"
+       ],
+       [
+        "**BerEP4**",
+        "BCC (positive)",
+        "BCC vs SCC (usually negative)"
+       ],
+       [
+        "**CD1a**, langerin",
+        "Langerhans cells",
+        "Langerhans cell histiocytosis"
+       ],
+       [
+        "**CK20**",
+        "Merkel cell carcinoma (paranuclear \"dot\")",
+        "Merkel vs small-cell lung metastasis (TTF-1 positive, CK20 negative)"
+       ],
+       [
+        "CK7",
+        "Paget's / extramammary Paget's, adnexal tumours",
+        "Paget's"
+       ],
+       [
+        "CD30",
+        "Lymphomatoid papulosis, anaplastic large cell lymphoma",
+        "(see the [skin cancer](condition:basal-cell-carcinoma) notes MF)"
+       ]
+      ]
+     }
+    }
+   ],
+   "short": "Diagnosis"
+  },
+  {
+   "id": "differentials",
+   "title": "Differential diagnoses",
+   "blocks": [
+    {
+     "ddx": [
+      {
+       "name": "DFSP",
+       "f": "Growing plaque > 2–3 cm, trunk; CD34 +.",
+       "link": "dermatofibrosarcoma-protuberans",
+       "danger": true
+      },
+      {
+       "name": "Melanoma",
+       "f": "Changing pigmented lesion, atypical dermoscopy.",
+       "link": "melanoma",
+       "danger": true
+      },
+      {
+       "name": "Naevus",
+       "f": "Soft, no dimple.",
+       "link": "melanocytic-naevi"
+      },
+      {
+       "name": "Hypertrophic scar / keloid",
+       "f": "Injury history.",
+       "link": "acne-scars-keloids"
+      },
+      {
+       "name": "Epidermoid cyst",
+       "f": "Punctum, mobile.",
+       "link": "skin-cysts"
+      }
+     ]
+    },
+    {
+     "h4": "Pigmented dermatofibroma"
+    },
+    "Melanocytic naevus; **melanoma** (EFG, change, irregular dermoscopy); pigmented BCC (pearly, ovoid nests, arborising vessels); SK (stuck-on, milia-like cysts); post-inflammatory hyperpigmentation over a prurigo nodule; blue naevus."
+   ],
+   "short": "Differentials"
+  },
+  {
+   "id": "management",
+   "title": "Management",
+   "blocks": [
+    {
+     "ul": [
+      "**Typical DF:** reassure and give the BAD/DermNet leaflet. **No biopsy or removal is needed.- **Removal for cosmetic reasons only is generally not funded on the NHS.** NHS England's *Evidence-Based Interventions* programme and local \"procedures of limited clinical value\" policies restrict benign lesion removal to set criteria: diagnostic doubt, recurrent bleeding/infection, functional impairment or significant pain. Excision leaves a scar often larger and more visible than the DF, and incomplete removal (DF extends deeper than it looks) leads to recurrence.",
+      "Cryotherapy or shave can flatten a DF but often leaves a white mark and recurrence. These are specialist or GP-surgeon decisions, not IP.",
+      "**Refer (routine dermatology)** if diagnosis is uncertain, a variant is suspected, or the lesion is >1 cm and growing.",
+      "**Refer urgently** (two-week-wait / suspected cancer pathway) if it may be melanoma: NG12 weighted 7-point checklist ≥3, or features of nodular melanoma. Refer urgently (sarcoma or dermatology as per local pathway) if DFSP is suspected (see *Dermatofibrosarcoma protuberans*)."
+     ]
+    },
+    {
+     "h": "Pigmented dermatofibroma"
+    },
+    {
+     "ul": [
+      "Classic DF features plus the dimple sign: reassure; leaflet.",
+      "**Any doubt about a melanocytic lesion in darker skin: refer** (routine dermatology/teledermatology with dermoscopic). If the 7-point score is ≥3 (e.g. change in size + irregular colour), use the **suspected cancer pathway**.",
+      "Removal on cosmetic grounds is not routinely NHS-funded (the [skin lumps](condition:dermatofibroma) notes see *Pigmented dermatofibroma*)."
+     ]
+    },
+    {
+     "h": "Worked cases"
+    },
+    {
+     "h": "Case 1: 42-year-old woman, firm dome-shaped skin-coloured papule on the leg for 8 months"
+    },
+    {
+     "ul": [
+      "**Diagnosis:** dermatofibroma.",
+      "**Bedside test:** dimple (pinch/Fitzpatrick) sign. Dermoscopy: peripheral network with a central white patch.",
+      "**Subtype with recurrence/metastatic potential:** cellular (also aneurysmal and atypical) fibrous histiocytoma.",
+      "**Management (UK teaching answer):** reassure; no biopsy or removal for a typical lesion. Removal only for symptoms or diagnostic doubt, within local funding criteria. Refer if atypical (>1 cm, growing, ulcerated, recurrent) or if the 7-point checklist is ≥3. The course \"excise with a 3–5 mm margin\" is a reasonable specialist approach *if* excision is indicated, not a routine plan (see *Where course teaching differs from UK guidance*)."
+     ]
+    },
+    {
+     "h": "Case 2: 5-year-old boy, congenital hairless scalp patch, now thicker and yellow-orange"
+    },
+    {
+     "ul": [
+      "**Diagnosis:** sebaceous naevus of Jadassohn (pubertal/hormonal phase approaching; HRAS/KRAS mosaicism).",
+      "**Counsel:** risk of secondary neoplasms in adult life, mostly benign (trichoblastoma, syringocystadenoma papilliferum); BCC rare (<1%). Watch for any new lump, ulcer or bleeding.",
+      "**Management:** refer routinely to paediatric dermatology. Observation or elective complete excision (narrow margin, timing shared with the family; earlier for the face). Biopsy any nodule. Look for syndromic features (Schimmelpenning) if the lesion is extensive.",
+      "**Differential course teaching raised:** linear morphoea *en coup de sabre* (acquired, indurated, progressive, which needs urgent treatment)."
+     ]
+    },
+    {
+     "h": "Case 3: 38-year-old man with a forehead nodule, punctum and odorous contents; 56-year-old woman with multiple painful lipomas"
+    },
+    {
+     "ul": [
+      "**Diagnosis 1:** epidermoid (infundibular) cyst. **Syndrome association:** Gardner syndrome (FAP, APC): multiple early-onset cysts, osteomas, dental anomalies, desmoids, and colorectal polyposis.",
+      "**Management:** reassure. Treat inflammation without routine antibiotics. Elective complete excision of the cyst wall once quiet if criteria are met. Image midline dermoids first.",
+      "**Diagnosis 2:** Dercum's disease (adiposis dolorosa): painful lipomas, obesity, female, depression/fatigue. Symptomatic, multidisciplinary care; screen mood. Use NG12 sarcoma red flags for any enlarging lump."
+     ]
+    },
+    {
+     "h": "Treatment ladder"
+    },
+    {
+     "ladder": [
+      {
+       "k": "Reassure",
+       "t": "Explain the pinch test and benign nature; shaving guard if it catches.",
+       "tone": "base"
+      },
+      {
+       "k": "Removal",
+       "t": "NHS **Evidence-Based Interventions**: only for diagnostic doubt, recurrent bleeding / infection, function or significant pain. Excision scar often bigger than the DF; recurrence if incomplete; cryo / shave leaves white mark (specialist / GP-surgeon decision).",
+       "tone": "second"
+      },
+      {
+       "k": "Refer",
+       "t": "Routine dermatology if uncertain or symptomatic; eruptive DFs on immunosuppressants: review drugs.",
+       "tone": "refer"
+      }
+     ]
+    },
+    {
+     "h": "Referral"
+    },
+    {
+     "refer": [
+      {
+       "when": "urgent",
+       "t": "Changing pigmented lesion with atypical dermoscopy: suspected cancer pathway."
+      },
+      {
+       "when": "urgent",
+       "t": "Growing beyond 2–3 cm, irregular, nodular or on the trunk: **DFSP**."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "red-flags",
+   "title": "Red flags and when to refer",
+   "blocks": [
+    {
+     "ul": [
+      "Growing beyond 2–3 cm, irregular, nodular or on the trunk: think **DFSP** and refer.",
+      "Changing pigmented lesion with atypical dermoscopy: refer on a **suspected cancer pathway** (NICE NG12)."
+     ]
+    }
+   ],
+   "short": "Red flags"
+  },
+  {
+   "id": "complications",
+   "title": "Complications and prognosis",
+   "blocks": [
+    {
+     "h": "Complications"
+    },
+    {
+     "ul": [
+      "Itch or catching on razors; ulceration (rare)."
+     ]
+    },
+    {
+     "h": "Prognosis"
+    },
+    {
+     "ul": [
+      "Persists indefinitely; may flatten over years."
+     ]
+    }
+   ],
+   "short": "Complications"
+  },
+  {
+   "id": "pearls",
+   "title": "Prescriber pearls (UK pharmacist IP)",
+   "blocks": [
+    {
+     "pearls": [
+      "Teach the patient the pinch test and explain that it is \"a little knot of scar-like tissue\". Shaving over it causes bleeding; a shaving guard helps.",
+      "Many eruptive DFs in someone on immunosuppressants (e.g. methotrexate, biologics) or with possible SLE/HIV: check the drug list and consider whether investigations are warranted (GP/specialist).",
+      "A **painful DF** that the patient wants removed is a worked case in the [skin surgery](condition:skin-surgery-preop) notes surgery case. See the [skin surgery](condition:skin-surgery-preop) notes for the anticoagulant, latex and local anaesthetic issues.",
+      "Five years of slow growth fits DF, but **\"growth\" is still a 7-point major feature (2 points)**. Document the dimple sign and size, and photograph with a ruler for comparison.",
+      "In skin of colour, do not dismiss acral or nail pigmentation as \"ethnic\". See the [melanoma](condition:melanoma) notes (acral melanoma) and Hutchinson's sign."
+     ]
+    },
+    {
+     "h": "Pigmented dermatofibroma"
+    },
+    {
+     "h": "Where course teaching differs from UK guidance"
+    },
+    {
+     "table": {
+      "head": [
+       "Topic",
+       "Course teaching",
+       "UK guidance / practice",
+       "Teaching point"
+      ],
+      "rows": [
+       [
+        "Dermatofibroma management",
+        "Excise with a 3–5 mm margin",
+        "Typical DF: reassure. NHS commissioning (EBI, local PLCV policies) does not fund cosmetic removal. Excision only for diagnostic doubt or symptoms",
+        "Excision scar is often worse than the DF, and recurrence follows incomplete excision"
+       ],
+       [
+        "Sebaceous naevus",
+        "Excise in late childhood (earlier if facial)",
+        "UK practice increasingly favours observation, given the low malignancy risk. Excision is an elective shared decision",
+        "Present both options"
+       ],
+       [
+        "Sebaceous naevus",
+        "Topical sirolimus, laser",
+        "Not standard; unlicensed, specialist-only, weak evidence",
+        "Not IP options"
+       ],
+       [
+        "\"Infected\" cysts",
+        "(Not discussed)",
+        "Most are inflamed, not infected. Antibiotics only for cellulitis (NICE NG141, stewardship)",
+        "—"
+       ],
+       [
+        "Lipoma red flags",
+        "Clinical description only",
+        "NICE NG12: urgent direct-access ultrasound within 2 weeks for an unexplained lump increasing in size",
+        "Use the NG12 route explicitly"
+       ]
+      ]
+     }
+    }
+   ],
+   "short": "Pearls"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Dimple sign?",
+   "a": "Lateral pinch makes the papule dip inward."
+  },
+  {
+   "q": "Classic dermoscopy?",
+   "a": "Peripheral fine network + central white patch."
+  },
+  {
+   "q": "Stain pattern of DF?",
+   "a": "Factor XIIIa positive, CD34 negative."
+  },
+  {
+   "q": "‘DF’ growing to 4 cm on the chest?",
+   "a": "Refer to exclude DFSP."
+  }
+ ],
+ "references": [
+  {
+   "label": "Medscape: Dermatofibroma",
+   "url": "https://emedicine.medscape.com/article/1056742-overview"
+  }
+ ],
+ "see_also": [
+  "dermatofibrosarcoma-protuberans",
+  "melanocytic-naevi",
+  "melanoma",
+  "lipoma"
+ ]
+}

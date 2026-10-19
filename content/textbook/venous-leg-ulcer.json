@@ -1,0 +1,341 @@
+{
+ "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
+ "key_facts": [
+  "**Venous leg ulcers** are the commonest chronic leg ulcers (about 70%), caused by **venous hypertension**.",
+  "Gaiter area, especially over the **medial malleolus**; shallow, sloping-edged, exudative ulcer with haemosiderin, venous eczema and lipodermatosclerosis.",
+  "Always check **ABPI** before high compression to exclude significant arterial disease.",
+  "**Compression** is the cornerstone; plus elevation, walking, wound care and treatment of venous eczema.",
+  "Refer if not healing after about 2 weeks of optimal care, atypical, mixed arterial disease or for venous intervention (NICE CG168)."
+ ],
+ "sections": [
+  {
+   "id": "overview",
+   "title": "Overview",
+   "blocks": [
+    "A venous leg ulcer is full-thickness skin loss caused by **chronic venous insufficiency** (venous hypertension). It is the **most common** chronic leg ulcer. Other names are stasis ulcer and gravitational ulcer. Avoid calling it a ‘varicose ulcer’ if there are no varicose veins."
+   ]
+  },
+  {
+   "id": "epidemiology",
+   "title": "Epidemiology",
+   "blocks": [
+    {
+     "ul": [
+      {
+       "t": "**Who**",
+       "sub": [
+        "Older adults, more women; prevalence rises steeply after 65.",
+        "Risk factors: varicose veins, previous **DVT**, obesity, immobility, multiple pregnancies, leg trauma."
+       ]
+      },
+      {
+       "t": "**Burden**",
+       "sub": [
+        "Often chronic and recurrent: many recur within a year without ongoing compression."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "aetiology",
+   "title": "Aetiology: causes and risk factors",
+   "blocks": [
+    {
+     "ul": [
+      "**Valve incompetence**, previous **DVT**, obesity, immobility and calf-muscle pump failure cause **venous hypertension**.",
+      "This leads to oedema, haemosiderin deposition, inflammation and lipodermatosclerosis, with poor oxygen and nutrient delivery.",
+      "The skin then breaks down after **minor trauma** and fails to heal."
+     ]
+    },
+    {
+     "h": "Risk factors and associations"
+    },
+    {
+     "ul": [
+      "Calf-muscle pump failure (immobility, ankle stiffness, arthritis).",
+      "Post-thrombotic syndrome after DVT."
+     ]
+    },
+    {
+     "h": "Myths to address"
+    },
+    {
+     "ul": [
+      "**\"Swab every ulcer\"**: all chronic ulcers grow bacteria; swab only if clinically infected.",
+      "**\"Compression is unsafe in the elderly\"**: it is safe once ABPI shows adequate arterial supply."
+     ]
+    }
+   ],
+   "short": "Aetiology"
+  },
+  {
+   "id": "pathophysiology",
+   "title": "Pathophysiology and pathology",
+   "blocks": [
+    "Persistently high pressure in the leg veins damages the skin from the inside.",
+    {
+     "mech": [
+      {
+       "k": "Valve failure",
+       "t": "Incompetent valves in superficial, perforating or deep veins (often after DVT) let blood **reflux** downwards."
+      },
+      {
+       "k": "Venous hypertension",
+       "t": "Walking normally lowers ankle venous pressure; with reflux or pump failure it stays high (**ambulatory venous hypertension**)."
+      },
+      {
+       "k": "Capillary leak",
+       "t": "High pressure stretches capillaries; fluid, red cells (later **haemosiderin**) and fibrinogen leak into the tissues, causing oedema and brown staining."
+      },
+      {
+       "k": "Inflammation and fibrosis",
+       "t": "White cells trapped in capillaries release enzymes and cytokines; the dermis and fat scar (**lipodermatosclerosis**) and oxygen delivery falls."
+      },
+      {
+       "k": "Ulceration",
+       "t": "Minor trauma breaks the fragile skin, which cannot heal while venous pressure stays high: compression reverses this."
+      }
+     ]
+    },
+    {
+     "histo": [
+      "Not needed routinely. **Biopsy** a non-healing or atypical ulcer (rolled edge, exuberant tissue) to exclude SCC (Marjolin ulcer) or BCC."
+     ]
+    }
+   ],
+   "short": "Pathophysiology"
+  },
+  {
+   "id": "clinical-features",
+   "title": "Clinical features",
+   "blocks": [
+    {
+     "ul": [
+      "**Gaiter area**, most commonly over the **medial malleolus**.",
+      "**Shallow** ulcer with **sloping** edges, often **heavily exudative**.",
+      "Surrounding skin: varicose veins, brown **haemosiderin** staining, **venous eczema**, atrophie blanche, and **lipodermatosclerosis** (the ‘inverted champagne bottle’ leg).",
+      "**Dependent oedema**, worse when the leg is down.",
+      "Pain is usually milder than with arterial ulcers, unless the ulcer is infected."
+     ]
+    },
+    {
+     "fig": {
+      "dermnet": "m5w2:P01"
+     }
+    },
+    {
+     "h": "Special groups"
+    },
+    {
+     "ul": [
+      {
+       "t": "**Mixed arterial–venous disease**",
+       "sub": [
+        "ABPI below 0.8 needs reduced or no compression and vascular referral; diabetes can give a falsely high ABPI."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "diagnosis",
+   "title": "Diagnosis and investigations",
+   "blocks": [
+    {
+     "ul": [
+      "Clinical, with signs of venous disease.",
+      "**ABPI** (ankle–brachial pressure index) **before any high compression**, to exclude significant arterial disease.",
+      "Venous duplex if intervention is planned.",
+      "Swab **only** if there are clinical signs of infection."
+     ]
+    },
+    {
+     "h4": "ABPI"
+    },
+    {
+     "ul": [
+      "(ankle–brachial pressure index) **before any high compression**, to exclude significant arterial disease."
+     ]
+    },
+    {
+     "h4": "Key points"
+    },
+    {
+     "ul": [
+      "Clinical, with signs of venous disease.",
+      "Venous duplex if intervention is planned.",
+      "Swab **only** if there are clinical signs of infection."
+     ]
+    }
+   ],
+   "short": "Diagnosis"
+  },
+  {
+   "id": "differentials",
+   "title": "Differential diagnoses",
+   "blocks": [
+    {
+     "ddx": [
+      {
+       "name": "Arterial ulcer",
+       "f": "Punched-out, distal (toes, pressure points), claudication or rest pain, cold foot, weak pulses, **low ABPI**",
+       "link": "arterial-neuropathic-ulcers"
+      },
+      {
+       "name": "Neuropathic ulcer",
+       "f": "Plantar pressure points, **painless**, callus, diabetes with neuropathy",
+       "link": "arterial-neuropathic-ulcers"
+      },
+      {
+       "name": "Pyoderma gangrenosum",
+       "f": "Rapid, very painful, **violaceous undermined edge**; pathergy",
+       "link": "pyoderma-gangrenosum"
+      },
+      {
+       "name": "Vasculitic or malignant ulcer",
+       "f": "Atypical site or edge, rolled or raised margin, non-healing. **Biopsy or refer**"
+      },
+      {
+       "name": "Pressure ulcer",
+       "f": "Over a bony prominence in an immobile patient"
+      }
+     ]
+    },
+    "See also: [Arterial & neuropathic ulcers](condition:arterial-neuropathic-ulcers) · [Pyoderma gangrenosum](condition:pyoderma-gangrenosum)"
+   ],
+   "short": "Differentials"
+  },
+  {
+   "id": "management",
+   "title": "Management",
+   "blocks": [
+    "Based on NICE CG168 and local leg ulcer and tissue viability pathways.",
+    {
+     "ul": [
+      "**Compression** (multilayer bandaging or hosiery) is the cornerstone, **once ABPI is satisfactory**.",
+      "Leg elevation, walking and ankle exercises, weight management, and emollients.",
+      "Treat **venous eczema** with short courses of mild to potent topical steroid around (not in) the ulcer.",
+      "Wound care: moist healing and debridement by tissue viability. Do not use topical antibiotics routinely.",
+      "**Infection:** give systemic antibiotics **only** for spreading cellulitis or systemic signs. Colonisation is not infection.",
+      "Pentoxifylline is sometimes used as an adjunct, following specialist or local policy."
+     ]
+    },
+    {
+     "h": "Referral"
+    },
+    {
+     "refer": [
+      {
+       "when": "never",
+       "t": "**Low or abnormal ABPI**, absent pulses, rest pain or a cold foot: arterial disease, so **do not compress**. Refer to vascular."
+      },
+      {
+       "when": "routine",
+       "t": "Spreading redness, fever or systemic upset: cellulitis or sepsis."
+      },
+      {
+       "when": "routine",
+       "t": "Rolled, raised or irregular edge, bleeding, or failure to heal: biopsy to exclude **SCC or BCC** (Marjolin ulcer)."
+      },
+      {
+       "when": "routine",
+       "t": "Rapidly enlarging, very painful ulcer with a purple edge: suspect **pyoderma gangrenosum**."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "red-flags",
+   "title": "Red flags and when to refer",
+   "blocks": [
+    {
+     "ul": [
+      "**Low or abnormal ABPI**, absent pulses, rest pain or a cold foot: arterial disease, so **do not compress**. Refer to vascular.",
+      "Spreading redness, fever or systemic upset: cellulitis or sepsis.",
+      "Rolled, raised or irregular edge, bleeding, or failure to heal: biopsy to exclude **SCC or BCC** (Marjolin ulcer).",
+      "Rapidly enlarging, very painful ulcer with a purple edge: suspect **pyoderma gangrenosum**."
+     ]
+    },
+    {
+     "h4": "Refer"
+    },
+    "To vascular surgery, tissue viability or dermatology if: not healing after about 2 weeks of optimal care, atypical appearance, mixed arterial disease, or for venous intervention (NICE: refer for venous assessment)."
+   ],
+   "short": "Red flags"
+  },
+  {
+   "id": "complications",
+   "title": "Complications and prognosis",
+   "blocks": [
+    {
+     "h": "Complications"
+    },
+    {
+     "ul": [
+      "Cellulitis; contact allergy to dressings and topical treatments (common in leg ulcer patients).",
+      "Chronic pain, reduced mobility and isolation.",
+      "Malignant change in long-standing ulcers (rare)."
+     ]
+    },
+    {
+     "h": "Prognosis"
+    },
+    {
+     "ul": [
+      "Most heal within months with good compression; recurrence is common, so lifelong compression hosiery is advised after healing."
+     ]
+    }
+   ],
+   "short": "Complications"
+  },
+  {
+   "id": "pearls",
+   "title": "Prescriber pearls (UK pharmacist IP)",
+   "blocks": [
+    {
+     "pearls": [
+      "**Never start high compression without a vascular assessment or ABPI.**",
+      "Explain **lifelong compression stockings** after healing, because recurrence is common.",
+      "Good analgesia and exudate control improve adherence to compression.",
+      "Topical steroids on surrounding venous eczema help. Watch for contact allergy to dressings and topical products, which is common in leg ulcer patients."
+     ]
+    }
+   ],
+   "short": "Pearls"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Venous leg ulcer?",
+   "a": "A shallow, sloping, wet ulcer over the medial malleolus with haemosiderin staining, venous eczema, varicose veins and oedema that is worse at the end of the day."
+  },
+  {
+   "q": "What drives it?",
+   "a": "Venous hypertension from incompetent valves, previous DVT or calf-pump failure, causing oedema, inflammation and skin breakdown."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "ABPI, then multilayer compression, elevation, walking, emollient, and lifelong stockings after healing."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "Arterial disease before compressing, and a non-healing or atypical ulcer (malignancy, PG, vasculitis)."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "**Low or abnormal ABPI**, absent pulses, rest pain or a cold foot: arterial disease, so **do not compress**. Refer to vascular."
+  }
+ ],
+ "references": [],
+ "see_also": [
+  "arterial-neuropathic-ulcers",
+  "red-leg",
+  "cellulitis-erysipelas",
+  "pyoderma-gangrenosum",
+  "wound-aftercare"
+ ]
+}

@@ -1,0 +1,73 @@
+{
+ "kf": [
+  "**Paronychia** is inflammation of the nail fold: **acute** (usually bacterial, hours–days) or **chronic** (over about 6 weeks).",
+  "Acute: *S. aureus* or streptococci after minor trauma; one digit; pain, redness, pus.",
+  "Chronic: **wet work** destroys the cuticle; irritant dermatitis of the fold with *Candida* colonisation; several fingers.",
+  "Acute: warm soaks, drain pus; antibiotics only if spreading, unwell or high risk. Chronic: keep hands dry, cotton-lined gloves, potent steroid to the fold ± azole.",
+  "Grouped vesicles: **herpetic whitlow**, do not incise. A single persistent 'paronychia' may be melanoma or SCC."
+ ],
+ "epi": [
+  {
+   "t": "**Who**",
+   "sub": [
+    "Acute: any age, nail-biters, manicures, children sucking fingers.",
+    "Chronic: wet-work occupations (hairdressers, cleaners, caterers, healthcare), diabetes."
+   ]
+  }
+ ],
+ "aet": [
+  "Breach of the cuticle seal between fold and nail plate."
+ ],
+ "myths": [
+  "**\"Chronic paronychia is a fungal infection\"**: it is mainly irritant dermatitis of the fold; *Candida* is secondary."
+ ],
+ "patho_lead": "The **cuticle** is the seal; once it is lost, irritants and microbes get under the fold.",
+ "mech": [
+  {
+   "k": "Cuticle loss",
+   "t": "Trauma, picking, manicures or wet work break the cuticle seal."
+  },
+  {
+   "k": "Acute infection",
+   "t": "Bacteria enter the fold, forming pus beneath the eponychium.",
+   "img": "v3-paronychia-acute-chronic.jpg",
+   "cap": "Acute (single tense red fold with pus) versus chronic paronychia (several swollen folds with lost cuticles)."
+  },
+  {
+   "k": "Chronic dermatitis",
+   "t": "Repeated wetting causes irritant dermatitis; the fold lifts from the plate and *Candida* and Gram-negative bacteria colonise the gap."
+  },
+  {
+   "k": "Nail plate changes",
+   "t": "Matrix inflammation causes transverse ridges, discolouration and onycholysis."
+  },
+  {
+   "k": "Restoring the barrier",
+   "t": "Dry hands and cotton under rubber gloves let the cuticle regrow.",
+   "img": "v3-cotton-under-rubber-gloves.jpg",
+   "cap": "Cotton gloves under waterproof gloves protect the nail folds."
+  }
+ ],
+ "special": [
+  {
+   "t": "**Diabetes or immunosuppression**",
+   "sub": [
+    "Lower threshold for antibiotics and review."
+   ]
+  }
+ ],
+ "comp": [
+  "Abscess, felon, flexor tenosynovitis, osteomyelitis.",
+  "Nail dystrophy; chronic disease lasting months."
+ ],
+ "prog": [
+  "Acute: settles in days with drainage. Chronic: months, and recurs unless wet work is controlled."
+ ],
+ "see_also": [
+  "ingrowing-toenail",
+  "onychomycosis",
+  "hand-eczema",
+  "nail-signs",
+  "herpes-simplex-labialis"
+ ]
+}

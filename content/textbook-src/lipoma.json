@@ -1,0 +1,61 @@
+{
+ "kf": [
+  "**Lipomas** are benign tumours of mature fat cells: soft, rubbery, mobile, painless lumps.",
+  "Commonest soft-tissue tumour; trunk, neck, shoulders and proximal limbs; usually under 5 cm.",
+  "Ultrasound if uncertain. **Sarcoma** features: over 5 cm, deep to fascia, growing, painful or recurrent: urgent imaging or referral (NICE suspected cancer).",
+  "Reassure; cosmetic removal is usually not NHS-funded.",
+  "Multiple painful lipomas: angiolipomas or **Dercum's disease**; multiple lipomas can be familial."
+ ],
+ "epi": [
+  {
+   "t": "**Who**",
+   "sub": [
+    "Adults 40–60; about 1 in 100 people; more with obesity."
+   ]
+  }
+ ],
+ "aet": [
+  "Unknown; chromosomal rearrangements (12q13–15, HMGA2) in many; familial multiple lipomatosis; trauma possibly."
+ ],
+ "myths": [
+  "**\"Lipomas turn into cancer\"**: they almost never do; the concern is a sarcoma mistaken for a lipoma."
+ ],
+ "patho_lead": "A lipoma is a **capsule of normal-looking fat cells** growing slowly beneath the skin.",
+ "mech": [
+  {
+   "k": "Clonal fat cells",
+   "t": "Mature adipocytes proliferate as a lobulated mass with a thin fibrous capsule."
+  },
+  {
+   "k": "Slow growth",
+   "t": "Growth is slow and then plateaus; the capsule makes it mobile and well defined."
+  },
+  {
+   "k": "Variants",
+   "t": "Angiolipoma (vessels, tender), spindle-cell lipoma (back of neck in older men), deep lipomas within muscle."
+  }
+ ],
+ "histo": [
+  "Mature adipocytes with a thin capsule; angiolipomas contain small vessels with microthrombi. Atypical lipomatous tumour shows atypical stromal cells (MDM2 amplification)."
+ ],
+ "special": [
+  {
+   "t": "**Sarcoma red flags**",
+   "sub": [
+    "Size over 5 cm, growth, pain, deep location, recurrence after excision: urgent ultrasound or sarcoma pathway."
+   ]
+  }
+ ],
+ "comp": [
+  "Pressure on nerves; cosmetic concern; recurrence after excision (rare)."
+ ],
+ "prog": [
+  "Benign; persists unless excised."
+ ],
+ "see_also": [
+  "skin-cysts",
+  "other-skin-lumps",
+  "dermatofibroma",
+  "dermatofibrosarcoma-protuberans"
+ ]
+}

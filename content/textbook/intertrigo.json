@@ -1,0 +1,401 @@
+{
+ "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
+ "key_facts": [
+  "**Intertrigo** is inflammation of skin folds from friction, heat and moisture; it is a pattern, not one disease.",
+  "Breasts, groin, axillae, abdominal folds, between toes; obesity, diabetes, incontinence and hot weather predispose.",
+  "Look for secondary *Candida* (satellite papules), dermatophyte (active edge), **erythrasma** (coral-red Wood's light) or streptococcus.",
+  "Keep folds dry, reduce friction, barrier paste; hydrocortisone 1% for 1–2 weeks; topical azole if candida likely.",
+  "Persistent flexural rashes: think inverse psoriasis, seborrhoeic dermatitis, contact allergy, Hailey–Hailey or extramammary Paget's."
+ ],
+ "sections": [
+  {
+   "id": "overview",
+   "title": "Overview",
+   "blocks": [
+    "Superficial **inflammation of opposed skin surfaces** (flexures/folds) driven by heat, moisture, friction, and poor evaporation. May be purely irritant or complicated by yeast/bacteria; often overlaps inflammatory dermatoses (psoriasis, seborrhoeic dermatitis, contact allergy)."
+   ]
+  },
+  {
+   "id": "epidemiology",
+   "title": "Epidemiology",
+   "blocks": [
+    {
+     "ul": [
+      {
+       "t": "**Who**",
+       "sub": [
+        "Any age; common in obesity, diabetes, immobility, incontinence and infants (napkin and neck folds)."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "aetiology",
+   "title": "Aetiology: causes and risk factors",
+   "blocks": [
+    "Occluded flexures trap sweat → maceration → barrier failure → inflammation ± overgrowth of resident flora (*Candida*, Corynebacteria, dermatophytes, Staph/Strep). Risk: obesity, diabetes, hyperhidrosis, immobility, incontinence, tight synthetics, hot/humid environments. Infant napkin dermatitis is a related fold problem.",
+    {
+     "h": "Risk factors and associations"
+    },
+    {
+     "ul": [
+      "Skin-on-skin friction, trapped sweat, maceration, and alkaline irritants (urine, faeces)."
+     ]
+    },
+    {
+     "h": "Myths to address"
+    },
+    {
+     "ul": [
+      "**\"Talc keeps folds dry\"**: it can clump and irritate; dry gently and use a barrier."
+     ]
+    }
+   ],
+   "short": "Aetiology"
+  },
+  {
+   "id": "pathophysiology",
+   "title": "Pathophysiology and pathology",
+   "blocks": [
+    "Folds trap heat and moisture, so the barrier **macerates** and rubs raw.",
+    {
+     "mech": [
+      {
+       "k": "Occlusion",
+       "t": "Skin-to-skin contact traps sweat and raises temperature.",
+       "img": "v3-intertrigo-fold-section.jpg",
+       "caption": "Inside a skin fold: trapped moisture and friction break down the barrier."
+      },
+      {
+       "k": "Maceration and friction",
+       "t": "Wet stratum corneum softens and erodes with movement."
+      },
+      {
+       "k": "Secondary infection",
+       "t": "Damaged skin is colonised by *Candida*, dermatophytes, *Corynebacterium* (erythrasma) or streptococci."
+      },
+      {
+       "k": "Typical sites",
+       "t": "Submammary, axillary, inguinal, abdominal and interdigital folds.",
+       "img": "v3-intertrigo-fold-map.jpg",
+       "caption": "Common intertrigo sites."
+      }
+     ]
+    }
+   ],
+   "short": "Pathophysiology"
+  },
+  {
+   "id": "clinical-features",
+   "title": "Clinical features",
+   "blocks": [
+    {
+     "ul": [
+      "Erythema, itch/burn, moist/macerated skin, fissures in crease depth, peeling.",
+      "Sites: inframammary, axillae, groin, abdominal apron, natal cleft, neck, finger/toe webs.",
+      "**Worked case:** 50-year-old; 3-month itchy red **symmetrical inframammary** rash; smooth surface, well-defined borders, mild peripheral scale; **KOH negative**; on HRT; no other sites or new topicals → diagnosis **intertrigo** (inflammatory/irritant-predominant)."
+     ]
+    },
+    "Secondary infection clues: satellite pustules (candida), foul odour (Gram-negatives), honey crusts (impetigo), coral-red Wood lamp (erythrasma).",
+    {
+     "fig": {
+      "dermnet": "m3w5:B01"
+     }
+    },
+    {
+     "h": "Fold rashes to tell apart"
+    },
+    {
+     "variants": [
+      {
+       "name": "Candida",
+       "t": "Beefy red with satellite papules / pustules. *Site: Folds.*",
+       "photo": "m3w5:D01"
+      },
+      {
+       "name": "Tinea cruris",
+       "t": "Raised active border, central clearing; often asymmetrical. *Site: Groin.*",
+       "photo": "m3w5:D02"
+      },
+      {
+       "name": "Erythrasma",
+       "t": "Red-brown patch, little scale or itch. *Site: Axilla, groin.*",
+       "photo": "m3w5:D03"
+      },
+      {
+       "name": "Erythrasma, Wood’s lamp",
+       "t": "Coral-red fluorescence. *Site: Wood’s lamp.*",
+       "photo": "m3w5:D04"
+      },
+      {
+       "name": "Seborrhoeic",
+       "t": "Ill-defined salmon-pink; check scalp and face. *Site: Axilla.*",
+       "photo": "m3w5:D05"
+      },
+      {
+       "name": "Hailey–Hailey",
+       "t": "Painful erosions, fissures; familial: refer. *Site: Axilla, groin.*",
+       "photo": "m3w5:D06",
+       "danger": true
+      }
+     ]
+    },
+    {
+     "h": "Special groups"
+    },
+    {
+     "ul": [
+      {
+       "t": "**Skin of colour**",
+       "sub": [
+        "Erythema may look brown or purple; post-inflammatory pigmentation is common."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "diagnosis",
+   "title": "Diagnosis and investigations",
+   "blocks": [
+    "Clinical. KOH/mycology if scale, satellites, or treatment failure; bacterial swab if pustules/crust/odour; consider patch testing if allergen suspected; biopsy if atypical or refractory (granular parakeratosis, Hailey–Hailey, etc.).",
+    {
+     "h4": "Clinical"
+    },
+    {
+     "ul": [
+      "Most are clinical."
+     ]
+    },
+    {
+     "h4": "KOH / mycology"
+    },
+    {
+     "ul": [
+      "If scale, satellites or treatment failure."
+     ]
+    },
+    {
+     "h4": "Swab / Wood’s lamp"
+    },
+    {
+     "ul": [
+      "Swab if pustules, crust, odour; Wood’s lamp for erythrasma."
+     ]
+    },
+    {
+     "h4": "Biopsy / patch test"
+    },
+    {
+     "ul": [
+      "Atypical, one fold that won’t clear, or suspected allergy."
+     ]
+    }
+   ],
+   "short": "Diagnosis"
+  },
+  {
+   "id": "differentials",
+   "title": "Differential diagnoses",
+   "blocks": [
+    {
+     "ddx": [
+      {
+       "name": "Candida intertrigo",
+       "f": "Satellite pustules; KOH positive.",
+       "link": "candida-intertrigo"
+      },
+      {
+       "name": "Tinea cruris",
+       "f": "Annular, raised active edge.",
+       "link": "tinea"
+      },
+      {
+       "name": "Inverse psoriasis",
+       "f": "Shiny, well-demarcated; relapses as treatment stops.",
+       "link": "psoriasis"
+      },
+      {
+       "name": "Seborrhoeic dermatitis",
+       "f": "Salmon-pink; scalp, face, ears."
+      },
+      {
+       "name": "Hidradenitis",
+       "f": "Nodules, sinuses, rope scars.",
+       "link": "hidradenitis-suppurativa"
+      },
+      {
+       "name": "Extramammary Paget",
+       "f": "One fold that fails to clear in an older adult: biopsy.",
+       "danger": true
+      }
+     ]
+    },
+    "A KOH-negative picture still overlaps early inverse psoriasis and seborrhoeic dermatitis — reassess if not settling with dry-care + mild steroid.",
+    {
+     "h4": "Flexural differential table"
+    },
+    "Key takeaway: when treating flexural rashes, **keep dry**, address incontinence/sweating/obesity, and **screen secondary bacterial/fungal infection**."
+   ],
+   "short": "Differentials"
+  },
+  {
+   "id": "management",
+   "title": "Management",
+   "blocks": [
+    "**Cornerstone — keep dry and reduce friction**:",
+    {
+     "ul": [
+      "Shower after sweating; **dry folds thoroughly** (cool hairdryer useful under breasts/axillae).",
+      "Loose natural-fibre clothing; address incontinence and obesity where relevant.",
+      "Barrier pastes (e.g. zinc oxide) for weepy irritant folds; avoid irritating talc as primary strategy.",
+      "Mild topical corticosteroid short course (e.g. **hydrocortisone 1%** 1–2 weeks) for inflammatory intertrigo once infection unlikely/treated.",
+      "If candida likely or empiric after failed dry-care: topical azole (± mild steroid combo products used cautiously in primary care).",
+      "Bacterial secondary infection: topical or oral antibiotic per local guidance.",
+      "Avoid potent/very potent steroids in folds (atrophy, striae, rebound)."
+     ]
+    },
+    "Further management: follow-up response; if persists → repeat mycology/culture; reconsider inverse psoriasis, contact allergy, seborrhoeic dermatitis; review HRT/medications only if clinically relevant contributors.",
+    {
+     "h": "Treatment ladder"
+    },
+    {
+     "ladder": [
+      {
+       "k": "Keep dry, reduce friction",
+       "t": "Shower after sweating; **dry folds thoroughly** (cool hairdryer). Loose natural fibres; address incontinence and weight.",
+       "tone": "base"
+      },
+      {
+       "k": "Mild steroid",
+       "t": "**Hydrocortisone 1%**, 1–2 weeks, once infection unlikely or treated.",
+       "tone": "first"
+      },
+      {
+       "k": "Treat the organism",
+       "t": "Candida likely: topical azole (± mild steroid combo, used cautiously). Bacterial: topical or oral antibiotic per local guidance.",
+       "tone": "second"
+      },
+      {
+       "k": "Not settling",
+       "t": "Repeat mycology / culture; rethink inverse psoriasis, contact allergy, seborrhoeic dermatitis.",
+       "tone": "third"
+      }
+     ]
+    },
+    {
+     "callout": "warn",
+     "title": "Prescribing limits and pitfalls",
+     "list": [
+      "**Potent steroids in folds**: Atrophy, striae and rebound: avoid.",
+      "**Combo creams**: Pragmatic, but reassess if no infection signs and no improvement."
+     ]
+    },
+    {
+     "h": "Referral"
+    },
+    {
+     "refer": [
+      {
+       "when": "same-day",
+       "t": "Spreading redness, pain and fever: **cellulitis**."
+      },
+      {
+       "when": "urgent",
+       "t": "Single fold that won’t clear, especially older adult: biopsy for **extramammary Paget**."
+      },
+      {
+       "when": "routine",
+       "t": "Relapses as soon as treatment stops: think **inverse psoriasis**."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "red-flags",
+   "title": "Red flags and when to refer",
+   "blocks": [
+    {
+     "ul": [
+      "Rash that fails to clear in one fold, especially in an older adult: biopsy for **extramammary Paget disease**.",
+      "Spreading redness, pain and fever: cellulitis.",
+      "Repeated ‘intertrigo’ that relapses as soon as treatment stops: think **inverse psoriasis** (see the [psoriasis](condition:psoriasis) page)."
+     ]
+    }
+   ],
+   "short": "Red flags"
+  },
+  {
+   "id": "complications",
+   "title": "Complications and prognosis",
+   "blocks": [
+    {
+     "h": "Complications"
+    },
+    {
+     "ul": [
+      "Secondary infection, fissuring, odour, pain; cellulitis in diabetes."
+     ]
+    },
+    {
+     "h": "Prognosis"
+    },
+    {
+     "ul": [
+      "Recurs unless predisposing factors are managed."
+     ]
+    }
+   ],
+   "short": "Complications"
+  },
+  {
+   "id": "pearls",
+   "title": "Prescriber pearls (UK pharmacist IP)",
+   "blocks": [
+    {
+     "pearls": [
+      "KOH negative ≠ “never fungal” — sampling error and mixed pictures exist; re-test if course atypical.",
+      "Combination clotrimazole–HC / similar: pragmatic in primary care but reassess if no clear infection signs and no improvement.",
+      "Counsel that **prevention** (dryness) beats endless cream cycles."
+     ]
+    }
+   ],
+   "short": "Pearls"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Coral-red fluorescence under Wood’s lamp?",
+   "a": "Erythrasma (Corynebacterium)."
+  },
+  {
+   "q": "First step for KOH-negative irritant intertrigo?",
+   "a": "Dry-care and friction reduction, plus a short course of hydrocortisone 1%."
+  },
+  {
+   "q": "Why avoid potent steroids in folds?",
+   "a": "Natural occlusion increases absorption: atrophy, striae, rebound."
+  },
+  {
+   "q": "One fold that never clears in an older woman?",
+   "a": "Biopsy to exclude extramammary Paget disease."
+  }
+ ],
+ "references": [
+  {
+   "label": "Medscape: Intertrigo & the flexural differential",
+   "url": "https://emedicine.medscape.com/article/1087691-overview"
+  }
+ ],
+ "see_also": [
+  "candida-intertrigo",
+  "tinea",
+  "psoriasis",
+  "napkin-dermatitis",
+  "perineal-dermatoses"
+ ]
+}

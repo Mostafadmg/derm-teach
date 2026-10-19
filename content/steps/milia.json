@@ -1,0 +1,59 @@
+{
+ "_note": "curated (split from skin-cysts, Oct 2026)",
+ "manage": {
+  "lead": "Harmless: treat only if they bother the patient.",
+  "rungs": [
+   {
+    "k": "Reassure",
+    "tone": "base",
+    "points": [
+     "Neonatal milia resolve within weeks; many adult milia persist but are harmless."
+    ]
+   },
+   {
+    "k": "Cosmetic removal",
+    "tone": "first",
+    "points": [
+     "De-roof with a sterile needle or blade and express the keratin (trained clinician)."
+    ]
+   },
+   {
+    "k": "Multiple / secondary",
+    "tone": "second",
+    "points": [
+     "Topical retinoid; treat the underlying blistering disease; avoid potent topical steroids on the face."
+    ]
+   }
+  ]
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "routine",
+    "t": "Milia with skin fragility, blisters and scarring on the backs of the hands: investigate for **porphyria cutanea tarda** or epidermolysis bullosa."
+   },
+   {
+    "when": "routine",
+    "t": "Milia en plaque or widespread milia: dermatology."
+   }
+  ]
+ },
+ "quiz": [
+  {
+   "q": "What are milia?",
+   "a": "Tiny superficial keratin cysts (miniature epidermoid cysts), 1–2 mm, white."
+  },
+  {
+   "q": "Name three causes of secondary milia.",
+   "a": "Blistering diseases (PCT, EB, pemphigoid), burns or dermabrasion, potent topical steroids."
+  },
+  {
+   "q": "How are troublesome milia removed?",
+   "a": "De-roofing with a sterile needle or blade and gentle expression."
+  },
+  {
+   "q": "Do neonatal milia need treatment?",
+   "a": "No; they resolve on their own within weeks."
+  }
+ ]
+}

@@ -1,0 +1,377 @@
+{
+ "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
+ "key_facts": [
+  "**Androgenetic alopecia** (male- and female-pattern hair loss) is the commonest cause of hair loss: genetic sensitivity of follicles to androgens.",
+  "Men: temporal recession and vertex thinning (Hamilton–Norwood); women: diffuse crown thinning with a **preserved frontal hairline** and widened parting (Ludwig).",
+  "Hallmark: **miniaturisation** (hairs of varying thickness).",
+  "Topical **minoxidil** 2% or 5% for both sexes (continuous, about 6 months to judge); **finasteride 1 mg** in men.",
+  "In women with signs of hyperandrogenism (acne, hirsutism, irregular periods) check for PCOS or another cause."
+ ],
+ "sections": [
+  {
+   "id": "overview",
+   "title": "Overview",
+   "blocks": [
+    "**Androgenetic alopecia (AGA)** is genetically predisposed, androgen-mediated, progressive **follicular miniaturisation**.",
+    {
+     "table": {
+      "head": [
+       "",
+       "Male pattern (MPHL)",
+       "Female pattern (FPHL)"
+      ],
+      "rows": [
+       [
+        "Pattern",
+        "Frontotemporal recession plus vertex (Norwood–Hamilton)",
+        "Mid-frontal and crown thinning with a **widened parting** (‘Christmas tree’); **frontal hairline usually preserved** (Ludwig/Sinclair)"
+       ],
+       [
+        "Androgens",
+        "Normal",
+        "Usually **normal**. Check for PCOS if there are acne, hirsutism or irregular periods"
+       ]
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "epidemiology",
+   "title": "Epidemiology",
+   "blocks": [
+    {
+     "ul": [
+      {
+       "t": "**Who**",
+       "sub": [
+        "About half of men by 50 and up to 40% of women by 70.",
+        "Strong family history; onset after puberty."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "aetiology",
+   "title": "Aetiology: causes and risk factors",
+   "blocks": [
+    {
+     "ul": [
+      "**DHT** (from testosterone via 5α-reductase) shortens anagen and miniaturises follicles in a genetically susceptible scalp.",
+      "Polygenic inheritance from **both** sides of the family.",
+      "Women with true hyperandrogenism may show a male-type pattern with acne, hirsutism and irregular periods (consider PCOS)."
+     ]
+    },
+    {
+     "h": "Risk factors and associations"
+    },
+    {
+     "ul": [
+      "Polygenic inheritance (androgen receptor gene on the X chromosome and others).",
+      "**Dihydrotestosterone (DHT)** formed by 5α-reductase in the scalp."
+     ]
+    },
+    {
+     "h": "Myths to address"
+    },
+    {
+     "ul": [
+      "**\"Hats or frequent washing cause baldness\"**: they do not.",
+      "**\"Minoxidil can be stopped once hair returns\"**: stopping loses the gains within months."
+     ]
+    }
+   ],
+   "short": "Aetiology"
+  },
+  {
+   "id": "pathophysiology",
+   "title": "Pathophysiology and pathology",
+   "blocks": [
+    "DHT gradually **shrinks** genetically susceptible scalp follicles.",
+    {
+     "mech": [
+      {
+       "k": "Androgen activation",
+       "t": "5α-reductase type II converts testosterone to **DHT** in the follicle; finasteride blocks this step."
+      },
+      {
+       "k": "Shorter anagen",
+       "t": "DHT shortens each growth phase, so hairs grow for less time and are shorter."
+      },
+      {
+       "k": "Miniaturisation",
+       "t": "Each cycle produces a thinner, shorter, less pigmented hair until terminal hairs become vellus-like."
+      },
+      {
+       "k": "Visible thinning",
+       "t": "More follicles in telogen and fewer terminal hairs give see-through scalp in a patterned distribution."
+      }
+     ]
+    },
+    {
+     "histo": [
+      "Rarely needed: reduced terminal-to-vellus ratio, increased telogen hairs, no scarring. Dermoscopy shows variable hair diameter (anisotrichosis)."
+     ]
+    }
+   ],
+   "short": "Pathophysiology"
+  },
+  {
+   "id": "clinical-features",
+   "title": "Clinical features",
+   "blocks": [
+    {
+     "ul": [
+      "Gradual, **non-scarring** thinning with miniaturised hairs and **variable hair diameter**.",
+      "The pull test is usually **negative** (positive in telogen effluvium).",
+      "Psychological distress is common in both sexes."
+     ]
+    },
+    {
+     "fig": {
+      "dermnet": "m6w6:K01"
+     }
+    },
+    {
+     "h": "Special groups"
+    },
+    {
+     "ul": [
+      {
+       "t": "**Women**",
+       "sub": [
+        "Usually normal androgen levels; test only if there are features of hyperandrogenism.",
+        "Spironolactone is an off-label specialist option; contraception needed."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "diagnosis",
+   "title": "Diagnosis and investigations",
+   "blocks": [
+    {
+     "ul": [
+      "Clinical ± dermoscopy (miniaturisation, hair diameter diversity).",
+      "**Bloods** if there is sudden shedding, signs of scarring, or features of hyperandrogenism or systemic disease in women: **ferritin, TFTs**, and hormones as indicated.",
+      "Biopsy is rarely needed."
+     ]
+    },
+    {
+     "h4": "Bloods"
+    },
+    {
+     "ul": [
+      "if there is sudden shedding, signs of scarring, or features of hyperandrogenism or systemic disease in women: **ferritin, TFTs**, and hormones as indicated."
+     ]
+    },
+    {
+     "h4": "Key points"
+    },
+    {
+     "ul": [
+      "Clinical ± dermoscopy (miniaturisation, hair diameter diversity).",
+      "Biopsy is rarely needed."
+     ]
+    }
+   ],
+   "short": "Diagnosis"
+  },
+  {
+   "id": "differentials",
+   "title": "Differential diagnoses",
+   "blocks": [
+    {
+     "ddx": [
+      {
+       "name": "Telogen effluvium",
+       "f": "Acute diffuse shedding 2–3 months after a trigger; **positive pull test**",
+       "link": "telogen-effluvium"
+      },
+      {
+       "name": "Alopecia areata",
+       "f": "Patchy, with exclamation-mark hairs; may be diffuse",
+       "link": "alopecia-areata"
+      },
+      {
+       "name": "Traction / trichotillomania",
+       "f": "Trauma pattern; broken hairs of different lengths"
+      },
+      {
+       "name": "Scarring alopecias",
+       "f": "Loss of follicle openings, redness, scale, pain. **Refer**"
+      },
+      {
+       "name": "Nutritional / thyroid",
+       "f": "Systemic features; blood tests"
+      }
+     ]
+    }
+   ],
+   "short": "Differentials"
+  },
+  {
+   "id": "management",
+   "title": "Management",
+   "blocks": [
+    "Check doses in the current BNF and SmPC. Off-label agents follow local dermatology advice.",
+    {
+     "h": "Established options"
+    },
+    {
+     "ul": [
+      "**Topical minoxidil** 2% or 5% for **both sexes**. It must be used continuously. An **initial shed** is possible in the first weeks. Facial hair can appear if it runs onto the face. Allow about 6 months to judge the effect.",
+      "**Oral finasteride 1 mg** (men), a type II 5α-reductase inhibitor. Counsel on **sexual and mood side effects** (MHRA warning on psychiatric effects and suicidal thoughts). It is **teratogenic to a male fetus**: contraindicated in pregnancy, and women who are or may become pregnant must not handle crushed or broken tablets. Not licensed for women of childbearing potential."
+     ]
+    },
+    {
+     "h": "Other options: overview, caution and referral"
+    },
+    {
+     "table": {
+      "head": [
+       "Option",
+       "Notes"
+      ],
+      "rows": [
+       [
+        "Topical finasteride",
+        "Emerging; systemic absorption possible. Specialist"
+       ],
+       [
+        "Dutasteride",
+        "Off-label in men. Specialist"
+       ],
+       [
+        "Spironolactone (FPHL)",
+        "Off-label anti-androgen, especially with hyperandrogenism. Monitor potassium and BP; contraception needed. Specialist or an experienced IP within competence"
+       ],
+       [
+        "**Low-dose oral minoxidil**",
+        "Off-label, with growing evidence. Side effects: hypertrichosis, fluid retention, tachycardia. **Specialist initiation**, not a casual community start"
+       ],
+       [
+        "**PRP** (platelet-rich plasma)",
+        "Autologous concentrated platelets injected into the scalp. **Mixed evidence quality**, non-standard protocols, private cost. An adjunct, not a replacement"
+       ],
+       [
+        "LLLT, transplant, micropigmentation, camouflage",
+        "Variable evidence. Set expectations"
+       ]
+      ]
+     }
+    },
+    {
+     "h": "Referral"
+    },
+    {
+     "refer": [
+      {
+       "when": "routine",
+       "t": "Signs of **scarring alopecia** (lost follicle openings, inflammation, pain or itch): refer."
+      },
+      {
+       "when": "routine",
+       "t": "Rapid or patchy loss, or a positive pull test: look for another diagnosis."
+      },
+      {
+       "when": "routine",
+       "t": "Women with acne, hirsutism and irregular periods: assess for **PCOS** or hyperandrogenism."
+      },
+      {
+       "when": "routine",
+       "t": "Mood change or sexual dysfunction on finasteride: review and stop if needed (MHRA)."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "red-flags",
+   "title": "Red flags and when to refer",
+   "blocks": [
+    {
+     "ul": [
+      "Signs of **scarring alopecia** (lost follicle openings, inflammation, pain or itch): refer.",
+      "Rapid or patchy loss, or a positive pull test: look for another diagnosis.",
+      "Women with acne, hirsutism and irregular periods: assess for **PCOS** or hyperandrogenism.",
+      "Mood change or sexual dysfunction on finasteride: review and stop if needed (MHRA)."
+     ]
+    }
+   ],
+   "short": "Red flags"
+  },
+  {
+   "id": "complications",
+   "title": "Complications and prognosis",
+   "blocks": [
+    {
+     "h": "Complications"
+    },
+    {
+     "ul": [
+      "Psychological distress; sunburn and actinic damage on the bald scalp."
+     ]
+    },
+    {
+     "h": "Prognosis"
+    },
+    {
+     "ul": [
+      "Slowly progressive; treatment stabilises or partly reverses loss while it continues."
+     ]
+    }
+   ],
+   "short": "Complications"
+  },
+  {
+   "id": "pearls",
+   "title": "Prescriber pearls (UK pharmacist IP)",
+   "blocks": [
+    {
+     "pearls": [
+      "**Early treatment preserves more hair** than late rescue.",
+      "Stopping treatment means **gains reverse** over months, so explain this before starting.",
+      "Women: exclude scarring alopecia and reversible causes (iron, thyroid) before long-term cosmetic treatment.",
+      "Finasteride counselling must cover psychiatric and sexual side effects and pregnancy safety for partners.",
+      "PRP: avoid overselling it. Document informed expectations. Platelet disorders and anticoagulation need specialist judgement."
+     ]
+    }
+   ],
+   "short": "Pearls"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Androgenetic alopecia (male & female)?",
+   "a": "Gradual, non-scarring thinning: frontotemporal recession and vertex in men; widening central parting or crown in women."
+  },
+  {
+   "q": "What drives it?",
+   "a": "DHT (via 5α-reductase) miniaturises genetically susceptible follicles and shortens anagen."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "Topical minoxidil (both sexes) and oral finasteride 1 mg (men), started early and continued. Gains reverse on stopping."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "Scarring alopecia (lost follicle openings, inflammation), hyperandrogenism in women, and telogen effluvium triggers (iron, thyroid)."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "Signs of **scarring alopecia** (lost follicle openings, inflammation, pain or itch): refer."
+  }
+ ],
+ "references": [],
+ "see_also": [
+  "telogen-effluvium",
+  "alopecia-areata",
+  "hirsutism",
+  "scarring-alopecia"
+ ]
+}

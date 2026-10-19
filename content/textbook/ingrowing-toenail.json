@@ -1,0 +1,279 @@
+{
+ "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
+ "key_facts": [
+  "**Ingrowing toenail** (onychocryptosis): the nail edge pierces the lateral fold, usually of the **big toe**.",
+  "Commonest in teenagers and young men; causes: cutting nails curved or too short, tight shoes, hyperhidrosis, involuted nails.",
+  "Stages: inflammation → infection with granulation tissue → chronic fold hypertrophy.",
+  "Cut straight across, wide shoes, soaks, lift the edge; antibiotics only for spreading cellulitis.",
+  "Recurrent: **partial nail avulsion with phenol** by podiatry (about 95% success). Diabetes or PAD: refer early."
+ ],
+ "sections": [
+  {
+   "id": "overview",
+   "title": "Overview",
+   "blocks": [
+    "An **ingrowing toenail** (onychocryptosis) is penetration of the **lateral nail fold** by the edge of the nail plate, most often of the **great toe**. It is commonest in teenagers and young men."
+   ]
+  },
+  {
+   "id": "epidemiology",
+   "title": "Epidemiology",
+   "blocks": [
+    {
+     "ul": [
+      {
+       "t": "**Who**",
+       "sub": [
+        "Adolescents and young adults, males more than females; also older people with thickened nails."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "aetiology",
+   "title": "Aetiology: causes and risk factors",
+   "blocks": [
+    {
+     "ul": [
+      "**Causes:** cutting nails curved or too short, tight shoes, hyperhidrosis, a naturally involuted (\"pincer\") nail. Commonest in teenagers and young men. **Retinoids** (isotretinoin) and some EGFR inhibitors cause periungual granulation tissue that looks the same."
+     ]
+    },
+    {
+     "h": "Risk factors and associations"
+    },
+    {
+     "ul": [
+      "Nail cutting, footwear, sweaty feet, trauma, pincer nails.",
+      "Drugs: isotretinoin and EGFR inhibitors cause similar periungual granulation."
+     ]
+    },
+    {
+     "h": "Myths to address"
+    },
+    {
+     "ul": [
+      "**\"Cut a V in the middle of the nail\"**: this does not work; cut straight across.",
+      "**\"Antibiotics fix it\"**: they do not remove the spike of nail."
+     ]
+    }
+   ],
+   "short": "Aetiology"
+  },
+  {
+   "id": "pathophysiology",
+   "title": "Pathophysiology and pathology",
+   "blocks": [
+    "A **spike of nail** acts as a foreign body in the nail fold.",
+    {
+     "mech": [
+      {
+       "k": "Penetration",
+       "t": "A sharp nail edge pierces the lateral fold, often after cutting the corner short."
+      },
+      {
+       "k": "Inflammation",
+       "t": "The fold becomes red, swollen and painful; bacteria colonise the wound."
+      },
+      {
+       "k": "Granulation tissue",
+       "t": "Continued irritation produces moist, bleeding 'proud flesh' overhanging the nail.",
+       "img": "v4-ingrowing-toenail.jpg",
+       "caption": "Ingrowing toenail with granulation tissue on the lateral fold; inset: nail cut straight across."
+      },
+      {
+       "k": "Cure",
+       "t": "Removing the edge and destroying that strip of matrix (phenol) stops regrowth."
+      }
+     ]
+    }
+   ],
+   "short": "Pathophysiology"
+  },
+  {
+   "id": "clinical-features",
+   "title": "Clinical features",
+   "blocks": [
+    {
+     "ul": [
+      "**Stages:** inflammation → infection with granulation tissue (\"proud flesh\") → chronic hypertrophy of the fold.",
+      "Pain, redness and swelling of the lateral fold; later discharge, pus and **granulation tissue** (\"proud flesh\") overhanging the nail."
+     ]
+    },
+    {
+     "h": "Special groups"
+    },
+    {
+     "ul": [
+      {
+       "t": "**Diabetes and peripheral arterial disease**",
+       "sub": [
+        "High risk of infection, ulceration and amputation: early podiatry."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "diagnosis",
+   "title": "Diagnosis and investigations",
+   "blocks": [
+    "Clinical. Consider X-ray only if a subungual exostosis is suspected; biopsy any atypical or non-healing granulation (amelanotic melanoma, SCC)."
+   ],
+   "short": "Diagnosis"
+  },
+  {
+   "id": "differentials",
+   "title": "Differential diagnoses",
+   "blocks": [
+    {
+     "ul": [
+      "**Acute paronychia** (see [Paronychia](condition:paronychia)): fingers more often, no nail spicule.",
+      "**Subungual exostosis**: firm bony lump under the distal nail; X-ray.",
+      "**Pyogenic granuloma** from retinoids or EGFR inhibitors (see [Pyogenic granuloma](condition:pyogenic-granuloma)).",
+      "**Amelanotic melanoma or SCC**: non-healing, atypical granulation tissue: biopsy."
+     ]
+    }
+   ],
+   "short": "Differentials"
+  },
+  {
+   "id": "management",
+   "title": "Management",
+   "blocks": [
+    {
+     "ul": [
+      "**Conservative care:** cut the nail straight across, wear wide-toe-box shoes, warm salt soaks, lift the edge (cotton wisp or dental floss), use a gutter splint. Topical antiseptic. Antibiotics only for spreading cellulitis.",
+      "**Definitive:** **partial nail avulsion with phenol matricectomy** by **podiatry**. Success is ~95% and lower recurrence than avulsion alone. Total avulsion is for recurrent or bilateral disease. Diabetes or PAD → **refer early to podiatry** (foot-protection service)."
+     ]
+    },
+    {
+     "h": "Treatment ladder"
+    },
+    {
+     "ladder": [
+      {
+       "k": "Self-care",
+       "t": "Cut nails **straight across**, not too short; wide-toe-box shoes. Warm salt-water soaks; lift the nail edge with a cotton wisp or dental floss; topical antiseptic.",
+       "tone": "base"
+      },
+      {
+       "k": "Infected / granulation",
+       "t": "Gutter splint or podiatry review. **Antibiotics only for spreading cellulitis.**",
+       "tone": "first"
+      },
+      {
+       "k": "Recurrent or severe",
+       "t": "**Partial nail avulsion with phenol matricectomy** by podiatry (~95% success); total avulsion for recurrent or bilateral disease.",
+       "tone": "refer"
+      }
+     ]
+    },
+    {
+     "h": "Referral"
+    },
+    {
+     "refer": [
+      {
+       "when": "urgent",
+       "t": "Diabetes, peripheral arterial disease or neuropathy with an ingrowing or infected toenail: **podiatry / foot-protection service**."
+      },
+      {
+       "when": "same-day",
+       "t": "Spreading cellulitis with systemic upset."
+      },
+      {
+       "when": "routine",
+       "t": "Recurrent ingrowing toenail despite conservative care: podiatry for partial avulsion and phenol."
+      },
+      {
+       "when": "urgent",
+       "t": "Atypical or non-healing 'granulation' tissue: biopsy to exclude amelanotic melanoma or SCC."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "red-flags",
+   "title": "Red flags and when to refer",
+   "blocks": [
+    {
+     "ul": []
+    },
+    {
+     "ul": [
+      "Diabetes, peripheral arterial disease or neuropathy: **refer early to podiatry** (foot-protection service).",
+      "Spreading cellulitis or systemic upset.",
+      "Atypical or non-healing granulation tissue: biopsy to exclude malignancy."
+     ]
+    }
+   ],
+   "short": "Red flags"
+  },
+  {
+   "id": "complications",
+   "title": "Complications and prognosis",
+   "blocks": [
+    {
+     "h": "Complications"
+    },
+    {
+     "ul": [
+      "Paronychia, cellulitis, osteomyelitis (rare).",
+      "Recurrence after simple avulsion."
+     ]
+    },
+    {
+     "h": "Prognosis"
+    },
+    {
+     "ul": [
+      "Mild cases settle with conservative care; phenol matricectomy rarely recurs."
+     ]
+    }
+   ],
+   "short": "Complications"
+  },
+  {
+   "id": "pearls",
+   "title": "Prescriber pearls (UK pharmacist IP)",
+   "blocks": [
+    {
+     "ul": [
+      "Cut toenails **straight across**, not too short.",
+      "Partial avulsion **plus phenol** matricectomy has the lowest recurrence."
+     ]
+    }
+   ],
+   "short": "Pearls"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "What is the definitive treatment for a recurrent ingrowing toenail?",
+   "a": "Partial nail avulsion with phenol matricectomy (podiatry)."
+  },
+  {
+   "q": "Which patients need early podiatry referral?",
+   "a": "People with diabetes, peripheral arterial disease or neuropathy."
+  },
+  {
+   "q": "Which drugs cause periungual granulation tissue that mimics an ingrowing nail?",
+   "a": "Isotretinoin (retinoids) and EGFR inhibitors."
+  },
+  {
+   "q": "How should toenails be cut to prevent ingrowing?",
+   "a": "Straight across, not too short."
+  }
+ ],
+ "references": [],
+ "see_also": [
+  "paronychia",
+  "pyogenic-granuloma",
+  "onychomycosis",
+  "nail-signs"
+ ]
+}

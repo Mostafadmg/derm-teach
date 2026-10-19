@@ -1,0 +1,320 @@
+{
+ "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
+ "key_facts": [
+  "**Telogen effluvium** is diffuse shedding about **2–3 months after a trigger**, when many follicles shift into telogen together.",
+  "Triggers: childbirth, febrile illness (including COVID-19), surgery, crash diets, iron deficiency, thyroid disease, new drugs.",
+  "Positive **hair-pull test** (more than 4–6 club hairs) in the acute phase; no scarring, no miniaturisation.",
+  "Check ferritin, thyroid function and full blood count if the trigger is unclear.",
+  "Reassure: regrowth over **6–12 months** once the trigger has gone; chronic TE lasts longer than 6 months."
+ ],
+ "sections": [
+  {
+   "id": "overview",
+   "title": "Overview",
+   "blocks": [
+    "**Telogen effluvium (TE)** is non-scarring **diffuse** shedding of telogen (club) hairs. Acute TE follows a trigger by about **2–3 months**. Chronic TE lasts beyond 6 months.",
+    "**Androgenetic (pattern) hair loss** is the other common diffuse-looking thinning of mid-life — full UK IP detail and Module 6 Week 6 photos live on [androgenetic alopecia](condition:androgenetic-alopecia). This page only sketches the DDx so Week 3 teaching stays joined up without duplicating that photo set."
+   ]
+  },
+  {
+   "id": "epidemiology",
+   "title": "Epidemiology",
+   "blocks": [
+    {
+     "ul": [
+      {
+       "t": "**Who**",
+       "sub": [
+        "Common at any age, more often reported by women.",
+        "Postpartum shedding affects many women 2–4 months after delivery."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "aetiology",
+   "title": "Aetiology: causes and risk factors",
+   "blocks": [
+    {
+     "ul": [
+      "Classic triggers: high fever, COVID/flu-like illness, major surgery, postpartum (including when stopping breastfeeding), crash diets, haemorrhage, new drugs (retinoids, anticoagulants, antithyroid, beta-blockers, some anticonvulsants — check BNF), severe stress.",
+      "Iron deficiency, thyroid disease and other metabolic insults.",
+      "Chronic TE: ongoing trigger or idiopathic; overlap with female pattern loss is common."
+     ]
+    },
+    {
+     "h": "Risk factors and associations"
+    },
+    {
+     "ul": [
+      "Physiological stress, hormonal change, nutritional deficiency or drugs (retinoids, anticoagulants, beta-blockers, stopping the combined pill)."
+     ]
+    },
+    {
+     "h": "Myths to address"
+    },
+    {
+     "ul": [
+      "**\"Shedding means I'll go bald\"**: follicles are alive and will regrow.",
+      "**\"Hair supplements cure it\"**: only replace a proven deficiency."
+     ]
+    }
+   ],
+   "short": "Aetiology"
+  },
+  {
+   "id": "pathophysiology",
+   "title": "Pathophysiology and pathology",
+   "blocks": [
+    "A shock **synchronises** hair cycles so many hairs rest and then fall together.",
+    {
+     "mech": [
+      {
+       "k": "Normal cycle",
+       "t": "Normally about 85–90% of scalp hairs are growing (anagen) and 10–15% resting (telogen) at any time."
+      },
+      {
+       "k": "Trigger",
+       "t": "A physiological shock pushes many anagen follicles into early **telogen** at once."
+      },
+      {
+       "k": "Delayed shedding",
+       "t": "Telogen lasts about 3 months, so club hairs shed in large numbers 2–3 months after the trigger."
+      },
+      {
+       "k": "Recovery",
+       "t": "New anagen hairs push out the old ones; short regrowing hairs at the hairline are a good sign."
+      }
+     ]
+    },
+    {
+     "histo": [
+      "Biopsy only if unclear: normal follicle numbers with an increased proportion of telogen follicles; no miniaturisation or inflammation."
+     ]
+    }
+   ],
+   "short": "Pathophysiology"
+  },
+  {
+   "id": "clinical-features",
+   "title": "Clinical features",
+   "blocks": [
+    {
+     "ul": [
+      "Diffuse thinning; parted hair looks thinner; **no discrete bald patch**.",
+      "Increased daily shed; club hairs with a white bulb on the brush (photo teaching: D10).",
+      "Pull test: many club hairs come out easily when active.",
+      "Scalp skin looks normal; ostia preserved."
+     ]
+    },
+    {
+     "h": "Brief AGA contrast (cross-link)"
+    },
+    {
+     "ul": [
+      "Pattern loss is gradual miniaturisation over years (male temples/vertex; female crown with widened part, frontal hairline usually kept).",
+      "Management (minoxidil, male finasteride MHRA mood warnings, etc.) is covered on the [androgenetic alopecia](condition:androgenetic-alopecia) page, with its own photo gallery."
+     ]
+    },
+    {
+     "fig": {
+      "dermnet": "m3w3:D09"
+     }
+    },
+    {
+     "h": "Special groups"
+    },
+    {
+     "ul": [
+      {
+       "t": "**Postpartum**",
+       "sub": [
+        "Shedding peaks 3–4 months after delivery and usually settles by 12 months."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "diagnosis",
+   "title": "Diagnosis and investigations",
+   "blocks": [
+    {
+     "ul": [
+      "History timed to a trigger 2–3 months earlier.",
+      "Examine for patches, scale, inflammation, pattern miniaturisation.",
+      "Bloods when indicated: FBC, ferritin, TFT (± others guided by history).",
+      "Child with a scaly patch → mycology (tinea), not TE."
+     ]
+    },
+    {
+     "h4": "Key points"
+    },
+    {
+     "ul": [
+      "History timed to a trigger 2–3 months earlier.",
+      "Examine for patches, scale, inflammation, pattern miniaturisation.",
+      "Bloods when indicated: FBC, ferritin, TFT (± others guided by history).",
+      "Child with a scaly patch → mycology (tinea), not TE."
+     ]
+    }
+   ],
+   "short": "Diagnosis"
+  },
+  {
+   "id": "differentials",
+   "title": "Differential diagnoses",
+   "blocks": [
+    {
+     "ddx": [
+      {
+       "name": "Androgenetic alopecia",
+       "f": "Patterned miniaturisation over years — [AGA page](condition:androgenetic-alopecia)",
+       "link": "androgenetic-alopecia"
+      },
+      {
+       "name": "Diffuse AA",
+       "f": "Exclamation hairs, yellow dots, rapid patches"
+      },
+      {
+       "name": "Tinea capitis",
+       "f": "Scale, black dots, children"
+      },
+      {
+       "name": "Traction alopecia",
+       "f": "Marginal loss matching hairstyle (D11)"
+      },
+      {
+       "name": "Scarring alopecia",
+       "f": "Lost ostia — [scarring overview](condition:scarring-alopecia)",
+       "link": "discoid-lupus"
+      }
+     ]
+    }
+   ],
+   "short": "Differentials"
+  },
+  {
+   "id": "management",
+   "title": "Management",
+   "blocks": [
+    {
+     "ul": [
+      "Reassure: acute TE usually regrows over **6–12 months** once the trigger has passed; shedding can look alarming but follicles are alive.",
+      "Correct reversible causes (iron if deficient, thyroid replacement optimisation, review culprit drugs with the original prescriber).",
+      "Gentle hair care; avoid crash diets; camouflage if wanted.",
+      "Do not promise “hair vitamins” as evidence-based cure-alls.",
+      "If patterned miniaturisation coexists, manage as on the AGA page.",
+      "Refer if diagnostic doubt, progressive patterned loss with virilisation, scarring signs, or severe distress."
+     ]
+    },
+    {
+     "h": "Referral"
+    },
+    {
+     "refer": [
+      {
+       "when": "routine",
+       "t": "Virilisation or sudden severe FPHL → endocrine/tumour pathways."
+      },
+      {
+       "when": "routine",
+       "t": "Patchy, scaly or shiny bald areas — not TE."
+      },
+      {
+       "when": "urgent",
+       "t": "Kerion — urgent antifungal pathway."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "red-flags",
+   "title": "Red flags and when to refer",
+   "blocks": [
+    {
+     "ul": [
+      "Virilisation or sudden severe FPHL → endocrine/tumour pathways.",
+      "Patchy, scaly or shiny bald areas — not TE.",
+      "Kerion — urgent antifungal pathway."
+     ]
+    }
+   ],
+   "short": "Red flags"
+  },
+  {
+   "id": "complications",
+   "title": "Complications and prognosis",
+   "blocks": [
+    {
+     "h": "Complications"
+    },
+    {
+     "ul": [
+      "Anxiety; may unmask underlying androgenetic alopecia."
+     ]
+    },
+    {
+     "h": "Prognosis"
+    },
+    {
+     "ul": [
+      "Acute TE resolves in most within 6–12 months; chronic TE fluctuates over years but rarely causes baldness."
+     ]
+    }
+   ],
+   "short": "Complications"
+  },
+  {
+   "id": "pearls",
+   "title": "Prescriber pearls (UK pharmacist IP)",
+   "blocks": [
+    {
+     "pearls": [
+      "Always ask “what happened 2–3 months ago?”",
+      "Postpartum shedding is physiological — counsel antenatally when possible.",
+      "Teaching grid: TE (D09) vs FPHL (D06) vs extensive AA — different time courses and trichoscopy."
+     ]
+    }
+   ],
+   "short": "Pearls"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Telogen effluvium?",
+   "a": "Sudden increase in hairs in the brush or shower, diffuse thinning, no bald patches — often 2–3 months after illness, childbirth or a new drug."
+  },
+  {
+   "q": "What drives it?",
+   "a": "A stressor synchronises many anagen follicles into telogen; club hairs shed together weeks later."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "Identify the trigger, check thyroid/ferritin when indicated, reassure that acute TE usually settles in 6–12 months; treat coexistent pattern loss separately."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "Patchy loss, scale, or lost ostia are not TE — rethink AA, tinea or scarring alopecia."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "Virilisation or sudden severe FPHL → endocrine/tumour pathways."
+  }
+ ],
+ "references": [
+  {
+   "label": "Medscape: Telogen effluvium",
+   "url": "https://emedicine.medscape.com/article/1071566-overview"
+  }
+ ],
+ "see_also": [
+  "androgenetic-alopecia",
+  "alopecia-areata",
+  "trichotillomania"
+ ]
+}

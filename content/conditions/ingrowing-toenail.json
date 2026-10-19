@@ -1,0 +1,84 @@
+{
+ "slug": "ingrowing-toenail",
+ "title": "Ingrowing toenail (onychocryptosis)",
+ "category": "nails",
+ "status": "published",
+ "order": 2,
+ "module": "Module 3 · Week 2",
+ "aka": [
+  "ingrowing toenail",
+  "ingrown toenail",
+  "onychocryptosis",
+  "unguis incarnatus"
+ ],
+ "summary": "The edge of the nail plate (usually the big toe) pierces the lateral nail fold, causing pain, inflammation, infection and overgrowth of granulation tissue. Mostly managed conservatively or by podiatry with partial nail avulsion and phenol.",
+ "sections": {
+  "what": [
+   "An **ingrowing toenail** (onychocryptosis) is penetration of the **lateral nail fold** by the edge of the nail plate, most often of the **great toe**. It is commonest in teenagers and young men."
+  ],
+  "cause": [
+   {
+    "list": [
+     "**Causes:** cutting nails curved or too short, tight shoes, hyperhidrosis, a naturally involuted (\"pincer\") nail. Commonest in teenagers and young men. **Retinoids** (isotretinoin) and some EGFR inhibitors cause periungual granulation tissue that looks the same."
+    ]
+   }
+  ],
+  "features": [
+   {
+    "list": [
+     "**Stages:** inflammation → infection with granulation tissue (\"proud flesh\") → chronic hypertrophy of the fold.",
+     "Pain, redness and swelling of the lateral fold; later discharge, pus and **granulation tissue** (\"proud flesh\") overhanging the nail."
+    ]
+   }
+  ],
+  "diagnosis": [
+   "Clinical. Consider X-ray only if a subungual exostosis is suspected; biopsy any atypical or non-healing granulation (amelanotic melanoma, SCC)."
+  ],
+  "differentials": [
+   {
+    "list": [
+     "**Acute paronychia** (see [Paronychia](condition:paronychia)): fingers more often, no nail spicule.",
+     "**Subungual exostosis**: firm bony lump under the distal nail; X-ray.",
+     "**Pyogenic granuloma** from retinoids or EGFR inhibitors (see [Pyogenic granuloma](condition:pyogenic-granuloma)).",
+     "**Amelanotic melanoma or SCC**: non-healing, atypical granulation tissue: biopsy."
+    ]
+   }
+  ],
+  "management": [
+   {
+    "list": [
+     "**Conservative care:** cut the nail straight across, wear wide-toe-box shoes, warm salt soaks, lift the edge (cotton wisp or dental floss), use a gutter splint. Topical antiseptic. Antibiotics only for spreading cellulitis.",
+     "**Definitive:** **partial nail avulsion with phenol matricectomy** by **podiatry**. Success is ~95% and lower recurrence than avulsion alone. Total avulsion is for recurrent or bilateral disease. Diabetes or PAD → **refer early to podiatry** (foot-protection service)."
+    ]
+   }
+  ],
+  "red_flags": [
+   {
+    "list": [
+     "Diabetes, peripheral arterial disease or neuropathy: **refer early to podiatry** (foot-protection service).",
+     "Spreading cellulitis or systemic upset.",
+     "Atypical or non-healing granulation tissue: biopsy to exclude malignancy."
+    ]
+   }
+  ],
+  "pearls": [
+   {
+    "list": [
+     "Cut toenails **straight across**, not too short.",
+     "Partial avulsion **plus phenol** matricectomy has the lowest recurrence."
+    ]
+   }
+  ]
+ },
+ "photos": [],
+ "references": [
+  {
+   "label": "NICE CKS: Ingrown toenail",
+   "url": "https://cks.nice.org.uk/topics/ingrown-toenail/"
+  },
+  {
+   "label": "DermNet: Ingrown toenail",
+   "url": "https://dermnetnz.org/topics/ingrown-toenail"
+  }
+ ]
+}

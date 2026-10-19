@@ -1,0 +1,249 @@
+{
+ "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
+ "key_facts": [
+  "**Lipomas** are benign tumours of mature fat cells: soft, rubbery, mobile, painless lumps.",
+  "Commonest soft-tissue tumour; trunk, neck, shoulders and proximal limbs; usually under 5 cm.",
+  "Ultrasound if uncertain. **Sarcoma** features: over 5 cm, deep to fascia, growing, painful or recurrent: urgent imaging or referral (NICE suspected cancer).",
+  "Reassure; cosmetic removal is usually not NHS-funded.",
+  "Multiple painful lipomas: angiolipomas or **Dercum's disease**; multiple lipomas can be familial."
+ ],
+ "sections": [
+  {
+   "id": "overview",
+   "title": "Overview",
+   "blocks": [
+    {
+     "ul": [
+      "**Lipoma:** a benign tumour of mature fat. The commonest soft-tissue tumour; age 40–60.",
+      "**Angiolipoma**: a vascular variant. Small (<2 cm), often **multiple and tender**, on the forearms and trunk of young adults (often men). Familial in about 5%.",
+      "**Dercum's disease (adiposis dolorosa)**: a rare chronic condition with **multiple painful lipomas or painful fatty tissue**, usually in obese women aged 35–50. It is often accompanied by fatigue, depression, sleep and cognitive problems, and joint pain. It is a diagnosis of exclusion.",
+      "Related syndromes: familial multiple lipomatosis; Madelung disease (benign symmetric lipomatosis, linked to alcohol); PTEN hamartoma (see *Other lumps and syndromes*); Gardner (see *Epidermoid, pilar and dermoid cysts; milia; Gardner syndrome*)."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "epidemiology",
+   "title": "Epidemiology",
+   "blocks": [
+    {
+     "ul": [
+      {
+       "t": "**Who**",
+       "sub": [
+        "Adults 40–60; about 1 in 100 people; more with obesity."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "aetiology",
+   "title": "Aetiology: causes and risk factors",
+   "blocks": [
+    "Lipomas show clonal rearrangements (often HMGA2 at 12q13–15). The cause of Dercum's pain is unclear; proposed mechanisms include nerve compression, inflammatory and neuroendocrine factors.",
+    {
+     "h": "Risk factors and associations"
+    },
+    {
+     "ul": [
+      "Unknown; chromosomal rearrangements (12q13–15, HMGA2) in many; familial multiple lipomatosis; trauma possibly."
+     ]
+    },
+    {
+     "h": "Myths to address"
+    },
+    {
+     "ul": [
+      "**\"Lipomas turn into cancer\"**: they almost never do; the concern is a sarcoma mistaken for a lipoma."
+     ]
+    }
+   ],
+   "short": "Aetiology"
+  },
+  {
+   "id": "pathophysiology",
+   "title": "Pathophysiology and pathology",
+   "blocks": [
+    "A lipoma is a **capsule of normal-looking fat cells** growing slowly beneath the skin.",
+    {
+     "mech": [
+      {
+       "k": "Clonal fat cells",
+       "t": "Mature adipocytes proliferate as a lobulated mass with a thin fibrous capsule."
+      },
+      {
+       "k": "Slow growth",
+       "t": "Growth is slow and then plateaus; the capsule makes it mobile and well defined."
+      },
+      {
+       "k": "Variants",
+       "t": "Angiolipoma (vessels, tender), spindle-cell lipoma (back of neck in older men), deep lipomas within muscle."
+      }
+     ]
+    },
+    {
+     "histo": [
+      "Mature adipocytes with a thin capsule; angiolipomas contain small vessels with microthrombi. Atypical lipomatous tumour shows atypical stromal cells (MDM2 amplification)."
+     ]
+    }
+   ],
+   "short": "Pathophysiology"
+  },
+  {
+   "id": "clinical-features",
+   "title": "Clinical features",
+   "blocks": [
+    {
+     "ul": [
+      "Soft, rubbery, mobile, lobulated subcutaneous mass with normal overlying skin. Trunk, shoulders, neck and arms. Painless (except angiolipoma or Dercum).",
+      "**Red flags for sarcoma (refer):** size **>5 cm**, **increasing in size**, **deep to fascia** (fixed, doesn't move with the skin), **painful**, recurrence after excision. Thigh, buttock and retroperitoneal sites are higher risk, as is any lump that is hard or irregular."
+     ]
+    },
+    {
+     "fig": {
+      "dermnet": "m2w1:E01"
+     }
+    },
+    {
+     "h": "Special groups"
+    },
+    {
+     "ul": [
+      {
+       "t": "**Sarcoma red flags**",
+       "sub": [
+        "Size over 5 cm, growth, pain, deep location, recurrence after excision: urgent ultrasound or sarcoma pathway."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "diagnosis",
+   "title": "Diagnosis and investigations",
+   "blocks": [
+    "Clinical for small, typical superficial lesions. **Ultrasound** is first-line imaging. MRI for deep or large lesions. Biopsy in a sarcoma centre, never by excision in primary care for a suspicious lump (an \"unplanned excision\" (the \"whoops\" procedure) compromises sarcoma outcomes)."
+   ],
+   "short": "Diagnosis"
+  },
+  {
+   "id": "differentials",
+   "title": "Differential diagnoses",
+   "blocks": [
+    "Epidermoid cyst (punctum), liposarcoma and other soft-tissue sarcoma, lymph node, hernia, haematoma, neurofibroma (buttonhole sign), angiolipoma, lipodystrophy injection-site lipohypertrophy (insulin sites, so check injection technique)."
+   ],
+   "short": "Differentials"
+  },
+  {
+   "id": "management",
+   "title": "Management",
+   "blocks": [
+    {
+     "ul": [
+      "**Typical small lipoma:** reassure; removal for cosmetic reasons is usually not NHS-funded.",
+      "**NICE NG12 (sarcoma):** consider an **urgent direct-access ultrasound (performed within 2 weeks) for adults with an unexplained lump that is increasing in size**. Refer on the suspected cancer pathway if the ultrasound suggests sarcoma or is uncertain but clinical concern persists. In children/young people, an unexplained lump increasing in size warrants a **very urgent ultrasound (within 48 hours)**.",
+      "If the IP does not have direct-access imaging rights, the route is via the GP the same week, with the red flags documented.",
+      "**Dercum's disease:** a GP/specialist (dermatology, pain clinic) diagnosis. Management is symptomatic: analgesia, weight management, psychological support; specialist options include lidocaine infusions, liposuction and excision of the worst lesions. Screen for and support **depression**. Chronic pain medicines need careful IP review: avoid escalating opioids, and consider neuropathic agents per NICE NG193 (chronic primary pain) principles and local formulary.",
+      "**Lipohypertrophy from insulin/GLP-1 injections:** counsel on rotating sites. It also impairs absorption and glycaemic control."
+     ]
+    },
+    {
+     "h": "Referral"
+    },
+    {
+     "refer": [
+      {
+       "when": "urgent",
+       "t": "Lump that is increasing in size or larger than 5 cm, deep or painful: **urgent direct-access ultrasound** (within 2 weeks) or a suspected sarcoma pathway (NICE NG12)."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "red-flags",
+   "title": "Red flags and when to refer",
+   "blocks": [
+    {
+     "ul": [
+      "Lump that is increasing in size or larger than 5 cm, deep or painful: **urgent direct-access ultrasound** (within 2 weeks) or a suspected sarcoma pathway (NICE NG12)."
+     ]
+    }
+   ],
+   "short": "Red flags"
+  },
+  {
+   "id": "complications",
+   "title": "Complications and prognosis",
+   "blocks": [
+    {
+     "h": "Complications"
+    },
+    {
+     "ul": [
+      "Pressure on nerves; cosmetic concern; recurrence after excision (rare)."
+     ]
+    },
+    {
+     "h": "Prognosis"
+    },
+    {
+     "ul": [
+      "Benign; persists unless excised."
+     ]
+    }
+   ],
+   "short": "Complications"
+  },
+  {
+   "id": "pearls",
+   "title": "Prescriber pearls (UK pharmacist IP)",
+   "blocks": [
+    {
+     "pearls": [
+      "\"Is it bigger than a golf ball, growing, deep or painful?\" Then it needs a scan.",
+      "Angiolipoma tenderness is common and benign, but multiple painful lumps plus systemic symptoms should prompt thinking of Dercum."
+     ]
+    }
+   ],
+   "short": "Pearls"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Lipoma & the sarcoma lump pathway?",
+   "a": "A soft, painless, mobile, slowly growing lump on the trunk, neck or limbs."
+  },
+  {
+   "q": "What drives it?",
+   "a": "Benign overgrowth of mature fat cells; angiolipomas are tender; Dercum’s disease gives many painful lipomas."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "Reassure if small and typical; ultrasound or refer if uncertain; excision only for symptoms or diagnosis."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "Soft-tissue sarcoma: larger than 5 cm, deep to fascia, growing, painful or recurrent."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "Lump that is increasing in size or larger than 5 cm, deep or painful: **urgent direct-access ultrasound** (within 2 weeks) or a suspected sarcoma pathway (NICE NG12)."
+  }
+ ],
+ "references": [
+  {
+   "label": "Medscape: Lipoma & the sarcoma lump pathway",
+   "url": "https://emedicine.medscape.com/article/1057855-overview"
+  }
+ ],
+ "see_also": [
+  "skin-cysts",
+  "other-skin-lumps",
+  "dermatofibroma",
+  "dermatofibrosarcoma-protuberans"
+ ]
+}

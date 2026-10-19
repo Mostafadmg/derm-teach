@@ -1,0 +1,68 @@
+{
+ "_note": "curated (split from paronychia, Oct 2026)",
+ "manage": {
+  "lead": "Most settle with nail care; recurrent cases need podiatry.",
+  "rungs": [
+   {
+    "k": "Self-care",
+    "tone": "base",
+    "points": [
+     "Cut nails **straight across**, not too short; wide-toe-box shoes.",
+     "Warm salt-water soaks; lift the nail edge with a cotton wisp or dental floss; topical antiseptic."
+    ]
+   },
+   {
+    "k": "Infected / granulation",
+    "tone": "first",
+    "points": [
+     "Gutter splint or podiatry review. **Antibiotics only for spreading cellulitis.**"
+    ]
+   },
+   {
+    "k": "Recurrent or severe",
+    "tone": "refer",
+    "points": [
+     "**Partial nail avulsion with phenol matricectomy** by podiatry (~95% success); total avulsion for recurrent or bilateral disease."
+    ]
+   }
+  ]
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "urgent",
+    "t": "Diabetes, peripheral arterial disease or neuropathy with an ingrowing or infected toenail: **podiatry / foot-protection service**."
+   },
+   {
+    "when": "same-day",
+    "t": "Spreading cellulitis with systemic upset."
+   },
+   {
+    "when": "routine",
+    "t": "Recurrent ingrowing toenail despite conservative care: podiatry for partial avulsion and phenol."
+   },
+   {
+    "when": "urgent",
+    "t": "Atypical or non-healing 'granulation' tissue: biopsy to exclude amelanotic melanoma or SCC."
+   }
+  ]
+ },
+ "quiz": [
+  {
+   "q": "What is the definitive treatment for a recurrent ingrowing toenail?",
+   "a": "Partial nail avulsion with phenol matricectomy (podiatry)."
+  },
+  {
+   "q": "Which patients need early podiatry referral?",
+   "a": "People with diabetes, peripheral arterial disease or neuropathy."
+  },
+  {
+   "q": "Which drugs cause periungual granulation tissue that mimics an ingrowing nail?",
+   "a": "Isotretinoin (retinoids) and EGFR inhibitors."
+  },
+  {
+   "q": "How should toenails be cut to prevent ingrowing?",
+   "a": "Straight across, not too short."
+  }
+ ]
+}

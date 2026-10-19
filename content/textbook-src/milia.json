@@ -1,0 +1,66 @@
+{
+ "kf": [
+  "**Milia** are 1–2 mm white **keratin cysts** just under the epidermis.",
+  "**Primary**: very common in newborns (nose, cheeks) and on adult eyelids and cheeks.",
+  "**Secondary**: after blistering, burns, dermabrasion, or potent topical steroids.",
+  "Diagnosis is clinical; look for a cause of secondary milia (e.g. PCT on the backs of the hands).",
+  "Reassure; troublesome milia can be de-roofed and expressed; topical retinoids for multiple lesions."
+ ],
+ "epi": [
+  {
+   "t": "**Who**",
+   "sub": [
+    "Up to half of newborns have milia; common at all ages.",
+    "Milia en plaque: rare plaque of milia, usually behind the ear in middle-aged women."
+   ]
+  }
+ ],
+ "aet": [
+  "Primary: retention of keratin in the lower infundibulum of vellus hairs.",
+  "Secondary: damage to follicles or sweat ducts during blistering or trauma; steroid-induced skin atrophy."
+ ],
+ "myths": [
+  "**\"They're whiteheads\"**: milia are closed cysts without an opening; they do not respond to acne cleansers."
+ ],
+ "patho_lead": "A milium is a **miniature epidermoid cyst** trapped just under the surface.",
+ "mech": [
+  {
+   "k": "Keratin retention",
+   "t": "Keratin made by a tiny follicle or sweat duct cannot escape to the surface."
+  },
+  {
+   "k": "Microcyst",
+   "t": "A sac lined by epidermis fills with layered keratin, seen as a pearly white dot.",
+   "img": "v4-milia-section.jpg",
+   "cap": "Milia: tiny keratin cysts in the upper dermis just beneath the epidermis, seen as white dome papules."
+  },
+  {
+   "k": "Secondary milia",
+   "t": "When blisters or wounds heal, fragments of epithelium are trapped and form new cysts."
+  }
+ ],
+ "histo": [
+  "Small cyst with a stratified squamous lining and laminated keratin, like a tiny epidermoid cyst."
+ ],
+ "special": [
+  {
+   "t": "**Newborns**",
+   "sub": [
+    "Often with Epstein pearls in the mouth; reassure, resolves in weeks."
+   ]
+  }
+ ],
+ "comp": [
+  "Cosmetic concern only; scarring if picked."
+ ],
+ "prog": [
+  "Neonatal milia clear; adult and secondary milia may persist."
+ ],
+ "see_also": [
+  "skin-cysts",
+  "neonatal-rashes",
+  "porphyria-cutanea-tarda",
+  "epidermolysis-bullosa",
+  "acne-vulgaris"
+ ]
+}

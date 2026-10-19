@@ -1,6 +1,6 @@
 {
  "slug": "skin-cysts",
- "title": "Epidermoid & pilar cysts, milia and Gardner syndrome",
+ "title": "Epidermoid, pilar and dermoid cysts (and Gardner syndrome)",
  "category": "lumps-lesions-cancer",
  "status": "published",
  "order": 4,
@@ -11,7 +11,6 @@
   "pilar cyst",
   "trichilemmal cyst",
   "dermoid cyst",
-  "milia",
   "punctum",
   "Gardner syndrome",
   "FAP"
@@ -31,7 +30,7 @@
      "**Epidermoid (epidermal inclusion) cyst:** the commonest cutaneous cyst. Its wall resembles epidermis/infundibulum and it is filled with keratin (the \"cheesy\", foul-smelling contents in [Case 3](condition:dermatofibroma)). \"Sebaceous cyst\" is a misnomer.",
      "**Pilar (trichilemmal) cyst:** the scalp in ~90%. Firm, smooth, no punctum, often multiple and familial (autosomal dominant). It shells out easily.",
      "**Dermoid cyst:** congenital, along embryonic fusion lines. The classic site is the **lateral eyebrow** (external angular dermoid); midline nasal or scalp dermoids may connect intracranially.",
-     "**Milia:** 1–2 mm superficial keratin cysts (primary in neonates/face; secondary after blistering, trauma, steroids).",
+     "**Milia:** tiny superficial keratin cysts: see [Milia](condition:milia).",
      "**Vellus hair cysts / steatocystoma:** small multiple cysts on the chest; steatocystoma multiplex."
     ]
    }

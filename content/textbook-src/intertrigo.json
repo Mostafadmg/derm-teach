@@ -1,0 +1,67 @@
+{
+ "kf": [
+  "**Intertrigo** is inflammation of skin folds from friction, heat and moisture; it is a pattern, not one disease.",
+  "Breasts, groin, axillae, abdominal folds, between toes; obesity, diabetes, incontinence and hot weather predispose.",
+  "Look for secondary *Candida* (satellite papules), dermatophyte (active edge), **erythrasma** (coral-red Wood's light) or streptococcus.",
+  "Keep folds dry, reduce friction, barrier paste; hydrocortisone 1% for 1–2 weeks; topical azole if candida likely.",
+  "Persistent flexural rashes: think inverse psoriasis, seborrhoeic dermatitis, contact allergy, Hailey–Hailey or extramammary Paget's."
+ ],
+ "epi": [
+  {
+   "t": "**Who**",
+   "sub": [
+    "Any age; common in obesity, diabetes, immobility, incontinence and infants (napkin and neck folds)."
+   ]
+  }
+ ],
+ "aet": [
+  "Skin-on-skin friction, trapped sweat, maceration, and alkaline irritants (urine, faeces)."
+ ],
+ "myths": [
+  "**\"Talc keeps folds dry\"**: it can clump and irritate; dry gently and use a barrier."
+ ],
+ "patho_lead": "Folds trap heat and moisture, so the barrier **macerates** and rubs raw.",
+ "mech": [
+  {
+   "k": "Occlusion",
+   "t": "Skin-to-skin contact traps sweat and raises temperature.",
+   "img": "v3-intertrigo-fold-section.jpg",
+   "cap": "Inside a skin fold: trapped moisture and friction break down the barrier."
+  },
+  {
+   "k": "Maceration and friction",
+   "t": "Wet stratum corneum softens and erodes with movement."
+  },
+  {
+   "k": "Secondary infection",
+   "t": "Damaged skin is colonised by *Candida*, dermatophytes, *Corynebacterium* (erythrasma) or streptococci."
+  },
+  {
+   "k": "Typical sites",
+   "t": "Submammary, axillary, inguinal, abdominal and interdigital folds.",
+   "img": "v3-intertrigo-fold-map.jpg",
+   "cap": "Common intertrigo sites."
+  }
+ ],
+ "special": [
+  {
+   "t": "**Skin of colour**",
+   "sub": [
+    "Erythema may look brown or purple; post-inflammatory pigmentation is common."
+   ]
+  }
+ ],
+ "comp": [
+  "Secondary infection, fissuring, odour, pain; cellulitis in diabetes."
+ ],
+ "prog": [
+  "Recurs unless predisposing factors are managed."
+ ],
+ "see_also": [
+  "candida-intertrigo",
+  "tinea",
+  "psoriasis",
+  "napkin-dermatitis",
+  "perineal-dermatoses"
+ ]
+}

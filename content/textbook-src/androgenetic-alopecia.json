@@ -1,0 +1,69 @@
+{
+ "kf": [
+  "**Androgenetic alopecia** (male- and female-pattern hair loss) is the commonest cause of hair loss: genetic sensitivity of follicles to androgens.",
+  "Men: temporal recession and vertex thinning (Hamilton–Norwood); women: diffuse crown thinning with a **preserved frontal hairline** and widened parting (Ludwig).",
+  "Hallmark: **miniaturisation** (hairs of varying thickness).",
+  "Topical **minoxidil** 2% or 5% for both sexes (continuous, about 6 months to judge); **finasteride 1 mg** in men.",
+  "In women with signs of hyperandrogenism (acne, hirsutism, irregular periods) check for PCOS or another cause."
+ ],
+ "epi": [
+  {
+   "t": "**Who**",
+   "sub": [
+    "About half of men by 50 and up to 40% of women by 70.",
+    "Strong family history; onset after puberty."
+   ]
+  }
+ ],
+ "aet": [
+  "Polygenic inheritance (androgen receptor gene on the X chromosome and others).",
+  "**Dihydrotestosterone (DHT)** formed by 5α-reductase in the scalp."
+ ],
+ "myths": [
+  "**\"Hats or frequent washing cause baldness\"**: they do not.",
+  "**\"Minoxidil can be stopped once hair returns\"**: stopping loses the gains within months."
+ ],
+ "patho_lead": "DHT gradually **shrinks** genetically susceptible scalp follicles.",
+ "mech": [
+  {
+   "k": "Androgen activation",
+   "t": "5α-reductase type II converts testosterone to **DHT** in the follicle; finasteride blocks this step."
+  },
+  {
+   "k": "Shorter anagen",
+   "t": "DHT shortens each growth phase, so hairs grow for less time and are shorter."
+  },
+  {
+   "k": "Miniaturisation",
+   "t": "Each cycle produces a thinner, shorter, less pigmented hair until terminal hairs become vellus-like."
+  },
+  {
+   "k": "Visible thinning",
+   "t": "More follicles in telogen and fewer terminal hairs give see-through scalp in a patterned distribution."
+  }
+ ],
+ "histo": [
+  "Rarely needed: reduced terminal-to-vellus ratio, increased telogen hairs, no scarring. Dermoscopy shows variable hair diameter (anisotrichosis)."
+ ],
+ "special": [
+  {
+   "t": "**Women**",
+   "sub": [
+    "Usually normal androgen levels; test only if there are features of hyperandrogenism.",
+    "Spironolactone is an off-label specialist option; contraception needed."
+   ]
+  }
+ ],
+ "comp": [
+  "Psychological distress; sunburn and actinic damage on the bald scalp."
+ ],
+ "prog": [
+  "Slowly progressive; treatment stabilises or partly reverses loss while it continues."
+ ],
+ "see_also": [
+  "telogen-effluvium",
+  "alopecia-areata",
+  "hirsutism",
+  "scarring-alopecia"
+ ]
+}

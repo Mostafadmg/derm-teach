@@ -1,0 +1,63 @@
+{
+ "kf": [
+  "**Pyogenic granuloma** (lobular capillary haemangioma) is a fast-growing, **bleeding**, red, moist papule: neither pyogenic nor a granuloma.",
+  "Grows over weeks, often after minor trauma; fingers, lips, face, gums (pregnancy epulis).",
+  "Triggers: pregnancy, isotretinoin, EGFR inhibitors, other drugs.",
+  "Curettage and cautery with **histology** is the usual treatment; send all removed tissue.",
+  "Amelanotic melanoma can look identical: a bleeding nodule in an adult needs histology."
+ ],
+ "epi": [
+  {
+   "t": "**Who**",
+   "sub": [
+    "Children and young adults; pregnant women (gingiva)."
+   ]
+  }
+ ],
+ "aet": [
+  "Minor injury, hormones (pregnancy), drugs (retinoids, EGFR inhibitors, protease inhibitors)."
+ ],
+ "myths": [
+  "**\"It's an infection\"**: it is a benign vascular proliferation; antibiotics do not help."
+ ],
+ "patho_lead": "Pyogenic granuloma is an **exuberant capillary overgrowth** at a site of injury.",
+ "mech": [
+  {
+   "k": "Trigger",
+   "t": "Minor injury or hormones release angiogenic factors (VEGF)."
+  },
+  {
+   "k": "Lobular capillary proliferation",
+   "t": "Capillaries proliferate in lobules, forming a red, friable nodule that bleeds easily.",
+   "img": "v3-pyogenic-granuloma-section.jpg",
+   "cap": "Pyogenic granuloma: lobules of capillaries with a collarette of epidermis."
+  },
+  {
+   "k": "Collarette",
+   "t": "Epidermis grows around the base forming a collar; the surface often ulcerates."
+  }
+ ],
+ "histo": [
+  "Lobular capillary proliferation in an oedematous stroma with an epidermal collarette; ulceration common."
+ ],
+ "special": [
+  {
+   "t": "**Pregnancy**",
+   "sub": [
+    "Gingival lesions often regress after delivery; treat if bleeding or troublesome."
+   ]
+  }
+ ],
+ "comp": [
+  "Recurrent bleeding; recurrence after treatment (satellite lesions)."
+ ],
+ "prog": [
+  "Rarely resolves untreated; treatment is usually curative."
+ ],
+ "see_also": [
+  "melanoma",
+  "ingrowing-toenail",
+  "retinoids",
+  "squamous-cell-carcinoma"
+ ]
+}

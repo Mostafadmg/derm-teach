@@ -1,0 +1,77 @@
+{
+ "kf": [
+  "**Alopecia areata** is autoimmune, **non-scarring** hair loss in round or oval patches with normal-looking skin.",
+  "**Exclamation-mark hairs** at the edge; can affect beard, brows, lashes and nails (pitting).",
+  "Severe forms: **ophiasis** (band along the hairline), totalis (whole scalp) and universalis (all body hair).",
+  "About 80% of small, short-duration patches regrow within a year, but relapse is common.",
+  "Adults: potent or very potent scalp steroid for about 3 months (off-label); refer children, extensive or distressing disease (JAK inhibitors are specialist)."
+ ],
+ "epi": [
+  {
+   "t": "**Who**",
+   "sub": [
+    "Lifetime risk about 2%; any age, often starting in childhood or young adulthood.",
+    "Associated with atopy, thyroid disease, vitiligo and Down syndrome."
+   ]
+  }
+ ],
+ "aet": [
+  "Loss of the hair follicle's **immune privilege** with CD8+ T-cell attack; genetic susceptibility (HLA, ULBP3).",
+  "Triggers sometimes reported: stress, illness."
+ ],
+ "myths": [
+  "**\"Stress alone causes it\"**: it is autoimmune; stress may trigger flares.",
+  "**\"Hair loss is permanent\"**: follicles are not destroyed, so regrowth is possible even after years."
+ ],
+ "patho_lead": "Immune cells attack **growing (anagen) hair bulbs** but spare the stem cells, so hair can regrow.",
+ "mech": [
+  {
+   "k": "Immune privilege collapse",
+   "t": "Anagen bulbs normally hide their antigens (low MHC class I); in AA this privilege fails."
+  },
+  {
+   "k": "T-cell attack",
+   "t": "Interferon-γ and **JAK–STAT** signalling recruit CD8+ T cells around the bulb ('swarm of bees'): the target of JAK inhibitors."
+  },
+  {
+   "k": "Dystrophic hairs",
+   "t": "Damaged hairs narrow near the scalp and break: **exclamation-mark hairs**; follicles enter early catagen and telogen."
+  },
+  {
+   "k": "Regrowth",
+   "t": "Stem cells in the bulge survive, so regrowth often starts as fine white hairs that later repigment."
+  }
+ ],
+ "histo": [
+  "Peribulbar lymphocytic infiltrate around anagen follicles; increased catagen/telogen hairs; no scarring. Biopsy only if the diagnosis is uncertain."
+ ],
+ "special": [
+  {
+   "t": "**Children**",
+   "sub": [
+    "Refer; use lower-potency steroids, and consider the psychosocial impact and school support."
+   ]
+  },
+  {
+   "t": "**Nails**",
+   "sub": [
+    "Fine regular pitting or trachyonychia in 10–20%, more with severe disease."
+   ]
+  }
+ ],
+ "comp": [
+  "Anxiety, depression and social withdrawal.",
+  "Loss of eyelashes and brows (eye irritation).",
+  "Associated autoimmune disease."
+ ],
+ "prog": [
+  "Unpredictable. Worse outlook: onset in childhood, extensive or ophiasis pattern, nail disease, atopy, long duration."
+ ],
+ "see_also": [
+  "androgenetic-alopecia",
+  "telogen-effluvium",
+  "trichotillomania",
+  "scarring-alopecia",
+  "tinea"
+ ]
+}

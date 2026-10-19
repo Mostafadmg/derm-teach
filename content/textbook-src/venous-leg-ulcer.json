@@ -1,0 +1,81 @@
+{
+ "kf": [
+  "**Venous leg ulcers** are the commonest chronic leg ulcers (about 70%), caused by **venous hypertension**.",
+  "Gaiter area, especially over the **medial malleolus**; shallow, sloping-edged, exudative ulcer with haemosiderin, venous eczema and lipodermatosclerosis.",
+  "Always check **ABPI** before high compression to exclude significant arterial disease.",
+  "**Compression** is the cornerstone; plus elevation, walking, wound care and treatment of venous eczema.",
+  "Refer if not healing after about 2 weeks of optimal care, atypical, mixed arterial disease or for venous intervention (NICE CG168)."
+ ],
+ "epi": [
+  {
+   "t": "**Who**",
+   "sub": [
+    "Older adults, more women; prevalence rises steeply after 65.",
+    "Risk factors: varicose veins, previous **DVT**, obesity, immobility, multiple pregnancies, leg trauma."
+   ]
+  },
+  {
+   "t": "**Burden**",
+   "sub": [
+    "Often chronic and recurrent: many recur within a year without ongoing compression."
+   ]
+  }
+ ],
+ "aet": [
+  "Calf-muscle pump failure (immobility, ankle stiffness, arthritis).",
+  "Post-thrombotic syndrome after DVT."
+ ],
+ "myths": [
+  "**\"Swab every ulcer\"**: all chronic ulcers grow bacteria; swab only if clinically infected.",
+  "**\"Compression is unsafe in the elderly\"**: it is safe once ABPI shows adequate arterial supply."
+ ],
+ "patho_lead": "Persistently high pressure in the leg veins damages the skin from the inside.",
+ "mech": [
+  {
+   "k": "Valve failure",
+   "t": "Incompetent valves in superficial, perforating or deep veins (often after DVT) let blood **reflux** downwards."
+  },
+  {
+   "k": "Venous hypertension",
+   "t": "Walking normally lowers ankle venous pressure; with reflux or pump failure it stays high (**ambulatory venous hypertension**)."
+  },
+  {
+   "k": "Capillary leak",
+   "t": "High pressure stretches capillaries; fluid, red cells (later **haemosiderin**) and fibrinogen leak into the tissues, causing oedema and brown staining."
+  },
+  {
+   "k": "Inflammation and fibrosis",
+   "t": "White cells trapped in capillaries release enzymes and cytokines; the dermis and fat scar (**lipodermatosclerosis**) and oxygen delivery falls."
+  },
+  {
+   "k": "Ulceration",
+   "t": "Minor trauma breaks the fragile skin, which cannot heal while venous pressure stays high: compression reverses this."
+  }
+ ],
+ "histo": [
+  "Not needed routinely. **Biopsy** a non-healing or atypical ulcer (rolled edge, exuberant tissue) to exclude SCC (Marjolin ulcer) or BCC."
+ ],
+ "special": [
+  {
+   "t": "**Mixed arterial–venous disease**",
+   "sub": [
+    "ABPI below 0.8 needs reduced or no compression and vascular referral; diabetes can give a falsely high ABPI."
+   ]
+  }
+ ],
+ "comp": [
+  "Cellulitis; contact allergy to dressings and topical treatments (common in leg ulcer patients).",
+  "Chronic pain, reduced mobility and isolation.",
+  "Malignant change in long-standing ulcers (rare)."
+ ],
+ "prog": [
+  "Most heal within months with good compression; recurrence is common, so lifelong compression hosiery is advised after healing."
+ ],
+ "see_also": [
+  "arterial-neuropathic-ulcers",
+  "red-leg",
+  "cellulitis-erysipelas",
+  "pyoderma-gangrenosum",
+  "wound-aftercare"
+ ]
+}

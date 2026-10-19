@@ -1,0 +1,86 @@
+{
+ "kf": [
+  "**Melanocytic naevi (moles)** are benign clonal proliferations of melanocytes; most adults have 10–40.",
+  "They evolve over life: **junctional** (flat) → **compound** (raised) → **intradermal** (soft, skin-coloured), and many fade after middle age.",
+  "Common naevi are symmetrical, one or two colours, under about 6 mm, and match the person's other moles ('signature' naevi).",
+  "Dermoscopy patterns (reticular, globular, homogeneous) help; the **ugly duckling** and changing lesion need assessment.",
+  "Reassure typical naevi; refer any lesion meeting the NICE 7-point checklist or with clinical concern via the **suspected cancer pathway**."
+ ],
+ "epi": [
+  {
+   "t": "**Who**",
+   "sub": [
+    "Naevi appear in childhood, peak in number in the 20s–30s and decline after 50.",
+    "More naevi with fair skin, childhood sun exposure and family history; acral naevi more common in darker skin."
+   ]
+  },
+  {
+   "t": "**Melanoma risk**",
+   "sub": [
+    "More than about 100 naevi, or several atypical naevi, is a major melanoma risk factor; most melanomas still arise de novo, not in a pre-existing mole."
+   ]
+  }
+ ],
+ "aet": [
+  "Somatic **BRAF V600E** (common naevi) or **NRAS** (congenital naevi) mutations start a clone, which then stops growing (oncogene-induced senescence).",
+  "Sun exposure in childhood and genetics (number of naevi is strongly inherited)."
+ ],
+ "myths": [
+  "**\"Moles turn into cancer\"**: individual moles rarely do; the number of moles signals risk.",
+  "**\"Hairs mean it's safe\"**: hair does not exclude melanoma."
+ ],
+ "patho_lead": "A naevus is a clone of melanocytes that grows, then **switches itself off**.",
+ "mech": [
+  {
+   "k": "Founder mutation",
+   "t": "A melanocyte acquires a **BRAF** or **NRAS** mutation and proliferates as nests at the dermo-epidermal junction (junctional naevus)."
+  },
+  {
+   "k": "Senescence",
+   "t": "After a growth phase, the clone enters **oncogene-induced senescence** (p16) and stops enlarging: a stable mole."
+  },
+  {
+   "k": "Maturation into the dermis",
+   "t": "Nests drop into the dermis (compound, then intradermal naevus); deeper cells become smaller and less pigmented.",
+   "img": "v3-naevus-life-cycle.jpg",
+   "cap": "Life cycle of a naevus: junctional → compound → intradermal, then fading."
+  },
+  {
+   "k": "Involution",
+   "t": "Many naevi fade or become fibrous in older age; a new or changing pigmented lesion in an adult needs more caution."
+  }
+ ],
+ "histo": [
+  "Junctional: nests at the dermo-epidermal junction; compound: junctional plus dermal nests; intradermal: dermal nests only, showing **maturation** with depth.",
+  "No atypia, symmetry and orderly maturation separate naevi from melanoma."
+ ],
+ "special": [
+  {
+   "t": "**Pregnancy**",
+   "sub": [
+    "Naevi may darken slightly, but a clearly changing mole needs the same assessment as at any other time."
+   ]
+  },
+  {
+   "t": "**Children**",
+   "sub": [
+    "New naevi are normal; childhood melanoma is rare and often amelanotic or nodular (use modified ABCD criteria)."
+   ]
+  }
+ ],
+ "comp": [
+  "Irritation, trauma or inflammation (folliculitis within a mole).",
+  "Rarely melanoma arising in a naevus.",
+  "Halo phenomenon (depigmented ring)."
+ ],
+ "prog": [
+  "Benign and stable; most change slowly with age. Removal is only for diagnosis or symptoms; cosmetic removal is not NHS-funded."
+ ],
+ "see_also": [
+  "melanoma",
+  "atypical-naevus-syndrome",
+  "congenital-melanocytic-naevi",
+  "spitz-blue-halo-naevi",
+  "seborrhoeic-keratosis"
+ ]
+}

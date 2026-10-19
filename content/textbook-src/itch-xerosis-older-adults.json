@@ -1,0 +1,77 @@
+{
+ "kf": [
+  "**Xerosis** (dry skin) is the commonest cause of itch in older adults; asteatotic eczema (*eczema craquelé*) is its inflamed form, especially on the shins.",
+  "Look for a cause of itch without rash: iron deficiency, renal or liver disease, thyroid disease, haematological malignancy, drugs.",
+  "Cornerstone: emollients **liberally and often** (2–3 times a day and after washing), soap substitutes, short lukewarm showers.",
+  "Short course of a moderately potent steroid for asteatotic flares; warn about **fire risk** of emollient-soaked fabric and slippery floors.",
+  "Do not forget scabies, bullous pemphigoid (prodrome) and drug reactions in itchy older people."
+ ],
+ "epi": [
+  {
+   "t": "**Who**",
+   "sub": [
+    "Most people over 65 have some xerosis; worse in winter, with central heating and frequent washing."
+   ]
+  }
+ ],
+ "aet": [
+  "Ageing skin: less lipid and filaggrin, slower barrier repair, reduced sweat and sebum.",
+  "Diuretics, statins and other drugs; hypothyroidism; low humidity."
+ ],
+ "myths": [
+  "**\"Itching in older people is just age\"**: always examine for scabies, pemphigoid and systemic causes.",
+  "**\"Antihistamines help dry-skin itch\"**: sedating ones cause falls and confusion and do little for xerotic itch."
+ ],
+ "patho_lead": "Ageing skin loses its **lipid barrier**, lets water escape and becomes itchy and cracked.",
+ "mech": [
+  {
+   "k": "Barrier lipid loss",
+   "t": "Ceramides, cholesterol and natural moisturising factor fall with age.",
+   "img": "v3-eczema-barrier-section.jpg",
+   "cap": "A leaky skin barrier lets water out and irritants in."
+  },
+  {
+   "k": "Water loss and scaling",
+   "t": "Transepidermal water loss rises; corneocytes shrink and scale."
+  },
+  {
+   "k": "Cracking",
+   "t": "Fine fissures form a 'crazy-paving' pattern on the shins (eczema craquelé).",
+   "img": "v3-asteatotic-shins.jpg",
+   "cap": "Asteatotic eczema: crazy-paving pattern on the shins."
+  },
+  {
+   "k": "Itch–scratch cycle",
+   "t": "Nerve fibres in dry skin become sensitised; scratching damages the barrier further."
+  },
+  {
+   "k": "Repair",
+   "t": "Regular emollient restores lipids and breaks the cycle.",
+   "img": "v3-older-leg-applicator.jpg",
+   "cap": "A long-handled applicator helps older people apply emollient to the legs."
+  }
+ ],
+ "special": [
+  {
+   "t": "**Itch without rash (generalised pruritus)**",
+   "sub": [
+    "Check FBC, ferritin, U&E, LFT, TFT, HbA1c; consider chest X-ray if there are systemic symptoms."
+   ]
+  }
+ ],
+ "comp": [
+  "Infected eczema; skin tears and dermatoporosis.",
+  "Sleep disturbance, depression.",
+  "Falls from slippery emollients; burns from emollient-soaked fabrics."
+ ],
+ "prog": [
+  "Chronic and seasonal; controlled with daily skin care."
+ ],
+ "see_also": [
+  "eczema-dermatitis",
+  "emollients",
+  "skin-fragility-dermatoporosis",
+  "bullous-pemphigoid",
+  "scabies"
+ ]
+}

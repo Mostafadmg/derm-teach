@@ -1,0 +1,91 @@
+{
+ "kf": [
+  "**Lichen planus** is a T-cell–mediated inflammatory disease of skin, mucosa, hair and nails.",
+  "The **6 Ps**: purple, polygonal, planar, pruritic papules and plaques, with white **Wickham striae**; flexor wrists, lower back, ankles.",
+  "Check the **mouth**, genitals, nails and scalp; oral LP is often lace-like and white.",
+  "Ask about drugs (lichenoid drug eruption) and consider **hepatitis C** testing according to risk.",
+  "Potent topical steroids for skin; refer mucosal, nail, scalp (scarring) or extensive disease."
+ ],
+ "epi": [
+  {
+   "t": "**Who**",
+   "sub": [
+    "Adults 30–60; cutaneous LP affects about 1% of people, oral LP 1–2%.",
+    "Rare in children."
+   ]
+  },
+  {
+   "t": "**Course**",
+   "sub": [
+    "Skin LP usually clears within 1–2 years; oral and genital LP are often chronic."
+   ]
+  }
+ ],
+ "aet": [
+  "Autoimmune attack on basal keratinocytes, possibly triggered by altered self-antigens (viral, drug).",
+  "Drugs: beta-blockers, ACE inhibitors, thiazides, antimalarials, gold, checkpoint inhibitors."
+ ],
+ "myths": [
+  "**\"LP is contagious\"**: it is not.",
+  "**\"Oral LP is just a mouth ulcer\"**: chronic erosive oral LP carries a small risk of SCC and needs follow-up."
+ ],
+ "patho_lead": "Cytotoxic T cells attack the **basal layer** of the epidermis (an **interface dermatitis**).",
+ "mech": [
+  {
+   "k": "Antigen on keratinocytes",
+   "t": "An altered antigen on basal keratinocytes is presented to T cells."
+  },
+  {
+   "k": "T-cell attack",
+   "t": "CD8+ T cells form a dense **band** along the dermo-epidermal junction and kill basal cells (apoptotic **Civatte bodies**).",
+   "img": "v3-lp-polygonal-koebner.jpg",
+   "cap": "Flat-topped violaceous polygonal papules with Wickham striae and a Koebner line."
+  },
+  {
+   "k": "Thickened granular layer",
+   "t": "The epidermis responds with a thick granular layer and **saw-tooth** rete ridges: seen clinically as Wickham striae."
+  },
+  {
+   "k": "Pigment drop-out",
+   "t": "Melanin falls into the dermis (pigment incontinence), causing long-lasting **post-inflammatory hyperpigmentation**, especially in darker skin."
+  },
+  {
+   "k": "Mucosal disease",
+   "t": "In the mouth the same process causes white reticular lace and painful erosions.",
+   "img": "v3-oral-lp-reticular.jpg",
+   "cap": "Reticular oral lichen planus on the buccal mucosa."
+  }
+ ],
+ "histo": [
+  "Band-like lymphocytic infiltrate at the dermo-epidermal junction, hypergranulosis, saw-tooth acanthosis, Civatte bodies; direct immunofluorescence shows fibrinogen along the basement membrane."
+ ],
+ "special": [
+  {
+   "t": "**Skin of colour**",
+   "sub": [
+    "Papules look grey-brown or purple-black; hyperpigmentation can be the main complaint."
+   ]
+  },
+  {
+   "t": "**Variants**",
+   "sub": [
+    "Hypertrophic (shins), annular, linear, bullous, actinic, lichen planopilaris (scarring alopecia), nail LP (pterygium)."
+   ]
+  }
+ ],
+ "comp": [
+  "Post-inflammatory hyperpigmentation.",
+  "Scarring alopecia and permanent nail loss.",
+  "Vulval/penile scarring; small risk of SCC in chronic erosive oral or genital LP."
+ ],
+ "prog": [
+  "Cutaneous LP: most resolves in 1–2 years; hypertrophic LP persists longer. Mucosal LP is often lifelong."
+ ],
+ "see_also": [
+  "psoriasis",
+  "scarring-alopecia",
+  "nail-signs",
+  "drug-eruption-approach",
+  "contact-lichenoid-pigmentation"
+ ]
+}

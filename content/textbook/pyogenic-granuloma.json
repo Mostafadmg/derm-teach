@@ -1,0 +1,389 @@
+{
+ "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
+ "key_facts": [
+  "**Pyogenic granuloma** (lobular capillary haemangioma) is a fast-growing, **bleeding**, red, moist papule: neither pyogenic nor a granuloma.",
+  "Grows over weeks, often after minor trauma; fingers, lips, face, gums (pregnancy epulis).",
+  "Triggers: pregnancy, isotretinoin, EGFR inhibitors, other drugs.",
+  "Curettage and cautery with **histology** is the usual treatment; send all removed tissue.",
+  "Amelanotic melanoma can look identical: a bleeding nodule in an adult needs histology."
+ ],
+ "sections": [
+  {
+   "id": "overview",
+   "title": "Overview",
+   "blocks": [
+    "A common, benign, rapidly growing vascular tumour of skin and mucosa. The name is a misnomer: it is neither pyogenic nor a granuloma."
+   ]
+  },
+  {
+   "id": "epidemiology",
+   "title": "Epidemiology",
+   "blocks": [
+    {
+     "ul": [
+      {
+       "t": "**Who**",
+       "sub": [
+        "Children and young adults; pregnant women (gingiva)."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "aetiology",
+   "title": "Aetiology: causes and risk factors",
+   "blocks": [
+    "Reactive proliferation of lobules of capillaries, often after minor trauma. Hormonal (pregnancy, the \"granuloma gravidarum\" on the gums) and **drug triggers**, which a pharmacist should know:",
+    {
+     "ul": [
+      "systemic retinoids (isotretinoin, acitretin)",
+      "EGFR inhibitors (cetuximab, erlotinib, gefitinib; around the nail folds)",
+      "BRAF/MEK inhibitors",
+      "some antiretrovirals (indinavir)",
+      "ciclosporin",
+      "capecitabine and taxanes",
+      "the combined oral contraceptive"
+     ]
+    },
+    {
+     "h": "Risk factors and associations"
+    },
+    {
+     "ul": [
+      "Minor injury, hormones (pregnancy), drugs (retinoids, EGFR inhibitors, protease inhibitors)."
+     ]
+    },
+    {
+     "h": "Myths to address"
+    },
+    {
+     "ul": [
+      "**\"It's an infection\"**: it is a benign vascular proliferation; antibiotics do not help."
+     ]
+    }
+   ],
+   "short": "Aetiology"
+  },
+  {
+   "id": "pathophysiology",
+   "title": "Pathophysiology and pathology",
+   "blocks": [
+    "Pyogenic granuloma is an **exuberant capillary overgrowth** at a site of injury.",
+    {
+     "mech": [
+      {
+       "k": "Trigger",
+       "t": "Minor injury or hormones release angiogenic factors (VEGF)."
+      },
+      {
+       "k": "Lobular capillary proliferation",
+       "t": "Capillaries proliferate in lobules, forming a red, friable nodule that bleeds easily.",
+       "img": "v3-pyogenic-granuloma-section.jpg",
+       "caption": "Pyogenic granuloma: lobules of capillaries with a collarette of epidermis."
+      },
+      {
+       "k": "Collarette",
+       "t": "Epidermis grows around the base forming a collar; the surface often ulcerates."
+      }
+     ]
+    },
+    {
+     "histo": [
+      "Lobular capillary proliferation in an oedematous stroma with an epidermal collarette; ulceration common."
+     ]
+    }
+   ],
+   "short": "Pathophysiology"
+  },
+  {
+   "id": "clinical-features",
+   "title": "Clinical features",
+   "blocks": [
+    {
+     "ul": [
+      "A bright red, glistening, friable papule or polyp, 5–10 mm, developing over **weeks** (the 4-week series is in ). It often has a collarette of scale.",
+      "**Bleeds profusely with minor trauma.** Fingers, lips, gums, face, eyelid, and nail folds."
+     ]
+    },
+    {
+     "fig": {
+      "dermnet": "m2w6:A01"
+     }
+    },
+    {
+     "h": "Types to recognise"
+    },
+    {
+     "variants": [
+      {
+       "name": "Lip PG",
+       "t": "Rapidly growing red papule. *Site: Lip.*",
+       "photo": "m2w1:F01"
+      },
+      {
+       "name": "Eyelid",
+       "t": "Pedunculated. *Site: Eyelid.*",
+       "photo": "m2w1:F02"
+      },
+      {
+       "name": "Week 4",
+       "t": "Pedunculated, friable. *Site: Finger.*",
+       "photo": "m2w6:A03"
+      },
+      {
+       "name": "Dermoscopy",
+       "t": "Red clods, white lines. *Site: Dermoscopy.*",
+       "photo": "m2w6:A04"
+      }
+     ]
+    },
+    {
+     "h": "Special groups"
+    },
+    {
+     "ul": [
+      {
+       "t": "**Pregnancy**",
+       "sub": [
+        "Gingival lesions often regress after delivery; treat if bleeding or troublesome."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "diagnosis",
+   "title": "Diagnosis and investigations",
+   "blocks": [
+    {
+     "ul": [
+      "Clinical plus dermoscopy (red homogeneous areas, white \"rail\" lines, collarette).",
+      "**Histology is mandatory after removal, because amelanotic melanoma can look identical** (see , )."
+     ]
+    },
+    {
+     "h4": "Clinical"
+    },
+    {
+     "ul": [
+      "+ dermoscopy."
+     ]
+    },
+    {
+     "h4": "Histology"
+    },
+    {
+     "ul": [
+      "**Mandatory** after removal: amelanotic melanoma can look identical."
+     ]
+    },
+    {
+     "h4": "Drug history"
+    },
+    {
+     "ul": [
+      "Retinoids, EGFR / BRAF inhibitors, ciclosporin, pill."
+     ]
+    }
+   ],
+   "short": "Diagnosis"
+  },
+  {
+   "id": "differentials",
+   "title": "Differential diagnoses",
+   "blocks": [
+    {
+     "ddx": [
+      {
+       "name": "Amelanotic nodular melanoma",
+       "f": "Adult, non-traumatised site, recurrence, atypical vessels.",
+       "link": "melanoma",
+       "danger": true
+      },
+      {
+       "name": "SCC / keratoacanthoma",
+       "f": "Keratin, induration.",
+       "link": "squamous-cell-carcinoma"
+      },
+      {
+       "name": "BCC",
+       "f": "Pearly, arborising vessels.",
+       "link": "basal-cell-carcinoma"
+      },
+      {
+       "name": "Kaposi sarcoma / bacillary angiomatosis",
+       "f": "HIV context; violaceous."
+      },
+      {
+       "name": "Cherry angioma",
+       "f": "Older, stable, small.",
+       "link": "vascular-birthmarks"
+      },
+      {
+       "name": "Ingrown-nail granulation",
+       "f": "Periungual, nail spike.",
+       "link": "paronychia"
+      }
+     ]
+    },
+    "**Amelanotic nodular melanoma** (the critical one; consider in any adult with a \"PG\" on a non-traumatised site, recurrence, or atypical vessels), SCC/keratoacanthoma, BCC, Kaposi sarcoma, bacillary angiomatosis (HIV), cherry angioma (older, stable), infantile haemangioma (infants), metastasis (kidney, thyroid), and periungual granulation tissue from an ingrown nail."
+   ],
+   "short": "Differentials"
+  },
+  {
+   "id": "management",
+   "title": "Management",
+   "blocks": [
+    {
+     "ul": [
+      "**Bleeding first aid:** firm pressure for 10–15 minutes; a non-adherent dressing.",
+      "**Refer for removal with histology.** Curettage and cautery (shave/curette plus base cautery) is the usual UK primary-care or dermatology approach. It is discussed at knowledge level in the [skin surgery](condition:skin-surgery-preop) notes.",
+      "Silver nitrate or cryotherapy alone gives no specimen and recurs more. Only use them where the diagnosis is not in doubt (e.g. a small pregnancy gum lesion, managed by a dentist).",
+      "**Drug-induced PG:** discuss with the prescribing specialist before stopping a cancer drug. Topical timolol or potent steroid are sometimes used by specialists for small periungual lesions.",
+      "Pregnancy PGs may regress after delivery; manage conservatively unless bleeding."
+     ]
+    },
+    {
+     "h": "Why curettage and cautery"
+    },
+    {
+     "ul": [
+      "A **friable, bleeding vascular lesion** that would bleed during shave alone. **C&C removes it and seals the base**, and the curettings go for **histology** (amelanotic melanoma, SCC and Kaposi are the \"must-not-miss\" mimics; the [skin lumps](condition:dermatofibroma) notes see *Procedures at knowledge level*).",
+      "Alternatives: shave + cautery; excision for recurrent lesions (with closure, as course teaching described); silver nitrate or cryotherapy for very small lesions where the diagnosis is certain (no specimen).",
+      "**Posterior neck:** superficial procedures are safe. A deeper excision would need awareness of the spinal accessory nerve (see *Consent, complications and anatomical danger zones*)."
+     ]
+    },
+    {
+     "h": "Treatment ladder"
+    },
+    {
+     "ladder": [
+      {
+       "k": "First aid",
+       "t": "**Firm pressure 10–15 minutes**; non-adherent dressing.",
+       "tone": "base"
+      },
+      {
+       "k": "Remove",
+       "t": "Refer for **curettage and cautery** (shave / curette + base cautery) **with histology**.",
+       "tone": "refer"
+      },
+      {
+       "k": "Drug-induced",
+       "t": "Discuss with the prescribing specialist before stopping a cancer drug; specialists may use topical timolol or potent steroid for small periungual lesions. Isotretinoin nail-fold granulation: **Yellow Card** + liaise with prescriber.",
+       "tone": "second"
+      },
+      {
+       "k": "Pregnancy",
+       "t": "Gum lesions may resolve after birth (dentist-managed).",
+       "tone": "first"
+      }
+     ]
+    },
+    {
+     "callout": "warn",
+     "title": "Prescribing limits and pitfalls",
+     "list": [
+      "**Silver nitrate / cryo alone**: No specimen, more recurrence: only if diagnosis isn’t in doubt."
+     ]
+    },
+    {
+     "h": "Referral"
+    },
+    {
+     "refer": [
+      {
+       "when": "urgent",
+       "t": "Rapidly growing red nodule in an adult, especially **sole, nail unit or > 50**: histology; suspected cancer pathway if atypical (amelanotic melanoma)."
+      },
+      {
+       "when": "routine",
+       "t": "Typical PG: refer for curettage and cautery with histology."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "red-flags",
+   "title": "Red flags and when to refer",
+   "blocks": [
+    {
+     "ul": [
+      "A rapidly growing red nodule in an adult, especially on the sole, nail unit or in someone over 50: send tissue for histology; refer on a **suspected cancer pathway** if atypical (amelanotic melanoma)."
+     ]
+    }
+   ],
+   "short": "Red flags"
+  },
+  {
+   "id": "complications",
+   "title": "Complications and prognosis",
+   "blocks": [
+    {
+     "h": "Complications"
+    },
+    {
+     "ul": [
+      "Recurrent bleeding; recurrence after treatment (satellite lesions)."
+     ]
+    },
+    {
+     "h": "Prognosis"
+    },
+    {
+     "ul": [
+      "Rarely resolves untreated; treatment is usually curative."
+     ]
+    }
+   ],
+   "short": "Complications"
+  },
+  {
+   "id": "pearls",
+   "title": "Prescriber pearls (UK pharmacist IP)",
+   "blocks": [
+    {
+     "pearls": [
+      "Recurrence (up to 15%) and satellite lesions happen. Return if it recurs, and do not assume it is benign.",
+      "On isotretinoin? PG-like granulation tissue at the nail folds is a known adverse effect. Report it (Yellow Card) and liaise with the prescriber."
+     ]
+    }
+   ],
+   "short": "Pearls"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Why always send histology?",
+   "a": "Amelanotic melanoma can look identical."
+  },
+  {
+   "q": "Usual treatment?",
+   "a": "Curettage and cautery of the base, with histology."
+  },
+  {
+   "q": "Drug classes that trigger PG?",
+   "a": "Systemic retinoids, EGFR / BRAF inhibitors, ciclosporin, some antiretrovirals."
+  },
+  {
+   "q": "Bleeding first aid?",
+   "a": "Firm pressure for 10–15 minutes."
+  }
+ ],
+ "references": [
+  {
+   "label": "Medscape: Pyogenic granuloma",
+   "url": "https://emedicine.medscape.com/article/1077040-overview"
+  }
+ ],
+ "see_also": [
+  "melanoma",
+  "ingrowing-toenail",
+  "retinoids",
+  "squamous-cell-carcinoma"
+ ]
+}

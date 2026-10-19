@@ -1,0 +1,63 @@
+{
+ "kf": [
+  "**Dermatofibroma** (benign fibrous histiocytoma) is a common firm dermal papule, usually on the **legs**.",
+  "Firm 'button' with a brown rim; the **dimple sign**: it puckers inwards when pinched.",
+  "Dermoscopy: central white scar-like patch with a fine peripheral pigment network.",
+  "Benign: reassure. Refer if growing, large, atypical or pigmented in an unusual way (exclude melanoma and DFSP).",
+  "Excision leaves a scar often worse than the lesion."
+ ],
+ "epi": [
+  {
+   "t": "**Who**",
+   "sub": [
+    "Young to middle-aged adults, more women; lower legs commonest."
+   ]
+  }
+ ],
+ "aet": [
+  "Possibly a reaction to minor trauma such as an insect bite or ingrown hair; multiple lesions in immunosuppression (HIV, lupus)."
+ ],
+ "myths": [
+  "**\"It's a mole\"**: it is a fibrous lesion, which explains its firmness and the dimple sign."
+ ],
+ "patho_lead": "A dermatofibroma is a **fibrous reaction** in the dermis that tethers the skin above.",
+ "mech": [
+  {
+   "k": "Injury",
+   "t": "Minor trauma triggers fibroblasts and histiocytes to proliferate in the dermis."
+  },
+  {
+   "k": "Fibrosis",
+   "t": "Collagen and cells form a firm nodule that tethers the overlying epidermis.",
+   "img": "v3-df-dimple-sign.jpg",
+   "cap": "The dimple sign: pinching pushes the dermatofibroma downwards."
+  },
+  {
+   "k": "Epidermal response",
+   "t": "Overlying epidermis thickens and becomes pigmented, causing the brown rim."
+  }
+ ],
+ "histo": [
+  "Spindle cells and histiocytes trapping collagen bundles at the periphery ('collagen balls'); overlying acanthosis with basal pigmentation; CD34 negative (unlike DFSP)."
+ ],
+ "special": [
+  {
+   "t": "**DFSP warning**",
+   "sub": [
+    "A slowly enlarging firm plaque over 2–3 cm, especially on the trunk, may be dermatofibrosarcoma protuberans: refer."
+   ]
+  }
+ ],
+ "comp": [
+  "Itch or catching on razors; ulceration (rare)."
+ ],
+ "prog": [
+  "Persists indefinitely; may flatten over years."
+ ],
+ "see_also": [
+  "dermatofibrosarcoma-protuberans",
+  "melanocytic-naevi",
+  "melanoma",
+  "lipoma"
+ ]
+}

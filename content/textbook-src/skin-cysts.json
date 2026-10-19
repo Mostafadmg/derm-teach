@@ -1,0 +1,73 @@
+{
+ "kf": [
+  "**Epidermoid cysts** are the commonest skin cyst: a mobile dermal nodule with a **central punctum**, filled with keratin ('sebaceous cyst' is a misnomer).",
+  "**Pilar (trichilemmal) cysts**: about 90% on the scalp, smooth, no punctum, often multiple and inherited.",
+  "Most 'infected' cysts are **inflamed** (ruptured keratin), not infected: antibiotics only for spreading cellulitis or systemic features.",
+  "Excise electively once inflammation settles (6–8 weeks), removing the whole wall; cosmetic removal is usually not NHS-funded.",
+  "Midline dermoids need imaging before surgery; multiple cysts in a child or young adult suggest **Gardner syndrome** (APC)."
+ ],
+ "epi": [
+  {
+   "t": "**Who**",
+   "sub": [
+    "Epidermoid cysts: young and middle-aged adults, more men; face, neck, trunk, scrotum.",
+    "Pilar cysts: middle-aged women, autosomal dominant tendency."
+   ]
+  }
+ ],
+ "aet": [
+  "Occluded follicular infundibulum; implantation of epidermis after injury; acne.",
+  "Drugs: isotretinoin, ciclosporin, BRAF inhibitors."
+ ],
+ "myths": [
+  "**\"It's a blocked sebaceous gland\"**: the cyst is lined by epidermis and contains keratin, not sebum.",
+  "**\"Squeeze it out\"**: squeezing ruptures the wall and causes inflammation and scarring."
+ ],
+ "patho_lead": "A cyst is a sac of **epidermis turned inside out**, shedding keratin into its centre.",
+ "mech": [
+  {
+   "k": "Trapped epidermis",
+   "t": "Follicular infundibulum (or implanted epidermis) forms a closed sac in the dermis."
+  },
+  {
+   "k": "Keratin build-up",
+   "t": "The lining keeps making keratin, which collects as soft 'cheesy' material; the punctum is the blocked opening.",
+   "img": "v4-epidermoid-cyst.jpg",
+   "cap": "Epidermoid cyst with a central punctum (left) and a ruptured cyst spilling keratin into the dermis with inflammation (right)."
+  },
+  {
+   "k": "Rupture and inflammation",
+   "t": "Keratin released into the dermis causes a sterile **foreign-body** reaction: red, hot and tender without infection."
+  },
+  {
+   "k": "Recurrence",
+   "t": "Any wall left behind regrows, so excision must remove the whole sac."
+  }
+ ],
+ "histo": [
+  "Epidermoid: stratified squamous lining with a granular layer and laminated keratin. Pilar: no granular layer, compact keratin (trichilemmal keratinisation)."
+ ],
+ "special": [
+  {
+   "t": "**Gardner syndrome**",
+   "sub": [
+    "Multiple epidermoid cysts before puberty, osteomas, dental anomalies, desmoids and colorectal polyposis: refer to genetics or colorectal services."
+   ]
+  }
+ ],
+ "comp": [
+  "Inflammation, rupture and abscess; scarring.",
+  "Recurrence after incomplete excision.",
+  "Malignant change is very rare; a rapidly growing scalp 'cyst' in an older person needs biopsy (proliferating trichilemmal tumour)."
+ ],
+ "prog": [
+  "Benign; persists unless excised."
+ ],
+ "see_also": [
+  "milia",
+  "lipoma",
+  "other-skin-lumps",
+  "boils-carbuncles",
+  "hidradenitis-suppurativa"
+ ]
+}

@@ -1,0 +1,83 @@
+{
+ "slug": "milia",
+ "title": "Milia",
+ "category": "lumps-lesions-cancer",
+ "status": "published",
+ "order": 5,
+ "module": "Module 2 · Week 1",
+ "aka": [
+  "milia",
+  "milium",
+  "milk spots",
+  "milia en plaque"
+ ],
+ "summary": "Milia are tiny (1–2 mm) white keratin cysts just under the epidermis. Primary milia are common in newborns and on the face; secondary milia follow blistering, trauma, dermabrasion or potent topical steroids. Harmless; usually left alone.",
+ "sections": {
+  "what": [
+   "**Milia** are 1–2 mm superficial **keratin cysts** (tiny epidermoid cysts). **Primary** milia arise spontaneously (up to half of newborns; also adults on the eyelids and cheeks). **Secondary** milia follow blistering, trauma, burns, dermabrasion or potent topical steroids."
+  ],
+  "cause": [
+   "Primary milia form from the lower **infundibulum of vellus hairs**; secondary milia form when damaged sweat ducts, follicles or epidermis become trapped during healing."
+  ],
+  "features": [
+   {
+    "list": [
+     "Firm, pearly **white or yellow** dome papules, 1–2 mm.",
+     "Face (eyelids, cheeks, nose) in primary milia; at sites of previous blisters or scars in secondary milia (e.g. hands in porphyria cutanea tarda or epidermolysis bullosa).",
+     "Neonatal milia: nose and cheeks; resolve within weeks."
+    ]
+   }
+  ],
+  "diagnosis": [
+   "Clinical. Dermoscopy shows a white-yellow globule. Look for a cause of secondary milia (blistering disease, PCT, steroid use)."
+  ],
+  "differentials": [
+   {
+    "list": [
+     "**Comedones** (acne): central keratin plug in a follicle, other acne lesions.",
+     "**Syringoma**: skin-coloured papules on the lower eyelids.",
+     "**Sebaceous hyperplasia**: yellow umbilicated papules with crown vessels.",
+     "**Xanthelasma**: yellow plaques on the eyelids.",
+     "**Molluscum contagiosum**: umbilicated, pearly papules, often in children."
+    ]
+   }
+  ],
+  "management": [
+   {
+    "list": [
+     "**Reassure**; neonatal milia resolve without treatment.",
+     "If cosmetically troublesome: de-roofing with a sterile needle and gentle expression (de-roofing and extraction).",
+     "Topical retinoids may help multiple milia; avoid potent steroids that provoke them."
+    ]
+   }
+  ],
+  "red_flags": [
+   {
+    "list": [
+     "Milia on scarred, fragile skin of the backs of the hands: think **porphyria cutanea tarda** or epidermolysis bullosa acquisita."
+    ]
+   }
+  ],
+  "pearls": [
+   {
+    "list": [
+     "Milia are **cysts**, not blocked sebaceous glands; squeezing without de-roofing does not work."
+    ]
+   }
+  ]
+ },
+ "photos": [
+  {
+   "title": "Secondary milia",
+   "items": [
+    "m5w6:B06"
+   ]
+  }
+ ],
+ "references": [
+  {
+   "label": "DermNet: Milia",
+   "url": "https://dermnetnz.org/topics/milia"
+  }
+ ]
+}
