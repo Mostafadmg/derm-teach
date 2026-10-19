@@ -1,10 +1,11 @@
 {
  "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
  "key_facts": [
-  "A **raised, wandering, very itchy serpiginous line** on the foot, buttock or hand after tropical beach or soil exposure.",
-  "**Dog / cat hookworm larvae** burrow into human skin but can’t complete their life cycle, so wander in the epidermis.",
-  "Single-dose **oral ivermectin** or **albendazole 3 days** (unlicensed; specialist / ID advice) + antihistamine.",
-  "Secondary infection, and **larva currens (*Strongyloides*)**, especially before steroids or in the immunosuppressed."
+  "**Animal hookworm larvae** wander in the epidermis, leaving an intensely itchy, **serpiginous track**.",
+  "Common in travellers returning from tropical beaches; usual source dog and cat hookworms.",
+  "The track moves a few millimetres to centimetres a day, usually on feet, buttocks or hands.",
+  "Self-limiting (2–8 weeks), but treatment gives rapid relief: **ivermectin 200 micrograms/kg single dose** (off-label; prescriber).",
+  "Don't freeze the track: the larva is ahead of it."
  ],
  "sections": [
   {
@@ -25,9 +26,47 @@
       "Humans are an **accidental \"dead-end\" host**. The larvae lack the enzymes to cross the basement membrane, so they stay in the epidermis and **cannot complete their life cycle**. They die within weeks to months. The track is an inflammatory/allergic reaction to the moving larva and its secretions.",
       "Not spread person to person."
      ]
+    },
+    {
+     "h": "Myths to address"
+    },
+    {
+     "ul": [
+      "**\"Cryotherapy kills the worm\"**: painful and ineffective."
+     ]
     }
    ],
    "short": "Aetiology"
+  },
+  {
+   "id": "pathophysiology",
+   "title": "Pathophysiology and pathology",
+   "blocks": [
+    "Humans are a **dead-end host**: the larva can't get through the basement membrane.",
+    {
+     "mech": [
+      {
+       "k": "Eggs to larvae",
+       "t": "Infected animals pass eggs onto warm sand, where they hatch."
+      },
+      {
+       "k": "Skin penetration",
+       "t": "Infective larvae burrow into bare skin."
+      },
+      {
+       "k": "Trapped in the epidermis",
+       "t": "Lacking the enzymes to cross the basement membrane, they wander.",
+       "img": "v3-clm-foot-track.jpg",
+       "caption": "Serpiginous track on the foot."
+      },
+      {
+       "k": "Itch and death",
+       "t": "The host reaction causes itch; the larva dies within weeks."
+      }
+     ]
+    }
+   ],
+   "short": "Pathophysiology"
   },
   {
    "id": "clinical-features",
@@ -45,13 +84,6 @@
     {
      "fig": {
       "dermnet": "m5w4:W4B01"
-     }
-    },
-    {
-     "fig": {
-      "ai": "v3-clm-foot-track.jpg",
-      "caption": "Cutaneous larva migrans: a thin raised winding track on the sole; the larva itself sits just beyond the visible end, which is why freezing the track fails.",
-      "alt": "Sole of foot with a winding red track and a magnified larva at its tip"
      }
     },
     {
@@ -234,6 +266,29 @@
    "short": "Red flags"
   },
   {
+   "id": "complications",
+   "title": "Complications and prognosis",
+   "blocks": [
+    {
+     "h": "Complications"
+    },
+    {
+     "ul": [
+      "Secondary impetigo, eczematisation; rarely Löffler syndrome."
+     ]
+    },
+    {
+     "h": "Prognosis"
+    },
+    {
+     "ul": [
+      "Excellent with treatment."
+     ]
+    }
+   ],
+   "short": "Complications"
+  },
+  {
    "id": "pearls",
    "title": "Prescriber pearls (UK pharmacist IP)",
    "blocks": [
@@ -272,5 +327,10 @@
    "url": "https://emedicine.medscape.com/article/1108784-overview"
   }
  ],
- "see_also": []
+ "see_also": [
+  "returning-traveller-skin",
+  "scabies",
+  "tinea",
+  "cutaneous-leishmaniasis"
+ ]
 }

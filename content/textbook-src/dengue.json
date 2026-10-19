@@ -1,0 +1,50 @@
+{
+ "kf": [
+  "The most common imported arboviral infection in the UK (UKHSA: 904 cases in 2024).",
+  "Fever, headache, retro-orbital pain, myalgia; then a rash with **\"white islands in a sea of red\"** during recovery.",
+  "**Critical phase days 3–7**: warning signs (abdominal pain, vomiting, bleeding, lethargy, rising haematocrit with falling platelets).",
+  "Supportive care: **paracetamol only**; avoid aspirin, ibuprofen and NSAIDs (bleeding risk).",
+  "Any fever in a returning traveller → same-day medical assessment."
+ ],
+ "myths": [
+  "**\"Dengue is always mild\"**: second infection with a different serotype raises the risk of severe dengue."
+ ],
+ "patho_lead": "Severe dengue is due to **leaky capillaries**, often worse on a second infection.",
+ "mech": [
+  {
+   "k": "Mosquito bite",
+   "t": "Aedes mosquitoes transmit the virus, mainly by day."
+  },
+  {
+   "k": "Viraemia",
+   "t": "Virus infects immune cells, causing fever and pain."
+  },
+  {
+   "k": "Antibody enhancement",
+   "t": "Non-neutralising antibodies from a past serotype can increase viral uptake."
+  },
+  {
+   "k": "Plasma leakage",
+   "t": "Cytokines and endothelial damage cause leakage around defervescence.",
+   "img": "v3-dengue-critical-phase.jpg",
+   "cap": "The critical phase follows defervescence."
+  },
+  {
+   "k": "Recovery rash",
+   "t": "A confluent rash with spared islands appears.",
+   "img": "v3-dengue-white-islands.jpg",
+   "cap": "White islands in a sea of red."
+  }
+ ],
+ "comp": [
+  "Shock, haemorrhage, organ impairment."
+ ],
+ "prog": [
+  "Case fatality in severe dengue under 1% with good supportive care."
+ ],
+ "see_also": [
+  "returning-traveller-skin",
+  "morbilliform-drug-eruption",
+  "purpura-differentials"
+ ]
+}

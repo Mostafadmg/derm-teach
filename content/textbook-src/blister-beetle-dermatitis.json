@@ -1,0 +1,45 @@
+{
+ "kf": [
+  "**Irritant blistering** from **cantharidin** in blister beetles: the beetle doesn't bite; lesions follow crushing it on skin.",
+  "**Paederus (rove beetle) dermatitis** is the look-alike: toxin paederin, **linear and \"kissing\" lesions**.",
+  "Blisters appear within about a day, often on exposed skin after night-time exposure near lights.",
+  "First aid: blow or flick beetles off, **don't crush**; wash with soap and water.",
+  "Treat with cool compresses and a short potent topical steroid (milder on face); antibiotics only if infected."
+ ],
+ "myths": [
+  "**\"It's shingles\"**: linear lesions without dermatomal pain and with a beetle history point to Paederus."
+ ],
+ "patho_lead": "Beetle toxins **break the bonds between skin cells**, so the epidermis splits.",
+ "mech": [
+  {
+   "k": "Toxin contact",
+   "t": "Crushing the beetle releases cantharidin (or paederin) onto skin."
+  },
+  {
+   "k": "Desmosome breakdown",
+   "t": "Cantharidin breaks desmosomes, causing acantholysis."
+  },
+  {
+   "k": "Intraepidermal blister",
+   "t": "A superficial blister forms with little dermal inflammation, so it heals without scarring."
+  },
+  {
+   "k": "Kissing lesions",
+   "t": "Toxin transfers to opposing skin folds (elbow crease, neck).",
+   "img": "v3-paederus-kissing.jpg",
+   "cap": "Kissing lesions in Paederus dermatitis."
+  }
+ ],
+ "comp": [
+  "Secondary infection, eye involvement (Nairobi eye), post-inflammatory pigmentation."
+ ],
+ "prog": [
+  "Heals in 1–2 weeks."
+ ],
+ "see_also": [
+  "contact-dermatitis",
+  "phytophotodermatitis",
+  "papular-urticaria-bites",
+  "returning-traveller-skin"
+ ]
+}

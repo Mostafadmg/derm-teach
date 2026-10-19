@@ -30,7 +30,7 @@ E('addisons-disease',
         ("Melanocyte stimulation", "ACTH and α-MSH stimulate MC1R on melanocytes, increasing melanin, most visibly in creases and mucosa.", "v4-addison-acth-melanocyte.jpg", "Excess ACTH and MSH from the pituitary drive melanocytes to make more pigment.")],
   comp=["Adrenal crisis (fatal if untreated), hyponatraemia, hyperkalaemia, hypoglycaemia."],
   prog=["Normal life expectancy with replacement and crisis prevention."],
-  see_also=["cushings-syndrome-skin", "drug-induced-pigmentation", "melasma"])
+  see_also=["cushings-syndrome-skin", "drug-induced-pigmentation", "melasma-facial-melanosis"])
 
 E('aplasia-cutis',
   kf=["Congenital **focal absence of skin**, most often a **solitary scalp vertex** defect; depth ranges from epidermis to bone or dura.",
@@ -96,7 +96,7 @@ E('contact-lichenoid-pigmentation',
   histo=["Interface dermatitis with dermal melanophages."],
   comp=["Persistent pigmentation, psychological distress."],
   prog=["Slow improvement after allergen avoidance."],
-  see_also=["melasma", "contact-dermatitis", "lichen-planus", "drug-induced-pigmentation", "hypopigmentation-skin-of-colour"])
+  see_also=["melasma-facial-melanosis", "contact-dermatitis", "lichen-planus", "drug-induced-pigmentation", "hypopigmentation-skin-of-colour"])
 
 E('cushings-syndrome-skin',
   kf=["Glucocorticoid excess: **iatrogenic** (steroids) is far commoner than endogenous Cushing's.",

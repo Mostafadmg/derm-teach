@@ -1,10 +1,11 @@
 {
  "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
  "key_facts": [
-  "Slow grey-brown reticulate facial/neck pigment in darker skin, sometimes with brief itchy flares after cosmetics or fragrances.",
-  "Type IV hypersensitivity or lichenoid basal-layer attack → pigment incontinence (dermal melanophages).",
-  "Stop fragrances/essential oils/non-essential cosmetics; fragrance-free regimen; refer for patch (± photopatch) testing.",
-  "Do not keep borrowing potent facial steroids — they mask dermatitis and damage the face."
+  "**Pigmented contact dermatitis (Riehl melanosis)**: grey-brown facial and neck pigment with little visible eczema, mostly in **Fitzpatrick IV–VI** skin.",
+  "Triggers: fragrances, essential oils, **PPD hair dye**, kumkum/bindi dyes, textile dyes, preservatives.",
+  "Related: **lichen planus pigmentosus** (check the hairline for frontal fibrosing alopecia) and **ashy dermatosis**.",
+  "Key step: **patch (± photopatch) testing**; stop non-essential cosmetics and fragrance.",
+  "Pigment is dermal, so it fades slowly over many months; avoid potent facial steroids."
  ],
  "sections": [
   {
@@ -25,9 +26,52 @@
       "LPP: T-cell lichenoid attack; triggers may include UV, hair dyes, oils; association with frontal fibrosing alopecia — check the hairline.",
       "Ashy dermatosis: idiopathic ash-grey ovals on trunk/proximal limbs."
      ]
+    },
+    {
+     "h": "Myths to address"
+    },
+    {
+     "ul": [
+      "**\"It's melasma\"**: grey-blue tones, neck involvement and cosmetic history suggest contact or lichenoid pigmentation."
+     ]
     }
    ],
    "short": "Aetiology"
+  },
+  {
+   "id": "pathophysiology",
+   "title": "Pathophysiology and pathology",
+   "blocks": [
+    "Low-grade allergy **damages the basal layer** and pigment **drops into the dermis**.",
+    {
+     "mech": [
+      {
+       "k": "Repeated allergen",
+       "t": "Low-dose allergens trigger a T-cell reaction."
+      },
+      {
+       "k": "Interface damage",
+       "t": "Basal keratinocytes and melanocytes are injured (lichenoid/interface dermatitis)."
+      },
+      {
+       "k": "Pigment incontinence",
+       "t": "Melanin falls into the dermis and is eaten by melanophages.",
+       "img": "v4-pigment-incontinence.jpg",
+       "caption": "Pigment incontinence: lymphocytes damage the basal layer and melanin drops into dermal macrophages, giving a slate-grey tone."
+      },
+      {
+       "k": "Slate colour",
+       "t": "Deep pigment looks grey-blue (Tyndall effect) and fades slowly."
+      }
+     ]
+    },
+    {
+     "histo": [
+      "Interface dermatitis with dermal melanophages."
+     ]
+    }
+   ],
+   "short": "Pathophysiology"
   },
   {
    "id": "clinical-features",
@@ -171,6 +215,29 @@
    "short": "Red flags"
   },
   {
+   "id": "complications",
+   "title": "Complications and prognosis",
+   "blocks": [
+    {
+     "h": "Complications"
+    },
+    {
+     "ul": [
+      "Persistent pigmentation, psychological distress."
+     ]
+    },
+    {
+     "h": "Prognosis"
+    },
+    {
+     "ul": [
+      "Slow improvement after allergen avoidance."
+     ]
+    }
+   ],
+   "short": "Complications"
+  },
+  {
    "id": "pearls",
    "title": "Prescriber pearls (UK pharmacist IP)",
    "blocks": [
@@ -209,5 +276,11 @@
   }
  ],
  "references": [],
- "see_also": []
+ "see_also": [
+  "melasma-facial-melanosis",
+  "contact-dermatitis",
+  "lichen-planus",
+  "drug-induced-pigmentation",
+  "hypopigmentation-skin-of-colour"
+ ]
 }

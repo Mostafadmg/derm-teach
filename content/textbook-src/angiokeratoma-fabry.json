@@ -1,0 +1,40 @@
+{
+ "kf": [
+  "**Angiokeratomas**: dark red to black papules from dilated superficial capillaries with overlying hyperkeratosis.",
+  "Variants: solitary (legs; can mimic melanoma), **Fordyce** (scrotum/vulva), Mibelli (fingers/toes), circumscriptum (congenital).",
+  "**Multiple angiokeratomas in a bathing-trunk area** suggest **Fabry disease** (X-linked α-galactosidase A deficiency).",
+  "Fabry clues: neuropathic pain in hands and feet, reduced sweating, proteinuria, early stroke or cardiac disease.",
+  "Refer uncertain dark lesions; refer suspected Fabry for testing at a national lysosomal storage centre."
+ ],
+ "myths": [
+  "**\"A black papule that bleeds must be melanoma\"**: angiokeratoma is a common mimic; dermoscopy helps, but refer if uncertain."
+ ],
+ "patho_lead": "Angiokeratomas are **ectatic papillary vessels** with a thickened epidermis on top.",
+ "mech": [
+  {
+   "k": "Vessel dilatation",
+   "t": "Superficial dermal capillaries dilate (pressure, trauma or storage material)."
+  },
+  {
+   "k": "Epidermal reaction",
+   "t": "The overlying epidermis thickens and becomes hyperkeratotic.",
+   "img": "v3-angiokeratoma-section.jpg",
+   "cap": "Angiokeratoma: dilated vessels hugged by a thickened epidermis."
+  },
+  {
+   "k": "Fabry disease",
+   "t": "Gb3 accumulates in vessel walls, kidney, heart and nerves."
+  }
+ ],
+ "comp": [
+  "Bleeding; in Fabry, renal failure, cardiomyopathy and stroke."
+ ],
+ "prog": [
+  "Benign; Fabry is treatable with enzyme replacement or migalastat."
+ ],
+ "see_also": [
+  "melanoma",
+  "pyogenic-granuloma",
+  "port-wine-stain"
+ ]
+}

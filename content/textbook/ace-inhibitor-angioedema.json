@@ -1,10 +1,11 @@
 {
  "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
  "key_facts": [
-  "Recurrent **lip, tongue or face swelling without hives or itch** in someone on ramipril, lisinopril or another ACE inhibitor.",
-  "ACE inhibitors block **bradykinin breakdown**; bradykinin leaks fluid into deep tissue, so histamine-based treatments work poorly.",
-  "**Airway first (999)**; **stop the ACE inhibitor permanently**, record a class allergy, choose an alternative carefully.",
-  "**Airway compromise**; **hereditary angioedema**; ARB / sacubitril-valsartan cross-reactivity; gliptins add risk."
+  "Non-pitting swelling of lips, tongue, face, larynx or gut **without wheals or itch**, caused by ACE inhibitors.",
+  "Affects about 0.1–0.7% of users; can start **from the first dose to years later**.",
+  "It is **bradykinin-mediated**: antihistamines and steroids don't work, and adrenaline often doesn't.",
+  "Risk factors: **black ethnicity**, female sex, age over 65, smoking, gliptins, mTOR inhibitors.",
+  "Airway first (999). Stop the ACE inhibitor **permanently** and record a class reaction; an ARB may be considered with caution."
  ],
  "sections": [
   {
@@ -15,9 +16,50 @@
    ]
   },
   {
+   "id": "aetiology",
+   "title": "Aetiology: causes and risk factors",
+   "blocks": [
+    {
+     "h": "Myths to address"
+    },
+    {
+     "ul": [
+      "**\"It can't be the ramipril, they've taken it for years\"**: onset can be years after starting.",
+      "**\"No hives, so not an allergy... so it's fine to continue\"**: it is not allergic but it can be fatal."
+     ]
+    }
+   ],
+   "short": "Aetiology"
+  },
+  {
    "id": "pathophysiology",
    "title": "Pathophysiology and pathology",
    "blocks": [
+    "ACE inhibitors stop the breakdown of **bradykinin**, which leaks fluid into deep tissues.",
+    {
+     "mech": [
+      {
+       "k": "ACE blocked",
+       "t": "ACE (kininase II) normally degrades bradykinin; ACE inhibitors block it."
+      },
+      {
+       "k": "Bradykinin builds up",
+       "t": "Bradykinin and substance P accumulate."
+      },
+      {
+       "k": "B2 receptors",
+       "t": "B2 receptor activation causes vasodilatation and leaky vessels.",
+       "img": "v3-histamine-vs-bradykinin.jpg",
+       "caption": "Histamine versus bradykinin angioedema."
+      },
+      {
+       "k": "Deep swelling",
+       "t": "Fluid collects in the deep dermis and submucosa: no wheals, no itch.",
+       "img": "v3-angioedema-face.jpg",
+       "caption": "Facial and lip angioedema."
+      }
+     ]
+    },
     {
      "h": "How it is caused"
     },
@@ -27,13 +69,6 @@
       "**Risk factors:** **black ethnicity** (≈3–5×), female sex, age >65, smoking, previous idiopathic angioedema, seasonal allergies, and **co-prescription of DPP-4 inhibitors (gliptins)**, mTOR inhibitors (sirolimus, everolimus), **sacubitril/valsartan** (neprilysin inhibition — contraindicated within 36 h of an ACE-i) or alteplase.",
       "**Triggers:** minor trauma/surgery, dental work and intubation can precipitate attacks. That fits this case (swelling a week after skin-tag removal), though the procedure is a trigger, not the cause."
      ]
-    },
-    {
-     "fig": {
-      "ai": "v3-histamine-vs-bradykinin.jpg",
-      "caption": "Histamine angioedema (left): mast cells release histamine, giving itchy surface wheals. Bradykinin angioedema (right): deep vessel leak with smooth swelling and no wheals, so antihistamines don’t help.",
-      "alt": "Two skin cross-sections: mast-cell wheal versus deep bradykinin leak"
-     }
     }
    ],
    "short": "Pathophysiology"
@@ -46,13 +81,6 @@
     {
      "fig": {
       "dermnet": "m1w3:D01"
-     }
-    },
-    {
-     "fig": {
-      "ai": "v3-angioedema-face.jpg",
-      "caption": "Angioedema: deep swelling of lips and eyelids. When it comes without wheals in someone on an ACE inhibitor, think bradykinin.",
-      "alt": "Face with swollen lips and eyelids"
      }
     },
     {
@@ -206,6 +234,29 @@
    "short": "Red flags"
   },
   {
+   "id": "complications",
+   "title": "Complications and prognosis",
+   "blocks": [
+    {
+     "h": "Complications"
+    },
+    {
+     "ul": [
+      "Airway obstruction and death; abdominal angioedema mimicking surgical abdomen."
+     ]
+    },
+    {
+     "h": "Prognosis"
+    },
+    {
+     "ul": [
+      "Attacks stop after the drug is withdrawn, but can continue for weeks to months."
+     ]
+    }
+   ],
+   "short": "Complications"
+  },
+  {
    "id": "pearls",
    "title": "Prescriber pearls (UK pharmacist IP)",
    "blocks": [
@@ -239,5 +290,9 @@
   }
  ],
  "references": [],
- "see_also": []
+ "see_also": [
+  "urticaria-angioedema",
+  "drug-eruption-approach",
+  "morbilliform-drug-eruption"
+ ]
 }

@@ -1,10 +1,11 @@
 {
  "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
  "key_facts": [
-  "Wide purple striae, easy bruising, thin skin, moon face, acne and central weight gain, often in someone on steroids.",
-  "Excess glucocorticoid breaks down collagen and redistributes fat; usually iatrogenic, sometimes pituitary, adrenal or ectopic ACTH.",
-  "Total steroid review (all routes); if not iatrogenic, overnight dexamethasone suppression test or late-night salivary cortisol and endocrine referral; never stop long-term steroids abruptly.",
-  "Adrenal crisis from stopping steroids suddenly; hypertension, diabetes, osteoporosis; ectopic ACTH from lung cancer."
+  "Glucocorticoid excess: **iatrogenic** (steroids) is far commoner than endogenous Cushing's.",
+  "Skin signs: **thin skin, wide purple striae, easy bruising**, acne, hirsutism, plethora, poor wound healing, fungal infections.",
+  "Body habitus: moon face, dorsocervical and supraclavicular fat pads, proximal myopathy.",
+  "Iatrogenic: **never stop steroids abruptly**; taper, Steroid Emergency Card and sick-day rules.",
+  "Endogenous: refer to endocrinology, urgently with hypokalaemia, severe hypertension or rapid progression."
  ],
  "sections": [
   {
@@ -21,9 +22,45 @@
    ]
   },
   {
+   "id": "aetiology",
+   "title": "Aetiology: causes and risk factors",
+   "blocks": [
+    {
+     "h": "Myths to address"
+    },
+    {
+     "ul": [
+      "**\"Striae always mean Cushing's\"**: pale narrow striae are common; wide (>1 cm) purple striae are the concern."
+     ]
+    }
+   ],
+   "short": "Aetiology"
+  },
+  {
    "id": "pathophysiology",
    "title": "Pathophysiology and pathology",
    "blocks": [
+    "Excess cortisol **breaks down collagen and protein**, thinning skin and vessels.",
+    {
+     "mech": [
+      {
+       "k": "Catabolism",
+       "t": "Cortisol inhibits fibroblasts and collagen synthesis."
+      },
+      {
+       "k": "Thin skin and striae",
+       "t": "Dermis thins; stretching tears it into wide purple striae."
+      },
+      {
+       "k": "Fragile vessels",
+       "t": "Poor dermal support causes bruising."
+      },
+      {
+       "k": "Androgen and immune effects",
+       "t": "Adrenal androgens cause acne and hirsutism; immunosuppression allows fungal infection."
+      }
+     ]
+    },
     {
      "h": "How it is caused"
     },
@@ -126,6 +163,29 @@
    "short": "Red flags"
   },
   {
+   "id": "complications",
+   "title": "Complications and prognosis",
+   "blocks": [
+    {
+     "h": "Complications"
+    },
+    {
+     "ul": [
+      "Diabetes, hypertension, osteoporosis, VTE, infection, mood disorder."
+     ]
+    },
+    {
+     "h": "Prognosis"
+    },
+    {
+     "ul": [
+      "Skin signs improve as cortisol normalises."
+     ]
+    }
+   ],
+   "short": "Complications"
+  },
+  {
    "id": "pearls",
    "title": "Prescriber pearls (UK pharmacist IP)",
    "blocks": [
@@ -163,5 +223,10 @@
   }
  ],
  "references": [],
- "see_also": []
+ "see_also": [
+  "addisons-disease",
+  "topical-corticosteroids",
+  "hirsutism",
+  "acanthosis-nigricans"
+ ]
 }

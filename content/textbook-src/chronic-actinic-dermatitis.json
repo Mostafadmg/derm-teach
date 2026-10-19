@@ -1,0 +1,46 @@
+{
+ "kf": [
+  "**Chronic severe eczema of sun-exposed skin** due to abnormal sensitivity to UVB, often UVA and sometimes visible light.",
+  "Typically **older fair-skinned men (60+)** in the UK; also younger people with darker skin and atopic eczema.",
+  "Sharp cut-off at collar and sleeve lines, sparing behind ears, eyelid folds and under the chin.",
+  "Up to about three-quarters have positive patch tests, especially to **Compositae**, fragrance and sunscreen filters.",
+  "Refer for phototesting and patch testing; strict photoprotection, allergen avoidance, emollients and topical steroids."
+ ],
+ "myths": [
+  "**\"Sunscreen will solve it\"**: sunscreen allergy is common and visible light may be involved."
+ ],
+ "patho_lead": "CAD behaves like an **allergic contact eczema to the patient's own UV-altered skin**.",
+ "mech": [
+  {
+   "k": "UV photo-modification",
+   "t": "UV alters an endogenous skin protein, creating a new antigen."
+  },
+  {
+   "k": "T-cell sensitisation",
+   "t": "A delayed-type hypersensitivity develops, as in allergic contact dermatitis."
+  },
+  {
+   "k": "Lower threshold",
+   "t": "With time, smaller UV doses (and visible light) trigger eczema."
+  },
+  {
+   "k": "Contact allergy overlap",
+   "t": "Co-existing Compositae, fragrance and sunscreen allergies keep it going."
+  }
+ ],
+ "histo": [
+  "Spongiotic dermatitis; in severe cases dense dermal lymphocytes mimicking lymphoma (actinic reticuloid)."
+ ],
+ "comp": [
+  "Erythroderma, severe impact on quality of life, social isolation."
+ ],
+ "prog": [
+  "Chronic; some improve over years."
+ ],
+ "see_also": [
+  "polymorphic-light-eruption",
+  "contact-dermatitis",
+  "eczema-dermatitis",
+  "photoageing"
+ ]
+}

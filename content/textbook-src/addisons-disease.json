@@ -1,0 +1,44 @@
+{
+ "kf": [
+  "**Primary adrenal insufficiency**: failure of the adrenal cortex, with low cortisol and aldosterone. About 100–140 per million in the UK.",
+  "70–90% is **autoimmune** in the UK; other causes include TB, metastases, haemorrhage and drugs.",
+  "Skin clue: **hyperpigmentation** of creases, scars, gums, knuckles and pressure areas; vitiligo may coexist.",
+  "**Adrenal crisis** (vomiting, hypotension, collapse) → 999 and **hydrocortisone 100 mg IM/IV immediately** (NICE NG243).",
+  "Every patient needs an **NHS Steroid Emergency Card**, injection kit and **sick-day rules**."
+ ],
+ "myths": [
+  "**\"Pigmentation happens in all adrenal insufficiency\"**: only primary (high ACTH); secondary causes are pale."
+ ],
+ "patho_lead": "Pigmentation comes from **excess ACTH**, which also stimulates melanocytes.",
+ "mech": [
+  {
+   "k": "Adrenal failure",
+   "t": "Autoimmune destruction stops cortisol production."
+  },
+  {
+   "k": "Loss of feedback",
+   "t": "Low cortisol removes negative feedback, so the pituitary makes more POMC."
+  },
+  {
+   "k": "POMC cleavage",
+   "t": "POMC is cut into ACTH and α-MSH."
+  },
+  {
+   "k": "Melanocyte stimulation",
+   "t": "ACTH and α-MSH stimulate MC1R on melanocytes, increasing melanin, most visibly in creases and mucosa.",
+   "img": "v4-addison-acth-melanocyte.jpg",
+   "cap": "Excess ACTH and MSH from the pituitary drive melanocytes to make more pigment."
+  }
+ ],
+ "comp": [
+  "Adrenal crisis (fatal if untreated), hyponatraemia, hyperkalaemia, hypoglycaemia."
+ ],
+ "prog": [
+  "Normal life expectancy with replacement and crisis prevention."
+ ],
+ "see_also": [
+  "cushings-syndrome-skin",
+  "drug-induced-pigmentation",
+  "melasma-facial-melanosis"
+ ]
+}

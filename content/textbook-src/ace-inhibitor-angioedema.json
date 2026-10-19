@@ -1,0 +1,47 @@
+{
+ "kf": [
+  "Non-pitting swelling of lips, tongue, face, larynx or gut **without wheals or itch**, caused by ACE inhibitors.",
+  "Affects about 0.1–0.7% of users; can start **from the first dose to years later**.",
+  "It is **bradykinin-mediated**: antihistamines and steroids don't work, and adrenaline often doesn't.",
+  "Risk factors: **black ethnicity**, female sex, age over 65, smoking, gliptins, mTOR inhibitors.",
+  "Airway first (999). Stop the ACE inhibitor **permanently** and record a class reaction; an ARB may be considered with caution."
+ ],
+ "myths": [
+  "**\"It can't be the ramipril, they've taken it for years\"**: onset can be years after starting.",
+  "**\"No hives, so not an allergy... so it's fine to continue\"**: it is not allergic but it can be fatal."
+ ],
+ "patho_lead": "ACE inhibitors stop the breakdown of **bradykinin**, which leaks fluid into deep tissues.",
+ "mech": [
+  {
+   "k": "ACE blocked",
+   "t": "ACE (kininase II) normally degrades bradykinin; ACE inhibitors block it."
+  },
+  {
+   "k": "Bradykinin builds up",
+   "t": "Bradykinin and substance P accumulate."
+  },
+  {
+   "k": "B2 receptors",
+   "t": "B2 receptor activation causes vasodilatation and leaky vessels.",
+   "img": "v3-histamine-vs-bradykinin.jpg",
+   "cap": "Histamine versus bradykinin angioedema."
+  },
+  {
+   "k": "Deep swelling",
+   "t": "Fluid collects in the deep dermis and submucosa: no wheals, no itch.",
+   "img": "v3-angioedema-face.jpg",
+   "cap": "Facial and lip angioedema."
+  }
+ ],
+ "comp": [
+  "Airway obstruction and death; abdominal angioedema mimicking surgical abdomen."
+ ],
+ "prog": [
+  "Attacks stop after the drug is withdrawn, but can continue for weeks to months."
+ ],
+ "see_also": [
+  "urticaria-angioedema",
+  "drug-eruption-approach",
+  "morbilliform-drug-eruption"
+ ]
+}

@@ -1,10 +1,11 @@
 {
  "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
  "key_facts": [
-  "Small **dark red, purple or black papules** on the scrotum or vulva, a limb, or **clustered between umbilicus and knees**.",
-  "**Dilated papillary dermal capillaries** with thickened epidermis; **Fabry disease** is X-linked α-galactosidase A deficiency.",
-  "Reassure typical Fordyce lesions; dermoscopy (dark lacunae); refer a solitary dark lesion if doubt; **enzyme / genetic testing** for possible Fabry.",
-  "**Melanoma mimic**; **Fabry** with burning hand / foot pain, kidney, heart and stroke risk."
+  "**Angiokeratomas**: dark red to black papules from dilated superficial capillaries with overlying hyperkeratosis.",
+  "Variants: solitary (legs; can mimic melanoma), **Fordyce** (scrotum/vulva), Mibelli (fingers/toes), circumscriptum (congenital).",
+  "**Multiple angiokeratomas in a bathing-trunk area** suggest **Fabry disease** (X-linked α-galactosidase A deficiency).",
+  "Fabry clues: neuropathic pain in hands and feet, reduced sweating, proteinuria, early stroke or cardiac disease.",
+  "Refer uncertain dark lesions; refer suspected Fabry for testing at a national lysosomal storage centre."
  ],
  "sections": [
   {
@@ -20,14 +21,41 @@
    "blocks": [
     "Ectatic papillary dermal vessels with reactive epidermal thickening. **Angiokeratoma corporis diffusum** (multiple lesions) is a marker of lysosomal storage disease. The classic one is **Fabry disease**: X-linked, **GLA** gene, α-galactosidase A deficiency, with globotriaosylceramide (Gb3) accumulating in vessels, kidney, heart and nerves. Others are fucosidosis and sialidosis.",
     {
-     "fig": {
-      "ai": "v3-angiokeratoma-section.jpg",
-      "caption": "Angiokeratoma: blood-filled dilated vessels just under a thickened epidermis give a small dark red-purple papule.",
-      "alt": "Skin section with dark blood spaces under thick epidermis"
-     }
+     "h": "Myths to address"
+    },
+    {
+     "ul": [
+      "**\"A black papule that bleeds must be melanoma\"**: angiokeratoma is a common mimic; dermoscopy helps, but refer if uncertain."
+     ]
     }
    ],
    "short": "Aetiology"
+  },
+  {
+   "id": "pathophysiology",
+   "title": "Pathophysiology and pathology",
+   "blocks": [
+    "Angiokeratomas are **ectatic papillary vessels** with a thickened epidermis on top.",
+    {
+     "mech": [
+      {
+       "k": "Vessel dilatation",
+       "t": "Superficial dermal capillaries dilate (pressure, trauma or storage material)."
+      },
+      {
+       "k": "Epidermal reaction",
+       "t": "The overlying epidermis thickens and becomes hyperkeratotic.",
+       "img": "v3-angiokeratoma-section.jpg",
+       "caption": "Angiokeratoma: dilated vessels hugged by a thickened epidermis."
+      },
+      {
+       "k": "Fabry disease",
+       "t": "Gb3 accumulates in vessel walls, kidney, heart and nerves."
+      }
+     ]
+    }
+   ],
+   "short": "Pathophysiology"
   },
   {
    "id": "clinical-features",
@@ -256,6 +284,29 @@
    "short": "Red flags"
   },
   {
+   "id": "complications",
+   "title": "Complications and prognosis",
+   "blocks": [
+    {
+     "h": "Complications"
+    },
+    {
+     "ul": [
+      "Bleeding; in Fabry, renal failure, cardiomyopathy and stroke."
+     ]
+    },
+    {
+     "h": "Prognosis"
+    },
+    {
+     "ul": [
+      "Benign; Fabry is treatable with enzyme replacement or migalastat."
+     ]
+    }
+   ],
+   "short": "Complications"
+  },
+  {
    "id": "pearls",
    "title": "Prescriber pearls (UK pharmacist IP)",
    "blocks": [
@@ -293,5 +344,9 @@
    "url": "https://emedicine.medscape.com/article/1056046-overview"
   }
  ],
- "see_also": []
+ "see_also": [
+  "melanoma",
+  "pyogenic-granuloma",
+  "port-wine-stain"
+ ]
 }

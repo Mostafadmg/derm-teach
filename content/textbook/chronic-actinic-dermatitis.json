@@ -1,10 +1,11 @@
 {
  "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
  "key_facts": [
-  "Thickened, itchy eczema on the face, scalp, neck and backs of hands in an older man, sparing the upper eyelids, behind the ears and under the chin.",
-  "Extreme sensitivity to UVB, UVA and sometimes visible light, behaving like contact allergy to an endogenous light-altered antigen; contact allergy is common alongside.",
-  "Strict photoprotection (including visible light), emollients, potent topical steroid or tacrolimus; refer for phototesting and patch testing; specialist immunosuppression.",
-  "Cutaneous T-cell lymphoma and drug photosensitivity as mimics; erythroderma."
+  "**Chronic severe eczema of sun-exposed skin** due to abnormal sensitivity to UVB, often UVA and sometimes visible light.",
+  "Typically **older fair-skinned men (60+)** in the UK; also younger people with darker skin and atopic eczema.",
+  "Sharp cut-off at collar and sleeve lines, sparing behind ears, eyelid folds and under the chin.",
+  "Up to about three-quarters have positive patch tests, especially to **Compositae**, fragrance and sunscreen filters.",
+  "Refer for phototesting and patch testing; strict photoprotection, allergen avoidance, emollients and topical steroids."
  ],
  "sections": [
   {
@@ -18,9 +19,50 @@
    "id": "aetiology",
    "title": "Aetiology: causes and risk factors",
    "blocks": [
-    "Thought to be a **delayed-type hypersensitivity (allergic contact-type) reaction to an endogenous skin antigen photo-modified by UV** — i.e. \"photo-allergy to one's own skin\". Strong links with **contact allergy**: up to ~3/4 have positive patch tests, especially to **Compositae (sesquiterpene lactones — chrysanthemums, daisies, dandelions)**, fragrance, colophony, rubber chemicals and **sunscreen filters**. May follow a photoallergic drug reaction (persistent light reaction) or airborne contact dermatitis. Cumulative sun damage and outdoor work/gardening/hobbies in older men are risk factors. Some drugs (thiazides, certain antibiotics) can aggravate it."
+    "Thought to be a **delayed-type hypersensitivity (allergic contact-type) reaction to an endogenous skin antigen photo-modified by UV** — i.e. \"photo-allergy to one's own skin\". Strong links with **contact allergy**: up to ~3/4 have positive patch tests, especially to **Compositae (sesquiterpene lactones — chrysanthemums, daisies, dandelions)**, fragrance, colophony, rubber chemicals and **sunscreen filters**. May follow a photoallergic drug reaction (persistent light reaction) or airborne contact dermatitis. Cumulative sun damage and outdoor work/gardening/hobbies in older men are risk factors. Some drugs (thiazides, certain antibiotics) can aggravate it.",
+    {
+     "h": "Myths to address"
+    },
+    {
+     "ul": [
+      "**\"Sunscreen will solve it\"**: sunscreen allergy is common and visible light may be involved."
+     ]
+    }
    ],
    "short": "Aetiology"
+  },
+  {
+   "id": "pathophysiology",
+   "title": "Pathophysiology and pathology",
+   "blocks": [
+    "CAD behaves like an **allergic contact eczema to the patient's own UV-altered skin**.",
+    {
+     "mech": [
+      {
+       "k": "UV photo-modification",
+       "t": "UV alters an endogenous skin protein, creating a new antigen."
+      },
+      {
+       "k": "T-cell sensitisation",
+       "t": "A delayed-type hypersensitivity develops, as in allergic contact dermatitis."
+      },
+      {
+       "k": "Lower threshold",
+       "t": "With time, smaller UV doses (and visible light) trigger eczema."
+      },
+      {
+       "k": "Contact allergy overlap",
+       "t": "Co-existing Compositae, fragrance and sunscreen allergies keep it going."
+      }
+     ]
+    },
+    {
+     "histo": [
+      "Spongiotic dermatitis; in severe cases dense dermal lymphocytes mimicking lymphoma (actinic reticuloid)."
+     ]
+    }
+   ],
+   "short": "Pathophysiology"
   },
   {
    "id": "clinical-features",
@@ -155,6 +197,29 @@
    "short": "Red flags"
   },
   {
+   "id": "complications",
+   "title": "Complications and prognosis",
+   "blocks": [
+    {
+     "h": "Complications"
+    },
+    {
+     "ul": [
+      "Erythroderma, severe impact on quality of life, social isolation."
+     ]
+    },
+    {
+     "h": "Prognosis"
+    },
+    {
+     "ul": [
+      "Chronic; some improve over years."
+     ]
+    }
+   ],
+   "short": "Complications"
+  },
+  {
    "id": "pearls",
    "title": "Prescriber pearls (UK pharmacist IP)",
    "blocks": [
@@ -194,5 +259,10 @@
   }
  ],
  "references": [],
- "see_also": []
+ "see_also": [
+  "polymorphic-light-eruption",
+  "contact-dermatitis",
+  "eczema-dermatitis",
+  "photoageing"
+ ]
 }

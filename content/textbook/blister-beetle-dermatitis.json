@@ -1,10 +1,11 @@
 {
  "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
  "key_facts": [
-  "**Burning (not itchy)** blisters or linear **‘kissing’** plaques on exposed skin 24–48 h after night-time outdoor exposure or travel.",
-  "**Vesicant toxin** in beetle haemolymph (cantharidin in Meloidae, paederin in *Paederus*) causing intraepidermal blistering, without a bite.",
-  "**Flick off, don’t crush**; wash with soap and water; cool compresses; short topical steroid; leave small blisters intact.",
-  "**Eye involvement** → same-day eye casualty. **Ingested cantharidin** → A&E / TOXBASE."
+  "**Irritant blistering** from **cantharidin** in blister beetles: the beetle doesn't bite; lesions follow crushing it on skin.",
+  "**Paederus (rove beetle) dermatitis** is the look-alike: toxin paederin, **linear and \"kissing\" lesions**.",
+  "Blisters appear within about a day, often on exposed skin after night-time exposure near lights.",
+  "First aid: blow or flick beetles off, **don't crush**; wash with soap and water.",
+  "Treat with cool compresses and a short potent topical steroid (milder on face); antibiotics only if infected."
  ],
  "sections": [
   {
@@ -25,9 +26,47 @@
       "Paederin from crushed *Paederus* beetles causes delayed linear erythema then vesicles/pustules.",
       "**Ingesting** cantharidin (e.g. as a purported aphrodisiac) is systemically toxic — a medical emergency, not a skin problem."
      ]
+    },
+    {
+     "h": "Myths to address"
+    },
+    {
+     "ul": [
+      "**\"It's shingles\"**: linear lesions without dermatomal pain and with a beetle history point to Paederus."
+     ]
     }
    ],
    "short": "Aetiology"
+  },
+  {
+   "id": "pathophysiology",
+   "title": "Pathophysiology and pathology",
+   "blocks": [
+    "Beetle toxins **break the bonds between skin cells**, so the epidermis splits.",
+    {
+     "mech": [
+      {
+       "k": "Toxin contact",
+       "t": "Crushing the beetle releases cantharidin (or paederin) onto skin."
+      },
+      {
+       "k": "Desmosome breakdown",
+       "t": "Cantharidin breaks desmosomes, causing acantholysis."
+      },
+      {
+       "k": "Intraepidermal blister",
+       "t": "A superficial blister forms with little dermal inflammation, so it heals without scarring."
+      },
+      {
+       "k": "Kissing lesions",
+       "t": "Toxin transfers to opposing skin folds (elbow crease, neck).",
+       "img": "v3-paederus-kissing.jpg",
+       "caption": "Kissing lesions in Paederus dermatitis."
+      }
+     ]
+    }
+   ],
+   "short": "Pathophysiology"
   },
   {
    "id": "clinical-features",
@@ -45,13 +84,6 @@
     {
      "fig": {
       "dermnet": "m5w3:W01"
-     }
-    },
-    {
-     "fig": {
-      "ai": "v3-paederus-kissing.jpg",
-      "caption": "Paederus dermatitis: a beetle crushed in the elbow crease leaves mirror-image ‘kissing’ linear blistered streaks on both sides of the fold.",
-      "alt": "Two mirror-image linear blistered streaks at an elbow crease with a small orange-black beetle"
      }
     },
     {
@@ -232,6 +264,29 @@
    "short": "Red flags"
   },
   {
+   "id": "complications",
+   "title": "Complications and prognosis",
+   "blocks": [
+    {
+     "h": "Complications"
+    },
+    {
+     "ul": [
+      "Secondary infection, eye involvement (Nairobi eye), post-inflammatory pigmentation."
+     ]
+    },
+    {
+     "h": "Prognosis"
+    },
+    {
+     "ul": [
+      "Heals in 1–2 weeks."
+     ]
+    }
+   ],
+   "short": "Complications"
+  },
+  {
    "id": "pearls",
    "title": "Prescriber pearls (UK pharmacist IP)",
    "blocks": [
@@ -265,5 +320,10 @@
   }
  ],
  "references": [],
- "see_also": []
+ "see_also": [
+  "contact-dermatitis",
+  "phytophotodermatitis",
+  "papular-urticaria-bites",
+  "returning-traveller-skin"
+ ]
 }

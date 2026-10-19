@@ -1,10 +1,11 @@
 {
  "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
  "key_facts": [
-  "A well-demarcated erosion, ulcer or shiny membrane on the vertex scalp at birth, healing to a hairless scar.",
-  "Varied causes: genetic, teratogens (carbimazole or methimazole), intrauterine infection, vascular disruption, amniotic bands.",
-  "Small and superficial: gentle cleansing, bland ointment and protection from trauma.",
-  "Hair collar sign (possible neural tube defect), a large midline defect (sagittal sinus), and ACC with blistering (EB) or limb defects (Adams–Oliver)."
+  "Congenital **focal absence of skin**, most often a **solitary scalp vertex** defect; depth ranges from epidermis to bone or dura.",
+  "Appears at birth as an ulcer, erosion, membrane or blister and heals to a **hairless scar**.",
+  "**Hair collar sign** (ring of dark coarse hair) suggests underlying neural tissue: imaging and specialist review.",
+  "Associations: teratogens (**carbimazole/methimazole**, misoprostol, valproate), Adams–Oliver syndrome, Bart syndrome with EB.",
+  "Small superficial lesions heal with gentle care; large, deep or midline lesions need urgent specialist input."
  ],
  "sections": [
   {
@@ -25,9 +26,45 @@
       "Intrauterine infection (varicella, HSV), vascular disruption, amniotic bands, fetus papyraceus.",
       "Tension at the hair whorl during rapid fetal brain growth."
      ]
+    },
+    {
+     "h": "Myths to address"
+    },
+    {
+     "ul": [
+      "**\"It's a birth injury from forceps or a scalp clip\"**: lesions are present before delivery."
+     ]
     }
    ],
    "short": "Aetiology"
+  },
+  {
+   "id": "pathophysiology",
+   "title": "Pathophysiology and pathology",
+   "blocks": [
+    "Aplasia cutis results from **failed skin development or loss in utero**.",
+    {
+     "mech": [
+      {
+       "k": "Genetic factors",
+       "t": "Mutations (e.g. BMS1) affect skin development."
+      },
+      {
+       "k": "Tension at the hair whorl",
+       "t": "Rapid fetal brain growth stretches vertex skin."
+      },
+      {
+       "k": "Vascular disruption",
+       "t": "Placental infarcts, amniotic bands or twin demise reduce blood supply."
+      },
+      {
+       "k": "Healing",
+       "t": "The defect heals in utero or after birth to a membranous, hairless scar."
+      }
+     ]
+    }
+   ],
+   "short": "Pathophysiology"
   },
   {
    "id": "clinical-features",
@@ -117,6 +154,29 @@
    "short": "Red flags"
   },
   {
+   "id": "complications",
+   "title": "Complications and prognosis",
+   "blocks": [
+    {
+     "h": "Complications"
+    },
+    {
+     "ul": [
+      "Infection, haemorrhage (sagittal sinus with deep defects), cosmetic alopecia."
+     ]
+    },
+    {
+     "h": "Prognosis"
+    },
+    {
+     "ul": [
+      "Small lesions heal well; a bald patch remains."
+     ]
+    }
+   ],
+   "short": "Complications"
+  },
+  {
    "id": "pearls",
    "title": "Prescriber pearls (UK pharmacist IP)",
    "blocks": [
@@ -159,5 +219,9 @@
    "url": "https://emedicine.medscape.com/article/1110134-overview"
   }
  ],
- "see_also": []
+ "see_also": [
+  "epidermolysis-bullosa",
+  "sebaceous-naevus",
+  "scarring-alopecia"
+ ]
 }

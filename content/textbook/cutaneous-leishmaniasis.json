@@ -1,10 +1,11 @@
 {
  "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
  "key_facts": [
-  "A **painless crusted nodule or ulcer with a rolled edge** on exposed skin, not healing after weeks of antibiotics, after travel or migration.",
-  "*Leishmania* parasites injected by **sandfly bites**, multiplying in dermal macrophages.",
-  "Refer to **tropical medicine** for biopsy / PCR and species-guided treatment; many Old World lesions heal on their own.",
-  "**Mucosal leishmaniasis** (New World species) and visceral disease in the immunosuppressed."
+  "Protozoal infection spread by **sandfly bites**; endemic in 90+ countries including the Mediterranean, Middle East and Latin America.",
+  "A painless papule at the bite enlarges over weeks into a **crusted ulcer with a raised edge (\"volcano\")**.",
+  "**New World (Viannia) species** can cause destructive **mucocutaneous** disease later (about 5% after L. braziliensis).",
+  "Diagnose by biopsy/scraping with PCR (specialist).",
+  "Primary care: **recognise and refer** (in England, HTD Leishmaniasis MDT); don't start empirical treatment."
  ],
  "sections": [
   {
@@ -69,14 +70,47 @@
      ]
     },
     {
-     "fig": {
-      "ai": "v3-leish-volcano-section.jpg",
-      "caption": "A sandfly injects Leishmania into the dermis; parasite-laden macrophages form a granuloma that breaks down into a crusted ‘volcano’ ulcer with an indurated, violaceous rim.",
-      "alt": "Skin cross-section with crusted crater ulcer and parasitised macrophages"
-     }
+     "h": "Myths to address"
+    },
+    {
+     "ul": [
+      "**\"A non-healing travel sore is just infected\"**: antibiotics don't cure leishmaniasis."
+     ]
     }
    ],
    "short": "Aetiology"
+  },
+  {
+   "id": "pathophysiology",
+   "title": "Pathophysiology and pathology",
+   "blocks": [
+    "Leishmania parasites **live inside macrophages** in the dermis.",
+    {
+     "mech": [
+      {
+       "k": "Sandfly bite",
+       "t": "Promastigotes are injected into the skin."
+      },
+      {
+       "k": "Macrophage infection",
+       "t": "They transform into amastigotes and multiply inside macrophages."
+      },
+      {
+       "k": "Granulomatous ulcer",
+       "t": "The immune response forms a granuloma that ulcerates in the centre.",
+       "img": "v3-leish-volcano-section.jpg",
+       "caption": "Volcano-like ulcer with parasite-laden macrophages."
+      },
+      {
+       "k": "Prevention",
+       "t": "Fine mesh nets and repellents stop sandfly bites.",
+       "img": "v3-sandfly-fine-mesh.jpg",
+       "caption": "Sandflies pass through standard nets; fine mesh is needed."
+      }
+     ]
+    }
+   ],
+   "short": "Pathophysiology"
   },
   {
    "id": "clinical-features",
@@ -281,6 +315,29 @@
    "short": "Red flags"
   },
   {
+   "id": "complications",
+   "title": "Complications and prognosis",
+   "blocks": [
+    {
+     "h": "Complications"
+    },
+    {
+     "ul": [
+      "Scarring, mucosal destruction (New World), secondary infection."
+     ]
+    },
+    {
+     "h": "Prognosis"
+    },
+    {
+     "ul": [
+      "Old World lesions often self-heal over months with scarring."
+     ]
+    }
+   ],
+   "short": "Complications"
+  },
+  {
    "id": "pearls",
    "title": "Prescriber pearls (UK pharmacist IP)",
    "blocks": [
@@ -320,5 +377,10 @@
    "url": "https://emedicine.medscape.com/article/220298-overview"
   }
  ],
- "see_also": []
+ "see_also": [
+  "returning-traveller-skin",
+  "cutaneous-tuberculosis",
+  "leprosy",
+  "mycetoma"
+ ]
 }

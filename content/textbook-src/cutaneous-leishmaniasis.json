@@ -1,0 +1,47 @@
+{
+ "kf": [
+  "Protozoal infection spread by **sandfly bites**; endemic in 90+ countries including the Mediterranean, Middle East and Latin America.",
+  "A painless papule at the bite enlarges over weeks into a **crusted ulcer with a raised edge (\"volcano\")**.",
+  "**New World (Viannia) species** can cause destructive **mucocutaneous** disease later (about 5% after L. braziliensis).",
+  "Diagnose by biopsy/scraping with PCR (specialist).",
+  "Primary care: **recognise and refer** (in England, HTD Leishmaniasis MDT); don't start empirical treatment."
+ ],
+ "myths": [
+  "**\"A non-healing travel sore is just infected\"**: antibiotics don't cure leishmaniasis."
+ ],
+ "patho_lead": "Leishmania parasites **live inside macrophages** in the dermis.",
+ "mech": [
+  {
+   "k": "Sandfly bite",
+   "t": "Promastigotes are injected into the skin."
+  },
+  {
+   "k": "Macrophage infection",
+   "t": "They transform into amastigotes and multiply inside macrophages."
+  },
+  {
+   "k": "Granulomatous ulcer",
+   "t": "The immune response forms a granuloma that ulcerates in the centre.",
+   "img": "v3-leish-volcano-section.jpg",
+   "cap": "Volcano-like ulcer with parasite-laden macrophages."
+  },
+  {
+   "k": "Prevention",
+   "t": "Fine mesh nets and repellents stop sandfly bites.",
+   "img": "v3-sandfly-fine-mesh.jpg",
+   "cap": "Sandflies pass through standard nets; fine mesh is needed."
+  }
+ ],
+ "comp": [
+  "Scarring, mucosal destruction (New World), secondary infection."
+ ],
+ "prog": [
+  "Old World lesions often self-heal over months with scarring."
+ ],
+ "see_also": [
+  "returning-traveller-skin",
+  "cutaneous-tuberculosis",
+  "leprosy",
+  "mycetoma"
+ ]
+}

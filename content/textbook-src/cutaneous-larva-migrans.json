@@ -1,0 +1,45 @@
+{
+ "kf": [
+  "**Animal hookworm larvae** wander in the epidermis, leaving an intensely itchy, **serpiginous track**.",
+  "Common in travellers returning from tropical beaches; usual source dog and cat hookworms.",
+  "The track moves a few millimetres to centimetres a day, usually on feet, buttocks or hands.",
+  "Self-limiting (2–8 weeks), but treatment gives rapid relief: **ivermectin 200 micrograms/kg single dose** (off-label; prescriber).",
+  "Don't freeze the track: the larva is ahead of it."
+ ],
+ "myths": [
+  "**\"Cryotherapy kills the worm\"**: painful and ineffective."
+ ],
+ "patho_lead": "Humans are a **dead-end host**: the larva can't get through the basement membrane.",
+ "mech": [
+  {
+   "k": "Eggs to larvae",
+   "t": "Infected animals pass eggs onto warm sand, where they hatch."
+  },
+  {
+   "k": "Skin penetration",
+   "t": "Infective larvae burrow into bare skin."
+  },
+  {
+   "k": "Trapped in the epidermis",
+   "t": "Lacking the enzymes to cross the basement membrane, they wander.",
+   "img": "v3-clm-foot-track.jpg",
+   "cap": "Serpiginous track on the foot."
+  },
+  {
+   "k": "Itch and death",
+   "t": "The host reaction causes itch; the larva dies within weeks."
+  }
+ ],
+ "comp": [
+  "Secondary impetigo, eczematisation; rarely Löffler syndrome."
+ ],
+ "prog": [
+  "Excellent with treatment."
+ ],
+ "see_also": [
+  "returning-traveller-skin",
+  "scabies",
+  "tinea",
+  "cutaneous-leishmaniasis"
+ ]
+}

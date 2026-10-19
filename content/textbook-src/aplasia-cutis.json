@@ -1,0 +1,42 @@
+{
+ "kf": [
+  "Congenital **focal absence of skin**, most often a **solitary scalp vertex** defect; depth ranges from epidermis to bone or dura.",
+  "Appears at birth as an ulcer, erosion, membrane or blister and heals to a **hairless scar**.",
+  "**Hair collar sign** (ring of dark coarse hair) suggests underlying neural tissue: imaging and specialist review.",
+  "Associations: teratogens (**carbimazole/methimazole**, misoprostol, valproate), Adams–Oliver syndrome, Bart syndrome with EB.",
+  "Small superficial lesions heal with gentle care; large, deep or midline lesions need urgent specialist input."
+ ],
+ "myths": [
+  "**\"It's a birth injury from forceps or a scalp clip\"**: lesions are present before delivery."
+ ],
+ "patho_lead": "Aplasia cutis results from **failed skin development or loss in utero**.",
+ "mech": [
+  {
+   "k": "Genetic factors",
+   "t": "Mutations (e.g. BMS1) affect skin development."
+  },
+  {
+   "k": "Tension at the hair whorl",
+   "t": "Rapid fetal brain growth stretches vertex skin."
+  },
+  {
+   "k": "Vascular disruption",
+   "t": "Placental infarcts, amniotic bands or twin demise reduce blood supply."
+  },
+  {
+   "k": "Healing",
+   "t": "The defect heals in utero or after birth to a membranous, hairless scar."
+  }
+ ],
+ "comp": [
+  "Infection, haemorrhage (sagittal sinus with deep defects), cosmetic alopecia."
+ ],
+ "prog": [
+  "Small lesions heal well; a bald patch remains."
+ ],
+ "see_also": [
+  "epidermolysis-bullosa",
+  "sebaceous-naevus",
+  "scarring-alopecia"
+ ]
+}

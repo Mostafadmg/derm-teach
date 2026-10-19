@@ -1,10 +1,11 @@
 {
  "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
  "key_facts": [
-  "A **painless lump, sinus or scar over neck nodes**, or a chronic plaque, in someone from a high-incidence area or with TB contact.",
-  "*M. tuberculosis* reaching skin from a deeper focus, by inoculation or blood spread; **tuberculids** are immune reactions.",
-  "Refer to the **TB service** for biopsy, culture and treatment (NICE NG33); contact screening; HIV test.",
-  "Pulmonary or disseminated TB, **HIV**, and **rifampicin interactions**."
+  "Skin infection with *Mycobacterium tuberculosis*: uncommon in the UK; risk with high-incidence countries, HIV, anti-TNF, homelessness.",
+  "Forms by route and immunity: **scrofuloderma** (from underlying node), **lupus vulgaris**, TB verrucosa cutis, chancre, tuberculids.",
+  "Lupus vulgaris: red-brown plaques with **\"apple-jelly\" colour on diascopy**.",
+  "Refer **urgently** to the TB service; NICE NG33 regimen is 2 months RHZE then 4 months RH.",
+  "TB is **notifiable**; contacts are traced."
  ],
  "sections": [
   {
@@ -62,14 +63,45 @@
     },
     "**Mechanism in Case 1:** pulmonary TB → lymphatic spread to cervical nodes → caseating necrosis → cold abscess → direct (contiguous) extension through overlying dermis → nodules, ulcers, sinuses.",
     {
-     "fig": {
-      "ai": "v3-scrofuloderma-section.jpg",
-      "caption": "Scrofuloderma: a caseating lymph node in the neck tracks up through a sinus to an undermined, dusky ulcer on the skin; healing leaves puckered cord-like scars.",
-      "alt": "Neck cross-section with caseating node and sinus to the skin"
-     }
+     "h": "Myths to address"
+    },
+    {
+     "ul": [
+      "**\"Skin TB isn't contagious\"**: associated pulmonary TB may be."
+     ]
     }
    ],
    "short": "Aetiology"
+  },
+  {
+   "id": "pathophysiology",
+   "title": "Pathophysiology and pathology",
+   "blocks": [
+    "How TB looks in skin depends on **how it got there and the host's immunity**.",
+    {
+     "mech": [
+      {
+       "k": "Exogenous inoculation",
+       "t": "Direct entry through a wound: chancre (non-immune) or warty TB (immune)."
+      },
+      {
+       "k": "Contiguous spread",
+       "t": "Underlying node or bone TB breaks through skin: scrofuloderma.",
+       "img": "v3-scrofuloderma-section.jpg",
+       "caption": "Scrofuloderma: TB node breaking through the skin."
+      },
+      {
+       "k": "Haematogenous spread",
+       "t": "Lupus vulgaris, miliary TB, tuberculous gumma."
+      },
+      {
+       "k": "Granuloma",
+       "t": "Caseating granulomas contain the bacilli."
+      }
+     ]
+    }
+   ],
+   "short": "Pathophysiology"
   },
   {
    "id": "clinical-features",
@@ -247,6 +279,29 @@
    "short": "Red flags"
   },
   {
+   "id": "complications",
+   "title": "Complications and prognosis",
+   "blocks": [
+    {
+     "h": "Complications"
+    },
+    {
+     "ul": [
+      "Scarring, contractures, SCC in long-standing lupus vulgaris."
+     ]
+    },
+    {
+     "h": "Prognosis"
+    },
+    {
+     "ul": [
+      "Curable with full treatment."
+     ]
+    }
+   ],
+   "short": "Complications"
+  },
+  {
    "id": "pearls",
    "title": "Prescriber pearls (UK pharmacist IP)",
    "blocks": [
@@ -282,5 +337,10 @@
   }
  ],
  "references": [],
- "see_also": []
+ "see_also": [
+  "leprosy",
+  "cutaneous-leishmaniasis",
+  "sarcoidosis",
+  "returning-traveller-skin"
+ ]
 }

@@ -1,10 +1,11 @@
 {
  "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
  "key_facts": [
-  "**High fever, retro-orbital headache, muscle and joint pain** and a flushing or **‘white islands’** rash within 2 weeks of tropical travel.",
-  "Dengue virus (flavivirus, 4 serotypes) via ***Aedes*** mosquitoes; **capillary leak and low platelets** drive severe disease, often **as the fever falls**.",
-  "**Same-day assessment**: malaria test, FBC (platelets, haematocrit), NS1 / PCR or serology; **paracetamol and fluids only**.",
-  "**Severe dengue** (plasma leakage, bleeding, organ impairment); **NSAIDs or aspirin** raise bleeding risk."
+  "The most common imported arboviral infection in the UK (UKHSA: 904 cases in 2024).",
+  "Fever, headache, retro-orbital pain, myalgia; then a rash with **\"white islands in a sea of red\"** during recovery.",
+  "**Critical phase days 3–7**: warning signs (abdominal pain, vomiting, bleeding, lethargy, rising haematocrit with falling platelets).",
+  "Supportive care: **paracetamol only**; avoid aspirin, ibuprofen and NSAIDs (bleeding risk).",
+  "Any fever in a returning traveller → same-day medical assessment."
  ],
  "sections": [
   {
@@ -29,14 +30,51 @@
      ]
     },
     {
-     "fig": {
-      "ai": "v3-dengue-critical-phase.jpg",
-      "caption": "Dengue’s danger window: plasma leakage typically starts around days 3–7, just as the fever settles, so falling temperature isn’t reassurance on its own.",
-      "alt": "Fever curve falling with a highlighted window and a leaking vessel"
-     }
+     "h": "Myths to address"
+    },
+    {
+     "ul": [
+      "**\"Dengue is always mild\"**: second infection with a different serotype raises the risk of severe dengue."
+     ]
     }
    ],
    "short": "Aetiology"
+  },
+  {
+   "id": "pathophysiology",
+   "title": "Pathophysiology and pathology",
+   "blocks": [
+    "Severe dengue is due to **leaky capillaries**, often worse on a second infection.",
+    {
+     "mech": [
+      {
+       "k": "Mosquito bite",
+       "t": "Aedes mosquitoes transmit the virus, mainly by day."
+      },
+      {
+       "k": "Viraemia",
+       "t": "Virus infects immune cells, causing fever and pain."
+      },
+      {
+       "k": "Antibody enhancement",
+       "t": "Non-neutralising antibodies from a past serotype can increase viral uptake."
+      },
+      {
+       "k": "Plasma leakage",
+       "t": "Cytokines and endothelial damage cause leakage around defervescence.",
+       "img": "v3-dengue-critical-phase.jpg",
+       "caption": "The critical phase follows defervescence."
+      },
+      {
+       "k": "Recovery rash",
+       "t": "A confluent rash with spared islands appears.",
+       "img": "v3-dengue-white-islands.jpg",
+       "caption": "White islands in a sea of red."
+      }
+     ]
+    }
+   ],
+   "short": "Pathophysiology"
   },
   {
    "id": "clinical-features",
@@ -83,13 +121,6 @@
     {
      "fig": {
       "dermnet": "m5w4:W4C01"
-     }
-    },
-    {
-     "fig": {
-      "ai": "v3-dengue-white-islands.jpg",
-      "caption": "Convalescent dengue rash: confluent redness with small round islands of spared pale skin, ‘white islands in a sea of red’.",
-      "alt": "Lower leg with confluent red rash and white islands"
      }
     },
     {
@@ -253,6 +284,29 @@
    "short": "Red flags"
   },
   {
+   "id": "complications",
+   "title": "Complications and prognosis",
+   "blocks": [
+    {
+     "h": "Complications"
+    },
+    {
+     "ul": [
+      "Shock, haemorrhage, organ impairment."
+     ]
+    },
+    {
+     "h": "Prognosis"
+    },
+    {
+     "ul": [
+      "Case fatality in severe dengue under 1% with good supportive care."
+     ]
+    }
+   ],
+   "short": "Complications"
+  },
+  {
    "id": "pearls",
    "title": "Prescriber pearls (UK pharmacist IP)",
    "blocks": [
@@ -292,5 +346,9 @@
    "url": "https://emedicine.medscape.com/article/215840-overview"
   }
  ],
- "see_also": []
+ "see_also": [
+  "returning-traveller-skin",
+  "morbilliform-drug-eruption",
+  "purpura-differentials"
+ ]
 }
