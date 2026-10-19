@@ -1,0 +1,52 @@
+{
+ "kf": [
+  "**DFSP** is a rare, slow-growing, locally aggressive sarcoma of the dermis; metastasis is rare.",
+  "Firm, skin-coloured or red-brown **plaque that slowly enlarges** over years, then develops nodules; trunk and proximal limbs.",
+  "Often mistaken for a keloid, dermatofibroma or scar: biopsy any enlarging firm plaque.",
+  "Driven by a **COL1A1–PDGFB** fusion; CD34-positive.",
+  "Treatment: **Mohs** or wide excision; imatinib for unresectable disease; long-term follow-up for recurrence."
+ ],
+ "epi": [
+  {
+   "t": "**Who**",
+   "sub": [
+    "Adults 20–50; about 1 per million per year; any ethnicity."
+   ]
+  }
+ ],
+ "myths": [
+  "**\"It's just a keloid\"**: a keloid follows injury; DFSP enlarges without one."
+ ],
+ "patho_lead": "A gene fusion makes tumour cells **produce their own growth factor** (PDGF-B).",
+ "mech": [
+  {
+   "k": "Gene fusion",
+   "t": "t(17;22) creates COL1A1–PDGFB."
+  },
+  {
+   "k": "Autocrine loop",
+   "t": "PDGF-B stimulates its own receptor, driving proliferation (imatinib target)."
+  },
+  {
+   "k": "Infiltrative growth",
+   "t": "Tentacle-like extensions spread far beyond the visible edge: hence Mohs.",
+   "img": "v3-dfsp-progression.jpg",
+   "cap": "DFSP: slow plaque, then nodules, with deep tentacle-like extension."
+  }
+ ],
+ "histo": [
+  "Storiform spindle cells infiltrating fat in a honeycomb pattern; CD34+, factor XIIIa–."
+ ],
+ "comp": [
+  "Local recurrence; fibrosarcomatous transformation (higher metastatic risk)."
+ ],
+ "prog": [
+  "Excellent after clear-margin surgery."
+ ],
+ "see_also": [
+  "dermatofibroma",
+  "keloids-hypertrophic-scars",
+  "lipoma",
+  "other-skin-lumps"
+ ]
+}

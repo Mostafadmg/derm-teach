@@ -1,0 +1,48 @@
+{
+ "kf": [
+  "**Naevus sebaceus** is a congenital hamartoma: a yellow-orange hairless plaque on the **scalp** or face.",
+  "Flat at birth, becomes warty and raised at puberty under hormonal influence.",
+  "Caused by post-zygotic **HRAS/KRAS** mosaicism.",
+  "Benign tumours (trichoblastoma, syringocystadenoma) can develop in adulthood; true BCC is rare.",
+  "Observe; excision is optional (cosmetic or new nodule). Extensive lesions: think Schimmelpenning syndrome."
+ ],
+ "myths": [
+  "**\"It must be removed in childhood to prevent cancer\"**: malignant change is rare; removal is a choice."
+ ],
+ "patho_lead": "A mosaic **RAS mutation** creates a patch of malformed hair follicles and sebaceous glands.",
+ "mech": [
+  {
+   "k": "Mosaicism",
+   "t": "A post-zygotic HRAS or KRAS mutation affects one patch of skin."
+  },
+  {
+   "k": "Hamartoma",
+   "t": "Follicles are rudimentary (no hair) and sebaceous and apocrine glands are abnormal.",
+   "img": "v4-sebaceous-naevus-section.jpg",
+   "cap": "Sebaceous naevus after puberty: papillomatous surface, enlarged sebaceous glands, immature hairless follicles and an ectopic apocrine gland."
+  },
+  {
+   "k": "Puberty",
+   "t": "Androgens enlarge the sebaceous component, so the plaque thickens."
+  },
+  {
+   "k": "Secondary tumours",
+   "t": "Benign adnexal tumours may arise within it in adulthood."
+  }
+ ],
+ "histo": [
+  "Papillomatous epidermis, abnormal immature follicles, enlarged sebaceous glands, ectopic apocrine glands."
+ ],
+ "comp": [
+  "Secondary tumours (mostly benign), alopecia patch, cosmetic concern."
+ ],
+ "prog": [
+  "Benign lifelong lesion."
+ ],
+ "see_also": [
+  "pigmented-birthmarks",
+  "congenital-melanocytic-naevi",
+  "basal-cell-carcinoma",
+  "aplasia-cutis"
+ ]
+}

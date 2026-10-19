@@ -1,10 +1,11 @@
 {
  "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
  "key_facts": [
-  "A brown or black longitudinal stripe in one or more nails.",
-  "Melanocyte activation in the nail matrix (ethnic, drug, trauma, inflammation) or proliferation (naevus, melanoma).",
-  "Use the nail ABCDEF rule, photograph with a ruler, and refer suspicious single-digit bands on the suspected-cancer pathway.",
-  "Subungual melanoma: often diagnosed late, especially in darker skin where bands are common."
+  "**Longitudinal melanonychia** is a brown-black band in the nail from melanin in the nail plate.",
+  "Common and benign in darker skin (often several nails); a **single** widening or irregular band in an adult needs assessment.",
+  "Nail melanoma red flags (ABCDEF): Age, Band >3 mm or irregular, Change, Digit (thumb, big toe, index), Extension onto the fold (**Hutchinson sign**), Family/personal history.",
+  "Differentials: subungual haematoma (moves out with growth), fungal melanonychia, drug-induced, naevus, lentigo.",
+  "Suspicious band: suspected cancer pathway for **nail matrix biopsy**."
  ],
  "sections": [
   {
@@ -16,6 +17,22 @@
      "ol": [
       "**Melanocytic activation** (more melanin, normal melanocyte numbers) — racial/physiological, trauma, drugs, inflammatory disease, endocrine, infection, etc.",
       "**Melanocytic hyperplasia** — lentigo, naevus, or **melanoma** of the nail unit."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "epidemiology",
+   "title": "Epidemiology",
+   "blocks": [
+    {
+     "ul": [
+      {
+       "t": "**Who**",
+       "sub": [
+        "Up to 77% of Black adults have melanonychia in at least one nail; nail melanoma is rare and diagnosed late."
+       ]
+      }
      ]
     }
    ]
@@ -33,9 +50,47 @@
       "**Nail-unit melanoma** is uncommon but important: any age possible; relatively higher proportion of melanomas in people with darker skin types are acral/nail; classic teaching ages ~50–70; digits = **thumb, hallux, index** most often. Family history of melanoma increases risk. Trauma association is debated — trauma may draw attention to a lesion already present (Bob Marley's acral melanoma is the famous example).",
       "Up to a substantial fraction of nail melanomas are **amelanotic/hypomelanotic** — do not wait for a black streak."
      ]
+    },
+    {
+     "h": "Myths to address"
+    },
+    {
+     "ul": [
+      "**\"A dark nail streak is a bruise\"**: a haematoma grows out; a melanocytic band starts at the matrix and persists."
+     ]
     }
    ],
    "short": "Aetiology"
+  },
+  {
+   "id": "pathophysiology",
+   "title": "Pathophysiology and pathology",
+   "blocks": [
+    "Melanonychia comes from **melanocytes in the nail matrix** depositing pigment into the growing plate.",
+    {
+     "mech": [
+      {
+       "k": "Activation",
+       "t": "Matrix melanocytes are activated (ethnicity, trauma, drugs, pregnancy) without increasing in number.",
+       "img": "v4-melanonychia-band.jpg",
+       "caption": "Pigment-producing melanocytes in the nail matrix lay down a longitudinal brown band in the growing nail plate."
+      },
+      {
+       "k": "Proliferation",
+       "t": "Increased melanocytes (lentigo, naevus, melanoma) produce a band."
+      },
+      {
+       "k": "Band width",
+       "t": "The width reflects how much of the matrix is involved; widening or blurring suggests melanoma."
+      },
+      {
+       "k": "Hutchinson sign",
+       "t": "Pigment on the nail fold shows spread beyond the matrix."
+      }
+     ]
+    }
+   ],
+   "short": "Pathophysiology"
   },
   {
    "id": "clinical-features",
@@ -210,6 +265,29 @@
    "short": "Red flags"
   },
   {
+   "id": "complications",
+   "title": "Complications and prognosis",
+   "blocks": [
+    {
+     "h": "Complications"
+    },
+    {
+     "ul": [
+      "Late-diagnosed nail melanoma (poor prognosis); nail dystrophy after biopsy."
+     ]
+    },
+    {
+     "h": "Prognosis"
+    },
+    {
+     "ul": [
+      "Benign bands persist; melanoma requires amputation or wide excision of the nail unit."
+     ]
+    }
+   ],
+   "short": "Complications"
+  },
+  {
    "id": "pearls",
    "title": "Prescriber pearls (UK pharmacist IP)",
    "blocks": [
@@ -254,5 +332,10 @@
    "url": "https://emedicine.medscape.com/article/1375850-overview"
   }
  ],
- "see_also": []
+ "see_also": [
+  "melanoma",
+  "nail-signs",
+  "onychomycosis",
+  "melanocytic-naevi"
+ ]
 }

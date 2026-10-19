@@ -1,10 +1,11 @@
 {
  "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
  "key_facts": [
-  "A child with a **brown or black, often hairy birthmark mole**, sometimes large with smaller **satellite** moles.",
-  "**Post-zygotic NRAS mutation** in melanocyte precursors; earlier mutation → larger naevus, more satellites.",
-  "Classify by **projected adult size**; refer large / giant or multiple CMN to paediatric dermatology; **MRI in infants with ≥ 2 CMN at birth**; teach families what change to report.",
-  "**Melanoma in large / giant CMN** (often deep or in childhood); **neurocutaneous melanosis**; psychological impact."
+  "**Congenital melanocytic naevi (CMN)** are present at birth or appear in the first months; about 1% of newborns.",
+  "Classified by projected adult size: small (<1.5 cm), medium, large (20–40 cm), giant (>40 cm).",
+  "Melanoma risk is low for small and medium CMN, higher for **large/giant** (a few per cent, often in childhood).",
+  "Multiple CMN or large CMN: MRI for **neurocutaneous melanosis** (NRAS mutations).",
+  "Monitor with photographs; refer new nodules, ulceration or rapid change; support families (Caring Matters Now)."
  ],
  "sections": [
   {
@@ -15,12 +16,71 @@
    ]
   },
   {
+   "id": "epidemiology",
+   "title": "Epidemiology",
+   "blocks": [
+    {
+     "ul": [
+      {
+       "t": "**Who**",
+       "sub": [
+        "About 1% have a small CMN; large or giant CMN about 1 in 20,000 births."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
    "id": "aetiology",
    "title": "Aetiology: causes and risk factors",
    "blocks": [
-    "**Post-zygotic NRAS mutation** in neural-crest melanoblasts (BRAF in some small CMN). The earlier the mutation, the larger the naevus and the more likely satellites and neurocutaneous melanosis (CNS melanocytes)."
+    "**Post-zygotic NRAS mutation** in neural-crest melanoblasts (BRAF in some small CMN). The earlier the mutation, the larger the naevus and the more likely satellites and neurocutaneous melanosis (CNS melanocytes).",
+    {
+     "h": "Myths to address"
+    },
+    {
+     "ul": [
+      "**\"All congenital moles should be removed\"**: most small CMN never cause problems; surgery has its own risks."
+     ]
+    }
    ],
    "short": "Aetiology"
+  },
+  {
+   "id": "pathophysiology",
+   "title": "Pathophysiology and pathology",
+   "blocks": [
+    "CMN arise from a **mutation in an embryonic melanocyte precursor**, mostly NRAS.",
+    {
+     "mech": [
+      {
+       "k": "Embryonic mutation",
+       "t": "A post-zygotic NRAS (or BRAF) mutation in a migrating melanocyte precursor."
+      },
+      {
+       "k": "Clonal expansion",
+       "t": "Descendant melanocytes populate a patch of skin, sometimes deep into fat and fascia.",
+       "img": "v4-cmn-deep-naevus.jpg",
+       "caption": "Congenital naevus cells extend deep into the dermis and fat, wrapping around follicles, glands, vessels and nerves."
+      },
+      {
+       "k": "Size and depth",
+       "t": "Earlier mutation gives larger, deeper naevi and sometimes CNS involvement."
+      },
+      {
+       "k": "Evolution",
+       "t": "CMN become more raised, hairy and textured with age; some lighten."
+      }
+     ]
+    },
+    {
+     "histo": [
+      "Naevus cells extending deep into dermis and around adnexa, vessels and nerves."
+     ]
+    }
+   ],
+   "short": "Pathophysiology"
   },
   {
    "id": "clinical-features",
@@ -215,6 +275,29 @@
    "short": "Red flags"
   },
   {
+   "id": "complications",
+   "title": "Complications and prognosis",
+   "blocks": [
+    {
+     "h": "Complications"
+    },
+    {
+     "ul": [
+      "Melanoma (large/giant), neurocutaneous melanosis, psychosocial impact; proliferative nodules in infancy (usually benign)."
+     ]
+    },
+    {
+     "h": "Prognosis"
+    },
+    {
+     "ul": [
+      "Lifelong; most remain benign."
+     ]
+    }
+   ],
+   "short": "Complications"
+  },
+  {
    "id": "pearls",
    "title": "Prescriber pearls (UK pharmacist IP)",
    "blocks": [
@@ -252,5 +335,11 @@
    "url": "https://emedicine.medscape.com/article/1118659-overview"
   }
  ],
- "see_also": []
+ "see_also": [
+  "melanocytic-naevi",
+  "atypical-naevus-syndrome",
+  "melanoma",
+  "pigmented-birthmarks",
+  "sebaceous-naevus"
+ ]
 }

@@ -1,0 +1,47 @@
+{
+ "kf": [
+  "**Chondrodermatitis nodularis helicis (CNH)** is a painful nodule on the ear rim (helix or antihelix) from pressure.",
+  "Typically older men; painful when lying on that side at night; central crust or scale.",
+  "Must be distinguished from **SCC** and BCC: biopsy if atypical.",
+  "Pressure relief is key: a pillow with a hole or ear protector; potent or intralesional steroid; surgery if persistent.",
+  "Recurs if pressure continues."
+ ],
+ "myths": [
+  "**\"An ear nodule is just a wart\"**: painful helical nodules are usually CNH, but SCC must be excluded."
+ ],
+ "patho_lead": "CNH is **pressure ischaemia** of thin skin over cartilage.",
+ "mech": [
+  {
+   "k": "Pressure",
+   "t": "Sleeping on the ear compresses skin against cartilage with a poor blood supply."
+  },
+  {
+   "k": "Ischaemia",
+   "t": "Skin and perichondrium are damaged; cartilage degenerates."
+  },
+  {
+   "k": "Transepidermal elimination",
+   "t": "Degenerate collagen is pushed out through a central ulcer or crust."
+  },
+  {
+   "k": "Relief",
+   "t": "Removing pressure lets it heal.",
+   "img": "v3-cnh-ear-protector.jpg",
+   "cap": "A cut-out pillow or ear protector relieves pressure."
+  }
+ ],
+ "histo": [
+  "Central ulcer with degenerate collagen and perichondrial fibrosis; acanthotic edges."
+ ],
+ "comp": [
+  "Persistent pain and sleep disturbance; recurrence."
+ ],
+ "prog": [
+  "Good with pressure relief; recurrence common."
+ ],
+ "see_also": [
+  "squamous-cell-carcinoma",
+  "basal-cell-carcinoma",
+  "actinic-keratoses"
+ ]
+}

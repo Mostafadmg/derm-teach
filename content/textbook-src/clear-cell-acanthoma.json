@@ -1,0 +1,44 @@
+{
+ "kf": [
+  "**Clear cell acanthoma** is a rare benign epidermal tumour: a moist red dome-shaped papule, usually on the leg.",
+  "Middle-aged and older adults; slowly growing, often under 2 cm.",
+  "Dermoscopy is characteristic: dotted vessels in a **'string of pearls'** network.",
+  "Differentials: pyogenic granuloma, amelanotic melanoma, BCC, Bowen's disease: biopsy if unsure.",
+  "Excision, curettage or cryotherapy if troublesome."
+ ],
+ "myths": [
+  "**\"Red papules on the leg are always harmless\"**: amelanotic melanoma can look similar."
+ ],
+ "patho_lead": "A localised patch of **glycogen-rich pale keratinocytes** thickens the epidermis.",
+ "mech": [
+  {
+   "k": "Pale keratinocytes",
+   "t": "Keratinocytes accumulate glycogen and look clear."
+  },
+  {
+   "k": "Psoriasiform thickening",
+   "t": "The epidermis thickens with dilated capillaries in dermal papillae."
+  },
+  {
+   "k": "Vessel pattern",
+   "t": "Capillaries line up in a reticular necklace pattern.",
+   "img": "v3-cca-string-of-pearls.jpg",
+   "cap": "Dermoscopy: dotted vessels in a 'string of pearls'."
+  }
+ ],
+ "histo": [
+  "Sharply demarcated psoriasiform acanthosis of pale, PAS-positive keratinocytes, with neutrophils."
+ ],
+ "comp": [
+  "None significant."
+ ],
+ "prog": [
+  "Benign; persists."
+ ],
+ "see_also": [
+  "pyogenic-granuloma",
+  "melanoma",
+  "basal-cell-carcinoma",
+  "seborrhoeic-keratosis"
+ ]
+}

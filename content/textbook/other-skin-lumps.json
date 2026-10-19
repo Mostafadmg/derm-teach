@@ -1,12 +1,35 @@
 {
  "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
  "key_facts": [
-  "A soft ‘button-hole’ papule (neurofibroma), a hard chalky lump on a child’s face (pilomatricoma), a cyst by the nail (myxoid), yellow umbilicated papules on the face (sebaceous hyperplasia).",
-  "Different tissues of origin: nerve sheath, hair matrix, joint-related mucin, enlarged sebaceous glands.",
-  "Recognise and reassure where typical; refer when uncertain, growing or syndromic.",
-  "NF1 (≥6 café-au-lait macules, axillary freckling), plexiform neurofibroma change, BCC mimicking sebaceous hyperplasia."
+  "Lumps here: **neurofibroma** (soft, 'buttonhole' sign; many = NF1), **pilomatricoma** (rock-hard, children), **digital myxoid cyst** (near the nail, osteoarthritis), sebaceous hyperplasia, connective tissue naevi and others.",
+  "Six or more café-au-lait macules ≥5 mm (prepubertal) or ≥15 mm (adults) plus neurofibromas or freckling: **NF1**.",
+  "Rapid growth, pain, size over 5 cm or deep location: think sarcoma, refer urgently.",
+  "Most are benign: reassure, excise if symptomatic or uncertain.",
+  "Use ultrasound when the depth or nature is unclear."
  ],
  "sections": [
+  {
+   "id": "overview",
+   "title": "Overview",
+   "blocks": [
+    "This page is a **compendium of less common lumps** (each covered in a short section below), rather than one disease."
+   ]
+  },
+  {
+   "id": "aetiology",
+   "title": "Aetiology: causes and risk factors",
+   "blocks": [
+    {
+     "h": "Myths to address"
+    },
+    {
+     "ul": [
+      "**\"A hard lump is always cancer\"**: pilomatricoma is rock-hard but benign."
+     ]
+    }
+   ],
+   "short": "Aetiology"
+  },
   {
    "id": "clinical-features",
    "title": "Clinical features",
@@ -216,6 +239,29 @@
     }
    ],
    "short": "Red flags"
+  },
+  {
+   "id": "complications",
+   "title": "Complications and prognosis",
+   "blocks": [
+    {
+     "h": "Complications"
+    },
+    {
+     "ul": [
+      "Malignant peripheral nerve sheath tumour in plexiform neurofibromas (NF1); recurrence after excision."
+     ]
+    },
+    {
+     "h": "Prognosis"
+    },
+    {
+     "ul": [
+      "Most are benign and persist."
+     ]
+    }
+   ],
+   "short": "Complications"
   }
  ],
  "quiz": [
@@ -241,5 +287,11 @@
   }
  ],
  "references": [],
- "see_also": []
+ "see_also": [
+  "skin-cysts",
+  "lipoma",
+  "dermatofibroma",
+  "dermatofibrosarcoma-protuberans",
+  "pigmented-birthmarks"
+ ]
 }

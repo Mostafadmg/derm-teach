@@ -1,0 +1,48 @@
+{
+ "kf": [
+  "**Checkpoint inhibitors** (anti-PD-1: nivolumab, pembrolizumab; anti-CTLA-4: ipilimumab) release the brakes on T cells.",
+  "Used for advanced and adjuvant melanoma; combination ipilimumab + nivolumab is most effective and most toxic.",
+  "**Immune-related adverse events (irAEs)** can affect any organ: skin (commonest), colitis, hepatitis, pneumonitis, thyroid, pituitary, adrenals, myocarditis.",
+  "Any new symptom on immunotherapy: contact the **oncology acute line**; do not wait. Diarrhoea, breathlessness and headache can be life-threatening.",
+  "BRAF/MEK inhibitors (dabrafenib + trametinib, encorafenib + binimetinib) for BRAF-mutant disease: fever, photosensitivity, rashes."
+ ],
+ "myths": [
+  "**\"A rash on immunotherapy means stop treatment\"**: most skin irAEs are mild and managed with topical steroids; oncology decides."
+ ],
+ "patho_lead": "Checkpoint inhibitors **remove inhibitory signals** so T cells attack tumour, and sometimes normal tissue.",
+ "mech": [
+  {
+   "k": "Checkpoints",
+   "t": "CTLA-4 and PD-1 normally dampen T-cell activation to prevent autoimmunity."
+  },
+  {
+   "k": "Release",
+   "t": "Blocking them reactivates tumour-specific T cells.",
+   "img": "v3-checkpoint-release.jpg",
+   "cap": "Checkpoint inhibitors release the brakes on T cells."
+  },
+  {
+   "k": "Off-target immunity",
+   "t": "Autoreactive T cells cause organ inflammation (irAEs).",
+   "img": "v3-irae-organ-map.jpg",
+   "cap": "Organs affected by immune-related adverse events."
+  },
+  {
+   "k": "Skin irAEs",
+   "t": "Itch, maculopapular rash, lichenoid and psoriasiform eruptions, vitiligo, bullous pemphigoid, rarely SJS/TEN."
+  }
+ ],
+ "comp": [
+  "Colitis, hepatitis, pneumonitis, endocrinopathies (often permanent), myocarditis, SJS/TEN."
+ ],
+ "prog": [
+  "Durable responses in about half with combination therapy; vitiligo on treatment is associated with better response."
+ ],
+ "see_also": [
+  "melanoma-staging-treatment",
+  "melanoma",
+  "bullous-pemphigoid",
+  "lichen-planus",
+  "drug-eruption-approach"
+ ]
+}

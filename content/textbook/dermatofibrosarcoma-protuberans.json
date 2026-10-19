@@ -1,10 +1,11 @@
 {
  "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
  "key_facts": [
-  "A **firm, slowly enlarging plaque** on the trunk or shoulder that later becomes **lumpy (protuberant)**.",
-  "Low-grade fibroblastic sarcoma driven by a **COL1A1–PDGFB** fusion.",
-  "Refer on a **suspected sarcoma / skin-cancer pathway**; deep biopsy; Mohs or wide excision; **imatinib** for inoperable disease.",
-  "**Delayed diagnosis** because it is called a scar, keloid or dermatofibroma for years."
+  "**DFSP** is a rare, slow-growing, locally aggressive sarcoma of the dermis; metastasis is rare.",
+  "Firm, skin-coloured or red-brown **plaque that slowly enlarges** over years, then develops nodules; trunk and proximal limbs.",
+  "Often mistaken for a keloid, dermatofibroma or scar: biopsy any enlarging firm plaque.",
+  "Driven by a **COL1A1–PDGFB** fusion; CD34-positive.",
+  "Treatment: **Mohs** or wide excision; imatinib for unresectable disease; long-term follow-up for recurrence."
  ],
  "sections": [
   {
@@ -12,6 +13,22 @@
    "title": "Overview",
    "blocks": [
     "A rare, locally aggressive, low-grade **cutaneous sarcoma**. It infiltrates widely beneath clinically normal skin (\"tentacles\") and recurs if under-excised. Metastasis is rare (<5%) and mostly follows fibrosarcomatous transformation or repeated recurrence."
+   ]
+  },
+  {
+   "id": "epidemiology",
+   "title": "Epidemiology",
+   "blocks": [
+    {
+     "ul": [
+      {
+       "t": "**Who**",
+       "sub": [
+        "Adults 20–50; about 1 per million per year; any ethnicity."
+       ]
+      }
+     ]
+    }
    ]
   },
   {
@@ -25,14 +42,46 @@
      ]
     },
     {
-     "fig": {
-      "ai": "v3-dfsp-progression.jpg",
-      "caption": "DFSP over years: a firm scar-like plaque enlarges and later becomes protuberant and multinodular.",
-      "alt": "Three shoulders showing a plaque growing into a nodular mass"
-     }
+     "h": "Myths to address"
+    },
+    {
+     "ul": [
+      "**\"It's just a keloid\"**: a keloid follows injury; DFSP enlarges without one."
+     ]
     }
    ],
    "short": "Aetiology"
+  },
+  {
+   "id": "pathophysiology",
+   "title": "Pathophysiology and pathology",
+   "blocks": [
+    "A gene fusion makes tumour cells **produce their own growth factor** (PDGF-B).",
+    {
+     "mech": [
+      {
+       "k": "Gene fusion",
+       "t": "t(17;22) creates COL1A1–PDGFB."
+      },
+      {
+       "k": "Autocrine loop",
+       "t": "PDGF-B stimulates its own receptor, driving proliferation (imatinib target)."
+      },
+      {
+       "k": "Infiltrative growth",
+       "t": "Tentacle-like extensions spread far beyond the visible edge: hence Mohs.",
+       "img": "v3-dfsp-progression.jpg",
+       "caption": "DFSP: slow plaque, then nodules, with deep tentacle-like extension."
+      }
+     ]
+    },
+    {
+     "histo": [
+      "Storiform spindle cells infiltrating fat in a honeycomb pattern; CD34+, factor XIIIa–."
+     ]
+    }
+   ],
+   "short": "Pathophysiology"
   },
   {
    "id": "clinical-features",
@@ -205,6 +254,29 @@
    "short": "Red flags"
   },
   {
+   "id": "complications",
+   "title": "Complications and prognosis",
+   "blocks": [
+    {
+     "h": "Complications"
+    },
+    {
+     "ul": [
+      "Local recurrence; fibrosarcomatous transformation (higher metastatic risk)."
+     ]
+    },
+    {
+     "h": "Prognosis"
+    },
+    {
+     "ul": [
+      "Excellent after clear-margin surgery."
+     ]
+    }
+   ],
+   "short": "Complications"
+  },
+  {
    "id": "pearls",
    "title": "Prescriber pearls (UK pharmacist IP)",
    "blocks": [
@@ -242,5 +314,10 @@
    "url": "https://emedicine.medscape.com/article/1100203-overview"
   }
  ],
- "see_also": []
+ "see_also": [
+  "dermatofibroma",
+  "keloids-hypertrophic-scars",
+  "lipoma",
+  "other-skin-lumps"
+ ]
 }

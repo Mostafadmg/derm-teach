@@ -1,10 +1,11 @@
 {
  "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
  "key_facts": [
-  "**Many naevi of varied size and colour** (often > 100), some atypical, ± a **family history of melanoma or pancreatic cancer**.",
-  "Inherited and UV risk (**CDKN2A**, CDK4, BAP1, MC1R) producing a high-naevus phenotype; most melanomas arise **de novo**.",
-  "Refer for **dermatology surveillance** (mole mapping + digital dermoscopy); **clinical genetics** if criteria met; sun protection; whole-skin self-checks.",
-  "Melanoma presenting as an ugly duckling; **pancreatic cancer** in CDKN2A families; BAP1 (uveal melanoma, mesothelioma)."
+  "**Atypical (dysplastic) naevi** are moles that are larger (often >5 mm), irregular or variegated, but benign.",
+  "**Atypical mole syndrome**: many naevi (often >100) including several atypical ones: a strong melanoma risk factor.",
+  "**Familial melanoma**: 2 or more first-degree relatives with melanoma; CDKN2A, CDK4, BAP1 mutations; pancreatic cancer link with CDKN2A.",
+  "Manage with self-examination, total-body photography and dermoscopy surveillance, sun protection.",
+  "Refer any changing or 'ugly duckling' lesion via the suspected cancer pathway; genetics referral for familial clusters."
  ],
  "sections": [
   {
@@ -25,12 +26,36 @@
    ]
   },
   {
+   "id": "epidemiology",
+   "title": "Epidemiology",
+   "blocks": [
+    {
+     "ul": [
+      {
+       "t": "**Who**",
+       "sub": [
+        "Atypical naevi in about 5–10% of fair-skinned adults; inherited atypical mole syndrome is rarer."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
    "id": "aetiology",
    "title": "Aetiology: causes and risk factors",
    "blocks": [
     "Inherited susceptibility (CDKN2A, CDK4, MC1R variants, MITF E318K, BAP1, POT1, TERT) **plus UV**, especially intermittent intense exposure and **blistering childhood sunburn**.",
     {
      "h": "Inherited melanoma and syndromes"
+    },
+    {
+     "h": "Myths to address"
+    },
+    {
+     "ul": [
+      "**\"Atypical moles should all be removed\"**: removal does not prevent melanoma; surveillance does detect it early."
+     ]
     }
    ],
    "short": "Aetiology"
@@ -39,6 +64,31 @@
    "id": "pathophysiology",
    "title": "Pathophysiology and pathology",
    "blocks": [
+    "Atypical naevi reflect a **susceptible melanocyte field** with more naevi and more mutations.",
+    {
+     "mech": [
+      {
+       "k": "Genetic susceptibility",
+       "t": "Inherited variants (CDKN2A, MC1R, naevus-count genes) increase melanocyte proliferation."
+      },
+      {
+       "k": "Many naevi",
+       "t": "UV and genetics produce numerous naevi, some architecturally disordered."
+      },
+      {
+       "k": "Ugly duckling sign",
+       "t": "A lesion that differs from a person's 'signature' naevi needs assessment.",
+       "img": "v3-ugly-duckling.jpg",
+       "caption": "The ugly duckling: the lesion that looks different from the rest."
+      },
+      {
+       "k": "Surveillance",
+       "t": "Total-body photography and sequential dermoscopy detect change early.",
+       "img": "v3-mole-mapping.jpg",
+       "caption": "Mole mapping: baseline photographs for comparison."
+      }
+     ]
+    },
     {
      "h": "How it is caused / genes"
     },
@@ -114,11 +164,9 @@
      }
     },
     {
-     "fig": {
-      "ai": "v3-mole-mapping.jpg",
-      "caption": "High-risk patients are followed with total-body photography and sequential digital dermoscopy so new or changing lesions stand out.",
-      "alt": "Back with many moles beside a camera and dermatoscope"
-     }
+     "histo": [
+      "Architectural disorder, bridging nests, lamellar fibroplasia, variable cytological atypia; graded by pathologists."
+     ]
     }
    ],
    "short": "Pathophysiology"
@@ -138,13 +186,6 @@
     {
      "fig": {
       "dermnet": "m2w4:D01"
-     }
-    },
-    {
-     "fig": {
-      "ai": "v3-ugly-duckling.jpg",
-      "caption": "In a person with many moles, compare: the lesion that looks different is the one to worry about.",
-      "alt": "Moles with one outlier ringed"
      }
     },
     {
@@ -315,6 +356,29 @@
    "short": "Red flags"
   },
   {
+   "id": "complications",
+   "title": "Complications and prognosis",
+   "blocks": [
+    {
+     "h": "Complications"
+    },
+    {
+     "ul": [
+      "Melanoma (lifetime risk greatly increased in familial disease)."
+     ]
+    },
+    {
+     "h": "Prognosis"
+    },
+    {
+     "ul": [
+      "Lifelong surveillance."
+     ]
+    }
+   ],
+   "short": "Complications"
+  },
+  {
    "id": "pearls",
    "title": "Prescriber pearls (UK pharmacist IP)",
    "blocks": [
@@ -356,5 +420,10 @@
    "url": "https://emedicine.medscape.com/article/1056283-overview"
   }
  ],
- "see_also": []
+ "see_also": [
+  "melanocytic-naevi",
+  "melanoma",
+  "congenital-melanocytic-naevi",
+  "teledermatology"
+ ]
 }

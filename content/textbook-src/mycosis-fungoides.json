@@ -1,0 +1,56 @@
+{
+ "kf": [
+  "**Mycosis fungoides (MF)** is the commonest cutaneous T-cell lymphoma: slowly evolving patches, plaques and sometimes tumours.",
+  "Patches in **sun-protected 'bathing trunk'** areas (buttocks, hips, breasts), varying shape, mild itch; often misdiagnosed as eczema or psoriasis for years.",
+  "Repeated biopsies (off steroids) with T-cell receptor gene studies may be needed.",
+  "Early stage: skin-directed therapy (potent steroids, phototherapy, radiotherapy); most have a normal life expectancy.",
+  "**Sézary syndrome**: erythroderma, lymphadenopathy, circulating malignant T cells: specialist."
+ ],
+ "epi": [
+  {
+   "t": "**Who**",
+   "sub": [
+    "Adults 50–70; men twice as often; about 0.5 per 100,000 per year."
+   ]
+  }
+ ],
+ "myths": [
+  "**\"Lymphoma always spreads quickly\"**: early MF is indolent; most never progress."
+ ],
+ "patho_lead": "MF is a **clonal expansion of skin-homing CD4+ T cells** that infiltrate the epidermis.",
+ "mech": [
+  {
+   "k": "Skin-homing clone",
+   "t": "A clone of memory CD4+ T cells carries skin-homing receptors (CLA, CCR4)."
+  },
+  {
+   "k": "Epidermotropism",
+   "t": "Malignant cells invade the epidermis, forming Pautrier microabscesses."
+  },
+  {
+   "k": "Patch → plaque → tumour",
+   "t": "Over years, deeper infiltration produces plaques and tumours.",
+   "img": "v3-mf-patch-plaque-tumour.jpg",
+   "cap": "Mycosis fungoides evolves from patch to plaque to tumour."
+  },
+  {
+   "k": "Systemic spread",
+   "t": "Rarely, cells reach nodes and blood (advanced stage, Sézary)."
+  }
+ ],
+ "histo": [
+  "Atypical cerebriform lymphocytes in the epidermis (epidermotropism), Pautrier microabscesses; CD4+, loss of CD7; clonal TCR rearrangement."
+ ],
+ "comp": [
+  "Itch, infection (Staph), progression, large-cell transformation."
+ ],
+ "prog": [
+  "Stage IA: normal life expectancy; advanced stages much poorer."
+ ],
+ "see_also": [
+  "eczema-dermatitis",
+  "psoriasis",
+  "hypopigmentation-skin-of-colour",
+  "biologics-systemics"
+ ]
+}

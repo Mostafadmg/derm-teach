@@ -1,0 +1,57 @@
+{
+ "kf": [
+  "**Congenital melanocytic naevi (CMN)** are present at birth or appear in the first months; about 1% of newborns.",
+  "Classified by projected adult size: small (<1.5 cm), medium, large (20–40 cm), giant (>40 cm).",
+  "Melanoma risk is low for small and medium CMN, higher for **large/giant** (a few per cent, often in childhood).",
+  "Multiple CMN or large CMN: MRI for **neurocutaneous melanosis** (NRAS mutations).",
+  "Monitor with photographs; refer new nodules, ulceration or rapid change; support families (Caring Matters Now)."
+ ],
+ "epi": [
+  {
+   "t": "**Who**",
+   "sub": [
+    "About 1% have a small CMN; large or giant CMN about 1 in 20,000 births."
+   ]
+  }
+ ],
+ "myths": [
+  "**\"All congenital moles should be removed\"**: most small CMN never cause problems; surgery has its own risks."
+ ],
+ "patho_lead": "CMN arise from a **mutation in an embryonic melanocyte precursor**, mostly NRAS.",
+ "mech": [
+  {
+   "k": "Embryonic mutation",
+   "t": "A post-zygotic NRAS (or BRAF) mutation in a migrating melanocyte precursor."
+  },
+  {
+   "k": "Clonal expansion",
+   "t": "Descendant melanocytes populate a patch of skin, sometimes deep into fat and fascia.",
+   "img": "v4-cmn-deep-naevus.jpg",
+   "cap": "Congenital naevus cells extend deep into the dermis and fat, wrapping around follicles, glands, vessels and nerves."
+  },
+  {
+   "k": "Size and depth",
+   "t": "Earlier mutation gives larger, deeper naevi and sometimes CNS involvement."
+  },
+  {
+   "k": "Evolution",
+   "t": "CMN become more raised, hairy and textured with age; some lighten."
+  }
+ ],
+ "histo": [
+  "Naevus cells extending deep into dermis and around adnexa, vessels and nerves."
+ ],
+ "comp": [
+  "Melanoma (large/giant), neurocutaneous melanosis, psychosocial impact; proliferative nodules in infancy (usually benign)."
+ ],
+ "prog": [
+  "Lifelong; most remain benign."
+ ],
+ "see_also": [
+  "melanocytic-naevi",
+  "atypical-naevus-syndrome",
+  "melanoma",
+  "pigmented-birthmarks",
+  "sebaceous-naevus"
+ ]
+}

@@ -1,0 +1,58 @@
+{
+ "kf": [
+  "**Atypical (dysplastic) naevi** are moles that are larger (often >5 mm), irregular or variegated, but benign.",
+  "**Atypical mole syndrome**: many naevi (often >100) including several atypical ones: a strong melanoma risk factor.",
+  "**Familial melanoma**: 2 or more first-degree relatives with melanoma; CDKN2A, CDK4, BAP1 mutations; pancreatic cancer link with CDKN2A.",
+  "Manage with self-examination, total-body photography and dermoscopy surveillance, sun protection.",
+  "Refer any changing or 'ugly duckling' lesion via the suspected cancer pathway; genetics referral for familial clusters."
+ ],
+ "epi": [
+  {
+   "t": "**Who**",
+   "sub": [
+    "Atypical naevi in about 5–10% of fair-skinned adults; inherited atypical mole syndrome is rarer."
+   ]
+  }
+ ],
+ "myths": [
+  "**\"Atypical moles should all be removed\"**: removal does not prevent melanoma; surveillance does detect it early."
+ ],
+ "patho_lead": "Atypical naevi reflect a **susceptible melanocyte field** with more naevi and more mutations.",
+ "mech": [
+  {
+   "k": "Genetic susceptibility",
+   "t": "Inherited variants (CDKN2A, MC1R, naevus-count genes) increase melanocyte proliferation."
+  },
+  {
+   "k": "Many naevi",
+   "t": "UV and genetics produce numerous naevi, some architecturally disordered."
+  },
+  {
+   "k": "Ugly duckling sign",
+   "t": "A lesion that differs from a person's 'signature' naevi needs assessment.",
+   "img": "v3-ugly-duckling.jpg",
+   "cap": "The ugly duckling: the lesion that looks different from the rest."
+  },
+  {
+   "k": "Surveillance",
+   "t": "Total-body photography and sequential dermoscopy detect change early.",
+   "img": "v3-mole-mapping.jpg",
+   "cap": "Mole mapping: baseline photographs for comparison."
+  }
+ ],
+ "histo": [
+  "Architectural disorder, bridging nests, lamellar fibroplasia, variable cytological atypia; graded by pathologists."
+ ],
+ "comp": [
+  "Melanoma (lifetime risk greatly increased in familial disease)."
+ ],
+ "prog": [
+  "Lifelong surveillance."
+ ],
+ "see_also": [
+  "melanocytic-naevi",
+  "melanoma",
+  "congenital-melanocytic-naevi",
+  "teledermatology"
+ ]
+}

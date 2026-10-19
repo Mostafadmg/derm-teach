@@ -1,10 +1,11 @@
 {
  "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
  "key_facts": [
-  "A **solitary, slow-growing, red-pink, moist dome** with a collarette of scale on the **shin** of an older adult.",
-  "A benign epidermal tumour of **pale glycogen-rich keratinocytes**; possibly reactive.",
-  "**Dermoscopy**; excision or curettage for diagnosis or symptoms.",
-  "**Amelanotic melanoma**, BCC, SCC and Bowen’s look similar: biopsy if doubt."
+  "**Clear cell acanthoma** is a rare benign epidermal tumour: a moist red dome-shaped papule, usually on the leg.",
+  "Middle-aged and older adults; slowly growing, often under 2 cm.",
+  "Dermoscopy is characteristic: dotted vessels in a **'string of pearls'** network.",
+  "Differentials: pyogenic granuloma, amelanotic melanoma, BCC, Bowen's disease: biopsy if unsure.",
+  "Excision, curettage or cryotherapy if troublesome."
  ],
  "sections": [
   {
@@ -18,9 +19,48 @@
    "id": "aetiology",
    "title": "Aetiology: causes and risk factors",
    "blocks": [
-    "Unknown. It often occurs on legs with venous stasis or chronic inflammation. Histology shows sharply demarcated psoriasiform acanthosis of PAS-positive pale cells, with neutrophils in the epidermis."
+    "Unknown. It often occurs on legs with venous stasis or chronic inflammation. Histology shows sharply demarcated psoriasiform acanthosis of PAS-positive pale cells, with neutrophils in the epidermis.",
+    {
+     "h": "Myths to address"
+    },
+    {
+     "ul": [
+      "**\"Red papules on the leg are always harmless\"**: amelanotic melanoma can look similar."
+     ]
+    }
    ],
    "short": "Aetiology"
+  },
+  {
+   "id": "pathophysiology",
+   "title": "Pathophysiology and pathology",
+   "blocks": [
+    "A localised patch of **glycogen-rich pale keratinocytes** thickens the epidermis.",
+    {
+     "mech": [
+      {
+       "k": "Pale keratinocytes",
+       "t": "Keratinocytes accumulate glycogen and look clear."
+      },
+      {
+       "k": "Psoriasiform thickening",
+       "t": "The epidermis thickens with dilated capillaries in dermal papillae."
+      },
+      {
+       "k": "Vessel pattern",
+       "t": "Capillaries line up in a reticular necklace pattern.",
+       "img": "v3-cca-string-of-pearls.jpg",
+       "caption": "Dermoscopy: dotted vessels in a 'string of pearls'."
+      }
+     ]
+    },
+    {
+     "histo": [
+      "Sharply demarcated psoriasiform acanthosis of pale, PAS-positive keratinocytes, with neutrophils."
+     ]
+    }
+   ],
+   "short": "Pathophysiology"
   },
   {
    "id": "clinical-features",
@@ -30,13 +70,6 @@
     {
      "fig": {
       "dermnet": "m2w2:F01"
-     }
-    },
-    {
-     "fig": {
-      "ai": "v3-cca-string-of-pearls.jpg",
-      "caption": "Clear cell acanthoma on dermoscopy: dotted vessels lined up in curving strings like a pearl necklace (Bowen’s has clustered vessels instead).",
-      "alt": "Dermoscopy circle with dotted vessels in curved strings"
      }
     },
     {
@@ -189,6 +222,29 @@
    "short": "Red flags"
   },
   {
+   "id": "complications",
+   "title": "Complications and prognosis",
+   "blocks": [
+    {
+     "h": "Complications"
+    },
+    {
+     "ul": [
+      "None significant."
+     ]
+    },
+    {
+     "h": "Prognosis"
+    },
+    {
+     "ul": [
+      "Benign; persists."
+     ]
+    }
+   ],
+   "short": "Complications"
+  },
+  {
    "id": "pearls",
    "title": "Prescriber pearls (UK pharmacist IP)",
    "blocks": [
@@ -220,5 +276,10 @@
   }
  ],
  "references": [],
- "see_also": []
+ "see_also": [
+  "pyogenic-granuloma",
+  "melanoma",
+  "basal-cell-carcinoma",
+  "seborrhoeic-keratosis"
+ ]
 }

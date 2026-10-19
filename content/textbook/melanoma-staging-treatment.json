@@ -1,10 +1,11 @@
 {
  "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
  "key_facts": [
-  "A patient with a **new melanoma diagnosis** asking what their report, stage and treatment mean.",
-  "**Breslow thickness and ulceration** set T; **nodes (N)** and **spread (M)** set the stage.",
-  "Excision biopsy (2 mm margin); **WLE 0.5 / 1 / 2 cm** by stage (NG14 2022); SLNB if Breslow > 0.8 mm with risk features; adjuvant therapy for resected stage III (and IIB / IIC).",
-  "**Outdated survival data**: AJCC 8 5-year MSS for stage IIA is **~93–94%**, not 80%."
+  "Melanoma outcome depends mostly on **Breslow thickness**, **ulceration** and nodal status (AJCC 8th edition).",
+  "Excision biopsy with a 2 mm margin first; then **wide local excision** (1 cm for <1 mm; 1–2 cm for 1–2 mm; 2 cm for >2 mm thickness).",
+  "Sentinel lymph node biopsy offered from stage IB (pT1b) upwards (NICE NG14).",
+  "Adjuvant immunotherapy or BRAF/MEK inhibitors for resected stage III (and some IIB/C); systemic therapy for stage IV.",
+  "Follow-up by stage; teach self-examination of skin and lymph nodes."
  ],
  "sections": [
   {
@@ -15,9 +16,49 @@
    ]
   },
   {
+   "id": "aetiology",
+   "title": "Aetiology: causes and risk factors",
+   "blocks": [
+    {
+     "h": "Myths to address"
+    },
+    {
+     "ul": [
+      "**\"Removing the mole means it's all gone\"**: thicker melanomas need wide excision and staging."
+     ]
+    }
+   ],
+   "short": "Aetiology"
+  },
+  {
    "id": "pathophysiology",
    "title": "Pathophysiology and pathology",
    "blocks": [
+    "The deeper a melanoma grows, the more likely it has **reached lymphatics and blood vessels**.",
+    {
+     "mech": [
+      {
+       "k": "Radial growth",
+       "t": "Early melanoma spreads within the epidermis: excellent prognosis."
+      },
+      {
+       "k": "Vertical growth",
+       "t": "Invasion into the dermis gives access to lymphatics and vessels.",
+       "img": "v3-breslow-depth.jpg",
+       "caption": "Breslow thickness: measured from the granular layer to the deepest tumour cell."
+      },
+      {
+       "k": "Ulceration and mitoses",
+       "t": "Ulceration and high mitotic rate mark aggressive biology."
+      },
+      {
+       "k": "Margins",
+       "t": "Wide local excision removes in-transit cells around the scar.",
+       "img": "v3-wle-margins.jpg",
+       "caption": "Wide local excision margins by Breslow thickness."
+      }
+     ]
+    },
     {
      "h": "The histopathology report (RCPath dataset, 2019 / updates)"
     },
@@ -73,13 +114,6 @@
         "Requested for stage III–IV or adjuvant decisions"
        ]
       ]
-     }
-    },
-    {
-     "fig": {
-      "ai": "v3-breslow-depth.jpg",
-      "caption": "Breslow thickness is measured in millimetres from the top of the granular layer down to the deepest melanoma cell; it is the strongest prognostic factor for localised melanoma.",
-      "alt": "Melanoma cross-section with a vertical depth gauge"
      }
     }
    ],
@@ -530,6 +564,29 @@
    "short": "Red flags"
   },
   {
+   "id": "complications",
+   "title": "Complications and prognosis",
+   "blocks": [
+    {
+     "h": "Complications"
+    },
+    {
+     "ul": [
+      "Local recurrence, in-transit and nodal metastases, distant spread (lung, liver, brain)."
+     ]
+    },
+    {
+     "h": "Prognosis"
+    },
+    {
+     "ul": [
+      "Five-year survival over 95% for thin melanoma (<1 mm); much lower with nodal or distant disease."
+     ]
+    }
+   ],
+   "short": "Complications"
+  },
+  {
    "id": "pearls",
    "title": "Prescriber pearls (UK pharmacist IP)",
    "blocks": [
@@ -566,5 +623,10 @@
    "url": "https://emedicine.medscape.com/article/1295718-overview"
   }
  ],
- "see_also": []
+ "see_also": [
+  "melanoma",
+  "melanoma-immunotherapy",
+  "atypical-naevus-syndrome",
+  "skin-surgery-procedures"
+ ]
 }

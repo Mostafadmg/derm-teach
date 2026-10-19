@@ -1,10 +1,11 @@
 {
  "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
  "key_facts": [
-  "A patient on (or recently off) **pembrolizumab, nivolumab, ipilimumab** or **dabrafenib + trametinib** with **any new symptom**.",
-  "Checkpoint inhibitors **release T-cell brakes**, so autoimmune inflammation can hit any organ, even months after stopping.",
-  "Ask **‘are you on cancer treatment?’**; contact the **24-hour acute oncology hotline** rather than treating alone; check interactions.",
-  "**Colitis, pneumonitis, hepatitis, myocarditis, hypophysitis / adrenal crisis, new type 1 diabetes / DKA, SJS / TEN.**"
+  "**Checkpoint inhibitors** (anti-PD-1: nivolumab, pembrolizumab; anti-CTLA-4: ipilimumab) release the brakes on T cells.",
+  "Used for advanced and adjuvant melanoma; combination ipilimumab + nivolumab is most effective and most toxic.",
+  "**Immune-related adverse events (irAEs)** can affect any organ: skin (commonest), colitis, hepatitis, pneumonitis, thyroid, pituitary, adrenals, myocarditis.",
+  "Any new symptom on immunotherapy: contact the **oncology acute line**; do not wait. Diarrhoea, breathlessness and headache can be life-threatening.",
+  "BRAF/MEK inhibitors (dabrafenib + trametinib, encorafenib + binimetinib) for BRAF-mutant disease: fever, photosensitivity, rashes."
  ],
  "sections": [
   {
@@ -24,14 +25,47 @@
    "title": "Aetiology: causes and risk factors",
    "blocks": [
     {
-     "fig": {
-      "ai": "v3-checkpoint-release.jpg",
-      "caption": "Checkpoint inhibitor antibodies block the brake on T cells so they can attack melanoma; the same release can inflame normal organs.",
-      "alt": "T cell, blocking antibody and melanoma cell"
-     }
+     "h": "Myths to address"
+    },
+    {
+     "ul": [
+      "**\"A rash on immunotherapy means stop treatment\"**: most skin irAEs are mild and managed with topical steroids; oncology decides."
+     ]
     }
    ],
    "short": "Aetiology"
+  },
+  {
+   "id": "pathophysiology",
+   "title": "Pathophysiology and pathology",
+   "blocks": [
+    "Checkpoint inhibitors **remove inhibitory signals** so T cells attack tumour, and sometimes normal tissue.",
+    {
+     "mech": [
+      {
+       "k": "Checkpoints",
+       "t": "CTLA-4 and PD-1 normally dampen T-cell activation to prevent autoimmunity."
+      },
+      {
+       "k": "Release",
+       "t": "Blocking them reactivates tumour-specific T cells.",
+       "img": "v3-checkpoint-release.jpg",
+       "caption": "Checkpoint inhibitors release the brakes on T cells."
+      },
+      {
+       "k": "Off-target immunity",
+       "t": "Autoreactive T cells cause organ inflammation (irAEs).",
+       "img": "v3-irae-organ-map.jpg",
+       "caption": "Organs affected by immune-related adverse events."
+      },
+      {
+       "k": "Skin irAEs",
+       "t": "Itch, maculopapular rash, lichenoid and psoriasiform eruptions, vitiligo, bullous pemphigoid, rarely SJS/TEN."
+      }
+     ]
+    }
+   ],
+   "short": "Pathophysiology"
   },
   {
    "id": "clinical-features",
@@ -93,18 +127,6 @@
         "Rheumatology"
        ]
       ]
-     }
-    },
-    {
-     "h": "Distribution"
-    },
-    {
-     "bodymap": {
-      "img": {
-       "ai": "v3-irae-organ-map.jpg"
-      },
-      "caption": "Immune-related adverse events can affect almost any organ: pituitary, thyroid, lungs, heart, liver, adrenals, bowel and skin.",
-      "pts": []
      }
     }
    ]
@@ -260,6 +282,29 @@
    "short": "Red flags"
   },
   {
+   "id": "complications",
+   "title": "Complications and prognosis",
+   "blocks": [
+    {
+     "h": "Complications"
+    },
+    {
+     "ul": [
+      "Colitis, hepatitis, pneumonitis, endocrinopathies (often permanent), myocarditis, SJS/TEN."
+     ]
+    },
+    {
+     "h": "Prognosis"
+    },
+    {
+     "ul": [
+      "Durable responses in about half with combination therapy; vitiligo on treatment is associated with better response."
+     ]
+    }
+   ],
+   "short": "Complications"
+  },
+  {
    "id": "pearls",
    "title": "Prescriber pearls (UK pharmacist IP)",
    "blocks": [
@@ -292,5 +337,11 @@
   }
  ],
  "references": [],
- "see_also": []
+ "see_also": [
+  "melanoma-staging-treatment",
+  "melanoma",
+  "bullous-pemphigoid",
+  "lichen-planus",
+  "drug-eruption-approach"
+ ]
 }

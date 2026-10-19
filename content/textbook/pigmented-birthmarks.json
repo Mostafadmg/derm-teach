@@ -1,16 +1,18 @@
 {
  "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
  "key_facts": [
-  "A congenital or early-childhood patch: blue-grey (dermal melanocytosis), pale (achromic or anaemic), brown and hairy (Becker), or linear and warty (epidermal naevus).",
-  "Developmental pigment or mosaic abnormalities: dermal melanocytes, reduced melanin, vasoconstriction, or keratinocyte mosaicism.",
-  "Reassure, offer camouflage, document carefully, and refer selectively for specialist laser or surgery.",
-  "Ocular Ota (glaucoma), multiple ash-leaf macules (tuberous sclerosis), extensive or syndromic epidermal naevus, and misreading a Mongolian spot as a bruise."
+  "**Congenital dermal melanocytosis** (Mongolian spot): blue-grey patches on the sacrum in darker-skinned babies; **document at birth** (not bruising).",
+  "**Naevus of Ota**: blue-grey patch around the eye (V1/V2): check for **glaucoma**; laser is effective.",
+  "**Becker naevus**: brown hairy patch on the shoulder appearing in adolescent males.",
+  "**Naevus depigmentosus / anaemicus**: stable pale patches; ash-leaf macules may signal **tuberous sclerosis**.",
+  "**Linear epidermal naevus**: warty streaks along Blaschko lines; extensive forms may be syndromic."
  ],
  "sections": [
   {
    "id": "overview",
    "title": "Overview",
    "blocks": [
+    "This page brings together several **pigmented and epidermal birthmarks**, each in its own short section.",
     {
      "table": {
       "head": [
@@ -72,6 +74,14 @@
       "**Naevus anaemicus:** localised α-adrenergic hypersensitivity of dermal vessels.",
       "**Becker naevus:** a hamartoma of epidermis, melanocytes and hair follicles, triggered by androgens around puberty.",
       "**Epidermal naevus:** postzygotic keratinocyte mosaicism (FGFR3, PIK3CA, HRAS)."
+     ]
+    },
+    {
+     "h": "Myths to address"
+    },
+    {
+     "ul": [
+      "**\"Blue patches on a baby are bruises\"**: Mongolian spots are common; record them to avoid safeguarding confusion."
      ]
     }
    ],
@@ -190,6 +200,29 @@
    "short": "Red flags"
   },
   {
+   "id": "complications",
+   "title": "Complications and prognosis",
+   "blocks": [
+    {
+     "h": "Complications"
+    },
+    {
+     "ul": [
+      "Glaucoma (Ota); tuberous sclerosis associations; psychosocial impact."
+     ]
+    },
+    {
+     "h": "Prognosis"
+    },
+    {
+     "ul": [
+      "Mongolian spots fade over childhood; most others persist."
+     ]
+    }
+   ],
+   "short": "Complications"
+  },
+  {
    "id": "pearls",
    "title": "Prescriber pearls (UK pharmacist IP)",
    "blocks": [
@@ -228,5 +261,11 @@
   }
  ],
  "references": [],
- "see_also": []
+ "see_also": [
+  "congenital-melanocytic-naevi",
+  "port-wine-stain",
+  "sebaceous-naevus",
+  "hypopigmentation-skin-of-colour",
+  "infantile-haemangioma"
+ ]
 }

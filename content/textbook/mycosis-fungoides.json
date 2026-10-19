@@ -1,10 +1,11 @@
 {
  "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
  "key_facts": [
-  "**Persistent scaly salmon-pink patches** or thin plaques on buttocks, hips, trunk or breasts that **never quite clear** despite steroids.",
-  "**Skin-homing clonal helper T cells**; slow patch → plaque → tumour; **Sézary syndrome** is the leukaemic form with erythroderma.",
-  "Suspect, **stop repeated empirical treatment**, refer for multiple biopsies; specialist skin-directed therapy for early disease.",
-  "**Tumour-stage disease**, **erythroderma with nodes (Sézary)**, years of misdiagnosis as eczema or psoriasis."
+  "**Mycosis fungoides (MF)** is the commonest cutaneous T-cell lymphoma: slowly evolving patches, plaques and sometimes tumours.",
+  "Patches in **sun-protected 'bathing trunk'** areas (buttocks, hips, breasts), varying shape, mild itch; often misdiagnosed as eczema or psoriasis for years.",
+  "Repeated biopsies (off steroids) with T-cell receptor gene studies may be needed.",
+  "Early stage: skin-directed therapy (potent steroids, phototherapy, radiotherapy); most have a normal life expectancy.",
+  "**Sézary syndrome**: erythroderma, lymphadenopathy, circulating malignant T cells: specialist."
  ],
  "sections": [
   {
@@ -15,19 +16,71 @@
    ]
   },
   {
+   "id": "epidemiology",
+   "title": "Epidemiology",
+   "blocks": [
+    {
+     "ul": [
+      {
+       "t": "**Who**",
+       "sub": [
+        "Adults 50–70; men twice as often; about 0.5 per 100,000 per year."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
    "id": "aetiology",
    "title": "Aetiology: causes and risk factors",
    "blocks": [
     "Clonal skin-homing CD4+ memory T-cells (CD4+, often CD7- and CD26-). Cause unknown; links to chronic antigen stimulation have been proposed. **Pautrier microabscesses** (intraepidermal collections of atypical lymphocytes) and **epidermotropism** without spongiosis are the histological hallmark, but they are absent in many early biopsies.",
     {
-     "fig": {
-      "ai": "v3-mf-patch-plaque-tumour.jpg",
-      "caption": "Mycosis fungoides progresses slowly: patch (few atypical T cells in the epidermis) → plaque (more cells, thicker) → tumour (dermal nodule packed with lymphoma cells).",
-      "alt": "Three skin sections showing patch, plaque and tumour stages"
-     }
+     "h": "Myths to address"
+    },
+    {
+     "ul": [
+      "**\"Lymphoma always spreads quickly\"**: early MF is indolent; most never progress."
+     ]
     }
    ],
    "short": "Aetiology"
+  },
+  {
+   "id": "pathophysiology",
+   "title": "Pathophysiology and pathology",
+   "blocks": [
+    "MF is a **clonal expansion of skin-homing CD4+ T cells** that infiltrate the epidermis.",
+    {
+     "mech": [
+      {
+       "k": "Skin-homing clone",
+       "t": "A clone of memory CD4+ T cells carries skin-homing receptors (CLA, CCR4)."
+      },
+      {
+       "k": "Epidermotropism",
+       "t": "Malignant cells invade the epidermis, forming Pautrier microabscesses."
+      },
+      {
+       "k": "Patch → plaque → tumour",
+       "t": "Over years, deeper infiltration produces plaques and tumours.",
+       "img": "v3-mf-patch-plaque-tumour.jpg",
+       "caption": "Mycosis fungoides evolves from patch to plaque to tumour."
+      },
+      {
+       "k": "Systemic spread",
+       "t": "Rarely, cells reach nodes and blood (advanced stage, Sézary)."
+      }
+     ]
+    },
+    {
+     "histo": [
+      "Atypical cerebriform lymphocytes in the epidermis (epidermotropism), Pautrier microabscesses; CD4+, loss of CD7; clonal TCR rearrangement."
+     ]
+    }
+   ],
+   "short": "Pathophysiology"
   },
   {
    "id": "clinical-features",
@@ -294,6 +347,29 @@
    "short": "Red flags"
   },
   {
+   "id": "complications",
+   "title": "Complications and prognosis",
+   "blocks": [
+    {
+     "h": "Complications"
+    },
+    {
+     "ul": [
+      "Itch, infection (Staph), progression, large-cell transformation."
+     ]
+    },
+    {
+     "h": "Prognosis"
+    },
+    {
+     "ul": [
+      "Stage IA: normal life expectancy; advanced stages much poorer."
+     ]
+    }
+   ],
+   "short": "Complications"
+  },
+  {
    "id": "pearls",
    "title": "Prescriber pearls (UK pharmacist IP)",
    "blocks": [
@@ -332,5 +408,10 @@
    "url": "https://emedicine.medscape.com/article/2139720-overview"
   }
  ],
- "see_also": []
+ "see_also": [
+  "eczema-dermatitis",
+  "psoriasis",
+  "hypopigmentation-skin-of-colour",
+  "biologics-systemics"
+ ]
 }

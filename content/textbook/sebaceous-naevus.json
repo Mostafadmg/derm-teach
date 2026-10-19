@@ -1,10 +1,11 @@
 {
  "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
  "key_facts": [
-  "A child with a smooth, yellow-orange, hairless plaque on the scalp, or an adult with a warty plaque there.",
-  "A hamartoma of epidermis, hair follicles and sebaceous glands (mosaic HRAS/KRAS mutations); hormones thicken it at puberty.",
-  "Recognise, photograph and monitor; discuss elective excision; refer any new nodule, ulcer or bleeding within it.",
-  "A new lump or crusted area within the naevus (trichoblastoma, rarely BCC); extensive lesions with eye, brain or bone involvement (syndromic)."
+  "**Naevus sebaceus** is a congenital hamartoma: a yellow-orange hairless plaque on the **scalp** or face.",
+  "Flat at birth, becomes warty and raised at puberty under hormonal influence.",
+  "Caused by post-zygotic **HRAS/KRAS** mosaicism.",
+  "Benign tumours (trichoblastoma, syringocystadenoma) can develop in adulthood; true BCC is rare.",
+  "Observe; excision is optional (cosmetic or new nodule). Extensive lesions: think Schimmelpenning syndrome."
  ],
  "sections": [
   {
@@ -23,9 +24,52 @@
       "**Post-zygotic (mosaic) HRAS (most) or KRAS mutations.** This is why it follows Blaschko's lines and why the same mutation underlies the syndromic forms.",
       "It changes with hormones in **three stages**: infancy (smooth, waxy, yellow-orange, hairless); puberty (sebaceous glands enlarge, so it becomes thick, verrucous and pebbly, as in the boy in [Case 2](condition:dermatofibroma)); adulthood (secondary adnexal tumours may develop)."
      ]
+    },
+    {
+     "h": "Myths to address"
+    },
+    {
+     "ul": [
+      "**\"It must be removed in childhood to prevent cancer\"**: malignant change is rare; removal is a choice."
+     ]
     }
    ],
    "short": "Aetiology"
+  },
+  {
+   "id": "pathophysiology",
+   "title": "Pathophysiology and pathology",
+   "blocks": [
+    "A mosaic **RAS mutation** creates a patch of malformed hair follicles and sebaceous glands.",
+    {
+     "mech": [
+      {
+       "k": "Mosaicism",
+       "t": "A post-zygotic HRAS or KRAS mutation affects one patch of skin."
+      },
+      {
+       "k": "Hamartoma",
+       "t": "Follicles are rudimentary (no hair) and sebaceous and apocrine glands are abnormal.",
+       "img": "v4-sebaceous-naevus-section.jpg",
+       "caption": "Sebaceous naevus after puberty: papillomatous surface, enlarged sebaceous glands, immature hairless follicles and an ectopic apocrine gland."
+      },
+      {
+       "k": "Puberty",
+       "t": "Androgens enlarge the sebaceous component, so the plaque thickens."
+      },
+      {
+       "k": "Secondary tumours",
+       "t": "Benign adnexal tumours may arise within it in adulthood."
+      }
+     ]
+    },
+    {
+     "histo": [
+      "Papillomatous epidermis, abnormal immature follicles, enlarged sebaceous glands, ectopic apocrine glands."
+     ]
+    }
+   ],
+   "short": "Pathophysiology"
   },
   {
    "id": "clinical-features",
@@ -146,6 +190,29 @@
    "short": "Red flags"
   },
   {
+   "id": "complications",
+   "title": "Complications and prognosis",
+   "blocks": [
+    {
+     "h": "Complications"
+    },
+    {
+     "ul": [
+      "Secondary tumours (mostly benign), alopecia patch, cosmetic concern."
+     ]
+    },
+    {
+     "h": "Prognosis"
+    },
+    {
+     "ul": [
+      "Benign lifelong lesion."
+     ]
+    }
+   ],
+   "short": "Complications"
+  },
+  {
    "id": "pearls",
    "title": "Prescriber pearls (UK pharmacist IP)",
    "blocks": [
@@ -182,5 +249,10 @@
   }
  ],
  "references": [],
- "see_also": []
+ "see_also": [
+  "pigmented-birthmarks",
+  "congenital-melanocytic-naevi",
+  "basal-cell-carcinoma",
+  "aplasia-cutis"
+ ]
 }

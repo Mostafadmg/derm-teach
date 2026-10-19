@@ -1,10 +1,11 @@
 {
  "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
  "key_facts": [
-  "A **small painful crusted nodule on the helix or antihelix**, worse lying on that side, in an older adult.",
-  "**Pressure on cartilage** with poor blood supply → inflammation and cartilage damage (‘a pressure sore of the ear’).",
-  "**Pressure-relief pillow / ear protector for 4–6 weeks**; consider potent topical steroid; refer if failing or atypical.",
-  "**SCC or BCC of the ear**; **keratoacanthoma** (rapid crater); **tophaceous gout**."
+  "**Chondrodermatitis nodularis helicis (CNH)** is a painful nodule on the ear rim (helix or antihelix) from pressure.",
+  "Typically older men; painful when lying on that side at night; central crust or scale.",
+  "Must be distinguished from **SCC** and BCC: biopsy if atypical.",
+  "Pressure relief is key: a pillow with a hole or ear protector; potent or intralesional steroid; surgery if persistent.",
+  "Recurs if pressure continues."
  ],
  "sections": [
   {
@@ -28,14 +29,50 @@
     },
     "Chronic UV (helix, especially in men with short hair), immunosuppression, and for gout, urate deposition in cool tissue.",
     {
-     "fig": {
-      "ai": "v3-cnh-ear-protector.jpg",
-      "caption": "Chondrodermatitis: a tender crusted nodule on the upper ear rim. First line is offloading with a foam ear protector or pillow with a hole, for at least 4–6 weeks.",
-      "alt": "Ear with a crusted rim nodule beside a foam ring pillow"
-     }
+     "h": "Myths to address"
+    },
+    {
+     "ul": [
+      "**\"An ear nodule is just a wart\"**: painful helical nodules are usually CNH, but SCC must be excluded."
+     ]
     }
    ],
    "short": "Aetiology"
+  },
+  {
+   "id": "pathophysiology",
+   "title": "Pathophysiology and pathology",
+   "blocks": [
+    "CNH is **pressure ischaemia** of thin skin over cartilage.",
+    {
+     "mech": [
+      {
+       "k": "Pressure",
+       "t": "Sleeping on the ear compresses skin against cartilage with a poor blood supply."
+      },
+      {
+       "k": "Ischaemia",
+       "t": "Skin and perichondrium are damaged; cartilage degenerates."
+      },
+      {
+       "k": "Transepidermal elimination",
+       "t": "Degenerate collagen is pushed out through a central ulcer or crust."
+      },
+      {
+       "k": "Relief",
+       "t": "Removing pressure lets it heal.",
+       "img": "v3-cnh-ear-protector.jpg",
+       "caption": "A cut-out pillow or ear protector relieves pressure."
+      }
+     ]
+    },
+    {
+     "histo": [
+      "Central ulcer with degenerate collagen and perichondrial fibrosis; acanthotic edges."
+     ]
+    }
+   ],
+   "short": "Pathophysiology"
   },
   {
    "id": "clinical-features",
@@ -319,6 +356,29 @@
    "short": "Red flags"
   },
   {
+   "id": "complications",
+   "title": "Complications and prognosis",
+   "blocks": [
+    {
+     "h": "Complications"
+    },
+    {
+     "ul": [
+      "Persistent pain and sleep disturbance; recurrence."
+     ]
+    },
+    {
+     "h": "Prognosis"
+    },
+    {
+     "ul": [
+      "Good with pressure relief; recurrence common."
+     ]
+    }
+   ],
+   "short": "Complications"
+  },
+  {
    "id": "pearls",
    "title": "Prescriber pearls (UK pharmacist IP)",
    "blocks": [
@@ -361,5 +421,9 @@
    "url": "https://emedicine.medscape.com/article/1119141-overview"
   }
  ],
- "see_also": []
+ "see_also": [
+  "squamous-cell-carcinoma",
+  "basal-cell-carcinoma",
+  "actinic-keratoses"
+ ]
 }
