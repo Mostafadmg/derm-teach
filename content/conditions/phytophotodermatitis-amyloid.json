@@ -1,142 +1,203 @@
 {
-  "title": "Phytophotodermatitis & cutaneous amyloid",
-  "aka": [
-    "phytophotodermatitis",
-    "berloque",
-    "giant hogweed",
-    "lime burn",
-    "macular amyloidosis",
-    "lichen amyloidosis"
+ "title": "Phytophotodermatitis & cutaneous amyloid",
+ "aka": [
+  "phytophotodermatitis",
+  "berloque",
+  "giant hogweed",
+  "lime burn",
+  "macular amyloidosis",
+  "lichen amyloidosis"
+ ],
+ "category": "pigmentation",
+ "order": 4,
+ "module": "Module 6 · Week 3",
+ "summary": "Plant psoralens plus UVA cause streaky burns then long pigmentation; macular/lichen amyloidosis cause rippled itchy brown patches from chronic friction.",
+ "card_image": "m6w3:N01",
+ "glance": {
+  "think": "Bizarre drip, streak or hand-print burns after gardening or lime cocktails in the sun — later deep brown marks; or rippled itchy interscapular pigment from scratching.",
+  "engine": "Phototoxic furocoumarin + UVA damage (phyto); keratin-derived amyloid from chronic friction/itch (amyloidosis).",
+  "backbone": "Wash plant juice off, cool care, short topical steroid, strict sun protection; for amyloid — stop friction, potent steroid ± occlusion, refer if refractory.",
+  "never_miss": "Child hand-print phytophotodermatitis can mimic non-accidental injury — take a careful plant/sun history."
+ },
+ "sections": {
+  "what": [
+   "**Phytophotodermatitis** is a non-immune phototoxic reaction when plant **psoralens** on the skin meet **UVA**, causing erythema and blisters in odd shapes, then long-lasting hyperpigmentation. Classic plants: giant hogweed, parsnip, celery, lime, bergamot, fig. **Berloque dermatitis** is perfume bergamot streaks on the neck.",
+   "**Macular and lichen amyloidosis** are localised cutaneous amyloidoses: rippled brown macules or itchy keratotic papules from chronic friction, often on the upper back or shins."
   ],
-  "category": "pigmentation",
-  "order": 4,
-  "module": "Module 6 · Week 3",
-  "summary": "Plant psoralens plus UVA cause streaky burns then long pigmentation; macular/lichen amyloidosis cause rippled itchy brown patches from chronic friction.",
-  "card_image": "m6w3:N01",
-  "glance": {
-    "think": "Bizarre drip, streak or hand-print burns after gardening or lime cocktails in the sun — later deep brown marks; or rippled itchy interscapular pigment from scratching.",
-    "engine": "Phototoxic furocoumarin + UVA damage (phyto); keratin-derived amyloid from chronic friction/itch (amyloidosis).",
-    "backbone": "Wash plant juice off, cool care, short topical steroid, strict sun protection; for amyloid — stop friction, potent steroid ± occlusion, refer if refractory.",
-    "never_miss": "Child hand-print phytophotodermatitis can mimic non-accidental injury — take a careful plant/sun history."
-  },
-  "sections": {
-    "what": [
-      "**Phytophotodermatitis** is a non-immune phototoxic reaction when plant **psoralens** on the skin meet **UVA**, causing erythema and blisters in odd shapes, then long-lasting hyperpigmentation. Classic plants: giant hogweed, parsnip, celery, lime, bergamot, fig. **Berloque dermatitis** is perfume bergamot streaks on the neck.",
-      "**Macular and lichen amyloidosis** are localised cutaneous amyloidoses: rippled brown macules or itchy keratotic papules from chronic friction, often on the upper back or shins."
-    ],
-    "cause": [
-      {
-        "list": [
-          "Psoralens + UVA → epidermal damage and later melanogenesis.",
-          "Exposure: strimming, hiking, holiday drinks, cooking with limes.",
-          "Amyloid: chronic scratching/friction deposits keratin-derived amyloid in the papillary dermis."
-        ]
-      }
-    ],
-    "features": [
-      {
-        "list": [
-          "Phyto: burning erythema ± bullae at 24–72 h in streaks/drips/hand-prints; pigmentation weeks later lasting months.",
-          "Amyloid: rippled “rippled” brown macular patches (interscapular) or lichenified papules on shins; itch can be severe."
-        ]
-      }
-    ],
-    "diagnosis": [
-      "Phyto is clinical from shape + exposure history. Amyloid is clinical ± biopsy with special stains when needed."
-    ],
-    "differentials": [
-      {
-        "table": {
-          "head": [
-            "Look-alike",
-            "Clues"
-          ],
-          "rows": [
-            [
-              "Allergic plant dermatitis",
-              "Itchy eczema; no sun required"
-            ],
-            [
-              "Non-accidental injury",
-              "Inconsistent history — safeguarding assessment"
-            ],
-            [
-              "Drug photosensitivity",
-              "Uniform photo distribution"
-            ],
-            [
-              "Macular amyloid vs LPP / friction PIH",
-              "Rippled pattern; biopsy if doubt"
-            ]
-          ]
-        }
-      }
-    ],
-    "management": [
-      {
-        "h": "Phytophotodermatitis"
-      },
-      {
-        "list": [
-          "Wash plant sap off promptly; cool soaks; leave small blisters intact.",
-          "Short topical steroid for inflammation; analgesia; strict sun protection while pigment settles.",
-          "Prevention: recognise hogweed, cover arms/legs when strimming, wash after gardening, avoid lime juice on skin in sun."
-        ]
-      },
-      {
-        "h": "Cutaneous amyloidosis"
-      },
-      {
-        "list": [
-          "Stop scrubbing/loofahs; soft clothing; potent topical steroid ± occlusion or topical calcineurin inhibitor for itch.",
-          "Emollients; consider sedating antihistamine at night for sleep.",
-          "Refer if severe, diagnostic doubt, or for specialist options (retinoids, phototherapy)."
-        ]
-      }
-    ],
-    "red_flags": [
-      "Extensive hogweed burns or eye exposure → urgent assessment.",
-      "Safeguarding concern when phytophotodermatitis mimics injury patterns in children.",
-      "Systemic amyloid signs are a different disease — this page is localised cutaneous only."
-    ],
-    "pearls": [
-      "Pigmentation, not the acute burn, is often why patients attend.",
-      "Berloque = perfume + sun streaks.",
-      "Tell gardeners about giant hogweed — sap plus sun is a classic UK summer presentation."
+  "cause": [
+   {
+    "list": [
+     "Psoralens + UVA → epidermal damage and later melanogenesis.",
+     "Exposure: strimming, hiking, holiday drinks, cooking with limes.",
+     "Amyloid: chronic scratching/friction deposits keratin-derived amyloid in the papillary dermis."
     ]
-  },
-  "photos": [
-    {
-      "title": "Phytophotodermatitis and amyloidosis",
-      "items": [
-        "m6w3:N01",
-        "m6w3:N02",
-        "m6w3:N03",
-        "m6w3:N04",
-        "m6w3:N05",
-        "m6w3:N06",
-        "m6w3:N07",
-        "m6w3:N08",
-        "m6w3:N09",
-        "m6w3:N10",
-        "m6w3:N11"
+   }
+  ],
+  "features": [
+   {
+    "list": [
+     "Phyto: burning erythema ± bullae at 24–72 h in streaks/drips/hand-prints; pigmentation weeks later lasting months.",
+     "Amyloid: rippled “rippled” brown macular patches (interscapular) or lichenified papules on shins; itch can be severe."
+    ]
+   },
+   {
+    "h": "Phytophotodermatitis in more depth (Module 5 Week 6)"
+   },
+   {
+    "list": [
+     "Onset **~24 h (up to 48–72 h)** after contact + sun; peaks 48–72 h.",
+     "Burning/stinging (pain > itch), erythema, oedema, vesicles and **bullae** — can resemble partial-thickness burns.",
+     "**Bizarre geometric/linear streaks, drips, splash marks, fingerprints/handprints**, on hands, forearms, legs, perioral (citrus), neck (perfume).",
+     "Followed by **post-inflammatory hyperpigmentation** that can last months to years — sometimes the presenting complaint (no memory of inflammatory phase).",
+     "No systemic features (except large hogweed burns)."
+    ]
+   }
+  ],
+  "diagnosis": [
+   "Phyto is clinical from shape + exposure history. Amyloid is clinical ± biopsy with special stains when needed."
+  ],
+  "differentials": [
+   {
+    "table": {
+     "head": [
+      "Look-alike",
+      "Clues"
+     ],
+     "rows": [
+      [
+       "Allergic plant dermatitis",
+       "Itchy eczema; no sun required"
+      ],
+      [
+       "Non-accidental injury",
+       "Inconsistent history — safeguarding assessment"
+      ],
+      [
+       "Drug photosensitivity",
+       "Uniform photo distribution"
+      ],
+      [
+       "Macular amyloid vs LPP / friction PIH",
+       "Rippled pattern; biopsy if doubt"
       ]
+     ]
     }
+   }
   ],
-  "references": [
-    {
-      "label": "DermNet: Phytophotodermatitis",
-      "url": "https://dermnetnz.org/topics/phytophotodermatitis"
-    },
-    {
-      "label": "DermNet: Amyloidosis",
-      "url": "https://dermnetnz.org/topics/amyloidosis"
-    },
-    {
-      "label": "PCDS: Phytophotodermatitis",
-      "url": "https://www.pcds.org.uk/clinical-guidance/phytophotodermatitis"
-    }
+  "management": [
+   {
+    "h": "Phytophotodermatitis"
+   },
+   {
+    "list": [
+     "Wash plant sap off promptly; cool soaks; leave small blisters intact.",
+     "Short topical steroid for inflammation; analgesia; strict sun protection while pigment settles.",
+     "Prevention: recognise hogweed, cover arms/legs when strimming, wash after gardening, avoid lime juice on skin in sun."
+    ]
+   },
+   {
+    "h": "Cutaneous amyloidosis"
+   },
+   {
+    "list": [
+     "Stop scrubbing/loofahs; soft clothing; potent topical steroid ± occlusion or topical calcineurin inhibitor for itch.",
+     "Emollients; consider sedating antihistamine at night for sleep.",
+     "Refer if severe, diagnostic doubt, or for specialist options (retinoids, phototherapy)."
+    ]
+   },
+   {
+    "h": "Phytophotodermatitis: UK management detail (Module 5 Week 6)"
+   },
+   {
+    "h": "Immediate (after known contact, e.g. hogweed sap)"
+   },
+   {
+    "list": [
+     "**Wash off sap promptly with soap and water**, cover the skin and keep it **out of sunlight for at least 48 h**; seek advice if eyes affected (rinse, urgent eye assessment)."
+    ]
+   },
+   {
+    "h": "Self-care / OTC"
+   },
+   {
+    "list": [
+     "Cool compresses, emollients, simple analgesia; leave blisters intact or use non-adherent dressings; keep clean (topical antiseptic only if needed).",
+     "OTC hydrocortisone 1% for mild small areas (not on broken skin)."
+    ]
+   },
+   {
+    "h": "First-line Rx"
+   },
+   {
+    "list": [
+     "**Potent topical corticosteroid** short course (5–7 days) to inflamed intact skin on limbs/trunk; moderate on face. Oral antihistamine if itchy.",
+     "Large/extensive blistering, facial/genital/hand burns, signs of infection, or severe pain → **same-day GP/urgent care or burns unit** (giant hogweed burns can need specialist burns care).",
+     "Infected blisters: per NICE impetigo/secondary infection guidance."
+    ]
+   },
+   {
+    "h": "Pigmentation phase"
+   },
+   {
+    "list": [
+     "Reassure — fades slowly over months; **strict sun protection** (tutor: even limited UV re-aggravates); avoid bleaching agents unless specialist-advised."
+    ]
+   }
   ],
-  "slug": "phytophotodermatitis-amyloid",
-  "status": "published"
+  "red_flags": [
+   "Extensive hogweed burns or eye exposure → urgent assessment.",
+   "Safeguarding concern when phytophotodermatitis mimics injury patterns in children.",
+   "Systemic amyloid signs are a different disease — this page is localised cutaneous only."
+  ],
+  "pearls": [
+   "Pigmentation, not the acute burn, is often why patients attend.",
+   "Berloque = perfume + sun streaks.",
+   "Tell gardeners about giant hogweed — sap plus sun is a classic UK summer presentation.",
+   "Other light-related rashes: [polymorphic light eruption](condition:polymorphic-light-eruption), [drug-induced photosensitivity](condition:drug-photosensitivity) and [chronic actinic dermatitis](condition:chronic-actinic-dermatitis)."
+  ]
+ },
+ "photos": [
+  {
+   "title": "Phytophotodermatitis and amyloidosis",
+   "items": [
+    "m6w3:N01",
+    "m6w3:N02",
+    "m6w3:N03",
+    "m6w3:N04",
+    "m6w3:N05",
+    "m6w3:N06",
+    "m6w3:N07",
+    "m6w3:N08",
+    "m6w3:N09",
+    "m6w3:N10",
+    "m6w3:N11"
+   ]
+  },
+  {
+   "title": "Phytophotodermatitis (Module 5 Week 6)",
+   "items": [
+    "m5w6:E01",
+    "m5w6:E02",
+    "m5w6:E03",
+    "m5w6:E04",
+    "m5w6:E05"
+   ]
+  }
+ ],
+ "references": [
+  {
+   "label": "DermNet: Phytophotodermatitis",
+   "url": "https://dermnetnz.org/topics/phytophotodermatitis"
+  },
+  {
+   "label": "DermNet: Amyloidosis",
+   "url": "https://dermnetnz.org/topics/cutaneous-amyloidosis"
+  },
+  {
+   "label": "PCDS: Phytophotodermatitis",
+   "url": "https://www.pcds.org.uk/clinical-guidance/phytophotodermatitis"
+  }
+ ],
+ "slug": "phytophotodermatitis-amyloid",
+ "status": "published"
 }

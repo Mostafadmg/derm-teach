@@ -1,0 +1,169 @@
+{
+ "slug": "lichen-planus",
+ "title": "Lichen planus",
+ "category": "inflammatory",
+ "status": "published",
+ "order": 6,
+ "module": "Module 4 · Week 1",
+ "aka": [
+  "LP",
+  "oral lichen planus",
+  "Wickham striae",
+  "erosive lichen planus",
+  "lichenoid drug eruption",
+  "purple papules"
+ ],
+ "summary": "Itchy, flat-topped, purple, polygonal papules on the wrists, shins and lower back, often with white lacy streaks in the mouth. Mostly self-limiting on the skin; oral and genital erosive disease needs specialist care.",
+ "card_image": "m4w1:D02",
+ "glance": {
+  "think": "Intensely itchy purple flat-topped papules with fine white lines (Wickham striae), on the wrists, ankles or lower back; lacy white patches in the mouth.",
+  "engine": "T-cell-mediated attack on basal keratinocytes (interface dermatitis); hepatitis C and drugs (lichenoid eruptions) are associations.",
+  "backbone": "Potent topical steroid, sedating antihistamine at night if needed, review drugs; refer oral, genital, nail or scalp disease.",
+  "never_miss": "Erosive oral or genital LP (SCC risk), lichen planopilaris (scarring hair loss) and nail destruction."
+ },
+ "sections": {
+  "what": [
+   "**Lichen planus (LP)** is an idiopathic inflammatory disorder of skin and/or mucosa presenting with intensely itchy **flat-topped, violaceous, polygonal papules**. Classic cutaneous LP favours **flexor wrists**, lumbar back, ankles. Mucosal, nail, scalp (lichen planopilaris), and genital variants exist. Association with **hepatitis C** is described in some populations — screen selectively by risk/prevalence."
+  ],
+  "cause": [
+   {
+    "list": [
+     "T-cell mediated attack on basal keratinocytes (lichenoid interface dermatitis).",
+     "Triggers: idiopathic; drugs (**lichenoid drug eruption** — e.g. some antihypertensives, antimalarials, gold, TNF inhibitors — take drug history); dental amalgam sometimes linked to oral LP; HCV association variable by region.",
+     "Koebnerisation along scratch lines possible."
+    ]
+   }
+  ],
+  "features": [
+   {
+    "table": {
+     "head": [
+      "Feature",
+      "Detail"
+     ],
+     "rows": [
+      [
+       "Morphology",
+       "Violaceous, planar, polygonal, pruritic papules ± plaques (“6 Ps”); Wickham striae (white lace) on surface"
+      ],
+      [
+       "Sites",
+       "Flexor wrists, lumbar, ankles, shins; genitals; oral (reticular white network, erosions)"
+      ],
+      [
+       "Nails",
+       "Thinning, ridges, pterygium, shedding"
+      ],
+      [
+       "Scalp",
+       "Scarring alopecia if lichen planopilaris"
+      ],
+      [
+       "Post-inflammatory",
+       "Marked hyperpigmentation, especially skin of colour"
+      ]
+     ]
+    }
+   }
+  ],
+  "diagnosis": [
+   {
+    "list": [
+     "Often **clinical**.",
+     "Full exam: skin, mouth, nails, scalp, genitals.",
+     "**Punch biopsy** if uncertain (band-like lymphocytic infiltrate, saw-tooth acanthosis, civatte bodies).",
+     "Consider HCV testing based on risk/local guidance; drug review for lichenoid drug eruption."
+    ]
+   }
+  ],
+  "differentials": [
+   {
+    "table": {
+     "head": [
+      "Look-alike",
+      "Distinguishing clues"
+     ],
+     "rows": [
+      [
+       "Lichenoid drug eruption",
+       "Drug timeline; more photo-distributed sometimes"
+      ],
+      [
+       "Discoid eczema / nummular",
+       "Coin plaques, less violaceous polygonal papules"
+      ],
+      [
+       "Psoriasis",
+       "Silvery scale, extensors"
+      ],
+      [
+       "Flat warts / lichen nitidus",
+       "Smaller; less itch"
+      ],
+      [
+       "Graft-vs-host (specialist)",
+       "Transplant context"
+      ],
+      [
+       "Secondary syphilis",
+       "Serology if atypical"
+      ]
+     ]
+    }
+   }
+  ],
+  "management": [
+   {
+    "list": [
+     "Potent / very potent **TCS** ointments to itchy papules (short courses; caution thin skin); emollients.",
+     "Antihistamines for itch (limited disease-modifying effect).",
+     "Oral / genital / nail / extensive / scarring scalp disease → **dermatology** (may need systemic steroids, phototherapy, or other immunosuppressants — specialist).",
+     "Oral LP: topical steroid mouth preparations per dental/oral medicine pathways; check malignancy vigilance for persistent ulcers.",
+     "Stop culprit drug if lichenoid drug eruption suspected (with prescriber of that drug)."
+    ]
+   }
+  ],
+  "red_flags": [
+   "Non-healing oral ulcer, white patch that thickens or a lump in long-standing oral LP: **refer urgently** (oral SCC).",
+   "Genital erosions, scarring or dyspareunia: refer (vulval or penile LP).",
+   "Scalp redness with scarring hair loss: lichen planopilaris, early referral."
+  ],
+  "pearls": [
+   "Warn about post-inflammatory pigment lasting months.",
+   "Advise against vigorous scrubbing of Wickham-striae scale.",
+   "Sexual health / genital itch: examine and refer early if erosive.",
+   "Document HCV risk discussion where relevant."
+  ]
+ },
+ "photos": [
+  {
+   "title": "Lichen planus",
+   "items": [
+    "m4w1:D01",
+    "m4w1:D02",
+    "m4w1:D03"
+   ]
+  },
+  {
+   "title": "Koebner phenomenon",
+   "items": [
+    "m1w1:C03",
+    "m1w1:A04"
+   ]
+  }
+ ],
+ "references": [
+  {
+   "label": "DermNet: Lichen planus",
+   "url": "https://dermnetnz.org/topics/lichen-planus"
+  },
+  {
+   "label": "NICE CKS: Lichen planus",
+   "url": "https://cks.nice.org.uk/topics/lichen-planus/"
+  },
+  {
+   "label": "DermNet: Oral lichen planus",
+   "url": "https://dermnetnz.org/topics/oral-lichen-planus"
+  }
+ ]
+}

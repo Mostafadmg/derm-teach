@@ -1,0 +1,275 @@
+{
+ "slug": "onychomycosis",
+ "title": "Fungal nail infection & nail discolouration",
+ "category": "nails",
+ "status": "published",
+ "order": 2,
+ "module": "Module 3 · Week 2",
+ "aka": [
+  "onychomycosis",
+  "fungal nail",
+  "tinea unguium",
+  "terbinafine",
+  "amorolfine",
+  "onycholysis",
+  "nail clippings",
+  "subungual haematoma",
+  "green nail",
+  "yellow nail"
+ ],
+ "summary": "Thick, discoloured, crumbly nails are often fungal but not always: trauma, psoriasis and onycholysis look the same. Confirm with clippings before committing to months of oral terbinafine.",
+ "card_image": "m3w2:B01",
+ "glance": {
+  "think": "Thick, yellow-white, crumbly nails (toenails especially), often with tinea pedis.",
+  "engine": "Dermatophytes (mostly *T. rubrum*), less often *Candida* or non-dermatophyte moulds; trauma and psoriasis mimic it.",
+  "backbone": "Send clippings for microscopy and culture first; oral terbinafine for confirmed dermatophyte disease that needs treating (6 weeks fingernails, 3–6 months toenails); amorolfine only for limited distal disease.",
+  "never_miss": "Subungual melanoma or haematoma mistaken for fungus; diabetic or immunosuppressed foot."
+ },
+ "sections": {
+  "what": [
+   "**Onychomycosis** = fungal infection of the nail plate/bed. Dermatophyte infection is also called **tinea unguium**. It accounts for a large share of all nail disease presentations in primary care."
+  ],
+  "cause": [
+   {
+    "h": "Organisms & patterns"
+   },
+   {
+    "table": {
+     "head": [
+      "Category",
+      "Typical organisms",
+      "Clinical clues"
+     ],
+     "rows": [
+      [
+       "**Dermatophyte** (~majority)",
+       "*T. rubrum*, *T. interdigitale*, others",
+       "Toenails ≫ fingernails; often with tinea pedis/manuum; **distal lateral subungual (DLSO)** commonest"
+      ],
+      [
+       "**Yeast (Candida)**",
+       "*C. albicans* ± non-albicans",
+       "Fingernails; **chronic paronychia** first; proximal change near cuticle; wet work"
+      ],
+      [
+       "**Non-dermatophyte moulds**",
+       "*Scopulariopsis*, *Fusarium*, *Aspergillus*, etc.",
+       "Similar to dermatophyte; culture/PCR needed; treatment harder"
+      ],
+      [
+       "**Trauma / non-fungal dystrophy**",
+       "N/A",
+       "Single nail; footwear/sport; negative mycology; ± subungual haematoma that grows out"
+      ]
+     ]
+    }
+   },
+   "**Clinical subtypes (know the names):** DLSO; white superficial (WSO); proximal subungual (PSO — consider immunosuppression/HIV); endonyx; total dystrophic; mixed."
+  ],
+  "features": [
+   {
+    "list": [
+     "**Distal and lateral subungual** (commonest): yellow-white thickening spreading back from the free edge, with crumbly debris under the nail and lifting (onycholysis).",
+     "**White superficial**: chalky white patches on the nail surface, usually toenails.",
+     "**Proximal subungual**: white change starting near the cuticle; think of immunosuppression, including HIV.",
+     "**Candidal**: fingernails, usually after chronic paronychia, with nail-fold swelling and onycholysis.",
+     "Usually several toenails, often with scaly soles or toe webs (tinea pedis). A single dystrophic nail after injury is more often trauma."
+    ]
+   }
+  ],
+  "diagnosis": [
+   {
+    "list": [
+     "Examine **all nails** and feet/hands/groin for associated tinea.",
+     "**Mycology before long systemic therapy** (NICE/CKS theme echoed in forum): clip crumbling free edge + scrape most proximal accessible subungual debris; KOH microscopy + culture (± PCR where available).",
+     "Dermoscopy may support fungal vs traumatic onycholysis but does not replace mycology when oral therapy is planned."
+    ]
+   },
+   {
+    "h": "Nail sampling technique"
+   },
+   {
+    "list": [
+     "**Clean** the nail with an alcohol wipe, and stop topical antifungals **2–4 weeks** before (and oral ones longer, if feasible).",
+     "**Distal/lateral subungual pattern:** clip back to the **most proximal** affected nail and collect **subungual debris** with a curette. **Superficial white** pattern: scrape the surface. **Proximal subungual** pattern: punch through the plate, or send a nail biopsy (specialist).",
+     "Send **generous full-thickness clippings + debris** in a **folded dark paper packet** (e.g. a Dermapak), not a sealed plastic pot, because that encourages bacterial overgrowth.",
+     "**Yield (approximate, as in the forum):** **KOH microscopy** ~**50–60%** sensitive. A negative result does not exclude disease; **Culture** takes up to **2–4 weeks** and has a significant false-negative rate; **Histology with PAS** stain of clippings is the **most sensitive (up to ~90–95%)** but doesn't give the species; **PCR** is quick and species-specific where the lab offers it",
+     "**Repeat sampling** if negative but clinically suspicious, *before* starting 3–6 months of terbinafine/itraconazole (CKS)."
+    ]
+   }
+  ],
+  "differentials": [
+   {
+    "h": "(why confirmation matters)"
+   },
+   {
+    "table": {
+     "head": [
+      "Mimic",
+      "Why it matters"
+     ],
+     "rows": [
+      [
+       "Trauma / asymmetric gait nail dystrophy",
+       "Avoid months of unnecessary terbinafine"
+      ],
+      [
+       "Psoriasis / lichen planus",
+       "Different treatment; look for skin/mucosal signs"
+      ],
+      [
+       "Bacterial (*Pseudomonas*) green nail",
+       "Need dryness ± antiseptic; not terbinafine alone"
+      ],
+      [
+       "Subungual SCC or melanoma",
+       "Malignant mimics — refer if atypical mass, persistent single-nail dystrophy, pigment"
+      ]
+     ]
+    }
+   },
+   {
+    "h": "Onycholysis and nail discolouration checklist"
+   },
+   {
+    "table": {
+     "head": [
+      "Cause",
+      "Clue",
+      "Action"
+     ],
+     "rows": [
+      [
+       "**Trauma / occupational wet work**",
+       "Distal, single or few nails, long nails, manicure",
+       "Keep short and dry. Mycology if oral therapy is being considered"
+      ],
+      [
+       "**Psoriasis**",
+       "Oil-drop/salmon patches, pits, subungual hyperkeratosis",
+       "See the [psoriasis](condition:psoriasis) notes"
+      ],
+      [
+       "**Onychomycosis / candida**",
+       "",
+       "Mycology first"
+      ],
+      [
+       "**Pseudomonas* (green nail)**",
+       "Green-black, onycholytic, wet work",
+       "Trim, keep dry, dilute vinegar or chlorhexidine soaks; topical antibiotic (e.g. off-label ciprofloxacin drops)"
+      ],
+      [
+       "**Photo-onycholysis**",
+       "Several nails after **sun + tetracyclines (doxycycline)**, psoralens, quinolones, thiazides; also **porphyria/pseudoporphyria**",
+       "Stop or change the drug, sun-protect the hands. Relevant to doxycycline for acne/rosacea/BP"
+      ],
+      [
+       "**Other drugs**",
+       "**Retinoids**, **taxanes**, capecitabine, quinolones, captopril",
+       "Medication review"
+      ],
+      [
+       "**Thyroid disease**",
+       "Hyperthyroid \"Plummer's nail\" (onycholysis, often ring finger)",
+       "TFT"
+      ],
+      [
+       "**Iron deficiency**",
+       "Koilonychia ± onycholysis",
+       "FBC/ferritin"
+      ],
+      [
+       "**Yellow nail syndrome**",
+       "**Slow-growing, thick, yellow, overcurved nails without cuticles + lymphoedema + respiratory disease** (pleural effusion, bronchiectasis, sinusitis)",
+       "Refer (respiratory). Specialists sometimes try oral **vitamin E** ± **itraconazole** pulses (weak evidence). Can be paraneoplastic or linked to titanium implants"
+      ],
+      [
+       "**Syphilis / systemic**",
+       "Secondary syphilis can cause onycholysis or paronychia",
+       "Serology if at risk"
+      ],
+      [
+       "**Tumour**",
+       "Single nail, persistent, bleeding, nail-bed mass",
+       "**Refer** (SCC, amelanotic melanoma)"
+      ]
+     ]
+    }
+   }
+  ],
+  "management": [
+   {
+    "h": "Management sketch for IP"
+   },
+   {
+    "list": [
+     "Mild distal disease (<50% plate, few nails, no matrix): consider topical lacquer (e.g. amorolfine) per BNF — expect long courses and modest cure rates.",
+     "More extensive dermatophyte disease: oral **terbinafine** often preferred (fingernails shorter course than toenails — check BNF); alternatives itraconazole/fluconazole in selected cases.",
+     "**Candida-predominant:** prefer azoles (itraconazole/fluconazole), not terbinafine first-line.",
+     "Always counsel duration, LFTs/interaction checks, and that “cure” waits for nail outgrowth.",
+     "Relapse common if footwear/hygiene/diabetes not addressed."
+    ]
+   },
+   {
+    "h": "Practical prescribing points"
+   },
+   {
+    "list": [
+     "Treatment is optional for mild, asymptomatic toenail disease in a healthy adult: discuss the long course, the cure rate (complete cure is much lower than mycological cure) and recurrence.",
+     "**Oral terbinafine** for confirmed dermatophyte infection: fingernails 6 weeks, toenails 3–6 months (BNF). Ask about liver disease; counsel to report jaundice, dark urine, severe tiredness, rash or taste disturbance.",
+     "**Oral itraconazole** (pulsed) for *Candida* or non-dermatophyte moulds, or if terbinafine is unsuitable: check interactions (CYP3A4) and heart failure history.",
+     "**Amorolfine 5% lacquer** for superficial or distal disease involving under about half of one or two nails; file the nail first and use weekly for 6–12 months.",
+     "Treat co-existing tinea pedis, and advise on footwear, drying between toes and not sharing nail tools."
+    ]
+   }
+  ],
+  "red_flags": [
+   "Pigment that does not grow out, a widening band or pigment on the nail fold: **refer as possible melanoma** (NG12).",
+   "Diabetic foot with nail disease and skin breaks: foot-protection team.",
+   "Check liver function history and interactions before oral terbinafine; stop if hepatitis symptoms or severe skin reactions."
+  ],
+  "pearls": [
+   "Get mycology **before** a long oral course: many thick nails are trauma or psoriasis.",
+   "The nail looks abnormal for months after cure, because it grows out slowly (toenails 12–18 months). Set expectations at the start.",
+   "A negative result does not exclude infection, so repeat sampling if the picture is convincing."
+  ]
+ },
+ "photos": [
+  {
+   "title": "Onychomycosis patterns",
+   "items": [
+    "m3w2:B01",
+    "m3w2:B02",
+    "m3w2:B03"
+   ]
+  },
+  {
+   "title": "Mimic: subungual haematoma",
+   "items": [
+    "m3w2:B04"
+   ]
+  },
+  {
+   "title": "Candidal onycholysis",
+   "items": [
+    "m3w2:A04",
+    "m3w2:A05"
+   ]
+  }
+ ],
+ "references": [
+  {
+   "label": "NICE CKS: Fungal nail infection",
+   "url": "https://cks.nice.org.uk/topics/fungal-skin-infection-nail/"
+  },
+  {
+   "label": "DermNet: Fungal nail infections",
+   "url": "https://dermnetnz.org/topics/fungal-nail-infections"
+  },
+  {
+   "label": "DermNet: Subungual haemorrhage",
+   "url": "https://dermnetnz.org/topics/subungual-haemorrhage"
+  }
+ ]
+}

@@ -1,13 +1,53 @@
 [
   {
+    "id": "foundations",
+    "title": "Foundations: describing skin",
+    "short": "Foundations",
+    "blurb": "Start here: the language of dermatology (primary and secondary lesions, configuration, distribution), skin layers, Fitzpatrick skin types and why dermoscopy helps.",
+    "accent": "#2b6c8f",
+    "icon": "book",
+    "status": "published",
+    "order": 1
+  },
+  {
     "id": "inflammatory",
     "title": "Inflammatory skin",
     "short": "Inflammatory",
-    "blurb": "Chronic, relapsing inflammatory dermatoses seen every week in primary care: eczema/dermatitis and psoriasis.",
+    "blurb": "Eczema, psoriasis, contact dermatitis and urticaria, plus the inflammatory spot diagnoses: erythema multiforme, annular rashes, lichen planus and discoid lupus.",
     "accent": "#b5485d",
     "icon": "flame",
     "status": "published",
-    "order": 1
+    "order": 2
+  },
+  {
+    "id": "blistering",
+    "title": "Blistering diseases",
+    "short": "Blistering",
+    "blurb": "How to approach blisters, then pemphigus, bullous pemphigoid, dermatitis herpetiformis and drug-induced blistering including SJS/TEN, with same-day referral routes.",
+    "accent": "#8c3d3d",
+    "icon": "blister",
+    "status": "published",
+    "order": 3
+  },
+  {
+    "id": "hands-feet-folds",
+    "title": "Hands, feet & skin folds",
+    "short": "Hands & folds",
+    "blurb": "Hidradenitis suppurativa and intertrigo in the folds; hand eczema, pompholyx, keratolysis exfoliativa and palmoplantar pustulosis on the palms and soles.",
+    "accent": "#3d7d8c",
+    "icon": "hand",
+    "status": "published",
+    "order": 4
+  },
+  {
+    "id": "nails",
+    "title": "Nails",
+    "short": "Nails",
+    "blurb": "Paronychia and ingrowing toenail, fungal nail infection, melanonychia and nail melanoma, and the nail signs of skin and systemic disease.",
+    "accent": "#7a5c99",
+    "icon": "nail",
+    "status": "published",
+    "order": 5
   },
   {
     "id": "acne-follicles",
@@ -17,7 +57,7 @@
     "accent": "#b7791f",
     "icon": "follicle",
     "status": "published",
-    "order": 2
+    "order": 6
   },
   {
     "id": "fungal",
@@ -27,27 +67,37 @@
     "accent": "#2f855a",
     "icon": "ring",
     "status": "published",
-    "order": 3
+    "order": 7
   },
   {
     "id": "bacterial",
     "title": "Infections — bacterial",
     "short": "Bacterial",
-    "blurb": "Superficial to deep bacterial skin infections: impetigo (including MRSA), cellulitis and erysipelas, folliculitis, boils and carbuncles.",
+    "blurb": "Superficial to deep bacterial skin infections: impetigo (including MRSA), cellulitis and erysipelas, folliculitis, boils and carbuncles, scarlet fever and cutaneous tuberculosis.",
     "accent": "#3b5bdb",
     "icon": "bacteria",
     "status": "published",
-    "order": 4
+    "order": 8
   },
   {
     "id": "viral-infestations",
     "title": "Infections — viral & infestations",
     "short": "Viral & bites",
-    "blurb": "Viral warts in full. Scabies, head lice, Lyme disease and bite reactions are next (Module 5 Week 3).",
+    "blurb": "Viral warts, shingles, cold sores and pityriasis rosea, plus scabies, head lice, Lyme disease, bite reactions and perineal dermatoses.",
     "accent": "#0e7490",
     "icon": "virus",
     "status": "published",
-    "order": 5
+    "order": 9
+  },
+  {
+    "id": "tropical-travel",
+    "title": "Tropical & travel",
+    "short": "Travel",
+    "blurb": "The returning traveller with a skin problem: cutaneous leishmaniasis, larva migrans, dengue, leprosy and mycetoma.",
+    "accent": "#4f7d3a",
+    "icon": "globe",
+    "status": "published",
+    "order": 10
   },
   {
     "id": "ulcers-red-leg",
@@ -57,7 +107,17 @@
     "accent": "#c2410c",
     "icon": "leg",
     "status": "published",
-    "order": 6
+    "order": 11
+  },
+  {
+    "id": "photodermatoses",
+    "title": "Photodermatoses",
+    "short": "Light",
+    "blurb": "Rashes driven by light: polymorphic light eruption, chronic actinic dermatitis, drug-induced photosensitivity and porphyria cutanea tarda, with a sun-protection script.",
+    "accent": "#c28a12",
+    "icon": "sun",
+    "status": "published",
+    "order": 12
   },
   {
     "id": "pigmentation",
@@ -67,7 +127,7 @@
     "accent": "#8b5e34",
     "icon": "drop",
     "status": "published",
-    "order": 7
+    "order": 13
   },
   {
     "id": "childhood-neonatal",
@@ -77,7 +137,7 @@
     "accent": "#7c5cbf",
     "icon": "baby",
     "status": "published",
-    "order": 8
+    "order": 14
   },
   {
     "id": "older-skin",
@@ -87,16 +147,36 @@
     "accent": "#64748b",
     "icon": "hourglass",
     "status": "published",
-    "order": 9
+    "order": 15
+  },
+  {
+    "id": "hair-scalp",
+    "title": "Hair & scalp",
+    "short": "Hair",
+    "blurb": "Pattern hair loss (incl. PRP), alopecia areata, telogen effluvium, trichotillomania and scarring alopecia: name the pattern and spot scarring early.",
+    "accent": "#4a63a8",
+    "icon": "comb",
+    "status": "published",
+    "order": 16
   },
   {
     "id": "cosmetic-hair",
-    "title": "Cosmetic & hair",
+    "title": "Cosmetic & aesthetic",
     "short": "Cosmetic",
-    "blurb": "Acne scars and keloids, pattern hair loss, alopecia areata and scarring alopecias, plus counselling-level aesthetic topics (neuromodulators, solar lentigines, IPL).",
+    "blurb": "Acne scars and keloids, peels, needling and lasers, and counselling-level aesthetic topics (neuromodulators, solar lentigines, IPL).",
     "accent": "#be185d",
     "icon": "sparkle",
     "status": "published",
-    "order": 10
+    "order": 17
+  },
+  {
+    "id": "exam-review",
+    "title": "Exam review",
+    "short": "Exams",
+    "blurb": "End-of-module exam reviews for Modules 2, 4 and 5: answer, reasoning, why the distractors are wrong, and links to the matching condition pages.",
+    "accent": "#445566",
+    "icon": "check",
+    "status": "published",
+    "order": 18
   }
 ]

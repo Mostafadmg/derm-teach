@@ -7,80 +7,140 @@
   },
   {
     "id": "m5w1",
-    "label": "Module 5 \u00b7 Week 1 \u2014 skin infections",
+    "label": "Module 5 · Week 1 — skin infections",
     "dir": "assets/img/m5w1",
     "manifest": "content/manifests/m5w1.json"
   },
   {
     "id": "m5w2",
-    "label": "Module 5 \u00b7 Week 2 \u2014 cellulitis & ulcers",
+    "label": "Module 5 · Week 2 — cellulitis & ulcers",
     "dir": "assets/img/m5w2",
     "manifest": "content/manifests/m5w2.json"
   },
   {
     "id": "m5w3",
-    "label": "Module 5 \u00b7 Week 3 \u2014 infestations & bites",
+    "label": "Module 5 · Week 3 — infestations & bites",
     "dir": "assets/img/m5w3",
     "manifest": "content/manifests/m5w3.json"
   },
   {
     "id": "m6w1",
-    "label": "Module 6 \u00b7 Week 1 \u2014 infant & neonatal",
+    "label": "Module 6 · Week 1 — infant & neonatal",
     "dir": "assets/img/m6w1",
     "manifest": "content/manifests/m6w1.json"
   },
   {
     "id": "m6w2",
-    "label": "Module 6 \u00b7 Week 2 \u2014 acne & mimics",
+    "label": "Module 6 · Week 2 — acne & mimics",
     "dir": "assets/img/m6w2",
     "manifest": "content/manifests/m6w2.json"
   },
   {
     "id": "m6w3",
-    "label": "Module 6 \u00b7 Week 3 \u2014 pigmentation",
+    "label": "Module 6 · Week 3 — pigmentation",
     "dir": "assets/img/m6w3",
     "manifest": "content/manifests/m6w3.json"
   },
   {
     "id": "m6w4",
-    "label": "Module 6 \u00b7 Week 4 \u2014 older skin",
+    "label": "Module 6 · Week 4 — older skin",
     "dir": "assets/img/m6w4",
     "manifest": "content/manifests/m6w4.json"
   },
   {
     "id": "m6w5",
-    "label": "Module 6 \u00b7 Week 5 \u2014 cosmetic (ageing)",
+    "label": "Module 6 · Week 5 — cosmetic (ageing)",
     "dir": "assets/img/m6w5",
     "manifest": "content/manifests/m6w5.json"
   },
   {
     "id": "m6w6",
-    "label": "Module 6 \u00b7 Week 6 \u2014 scars & hair",
+    "label": "Module 6 · Week 6 — scars & hair",
     "dir": "assets/img/m6w6",
     "manifest": "content/manifests/m6w6.json"
   },
   {
     "id": "m3w4",
-    "label": "Module 3 \u00b7 Week 4 \u2014 perineal dermatoses",
+    "label": "Module 3 · Week 4 — perineal dermatoses",
     "dir": "assets/img/m3w4",
     "manifest": "content/manifests/m3w4.json"
   },
   {
     "id": "m4w3",
-    "label": "Module 4 \u00b7 Week 3 \u2014 contact dermatitis",
+    "label": "Module 4 · Week 3 — contact dermatitis",
     "dir": "assets/img/m4w3",
     "manifest": "content/manifests/m4w3.json"
   },
   {
     "id": "m4w5",
-    "label": "Module 4 \u00b7 Week 5 \u2014 urticaria & angioedema",
+    "label": "Module 4 · Week 5 — urticaria & angioedema",
     "dir": "assets/img/m4w5",
     "manifest": "content/manifests/m4w5.json"
   },
   {
     "id": "m3w3",
-    "label": "Module 3 \u00b7 Week 3 \u2014 scalp & hair",
+    "label": "Module 3 · Week 3 — scalp & hair",
     "dir": "assets/img/m3w3",
     "manifest": "content/manifests/m3w3.json"
+  },
+  {
+    "id": "m1w1",
+    "label": "Module 1 · Week 1 — language of dermatology",
+    "dir": "assets/img/m1w1",
+    "manifest": "content/manifests/m1w1.json"
+  },
+  {
+    "id": "m3w1",
+    "label": "Module 3 · Week 1 — rosacea",
+    "dir": "assets/img/m3w1",
+    "manifest": "content/manifests/m3w1.json"
+  },
+  {
+    "id": "m3w2",
+    "label": "Module 3 · Week 2 — nails",
+    "dir": "assets/img/m3w2",
+    "manifest": "content/manifests/m3w2.json"
+  },
+  {
+    "id": "m3w5",
+    "label": "Module 3 · Week 5 — flexural dermatoses",
+    "dir": "assets/img/m3w5",
+    "manifest": "content/manifests/m3w5.json"
+  },
+  {
+    "id": "m3w6",
+    "label": "Module 3 · Week 6 — palmar & plantar dermatoses",
+    "dir": "assets/img/m3w6",
+    "manifest": "content/manifests/m3w6.json"
+  },
+  {
+    "id": "m4w1",
+    "label": "Module 4 · Week 1 — inflammatory rashes",
+    "dir": "assets/img/m4w1",
+    "manifest": "content/manifests/m4w1.json"
+  },
+  {
+    "id": "m4w6",
+    "label": "Module 4 · Week 6 — blistering diseases",
+    "dir": "assets/img/m4w6",
+    "manifest": "content/manifests/m4w6.json"
+  },
+  {
+    "id": "m5w4",
+    "label": "Module 5 · Week 4 — tropical & travel",
+    "dir": "assets/img/m5w4",
+    "manifest": "content/manifests/m5w4.json"
+  },
+  {
+    "id": "m5w5",
+    "label": "Module 5 · Week 5 — viral & infective rashes",
+    "dir": "assets/img/m5w5",
+    "manifest": "content/manifests/m5w5.json"
+  },
+  {
+    "id": "m5w6",
+    "label": "Module 5 · Week 6 — photodermatoses",
+    "dir": "assets/img/m5w6",
+    "manifest": "content/manifests/m5w6.json"
   }
 ]

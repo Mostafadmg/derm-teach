@@ -1,0 +1,327 @@
+{
+ "slug": "leprosy",
+ "title": "Leprosy (Hansen disease) & lepra reactions",
+ "category": "tropical-travel",
+ "status": "published",
+ "order": 5,
+ "module": "Module 5 · Week 4",
+ "aka": [
+  "Hansen disease",
+  "leprosy",
+  "Mycobacterium leprae",
+  "numb patch",
+  "lepra reaction",
+  "erythema nodosum leprosum",
+  "ENL",
+  "multidrug therapy"
+ ],
+ "summary": "A chronic mycobacterial infection of skin and nerves: pale or red patches with reduced sensation, thickened nerves and, in multibacillary disease, nodules and facial infiltration. Curable with WHO multidrug therapy; reactions are emergencies for the nerves.",
+ "card_image": "m5w4:W4D06",
+ "glance": {
+  "think": "Hypopigmented or red patches with reduced sensation, thickened nerves, painless burns or ulcers, in someone from an endemic country.",
+  "engine": "*M. leprae* infects Schwann cells and macrophages; the immune response sets where the patient sits on the tuberculoid–lepromatous spectrum.",
+  "backbone": "Refer to the UK leprosy service (Hospital for Tropical Diseases); WHO multidrug therapy; address stigma; protect anaesthetic hands and feet.",
+  "never_miss": "Type 1 (reversal) reactions and erythema nodosum leprosum: nerve pain, weakness or painful nodules need urgent steroids via the specialist team."
+ },
+ "sections": {
+  "what": [
+   "**Leprosy** is a chronic granulomatous infection of the **skin and peripheral nerves** (also the nasal mucosa, eyes and testes). It is caused by **Mycobacterium leprae** (and *M. lepromatosis*). It is **curable with multidrug therapy (MDT)**, but nerve damage already present is permanent, so **early diagnosis prevents disability**. WHO registers about **200,000 new cases a year**, mostly in **India, Brazil and Indonesia**, with others in Nigeria, Bangladesh, Nepal, Ethiopia, the DR Congo, Myanmar and the Pacific.",
+   "**UK:** around 10–15 notifications a year, all acquired abroad, mostly from the South-East Asia, Americas and Africa regions. Recent UKHSA data show 255 cases from 2000–2025 and no UK transmission. It is **statutorily notifiable** in England.",
+   "**Classification:**",
+   {
+    "list": [
+     "**WHO (operational):** **paucibacillary (PB)** = 1–5 skin lesions and a negative smear. **Multibacillary (MB)** = more than 5 lesions, *or* nerve involvement (pure neuritis or any lesions with neuritis), *or* a positive slit-skin smear.",
+     "**Ridley–Jopling spectrum (immunological):** TT – BT – BB – BL – LL, plus indeterminate and pure neural forms."
+    ]
+   }
+  ],
+  "cause": [
+   {
+    "list": [
+     "*M. leprae* is an **obligate intracellular acid-fast bacillus**. It divides extremely slowly (about every 12–14 days) and prefers **cooler body sites** (skin, superficial nerves, nose, earlobes, testes). Incubation averages around 5 years (range from months to over 20 years).",
+     "**Transmission:** mainly **respiratory droplets from the nasal secretions of untreated MB patients**, after **prolonged close (household) contact**. Most exposed people (around 95%) are naturally resistant. **Armadillos** are a zoonotic source in the southern USA and Brazil. Patients become **non-infectious within days of starting rifampicin-containing MDT**.",
+     "**Immune spectrum:** **Tuberculoid pole (TT/BT):** strong Th1 cell-mediated immunity, few bacilli, few well-defined lesions, early and severe nerve damage near the lesions; **Lepromatous pole (LL/BL):** weak cell-mediated immunity, a Th2/antibody response, huge numbers of bacilli, widespread symmetrical infiltration, and slower but extensive nerve involvement (glove and stocking)",
+     "**Nerve damage:** bacilli invade **Schwann cells**. This leads to sensory loss (temperature first, then light touch, pain, pressure), then autonomic loss (dry skin, anhidrosis), then motor loss (claw hand, foot drop, lagophthalmos).",
+     "**Lepra reactions** are immune flare-ups and cause most of the disability. They occur in **30–50%** of patients, before, **during** or after MDT: **Type 1 (reversal) reaction:** delayed-type hypersensitivity in **borderline** disease (BT/BB/BL). Existing lesions become red, swollen and tender, with **acute neuritis**; **Type 2 reaction = erythema nodosum leprosum (ENL):** an **immune-complex** (type III) systemic vasculitis/panniculitis in **LL/BL** (high bacillary load). Antigens from dying bacilli form antibody complexes that deposit in vessels and tissues, with high TNF-α. This is why Case 4 has **recurrent bouts of fever, joint pain and painful red nodules** on the legs and abdomen (Case 4 Q4)"
+    ]
+   }
+  ],
+  "features": [
+   "**Cardinal signs (WHO). Leprosy is diagnosed if ≥1 is present:**",
+   {
+    "ol": [
+     "**Definite loss of sensation in a pale (hypopigmented) or reddish skin patch**",
+     "**Thickened/enlarged peripheral nerve** with sensory loss and/or weakness of the muscles it supplies",
+     "**Acid-fast bacilli on slit-skin smear**"
+    ]
+   },
+   "**Spectrum:**",
+   {
+    "table": {
+     "head": [
+      "Type",
+      "Skin",
+      "Nerves",
+      "Bacilli"
+     ],
+     "rows": [
+      [
+       "**Indeterminate**",
+       "1 or a few faint hypopigmented macules, ill-defined",
+       "Minimal sensory change",
+       "Few/none"
+      ],
+      [
+       "**TT** (tuberculoid)",
+       "1–3 **sharply defined** hypopigmented or red plaques with raised edge; **dry, hairless, anaesthetic, anhidrotic**",
+       "Thickened nerve near lesion, early damage",
+       "None (smear −)"
+      ],
+      [
+       "**BT**",
+       "More (5–20), larger, asymmetrical lesions; satellite lesions",
+       "Asymmetrical, prone to type 1 reaction",
+       "Few"
+      ],
+      [
+       "**BB**",
+       "Many varied lesions; \"**Swiss-cheese**\"/inverted-saucer annular lesions",
+       "Several nerves",
+       "Moderate"
+      ],
+      [
+       "**BL**",
+       "Many, fairly symmetrical macules/papules/plaques/nodules; sensation partly preserved",
+       "Widespread, glove-and-stocking",
+       "Many"
+      ],
+      [
+       "**LL** (lepromatous)",
+       "Widespread, ill-defined, shiny symmetrical macules → **diffuse infiltration, nodules (lepromas)**; **leonine facies**, **madarosis** (loss of lateral eyebrows/lashes), **thickened earlobes**, nasal stuffiness/epistaxis/collapse, oedematous legs, ichthyotic skin",
+       "Symmetrical glove-and-stocking sensory loss; nerves thickened",
+       "Very many (smear ++++)"
+      ],
+      [
+       "**Histoid** (LL variant)",
+       "Shiny dome-shaped skin-coloured to coppery papules/nodules",
+       "—",
+       "Very many; may signal resistance/relapse"
+      ],
+      [
+       "**Pure neural**",
+       "No skin lesions; nerve thickening/tenderness, sensory loss, trophic ulcers",
+       "—",
+       "—"
+      ]
+     ]
+    }
+   },
+   "**Nerves to palpate:** ulnar (elbow), median (wrist), radial cutaneous (wrist), **common peroneal / lateral popliteal** (fibular neck), posterior tibial (medial malleolus), great auricular (neck) and supra-orbital.",
+   "**Case 4: findings in favour of leprosy (Q1):**",
+   {
+    "list": [
+     "**Infiltrated facial lesions** for 2 years (LL infiltration, early leonine facies)",
+     "**Glove-and-stocking loss of temperature and touch** (temperature lost first)",
+     "**Thickened, tender ulnar and lateral popliteal nerves**",
+     "**Painless ulcer after a thorn prick** (sensory neuropathy → trophic ulcer)",
+     "**\"Slipping footwear\"** (insensitive feet ± early foot drop from common peroneal palsy)",
+     "**Recurrent fever + arthralgia + crops of painful nodules = ENL (type 2 reaction)**, typical of LL/BL",
+     "He is a **farmer**, likely from an endemic rural setting"
+    ]
+   },
+   "**Other organs in LL:**",
+   {
+    "list": [
+     "**Eyes:** corneal anaesthesia, lagophthalmos, keratitis, iritis, blindness",
+     "**Testes:** orchitis, atrophy, gynaecomastia, infertility",
+     "**Nose:** septal perforation, saddle nose",
+     "**Bones:** resorption of digits",
+     "**Kidney:** amyloidosis, glomerulonephritis"
+    ]
+   },
+   "**ENL (type 2):**",
+   {
+    "list": [
+     "**Crops of tender red subcutaneous nodules/plaques** on the **face, extensor arms, thighs, trunk and abdomen**. The distribution is wider than classic EN. Nodules may pustulate or ulcerate (necrotic ENL).",
+     "**Fever, malaise, arthralgia/arthritis**, with neuritis, iritis/uveitis, orchitis, dactylitis, lymphadenitis, hepatitis or nephritis.",
+     "It is often recurrent or chronic, as in Case 4 (every 15 days or so)."
+    ]
+   },
+   "**Type 1 reaction:**",
+   {
+    "list": [
+     "Existing patches suddenly become red, swollen and tender, with new lesions, oedema of the hands, feet and face, and **acute painful neuritis with new weakness or numbness**.",
+     "**This is an emergency because of the risk of permanent nerve damage.**"
+    ]
+   }
+  ],
+  "diagnosis": [
+   {
+    "h": "(Case 4 Q2)"
+   },
+   "UKHSA advice: **discuss every suspected case with a Consultant Advisor in Leprosy *before* smears or biopsies are taken**, and refer to a national leprosy centre.",
+   "**Investigations:**",
+   {
+    "list": [
+     "**Clinical examination:** sensory testing of lesions (cotton wool for touch, warm/cold tubes for temperature, monofilaments), nerve palpation, and a voluntary muscle test.",
+     "**Slit-skin smear (SSS)** from the **earlobes**, forehead and lesions. Stain with Ziehl–Neelsen/Fite. Report the **bacterial index (BI)** and **morphological index**. The smear is positive in MB and negative in TT.",
+     "**Skin biopsy** (deep incisional, from the active edge, down to fat) for histology. This shows granulomas, nerve involvement and AFB on **Fite–Faraco stain**, and helps classify on the Ridley–Jopling scale. Lepromatous disease shows foamy macrophages (Virchow/lepra cells) packed with bacilli and globi, with a **Grenz zone**.",
+     "**M. leprae* PCR** on tissue or smear is highly specific. It can also detect drug-resistance mutations (rifampicin *rpoB*, dapsone *folP1*, fluoroquinolone *gyrA*).",
+     "**Nerve studies:** nerve conduction, ultrasound or nerve biopsy (pure neural leprosy).",
+     "**Lepromin (Mitsuda) test:** not diagnostic. It helps **classify** (positive in TT, negative in LL).",
+     "**Serology (anti-PGL-I):** positive in most MB disease, but limited for diagnosis.",
+     "**Before MDT:** FBC, LFTs, U&E, **G6PD** (dapsone), and screening for HIV, TB (before steroids and rifampicin), hepatitis B/C, *Strongyloides* (before prolonged steroids) and pregnancy."
+    ]
+   },
+   "**\"Leonine facies\" (Case 4 Q3):**",
+   {
+    "list": [
+     "**Meaning:** a lion-like face from diffuse infiltration and thickening of the facial skin, with deepened furrows on the forehead and cheeks, thickened earlobes and nose, and often loss of eyebrows.",
+     "**Causes:** **Lepromatous leprosy** (classic); **Cutaneous T-cell lymphoma** (mycosis fungoides / Sézary syndrome), leukaemia cutis, other lymphomas; **Diffuse cutaneous leishmaniasis** / PKDL; **Sarcoidosis**; **Scleromyxoedema** / lichen myxoedematosus; **Amyloidosis**, lipoid proteinosis; **Actinic reticuloid / chronic actinic dermatitis**; **Mastocytosis**; **Paget's disease of bone** / fibrous dysplasia (\"leontiasis ossea\", where the cause is bony); **Severe rosacea/rhinophyma**"
+    ]
+   }
+  ],
+  "differentials": [
+   {
+    "table": {
+     "head": [
+      "Presentation",
+      "Differentials",
+      "Pointers"
+     ],
+     "rows": [
+      [
+       "Hypopigmented patch",
+       "**Pityriasis versicolor**, **pityriasis alba**, **vitiligo**, post-inflammatory hypopigmentation, naevus depigmentosus, hypopigmented MF",
+       "**Leprosy patch is anaesthetic, dry, hairless**; the others have normal sensation. PV = fine scale, KOH +; vitiligo = depigmented (not hypopigmented), not anaesthetic"
+      ],
+      [
+       "Red annular plaques",
+       "**Tinea corporis**, **granuloma annulare**, **sarcoidosis**, **cutaneous lupus**, psoriasis",
+       "Sensation normal; scale/KOH (tinea)"
+      ],
+      [
+       "Infiltrated plaques/nodules / leonine facies",
+       "**Cutaneous lymphoma**, sarcoid, **diffuse CL/PKDL**, neurofibromatosis (histoid), xanthomas, **lupus vulgaris**",
+       "Smear/biopsy; nerve findings"
+      ],
+      [
+       "Painful red nodules + fever (**ENL**)",
+       "**Erythema nodosum** (strep, sarcoid, IBD, drugs, TB), **Sweet syndrome**, vasculitis, panniculitis, cellulitis",
+       "EN = shins, no leprosy signs; ENL = wider distribution in a patient with LL/BL"
+      ],
+      [
+       "Peripheral neuropathy + ulcer",
+       "**Diabetes**, alcohol, B12 deficiency, hereditary neuropathies, **syringomyelia**, vasculitic neuropathy",
+       "**Thickened nerves** point to leprosy (also seen in rare hereditary hypertrophic neuropathy, amyloid, neurofibromatosis)"
+      ]
+     ]
+    }
+   }
+  ],
+  "management": [
+   "**Primary-care role: suspect, refer, support adherence, and spot reactions and adverse drug effects.**",
+   {
+    "list": [
+     "**Refer every suspected case** to a **national leprosy centre** via a Consultant Advisor in Leprosy (e.g. **HTD, UCLH, London**; see the UKHSA *Memorandum on leprosy 2023*, Appendix 5). The diagnosing doctor **notifies the case to the local authority proper officer / UKHSA health protection team** (England), handled confidentially. Contact management goes through the CCDC and UKHSA TB Unit.",
+     "**Urgent/same-day referral:** a **reaction** (type 1 with new nerve pain or weakness; ENL with fever), **acute eye symptoms** (red painful eye, reduced vision, cannot close the eye), or a **new foot drop or claw hand**.",
+     "**WHO MDT 2018 (Case 4 Q5). Three drugs for all patients (adult doses, specialist-supervised):** **Rifampicin 600 mg once a month** (supervised); **Clofazimine 300 mg once a month (supervised) + 50 mg daily**; **Dapsone 100 mg daily**; **Duration:** **PB 6 months; MB 12 months.** Case 4 = **MB, 12 months**; **Rifampicin-resistant leprosy:** clofazimine + at least two of clarithromycin, minocycline or a fluoroquinolone (e.g. ofloxacin/moxifloxacin) for 6 months, then clofazimine + one of these for 18 months; UK centres may use modified regimens (e.g. daily rifampicin, or longer courses for high bacterial index)",
+     "**Management of ENL (tutor follow-up):** **Continue MDT.** Reactions are **not** a reason to stop; **Mild ENL:** rest, **NSAIDs/aspirin** for fever and arthralgia (with GI protection); **Moderate–severe ENL (or neuritis, iritis, orchitis):** **oral prednisolone** (e.g. starting around 40–60 mg/day, then tapered over weeks–months by the specialist); **Clofazimine at higher anti-inflammatory doses** (e.g. up to 300 mg/day for limited periods): a steroid-sparing option for chronic or recurrent ENL. Its effect is slow (4–6 weeks); **Thalidomide** (100–400 mg/day, then tapered) is very effective for recurrent ENL. It is **highly teratogenic**: in the UK it is supplied under a **Pregnancy Prevention Programme**, with neuropathy and VTE risks. It is used when steroids fail or cause problems; **Refractory ENL:** methotrexate, ciclosporin, **TNF-α inhibitors** (specialist, case-based); Treat iritis urgently with ophthalmology (topical steroid + mydriatic)",
+     "**Type 1 reaction:** **prednisolone** (typically starting around 40 mg/day and tapering slowly over about 3–6 months under specialist supervision) to prevent permanent nerve damage. Splint the affected limb at rest.",
+     "**Prevention of disability (POD):** Daily **self-examination of hands, feet and eyes**; Soak and oil dry skin; Protective **footwear** (microcellular rubber, well-fitting) and gloves for cooking or hot objects; Prompt dressing and rest of any wound; never walk on an ulcer; Eye protection (glasses; blink exercises; lubricants for lagophthalmos); Physiotherapy, splints, and reconstructive surgery later",
+     "**Contacts:** examine household contacts. WHO recommends **single-dose rifampicin post-exposure prophylaxis (SDR-PEP)** for eligible contacts (adults 600 mg once) **after excluding leprosy and TB**. This reduces risk by around 50–60%. UK use is per the UKHSA/Consultant Advisor. BCG gives partial protection."
+    ]
+   }
+  ],
+  "red_flags": [
+   "New **nerve pain, numbness or weakness**, or painful nodules with fever on treatment: lepra reaction, **urgent** specialist contact.",
+   "Eye pain or redness: same-day ophthalmology.",
+   "Thalidomide for ENL is specialist-only with a strict pregnancy prevention programme."
+  ],
+  "pearls": [
+   {
+    "h": "(incl. stigma)"
+   },
+   "**Rifampicin** (even monthly) induces enzymes, which matters around the dose day: It reduces combined/progestogen-only pill, implant and emergency contraception efficacy. Advise a copper IUD/LNG-IUS or condoms, and follow FSRH guidance; It interacts with warfarin, DOACs, antiretrovirals, azoles, ciclosporin, methadone and steroids (a higher prednisolone dose may be needed); It colours urine, tears and contact lenses **orange-red**",
+   "**Dapsone:** **Check G6PD before starting.** It causes dose-related haemolysis and methaemoglobinaemia (breathlessness, cyanosis); **Dapsone hypersensitivity syndrome** usually appears in the first 4–6 weeks: fever, rash, lymphadenopathy, hepatitis. Stop and seek urgent help. HLA-B*13:01 is a risk marker in some Asian populations; Monitor FBC and LFTs; agranulocytosis has been reported",
+   "**Clofazimine:** **Red-brown to grey-black skin pigmentation** (most marked in lesions and on dark skin), which fades **slowly over months to years after stopping**. Warn patients in advance, as it adds to stigma; Dry, ichthyotic skin (use emollients), red-coloured sweat, tears and urine; GI upset and, at high doses, enteropathy (crystal deposition), so take with food. QT prolongation",
+   "**Steroid courses** for reactions are often long. Give bone protection, GI protection where indicated, glucose and BP checks, steroid card and sick-day rules. Screen for and treat *Strongyloides* and latent TB first.",
+   "**Adherence:** the course is long (6–12 months) and skin lesions fade slowly. Explain that **reactions are not treatment failure**, and that **numbness may not recover** even when the infection is cured.",
+   "**Stigma (forum discussion):** Use person-first language (\"person affected by leprosy\", not \"leper\"); Emphasise that leprosy is **curable**, that people are **not infectious once on MDT**, and that casual contact (touch, sharing meals, sex) does not spread it; Maintain **strict confidentiality** (notification is handled in confidence); Signpost **LEPRA** and **The Leprosy Mission England & Wales** for patient support"
+  ]
+ },
+ "photos": [
+  {
+   "title": "Lepromatous and borderline leprosy",
+   "items": [
+    "m5w4:W4D01",
+    "m5w4:W4D02",
+    "m5w4:W4D03",
+    "m5w4:W4D04",
+    "m5w4:W4D05"
+   ]
+  },
+  {
+   "title": "Tuberculoid and borderline",
+   "items": [
+    "m5w4:W4D06",
+    "m5w4:W4D07"
+   ]
+  },
+  {
+   "title": "Reactions and complications",
+   "items": [
+    "m5w4:W4D08",
+    "m5w4:W4D09",
+    "m5w4:W4D10"
+   ],
+   "tone": "danger"
+  }
+ ],
+ "references": [
+  {
+   "label": "DermNet: Leprosy",
+   "url": "https://dermnetnz.org/topics/leprosy"
+  },
+  {
+   "label": "DermNet: Erythema nodosum",
+   "url": "https://dermnetnz.org/topics/erythema-nodosum"
+  },
+  {
+   "label": "WHO — Leprosy fact sheet",
+   "url": "https://www.who.int/news-room/fact-sheets/detail/leprosy"
+  },
+  {
+   "label": "WHO — Guidelines for the diagnosis, treatment and prevention of leprosy 2018",
+   "url": "https://iris.who.int/handle/10665/274127"
+  },
+  {
+   "label": "WHO — Recommended treatment regimens for leprosy",
+   "url": "https://cdn.who.int/media/docs/default-source/ntds/leprosy/recommended-treatment-regimens-for-leprosy.pdf"
+  },
+  {
+   "label": "UKHSA — Memorandum on leprosy 2023",
+   "url": "https://www.gov.uk/government/publications/leprosy-memorandum/memorandum-on-leprosy-2023"
+  },
+  {
+   "label": "UKHSA — Leprosy notifications to national surveillance, UK 2001 to 2025",
+   "url": "https://www.gov.uk/government/publications/leprosy-notifications-to-uk-national-surveillance-2001-to-2025"
+  },
+  {
+   "label": "UCLH HTD — outpatient services Hansen's disease clinic",
+   "url": "https://www.uclh.nhs.uk/our-services/find-service/tropical-and-infectious-diseases/htd-outpatient-services"
+  },
+  {
+   "label": "PCDS — Travel-acquired cutaneous infections leprosy section",
+   "url": "https://www.pcds.org.uk/clinical-guidance/travel-acquired-cutaneous-infections"
+  },
+  {
+   "label": "lepra.org.uk",
+   "url": "https://www.lepra.org.uk/"
+  },
+  {
+   "label": "leprosymission.org.uk",
+   "url": "https://www.leprosymission.org.uk/"
+  }
+ ]
+}

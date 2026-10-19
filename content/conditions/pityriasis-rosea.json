@@ -1,0 +1,343 @@
+{
+ "slug": "pityriasis-rosea",
+ "title": "Pityriasis rosea",
+ "category": "viral-infestations",
+ "status": "published",
+ "order": 4,
+ "module": "Module 5 · Week 5 · Module 4 · Week 1",
+ "aka": [
+  "PR",
+  "herald patch",
+  "Christmas tree rash",
+  "collarette scale",
+  "HHV-6",
+  "HHV-7",
+  "guttate psoriasis",
+  "secondary syphilis"
+ ],
+ "summary": "A self-limiting rash of young adults: a single herald patch, then oval scaly patches along skin lines on the trunk (‘Christmas tree’), fading over 6–12 weeks. Reassure, but test for syphilis when the picture is atypical.",
+ "card_image": "m5w5:W5C02",
+ "glance": {
+  "think": "A single larger oval patch, then 1–2 weeks later many smaller pink oval patches with a collarette of scale on the trunk.",
+  "engine": "Probably reactivation of HHV-6/HHV-7; not contagious in practice.",
+  "backbone": "Explain and reassure; emollients, mild topical steroid or antihistamine for itch; review if it lasts beyond 12 weeks.",
+  "never_miss": "Secondary syphilis (palms and soles, mucosal lesions, lymph nodes), guttate psoriasis, tinea and drug eruptions; PR in early pregnancy (miscarriage risk)."
+ },
+ "sections": {
+  "what": [
+   "**Diagnosis confirmed from the course case:** the case shows a single initial lesion (Picture 1) followed ~2 weeks later by a generalised eruption (Picture 2) after a URTI. All student answers (incl. a student's post, 16 June) and the tutor discussion converged on **pityriasis rosea**; guttate psoriasis was listed as a **differential**, not the answer. The tutor then focused on **secondary syphilis** as the must-not-miss differential.",
+   "A common, **self-limiting** papulosquamous eruption of adolescents and young adults (10–35 years), beginning with a single **herald patch** followed days to ~2 weeks later by a **secondary eruption** of smaller oval scaly patches on the trunk and proximal limbs. Lasts about **6–12 weeks** (most 6–8). Recurrence is uncommon (~2–3%)."
+  ],
+  "cause": [
+   "Cause not proven; strongest evidence links it to **reactivation of human herpesvirus 6 and 7 (HHV-6/HHV-7)** — supported by preceding URTI/prodrome, seasonal clustering, and low recurrence. **PR-like (pityriasiform) drug eruptions** occur with e.g. ACE inhibitors, NSAIDs, isotretinoin, gold, some biologics/vaccines — these lack a herald patch and persist while the drug continues."
+  ],
+  "features": [
+   {
+    "list": [
+     "Possible prodrome: malaise, headache, sore throat, low-grade fever (URTI — Case 3).",
+     "**Herald patch:** single, 2–5 cm, oval, salmon-pink (grey-brown/violaceous in darker skin) plaque with fine **collarette scale** inside the edge; often trunk, upper arm, neck, thigh.",
+     "**Secondary eruption** (after ~1–2 weeks): many smaller oval macules/plaques with collarette scale, long axes along skin cleavage lines → **\"Christmas-tree\" pattern** on the back, \"V\" on the chest; usually spares face, scalp, palms and soles.",
+     "Itch: none to moderate (~25% significant).",
+     "Variants: **inverse** (flexural — axillae/groin, commoner in children/skin of colour), papular, vesicular, purpuric, urticarial, giant, unilateral, oral lesions.",
+     "Darker skin: more papular/facial lesions; prolonged post-inflammatory hyper/hypopigmentation."
+    ]
+   }
+  ],
+  "diagnosis": [
+   "**Clinical.** Tests only to exclude mimics:",
+   {
+    "list": [
+     "**Syphilis serology** (treponemal EIA ± RPR) if atypical, palms/soles involved, no herald patch, sexual risk, or lasting >12 weeks.",
+     "**Skin scrapings for mycology** if the herald patch alone looks like tinea (scale at advancing edge).",
+     "Drug history (pityriasiform drug eruption).",
+     "Biopsy rarely (atypical/persistent).",
+     "Pregnancy test/status relevant — see 3.6."
+    ]
+   }
+  ],
+  "differentials": [
+   {
+    "table": {
+     "head": [
+      "Look-alike",
+      "Distinguishing clues"
+     ],
+     "rows": [
+      [
+       "**Guttate psoriasis**",
+       "Many small (0.5–1 cm) **drop-like papules** with thicker **silvery scale** over the whole lesion, **no herald patch**, 1–3 weeks after **streptococcal sore throat**/tonsillitis; may have family history, nail pitting, scalp involvement; can persist/evolve into plaque psoriasis"
+      ],
+      [
+       "**Secondary syphilis**",
+       "**Palms and soles** copper-red papules, mucous patches, condylomata lata, patchy alopecia, generalised lymphadenopathy, malaise; papules **tender to blunt pressure (Buschke–Ollendorff sign — tutor pearl)**; sexual history; positive serology"
+      ],
+      [
+       "Tinea corporis (vs herald patch)",
+       "Annular, active scaly edge with central clearing, scale at advancing edge, often asymmetric; KOH/scraping positive"
+      ],
+      [
+       "Nummular (discoid) eczema",
+       "Coin-shaped, very itchy, crusted/oozing, limbs > trunk"
+      ],
+      [
+       "Pityriasiform drug eruption",
+       "New drug, larger lesions, no herald patch, persists, eosinophils on biopsy"
+      ],
+      [
+       "Pityriasis versicolor",
+       "Fine scale, hypo/hyperpigmented, upper trunk, Malassezia on scraping, chronic"
+      ],
+      [
+       "Pityriasis lichenoides chronica",
+       "Small red-brown papules with mica-like scale, recurrent crops over months"
+      ],
+      [
+       "Seborrhoeic dermatitis (trunk)",
+       "Presternal/interscapular greasy scale, scalp/face involvement"
+      ]
+     ]
+    }
+   },
+   {
+    "h": "Guttate psoriasis vs pityriasis rosea"
+   },
+   {
+    "h": "What it is"
+   },
+   "**Guttate psoriasis** is an acute eruption of small (<1 cm) drop-like scaly papules/plaques, typically in children, teens, and young adults — often **1–3 weeks after streptococcal pharyngitis**. Module 4 Spot Diagnosis consensus: widespread scaly eruption on trunk/limbs in a 14-year-old with no prior skin disease → **guttate psoriasis**. Main clinical DDx: **pityriasis rosea**.",
+   {
+    "h": "How it is caused / pathophysiology"
+   },
+   {
+    "list": [
+     "Same psoriatic immune axis; strong link to **Group A streptococcus** and HLA-C*06:02-enriched early-onset disease.",
+     "May be first presentation of psoriasis or remain a one-off self-limited episode.",
+     "PR (DDx): putative viral trigger; herald patch then secondary oval plaques on Langer lines."
+    ]
+   },
+   {
+    "h": "Clinical features & typical sites"
+   },
+   {
+    "table": {
+     "head": [
+      "",
+      "Guttate psoriasis",
+      "Pityriasis rosea"
+     ],
+     "rows": [
+      [
+       "Lesions",
+       "Uniform raindrop scaly papules/plaques",
+       "Herald patch then smaller oval plaques with collarette"
+      ],
+      [
+       "Distribution",
+       "Trunk + limbs; often spares palms/soles",
+       "Trunk/proximal limbs; Christmas-tree back"
+      ],
+      [
+       "Scale",
+       "Psoriatic",
+       "Fine peripheral collarette"
+      ],
+      [
+       "Strep Hx",
+       "Common",
+       "Absent"
+      ],
+      [
+       "Course",
+       "Weeks–months; may clear or evolve to plaque psoriasis",
+       "Usually clears 6–12 weeks"
+      ]
+     ]
+    }
+   },
+   {
+    "h": "How to diagnose"
+   },
+   {
+    "list": [
+     "Clinical. Ask about sore throat; consider throat swab / ASO if indicated.",
+     "Look for herald patch and Christmas-tree pattern to favour PR.",
+     "Biopsy rarely needed.",
+     "Consider syphilis serology if PR-like but atypical (palms/soles, systemic, persistent)."
+    ]
+   },
+   {
+    "h": "Key differentials"
+   },
+   {
+    "table": {
+     "head": [
+      "Look-alike",
+      "Distinguishing clues"
+     ],
+     "rows": [
+      [
+       "Pityriasis rosea",
+       "Herald + cleavage-line ovals"
+      ],
+      [
+       "Secondary syphilis",
+       "Palms/soles, lymphadenopathy, serology"
+      ],
+      [
+       "Tinea versicolor / corporis",
+       "Morphology/KOH"
+      ],
+      [
+       "Viral exanthem",
+       "Less scale; febrile context"
+      ],
+      [
+       "Small-plaque parapsoriasis",
+       "Persistent; adult; refer if unsure"
+      ]
+     ]
+    }
+   },
+   {
+    "h": "Management for pharmacist/IP (UK)"
+   },
+   "**Guttate:**",
+   {
+    "list": [
+     "Emollients; mild–potent TCS matched to extent/site; vitamin D analogues sometimes.",
+     "Treat proven strep infection per local antimicrobial guidance (treating strep does not always clear guttate quickly).",
+     "Counsel possible recurrence or later plaque psoriasis."
+    ]
+   },
+   "**PR (if that is the diagnosis):**",
+   {
+    "list": [
+     "Reassure; emollient ± mild TCS for itch; UV advice individualised; refer if severe/atypical."
+    ]
+   },
+   {
+    "h": "Prescriber pearls & counselling"
+   },
+   {
+    "list": [
+     "Teen + abrupt drop-like scaly rash + recent sore throat ≈ guttate until proven otherwise.",
+     "Avoid oral steroids.",
+     "Safety-net return if eruption becomes confluent, pustular, or erythrodermic."
+    ]
+   },
+   {
+    "h": "Photo / reference URLs"
+   },
+   {
+    "list": [
+     "DermNet — Guttate psoriasis: [dermnetnz.org](https://dermnetnz.org/topics/guttate-psoriasis)",
+     "DermNet — Pityriasis rosea: [dermnetnz.org](https://dermnetnz.org/topics/pityriasis-rosea)"
+    ]
+   }
+  ],
+  "management": [
+   "Based on NICE CKS *Pityriasis rosea* and PCDS/BAD leaflet themes:",
+   {
+    "h": "Self-care / reassurance"
+   },
+   {
+    "list": [
+     "Explain benign, **non-contagious**, self-limiting (6–12 weeks); no isolation needed; scars do not occur (pigment change may persist months in darker skin).",
+     "Emollients and soap substitutes; avoid hot showers, perfumed products, tight clothes; moderate sun exposure may speed resolution in some."
+    ]
+   },
+   {
+    "h": "Symptomatic Rx"
+   },
+   {
+    "list": [
+     "Itch: emollient ± **mild–moderate topical corticosteroid** (e.g. clobetasone butyrate 0.05%) short course to itchy areas; **sedating antihistamine** at night (e.g. chlorphenamine; counsel drowsiness) or non-sedating by day.",
+     "Evidence for **high-dose aciclovir** early in extensive/symptomatic disease is limited — specialist decision."
+    ]
+   },
+   {
+    "h": "Guttate psoriasis (if that is the diagnosis instead)"
+   },
+   {
+    "list": [
+     "Throat swab only if sore throat ongoing (treat streptococcal infection per NG84); emollients; topical vitamin D analogue ± topical steroid, coal-tar; refer dermatology for **NB-UVB phototherapy** if widespread/distressing (lesions too numerous for topicals). Often clears in 3–4 months; ~⅓ later develop chronic plaque psoriasis."
+    ]
+   },
+   {
+    "h": "Red flags / refer"
+   },
+   {
+    "list": [
+     "**Pregnancy:** PR in pregnancy (esp. first 15 weeks) has been associated with miscarriage/premature delivery — inform/refer to midwife/obstetrician (CKS).",
+     "Atypical features, palms/soles/mucosal involvement or sexual risk → **syphilis serology / refer to sexual health (GUM)**.",
+     "Persisting >12 weeks, diagnostic doubt, severe symptoms → GP/dermatology.",
+     "Suspected drug cause → review medication with prescriber."
+    ]
+   }
+  ],
+  "red_flags": [
+   "Palm or sole lesions, mouth ulcers, lymphadenopathy or sexual risk: **syphilis serology** and sexual-health referral.",
+   "Pityriasis rosea in the **first 15 weeks of pregnancy**: inform the midwife or obstetric team.",
+   "Lasting more than 3 months: reconsider the diagnosis."
+  ],
+  "pearls": [
+   "\"One big patch first, then many small ovals along the ribs\" = PR; \"shower of small drops after strep throat\" = guttate psoriasis.",
+   "The herald patch is often mis-treated as ringworm — antifungal failure is a clue.",
+   "**Every generalised papulosquamous rash: ask about sexual history and look at palms and soles.**",
+   "Do not prescribe oral steroids for PR (may prolong/worsen).",
+   "Provide BAD/PCDS patient leaflet; review if not resolving by 3 months."
+  ]
+ },
+ "photos": [
+  {
+   "title": "Pityriasis rosea",
+   "items": [
+    "m5w5:W5C01",
+    "m5w5:W5C02",
+    "m5w5:W5C03",
+    "m5w5:W5C04",
+    "m5w5:W5C05",
+    "m5w5:W5C06"
+   ]
+  },
+  {
+   "title": "Differential: guttate psoriasis",
+   "items": [
+    "m5w5:W5C07",
+    "m5w5:W5C08",
+    "m4w1:G01",
+    "m4w1:G02",
+    "m4w1:G03"
+   ]
+  },
+  {
+   "title": "Differential: secondary syphilis",
+   "items": [
+    "m5w5:W5C09"
+   ],
+   "tone": "danger"
+  }
+ ],
+ "references": [
+  {
+   "label": "NICE CKS: Pityriasis rosea",
+   "url": "https://cks.nice.org.uk/topics/pityriasis-rosea/"
+  },
+  {
+   "label": "DermNet: Pityriasis rosea",
+   "url": "https://dermnetnz.org/topics/pityriasis-rosea"
+  },
+  {
+   "label": "dermnetnz.org: pityriasis rosea images",
+   "url": "https://dermnetnz.org/images/pityriasis-rosea-images"
+  },
+  {
+   "label": "DermNet: Guttate psoriasis",
+   "url": "https://dermnetnz.org/topics/guttate-psoriasis"
+  },
+  {
+   "label": "DermNet: Syphilis",
+   "url": "https://dermnetnz.org/topics/syphilis"
+  }
+ ]
+}

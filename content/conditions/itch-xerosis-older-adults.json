@@ -1,198 +1,198 @@
 {
-  "title": "Itch & xerosis in older adults",
-  "aka": [
-    "pruritus",
-    "xerosis",
-    "asteatotic eczema",
-    "eczema craquelé",
-    "winter itch",
-    "venous eczema",
-    "lichen simplex",
-    "nodular prurigo"
+ "title": "Itch & xerosis in older adults",
+ "aka": [
+  "pruritus",
+  "xerosis",
+  "asteatotic eczema",
+  "eczema craquelé",
+  "winter itch",
+  "venous eczema",
+  "lichen simplex",
+  "nodular prurigo"
+ ],
+ "category": "older-skin",
+ "order": 1,
+ "module": "Module 6 · Week 4",
+ "summary": "Asteatotic eczema, venous and discoid eczema, lichen simplex and prurigo — with scabies and bullous pemphigoid as don’t-miss itch differentials.",
+ "card_image": "m6w4:W4A-01",
+ "glance": {
+  "think": "Dry, cracked “crazy-paving” shins or generalised itch in an older person, often worse in winter after hot baths and soaps.",
+  "engine": "Age-related barrier lipid loss plus environment, drugs and comorbidities drive xerosis → fissures → itch–scratch.",
+  "backbone": "Liberal greasy emollients and soap substitutes every day; short moderately potent steroid for asteatotic flares; review diuretics/statins with the GP.",
+  "never_miss": "Itch out of proportion to rash — think scabies, bullous pemphigoid, and systemic disease (CKD, cholestasis, lymphoma)."
+ },
+ "sections": {
+  "what": [
+   "**Xerosis** (dry skin) is the commonest skin problem and the commonest cause of itch in older adults. **Asteatotic eczema** (eczema craquelé) is the inflammatory end — polygonal “crazy-paving” red fissures, typically on the shins.",
+   "This page also covers related elderly itch patterns: venous (stasis) eczema, discoid eczema, lichen simplex / nodular prurigo, and the red-flag differentials of [scabies](condition:scabies) and pre-bullous pemphigoid."
   ],
-  "category": "older-skin",
-  "order": 1,
-  "module": "Module 6 · Week 4",
-  "summary": "Asteatotic eczema, venous and discoid eczema, lichen simplex and prurigo — with scabies and bullous pemphigoid as don’t-miss itch differentials.",
-  "card_image": "m6w4:W4A-01",
-  "glance": {
-    "think": "Dry, cracked “crazy-paving” shins or generalised itch in an older person, often worse in winter after hot baths and soaps.",
-    "engine": "Age-related barrier lipid loss plus environment, drugs and comorbidities drive xerosis → fissures → itch–scratch.",
-    "backbone": "Liberal greasy emollients and soap substitutes every day; short moderately potent steroid for asteatotic flares; review diuretics/statins with the GP.",
-    "never_miss": "Itch out of proportion to rash — think scabies, bullous pemphigoid, and systemic disease (CKD, cholestasis, lymphoma)."
-  },
-  "sections": {
-    "what": [
-      "**Xerosis** (dry skin) is the commonest skin problem and the commonest cause of itch in older adults. **Asteatotic eczema** (eczema craquelé) is the inflammatory end — polygonal “crazy-paving” red fissures, typically on the shins.",
-      "This page also covers related elderly itch patterns: venous (stasis) eczema, discoid eczema, lichen simplex / nodular prurigo, and the red-flag differentials of [scabies](condition:scabies) and pre-bullous pemphigoid."
-    ],
-    "cause": [
-      {
-        "list": [
-          "Ageing epidermis: fewer lipids and NMF, slower repair, higher water loss; less sebum/sweat.",
-          "Environment: low humidity, central heating, hot showers, soaps and antiseptic washes.",
-          "Drugs: diuretics, **statins**, retinoids, some antiandrogens, chemotherapy/EGFR inhibitors.",
-          "Systemic: hypothyroidism, CKD, diabetes, malnutrition, HIV, malignancy (acquired ichthyosis)."
-        ]
-      }
-    ],
-    "features": [
-      {
-        "list": [
-          "Dull rough scale, tight feel, nocturnal itch; winter flares.",
-          "Asteatotic eczema: shallow red fissures in a cracked-porcelain network on shins (± thighs, arms).",
-          "Venous eczema: medial gaiter area with haemosiderin, oedema, varicose veins — see also [venous leg ulcer](condition:venous-leg-ulcer) / [red leg](condition:red-leg).",
-          "Discoid eczema: coin-shaped weeping plaques.",
-          "Lichen simplex / prurigo: thick scratched plaques or nodules at reachable sites."
-        ]
-      },
-      {
-        "callout": "tip",
-        "title": "Skin of colour",
-        "text": "Erythema may look violaceous or grey-brown; judge on scale, thickening and symptoms."
-      }
-    ],
-    "diagnosis": [
-      {
-        "list": [
-          "Clinical: season, bathing habits, products, drugs, care-home contacts.",
-          "Itch >> rash, new generalised dryness, or resistance → systemic screen and “don’t miss” list below.",
-          "Swab only if infected; patch test if products seem to worsen it."
-        ]
-      }
-    ],
-    "differentials": [
-      {
-        "table": {
-          "head": [
-            "Look-alike",
-            "Clues"
-          ],
-          "rows": [
-            [
-              "Scabies",
-              "Burrows, nocturnal itch, itchy contacts/care home"
-            ],
-            [
-              "Bullous pemphigoid (pre-bullous)",
-              "Urticated plaques, intense itch, older adult → refer"
-            ],
-            [
-              "Venous / discoid eczema",
-              "Gaiter staining or coin plaques"
-            ],
-            [
-              "Contact dermatitis",
-              "Follows medicaments/emollient ingredients"
-            ],
-            [
-              "Tinea",
-              "Annular active edge; scrapings"
-            ],
-            [
-              "Systemic itch",
-              "Little rash; weight loss, night sweats, nodes"
-            ]
-          ]
-        }
-      }
-    ],
-    "management": [
-      {
-        "h": "Self-care (cornerstone)"
-      },
-      {
-        "list": [
-          "Emollients **liberally and often** (≥2–3× daily and after washing). Greasier ointments for legs; urea 5–10% for scale.",
-          "Soap substitutes; short lukewarm showers; pat dry; no bubble bath.",
-          "Humidify rooms; cotton clothes.",
-          "**Fire risk:** paraffin (and other) emollients on fabrics — no smoking/naked flames; wash clothing often (MHRA).",
-          "**Falls risk:** slippery bathroom floors — non-slip mats; apply after stepping out."
-        ]
-      },
-      {
-        "h": "Prescribing"
-      },
-      {
-        "list": [
-          "Asteatotic flare: short **moderately potent** topical steroid (e.g. clobetasone butyrate) 1–2 weeks plus ongoing emollient; potent short-term for thick leg plaques.",
-          "Infected eczema: treat per NICE guidance — avoid routine topical antibiotics.",
-          "Drug review with the GP (diuretic/statin) — do not stop cardiovascular drugs unilaterally.",
-          "Venous eczema: emollient + steroid + compression after ABPI assessment pathways.",
-          "Lichen simplex/prurigo: potent steroid ± occlusion; address itch driver; refer if refractory."
-        ]
-      }
-    ],
-    "red_flags": [
-      "Generalised itch with little rash, weight loss, night sweats or lymphadenopathy → systemic work-up.",
-      "Suspected scabies outbreak in a care home.",
-      "New intense itch with urticated plaques in an older adult → consider pemphigoid; refer.",
-      "Non-healing “eczema” → patch testing or alternative diagnosis."
-    ],
-    "pearls": [
-      "“Steroid settles it but it always comes back” usually means **no maintenance emollient**.",
-      "Help older people reach their legs — carers, pumps, long-handled applicators.",
-      "Teach fingertip units; steroid treats the flare, emollient prevents the next one."
+  "cause": [
+   {
+    "list": [
+     "Ageing epidermis: fewer lipids and NMF, slower repair, higher water loss; less sebum/sweat.",
+     "Environment: low humidity, central heating, hot showers, soaps and antiseptic washes.",
+     "Drugs: diuretics, **statins**, retinoids, some antiandrogens, chemotherapy/EGFR inhibitors.",
+     "Systemic: hypothyroidism, CKD, diabetes, malnutrition, HIV, malignancy (acquired ichthyosis)."
     ]
+   }
+  ],
+  "features": [
+   {
+    "list": [
+     "Dull rough scale, tight feel, nocturnal itch; winter flares.",
+     "Asteatotic eczema: shallow red fissures in a cracked-porcelain network on shins (± thighs, arms).",
+     "Venous eczema: medial gaiter area with haemosiderin, oedema, varicose veins — see also [venous leg ulcer](condition:venous-leg-ulcer) / [red leg](condition:red-leg).",
+     "Discoid eczema: coin-shaped weeping plaques.",
+     "Lichen simplex / prurigo: thick scratched plaques or nodules at reachable sites."
+    ]
+   },
+   {
+    "callout": "tip",
+    "title": "Skin of colour",
+    "text": "Erythema may look violaceous or grey-brown; judge on scale, thickening and symptoms."
+   }
+  ],
+  "diagnosis": [
+   {
+    "list": [
+     "Clinical: season, bathing habits, products, drugs, care-home contacts.",
+     "Itch >> rash, new generalised dryness, or resistance → systemic screen and “don’t miss” list below.",
+     "Swab only if infected; patch test if products seem to worsen it."
+    ]
+   }
+  ],
+  "differentials": [
+   {
+    "table": {
+     "head": [
+      "Look-alike",
+      "Clues"
+     ],
+     "rows": [
+      [
+       "Scabies",
+       "Burrows, nocturnal itch, itchy contacts/care home"
+      ],
+      [
+       "Bullous pemphigoid (pre-bullous)",
+       "Urticated plaques, intense itch, older adult → refer"
+      ],
+      [
+       "Venous / discoid eczema",
+       "Gaiter staining or coin plaques"
+      ],
+      [
+       "Contact dermatitis",
+       "Follows medicaments/emollient ingredients"
+      ],
+      [
+       "Tinea",
+       "Annular active edge; scrapings"
+      ],
+      [
+       "Systemic itch",
+       "Little rash; weight loss, night sweats, nodes"
+      ]
+     ]
+    }
+   }
+  ],
+  "management": [
+   {
+    "h": "Self-care (cornerstone)"
+   },
+   {
+    "list": [
+     "Emollients **liberally and often** (≥2–3× daily and after washing). Greasier ointments for legs; urea 5–10% for scale.",
+     "Soap substitutes; short lukewarm showers; pat dry; no bubble bath.",
+     "Humidify rooms; cotton clothes.",
+     "**Fire risk:** paraffin (and other) emollients on fabrics — no smoking/naked flames; wash clothing often (MHRA).",
+     "**Falls risk:** slippery bathroom floors — non-slip mats; apply after stepping out."
+    ]
+   },
+   {
+    "h": "Prescribing"
+   },
+   {
+    "list": [
+     "Asteatotic flare: short **moderately potent** topical steroid (e.g. clobetasone butyrate) 1–2 weeks plus ongoing emollient; potent short-term for thick leg plaques.",
+     "Infected eczema: treat per NICE guidance — avoid routine topical antibiotics.",
+     "Drug review with the GP (diuretic/statin) — do not stop cardiovascular drugs unilaterally.",
+     "Venous eczema: emollient + steroid + compression after ABPI assessment pathways.",
+     "Lichen simplex/prurigo: potent steroid ± occlusion; address itch driver; refer if refractory."
+    ]
+   }
+  ],
+  "red_flags": [
+   "Generalised itch with little rash, weight loss, night sweats or lymphadenopathy → systemic work-up.",
+   "Suspected scabies outbreak in a care home.",
+   "New intense itch with urticated plaques in an older adult → consider pemphigoid; refer.",
+   "Non-healing “eczema” → patch testing or alternative diagnosis."
+  ],
+  "pearls": [
+   "“Steroid settles it but it always comes back” usually means **no maintenance emollient**.",
+   "Help older people reach their legs — carers, pumps, long-handled applicators.",
+   "Teach fingertip units; steroid treats the flare, emollient prevents the next one."
+  ]
+ },
+ "photos": [
+  {
+   "title": "Xerosis and asteatotic eczema",
+   "items": [
+    "m6w4:W4A-01",
+    "m6w4:W4A-02",
+    "m6w4:W4A-03",
+    "m6w4:W4A-04",
+    "m6w4:W4A-05",
+    "m6w4:W4A-06"
+   ]
   },
-  "photos": [
-    {
-      "title": "Xerosis and asteatotic eczema",
-      "items": [
-        "m6w4:W4A-01",
-        "m6w4:W4A-02",
-        "m6w4:W4A-03",
-        "m6w4:W4A-04",
-        "m6w4:W4A-05",
-        "m6w4:W4A-06"
-      ]
-    },
-    {
-      "title": "Venous, discoid eczema and lichen simplex",
-      "items": [
-        "m6w4:W4A-07",
-        "m6w4:W4A-08",
-        "m6w4:W4A-09",
-        "m6w4:W4A-10",
-        "m6w4:W4A-11",
-        "m6w4:W4A-12"
-      ]
-    },
-    {
-      "title": "Prurigo and neuropathic itch",
-      "items": [
-        "m6w4:W4A-13",
-        "m6w4:W4A-14"
-      ]
-    },
-    {
-      "title": "Don’t miss: scabies and bullous pemphigoid",
-      "tone": "danger",
-      "items": [
-        "m6w4:W4A-15",
-        "m6w4:W4A-16",
-        "m6w4:W4A-17"
-      ]
-    }
-  ],
-  "references": [
-    {
-      "label": "DermNet: Asteatotic eczema",
-      "url": "https://dermnetnz.org/topics/asteatotic-eczema"
-    },
-    {
-      "label": "PCDS: Asteatotic eczema",
-      "url": "https://www.pcds.org.uk/clinical-guidance/eczema-asteatotic-eczema-syn-xerotic-eczema-eczema-craquele"
-    },
-    {
-      "label": "MHRA: Emollients and fire risk",
-      "url": "https://www.gov.uk/guidance/safe-use-of-emollient-skincare-products-to-avoid-fire-risk"
-    },
-    {
-      "label": "NICE CKS: Itch – widespread",
-      "url": "https://cks.nice.org.uk/topics/itch-widespread/"
-    }
-  ],
-  "slug": "itch-xerosis-older-adults",
-  "status": "published"
+  {
+   "title": "Venous, discoid eczema and lichen simplex",
+   "items": [
+    "m6w4:W4A-07",
+    "m6w4:W4A-08",
+    "m6w4:W4A-09",
+    "m6w4:W4A-10",
+    "m6w4:W4A-11",
+    "m6w4:W4A-12"
+   ]
+  },
+  {
+   "title": "Prurigo and neuropathic itch",
+   "items": [
+    "m6w4:W4A-13",
+    "m6w4:W4A-14"
+   ]
+  },
+  {
+   "title": "Don’t miss: scabies and bullous pemphigoid",
+   "tone": "danger",
+   "items": [
+    "m6w4:W4A-15",
+    "m6w4:W4A-16",
+    "m6w4:W4A-17"
+   ]
+  }
+ ],
+ "references": [
+  {
+   "label": "DermNet: Asteatotic eczema",
+   "url": "https://dermnetnz.org/topics/asteatotic-eczema"
+  },
+  {
+   "label": "PCDS: Asteatotic eczema",
+   "url": "https://www.pcds.org.uk/clinical-guidance/eczema-asteatotic-eczema-syn-xerotic-eczema-eczema-craquele"
+  },
+  {
+   "label": "MHRA: Emollients and fire risk",
+   "url": "https://www.gov.uk/drug-safety-update/emollients-new-information-about-risk-of-severe-and-fatal-burns-with-paraffin-containing-and-paraffin-free-emollients"
+  },
+  {
+   "label": "NICE CKS: Itch – widespread",
+   "url": "https://cks.nice.org.uk/topics/itch-widespread/"
+  }
+ ],
+ "slug": "itch-xerosis-older-adults",
+ "status": "published"
 }

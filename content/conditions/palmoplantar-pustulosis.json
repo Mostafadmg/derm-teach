@@ -1,0 +1,161 @@
+{
+ "slug": "palmoplantar-pustulosis",
+ "title": "Palmoplantar pustulosis & palmoplantar psoriasis",
+ "category": "hands-feet-folds",
+ "status": "published",
+ "order": 5,
+ "module": "Module 3 · Week 6",
+ "aka": [
+  "PPP",
+  "pustular psoriasis palms",
+  "palmar psoriasis",
+  "plantar psoriasis",
+  "smoking pustules",
+  "sterile pustules"
+ ],
+ "summary": "Sterile yellow pustules that turn brown on the palms and soles (PPP), strongly linked with smoking, and well-demarcated hyperkeratotic plaques of palmoplantar psoriasis. Both are stubborn and disabling; use potent steroids under occlusion and refer early.",
+ "card_image": "m3w6:D01",
+ "glance": {
+  "think": "Crops of yellow pustules and brown dots on the palms or soles, or thick, fissured, sharply bordered plaques.",
+  "engine": "Neutrophilic inflammation (IL-36/IL-17); smoking is the main modifiable trigger for PPP.",
+  "backbone": "Stop smoking, very potent topical steroid (± occlusion), emollients, then specialist phototherapy, acitretin or biologics (NICE CG153 for psoriasis).",
+  "never_miss": "Generalised pustular psoriasis (emergency), tinea pedis with pustules, and pompholyx."
+ },
+ "sections": {
+  "what": [
+   {
+    "h": "Palmoplantar pustulosis"
+   },
+   {
+    "list": [
+     "chronic relapsing **sterile** pustular eruption confined to palms/soles; now regarded as **distinct from psoriasis** (different genetics — not linked to PSORS1/HLA-C*06; IL-36/IL-17/IL-8 pathways), though ~10–25% also have plaque psoriasis. Acrodermatitis continua of Hallopeau = digit-tip variant."
+    ]
+   },
+   {
+    "h": "Palmoplantar psoriasis"
+   },
+   {
+    "list": [
+     "psoriasis localised to palms/soles, alone or with plaques elsewhere; disproportionately disabling (manual tasks, walking)."
+    ]
+   }
+  ],
+  "cause": [
+   {
+    "h": "Palmoplantar pustulosis"
+   },
+   {
+    "list": [
+     "adults 20–60, **women ≈ 4:1**, **70–90% current/ex-smokers** (nicotinic receptors on eccrine ducts); associations: thyroid disease, coeliac disease, diabetes, psoriatic arthritis, SAPHO/sternoclavicular osteitis; drug-induced by **TNF-α inhibitors**."
+    ]
+   },
+   {
+    "h": "Palmoplantar psoriasis"
+   },
+   {
+    "list": [
+     "trauma/friction (Koebner — manual work), infection, stress, lithium, β-blockers, smoking, alcohol, obesity."
+    ]
+   }
+  ],
+  "features": [
+   {
+    "h": "Palmoplantar pustulosis"
+   },
+   {
+    "list": [
+     "crops of 1–10 mm yellow pustules on thenar/hypothenar eminences, central palms, insteps, heels → dry to **brown \"rusty\" macules**; scale, fissures; burning/pain > itch; symmetrical."
+    ]
+   },
+   {
+    "h": "Palmoplantar psoriasis"
+   },
+   {
+    "list": [
+     "(1) well-defined red scaly plaques; (2) diffuse thick hyperkeratosis without much redness (acquired keratoderma). Painful **fissures**; sharp border; symmetrical. More frequent **nail psoriasis** and **psoriatic arthritis** — screen (PEST questionnaire)."
+    ]
+   }
+  ],
+  "diagnosis": [
+   {
+    "h": "Palmoplantar pustulosis"
+   },
+   {
+    "list": [
+     "clinical; swab (sterile) and scrapings to exclude infection/tinea if unilateral."
+    ]
+   }
+  ],
+  "differentials": [
+   {
+    "h": "Palmoplantar psoriasis"
+   },
+   {
+    "list": [
+     "hyperkeratotic hand eczema (hardest — biopsy or patch testing sometimes needed; they can coexist), tinea (scrape), KE, PPP, keratoderma."
+    ]
+   }
+  ],
+  "management": [
+   {
+    "h": "Palmoplantar pustulosis"
+   },
+   {
+    "list": [
+     "**smoking cessation** (strongest modifiable factor; refer to stop-smoking service/NRT); emollients; **very potent TCS** (clobetasol) ± occlusion overnight; salicylic acid for scale. Refer: hand–foot PUVA, **acitretin**, methotrexate, ciclosporin; biologics less reliable than in psoriasis. Screen thyroid/coeliac if symptomatic."
+    ]
+   },
+   {
+    "h": "Palmoplantar psoriasis"
+   },
+   {
+    "list": [
+     "emollients and keratolytics (salicylic acid 2–5%, urea); **potent/very potent TCS** ± vitamin D analogue (calcipotriol) or combination products; occlusion overnight; lifestyle (smoking, alcohol, weight). Refer (CKS/NICE CG153): hand–foot PUVA, acitretin, methotrexate, ciclosporin, apremilast and biologics per NICE psoriasis TAs."
+    ]
+   }
+  ],
+  "red_flags": [
+   "Fever with sheets of pustules beyond the hands and feet: **generalised pustular psoriasis**, emergency.",
+   "Inability to work or walk: early dermatology referral.",
+   "Pustules on one foot only, or with interdigital scale: scrape for **tinea**."
+  ],
+  "pearls": [
+   "Smoking cessation is the single most effective change in PPP; offer stop-smoking support at every visit.",
+   "Use very potent steroids under cling-film or cotton-glove occlusion at night for short periods, then step down.",
+   "Tell patients the pustules are **sterile**: antibiotics do not help.",
+   "Screen for psoriatic arthritis (PEST) and ask about chest-wall pain (SAPHO)."
+  ]
+ },
+ "photos": [
+  {
+   "title": "Palmoplantar pustulosis",
+   "items": [
+    "m3w6:D01",
+    "m3w6:D02",
+    "m3w6:D03"
+   ]
+  },
+  {
+   "title": "Palmoplantar psoriasis",
+   "items": [
+    "m3w6:E01",
+    "m3w6:E02",
+    "m3w6:E03"
+   ]
+  }
+ ],
+ "references": [
+  {
+   "label": "DermNet: Palmoplantar pustulosis",
+   "url": "https://dermnetnz.org/topics/palmoplantar-pustulosis"
+  },
+  {
+   "label": "NICE CG153: Psoriasis: assessment and management",
+   "url": "https://www.nice.org.uk/guidance/cg153"
+  },
+  {
+   "label": "NICE CKS: Psoriasis",
+   "url": "https://cks.nice.org.uk/topics/psoriasis/"
+  }
+ ]
+}

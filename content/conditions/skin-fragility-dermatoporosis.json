@@ -1,131 +1,131 @@
 {
-  "title": "Skin fragility & dermatoporosis",
-  "aka": [
-    "senile purpura",
-    "actinic purpura",
-    "Bateman purpura",
-    "dermatoporosis",
-    "skin tears",
-    "stellate pseudoscars"
+ "title": "Skin fragility & dermatoporosis",
+ "aka": [
+  "senile purpura",
+  "actinic purpura",
+  "Bateman purpura",
+  "dermatoporosis",
+  "skin tears",
+  "stellate pseudoscars"
+ ],
+ "category": "older-skin",
+ "order": 2,
+ "module": "Module 6 · Week 4",
+ "summary": "Actinic purpura, thin skin, skin tears and stellate pseudoscars — protect fragile skin and review anticoagulants/steroids carefully.",
+ "card_image": "m6w4:W4B-01",
+ "glance": {
+  "think": "Painless purple patches on thin sun-damaged forearms after minimal trauma in an older person.",
+  "engine": "UV and age destroy dermal support around vessels → easy shear bleeding; advanced form is dermatoporosis with skin tears.",
+  "backbone": "Reassure, protect (sleeves, pad furniture), daily emollient and sun protection; medication review with the prescriber.",
+  "never_miss": "Palpable purpura, non-exposed-site bruising, mucosal bleeding or safeguarding patterns — investigate / escalate."
+ },
+ "sections": {
+  "what": [
+   "**Actinic (senile/Bateman) purpura** is benign purple-red ecchymoses on thin sun-damaged forearms and hands after minimal trauma. **Dermatoporosis** describes chronic cutaneous insufficiency — atrophy, purpura, stellate pseudoscars and **skin tears**."
   ],
-  "category": "older-skin",
-  "order": 2,
-  "module": "Module 6 · Week 4",
-  "summary": "Actinic purpura, thin skin, skin tears and stellate pseudoscars — protect fragile skin and review anticoagulants/steroids carefully.",
-  "card_image": "m6w4:W4B-01",
-  "glance": {
-    "think": "Painless purple patches on thin sun-damaged forearms after minimal trauma in an older person.",
-    "engine": "UV and age destroy dermal support around vessels → easy shear bleeding; advanced form is dermatoporosis with skin tears.",
-    "backbone": "Reassure, protect (sleeves, pad furniture), daily emollient and sun protection; medication review with the prescriber.",
-    "never_miss": "Palpable purpura, non-exposed-site bruising, mucosal bleeding or safeguarding patterns — investigate / escalate."
-  },
-  "sections": {
-    "what": [
-      "**Actinic (senile/Bateman) purpura** is benign purple-red ecchymoses on thin sun-damaged forearms and hands after minimal trauma. **Dermatoporosis** describes chronic cutaneous insufficiency — atrophy, purpura, stellate pseudoscars and **skin tears**."
-    ],
-    "cause": [
-      {
-        "list": [
-          "Chronic UV + intrinsic ageing → dermal collagen/elastin loss; vessels rupture with minor shear.",
-          "Aggravators: anticoagulants, antiplatelets, topical/oral/inhaled **corticosteroids**, SSRIs, fish oil/ginkgo/high-dose vitamin E.",
-          "Platelets and clotting are usually normal in classic actinic purpura."
-        ]
-      }
-    ],
-    "features": [
-      {
-        "list": [
-          "Irregular dark-red/purple patches 1–5 cm on extensor forearms and dorsal hands; fade to brown haemosiderin.",
-          "Thin translucent wrinkled skin; stellate pseudoscars; skin tears from shear/adhesive dressings.",
-          "Not tender; **not palpable** (palpable = vasculitis)."
-        ]
-      }
-    ],
-    "diagnosis": [
-      "Clinical at typical sites. Investigate FBC/clotting/LFTs (± INR) if purpura is on covered sites, palpable, with mucosal bleeding, systemic symptoms, new anticoagulant, or unexpected INR rise. Consider elder abuse if history/pattern mismatch."
-    ],
-    "differentials": [
-      {
-        "table": {
-          "head": [
-            "Look-alike",
-            "Clues"
-          ],
-          "rows": [
-            [
-              "Steroid purpura",
-              "Long-term steroid exposure"
-            ],
-            [
-              "Thrombocytopenia / coagulopathy",
-              "Petechiae, mucosa, abnormal bloods"
-            ],
-            [
-              "Vasculitis",
-              "Palpable purpura, legs, systemic features"
-            ],
-            [
-              "Scurvy",
-              "Perifollicular haemorrhage, corkscrew hairs"
-            ],
-            [
-              "Non-accidental injury",
-              "Grip marks, multiple ages of bruise"
-            ]
-          ]
-        }
-      }
-    ],
-    "management": [
-      {
-        "list": [
-          "Reassure: benign but marks fragility.",
-          "Protect: long sleeves, tubular forearm protectors, pad furniture, careful carer transfers; avoid harsh adhesives.",
-          "Sun protection and daily emollient.",
-          "Medication review with the GP — **never stop an anticoagulant solely for actinic purpura** without discussion.",
-          "Skin tears: gently approximate, non-adherent dressings, tetanus status; refer complex wounds."
-        ]
-      }
-    ],
-    "red_flags": [
-      "Palpable purpura or systemic vasculitis signs.",
-      "Unusual distribution / safeguarding concern.",
-      "Large unexplained bruises with rising INR."
-    ],
-    "pearls": [
-      "Actinic purpura is a counselling and protection problem more than a cream problem.",
-      "Inhaled as well as topical steroids can contribute — ask.",
-      "Document skin-tear classification if using local wound pathways."
+  "cause": [
+   {
+    "list": [
+     "Chronic UV + intrinsic ageing → dermal collagen/elastin loss; vessels rupture with minor shear.",
+     "Aggravators: anticoagulants, antiplatelets, topical/oral/inhaled **corticosteroids**, SSRIs, fish oil/ginkgo/high-dose vitamin E.",
+     "Platelets and clotting are usually normal in classic actinic purpura."
     ]
-  },
-  "photos": [
-    {
-      "title": "Purpura, thin skin and skin tears",
-      "items": [
-        "m6w4:W4B-01",
-        "m6w4:W4B-02",
-        "m6w4:W4B-03",
-        "m6w4:W4B-04",
-        "m6w4:W4B-05",
-        "m6w4:W4B-06",
-        "m6w4:W4B-07"
+   }
+  ],
+  "features": [
+   {
+    "list": [
+     "Irregular dark-red/purple patches 1–5 cm on extensor forearms and dorsal hands; fade to brown haemosiderin.",
+     "Thin translucent wrinkled skin; stellate pseudoscars; skin tears from shear/adhesive dressings.",
+     "Not tender; **not palpable** (palpable = vasculitis)."
+    ]
+   }
+  ],
+  "diagnosis": [
+   "Clinical at typical sites. Investigate FBC/clotting/LFTs (± INR) if purpura is on covered sites, palpable, with mucosal bleeding, systemic symptoms, new anticoagulant, or unexpected INR rise. Consider elder abuse if history/pattern mismatch."
+  ],
+  "differentials": [
+   {
+    "table": {
+     "head": [
+      "Look-alike",
+      "Clues"
+     ],
+     "rows": [
+      [
+       "Steroid purpura",
+       "Long-term steroid exposure"
+      ],
+      [
+       "Thrombocytopenia / coagulopathy",
+       "Petechiae, mucosa, abnormal bloods"
+      ],
+      [
+       "Vasculitis",
+       "Palpable purpura, legs, systemic features"
+      ],
+      [
+       "Scurvy",
+       "Perifollicular haemorrhage, corkscrew hairs"
+      ],
+      [
+       "Non-accidental injury",
+       "Grip marks, multiple ages of bruise"
       ]
+     ]
     }
+   }
   ],
-  "references": [
-    {
-      "label": "DermNet: Senile purpura",
-      "url": "https://dermnetnz.org/topics/senile-purpura"
-    },
-    {
-      "label": "DermNet: Dermatoporosis",
-      "url": "https://dermnetnz.org/topics/dermatoporosis"
-    },
-    {
-      "label": "PCDS: Ageing skin",
-      "url": "https://www.pcds.org.uk/clinical-guidance/ageing-skin"
-    }
+  "management": [
+   {
+    "list": [
+     "Reassure: benign but marks fragility.",
+     "Protect: long sleeves, tubular forearm protectors, pad furniture, careful carer transfers; avoid harsh adhesives.",
+     "Sun protection and daily emollient.",
+     "Medication review with the GP — **never stop an anticoagulant solely for actinic purpura** without discussion.",
+     "Skin tears: gently approximate, non-adherent dressings, tetanus status; refer complex wounds."
+    ]
+   }
   ],
-  "slug": "skin-fragility-dermatoporosis",
-  "status": "published"
+  "red_flags": [
+   "Palpable purpura or systemic vasculitis signs.",
+   "Unusual distribution / safeguarding concern.",
+   "Large unexplained bruises with rising INR."
+  ],
+  "pearls": [
+   "Actinic purpura is a counselling and protection problem more than a cream problem.",
+   "Inhaled as well as topical steroids can contribute — ask.",
+   "Document skin-tear classification if using local wound pathways."
+  ]
+ },
+ "photos": [
+  {
+   "title": "Purpura, thin skin and skin tears",
+   "items": [
+    "m6w4:W4B-01",
+    "m6w4:W4B-02",
+    "m6w4:W4B-03",
+    "m6w4:W4B-04",
+    "m6w4:W4B-05",
+    "m6w4:W4B-06",
+    "m6w4:W4B-07"
+   ]
+  }
+ ],
+ "references": [
+  {
+   "label": "DermNet: Senile purpura",
+   "url": "https://dermnetnz.org/topics/senile-purpura"
+  },
+  {
+   "label": "DermNet: Dermatoporosis",
+   "url": "https://dermnetnz.org/topics/ageing-skin"
+  },
+  {
+   "label": "PCDS: Ageing skin",
+   "url": "https://www.pcds.org.uk/clinical-guidance/ageing-skin"
+  }
+ ],
+ "slug": "skin-fragility-dermatoporosis",
+ "status": "published"
 }

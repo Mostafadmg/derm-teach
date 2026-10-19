@@ -1,0 +1,347 @@
+{
+ "slug": "exam-module-4",
+ "title": "Exam review: Module 4 · inflammatory dermatoses",
+ "category": "exam-review",
+ "status": "published",
+ "order": 4,
+ "module": "End-of-module exam · Apr 2024",
+ "layout": "article",
+ "aka": [
+  "exam",
+  "SBA",
+  "revision",
+  "module 4 exam",
+  "single best answer"
+ ],
+ "summary": "All 30 questions from the Module 4 end-of-module exam, with the recommended UK answer, why the distractors are wrong and links to the matching condition pages. Themes: Blistering mimics, IM (not IV) adrenaline, SJS vs TEN cut-off, pustular psoriasis vs DH, eczema herpeticum.",
+ "article": [
+  {
+   "id": "about",
+   "title": "About this review",
+   "short": "About",
+   "blocks": [
+    "Revision key for the DermUSW end-of-module exam for Module 4 (Apr 2024): 30 single-best-answer questions. **Saved** is the answer ticked before submission (not a graded course key). **Recommended** is the teaching answer on current UK guidance (NICE / CKS, BNF, BAD, BASHH, Resuscitation Council UK, UKHSA).",
+    {
+     "callout": "info",
+     "title": "Key",
+     "list": [
+      "✓ saved and recommended agree",
+      "✗ the saved answer is probably wrong",
+      "⚠ debatable or image-dependent; the reasoning is given and any course-vs-UK difference is flagged"
+     ]
+    },
+    {
+     "table": {
+      "head": [
+       "✓ agree",
+       "✗ likely wrong",
+       "⚠ debatable"
+      ],
+      "rows": [
+       [
+        "20",
+        "7 (Q15, Q16, Q20, Q22, Q23, Q27, Q29)",
+        "3 (Q2, Q8, Q14)"
+       ]
+      ]
+     }
+    },
+    "**Main themes of errors:** Blistering mimics, **IM not IV adrenaline**, SJS vs TEN cut-off, pustular psoriasis vs DH, eczema herpeticum.",
+    "Each question links to the condition page that covers the topic, where one exists."
+   ]
+  },
+  {
+   "id": "questions",
+   "title": "Questions & answers",
+   "short": "Questions",
+   "blocks": [
+    {
+     "table": {
+      "head": [
+       "Q",
+       "Topic",
+       "Saved",
+       "Recommended",
+       "Why, and why the distractors are wrong",
+       "Read more"
+      ],
+      "rows": [
+       [
+        "1",
+        "Trainee bricklayer, rough hands then vesicles, feet too (leather boots), better on holiday",
+        "Irritant + allergic CD",
+        "**ICD + ACD**",
+        "Wet cement is an irritant (alkaline) **plus chromate allergy** (cement and leather tanning, which explains the boots/feet). Gloves made of leather contain chromate too. No atopic history. Fungal infection doesn't improve on holiday",
+        "[Contact dermatitis](condition:contact-dermatitis), [Hand eczema (chronic, occupational & pompholyx)](condition:hand-eczema)"
+       ],
+       [
+        "2",
+        "4-year-old, red swollen itchy cheeks, flexural scratching, red watery eyes, antibacterial soap made it worse",
+        "Establish a diagnosis first",
+        "No ideal option. UK management would be **stop the soap → emollient + soap substitute → mild TCS (hydrocortisone 1%) for the face**, stepping to moderate for short periods if needed",
+        "The picture is AE (flexures + face) ± irritant soap. \"Establish a diagnosis first\" is defensible only if the image is atypical (consider ACD, impetiginisation, or eczema herpeticum if punched-out erosions). **Potent TCS on a 4-year-old's face is not UK practice** (NICE CG57). Emollients alone are insufficient for an active flare. Oral antibiotics only if infected (NG190)",
+        "[Eczema / dermatitis](condition:eczema-dermatitis)"
+       ],
+       [
+        "3",
+        "Linear vesicles/bullae on exposed limbs after clearing shrubs near woods",
+        "Poison ivy",
+        "**ACD to plants (poison ivy, urushiol)**",
+        "Linear streaks where the plant brushed the skin. In the UK, think also of **phytophotodermatitis** (giant hogweed, rue, citrus) and primula. BP doesn't give linear streaks. Zoster is dermatomal",
+        "[Phytophotodermatitis & cutaneous amyloid](condition:phytophotodermatitis-amyloid)"
+       ],
+       [
+        "4",
+        "Pruritic wheals with heat, anxiety and exercise",
+        "Cholinergic urticaria",
+        "**Cholinergic urticaria**",
+        "Small 1–3 mm wheals with a flare, triggered by a rise in core temperature. Solar urticaria needs sun. \"Chronic idiopathic\" ignores the clear trigger",
+        "[Urticaria & angioedema](condition:urticaria-angioedema)"
+       ],
+       [
+        "5",
+        "60-year-old, oral ulcers then flaccid bullae; biopsy = PV",
+        "Urgent referral + prednisolone",
+        "**Urgent dermatology referral and start oral prednisolone** (course key)",
+        "Untreated PV progresses, and steroids are the bridge. **UK note:** specialists now give **rituximab + prednisolone** first line (BAD 2017). In primary care, start steroids only with on-call dermatology advice. Doxycycline is for BP. Routine referral is too slow",
+        "[Pemphigus vulgaris & the pemphigus family](condition:pemphigus)"
+       ],
+       [
+        "6",
+        "ACD pathogenesis (hair dye)",
+        "Type IV",
+        "**Delayed type IV hypersensitivity**",
+        "It needs prior sensitisation and is T-cell-mediated, 48–96 h. A corrosive non-specific response is ICD. Type III is immune complex",
+        "[Contact dermatitis](condition:contact-dermatitis)"
+       ],
+       [
+        "7",
+        "Atopic woman, deep-seated itchy palmar vesicles for 6 weeks",
+        "Potent TCS 2 weeks",
+        "**Potent TCS once daily for ~2 weeks**",
+        "Pompholyx (dyshidrotic eczema): potent or very potent TCS short-term + emollients. Prednisolone only for severe flares (specialist). Dapsone has no role. Permethrin only if scabies",
+        "[Hand eczema (chronic, occupational & pompholyx)](condition:hand-eczema)"
+       ],
+       [
+        "8",
+        "2-year-old with AE flaring with pollen; which cell drives the clinical features",
+        "Mast cells",
+        "**Mast cells** (course key for the immediate type I pollen reaction)",
+        "IgE-armed mast cells degranulate on allergen exposure. **Note:** eczema itself is driven by **Th2 T cells** (IL-4/13/31), so \"T cells\" is defensible for an *eczema* flare. Read the stem: \"manifestation after exposure to pollen\" suggests type I",
+        "[Eczema / dermatitis](condition:eczema-dermatitis)"
+       ],
+       [
+        "9",
+        "Wheals <24 h, recurring for 8 months",
+        "Chronic urticaria",
+        "**Chronic (spontaneous) urticaria**",
+        "More than 6 weeks = chronic. Urticarial vasculitis lasts >24 h with bruising. Autoimmune urticaria is a subtype that needs specialist tests",
+        "[Urticaria & angioedema](condition:urticaria-angioedema)"
+       ],
+       [
+        "10",
+        "19-year-old, burning prodrome, painful vesicles on the back, 2 days, well",
+        "Oral aciclovir",
+        "**Oral aciclovir 800 mg five times daily for 7 days**",
+        "Shingles <72 h with **moderate–severe pain/rash** meets CKS criteria for antivirals even if young and truncal. Flucloxacillin is for bacterial infection. Don't wait for swabs",
+        "[Herpes zoster (shingles)](condition:herpes-zoster)"
+       ],
+       [
+        "11",
+        "Raindrop plaques 2 weeks after a sore throat",
+        "Guttate psoriasis",
+        "**Guttate psoriasis**",
+        "Post-streptococcal. PR has a herald patch and collarette. Drug reaction is possible but the morphology fits guttate",
+        "[Psoriasis](condition:psoriasis)"
+       ],
+       [
+        "12",
+        "Eyelid ACD to new cosmetics; which metal",
+        "Nickel",
+        "**Nickel**",
+        "The commonest UK metal allergen (eyeshadow and mascara pigments, and from fingers). Cobalt and chromate are also possible",
+        "[Contact dermatitis](condition:contact-dermatitis)"
+       ],
+       [
+        "13",
+        "Itch and erythema beyond the sutures under an adhesive dressing after C-section",
+        "Adhesive dressing",
+        "**Adhesive dressing** (acrylates/colophony)",
+        "The pattern matches the plaster outline. Infection would centre on the wound",
+        "[Contact dermatitis](condition:contact-dermatitis)"
+       ],
+       [
+        "14",
+        "17-year-old, generalised AE flare including face and eyes, only using 1% HC",
+        "TCI",
+        "**Short course of oral steroid with emollient cover** is the likelier course key for an acute *generalised* flare. UK first-line step-up would really be **moderate–potent TCS for the body + TCI or mild TCS for the face/eyelids** (not offered as a single option)",
+        "TCIs (NICE TA82) are second line for moderate–severe AE when TCS has failed or isn't tolerated, and they are ideal for **eyelids/face**, so the saved answer is defensible for the face. Ciclosporin and oral retinoids are specialist. Antibiotics only if infected",
+        "[Eczema / dermatitis](condition:eczema-dermatitis)"
+       ],
+       [
+        "15",
+        "21-year-old, itchy bumps → small blisters on distal shins and forearms after a Turkey holiday; nitrofurantoin for 3 days; mucosa normal",
+        "PV",
+        "**Insect bite reaction (bullous papular urticaria)**",
+        "Exposed distal sites, a holiday, itchy papules turning to blisters, well, normal mucosa. PV is mucosal, flaccid and occurs in an older age group. BP is elderly. Bullous drug eruption is less likely after a 3-day course with an exposed-site distribution",
+        "[Papular urticaria & insect bites](condition:papular-urticaria-bites), [Approach to blistering diseases](condition:blistering-approach)"
+       ],
+       [
+        "16",
+        "Swollen lips, face and tongue with difficulty breathing",
+        "IV adrenaline",
+        "**IM adrenaline 500 micrograms (0.5 ml of 1 mg/ml) into the anterolateral thigh, repeat after 5 min** (Resuscitation Council UK 2021)",
+        "**IV adrenaline is for specialists only** (anaesthesia/ICU, titrated) because of arrhythmia risk. Steroids and antihistamines are not first-line in anaphylaxis",
+        "[Urticaria & angioedema](condition:urticaria-angioedema)"
+       ],
+       [
+        "17",
+        "Herald patch then collarette ovals after URTI, asymptomatic",
+        "Reassure + emollients",
+        "**Reassure and advise regular emollients**",
+        "Pityriasis rosea is self-limiting over 6–12 weeks. Erythromycin evidence is weak. Use TCS only if itchy. Check syphilis serology if atypical or at risk",
+        "[Pityriasis rosea](condition:pityriasis-rosea)"
+       ],
+       [
+        "18",
+        "Wheals with scratching, <1 h, chef, lansoprazole",
+        "Antihistamines",
+        "**Non-sedating H1 antihistamine** (up-dose to 4× if needed)",
+        "Symptomatic dermographism. Lansoprazole is not causal. Oral steroids are not indicated",
+        "[Urticaria & angioedema](condition:urticaria-angioedema)"
+       ],
+       [
+        "19",
+        "14-month-old, nocturnal itch, web-space excoriations, feet vesicles, itchy sibling",
+        "Scabies",
+        "**Scabies**",
+        "Infant pattern (palms/soles, vesicles) + an affected household contact. Treat **all contacts on the same day** with permethrin 5% ×2, one week apart",
+        "[Scabies](condition:scabies)"
+       ],
+       [
+        "20",
+        "55-year-old, gradual erythroderma with **salmon** patches, **islands of sparing**, follicular hyperkeratosis, thick yellow nails",
+        "GPP",
+        "**Pityriasis rubra pilaris**",
+        "Salmon-orange colour, *islands of sparing*, follicular papules and orange palmoplantar keratoderma are the hallmarks. GPP gives sheets of sterile **pustules** with fever (an emergency). Eczema herpeticum and PLEVA don't fit",
+        "[Psoriasis](condition:psoriasis)"
+       ],
+       [
+        "21",
+        "Sharply defined red plaques with scale; Auspitz sign",
+        "Plaque psoriasis",
+        "**Plaque psoriasis**",
+        "Auspitz pinpoint bleeding on removing scale. ACD is ill-defined",
+        "[Psoriasis](condition:psoriasis)"
+       ],
+       [
+        "22",
+        "60-year-old, very itchy coin-shaped oozing scaly patches on extensor limbs; recurs in cold dry climate",
+        "Granuloma annulare",
+        "**Discoid (nummular) eczema**",
+        "**Oozing**, scaly, intensely itchy, extensors, worse with dryness. GA is a non-scaly, non-itchy ring of papules. Tinea is usually single or asymmetric with a scaly advancing edge (scrape it). NL is shin plaques with yellow atrophy (diabetes)",
+        "[Eczema / dermatitis](condition:eczema-dermatitis), [Describing skin lesions: the language of dermatology](condition:lesion-language)"
+       ],
+       [
+        "23",
+        "45-year-old, sterile yellow-brown pustules on medial insteps of both feet, burning",
+        "DH",
+        "**Localised pustular psoriasis (palmoplantar pustulosis)**",
+        "Sterile pustules that turn brown on palms or soles, strongly linked to **smoking** and to thyroid autoimmunity. DH is on the extensor limbs and buttocks with tiny vesicles, not plantar pustules. Impetigo herpetiformis is GPP in pregnancy",
+        "[Palmoplantar pustulosis & palmoplantar psoriasis](condition:palmoplantar-pustulosis)"
+       ],
+       [
+        "24",
+        "Inflamed DIP/PIP joints, RF-negative, erosions, raised CRP",
+        "Psoriatic arthropathy",
+        "**Psoriatic arthritis** (stem omits the skin, but this is the best fit)",
+        "Seronegative, DIP-predominant, erosive. Screen with PEST and refer to rheumatology early",
+        "[Psoriasis](condition:psoriasis)"
+       ],
+       [
+        "25",
+        "Atopic boy, papulopustules at the mouth after repeated 1% HC",
+        "Perioral dermatitis",
+        "**(Steroid-induced) perioral dermatitis**",
+        "Papulopustules triggered by the TCS on top of lip-licking/angular fissuring. Stop the steroid. Topical metronidazole/azelaic acid, or oral tetracycline/erythromycin depending on age",
+        "[Rosacea (incl. Demodex & steroid rosacea)](condition:rosacea), [Acne mimics: rosacea, perioral & folliculitis](condition:acne-mimics)"
+       ],
+       [
+        "26",
+        "Hand/forearm vesicular ACD hours after mehndi (henna)",
+        "PPD",
+        "**Paraphenylenediamine (PPD)** in \"black henna\"",
+        "Natural henna rarely sensitises. PPD is added to darken it, and later hair dye reactions can be severe. Advise lifelong avoidance",
+        "[Contact dermatitis](condition:contact-dermatitis)"
+       ],
+       [
+        "27",
+        "Carbamazepine 1 month, flu-like prodrome, flaccid blisters, **40% BSA**, Nikolsky positive, mucosae involved",
+        "SJS",
+        "**Toxic epidermal necrolysis**",
+        "Detachment **>30% BSA = TEN** (SJS <10%, overlap 10–30%). Stop carbamazepine and send to ED/burns unit. EM is targetoid, acral and HSV-related. SSSS spares the mucosa",
+        "[Drug-induced blistering (SJS/TEN, FDE, AGEP)](condition:drug-induced-blistering)"
+       ],
+       [
+        "28",
+        "73-year-old, urticated plaques → tense blisters, mucosa normal",
+        "BP",
+        "**Bullous pemphigoid**",
+        "Elderly, prebullous urticarial phase, tense bullae, no mucosal involvement. EBA scars. LAD forms annular \"string of pearls\". PV is flaccid with mucosal involvement",
+        "[Bullous pemphigoid (incl. MMP & pemphigoid gestationis)](condition:bullous-pemphigoid)"
+       ],
+       [
+        "29",
+        "Atopic, unvaccinated child, febrile, grouped vesicles and crusted erosions around the eye/cheek",
+        "Secondary infection",
+        "**Eczema herpeticum**",
+        "Grouped monomorphic vesicles/punched-out erosions + fever on a background of AE = HSV. **Same-day** aciclovir and assessment, plus **same-day ophthalmology** (periocular). \"Secondary infection\" (bacterial) misses the emergency. Impetigo has honey crusts without fever",
+        "[Eczema / dermatitis](condition:eczema-dermatitis), [Herpes simplex labialis (cold sores)](condition:herpes-simplex-labialis)"
+       ],
+       [
+        "30",
+        "Pits, onycholysis \"oil drops\", subungual debris, family history of psoriasis",
+        "Nail psoriasis",
+        "**Nail psoriasis**",
+        "Pitting + salmon patches/oil drops + onycholysis. Fungal infection usually affects toenails first, and here the toenails are spared. Yellow nail syndrome is slow growth with no pits",
+        "[Nail signs: psoriatic nails, Beau’s lines & clubbing](condition:nail-signs), [Psoriasis](condition:psoriasis)"
+       ]
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "uk-differences",
+   "title": "Where the course answer differs from UK practice",
+   "short": "Course vs UK",
+   "tone": "danger",
+   "blocks": [
+    {
+     "list": [
+      "**M4 Q5 (PV):** the course says \"urgent referral and start prednisolone\". UK specialists use **rituximab + prednisolone** first line (BAD 2017). In primary care, start steroids only after a specialist discussion.",
+      "**M4 Q2 (child's facial eczema):** none of the options matches NICE CG57. Potent TCS on a child's face is not UK practice.",
+      "**M4 Q14 (generalised AE flare):** the UK step-up is to a more potent TCS for the body plus TCI or mild TCS for the face. Oral steroid courses are reserved for severe flares, and TCIs are second line (NICE TA82).",
+      "**M4 Q8 (pollen and AE):** \"mast cells\" is a type I framing. Eczematous inflammation is Th2 T-cell driven."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "other-modules",
+   "title": "Other exam reviews",
+   "short": "Other reviews",
+   "blocks": [
+    {
+     "list": [
+      "[Exam review: Module 2 · skin lesions, tumours & skin surgery](condition:exam-module-2)",
+      "[Exam review: Module 5 · infections, infestations, photodermatoses & travel](condition:exam-module-5)"
+     ]
+    }
+   ]
+  }
+ ],
+ "sections": {},
+ "photos": [],
+ "references": []
+}

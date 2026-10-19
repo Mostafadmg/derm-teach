@@ -1,0 +1,184 @@
+{
+ "slug": "keratolysis-exfoliativa",
+ "title": "Keratolysis exfoliativa",
+ "category": "hands-feet-folds",
+ "status": "published",
+ "order": 4,
+ "module": "Module 3 · Week 6",
+ "aka": [
+  "lamellar dyshidrosis",
+  "peeling palms",
+  "palm peeling",
+  "air-filled blisters",
+  "collarette"
+ ],
+ "summary": "A common, harmless condition of recurrent superficial peeling on the palms and fingers, starting as air-filled blisters, usually in warm weather. Reassure, use emollients and avoid irritants.",
+ "card_image": "m3w6:A01",
+ "glance": {
+  "think": "Recurrent ring-like peeling (collarettes) on the palms and fingertips, often in summer, with little itch or inflammation.",
+  "engine": "A defect in the cohesion of the outer stratum corneum; sweating and irritants make it worse.",
+  "backbone": "Reassure, emollients and urea or lactic acid creams, avoid soaps and solvents; steroids rarely help.",
+  "never_miss": "Pompholyx, hand eczema, tinea manuum and peeling after infection (scarlet fever, Kawasaki disease in children)."
+ },
+ "sections": {
+  "what": [
+   "A common, **benign, non-inflammatory** disorder of recurrent superficial peeling of the **palms** (soles less often), mostly in young active adults. Synonyms: exfoliative keratolysis, **dyshidrosis lamellosa sicca**, (recurrent) focal palmar peeling, lamellar dyshidrosis. Often under-recognised and mislabelled as \"hand eczema\", which is why patients arrive having failed topical steroids."
+  ],
+  "cause": [
+   {
+    "list": [
+     "Cause unknown; may run in families.",
+     "Splitting occurs **within the stratum corneum** — corneodesmosomes (the \"rivets\" between corneocytes) appear to break down prematurely, so sheets of horny layer detach (Chang et al., BJD 2012 described it as a distinct peeling entity; no causative gene identified).",
+     "**Aggravating factors:** heat/summer, **palmar hyperhidrosis**, and irritants — water, soap, detergents, solvents, friction. Roughly half of patients notice summer worsening.",
+     "Not an allergy, not infective, and not steroid-responsive inflammation."
+    ]
+   }
+  ],
+  "features": [
+   {
+    "table": {
+     "head": [
+      "Feature",
+      "Detail"
+     ],
+     "rows": [
+      [
+       "Earliest sign",
+       "One or more tiny **air-filled** (not fluid-filled) superficial blisters on palms/fingers"
+      ],
+      [
+       "Evolution",
+       "Blisters burst → **expanding collarettes of scale** → round/oval peeled patches; multiple lamellae may peel"
+      ],
+      [
+       "Symptoms",
+       "**Not itchy**; peeled areas can feel tender/dry and crack"
+      ],
+      [
+       "Inflammation",
+       "Absent or minimal (no oedema, no vesicles with fluid, no lichenification)"
+      ],
+      [
+       "Fingertips",
+       "Split can be deeper — skin feels **hard and numb** before it sheds (explains the Day 1 numbness)"
+      ],
+      [
+       "Course",
+       "Heals to normal skin, then **recurs every few weeks**; chronic over years; often worse in summer"
+      ],
+      [
+       "Nails",
+       "Not involved (useful vs psoriasis)"
+      ]
+     ]
+    }
+   }
+  ],
+  "diagnosis": [
+   {
+    "list": [
+     "**Clinical** — history of recurrent non-itchy peeling + collarettes on non-inflamed palms.",
+     "Supportive tests if doubt: **skin scrapings negative** for fungus; **patch tests negative**; biopsy (rarely needed) shows cleavage within the stratum corneum.",
+     "**Day 1 pearl — the numbness:** usually explained by thick, deeply split fingertip horny layer; still ask about diabetes, B12/alcohol, carpal tunnel symptoms and vibration-tool use if numbness is persistent, sensory-distributed or present when skin is intact (one student raised diabetic neuropathy — good safety-netting, but the history here has no risk factors)."
+    ]
+   }
+  ],
+  "differentials": [
+   {
+    "h": "(tutor-endorsed comparison)"
+   },
+   {
+    "table": {
+     "head": [
+      "Condition",
+      "Itch",
+      "Inflammation",
+      "Distinguishing clues"
+     ],
+     "rows": [
+      [
+       "**Keratolysis exfoliativa**",
+       "No",
+       "No",
+       "Air-filled blisters → collarettes; recurs every few weeks; summer/sweat; steroid-unresponsive; no nail change; no smoking link"
+      ],
+      [
+       "Irritant contact (hand) dermatitis",
+       "Yes/sore",
+       "Yes",
+       "Erythema, dryness, fissures, glazed fingertips; wet work/irritant history; improves with avoidance + steroid"
+      ],
+      [
+       "Pompholyx",
+       "**Intense**",
+       "Vesicular",
+       "Deep-seated **fluid-filled** \"tapioca\" vesicles on finger sides/palms, then peeling"
+      ],
+      [
+       "Palmoplantar psoriasis",
+       "Mild/sore",
+       "Yes",
+       "Sharp border, thick silvery scale, fissures, **nail pits/onycholysis**, plaques elsewhere, smoking link; usually worse in winter"
+      ],
+      [
+       "Early palmoplantar pustulosis (PPP)",
+       "Variable/burning",
+       "Yes",
+       "Sterile yellow pustules → brown \"rusty\" dots; smoker; insteps/thenar eminences"
+      ],
+      [
+       "Tinea manuum",
+       "Mild",
+       "Mild",
+       "Usually **one hand**, white scale in creases, check both feet/nails; scrapings positive"
+      ],
+      [
+       "Others (rare)",
+       "—",
+       "—",
+       "Keratolytic winter erythema (inherited, red peeling, winter), palmoplantar keratoderma, localised EB simplex (fluid blisters with friction), circumscribed palmar hypokeratosis, peeling skin syndrome (acral, genetic)"
+      ]
+     ]
+    }
+   }
+  ],
+  "management": [
+   "**Explain first:** benign, cosmetic-nuisance condition, recurrent, not contagious and not an allergy; tends to improve with age; steroids won't help (stop them — avoids palmar atrophy and wasted courses).",
+   "**Self-care / first-line (OTC/GSL/P):**",
+   {
+    "list": [
+     "**Irritant avoidance:** cotton-lined waterproof gloves for wet work; soap substitutes; dry hands thoroughly.",
+     "**Emollient / keratolytic hand creams**, applied frequently: **urea** (e.g. 5–10% for maintenance, 10–25% for peeling — several UK OTC brands), **lactic acid** or **salicylic acid**-containing products; silicone/dimeticone barrier creams. Students cited higher strengths (urea 20–40%, ammonium lactate 12%, salicylic acid 6%) from US sources — UK availability is limited, so use licensed UK products/specials per formulary.",
+     "**Treat hyperhidrosis** if present (topical aluminium chloride hexahydrate at night; refer for tap-water iontophoresis if severe) — reduces summer flares."
+    ]
+   },
+   "**Specialist options (refer if severe, painful fissuring, or diagnostic doubt):** acitretin (teratogenic, specialist-only, Pregnancy Prevention Programme), hand **PUVA**/photochemotherapy — limited evidence, reserved for refractory cases given skin-cancer and burden trade-offs."
+  ],
+  "red_flags": [
+   "Peeling fingertips in a **child with fever** for 5 days or more: think Kawasaki disease (urgent).",
+   "Peeling after a sore throat and rash: scarlet fever."
+  ],
+  "pearls": [
+   "\"Peeling but not itchy, not red, worse in summer, steroid-proof\" = think KE before re-issuing steroid.",
+   "Scrape any one-handed or treatment-resistant peeling to exclude tinea before labelling KE.",
+   "Avoid picking/peeling the lamellae — trim loose edges with clean scissors to reduce painful cracks.",
+   "Fingertip numbness that persists between episodes → examine/assess for neuropathy."
+  ]
+ },
+ "photos": [
+  {
+   "title": "Keratolysis exfoliativa",
+   "items": [
+    "m3w6:A01",
+    "m3w6:A02",
+    "m3w6:A03"
+   ]
+  }
+ ],
+ "references": [
+  {
+   "label": "DermNet: Keratolysis exfoliativa",
+   "url": "https://dermnetnz.org/topics/keratolysis-exfoliativa"
+  }
+ ]
+}

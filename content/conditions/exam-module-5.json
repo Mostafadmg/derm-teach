@@ -1,0 +1,344 @@
+{
+ "slug": "exam-module-5",
+ "title": "Exam review: Module 5 · infections, infestations, photodermatoses & travel",
+ "category": "exam-review",
+ "status": "published",
+ "order": 5,
+ "module": "End-of-module exam · Jun 2024",
+ "layout": "article",
+ "aka": [
+  "exam",
+  "SBA",
+  "revision",
+  "module 5 exam",
+  "single best answer"
+ ],
+ "summary": "All 30 questions from the Module 5 end-of-module exam, with the recommended UK answer, why the distractors are wrong and links to the matching condition pages. Themes: Reiter’s vs Behçet’s, Lyme management, the Kaposi sarcoma virus, pyoderma gangrenosum.",
+ "article": [
+  {
+   "id": "about",
+   "title": "About this review",
+   "short": "About",
+   "blocks": [
+    "Revision key for the DermUSW end-of-module exam for Module 5 (Jun 2024): 30 single-best-answer questions. **Saved** is the answer ticked before submission (not a graded course key). **Recommended** is the teaching answer on current UK guidance (NICE / CKS, BNF, BAD, BASHH, Resuscitation Council UK, UKHSA).",
+    {
+     "callout": "info",
+     "title": "Key",
+     "list": [
+      "✓ saved and recommended agree",
+      "✗ the saved answer is probably wrong",
+      "⚠ debatable or image-dependent; the reasoning is given and any course-vs-UK difference is flagged"
+     ]
+    },
+    {
+     "table": {
+      "head": [
+       "✓ agree",
+       "✗ likely wrong",
+       "⚠ debatable"
+      ],
+      "rows": [
+       [
+        "23",
+        "5 (Q14, Q16, Q20, Q22, Q25)",
+        "2 (Q13, Q18)"
+       ]
+      ]
+     }
+    },
+    "**Main themes of errors:** Reiter's vs Behçet's (swapped), Lyme management, KS virus, PG.",
+    "Each question links to the condition page that covers the topic, where one exists."
+   ]
+  },
+  {
+   "id": "questions",
+   "title": "Questions & answers",
+   "short": "Questions",
+   "blocks": [
+    {
+     "table": {
+      "head": [
+       "Q",
+       "Topic",
+       "Saved",
+       "Recommended",
+       "Why, and why the distractors are wrong",
+       "Read more"
+      ],
+      "rows": [
+       [
+        "1",
+        "Itchy papular rash on legs/soles after swimming in the Nile, feverish",
+        "Schistosomiasis",
+        "**Schistosomiasis (cercarial dermatitis / acute Katayama)**",
+        "Freshwater exposure in Egypt or Sudan. Refer to infectious diseases (serology from 6–12 weeks; praziquantel). Dengue has no freshwater link. Scabies is not this acute",
+        "[The returning traveller with a skin problem](condition:returning-traveller-skin)"
+       ],
+       [
+        "2",
+        "Hand blisters and fragility, **naproxen**, normal porphyrins",
+        "Pseudoporphyria",
+        "**Pseudoporphyria**",
+        "Looks like PCT, but porphyrins are normal and there is an NSAID. Stop naproxen",
+        "[Porphyria cutanea tarda (& pseudoporphyria)](condition:porphyria-cutanea-tarda)"
+       ],
+       [
+        "3",
+        "Crab lice in pubic hair and eyelashes",
+        "Pthirus",
+        "**Pthirus pubis**",
+        "*Pediculus humanus* is head/body lice. Offer a **full STI screen** (BASHH)",
+        "[Head lice (pediculosis capitis)](condition:head-lice)"
+       ],
+       [
+        "4",
+        "Swimmer, malodorous white plantar skin with pits",
+        "Pitted keratolysis",
+        "**Pitted keratolysis** (*Kytococcus*/corynebacteria)",
+        "Hyperhidrosis, occlusion. Topical clindamycin/erythromycin/fusidic acid or BPO, plus aluminium chloride. Erythrasma (coral-red under Wood's lamp) is in the flexures",
+        "—"
+       ],
+       [
+        "5",
+        "Recurrent grouped vesicles on the lip after a cold",
+        "HSV",
+        "**Herpes simplex labialis**",
+        "Prodrome, recurrence at the same site. Angular cheilitis is fissuring at the angles of the mouth",
+        "[Herpes simplex labialis (cold sores)](condition:herpes-simplex-labialis)"
+       ],
+       [
+        "6",
+        "Green-black hallux nail, onycholysis, KOH-negative, failed terbinafine",
+        "Pseudomonas",
+        "**Pseudomonas aeruginosa** (green nail syndrome)",
+        "Pyocyanin pigment. Keep the nail dry, trim the onycholytic nail, topical antiseptic (e.g. dilute vinegar/chlorhexidine soaks) ± topical antibiotic. **Exclude subungual melanoma if the colour is black or brown**",
+        "[Fungal nail infection & nail discolouration](condition:onychomycosis)"
+       ],
+       [
+        "7",
+        "14-year-old, palpable purpura on legs, arthralgia, abdominal pain after a sore throat, normal platelets",
+        "HSP",
+        "**IgA vasculitis (HSP)**",
+        "Palpable purpura with a normal platelet count. **Check urine and BP** for nephritis, with follow-up dipsticks. ITP has low platelets. Meningococcaemia is an unwell child with non-palpable purpura (emergency)",
+        "—"
+       ],
+       [
+        "8",
+        "Eyelash lice",
+        "Vaseline",
+        "**Occlusive white soft paraffin (petroleum jelly) to the lashes twice daily for ~8–10 days** (BASHH)",
+        "Insecticides are not for use near the eye. Lindane is withdrawn. Tea tree oil irritates",
+        "[Head lice (pediculosis capitis)](condition:head-lice)"
+       ],
+       [
+        "9",
+        "Exaggerated sunburn minutes after sun exposure, recently started furosemide",
+        "Drug-induced photosensitivity",
+        "**Drug-induced (phototoxic) photosensitivity**",
+        "Furosemide (and amlodipine less so) are photosensitisers. Medication review",
+        "[Drug-induced photosensitivity](condition:drug-photosensitivity)"
+       ],
+       [
+        "10",
+        "3-month-old, napkin rash with satellite lesions despite zinc oxide",
+        "Miconazole",
+        "**Topical imidazole (miconazole or clotrimazole) for 7–14 days**, ± 1% HC if inflamed",
+        "Satellite papules = *Candida*. Neomycin/betamethasone is too potent and sensitising for an infant. Oral nystatin only if there is oral thrush",
+        "[Napkin (nappy) dermatitis](condition:napkin-dermatitis)"
+       ],
+       [
+        "11",
+        "Wavelength for vitamin D synthesis",
+        "UVB",
+        "**UVB** (~290–315 nm)",
+        "UVA and visible light don't convert 7-dehydrocholesterol. Supplement vitamin D (10 micrograms/day) in sun-avoiders and NMSC patients",
+        "[Polymorphic light eruption](condition:polymorphic-light-eruption)"
+       ],
+       [
+        "12",
+        "Painless ulcer with raised edge, Colombian Amazon",
+        "Leishmaniasis",
+        "**Cutaneous leishmaniasis** (New World, so a **mucosal** risk with *L. braziliensis*)",
+        "Refer to the HTD (London) or the Liverpool tropical service. Sporotrichosis spreads along lymphatics",
+        "[Cutaneous leishmaniasis](condition:cutaneous-leishmaniasis)"
+       ],
+       [
+        "13",
+        "Serpiginous itchy track on the foot after a Caribbean beach",
+        "Topical thiabendazole",
+        "**Topical thiabendazole is the best of the listed options**. UK practice is **oral ivermectin 200 micrograms/kg single dose (unlicensed) or albendazole 400 mg daily for 3 days** via the travel clinic or specialist",
+        "Hookworm CLM. Itraconazole, neomycin and clobetasol don't kill larvae. Topical thiabendazole 10–15% is effective but is a UK special",
+        "[Cutaneous larva migrans](condition:cutaneous-larva-migrans)"
+       ],
+       [
+        "14",
+        "Painful rapidly enlarging undermined ulcer after minor trauma, Crohn's",
+        "PV",
+        "**Pyoderma gangrenosum**",
+        "**Pathergy**, violaceous undermined edge, IBD. Don't debride. Same-week dermatology; potent topical steroid/tacrolimus or systemic therapy. PV gives erosions, not deep ulcers. Ecthyma gangrenosum is *Pseudomonas* sepsis in the neutropenic",
+        "[Pyoderma gangrenosum](condition:pyoderma-gangrenosum)"
+       ],
+       [
+        "15",
+        "Shallow medial gaiter ulcer, varicosities, better with elevation",
+        "Venous ulcer",
+        "**Venous leg ulcer**",
+        "Check ABPI before compression (NICE CKS / NWCSP). Arterial ulcers are punched out, lateral or on the foot, and painful on elevation",
+        "[Venous leg ulcer](condition:venous-leg-ulcer)"
+       ],
+       [
+        "16",
+        "Post-sexual urethritis, then arthritis, conjunctivitis, **keratoderma blennorrhagicum** and **circinate balanitis**",
+        "Behçet's",
+        "**Reactive arthritis (Reiter's syndrome)**",
+        "\"Can't see, can't pee, can't climb a tree\" plus the classic skin signs. Refer to GUM (chlamydia/gonorrhoea) and rheumatology. Behçet's is **oral + genital ulcers** + uveitis (the answer to Q22)",
+        "—"
+       ],
+       [
+        "17",
+        "Cellulitis, fever 38.3 °C, systemically well, uncontrolled T2DM and obesity",
+        "Class 2",
+        "**Eron class 2**",
+        "Class 2 = systemically unwell **or** well with comorbidity that may complicate or delay resolution (diabetes, obesity, PVD). Class 3 = significant systemic upset or limb-threatening. Class 1 = no toxicity or comorbidity",
+        "[Cellulitis & erysipelas](condition:cellulitis-erysipelas)"
+       ],
+       [
+        "18",
+        "Sore (not itchy) lesions on back, arms and legs after a country hotel in a forest (image)",
+        "Tick bites",
+        "**Bed bugs (*Cimex*)** fits \"hotel + back, arms and legs, multiple, often linear 'breakfast-lunch-dinner'\". Tick bites are usually few, with an attached tick, in the flexures and waistband",
+        "Depends on the image. Multiple grouped or linear papules on the trunk and limbs favour bed bugs. A single erythema migrans favours ticks. Flea bites are on the lower legs",
+        "[Papular urticaria & insect bites](condition:papular-urticaria-bites)"
+       ],
+       [
+        "19",
+        "65-year-old, painful unilateral facial/ear/neck vesicles for 2 days",
+        "Herpes zoster",
+        "**Dermatomal blistering rash: herpes zoster**",
+        "Aciclovir within 72 h (age >50). **Check eye (Hutchinson's sign)** and ear (Ramsay Hunt: facial palsy)",
+        "[Herpes zoster (shingles)](condition:herpes-zoster)"
+       ],
+       [
+        "20",
+        "Erythema migrans after tick bites",
+        "Order serology",
+        "**Start antibiotics immediately; diagnose clinically**",
+        "NICE **NG95**: EM is diagnostic, so **don't test**. Serology is often negative early. **Doxycycline 100 mg twice daily (or 200 mg once daily) for 21 days**; amoxicillin if doxycycline is unsuitable. Biopsy and waiting are wrong",
+        "[Lyme disease & erythema migrans](condition:lyme-disease)"
+       ],
+       [
+        "21",
+        "Photo-distributed eczema sparing behind the ears and under the chin, abnormal UVB phototest",
+        "CAD",
+        "**Chronic actinic dermatitis**",
+        "An older man with sharp demarcation and **reduced MED to UVB (± UVA/visible)**. PMLE is self-limiting and seasonal",
+        "[Chronic actinic dermatitis](condition:chronic-actinic-dermatitis)"
+       ],
+       [
+        "22",
+        "Oral + genital ulcers, iritis, arthritis",
+        "Recurrent aphthous ulcers",
+        "**Behçet's disease**",
+        "Recurrent oral ulcers + genital ulcers + eye disease (uveitis) are the ISG criteria. RAS has no genital or eye involvement. SJS is acute and drug-related",
+        "—"
+       ],
+       [
+        "23",
+        "Senegal migrant, foot swelling, nodules, draining sinuses, branched filaments",
+        "Mycetoma",
+        "**Mycetoma** (actinomycetoma, given branched filaments)",
+        "Triad of swelling, sinuses and grains. Actinomycetoma is treated with antibiotics (co-trimoxazole + amikacin). Eumycetoma needs antifungals + surgery",
+        "[Mycetoma (Madura foot)](condition:mycetoma)"
+       ],
+       [
+        "24",
+        "Nursing-home scabies outbreak",
+        "Permethrin + ivermectin",
+        "**Permethrin 5% plus oral ivermectin** (UKHSA 2023 care-home outbreak guidance)",
+        "Mass treatment of residents and staff on the same day. Ivermectin for crusted scabies and outbreaks. Lindane and malathion aren't recommended. Crotamiton is weak",
+        "[Scabies](condition:scabies)"
+       ],
+       [
+        "25",
+        "KS in HIV (CD4 150), causative organism",
+        "CMV",
+        "**Human herpesvirus 8 (KSHV)**",
+        "HHV-8 causes KS, primary effusion lymphoma and multicentric Castleman disease. CMV causes retinitis/colitis. Treatment is effective ART ± chemotherapy",
+        "—"
+       ],
+       [
+        "26",
+        "Painful dome-shaped swelling on the nape",
+        "Furuncle",
+        "**Furuncle (boil)**",
+        "A single follicle-centred abscess. Carbuncle is a multi-headed coalescence. Swab if recurrent (PVL). I&D if fluctuant",
+        "[Boils & carbuncles](condition:boils-carbuncles)"
+       ],
+       [
+        "27",
+        "18-year-old, umbilicated papules on one side of the chest",
+        "Reassure",
+        "**Reassure (molluscum is self-limiting)**",
+        "Resolves over 6–18 months. Cryotherapy and curettage scar and hurt. **Consider sexual transmission or immunosuppression in adults with genital/extensive disease**",
+        "—"
+       ],
+       [
+        "28",
+        "Herald patch, Christmas-tree pattern",
+        "PR",
+        "**Pityriasis rosea**",
+        "Guttate psoriasis has no herald patch. Secondary syphilis involves the palms and soles, so check serology if at risk",
+        "[Pityriasis rosea](condition:pityriasis-rosea)"
+       ],
+       [
+        "29",
+        "Linear blisters after gardening among hogweed, sun-exposed forearm",
+        "Phytophotodermatitis",
+        "**Phytophotodermatitis**",
+        "Furocoumarins (giant hogweed) + UVA, leading to linear blisters and then pigmentation lasting months. Cool compresses, potent TCS, sun protection",
+        "[Phytophotodermatitis & cutaneous amyloid](condition:phytophotodermatitis-amyloid)"
+       ],
+       [
+        "30",
+        "Thailand, high fever, retro-orbital headache, diffuse rash, prostration",
+        "Dengue",
+        "**Dengue serology/NS1 + FBC (platelets, haematocrit) + coagulation**",
+        "Watch for warning signs of severe dengue. **Avoid NSAIDs/aspirin**. Use paracetamol. Exclude malaria the same day",
+        "[Dengue: skin signs & safety](condition:dengue)"
+       ]
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "uk-differences",
+   "title": "Where the course answer differs from UK practice",
+   "short": "Course vs UK",
+   "tone": "danger",
+   "blocks": [
+    {
+     "list": [
+      "**M5 Q13 (CLM):** thiabendazole is the best option offered. UK practice is oral ivermectin or albendazole."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "other-modules",
+   "title": "Other exam reviews",
+   "short": "Other reviews",
+   "blocks": [
+    {
+     "list": [
+      "[Exam review: Module 2 · skin lesions, tumours & skin surgery](condition:exam-module-2)",
+      "[Exam review: Module 4 · inflammatory dermatoses](condition:exam-module-4)"
+     ]
+    }
+   ]
+  }
+ ],
+ "sections": {},
+ "photos": [],
+ "references": []
+}

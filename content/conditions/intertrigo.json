@@ -1,0 +1,174 @@
+{
+ "slug": "intertrigo",
+ "title": "Intertrigo & the flexural differential",
+ "category": "hands-feet-folds",
+ "status": "published",
+ "order": 2,
+ "module": "Module 3 · Week 5",
+ "aka": [
+  "intertrigo",
+  "skin fold rash",
+  "inframammary rash",
+  "groin rash",
+  "maceration",
+  "erythrasma",
+  "flexural rash",
+  "KOH negative"
+ ],
+ "summary": "Inflammation of opposed skin folds from friction, heat and moisture. It is a description, not a diagnosis: sort out candida, tinea, erythrasma, flexural psoriasis and seborrhoeic dermatitis before reaching for combination creams.",
+ "card_image": "m3w5:B01",
+ "glance": {
+  "think": "A red, moist, sore rash under the breasts, in the groin, armpits or abdominal folds, especially with obesity, diabetes or incontinence.",
+  "engine": "Skin-on-skin friction plus trapped sweat causes maceration; yeast and bacteria colonise secondarily.",
+  "backbone": "Dry and separate the folds (cotton, moisture-wicking textiles), barrier products, short mild steroid; treat confirmed candida or erythrasma specifically.",
+  "never_miss": "Flexural psoriasis, extramammary Paget disease, and erythrasma or tinea treated as ‘simple intertrigo’."
+ },
+ "sections": {
+  "what": [
+   "Superficial **inflammation of opposed skin surfaces** (flexures/folds) driven by heat, moisture, friction, and poor evaporation. May be purely irritant or complicated by yeast/bacteria; often overlaps inflammatory dermatoses (psoriasis, seborrhoeic dermatitis, contact allergy)."
+  ],
+  "cause": [
+   "Occluded flexures trap sweat → maceration → barrier failure → inflammation ± overgrowth of resident flora (*Candida*, Corynebacteria, dermatophytes, Staph/Strep). Risk: obesity, diabetes, hyperhidrosis, immobility, incontinence, tight synthetics, hot/humid environments. Infant napkin dermatitis is a related fold problem."
+  ],
+  "features": [
+   {
+    "list": [
+     "Erythema, itch/burn, moist/macerated skin, fissures in crease depth, peeling.",
+     "Sites: inframammary, axillae, groin, abdominal apron, natal cleft, neck, finger/toe webs.",
+     "**Day 2 case:** 50-year-old; 3-month itchy red **symmetrical inframammary** rash; smooth surface, well-defined borders, mild peripheral scale; **KOH negative**; on HRT; no other sites or new topicals → diagnosis **intertrigo** (inflammatory/irritant-predominant)."
+    ]
+   },
+   "Secondary infection clues: satellite pustules (candida), foul odour (Gram-negatives), honey crusts (impetigo), coral-red Wood lamp (erythrasma)."
+  ],
+  "diagnosis": [
+   "Clinical. KOH/mycology if scale, satellites, or treatment failure; bacterial swab if pustules/crust/odour; consider patch testing if allergen suspected; biopsy if atypical or refractory (granular parakeratosis, Hailey–Hailey, etc.)."
+  ],
+  "differentials": [
+   "Day 2 KOH-negative picture still overlaps early inverse psoriasis and seborrhoeic dermatitis — reassess if not settling with dry-care + mild steroid.",
+   {
+    "h": "Flexural differential table"
+   },
+   {
+    "table": {
+     "head": [
+      "Condition",
+      "Typical look",
+      "Quick bedside clue",
+      "First IP moves"
+     ],
+     "rows": [
+      [
+       "**Irritant intertrigo**",
+       "Symmetrical fold erythema, moist, ± mild peripheral scale",
+       "KOH often negative; improves with dryness",
+       "Dry-care; mild steroid short course; barrier"
+      ],
+      [
+       "**Candida**",
+       "Beefy red, **satellite** papules/pustules",
+       "KOH/yeast culture +",
+       "Topical azole ± mild steroid; dry folds"
+      ],
+      [
+       "**Tinea cruris**",
+       "Annular plaque, **raised active border**, central clearing; often asymmetrical",
+       "KOH+ dermatophyte",
+       "Topical terbinafine/azole; avoid mistaking for candida alone"
+      ],
+      [
+       "**Erythrasma**",
+       "Red-brown patch, minimal scale, little itch",
+       "**Wood lamp coral-red**",
+       "Topical fusidic/clindamycin or oral clarithromycin/erythromycin per local policy"
+      ],
+      [
+       "**Seborrhoeic dermatitis**",
+       "Ill-defined salmon-pink thin patches in axilla/groin",
+       "Check scalp, face, ears",
+       "Mild steroid ± antifungal; treat scalp"
+      ],
+      [
+       "**Inverse psoriasis**",
+       "Well-demarcated shiny red, little scale",
+       "Other psoriasis sites/nails",
+       "NICE mild–moderate steroid 1–2 wks; calcineurin if needed"
+      ],
+      [
+       "**Hailey–Hailey** (if relevant)",
+       "Painful erosions, fissures, flaccid blisters in axilla/groin; familial",
+       "Biopsy/specialist",
+       "Refer dermatology; infection control; avoid friction"
+      ],
+      [
+       "**HS**",
+       "Nodules, sinuses, rope scars, comedones",
+       "Chronic multi-abscess history",
+       "Lifestyle; staged antibiotics; early derm referral"
+      ]
+     ]
+    }
+   },
+   "Tutor end-week takeaway: when treating flexural rashes, **keep dry**, address incontinence/sweating/obesity, and **screen secondary bacterial/fungal infection**."
+  ],
+  "management": [
+   "**Cornerstone — keep dry and reduce friction** (tutor end-week emphasis):",
+   {
+    "list": [
+     "Shower after sweating; **dry folds thoroughly** (cool hairdryer useful under breasts/axillae).",
+     "Loose natural-fibre clothing; address incontinence and obesity where relevant.",
+     "Barrier pastes (e.g. zinc oxide) for weepy irritant folds; avoid irritating talc as primary strategy.",
+     "Mild topical corticosteroid short course (e.g. **hydrocortisone 1%** 1–2 weeks) for inflammatory intertrigo once infection unlikely/treated.",
+     "If candida likely or empiric after failed dry-care: topical azole (± mild steroid combo products used cautiously in primary care).",
+     "Bacterial secondary infection: topical or oral antibiotic per local guidance.",
+     "Avoid potent/very potent steroids in folds (atrophy, striae, rebound)."
+    ]
+   },
+   "Further management (Day 2): follow-up response; if persists → repeat mycology/culture; reconsider inverse psoriasis, contact allergy, seborrhoeic dermatitis; review HRT/medications only if clinically relevant contributors."
+  ],
+  "red_flags": [
+   "Rash that fails to clear in one fold, especially in an older adult: biopsy for **extramammary Paget disease**.",
+   "Spreading redness, pain and fever: cellulitis.",
+   "Repeated ‘intertrigo’ that relapses as soon as treatment stops: think **inverse psoriasis** (see the [psoriasis](condition:psoriasis) page)."
+  ],
+  "pearls": [
+   "KOH negative ≠ “never fungal” — sampling error and mixed pictures exist; re-test if course atypical.",
+   "Combination clotrimazole–HC / similar: pragmatic in primary care but reassess if no clear infection signs and no improvement.",
+   "Counsel that **prevention** (dryness) beats endless cream cycles."
+  ]
+ },
+ "photos": [
+  {
+   "title": "Simple intertrigo",
+   "items": [
+    "m3w5:B01",
+    "m3w5:B02",
+    "m3w5:B03"
+   ]
+  },
+  {
+   "title": "Flexural differentials",
+   "items": [
+    "m3w5:D01",
+    "m3w5:D02",
+    "m3w5:D03",
+    "m3w5:D04",
+    "m3w5:D05",
+    "m3w5:D06"
+   ]
+  }
+ ],
+ "references": [
+  {
+   "label": "DermNet: Intertrigo",
+   "url": "https://dermnetnz.org/topics/intertrigo"
+  },
+  {
+   "label": "DermNet: Erythrasma",
+   "url": "https://dermnetnz.org/topics/erythrasma"
+  },
+  {
+   "label": "DermNet: Flexural psoriasis",
+   "url": "https://dermnetnz.org/topics/flexural-psoriasis"
+  }
+ ]
+}

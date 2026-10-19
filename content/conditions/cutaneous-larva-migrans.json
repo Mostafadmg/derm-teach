@@ -1,0 +1,171 @@
+{
+ "slug": "cutaneous-larva-migrans",
+ "title": "Cutaneous larva migrans",
+ "category": "tropical-travel",
+ "status": "published",
+ "order": 3,
+ "module": "Module 5 · Week 4",
+ "aka": [
+  "CLM",
+  "creeping eruption",
+  "hookworm rash",
+  "beach rash",
+  "serpiginous track",
+  "ivermectin",
+  "albendazole"
+ ],
+ "summary": "An intensely itchy, red, snake-like track that moves a few millimetres to centimetres a day, usually on the feet after walking barefoot on a tropical beach. Treat with oral ivermectin or albendazole.",
+ "card_image": "m5w4:W4B01",
+ "glance": {
+  "think": "A raised, wandering, itchy serpiginous line on the foot, buttock or hand after tropical beach or soil exposure.",
+  "engine": "Animal (dog or cat) hookworm larvae burrow into human skin but cannot complete their life cycle, so wander in the epidermis.",
+  "backbone": "Single-dose oral ivermectin or a 3-day course of albendazole (unlicensed; specialist or tropical-medicine advice); antihistamine for itch.",
+  "never_miss": "Secondary bacterial infection, and other migratory larvae (larva currens, *Strongyloides*) in the immunosuppressed."
+ },
+ "sections": {
+  "what": [
+   "**Cutaneous larva migrans (CLM)**, also called hookworm-related CLM or **\"creeping eruption\"**, is a self-limiting skin infestation. **Animal hookworm larvae** (mostly from dogs and cats) burrow into the epidermis and wander there, leaving an intensely itchy, serpiginous track. It is one of the most common dermatoses in travellers returning from tropical beaches (Caribbean, Central/South America, South-East Asia, Africa). Occasional UK-acquired cases have been reported in gardeners and runners."
+  ],
+  "cause": [
+   {
+    "list": [
+     "Usual causes are **Ancylostoma braziliense** (dog/cat hookworm in the Americas and Caribbean) and *A. caninum*, plus *Uncinaria stenocephala* (European dog hookworm) and *Bunostomum phlebotomum* (cattle).",
+     "**Transmission (Case 2 Q2):** infected animals pass eggs in their faeces onto **warm, moist, sandy soil or beaches**. The eggs hatch into infective filariform larvae, which **penetrate human skin** through follicles, cracks or intact skin when someone walks **barefoot**, sits or lies on sand, or plays in sandpits.",
+     "Humans are an **accidental \"dead-end\" host**. The larvae lack the enzymes to cross the basement membrane, so they stay in the epidermis and **cannot complete their life cycle**. They die within weeks to months. The track is an inflammatory/allergic reaction to the moving larva and its secretions.",
+     "Not spread person to person."
+    ]
+   }
+  ],
+  "features": [
+   {
+    "list": [
+     "There may be tingling or prickling at the entry site within hours. The track appears **days to a few weeks** later. The larvae can lie dormant first.",
+     "The track is **2–3 mm wide, raised, serpiginous** (\"snake-like\") and **red or skin-coloured** (on darker skin it can look **hypochromic or pigmented**, as in Case 2). It is **intensely itchy** and moves **a few mm to a few cm a day**. The larva usually lies 1–2 cm **beyond** the visible end of the track.",
+     "**Sites:** **feet** (soles, toe webs, dorsum) most often, then **hands** (sand play, as in Case 2), buttocks, knees and trunk (sunbathing).",
+     "**Variants:** several tracks or loops, **vesicles and bullae**, and **hookworm folliculitis** (itchy follicular papulopustules, often on the buttocks). Look for eczematised or impetiginised skin from scratching.",
+     "The patient is systemically well. Rarely there is eosinophilia, or (with heavy infestation) Löffler-type pulmonary infiltrates."
+    ]
+   }
+  ],
+  "diagnosis": [
+   {
+    "list": [
+     "The diagnosis is **clinical**: the typical migrating serpiginous itchy track plus barefoot exposure in a warm-climate setting.",
+     "No routine tests are needed. A biopsy is usually unhelpful because the larva is ahead of the track. Dermoscopy may show translucent segmental structures (the larval body) beyond the track.",
+     "Check for eosinophilia if the picture is atypical. Think of **Strongyloides serology** if the eruption is fast-moving, perianal/buttock or recurrent."
+    ]
+   }
+  ],
+  "differentials": [
+   {
+    "table": {
+     "head": [
+      "Differential",
+      "Distinguishing points"
+     ],
+     "rows": [
+      [
+       "**Larva currens (Strongyloides stercoralis)** — tutor's follow-up question",
+       "Moves **fast (up to 5–10 cm per hour)**, wide **urticarial** band, **perianal/buttocks/thighs/trunk**, comes and goes over months or years (**auto-infection**). The worm is a **human** intestinal parasite. Risk of **hyperinfection/dissemination with steroids or immunosuppression (HTLV-1)**. Needs serology/stool tests and ivermectin, and **must not be missed before steroids**"
+      ],
+      [
+       "**Tinea corporis/pedis**",
+       "Annular scaly expanding edge, does not \"creep\" daily; KOH positive"
+      ],
+      [
+       "**Allergic/irritant contact dermatitis, phytophotodermatitis**",
+       "Linear streaks fixed in place (e.g. lime juice + sun), no migration"
+      ],
+      [
+       "**Jellyfish sting**",
+       "Immediate painful linear whip marks after sea swimming"
+      ],
+      [
+       "**Scabies burrows**",
+       "Short (under 1 cm) grey burrows in web spaces/wrists; household itch"
+      ],
+      [
+       "**Migratory myiasis / gnathostomiasis (larva migrans profunda)**",
+       "Deeper migratory swellings; raw fish (gnathostomiasis)"
+      ],
+      [
+       "**Erythema migrans (Lyme)**",
+       "Expanding annular erythema after a tick bite, not a thin track"
+      ],
+      [
+       "**Loiasis** (Calabar swellings, eye worm)",
+       "West/Central Africa, transient angio-oedema-like swellings"
+      ],
+      [
+       "**Impetigo / bullous insect bites**",
+       "If bullous CLM: look for tracks"
+      ]
+     ]
+    }
+   }
+  ],
+  "management": [
+   "**Primary care can manage most cases.** It is self-limiting (usually 2–8 weeks), but treatment brings rapid relief and lowers the risk of infection.",
+   {
+    "list": [
+     "**Self-care / OTC (interim):** reassure (not contagious, the larva will die). Relieve itch with a **non-sedating oral antihistamine** (or sedating at night for older children/adults per licence) and emollients. A **mild–moderate topical steroid** helps eczematous change (only once CLM is confidently diagnosed and **not** larva currens). Cut nails short and avoid scratching. Treat secondary impetigo per NICE NG153. **Do not** attempt cryotherapy: the larva is ahead of the track, it is painful and it does not work.",
+     "**Specific treatment (prescriber, off-label in UK; check local formulary and ID advice):** **First line: ivermectin 200 micrograms/kg orally as a single dose** (rounded to the nearest 3 mg tablet). Repeat the next day or after 1–2 weeks if it fails. In the UK this is usually **unlicensed/imported (named-patient)**, but it is listed for CLM on several NHS formularies (e.g. SE London JMF) and in NHS Tayside guidance. Avoid in pregnancy and breastfeeding. Safety in **children under 15 kg** is not established; **Alternative: albendazole 400 mg once daily for 3 days** (up to 5–7 days for extensive disease or folliculitis). It is unlicensed for CLM in the UK and can be used in children over about 2 years. Take with fatty food. **Avoid in pregnancy.**; **Topical option** for single early tracks, or when oral drugs are unsuitable (young children, pregnancy, on specialist advice): **10–15% thiabendazole or albendazole ointment**, applied three times daily for 1–2 weeks. These are extemporaneous or specialist products in the UK. Topical ivermectin 1% cream (licensed for rosacea) has been used off-label; Mebendazole is poorly absorbed and works less well. The UK OTC threadworm pack (single 100 mg dose) is **not** adequate for CLM, so do not sell it as a \"cure\"",
+     "**Case 2 (a 6-year-old):** if he weighs at least 15 kg, single-dose ivermectin or albendazole 400 mg daily for 3 days are both reasonable, prescribed off-label by a competent prescriber or via GP/paediatrics. Add an antihistamine. Itch usually settles within 24–48 hours, and tracks fade within about a week.",
+     "**Refer / seek advice:** diagnostic doubt; features of **larva currens** (fast, urticarial, perianal, recurrent, especially if steroids or immunosuppression are planned); widespread disease, folliculitis or treatment failure; pregnancy or a child under 15 kg; systemic symptoms (wheeze, eosinophilia)."
+    ]
+   }
+  ],
+  "red_flags": [
+   "Rapidly moving perianal or buttock tracks (larva currens) or a patient on steroids: think *Strongyloides* hyperinfection.",
+   "Spreading cellulitis from scratching."
+  ],
+  "pearls": [
+   "**The tutor's prevention point:** **avoid walking barefoot** on beaches and soil where dogs and cats roam. Wear shoes or sandals, lie on a mat or sunbed rather than directly on sand, and choose beaches that are tide-washed or animal-free. Supervise children in sandpits. Dry beach towels and clothing indoors rather than on sand.",
+   "Ivermectin tablets: give on an empty stomach with water (follow the product information). Counsel on mild transient GI upset and dizziness.",
+   "**The two \"larva\" names:** larva **migrans** creeps slowly from an animal hookworm and is a dead end in humans. Larva **currens** \"runs\" fast and comes from the human *Strongyloides*, which can persist for decades and **disseminate if steroids are given**."
+  ]
+ },
+ "photos": [
+  {
+   "title": "Cutaneous larva migrans",
+   "items": [
+    "m5w4:W4B01",
+    "m5w4:W4B02",
+    "m5w4:W4B03",
+    "m5w4:W4B04",
+    "m5w4:W4B05",
+    "m5w4:W4B06"
+   ]
+  }
+ ],
+ "references": [
+  {
+   "label": "DermNet: Cutaneous larva migrans",
+   "url": "https://dermnetnz.org/topics/cutaneous-larva-migrans"
+  },
+  {
+   "label": "DermNet — CLM image gallery",
+   "url": "https://dermnetnz.org/images/cutaneous-larva-migrans-images"
+  },
+  {
+   "label": "DermNet: Strongyloidiasis",
+   "url": "https://dermnetnz.org/topics/strongyloidiasis"
+  },
+  {
+   "label": "PCDS — Travel-acquired / worldwide cutaneous infections CLM; larva currens",
+   "url": "https://www.pcds.org.uk/clinical-guidance/travel-acquired-cutaneous-infections"
+  },
+  {
+   "label": "NHS Tayside — Zoonotic & parasitic treatment guidance CLM ivermectin first line",
+   "url": "https://www.nhstaysideadtc.scot.nhs.uk/Antibiotic%20site/pdf%20docs/Tropical%20Diseases.pdf"
+  },
+  {
+   "label": "SE London Joint Medicines Formulary — ivermectin unlicensed for CLM",
+   "url": "https://www.selondonjointmedicinesformulary.nhs.uk/"
+  },
+  {
+   "label": "Case report — Hookworm-related CLM acquired in the UK BMJ Case Rep",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4654173/"
+  }
+ ]
+}

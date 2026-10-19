@@ -1,0 +1,181 @@
+{
+ "slug": "bullous-pemphigoid",
+ "title": "Bullous pemphigoid (incl. MMP & pemphigoid gestationis)",
+ "category": "blistering",
+ "status": "published",
+ "order": 3,
+ "module": "Module 4 · Week 6",
+ "aka": [
+  "BP",
+  "pemphigoid",
+  "tense blisters elderly",
+  "gliptin pemphigoid",
+  "DPP-4 inhibitor",
+  "doxycycline BLISTER",
+  "mucous membrane pemphigoid",
+  "pemphigoid gestationis",
+  "care home itch"
+ ],
+ "summary": "The commonest autoimmune blistering disease in the UK: tense blisters on an itchy, urticarial base in older people, often after months of unexplained itch. Look for a gliptin, refer, and prefer doxycycline or clobetasol over high-dose prednisolone.",
+ "card_image": "m4w6:B01",
+ "glance": {
+  "think": "An older person, often with dementia or Parkinson’s, with itchy ‘eczema’ or hives that will not settle, then tense blisters on the limbs and trunk.",
+  "engine": "Autoantibodies to BP180/BP230 at the basement membrane cause a subepidermal split; gliptins and loop diuretics are drug triggers.",
+  "backbone": "Refer for biopsy; review gliptins; doxycycline 200 mg daily ± superpotent topical steroid (BLISTER trial); steroid safety if prednisolone is used.",
+  "never_miss": "Ocular mucous membrane pemphigoid (blindness), pemphigoid gestationis, and steroid toxicity in frail patients."
+ },
+ "sections": {
+  "what": [
+   "Bullous pemphigoid is the **commonest autoimmune blistering disease in the UK**. UK incidence is roughly 40 per million per year and rising, mostly in people **over 70–80**. It is strongly associated with **neurological disease** (dementia, Parkinson's, stroke, MS). One-year mortality is high (UK cohorts ~20–40%), driven by age, comorbidity and **treatment toxicity**. This is why UK and European guidelines favour superpotent topical steroid or doxycycline over high-dose oral prednisolone."
+  ],
+  "cause": [
+   {
+    "list": [
+     "IgG (± IgE) autoantibodies to **BP180 (collagen XVII; NC16A domain)** and **BP230** in the hemidesmosome trigger complement activation, then eosinophil/neutrophil recruitment, proteases, and a **subepidermal** split in the lamina lucida.",
+     "**Drug triggers (the IP's job):** **DPP-4 inhibitors (gliptins, especially vildagliptin, also sitagliptin/linagliptin/alogliptin/saxagliptin)** are the best-established trigger, often months to years after starting. They often cause a **non-inflammatory** BP with less erythema; **Loop diuretics** (furosemide, bumetanide); spironolactone; **PD-1/PD-L1 checkpoint inhibitors**; penicillins and other antibiotics; TNF inhibitors (etanercept is an anecdotal association); psoralen-UVA and radiotherapy",
+     "**Quiz relevance:** the 85-year-old with **poorly controlled T2DM** is the classic patient on a gliptin. **Check the repeat list.**"
+    ]
+   }
+  ],
+  "features": [
+   {
+    "list": [
+     "**Prodrome (non-bullous phase):** weeks to months of **itch** with eczematous or **urticarial plaques** or excoriations alone. This is often misdiagnosed as \"asteatotic eczema\" or \"scabies\" in a care home.",
+     "**Bullous phase:** **tense**, fluid-filled (clear or **haemorrhagic**) bullae up to several cm, on an urticarial base or normal skin. Sites are the **flexural limbs, inner thighs, groin, lower abdomen and trunk**. The bullae heal without scarring, sometimes leaving milia.",
+     "**Mucosal involvement in only ~10–20%**, and it is mild. Prominent mucosal disease should make you think of **MMP**.",
+     "Nikolsky sign is usually negative. Eosinophilia is common."
+    ]
+   }
+  ],
+  "diagnosis": [
+   {
+    "list": [
+     "**Quiz QA, the correct answer is 4:** a **subepidermal** blister with eosinophils, and **linear IgG and/or C3 along the basement membrane zone** on perilesional DIF. Students who picked \"intraepidermal/acantholysis\" (that is PV) or \"granular IgA\" (that is DH) mixed up the patterns.",
+     "**Serology:** ELISA anti-BP180 (which roughly follows activity) and anti-BP230; indirect IMF on salt-split skin (epidermal side).",
+     "Before treatment: glucose/HbA1c, BP, bone health, renal function (doxycycline is fine in CKD; check other drugs), and a baseline weight."
+    ]
+   }
+  ],
+  "differentials": [
+   {
+    "list": [
+     "**Pre-bullous:** asteatotic or nummular eczema; scabies (especially in care homes); urticaria; drug eruption; prurigo",
+     "**Bullous:** PV; MMP; EBA (scarring/milia, salt-split floor); linear IgA; bullous insect bites; bullous cellulitis; oedema blisters; bullous tinea; bullous impetigo"
+    ]
+   }
+  ],
+  "management": [
+   "Diagnosis is confirmed and treatment led by dermatology. The **IP prescribes and monitors under specialist advice**, often in care homes. This is the core content of the quiz QC.",
+   {
+    "table": {
+     "head": [
+      "Severity",
+      "UK specialist approach (BAD 2012, BLISTER trial, EADV 2022, paraphrased)"
+     ],
+     "rows": [
+      [
+       "Localised / mild",
+       "**Superpotent TCS** (clobetasol propionate 0.05%) to the lesions, **or doxycycline**"
+      ],
+      [
+       "Mild–moderate generalised (**Quiz QC = 3, doxycycline**)",
+       "**Doxycycline 200 mg once daily** + a superpotent TCS to the lesions for the first weeks. In BLISTER, doxycycline was **non-inferior with respect to short-term blister control** (acceptable margin) and **significantly safer** than prednisolone 0.5 mg/kg (fewer severe or life-threatening adverse events, including deaths). It is therefore the best choice for an 85-year-old with hypertension, osteoporosis and poorly controlled T2DM."
+      ],
+      [
+       "Extensive",
+       "**Whole-body clobetasol** cream (~20–40 g/day split over the body, sparing the face; reduce over 4–12 months), which a French RCT showed was safer than prednisolone 1 mg/kg; **or** prednisolone 0.5 mg/kg/day if topical application isn't feasible"
+      ],
+      [
+       "Refractory",
+       "Specialist adjuvants: azathioprine, MMF, methotrexate, dapsone; **dupilumab** or omalizumab (off-label or emerging; dupilumab has US approval for BP since 2025, but check UK commissioning); rituximab or IVIG"
+      ]
+     ]
+    }
+   },
+   "**IP-specific actions:**",
+   {
+    "list": [
+     "**Medication review:** stop or switch a **gliptin** after discussing with the patient and team (switch to another class for T2DM, and check eGFR, hypoglycaemia risk and frailty). Review loop diuretics and spironolactone.",
+     "**Doxycycline counselling:** take with a full glass of water, sitting or standing, not just before bed (oesophagitis). Keep 2–3 h away from calcium, iron, antacids and zinc (relevant with the **calcium/vitamin D** given for osteoporosis). It causes photosensitivity. Warfarin INR may rise. Nicotinamide 500 mg–2 g/day is sometimes added by specialists.",
+     "**Whole-body clobetasol in a care home:** quantify it (~30 g/day needs **large 500 g packs** and nurse application). Count fingertip units, warn about skin thinning and purpura, and taper as the specialist plans.",
+     "If oral prednisolone is used: steroid card, bone protection (already osteoporotic, so check the bisphosphonate), glucose monitoring and insulin/oral agent titration (**steroid-induced hyperglycaemia**), and BP.",
+     "**Skin care:** puncture tense blisters and leave the roof on; non-adherent dressings; emollients; watch for infection."
+    ]
+   }
+  ],
+  "red_flags": [
+   "Eye redness, grittiness or scarring with oral erosions: **mucous membrane pemphigoid**, same-week ophthalmology (same day if vision affected).",
+   "Hoarseness or stridor: airway involvement, emergency.",
+   "Blistering rash in **pregnancy** starting round the umbilicus: urgent dermatology and obstetrics.",
+   "Extensive blistering or secondary infection in a frail patient: same-day assessment."
+  ],
+  "pearls": [
+   "**\"Itchy elderly patient with eczema that won't settle\" may be BP before the blisters appear.** Refer for biopsy with DIF when the itch is out of proportion and standard treatment fails.",
+   "In care homes, **exclude scabies** (burrows, other residents itching) in parallel, since the two can coexist.",
+   "**Variants to recognise:** **Mucous membrane pemphigoid** presents mainly with oral, gingival (\"desquamative gingivitis\"), ocular, genital or laryngeal erosions that **scar**. **Ocular MMP** (symblepharon, cicatrising conjunctivitis) can cause blindness. **Same-week ophthalmology** is needed, or same-day if there is visual loss. Airway involvement (hoarseness, stridor) means emergency referral; **Pemphigoid gestationis** appears in the 2nd–3rd trimester or postpartum as urticarial plaques starting **around the umbilicus**, then vesicles and bullae. It needs **urgent** dermatology and obstetric input. It can recur in later pregnancies or with the COCP, and the baby can have transient blisters or be small for dates. Polymorphic eruption of pregnancy is the main DDx: it **spares the umbilicus** and starts in the striae",
+   "Patient support: PEMFriends; BAD leaflet *Bullous pemphigoid*."
+  ]
+ },
+ "photos": [
+  {
+   "title": "Bullous pemphigoid",
+   "items": [
+    "m4w6:B01",
+    "m4w6:B02",
+    "m4w6:B03",
+    "m4w6:B04",
+    "m1w1:A11",
+    "m1w1:A12"
+   ]
+  },
+  {
+   "title": "Mucous membrane pemphigoid",
+   "items": [
+    "m4w6:B05",
+    "m4w6:B06"
+   ],
+   "tone": "danger"
+  },
+  {
+   "title": "Pemphigoid gestationis",
+   "items": [
+    "m4w6:B07"
+   ],
+   "tone": "danger"
+  }
+ ],
+ "references": [
+  {
+   "label": "BAD guidelines for BP 2012 Venning et al., Br J Dermatol 2012;167:1200-14",
+   "url": "https://academic.oup.com/bjd/article/167/6/1200/6614211"
+  },
+  {
+   "label": "BLISTER trial Williams et al., Lancet 2017;389:1630-38",
+   "url": "https://doi.org/10.1016/S0140-6736(17)30560-3"
+  },
+  {
+   "label": "EADV S2k BP guideline 2022 Borradori et al",
+   "url": "https://doi.org/10.1111/jdv.18220"
+  },
+  {
+   "label": "DermNet: Bullous pemphigoid",
+   "url": "https://dermnetnz.org/topics/bullous-pemphigoid"
+  },
+  {
+   "label": "DermNet: Mucous membrane pemphigoid",
+   "url": "https://dermnetnz.org/topics/mucous-membrane-pemphigoid"
+  },
+  {
+   "label": "DermNet: Pemphigoid gestationis",
+   "url": "https://dermnetnz.org/topics/pemphigoid-gestationis"
+  },
+  {
+   "label": "PCDS Bullous pemphigoid",
+   "url": "https://www.pcds.org.uk/clinical-guidance/bullous-pemphigoid"
+  },
+  {
+   "label": "MHRA/EMA product information for DPP-4 inhibitors bullous pemphigoid listed: see the SmPCs at",
+   "url": "https://www.medicines.org.uk/emc"
+  }
+ ]
+}

@@ -1,138 +1,138 @@
 {
-  "title": "Trichotillomania",
-  "aka": [
-    "trichotillomania",
-    "hair pulling",
-    "hair-pulling disorder",
-    "trichophagia",
-    "trichobezoar"
+ "title": "Trichotillomania",
+ "aka": [
+  "trichotillomania",
+  "hair pulling",
+  "hair-pulling disorder",
+  "trichophagia",
+  "trichobezoar"
+ ],
+ "category": "hair-scalp",
+ "order": 4,
+ "module": "Module 3 · Week 3",
+ "summary": "Habitual hair pulling causing irregular patches of broken hairs. Habit-reversal therapy is first-line; watch for trichophagia and trichobezoar.",
+ "card_image": "m3w3:B01",
+ "glance": {
+  "think": "Irregular or geometric bald patch with hairs of many different lengths; pull test negative; often on the dominant-hand side.",
+  "engine": "Body-focused repetitive behaviour (OCRD spectrum) — automatic or focused pulling; broken shafts, not autoimmune bulb attack.",
+  "backbone": "Non-judgemental recognition, habit-reversal / CBT referral, wound care if excoriated; do not treat as alopecia areata with steroids alone.",
+  "never_miss": "Trichophagia with abdominal pain, vomiting or mass → urgent surgical assessment for trichobezoar."
+ },
+ "sections": {
+  "what": [
+   "**Trichotillomania** (hair-pulling disorder) is a body-focused repetitive behaviour causing noticeable hair loss. It is not scarring in early disease. It is commoner in children and adolescents and often under-disclosed."
   ],
-  "category": "cosmetic-hair",
-  "order": 8,
-  "module": "Module 3 · Week 3",
-  "summary": "Habitual hair pulling causing irregular patches of broken hairs. Habit-reversal therapy is first-line; watch for trichophagia and trichobezoar.",
-  "card_image": "m3w3:B01",
-  "glance": {
-    "think": "Irregular or geometric bald patch with hairs of many different lengths; pull test negative; often on the dominant-hand side.",
-    "engine": "Body-focused repetitive behaviour (OCRD spectrum) — automatic or focused pulling; broken shafts, not autoimmune bulb attack.",
-    "backbone": "Non-judgemental recognition, habit-reversal / CBT referral, wound care if excoriated; do not treat as alopecia areata with steroids alone.",
-    "never_miss": "Trichophagia with abdominal pain, vomiting or mass → urgent surgical assessment for trichobezoar."
-  },
-  "sections": {
-    "what": [
-      "**Trichotillomania** (hair-pulling disorder) is a body-focused repetitive behaviour causing noticeable hair loss. It is not scarring in early disease. It is commoner in children and adolescents and often under-disclosed."
-    ],
-    "cause": [
-      {
-        "list": [
-          "Classed with obsessive–compulsive related disorders; anxiety, boredom or sensory urge often precede pulling.",
-          "**Automatic** pulling (unaware, while reading/screens) vs **focused** pulling (conscious tension relief).",
-          "May coexist with skin picking or nail biting."
-        ]
-      }
-    ],
-    "features": [
-      {
-        "list": [
-          "Irregular, angular or tonsure-like patches; hairs of **unequal lengths**; broken hairs firmly anchored.",
-          "Common sites: vertex, frontotemporal (dominant-hand side), brows and lashes.",
-          "Trichoscopy: black dots, broken hairs, **V-sign**, flame hairs — contrast with AA exclamation marks.",
-          "Chronic severe pulling can eventually scar; secondary infection/crust possible."
-        ]
-      }
-    ],
-    "diagnosis": [
-      "Clinical pattern ± behaviour history (ask privately, without blame). Pull test negative. Exclude tinea if scaly. Differentiate from [alopecia areata](condition:alopecia-areata) and [scarring alopecia](condition:scarring-alopecia)."
-    ],
-    "differentials": [
-      {
-        "table": {
-          "head": [
-            "Look-alike",
-            "Clues"
-          ],
-          "rows": [
-            [
-              "Alopecia areata",
-              "Smooth patch; exclamation hairs; positive edge pull test"
-            ],
-            [
-              "Tinea capitis",
-              "Scale; mycology"
-            ],
-            [
-              "Traction alopecia",
-              "Hairstyle distribution; fringe sign"
-            ],
-            [
-              "Scarring alopecia",
-              "Lost ostia; symptoms"
-            ]
-          ]
-        }
-      }
-    ],
-    "management": [
-      {
-        "list": [
-          "Validate and reduce shame; involve parents/carers sensitively in children.",
-          "**Habit-reversal training / CBT** via CAMHS, psychology or specialist services is first-line.",
-          "Stimulus control (fidget tools, gloves at night, shorter nails); treat secondary infection if present.",
-          "Medicines are not first-line in primary care; any drug therapy is specialist.",
-          "Ask about **chewing/swallowing hair** every time."
-        ]
-      }
-    ],
-    "red_flags": [
-      "Abdominal pain, early satiety, vomiting, weight loss, halitosis, epigastric mass → urgent surgical review (trichobezoar / Rapunzel syndrome).",
-      "Self-harm or suicidal ideation → urgent mental-health assessment.",
-      "Diagnostic doubt or progressive scarring → dermatology."
-    ],
-    "pearls": [
-      "Different hair lengths in one patch is the bedside clue.",
-      "Eyebrow/eyelash pulling in a child is still trichotillomania until proven otherwise — also consider AA and hypothyroidism for lateral brows.",
-      "Steroids will not fix the behaviour."
+  "cause": [
+   {
+    "list": [
+     "Classed with obsessive–compulsive related disorders; anxiety, boredom or sensory urge often precede pulling.",
+     "**Automatic** pulling (unaware, while reading/screens) vs **focused** pulling (conscious tension relief).",
+     "May coexist with skin picking or nail biting."
     ]
+   }
+  ],
+  "features": [
+   {
+    "list": [
+     "Irregular, angular or tonsure-like patches; hairs of **unequal lengths**; broken hairs firmly anchored.",
+     "Common sites: vertex, frontotemporal (dominant-hand side), brows and lashes.",
+     "Trichoscopy: black dots, broken hairs, **V-sign**, flame hairs — contrast with AA exclamation marks.",
+     "Chronic severe pulling can eventually scar; secondary infection/crust possible."
+    ]
+   }
+  ],
+  "diagnosis": [
+   "Clinical pattern ± behaviour history (ask privately, without blame). Pull test negative. Exclude tinea if scaly. Differentiate from [alopecia areata](condition:alopecia-areata) and [scarring alopecia](condition:scarring-alopecia)."
+  ],
+  "differentials": [
+   {
+    "table": {
+     "head": [
+      "Look-alike",
+      "Clues"
+     ],
+     "rows": [
+      [
+       "Alopecia areata",
+       "Smooth patch; exclamation hairs; positive edge pull test"
+      ],
+      [
+       "Tinea capitis",
+       "Scale; mycology"
+      ],
+      [
+       "Traction alopecia",
+       "Hairstyle distribution; fringe sign"
+      ],
+      [
+       "Scarring alopecia",
+       "Lost ostia; symptoms"
+      ]
+     ]
+    }
+   }
+  ],
+  "management": [
+   {
+    "list": [
+     "Validate and reduce shame; involve parents/carers sensitively in children.",
+     "**Habit-reversal training / CBT** via CAMHS, psychology or specialist services is first-line.",
+     "Stimulus control (fidget tools, gloves at night, shorter nails); treat secondary infection if present.",
+     "Medicines are not first-line in primary care; any drug therapy is specialist.",
+     "Ask about **chewing/swallowing hair** every time."
+    ]
+   }
+  ],
+  "red_flags": [
+   "Abdominal pain, early satiety, vomiting, weight loss, halitosis, epigastric mass → urgent surgical review (trichobezoar / Rapunzel syndrome).",
+   "Self-harm or suicidal ideation → urgent mental-health assessment.",
+   "Diagnostic doubt or progressive scarring → dermatology."
+  ],
+  "pearls": [
+   "Different hair lengths in one patch is the bedside clue.",
+   "Eyebrow/eyelash pulling in a child is still trichotillomania until proven otherwise — also consider AA and hypothyroidism for lateral brows.",
+   "Steroids will not fix the behaviour."
+  ]
+ },
+ "photos": [
+  {
+   "title": "Pattern recognition",
+   "items": [
+    "m3w3:B01",
+    "m3w3:B02",
+    "m3w3:B03",
+    "m3w3:B05"
+   ]
   },
-  "photos": [
-    {
-      "title": "Pattern recognition",
-      "items": [
-        "m3w3:B01",
-        "m3w3:B02",
-        "m3w3:B03",
-        "m3w3:B05"
-      ]
-    },
-    {
-      "title": "Behaviour and complications",
-      "items": [
-        "m3w3:B04",
-        "m3w3:B06"
-      ]
-    },
-    {
-      "title": "Trichoscopy vs alopecia areata",
-      "items": [
-        "m3w3:B07",
-        "m3w3:B08"
-      ]
-    }
-  ],
-  "references": [
-    {
-      "label": "DermNet: Trichotillomania",
-      "url": "https://dermnetnz.org/topics/trichotillomania"
-    },
-    {
-      "label": "PCDS: Alopecia overview",
-      "url": "https://www.pcds.org.uk/clinical-guidance/alopecia-an-overview"
-    },
-    {
-      "label": "NHS: Trichotillomania",
-      "url": "https://www.nhs.uk/mental-health/conditions/trichotillomania/"
-    }
-  ],
-  "slug": "trichotillomania",
-  "status": "published"
+  {
+   "title": "Behaviour and complications",
+   "items": [
+    "m3w3:B04",
+    "m3w3:B06"
+   ]
+  },
+  {
+   "title": "Trichoscopy vs alopecia areata",
+   "items": [
+    "m3w3:B07",
+    "m3w3:B08"
+   ]
+  }
+ ],
+ "references": [
+  {
+   "label": "DermNet: Trichotillomania",
+   "url": "https://dermnetnz.org/topics/trichotillomania"
+  },
+  {
+   "label": "PCDS: Alopecia overview",
+   "url": "https://www.pcds.org.uk/clinical-guidance/alopecia-an-overview"
+  },
+  {
+   "label": "NHS: Trichotillomania",
+   "url": "https://www.nhs.uk/mental-health/conditions/trichotillomania/"
+  }
+ ],
+ "slug": "trichotillomania",
+ "status": "published"
 }

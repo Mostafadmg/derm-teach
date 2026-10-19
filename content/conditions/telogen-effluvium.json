@@ -1,174 +1,173 @@
 {
-  "title": "Telogen effluvium",
-  "aka": [
-    "telogen effluvium",
-    "diffuse hair shedding",
-    "club hairs",
-    "postpartum hair loss",
-    "TE"
+ "title": "Telogen effluvium",
+ "aka": [
+  "telogen effluvium",
+  "diffuse hair shedding",
+  "club hairs",
+  "postpartum hair loss",
+  "TE"
+ ],
+ "category": "hair-scalp",
+ "order": 3,
+ "module": "Module 3 · Week 3",
+ "summary": "Diffuse shedding of club hairs 2–3 months after a trigger. Reassure, find reversible causes, and cross-link pattern hair loss rather than duplicating AGA photo sets.",
+ "card_image": "m3w3:D09",
+ "glance": {
+  "think": "Sudden increase in hairs in the brush or shower, diffuse thinning, no bald patches — often 2–3 months after illness, childbirth or a new drug.",
+  "engine": "A stressor synchronises many anagen follicles into telogen; club hairs shed together weeks later.",
+  "backbone": "Identify the trigger, check thyroid/ferritin when indicated, reassure that acute TE usually settles in 6–12 months; treat coexistent pattern loss separately.",
+  "never_miss": "Patchy loss, scale, or lost ostia are not TE — rethink AA, tinea or scarring alopecia."
+ },
+ "sections": {
+  "what": [
+   "**Telogen effluvium (TE)** is non-scarring **diffuse** shedding of telogen (club) hairs. Acute TE follows a trigger by about **2–3 months**. Chronic TE lasts beyond 6 months.",
+   "**Androgenetic (pattern) hair loss** is the other common diffuse-looking thinning of mid-life — full UK IP detail and Module 6 Week 6 photos live on [androgenetic alopecia](condition:androgenetic-alopecia). This page only sketches the DDx so Week 3 teaching stays joined up without duplicating that photo set."
   ],
-  "category": "cosmetic-hair",
-  "order": 10,
-  "module": "Module 3 · Week 3",
-  "summary": "Diffuse shedding of club hairs 2–3 months after a trigger. Reassure, find reversible causes, and cross-link pattern hair loss rather than duplicating AGA photo sets.",
-  "card_image": "m3w3:D09",
-  "glance": {
-    "think": "Sudden increase in hairs in the brush or shower, diffuse thinning, no bald patches — often 2–3 months after illness, childbirth or a new drug.",
-    "engine": "A stressor synchronises many anagen follicles into telogen; club hairs shed together weeks later.",
-    "backbone": "Identify the trigger, check thyroid/ferritin when indicated, reassure that acute TE usually settles in 6–12 months; treat coexistent pattern loss separately.",
-    "never_miss": "Patchy loss, scale, or lost ostia are not TE — rethink AA, tinea or scarring alopecia."
-  },
-  "sections": {
-    "what": [
-      "**Telogen effluvium (TE)** is non-scarring **diffuse** shedding of telogen (club) hairs. Acute TE follows a trigger by about **2–3 months**. Chronic TE lasts beyond 6 months.",
-      "**Androgenetic (pattern) hair loss** is the other common diffuse-looking thinning of mid-life — full UK IP detail and Module 6 Week 6 photos live on [androgenetic alopecia](condition:androgenetic-alopecia). This page only sketches the DDx so Week 3 teaching stays joined up without duplicating that photo set."
-    ],
-    "cause": [
-      {
-        "list": [
-          "Classic triggers: high fever, COVID/flu-like illness, major surgery, postpartum (including when stopping breastfeeding), crash diets, haemorrhage, new drugs (retinoids, anticoagulants, antithyroid, beta-blockers, some anticonvulsants — check BNF), severe stress.",
-          "Iron deficiency, thyroid disease and other metabolic insults.",
-          "Chronic TE: ongoing trigger or idiopathic; overlap with female pattern loss is common."
-        ]
-      }
-    ],
-    "features": [
-      {
-        "list": [
-          "Diffuse thinning; parted hair looks thinner; **no discrete bald patch**.",
-          "Increased daily shed; club hairs with a white bulb on the brush (photo teaching: D10).",
-          "Pull test: many club hairs come out easily when active.",
-          "Scalp skin looks normal; ostia preserved."
-        ]
-      },
-      {
-        "h": "Brief AGA contrast (cross-link)"
-      },
-      {
-        "list": [
-          "Pattern loss is gradual miniaturisation over years (male temples/vertex; female crown with widened part, frontal hairline usually kept).",
-          "Management (minoxidil, male finasteride MHRA mood warnings, etc.) is covered on the [androgenetic alopecia](condition:androgenetic-alopecia) page — use that page’s m6w6 gallery rather than re-hosting those images here.",
-          "Week 3 DDx thumbnails only: m3w3 D04–D08 show pattern examples beside TE for teaching grids."
-        ]
-      }
-    ],
-    "diagnosis": [
-      {
-        "list": [
-          "History timed to a trigger 2–3 months earlier.",
-          "Examine for patches, scale, inflammation, pattern miniaturisation.",
-          "Bloods when indicated: FBC, ferritin, TFT (± others guided by history).",
-          "Child with a scaly patch → mycology (tinea), not TE."
-        ]
-      }
-    ],
-    "differentials": [
-      {
-        "table": {
-          "head": [
-            "Look-alike",
-            "Clues"
-          ],
-          "rows": [
-            [
-              "Androgenetic alopecia",
-              "Patterned miniaturisation over years — [AGA page](condition:androgenetic-alopecia)"
-            ],
-            [
-              "Diffuse AA",
-              "Exclamation hairs, yellow dots, rapid patches"
-            ],
-            [
-              "Tinea capitis",
-              "Scale, black dots, children"
-            ],
-            [
-              "Traction alopecia",
-              "Marginal loss matching hairstyle (D11)"
-            ],
-            [
-              "Scarring alopecia",
-              "Lost ostia — [scarring overview](condition:scarring-alopecia)"
-            ]
-          ]
-        }
-      }
-    ],
-    "management": [
-      {
-        "list": [
-          "Reassure: acute TE usually regrows over **6–12 months** once the trigger has passed; shedding can look alarming but follicles are alive.",
-          "Correct reversible causes (iron if deficient, thyroid replacement optimisation, review culprit drugs with the original prescriber).",
-          "Gentle hair care; avoid crash diets; camouflage if wanted.",
-          "Do not promise “hair vitamins” as evidence-based cure-alls.",
-          "If patterned miniaturisation coexists, manage as on the AGA page.",
-          "Refer if diagnostic doubt, progressive patterned loss with virilisation, scarring signs, or severe distress."
-        ]
-      }
-    ],
-    "red_flags": [
-      "Virilisation or sudden severe FPHL → endocrine/tumour pathways.",
-      "Patchy, scaly or shiny bald areas — not TE.",
-      "Kerion — urgent antifungal pathway."
-    ],
-    "pearls": [
-      "Always ask “what happened 2–3 months ago?”",
-      "Postpartum shedding is physiological — counsel antenatally when possible.",
-      "Teaching grid: TE (D09) vs FPHL (D06) vs extensive AA — different time courses and trichoscopy."
+  "cause": [
+   {
+    "list": [
+     "Classic triggers: high fever, COVID/flu-like illness, major surgery, postpartum (including when stopping breastfeeding), crash diets, haemorrhage, new drugs (retinoids, anticoagulants, antithyroid, beta-blockers, some anticonvulsants — check BNF), severe stress.",
+     "Iron deficiency, thyroid disease and other metabolic insults.",
+     "Chronic TE: ongoing trigger or idiopathic; overlap with female pattern loss is common."
     ]
+   }
+  ],
+  "features": [
+   {
+    "list": [
+     "Diffuse thinning; parted hair looks thinner; **no discrete bald patch**.",
+     "Increased daily shed; club hairs with a white bulb on the brush (photo teaching: D10).",
+     "Pull test: many club hairs come out easily when active.",
+     "Scalp skin looks normal; ostia preserved."
+    ]
+   },
+   {
+    "h": "Brief AGA contrast (cross-link)"
+   },
+   {
+    "list": [
+     "Pattern loss is gradual miniaturisation over years (male temples/vertex; female crown with widened part, frontal hairline usually kept).",
+     "Management (minoxidil, male finasteride MHRA mood warnings, etc.) is covered on the [androgenetic alopecia](condition:androgenetic-alopecia) page, with its own photo gallery."
+    ]
+   }
+  ],
+  "diagnosis": [
+   {
+    "list": [
+     "History timed to a trigger 2–3 months earlier.",
+     "Examine for patches, scale, inflammation, pattern miniaturisation.",
+     "Bloods when indicated: FBC, ferritin, TFT (± others guided by history).",
+     "Child with a scaly patch → mycology (tinea), not TE."
+    ]
+   }
+  ],
+  "differentials": [
+   {
+    "table": {
+     "head": [
+      "Look-alike",
+      "Clues"
+     ],
+     "rows": [
+      [
+       "Androgenetic alopecia",
+       "Patterned miniaturisation over years — [AGA page](condition:androgenetic-alopecia)"
+      ],
+      [
+       "Diffuse AA",
+       "Exclamation hairs, yellow dots, rapid patches"
+      ],
+      [
+       "Tinea capitis",
+       "Scale, black dots, children"
+      ],
+      [
+       "Traction alopecia",
+       "Marginal loss matching hairstyle (D11)"
+      ],
+      [
+       "Scarring alopecia",
+       "Lost ostia — [scarring overview](condition:scarring-alopecia)"
+      ]
+     ]
+    }
+   }
+  ],
+  "management": [
+   {
+    "list": [
+     "Reassure: acute TE usually regrows over **6–12 months** once the trigger has passed; shedding can look alarming but follicles are alive.",
+     "Correct reversible causes (iron if deficient, thyroid replacement optimisation, review culprit drugs with the original prescriber).",
+     "Gentle hair care; avoid crash diets; camouflage if wanted.",
+     "Do not promise “hair vitamins” as evidence-based cure-alls.",
+     "If patterned miniaturisation coexists, manage as on the AGA page.",
+     "Refer if diagnostic doubt, progressive patterned loss with virilisation, scarring signs, or severe distress."
+    ]
+   }
+  ],
+  "red_flags": [
+   "Virilisation or sudden severe FPHL → endocrine/tumour pathways.",
+   "Patchy, scaly or shiny bald areas — not TE.",
+   "Kerion — urgent antifungal pathway."
+  ],
+  "pearls": [
+   "Always ask “what happened 2–3 months ago?”",
+   "Postpartum shedding is physiological — counsel antenatally when possible.",
+   "Teaching grid: TE (D09) vs FPHL (D06) vs extensive AA — different time courses and trichoscopy."
+  ]
+ },
+ "photos": [
+  {
+   "title": "Telogen effluvium",
+   "items": [
+    "m3w3:D09",
+    "m3w3:D10"
+   ]
   },
-  "photos": [
-    {
-      "title": "Telogen effluvium",
-      "items": [
-        "m3w3:D09",
-        "m3w3:D10"
-      ]
-    },
-    {
-      "title": "Must-not-miss in children: tinea / kerion",
-      "tone": "danger",
-      "items": [
-        "m3w3:D01",
-        "m3w3:D02",
-        "m3w3:D03"
-      ]
-    },
-    {
-      "title": "DDx thumbnails: pattern hair loss (see AGA page for full gallery)",
-      "items": [
-        "m3w3:D04",
-        "m3w3:D05",
-        "m3w3:D06",
-        "m3w3:D07",
-        "m3w3:D08"
-      ]
-    },
-    {
-      "title": "Traction alopecia",
-      "items": [
-        "m3w3:D11"
-      ]
-    }
-  ],
-  "references": [
-    {
-      "label": "DermNet: Telogen effluvium",
-      "url": "https://dermnetnz.org/topics/telogen-effluvium"
-    },
-    {
-      "label": "PCDS: Alopecia overview",
-      "url": "https://www.pcds.org.uk/clinical-guidance/alopecia-an-overview"
-    },
-    {
-      "label": "Derm Teach: Androgenetic alopecia",
-      "url": "condition:androgenetic-alopecia"
-    },
-    {
-      "label": "NICE CKS: Alopecia areata (diffuse DDx context)",
-      "url": "https://cks.nice.org.uk/topics/alopecia-areata/"
-    }
-  ],
-  "slug": "telogen-effluvium",
-  "status": "published"
+  {
+   "title": "Must-not-miss in children: tinea / kerion",
+   "tone": "danger",
+   "items": [
+    "m3w3:D01",
+    "m3w3:D02",
+    "m3w3:D03"
+   ]
+  },
+  {
+   "title": "DDx thumbnails: pattern hair loss (see AGA page for full gallery)",
+   "items": [
+    "m3w3:D04",
+    "m3w3:D05",
+    "m3w3:D06",
+    "m3w3:D07",
+    "m3w3:D08"
+   ]
+  },
+  {
+   "title": "Traction alopecia",
+   "items": [
+    "m3w3:D11"
+   ]
+  }
+ ],
+ "references": [
+  {
+   "label": "DermNet: Telogen effluvium",
+   "url": "https://dermnetnz.org/topics/telogen-effluvium"
+  },
+  {
+   "label": "PCDS: Alopecia overview",
+   "url": "https://www.pcds.org.uk/clinical-guidance/alopecia-an-overview"
+  },
+  {
+   "label": "Derm Teach: Androgenetic alopecia",
+   "url": "condition:androgenetic-alopecia"
+  },
+  {
+   "label": "NICE CKS: Alopecia areata (diffuse DDx context)",
+   "url": "https://cks.nice.org.uk/topics/alopecia-areata/"
+  }
+ ],
+ "slug": "telogen-effluvium",
+ "status": "published"
 }

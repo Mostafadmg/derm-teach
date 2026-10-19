@@ -1,0 +1,158 @@
+{
+ "slug": "returning-traveller-skin",
+ "title": "The returning traveller with a skin problem",
+ "category": "tropical-travel",
+ "status": "published",
+ "order": 1,
+ "module": "Module 5 · Week 4",
+ "aka": [
+  "travel rash",
+  "tropical dermatology",
+  "migrant health",
+  "fever and rash",
+  "NaTHNaC",
+  "travel history"
+ ],
+ "summary": "A structured approach to skin problems after travel or migration: where, when, what exposure, and is there fever? Fever after the tropics means same-day malaria exclusion.",
+ "card_image": "m5w4:W4B01",
+ "glance": {
+  "think": "Any rash, ulcer, lump or creeping track in someone who has travelled or migrated in the past year.",
+  "engine": "Exposure-specific infections (sandflies, mosquitoes, soil, water, animals) plus common UK conditions acquired abroad.",
+  "backbone": "Take a full travel and exposure history, examine the whole skin, exclude malaria the same day if febrile, and use the UK tropical-medicine advice routes.",
+  "never_miss": "Fever (malaria, dengue, rickettsia, typhoid), mucosal leishmaniasis, and numb patches (leprosy)."
+ },
+ "sections": {
+  "what": [
+   {
+    "h": "Core approach"
+   },
+   {
+    "list": [
+     "**Most skin problems after travel are common things** (insect-bite reactions, impetigo/cellulitis from scratched bites, sunburn, tinea, pityriasis versicolor, contact/phyto-dermatitis). Tropical-specific diagnoses are less common but matter because they are missed (PCDS).",
+     "**Travel history checklist:** countries *and* regions (urban vs rural/forest/beach), dates (incubation windows: dengue ~4–10 days; CLM days–weeks; leishmaniasis 2 weeks–6+ months; leprosy years; mycetoma months–years), activities (barefoot on beaches/soil, jungle trekking, farming, military service), insect bites, freshwater/animal contact, sexual contact, prior residence (migrants, VFR travellers — \"visiting friends and relatives\"), pre-travel vaccines/prophylaxis, and illness or treatment while abroad.",
+     "**Fever + rash in a returning traveller = same-day medical assessment.** Malaria must be excluded urgently in anyone with fever after travel to a malarious area (usually within the past year, especially within 3 months), even if they took prophylaxis. Consider dengue, chikungunya, rickettsial infection (look for an eschar), meningococcal disease, measles, acute HIV, typhoid.",
+     "**Where to refer in the UK:** local Infectious Diseases (ID) or tropical medicine service; national centres include the **Hospital for Tropical Diseases (HTD), UCLH, London** (GP e-Referral; 24-hour on-call tropical medicine registrar via UCLH switchboard; emergency walk-in for unwell returnees within 6 months, weekday clinic hours) and the Liverpool School of Tropical Medicine/Royal Liverpool tropical service. Travel-health resources: **NaTHNaC / TravelHealthPro** country pages; **UKHSA Rare and Imported Pathogens Laboratory (RIPL)** for arbovirus testing.",
+     "**Notification (England):** leprosy is a statutorily **notifiable disease** for clinicians; dengue virus is a **notifiable organism** reported by the laboratory (clinicians do not need to notify suspected dengue)."
+    ]
+   }
+  ],
+  "cause": [
+   {
+    "list": [
+     "**Common UK conditions acquired abroad**: insect-bite reactions, impetigo and cellulitis from scratched bites, sunburn and phototoxic reactions, tinea, pityriasis versicolor, contact and phytophotodermatitis.",
+     "**Exposure-specific infections**: sandflies (leishmaniasis), mosquitoes (dengue, chikungunya, Zika), beaches and soil (larva migrans, tungiasis, mycetoma), ticks (rickettsial eschar, Lyme disease), fresh water (schistosome cercarial dermatitis), sexual contact (syphilis, HIV)."
+    ]
+   }
+  ],
+  "features": [
+   {
+    "table": {
+     "head": [
+      "Presentation",
+      "Think of"
+     ],
+     "rows": [
+      [
+       "Moving, itchy serpiginous track",
+       "[Cutaneous larva migrans](condition:cutaneous-larva-migrans)"
+      ],
+      [
+       "Painless ulcer with a rolled edge, weeks to months after travel",
+       "[Cutaneous leishmaniasis](condition:cutaneous-leishmaniasis)"
+      ],
+      [
+       "Fever, aches and a flushing or ‘white islands’ rash",
+       "[Dengue](condition:dengue), chikungunya, measles; exclude malaria"
+      ],
+      [
+       "Numb pale or red patches, thickened nerves",
+       "[Leprosy](condition:leprosy)"
+      ],
+      [
+       "Swollen foot with discharging sinuses",
+       "[Mycetoma](condition:mycetoma)"
+      ],
+      [
+       "Black eschar at a bite site with fever",
+       "Rickettsial infection (tick typhus)"
+      ],
+      [
+       "Boil-like lump with a central pore and movement",
+       "Myiasis (botfly larva)"
+      ]
+     ]
+    }
+   }
+  ],
+  "diagnosis": [
+   {
+    "list": [
+     "Ask where (including rural, beach or forest), when (incubation windows), what they did, bites, water and animal contact, sexual contact, and treatment taken abroad.",
+     "Examine the whole skin, lymph nodes and mucosa.",
+     "**Fever = same-day malaria film or rapid test**, plus FBC and specialist advice.",
+     "Use the national tropical-medicine services for advice on biopsy, culture or PCR; take photographs to share."
+    ]
+   }
+  ],
+  "differentials": [
+   "Most rashes after travel are the same conditions seen at home. Keep scabies, impetigo, tinea, drug eruptions, urticaria and contact dermatitis on the list before deciding it is a tropical disease."
+  ],
+  "management": [
+   {
+    "list": [
+     "Treat common conditions as usual, with review dates.",
+     "Refer exotic or uncertain cases early to infectious diseases or tropical medicine.",
+     "Do not give NSAIDs or aspirin to a febrile traveller until dengue has been considered.",
+     "Remember notifiable diseases and give prevention advice for the next trip (insect repellent with DEET 50%, covering up, footwear on beaches)."
+    ]
+   }
+  ],
+  "red_flags": [
+   "**Fever after travel to a malaria area**: same-day malaria testing, whatever the rash.",
+   "Dengue warning signs (abdominal pain, vomiting, bleeding, lethargy): emergency.",
+   "Nasal or oral ulceration after leishmaniasis exposure: specialist referral."
+  ],
+  "pearls": [
+   {
+    "h": "Cross-cutting prescriber pearls"
+   },
+   {
+    "ol": [
+     "**\"Where have you been, and when?\"** Take the travel *and* migration history for every unexplained or non-healing skin lesion. Incubation runs from days (dengue, CLM) to months (leishmaniasis) to years (leprosy, mycetoma).",
+     "**Fever after travel = same-day assessment.** Exclude malaria first. In suspected dengue, give **paracetamol and no NSAIDs or aspirin**.",
+     "**Painless is a warning sign, not a comfort.** Painless ulcers suggest leishmaniasis, leprosy (neuropathic) or Buruli ulcer. Painless swelling with sinuses suggests mycetoma.",
+     "**Test sensation** in any persistent hypopigmented or red patch in someone from a leprosy-endemic country. **Palpate the nerves.**",
+     "**Do not put steroid creams on undiagnosed tropical ulcers, and do not give systemic steroids** to someone who may have *Strongyloides* (larva currens) or TB without specialist input.",
+     "**Know your UK specialist routes:** HTD (UCLH) e-Referral, the 24-hour on-call tropical registrar via UCLH switchboard, the HTD Leishmaniasis MDT, the national leprosy Consultant Advisors (UKHSA memorandum), and local ID. **Leprosy is clinician-notifiable in England.**",
+     "**Teratogens in tropical dermatology:** miltefosine, thalidomide (ENL), albendazole/ivermectin (avoid in pregnancy), and live Qdenga (contraindicated in pregnancy). Always check pregnancy and contraception status. **Rifampicin defeats hormonal contraception.**",
+     "**Pre-travel prevention is the pharmacist's strongest lever:** footwear (CLM, mycetoma); day-time *Aedes* bite avoidance and DEET 50% (dengue); dusk/dawn sandfly avoidance and fine-mesh nets (leishmaniasis); Qdenga only for previously infected travellers"
+    ]
+   }
+  ]
+ },
+ "photos": [
+  {
+   "title": "Common travel-related presentations",
+   "items": [
+    "m5w4:W4A01",
+    "m5w4:W4B01",
+    "m5w4:W4C01",
+    "m5w4:W4D06"
+   ]
+  }
+ ],
+ "references": [
+  {
+   "label": "TravelHealthPro (NaTHNaC) country information",
+   "url": "https://travelhealthpro.org.uk/countries"
+  },
+  {
+   "label": "PCDS: Tropical and travel-related skin conditions",
+   "url": "https://www.pcds.org.uk/"
+  },
+  {
+   "label": "UKHSA: Imported infections and travel health",
+   "url": "https://www.gov.uk/government/organisations/uk-health-security-agency"
+  }
+ ]
+}

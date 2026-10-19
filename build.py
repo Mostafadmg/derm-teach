@@ -51,6 +51,14 @@ ICONS = {
     "follicle": '<circle cx="12" cy="12" r="8"/><path d="M12 20V9"/><path d="M9.5 10.5c.8-1 1.6-1.5 2.5-1.5s1.7.5 2.5 1.5"/><circle cx="12" cy="7" r="1.2"/>',
     "ring": '<circle cx="12" cy="12" r="7.5" stroke-dasharray="2.4 2"/><circle cx="12" cy="12" r="3.2"/>',
     "bacteria": '<rect x="5" y="8.5" width="14" height="7" rx="3.5"/><path d="M3 9l2 1.5M3 15l2-1.5M21 9l-2 1.5M21 15l-2-1.5M9 12h.01M12 12h.01M15 12h.01"/>',
+    "book": '<path d="M5 4.5A1.5 1.5 0 0 1 6.5 3H19v15H6.5A1.5 1.5 0 0 0 5 19.5Z"/><path d="M5 19.5A1.5 1.5 0 0 0 6.5 21H19"/><path d="M9 7h6M9 10.5h6"/>',
+    "hand": '<path d="M8 13V5.5a1.5 1.5 0 0 1 3 0V11M11 10V4.5a1.5 1.5 0 0 1 3 0V11M14 10.5V6a1.5 1.5 0 0 1 3 0v7.5c0 4-2.7 7-6.5 7-2.6 0-4.3-1.3-5.6-3.5L3.6 13.6a1.4 1.4 0 0 1 2.3-1.6L8 14"/>',
+    "nail": '<path d="M8 21V8a4 4 0 0 1 8 0v13"/><rect x="9.5" y="5" width="5" height="5.5" rx="2.2"/>',
+    "blister": '<path d="M3 17h18"/><path d="M6.5 17c0-3.6 2.5-6.5 5.5-6.5s5.5 2.9 5.5 6.5"/><path d="M10 13.5c.6-.6 1.3-.9 2-.9"/>',
+    "sun": '<circle cx="12" cy="12" r="4"/><path d="M12 2.5v2.5M12 19v2.5M2.5 12H5M19 12h2.5M5.3 5.3l1.8 1.8M16.9 16.9l1.8 1.8M5.3 18.7l1.8-1.8M16.9 7.1l1.8-1.8"/>',
+    "globe": '<circle cx="12" cy="12" r="8.5"/><path d="M3.5 12h17M12 3.5c2.4 2.4 3.5 5.3 3.5 8.5s-1.1 6.1-3.5 8.5c-2.4-2.4-3.5-5.3-3.5-8.5s1.1-6.1 3.5-8.5Z"/>',
+    "comb": '<path d="M4 9h16v3H4z"/><path d="M6 12v6M9 12v6M12 12v6M15 12v6M18 12v6"/>',
+    "check": '<rect x="4" y="3.5" width="16" height="17" rx="2"/><path d="M8 12l2.5 2.5L16 9"/>',
     "baby": '<circle cx="12" cy="8.5" r="4.5"/><path d="M10.4 8.6h.01M13.6 8.6h.01M10.6 10.4c.8.6 2 .6 2.8 0"/><path d="M6 21c.6-3.6 3-5.5 6-5.5s5.4 1.9 6 5.5"/>',
 }
 
@@ -492,7 +500,8 @@ def build_condition(d, idx, seq):
     toc = []
     secs = []
     num = 0
-    for key, anchor, label in SECTIONS:
+    article = d.get("layout") == "article"
+    for key, anchor, label in ([] if article else SECTIONS):
         blocks = d["sections"].get(key, [])
         num += 1
         toc.append(f'<li><a href="#{anchor}" data-toc="{anchor}"><span>{num}</span>{label}</a></li>')
@@ -508,9 +517,22 @@ def build_condition(d, idx, seq):
             f'<summary><span class="sec-num">{num}</span><h2 id="h-{anchor}">{label}</h2><span class="chev" aria-hidden="true"></span></summary>'
             f'<div class="sec-body">{inner}</div></details></section>')
 
+    for a in (d.get("article", []) if article else []):
+        num += 1
+        anchor = a["id"]
+        toc.append(f'<li><a href="#{esc(anchor)}" data-toc="{esc(anchor)}"><span>{num}</span>{esc(a.get("short", a["title"]))}</a></li>')
+        tone = {"danger": " sec-danger", "tip": " sec-tip", "rx": " sec-rx"}.get(a.get("tone", ""), "")
+        secs.append(
+            f'<section class="sec{tone}" id="{esc(anchor)}" aria-labelledby="h-{esc(anchor)}"><details open>'
+            f'<summary><span class="sec-num">{num}</span><h2 id="h-{esc(anchor)}">{esc(a["title"])}</h2><span class="chev" aria-hidden="true"></span></summary>'
+            f'<div class="sec-body">{render_blocks(a.get("blocks", []), p, f"{ctx}/{anchor}")}</div></details></section>')
+
     # photos
     num += 1
-    toc.append(f'<li><a href="#photos" data-toc="photos"><span>{num}</span>Photos</a></li>')
+    if article:
+        num -= 1
+    else:
+        toc.append(f'<li><a href="#photos" data-toc="photos"><span>{num}</span>Photos</a></li>')
     groups = []
     for g in d.get("photos", []):
         figs = "".join(figure(resolve_photo(x, p, ctx)) for x in g.get("items", []))
@@ -518,7 +540,8 @@ def build_condition(d, idx, seq):
         groups.append(f'<div class="gal-group{tone}"><h3>{md(g.get("title", ""), p)}</h3><div class="gallery">{figs}</div></div>')
     if not groups:
         groups.append('<div class="placeholder"><p><b>Photos coming soon.</b> Add DermNet codes or AI images to <code>photos</code>.</p></div>')
-    secs.append(
+    if not article:
+      secs.append(
         f'<section class="sec" id="photos" aria-labelledby="h-photos"><details open>'
         f'<summary><span class="sec-num">{num}</span><h2 id="h-photos">Photos &amp; diagrams</h2><span class="chev" aria-hidden="true"></span></summary>'
         f'<div class="sec-body"><p class="muted small">Tap any image to enlarge. DermNet photographs are © DermNet or the named holder, with the source linked under each image. Images marked <span class="badge badge-ai badge-inline">AI diagram</span> are AI-generated teaching illustrations.</p>'
@@ -528,7 +551,15 @@ def build_condition(d, idx, seq):
     if d.get("references"):
         num += 1
         toc.append(f'<li><a href="#references" data-toc="references"><span>{num}</span>References</a></li>')
-        refs = "".join(f'<li><a href="{esc(r["url"])}" target="_blank" rel="noopener">{esc(r["label"])}</a></li>' for r in d["references"])
+        def ref_li(r):
+            u = r["url"]
+            if u.startswith("condition:"):
+                slug = u.split(":", 1)[1]
+                if slug not in SLUGS:
+                    WARNINGS.append(f"{ctx}: reference to unknown condition '{slug}'")
+                return f'<li><a href="{p}conditions/{esc(slug)}.html">{esc(r["label"])}</a></li>'
+            return f'<li><a href="{esc(u)}" target="_blank" rel="noopener">{esc(r["label"])}</a></li>'
+        refs = "".join(ref_li(r) for r in d["references"])
         secs.append(
             f'<section class="sec" id="references" aria-labelledby="h-references"><details open>'
             f'<summary><span class="sec-num">{num}</span><h2 id="h-references">References &amp; further reading</h2><span class="chev" aria-hidden="true"></span></summary>'

@@ -1,0 +1,223 @@
+{
+ "slug": "annular-rashes",
+ "title": "Annular (ring-shaped) rashes: differential",
+ "category": "inflammatory",
+ "status": "published",
+ "order": 5,
+ "module": "Module 4 · Week 1",
+ "aka": [
+  "ringworm or not",
+  "annular scaly patch",
+  "granuloma annulare",
+  "erythema annulare centrifugum",
+  "herald patch",
+  "nummular eczema",
+  "tinea corporis"
+ ],
+ "summary": "Not every ring is ringworm. Tinea, granuloma annulare, discoid eczema, pityriasis rosea, erythema annulare centrifugum and subacute lupus all form rings. Scale, its position and a skin scraping sort most of them.",
+ "card_image": "m4w1:C03",
+ "glance": {
+  "think": "A ring-shaped or annular patch, especially one that failed antifungal or steroid treatment.",
+  "engine": "Rings form when inflammation spreads outward and clears centrally; the pattern of scale reflects the process.",
+  "backbone": "Scrape scaly rings before treating; avoid steroid–antifungal combinations on undiagnosed rashes; biopsy what persists.",
+  "never_miss": "Tinea incognito, subacute cutaneous lupus (photosensitive, drug-induced), mycosis fungoides and Lyme erythema migrans."
+ },
+ "sections": {
+  "what": [
+   "*(Module 4 Case 3 teaching frame: solitary annular scaly erythema on chest → later widespread eruption diagnosed as **pityriasis rosea**. Use the initial lesion to practise annular DDx.)*",
+   "An **annular (ring-shaped) scaly erythematous patch/plaque** is a common primary-care puzzle. Leading differentials: **tinea corporis**, **annular / plaque psoriasis**, **granuloma annulare** (usually *non*-scaly), **herald patch of pityriasis rosea**, **erythema annulare centrifugum (EAC)**, discoid eczema, and less often subacute cutaneous lupus or erythema migrans."
+  ],
+  "cause": [
+   {
+    "table": {
+     "head": [
+      "Condition",
+      "Mechanism (plain language)"
+     ],
+     "rows": [
+      [
+       "Tinea corporis",
+       "Dermatophyte infection of stratum corneum"
+      ],
+      [
+       "Annular psoriasis",
+       "Same immune axis as plaque psoriasis; ring morphology"
+      ],
+      [
+       "Granuloma annulare",
+       "Granulomatous dermal inflammation; often idiopathic; DM association sometimes discussed"
+      ],
+      [
+       "Pityriasis rosea",
+       "Likely viral (HHV-6/7 hypothesis); self-limiting reactive eruption"
+      ],
+      [
+       "EAC",
+       "Reactive figurate erythema; trailing scale; hunt for triggers (infection, drugs, rarely malignancy)"
+      ]
+     ]
+    }
+   }
+  ],
+  "features": [
+   {
+    "table": {
+     "head": [
+      "Condition",
+      "Scale / edge",
+      "Itch",
+      "Clues"
+     ],
+     "rows": [
+      [
+       "Tinea corporis",
+       "Active raised scaly edge; central clearing",
+       "Variable",
+       "Asymmetry; pet/soil exposure; feet/nails reservoir"
+      ],
+      [
+       "Annular psoriasis",
+       "Silvery scale; may be symmetric",
+       "Mild–mod",
+       "Other plaques, nails, scalp, family Hx"
+      ],
+      [
+       "Granuloma annulare",
+       "**Usually smooth, non-scaly** rings",
+       "Mild/none",
+       "Dorsum hands/feet, ankles; kids/young adults"
+      ],
+      [
+       "PR herald patch",
+       "Oval plaque with collarette scale",
+       "Mild",
+       "Days–weeks later → Christmas-tree secondary rash"
+      ],
+      [
+       "EAC",
+       "Trailing (inner) scale; slow centrifugal spread",
+       "Mild",
+       "Trunk/thighs; chronic/recurrent"
+      ]
+     ]
+    }
+   },
+   "**Case 3 arc:** Herald patch misread as isolated annular lesion → antifungal or mild TCS may “fail” as secondary PR eruption appears."
+  ],
+  "diagnosis": [
+   {
+    "list": [
+     "History: pets, steroids already used, herald then cascade, joint/nail clues, Lyme geography/tick bite.",
+     "**Mycology scrape** before committing to prolonged TCS if tinea plausible (single most useful primary-care test).",
+     "Wood’s lamp limited value for most corporis species.",
+     "Review in 1 week if solitary lesion — watch for PR secondary rash or tinea expansion.",
+     "Biopsy if persistent atypical annular disease (EAC, SCLE, GA confirmation)."
+    ]
+   }
+  ],
+  "differentials": [
+   {
+    "table": {
+     "head": [
+      "Look-alike",
+      "Distinguishing clues"
+     ],
+     "rows": [
+      [
+       "Tinea vs PR herald",
+       "Mycology; PR often follows with widespread oval lesions on cleavage lines"
+      ],
+      [
+       "Tinea vs GA",
+       "Scale vs no scale; KOH"
+      ],
+      [
+       "Annular psoriasis vs tinea",
+       "Symmetry, silvery scale, nail/scalp; KOH negative"
+      ],
+      [
+       "Erythema migrans",
+       "Expanding after tick bite; Lyme serology/pathway"
+      ],
+      [
+       "Nummular eczema",
+       "Coin plaques, very itchy, often legs; not true advancing ring"
+      ],
+      [
+       "SCLE",
+       "Photosensitive annular plaques; ANA/Ro; systemic screen"
+      ]
+     ]
+    }
+   }
+  ],
+  "management": [
+   {
+    "list": [
+     "**Suspected tinea:** topical terbinafine or imidazole (duration per site/BNF); oral terbinafine if extensive/failed topical — check interactions/LFTs per guidance; treat foot reservoir.",
+     "**Suspected PR:** reassure self-limiting (often 6–12 weeks); emollient ± mild–moderate TCS for itch; BAD/PCDS PIL; atypical (palms/soles, very symptomatic) → consider syphilis serology / derm.",
+     "**GA:** many localised cases observe; TCS/tacrolimus sometimes tried; extensive → derm.",
+     "**Psoriasis:** NICE topical pathway.",
+     "**EAC:** treat underlying trigger if found; topical steroids symptomatic; derm if persistent."
+    ]
+   }
+  ],
+  "red_flags": [
+   "Expanding ring after a tick bite: **erythema migrans**, treat on clinical grounds (NICE NG95).",
+   "Photosensitive annular plaques with systemic features or a new drug (PPI, terbinafine, thiazide): think **subacute cutaneous lupus**.",
+   "Persistent, fixed, non-healing annular plaques in an older adult: biopsy to exclude cutaneous lymphoma."
+  ],
+  "pearls": [
+   "**Never** use potent TCS long-term on an undiagnosed annular plaque — risk of **tinea incognito**.",
+   "Explain PR herald → secondary rash so patients do not think treatment “caused” spread.",
+   "Recheck feet and nails whenever you diagnose body tinea."
+  ]
+ },
+ "photos": [
+  {
+   "title": "Tinea corporis",
+   "items": [
+    "m4w1:C01",
+    "m4w1:C02"
+   ]
+  },
+  {
+   "title": "Granuloma annulare",
+   "items": [
+    "m4w1:C03",
+    "m1w1:C01"
+   ]
+  },
+  {
+   "title": "Pityriasis rosea",
+   "items": [
+    "m4w1:C04",
+    "m4w1:C05"
+   ]
+  },
+  {
+   "title": "Erythema annulare centrifugum",
+   "items": [
+    "m4w1:C06"
+   ]
+  }
+ ],
+ "references": [
+  {
+   "label": "DermNet: Tinea corporis",
+   "url": "https://dermnetnz.org/topics/tinea-corporis"
+  },
+  {
+   "label": "DermNet: Granuloma annulare",
+   "url": "https://dermnetnz.org/topics/granuloma-annulare"
+  },
+  {
+   "label": "DermNet: Pityriasis rosea",
+   "url": "https://dermnetnz.org/topics/pityriasis-rosea"
+  },
+  {
+   "label": "DermNet: Erythema annulare centrifugum",
+   "url": "https://dermnetnz.org/topics/erythema-annulare-centrifugum"
+  }
+ ]
+}

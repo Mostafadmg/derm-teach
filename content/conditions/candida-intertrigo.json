@@ -1,190 +1,191 @@
 {
-  "slug": "candida-intertrigo",
-  "title": "Candidal intertrigo",
-  "aka": [
-    "candida",
-    "candidiasis",
-    "thrush skin",
-    "yeast infection skin folds",
-    "intertrigo",
-    "erosio interdigitalis",
-    "nystatin",
-    "clotrimazole"
+ "slug": "candida-intertrigo",
+ "title": "Candidal intertrigo",
+ "aka": [
+  "candida",
+  "candidiasis",
+  "thrush skin",
+  "yeast infection skin folds",
+  "intertrigo",
+  "erosio interdigitalis",
+  "nystatin",
+  "clotrimazole"
+ ],
+ "category": "fungal",
+ "status": "published",
+ "order": 3,
+ "summary": "Beefy-red, macerated skin folds with satellite pustules. Moisture control plus a topical azole or nystatin, and look for diabetes or recent antibiotics.",
+ "card_image": "D15",
+ "glance": {
+  "think": "Bright, beefy-red, moist plaques in a skin fold, with satellite papules or pustules beyond the edge.",
+  "engine": "Opportunistic Candida albicans overgrowth in warm, wet, occluded folds.",
+  "backbone": "Keep the fold dry, then a topical imidazole or nystatin. Address the risk factors.",
+  "never_miss": "Undiagnosed diabetes or immunosuppression, and flexural psoriasis or tinea that will not respond."
+ },
+ "sections": {
+  "what": [
+   "Candidal intertrigo is a **yeast infection of moist skin folds**, usually caused by *Candida albicans*. Common sites are under the breasts, under an abdominal apron, the groin, the axillae and the finger or toe webs (*erosio interdigitalis blastomycetica*).",
+   "**Intertrigo** itself is inflammation of the skin folds from heat, moisture, friction and poor ventilation. Secondary Candida infection is common, and **satellite papules and pustules** are the key diagnostic clue."
   ],
-  "category": "fungal",
-  "status": "published",
-  "order": 3,
-  "summary": "Beefy-red, macerated skin folds with satellite pustules. Moisture control plus a topical azole or nystatin, and look for diabetes or recent antibiotics.",
-  "card_image": "D15",
-  "glance": {
-    "think": "Bright, beefy-red, moist plaques in a skin fold, with satellite papules or pustules beyond the edge.",
-    "engine": "Opportunistic Candida albicans overgrowth in warm, wet, occluded folds.",
-    "backbone": "Keep the fold dry, then a topical imidazole or nystatin. Address the risk factors.",
-    "never_miss": "Undiagnosed diabetes or immunosuppression, and flexural psoriasis or tinea that will not respond."
-  },
-  "sections": {
-    "what": [
-      "Candidal intertrigo is a **yeast infection of moist skin folds**, usually caused by *Candida albicans*. Common sites are under the breasts, under an abdominal apron, the groin, the axillae and the finger or toe webs (*erosio interdigitalis blastomycetica*).",
-      "**Intertrigo** itself is inflammation of the skin folds from heat, moisture, friction and poor ventilation. Secondary Candida infection is common, and **satellite papules and pustules** are the key diagnostic clue."
-    ],
-    "cause": [
-      "*Candida* is an **opportunist**. It overgrows where skin is wet, warm, occluded and macerated.",
-      {
-        "h": "Risk factors"
-      },
-      {
-        "list": [
-          "**Diabetes** (look for it)",
-          "Recent **antibiotics** or systemic steroids",
-          "Immunosuppression",
-          "Obesity and deep skin folds",
-          "Incontinence, nappies and pads",
-          "Wet work, for finger-web disease"
-        ]
-      }
-    ],
-    "features": [
-      {
-        "list": [
-          "**Beefy-red, macerated plaques** in folds, often glistening or eroded.",
-          "**Satellite papules and pustules** beyond the main edge. This is the key sign.",
-          "Peripheral peeling scale at the margin.",
-          "Soreness, itch or burning.",
-          "In the groin, Candida often **involves the scrotum**, which tinea tends to spare."
-        ]
-      },
-      {
-        "callout": "info",
-        "title": "Look elsewhere",
-        "text": "Candidal intertrigo can coexist with oral or genital thrush, so ask and examine."
-      }
-    ],
-    "diagnosis": [
-      {
-        "list": [
-          "Usually clinical, based on the site and satellite lesions.",
-          "Take a swab or scrapings for yeast if uncertain, recurrent or not responding. Swab for bacteria if secondary infection is suspected.",
-          "**Check HbA1c or glucose** if recurrent or there are other risk features."
-        ]
-      }
-    ],
-    "differentials": [
-      {
-        "table": {
-          "head": [
-            "Look-alike",
-            "Distinguishing clues"
-          ],
-          "rows": [
-            [
-              "Irritant (simple) intertrigo",
-              "Friction and moisture redness without satellites; mirror-image on both sides of the fold"
-            ],
-            [
-              "Flexural (inverse) psoriasis",
-              "Sharply defined salmon-pink plaque, no satellites; psoriasis at other sites or nails"
-            ],
-            [
-              "Tinea cruris",
-              "Arcuate scaly active edge spreading onto the thigh; scrotum usually spared"
-            ],
-            [
-              "Erythrasma",
-              "Brown-red, finely scaly patch; coral-red under Wood’s light (Corynebacterium)"
-            ],
-            [
-              "Seborrhoeic dermatitis",
-              "Greasy scale; also scalp and face"
-            ],
-            [
-              "Hailey–Hailey disease / pemphigus vegetans (rare)",
-              "Chronic, eroded, recurrent fold disease that does not respond. Refer"
-            ]
-          ]
-        }
-      }
-    ],
-    "management": [
-      {
-        "h": "Moisture control: the most important step"
-      },
-      {
-        "list": [
-          "Dry the folds thoroughly after washing (pat dry, or use a cool hairdryer).",
-          "Use absorbent interface textiles or cotton separators. Choose barrier products for incontinence.",
-          "Wear loose cotton clothing, and give weight-management advice where relevant."
-        ]
-      },
-      {
-        "h": "Topical antifungal"
-      },
-      {
-        "list": [
-          "**Imidazole** (clotrimazole or miconazole) or **nystatin**. Continue until 1–2 weeks after clearance.",
-          "For very inflamed folds, a short course of a combination with mild steroid (e.g. hydrocortisone with clotrimazole or miconazole) is sometimes used. Follow the local formulary and limit to about 7 days."
-        ]
-      },
-      {
-        "h": "Oral"
-      },
-      "**Fluconazole** for severe or recalcitrant disease. Check interactions and pregnancy status.",
-      {
-        "h": "Look for and treat the cause"
-      },
-      "Review for diabetes, recent antibiotics and immunosuppression."
-    ],
-    "red_flags": [
-      "Recurrent or extensive candida: **screen for diabetes** and consider immunosuppression.",
-      "No response to an adequate course: reconsider the diagnosis (psoriasis, tinea, erythrasma) and take samples.",
-      "Spreading cellulitis, fever or a systemically unwell patient: escalate."
-    ],
-    "pearls": [
-      "**Satellites mean Candida.** No satellites and a very sharp edge suggests flexural psoriasis.",
-      "Treatment fails without moisture control. Make the drying advice practical and specific.",
-      "OTC clotrimazole is a sensible first pharmacy intervention for limited disease.",
-      "In finger-web disease, ask about wet work and rings.",
-      "**Satellites mean Candida until proven otherwise.**",
-      "The toe-web ‘dermatophytosis complex’ is often a **mixed** yeast, dermatophyte and bacterial picture. It needs thorough drying plus the right antimicrobial."
+  "cause": [
+   "*Candida* is an **opportunist**. It overgrows where skin is wet, warm, occluded and macerated.",
+   {
+    "h": "Risk factors"
+   },
+   {
+    "list": [
+     "**Diabetes** (look for it)",
+     "Recent **antibiotics** or systemic steroids",
+     "Immunosuppression",
+     "Obesity and deep skin folds",
+     "Incontinence, nappies and pads",
+     "Wet work, for finger-web disease"
     ]
+   }
+  ],
+  "features": [
+   {
+    "list": [
+     "**Beefy-red, macerated plaques** in folds, often glistening or eroded.",
+     "**Satellite papules and pustules** beyond the main edge. This is the key sign.",
+     "Peripheral peeling scale at the margin.",
+     "Soreness, itch or burning.",
+     "In the groin, Candida often **involves the scrotum**, which tinea tends to spare."
+    ]
+   },
+   {
+    "callout": "info",
+    "title": "Look elsewhere",
+    "text": "Candidal intertrigo can coexist with oral or genital thrush, so ask and examine."
+   }
+  ],
+  "diagnosis": [
+   {
+    "list": [
+     "Usually clinical, based on the site and satellite lesions.",
+     "Take a swab or scrapings for yeast if uncertain, recurrent or not responding. Swab for bacteria if secondary infection is suspected.",
+     "**Check HbA1c or glucose** if recurrent or there are other risk features."
+    ]
+   }
+  ],
+  "differentials": [
+   {
+    "table": {
+     "head": [
+      "Look-alike",
+      "Distinguishing clues"
+     ],
+     "rows": [
+      [
+       "Irritant (simple) intertrigo",
+       "Friction and moisture redness without satellites; mirror-image on both sides of the fold"
+      ],
+      [
+       "Flexural (inverse) psoriasis",
+       "Sharply defined salmon-pink plaque, no satellites; psoriasis at other sites or nails"
+      ],
+      [
+       "Tinea cruris",
+       "Arcuate scaly active edge spreading onto the thigh; scrotum usually spared"
+      ],
+      [
+       "Erythrasma",
+       "Brown-red, finely scaly patch; coral-red under Wood’s light (Corynebacterium)"
+      ],
+      [
+       "Seborrhoeic dermatitis",
+       "Greasy scale; also scalp and face"
+      ],
+      [
+       "Hailey–Hailey disease / pemphigus vegetans (rare)",
+       "Chronic, eroded, recurrent fold disease that does not respond. Refer"
+      ]
+     ]
+    }
+   }
+  ],
+  "management": [
+   {
+    "h": "Moisture control: the most important step"
+   },
+   {
+    "list": [
+     "Dry the folds thoroughly after washing (pat dry, or use a cool hairdryer).",
+     "Use absorbent interface textiles or cotton separators. Choose barrier products for incontinence.",
+     "Wear loose cotton clothing, and give weight-management advice where relevant."
+    ]
+   },
+   {
+    "h": "Topical antifungal"
+   },
+   {
+    "list": [
+     "**Imidazole** (clotrimazole or miconazole) or **nystatin**. Continue until 1–2 weeks after clearance.",
+     "For very inflamed folds, a short course of a combination with mild steroid (e.g. hydrocortisone with clotrimazole or miconazole) is sometimes used. Follow the local formulary and limit to about 7 days."
+    ]
+   },
+   {
+    "h": "Oral"
+   },
+   "**Fluconazole** for severe or recalcitrant disease. Check interactions and pregnancy status.",
+   {
+    "h": "Look for and treat the cause"
+   },
+   "Review for diabetes, recent antibiotics and immunosuppression."
+  ],
+  "red_flags": [
+   "Recurrent or extensive candida: **screen for diabetes** and consider immunosuppression.",
+   "No response to an adequate course: reconsider the diagnosis (psoriasis, tinea, erythrasma) and take samples.",
+   "Spreading cellulitis, fever or a systemically unwell patient: escalate."
+  ],
+  "pearls": [
+   "**Satellites mean Candida.** No satellites and a very sharp edge suggests flexural psoriasis.",
+   "Treatment fails without moisture control. Make the drying advice practical and specific.",
+   "OTC clotrimazole is a sensible first pharmacy intervention for limited disease.",
+   "In finger-web disease, ask about wet work and rings.",
+   "**Satellites mean Candida until proven otherwise.**",
+   "The toe-web ‘dermatophytosis complex’ is often a **mixed** yeast, dermatophyte and bacterial picture. It needs thorough drying plus the right antimicrobial.",
+   "KOH-negative fold rash, or one that keeps coming back? Work through [intertrigo and the flexural differential](condition:intertrigo)."
+  ]
+ },
+ "photos": [
+  {
+   "title": "Candidal intertrigo: groin, toe web, finger web",
+   "items": [
+    "D15",
+    "D16",
+    "D17"
+   ]
   },
-  "photos": [
-    {
-      "title": "Candidal intertrigo: groin, toe web, finger web",
-      "items": [
-        "D15",
-        "D16",
-        "D17"
-      ]
-    },
-    {
-      "title": "Module 5: candidal and simple intertrigo",
-      "items": [
-        "m5w1:O03",
-        "m5w1:O04"
-      ]
-    },
-    {
-      "title": "Differential pairing: candida vs tinea cruris vs flexural psoriasis",
-      "items": [
-        "D15",
-        "D11",
-        "B14"
-      ]
-    }
-  ],
-  "references": [
-    {
-      "label": "DermNet: Candidiasis of skin folds",
-      "url": "https://dermnetnz.org/topics/candidiasis-of-skin-folds"
-    },
-    {
-      "label": "DermNet: Intertrigo",
-      "url": "https://dermnetnz.org/topics/intertrigo"
-    },
-    {
-      "label": "NICE CKS: Fungal skin infection – body and groin",
-      "url": "https://cks.nice.org.uk/topics/fungal-skin-infection-body-groin/"
-    }
-  ],
-  "module": "Adult core · deepened with Module 5 Week 1"
+  {
+   "title": "Module 5: candidal and simple intertrigo",
+   "items": [
+    "m5w1:O03",
+    "m5w1:O04"
+   ]
+  },
+  {
+   "title": "Differential pairing: candida vs tinea cruris vs flexural psoriasis",
+   "items": [
+    "D15",
+    "D11",
+    "B14"
+   ]
+  }
+ ],
+ "references": [
+  {
+   "label": "DermNet: Candidiasis of skin folds",
+   "url": "https://dermnetnz.org/topics/candidiasis-of-skin-folds"
+  },
+  {
+   "label": "DermNet: Intertrigo",
+   "url": "https://dermnetnz.org/topics/intertrigo"
+  },
+  {
+   "label": "NICE CKS: Fungal skin infection – body and groin",
+   "url": "https://cks.nice.org.uk/topics/fungal-skin-infection-body-groin/"
+  }
+ ],
+ "module": "Adult core · deepened with Module 5 Week 1"
 }

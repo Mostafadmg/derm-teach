@@ -1,0 +1,301 @@
+{
+ "slug": "polymorphic-light-eruption",
+ "title": "Polymorphic light eruption",
+ "category": "photodermatoses",
+ "status": "published",
+ "order": 1,
+ "module": "Module 5 · Week 6",
+ "aka": [
+  "PMLE",
+  "PLE",
+  "sun allergy",
+  "prickly heat (lay term)",
+  "spring rash",
+  "holiday rash",
+  "hardening phototherapy",
+  "sun-protection counselling"
+ ],
+ "summary": "The commonest photodermatosis: itchy papules or vesicles on sun-exposed skin hours after the first strong sun of spring or a holiday. Sun protection, short potent steroid bursts and, for severe cases, specialist ‘hardening’ phototherapy.",
+ "card_image": "m5w6:A01",
+ "glance": {
+  "think": "An itchy rash on the V of the neck, forearms and backs of hands hours to a day after early-season sun, settling within days without further exposure.",
+  "engine": "A delayed immune reaction to a UV-induced skin antigen, with a failure of normal UV immunosuppression; it improves through the summer (‘hardening’).",
+  "backbone": "Broad-spectrum high-UVA sunscreen, clothing and gradual exposure; potent topical steroid for flares; refer for phototesting or hardening if severe.",
+  "never_miss": "Lupus (persistent rash, systemic symptoms, positive ANA) and drug photosensitivity."
+ },
+ "sections": {
+  "what": [
+   "The commonest **idiopathic (primary) photodermatosis**: a recurrent, itchy, non-scarring eruption on sun-exposed skin appearing hours to a couple of days after the first significant sun exposure of spring/summer or of a sunny holiday. Also called polymorphous light eruption or \"prickly heat\"/\"sun allergy\" by the public (not true prickly heat — that is miliaria). Affects roughly 10–20% of people in northern Europe; more common in women, onset usually in the teens to 30s; all skin types."
+  ],
+  "cause": [
+   "A delayed-type (cell-mediated) immune reaction to a UV-induced skin antigen. Normally UV exposure suppresses skin immunity; in PMLE that **UV-induced immunosuppression fails**, so the newly photo-induced antigen provokes inflammation. **UVA is the main trigger in most patients** (UVB alone in a minority, both in some) — which is why a high-SPF but weak-UVA sunscreen fails (Case 1). Skin \"hardens\" with repeated exposure, so it is typically worse early in the season and improves through summer. Family history in a proportion."
+  ],
+  "features": [
+   {
+    "list": [
+     "**Itch or burning** often starting within hours (Case 1: 30 minutes); rash within hours to 1–3 days.",
+     "Morphology varies between patients but is **usually consistent in one individual**: small papules (commonest), papulovesicles, plaques, targetoid/EM-like lesions, rarely purpuric.",
+     "Sites: **V of neck, upper chest, outer arms/forearms, dorsal hands, legs**; face often relatively spared (habitually exposed, hardened).",
+     "Resolves over days–2 weeks without scarring **if further sun is avoided**; can spread and persist with continued exposure (Case 1 extension to trunk).",
+     "Variant: **juvenile spring eruption** (papulovesicles on helices of ears in boys)."
+    ]
+   }
+  ],
+  "diagnosis": [
+   "Clinical: timing (first strong sun), photodistribution, recurrent seasonal pattern, normal health. In **severe, atypical or treatment-resistant** cases (Case 1, Q3) specialists consider: **ANA, anti-Ro/La antibodies** (exclude lupus — SCLE can be triggered by sun and by drugs), **porphyrin screen** (exclude erythropoietic protoporphyria/other porphyrias), skin biopsy (dermal oedema, perivascular lymphocytes — non-specific but helps exclude lupus), and **phototesting/provocation testing** in a photobiology unit. Always take a full drug history to exclude drug-induced photosensitivity."
+  ],
+  "differentials": [
+   {
+    "table": {
+     "head": [
+      "Look-alike",
+      "Distinguishing clues"
+     ],
+     "rows": [
+      [
+       "Sunburn",
+       "Uniform painful erythema; no papules; dose-related; within hours, peaks 24 h"
+      ],
+      [
+       "Drug-induced photosensitivity",
+       "New photosensitiser (doxycycline, thiazide, NSAID…); \"exaggerated sunburn\" or eczema; ask about drugs"
+      ],
+      [
+       "Cutaneous lupus (SCLE/DLE)",
+       "Persistent annular/psoriasiform or scarring plaques; ANA/Ro positive; lasts weeks–months"
+      ],
+      [
+       "Solar urticaria",
+       "Wheals within **minutes** of exposure, fade within hours"
+      ],
+      [
+       "Actinic prurigo",
+       "Childhood onset, excoriated papules/nodules incl. covered sites, cheilitis, persists into winter"
+      ],
+      [
+       "Erythema multiforme",
+       "Targets on palms/soles; HSV/drug trigger; not photodistributed"
+      ],
+      [
+       "Miliaria (true prickly heat)",
+       "Heat/sweat, covered/occluded sites, tiny vesicles"
+      ],
+      [
+       "Airborne contact dermatitis / CAD",
+       "Eczematous, chronic; shaded sites involved (airborne) or older man, lichenified (CAD)"
+      ]
+     ]
+    }
+   }
+  ],
+  "management": [
+   {
+    "h": "Self-care / OTC"
+   },
+   {
+    "list": [
+     "Avoid further sun until settled; cool showers/compresses, emollient.",
+     "**Oral non-sedating antihistamine** for itch (helps itch, not the rash) — hydroxyzine in Case 1 had limited effect.",
+     "OTC hydrocortisone 1% is usually too weak for established PMLE on limbs/trunk."
+    ]
+   },
+   {
+    "h": "First-line Rx"
+   },
+   {
+    "list": [
+     "**Short course (5–7 days, up to ~2 weeks) of a potent topical corticosteroid** (e.g. betamethasone valerate 0.1%, mometasone 0.1%) to the trunk/limbs; avoid potent on face — use moderate for ≤5–7 days if needed.",
+     "Severe extensive flares: a **short course of oral prednisolone** may be used (GP/specialist decision; e.g. a few days at the start of a holiday is a recognised specialist strategy for predictable attacks)."
+    ]
+   },
+   {
+    "h": "Prevention (the key intervention)"
+   },
+   {
+    "list": [
+     "Graded, gradual sun exposure in spring (\"natural hardening\").",
+     "**Broad-spectrum SPF 30–50+ with high UVA protection (UK 4–5 star UVA or EU \"UVA\" circle logo)**, applied generously 15–30 min before going out and re-applied every 2 h and after swimming.",
+     "Clothing, hat, shade, avoid 11:00–15:00; UVA passes through glass (car side windows, conservatory).",
+     "Severe recurrent: **referral for prophylactic phototherapy (\"hardening\") with narrowband UVB or PUVA in spring**; hydroxychloroquine or immunosuppressants are rarely used (specialist)."
+    ]
+   },
+   {
+    "h": "Red flags / refer"
+   },
+   "Diagnostic doubt (rule out lupus/porphyria), scarring, persistent >2–3 weeks without sun, systemic features, failure of potent topical steroid, severe recurrent PMLE affecting quality of life (phototherapy referral).",
+   {
+    "h": "Sun-protection counselling script"
+   },
+   "Tutor emphasis (Case 1): **SPF is not the only measure of sunscreen quality** — choose by UVA protection too.",
+   {
+    "table": {
+     "head": [
+      "Parameter",
+      "What to advise"
+     ],
+     "rows": [
+      [
+       "**SPF (UVB/sunburn protection)**",
+       "SPF **30 minimum; SPF 50+** for photodermatoses"
+      ],
+      [
+       "**UVA protection**",
+       "**UK star rating 4–5 stars** (Boots scale) or **EU \"UVA\" circle logo** (UVA-PF ≥ ⅓ of SPF). Critical — UVA drives PMLE (~75% UVA-induced), drug phototoxicity, phytophotodermatitis, CAD"
+      ],
+      [
+       "**Visible light** (PCT, some CAD/solar urticaria)",
+       "Chemical filters inadequate — **mineral (titanium dioxide/zinc oxide) tinted/iron-oxide sunscreens**; Dundee cream via specialists"
+      ],
+      [
+       "**Broad spectrum / photostable**",
+       "Look for \"broad spectrum\"; photostable filters"
+      ],
+      [
+       "**Water resistance**",
+       "Water-resistant if swimming/sweating, but **re-apply after towelling**"
+      ],
+      [
+       "**Formulation/skin type**",
+       "Fragrance-free and minimal-filter for CAD / photoallergy (avoid benzophenone/oxybenzone, octocrylene if allergic — especially with topical ketoprofen history); sprays/gels for hairy skin"
+      ],
+      [
+       "**Amount**",
+       "~**2 mg/cm²** — about **6 teaspoons (~35 ml)** for an adult whole body; most people apply a third to half of this"
+      ],
+      [
+       "**Timing**",
+       "Apply 15–30 min before going out; **re-apply every 2 hours** and after swimming/sweating"
+      ],
+      [
+       "**Shade/timing**",
+       "Avoid **11:00–15:00** in UK summer (sun strongest); UV index ≥3 needs protection; cloud doesn't block UVA"
+      ],
+      [
+       "**Glass**",
+       "**UVA passes through window glass** — car side windows, conservatories, office windows; UV-filter window film helps (PCT, CAD, drug photosensitivity)"
+      ],
+      [
+       "**Clothing**",
+       "Tightly woven/UPF 50+ clothing, long sleeves, collars, **wide-brimmed hat**, UV-protective sunglasses, gloves for driving (PCT/CAD)"
+      ],
+      [
+       "**Sunbeds**",
+       "**Avoid entirely** (UVA-rich; pseudoporphyria; skin cancer)"
+      ],
+      [
+       "**Vitamin D**",
+       "Strict photoprotection → **10 micrograms (400 units) colecalciferol daily** (UK advice), or check levels"
+      ],
+      [
+       "**Expiry/storage**",
+       "Check expiry (usually 12 months after opening); store cool"
+      ],
+      [
+       "**Prescribing**",
+       "Sunscreens are **ACBS-approved** on FP10 for *genetic disorders/photodermatoses* (e.g. PMLE, PCT, CAD, porphyrias) — endorse \"ACBS\"; otherwise self-care purchase"
+      ]
+     ]
+    }
+   }
+  ],
+  "red_flags": [
+   {
+    "h": "Photodermatoses: red flags and when to refer"
+   },
+   {
+    "table": {
+     "head": [
+      "Situation",
+      "Action"
+     ],
+     "rows": [
+      [
+       "Widespread blistering, mucosal involvement, fever/unwell after new drug",
+       "**Same-day/ED** — exclude SJS/TEN, severe drug reaction"
+      ],
+      [
+       "Extensive phytophotodermatitis/hogweed burns, eye involvement, hand/face/genital blisters",
+       "Same-day urgent care / burns or eye service"
+      ],
+      [
+       "Blisters + fragility + scars/milia on dorsal hands (± alcohol, hep C, oestrogen, iron)",
+       "Refer dermatology; urine/plasma porphyrins, LFT, ferritin, hep C/HIV; stop iron/oestrogen review/alcohol"
+      ],
+      [
+       "Acute porphyria features (abdominal pain, neuropathy, confusion, hyponatraemia)",
+       "**Urgent** medical assessment; check porphyria-safe drug lists"
+      ],
+      [
+       "Chronic lichenified photo-distributed eczema in older adult",
+       "Dermatology (phototesting, patch/photopatch testing)"
+      ],
+      [
+       "Erythroderma, lymphadenopathy, infiltrated plaques",
+       "**Urgent** dermatology (exclude CTCL/Sézary)"
+      ],
+      [
+       "PMLE not responding to potent topical steroid, scarring, persisting >3 weeks without sun, lupus features",
+       "GP/dermatology — ANA/Ro, porphyrins, consider phototherapy"
+      ],
+      [
+       "Photosensitivity on essential drug (amiodarone, voriconazole, oncology, HIV)",
+       "Don't stop — photoprotect; liaise with specialist; dermatology skin cancer surveillance for voriconazole/long-term HCTZ with prior NMSC"
+      ],
+      [
+       "Persistent photosensitivity after culprit drug stopped",
+       "Dermatology (persistent light reaction/CAD)"
+      ],
+      [
+       "New severe photosensitivity in a young adult with no drug cause",
+       "Consider HIV, lupus, porphyria — GP bloods/dermatology"
+      ],
+      [
+       "Child with bizarre streaks/handprint marks",
+       "Careful history (plants/limes); safeguarding if history inconsistent"
+      ],
+      [
+       "Suspected ADR",
+       "MHRA Yellow Card"
+      ]
+     ]
+    }
+   }
+  ],
+  "pearls": [
+   "\"It's not an allergy to the sun cream — it's a reaction to UVA the cream didn't block.\" Check the **UVA rating**, not just SPF (tutor point, Case 1).",
+   "Expect recurrence each spring/holiday but often milder later in summer; tends to improve over years.",
+   "Vitamin D: if strict sun avoidance, advise 10 micrograms (400 units) daily supplement (UK public health advice).",
+   "Always run a quick drug check — a new doxycycline or thiazide changes the diagnosis."
+  ]
+ },
+ "photos": [
+  {
+   "title": "Polymorphic light eruption",
+   "items": [
+    "m5w6:A01",
+    "m5w6:A02",
+    "m5w6:A03",
+    "m5w6:A04",
+    "m5w6:A05"
+   ]
+  }
+ ],
+ "references": [
+  {
+   "label": "DermNet: Polymorphic light eruption",
+   "url": "https://dermnetnz.org/topics/polymorphic-light-eruption"
+  },
+  {
+   "label": "dermnetnz.org: polymorphic light eruption images",
+   "url": "https://dermnetnz.org/images/polymorphic-light-eruption-images"
+  },
+  {
+   "label": "BAD patient information leaflet — Polymorphic light eruption",
+   "url": "https://www.bad.org.uk/pils/polymorphic-light-eruption/"
+  },
+  {
+   "label": "PCDS — Photodermatoses incl. PMLE",
+   "url": "https://www.pcds.org.uk/clinical-guidance/photodermatoses"
+  }
+ ]
+}

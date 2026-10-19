@@ -1,0 +1,209 @@
+{
+ "slug": "drug-induced-blistering",
+ "title": "Drug-induced blistering (SJS/TEN, FDE, AGEP)",
+ "category": "blistering",
+ "status": "published",
+ "order": 5,
+ "module": "Module 4 · Week 6",
+ "aka": [
+  "SJS",
+  "TEN",
+  "Stevens-Johnson",
+  "toxic epidermal necrolysis",
+  "fixed drug eruption",
+  "AGEP",
+  "linear IgA",
+  "drug eruption",
+  "allopurinol",
+  "lamotrigine",
+  "carbamazepine",
+  "HLA-B*1502"
+ ],
+ "summary": "Drugs cause a range of blistering reactions, from a single recurring fixed drug eruption to SJS/TEN, which is a medical emergency. Stop the culprit early, record the allergy and report on a Yellow Card.",
+ "card_image": "m4w6:E02",
+ "glance": {
+  "think": "Blistering, dusky or pustular rash 4–28 days after starting a drug (days for AGEP; hours for repeat fixed drug eruption).",
+  "engine": "T-cell-mediated keratinocyte death (SJS/TEN, FDE), neutrophilic reactions (AGEP) or drug-triggered autoantibodies (linear IgA, pemphigoid, pemphigus).",
+  "backbone": "Identify and stop the culprit, admit SJS/TEN, document the allergy clearly, Yellow Card, and screen high-risk drugs (HLA-B*1502 before carbamazepine in at-risk groups).",
+  "never_miss": "SJS/TEN: skin pain, fever, mucosal erosions and Nikolsky-positive skin detachment."
+ },
+ "sections": {
+  "what": [
+   "This is a group of reactions in which a drug causes vesicles, bullae, pustules or epidermal necrosis. They range from trivial (localised FDE) to life-threatening (TEN). For the IP, **drug causation** is the main reason to know them."
+  ],
+  "cause": [
+   {
+    "table": {
+     "head": [
+      "Course category",
+      "Typical culprits (UK teaching list)",
+      "Mechanism / timing"
+     ],
+     "rows": [
+      [
+       "Spongiotic (eczematous) bullous",
+       "ACD to topicals (neomycin, fragrance), systemic contact dermatitis",
+       "Type IV, 2–7 days"
+      ],
+      [
+       "**AGEP**",
+       "**Aminopenicillins, macrolides**, quinolones, hydroxychloroquine, diltiazem, terbinafine",
+       "T-cell/IL-8/neutrophils. **Hours to 2 days** (short latency). Hundreds of non-follicular pustules on erythema, flexural first, with fever and neutrophilia; resolves within ~2 weeks of stopping"
+      ],
+      [
+       "**FDE**, bullous or generalised",
+       "NSAIDs, **paracetamol**, co-trimoxazole, tetracyclines, **sildenafil**, laxatives (phenolphthalein historically)",
+       "Resident CD8 T cells. Recurs at the **same site** (lips, genitals, hands) within ~30 min to 8 h of re-exposure; heals with violaceous-brown pigmentation"
+      ],
+      [
+       "**EM / SJS / TEN**",
+       "**Allopurinol**, **carbamazepine, lamotrigine, phenytoin, phenobarbital**, **sulfonamides (co-trimoxazole)**, sulfasalazine, NSAIDs (oxicams), nevirapine",
+       "Cytotoxic T cells, granulysin, Fas-FasL. Latency **4–28 days** (lamotrigine risk is higher with fast titration or valproate). HLA-B*15:02 (carbamazepine; South-East Asian ancestry) and HLA-B*58:01 (allopurinol). EM is usually HSV-related, not drug-related (see the [inflammatory rash pages](condition:erythema-multiforme) notes)"
+      ],
+      [
+       "Drug-induced pemphigus",
+       "**Thiols: penicillamine, captopril**; ACE inhibitors, rifampicin, piroxicam",
+       "Often foliaceus-like and remits on stopping (more with thiols)"
+      ],
+      [
+       "Drug-induced **pemphigoid**",
+       "**DPP-4 inhibitors (gliptins)**, loop diuretics, spironolactone, PD-1/PD-L1 inhibitors, penicillins, etanercept (case reports)",
+       "Months to years of latency for gliptins"
+      ],
+      [
+       "Drug-induced **linear IgA**",
+       "**Vancomycin** (classic), penicillins, cephalosporins, captopril, NSAIDs, amiodarone, lithium",
+       "Within days; annular \"string of pearls\" and haemorrhagic/TEN-like forms possible"
+      ],
+      [
+       "Pseudo-PCT",
+       "**Naproxen**, other NSAIDs, tetracyclines, furosemide, nalidixic acid, isotretinoin; sunbeds; dialysis",
+       "Phototoxic, porphyrins normal"
+      ],
+      [
+       "(Also) photo-bullous phototoxic",
+       "Doxycycline, thiazides, amiodarone, psoralens",
+       "See the [photodermatoses](condition:polymorphic-light-eruption) notes"
+      ]
+     ]
+    }
+   }
+  ],
+  "features": [
+   "**SJS/TEN** classification by detached BSA: **SJS <10%**, **SJS/TEN overlap 10–30%**, **TEN >30%** (**Module 4 exam Q27**, 40% = TEN).",
+   {
+    "list": [
+     "Prodrome: fever, sore throat and eye symptoms 1–3 days before the skin.",
+     "Then **painful** dusky macules or atypical flat targets, which form bullae and sheet-like detachment with a positive Nikolsky sign.",
+     "**≥2 mucosal sites** are involved (oral haemorrhagic crusting of the lips, conjunctivitis, genital; photo E02)."
+    ]
+   },
+   "**SSSS** is the toxin-mediated mimic in young children: superficial peeling, mucosa **spared**, and the child is irritable and tender."
+  ],
+  "diagnosis": [
+   "Diagnosis is mostly clinical, with urgent specialist confirmation and frozen-section or standard biopsy. **SCORTEN** (calculated in the first 24 h) predicts mortality. Its 7 points are:",
+   {
+    "ol": [
+     "age ≥40",
+     "malignancy",
+     "HR ≥120",
+     "BSA ≥10%",
+     "urea >10 mmol/L",
+     "bicarbonate <20",
+     "glucose >14"
+    ]
+   },
+   "For drug causation use **ALDEN** (for SJS/TEN). Patch testing is useful later for FDE and AGEP. For DRESS (the systemic DDx), RegiSCAR."
+  ],
+  "differentials": [
+   {
+    "list": [
+     "SSSS (child, superficial, no mucosa)",
+     "EM major (HSV, acral targets, <10%)",
+     "generalised bullous FDE",
+     "AGEP (pustules, not detachment)",
+     "DRESS (facial oedema, eosinophilia, organ involvement, latency 2–8 weeks)",
+     "GVHD",
+     "paraneoplastic pemphigus",
+     "linear IgA (TEN-like)",
+     "phototoxic reactions",
+     "burns"
+    ]
+   }
+  ],
+  "management": [
+   {
+    "list": [
+     "**Suspected SJS/TEN or extensive or mucosal blistering:** **STOP all non-essential drugs immediately**, especially the likely culprits started 4–28 days ago; **999 / same-day ED** for transfer to a **burns or dermatology intensive unit** (UK SJS/TEN guideline, Creamer 2016). Don't wait for a GP appointment; **Ophthalmology within 24 h**, and urology/gynaecology/oral medicine input; Specialist adjuncts: ciclosporin, IVIG (the evidence for blocking Fas-FasL is mixed and UK guidance does not routinely recommend it), steroids, and anti-TNF (etanercept, being studied)",
+     "**AGEP:** stop the drug, give supportive care and a potent TCS. Refer the same day if febrile or extensive.",
+     "**FDE:** stop and avoid the culprit; a potent TCS for 1–2 weeks; document the specific drug.",
+     "**Drug-induced BP or pemphigus:** stop the culprit and follow the specialist pathway. Recovery may take months.",
+     "**Allergy documentation:** Record the exact drug and reaction in the GP record (SNOMED) and on the patient's allergy list; **Report to MHRA Yellow Card** (all serious reactions; anything involving a black-triangle drug); For SJS/TEN: lifelong avoidance of the culprit and **structurally related drugs**, and **advice for first-degree relatives** about HLA risk. A MedicAlert bracelet is reasonable",
+     "**Prevention (pharmacist role):** **HLA-B*15:02** screening before carbamazepine in people of Han Chinese or Thai ancestry (BNF/MHRA); Start allopurinol low (100 mg) and titrate in CKD; Follow the **lamotrigine** titration schedule (halve doses with valproate), and counsel all new starters to **stop and seek help with any rash, fever or mouth ulcers in the first 8 weeks**"
+    ]
+   }
+  ],
+  "red_flags": [
+   "**Skin pain, fever, dusky targets, mucosal erosions or skin detachment**: SJS/TEN, stop all non-essential drugs and call 999 / admit (burns unit or ICU).",
+   "Widespread sterile pustules with fever after a new drug (AGEP): same-day assessment.",
+   "Rash with fever, facial swelling, lymph nodes and abnormal liver tests: **DRESS**."
+  ],
+  "pearls": [
+   "Ask **\"What new medicine did you start in the last 8 weeks?\"** at every acute rash with fever, skin pain or mucosal involvement.",
+   "**Skin pain out of proportion + mucosal erosions + dusky skin = SJS/TEN** until proven otherwise.",
+   "Paracetamol can cause FDE, so don't assume over-the-counter means innocent. Always ask about OTC and herbal products."
+  ]
+ },
+ "photos": [
+  {
+   "title": "SJS / TEN",
+   "items": [
+    "m4w6:E01",
+    "m4w6:E02"
+   ],
+   "tone": "danger"
+  },
+  {
+   "title": "Fixed drug eruption, AGEP and linear IgA",
+   "items": [
+    "m4w6:E03",
+    "m4w6:E04",
+    "m4w6:E05"
+   ]
+  }
+ ],
+ "references": [
+  {
+   "label": "UK guidelines for SJS/TEN in adults 2016 Creamer et al., Br J Dermatol 2016;174:1194-1227:  and the 2019 paedi",
+   "url": "https://doi.org/10.1111/bjd.14530"
+  },
+  {
+   "label": "MHRA Yellow Card",
+   "url": "https://yellowcard.mhra.gov.uk"
+  },
+  {
+   "label": "DermNet: Stevens johnson syndrome toxic epidermal necrolysis",
+   "url": "https://dermnetnz.org/topics/stevens-johnson-syndrome-toxic-epidermal-necrolysis"
+  },
+  {
+   "label": "DermNet: Acute generalised exanthematous pustulosis",
+   "url": "https://dermnetnz.org/topics/acute-generalised-exanthematous-pustulosis"
+  },
+  {
+   "label": "DermNet: Fixed drug eruption",
+   "url": "https://dermnetnz.org/topics/fixed-drug-eruption"
+  },
+  {
+   "label": "DermNet: Linear iga bullous disease",
+   "url": "https://dermnetnz.org/topics/linear-iga-bullous-disease"
+  },
+  {
+   "label": "DermNet: Drug induced bullous pemphigoid",
+   "url": "https://dermnetnz.org/topics/bullous-pemphigoid"
+  },
+  {
+   "label": "BNF Carbamazepine HLA-B15:02 advice",
+   "url": "https://bnf.nice.org.uk/drugs/carbamazepine/"
+  }
+ ]
+}

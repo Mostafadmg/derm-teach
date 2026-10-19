@@ -1,0 +1,178 @@
+{
+ "slug": "herpes-simplex-labialis",
+ "title": "Herpes simplex labialis (cold sores)",
+ "category": "viral-infestations",
+ "status": "published",
+ "order": 3,
+ "module": "Module 5 · Week 5",
+ "aka": [
+  "cold sores",
+  "HSV-1",
+  "herpes labialis",
+  "fever blister",
+  "aciclovir cream",
+  "herpetic whitlow",
+  "eczema herpeticum",
+  "suppressive aciclovir"
+ ],
+ "summary": "Recurrent grouped vesicles on the lip border triggered by sun, illness, stress or menstruation. Self-limiting in healthy adults; know when to use oral antivirals and when it is an emergency (eczema herpeticum, eye, neonates, immunosuppression).",
+ "card_image": "m5w5:W5D01",
+ "glance": {
+  "think": "Tingling then grouped vesicles and crusts at the same spot on the lip, recurring with triggers.",
+  "engine": "HSV-1 latent in the trigeminal ganglion reactivates and travels down the nerve to the skin.",
+  "backbone": "Self-care: topical aciclovir at the first tingle, sun protection, avoid kissing and sharing; oral antivirals for severe, frequent or immunosuppressed cases; suppression for frequent recurrences or HSV-associated EM.",
+  "never_miss": "Eczema herpeticum, herpetic eye disease, neonatal herpes, and chronic ulcers in HIV or immunosuppression."
+ },
+ "sections": {
+  "what": [
+   "**Diagnosis confirmed from the course case:** fever + recurrent perioral vesicles at the same site; all forum answers gave **recurrent herpes simplex labialis (HSV-1)**; questions covered confirmation tests and treatment of recurrences.",
+   "Recurrent vesicular eruption of the lips/perioral skin due to reactivation of latent **herpes simplex virus**, usually **HSV-1** (HSV-2 increasingly causes orolabial and HSV-1 genital disease). \"Cold sores\" / \"fever blisters\" — fever is a classic trigger. Primary infection is often childhood **herpetic gingivostomatitis**."
+  ],
+  "cause": [
+   "Spread by direct contact with lesions or asymptomatic viral shedding (saliva). After primary infection, HSV travels along sensory nerves to the **trigeminal ganglion** where it stays latent. **Triggers** of reactivation: fever/intercurrent infection (URTI), UV light, cold wind, menstruation, stress, fatigue, trauma (dental work, lip procedures, laser), immunosuppression. Recurrences hit the **same site** each time. Immunosuppression (HIV, transplant, chemo) → larger, longer, chronic ulcerative lesions; zinc deficiency was mentioned in the forum as a contributor (weak evidence)."
+  ],
+  "features": [
+   {
+    "list": [
+     "**Prodrome** (hours–1 day): tingling, burning, itching at the site.",
+     "Then **grouped small vesicles on an erythematous base** at the **vermilion border**/perioral skin → pustules → painful erosions → crust → heal in **7–10 days** without scarring.",
+     "Recurrences: a few per year typical; frequent (>6/year) in some.",
+     "Other HSV patterns: cheek/nose, **herpetic whitlow** (finger), herpes gladiatorum (contact sports), **eczema herpeticum** (atopic skin), **HSV keratitis** (dendritic ulcer), **HSV-associated erythema multiforme** (target lesions 1–2 weeks after an outbreak)."
+    ]
+   }
+  ],
+  "diagnosis": [
+   "**Clinical** in typical recurrent labialis. If atypical, severe, immunocompromised, near the eye or recurrent erythema multiforme: **viral swab for HSV PCR** (fast, most sensitive; preferred over culture/Tzanck smear). Serology (IgG) has little role in recurrent labialis."
+  ],
+  "differentials": [
+   {
+    "table": {
+     "head": [
+      "Look-alike",
+      "Distinguishing clues"
+     ],
+     "rows": [
+      [
+       "Impetigo",
+       "Golden/honey crusts, spreading, children, no prodrome or same-site recurrence; can co-exist (secondary infection)"
+      ],
+      [
+       "Herpes zoster (V2/V3)",
+       "Dermatomal, unilateral, more extensive, more painful, usually one episode"
+      ],
+      [
+       "Aphthous ulcers",
+       "**Inside** the mouth on non-keratinised mucosa, no vesicles"
+      ],
+      [
+       "Angular cheilitis",
+       "Fissures at mouth corners, Candida/Staph, denture wearers, iron/B12 deficiency"
+      ],
+      [
+       "Hand, foot and mouth disease",
+       "Oral ulcers + palm/sole vesicles, children, outbreaks"
+      ],
+      [
+       "Contact / allergic cheilitis",
+       "Diffuse lip dryness/scale, lip products, itch not grouped vesicles"
+      ],
+      [
+       "Fixed drug eruption",
+       "Same site with each dose of drug; dusky patch ± blister"
+      ],
+      [
+       "Erythema multiforme / SJS",
+       "Targets, multiple mucosae, drug history — urgent if extensive"
+      ]
+     ]
+    }
+   }
+  ],
+  "management": [
+   "Based on NICE CKS *Herpes simplex – oral*:",
+   {
+    "h": "Self-care / OTC (immunocompetent)"
+   },
+   {
+    "list": [
+     "Usually self-limiting; paracetamol/ibuprofen for pain; simple analgesic gels or creams; adequate fluids.",
+     "**Topical aciclovir 5% cream** (OTC, five times daily for 5 days, start at the first tingle) — modest benefit (shortens episode by roughly half a day to a day); penciclovir 1% (Rx/OTC per product). Barrier/hydrocolloid cold-sore patches may help comfort and reduce spread.",
+     "Hygiene: don't touch/pick; wash hands; don't share towels, cups, lip products; **avoid kissing**, especially **neonates** and people with eczema or immunosuppression; avoid oral sex during lesions.",
+     "**Sunscreen lip balm (SPF 30+)** if UV is a trigger."
+    ]
+   },
+   {
+    "h": "Oral antiviral (prescriber)"
+   },
+   {
+    "list": [
+     "Consider for severe or frequent episodes in immunocompetent adults, e.g. **episodic aciclovir 400 mg five times daily for 5 days** (start at prodrome) or **valaciclovir 2 g twice daily for 1 day** (cold-sore regimen in the UK SmPC; check local formulary).",
+     "**Suppressive therapy** for frequent/severe recurrences, HSV-associated erythema multiforme, or before a known trigger: **aciclovir 400 mg twice daily**, review after 6–12 months (specialist advice often sought; off-label in some uses).",
+     "Immunocompromised: oral antivirals (higher dose/longer) and **seek specialist advice**; chronic/large ulcers may need IV therapy."
+    ]
+   },
+   {
+    "h": "Red flags / refer"
+   },
+   {
+    "list": [
+     "**Eczema herpeticum** — punched-out erosions spreading over eczema, unwell → same-day assessment/oral or IV aciclovir; involve ophthalmology if periocular.",
+     "**Eye involvement** (red painful eye, photophobia, vesicles on eyelid/nose tip) → same-day ophthalmology; never give topical steroid.",
+     "**Neonate** (<1 month) with any suspected HSV, or primary HSV in late pregnancy → urgent.",
+     "Immunocompromised, lesions >2 weeks or very extensive, systemic upset, dehydration in primary gingivostomatitis (child not drinking), recurrent erythema multiforme, diagnostic doubt → GP/specialist."
+    ]
+   }
+  ],
+  "red_flags": [
+   "Painful punched-out erosions spreading over eczema: **eczema herpeticum**, same-day.",
+   "Red painful eye, photophobia or blurred vision: same-day ophthalmology (herpetic keratitis).",
+   "Newborn contact, pregnancy near term, or immunosuppressed with extensive or non-healing lesions: urgent specialist advice."
+  ],
+  "pearls": [
+   "Start antivirals at the **first tingle** — benefit falls sharply once vesicles form.",
+   "Recurrent lesions at the same place + fever = HSV; one-off band of vesicles = zoster.",
+   "Don't prescribe topical corticosteroid or antibiotic creams for cold sores (unless confirmed secondary impetigo).",
+   "Patients with frequent severe recurrences: consider underlying immunosuppression (e.g. HIV) and offer testing if risk.",
+   "Aciclovir: dose-reduce in renal impairment; keep hydrated."
+  ]
+ },
+ "photos": [
+  {
+   "title": "Herpes labialis",
+   "items": [
+    "m5w5:W5D01",
+    "m5w5:W5D02",
+    "m5w5:W5D03",
+    "m5w5:W5D04"
+   ]
+  },
+  {
+   "title": "Complications and variants",
+   "items": [
+    "m5w5:W5D05",
+    "m5w5:W5D06",
+    "m5w5:W5D07",
+    "m5w5:W5D08"
+   ],
+   "tone": "danger"
+  }
+ ],
+ "references": [
+  {
+   "label": "NICE CKS: Herpes simplex – oral",
+   "url": "https://cks.nice.org.uk/topics/herpes-simplex-oral/"
+  },
+  {
+   "label": "DermNet: Herpes simplex",
+   "url": "https://dermnetnz.org/topics/herpes-simplex"
+  },
+  {
+   "label": "dermnetnz.org: herpes simplex images",
+   "url": "https://dermnetnz.org/images/herpes-simplex-images"
+  },
+  {
+   "label": "DermNet: Eczema herpeticum",
+   "url": "https://dermnetnz.org/topics/eczema-herpeticum"
+  }
+ ]
+}
