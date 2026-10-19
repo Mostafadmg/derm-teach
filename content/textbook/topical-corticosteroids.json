@@ -1,10 +1,11 @@
 {
  "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
  "key_facts": [
-  "Choosing, quantifying or reviewing a topical steroid for eczema, psoriasis or another inflammatory rash.",
-  "Glucocorticoid-receptor effects switch off inflammatory genes, constrict vessels and slow turnover; overuse **thins skin**.",
-  "**Lowest potency that works, shortest time**; potency by site and age; FTUs; review, then **step down**.",
-  "**Tinea incognito**, steroid rosacea / perioral dermatitis, atrophy, **TSW**, adrenal suppression."
+  "Potency ladder (UK): **mild** (hydrocortisone 1%), **moderate** (clobetasone butyrate 0.05%), **potent** (betamethasone valerate 0.1%, mometasone 0.1%), **very potent** (clobetasol propionate 0.05%).",
+  "Match potency to **site and severity**: mild on face and folds, potent on body, very potent on palms and soles for short courses.",
+  "Dose with **fingertip units**: 1 FTU ≈ 0.5 g covers two adult palms (about 2% body surface).",
+  "Usually once or twice daily; for eczema, treat flares fully then step down or use **weekend (proactive) therapy**.",
+  "Side effects come from misuse: atrophy, striae, perioral dermatitis, steroid rosacea, **topical steroid withdrawal**; under-treatment from **steroid phobia** is commoner."
  ],
  "sections": [
   {
@@ -20,14 +21,56 @@
    "title": "Aetiology: causes and risk factors",
    "blocks": [
     {
-     "fig": {
-      "ai": "v3-steroid-atrophy-section.jpg",
-      "caption": "Normal skin (left) beside steroid atrophy (right): thin epidermis, sparse collagen and dilated surface vessels, giving shiny, translucent skin that bruises and tears easily.",
-      "alt": "Skin sections comparing normal skin and steroid atrophy"
-     }
+     "h": "Myths to address"
+    },
+    {
+     "ul": [
+      "**\"Steroid creams thin the skin, so use as little as possible\"**: correct potency for a short course is safe; under-treatment prolongs flares."
+     ]
     }
    ],
    "short": "Aetiology"
+  },
+  {
+   "id": "pathophysiology",
+   "title": "How it works (mechanism of action)",
+   "blocks": [
+    "Corticosteroids **switch off inflammatory genes** in skin cells.",
+    {
+     "mech": [
+      {
+       "k": "Receptor binding",
+       "t": "Steroids cross the cell membrane and bind the glucocorticoid receptor."
+      },
+      {
+       "k": "Gene regulation",
+       "t": "The complex suppresses NF-κB and AP-1 (inflammatory genes) and induces anti-inflammatory proteins."
+      },
+      {
+       "k": "Effects",
+       "t": "Anti-inflammatory, immunosuppressive, vasoconstrictive and antiproliferative effects."
+      },
+      {
+       "k": "Absorption by site",
+       "t": "Thin skin (eyelids, genitals, folds) absorbs far more than palms and soles.",
+       "img": "v3-steroid-absorption-map.jpg",
+       "caption": "Relative absorption varies widely by body site."
+      },
+      {
+       "k": "Atrophy with misuse",
+       "t": "Prolonged potent use thins epidermis and dermal collagen.",
+       "img": "v3-steroid-atrophy-section.jpg",
+       "caption": "Steroid atrophy: thinned epidermis and dermis."
+      },
+      {
+       "k": "Dosing",
+       "t": "Fingertip units guide quantity.",
+       "img": "v3-fingertip-unit.jpg",
+       "caption": "One fingertip unit."
+      }
+     ]
+    }
+   ]
   },
   {
    "id": "clinical-features",
@@ -104,18 +147,6 @@
     {
      "fig": {
       "dermnet": "m1w2:A01"
-     }
-    },
-    {
-     "h": "Distribution"
-    },
-    {
-     "bodymap": {
-      "img": {
-       "ai": "v3-steroid-absorption-map.jpg"
-      },
-      "caption": "Absorption varies by site (forearm = 1): soles about 0.1, palms 0.8, scalp 3.5, face 7–13, eyelids and genitals up to 40. Thin, flexural and infant skin gets milder steroids.",
-      "pts": []
      }
     },
     {
@@ -453,6 +484,29 @@
    "short": "Red flags"
   },
   {
+   "id": "complications",
+   "title": "Complications and prognosis",
+   "blocks": [
+    {
+     "h": "Complications"
+    },
+    {
+     "ul": [
+      "Atrophy, striae, telangiectasia, acne, rosacea, perioral dermatitis, infection masking (tinea incognito), HPA suppression (rare, large amounts)."
+     ]
+    },
+    {
+     "h": "Prognosis"
+    },
+    {
+     "ul": [
+      "Safe and effective when the right potency is used for the right time."
+     ]
+    }
+   ],
+   "short": "Complications"
+  },
+  {
    "id": "pearls",
    "title": "Prescriber pearls (UK pharmacist IP)",
    "blocks": [
@@ -569,5 +623,11 @@
   }
  ],
  "references": [],
- "see_also": []
+ "see_also": [
+  "eczema-dermatitis",
+  "emollients",
+  "psoriasis",
+  "perioral-dermatitis",
+  "rosacea"
+ ]
 }

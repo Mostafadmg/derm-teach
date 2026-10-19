@@ -1,10 +1,11 @@
 {
  "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
  "key_facts": [
-  "Any **dry or eczematous skin**, at every review, alongside active treatment.",
-  "They replace lipids and water in the stratum corneum, restore the barrier and reduce itch and flares.",
-  "The right emollient is **the one they’ll use**: children **250–500 g / week**, also as a soap substitute.",
-  "**Fire risk** with any emollient soaked into fabrics (MHRA); slips; stinging from aqueous cream."
+  "**Emollients** restore the skin barrier: the foundation of treatment for eczema, psoriasis, ichthyosis and dry skin.",
+  "Types run from lotions (light, more water) through creams and gels to **ointments** (greasiest, most occlusive, fewest preservatives).",
+  "Use **liberally and often**: adults with eczema may need about 250–500 g a week; apply in the direction of hair growth.",
+  "Use as a **soap substitute**; leave 15–30 minutes between emollient and topical steroid.",
+  "**Fire risk**: paraffin-based (and other) emollients dried on fabric are flammable; warn about naked flames and smoking (MHRA)."
  ],
  "sections": [
   {
@@ -27,14 +28,53 @@
    "title": "Aetiology: causes and risk factors",
    "blocks": [
     {
-     "fig": {
-      "ai": "v3-eczema-barrier-section.jpg",
-      "caption": "Emollients restore the lipid ‘mortar’ between skin cells, so less water escapes and fewer irritants get in.",
-      "alt": "Skin barrier section"
-     }
+     "h": "Myths to address"
+    },
+    {
+     "ul": [
+      "**\"Emollients are just moisturisers, optional\"**: regular use reduces flares and steroid use.",
+      "**\"Aqueous cream is a good emollient\"**: it contains sodium lauryl sulfate, an irritant; avoid as a leave-on."
+     ]
     }
    ],
    "short": "Aetiology"
+  },
+  {
+   "id": "pathophysiology",
+   "title": "How it works (mechanism of action)",
+   "blocks": [
+    "Emollients work by **occluding, humectant attraction of water and replacing lipids**.",
+    {
+     "mech": [
+      {
+       "k": "Occlusion",
+       "t": "Oily layers (paraffin, petrolatum) slow transepidermal water loss.",
+       "img": "v3-eczema-barrier-section.jpg",
+       "caption": "A leaky barrier loses water and lets irritants in; emollients seal it."
+      },
+      {
+       "k": "Humectants",
+       "t": "Urea, glycerol and lactic acid draw water into the stratum corneum."
+      },
+      {
+       "k": "Lipid replacement",
+       "t": "Ceramides and fatty acids refill gaps between corneocytes."
+      },
+      {
+       "k": "Choice by greasiness",
+       "t": "More oil = more occlusion but less cosmetic acceptability.",
+       "img": "v3-emollient-spectrum.jpg",
+       "caption": "Spectrum from light lotions to greasy ointments."
+      },
+      {
+       "k": "Technique",
+       "t": "Smooth on downwards in the direction of hair growth to avoid folliculitis.",
+       "img": "v3-emollient-strokes.jpg",
+       "caption": "Apply in long downward strokes."
+      }
+     ]
+    }
+   ]
   },
   {
    "id": "clinical-features",
@@ -105,13 +145,6 @@
     {
      "fig": {
       "dermnet": "m1w2:C03"
-     }
-    },
-    {
-     "fig": {
-      "ai": "v3-emollient-spectrum.jpg",
-      "caption": "From light to greasy: lotion, cream, gel and ointment. Greasier products hold water in best and contain the least preservative; lighter ones suit daytime and hairy areas.",
-      "alt": "Four emollient containers from light to greasy"
      }
     }
    ]
@@ -277,6 +310,29 @@
    "short": "Red flags"
   },
   {
+   "id": "complications",
+   "title": "Complications and prognosis",
+   "blocks": [
+    {
+     "h": "Complications"
+    },
+    {
+     "ul": [
+      "Folliculitis, irritant reactions (preservatives, lanolin), slipping and falls, fire risk."
+     ]
+    },
+    {
+     "h": "Prognosis"
+    },
+    {
+     "ul": [
+      "Ongoing, lifelong in chronic conditions."
+     ]
+    }
+   ],
+   "short": "Complications"
+  },
+  {
    "id": "pearls",
    "title": "Prescriber pearls (UK pharmacist IP)",
    "blocks": [
@@ -310,5 +366,11 @@
   }
  ],
  "references": [],
- "see_also": []
+ "see_also": [
+  "eczema-dermatitis",
+  "itch-xerosis-older-adults",
+  "topical-corticosteroids",
+  "psoriasis",
+  "hand-eczema"
+ ]
 }

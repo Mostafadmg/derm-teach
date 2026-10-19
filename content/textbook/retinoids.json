@@ -1,10 +1,11 @@
 {
  "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
  "key_facts": [
-  "Acne needing a **topical retinoid**, or a patient on **isotretinoin, acitretin or alitretinoin**.",
-  "Retinoic-acid receptor binding **normalises keratinisation**, shrinks sebaceous glands (isotretinoin) and slows turnover.",
-  "Topicals: alternate nights, **pea-sized**, sunscreen. Oral retinoids: specialist-initiated with the **MHRA PPP** and mood monitoring.",
-  "**Pregnancy exposure** (acitretin: avoid pregnancy 3 years after); **mood change**; lipids / LFTs; **tetracycline** → raised ICP."
+  "**Topical retinoids** (adapalene, tretinoin, tazarotene) treat comedonal and inflammatory acne and photoageing.",
+  "**Isotretinoin** (oral) for severe or scarring acne: dermatology-initiated, with the **Pregnancy Prevention Programme** and mood monitoring (MHRA).",
+  "**Acitretin** for psoriasis and keratinisation disorders: avoid pregnancy for **3 years** after stopping.",
+  "Topical retinoids are contraindicated in pregnancy and in women planning pregnancy (UK).",
+  "Start low, apply thinly (pea-sized amount for the face), expect irritation for 2–4 weeks; use sunscreen."
  ],
  "sections": [
   {
@@ -51,14 +52,50 @@
    "title": "Aetiology: causes and risk factors",
    "blocks": [
     {
-     "fig": {
-      "ai": "v3-sebaceous-shrink.jpg",
-      "caption": "Isotretinoin shrinks the sebaceous gland and clears the plugged follicle (left: before; right: on treatment). That is why it acts on every acne mechanism.",
-      "alt": "Follicle with large gland and plug beside a follicle with a shrunken gland"
-     }
+     "h": "Myths to address"
+    },
+    {
+     "ul": [
+      "**\"Retinoids thin the skin\"**: they thin the stratum corneum but thicken the epidermis and increase collagen."
+     ]
     }
    ],
    "short": "Aetiology"
+  },
+  {
+   "id": "pathophysiology",
+   "title": "How it works (mechanism of action)",
+   "blocks": [
+    "Retinoids act on **nuclear retinoic acid receptors** to normalise how skin cells grow and shed.",
+    {
+     "mech": [
+      {
+       "k": "Receptors",
+       "t": "Retinoids bind RAR and RXR nuclear receptors and alter gene expression."
+      },
+      {
+       "k": "Normal keratinisation",
+       "t": "Reduce follicular plugging and comedones."
+      },
+      {
+       "k": "Anti-inflammatory",
+       "t": "Reduce TLR-2 expression and inflammatory signalling."
+      },
+      {
+       "k": "Sebum reduction (isotretinoin)",
+       "t": "Oral isotretinoin shrinks sebaceous glands dramatically.",
+       "img": "v3-sebaceous-shrink.jpg",
+       "caption": "Isotretinoin shrinks sebaceous glands."
+      },
+      {
+       "k": "Application",
+       "t": "A pea-sized amount covers the whole face.",
+       "img": "v3-pea-sized-face.jpg",
+       "caption": "Pea-sized amount for the whole face."
+      }
+     ]
+    }
+   ]
   },
   {
    "id": "clinical-features",
@@ -385,6 +422,29 @@
    "short": "Red flags"
   },
   {
+   "id": "complications",
+   "title": "Complications and prognosis",
+   "blocks": [
+    {
+     "h": "Complications"
+    },
+    {
+     "ul": [
+      "Irritation, dryness, photosensitivity; teratogenicity; isotretinoin: dry lips and eyes, raised lipids and liver enzymes, mood changes."
+     ]
+    },
+    {
+     "h": "Prognosis"
+    },
+    {
+     "ul": [
+      "Topical: improvement over 8–12 weeks. Isotretinoin: long remission in most."
+     ]
+    }
+   ],
+   "short": "Complications"
+  },
+  {
    "id": "pearls",
    "title": "Prescriber pearls (UK pharmacist IP)",
    "blocks": [
@@ -418,5 +478,11 @@
   }
  ],
  "references": [],
- "see_also": []
+ "see_also": [
+  "acne-vulgaris",
+  "photoageing",
+  "psoriasis",
+  "acne-prescribing-combined-pill",
+  "cosmetic-procedures"
+ ]
 }

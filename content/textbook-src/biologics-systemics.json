@@ -1,0 +1,51 @@
+{
+ "titles": {
+  "pathophysiology": "How it works (mechanism of action)"
+ },
+ "kf": [
+  "Conventional systemics: **methotrexate** (weekly), ciclosporin, acitretin, azathioprine, mycophenolate; biologics target specific cytokines.",
+  "Psoriasis biologics: TNF-α (adalimumab), IL-17 (secukinumab, ixekizumab, bimekizumab), IL-23 (guselkumab, risankizumab); eczema: dupilumab, tralokinumab, JAK inhibitors.",
+  "Methotrexate is **once weekly**: prescribing errors (daily dosing) are fatal; folic acid on another day; monitor FBC, LFT, U&E.",
+  "Screen before biologics: TB (IGRA), hepatitis B/C, HIV; avoid live vaccines.",
+  "Infection on immunosuppressants needs early review; record specialist drugs in the GP record."
+ ],
+ "myths": [
+  "**\"Biologics are just stronger steroids\"**: they block one immune pathway, with different risks."
+ ],
+ "patho_lead": "Systemic drugs and biologics **interrupt the immune circuits** that drive chronic skin inflammation.",
+ "mech": [
+  {
+   "k": "IL-23/Th17 axis",
+   "t": "Dendritic cell IL-23 sustains Th17 cells that release IL-17, driving psoriasis.",
+   "img": "v3-il23-th17-axis.jpg",
+   "cap": "The IL-23/Th17 axis targeted by psoriasis biologics."
+  },
+  {
+   "k": "Th2 axis",
+   "t": "IL-4 and IL-13 drive atopic eczema; dupilumab blocks the IL-4 receptor α."
+  },
+  {
+   "k": "JAK–STAT",
+   "t": "Many cytokine receptors signal through JAKs; oral JAK inhibitors block several at once."
+  },
+  {
+   "k": "Antimetabolites",
+   "t": "Methotrexate inhibits folate pathways in rapidly dividing immune cells.",
+   "img": "v3-methotrexate-weekly.jpg",
+   "cap": "Methotrexate is taken once a week."
+  }
+ ],
+ "comp": [
+  "Infection (including TB reactivation), cytopenias, liver toxicity, kidney toxicity (ciclosporin), conjunctivitis (dupilumab), thrombosis risk (JAK inhibitors)."
+ ],
+ "prog": [
+  "Most patients achieve major improvement; treatment is long-term."
+ ],
+ "see_also": [
+  "psoriasis",
+  "eczema-dermatitis",
+  "hidradenitis-suppurativa",
+  "vitamin-d-tar-phototherapy",
+  "urticaria-angioedema"
+ ]
+}

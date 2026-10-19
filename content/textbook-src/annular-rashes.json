@@ -1,0 +1,44 @@
+{
+ "kf": [
+  "Ring-shaped (**annular**) rashes have many causes: **tinea** (scaly active edge), granuloma annulare (no scale), erythema migrans, urticaria, pityriasis rosea herald patch, erythema multiforme, discoid eczema, subacute lupus, psoriasis, sarcoidosis.",
+  "Key questions: **scale?** (where), duration of each lesion, itch, symptoms, sun exposure, tick bites, drugs.",
+  "Scale at the advancing edge with central clearing: scrape for fungus before steroid.",
+  "Trailing scale inside the edge: pityriasis rosea or erythema annulare centrifugum.",
+  "Annular lesions lasting <24 h: urticaria; >24 h with bruising: urticarial vasculitis."
+ ],
+ "myths": [
+  "**\"Every ring is ringworm\"**: granuloma annulare and other rings are commonly mistaken for tinea."
+ ],
+ "patho_lead": "Rings form when a process **spreads outwards while the centre heals**.",
+ "mech": [
+  {
+   "k": "Centrifugal spread",
+   "t": "Fungi, bacteria or immune activity move outwards; the centre resolves."
+  },
+  {
+   "k": "Edge vs centre",
+   "t": "Active inflammation and organisms sit at the edge.",
+   "img": "v3-ga-vs-tinea-ring.jpg",
+   "cap": "Granuloma annulare (smooth, no scale) versus tinea (scaly edge)."
+  },
+  {
+   "k": "Scale position",
+   "t": "Leading-edge scale (tinea) vs trailing collarette (pityriasis rosea).",
+   "img": "v3-collarette-vs-tinea-edge.jpg",
+   "cap": "Collarette scale versus tinea edge."
+  }
+ ],
+ "comp": [
+  "Misdiagnosis (tinea incognito after steroids)."
+ ],
+ "prog": [
+  "Depends on cause."
+ ],
+ "see_also": [
+  "tinea",
+  "pityriasis-rosea",
+  "lyme-disease",
+  "urticaria-angioedema",
+  "erythema-multiforme"
+ ]
+}

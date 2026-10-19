@@ -1,0 +1,55 @@
+{
+ "titles": {
+  "pathophysiology": "How it works (mechanism of action)"
+ },
+ "kf": [
+  "**Topical retinoids** (adapalene, tretinoin, tazarotene) treat comedonal and inflammatory acne and photoageing.",
+  "**Isotretinoin** (oral) for severe or scarring acne: dermatology-initiated, with the **Pregnancy Prevention Programme** and mood monitoring (MHRA).",
+  "**Acitretin** for psoriasis and keratinisation disorders: avoid pregnancy for **3 years** after stopping.",
+  "Topical retinoids are contraindicated in pregnancy and in women planning pregnancy (UK).",
+  "Start low, apply thinly (pea-sized amount for the face), expect irritation for 2–4 weeks; use sunscreen."
+ ],
+ "myths": [
+  "**\"Retinoids thin the skin\"**: they thin the stratum corneum but thicken the epidermis and increase collagen."
+ ],
+ "patho_lead": "Retinoids act on **nuclear retinoic acid receptors** to normalise how skin cells grow and shed.",
+ "mech": [
+  {
+   "k": "Receptors",
+   "t": "Retinoids bind RAR and RXR nuclear receptors and alter gene expression."
+  },
+  {
+   "k": "Normal keratinisation",
+   "t": "Reduce follicular plugging and comedones."
+  },
+  {
+   "k": "Anti-inflammatory",
+   "t": "Reduce TLR-2 expression and inflammatory signalling."
+  },
+  {
+   "k": "Sebum reduction (isotretinoin)",
+   "t": "Oral isotretinoin shrinks sebaceous glands dramatically.",
+   "img": "v3-sebaceous-shrink.jpg",
+   "cap": "Isotretinoin shrinks sebaceous glands."
+  },
+  {
+   "k": "Application",
+   "t": "A pea-sized amount covers the whole face.",
+   "img": "v3-pea-sized-face.jpg",
+   "cap": "Pea-sized amount for the whole face."
+  }
+ ],
+ "comp": [
+  "Irritation, dryness, photosensitivity; teratogenicity; isotretinoin: dry lips and eyes, raised lipids and liver enzymes, mood changes."
+ ],
+ "prog": [
+  "Topical: improvement over 8–12 weeks. Isotretinoin: long remission in most."
+ ],
+ "see_also": [
+  "acne-vulgaris",
+  "photoageing",
+  "psoriasis",
+  "acne-prescribing-combined-pill",
+  "cosmetic-procedures"
+ ]
+}

@@ -1,10 +1,11 @@
 {
  "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
  "key_facts": [
-  "Blisters or erosions without an obvious burn, bite, friction or infection.",
-  "Autoantibodies against desmosomes (intraepidermal, flaccid) or hemidesmosomes (subepidermal, tense); drugs; infection; genetics (EB).",
-  "Identify the pattern, refer at the right speed, look for a drug cause, and prescribe and monitor within the specialist plan.",
-  "SJS/TEN, pemphigus with mouth erosions, eye involvement, pemphigoid in pregnancy, eczema herpeticum and SSSS in children."
+  "Sort blisters by **level of split**: intraepidermal (flaccid, erosions: pemphigus, impetigo, SSSS, SJS/TEN) vs subepidermal (tense: pemphigoid, DH, PCT, EBA).",
+  "Ask: age, acute or chronic, mucosa, itch vs pain, drugs, sites, systemic illness.",
+  "Emergencies: **SJS/TEN, SSSS, extensive pemphigus, eczema herpeticum, neonatal blistering**.",
+  "Investigations: swab (bacteria, HSV PCR), skin biopsy of a fresh blister edge plus perilesional skin for **direct immunofluorescence**, serology.",
+  "Common causes in primary care: impetigo, insect bites, friction, contact dermatitis, pompholyx, herpes."
  ],
  "sections": [
   {
@@ -73,9 +74,49 @@
        ]
       ]
      }
+    },
+    {
+     "h": "Myths to address"
+    },
+    {
+     "ul": [
+      "**\"Blisters are always infection\"**: autoimmune and drug causes need biopsy and urgent referral."
+     ]
     }
    ],
    "short": "Aetiology"
+  },
+  {
+   "id": "pathophysiology",
+   "title": "Pathophysiology and pathology",
+   "blocks": [
+    "Where the skin **splits** decides how a blister looks.",
+    {
+     "mech": [
+      {
+       "k": "Subcorneal / intraepidermal",
+       "t": "Fragile roof breaks easily: erosions and crusts (bullous impetigo, pemphigus foliaceus)."
+      },
+      {
+       "k": "Suprabasal",
+       "t": "Desmosome loss in pemphigus vulgaris: flaccid blisters, mucosal erosions."
+      },
+      {
+       "k": "Subepidermal",
+       "t": "Basement membrane damage (pemphigoid, DH, PCT, EBA): tense blisters.",
+       "img": "v3-bp-vs-pv-split.jpg",
+       "caption": "Intraepidermal (flaccid) versus subepidermal (tense) blister."
+      },
+      {
+       "k": "Full-thickness necrosis",
+       "t": "SJS/TEN: the whole epidermis dies and sloughs.",
+       "img": "v4-ten-necrosis.jpg",
+       "caption": "TEN: full-thickness epidermal necrosis."
+      }
+     ]
+    }
+   ],
+   "short": "Pathophysiology"
   },
   {
    "id": "clinical-features",
@@ -267,6 +308,29 @@
    "short": "Red flags"
   },
   {
+   "id": "complications",
+   "title": "Complications and prognosis",
+   "blocks": [
+    {
+     "h": "Complications"
+    },
+    {
+     "ul": [
+      "Infection, fluid loss, scarring, mucosal strictures."
+     ]
+    },
+    {
+     "h": "Prognosis"
+    },
+    {
+     "ul": [
+      "Depends on cause."
+     ]
+    }
+   ],
+   "short": "Complications"
+  },
+  {
    "id": "pearls",
    "title": "Prescriber pearls (UK pharmacist IP)",
    "blocks": [
@@ -422,5 +486,11 @@
   }
  ],
  "references": [],
- "see_also": []
+ "see_also": [
+  "bullous-pemphigoid",
+  "pemphigus",
+  "dermatitis-herpetiformis",
+  "drug-induced-blistering",
+  "impetigo"
+ ]
 }

@@ -1,0 +1,48 @@
+{
+ "overview_pre": [
+  "This page covers **skin structure and skin typing**: the basis for interpreting lesions, dermoscopy and treatment risk."
+ ],
+ "kf": [
+  "Skin layers: **epidermis** (keratinocytes, melanocytes, Langerhans cells, Merkel cells), **dermis** (collagen, vessels, nerves, adnexa) and **subcutis** (fat).",
+  "Epidermis renews about every **28 days**: basal → spinous → granular → stratum corneum.",
+  "**Fitzpatrick types I–VI** describe burning vs tanning: I always burns, never tans; VI never burns.",
+  "Fitzpatrick type predicts sunburn and skin-cancer risk, and risk of pigment change, keloids and procedure complications.",
+  "The depth of a process explains colour: superficial pigment looks brown, deep pigment blue-grey (Tyndall)."
+ ],
+ "myths": [
+  "**\"Dark skin doesn't need sun protection\"**: risk is lower but not zero; acral melanoma and pigmentation still matter."
+ ],
+ "patho_lead": "Each layer has **its own cells and diseases**, so knowing depth explains what you see.",
+ "mech": [
+  {
+   "k": "Epidermis",
+   "t": "Keratinocytes mature upwards and shed; melanocytes pass pigment to them."
+  },
+  {
+   "k": "Dermo-epidermal junction",
+   "t": "Basement membrane anchors epidermis to dermis (target in pemphigoid)."
+  },
+  {
+   "k": "Dermis",
+   "t": "Collagen and elastin give strength; vessels, nerves, follicles and glands sit here."
+  },
+  {
+   "k": "Subcutis",
+   "t": "Fat lobules separated by septa (panniculitis sites).",
+   "img": "v4-skin-layers-block.jpg",
+   "cap": "Normal skin: epidermis, wavy junction, dermis with follicle, glands, vessels and nerve, and subcutaneous fat."
+  }
+ ],
+ "comp": [
+  "Not applicable."
+ ],
+ "prog": [
+  "Not applicable."
+ ],
+ "see_also": [
+  "lesion-language",
+  "hypopigmentation-skin-of-colour",
+  "melanoma",
+  "polymorphic-light-eruption"
+ ]
+}

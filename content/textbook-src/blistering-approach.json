@@ -1,0 +1,48 @@
+{
+ "kf": [
+  "Sort blisters by **level of split**: intraepidermal (flaccid, erosions: pemphigus, impetigo, SSSS, SJS/TEN) vs subepidermal (tense: pemphigoid, DH, PCT, EBA).",
+  "Ask: age, acute or chronic, mucosa, itch vs pain, drugs, sites, systemic illness.",
+  "Emergencies: **SJS/TEN, SSSS, extensive pemphigus, eczema herpeticum, neonatal blistering**.",
+  "Investigations: swab (bacteria, HSV PCR), skin biopsy of a fresh blister edge plus perilesional skin for **direct immunofluorescence**, serology.",
+  "Common causes in primary care: impetigo, insect bites, friction, contact dermatitis, pompholyx, herpes."
+ ],
+ "myths": [
+  "**\"Blisters are always infection\"**: autoimmune and drug causes need biopsy and urgent referral."
+ ],
+ "patho_lead": "Where the skin **splits** decides how a blister looks.",
+ "mech": [
+  {
+   "k": "Subcorneal / intraepidermal",
+   "t": "Fragile roof breaks easily: erosions and crusts (bullous impetigo, pemphigus foliaceus)."
+  },
+  {
+   "k": "Suprabasal",
+   "t": "Desmosome loss in pemphigus vulgaris: flaccid blisters, mucosal erosions."
+  },
+  {
+   "k": "Subepidermal",
+   "t": "Basement membrane damage (pemphigoid, DH, PCT, EBA): tense blisters.",
+   "img": "v3-bp-vs-pv-split.jpg",
+   "cap": "Intraepidermal (flaccid) versus subepidermal (tense) blister."
+  },
+  {
+   "k": "Full-thickness necrosis",
+   "t": "SJS/TEN: the whole epidermis dies and sloughs.",
+   "img": "v4-ten-necrosis.jpg",
+   "cap": "TEN: full-thickness epidermal necrosis."
+  }
+ ],
+ "comp": [
+  "Infection, fluid loss, scarring, mucosal strictures."
+ ],
+ "prog": [
+  "Depends on cause."
+ ],
+ "see_also": [
+  "bullous-pemphigoid",
+  "pemphigus",
+  "dermatitis-herpetiformis",
+  "drug-induced-blistering",
+  "impetigo"
+ ]
+}

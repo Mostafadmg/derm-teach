@@ -1,10 +1,11 @@
 {
  "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
  "key_facts": [
-  "Plaque, scalp or flexural psoriasis needing more than a steroid, or a patient referred for **light treatment**.",
-  "Vitamin D analogues normalise keratinocyte growth; tar and dithranol slow proliferation; UVB and PUVA suppress skin immune cells.",
-  "**Potent steroid + vitamin D** (separately or combined) first; **calcitriol** for face / flexures; phototherapy is specialist.",
-  "**Hypercalcaemia** with excess vitamin D analogue; burns and skin cancer with cumulative **PUVA**."
+  "**Vitamin D analogues** (calcipotriol, calcitriol) are first-line topicals for plaque psoriasis, often combined with a potent steroid.",
+  "**Coal tar** is an older, effective but messy option for scalp and plaque psoriasis.",
+  "**Narrowband UVB** (NB-UVB, 311 nm) for psoriasis, eczema, vitiligo; **PUVA** (psoralen + UVA) for thicker or resistant disease.",
+  "Phototherapy is usually 2–3 times a week for 6–10 weeks; cumulative dose increases skin cancer risk (especially PUVA: SCC).",
+  "Calcipotriol: max about 100 g a week in adults (hypercalcaemia risk with more); irritating on face and folds."
  ],
  "sections": [
   {
@@ -71,14 +72,50 @@
    "title": "Aetiology: causes and risk factors",
    "blocks": [
     {
-     "fig": {
-      "ai": "v3-uvb-uva-depth.jpg",
-      "caption": "Light depth in skin: narrowband UVB (311–313 nm) acts mainly in the epidermis; UVA (320–400 nm, used with psoralen in PUVA) reaches the dermis.",
-      "alt": "Skin section with a short UVB beam and a deeper UVA beam"
-     }
+     "h": "Myths to address"
+    },
+    {
+     "ul": [
+      "**\"Sunbeds are like phototherapy\"**: sunbeds emit mainly UVA, are unregulated and raise melanoma risk."
+     ]
     }
    ],
    "short": "Aetiology"
+  },
+  {
+   "id": "pathophysiology",
+   "title": "How it works (mechanism of action)",
+   "blocks": [
+    "These treatments slow **keratinocyte overgrowth** and **suppress skin T cells**.",
+    {
+     "mech": [
+      {
+       "k": "Vitamin D receptor",
+       "t": "Calcipotriol binds the VDR, normalising keratinocyte proliferation and differentiation."
+      },
+      {
+       "k": "Tar",
+       "t": "Coal tar activates the aryl hydrocarbon receptor, reducing inflammation and scale."
+      },
+      {
+       "k": "UVB",
+       "t": "UVB penetrates the epidermis, causing T-cell apoptosis and immunosuppression.",
+       "img": "v3-uvb-uva-depth.jpg",
+       "caption": "UVB acts in the epidermis; UVA reaches the dermis."
+      },
+      {
+       "k": "PUVA",
+       "t": "Psoralen intercalates in DNA; UVA cross-links it, stopping cell division."
+      },
+      {
+       "k": "Delivery",
+       "t": "Treatment is given in controlled whole-body cabinets.",
+       "img": "v3-nbuvb-cabinet.jpg",
+       "caption": "Narrowband UVB cabinet."
+      }
+     ]
+    }
+   ]
   },
   {
    "id": "clinical-features",
@@ -229,13 +266,6 @@
     {
      "fig": {
       "dermnet": "m1w2:D01"
-     }
-    },
-    {
-     "fig": {
-      "ai": "v3-nbuvb-cabinet.jpg",
-      "caption": "Narrowband UVB is delivered in a hospital cabinet with UV goggles. Dose, course length and lifetime total are recorded like a drug.",
-      "alt": "Patient in a phototherapy cabinet with a nurse"
      }
     }
    ]
@@ -418,6 +448,29 @@
    "short": "Red flags"
   },
   {
+   "id": "complications",
+   "title": "Complications and prognosis",
+   "blocks": [
+    {
+     "h": "Complications"
+    },
+    {
+     "ul": [
+      "Irritation (vitamin D, tar), hypercalcaemia (excess calcipotriol), burning, photoageing, skin cancer (PUVA > UVB)."
+     ]
+    },
+    {
+     "h": "Prognosis"
+    },
+    {
+     "ul": [
+      "Good clearance in many; remissions last months."
+     ]
+    }
+   ],
+   "short": "Complications"
+  },
+  {
    "id": "pearls",
    "title": "Prescriber pearls (UK pharmacist IP)",
    "blocks": [
@@ -456,5 +509,11 @@
   }
  ],
  "references": [],
- "see_also": []
+ "see_also": [
+  "psoriasis",
+  "biologics-systemics",
+  "eczema-dermatitis",
+  "topical-corticosteroids",
+  "hypopigmentation-skin-of-colour"
+ ]
 }

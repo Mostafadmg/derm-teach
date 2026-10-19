@@ -1,0 +1,55 @@
+{
+ "titles": {
+  "pathophysiology": "How it works (mechanism of action)"
+ },
+ "kf": [
+  "**Vitamin D analogues** (calcipotriol, calcitriol) are first-line topicals for plaque psoriasis, often combined with a potent steroid.",
+  "**Coal tar** is an older, effective but messy option for scalp and plaque psoriasis.",
+  "**Narrowband UVB** (NB-UVB, 311 nm) for psoriasis, eczema, vitiligo; **PUVA** (psoralen + UVA) for thicker or resistant disease.",
+  "Phototherapy is usually 2–3 times a week for 6–10 weeks; cumulative dose increases skin cancer risk (especially PUVA: SCC).",
+  "Calcipotriol: max about 100 g a week in adults (hypercalcaemia risk with more); irritating on face and folds."
+ ],
+ "myths": [
+  "**\"Sunbeds are like phototherapy\"**: sunbeds emit mainly UVA, are unregulated and raise melanoma risk."
+ ],
+ "patho_lead": "These treatments slow **keratinocyte overgrowth** and **suppress skin T cells**.",
+ "mech": [
+  {
+   "k": "Vitamin D receptor",
+   "t": "Calcipotriol binds the VDR, normalising keratinocyte proliferation and differentiation."
+  },
+  {
+   "k": "Tar",
+   "t": "Coal tar activates the aryl hydrocarbon receptor, reducing inflammation and scale."
+  },
+  {
+   "k": "UVB",
+   "t": "UVB penetrates the epidermis, causing T-cell apoptosis and immunosuppression.",
+   "img": "v3-uvb-uva-depth.jpg",
+   "cap": "UVB acts in the epidermis; UVA reaches the dermis."
+  },
+  {
+   "k": "PUVA",
+   "t": "Psoralen intercalates in DNA; UVA cross-links it, stopping cell division."
+  },
+  {
+   "k": "Delivery",
+   "t": "Treatment is given in controlled whole-body cabinets.",
+   "img": "v3-nbuvb-cabinet.jpg",
+   "cap": "Narrowband UVB cabinet."
+  }
+ ],
+ "comp": [
+  "Irritation (vitamin D, tar), hypercalcaemia (excess calcipotriol), burning, photoageing, skin cancer (PUVA > UVB)."
+ ],
+ "prog": [
+  "Good clearance in many; remissions last months."
+ ],
+ "see_also": [
+  "psoriasis",
+  "biologics-systemics",
+  "eczema-dermatitis",
+  "topical-corticosteroids",
+  "hypopigmentation-skin-of-colour"
+ ]
+}

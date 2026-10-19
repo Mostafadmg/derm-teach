@@ -1,16 +1,18 @@
 {
  "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
  "key_facts": [
-  "You need to describe a rash in notes, a referral, an advice-and-guidance request or a photo request.",
-  "The level of the skin involved (epidermis, dermis, subcutis) decides what you see and feel.",
-  "Describe lesion type → colour → surface → configuration → distribution, then build the differential from that description.",
-  "Non-blanching purpura, blisters or erosions with mucosal involvement, and any changing pigmented lesion."
+  "Describe: **site, number, distribution, configuration, size, shape, colour, surface, palpation** (SCALP-style).",
+  "Primary lesions: macule/patch (flat), papule/plaque (raised, solid), nodule (deep), vesicle/bulla (fluid), pustule (pus), wheal (transient oedema).",
+  "Secondary changes: scale, crust, erosion, ulcer, excoriation, lichenification, atrophy, scar.",
+  "Configurations: annular, linear (Koebner, Blaschko), grouped (herpetiform), target, reticulate, serpiginous.",
+  "Size thresholds: macule/papule under 1 cm (some use 0.5 cm); vesicle under 0.5 cm vs bulla."
  ],
  "sections": [
   {
    "id": "overview",
    "title": "Overview",
    "blocks": [
+    "This page is a **reference for dermatological terms**: how to describe lesions precisely so that a description alone points to a diagnosis.",
     {
      "h4": "Primary lesions (macule → cyst)"
     },
@@ -229,9 +231,38 @@
     {
      "h": "Lichenification in chronic atopic eczema"
     },
-    "Barrier dysfunction (e.g. filaggrin loss-of-function, reduced ceramides) + type-2 inflammation (IL-4/IL-13/IL-31 itch signalling) → itch → scratch → further barrier damage and inflammation → keratinocyte hyperproliferation → **lichenification**. Pigment change follows inflammation (PIH), more marked in darker phototypes."
+    "Barrier dysfunction (e.g. filaggrin loss-of-function, reduced ceramides) + type-2 inflammation (IL-4/IL-13/IL-31 itch signalling) → itch → scratch → further barrier damage and inflammation → keratinocyte hyperproliferation → **lichenification**. Pigment change follows inflammation (PIH), more marked in darker phototypes.",
+    {
+     "h": "Myths to address"
+    },
+    {
+     "ul": [
+      "**\"Rash\" is a description**: precise terms change the differential diagnosis."
+     ]
+    }
    ],
    "short": "Aetiology"
+  },
+  {
+   "id": "pathophysiology",
+   "title": "Lesions in cross-section",
+   "blocks": [
+    "Each primary lesion reflects **what sits at which depth** of the skin.",
+    {
+     "mech": [
+      {
+       "k": "Flat vs raised",
+       "t": "Macules and patches are colour change only; papules, plaques and nodules are solid and raised, deeper as they grow.",
+       "img": "v4-primary-lesions-profile.jpg",
+       "caption": "Primary lesions in profile: macule, papule, plaque, nodule, vesicle and pustule."
+      },
+      {
+       "k": "Fluid",
+       "t": "Vesicles and bullae hold clear fluid; pustules hold pus."
+      }
+     ]
+    }
+   ]
   },
   {
    "id": "clinical-features",
@@ -760,6 +791,29 @@
    "short": "Red flags"
   },
   {
+   "id": "complications",
+   "title": "Complications and prognosis",
+   "blocks": [
+    {
+     "h": "Complications"
+    },
+    {
+     "ul": [
+      "Miscommunication in referrals and teledermatology."
+     ]
+    },
+    {
+     "h": "Prognosis"
+    },
+    {
+     "ul": [
+      "Not applicable."
+     ]
+    }
+   ],
+   "short": "Complications"
+  },
+  {
    "id": "pearls",
    "title": "Prescriber pearls (UK pharmacist IP)",
    "blocks": [
@@ -817,5 +871,10 @@
   }
  ],
  "references": [],
- "see_also": []
+ "see_also": [
+  "skin-layers-fitzpatrick",
+  "teledermatology",
+  "annular-rashes",
+  "blistering-approach"
+ ]
 }

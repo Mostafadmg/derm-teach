@@ -1,10 +1,11 @@
 {
  "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
  "key_facts": [
-  "Mild–moderate acne in a young adult, or a woman who also wants **contraception** or has **hormonal** acne.",
-  "Sebum, follicular plugging, *C. acnes* and inflammation; androgens drive sebum, so **oestrogen-containing pills help**.",
-  "**Fixed topical combination for 12 weeks**; add oral tetracycline for moderate–severe (never alone); COC as an option.",
-  "**VTE** with COCs, especially co-cyprindiol (UKMEC); mood change; scarring acne needing isotretinoin."
+  "NICE NG198: first-line acne treatment is a **12-week fixed-combination topical** (adapalene + benzoyl peroxide, tretinoin + clindamycin, or BPO + clindamycin).",
+  "Add an oral **tetracycline (lymecycline or doxycycline)** with a topical for moderate–severe acne; never use oral and topical antibiotics together.",
+  "The **combined oral contraceptive (COC)** is an alternative or add-on for women; choose using **UKMEC** (VTE, migraine with aura, smoking over 35).",
+  "Co-cyprindiol has higher VTE risk: use only if other options fail and stop 3 months after acne control.",
+  "Review at 12 weeks; refer scarring, severe or persistent acne for isotretinoin."
  ],
  "sections": [
   {
@@ -25,9 +26,49 @@
    ]
   },
   {
-   "id": "pathophysiology",
-   "title": "Pathophysiology and pathology",
+   "id": "aetiology",
+   "title": "Aetiology: causes and risk factors",
    "blocks": [
+    {
+     "h": "Myths to address"
+    },
+    {
+     "ul": [
+      "**\"The pill causes acne\"**: progestogen-only methods can worsen acne; combined pills usually improve it."
+     ]
+    }
+   ],
+   "short": "Aetiology"
+  },
+  {
+   "id": "pathophysiology",
+   "title": "How it works (mechanism of action)",
+   "blocks": [
+    "The COC reduces acne by **lowering free androgen**, which drives sebum production.",
+    {
+     "mech": [
+      {
+       "k": "Ovarian suppression",
+       "t": "Ethinylestradiol and progestogen suppress ovulation and ovarian androgen output."
+      },
+      {
+       "k": "Raised SHBG",
+       "t": "Oestrogen increases sex hormone–binding globulin, reducing free testosterone."
+      },
+      {
+       "k": "Less sebum",
+       "t": "Lower androgen activity shrinks sebaceous output and comedone formation.",
+       "img": "v3-acne-follicle-stages.jpg",
+       "caption": "Acne develops from microcomedone to inflamed lesion."
+      },
+      {
+       "k": "Anti-androgenic progestogens",
+       "t": "Cyproterone, drospirenone and others block androgen receptors.",
+       "img": "v3-jawline-acne.jpg",
+       "caption": "Hormonal pattern acne along the jawline."
+      }
+     ]
+    },
     {
      "h": "How it works (acne pathophysiology → drug targets)"
     },
@@ -73,16 +114,8 @@
        ]
       ]
      }
-    },
-    {
-     "fig": {
-      "ai": "v3-acne-follicle-stages.jpg",
-      "caption": "From microcomedone to inflamed papule: each acne drug acts at one or more of these steps.",
-      "alt": "Acne follicle stages"
-     }
     }
-   ],
-   "short": "Pathophysiology"
+   ]
   },
   {
    "id": "clinical-features",
@@ -202,13 +235,6 @@
     {
      "fig": {
       "dermnet": "m1w2:E03"
-     }
-    },
-    {
-     "fig": {
-      "ai": "v3-jawline-acne.jpg",
-      "caption": "Hormonal-pattern acne: inflamed papules, pustules and small nodules along the jawline, chin and around the mouth.",
-      "alt": "Lower face with jawline acne"
      }
     }
    ]
@@ -403,6 +429,29 @@
    "short": "Red flags"
   },
   {
+   "id": "complications",
+   "title": "Complications and prognosis",
+   "blocks": [
+    {
+     "h": "Complications"
+    },
+    {
+     "ul": [
+      "VTE (higher with co-cyprindiol, drospirenone, desogestrel than levonorgestrel), breakthrough bleeding, mood change."
+     ]
+    },
+    {
+     "h": "Prognosis"
+    },
+    {
+     "ul": [
+      "Benefit takes 3–6 months."
+     ]
+    }
+   ],
+   "short": "Complications"
+  },
+  {
    "id": "pearls",
    "title": "Prescriber pearls (UK pharmacist IP)",
    "blocks": [
@@ -437,5 +486,10 @@
   }
  ],
  "references": [],
- "see_also": []
+ "see_also": [
+  "acne-vulgaris",
+  "retinoids",
+  "hirsutism",
+  "acne-scars"
+ ]
 }

@@ -1,10 +1,11 @@
 {
  "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
  "key_facts": [
-  "Any new rash in someone who started, changed or restarted a medicine in the last 8 weeks.",
-  "Immune reactions (type I to IV) or non-immune effects (phototoxicity, deposition, pharmacology) of a drug or its metabolites.",
-  "Build a drug timeline, name the morphology, check for SCAR red flags, stop the most likely culprit, record the reaction precisely (NICE CG183) and report.",
-  "SJS/TEN, DRESS, AGEP, anaphylaxis and angioedema; vasculitis with organ involvement."
+  "Drug reactions are common: first **classify the morphology** (maculopapular, urticarial, blistering, pustular, fixed, photosensitive, lichenoid).",
+  "Build a **drug timeline**: everything started in the last 8 weeks, including OTC and herbal products.",
+  "Latency clues: urticaria/anaphylaxis minutes–hours; AGEP hours–2 days; MDE 4–14 days; SJS/TEN 4–28 days; DRESS 2–8 weeks.",
+  "Red flags: **mucosal involvement, skin pain, blisters, facial oedema, fever, organ dysfunction**: same-day referral.",
+  "Stop the likely culprit, document the reaction precisely, Yellow Card serious reactions, and refer for allergy testing when it matters."
  ],
  "sections": [
   {
@@ -15,9 +16,47 @@
    ]
   },
   {
+   "id": "aetiology",
+   "title": "Aetiology: causes and risk factors",
+   "blocks": [
+    {
+     "h": "Myths to address"
+    },
+    {
+     "ul": [
+      "**\"Any rash on amoxicillin = penicillin allergy\"**: many are viral or non-allergic; mislabelled allergy harms future care."
+     ]
+    }
+   ],
+   "short": "Aetiology"
+  },
+  {
    "id": "pathophysiology",
    "title": "Pathophysiology and pathology",
    "blocks": [
+    "Drug reactions follow **different immune pathways**, which explain their timing and appearance.",
+    {
+     "mech": [
+      {
+       "k": "Type I (IgE)",
+       "t": "Mast cell degranulation within minutes: urticaria, angioedema, anaphylaxis."
+      },
+      {
+       "k": "Type IV T-cell reactions",
+       "t": "Delayed days to weeks: maculopapular (IVb/c), SJS/TEN (IVc), AGEP (IVd), DRESS (IVb).",
+       "img": "v4-drug-t-cell-synapse.jpg",
+       "caption": "Delayed drug reaction: a drug held by an antigen-presenting cell activates a T cell, whose cytokines damage keratinocytes."
+      },
+      {
+       "k": "p-i concept",
+       "t": "Some drugs bind HLA or T-cell receptors directly; HLA alleles predict risk (HLA-B*58:01, B*15:02, B*57:01)."
+      },
+      {
+       "k": "Non-immune",
+       "t": "Phototoxicity, pigmentation and pharmacological effects (NSAID-exacerbated urticaria)."
+      }
+     ]
+    },
     {
      "h": "How it is caused"
     },
@@ -348,6 +387,29 @@
    "short": "Red flags"
   },
   {
+   "id": "complications",
+   "title": "Complications and prognosis",
+   "blocks": [
+    {
+     "h": "Complications"
+    },
+    {
+     "ul": [
+      "SJS/TEN, DRESS, anaphylaxis; mislabelled allergies."
+     ]
+    },
+    {
+     "h": "Prognosis"
+    },
+    {
+     "ul": [
+      "Most simple drug rashes resolve in 1–2 weeks after stopping the drug."
+     ]
+    }
+   ],
+   "short": "Complications"
+  },
+  {
    "id": "pearls",
    "title": "Prescriber pearls (UK pharmacist IP)",
    "blocks": [
@@ -449,5 +511,11 @@
   }
  ],
  "references": [],
- "see_also": []
+ "see_also": [
+  "morbilliform-drug-eruption",
+  "drug-induced-blistering",
+  "dress",
+  "agep",
+  "fixed-drug-eruption"
+ ]
 }

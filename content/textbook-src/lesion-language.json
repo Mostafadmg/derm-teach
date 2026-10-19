@@ -1,0 +1,43 @@
+{
+ "overview_pre": [
+  "This page is a **reference for dermatological terms**: how to describe lesions precisely so that a description alone points to a diagnosis."
+ ],
+ "kf": [
+  "Describe: **site, number, distribution, configuration, size, shape, colour, surface, palpation** (SCALP-style).",
+  "Primary lesions: macule/patch (flat), papule/plaque (raised, solid), nodule (deep), vesicle/bulla (fluid), pustule (pus), wheal (transient oedema).",
+  "Secondary changes: scale, crust, erosion, ulcer, excoriation, lichenification, atrophy, scar.",
+  "Configurations: annular, linear (Koebner, Blaschko), grouped (herpetiform), target, reticulate, serpiginous.",
+  "Size thresholds: macule/papule under 1 cm (some use 0.5 cm); vesicle under 0.5 cm vs bulla."
+ ],
+ "titles": {
+  "pathophysiology": "Lesions in cross-section"
+ },
+ "patho_lead": "Each primary lesion reflects **what sits at which depth** of the skin.",
+ "mech": [
+  {
+   "k": "Flat vs raised",
+   "t": "Macules and patches are colour change only; papules, plaques and nodules are solid and raised, deeper as they grow.",
+   "img": "v4-primary-lesions-profile.jpg",
+   "cap": "Primary lesions in profile: macule, papule, plaque, nodule, vesicle and pustule."
+  },
+  {
+   "k": "Fluid",
+   "t": "Vesicles and bullae hold clear fluid; pustules hold pus."
+  }
+ ],
+ "myths": [
+  "**\"Rash\" is a description**: precise terms change the differential diagnosis."
+ ],
+ "comp": [
+  "Miscommunication in referrals and teledermatology."
+ ],
+ "prog": [
+  "Not applicable."
+ ],
+ "see_also": [
+  "skin-layers-fitzpatrick",
+  "teledermatology",
+  "annular-rashes",
+  "blistering-approach"
+ ]
+}

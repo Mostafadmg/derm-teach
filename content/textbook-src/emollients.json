@@ -1,0 +1,58 @@
+{
+ "titles": {
+  "pathophysiology": "How it works (mechanism of action)"
+ },
+ "kf": [
+  "**Emollients** restore the skin barrier: the foundation of treatment for eczema, psoriasis, ichthyosis and dry skin.",
+  "Types run from lotions (light, more water) through creams and gels to **ointments** (greasiest, most occlusive, fewest preservatives).",
+  "Use **liberally and often**: adults with eczema may need about 250–500 g a week; apply in the direction of hair growth.",
+  "Use as a **soap substitute**; leave 15–30 minutes between emollient and topical steroid.",
+  "**Fire risk**: paraffin-based (and other) emollients dried on fabric are flammable; warn about naked flames and smoking (MHRA)."
+ ],
+ "myths": [
+  "**\"Emollients are just moisturisers, optional\"**: regular use reduces flares and steroid use.",
+  "**\"Aqueous cream is a good emollient\"**: it contains sodium lauryl sulfate, an irritant; avoid as a leave-on."
+ ],
+ "patho_lead": "Emollients work by **occluding, humectant attraction of water and replacing lipids**.",
+ "mech": [
+  {
+   "k": "Occlusion",
+   "t": "Oily layers (paraffin, petrolatum) slow transepidermal water loss.",
+   "img": "v3-eczema-barrier-section.jpg",
+   "cap": "A leaky barrier loses water and lets irritants in; emollients seal it."
+  },
+  {
+   "k": "Humectants",
+   "t": "Urea, glycerol and lactic acid draw water into the stratum corneum."
+  },
+  {
+   "k": "Lipid replacement",
+   "t": "Ceramides and fatty acids refill gaps between corneocytes."
+  },
+  {
+   "k": "Choice by greasiness",
+   "t": "More oil = more occlusion but less cosmetic acceptability.",
+   "img": "v3-emollient-spectrum.jpg",
+   "cap": "Spectrum from light lotions to greasy ointments."
+  },
+  {
+   "k": "Technique",
+   "t": "Smooth on downwards in the direction of hair growth to avoid folliculitis.",
+   "img": "v3-emollient-strokes.jpg",
+   "cap": "Apply in long downward strokes."
+  }
+ ],
+ "comp": [
+  "Folliculitis, irritant reactions (preservatives, lanolin), slipping and falls, fire risk."
+ ],
+ "prog": [
+  "Ongoing, lifelong in chronic conditions."
+ ],
+ "see_also": [
+  "eczema-dermatitis",
+  "itch-xerosis-older-adults",
+  "topical-corticosteroids",
+  "psoriasis",
+  "hand-eczema"
+ ]
+}

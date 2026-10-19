@@ -1,0 +1,46 @@
+{
+ "kf": [
+  "Drug reactions are common: first **classify the morphology** (maculopapular, urticarial, blistering, pustular, fixed, photosensitive, lichenoid).",
+  "Build a **drug timeline**: everything started in the last 8 weeks, including OTC and herbal products.",
+  "Latency clues: urticaria/anaphylaxis minutes–hours; AGEP hours–2 days; MDE 4–14 days; SJS/TEN 4–28 days; DRESS 2–8 weeks.",
+  "Red flags: **mucosal involvement, skin pain, blisters, facial oedema, fever, organ dysfunction**: same-day referral.",
+  "Stop the likely culprit, document the reaction precisely, Yellow Card serious reactions, and refer for allergy testing when it matters."
+ ],
+ "myths": [
+  "**\"Any rash on amoxicillin = penicillin allergy\"**: many are viral or non-allergic; mislabelled allergy harms future care."
+ ],
+ "patho_lead": "Drug reactions follow **different immune pathways**, which explain their timing and appearance.",
+ "mech": [
+  {
+   "k": "Type I (IgE)",
+   "t": "Mast cell degranulation within minutes: urticaria, angioedema, anaphylaxis."
+  },
+  {
+   "k": "Type IV T-cell reactions",
+   "t": "Delayed days to weeks: maculopapular (IVb/c), SJS/TEN (IVc), AGEP (IVd), DRESS (IVb).",
+   "img": "v4-drug-t-cell-synapse.jpg",
+   "cap": "Delayed drug reaction: a drug held by an antigen-presenting cell activates a T cell, whose cytokines damage keratinocytes."
+  },
+  {
+   "k": "p-i concept",
+   "t": "Some drugs bind HLA or T-cell receptors directly; HLA alleles predict risk (HLA-B*58:01, B*15:02, B*57:01)."
+  },
+  {
+   "k": "Non-immune",
+   "t": "Phototoxicity, pigmentation and pharmacological effects (NSAID-exacerbated urticaria)."
+  }
+ ],
+ "comp": [
+  "SJS/TEN, DRESS, anaphylaxis; mislabelled allergies."
+ ],
+ "prog": [
+  "Most simple drug rashes resolve in 1–2 weeks after stopping the drug."
+ ],
+ "see_also": [
+  "morbilliform-drug-eruption",
+  "drug-induced-blistering",
+  "dress",
+  "agep",
+  "fixed-drug-eruption"
+ ]
+}

@@ -1,10 +1,11 @@
 {
  "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
  "key_facts": [
-  "A patient on **methotrexate, ciclosporin, a biologic or a JAK inhibitor** needs a prescription, vaccine, antibiotic or advice.",
-  "Targeted blockade of **TNF, IL-17, IL-23, IL-4/13 or JAK** signalling, or broad immunosuppression.",
-  "Specialist-initiated (NICE TAs); shared-care monitoring; **no live vaccines**; check every new drug (**MTX + trimethoprim**).",
-  "Serious infection, **TB reactivation**, **methotrexate toxicity**, VTE and MACE with JAK inhibitors (MHRA 2023)."
+  "Conventional systemics: **methotrexate** (weekly), ciclosporin, acitretin, azathioprine, mycophenolate; biologics target specific cytokines.",
+  "Psoriasis biologics: TNF-α (adalimumab), IL-17 (secukinumab, ixekizumab, bimekizumab), IL-23 (guselkumab, risankizumab); eczema: dupilumab, tralokinumab, JAK inhibitors.",
+  "Methotrexate is **once weekly**: prescribing errors (daily dosing) are fatal; folic acid on another day; monitor FBC, LFT, U&E.",
+  "Screen before biologics: TB (IGRA), hepatitis B/C, HIV; avoid live vaccines.",
+  "Infection on immunosuppressants needs early review; record specialist drugs in the GP record."
  ],
  "sections": [
   {
@@ -79,14 +80,46 @@
    "title": "Aetiology: causes and risk factors",
    "blocks": [
     {
-     "fig": {
-      "ai": "v3-il23-th17-axis.jpg",
-      "caption": "The psoriasis loop: a dendritic cell signals to a T cell, which releases cytokines (such as IL-17) that make keratinocytes multiply and draw in neutrophils. Biologic antibodies intercept these signals.",
-      "alt": "Schematic of immune cells and cytokines in psoriatic skin"
-     }
+     "h": "Myths to address"
+    },
+    {
+     "ul": [
+      "**\"Biologics are just stronger steroids\"**: they block one immune pathway, with different risks."
+     ]
     }
    ],
    "short": "Aetiology"
+  },
+  {
+   "id": "pathophysiology",
+   "title": "How it works (mechanism of action)",
+   "blocks": [
+    "Systemic drugs and biologics **interrupt the immune circuits** that drive chronic skin inflammation.",
+    {
+     "mech": [
+      {
+       "k": "IL-23/Th17 axis",
+       "t": "Dendritic cell IL-23 sustains Th17 cells that release IL-17, driving psoriasis.",
+       "img": "v3-il23-th17-axis.jpg",
+       "caption": "The IL-23/Th17 axis targeted by psoriasis biologics."
+      },
+      {
+       "k": "Th2 axis",
+       "t": "IL-4 and IL-13 drive atopic eczema; dupilumab blocks the IL-4 receptor α."
+      },
+      {
+       "k": "JAK–STAT",
+       "t": "Many cytokine receptors signal through JAKs; oral JAK inhibitors block several at once."
+      },
+      {
+       "k": "Antimetabolites",
+       "t": "Methotrexate inhibits folate pathways in rapidly dividing immune cells.",
+       "img": "v3-methotrexate-weekly.jpg",
+       "caption": "Methotrexate is taken once a week."
+      }
+     ]
+    }
+   ]
   },
   {
    "id": "clinical-features",
@@ -407,6 +440,29 @@
    "short": "Red flags"
   },
   {
+   "id": "complications",
+   "title": "Complications and prognosis",
+   "blocks": [
+    {
+     "h": "Complications"
+    },
+    {
+     "ul": [
+      "Infection (including TB reactivation), cytopenias, liver toxicity, kidney toxicity (ciclosporin), conjunctivitis (dupilumab), thrombosis risk (JAK inhibitors)."
+     ]
+    },
+    {
+     "h": "Prognosis"
+    },
+    {
+     "ul": [
+      "Most patients achieve major improvement; treatment is long-term."
+     ]
+    }
+   ],
+   "short": "Complications"
+  },
+  {
    "id": "pearls",
    "title": "Prescriber pearls (UK pharmacist IP)",
    "blocks": [
@@ -440,5 +496,11 @@
   }
  ],
  "references": [],
- "see_also": []
+ "see_also": [
+  "psoriasis",
+  "eczema-dermatitis",
+  "hidradenitis-suppurativa",
+  "vitamin-d-tar-phototherapy",
+  "urticaria-angioedema"
+ ]
 }

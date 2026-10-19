@@ -1,16 +1,18 @@
 {
  "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
  "key_facts": [
-  "Linking a lesion to its level in the skin; judging sun risk, PIH risk or erythema in skin of colour; deciding whether dermoscopy helps.",
-  "Epidermal processes give scale and colour change; dermal processes give induration, nodules and scarring; melanin biology sets the phototype.",
-  "Record the Fitzpatrick type, assess severity by more than redness, and counsel photoprotection to match.",
-  "Under-calling inflammation in darker skin; melanoma in any skin type (acral and nail sites in darker skin)."
+  "Skin layers: **epidermis** (keratinocytes, melanocytes, Langerhans cells, Merkel cells), **dermis** (collagen, vessels, nerves, adnexa) and **subcutis** (fat).",
+  "Epidermis renews about every **28 days**: basal → spinous → granular → stratum corneum.",
+  "**Fitzpatrick types I–VI** describe burning vs tanning: I always burns, never tans; VI never burns.",
+  "Fitzpatrick type predicts sunburn and skin-cancer risk, and risk of pigment change, keloids and procedure complications.",
+  "The depth of a process explains colour: superficial pigment looks brown, deep pigment blue-grey (Tyndall)."
  ],
  "sections": [
   {
    "id": "overview",
    "title": "Overview",
    "blocks": [
+    "This page covers **skin structure and skin typing**: the basis for interpreting lesions, dermoscopy and treatment risk.",
     {
      "h4": "Skin layers linked to lesion type"
     },
@@ -202,9 +204,47 @@
     {
      "h": "Dermoscopy: why it adds value"
     },
-    "Surface reflection from the stratum corneum normally hides deeper structure. Immersion fluid or cross-polarisation removes that glare, so light penetrates and returns from deeper layers — each colour/pattern corresponds to pigment depth (black/brown = epidermis/junction; grey/blue = dermis) and vessel morphology."
+    "Surface reflection from the stratum corneum normally hides deeper structure. Immersion fluid or cross-polarisation removes that glare, so light penetrates and returns from deeper layers — each colour/pattern corresponds to pigment depth (black/brown = epidermis/junction; grey/blue = dermis) and vessel morphology.",
+    {
+     "h": "Myths to address"
+    },
+    {
+     "ul": [
+      "**\"Dark skin doesn't need sun protection\"**: risk is lower but not zero; acral melanoma and pigmentation still matter."
+     ]
+    }
    ],
    "short": "Aetiology"
+  },
+  {
+   "id": "pathophysiology",
+   "title": "Pathophysiology and pathology",
+   "blocks": [
+    "Each layer has **its own cells and diseases**, so knowing depth explains what you see.",
+    {
+     "mech": [
+      {
+       "k": "Epidermis",
+       "t": "Keratinocytes mature upwards and shed; melanocytes pass pigment to them."
+      },
+      {
+       "k": "Dermo-epidermal junction",
+       "t": "Basement membrane anchors epidermis to dermis (target in pemphigoid)."
+      },
+      {
+       "k": "Dermis",
+       "t": "Collagen and elastin give strength; vessels, nerves, follicles and glands sit here."
+      },
+      {
+       "k": "Subcutis",
+       "t": "Fat lobules separated by septa (panniculitis sites).",
+       "img": "v4-skin-layers-block.jpg",
+       "caption": "Normal skin: epidermis, wavy junction, dermis with follicle, glands, vessels and nerve, and subcutaneous fat."
+      }
+     ]
+    }
+   ],
+   "short": "Pathophysiology"
   },
   {
    "id": "clinical-features",
@@ -415,6 +455,29 @@
    "short": "Red flags"
   },
   {
+   "id": "complications",
+   "title": "Complications and prognosis",
+   "blocks": [
+    {
+     "h": "Complications"
+    },
+    {
+     "ul": [
+      "Not applicable."
+     ]
+    },
+    {
+     "h": "Prognosis"
+    },
+    {
+     "ul": [
+      "Not applicable."
+     ]
+    }
+   ],
+   "short": "Complications"
+  },
+  {
    "id": "pearls",
    "title": "Prescriber pearls (UK pharmacist IP)",
    "blocks": [
@@ -463,5 +526,10 @@
   }
  ],
  "references": [],
- "see_also": []
+ "see_also": [
+  "lesion-language",
+  "hypopigmentation-skin-of-colour",
+  "melanoma",
+  "polymorphic-light-eruption"
+ ]
 }
