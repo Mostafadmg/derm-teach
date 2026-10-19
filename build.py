@@ -933,7 +933,8 @@ def card_thumb(c, p, ctx):
     if not item and c.get("link") in BY_SLUG:
         item = BY_SLUG[c["link"]].get("card_image")
     if not item:
-        return f'<div class="ddx-thumb is-empty">{uix("eye")}</div>'
+        icon = "alert" if c.get("tone") == "danger" else ("search" if c.get("link") else "eye")
+        return f'<div class="ddx-thumb is-empty" aria-hidden="true">{uix(icon, "ui ui-sm")}</div>'
     return f'<div class="ddx-thumb">{fig3(item, p, ctx, "f-thumb", cap=False)}</div>'
 
 
@@ -943,6 +944,21 @@ def render_rx(rx, p):
         f'<p class="rx-dose">{uix("pill", "ui ui-xs")}{md(r.get("dose", ""), p)}</p>'
         + (f'<p class="rx-dur">{uix("clock", "ui ui-xs")}{md(r["dur"], p)}</p>' if r.get("dur") else "")
         + (f'<p class="rx-note">{md(r["note"], p)}</p>' if r.get("note") else "") + "</div>" for r in rx) + "</div>")
+
+
+def flow_is_triage(s):
+    """Emergency triage flow (999 / A&E / anaphylaxis / sepsis) vs an ordinary referral pathway."""
+    kind = s.get("flow_kind")
+    if kind:
+        return kind == "triage"
+    txt = json.dumps(s.get("flow", []), ensure_ascii=False).lower()
+    return any(w in txt for w in ("999", "a&e", "a&amp;e", "emergency", "anaphylaxis", "sepsis", "resus"))
+
+
+def flow_title(s):
+    if s.get("flow_title"):
+        return s["flow_title"]
+    return "Triage: when it’s an emergency" if flow_is_triage(s) else "Referral pathway"
 
 
 def render_flow(flow, p):
@@ -1010,14 +1026,16 @@ def step_body(key, st, d, p, ctx):
             cols.append(f'<div class="ccol"><p class="ccol-k">{uix(c.get("icon", "check"), "ui ui-sm")}{esc(c["k"])}</p>{body}</div>')
         if cols:
             h.append(f'<div class="ccols">{"".join(cols)}</div>')
+        h.append(visuals(s.get("visuals"), p, ctx))
     elif key == "differentials":
-        if s.get("visual"):
-            h.append(visuals([s["visual"]], p, ctx))
+        if s.get("visual") or s.get("visuals"):
+            h.append(visuals(([s["visual"]] if s.get("visual") else []) + list(s.get("visuals") or []), p, ctx))
         cards = []
         for c in s.get("cards", []):
             link = (f'<a class="ddx-go" href="{p}conditions/{esc(c["link"])}.html">Open lesson{ui("arrow", "ui ui-xs")}</a>'
                     if c.get("link") in BY_SLUG else "")
-            cards.append(f'<li class="ddx{" is-danger" if c.get("tone") == "danger" else ""}">{card_thumb(c, p, ctx)}'
+            th = card_thumb(c, p, ctx)
+            cards.append(f'<li class="ddx{" is-danger" if c.get("tone") == "danger" else ""}{" no-thumb" if "is-empty" in th else ""}">{th}'
                          f'<div class="ddx-b"><p class="ddx-n">{md(c["name"], p)}</p><p class="ddx-c">{md(c["clue"], p)}</p>{link}</div></li>')
         if cards:
             h.append(f'<ul class="ddxs">{"".join(cards)}</ul>')
@@ -1026,8 +1044,9 @@ def step_body(key, st, d, p, ctx):
     elif key == "manage":
         if s.get("lead_note"):
             h.append(f'<p class="aside-note">{md(s["lead_note"], p)}</p>')
+        h.append(visuals(s.get("visuals"), p, ctx))
         if s.get("flow"):
-            h.append(f'<p class="mini-h">Referral pathway</p>{render_flow(s["flow"], p)}')
+            h.append(f'<p class="mini-h{" is-triage" if flow_is_triage(s) else ""}">{esc(flow_title(s))}</p>{render_flow(s["flow"], p)}')
         rungs = []
         for i, r in enumerate(s.get("rungs", [])):
             tone = r.get("tone", "")
@@ -1051,6 +1070,7 @@ def step_body(key, st, d, p, ctx):
             for x in s.get("items", []))
         if items:
             h.append(f'<ul class="rfs">{items}</ul>')
+        h.append(visuals(s.get("visuals"), p, ctx))
     elif key == "pearls":
         items = st.get("pearls") or []
         if items:

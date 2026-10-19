@@ -1,0 +1,244 @@
+{
+ "_note": "Curated v3 overlay (batch 2), condensed from content/conditions/acne-prescribing-combined-pill.json; full text kept under 'More detail'.",
+ "glance": {
+  "chips": [
+   "NICE NG198",
+   "12-week courses",
+   "No antibiotic monotherapy",
+   "COC & VTE"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "Mild–moderate acne in a young adult, or a woman who also wants **contraception** or has **hormonal** acne."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "Sebum, follicular plugging, *C. acnes* and inflammation; androgens drive sebum, so **oestrogen-containing pills help**."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "**Fixed topical combination for 12 weeks**; add oral tetracycline for moderate–severe (never alone); COC as an option."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "**VTE** with COCs, especially co-cyprindiol (UKMEC); mood change; scarring acne needing isotretinoin.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "lead": "Four mechanisms, and drugs that hit each one.",
+  "points": [
+   "**Androgen-driven sebum** → hormonal therapy (COC, spironolactone, co-cyprindiol).",
+   "**Follicular hyperkeratinisation** (microcomedone) → topical retinoids, azelaic acid.",
+   "*Cutibacterium acnes* → **BPO** (no resistance), antibiotics (resistance).",
+   "**Inflammation** → retinoids, azelaic acid, antibiotics. Isotretinoin hits all four.",
+   "COC: oestrogen ↑ **SHBG** and suppresses ovarian androgen; anti-androgenic progestogens add blockade."
+  ],
+  "visuals": [
+   {
+    "ai": "v3-acne-follicle-stages.jpg",
+    "caption": "From microcomedone to inflamed papule: each acne drug acts at one or more of these steps.",
+    "alt": "Acne follicle stages"
+   }
+  ]
+ },
+ "features": {
+  "lead": "Grade it NICE’s way, then pick a 12-week combination.",
+  "points": [
+   "**Mild–moderate**: any comedones, **≤ 34 inflammatory lesions, ≤ 2 nodules**.",
+   "**Moderate–severe**: **≥ 35 inflammatory lesions and/or ≥ 3 nodules**; psychological impact can raise the grade.",
+   "Lower-face / jawline pattern suggests a hormonal component: ask about hirsutism, weight, cycles.",
+   "Worked case: 19-year-old, comedones and pustules on cheeks, jaw, perioral → mild–moderate."
+  ],
+  "visuals": [
+   {
+    "ai": "v3-jawline-acne.jpg",
+    "caption": "Hormonal-pattern acne: inflamed papules, pustules and small nodules along the jawline, chin and around the mouth.",
+    "alt": "Lower face with jawline acne"
+   }
+  ],
+  "photo": "m1w2:E03"
+ },
+ "confirm": {
+  "cols": [
+   {
+    "k": "Mild–moderate",
+    "icon": "check",
+    "points": [
+     "Adapalene 0.1% + BPO 2.5%; tretinoin 0.025% + clindamycin 1%; or BPO 3–5% + clindamycin 1%."
+    ]
+   },
+   {
+    "k": "Moderate–severe",
+    "icon": "check",
+    "points": [
+     "Adapalene 0.3% + BPO 2.5%; tretinoin + clindamycin; adapalene/BPO **+ oral lymecycline or doxycycline**; or azelaic acid 15–20% + oral tetracycline."
+    ]
+   },
+   {
+    "k": "NG198 rules",
+    "icon": "alert",
+    "points": [
+     "No antibiotic monotherapy; **no topical + oral antibiotic** together; oral only with retinoid or BPO; review at 12 weeks."
+    ]
+   },
+   {
+    "k": "Before a COC",
+    "icon": "flask",
+    "points": [
+     "**UKMEC**: BMI (≥ 35 = UKMEC 3), BP, **migraine with aura (UKMEC 4)**, VTE history, thrombophilia, postpartum."
+    ]
+   }
+  ]
+ },
+ "differentials": {
+  "cards": [
+   {
+    "name": "Tetracyclines",
+    "clue": "Avoid in pregnancy, breastfeeding, under-12s; doxycycline photosensitivity."
+   },
+   {
+    "name": "Minocycline",
+    "clue": "Not recommended: lupus-like syndrome, hepatitis, pigmentation.",
+    "tone": "danger"
+   },
+   {
+    "name": "Co-cyprindiol",
+    "clue": "Not first-line; highest VTE risk; stop plan (review at 3 months).",
+    "link": "acne-vulgaris"
+   },
+   {
+    "name": "Drospirenone COC",
+    "clue": "Anti-androgenic; check potassium with ACE-i / ARB / spironolactone."
+   },
+   {
+    "name": "Spironolactone",
+    "clue": "Off-label, 50–100 mg daily for persistent lower-face acne in women; per formulary."
+   }
+  ]
+ },
+ "manage": {
+  "lead": "Skin care, a 12-week combination, then maintain.",
+  "rungs": [
+   {
+    "k": "Skin care",
+    "tone": "base",
+    "points": [
+     "Non-comedogenic products, gentle cleanser twice daily, no picking, oil-free sunscreen.",
+     "No strong evidence for elimination diets (NICE)."
+    ]
+   },
+   {
+    "k": "12-week topical",
+    "tone": "first",
+    "points": [
+     "Thin layer to the **whole area**, not just spots; irritated → alternate nights or wash off after 1 h."
+    ],
+    "rx": [
+     {
+      "drug": "Lymecycline (if oral added)",
+      "dose": "408 mg once daily",
+      "dur": "Review at 12 weeks",
+      "note": "With a topical retinoid or BPO; never with a topical antibiotic."
+     }
+    ]
+   },
+   {
+    "k": "COC option",
+    "tone": "second",
+    "points": [
+     "Consider a COC **in addition to topicals** (NICE); choose with UKMEC.",
+     "Still a problem after 6 months: third-generation or drospirenone pill; co-cyprindiol for moderate–severe with explicit VTE counselling and stop date."
+    ]
+   },
+   {
+    "k": "Review at 12 weeks",
+    "tone": "third",
+    "points": [
+     "Clear → stop antibiotic, **maintain** with retinoid ± BPO.",
+     "Not improved → switch option; failed two courses incl. oral antibiotic → **refer for isotretinoin**."
+    ]
+   }
+  ],
+  "visuals": [
+   {
+    "ai": "v3-pea-sized-face.jpg",
+    "caption": "A pea-sized amount dotted on forehead, cheeks, nose and chin, then spread thinly over the whole face, avoiding eyes and lips.",
+    "alt": "Pea-sized gel on fingertip and dotted on a face"
+   }
+  ],
+  "limits": [
+   {
+    "k": "Acne fulminans",
+    "t": "Systemic features: dermatologist within 24 hours.",
+    "tone": "danger"
+   },
+   {
+    "k": "Mood",
+    "t": "Screen mood and self-harm at every review."
+   },
+   {
+    "k": "BPO bleaches",
+    "t": "Towels, clothes, hair."
+   }
+  ]
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "same-day",
+    "t": "**Acne fulminans** (fever, arthralgia, ulcerating acne): seen by dermatology **within 24 hours**."
+   },
+   {
+    "when": "same-day",
+    "t": "Calf swelling, chest pain or breathlessness on a COC: possible **VTE**."
+   },
+   {
+    "when": "routine",
+    "t": "Scarring, nodulocystic, rapidly worsening acne or severe distress: refer for isotretinoin."
+   }
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "clock",
+   "t": "‘Twelve weeks before judging’: show a calendar."
+  },
+  {
+   "icon": "drop",
+   "t": "Retinoids dry and sun-sensitise; BPO bleaches fabrics."
+  },
+  {
+   "icon": "pill",
+   "t": "Doxycycline: upright with water; keep antacids and iron 2–3 h apart."
+  },
+  {
+   "icon": "alert",
+   "t": "Teach VTE and stroke warning symptoms on a COC."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "NICE moderate–severe threshold?",
+   "a": "≥ 35 inflammatory lesions and/or ≥ 3 nodules."
+  },
+  {
+   "q": "Can you combine oral and topical antibiotics?",
+   "a": "No: oral antibiotics only with a topical retinoid or BPO."
+  },
+  {
+   "q": "UKMEC category for migraine with aura on a COC?",
+   "a": "UKMEC 4 (unacceptable risk)."
+  },
+  {
+   "q": "When to refer for isotretinoin?",
+   "a": "Moderate–severe acne failing two courses including an oral antibiotic, or scarring / distress."
+  }
+ ]
+}

@@ -1,0 +1,212 @@
+{
+ "_note": "Curated v3 overlay (batch 2), condensed from content/conditions/keratolysis-exfoliativa.json; full text kept under 'More detail'.",
+ "glance": {
+  "chips": [
+   "Common",
+   "Harmless",
+   "Summer",
+   "Steroid-proof"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "Recurrent **ring-like peeling** (collarettes) on palms and fingertips, often in summer, with **no itch or redness**."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "Corneodesmosomes break down early, so sheets of **stratum corneum** detach."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "Reassure; **urea / lactic acid** creams, emollients, avoid soaps and solvents. Steroids don’t help."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "Fingertip peeling in a **febrile child**: Kawasaki disease. After sore throat and rash: scarlet fever.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "lead": "A split inside the outermost layer, not inflammation.",
+  "points": [
+   "Cause unknown; may run in families.",
+   "Splitting **within the stratum corneum**: the ‘rivets’ (corneodesmosomes) between corneocytes fail early.",
+   "Worse with **heat / summer**, **palmar sweating**, water, soap, detergents, solvents, friction.",
+   "Not an allergy, not infective, and not steroid-responsive."
+  ],
+  "visuals": [
+   {
+    "ai": "v3-ke-stratum-split.jpg",
+    "caption": "The split happens inside the outermost horny layer: sheets of dead cells separate and peel, while the living skin underneath is normal and uninflamed.",
+    "alt": "Skin section with the horny layer splitting and peeling"
+   }
+  ]
+ },
+ "features": {
+  "lead": "Air bubble → collarette → peeled patch → normal skin → repeat.",
+  "points": [
+   "Starts as tiny **air-filled** (not fluid) blisters on palms or fingers.",
+   "Burst into **expanding collarettes**; several layers may peel.",
+   "**Not itchy**; no redness, oedema or lichenification; may crack and feel tender.",
+   "Fingertips may feel **hard and numb** before shedding.",
+   "Recurs every few weeks, often for years; **nails not involved**."
+  ],
+  "visuals": [
+   {
+    "ai": "v3-ke-collarette-stages.jpg",
+    "caption": "How keratolysis exfoliativa evolves on non-inflamed skin: an air-filled bubble, a small ring of peeling, an expanding collarette, then a round peeled patch with layered edges.",
+    "alt": "Four stages from air bubble to peeled patch"
+   }
+  ],
+  "photo": "m3w6:A01"
+ },
+ "confirm": {
+  "cols": [
+   {
+    "k": "Clinical",
+    "icon": "eye",
+    "points": [
+     "Recurrent non-itchy peeling + collarettes on non-inflamed palms."
+    ]
+   },
+   {
+    "k": "Scrape",
+    "icon": "flask",
+    "points": [
+     "Skin scrapings **negative** for fungus."
+    ]
+   },
+   {
+    "k": "Patch test",
+    "icon": "drop",
+    "points": [
+     "Negative if done; biopsy rarely needed."
+    ]
+   },
+   {
+    "k": "Numbness?",
+    "icon": "help",
+    "points": [
+     "Usually thick split fingertip skin; persistent or dermatomal → check for neuropathy (diabetes, B12, carpal tunnel)."
+    ]
+   }
+  ]
+ },
+ "differentials": {
+  "cards": [
+   {
+    "name": "Irritant hand dermatitis",
+    "clue": "Red, dry, fissured; wet work; improves with avoidance and steroid.",
+    "link": "hand-eczema"
+   },
+   {
+    "name": "Pompholyx",
+    "clue": "**Intensely itchy** fluid-filled ‘tapioca’ vesicles.",
+    "link": "hand-eczema"
+   },
+   {
+    "name": "Palmoplantar psoriasis",
+    "clue": "Sharp border, thick scale, nail pits; worse in winter.",
+    "link": "palmoplantar-pustulosis"
+   },
+   {
+    "name": "Early PPP",
+    "clue": "Sterile pustules → brown dots; smoker.",
+    "link": "palmoplantar-pustulosis"
+   },
+   {
+    "name": "Tinea manuum",
+    "clue": "Often **one hand**; white scale in creases; check feet.",
+    "link": "tinea"
+   }
+  ]
+ },
+ "manage": {
+  "lead": "Explain first: benign, recurrent, not contagious, not an allergy.",
+  "rungs": [
+   {
+    "k": "Explain and protect",
+    "tone": "base",
+    "points": [
+     "Stop steroids: they don’t help and risk atrophy.",
+     "Cotton-lined gloves for wet work; soap substitutes; dry hands well."
+    ]
+   },
+   {
+    "k": "Keratolytic creams",
+    "tone": "first",
+    "points": [
+     "**Urea** 5–10% maintenance, 10–25% for peeling; lactic or salicylic acid creams; dimeticone barrier creams.",
+     "Use licensed UK products per formulary."
+    ]
+   },
+   {
+    "k": "Treat sweating",
+    "tone": "second",
+    "points": [
+     "Aluminium chloride hexahydrate at night; iontophoresis if severe."
+    ]
+   },
+   {
+    "k": "Specialist",
+    "tone": "refer",
+    "points": [
+     "Acitretin (teratogenic, specialist only) or hand PUVA for refractory cases: limited evidence."
+    ]
+   }
+  ]
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "urgent",
+    "t": "Peeling fingertips in a **child with fever ≥ 5 days**: think Kawasaki disease."
+   },
+   {
+    "when": "routine",
+    "t": "Painful fissuring, severe disease or diagnostic doubt: dermatology."
+   }
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "‘Peeling, not itchy, not red, worse in summer, steroid-proof’ = think KE."
+  },
+  {
+   "icon": "flask",
+   "t": "Scrape any one-handed or resistant peeling first."
+  },
+  {
+   "icon": "hand",
+   "t": "Trim loose edges with clean scissors; don’t pick."
+  },
+  {
+   "icon": "alert",
+   "t": "Numbness between episodes → assess for neuropathy."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Are KE blisters fluid-filled?",
+   "a": "No: tiny air-filled blisters that burst into collarettes."
+  },
+  {
+   "q": "Why stop the steroid?",
+   "a": "KE isn’t inflammatory; steroids don’t help and risk palmar atrophy."
+  },
+  {
+   "q": "Useful first-line cream?",
+   "a": "Urea (5–10% maintenance, 10–25% for peeling) or lactic / salicylic acid creams."
+  },
+  {
+   "q": "Peeling fingertips with fever for 5 days in a child?",
+   "a": "Kawasaki disease: urgent."
+  }
+ ]
+}

@@ -1,12 +1,34 @@
 {
  "_note": "Curated v3 overlay (batch 1), condensed from content/conditions/urticaria-angioedema.json; full text kept under 'More detail'.",
  "glance": {
-  "chips": ["Common", "Wheals < 24 h", "Daily antihistamine", "Not usually food allergy"],
+  "chips": [
+   "Common",
+   "Wheals < 24 h",
+   "Daily antihistamine",
+   "Not usually food allergy"
+  ],
   "points": [
-   {"icon": "eye", "k": "Spot it", "t": "Itchy wheals that **come and go within a day** ± lip or eyelid swelling; normal skin between."},
-   {"icon": "layers", "k": "Why", "t": "Mast-cell histamine → dermal oedema (wheal) or deeper oedema (angioedema)."},
-   {"icon": "pill", "k": "Treat", "t": "**Daily** second-generation H1 antihistamine, up-dose to 4× if needed; refer uncontrolled CSU."},
-   {"icon": "alert", "k": "Never miss", "t": "**Anaphylaxis** → adrenaline / 999. ACE-inhibitor angioedema. Lesions > 24 h with bruising.", "tone": "danger"}
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "Itchy wheals that **come and go within a day** ± lip or eyelid swelling; normal skin between."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "Mast-cell histamine → dermal oedema (wheal) or deeper oedema (angioedema)."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "**Daily** second-generation H1 antihistamine, up-dose to 4× if needed; refer uncontrolled CSU."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "**Anaphylaxis** → adrenaline / 999. ACE-inhibitor angioedema. Lesions > 24 h with bruising.",
+    "tone": "danger"
+   }
   ]
  },
  "cause": {
@@ -18,7 +40,11 @@
    "**Inducible**: dermographism, delayed pressure, cholinergic, cold, solar, aquagenic."
   ],
   "visuals": [
-   {"ai": "v3-urticaria-sections.jpg", "caption": "Wheal (left): a mast cell releases histamine, small vessels leak and fluid lifts the upper dermis. Angioedema (right): the leak is deeper, in the lower dermis and fat, so the surface looks near-normal but the tissue swells.", "alt": "Skin sections comparing a urticarial wheal and angioedema"}
+   {
+    "ai": "v3-urticaria-sections.jpg",
+    "caption": "Wheal (left): a mast cell releases histamine, small vessels leak and fluid lifts the upper dermis. Angioedema (right): the leak is deeper, in the lower dermis and fat, so the surface looks near-normal but the tissue swells.",
+    "alt": "Skin sections comparing a urticarial wheal and angioedema"
+   }
   ]
  },
  "features": {
@@ -34,74 +60,267 @@
   "variants": {
    "title": "Types to recognise",
    "items": [
-    {"name": "Acute urticaria", "t": "Raised blanching wheals with flare.", "where": "Anywhere", "photo": "m4w5:A01"},
-    {"name": "With angioedema", "t": "Wheals + periorbital swelling.", "where": "Eyelids", "photo": "m4w5:A02"},
-    {"name": "Dermographism", "t": "Linear wheals where skin is stroked.", "where": "Trunk", "photo": "m4w5:B02"},
-    {"name": "Cold urticaria", "t": "Wheals on cold-exposed skin; warn about cold water.", "where": "Exposed skin", "photo": "m4w5:B03"},
-    {"name": "Cholinergic", "t": "Small 2–5 mm wheals with flare on heat or exercise.", "where": "Trunk", "photo": "m4w5:B05"},
-    {"name": "Urticarial vasculitis", "t": "> 24 h, burning, leaves bruising.", "where": "Trunk, limbs", "photo": "m4w5:E01", "tone": "danger"}
+    {
+     "name": "Acute urticaria",
+     "t": "Raised blanching wheals with flare.",
+     "where": "Anywhere",
+     "photo": "m4w5:A01"
+    },
+    {
+     "name": "With angioedema",
+     "t": "Wheals + periorbital swelling.",
+     "where": "Eyelids",
+     "photo": "m4w5:A02"
+    },
+    {
+     "name": "Dermographism",
+     "t": "Linear wheals where skin is stroked.",
+     "where": "Trunk",
+     "photo": "m4w5:B02"
+    },
+    {
+     "name": "Cold urticaria",
+     "t": "Wheals on cold-exposed skin; warn about cold water.",
+     "where": "Exposed skin",
+     "photo": "m4w5:B03"
+    },
+    {
+     "name": "Cholinergic",
+     "t": "Small 2–5 mm wheals with flare on heat or exercise.",
+     "where": "Trunk",
+     "photo": "m4w5:B05"
+    },
+    {
+     "name": "Urticarial vasculitis",
+     "t": "> 24 h, burning, leaves bruising.",
+     "where": "Trunk, limbs",
+     "photo": "m4w5:E01",
+     "tone": "danger"
+    }
    ]
-  }
+  },
+  "visuals": [
+   {
+    "ai": "v3-angioedema-face.jpg",
+    "caption": "Angioedema: deeper swelling of the lips and eyelids (also hands and genitals) that may burn more than itch. Skin colour is normal or slightly pink.",
+    "alt": "Normal face beside the same face with swollen lips and eyelids"
+   }
+  ]
  },
  "confirm": {
   "cols": [
-   {"k": "History", "icon": "chat", "points": ["Timing of each wheal; phone photos.", "Drugs: **ACE inhibitor**, NSAIDs, opioids."]},
-   {"k": "Acute", "icon": "clock", "points": ["**No routine tests.**"]},
-   {"k": "Chronic", "icon": "flask", "points": ["Keep minimal: FBC, CRP / ESR; thyroid only if indicated.", "**Patch testing has no role.**"]},
-   {"k": "Score it", "icon": "gauge", "points": ["**UAS7 / UCT** for severity and omalizumab discussions."]}
+   {
+    "k": "History",
+    "icon": "chat",
+    "points": [
+     "Timing of each wheal; phone photos.",
+     "Drugs: **ACE inhibitor**, NSAIDs, opioids."
+    ]
+   },
+   {
+    "k": "Acute",
+    "icon": "clock",
+    "points": [
+     "**No routine tests.**"
+    ]
+   },
+   {
+    "k": "Chronic",
+    "icon": "flask",
+    "points": [
+     "Keep minimal: FBC, CRP / ESR; thyroid only if indicated.",
+     "**Patch testing has no role.**"
+    ]
+   },
+   {
+    "k": "Score it",
+    "icon": "gauge",
+    "points": [
+     "**UAS7 / UCT** for severity and omalizumab discussions."
+    ]
+   }
   ]
  },
  "differentials": {
   "cards": [
-   {"name": "Urticarial vasculitis", "clue": "> 24 h, pain, purpura or bruise.", "link": "urticarial-vasculitis", "tone": "danger"},
-   {"name": "Erythema multiforme", "clue": "Fixed targets, acral, lasting days.", "link": "erythema-multiforme"},
-   {"name": "Papular urticaria / bites", "clue": "Grouped papules lasting days.", "link": "papular-urticaria-bites"},
-   {"name": "Contact eczema", "clue": "Scaly, lasting days; patch testing relevant.", "link": "contact-dermatitis"},
-   {"name": "Mastocytosis", "clue": "Fixed brown macules; **Darier sign**.", "photo": "m4w5:C02"},
-   {"name": "ACE-inhibitor angioedema", "clue": "Swelling **without wheals** on an ACEI.", "link": "ace-inhibitor-angioedema", "tone": "danger"}
+   {
+    "name": "Urticarial vasculitis",
+    "clue": "> 24 h, pain, purpura or bruise.",
+    "link": "urticarial-vasculitis",
+    "tone": "danger"
+   },
+   {
+    "name": "Erythema multiforme",
+    "clue": "Fixed targets, acral, lasting days.",
+    "link": "erythema-multiforme"
+   },
+   {
+    "name": "Papular urticaria / bites",
+    "clue": "Grouped papules lasting days.",
+    "link": "papular-urticaria-bites"
+   },
+   {
+    "name": "Contact eczema",
+    "clue": "Scaly, lasting days; patch testing relevant.",
+    "link": "contact-dermatitis"
+   },
+   {
+    "name": "Mastocytosis",
+    "clue": "Fixed brown macules; **Darier sign**.",
+    "photo": "m4w5:C02"
+   },
+   {
+    "name": "ACE-inhibitor angioedema",
+    "clue": "Swelling **without wheals** on an ACEI.",
+    "link": "ace-inhibitor-angioedema",
+    "tone": "danger"
+   }
   ]
  },
  "manage": {
   "lead": "Take it every day, even on good days. Check BNF for dosing.",
   "flow": [
-   {"t": "Wheals ± angioedema", "sub": "Check airway, breathing, circulation first."},
-   {"q": "Airway, breathing or circulation compromise?", "yes": {"t": "Anaphylaxis: IM adrenaline + 999", "sub": "RCUK guidance; not ‘just hives’", "tone": "danger"}, "no": {"t": "On an ACE inhibitor with swelling and no wheals?", "sub": "Stop the ACEI; emergency care if airway threatened", "tone": "first"}},
-   {"t": "Daily non-sedating antihistamine", "sub": "Up-dose if uncontrolled after 2–4 weeks"}
+   {
+    "t": "Wheals ± angioedema",
+    "sub": "Check airway, breathing, circulation first."
+   },
+   {
+    "q": "Airway, breathing or circulation compromise?",
+    "yes": {
+     "t": "Anaphylaxis: IM adrenaline + 999",
+     "sub": "RCUK guidance; not ‘just hives’",
+     "tone": "danger"
+    },
+    "no": {
+     "t": "On an ACE inhibitor with swelling and no wheals?",
+     "sub": "Stop the ACEI; emergency care if airway threatened",
+     "tone": "first"
+    }
+   },
+   {
+    "t": "Daily non-sedating antihistamine",
+    "sub": "Up-dose if uncontrolled after 2–4 weeks"
+   }
   ],
   "rungs": [
-   {"k": "General", "tone": "base", "points": ["Remove triggers; avoid NSAIDs, aspirin, opioids if they aggravate; paracetamol preferred.", "Cool measures; avoid overheating and tight clothes."]},
-   {"k": "First line", "tone": "first", "rx": [
-     {"drug": "Cetirizine, loratadine or fexofenadine", "dose": "Licensed daily dose", "dur": "Every day in CSU, not as needed", "note": "Step down slowly once controlled."}
-   ]},
-   {"k": "Uncontrolled after 2–4 weeks", "tone": "second", "points": ["Increase up to **4× licensed dose** (off-label); counsel sedation.", "Switch agent if one fails at high dose. Sedating antihistamine at night only if sleep is wrecked."]},
-   {"k": "Severe acute flare", "tone": "third", "points": ["Short oral prednisolone (up to 7 days per CKS) **plus** antihistamine. Avoid repeated courses in CSU."]},
-   {"k": "Uncontrolled CSU", "tone": "refer", "points": ["Dermatology / allergy for **omalizumab** (NICE TA), then other immunosuppressants.", "Montelukast sometimes on specialist advice; H2 blockers no longer routine."]}
+   {
+    "k": "General",
+    "tone": "base",
+    "points": [
+     "Remove triggers; avoid NSAIDs, aspirin, opioids if they aggravate; paracetamol preferred.",
+     "Cool measures; avoid overheating and tight clothes."
+    ]
+   },
+   {
+    "k": "First line",
+    "tone": "first",
+    "rx": [
+     {
+      "drug": "Cetirizine, loratadine or fexofenadine",
+      "dose": "Licensed daily dose",
+      "dur": "Every day in CSU, not as needed",
+      "note": "Step down slowly once controlled."
+     }
+    ]
+   },
+   {
+    "k": "Uncontrolled after 2–4 weeks",
+    "tone": "second",
+    "points": [
+     "Increase up to **4× licensed dose** (off-label); counsel sedation.",
+     "Switch agent if one fails at high dose. Sedating antihistamine at night only if sleep is wrecked."
+    ]
+   },
+   {
+    "k": "Severe acute flare",
+    "tone": "third",
+    "points": [
+     "Short oral prednisolone (up to 7 days per CKS) **plus** antihistamine. Avoid repeated courses in CSU."
+    ]
+   },
+   {
+    "k": "Uncontrolled CSU",
+    "tone": "refer",
+    "points": [
+     "Dermatology / allergy for **omalizumab** (NICE TA), then other immunosuppressants.",
+     "Montelukast sometimes on specialist advice; H2 blockers no longer routine."
+    ]
+   }
   ],
   "limits": [
-   {"k": "ACE-inhibitor angioedema", "t": "Stop the ACEI, don’t rechallenge; antihistamines and steroids help poorly. ARB only with caution and advice.", "tone": "danger"},
-   {"k": "Pregnancy / renal / hepatic", "t": "Check BNF carefully."}
+   {
+    "k": "ACE-inhibitor angioedema",
+    "t": "Stop the ACEI, don’t rechallenge; antihistamines and steroids help poorly. ARB only with caution and advice.",
+    "tone": "danger"
+   },
+   {
+    "k": "Pregnancy / renal / hepatic",
+    "t": "Check BNF carefully."
+   }
   ]
  },
  "refer": {
   "items": [
-   {"when": "emergency", "t": "**Anaphylaxis** features."},
-   {"when": "emergency", "t": "**Airway-threatening angioedema** (ACEI or other)."},
-   {"when": "urgent", "t": "Lesions > 24 h with purpura: vasculitis work-up."},
-   {"when": "urgent", "t": "Fever, arthralgia, weight loss with urticarial rash: systemic disease / Schnitzler."},
-   {"when": "routine", "t": "CSU uncontrolled on up-dosed antihistamine."}
+   {
+    "when": "emergency",
+    "t": "**Anaphylaxis** features."
+   },
+   {
+    "when": "emergency",
+    "t": "**Airway-threatening angioedema** (ACEI or other)."
+   },
+   {
+    "when": "urgent",
+    "t": "Lesions > 24 h with purpura: vasculitis work-up."
+   },
+   {
+    "when": "urgent",
+    "t": "Fever, arthralgia, weight loss with urticarial rash: systemic disease / Schnitzler."
+   },
+   {
+    "when": "routine",
+    "t": "CSU uncontrolled on up-dosed antihistamine."
+   }
   ]
  },
  "pearls": [
-  {"icon": "chat", "t": "“It isn’t an allergy to something you keep eating”: most CSU is internal."},
-  {"icon": "clock", "t": "Daily dosing, even on good days; step down slowly."},
-  {"icon": "help", "t": "Patch testing investigates eczema, not wheals."},
-  {"icon": "alert", "t": "Swelling without wheals on an ACE inhibitor: think bradykinin angioedema."}
+  {
+   "icon": "chat",
+   "t": "“It isn’t an allergy to something you keep eating”: most CSU is internal."
+  },
+  {
+   "icon": "clock",
+   "t": "Daily dosing, even on good days; step down slowly."
+  },
+  {
+   "icon": "help",
+   "t": "Patch testing investigates eczema, not wheals."
+  },
+  {
+   "icon": "alert",
+   "t": "Swelling without wheals on an ACE inhibitor: think bradykinin angioedema."
+  }
  ],
  "quiz": [
-  {"q": "How long does an individual urticarial wheal last?", "a": "Less than 24 hours, leaving normal skin. Longer with bruising suggests urticarial vasculitis."},
-  {"q": "First-line treatment for CSU and how to take it?", "a": "A second-generation H1 antihistamine (cetirizine, loratadine or fexofenadine) every day, not as needed."},
-  {"q": "Next step if uncontrolled after 2–4 weeks?", "a": "Up-dose to up to four times the licensed dose (off-label), then refer for omalizumab if still uncontrolled."},
-  {"q": "Lip swelling without wheals on ramipril?", "a": "ACE-inhibitor (bradykinin) angioedema: stop the ACEI; emergency care if the airway is threatened."},
-  {"q": "Is patch testing useful in urticaria?", "a": "No: it investigates delayed contact eczema, not wheals."}
+  {
+   "q": "How long does an individual urticarial wheal last?",
+   "a": "Less than 24 hours, leaving normal skin. Longer with bruising suggests urticarial vasculitis."
+  },
+  {
+   "q": "First-line treatment for CSU and how to take it?",
+   "a": "A second-generation H1 antihistamine (cetirizine, loratadine or fexofenadine) every day, not as needed."
+  },
+  {
+   "q": "Next step if uncontrolled after 2–4 weeks?",
+   "a": "Up-dose to up to four times the licensed dose (off-label), then refer for omalizumab if still uncontrolled."
+  },
+  {
+   "q": "Lip swelling without wheals on ramipril?",
+   "a": "ACE-inhibitor (bradykinin) angioedema: stop the ACEI; emergency care if the airway is threatened."
+  },
+  {
+   "q": "Is patch testing useful in urticaria?",
+   "a": "No: it investigates delayed contact eczema, not wheals."
+  }
  ]
 }

@@ -1,0 +1,242 @@
+{
+ "_note": "Curated v3 overlay (batch 2), condensed from content/conditions/biologics-systemics.json; full text kept under 'More detail'.",
+ "glance": {
+  "chips": [
+   "Specialist-initiated",
+   "Shared care",
+   "No live vaccines",
+   "MTX once weekly"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "A patient on **methotrexate, ciclosporin, a biologic or a JAK inhibitor** needs a prescription, vaccine, antibiotic or advice."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "Targeted blockade of **TNF, IL-17, IL-23, IL-4/13 or JAK** signalling, or broad immunosuppression."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "Specialist-initiated (NICE TAs); shared-care monitoring; **no live vaccines**; check every new drug (**MTX + trimethoprim**)."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "Serious infection, **TB reactivation**, **methotrexate toxicity**, VTE and MACE with JAK inhibitors (MHRA 2023).",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "lead": "Target the cytokine that drives the disease.",
+  "points": [
+   "**Psoriasis = IL-23 / Th17 axis**: dendritic cells release IL-23 → Th17 cells make **IL-17A/F** → keratinocyte overgrowth and neutrophils; TNF-α amplifies.",
+   "Blocking IL-23 (p19) or IL-17 gives **PASI 90** in most; IL-17 blockade works fastest.",
+   "**Atopic eczema = Th2**: IL-4 and IL-13 weaken the barrier and drive IgE and itch; IL-31 is an itch cytokine.",
+   "**Dupilumab** blocks IL-4Rα (IL-4 + IL-13); tralokinumab / lebrikizumab block IL-13; **JAK inhibitors** block many cytokines inside the cell."
+  ],
+  "visuals": [
+   {
+    "ai": "v3-il23-th17-axis.jpg",
+    "caption": "The psoriasis loop: a dendritic cell signals to a T cell, which releases cytokines (such as IL-17) that make keratinocytes multiply and draw in neutrophils. Biologic antibodies intercept these signals.",
+    "alt": "Schematic of immune cells and cytokines in psoriatic skin"
+   }
+  ]
+ },
+ "features": {
+  "lead": "Know the classes, so you recognise them on a hospital-only record.",
+  "points": [
+   "**TNF-α**: adalimumab, etanercept, infliximab, certolizumab. **IL-12/23**: ustekinumab.",
+   "**IL-23 (p19)**: guselkumab, risankizumab, tildrakizumab. **IL-17**: secukinumab, ixekizumab, bimekizumab, brodalumab.",
+   "**Eczema**: dupilumab; tralokinumab, lebrikizumab; JAK inhibitors abrocitinib, upadacitinib, baricitinib.",
+   "**Oral small molecules**: apremilast, dimethyl fumarate, deucravacitinib (TYK2).",
+   "**Conventional**: methotrexate, ciclosporin, acitretin; azathioprine, mycophenolate off-label in eczema."
+  ],
+  "variants": {
+   "title": "Adverse effects to recognise",
+   "items": [
+    {
+     "name": "Dupilumab eye",
+     "t": "Conjunctivitis, blepharitis, keratitis (~10–25%).",
+     "where": "Eyes",
+     "photo": "m1w2:G01"
+    },
+    {
+     "name": "Severe plaque psoriasis",
+     "t": "Biologic eligibility: PASI ≥ 10 and DLQI > 10.",
+     "where": "Trunk, limbs",
+     "photo": "m1w2:G02"
+    }
+   ]
+  },
+  "photo": "m1w2:G01"
+ },
+ "confirm": {
+  "cols": [
+   {
+    "k": "Psoriasis (NICE)",
+    "icon": "check",
+    "points": [
+     "**PASI ≥ 10 and DLQI > 10** after conventional systemic and phototherapy failed or unsuitable."
+    ]
+   },
+   {
+    "k": "Eczema (NICE)",
+    "icon": "check",
+    "points": [
+     "Moderate–severe (e.g. EASI ≥ 16, DLQI ≥ 10) after ≥ 1 conventional systemic."
+    ]
+   },
+   {
+    "k": "Pre-start screen",
+    "icon": "flask",
+    "points": [
+     "TB (IGRA ± CXR), hepatitis B/C, HIV, VZV, pregnancy; **live vaccines ≥ 4 weeks before**."
+    ]
+   }
+  ]
+ },
+ "differentials": {
+  "cards": [
+   {
+    "name": "TNF inhibitors",
+    "clue": "TB reactivation, serious infection, paradoxical PPP, demyelination, heart failure.",
+    "tone": "danger"
+   },
+   {
+    "name": "IL-17 inhibitors",
+    "clue": "**Candidiasis**, new or worse **IBD**: avoid in IBD.",
+    "tone": "danger"
+   },
+   {
+    "name": "Dupilumab",
+    "clue": "Ocular surface disease, facial redness, eosinophilia, oral HSV."
+   },
+   {
+    "name": "JAK inhibitors",
+    "clue": "MHRA 2023: **MACE, malignancy, VTE, serious infection**; caution ≥ 65, smokers, CV risk.",
+    "tone": "danger"
+   },
+   {
+    "name": "Ciclosporin",
+    "clue": "**BP and creatinine**: reduce or stop if creatinine rises > 25–30%."
+   }
+  ]
+ },
+ "manage": {
+  "lead": "Primary care: record, protect, monitor; never initiate biologics or JAK inhibitors.",
+  "rungs": [
+   {
+    "k": "Record",
+    "tone": "base",
+    "points": [
+     "Flag the hospital-only drug, dose interval and homecare provider.",
+     "Check interactions with **every** new prescription."
+    ]
+   },
+   {
+    "k": "Infection",
+    "tone": "first",
+    "points": [
+     "Lower threshold to review and treat; **hold the next dose** in significant infection and contact the team.",
+     "Fever or serious infection: same-day assessment."
+    ]
+   },
+   {
+    "k": "Vaccines",
+    "tone": "second",
+    "points": [
+     "Inactivated (flu, COVID-19, pneumococcal) encouraged; **no live vaccines**.",
+     "Shingles: non-live **Shingrix**, not Zostavax."
+    ]
+   },
+   {
+    "k": "Methotrexate (shared care)",
+    "tone": "third",
+    "points": [
+     "**Once WEEKLY**; record the **day of the week** (MHRA 2020); patient card.",
+     "**Folic acid 5 mg once weekly** on a different day.",
+     "Bloods per BSR/BAD shared care and local protocol."
+    ]
+   }
+  ],
+  "visuals": [
+   {
+    "ai": "v3-methotrexate-weekly.jpg",
+    "caption": "Methotrexate is taken on one chosen day each week; folic acid is taken on a different day, never the methotrexate day. Write the day on the prescription.",
+    "alt": "Week of tiles with methotrexate on one day and folic acid on another"
+   }
+  ],
+  "limits": [
+   {
+    "k": "Trimethoprim / co-trimoxazole",
+    "t": "Never with methotrexate.",
+    "tone": "danger"
+   },
+   {
+    "k": "Pregnancy",
+    "t": "Specialist advice; JAK inhibitors contraindicated."
+   },
+   {
+    "k": "Skin cancer",
+    "t": "Checks on JAKi, TNF-i, previous PUVA or ciclosporin."
+   }
+  ]
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "same-day",
+    "t": "Fever, sore throat, **mouth ulcers or bruising** on methotrexate: same-day FBC; withhold until reviewed."
+   },
+   {
+    "when": "same-day",
+    "t": "Serious infection or **TB symptoms** on a biologic or JAKi: urgent assessment, contact team."
+   },
+   {
+    "when": "urgent",
+    "t": "Cough or breathlessness on MTX (pneumonitis); chest pain or VTE symptoms on JAKi."
+   },
+   {
+    "when": "urgent",
+    "t": "New IBD symptoms on IL-17 inhibitor; eye pain or visual loss on dupilumab."
+   }
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "eye",
+   "t": "Red eye on dupilumab = **ocular surface disease** until proven otherwise: tell dermatology."
+  },
+  {
+   "icon": "alert",
+   "t": "IL-17 inhibitor + bloody diarrhoea = **IBD** until proven otherwise."
+  },
+  {
+   "icon": "pill",
+   "t": "‘Methotrexate: one day a week, write the day down, no trimethoprim.’"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Which antibiotic must never be co-prescribed with methotrexate?",
+   "a": "Trimethoprim (and co-trimoxazole)."
+  },
+  {
+   "q": "Shingles vaccine for a patient on a JAK inhibitor?",
+   "a": "The non-live recombinant vaccine (Shingrix), not live Zostavax."
+  },
+  {
+   "q": "NICE psoriasis biologic threshold?",
+   "a": "PASI ≥ 10 and DLQI > 10 after conventional systemic failure or unsuitability."
+  },
+  {
+   "q": "Bloody diarrhoea on secukinumab?",
+   "a": "Suspect new or worsening IBD: assess and contact the team."
+  }
+ ]
+}

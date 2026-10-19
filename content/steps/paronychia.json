@@ -1,0 +1,244 @@
+{
+ "_note": "Curated v3 overlay (batch 2), condensed from content/conditions/paronychia.json; full text kept under 'More detail'.",
+ "glance": {
+  "chips": [
+   "Acute = bacterial",
+   "Chronic = wet work",
+   "Herpetic whitlow: don’t cut",
+   "Ingrowing toenail"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "A red, swollen, tender nail fold: **hours–days** (acute) or **weeks–months with a lost cuticle** (chronic)."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "Acute: *S. aureus* / strep after minor trauma. Chronic: **wet work** breaks the cuticle seal; *Candida* passenger or driver."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "Acute: **warm soaks**, drain pus, antibiotic only if spreading. Chronic: **keep dry**, cotton-under-rubber gloves, potent steroid ± azole."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "**Herpetic whitlow** (don’t incise), tendon-sheath infection, and **nail-unit melanoma or SCC** posing as paronychia.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "lead": "The cuticle is a seal; break it and the fold fills.",
+  "points": [
+   "**Acute** (< 6 weeks): *S. aureus*, streptococci, sometimes *Pseudomonas*; or HSV (whitlow).",
+   "**Chronic** (> 6 weeks): irritant dermatitis of the fold + secondary **Candida** (± Gram-negatives).",
+   "Triggers: **wet work**, cold hands, manicures, cuticle picking; hairdressers, cleaners, bar and food workers.",
+   "Host: hand dermatitis, diabetes, immunosuppression, poor circulation."
+  ],
+  "visuals": []
+ },
+ "features": {
+  "lead": "Tempo and number of digits tell them apart.",
+  "points": [
+   "**Acute**: hours–days, **one digit**, marked pain ± abscess.",
+   "**Chronic**: swollen tender proximal folds, **lost cuticle**, fold lifted off plate, intermittent discharge.",
+   "Nail: **transverse ridging**, discolouration, onycholysis near the fold; several digits over time.",
+   "Yellow-green nail: *Pseudomonas* co-colonisation."
+  ],
+  "visuals": [
+   {
+    "ai": "v3-paronychia-acute-chronic.jpg",
+    "caption": "Acute paronychia (left): one hot swollen lateral fold with a pus pocket. Chronic paronychia (right): puffy proximal fold, missing cuticle and ridged nail.",
+    "alt": "Fingertips with acute and chronic paronychia"
+   }
+  ],
+  "variants": {
+   "title": "Types to recognise",
+   "items": [
+    {
+     "name": "Chronic candidal",
+     "t": "Swollen proximal fold; wet-work hands.",
+     "where": "Fingers",
+     "photo": "m3w2:A01"
+    },
+    {
+     "name": "Cuticle loss",
+     "t": "Lifted fold: a portal for yeast.",
+     "where": "Nail fold",
+     "photo": "m3w2:A03"
+    },
+    {
+     "name": "Candidal nail",
+     "t": "Plate change starting near the cuticle.",
+     "where": "Fingernail",
+     "photo": "m3w2:A05"
+    }
+   ]
+  },
+  "photo": "m3w2:A01"
+ },
+ "confirm": {
+  "cols": [
+   {
+    "k": "Clinical",
+    "icon": "eye",
+    "points": [
+     "History of wet work + lost cuticle = chronic."
+    ]
+   },
+   {
+    "k": "Swab",
+    "icon": "drop",
+    "points": [
+     "Bacterial swab if acute abscess; **viral swab** if grouped vesicles."
+    ]
+   },
+   {
+    "k": "Mycology",
+    "icon": "flask",
+    "points": [
+     "Candida in a dystrophic nail without fold disease may be secondary."
+    ]
+   }
+  ]
+ },
+ "differentials": {
+  "cards": [
+   {
+    "name": "Herpetic whitlow",
+    "clue": "Grouped vesicles, severe pain: **don’t incise**.",
+    "tone": "danger",
+    "link": "herpes-simplex-labialis"
+   },
+   {
+    "name": "Dermatophyte onychomycosis",
+    "clue": "Starts distal / lateral; toenails; tinea pedis.",
+    "link": "onychomycosis"
+   },
+   {
+    "name": "Psoriatic nails",
+    "clue": "Pits, oil-drop; psoriasis elsewhere.",
+    "link": "psoriasis"
+   },
+   {
+    "name": "Drug-related paronychia",
+    "clue": "EGFR / BRAF inhibitors, retinoids.",
+    "link": "retinoids"
+   },
+   {
+    "name": "Nail-unit SCC / melanoma",
+    "clue": "Single digit, persistent, older adult.",
+    "tone": "danger",
+    "link": "melanonychia"
+   }
+  ]
+ },
+ "manage": {
+  "lead": "Acute: drain. Chronic: fix the environment.",
+  "rungs": [
+   {
+    "k": "Chronic",
+    "tone": "base",
+    "points": [
+     "Keep hands **dry and warm**; **cotton-lined waterproof gloves**; no cuticle cutting; emollient barrier.",
+     "Potent topical steroid to the fold ± topical azole (CKS), weeks–months."
+    ]
+   },
+   {
+    "k": "Acute, no abscess",
+    "tone": "first",
+    "points": [
+     "**Warm (± saline) soaks 3–4 times a day, 10–15 min**; dry between; elevate; analgesia. Most settle without antibiotics."
+    ]
+   },
+   {
+    "k": "Acute abscess",
+    "tone": "second",
+    "points": [
+     "**Incision and drainage** (or lift the eponychium); partial nail removal if pus under the plate."
+    ],
+    "rx": [
+     {
+      "drug": "Flucloxacillin (only if spreading, unwell, diabetic or immunocompromised)",
+      "dose": "500 mg four times daily",
+      "dur": "5–7 days"
+     }
+    ]
+   },
+   {
+    "k": "Confirmed Candida not settling",
+    "tone": "third",
+    "points": [
+     "Oral **itraconazole** or fluconazole (not terbinafine); check CYP3A4 interactions."
+    ]
+   },
+   {
+    "k": "Ingrowing toenail",
+    "tone": "refer",
+    "points": [
+     "Cut straight across, wide shoes, salt soaks, lift the edge.",
+     "Definitive: **partial avulsion + phenol** by podiatry (~95% success); diabetes / PAD → refer early."
+    ]
+   }
+  ],
+  "visuals": [
+   {
+    "ai": "v3-cotton-under-rubber-gloves.jpg",
+    "caption": "Wet-work protection: a thin cotton glove under a rubber glove keeps the nail folds dry. Change when damp.",
+    "alt": "Cotton glove under a rubber glove at a sink"
+   }
+  ]
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "same-day",
+    "t": "**Kanavel signs** (flexor tenosynovitis), **felon**, spreading cellulitis, fever: surgical assessment."
+   },
+   {
+    "when": "urgent",
+    "t": "Diabetes, PAD or immunosuppression with a toe infection."
+   },
+   {
+    "when": "urgent",
+    "t": "Single nail with persistent ‘paronychia’, destruction or pigment: exclude **melanoma / SCC**."
+   }
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "hand",
+   "t": "Treat the **fold environment**, not only the tablet."
+  },
+  {
+   "icon": "alert",
+   "t": "Chronic paronychia isn’t a strep or Pseudomonas infection."
+  },
+  {
+   "icon": "pill",
+   "t": "Terbinafine is poorly active against yeasts: use an azole for Candida."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Grouped vesicles on a painful fingertip?",
+   "a": "Herpetic whitlow: don’t incise."
+  },
+  {
+   "q": "Antibiotic for spreading acute paronychia?",
+   "a": "Flucloxacillin 500 mg four times daily for 5–7 days."
+  },
+  {
+   "q": "Main driver of chronic paronychia?",
+   "a": "Wet work and irritant damage to the cuticle, with secondary Candida."
+  },
+  {
+   "q": "Definitive treatment for recurrent ingrowing toenail?",
+   "a": "Partial nail avulsion with phenol matricectomy (podiatry)."
+  }
+ ]
+}

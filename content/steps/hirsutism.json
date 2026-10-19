@@ -1,0 +1,242 @@
+{
+ "_note": "Curated v3 overlay (batch 2), condensed from content/conditions/hirsutism.json; full text kept under 'More detail'.",
+ "glance": {
+  "chips": [
+   "mFG score",
+   "PCOS ~70–80%",
+   "Combine treatments",
+   "Rapid onset = tumour"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "A woman distressed by **terminal hair** on the face, chest, abdomen or back."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "**Androgen excess** (ovary, adrenal, drugs) or **increased follicle sensitivity** to normal androgens (idiopathic)."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "Score and record impact, check **testosterone**, screen for PCOS; hair removal + **COC**; specialist anti-androgens with contraception."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "**Rapid-onset virilisation** (deep voice, clitoromegaly, testosterone > 5 nmol/L): androgen-secreting tumour.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "lead": "Androgens turn soft vellus hair into coarse terminal hair.",
+  "points": [
+   "5α-reductase in the follicle converts testosterone to **DHT**.",
+   "**PCOS** (~70–80%); **idiopathic hirsutism** (normal androgens, ovulatory, ~5–15%).",
+   "Less common: **NC-CAH** (17-OH-progesterone), Cushing’s, acromegaly, prolactin, thyroid; **androgen-secreting tumours**; drugs (anabolic steroids, testosterone, danazol, valproate).",
+   "**Hypertrichosis** is different: non-androgen pattern (ciclosporin, minoxidil, phenytoin)."
+  ],
+  "visuals": [
+   {
+    "ai": "v3-vellus-to-terminal.jpg",
+    "caption": "Under androgen influence a fine pale vellus hair (left) becomes a thick, dark terminal hair from a larger, deeper follicle (right).",
+    "alt": "Skin sections showing vellus and terminal hair follicles"
+   }
+  ]
+ },
+ "features": {
+  "lead": "Score it, but listen to the distress.",
+  "points": [
+   "Male-pattern sites: upper lip, chin, jawline, chest, abdomen, back, thighs.",
+   "**mFG**: 9 areas scored 0–4 (total 0–36); **≥ 8** traditional cut-off, **≥ 4–6** in some populations.",
+   "‘**Patient-important hirsutism**’: localised distressing hair even with a low total.",
+   "Limits: subjective; underestimates after hair removal; no extra weight for the face."
+  ],
+  "variants": {
+   "title": "Types to recognise",
+   "items": [
+    {
+     "name": "mFG visual scale",
+     "t": "9 androgen-sensitive sites.",
+     "where": "Chart",
+     "photo": "m1w2:F01"
+    },
+    {
+     "name": "Facial hair",
+     "t": "Measure impact.",
+     "where": "Chin, lip",
+     "photo": "m1w2:F02"
+    },
+    {
+     "name": "Jawline hair",
+     "t": "Common distressing site.",
+     "where": "Jawline",
+     "photo": "m1w2:F03"
+    },
+    {
+     "name": "Post-removal folliculitis",
+     "t": "Shaving / waxing complication.",
+     "where": "Face",
+     "photo": "m1w2:F04"
+    }
+   ]
+  },
+  "photo": "m1w2:F01"
+ },
+ "confirm": {
+  "cols": [
+   {
+    "k": "History",
+    "icon": "chat",
+    "points": [
+     "Onset and pace, cycles, fertility, weight, drugs and supplements, family."
+    ]
+   },
+   {
+    "k": "Examine",
+    "icon": "eye",
+    "points": [
+     "Virilisation, acne, acanthosis nigricans, Cushingoid signs."
+    ]
+   },
+   {
+    "k": "Bloods",
+    "icon": "flask",
+    "points": [
+     "Early-follicular morning **total testosterone** + SHBG / FAI.",
+     "As indicated: LH/FSH, prolactin, TSH, 17-OH-progesterone."
+    ]
+   },
+   {
+    "k": "PCOS not excluded by",
+    "icon": "help",
+    "points": [
+     "Regular cycles (may be anovulatory) or normal testosterone (20–30%)."
+    ]
+   }
+  ]
+ },
+ "differentials": {
+  "cards": [
+   {
+    "name": "Idiopathic",
+    "clue": "Slow, peripubertal; regular cycles; normal androgens."
+   },
+   {
+    "name": "PCOS",
+    "clue": "Oligo-/anovulation, mild ↑ T, ↓ SHBG, AN, obesity, acne.",
+    "link": "acanthosis-nigricans"
+   },
+   {
+    "name": "NC-CAH",
+    "clue": "↑ 17-OHP; family history."
+   },
+   {
+    "name": "Androgen-secreting tumour",
+    "clue": "**Rapid** onset, virilisation, T > 5 nmol/L, ↑ DHEAS.",
+    "tone": "danger"
+   },
+   {
+    "name": "Cushing’s",
+    "clue": "Striae, myopathy, hypertension.",
+    "link": "cushings-syndrome-skin"
+   }
+  ]
+ },
+ "manage": {
+  "lead": "Layer treatments; hormonal effects take 6–12 months.",
+  "rungs": [
+   {
+    "k": "Lifestyle",
+    "tone": "base",
+    "points": [
+     "**Weight loss** (even 5% improves SHBG and androgens), exercise; PCOS / metabolic risk."
+    ]
+   },
+   {
+    "k": "Physical removal",
+    "tone": "first",
+    "points": [
+     "Shaving (doesn’t thicken hair), plucking, threading, waxing (folliculitis, PIH), creams, bleaching.",
+     "Laser / IPL (dark hair, light skin; Nd:YAG for darker skin), electrolysis. NHS funding limited."
+    ]
+   },
+   {
+    "k": "COC",
+    "tone": "second",
+    "points": [
+     "First-line systemic if distress persists after ≥ 6 months: ↓ ovarian androgen, ↑ SHBG; a low-VTE levonorgestrel pill is a reasonable start.",
+     "Eflornithine cream discontinued in the UK: check availability."
+    ]
+   },
+   {
+    "k": "Anti-androgens",
+    "tone": "refer",
+    "points": [
+     "Spironolactone 50–200 mg/day, cyproterone, finasteride: **off-label, specialist-advised**, with reliable contraception."
+    ]
+   }
+  ],
+  "visuals": [
+   {
+    "ai": "v3-laser-hair-removal.jpg",
+    "caption": "Laser or IPL hair removal works best on dark hair and light skin (Nd:YAG for darker skin) and needs several sessions; eye protection is essential. NHS funding is limited.",
+    "alt": "Woman with goggles having laser hair removal on the chin"
+   }
+  ],
+  "limits": [
+   {
+    "k": "Teratogenic",
+    "t": "Anti-androgens can feminise a male fetus: effective contraception essential.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "urgent",
+    "t": "Rapid onset over months, virilisation or very high testosterone: **urgent endocrine** referral."
+   },
+   {
+    "when": "routine",
+    "t": "Suspected NC-CAH, Cushing’s or other endocrine cause."
+   }
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "Hormones stop **new** coarsening; they don’t remove existing hair: combine with removal."
+  },
+  {
+   "icon": "chat",
+   "t": "Shaving is safe and doesn’t make regrowth thicker."
+  },
+  {
+   "icon": "help",
+   "t": "Ask about a partner’s **testosterone gel**, anabolic steroids, valproate."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Commonest cause of hirsutism?",
+   "a": "PCOS (about 70–80%)."
+  },
+  {
+   "q": "mFG scoring?",
+   "a": "9 areas scored 0–4, total 0–36; ≥ 8 traditional cut-off."
+  },
+  {
+   "q": "Red flag for a tumour?",
+   "a": "Rapid onset with virilisation or testosterone > 5 nmol/L."
+  },
+  {
+   "q": "First-line systemic therapy?",
+   "a": "A combined oral contraceptive, after ≥ 6 months of cosmetic measures."
+  }
+ ]
+}

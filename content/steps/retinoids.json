@@ -1,0 +1,248 @@
+{
+ "_note": "Curated v3 overlay (batch 2), condensed from content/conditions/retinoids.json; full text kept under 'More detail'.",
+ "glance": {
+  "chips": [
+   "Vitamin A family",
+   "Pea-sized, at night",
+   "Pregnancy Prevention Programme",
+   "Mood"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "Acne needing a **topical retinoid**, or a patient on **isotretinoin, acitretin or alitretinoin**."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "Retinoic-acid receptor binding **normalises keratinisation**, shrinks sebaceous glands (isotretinoin) and slows turnover."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "Topicals: alternate nights, **pea-sized**, sunscreen. Oral retinoids: specialist-initiated with the **MHRA PPP** and mood monitoring."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "**Pregnancy exposure** (acitretin: avoid pregnancy 3 years after); **mood change**; lipids / LFTs; **tetracycline** → raised ICP.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "lead": "Nuclear receptors that reset how skin cells mature.",
+  "points": [
+   "Bind **RAR (α, β, γ)** and **RXR** → regulate keratinocyte proliferation and differentiation; RAR-γ dominates in epidermis (adapalene, trifarotene).",
+   "Topicals are **comedolytic and anti-comedogenic**, anti-inflammatory (↓ TLR-2, AP-1), and boost penetration of other agents.",
+   "**Isotretinoin** acts on **all four acne mechanisms**: profound sebaceous shrinkage and sebum suppression.",
+   "**Acitretin** is anti-proliferative but **not immunosuppressive**: useful when infection or cancer risk rules out immunosuppressants."
+  ],
+  "visuals": [
+   {
+    "ai": "v3-sebaceous-shrink.jpg",
+    "caption": "Isotretinoin shrinks the sebaceous gland and clears the plugged follicle (left: before; right: on treatment). That is why it acts on every acne mechanism.",
+    "alt": "Follicle with large gland and plug beside a follicle with a shrunken gland"
+   }
+  ]
+ },
+ "features": {
+  "lead": "Know which retinoid does what.",
+  "points": [
+   "**Topical**: adapalene 0.1% (± BPO 2.5% or 0.3%/2.5%), tretinoin with clindamycin, trifarotene: acne (first-line, NG198), photoageing.",
+   "**Oral isotretinoin**: severe acne. **Oral alitretinoin**: severe chronic hand eczema (NICE TA177).",
+   "**Oral acitretin**: severe, pustular or palmoplantar psoriasis; keratinisation disorders; transplant chemoprevention.",
+   "OTC **retinol / retinaldehyde**: weaker precursors."
+  ],
+  "variants": {
+   "title": "Adverse effects to recognise",
+   "items": [
+    {
+     "name": "Sunburn on isotretinoin",
+     "t": "Photosensitivity and fragility.",
+     "where": "Face",
+     "photo": "m1w2:E01"
+    },
+    {
+     "name": "Impetigo",
+     "t": "Dry cracked skin, S. aureus.",
+     "where": "Face",
+     "photo": "m1w2:E02"
+    },
+    {
+     "name": "Retinoid dermatitis",
+     "t": "Dryness and peeling: start slowly.",
+     "where": "Face",
+     "photo": "m1w2:E03"
+    },
+    {
+     "name": "Acitretin nails",
+     "t": "Fragility, paronychia.",
+     "where": "Nails",
+     "photo": "m1w2:E04"
+    },
+    {
+     "name": "Hair shedding",
+     "t": "Dose-related telogen effluvium (acitretin).",
+     "where": "Scalp",
+     "photo": "m1w2:E05"
+    }
+   ]
+  },
+  "photo": "m1w2:E01"
+ },
+ "confirm": {
+  "cols": [
+   {
+    "k": "Before oral retinoid",
+    "icon": "help",
+    "points": [
+     "Could they become pregnant? Mental health, lipids / liver, any tetracycline?"
+    ]
+   },
+   {
+    "k": "PPP contraception",
+    "icon": "shield",
+    "points": [
+     "**≥ 1 highly effective user-independent method** (LARC, sterilisation) or **two complementary** methods, from 1 month before."
+    ]
+   },
+   {
+    "k": "PPP pregnancy tests",
+    "icon": "flask",
+    "points": [
+     "Supervised test before, **ideally monthly** during, **1 month after** (acitretin: periodically for 3 years)."
+    ]
+   },
+   {
+    "k": "Monitor",
+    "icon": "gauge",
+    "points": [
+     "Isotretinoin: mood, sexual function, lipids, LFTs. Acitretin: lipids, LFTs. Alitretinoin: lipids, TFTs, headache."
+    ]
+   }
+  ]
+ },
+ "differentials": {
+  "cards": [
+   {
+    "name": "Isotretinoin",
+    "clue": "Dryness, **mood / psychiatric**, sexual dysfunction, lipids, LFTs, myalgia, IIH, night vision."
+   },
+   {
+    "name": "Acitretin",
+    "clue": "Dryness, hair loss, nail fragility, lipids / LFTs; **no alcohol** (forms etretinate); no blood donation."
+   },
+   {
+    "name": "Alitretinoin",
+    "clue": "Headache (IIH), lipids, central hypothyroidism."
+   },
+   {
+    "name": "Tetracycline + retinoid",
+    "clue": "**Raised intracranial pressure**: don’t combine.",
+    "tone": "danger"
+   },
+   {
+    "name": "Topical in pregnancy",
+    "clue": "Contraindicated (EMA 2018); ask and record."
+   }
+  ]
+ },
+ "manage": {
+  "lead": "Topicals within IP scope; orals are specialist-initiated.",
+  "rungs": [
+   {
+    "k": "Topical technique",
+    "tone": "base",
+    "points": [
+     "**Pea-sized for the whole face**, at night, on dry skin; alternate nights at first.",
+     "Moisturiser and daily SPF; expect ‘purging’ 2–4 weeks, benefit 8–12 weeks."
+    ]
+   },
+   {
+    "k": "Pregnancy and topicals",
+    "tone": "first",
+    "points": [
+     "Contraindicated in pregnancy / planning; no formal PPP, but **ask about pregnancy and contraception** and record.",
+     "Inadvertent exposure: stop, reassure risk looks very low, advice from **UKTIS**."
+    ]
+   },
+   {
+    "k": "Oral retinoid support",
+    "tone": "second",
+    "points": [
+     "Support PPP checks, mood questions, and bloods per specialist plan.",
+     "Oral retinoid exposure in pregnancy: urgent specialist / obstetric referral and Yellow Card."
+    ]
+   }
+  ],
+  "visuals": [
+   {
+    "ai": "v3-pea-sized-face.jpg",
+    "caption": "A pea-sized amount covers the whole face: dot it on, then spread thinly at night on dry skin.",
+    "alt": "Pea-sized gel on fingertip and dotted on a face"
+   }
+  ],
+  "limits": [
+   {
+    "k": "Pregnancy",
+    "t": "Oral retinoids are highly teratogenic: PPP applies to anyone who could become pregnant.",
+    "tone": "danger"
+   },
+   {
+    "k": "Mood",
+    "t": "New low mood or suicidal thoughts on isotretinoin: stop, same-day referral.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "same-day",
+    "t": "**Low mood, anxiety or suicidal thoughts** on isotretinoin: stop, same-day referral."
+   },
+   {
+    "when": "same-day",
+    "t": "Possible **pregnancy** on an oral retinoid: stop, urgent specialist advice."
+   },
+   {
+    "when": "urgent",
+    "t": "Headache, visual disturbance, vomiting on retinoid + tetracycline: possible **raised ICP**."
+   }
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "chat",
+   "t": "Ask every woman on a topical: ‘Could you be pregnant, or planning to be?’ and document it."
+  },
+  {
+   "icon": "bulb",
+   "t": "Isotretinoin memory aid: ‘contraception, mood, sex, sun, skin procedures, no tetracyclines’."
+  },
+  {
+   "icon": "sunx",
+   "t": "Retinoids sensitise to sun: daily SPF."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Why not combine isotretinoin with doxycycline?",
+   "a": "Risk of raised intracranial pressure."
+  },
+  {
+   "q": "How long to avoid pregnancy after acitretin?",
+   "a": "3 years after stopping."
+  },
+  {
+   "q": "PPP contraception requirement?",
+   "a": "At least one highly effective user-independent method, or two complementary user-dependent methods."
+  },
+  {
+   "q": "How much topical retinoid for the face?",
+   "a": "A pea-sized amount for the whole face, at night."
+  }
+ ]
+}

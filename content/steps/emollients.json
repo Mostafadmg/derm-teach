@@ -1,0 +1,212 @@
+{
+ "_note": "Curated v3 overlay (batch 2), condensed from content/conditions/emollients.json; full text kept under 'More detail'.",
+ "glance": {
+  "chips": [
+   "Step 0 of every plan",
+   "Prescribe generously",
+   "Fire risk",
+   "No aqueous cream"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "Any **dry or eczematous skin**, at every review, alongside active treatment."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "They replace lipids and water in the stratum corneum, restore the barrier and reduce itch and flares."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "The right emollient is **the one they’ll use**: children **250–500 g / week**, also as a soap substitute."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "**Fire risk** with any emollient soaked into fabrics (MHRA); slips; stinging from aqueous cream.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "lead": "Three ways to moisturise.",
+  "points": [
+   "**Occlusives** (paraffins, petrolatum, dimeticone) cut water loss.",
+   "**Humectants** (urea, glycerol, lactic acid) draw water in.",
+   "**Emollient lipids** (ceramides, oils) fill gaps in the barrier.",
+   "They reduce irritant and allergen penetration and itch, and are **steroid-sparing**."
+  ],
+  "visuals": [
+   {
+    "ai": "v3-eczema-barrier-section.jpg",
+    "caption": "Emollients restore the lipid ‘mortar’ between skin cells, so less water escapes and fewer irritants get in.",
+    "alt": "Skin barrier section"
+   }
+  ]
+ },
+ "features": {
+  "lead": "Lotion → cream → gel → ointment: greasier works better and has fewer preservatives.",
+  "points": [
+   "Use as **leave-on** treatment and as a **soap substitute**; bath additives rarely.",
+   "Fit to dryness, site, time of day, school or work, preference.",
+   "Check for **fragrance**, **lanolin**, **SLS**, **methylisothiazolinone** and preservatives.",
+   "Offer **2–4 to try**; prescribe enough for **home and school** (NICE CG57)."
+  ],
+  "visuals": [
+   {
+    "ai": "v3-emollient-spectrum.jpg",
+    "caption": "From light to greasy: lotion, cream, gel and ointment. Greasier products hold water in best and contain the least preservative; lighter ones suit daytime and hairy areas.",
+    "alt": "Four emollient containers from light to greasy"
+   }
+  ],
+  "photo": "m1w2:C03"
+ },
+ "confirm": {
+  "cols": [
+   {
+    "k": "Quantity",
+    "icon": "gauge",
+    "points": [
+     "**250–500 g / week** for children; **~500 g / week** for adults with widespread dryness."
+    ]
+   },
+   {
+    "k": "Under-use check",
+    "icon": "help",
+    "points": [
+     "One 500 g tub every 3 months = under-using."
+    ]
+   },
+   {
+    "k": "Allergy?",
+    "icon": "flask",
+    "points": [
+     "Worse with a product: suspect contact allergy; patch test."
+    ]
+   }
+  ]
+ },
+ "differentials": {
+  "cards": [
+   {
+    "name": "Aqueous cream BP",
+    "clue": "**Not** a leave-on: SLS stings and damages the barrier (MHRA 2013)."
+   },
+   {
+    "name": "Colloidal oatmeal cream",
+    "clue": "Leave-on; rare oat allergy; check formulary."
+   },
+   {
+    "name": "Paraffin-based creams",
+    "clue": "Leave-on; lighter, daytime."
+   },
+   {
+    "name": "Greasy ointments",
+    "clue": "Leave-on and soap substitute; **high fire risk** on fabric."
+   },
+   {
+    "name": "Emulsifying ointment",
+    "clue": "Leave-on and wash; older versions had SLS: switch if it stings."
+   }
+  ]
+ },
+ "manage": {
+  "lead": "Emollients are the treatment, not an extra.",
+  "rungs": [
+   {
+    "k": "Prescribe",
+    "tone": "base",
+    "points": [
+     "**Pump dispensers**; separate tub for soap substitute.",
+     "Generous quantities (as above)."
+    ]
+   },
+   {
+    "k": "Apply",
+    "tone": "first",
+    "points": [
+     "Smooth on **in the direction of hair growth** (less folliculitis).",
+     "At least **2–4 times daily** and after washing, even when clear.",
+     "Leave a gap between emollient and steroid."
+    ]
+   },
+   {
+    "k": "Counsel safety",
+    "tone": "second",
+    "points": [
+     "**Fire risk** with paraffin and paraffin-free emollients on clothing, bedding, dressings: no smoking or naked flames; tell carers.",
+     "**Slips** with bath additives; BATHE trial: no added benefit."
+    ]
+   }
+  ],
+  "visuals": [
+   {
+    "ai": "v3-emollient-strokes.jpg",
+    "caption": "Smooth emollient on in long strokes along the direction of hair growth; rubbing hard against it can block follicles and cause folliculitis.",
+    "alt": "Hand applying cream along the forearm"
+   }
+  ],
+  "limits": [
+   {
+    "k": "Fire",
+    "t": "Residue on fabric burns easily; washing may not remove it.",
+    "tone": "danger"
+   },
+   {
+    "k": "Aqueous cream",
+    "t": "Wash product at most."
+   }
+  ]
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "routine",
+    "t": "Uncontrolled despite adequate emollient + TCS: refer per NICE CG57."
+   },
+   {
+    "when": "routine",
+    "t": "Suspected emollient contact allergy: patch testing."
+   },
+   {
+    "when": "same-day",
+    "t": "Erythroderma or infected eczema: assess promptly."
+   }
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "hand",
+   "t": "Show the FTU **and** a handful of emollient: a 500 g tub lasts about a week in widespread childhood eczema."
+  },
+  {
+   "icon": "shield",
+   "t": "Fire-safety counselling is an MHRA expectation: record it."
+  },
+  {
+   "icon": "chat",
+   "t": "Fully within IP and OTC scope; follow ICB self-care policy."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Weekly emollient for a child with eczema (NICE)?",
+   "a": "250–500 g a week."
+  },
+  {
+   "q": "Why not aqueous cream as a leave-on?",
+   "a": "Contains SLS: stinging and barrier damage (MHRA 2013)."
+  },
+  {
+   "q": "Which direction to apply?",
+   "a": "In the direction of hair growth, to reduce folliculitis."
+  },
+  {
+   "q": "Fire risk applies to which emollients?",
+   "a": "Both paraffin-containing and paraffin-free products soaked into fabric."
+  }
+ ]
+}

@@ -1,0 +1,250 @@
+{
+ "_note": "Curated v3 overlay (batch 2), condensed from content/conditions/hidradenitis-suppurativa.json; full text kept under 'More detail'.",
+ "glance": {
+  "chips": [
+   "Chronic",
+   "Flexures",
+   "Not an infection",
+   "Refer early"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "Recurrent painful **‘boils’ in the same flexural sites**, with **double comedones**, tunnels or rope-like scars."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "Follicular **occlusion and rupture**, then IL-17 / TNF inflammation; obesity, smoking, genetics add risk."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "Weight and smoking support, antiseptic washes, analgesia; **topical clindamycin** (mild); **tetracycline course**; early referral."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "**Under-treatment and delay**: tunnels and scars are irreversible. Also depression, and **SCC** in long-standing perianal disease.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "lead": "Blocked follicles that rupture deep in the skin.",
+  "points": [
+   "Follicular **occlusion → rupture →** innate immune cascade → **tunnels** and fibrosis.",
+   "Drivers: genetics (~⅓ family history), obesity / friction, **smoking**, hormones, dysbiosis.",
+   "Women ≈ 3:1 in Western cohorts; onset after puberty.",
+   "**Follicular occlusion triad**: HS, acne conglobata, dissecting cellulitis of the scalp (tetrad adds pilonidal disease).",
+   "Not caused by poor hygiene; not contagious."
+  ],
+  "visuals": [
+   {
+    "ai": "v3-hs-hurley-stages.jpg",
+    "caption": "Hurley staging in cross-section: I – abscesses without tunnels; II – recurrent abscesses with tunnels and scarring, separated by normal skin; III – diffuse interconnected tunnels and abscesses across the region.",
+    "alt": "Three skin sections showing Hurley stages I to III"
+   }
+  ]
+ },
+ "features": {
+  "lead": "Lesion + site + recurrence.",
+  "points": [
+   "**Paired ‘tombstone’ comedones**, painful firm nodules, abscesses, **draining tunnels**, rope-like scars.",
+   "Sites: **axillae**, groin, under the breasts, buttocks, perianal / perineal, neck.",
+   "**Hurley I**: abscesses, no tunnels. **II**: recurrent with tunnels and scars. **III**: diffuse interconnected.",
+   "Once tunnels exist, Hurley stage doesn’t step down with medicines alone."
+  ],
+  "visuals": [
+   {
+    "ai": "v3-hs-tombstone-comedones.jpg",
+    "caption": "Clues in the armpit: paired ‘tombstone’ comedones, deep tender nodules and rope-like scars. A boil doesn’t leave this pattern.",
+    "alt": "Armpit skin with paired comedones, nodules and scars"
+   }
+  ],
+  "variants": {
+   "title": "Types to recognise",
+   "items": [
+    {
+     "name": "Early nodule",
+     "t": "Acute painful nodule before tunnels.",
+     "where": "Axilla",
+     "photo": "m3w5:A02"
+    },
+    {
+     "name": "Tombstone comedones",
+     "t": "Paired comedones: follicular occlusion.",
+     "where": "Axilla",
+     "photo": "m3w5:A04"
+    },
+    {
+     "name": "Hurley II–III",
+     "t": "Scars and tunnels.",
+     "where": "Axilla",
+     "photo": "m3w5:A03"
+    },
+    {
+     "name": "Milder HS",
+     "t": "Scars and post-inflammatory redness.",
+     "where": "Axilla",
+     "photo": "m3w5:A05"
+    }
+   ]
+  },
+  "photo": "m3w5:A01"
+ },
+ "confirm": {
+  "cols": [
+   {
+    "k": "Clinical (Dessau)",
+    "icon": "eye",
+    "points": [
+     "Typical lesions + typical sites + **≥ 2 flares in 6 months**."
+    ]
+   },
+   {
+    "k": "Swabs",
+    "icon": "drop",
+    "points": [
+     "Often negative or colonised: supports a sterile picture."
+    ]
+   },
+   {
+    "k": "Imaging / biopsy",
+    "icon": "flask",
+    "points": [
+     "Ultrasound / MRI before surgery; biopsy chronic anogenital ulcers (SCC)."
+    ]
+   },
+   {
+    "k": "Document",
+    "icon": "check",
+    "points": [
+     "Hurley stage, sites, smoking, BMI, prior antibiotics."
+    ]
+   }
+  ]
+ },
+ "differentials": {
+  "cards": [
+   {
+    "name": "Boils / carbuncles",
+    "clue": "Discrete pointing abscesses; no tunnels or rope scars.",
+    "link": "boils-carbuncles"
+   },
+   {
+    "name": "Epidermoid / Bartholin cyst",
+    "clue": "Single cyst; no multi-site comedonal disease.",
+    "link": "skin-cysts"
+   },
+   {
+    "name": "Perianal Crohn’s",
+    "clue": "GI symptoms, fistulae: IBD work-up.",
+    "tone": "danger"
+   },
+   {
+    "name": "Lymphadenitis / deep infection",
+    "clue": "Acute, unilateral, systemically unwell."
+   }
+  ]
+ },
+ "manage": {
+  "lead": "Treat early; abscess drainage alone doesn’t modify disease (BAD guideline).",
+  "rungs": [
+   {
+    "k": "Educate and support",
+    "tone": "base",
+    "points": [
+     "Not infectious, not ‘dirt’; validate pain and QoL.",
+     "**Stop smoking**, weight management, loose clothing, chlorhexidine washes, non-adherent dressings.",
+     "Pain: paracetamol / NSAID."
+    ]
+   },
+   {
+    "k": "Mild",
+    "tone": "first",
+    "points": [
+     "**Clindamycin 1% BD** to active lesions (short adjunct)."
+    ]
+   },
+   {
+    "k": "Mild–moderate",
+    "tone": "second",
+    "points": [
+     "Tetracycline-class course (doxycycline / lymecycline), review ~12 weeks; stewardship."
+    ]
+   },
+   {
+    "k": "Specialist",
+    "tone": "refer",
+    "points": [
+     "Clindamycin + rifampicin (~12 weeks), steroid rescue, acitretin, dapsone, metformin / anti-androgens.",
+     "**Biologics** (adalimumab, secukinumab per NICE TAs); surgery for tunnels."
+    ]
+   }
+  ],
+  "limits": [
+   {
+    "k": "Comorbidities",
+    "t": "Screen metabolic syndrome, diabetes, PCOS, CVD risk, depression."
+   },
+   {
+    "k": "Pregnancy",
+    "t": "Intent changes antibiotic, retinoid and biologic choices: ask early."
+   }
+  ]
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "same-day",
+    "t": "Fluctuant abscess with **systemic upset**: drainage."
+   },
+   {
+    "when": "urgent",
+    "t": "**Hurley II–III**, or failed 12-week tetracycline: dermatology for systemic or biologic therapy."
+   },
+   {
+    "when": "urgent",
+    "t": "Chronic non-healing ulcer in long-standing perianal / buttock HS: exclude **SCC**."
+   },
+   {
+    "when": "routine",
+    "t": "Low mood or suicidal thoughts: high psychological burden, support and refer."
+   }
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "bulb",
+   "t": "Third recurrence in the same fold? Stop calling it a boil: **think HS**."
+  },
+  {
+   "icon": "chat",
+   "t": "Waiting lists are long: refer early, don’t wait for tunnels."
+  },
+  {
+   "icon": "alert",
+   "t": "Drainage relieves pain but doesn’t change the disease."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Hurley stage with tunnels and scarring separated by normal skin?",
+   "a": "Hurley II."
+  },
+  {
+   "q": "First topical for mild HS?",
+   "a": "Clindamycin 1% twice daily to active lesions."
+  },
+  {
+   "q": "Classic clue that separates HS from boils?",
+   "a": "Paired (tombstone) comedones, tunnels and rope-like scars in flexures."
+  },
+  {
+   "q": "Biggest modifiable risk factors?",
+   "a": "Smoking and obesity."
+  }
+ ]
+}

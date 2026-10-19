@@ -1,0 +1,251 @@
+{
+ "_note": "Curated v3 overlay (batch 2), condensed from content/conditions/palmoplantar-pustulosis.json; full text kept under 'More detail'.",
+ "glance": {
+  "chips": [
+   "Palms & soles",
+   "Smokers",
+   "Sterile pustules",
+   "Very disabling"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "Crops of **yellow pustules** fading to **brown ‘rusty’ dots** on palms and soles, or thick fissured plaques."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "Neutrophilic inflammation (**IL-36 / IL-17**); **smoking** is the main modifiable trigger in PPP."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "**Stop smoking**, very potent topical steroid (± occlusion), emollients; then specialist options."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "**Generalised pustular psoriasis** (fever, sheets of pustules): emergency.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "lead": "Two related conditions on the hands and feet.",
+  "points": [
+   "**PPP**: chronic relapsing **sterile** pustules confined to palms and soles; now seen as **distinct from psoriasis** (not PSORS1/HLA-C*06), though 10–25% also have plaques.",
+   "PPP: adults 20–60, **women ≈ 4:1**, **70–90% current or ex-smokers** (nicotinic receptors on eccrine ducts).",
+   "PPP links: thyroid disease, coeliac, diabetes, psoriatic arthritis, SAPHO; can be triggered by **TNF-α inhibitors**.",
+   "**Palmoplantar psoriasis**: Koebner from friction or manual work, infection, stress, lithium, β-blockers, alcohol, obesity."
+  ],
+  "visuals": [
+   {
+    "ai": "v3-ppp-pustule-evolution.jpg",
+    "caption": "A sterile pustule (left) dries yellow-brown (middle) and leaves a flat rusty-brown macule with peeling scale (right). Pustules, brown dots and scale side by side are the PPP signature.",
+    "alt": "Three stages from pustule to brown macule"
+   }
+  ]
+ },
+ "features": {
+  "lead": "Pustules and brown dots, or sharp-edged thick plaques.",
+  "points": [
+   "PPP: crops of **1–10 mm yellow pustules** on thenar and hypothenar eminences, central palms, insteps, heels.",
+   "Pustules dry to **brown ‘rusty’ macules**; scale and fissures; **burning or pain > itch**; symmetrical.",
+   "Palmoplantar psoriasis: well-defined red scaly plaques, or diffuse thick hyperkeratosis with little redness.",
+   "Painful **fissures**, sharp border; more **nail psoriasis** and **psoriatic arthritis**: screen with PEST."
+  ],
+  "visuals": [
+   {
+    "ai": "v3-ppp-hand-foot-map.jpg",
+    "caption": "Typical PPP sites: the thenar and hypothenar eminences of the palm, the instep and the heel. Fingers and toes are usually spared.",
+    "alt": "Palm and sole with pustule clusters at thenar, hypothenar, instep and heel"
+   }
+  ],
+  "variants": {
+   "title": "Types to recognise",
+   "items": [
+    {
+     "name": "Palm PPP",
+     "t": "Pustules on thenar and central palm; culture sterile.",
+     "where": "Palm",
+     "photo": "m3w6:D02"
+    },
+    {
+     "name": "Sole PPP",
+     "t": "Redness, scale, pustules and brown dots.",
+     "where": "Instep, heel",
+     "photo": "m3w6:D03"
+    },
+    {
+     "name": "Palmar psoriasis",
+     "t": "Well-demarcated red scaly plaques.",
+     "where": "Palm",
+     "photo": "m3w6:E01"
+    },
+    {
+     "name": "Plantar psoriasis",
+     "t": "Thick scale with fissuring.",
+     "where": "Weight-bearing sole",
+     "photo": "m3w6:E02"
+    }
+   ]
+  },
+  "photo": "m3w6:D01"
+ },
+ "confirm": {
+  "cols": [
+   {
+    "k": "Clinical",
+    "icon": "eye",
+    "points": [
+     "Pustules + brown dots on palms / soles, symmetrical."
+    ]
+   },
+   {
+    "k": "Swab",
+    "icon": "drop",
+    "points": [
+     "Pustules are **sterile**: swab only to exclude infection."
+    ]
+   },
+   {
+    "k": "Scrape",
+    "icon": "flask",
+    "points": [
+     "Scrapings if **unilateral** or interdigital scale: exclude tinea."
+    ]
+   },
+   {
+    "k": "Screen",
+    "icon": "check",
+    "points": [
+     "PEST for psoriatic arthritis; thyroid / coeliac if symptomatic."
+    ]
+   }
+  ]
+ },
+ "differentials": {
+  "cards": [
+   {
+    "name": "Hyperkeratotic hand eczema",
+    "clue": "Hardest to separate; may need biopsy or patch tests; can coexist.",
+    "link": "hand-eczema"
+   },
+   {
+    "name": "Tinea pedis / manuum",
+    "clue": "Often one-sided; scale in creases; scrape.",
+    "link": "tinea"
+   },
+   {
+    "name": "Pompholyx",
+    "clue": "Itchy deep ‘tapioca’ vesicles on finger sides.",
+    "link": "hand-eczema"
+   },
+   {
+    "name": "Keratolysis exfoliativa",
+    "clue": "Air-filled blisters → collarettes; no inflammation.",
+    "link": "keratolysis-exfoliativa"
+   },
+   {
+    "name": "Generalised pustular psoriasis",
+    "clue": "Fever, sheets of pustules beyond hands and feet: emergency.",
+    "tone": "danger",
+    "link": "psoriasis"
+   }
+  ]
+ },
+ "manage": {
+  "lead": "Smoking cessation and potent steroid first (NICE CG153 / CKS).",
+  "rungs": [
+   {
+    "k": "Foundation",
+    "tone": "base",
+    "points": [
+     "**Stop smoking**: the strongest modifiable factor; stop-smoking service / NRT.",
+     "Emollients; salicylic acid 2–5% or urea for scale.",
+     "Lifestyle: alcohol, weight."
+    ]
+   },
+   {
+    "k": "Topical",
+    "tone": "first",
+    "points": [
+     "**Very potent TCS** (clobetasol) ± overnight occlusion for PPP.",
+     "Psoriasis: potent / very potent TCS ± calcipotriol or combination product."
+    ]
+   },
+   {
+    "k": "Specialist",
+    "tone": "refer",
+    "points": [
+     "Hand–foot **PUVA**, **acitretin**, methotrexate, ciclosporin.",
+     "Apremilast and biologics per NICE psoriasis TAs; biologics less reliable in PPP."
+    ]
+   }
+  ],
+  "limits": [
+   {
+    "k": "Antibiotics",
+    "t": "Pustules are sterile: antibiotics don’t help."
+   },
+   {
+    "k": "Acitretin",
+    "t": "Teratogenic: specialist only, pregnancy prevention.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "emergency",
+    "t": "Fever with sheets of pustules beyond hands and feet: **generalised pustular psoriasis**."
+   },
+   {
+    "when": "urgent",
+    "t": "Can’t work or walk: early dermatology referral."
+   },
+   {
+    "when": "routine",
+    "t": "Not responding to very potent steroid and smoking cessation."
+   }
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "chat",
+   "t": "Offer stop-smoking support **at every visit**."
+  },
+  {
+   "icon": "hand",
+   "t": "Very potent steroid under cling film or cotton gloves at night, short periods, then step down."
+  },
+  {
+   "icon": "shield",
+   "t": "Tell patients pustules are **sterile**: antibiotics won’t help."
+  },
+  {
+   "icon": "help",
+   "t": "Ask about joints (PEST) and chest-wall pain (SAPHO)."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Single biggest modifiable factor in PPP?",
+   "a": "Smoking: 70–90% are current or ex-smokers; stopping helps most."
+  },
+  {
+   "q": "Pustules on one foot with interdigital scale?",
+   "a": "Scrape for tinea before labelling PPP."
+  },
+  {
+   "q": "Fever and sheets of pustules spreading off the hands?",
+   "a": "Generalised pustular psoriasis: emergency."
+  },
+  {
+   "q": "First-line topical for PPP?",
+   "a": "Very potent topical steroid (e.g. clobetasol) ± overnight occlusion, plus emollient."
+  }
+ ]
+}

@@ -1,0 +1,243 @@
+{
+ "_note": "Curated v3 overlay (batch 2), condensed from content/conditions/onychomycosis.json; full text kept under 'More detail'.",
+ "glance": {
+  "chips": [
+   "Common",
+   "Toenails ≫ fingernails",
+   "Clippings first",
+   "Slow outgrowth"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "Thick, **yellow-white, crumbly** nails (toenails especially), often with tinea pedis."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "Dermatophytes (mostly *T. rubrum*), less often *Candida* or moulds; **trauma and psoriasis** mimic it."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "**Clippings first**; oral **terbinafine** for confirmed disease (6 weeks fingernails, 3–6 months toenails); amorolfine for limited distal disease."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "**Subungual melanoma** or haematoma mistaken for fungus; diabetic or immunosuppressed foot.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "lead": "Who is infecting the nail matters.",
+  "points": [
+   "**Dermatophytes** (majority): *T. rubrum*, *T. interdigitale*; toenails, with tinea pedis; DLSO commonest.",
+   "**Candida**: fingernails, after **chronic paronychia**, wet work.",
+   "**Non-dermatophyte moulds**: look similar; need culture / PCR; harder to treat.",
+   "**Trauma**: single nail, footwear or sport, negative mycology."
+  ],
+  "visuals": []
+ },
+ "features": {
+  "lead": "Recognise the pattern, then prove it.",
+  "points": [
+   "**Distal lateral subungual (DLSO)**: yellow-white thickening from the free edge, crumbly debris, lifting.",
+   "**White superficial**: chalky white surface patches, usually toenails.",
+   "**Proximal subungual**: white near the cuticle: think **immunosuppression / HIV**.",
+   "**Candidal**: fingernails after chronic paronychia; fold swelling, onycholysis.",
+   "Single dystrophic nail after injury is more often **trauma**."
+  ],
+  "visuals": [
+   {
+    "ai": "v3-onychomycosis-patterns.jpg",
+    "caption": "Three patterns: distal lateral subungual (crumbly thickening from the edge), white superficial (chalky surface patches) and proximal subungual (white near the cuticle, think immunosuppression).",
+    "alt": "Three toenails showing patterns of fungal infection"
+   }
+  ],
+  "variants": {
+   "title": "Types to recognise",
+   "items": [
+    {
+     "name": "DLSO",
+     "t": "Commonest dermatophyte pattern.",
+     "where": "Toenail",
+     "photo": "m3w2:B01"
+    },
+    {
+     "name": "White superficial",
+     "t": "Chalky white surface.",
+     "where": "Toenail",
+     "photo": "m3w2:B03"
+    },
+    {
+     "name": "Subungual haematoma",
+     "t": "Trauma mimic; grows out.",
+     "where": "Toenail",
+     "photo": "m3w2:B04",
+     "tone": "danger"
+    },
+    {
+     "name": "Candidal nail",
+     "t": "Onycholysis after paronychia.",
+     "where": "Fingernail",
+     "photo": "m3w2:A04"
+    }
+   ]
+  },
+  "photo": "m3w2:B01"
+ },
+ "confirm": {
+  "cols": [
+   {
+    "k": "Examine",
+    "icon": "eye",
+    "points": [
+     "All nails, feet, hands, groin for tinea."
+    ]
+   },
+   {
+    "k": "Sample well",
+    "icon": "flask",
+    "points": [
+     "Clean with alcohol; stop topicals 2–4 weeks before.",
+     "Clip back to the **most proximal** affected nail + subungual debris; **folded dark paper packet**, not a plastic pot."
+    ]
+   },
+   {
+    "k": "Yield",
+    "icon": "gauge",
+    "points": [
+     "KOH ~50–60% sensitive: **negative doesn’t exclude**; repeat if convincing."
+    ]
+   }
+  ],
+  "visuals": [
+   {
+    "ai": "v3-nail-sampling.jpg",
+    "caption": "Sampling for mycology: clip back towards healthy nail, scrape the crumbly debris from underneath, and send generous clippings in a folded dark paper packet.",
+    "alt": "Clipping a toenail, scraping debris, placing it in a paper packet"
+   }
+  ]
+ },
+ "differentials": {
+  "cards": [
+   {
+    "name": "Trauma / gait dystrophy",
+    "clue": "Avoid months of needless terbinafine."
+   },
+   {
+    "name": "Nail psoriasis",
+    "clue": "Pits, oil-drop patches, skin or scalp signs.",
+    "link": "psoriasis"
+   },
+   {
+    "name": "Pseudomonas green nail",
+    "clue": "Green-black, onycholytic, wet work: dry, antiseptic soaks."
+   },
+   {
+    "name": "Subungual melanoma / SCC",
+    "clue": "Pigment that doesn’t grow out, widening band, nail-fold pigment.",
+    "tone": "danger",
+    "link": "melanonychia"
+   }
+  ]
+ },
+ "manage": {
+  "lead": "Treatment is optional for mild, symptom-free toenail disease: discuss cure rates and recurrence.",
+  "rungs": [
+   {
+    "k": "Prevent relapse",
+    "tone": "base",
+    "points": [
+     "Footwear, foot hygiene, treat tinea pedis, diabetes control."
+    ]
+   },
+   {
+    "k": "Limited distal",
+    "tone": "first",
+    "points": [],
+    "rx": [
+     {
+      "drug": "Amorolfine 5% lacquer",
+      "dose": "File the nail; apply weekly",
+      "dur": "6–12 months",
+      "note": "For < about half of one or two nails; modest cure rates."
+     }
+    ]
+   },
+   {
+    "k": "Extensive dermatophyte",
+    "tone": "second",
+    "points": [
+     "Confirmed by mycology; ask about liver disease; report jaundice, dark urine, tiredness, rash, taste change."
+    ],
+    "rx": [
+     {
+      "drug": "Oral terbinafine",
+      "dose": "As per BNF",
+      "dur": "Fingernails 6 weeks; toenails 3–6 months",
+      "note": "First choice for dermatophytes."
+     }
+    ]
+   },
+   {
+    "k": "Candida / moulds",
+    "tone": "third",
+    "points": [
+     "Oral **itraconazole** (pulsed) or fluconazole; check CYP3A4 interactions and heart failure."
+    ]
+   }
+  ]
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "urgent",
+    "t": "Pigment that doesn’t grow out, a widening band, or nail-fold pigment: **possible melanoma** (NG12)."
+   },
+   {
+    "when": "urgent",
+    "t": "Diabetic foot with nail disease and skin breaks: foot-protection team."
+   },
+   {
+    "when": "routine",
+    "t": "Stop terbinafine if hepatitis symptoms or severe skin reaction."
+   }
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "flask",
+   "t": "Mycology **before** a long oral course: many thick nails are trauma or psoriasis."
+  },
+  {
+   "icon": "clock",
+   "t": "Nails look abnormal for months after cure: toenails grow out over **12–18 months**."
+  },
+  {
+   "icon": "pill",
+   "t": "Candida → azole, not terbinafine."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Commonest pattern of onychomycosis?",
+   "a": "Distal lateral subungual (DLSO), usually T. rubrum."
+  },
+  {
+   "q": "Oral terbinafine duration for toenails?",
+   "a": "3–6 months (fingernails 6 weeks)."
+  },
+  {
+   "q": "How should clippings be sent?",
+   "a": "Generous clippings + subungual debris in a folded dark paper packet."
+  },
+  {
+   "q": "White change starting at the cuticle?",
+   "a": "Proximal subungual onychomycosis: consider immunosuppression or HIV."
+  }
+ ]
+}

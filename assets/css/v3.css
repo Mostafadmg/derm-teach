@@ -373,3 +373,12 @@ strong, b { font-weight: 650; }
 .f-visual .f-btn { display: flex; justify-content: center; }
 .f-visual .f-btn img { max-height: 420px; width: auto; max-width: 100%; }
 .visuals.n1 .f-visual figcaption { max-width: 640px; }
+
+/* lookalike cards without a photo: compact icon badge instead of an empty frame */
+.ddx.no-thumb { grid-template-columns: 40px minmax(0, 1fr); gap: var(--s3); }
+.ddx-thumb.is-empty { width: 40px; height: 40px; aspect-ratio: auto; border-radius: 12px;
+  background: color-mix(in srgb, var(--accent) 11%, var(--surface)); color: var(--accent-ink); }
+.ddx.is-danger .ddx-thumb.is-empty { background: color-mix(in srgb, #e5484d 12%, var(--surface)); color: #c62a2f; }
+/* emergency triage flow heading */
+.mini-h.is-triage { color: #c62a2f; }
+.mini-h.is-triage::before { content: ""; display: inline-block; width: 8px; height: 8px; border-radius: 50%; background: #e5484d; margin-right: 8px; vertical-align: middle; }

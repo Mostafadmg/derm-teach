@@ -1,0 +1,294 @@
+{
+ "_note": "Curated v3 overlay (batch 2), condensed from content/conditions/topical-corticosteroids.json; full text kept under 'More detail'.",
+ "glance": {
+  "chips": [
+   "4 UK potency classes",
+   "Fingertip units",
+   "Step down",
+   "MHRA TSW 2021"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "Choosing, quantifying or reviewing a topical steroid for eczema, psoriasis or another inflammatory rash."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "Glucocorticoid-receptor effects switch off inflammatory genes, constrict vessels and slow turnover; overuse **thins skin**."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "**Lowest potency that works, shortest time**; potency by site and age; FTUs; review, then **step down**."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "**Tinea incognito**, steroid rosacea / perioral dermatitis, atrophy, **TSW**, adrenal suppression.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "lead": "Switch off inflammation, at a cost to collagen.",
+  "points": [
+   "Steroid binds the **glucocorticoid receptor** → nucleus.",
+   "**Transactivation**: switches on anti-inflammatory genes (annexin-1 → fewer prostaglandins and leukotrienes).",
+   "**Transrepression**: blocks **NF-κB and AP-1** → fewer cytokines (IL-1, IL-6, TNF-α), COX-2.",
+   "Also anti-proliferative (useful in psoriasis) and **inhibits fibroblast collagen**: the cause of atrophy.",
+   "Potency is measured by the **vasoconstrictor (blanching) assay**."
+  ],
+  "visuals": [
+   {
+    "ai": "v3-steroid-atrophy-section.jpg",
+    "caption": "Normal skin (left) beside steroid atrophy (right): thin epidermis, sparse collagen and dilated surface vessels, giving shiny, translucent skin that bruises and tears easily.",
+    "alt": "Skin sections comparing normal skin and steroid atrophy"
+   }
+  ]
+ },
+ "features": {
+  "lead": "Match potency to severity, site and age (BNF classes).",
+  "points": [
+   "**Mild** (e.g. hydrocortisone): face, flexures, infants, mild eczema.",
+   "**Moderate** (e.g. clobetasone butyrate): moderate eczema on body; short courses face / flexures in adults.",
+   "**Potent** (e.g. betamethasone valerate 0.1%, mometasone, hydrocortisone butyrate): severe eczema, body.",
+   "**Very potent** (clobetasol): short courses for thick plaques, palms / soles, lichen sclerosus, DLE, scalp.",
+   "**Combination products** take their steroid’s potency; occlusion raises effective potency."
+  ],
+  "visuals": [
+   {
+    "ai": "v3-steroid-absorption-map.jpg",
+    "caption": "Absorption varies by site (forearm = 1): soles about 0.1, palms 0.8, scalp 3.5, face 7–13, eyelids and genitals up to 40. Thin, flexural and infant skin gets milder steroids.",
+    "alt": "Body heat map of steroid absorption by site"
+   }
+  ],
+  "variants": {
+   "title": "Adverse effects to recognise",
+   "items": [
+    {
+     "name": "Telangiectasia",
+     "t": "Facial vessels after prolonged use.",
+     "where": "Face",
+     "photo": "m1w2:A01"
+    },
+    {
+     "name": "Purpura",
+     "t": "Bruising on thinned skin.",
+     "where": "Forearms",
+     "photo": "m1w2:A02"
+    },
+    {
+     "name": "Steroid rosacea",
+     "t": "Rebound flare when stopped.",
+     "where": "Face",
+     "photo": "m1w2:A03"
+    },
+    {
+     "name": "Tinea incognita",
+     "t": "Less scale, spreads on steroid.",
+     "where": "Anywhere",
+     "photo": "m1w2:A05",
+     "tone": "danger"
+    },
+    {
+     "name": "Red sleeve (TSW)",
+     "t": "Confluent redness, sharp cut-off.",
+     "where": "Forearm",
+     "photo": "m1w2:B02"
+    },
+    {
+     "name": "Steroid allergy",
+     "t": "Positive budesonide patch test.",
+     "where": "Patch test",
+     "photo": "m1w2:A07"
+    }
+   ]
+  },
+  "photo": "m1w2:A01"
+ },
+ "confirm": {
+  "cols": [
+   {
+    "k": "1 FTU",
+    "icon": "hand",
+    "points": [
+     "Ointment from a 5 mm nozzle, **crease to fingertip** ≈ **0.5 g**, covers **two adult palms**."
+    ]
+   },
+   {
+    "k": "Adult FTUs",
+    "icon": "gauge",
+    "points": [
+     "Face & neck 2.5 · arm 3 · hand 1 · leg 6 · foot 2 · front trunk 7 · back 7. Whole body ≈ 40 FTU (20 g)."
+    ]
+   },
+   {
+    "k": "BNF weekly (bd)",
+    "icon": "flask",
+    "points": [
+     "Face 15–30 g · hands 15–30 g · arms 30–60 g · legs 100 g · trunk 100 g · groins 15–30 g (recheck BNF)."
+    ]
+   },
+   {
+    "k": "Before re-issue",
+    "icon": "help",
+    "points": [
+     "Repeats, amount used, sites, atrophy, other diagnoses, infection, emollient use."
+    ]
+   }
+  ],
+  "visuals": [
+   {
+    "ai": "v3-fingertip-unit.jpg",
+    "caption": "One fingertip unit: ointment squeezed from the last finger crease to the tip of an adult index finger, about 0.5 g. It covers the area of two adult palms with fingers together.",
+    "alt": "Ointment along an index finger beside two palms"
+   }
+  ]
+ },
+ "differentials": {
+  "cards": [
+   {
+    "name": "Untreated bacterial infection",
+    "clue": "Spreads: treat infection first.",
+    "tone": "danger",
+    "link": "impetigo"
+   },
+   {
+    "name": "Fungal infection",
+    "clue": "**Tinea incognita**: scrape; antifungal.",
+    "tone": "danger",
+    "link": "tinea"
+   },
+   {
+    "name": "Viral (HSV, zoster)",
+    "clue": "Dissemination, e.g. eczema herpeticum.",
+    "tone": "danger",
+    "link": "herpes-simplex-labialis"
+   },
+   {
+    "name": "Scabies",
+    "clue": "Masks signs → crusted scabies.",
+    "link": "scabies"
+   },
+   {
+    "name": "Rosacea / perioral dermatitis",
+    "clue": "Steroids cause and rebound them.",
+    "link": "rosacea"
+   },
+   {
+    "name": "Acne, ulcers, broken skin",
+    "clue": "Steroid acne; impaired healing.",
+    "link": "acne-vulgaris"
+   }
+  ]
+ },
+ "manage": {
+  "lead": "Right potency, right place, right amount, right duration: then step down.",
+  "rungs": [
+   {
+    "k": "Prescribe clearly",
+    "tone": "base",
+    "points": [
+     "State **name, potency, site, frequency, duration and FTUs**, not ‘as directed’.",
+     "Emollient first, wait 15–30 min (or keep the same order)."
+    ]
+   },
+   {
+    "k": "Treat the flare",
+    "tone": "first",
+    "points": [
+     "Mild for mild, moderate for moderate, potent for severe (NICE CG57); **no potent steroids on the face** without advice."
+    ]
+   },
+   {
+    "k": "Step down / proactive",
+    "tone": "second",
+    "points": [
+     "Once controlled, step down; for frequent relapse, **weekend therapy** twice weekly to flare sites."
+    ]
+   },
+   {
+    "k": "Steroid-sparing",
+    "tone": "third",
+    "points": [
+     "**TCI** (tacrolimus, pimecrolimus) for face, eyelids, flexures: no atrophy.",
+     "Vitamin D analogues in psoriasis."
+    ]
+   }
+  ],
+  "limits": [
+   {
+    "k": "TSW (MHRA 2021)",
+    "t": "After long-term moderate–potent use, on stopping: **reduce gradually**, seek specialist advice.",
+    "tone": "danger"
+   },
+   {
+    "k": "Adrenal suppression",
+    "t": "Large amounts of potent steroid, children, occlusion.",
+    "tone": "danger"
+   },
+   {
+    "k": "Skin lightening",
+    "t": "Never supply potent steroids for lightening: illegal use causes atrophy, striae, Cushing’s."
+   },
+   {
+    "k": "Fire",
+    "t": "Paraffin-based preparations on fabrics (MHRA 2018)."
+   }
+  ]
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "urgent",
+    "t": "Children needing **very potent** steroid, or potent on face / flexures: specialist advice."
+   },
+   {
+    "when": "routine",
+    "t": "Suspected **TSW**, steroid **contact allergy** (patch test), widespread atrophy or striae."
+   },
+   {
+    "when": "routine",
+    "t": "Adult eczema not controlled after 4 weeks of correct potent TCS + emollients."
+   }
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "chat",
+   "t": "Write the FTU count: ‘2.5 FTU to face once daily for 5 days, then stop’."
+  },
+  {
+   "icon": "eye",
+   "t": "Eyelids: mild, few days; TCI if recurrent; think IOP with long-term use."
+  },
+  {
+   "icon": "alert",
+   "t": "UK uses **4 classes** (BNF), not the US 7-class list."
+  },
+  {
+   "icon": "bulb",
+   "t": "Under-treatment from steroid phobia is commoner than harm."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "How much is one FTU and what does it cover?",
+   "a": "About 0.5 g; two adult palms (~2% BSA)."
+  },
+  {
+   "q": "Potency of betamethasone valerate 0.1%?",
+   "a": "Potent (BNF), not mild."
+  },
+  {
+   "q": "Rash spreading on a steroid with scale at the edge?",
+   "a": "Scrape for tinea incognita."
+  },
+  {
+   "q": "What does MHRA advise after long-term potent use?",
+   "a": "Reduce gradually, not abruptly; seek specialist advice if TSW suspected."
+  }
+ ]
+}

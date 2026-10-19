@@ -1,0 +1,221 @@
+{
+ "_note": "Curated v3 overlay (batch 2), condensed from content/conditions/vitamin-d-tar-phototherapy.json; full text kept under 'More detail'.",
+ "glance": {
+  "chips": [
+   "NICE CG153",
+   "Vitamin D + steroid",
+   "Tar & dithranol",
+   "Light = a prescription"
+  ],
+  "points": [
+   {
+    "icon": "eye",
+    "k": "Spot it",
+    "t": "Plaque, scalp or flexural psoriasis needing more than a steroid, or a patient referred for **light treatment**."
+   },
+   {
+    "icon": "layers",
+    "k": "Why",
+    "t": "Vitamin D analogues normalise keratinocyte growth; tar and dithranol slow proliferation; UVB and PUVA suppress skin immune cells."
+   },
+   {
+    "icon": "pill",
+    "k": "Treat",
+    "t": "**Potent steroid + vitamin D** (separately or combined) first; **calcitriol** for face / flexures; phototherapy is specialist."
+   },
+   {
+    "icon": "alert",
+    "k": "Never miss",
+    "t": "**Hypercalcaemia** with excess vitamin D analogue; burns and skin cancer with cumulative **PUVA**.",
+    "tone": "danger"
+   }
+  ]
+ },
+ "cause": {
+  "lead": "Different ways to slow the plaque.",
+  "points": [
+   "**Vitamin D analogues** bind the VDR: slow keratinocyte proliferation, normalise differentiation, lower IL-17 / IL-8. Flatten and de-scale more than they de-redden.",
+   "**Coal tar** activates the aryl hydrocarbon receptor: normalises differentiation, restores filaggrin; antipruritic; phototoxic with UVA.",
+   "**Dithranol** makes free radicals: anti-proliferative; stains and burns normal skin.",
+   "**UV** suppresses skin immune cells: NB-UVB stays superficial, UVA reaches deeper."
+  ],
+  "visuals": [
+   {
+    "ai": "v3-uvb-uva-depth.jpg",
+    "caption": "Light depth in skin: narrowband UVB (311–313 nm) acts mainly in the epidermis; UVA (320–400 nm, used with psoralen in PUVA) reaches the dermis.",
+    "alt": "Skin section with a short UVB beam and a deeper UVA beam"
+   }
+  ]
+ },
+ "features": {
+  "lead": "Know the products and where each fits.",
+  "points": [
+   "**Calcipotriol** 50 micrograms/g ointment or scalp solution; with betamethasone dipropionate 0.05% as gel, ointment or foam.",
+   "**Calcitriol** 3 micrograms/g: gentler, face and flexures. **Tacalcitol** 4 micrograms/g: once daily.",
+   "**Coal tar**: creams, ointments, shampoos; crude tar in specialist units.",
+   "**Dithranol**: short-contact for chronic plaques in specialist / day units.",
+   "**NB-UVB** first-line phototherapy; **PUVA** for thick or resistant psoriasis, PPP, hand eczema, mycosis fungoides."
+  ],
+  "visuals": [
+   {
+    "ai": "v3-nbuvb-cabinet.jpg",
+    "caption": "Narrowband UVB is delivered in a hospital cabinet with UV goggles. Dose, course length and lifetime total are recorded like a drug.",
+    "alt": "Patient in a phototherapy cabinet with a nurse"
+   }
+  ],
+  "photo": "m1w2:D01"
+ },
+ "confirm": {
+  "cols": [
+   {
+    "k": "Ladder (NICE CG153)",
+    "icon": "check",
+    "points": [
+     "Potent TCS od + vitamin D od, separately, **up to 4 weeks**.",
+     "No better at **8 weeks**: vitamin D bd alone.",
+     "Still poor at 8–12 weeks: potent TCS bd ≤ 4 weeks, coal tar, or combined product."
+    ]
+   },
+   {
+    "k": "Max doses (BNF, recheck)",
+    "icon": "gauge",
+    "points": [
+     "Calcipotriol **100 g / week**.",
+     "Combination: **15 g / day, 100 g / week, ≤ 30% BSA**, 4-week courses.",
+     "Calcitriol **30 g / day**, ≤ 35% BSA."
+    ]
+   },
+   {
+    "k": "Avoid",
+    "icon": "alert",
+    "points": [
+     "Hypercalcaemia, severe renal impairment; caution in erythrodermic or pustular psoriasis."
+    ]
+   }
+  ]
+ },
+ "differentials": {
+  "cards": [
+   {
+    "name": "Potent steroid alone",
+    "clue": "Faster on redness; atrophy and rebound with long use.",
+    "link": "topical-corticosteroids"
+   },
+   {
+    "name": "Combined calcipotriol + betamethasone",
+    "clue": "One daily application; **contains a steroid**: count it."
+   },
+   {
+    "name": "Coal tar",
+    "clue": "Messy, odour, stains; very low cancer risk at therapeutic doses."
+   },
+   {
+    "name": "Dithranol",
+    "clue": "Effective; stains purple-brown; specialist short-contact."
+   },
+   {
+    "name": "Biologics / systemics",
+    "clue": "When topicals and light fail.",
+    "link": "biologics-systemics"
+   }
+  ]
+ },
+ "manage": {
+  "lead": "Topicals in primary care; light is specialist-delivered.",
+  "rungs": [
+   {
+    "k": "Counsel",
+    "tone": "base",
+    "points": [
+     "Wash hands after; keep calcipotriol **off the face**; irritation usually settles.",
+     "With phototherapy, apply vitamin D **after** UV, not before."
+    ]
+   },
+   {
+    "k": "First line",
+    "tone": "first",
+    "points": [
+     "**Steroid in the morning, vitamin D at night** (or the reverse) for up to 4 weeks, or one combined product daily."
+    ]
+   },
+   {
+    "k": "Step up",
+    "tone": "second",
+    "points": [
+     "Vitamin D bd; coal tar; combined product; calcitriol for face and flexures."
+    ]
+   },
+   {
+    "k": "Specialist",
+    "tone": "refer",
+    "points": [
+     "NB-UVB (often safest step-up in **pregnancy**), PUVA, dithranol, systemics."
+    ]
+   }
+  ],
+  "limits": [
+   {
+    "k": "Hypercalcaemia",
+    "t": "Over weekly maximum or symptoms: check calcium, stop.",
+    "tone": "danger"
+   },
+   {
+    "k": "PUVA eyes & cancer",
+    "t": "UVA-blocking eye protection ~24 h after oral psoralen; lifelong skin checks.",
+    "tone": "danger"
+   },
+   {
+    "k": "Tar",
+    "t": "Avoid inflamed / pustular skin, face, genitals; avoid sun after (phototoxic)."
+   }
+  ]
+ },
+ "refer": {
+  "items": [
+   {
+    "when": "same-day",
+    "t": "Erythrodermic or generalised pustular psoriasis: urgent dermatology."
+   },
+   {
+    "when": "routine",
+    "t": "Not controlled on topicals at 8–12 weeks: refer for phototherapy or systemics."
+   }
+  ]
+ },
+ "pearls": [
+  {
+   "icon": "clock",
+   "t": "‘Steroid in the morning, vitamin D at night’."
+  },
+  {
+   "icon": "alert",
+   "t": "Combined products are steroids: use breaks."
+  },
+  {
+   "icon": "drop",
+   "t": "Tar shampoo: lather, leave 5–10 minutes, rinse; may discolour light or dyed hair."
+  },
+  {
+   "icon": "sunx",
+   "t": "Phototherapy is a **prescription of light**."
+  }
+ ],
+ "quiz": [
+  {
+   "q": "NICE first-line topical for trunk plaque psoriasis?",
+   "a": "Potent steroid once daily + vitamin D analogue once daily, applied separately, up to 4 weeks."
+  },
+  {
+   "q": "Weekly calcipotriol maximum?",
+   "a": "100 g a week (adult, BNF)."
+  },
+  {
+   "q": "Which vitamin D analogue for face and flexures?",
+   "a": "Calcitriol (gentler)."
+  },
+  {
+   "q": "Advice after oral psoralen for PUVA?",
+   "a": "UVA-blocking eye protection for about 24 hours."
+  }
+ ]
+}
