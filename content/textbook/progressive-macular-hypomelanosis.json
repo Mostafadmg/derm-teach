@@ -1,10 +1,11 @@
 {
  "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
  "key_facts": [
-  "Poorly defined, non-scaly, symptom-free pale macules merging on the back and trunk of a teenager or young adult, often with darker skin.",
-  "Probably Cutibacterium acnes in the follicles producing a depigmenting factor. Melanin is reduced but melanocyte numbers are normal.",
-  "Reassure. Options with variable evidence: benzoyl peroxide ± clindamycin, narrowband UVB, oral tetracycline.",
-  "Persistent, atypical, progressive patches in an adult may be hypopigmented mycosis fungoides. Refer."
+  "Benign, ill-defined, **non-scaly pale macules** merging on the trunk; no itch or prior inflammation.",
+  "Common in young adults, especially with darker skin; slowly progressive, may improve after mid-life.",
+  "Wood's lamp often shows **follicular red fluorescence** (*Cutibacterium acnes*).",
+  "Differentials: pityriasis versicolor (fine scale, yeast), PIH, vitiligo (chalk-white), leprosy (numb).",
+  "Options with variable evidence: benzoyl peroxide ± clindamycin, NB-UVB, oral tetracycline; relapse is common."
  ],
  "sections": [
   {
@@ -19,9 +20,41 @@
    "title": "Aetiology: causes and risk factors",
    "blocks": [
     "The cause is not fully known. The leading hypothesis is **Cutibacterium (Propionibacterium) acnes** in the hair follicles producing a depigmenting factor. This is supported by **follicular red fluorescence** under a Wood’s lamp in many, but not all, patients. Genetic factors may contribute.",
-    "Melanin is reduced while melanocyte numbers are normal, and melanosome packaging is altered on electron microscopy."
+    "Melanin is reduced while melanocyte numbers are normal, and melanosome packaging is altered on electron microscopy.",
+    {
+     "h": "Myths to address"
+    },
+    {
+     "ul": [
+      "**\"It's fungal, so antifungals will fix it\"**: it doesn't scale and doesn't respond."
+     ]
+    }
    ],
    "short": "Aetiology"
+  },
+  {
+   "id": "pathophysiology",
+   "title": "Pathophysiology and pathology",
+   "blocks": [
+    "A follicular bacterium is thought to **reduce melanin production** in nearby skin.",
+    {
+     "mech": [
+      {
+       "k": "C. acnes in follicles",
+       "t": "Bacteria in follicles may produce a depigmenting factor."
+      },
+      {
+       "k": "Less melanin",
+       "t": "Melanocyte numbers stay normal but melanin falls."
+      },
+      {
+       "k": "Altered melanosomes",
+       "t": "Melanosome packaging changes on electron microscopy."
+      }
+     ]
+    }
+   ],
+   "short": "Pathophysiology"
   },
   {
    "id": "clinical-features",
@@ -161,6 +194,29 @@
    "short": "Red flags"
   },
   {
+   "id": "complications",
+   "title": "Complications and prognosis",
+   "blocks": [
+    {
+     "h": "Complications"
+    },
+    {
+     "ul": [
+      "Cosmetic concern."
+     ]
+    },
+    {
+     "h": "Prognosis"
+    },
+    {
+     "ul": [
+      "Slowly progressive; may stabilise."
+     ]
+    }
+   ],
+   "short": "Complications"
+  },
+  {
    "id": "pearls",
    "title": "Prescriber pearls (UK pharmacist IP)",
    "blocks": [
@@ -198,5 +254,9 @@
   }
  ],
  "references": [],
- "see_also": []
+ "see_also": [
+  "pityriasis-versicolor",
+  "hypopigmentation-skin-of-colour",
+  "acne-vulgaris"
+ ]
 }

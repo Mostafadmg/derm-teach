@@ -1,10 +1,11 @@
 {
  "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
  "key_facts": [
-  "Dark marks after acne/eczema/friction, or milky-white patches — decide hyperpigmentation vs true depigmentation (vitiligo/piebaldism).",
-  "Inflammation drives melanin excess (PIH) or autoimmune/congenital melanocyte loss (vitiligo/piebaldism).",
-  "Treat the cause, stop friction and illegal bleaching, daily tinted SPF, azelaic acid/retinoid for PIH; refer vitiligo/piebaldism pathways.",
-  "Unlicensed steroid/mercury/hydroquinone “fairness” creams — stop and counsel on harm; Waardenburg features with white forelock need hearing assessment."
+  "In skin of colour, **post-inflammatory hyperpigmentation** and flexural darkening are everyday problems; true **depigmentation** (vitiligo, piebaldism) is separate.",
+  "Treat the driver of PIH (acne, eczema, shaving friction); daily tinted broad-spectrum sunscreen; azelaic acid.",
+  "Warn about **unlicensed bleaching creams** (mercury, potent steroids, high-strength hydroquinone).",
+  "Piebaldism is congenital and stable (white forelock); vitiligo is acquired and autoimmune.",
+  "Pale patches: think pityriasis alba, PIH (hypo), pityriasis versicolor, PMH, vitiligo, leprosy (numb)."
  ],
  "sections": [
   {
@@ -25,9 +26,47 @@
       "Piebaldism: congenital KIT-pathway melanocyte absence (stable white forelock + patches).",
       "Vitiligo: acquired autoimmune melanocyte loss; associated thyroid and other autoimmunity."
      ]
+    },
+    {
+     "h": "Myths to address"
+    },
+    {
+     "ul": [
+      "**\"Bleaching creams are safe cosmetics\"**: illegal products cause steroid damage, ochronosis and mercury toxicity."
+     ]
     }
    ],
    "short": "Aetiology"
+  },
+  {
+   "id": "pathophysiology",
+   "title": "Pathophysiology and pathology",
+   "blocks": [
+    "Pigment change after inflammation depends on **where the melanin ends up**.",
+    {
+     "mech": [
+      {
+       "k": "Epidermal PIH",
+       "t": "Inflamed melanocytes over-produce pigment in the epidermis: brown, fades in months."
+      },
+      {
+       "k": "Dermal PIH",
+       "t": "Basal damage drops pigment into the dermis: grey-blue, slow to fade.",
+       "img": "v4-pigment-incontinence.jpg",
+       "caption": "Pigment incontinence makes deeper, greyer pigment."
+      },
+      {
+       "k": "Hypopigmentation",
+       "t": "Inflammation may reduce melanin transfer, leaving pale areas."
+      },
+      {
+       "k": "Depigmentation",
+       "t": "Absent melanocytes (vitiligo, piebaldism) give chalk-white skin."
+      }
+     ]
+    }
+   ],
+   "short": "Pathophysiology"
   },
   {
    "id": "clinical-features",
@@ -224,6 +263,29 @@
    "short": "Red flags"
   },
   {
+   "id": "complications",
+   "title": "Complications and prognosis",
+   "blocks": [
+    {
+     "h": "Complications"
+    },
+    {
+     "ul": [
+      "Psychological impact; harm from bleaching products."
+     ]
+    },
+    {
+     "h": "Prognosis"
+    },
+    {
+     "ul": [
+      "PIH fades over months to years if the trigger stops."
+     ]
+    }
+   ],
+   "short": "Complications"
+  },
+  {
    "id": "pearls",
    "title": "Prescriber pearls (UK pharmacist IP)",
    "blocks": [
@@ -267,5 +329,11 @@
    "url": "https://emedicine.medscape.com/article/1069191-overview"
   }
  ],
- "see_also": []
+ "see_also": [
+  "melasma-facial-melanosis",
+  "skin-layers-fitzpatrick",
+  "progressive-macular-hypomelanosis",
+  "contact-lichenoid-pigmentation",
+  "leprosy"
+ ]
 }

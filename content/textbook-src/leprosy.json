@@ -1,0 +1,45 @@
+{
+ "kf": [
+  "Chronic infection of **skin and peripheral nerves** by *Mycobacterium leprae*; curable with **multidrug therapy**, but nerve damage is permanent.",
+  "WHO: about 200,000 new cases a year (India, Brazil, Indonesia); UK about 10–15 cases a year, all acquired abroad.",
+  "Cardinal signs: **hypopigmented or red patch with loss of sensation**, thickened peripheral nerves, acid-fast bacilli on smear.",
+  "Spectrum from tuberculoid (few lesions, strong immunity) to lepromatous (many lesions, weak immunity).",
+  "Refer every suspected case to a national leprosy centre; **reactions** (new nerve pain, weakness, eye symptoms) are urgent. Notifiable."
+ ],
+ "myths": [
+  "**\"Leprosy is highly contagious and makes fingers fall off\"**: it is hard to catch; digit loss follows numbness and injury."
+ ],
+ "patho_lead": "*M. leprae* **lives in Schwann cells**, and the host's immunity shapes the disease.",
+ "mech": [
+  {
+   "k": "Spread",
+   "t": "Droplets from untreated patients after prolonged close contact; long incubation (years)."
+  },
+  {
+   "k": "Nerve invasion",
+   "t": "Bacilli infect Schwann cells in cool peripheral nerves."
+  },
+  {
+   "k": "Immune spectrum",
+   "t": "Strong Th1 response → few granulomatous lesions; weak response → many bacilli."
+  },
+  {
+   "k": "Sensory loss",
+   "t": "Nerve damage causes numb patches and injuries.",
+   "img": "v3-leprosy-sensation-test.jpg",
+   "cap": "Testing sensation in a skin patch."
+  }
+ ],
+ "comp": [
+  "Disability, ulcers, eye damage, stigma; leprosy reactions."
+ ],
+ "prog": [
+  "Cured with MDT (6–12 months); nerve damage persists."
+ ],
+ "see_also": [
+  "cutaneous-tuberculosis",
+  "returning-traveller-skin",
+  "hypopigmentation-skin-of-colour",
+  "cutaneous-leishmaniasis"
+ ]
+}

@@ -1,0 +1,46 @@
+{
+ "kf": [
+  "**Scarring (cicatricial) alopecia** permanently destroys follicles: loss of follicular openings is the key sign.",
+  "Primary lymphocytic: **lichen planopilaris, frontal fibrosing alopecia (FFA), DLE, CCCA**; neutrophilic: **folliculitis decalvans**.",
+  "FFA is rising, mainly in post-menopausal women; CCCA mostly affects women of African descent.",
+  "**Refer early** (PCDS): hair lost is not regained; send photos.",
+  "Don't delay referral for blood tests."
+ ],
+ "myths": [
+  "**\"It will grow back like other hair loss\"**: scarring loss is permanent; early treatment saves the rest."
+ ],
+ "patho_lead": "Inflammation attacks the **follicle stem-cell bulge**, so the follicle can't regrow.",
+ "mech": [
+  {
+   "k": "Bulge attack",
+   "t": "Lymphocytes or neutrophils target the upper follicle, where stem cells live."
+  },
+  {
+   "k": "Stem cell loss",
+   "t": "Without stem cells the follicle can't cycle."
+  },
+  {
+   "k": "Fibrosis",
+   "t": "The follicle is replaced by a fibrous tract and its opening disappears.",
+   "img": "v4-scarring-alopecia-follicle.jpg",
+   "cap": "Inflammation around the upper follicle destroys it, leaving a fibrous tract."
+  },
+  {
+   "k": "Shiny scalp",
+   "t": "The skin loses openings and becomes smooth."
+  }
+ ],
+ "comp": [
+  "Permanent hair loss, distress."
+ ],
+ "prog": [
+  "Treatment slows or stops progression; lost hair doesn't return."
+ ],
+ "see_also": [
+  "alopecia-areata",
+  "androgenetic-alopecia",
+  "telogen-effluvium",
+  "lichen-planus",
+  "discoid-lupus"
+ ]
+}

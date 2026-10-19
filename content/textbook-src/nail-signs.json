@@ -1,0 +1,50 @@
+{
+ "kf": [
+  "Nails record matrix and nail-bed events over months.",
+  "**Matrix** disease: pits, ridges, Beau's lines, leukonychia. **Nail bed**: onycholysis, oil-drop patches, splinters, subungual thickening.",
+  "**Clubbing** with chest symptoms needs a chest X-ray (lung cancer, fibrosis, bronchiectasis).",
+  "New single-digit irregular **melanonychia** or Hutchinson's sign → urgent skin cancer referral.",
+  "Do mycology before long oral antifungals."
+ ],
+ "myths": [
+  "**\"White spots mean calcium deficiency\"**: they are usually minor trauma."
+ ],
+ "patho_lead": "Where the damage is in the nail unit **decides the sign**.",
+ "mech": [
+  {
+   "k": "Matrix",
+   "t": "The matrix makes the plate; damage changes the plate surface (pits, Beau's lines)."
+  },
+  {
+   "k": "Nail bed",
+   "t": "The bed anchors the plate; inflammation lifts it (onycholysis)."
+  },
+  {
+   "k": "Vessels",
+   "t": "Splinters are bed capillary bleeds along longitudinal ridges."
+  },
+  {
+   "k": "Clubbing",
+   "t": "Fingertip soft tissue grows, possibly from platelet-derived growth factors bypassing the lung."
+  },
+  {
+   "k": "Pigment",
+   "t": "Matrix melanocytes form bands.",
+   "img": "v4-melanonychia-band.jpg",
+   "cap": "A longitudinal band begins in the matrix."
+  }
+ ],
+ "comp": [
+  "Missed melanoma or systemic disease."
+ ],
+ "prog": [
+  "Changes grow out over 6 months (fingers) to 12–18 months (toes)."
+ ],
+ "see_also": [
+  "melanonychia",
+  "onychomycosis",
+  "psoriasis",
+  "paronychia",
+  "endocarditis-skin-signs"
+ ]
+}

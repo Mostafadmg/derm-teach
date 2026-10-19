@@ -1,0 +1,50 @@
+{
+ "kf": [
+  "Most skin problems after travel are **common**: bite reactions, impetigo, sunburn, tinea, pityriasis versicolor.",
+  "Take a full travel history: regions, dates, activities, bites, water and animal contact, sexual contact.",
+  "Incubation guides diagnosis: dengue ~4–10 days, CLM days–weeks, leishmaniasis 2 weeks–6+ months, leprosy years.",
+  "**Fever + rash in a traveller** → same-day assessment; consider dengue before NSAIDs.",
+  "Refer exotic or uncertain cases early to ID/tropical medicine; remember notifiable diseases."
+ ],
+ "myths": [
+  "**\"It's just a bite\"**: a sore that won't heal months after travel may be leishmaniasis."
+ ],
+ "patho_lead": "Tropical skin disease follows **how the organism gets in**.",
+ "mech": [
+  {
+   "k": "Vector bites",
+   "t": "Sandflies (leishmaniasis), mosquitoes (dengue) inject pathogens.",
+   "img": "v3-sandfly-fine-mesh.jpg",
+   "cap": "Fine mesh stops sandflies."
+  },
+  {
+   "k": "Skin penetration",
+   "t": "Hookworm larvae burrow through bare skin.",
+   "img": "v3-clm-foot-track.jpg",
+   "cap": "Larva migrans track."
+  },
+  {
+   "k": "Inoculation injury",
+   "t": "Thorns introduce mycetoma organisms."
+  },
+  {
+   "k": "Chronic granuloma",
+   "t": "Some infections form slow granulomatous ulcers.",
+   "img": "v3-leish-volcano-section.jpg",
+   "cap": "Leishmaniasis ulcer."
+  }
+ ],
+ "comp": [
+  "Missed diagnosis and delayed treatment."
+ ],
+ "prog": [
+  "Depends on cause."
+ ],
+ "see_also": [
+  "cutaneous-larva-migrans",
+  "cutaneous-leishmaniasis",
+  "dengue",
+  "leprosy",
+  "mycetoma"
+ ]
+}

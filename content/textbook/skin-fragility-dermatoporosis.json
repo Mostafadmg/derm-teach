@@ -1,10 +1,11 @@
 {
  "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
  "key_facts": [
-  "Painless purple patches on thin sun-damaged forearms after minimal trauma in an older person.",
-  "UV and age destroy dermal support around vessels → easy shear bleeding; advanced form is dermatoporosis with skin tears.",
-  "Reassure, protect (sleeves, pad furniture), daily emollient and sun protection; medication review with the prescriber.",
-  "Palpable purpura, non-exposed-site bruising, mucosal bleeding or safeguarding patterns — investigate / escalate."
+  "**Actinic (senile) purpura**: benign purple patches on thin sun-damaged forearms and hands after minor trauma.",
+  "**Dermatoporosis**: chronic skin insufficiency with atrophy, purpura, stellate pseudoscars and **skin tears**.",
+  "Aggravators: anticoagulants, antiplatelets, corticosteroids (topical, oral, inhaled), SSRIs, fish oil, ginkgo.",
+  "Platelets and clotting are usually normal.",
+  "Protect skin (sleeves, padding, careful transfers); **never stop anticoagulants** just for purpura without review."
  ],
  "sections": [
   {
@@ -24,9 +25,45 @@
       "Aggravators: anticoagulants, antiplatelets, topical/oral/inhaled **corticosteroids**, SSRIs, fish oil/ginkgo/high-dose vitamin E.",
       "Platelets and clotting are usually normal in classic actinic purpura."
      ]
+    },
+    {
+     "h": "Myths to address"
+    },
+    {
+     "ul": [
+      "**\"Bruising like this means a blood disorder\"**: classic actinic purpura has normal clotting; check if bruises are elsewhere."
+     ]
     }
    ],
    "short": "Aetiology"
+  },
+  {
+   "id": "pathophysiology",
+   "title": "Pathophysiology and pathology",
+   "blocks": [
+    "Sun and age **thin the dermis**, so vessels lose support.",
+    {
+     "mech": [
+      {
+       "k": "Collagen loss",
+       "t": "UV and ageing reduce dermal collagen and elastin."
+      },
+      {
+       "k": "Unsupported vessels",
+       "t": "Small vessels rupture with minor shear."
+      },
+      {
+       "k": "Haemosiderin",
+       "t": "Purpura fades to brown staining."
+      },
+      {
+       "k": "Skin tears",
+       "t": "The thin epidermis and dermis separate easily."
+      }
+     ]
+    }
+   ],
+   "short": "Pathophysiology"
   },
   {
    "id": "clinical-features",
@@ -134,6 +171,29 @@
    "short": "Red flags"
   },
   {
+   "id": "complications",
+   "title": "Complications and prognosis",
+   "blocks": [
+    {
+     "h": "Complications"
+    },
+    {
+     "ul": [
+      "Skin tears, infection, delayed healing."
+     ]
+    },
+    {
+     "h": "Prognosis"
+    },
+    {
+     "ul": [
+      "Chronic; protection reduces injuries."
+     ]
+    }
+   ],
+   "short": "Complications"
+  },
+  {
    "id": "pearls",
    "title": "Prescriber pearls (UK pharmacist IP)",
    "blocks": [
@@ -176,5 +236,11 @@
    "url": "https://emedicine.medscape.com/article/1087008-overview"
   }
  ],
- "see_also": []
+ "see_also": [
+  "photoageing",
+  "purpura-differentials",
+  "topical-corticosteroids",
+  "itch-xerosis-older-adults",
+  "wound-aftercare"
+ ]
 }

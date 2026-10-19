@@ -1,10 +1,11 @@
 {
  "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
  "key_facts": [
-  "Sudden crops of small yellow papules with a red rim on the buttocks, elbows or knees, often in poorly controlled diabetes.",
-  "Very high triglycerides leak into the dermis and are taken up by macrophages.",
-  "Fasting lipids, HbA1c, glucose, TSH, LFT, renal function, alcohol and drug review; urgent lipid-lowering and diabetes control.",
-  "Acute pancreatitis (triglycerides >10–20 mmol/L); familial hypercholesterolaemia with tendon xanthomas."
+  "Crops of 1–5 mm **yellow papules with a red halo** on buttocks, extensor limbs and shoulders.",
+  "Marker of **severe hypertriglyceridaemia** (usually TG over 10–20 mmol/L).",
+  "Common drivers: **uncontrolled diabetes**, obesity, alcohol, hypothyroidism, nephrotic syndrome, drugs (oestrogens, retinoids, antipsychotics, steroids).",
+  "Risk of **acute pancreatitis**: check glucose, HbA1c, fasting lipids, TFT, U&E, LFT, urine protein.",
+  "Treat the cause; papules fade over weeks as triglycerides fall."
  ],
  "sections": [
   {
@@ -15,9 +16,47 @@
    ]
   },
   {
+   "id": "aetiology",
+   "title": "Aetiology: causes and risk factors",
+   "blocks": [
+    {
+     "h": "Myths to address"
+    },
+    {
+     "ul": [
+      "**\"They're just spots\"**: they mean dangerously high triglycerides."
+     ]
+    }
+   ],
+   "short": "Aetiology"
+  },
+  {
    "id": "pathophysiology",
    "title": "Pathophysiology and pathology",
    "blocks": [
+    "Lipid **leaks from blood into the dermis** and macrophages eat it.",
+    {
+     "mech": [
+      {
+       "k": "Chylomicronaemia",
+       "t": "Lipoprotein lipase activity falls (e.g. insulin deficiency); triglyceride-rich particles build up."
+      },
+      {
+       "k": "Leak",
+       "t": "Particles cross dermal capillaries."
+      },
+      {
+       "k": "Foam cells",
+       "t": "Macrophages take up the lipid and become foam cells.",
+       "img": "v4-xanthoma-foam-cells.jpg",
+       "caption": "Lipid particles leave dermal capillaries and are engulfed by macrophages, forming foam cells."
+      },
+      {
+       "k": "Resolution",
+       "t": "Lowering triglycerides clears the papules."
+      }
+     ]
+    },
     {
      "h": "How it is caused"
     },
@@ -122,6 +161,29 @@
    "short": "Red flags"
   },
   {
+   "id": "complications",
+   "title": "Complications and prognosis",
+   "blocks": [
+    {
+     "h": "Complications"
+    },
+    {
+     "ul": [
+      "Acute pancreatitis, cardiovascular disease."
+     ]
+    },
+    {
+     "h": "Prognosis"
+    },
+    {
+     "ul": [
+      "Papules clear within weeks to months of control."
+     ]
+    }
+   ],
+   "short": "Complications"
+  },
+  {
    "id": "pearls",
    "title": "Prescriber pearls (UK pharmacist IP)",
    "blocks": [
@@ -163,5 +225,9 @@
    "url": "https://emedicine.medscape.com/article/1103971-overview"
   }
  ],
- "see_also": []
+ "see_also": [
+  "acanthosis-nigricans",
+  "cushings-syndrome-skin",
+  "retinoids"
+ ]
 }

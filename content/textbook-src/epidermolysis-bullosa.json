@@ -1,0 +1,47 @@
+{
+ "kf": [
+  "**Inherited** skin fragility: blisters after **minimal trauma** due to defective adhesion proteins.",
+  "Types by split level: **EB simplex** (keratins 5/14, intraepidermal), **junctional** (laminin-332, lamina lucida), **dystrophic** (type VII collagen, below lamina densa, scarring), **Kindler**.",
+  "Differs from **EB acquisita**, an autoimmune adult disease.",
+  "Refer urgently any baby with unexplained blistering to the EB team.",
+  "Handle gently: no adhesive tapes, lift on a soft pad, silicone dressings; don't lance blisters unless trained."
+ ],
+ "myths": [
+  "**\"EB is contagious\"**: it is genetic."
+ ],
+ "patho_lead": "The **level of the missing glue** decides EB type and severity.",
+ "mech": [
+  {
+   "k": "Keratin defect (EBS)",
+   "t": "Basal keratinocytes break under friction."
+  },
+  {
+   "k": "Lamina lucida defect (JEB)",
+   "t": "Laminin-332 or integrin loss separates epidermis from basement membrane."
+  },
+  {
+   "k": "Anchoring fibril defect (DEB)",
+   "t": "Type VII collagen loss splits the skin beneath the basement membrane, healing with scars and milia.",
+   "img": "v4-eb-split-levels.jpg",
+   "cap": "EB types split at different levels: within the basal cells, in the basement membrane, or beneath it."
+  },
+  {
+   "k": "Fragile skin",
+   "t": "Everyday friction tears skin.",
+   "img": "eb-skin-fragility.jpg",
+   "cap": "Skin fragility in EB."
+  }
+ ],
+ "comp": [
+  "Infection, malnutrition, anaemia, strictures, fusion of fingers (DEB), aggressive SCC (recessive DEB)."
+ ],
+ "prog": [
+  "EBS often improves with age; severe JEB and recessive DEB are life-limiting."
+ ],
+ "see_also": [
+  "blistering-approach",
+  "bullous-pemphigoid",
+  "aplasia-cutis",
+  "milia"
+ ]
+}

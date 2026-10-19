@@ -1,10 +1,11 @@
 {
  "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
  "key_facts": [
-  "Any **rash, ulcer, lump or creeping track** in someone who has travelled or migrated in the past year.",
-  "**Exposure-specific infections** (sandflies, mosquitoes, soil, water, animals) plus common UK conditions acquired abroad.",
-  "Full **travel and exposure history**, examine all skin, **exclude malaria the same day if febrile**, use UK tropical-medicine advice routes.",
-  "**Fever** (malaria, dengue, rickettsia, typhoid), **mucosal leishmaniasis**, **numb patches** (leprosy)."
+  "Most skin problems after travel are **common**: bite reactions, impetigo, sunburn, tinea, pityriasis versicolor.",
+  "Take a full travel history: regions, dates, activities, bites, water and animal contact, sexual contact.",
+  "Incubation guides diagnosis: dengue ~4–10 days, CLM days–weeks, leishmaniasis 2 weeks–6+ months, leprosy years.",
+  "**Fever + rash in a traveller** → same-day assessment; consider dengue before NSAIDs.",
+  "Refer exotic or uncertain cases early to ID/tropical medicine; remember notifiable diseases."
  ],
  "sections": [
   {
@@ -36,14 +37,49 @@
      ]
     },
     {
-     "fig": {
-      "ai": "v3-sandfly-fine-mesh.jpg",
-      "caption": "Prevention advice for the next trip includes fine-mesh nets: sandflies pass through standard mosquito nets.",
-      "alt": "Coarse net with sandfly versus fine mesh"
-     }
+     "h": "Myths to address"
+    },
+    {
+     "ul": [
+      "**\"It's just a bite\"**: a sore that won't heal months after travel may be leishmaniasis."
+     ]
     }
    ],
    "short": "Aetiology"
+  },
+  {
+   "id": "pathophysiology",
+   "title": "Pathophysiology and pathology",
+   "blocks": [
+    "Tropical skin disease follows **how the organism gets in**.",
+    {
+     "mech": [
+      {
+       "k": "Vector bites",
+       "t": "Sandflies (leishmaniasis), mosquitoes (dengue) inject pathogens.",
+       "img": "v3-sandfly-fine-mesh.jpg",
+       "caption": "Fine mesh stops sandflies."
+      },
+      {
+       "k": "Skin penetration",
+       "t": "Hookworm larvae burrow through bare skin.",
+       "img": "v3-clm-foot-track.jpg",
+       "caption": "Larva migrans track."
+      },
+      {
+       "k": "Inoculation injury",
+       "t": "Thorns introduce mycetoma organisms."
+      },
+      {
+       "k": "Chronic granuloma",
+       "t": "Some infections form slow granulomatous ulcers.",
+       "img": "v3-leish-volcano-section.jpg",
+       "caption": "Leishmaniasis ulcer."
+      }
+     ]
+    }
+   ],
+   "short": "Pathophysiology"
   },
   {
    "id": "clinical-features",
@@ -91,20 +127,6 @@
      "fig": {
       "dermnet": "m5w4:W4B01"
      }
-    },
-    {
-     "figs": [
-      {
-       "ai": "v3-clm-foot-track.jpg",
-       "caption": "Creeping itchy track on the foot after a tropical beach: cutaneous larva migrans.",
-       "alt": "Foot with serpiginous track"
-      },
-      {
-       "ai": "v3-leish-volcano-section.jpg",
-       "caption": "Painless ‘volcano’ ulcer weeks after travel: think cutaneous leishmaniasis.",
-       "alt": "Cross-section of a crusted crater ulcer"
-      }
-     ]
     },
     {
      "h": "Patterns to link"
@@ -267,6 +289,29 @@
    "short": "Red flags"
   },
   {
+   "id": "complications",
+   "title": "Complications and prognosis",
+   "blocks": [
+    {
+     "h": "Complications"
+    },
+    {
+     "ul": [
+      "Missed diagnosis and delayed treatment."
+     ]
+    },
+    {
+     "h": "Prognosis"
+    },
+    {
+     "ul": [
+      "Depends on cause."
+     ]
+    }
+   ],
+   "short": "Complications"
+  },
+  {
    "id": "pearls",
    "title": "Prescriber pearls (UK pharmacist IP)",
    "blocks": [
@@ -308,5 +353,11 @@
   }
  ],
  "references": [],
- "see_also": []
+ "see_also": [
+  "cutaneous-larva-migrans",
+  "cutaneous-leishmaniasis",
+  "dengue",
+  "leprosy",
+  "mycetoma"
+ ]
 }

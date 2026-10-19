@@ -1,0 +1,43 @@
+{
+ "kf": [
+  "Lung cancer is the commonest cause of UK cancer death; skin signs may be the first clue.",
+  "**Paraneoplastic**: clubbing/HPOA, dermatomyositis, acanthosis/tripe palms, ectopic ACTH pigmentation.",
+  "**Local**: SVC obstruction (facial swelling, distended chest veins), Horner's syndrome; **direct**: skin metastases (chest wall, scalp).",
+  "**Treatment-related**: EGFR-inhibitor acneiform rash, checkpoint-inhibitor rashes.",
+  "Use smoking history as a red-flag multiplier; refer per NICE NG12. SVC obstruction is same-day."
+ ],
+ "myths": [
+  "**\"An acne-like rash on cancer treatment means stop the drug\"**: EGFR rashes are managed with oncology protocols and often signal response."
+ ],
+ "patho_lead": "Tumours affect skin through **growth factors, hormones, immunity and spread**.",
+ "mech": [
+  {
+   "k": "Growth factors",
+   "t": "VEGF and PDGF (from platelet clumps bypassing the lung) drive clubbing and HPOA."
+  },
+  {
+   "k": "Ectopic hormones",
+   "t": "Small-cell tumours make ACTH: pigmentation, hypokalaemia."
+  },
+  {
+   "k": "Immune cross-reaction",
+   "t": "Anti-tumour immunity cross-reacts with skin and muscle (dermatomyositis)."
+  },
+  {
+   "k": "Spread and obstruction",
+   "t": "Metastases and SVC compression."
+  }
+ ],
+ "comp": [
+  "Late diagnosis; treatment interruptions."
+ ],
+ "prog": [
+  "Depends on cancer stage."
+ ],
+ "see_also": [
+  "nail-signs",
+  "dermatomyositis",
+  "acanthosis-nigricans",
+  "melanoma-immunotherapy"
+ ]
+}

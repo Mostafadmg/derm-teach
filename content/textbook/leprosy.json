@@ -1,10 +1,11 @@
 {
  "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
  "key_facts": [
-  "**Hypopigmented or red patches with reduced sensation**, thickened nerves, painless burns or ulcers, in someone from an endemic country.",
-  "*M. leprae* infects **Schwann cells and macrophages**; immunity sets the tuberculoid–lepromatous position.",
-  "Refer to the **UK leprosy service** (Hospital for Tropical Diseases); WHO MDT; address stigma; protect numb hands and feet.",
-  "**Type 1 (reversal) reactions** and **ENL**: nerve pain, weakness or painful nodules need urgent specialist steroids."
+  "Chronic infection of **skin and peripheral nerves** by *Mycobacterium leprae*; curable with **multidrug therapy**, but nerve damage is permanent.",
+  "WHO: about 200,000 new cases a year (India, Brazil, Indonesia); UK about 10–15 cases a year, all acquired abroad.",
+  "Cardinal signs: **hypopigmented or red patch with loss of sensation**, thickened peripheral nerves, acid-fast bacilli on smear.",
+  "Spectrum from tuberculoid (few lesions, strong immunity) to lepromatous (many lesions, weak immunity).",
+  "Refer every suspected case to a national leprosy centre; **reactions** (new nerve pain, weakness, eye symptoms) are urgent. Notifiable."
  ],
  "sections": [
   {
@@ -34,9 +35,47 @@
       "**Nerve damage:** bacilli invade **Schwann cells**. This leads to sensory loss (temperature first, then light touch, pain, pressure), then autonomic loss (dry skin, anhidrosis), then motor loss (claw hand, foot drop, lagophthalmos).",
       "**Lepra reactions** are immune flare-ups and cause most of the disability. They occur in **30–50%** of patients, before, **during** or after MDT: **Type 1 (reversal) reaction:** delayed-type hypersensitivity in **borderline** disease (BT/BB/BL). Existing lesions become red, swollen and tender, with **acute neuritis**; **Type 2 reaction = erythema nodosum leprosum (ENL):** an **immune-complex** (type III) systemic vasculitis/panniculitis in **LL/BL** (high bacillary load). Antigens from dying bacilli form antibody complexes that deposit in vessels and tissues, with high TNF-α. This is why Case 4 has **recurrent bouts of fever, joint pain and painful red nodules** on the legs and abdomen"
      ]
+    },
+    {
+     "h": "Myths to address"
+    },
+    {
+     "ul": [
+      "**\"Leprosy is highly contagious and makes fingers fall off\"**: it is hard to catch; digit loss follows numbness and injury."
+     ]
     }
    ],
    "short": "Aetiology"
+  },
+  {
+   "id": "pathophysiology",
+   "title": "Pathophysiology and pathology",
+   "blocks": [
+    "*M. leprae* **lives in Schwann cells**, and the host's immunity shapes the disease.",
+    {
+     "mech": [
+      {
+       "k": "Spread",
+       "t": "Droplets from untreated patients after prolonged close contact; long incubation (years)."
+      },
+      {
+       "k": "Nerve invasion",
+       "t": "Bacilli infect Schwann cells in cool peripheral nerves."
+      },
+      {
+       "k": "Immune spectrum",
+       "t": "Strong Th1 response → few granulomatous lesions; weak response → many bacilli."
+      },
+      {
+       "k": "Sensory loss",
+       "t": "Nerve damage causes numb patches and injuries.",
+       "img": "v3-leprosy-sensation-test.jpg",
+       "caption": "Testing sensation in a skin patch."
+      }
+     ]
+    }
+   ],
+   "short": "Pathophysiology"
   },
   {
    "id": "clinical-features",
@@ -152,13 +191,6 @@
     {
      "fig": {
       "dermnet": "m5w4:W4D06"
-     }
-    },
-    {
-     "fig": {
-      "ai": "v3-leprosy-sensation-test.jpg",
-      "caption": "Test every pale patch for sensation with a wisp of cotton wool (and warm / cold, monofilament). A numb, dry, hairless patch is leprosy until proven otherwise.",
-      "alt": "Gloved hand touching a pale forearm patch with cotton wool"
      }
     },
     {
@@ -383,6 +415,29 @@
    "short": "Red flags"
   },
   {
+   "id": "complications",
+   "title": "Complications and prognosis",
+   "blocks": [
+    {
+     "h": "Complications"
+    },
+    {
+     "ul": [
+      "Disability, ulcers, eye damage, stigma; leprosy reactions."
+     ]
+    },
+    {
+     "h": "Prognosis"
+    },
+    {
+     "ul": [
+      "Cured with MDT (6–12 months); nerve damage persists."
+     ]
+    }
+   ],
+   "short": "Complications"
+  },
+  {
    "id": "pearls",
    "title": "Prescriber pearls (UK pharmacist IP)",
    "blocks": [
@@ -427,5 +482,10 @@
    "url": "https://emedicine.medscape.com/article/220455-overview"
   }
  ],
- "see_also": []
+ "see_also": [
+  "cutaneous-tuberculosis",
+  "returning-traveller-skin",
+  "hypopigmentation-skin-of-colour",
+  "cutaneous-leishmaniasis"
+ ]
 }

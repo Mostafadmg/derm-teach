@@ -1,0 +1,44 @@
+{
+ "kf": [
+  "Chronic granulomatous infection of skin, fascia and bone from soil organisms entering through minor injury.",
+  "Triad: **painless firm swelling, multiple sinuses, discharge with grains**.",
+  "Two forms: **eumycetoma** (fungal, e.g. *Madurella*) and **actinomycetoma** (bacterial, *Nocardia*, *Actinomadura*).",
+  "Usually the foot in rural workers in the tropical \"mycetoma belt\"; WHO neglected tropical disease since 2016.",
+  "Refer to ID/tropical medicine; **don't incise or partially excise** in primary care."
+ ],
+ "myths": [
+  "**\"It's recurrent cellulitis\"**: repeated antibiotics miss the diagnosis."
+ ],
+ "patho_lead": "Organisms form **grains** that the body walls off but cannot clear.",
+ "mech": [
+  {
+   "k": "Inoculation",
+   "t": "Thorns or splinters introduce organisms."
+  },
+  {
+   "k": "Grain formation",
+   "t": "Organisms grow as compact colonies (grains) in tissue."
+  },
+  {
+   "k": "Granulomas and sinuses",
+   "t": "Inflammation forms abscesses that drain grains through sinuses.",
+   "img": "v3-mycetoma-foot-grains.jpg",
+   "cap": "Mycetoma foot with sinuses discharging grains."
+  },
+  {
+   "k": "Bone spread",
+   "t": "Infection invades fascia and bone."
+  }
+ ],
+ "comp": [
+  "Bone destruction, deformity, amputation, secondary infection."
+ ],
+ "prog": [
+  "Actinomycetoma responds to antibiotics; eumycetoma often needs surgery plus long antifungals."
+ ],
+ "see_also": [
+  "returning-traveller-skin",
+  "cutaneous-tuberculosis",
+  "cutaneous-leishmaniasis"
+ ]
+}

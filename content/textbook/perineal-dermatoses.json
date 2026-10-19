@@ -1,16 +1,18 @@
 {
  "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
  "key_facts": [
-  "**Flesh-coloured coalescing genital papules** after sexual contact, or a **recurrent painful groin nodule** with scarring.",
-  "Low-risk **HPV 6 / 11** in basal keratinocytes (warts); **follicular occlusion and autoinflammation** in HS.",
-  "Warts: expectant care, **podophyllotoxin / imiquimod / cryotherapy** via sexual-health pathways + HPV vaccine catch-up. Groin HS: smoking / weight, antiseptic wash, topical clindamycin ± doxycycline.",
-  "Don’t call every papule a wart (**PPP / Fordyce are normal**). Chronic white itchy scarring → **lichen sclerosus**. **Children with anogenital warts** → safeguarding-aware specialist."
+  "**Anogenital warts**: HPV 6/11; about 30% regress in months, so no treatment is a valid choice.",
+  "Patient-applied: podophyllotoxin or imiquimod per SmPC (avoid podophyllotoxin in pregnancy); clinic: cryotherapy, TCA, excision.",
+  "Recurrence is common; offer sexual health screening and HPV vaccination where eligible.",
+  "Normal variants to recognise: **pearly penile papules**, Fordyce spots.",
+  "Groin HS, molluscum, candidal intertrigo and lichen sclerosus are key differentials."
  ],
  "sections": [
   {
    "id": "overview",
    "title": "Overview",
    "blocks": [
+    "This page groups **perineal papules and fold conditions**: anogenital warts in depth, plus short sections on groin hidradenitis and look-alikes.",
     "Module 3 Week 4 focuses on **perineal papules and folds**: full coverage of **anogenital warts**, a **groin hidradenitis** bridge to the Week 5 HS deep-dive, and a short differential set (molluscum, pearly penile papules, Fordyce spots, candidal intertrigo, lichen sclerosus).",
     "Cutaneous viral warts are separate: [viral warts](condition:viral-warts). Candidal folds also deepen on [candida / intertrigo](condition:candida-intertrigo)."
    ]
@@ -26,9 +28,47 @@
       "Molluscum: poxvirus; genital adult disease may be STI-context.",
       "PPP and Fordyce: normal anatomical variants (angiofibromas; ectopic sebaceous glands)."
      ]
+    },
+    {
+     "h": "Myths to address"
+    },
+    {
+     "ul": [
+      "**\"Warts mean a partner was unfaithful\"**: incubation can be months to years."
+     ]
     }
    ],
    "short": "Aetiology"
+  },
+  {
+   "id": "pathophysiology",
+   "title": "Pathophysiology and pathology",
+   "blocks": [
+    "HPV **infects basal keratinocytes** through tiny abrasions.",
+    {
+     "mech": [
+      {
+       "k": "Entry",
+       "t": "Microabrasions expose basal cells to HPV."
+      },
+      {
+       "k": "Replication",
+       "t": "Viral genes drive keratinocyte proliferation."
+      },
+      {
+       "k": "Latency",
+       "t": "Virus persists in normal-looking skin, causing recurrence."
+      },
+      {
+       "k": "Groin HS",
+       "t": "Follicular occlusion in apocrine folds forms tunnels.",
+       "img": "v3-hs-hurley-stages.jpg",
+       "caption": "Hurley stages of hidradenitis."
+      }
+     ]
+    }
+   ],
+   "short": "Pathophysiology"
   },
   {
    "id": "clinical-features",
@@ -88,13 +128,6 @@
     {
      "fig": {
       "dermnet": "m3w4:W4A01"
-     }
-    },
-    {
-     "fig": {
-      "ai": "v3-hs-hurley-stages.jpg",
-      "caption": "Hurley staging of hidradenitis: I nodules / abscesses without tunnels; II separate tunnels with scarring; III interconnected tunnels across the area.",
-      "alt": "Three skin cross-sections showing Hurley I–III"
      }
     },
     {
@@ -309,6 +342,29 @@
    "short": "Red flags"
   },
   {
+   "id": "complications",
+   "title": "Complications and prognosis",
+   "blocks": [
+    {
+     "h": "Complications"
+    },
+    {
+     "ul": [
+      "Psychosexual distress, recurrence; rare high-risk HPV dysplasia."
+     ]
+    },
+    {
+     "h": "Prognosis"
+    },
+    {
+     "ul": [
+      "Many clear within a year."
+     ]
+    }
+   ],
+   "short": "Complications"
+  },
+  {
    "id": "pearls",
    "title": "Prescriber pearls (UK pharmacist IP)",
    "blocks": [
@@ -349,5 +405,9 @@
    "url": "https://emedicine.medscape.com/article/1123423-overview"
   }
  ],
- "see_also": []
+ "see_also": [
+  "viral-warts",
+  "hidradenitis-suppurativa",
+  "candida-intertrigo"
+ ]
 }

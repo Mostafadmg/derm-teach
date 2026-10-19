@@ -1,10 +1,11 @@
 {
  "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
  "key_facts": [
-  "A **painless, slowly enlarging swollen foot** with **multiple discharging sinuses** in someone from an endemic tropical area.",
-  "Soil **fungi (eumycetoma)** or **actinomycete bacteria (actinomycetoma)** implanted by a thorn or wound form **grains** in deep tissue.",
-  "Specialist diagnosis (grain culture, deep biopsy, imaging); long antibiotics for actinomycetoma; antifungals + surgery for eumycetoma.",
-  "**Bone involvement** and late presentation → amputation; other causes of sinuses (TB, osteomyelitis, HS)."
+  "Chronic granulomatous infection of skin, fascia and bone from soil organisms entering through minor injury.",
+  "Triad: **painless firm swelling, multiple sinuses, discharge with grains**.",
+  "Two forms: **eumycetoma** (fungal, e.g. *Madurella*) and **actinomycetoma** (bacterial, *Nocardia*, *Actinomadura*).",
+  "Usually the foot in rural workers in the tropical \"mycetoma belt\"; WHO neglected tropical disease since 2016.",
+  "Refer to ID/tropical medicine; **don't incise or partially excise** in primary care."
  ],
  "sections": [
   {
@@ -41,9 +42,47 @@
       "**Actinomycetoma** tends to be more inflammatory, spreads faster and **invades bone earlier**. **Eumycetoma** is slower, better encapsulated and more localised.",
       "**Grain colour hints at the cause:** **black** = eumycetoma (*Madurella*, *Trematosphaeria*, *Falciformispora*); **white/pale** = eumycetoma (*Scedosporium*, *Fusarium*, *Acremonium*) or actinomycetoma (*Nocardia*, *Actinomadura madurae*); **red/pink** = *Actinomadura pelletieri*; **yellow/brown** = *Streptomyces somaliensis*"
      ]
+    },
+    {
+     "h": "Myths to address"
+    },
+    {
+     "ul": [
+      "**\"It's recurrent cellulitis\"**: repeated antibiotics miss the diagnosis."
+     ]
     }
    ],
    "short": "Aetiology"
+  },
+  {
+   "id": "pathophysiology",
+   "title": "Pathophysiology and pathology",
+   "blocks": [
+    "Organisms form **grains** that the body walls off but cannot clear.",
+    {
+     "mech": [
+      {
+       "k": "Inoculation",
+       "t": "Thorns or splinters introduce organisms."
+      },
+      {
+       "k": "Grain formation",
+       "t": "Organisms grow as compact colonies (grains) in tissue."
+      },
+      {
+       "k": "Granulomas and sinuses",
+       "t": "Inflammation forms abscesses that drain grains through sinuses.",
+       "img": "v3-mycetoma-foot-grains.jpg",
+       "caption": "Mycetoma foot with sinuses discharging grains."
+      },
+      {
+       "k": "Bone spread",
+       "t": "Infection invades fascia and bone."
+      }
+     ]
+    }
+   ],
+   "short": "Pathophysiology"
   },
   {
    "id": "clinical-features",
@@ -61,13 +100,6 @@
     {
      "fig": {
       "dermnet": "m5w4:W4E01"
-     }
-    },
-    {
-     "fig": {
-      "ai": "v3-mycetoma-foot-grains.jpg",
-      "caption": "Mycetoma: a swollen forefoot with multiple sinus openings discharging fluid containing tiny grains; shake the gauze in saline to see them (black grains suggest a fungal cause).",
-      "alt": "Swollen foot with discharging sinuses and inset of black grains on gauze"
      }
     },
     {
@@ -246,6 +278,29 @@
    "short": "Red flags"
   },
   {
+   "id": "complications",
+   "title": "Complications and prognosis",
+   "blocks": [
+    {
+     "h": "Complications"
+    },
+    {
+     "ul": [
+      "Bone destruction, deformity, amputation, secondary infection."
+     ]
+    },
+    {
+     "h": "Prognosis"
+    },
+    {
+     "ul": [
+      "Actinomycetoma responds to antibiotics; eumycetoma often needs surgery plus long antifungals."
+     ]
+    }
+   ],
+   "short": "Complications"
+  },
+  {
    "id": "pearls",
    "title": "Prescriber pearls (UK pharmacist IP)",
    "blocks": [
@@ -287,5 +342,9 @@
    "url": "https://emedicine.medscape.com/article/211459-overview"
   }
  ],
- "see_also": []
+ "see_also": [
+  "returning-traveller-skin",
+  "cutaneous-tuberculosis",
+  "cutaneous-leishmaniasis"
+ ]
 }

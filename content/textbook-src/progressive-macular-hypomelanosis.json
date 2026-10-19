@@ -1,0 +1,38 @@
+{
+ "kf": [
+  "Benign, ill-defined, **non-scaly pale macules** merging on the trunk; no itch or prior inflammation.",
+  "Common in young adults, especially with darker skin; slowly progressive, may improve after mid-life.",
+  "Wood's lamp often shows **follicular red fluorescence** (*Cutibacterium acnes*).",
+  "Differentials: pityriasis versicolor (fine scale, yeast), PIH, vitiligo (chalk-white), leprosy (numb).",
+  "Options with variable evidence: benzoyl peroxide ± clindamycin, NB-UVB, oral tetracycline; relapse is common."
+ ],
+ "myths": [
+  "**\"It's fungal, so antifungals will fix it\"**: it doesn't scale and doesn't respond."
+ ],
+ "patho_lead": "A follicular bacterium is thought to **reduce melanin production** in nearby skin.",
+ "mech": [
+  {
+   "k": "C. acnes in follicles",
+   "t": "Bacteria in follicles may produce a depigmenting factor."
+  },
+  {
+   "k": "Less melanin",
+   "t": "Melanocyte numbers stay normal but melanin falls."
+  },
+  {
+   "k": "Altered melanosomes",
+   "t": "Melanosome packaging changes on electron microscopy."
+  }
+ ],
+ "comp": [
+  "Cosmetic concern."
+ ],
+ "prog": [
+  "Slowly progressive; may stabilise."
+ ],
+ "see_also": [
+  "pityriasis-versicolor",
+  "hypopigmentation-skin-of-colour",
+  "acne-vulgaris"
+ ]
+}

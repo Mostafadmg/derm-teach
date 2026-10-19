@@ -1,0 +1,44 @@
+{
+ "kf": [
+  "Crops of 1–5 mm **yellow papules with a red halo** on buttocks, extensor limbs and shoulders.",
+  "Marker of **severe hypertriglyceridaemia** (usually TG over 10–20 mmol/L).",
+  "Common drivers: **uncontrolled diabetes**, obesity, alcohol, hypothyroidism, nephrotic syndrome, drugs (oestrogens, retinoids, antipsychotics, steroids).",
+  "Risk of **acute pancreatitis**: check glucose, HbA1c, fasting lipids, TFT, U&E, LFT, urine protein.",
+  "Treat the cause; papules fade over weeks as triglycerides fall."
+ ],
+ "myths": [
+  "**\"They're just spots\"**: they mean dangerously high triglycerides."
+ ],
+ "patho_lead": "Lipid **leaks from blood into the dermis** and macrophages eat it.",
+ "mech": [
+  {
+   "k": "Chylomicronaemia",
+   "t": "Lipoprotein lipase activity falls (e.g. insulin deficiency); triglyceride-rich particles build up."
+  },
+  {
+   "k": "Leak",
+   "t": "Particles cross dermal capillaries."
+  },
+  {
+   "k": "Foam cells",
+   "t": "Macrophages take up the lipid and become foam cells.",
+   "img": "v4-xanthoma-foam-cells.jpg",
+   "cap": "Lipid particles leave dermal capillaries and are engulfed by macrophages, forming foam cells."
+  },
+  {
+   "k": "Resolution",
+   "t": "Lowering triglycerides clears the papules."
+  }
+ ],
+ "comp": [
+  "Acute pancreatitis, cardiovascular disease."
+ ],
+ "prog": [
+  "Papules clear within weeks to months of control."
+ ],
+ "see_also": [
+  "acanthosis-nigricans",
+  "cushings-syndrome-skin",
+  "retinoids"
+ ]
+}

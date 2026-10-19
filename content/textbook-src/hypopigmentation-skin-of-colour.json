@@ -1,0 +1,46 @@
+{
+ "kf": [
+  "In skin of colour, **post-inflammatory hyperpigmentation** and flexural darkening are everyday problems; true **depigmentation** (vitiligo, piebaldism) is separate.",
+  "Treat the driver of PIH (acne, eczema, shaving friction); daily tinted broad-spectrum sunscreen; azelaic acid.",
+  "Warn about **unlicensed bleaching creams** (mercury, potent steroids, high-strength hydroquinone).",
+  "Piebaldism is congenital and stable (white forelock); vitiligo is acquired and autoimmune.",
+  "Pale patches: think pityriasis alba, PIH (hypo), pityriasis versicolor, PMH, vitiligo, leprosy (numb)."
+ ],
+ "myths": [
+  "**\"Bleaching creams are safe cosmetics\"**: illegal products cause steroid damage, ochronosis and mercury toxicity."
+ ],
+ "patho_lead": "Pigment change after inflammation depends on **where the melanin ends up**.",
+ "mech": [
+  {
+   "k": "Epidermal PIH",
+   "t": "Inflamed melanocytes over-produce pigment in the epidermis: brown, fades in months."
+  },
+  {
+   "k": "Dermal PIH",
+   "t": "Basal damage drops pigment into the dermis: grey-blue, slow to fade.",
+   "img": "v4-pigment-incontinence.jpg",
+   "cap": "Pigment incontinence makes deeper, greyer pigment."
+  },
+  {
+   "k": "Hypopigmentation",
+   "t": "Inflammation may reduce melanin transfer, leaving pale areas."
+  },
+  {
+   "k": "Depigmentation",
+   "t": "Absent melanocytes (vitiligo, piebaldism) give chalk-white skin."
+  }
+ ],
+ "comp": [
+  "Psychological impact; harm from bleaching products."
+ ],
+ "prog": [
+  "PIH fades over months to years if the trigger stops."
+ ],
+ "see_also": [
+  "melasma-facial-melanosis",
+  "skin-layers-fitzpatrick",
+  "progressive-macular-hypomelanosis",
+  "contact-lichenoid-pigmentation",
+  "leprosy"
+ ]
+}

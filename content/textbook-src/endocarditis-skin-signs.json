@@ -1,0 +1,45 @@
+{
+ "kf": [
+  "Classic peripheral signs of **infective endocarditis**: Osler nodes, Janeway lesions, splinter haemorrhages, petechiae, Roth spots.",
+  "**Osler nodes** are **tender** nodules on finger and toe pads; **Janeway lesions** are **painless** macules on palms and soles.",
+  "Each sign is now seen in under 10–15% of cases because IE is diagnosed earlier.",
+  "Fever + new murmur or IE risk + embolic signs → **same-day hospital assessment**.",
+  "**Don't start oral antibiotics before blood cultures**; routine dental prophylaxis is not recommended (NICE CG64)."
+ ],
+ "myths": [
+  "**\"Splinter haemorrhages mean endocarditis\"**: most are from trauma; distal, few and in manual workers is typical."
+ ],
+ "patho_lead": "Skin signs come from **infected emboli and immune complexes** shed from the valve.",
+ "mech": [
+  {
+   "k": "Vegetation",
+   "t": "Bacteria colonise a damaged or prosthetic valve, forming a vegetation."
+  },
+  {
+   "k": "Septic microemboli",
+   "t": "Fragments lodge in small skin vessels: Janeway lesions, splinters, petechiae.",
+   "img": "v4-ie-microemboli.jpg",
+   "cap": "Fragments of a valve vegetation travel to small vessels in the fingertips and palms."
+  },
+  {
+   "k": "Immune complexes",
+   "t": "Circulating immune complexes cause vasculitis: Osler nodes, Roth spots."
+  },
+  {
+   "k": "Systemic spread",
+   "t": "Emboli also reach brain, kidney and spleen."
+  }
+ ],
+ "comp": [
+  "Heart failure, stroke, abscesses, kidney injury."
+ ],
+ "prog": [
+  "Depends on organism and speed of treatment."
+ ],
+ "see_also": [
+  "cutaneous-vasculitis-approach",
+  "nail-signs",
+  "purpura-differentials",
+  "leukocytoclastic-vasculitis"
+ ]
+}

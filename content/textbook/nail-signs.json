@@ -1,10 +1,11 @@
 {
  "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
  "key_facts": [
-  "Pits, oil-drop patches, lifting nails, transverse grooves, or a bulbous fingertip.",
-  "Psoriasis in the nail matrix and bed; a temporary halt in nail growth (Beau’s lines); tissue proliferation in clubbing.",
-  "Link the nail to the whole patient: joints for psoriasis, recent illness or drugs for Beau’s lines, a systemic review for clubbing.",
-  "New clubbing (lung cancer, fibrosis, endocarditis, IBD, cirrhosis)."
+  "Nails record matrix and nail-bed events over months.",
+  "**Matrix** disease: pits, ridges, Beau's lines, leukonychia. **Nail bed**: onycholysis, oil-drop patches, splinters, subungual thickening.",
+  "**Clubbing** with chest symptoms needs a chest X-ray (lung cancer, fibrosis, bronchiectasis).",
+  "New single-digit irregular **melanonychia** or Hutchinson's sign → urgent skin cancer referral.",
+  "Do mycology before long oral antifungals."
  ],
  "sections": [
   {
@@ -24,9 +25,51 @@
       "**Nail-bed** disease changes how the plate attaches and its colour: onycholysis, oil-drop patches, splinter haemorrhages, subungual thickening.",
       "**Clubbing** reflects soft-tissue overgrowth of the fingertip, thought to be driven by platelet-derived growth factors bypassing the lung capillaries."
      ]
+    },
+    {
+     "h": "Myths to address"
+    },
+    {
+     "ul": [
+      "**\"White spots mean calcium deficiency\"**: they are usually minor trauma."
+     ]
     }
    ],
    "short": "Aetiology"
+  },
+  {
+   "id": "pathophysiology",
+   "title": "Pathophysiology and pathology",
+   "blocks": [
+    "Where the damage is in the nail unit **decides the sign**.",
+    {
+     "mech": [
+      {
+       "k": "Matrix",
+       "t": "The matrix makes the plate; damage changes the plate surface (pits, Beau's lines)."
+      },
+      {
+       "k": "Nail bed",
+       "t": "The bed anchors the plate; inflammation lifts it (onycholysis)."
+      },
+      {
+       "k": "Vessels",
+       "t": "Splinters are bed capillary bleeds along longitudinal ridges."
+      },
+      {
+       "k": "Clubbing",
+       "t": "Fingertip soft tissue grows, possibly from platelet-derived growth factors bypassing the lung."
+      },
+      {
+       "k": "Pigment",
+       "t": "Matrix melanocytes form bands.",
+       "img": "v4-melanonychia-band.jpg",
+       "caption": "A longitudinal band begins in the matrix."
+      }
+     ]
+    }
+   ],
+   "short": "Pathophysiology"
   },
   {
    "id": "clinical-features",
@@ -187,6 +230,29 @@
    "short": "Red flags"
   },
   {
+   "id": "complications",
+   "title": "Complications and prognosis",
+   "blocks": [
+    {
+     "h": "Complications"
+    },
+    {
+     "ul": [
+      "Missed melanoma or systemic disease."
+     ]
+    },
+    {
+     "h": "Prognosis"
+    },
+    {
+     "ul": [
+      "Changes grow out over 6 months (fingers) to 12–18 months (toes)."
+     ]
+    }
+   ],
+   "short": "Complications"
+  },
+  {
    "id": "pearls",
    "title": "Prescriber pearls (UK pharmacist IP)",
    "blocks": [
@@ -229,5 +295,11 @@
    "url": "https://emedicine.medscape.com/article/1105738-overview"
   }
  ],
- "see_also": []
+ "see_also": [
+  "melanonychia",
+  "onychomycosis",
+  "psoriasis",
+  "paronychia",
+  "endocarditis-skin-signs"
+ ]
 }

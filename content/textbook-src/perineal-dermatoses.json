@@ -1,0 +1,47 @@
+{
+ "overview_pre": [
+  "This page groups **perineal papules and fold conditions**: anogenital warts in depth, plus short sections on groin hidradenitis and look-alikes."
+ ],
+ "kf": [
+  "**Anogenital warts**: HPV 6/11; about 30% regress in months, so no treatment is a valid choice.",
+  "Patient-applied: podophyllotoxin or imiquimod per SmPC (avoid podophyllotoxin in pregnancy); clinic: cryotherapy, TCA, excision.",
+  "Recurrence is common; offer sexual health screening and HPV vaccination where eligible.",
+  "Normal variants to recognise: **pearly penile papules**, Fordyce spots.",
+  "Groin HS, molluscum, candidal intertrigo and lichen sclerosus are key differentials."
+ ],
+ "myths": [
+  "**\"Warts mean a partner was unfaithful\"**: incubation can be months to years."
+ ],
+ "patho_lead": "HPV **infects basal keratinocytes** through tiny abrasions.",
+ "mech": [
+  {
+   "k": "Entry",
+   "t": "Microabrasions expose basal cells to HPV."
+  },
+  {
+   "k": "Replication",
+   "t": "Viral genes drive keratinocyte proliferation."
+  },
+  {
+   "k": "Latency",
+   "t": "Virus persists in normal-looking skin, causing recurrence."
+  },
+  {
+   "k": "Groin HS",
+   "t": "Follicular occlusion in apocrine folds forms tunnels.",
+   "img": "v3-hs-hurley-stages.jpg",
+   "cap": "Hurley stages of hidradenitis."
+  }
+ ],
+ "comp": [
+  "Psychosexual distress, recurrence; rare high-risk HPV dysplasia."
+ ],
+ "prog": [
+  "Many clear within a year."
+ ],
+ "see_also": [
+  "viral-warts",
+  "hidradenitis-suppurativa",
+  "candida-intertrigo"
+ ]
+}

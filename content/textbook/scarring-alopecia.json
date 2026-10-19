@@ -1,10 +1,11 @@
 {
  "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
  "key_facts": [
-  "Shiny bald patch without follicular openings, often with itch, burning, perifollicular scale or pustules at the active edge.",
-  "Inflammation destroys the stem-cell bulge → fibrosis replaces the follicle.",
-  "Photograph, swab/mycology if pus or scale, baseline bloods, Advice & Guidance / urgent dermatology — do not watch and wait for “AA to regrow”.",
-  "Scarring alopecia is irreversible once established. Also refer non-healing nodules on bald scalp via suspected-cancer pathways."
+  "**Scarring (cicatricial) alopecia** permanently destroys follicles: loss of follicular openings is the key sign.",
+  "Primary lymphocytic: **lichen planopilaris, frontal fibrosing alopecia (FFA), DLE, CCCA**; neutrophilic: **folliculitis decalvans**.",
+  "FFA is rising, mainly in post-menopausal women; CCCA mostly affects women of African descent.",
+  "**Refer early** (PCDS): hair lost is not regained; send photos.",
+  "Don't delay referral for blood tests."
  ],
  "sections": [
   {
@@ -25,9 +26,47 @@
       "FFA incidence is rising, mainly in post-menopausal women.",
       "CCCA predominantly affects women of African descent; hair practices contribute alongside genetics."
      ]
+    },
+    {
+     "h": "Myths to address"
+    },
+    {
+     "ul": [
+      "**\"It will grow back like other hair loss\"**: scarring loss is permanent; early treatment saves the rest."
+     ]
     }
    ],
    "short": "Aetiology"
+  },
+  {
+   "id": "pathophysiology",
+   "title": "Pathophysiology and pathology",
+   "blocks": [
+    "Inflammation attacks the **follicle stem-cell bulge**, so the follicle can't regrow.",
+    {
+     "mech": [
+      {
+       "k": "Bulge attack",
+       "t": "Lymphocytes or neutrophils target the upper follicle, where stem cells live."
+      },
+      {
+       "k": "Stem cell loss",
+       "t": "Without stem cells the follicle can't cycle."
+      },
+      {
+       "k": "Fibrosis",
+       "t": "The follicle is replaced by a fibrous tract and its opening disappears.",
+       "img": "v4-scarring-alopecia-follicle.jpg",
+       "caption": "Inflammation around the upper follicle destroys it, leaving a fibrous tract."
+      },
+      {
+       "k": "Shiny scalp",
+       "t": "The skin loses openings and becomes smooth."
+      }
+     ]
+    }
+   ],
+   "short": "Pathophysiology"
   },
   {
    "id": "clinical-features",
@@ -161,6 +200,29 @@
    "short": "Red flags"
   },
   {
+   "id": "complications",
+   "title": "Complications and prognosis",
+   "blocks": [
+    {
+     "h": "Complications"
+    },
+    {
+     "ul": [
+      "Permanent hair loss, distress."
+     ]
+    },
+    {
+     "h": "Prognosis"
+    },
+    {
+     "ul": [
+      "Treatment slows or stops progression; lost hair doesn't return."
+     ]
+    }
+   ],
+   "short": "Complications"
+  },
+  {
    "id": "pearls",
    "title": "Prescriber pearls (UK pharmacist IP)",
    "blocks": [
@@ -198,5 +260,11 @@
   }
  ],
  "references": [],
- "see_also": []
+ "see_also": [
+  "alopecia-areata",
+  "androgenetic-alopecia",
+  "telogen-effluvium",
+  "lichen-planus",
+  "discoid-lupus"
+ ]
 }

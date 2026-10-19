@@ -1,10 +1,11 @@
 {
  "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
  "key_facts": [
-  "A neonate or infant with blisters and erosions from minimal friction (hands, feet, nappy area), ± absent skin at birth, nail dystrophy or mouth blisters.",
-  "Inherited defects in adhesion proteins; the level of split defines the type (simplex, junctional, dystrophic, Kindler).",
-  "Urgent referral to an EB centre, gentle handling, no adhesives, and soft silicone dressings under specialist guidance.",
-  "Airway involvement (hoarse cry in JEB), sepsis, dehydration or failure to thrive, and SCC in chronic RDEB wounds."
+  "**Inherited** skin fragility: blisters after **minimal trauma** due to defective adhesion proteins.",
+  "Types by split level: **EB simplex** (keratins 5/14, intraepidermal), **junctional** (laminin-332, lamina lucida), **dystrophic** (type VII collagen, below lamina densa, scarring), **Kindler**.",
+  "Differs from **EB acquisita**, an autoimmune adult disease.",
+  "Refer urgently any baby with unexplained blistering to the EB team.",
+  "Handle gently: no adhesive tapes, lift on a soft pad, silicone dressings; don't lance blisters unless trained."
  ],
  "sections": [
   {
@@ -62,14 +63,47 @@
     },
     "Loss of structural integrity at a specific skin level means minor shear causes a blister. Inheritance is autosomal dominant or recessive depending on subtype. **Key Module 6 links: DEB is caused by type VII collagen (COL7A1) defects, and chronic RDEB wounds carry a high risk of cutaneous SCC.**",
     {
-     "fig": {
-      "ai": "eb-skin-fragility.jpg",
-      "caption": "Skin fragility in EB: the level of the split in EB simplex, junctional and dystrophic EB compared with normal skin.",
-      "alt": "Skin fragility in EB: the level of the split in EB simplex, junctional and dystrophic EB compared with normal skin."
-     }
+     "h": "Myths to address"
+    },
+    {
+     "ul": [
+      "**\"EB is contagious\"**: it is genetic."
+     ]
     }
    ],
    "short": "Aetiology"
+  },
+  {
+   "id": "pathophysiology",
+   "title": "Pathophysiology and pathology",
+   "blocks": [
+    "The **level of the missing glue** decides EB type and severity.",
+    {
+     "mech": [
+      {
+       "k": "Keratin defect (EBS)",
+       "t": "Basal keratinocytes break under friction."
+      },
+      {
+       "k": "Lamina lucida defect (JEB)",
+       "t": "Laminin-332 or integrin loss separates epidermis from basement membrane."
+      },
+      {
+       "k": "Anchoring fibril defect (DEB)",
+       "t": "Type VII collagen loss splits the skin beneath the basement membrane, healing with scars and milia.",
+       "img": "v4-eb-split-levels.jpg",
+       "caption": "EB types split at different levels: within the basal cells, in the basement membrane, or beneath it."
+      },
+      {
+       "k": "Fragile skin",
+       "t": "Everyday friction tears skin.",
+       "img": "eb-skin-fragility.jpg",
+       "caption": "Skin fragility in EB."
+      }
+     ]
+    }
+   ],
+   "short": "Pathophysiology"
   },
   {
    "id": "clinical-features",
@@ -202,6 +236,29 @@
    "short": "Red flags"
   },
   {
+   "id": "complications",
+   "title": "Complications and prognosis",
+   "blocks": [
+    {
+     "h": "Complications"
+    },
+    {
+     "ul": [
+      "Infection, malnutrition, anaemia, strictures, fusion of fingers (DEB), aggressive SCC (recessive DEB)."
+     ]
+    },
+    {
+     "h": "Prognosis"
+    },
+    {
+     "ul": [
+      "EBS often improves with age; severe JEB and recessive DEB are life-limiting."
+     ]
+    }
+   ],
+   "short": "Complications"
+  },
+  {
    "id": "pearls",
    "title": "Prescriber pearls (UK pharmacist IP)",
    "blocks": [
@@ -245,5 +302,10 @@
    "url": "https://emedicine.medscape.com/article/1062939-overview"
   }
  ],
- "see_also": []
+ "see_also": [
+  "blistering-approach",
+  "bullous-pemphigoid",
+  "aplasia-cutis",
+  "milia"
+ ]
 }

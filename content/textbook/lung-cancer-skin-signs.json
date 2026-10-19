@@ -1,10 +1,11 @@
 {
  "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
  "key_facts": [
-  "New clubbing, velvety ridged palms, sudden widespread acanthosis nigricans or seborrhoeic keratoses, or a firm red ‘cellulitis’ that does not respond.",
-  "Tumour-derived growth factors and cytokines, or direct spread of cancer to the skin.",
-  "Take a smoking and symptom history; CXR and NICE NG12 urgent pathways; don’t keep treating a non-responding ‘cellulitis’.",
-  "Lung, gastric and breast cancer; carcinoma erysipeloides mistaken for infection."
+  "Lung cancer is the commonest cause of UK cancer death; skin signs may be the first clue.",
+  "**Paraneoplastic**: clubbing/HPOA, dermatomyositis, acanthosis/tripe palms, ectopic ACTH pigmentation.",
+  "**Local**: SVC obstruction (facial swelling, distended chest veins), Horner's syndrome; **direct**: skin metastases (chest wall, scalp).",
+  "**Treatment-related**: EGFR-inhibitor acneiform rash, checkpoint-inhibitor rashes.",
+  "Use smoking history as a red-flag multiplier; refer per NICE NG12. SVC obstruction is same-day."
  ],
  "sections": [
   {
@@ -15,9 +16,45 @@
    ]
   },
   {
+   "id": "aetiology",
+   "title": "Aetiology: causes and risk factors",
+   "blocks": [
+    {
+     "h": "Myths to address"
+    },
+    {
+     "ul": [
+      "**\"An acne-like rash on cancer treatment means stop the drug\"**: EGFR rashes are managed with oncology protocols and often signal response."
+     ]
+    }
+   ],
+   "short": "Aetiology"
+  },
+  {
    "id": "pathophysiology",
    "title": "Pathophysiology and pathology",
    "blocks": [
+    "Tumours affect skin through **growth factors, hormones, immunity and spread**.",
+    {
+     "mech": [
+      {
+       "k": "Growth factors",
+       "t": "VEGF and PDGF (from platelet clumps bypassing the lung) drive clubbing and HPOA."
+      },
+      {
+       "k": "Ectopic hormones",
+       "t": "Small-cell tumours make ACTH: pigmentation, hypokalaemia."
+      },
+      {
+       "k": "Immune cross-reaction",
+       "t": "Anti-tumour immunity cross-reacts with skin and muscle (dermatomyositis)."
+      },
+      {
+       "k": "Spread and obstruction",
+       "t": "Metastases and SVC compression."
+      }
+     ]
+    },
     {
      "h": "How it is caused"
     },
@@ -152,6 +189,29 @@
    "short": "Red flags"
   },
   {
+   "id": "complications",
+   "title": "Complications and prognosis",
+   "blocks": [
+    {
+     "h": "Complications"
+    },
+    {
+     "ul": [
+      "Late diagnosis; treatment interruptions."
+     ]
+    },
+    {
+     "h": "Prognosis"
+    },
+    {
+     "ul": [
+      "Depends on cancer stage."
+     ]
+    }
+   ],
+   "short": "Complications"
+  },
+  {
    "id": "pearls",
    "title": "Prescriber pearls (UK pharmacist IP)",
    "blocks": [
@@ -188,5 +248,10 @@
   }
  ],
  "references": [],
- "see_also": []
+ "see_also": [
+  "nail-signs",
+  "dermatomyositis",
+  "acanthosis-nigricans",
+  "melanoma-immunotherapy"
+ ]
 }

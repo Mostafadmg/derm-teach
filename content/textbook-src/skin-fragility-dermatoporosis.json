@@ -1,0 +1,44 @@
+{
+ "kf": [
+  "**Actinic (senile) purpura**: benign purple patches on thin sun-damaged forearms and hands after minor trauma.",
+  "**Dermatoporosis**: chronic skin insufficiency with atrophy, purpura, stellate pseudoscars and **skin tears**.",
+  "Aggravators: anticoagulants, antiplatelets, corticosteroids (topical, oral, inhaled), SSRIs, fish oil, ginkgo.",
+  "Platelets and clotting are usually normal.",
+  "Protect skin (sleeves, padding, careful transfers); **never stop anticoagulants** just for purpura without review."
+ ],
+ "myths": [
+  "**\"Bruising like this means a blood disorder\"**: classic actinic purpura has normal clotting; check if bruises are elsewhere."
+ ],
+ "patho_lead": "Sun and age **thin the dermis**, so vessels lose support.",
+ "mech": [
+  {
+   "k": "Collagen loss",
+   "t": "UV and ageing reduce dermal collagen and elastin."
+  },
+  {
+   "k": "Unsupported vessels",
+   "t": "Small vessels rupture with minor shear."
+  },
+  {
+   "k": "Haemosiderin",
+   "t": "Purpura fades to brown staining."
+  },
+  {
+   "k": "Skin tears",
+   "t": "The thin epidermis and dermis separate easily."
+  }
+ ],
+ "comp": [
+  "Skin tears, infection, delayed healing."
+ ],
+ "prog": [
+  "Chronic; protection reduces injuries."
+ ],
+ "see_also": [
+  "photoageing",
+  "purpura-differentials",
+  "topical-corticosteroids",
+  "itch-xerosis-older-adults",
+  "wound-aftercare"
+ ]
+}
