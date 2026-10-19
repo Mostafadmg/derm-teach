@@ -1,0 +1,97 @@
+{
+ "kf": [
+  "Recurrent **HSV-1** infection of the lip border: tingling, then grouped **vesicles**, crusting and healing in 7–10 days.",
+  "Most adults carry HSV-1; the virus lies **latent in the trigeminal ganglion** and reactivates with sun, fever, stress, menstruation or trauma.",
+  "Infectious from tingling until fully crusted; also spread by **asymptomatic shedding**.",
+  "Self-care and OTC aciclovir cream for mild episodes; oral antiviral for severe, frequent or immunocompromised cases.",
+  "Same-day assessment for **eczema herpeticum**, eye involvement, neonates and the immunocompromised."
+ ],
+ "epi": [
+  {
+   "t": "**Very common**",
+   "sub": [
+    "HSV-1 seroprevalence rises with age: most adults worldwide; under half of UK university entrants (less childhood exposure).",
+    "About 20–40% of infected people get recurrent cold sores."
+   ]
+  },
+  {
+   "t": "**Primary infection**",
+   "sub": [
+    "Usually in childhood, often silent or as **gingivostomatitis**; HSV-2 mainly after puberty (genital)."
+   ]
+  }
+ ],
+ "aet": [
+  "**Triggers for recurrence**: UV light, fever and colds, stress, fatigue, menstruation, lip trauma, dental work, immunosuppression.",
+  "Transmission by kissing, sharing cups or towels; infectious for about 7–12 days per episode."
+ ],
+ "myths": [
+  "**\"Cold sores only spread when visible\"**: asymptomatic shedding can transmit HSV.",
+  "**\"Antiviral cream cures it\"**: it only shortens episodes if started at the first tingle."
+ ],
+ "patho_lead": "HSV is a **neurotropic** DNA virus: it hides in sensory ganglia and travels along nerves to the skin.",
+ "mech": [
+  {
+   "k": "Primary infection",
+   "t": "Virus enters through mucosa or broken skin, replicates in keratinocytes and travels up sensory nerves.",
+   "img": "v3-hsv-ganglion.jpg",
+   "cap": "Latent HSV in the trigeminal ganglion and its path along the nerve to the lip."
+  },
+  {
+   "k": "Latency",
+   "t": "HSV persists **latent in the trigeminal ganglion** for life, invisible to the immune system."
+  },
+  {
+   "k": "Reactivation",
+   "t": "Triggers (UV, fever, stress) reactivate the virus, which travels down the nerve: **prodromal tingling or burning** for 6–48 hours."
+  },
+  {
+   "k": "Vesicles and healing",
+   "t": "Viral replication in keratinocytes causes ballooning and cell fusion, giving clustered vesicles that ulcerate, crust and heal in 7–10 days.",
+   "img": "v3-hsv-stages.jpg",
+   "cap": "Stages of a cold sore: tingle, vesicles, ulcer, crust, healing."
+  }
+ ],
+ "histo": [
+  "Intraepidermal vesicle with **ballooning degeneration**, multinucleated giant cells and nuclear moulding (Tzanck smear).",
+  "Diagnosis is clinical; viral PCR swab if atypical, severe or immunocompromised."
+ ],
+ "special": [
+  {
+   "t": "**Atopic eczema**",
+   "sub": [
+    "Risk of **eczema herpeticum** (widespread punched-out erosions, fever): emergency."
+   ]
+  },
+  {
+   "t": "**Neonates and pregnancy**",
+   "sub": [
+    "Avoid kissing newborns during an episode; neonatal HSV is life-threatening."
+   ]
+  },
+  {
+   "t": "**Immunocompromised**",
+   "sub": [
+    "Large, persistent or atypical ulcers; needs oral or IV antivirals and specialist advice."
+   ]
+  }
+ ],
+ "comp": [
+  "Eczema herpeticum (Kaposi varicelliform eruption).",
+  "Herpetic keratitis and eye involvement.",
+  "Herpetic whitlow (finger).",
+  "Secondary impetigo.",
+  "**Erythema multiforme** triggered by recurrent HSV.",
+  "Rarely encephalitis or disseminated infection."
+ ],
+ "prog": [
+  "Lifelong latent infection; recurrences often become less frequent with age.",
+  "Episodes heal without scarring in 7–10 days."
+ ],
+ "see_also": [
+  "herpes-zoster",
+  "erythema-multiforme",
+  "impetigo",
+  "eczema-dermatitis"
+ ]
+}

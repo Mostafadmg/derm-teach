@@ -1,0 +1,803 @@
+{
+ "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
+ "key_facts": [
+  "The **commonest cancer in the UK**: a slow-growing, locally invasive tumour of basal keratinocytes that almost never metastasises.",
+  "Mostly older, fair-skinned adults with sun damage; **80%** on the head and neck.",
+  "Classic nodular BCC: **pearly** papule with rolled edge and **arborising telangiectasia**, often with central ulceration (rodent ulcer).",
+  "Caused by **hedgehog pathway** mutations (PTCH1, SMO), usually from UV exposure.",
+  "UK (NICE NG12): routine (not 2WW) referral for most suspected BCC; urgent if site or size threatens function. Surgery is the mainstay."
+ ],
+ "sections": [
+  {
+   "id": "overview",
+   "title": "Overview",
+   "blocks": [
+    "The commonest human cancer. It is a slow-growing, locally invasive malignancy of basal keratinocyte-like cells. **Metastasis is very rare (<0.1%)**, but neglected lesions destroy tissue (nose, eye, ear."
+   ]
+  },
+  {
+   "id": "epidemiology",
+   "title": "Epidemiology",
+   "blocks": [
+    {
+     "ul": [
+      {
+       "t": "**Incidence**",
+       "sub": [
+        "The commonest cancer in white populations; well over 100,000 new cases a year in the UK and rising.",
+        "Lifetime risk about 1 in 5 in some fair-skinned populations."
+       ]
+      },
+      {
+       "t": "**Who**",
+       "sub": [
+        "Usually over 60, more men; rare in people with dark skin but does occur (more often pigmented)."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "aetiology",
+   "title": "Aetiology: causes and risk factors",
+   "blocks": [
+    {
+     "ul": [
+      "**Intermittent intense and cumulative UV**, with a latency of decades (course teaching gave 20–50 years). Fair skin (Fitzpatrick I–II), age, male sex.",
+      "Other risks: previous BCC (about 40% get another within 3 years), radiotherapy, arsenic, immunosuppression (transplant), and **hydrochlorothiazide** (MHRA 2018: dose-dependent increased NMSC risk, mainly SCC).",
+      "**Hedgehog pathway:** most BCCs have loss of **PTCH1** or activating **SMO** mutations, which is why hedgehog inhibitors (vismodegib, sonidegib) work in advanced disease.",
+      "**Gorlin (naevoid BCC) syndrome:** autosomal dominant PTCH1 (or SUFU) mutation. **Multiple BCCs from youth**, **palmar/plantar pits**, odontogenic keratocysts of the jaw, calcified falx, bifid ribs, macrocephaly, frontal bossing, and medulloblastoma in childhood (SUFU). **Avoid radiotherapy** (it induces many new BCCs) and minimise CT/X-ray.",
+      "Histology: nests of basaloid cells with **peripheral palisading**, **retraction artefact** (clefting) and mucinous stroma."
+     ]
+    },
+    {
+     "h": "Risk factors and associations"
+    },
+    {
+     "ul": [
+      "**Intermittent intense UV** and childhood sunburn; fair skin, red or blond hair, freckling.",
+      "Previous BCC (about 40% get another within 3 years), sunbeds, radiotherapy, arsenic.",
+      "Immunosuppression, hydrochlorothiazide (possible), syndromes: **Gorlin (basal cell naevus) syndrome**, xeroderma pigmentosum."
+     ]
+    },
+    {
+     "h": "Myths to address"
+    },
+    {
+     "ul": [
+      "**\"Skin cancer always spreads\"**: BCC rarely metastasises but can destroy local tissue if neglected.",
+      "**\"It's a spot that keeps bleeding and healing\"**: a non-healing or recurrently bleeding spot needs review."
+     ]
+    }
+   ],
+   "short": "Aetiology"
+  },
+  {
+   "id": "pathophysiology",
+   "title": "Pathophysiology and pathology",
+   "blocks": [
+    "BCC grows from basal-layer cells when the **hedgehog signalling pathway** is switched on permanently.",
+    {
+     "mech": [
+      {
+       "k": "UV mutation",
+       "t": "UV damages **PTCH1** (a hedgehog-pathway brake) or activates **SMO**; TP53 mutations often coexist."
+      },
+      {
+       "k": "Uncontrolled hedgehog signalling",
+       "t": "GLI transcription factors stay on, so basaloid cells keep proliferating.",
+       "img": "v3-bcc-skin-section.jpg",
+       "caption": "BCC in section: nests of basaloid cells growing from the basal layer into the dermis, with dilated vessels on the surface."
+      },
+      {
+       "k": "Local invasion",
+       "t": "Tumour nests depend on surrounding stroma, which is why BCC invades locally but rarely spreads by blood or lymph."
+      },
+      {
+       "k": "Growth patterns",
+       "t": "Nodular, superficial, infiltrative and **morphoeic** patterns differ in how far they extend beyond what is visible.",
+       "img": "v3-bcc-face-h-zone.jpg",
+       "caption": "High-risk 'H-zone' of the face (eyes, nose, lips, ears), where BCCs are harder to treat."
+      },
+      {
+       "k": "Ulceration",
+       "t": "Central necrosis gives the classic **rodent ulcer**, with a rolled pearly edge."
+      }
+     ]
+    },
+    {
+     "histo": [
+      "Nests of **basaloid cells** with peripheral **palisading**, retraction artefact and mucinous stroma.",
+      "Subtype (nodular, superficial, infiltrative, morphoeic, micronodular) guides treatment and recurrence risk."
+     ]
+    }
+   ],
+   "short": "Pathophysiology"
+  },
+  {
+   "id": "clinical-features",
+   "title": "Clinical features",
+   "blocks": [
+    "About 80–85% occur on the head and neck. Main subtypes (the course \"5\"):",
+    {
+     "table": {
+      "head": [
+       "Subtype",
+       "Look",
+       "Photo"
+      ],
+      "rows": [
+       [
+        "**Nodular** (commonest)",
+        "Pearly/translucent papule-nodule, rolled edge, telangiectasia, central ulcer (\"rodent ulcer\")",
+        ""
+       ],
+       [
+        "**Superficial**",
+        "Pink, scaly, thin plaque with a \"thread-like\" pearly edge; trunk and limbs; younger patients",
+        ""
+       ],
+       [
+        "**Morphoeic / infiltrative**",
+        "Ill-defined, scar-like, waxy, indurated plaque; subclinical spread; high-risk",
+        ""
+       ],
+       [
+        "**Pigmented**",
+        "Brown-blue-grey; commoner in skin of colour; melanoma DDx",
+        ","
+       ],
+       [
+        "Basosquamous",
+        "Mixed features; behaves more like SCC (metastatic potential)",
+        "—"
+       ],
+       [
+        "Micronodular",
+        "Small nests; high-risk histology",
+        "—"
+       ],
+       [
+        "Fibroepithelioma of Pinkus",
+        "Pink pedunculated lower-back papule",
+        "—"
+       ]
+      ]
+     }
+    },
+    {
+     "fig": {
+      "dermnet": "m2w3:A02"
+     }
+    },
+    {
+     "h": "Subtypes to recognise"
+    },
+    {
+     "variants": [
+      {
+       "name": "Nodular",
+       "t": "Commonest. Pearly nodule, rolled edge, telangiectasia, central ulcer. *Site: Face.*",
+       "photo": "m2w3:A03"
+      },
+      {
+       "name": "Superficial",
+       "t": "Pink, scaly thin plaque with a thread-like pearly edge. *Site: Trunk, limbs; younger.*",
+       "photo": "m2w3:B01"
+      },
+      {
+       "name": "Morphoeic",
+       "t": "Scar-like, waxy, ill-defined; spreads unseen. High-risk. *Site: Face.*",
+       "photo": "m2w3:B02",
+       "danger": true
+      },
+      {
+       "name": "Pigmented",
+       "t": "Brown-blue-grey; commoner in skin of colour; melanoma DDx. *Site: Face.*",
+       "photo": "m2w3:B03"
+      }
+     ]
+    },
+    {
+     "h": "Special groups"
+    },
+    {
+     "ul": [
+      {
+       "t": "**Skin of colour**",
+       "sub": [
+        "Less common; often **pigmented** and mistaken for a naevus or melanoma."
+       ]
+      },
+      {
+       "t": "**Young patients or many BCCs**",
+       "sub": [
+        "Consider Gorlin syndrome (jaw cysts, palmar pits) and refer."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "diagnosis",
+   "title": "Diagnosis and investigations",
+   "blocks": [
+    {
+     "ul": [
+      "Clinical + **dermoscopy:** **arborising (tree-like) vessels in sharp focus**; blue-grey ovoid nests/globules; spoke-wheel and leaf-like structures; ulceration; shiny white structures.",
+      "The skin cancer team confirms with **punch or excision biopsy**. Histology determines the subtype and risk."
+     ]
+    },
+    {
+     "h4": "History"
+    },
+    {
+     "ul": [
+      "Slow growth; bleeds, crusts, never fully heals.",
+      "UV exposure, fair skin, previous BCC (~40% get another in 3 years).",
+      "Immunosuppression, radiotherapy, **hydrochlorothiazide** (MHRA)."
+     ]
+    },
+    {
+     "h4": "Examine"
+    },
+    {
+     "ul": [
+      "Site and size (H-zone?), edge definition.",
+      "Whole-skin check for other lesions."
+     ]
+    },
+    {
+     "h4": "Dermoscopy"
+    },
+    {
+     "ul": [
+      "**Arborising vessels** in sharp focus.",
+      "Blue-grey ovoid nests; spoke-wheel and leaf-like areas; shiny white structures."
+     ]
+    },
+    {
+     "h4": "Tests"
+    },
+    {
+     "ul": [
+      "Skin cancer team: **punch or excision biopsy**.",
+      "Histology: basaloid nests, peripheral palisading, retraction clefts."
+     ]
+    }
+   ],
+   "short": "Diagnosis"
+  },
+  {
+   "id": "differentials",
+   "title": "Differential diagnoses",
+   "blocks": [
+    {
+     "ddx": [
+      {
+       "name": "Sebaceous hyperplasia",
+       "f": "Yellowish umbilicated facial papules, often multiple.",
+       "photo": "m2w1:G05"
+      },
+      {
+       "name": "Intradermal naevus",
+       "f": "Soft, symmetrical; vessels out of focus.",
+       "photo": "m2w4:A03"
+      },
+      {
+       "name": "Amelanotic melanoma",
+       "f": "New, growing pink lesion: do not reassure.",
+       "photo": "m2w5:A05",
+       "danger": true
+      },
+      {
+       "name": "SCC / keratoacanthoma",
+       "f": "Firm, indurated, keratotic, faster growth.",
+       "link": "squamous-cell-carcinoma"
+      },
+      {
+       "name": "Bowen’s disease",
+       "f": "Persistent, well-demarcated scaly red plaque (vs superficial BCC).",
+       "photo": "m2w3:F02"
+      },
+      {
+       "name": "Trigeminal trophic syndrome",
+       "f": "Crescent ulcer of the nasal ala sparing the tip; numbness, picking. Biopsy.",
+       "photo": "m2w3:D01"
+      }
+     ]
+    },
+    "Also: eczema or psoriasis plaque (vs superficial BCC), morphoea or scar (vs morphoeic), DFSP, molluscum, clear cell acanthoma.",
+    "Sebaceous hyperplasia (the [skin lumps](condition:dermatofibroma) notes see *Where course teaching differs from UK guidance*), intradermal naevus (soft, symmetrical, vessels out of focus; see the [naevi](condition:melanocytic-naevi) notes), amelanotic melanoma, SCC/KA, Bowen's (for superficial BCC), eczema/psoriasis plaque (for superficial BCC), morphoea or scar (for morphoeic), DFSP (the [skin lumps](condition:dermatofibroma) notes see *Trigeminal trophic syndrome (TTS) and [Case 1](condition:basal-cell-carcinoma) care-home context*), **trigeminal trophic syndrome** (see *Trigeminal trophic syndrome (TTS) and [Case 1](condition:basal-cell-carcinoma) care-home context*), molluscum, CCA.",
+    {
+     "h4": "What it is"
+    },
+    "A rare cause of **self-inflicted ulceration of the nasal ala** after damage to the trigeminal nerve or its central pathways.",
+    {
+     "h4": "How it is caused / pathophysiology"
+    },
+    "Trigeminal **sensory loss or paraesthesia** (after a brainstem/lateral medullary stroke, trigeminal ablation, herpes zoster, acoustic neuroma surgery, or vertebrobasilar ischaemia) leads to unconscious rubbing, scratching and picking. The result is a chronic, non-healing ulcer. **Vascular dementia with brainstem infarction, plus picking behaviour, fits this picture.**",
+    {
+     "h4": "Clinical features & typical sites"
+    },
+    "A **crescent-shaped ulcer of the nasal ala** that often **spares the nasal tip** (the tip is supplied by the external nasal branch, which is often spared). It is unilateral and progressive, and can destroy the ala. The area is numb or tingly.",
+    {
+     "h4": "How to diagnose"
+    },
+    "History of trigeminal injury, sensory testing, and **biopsy to exclude BCC/SCC** (and infection: granulomatous disease, mycobacterial or fungal infection; vasculitis/GPA).",
+    {
+     "h4": "Key differentials"
+    },
+    "**BCC (main)**, SCC, granulomatosis with polyangiitis, lupus vulgaris, leishmaniasis, NK/T-cell lymphoma, pyoderma gangrenosum, and dermatitis artefacta.",
+    {
+     "h4": "Management for pharmacist/IP (UK)"
+    },
+    {
+     "ul": [
+      "**Refer for biopsy** (the course answer). The IP role is to **arrange the referral** and **not to treat the ulcer as infected or as eczema** without a diagnosis.",
+      "TTS treatment (specialist): **behavioural protection** (occlusive dressings, nail care, mittens or protective devices in dementia), treat paraesthesia (carbamazepine, gabapentin or amitriptyline at low dose, with careful weighing of **anticholinergic burden and falls risk in an 85-year-old on donepezil**), and reconstructive surgery once the picking stops.",
+      "**Capacity and consent (MCA 2005):** assess capacity for each decision (biopsy, surgery). If capacity is lacking, decide in the person's **best interests**, consulting family or an LPA for health and welfare (or an IMCA if no one is appropriate). Weigh the burden of travel and procedures against benefit. For a frail resident with a slow-growing BCC, options include surgery under local anaesthetic, radiotherapy, or active monitoring with palliative wound care. This is an MDT decision.",
+      "**Medicines for [Case 1](condition:basal-cell-carcinoma):** **continue aspirin for biopsy or skin surgery** (BSDS 2023). Donepezil plus beta-blockers or other bradycardic drugs carries a bradycardia/syncope risk, which matters if sedation is considered. No interaction issue with local anaesthetic at standard doses."
+     ]
+    },
+    {
+     "h4": "Prescriber pearls & counselling"
+    },
+    "Care-home staff should report non-healing lesions on the face for more than 4 weeks. An \"infected scab\" on the nose of an older person that won't heal is a BCC until proved otherwise.",
+    {
+     "h4": "Photo / reference URLs"
+    },
+    {
+     "ul": [
+      "DermNet: [dermnetnz.org](https://dermnetnz.org/topics/trigeminal-trophic-syndrome)",
+      "Mental Capacity Act 2005 Code of Practice (gov.uk)."
+     ]
+    }
+   ],
+   "short": "Differentials"
+  },
+  {
+   "id": "management",
+   "title": "Management",
+   "blocks": [
+    "**Recognition and referral (IP role)**",
+    {
+     "ul": [
+      "**NICE NG12 1.7.5:** suspected BCC means a **routine (non-urgent) referral**, usually to dermatology.",
+      "**NG12 1.7.6:** consider the **suspected cancer pathway** only if delay could have an unacceptable impact because of **site or size**, e.g. near the eye or nose, or a large or rapidly growing lesion. [Case 1](condition:basal-cell-carcinoma) nasal ulcer qualifies for discussion.",
+      "**Who excises:** the NICE *Improving Outcomes Guidance* for skin tumours (and its 2010 update) allows suitably trained, accredited primary-care clinicians to excise **only low-risk BCCs** (e.g. a small nodular BCC on the trunk or limbs in a non-immunosuppressed patient). Anything high-risk goes to a specialist skin cancer team. **IPs do not biopsy, curette, freeze or apply topical treatment to an undiagnosed suspected BCC.**"
+     ]
+    },
+    "**Specialist treatment ladder (BAD 2021; for teaching)**",
+    {
+     "table": {
+      "head": [
+       "Option",
+       "Main indication",
+       "Notes"
+      ],
+      "rows": [
+       [
+        "**Standard surgical excision**",
+        "**First-line for most BCCs, including nodular BCC on the face**",
+        "Peripheral margin **4 mm** for low-risk (≈95% clearance); **≥5 mm** for primary high-risk"
+       ],
+       [
+        "**Mohs micrographic surgery**",
+        "**Primary high-risk BCC** (consider); **offer first-line for recurrent BCC with ≥1 other high-risk factor**; high-risk sites (H-zone) where tissue sparing matters; morphoeic/ill-defined",
+        "Complete margin control; lowest recurrence; tissue-sparing. Photo"
+       ],
+       [
+        "Curettage & cautery",
+        "Small, well-defined, low-risk nodular/superficial BCC on low-risk sites",
+        "Not for high-risk sites or recurrent lesions"
+       ],
+       [
+        "Cryosurgery",
+        "Low-risk superficial/small nodular",
+        "No histological margins; recurrence"
+       ],
+       [
+        "**Topical imiquimod 5%**",
+        "**Superficial BCC** (licensed: 5×/week for 6 weeks)",
+        "Local inflammation is expected; flu-like symptoms"
+       ],
+       [
+        "Topical fluorouracil 5%",
+        "Superficial BCC (off-label for BCC)",
+        "Twice daily for several weeks"
+       ],
+       [
+        "**Photodynamic therapy (PDT)**",
+        "**Superficial** BCC and **thin nodular** BCC (<2 mm) at low-risk sites",
+        "Good cosmesis; higher recurrence than surgery for nodular BCC"
+       ],
+       [
+        "Radiotherapy",
+        "Patients unfit or unwilling for surgery; adjuvant",
+        "**Avoid in Gorlin** and in the young"
+       ],
+       [
+        "Hedgehog inhibitors (vismodegib, sonidegib)",
+        "Locally advanced/metastatic, MDT-led",
+        "Teratogenic (strict pregnancy prevention); muscle cramps, alopecia, dysgeusia. NICE did not recommend vismodegib"
+       ]
+      ]
+     }
+    },
+    "**BAD 2021 high-risk features (determine margins/Mohs):**",
+    {
+     "ul": [
+      "Site and size: area H (central face, eyelids, nose, lips, ears, temple), area M lesions >10 mm, area L lesions >20 mm.",
+      "Poorly defined borders.",
+      "Recurrence.",
+      "Immunosuppression.",
+      "Prior radiotherapy at the site.",
+      "Histology: infiltrative, micronodular, morphoeic or basosquamous; perineural invasion; depth >6 mm or beyond the subcutis."
+     ]
+    },
+    "**Prognosis:** excellent for treated primary low-risk BCC (5-year recurrence under 5% after surgery). Recurrence is higher for high-risk subtypes and sites. Mortality is negligible except in neglected or metastatic disease. **About 40% develop another BCC**, so self-examination and sun protection matter.",
+    {
+     "h": "The BCC treatment ladder"
+    },
+    "See the [skin cancer](condition:basal-cell-carcinoma) notes:",
+    {
+     "ul": [
+      "surgery (standard excision 4 mm / ≥5 mm margins) → Mohs for high-risk/recurrent",
+      "C&C or cryo for small low-risk lesions",
+      "imiquimod, 5-FU or PDT for superficial BCC",
+      "radiotherapy if unfit",
+      "hedgehog inhibitors for advanced disease."
+     ]
+    },
+    {
+     "h": "NICE NG12 quick table"
+    },
+    {
+     "table": {
+      "head": [
+       "Suspicion",
+       "NG12 / UK route",
+       "Timing"
+      ],
+      "rows": [
+       [
+        "BCC, typical, low-risk site",
+        "1.7.5: routine referral (or accredited primary-care excision under IOG for low-risk lesions)",
+        "Routine"
+       ],
+       [
+        "BCC where site/size makes delay matter (eye, nose, large)",
+        "1.7.6: consider the suspected cancer pathway",
+        "≤2 weeks"
+       ],
+       [
+        "cSCC (including KA)",
+        "1.7.4: consider the suspected cancer pathway",
+        "≤2 weeks"
+       ],
+       [
+        "Lip/oral ulcer >3 weeks",
+        "NG12 oral cancer: suspected cancer pathway (or urgent dental)",
+        "≤2 weeks"
+       ],
+       [
+        "Non-resolving \"eczema/psoriasis\" in an adult, atypical sites",
+        "Routine dermatology with a note on treatment failure (biopsy). Urgent if tumours, erythroderma, nodes or B symptoms",
+        "Routine → urgent"
+       ],
+       [
+        "Make the referral",
+        "**Within 1 working day of deciding** (NG12 general principle)",
+        "—"
+       ]
+      ]
+     }
+    },
+    {
+     "h": "Worked cases"
+    },
+    {
+     "h": "Case 1: 85-year-old care-home resident, enlarging picked nasal ulcer, vascular dementia"
+    },
+    {
+     "ul": [
+      "**Diagnosis:** nodular BCC (ulcerated \"rodent ulcer\").",
+      "**Key differential:** trigeminal trophic syndrome. Also SCC and GPA.",
+      "**Investigation:** biopsy (dermatology). **Histology:** nests of basaloid cells with **peripheral palisading** and retraction clefts.",
+      "**Referral:** NG12 1.7.5 says routine, but nose = H-zone, so consider the suspected cancer pathway (1.7.6) if it is large or close to vital structures.",
+      "**Capacity / best-interests** decisions under the MCA. Continue aspirin for any procedure.",
+      "**Treatment (specialist):** surgical excision (or Mohs for a high-risk facial BCC) is first-line; radiotherapy if unfit. **Not PDT** (it is for superficial/thin nodular BCC) (see *Where course teaching differs from UK guidance*)."
+     ]
+    },
+    {
+     "h": "Case 2: BCC related questions"
+    },
+    {
+     "ul": [
+      "**Aetiology:** UV, PTCH1/SMO, Gorlin, immunosuppression, radiation, arsenic.",
+      "**Surgery:** standard excision, 4 mm (low-risk) / ≥5 mm (high-risk) margins; Mohs for high-risk/recurrent/H-zone.",
+      "**Variants:** nodular, superficial, morphoeic/infiltrative, micronodular, pigmented, basosquamous.",
+      "**Prognosis:** excellent; recurrence is the issue, not mortality."
+     ]
+    },
+    {
+     "h": "Case 3: 68-year-old outdoor worker, indurated bleeding lower-lip ulcer for 6 weeks"
+    },
+    {
+     "ul": [
+      "**Diagnosis:** SCC of the lip (on actinic cheilitis).",
+      "**Why worrying:** the lip is a high-risk site with a higher metastatic rate.",
+      "**Treatment:** surgical excision (6 mm margin for high-risk per BAD 2020), with nodal assessment.",
+      "**Referral:** NG12 1.7.4 suspected cancer pathway, plus a lip ulcer >3 weeks meets the oral cancer criteria."
+     ]
+    },
+    {
+     "h": "Case 4: SCC related questions"
+    },
+    {
+     "ul": [
+      "**Precursors:** AK, actinic cheilitis, Bowen's, KA, horn, chronic wounds (Marjolin), lichen sclerosus.",
+      "**Investigations:** biopsy, node examination, ultrasound ± FNA, CT/MRI for very high-risk.",
+      "**Management:** excision, Mohs (selected), RT, cemiplimab for advanced disease, follow-up and photoprotection."
+     ]
+    },
+    {
+     "h": "Case 5: 62-year-old mechanic, steroid-unresponsive rash for 12 months"
+    },
+    {
+     "ul": [
+      "**Diagnosis:** mycosis fungoides. Rule out occupational contact dermatitis (patch test) and drug-induced pseudolymphoma.",
+      "**Plan:** refer for (repeat) biopsies with TCR clonality, then staging. Skin-directed therapy (potent topical steroid, nbUVB/PUVA phototherapy, chlormethine) for early stage.",
+      "**Histology:** epidermotropism with **Pautrier microabscesses**.",
+      "**Stage:** cannot be assigned from the vignette. Tumours = IIB, erythroderma = III, blood involvement = IV."
+     ]
+    },
+    {
+     "h": "Medicines at a glance"
+    },
+    {
+     "drugs": [
+      {
+       "name": "Standard surgical excision",
+       "cls": "First line · most BCCs",
+       "dose": "4 mm margin (low-risk); ≥ 5 mm (high-risk) · ≈ 95% clearance",
+       "cautions": "Including nodular BCC on the face."
+      },
+      {
+       "name": "Mohs micrographic surgery",
+       "cls": "High-risk or recurrent",
+       "dose": "Complete margin control · Lowest recurrence",
+       "cautions": "H-zone, morphoeic, recurrent with another high-risk factor."
+      },
+      {
+       "name": "Imiquimod 5%",
+       "cls": "Superficial / small low-risk",
+       "dose": "5 × per week · 6 weeks",
+       "cautions": "Superficial BCC (licensed). Expect inflammation."
+      },
+      {
+       "name": "Photodynamic therapy",
+       "cls": "Superficial / small low-risk",
+       "dose": "Superficial or thin (< 2 mm) nodular · Low-risk sites",
+       "cautions": "Good cosmesis; higher recurrence."
+      },
+      {
+       "name": "Curettage & cautery · cryotherapy · 5-FU",
+       "cls": "Superficial / small low-risk",
+       "dose": "Small, well-defined, low-risk · Not high-risk sites"
+      }
+     ]
+    },
+    {
+     "h": "Treatment ladder"
+    },
+    {
+     "ladder": [
+      {
+       "k": "First line · most BCCs",
+       "t": "Standard surgical excision",
+       "tone": "first"
+      },
+      {
+       "k": "High-risk or recurrent",
+       "t": "Mohs micrographic surgery",
+       "tone": "second"
+      },
+      {
+       "k": "Superficial / small low-risk",
+       "t": "Imiquimod 5%; Photodynamic therapy; Curettage & cautery · cryotherapy · 5-FU",
+       "tone": "third"
+      },
+      {
+       "k": "Unfit for surgery / advanced",
+       "t": "**Radiotherapy** if unfit or unwilling (avoid in Gorlin and the young). **Hedgehog inhibitors** (vismodegib, sonidegib): MDT-led; teratogenic.",
+       "tone": "refer"
+      }
+     ]
+    },
+    {
+     "callout": "warn",
+     "title": "Prescribing limits and pitfalls",
+     "list": [
+      "**High-risk features**: H-zone; M-zone > 10 mm, L-zone > 20 mm; poorly defined; recurrent; immunosuppressed; prior RT; aggressive histology; perineural; depth > 6 mm.",
+      "**Prognosis**: 5-year recurrence < 5% after surgery for low-risk primary BCC.",
+      "**Primary-care excision**: Only low-risk BCCs by accredited clinicians (NICE IOG)."
+     ]
+    },
+    {
+     "h": "Referral"
+    },
+    {
+     "refer": [
+      {
+       "when": "urgent",
+       "t": "Near the **eye, nose or ear**, large, fast-growing or recurrent: consider the **suspected cancer pathway** (NG12 1.7.6)."
+      },
+      {
+       "when": "routine",
+       "t": "Typical BCC at a low-risk site: routine dermatology referral (NG12 1.7.5)."
+      },
+      {
+       "when": "routine",
+       "t": "Multiple BCCs young, palmar pits or jaw cysts: think **Gorlin syndrome**."
+      },
+      {
+       "when": "never",
+       "t": "Never treat an **undiagnosed** pigmented or nodular lesion: refer for diagnosis first."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "red-flags",
+   "title": "Red flags and when to refer",
+   "blocks": [
+    {
+     "ul": [
+      "BCC near the eye, nose or ear, large, rapidly growing or recurrent: consider the **suspected cancer pathway** because delay could matter (NG12 1.7.6).",
+      "Do not freeze, curette or apply imiquimod to an **undiagnosed** pigmented or nodular lesion: refer for diagnosis first.",
+      "Multiple BCCs in a young person, palmar pits or jaw cysts: think **Gorlin syndrome** and refer."
+     ]
+    }
+   ],
+   "short": "Red flags"
+  },
+  {
+   "id": "complications",
+   "title": "Complications and prognosis",
+   "blocks": [
+    {
+     "h": "Complications"
+    },
+    {
+     "ul": [
+      "Local tissue destruction (eye, nose, ear) if neglected.",
+      "Recurrence, especially infiltrative/morphoeic BCC and H-zone sites.",
+      "Further BCCs and other skin cancers.",
+      "Metastasis is very rare (under 0.1%)."
+     ]
+    },
+    {
+     "h": "Prognosis"
+    },
+    {
+     "ul": [
+      "Excellent: over 95% cure with standard excision.",
+      "Annual skin self-checks and sun protection are needed because new BCCs are common."
+     ]
+    }
+   ],
+   "short": "Complications"
+  },
+  {
+   "id": "pearls",
+   "title": "Prescriber pearls (UK pharmacist IP)",
+   "blocks": [
+    {
+     "pearls": [
+      "**Medicines review for keratinocyte cancer patients:** Hydrochlorothiazide: MHRA advises informing patients of the NMSC risk and considering alternatives in those with previous skin cancer; Long-term voriconazole: phototoxicity and SCC; Azathioprine and other transplant immunosuppressants",
+      "Imiquimod counselling: apply at bedtime, wash off after about 8 h; expect redness, crusting and erosion (it means the drug is working); stop and seek advice if there is severe reaction or flu-like illness.",
+      "Sun protection: SPF 30+ with high UVA rating, shade, hats (NICE NG34). Advise a self-check every month.",
+      "Hedgehog inhibitors: pregnancy prevention for women (and condoms for men on vismodegib); cramps, taste loss and weight loss are common."
+     ]
+    },
+    {
+     "h": "Where course teaching differs from UK guidance"
+    },
+    {
+     "table": {
+      "head": [
+       "Topic",
+       "Course teaching or student answer",
+       "UK guidance",
+       "Teaching point"
+      ],
+      "rows": [
+       [
+        "Nodular BCC on the face: PDT and \"avoid surgery\"",
+        "PDT first; avoid facial surgery",
+        "BAD 2021: **surgery (standard excision or Mohs) is first-line** for nodular BCC, especially facial/high-risk. PDT is for **superficial** and **thin (<2 mm) nodular** BCC at low-risk sites, with higher recurrence",
+        "Gentle correction: facial site *favours* margin-controlled surgery (Mohs), it doesn't preclude surgery"
+       ],
+       [
+        "BCC urgency",
+        "(Not specified)",
+        "NG12 1.7.5 routine; 1.7.6 suspected cancer pathway if site/size makes delay matter",
+        "Nose = consider urgent"
+       ],
+       [
+        "SCC",
+        "Excision first-line",
+        "BAD 2020 margins 4/6/10 mm by risk; NG12 1.7.4 suspected cancer pathway",
+        "Aligned"
+       ],
+       [
+        "SIGN 140",
+        "You cited SIGN 140",
+        "Still valid (Scotland, 2014), but BAD 2020 is the current UK-wide reference",
+        "Cite both"
+       ],
+       [
+        "MF \"advanced disease\"",
+        "Course teaching",
+        "No staging data given. A 12-month steroid-resistant rash ≠ advanced. Advanced = stage ≥IIB",
+        "Stage before labelling; important for counselling"
+       ],
+       [
+        "MF treatment",
+        "Phototherapy",
+        "BAD/UKCLG 2019: skin-directed therapy (steroid, phototherapy, chlormethine, RT) for early stage",
+        "Aligned"
+       ],
+       [
+        "Nicotinamide",
+        "(Not discussed)",
+        "Benefit in immunocompetent high-risk patients (ONTRAC); no benefit in transplant recipients (2023 RCT)",
+        "Specialist advice"
+       ]
+      ]
+     }
+    }
+   ],
+   "short": "Pearls"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "What is the NICE NG12 referral speed for a typical BCC?",
+   "a": "Routine referral (1.7.5); consider the suspected cancer pathway only if site or size makes delay matter (1.7.6)."
+  },
+  {
+   "q": "Classic dermoscopy clue?",
+   "a": "Arborising (tree-like) vessels in sharp focus; also blue-grey ovoid nests."
+  },
+  {
+   "q": "First-line treatment for most BCCs, including nodular BCC on the face?",
+   "a": "Standard surgical excision (4 mm margin low-risk, ≥ 5 mm high-risk); Mohs for high-risk or recurrent."
+  },
+  {
+   "q": "Which mimic causes a crescent ulcer of the nasal ala that spares the tip?",
+   "a": "Trigeminal trophic syndrome. Biopsy to exclude BCC."
+  },
+  {
+   "q": "What must an IP never do with a suspected BCC?",
+   "a": "Freeze, curette or apply imiquimod to an undiagnosed lesion. Refer for diagnosis first."
+  }
+ ],
+ "references": [
+  {
+   "label": "Medscape: Basal cell carcinoma (BCC)",
+   "url": "https://emedicine.medscape.com/article/276624-overview"
+  }
+ ],
+ "see_also": [
+  "squamous-cell-carcinoma",
+  "melanoma",
+  "actinic-keratoses",
+  "skin-surgery-procedures"
+ ]
+}

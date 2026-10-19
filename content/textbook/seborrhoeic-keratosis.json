@@ -1,0 +1,521 @@
+{
+ "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
+ "key_facts": [
+  "Very common **benign** epidermal tumour: waxy, warty, **'stuck-on'** papules and plaques, tan to black.",
+  "Over **90% of adults over 60** have at least one; usually start in the 30s–40s.",
+  "Not premalignant; caused by clonal mutations (e.g. **FGFR3, PIK3CA**) in keratinocytes, not sebum or viruses.",
+  "Dermoscopy: **milia-like cysts**, comedo-like openings, 'brain-like' ridges and sharp edges.",
+  "Reassure if typical; refer anything atypical (melanoma mimic). Sudden eruption of many SKs (**Leser–Trélat**) may signal internal malignancy."
+ ],
+ "sections": [
+  {
+   "id": "overview",
+   "title": "Overview",
+   "blocks": [
+    "**Core SK content (definition, cause, sites, basic management) is in the [older skin pages](condition:itch-xerosis-older-adults) notes and is not repeated here.** This section adds dermoscopy, \"the SK that changes\", irritated SK and Leser–Trélat.",
+    "A benign epidermal tumour that is almost universal with age, often multiple, and the commonest \"changing lesion\" seen in primary care.",
+    {
+     "h4": "Hutchinson and Albright signs"
+    },
+    "Eponymous signs often mixed up in exams."
+   ]
+  },
+  {
+   "id": "epidemiology",
+   "title": "Epidemiology",
+   "blocks": [
+    {
+     "ul": [
+      {
+       "t": "**Who**",
+       "sub": [
+        "Extremely common in older adults of all ethnic groups; uncommon under 20.",
+        "Numbers increase with age; a strong family tendency in some people."
+       ]
+      },
+      {
+       "t": "**Variant in skin of colour**",
+       "sub": [
+        "**Dermatosis papulosa nigra**: many small dark papules on the face and neck, especially in people of African or Asian descent."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "aetiology",
+   "title": "Aetiology: causes and risk factors",
+   "blocks": [
+    "Activating **FGFR3/PIK3CA** mutations in keratinocytes; it is a clonal benign neoplasm, not a pre-cancer. Lesions thicken, darken, catch on clothing, become **irritated/inflamed** and itch. That is exactly the \"changing, itchy\" story in [Case 3](condition:seborrhoeic-keratosis), and the same story fits melanoma.",
+    {
+     "h": "Risk factors and associations"
+    },
+    {
+     "ul": [
+      "Clonal somatic mutations in **FGFR3, PIK3CA, RAS, AKT1, EGFR**.",
+      "Sun exposure may contribute (more on exposed sites); friction in body folds.",
+      "Eruptive SKs may follow inflammatory dermatoses or sunburn; **Leser–Trélat sign** with internal cancer is rare."
+     ]
+    },
+    {
+     "h": "Myths to address"
+    },
+    {
+     "ul": [
+      "**\"It's from greasy skin\"**: the name is misleading; SKs are not related to sebum or sebaceous glands.",
+      "**\"They are warts and spread\"**: they are not viral or contagious."
+     ]
+    }
+   ],
+   "short": "Aetiology"
+  },
+  {
+   "id": "pathophysiology",
+   "title": "Pathophysiology and pathology",
+   "blocks": [
+    "An SK is a **benign clonal overgrowth** of epidermal keratinocytes that sits on top of the skin.",
+    {
+     "mech": [
+      {
+       "k": "Clonal mutation",
+       "t": "Keratinocytes acquire activating mutations (often FGFR3 or PIK3CA) that drive orderly but excessive growth."
+      },
+      {
+       "k": "Upward growth",
+       "t": "The thickened epidermis grows **outwards above the skin surface**, so the lesion looks stuck on and can almost be lifted off.",
+       "img": "v3-sk-stuck-on.jpg",
+       "caption": "A seborrhoeic keratosis sitting on the skin surface, with horn cysts within it."
+      },
+      {
+       "k": "Horn cysts and pigment",
+       "t": "Keratin collects in small cysts (milia-like cysts on dermoscopy); melanin transferred from melanocytes darkens many lesions."
+      },
+      {
+       "k": "Irritation",
+       "t": "Friction or trauma can inflame an SK, making it red, crusted or bleeding, which can mimic cancer."
+      }
+     ]
+    },
+    {
+     "histo": [
+      "Acanthosis of basaloid keratinocytes with **horn pseudocysts**, hyperkeratosis and papillomatosis; the base is flat (the 'string sign').",
+      "Variants: acanthotic, hyperkeratotic, reticulated, clonal, irritated. Biopsy if any doubt."
+     ]
+    }
+   ],
+   "short": "Pathophysiology"
+  },
+  {
+   "id": "clinical-features",
+   "title": "Clinical features",
+   "blocks": [
+    {
+     "ul": [
+      "\"Stuck-on\", waxy, verrucous, fissured papules and plaques, tan to black, on the trunk, face and scalp.",
+      "**Irritated SK:** red rim, crust and itch. This mimics SCC or melanoma.",
+      "**Sign of Leser–Trélat**: sudden eruption of many SKs (often with acanthosis nigricans or itch). It has been linked to internal malignancy (gastric/colorectal adenocarcinoma, lymphoma), but **the evidence is weak and contested**, because SKs are so common. Look for systemic symptoms rather than labelling everyone. Eruptive SKs also occur with **drugs** (e.g. cytarabine, docetaxel, BRAF inhibitors) and after inflammatory dermatoses (erythroderma)."
+     ]
+    },
+    {
+     "h": "Hutchinson and Albright signs"
+    },
+    {
+     "h": "How they arise / the signs"
+    },
+    {
+     "table": {
+      "head": [
+       "Sign",
+       "Meaning"
+      ],
+      "rows": [
+       [
+        "**Hutchinson's sign (nail)**",
+        "**Periungual pigment spreading onto the proximal or lateral nail fold** from a longitudinal melanonychia. This suggests **subungual (acral) melanoma**. Cross-reference the [nail disorders](condition:paronychia) notes (melanonychia) and the [melanoma](condition:melanoma) notes"
+       ],
+       [
+        "*Pseudo-Hutchinson's sign*",
+        "Pigment visible through a transparent cuticle (benign naevus, ethnic pigmentation, Laugier–Hunziker, drugs such as zidovudine, minocycline, hydroxyurea, chemotherapy)"
+       ],
+       [
+        "Hutchinson's sign (herpes zoster)",
+        "Vesicles on the **tip/side of the nose** (nasociliary branch of V1) predict ophthalmic involvement, so same-day ophthalmology"
+       ],
+       [
+        "Hutchinson's triad",
+        "Congenital syphilis: notched incisors, interstitial keratitis, deafness"
+       ],
+       [
+        "**Albright's sign** (pseudohypoparathyroidism / Albright hereditary osteodystrophy)",
+        "Short 4th/5th metacarpals (\"knuckle-knuckle-dimple-dimple\" when making a fist); osteoma cutis"
+       ],
+       [
+        "McCune–Albright syndrome",
+        "Large unilateral **\"coast of Maine\"** café-au-lait macules (jagged), polyostotic fibrous dysplasia, precocious puberty (GNAS mosaicism). NF1 CALMs are smooth, like the \"coast of California\""
+       ]
+      ]
+     }
+    },
+    {
+     "fig": {
+      "dermnet": "m2w2:D05"
+     }
+    },
+    {
+     "h": "Types to recognise"
+    },
+    {
+     "variants": [
+      {
+       "name": "Classic stuck-on",
+       "t": "Waxy warty papule. *Site: Trunk.*",
+       "photo": "m2w2:D05"
+      },
+      {
+       "name": "Many SKs",
+       "t": "Older back. *Site: Back.*",
+       "photo": "m2w2:D01"
+      },
+      {
+       "name": "Irritated SK",
+       "t": "Red, crusted. *Site: Trunk.*",
+       "photo": "m2w2:D06"
+      },
+      {
+       "name": "Flat tan SK",
+       "t": "Like a solar lentigo. *Site: Face.*",
+       "photo": "m2w2:D03"
+      },
+      {
+       "name": "Milia-like cysts",
+       "t": "Dermoscopy. *Site: Dermoscopy.*",
+       "photo": "m2w2:E01"
+      },
+      {
+       "name": "Brain-like ridges",
+       "t": "Dermoscopy. *Site: Dermoscopy.*",
+       "photo": "m2w2:E02"
+      }
+     ]
+    },
+    {
+     "h": "Special groups"
+    },
+    {
+     "ul": [
+      {
+       "t": "**Skin of colour**",
+       "sub": [
+        "Dermatosis papulosa nigra is common and benign; treat only for cosmetic reasons, with care to avoid pigment change."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "diagnosis",
+   "title": "Diagnosis and investigations",
+   "blocks": [
+    "Key features:",
+    {
+     "ul": [
+      "**Milia-like cysts** (white/yellow \"stars\" or round bodies)",
+      "**Comedo-like openings** (keratin-filled crypts)",
+      "**Fissures and ridges** (\"brain-like\"/cerebriform, \"fat fingers\")",
+      "**Sharp, \"moth-eaten\" border**",
+      "**Hairpin vessels** with a white halo, in irritated or thick lesions",
+      "**Caveat:** some SKs show multiple colours or blue-black areas, and **\"collision\" lesions** (SK beside a melanoma or BCC) exist. **Melanoma can mimic SK**, especially in men's backs, like [Case 3](condition:seborrhoeic-keratosis) sailor."
+     ]
+    }
+   ],
+   "short": "Diagnosis"
+  },
+  {
+   "id": "differentials",
+   "title": "Differential diagnoses",
+   "blocks": [
+    {
+     "ddx": [
+      {
+       "name": "Melanoma",
+       "f": "Evolving asymmetry, atypical network, blue-white veil; no cysts or openings.",
+       "link": "melanoma",
+       "photo": "m2w2:D02",
+       "danger": true
+      },
+      {
+       "name": "Pigmented BCC",
+       "f": "Pearly, leaf-like areas, arborising vessels.",
+       "link": "basal-cell-carcinoma"
+      },
+      {
+       "name": "Solar lentigo",
+       "f": "Flat, fingerprint pattern.",
+       "link": "solar-lentigines"
+      },
+      {
+       "name": "Viral wart",
+       "f": "Thrombosed capillaries; younger.",
+       "link": "viral-warts"
+      },
+      {
+       "name": "SCC / Bowen’s",
+       "f": "Glomerular vessels, tender.",
+       "link": "squamous-cell-carcinoma"
+      },
+      {
+       "name": "Clear cell acanthoma",
+       "f": "‘String of pearls’ vessels.",
+       "link": "clear-cell-acanthoma"
+      }
+     ]
+    },
+    {
+     "h4": "–6.5 Clinical relevance, diagnosis and differentials"
+    },
+    "A **single nail band that is new, widening (>3 mm), dark, irregular, or in an adult aged over 50, especially of the thumb or great toe, or with Hutchinson's sign** needs urgent dermatology (suspected cancer pathway). Skin of colour often has *multiple* benign bands. A *single* changing band is the concern."
+   ],
+   "short": "Differentials"
+  },
+  {
+   "id": "management",
+   "title": "Management",
+   "blocks": [
+    {
+     "ul": [
+      "**Apply the NICE NG12 weighted 7-point checklist to any changing lesion:** Major features (2 points each): change in size, irregular shape, irregular colour; Minor features (1 point each): largest diameter ≥7 mm, inflammation, oozing, change in sensation (e.g. itch); [Case 3](condition:seborrhoeic-keratosis): \"changing\" (2) + **itchy** (1) = **3 → suspected cancer pathway**. This is unless the lesion is confidently a classic SK on dermoscopy by a trained clinician (see *Where course teaching differs from UK guidance*)",
+      "Even when the score is below 3, refer if there is **any** doubt. NG12 1.7.2 says dermoscopy suggesting melanoma means a suspected cancer referral.",
+      "**Confident SK:** reassure; leaflet. Itch: emollient ± a short course of a mild/moderate topical steroid for irritation.",
+      "Removal for cosmetic reasons is usually **not NHS-funded**. Cryotherapy, curettage or shave are used where symptomatic, with histology for curettage/shave if any doubt. **Never destroy (cryo) a lesion that might be melanoma.**",
+      "Topical **hydrogen peroxide 40%** (licensed in the US, not marketed in the UK) and other cosmetic options are not IP options."
+     ]
+    },
+    {
+     "h": "Hutchinson and Albright signs"
+    },
+    "Do not label nail pigmentation as fungal or traumatic without evidence. Haematomas grow out distally (mark the nail and re-check in 4–6 weeks), whereas melanoma bands remain at the matrix. Refer on the suspected cancer pathway when Hutchinson's sign is present.",
+    {
+     "h": "Worked cases"
+    },
+    {
+     "h": "Case 1: 50-year-old Asian woman, 5 mm pigmented arm papule, slow growth over 5 years"
+    },
+    {
+     "ul": [
+      "**Diagnosis:** (pigmented) dermatofibroma.",
+      "**Bedside sign:** dimple / Fitzpatrick (pinch) sign. Dermoscopy: peripheral network with a central white patch.",
+      "**Immunostain:** **Factor XIIIa positive** (CD34 negative). DFSP is the reverse.",
+      "**IP plan:** reassure if classic. Refer if dermoscopy is atypical or the 7-point score is ≥3 (growth = 2 points, so one more feature tips it)."
+     ]
+    },
+    {
+     "h": "Case 2: 68-year-old woman, tender scaly 7×8 mm pinna nodule, post-stroke, losartan/aspirin/simvastatin"
+    },
+    {
+     "ul": [
+      "**Bedside test:** gentle squeeze, which causes disproportionate tenderness. Also ask about the sleeping side.",
+      "**Diagnosis:** chondrodermatitis nodularis helicis.",
+      "**First-line treatment:** **pressure relief** (CNH foam protector/pillow with a hole; avoid sleeping on that side).",
+      "**Second-line:** intralesional or potent topical steroid, topical GTN (off-label), cryotherapy, cartilage excision.",
+      "**Biopsy if:** not resolving after 6–8 weeks of offloading, atypical features, or SCC/BCC suspected (NG12 1.7.4/1.7.5).",
+      "Do **not** stop aspirin for a biopsy."
+     ]
+    },
+    {
+     "h": "Case 3: 55-year-old sailor, itchy back lesion changing over 6 months"
+    },
+    {
+     "ul": [
+      "**Bedside test:** dermoscopy. Milia-like cysts, comedo-like openings, fissures/ridges, sharp border, and hairpin vessels mean SK.",
+      "**Diagnosis:** seborrhoeic keratosis. **Management:** reassure and discharge.",
+      "**UK IP version:** NG12 7-point score = change (2) + itch/sensation change (1) = **3**, which means the suspected cancer pathway *unless* a trained clinician has confidently made the dermoscopic SK diagnosis. An IP without dermoscopy competence should **refer**, not discharge. Also give sun-safety advice and a full skin check."
+     ]
+    },
+    {
+     "h": "Practice case"
+    },
+    {
+     "ul": [
+      "**Clear cell acanthoma:** red, moist, collarette-rimmed leg papule; **string-of-pearls** vessels on dermoscopy."
+     ]
+    },
+    {
+     "ul": [
+      "Reassure when typical. Cryotherapy or curettage only if symptomatic or diagnostic doubt; usually private/cosmetic on the NHS unless catching or bleeding.",
+      "Ugly-duckling or atypical → refer, do not freeze."
+     ]
+    },
+    {
+     "h": "Treatment ladder"
+    },
+    {
+     "ladder": [
+      {
+       "k": "Confident SK",
+       "t": "Reassure; leaflet; itch: emollient ± short mild steroid.",
+       "tone": "base"
+      },
+      {
+       "k": "Doubt",
+       "t": "Score ≥ 3, dermoscopy suggesting melanoma (NG12 1.7.2), or **any doubt**: refer.",
+       "tone": "refer"
+      },
+      {
+       "k": "Removal",
+       "t": "Cryo / curettage only if symptomatic (catching, bleeding, inflamed); cosmetic removal usually not NHS-funded.",
+       "tone": "first"
+      }
+     ]
+    },
+    {
+     "h": "Referral"
+    },
+    {
+     "refer": [
+      {
+       "when": "urgent",
+       "t": "An ‘SK’ that is changing, has atypical dermoscopy, or stands out from the patient’s other SKs: **possible melanoma**."
+      },
+      {
+       "when": "routine",
+       "t": "Sudden eruption of many SKs with itch: consider internal malignancy (**Leser–Trélat**)."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "red-flags",
+   "title": "Red flags and when to refer",
+   "blocks": [
+    {
+     "ul": [
+      "An ‘SK’ that is changing, has atypical dermoscopy or stands out from the patient’s other SKs: refer as a **possible melanoma**.",
+      "Sudden eruption of many SKs with itch: consider internal malignancy (**Leser–Trélat**)."
+     ]
+    }
+   ],
+   "short": "Red flags"
+  },
+  {
+   "id": "complications",
+   "title": "Complications and prognosis",
+   "blocks": [
+    {
+     "h": "Complications"
+    },
+    {
+     "ul": [
+      "Irritation, itch, catching on clothing and bleeding.",
+      "**Misdiagnosis**: melanoma, pigmented BCC or SCC can look like an SK.",
+      "Collision tumours (a cancer arising next to an SK) are rare."
+     ]
+    },
+    {
+     "h": "Prognosis"
+    },
+    {
+     "ul": [
+      "Benign and permanent; new lesions keep appearing with age.",
+      "Removal (cryotherapy, curettage, shave) is usually cosmetic and not funded on the NHS unless symptomatic."
+     ]
+    }
+   ],
+   "short": "Complications"
+  },
+  {
+   "id": "pearls",
+   "title": "Prescriber pearls (UK pharmacist IP)",
+   "blocks": [
+    {
+     "pearls": [
+      "[Case 3](condition:seborrhoeic-keratosis) sailor has lifelong UV exposure, so he is at higher risk for melanoma, BCC and SCC. Give sun-protection advice and do a **full skin check** (other lesions, scalp, ears).",
+      "Teach the \"ugly duckling\" concept and ask about change using photos (patients can photograph lesions monthly).",
+      "Ask about drugs that cause melanonychia (hydroxycarbamide, zidovudine, minocycline, antimalarials, cytotoxics). Multiple nails and a matching start date make it drug-related."
+     ]
+    },
+    {
+     "h": "Hutchinson and Albright signs"
+    },
+    {
+     "h": "Where course teaching differs from UK guidance"
+    },
+    {
+     "table": {
+      "head": [
+       "Topic",
+       "Course teaching",
+       "UK guidance / practice",
+       "Teaching point"
+      ],
+      "rows": [
+       [
+        "Changing itchy lesion",
+        "Dermoscopy, then reassure and discharge",
+        "NG12 7-point checklist: change + itch = 3, so suspected cancer pathway unless confident. NG12 1.7.2 applies when dermoscopy suggests melanoma",
+        "**Reassurance is only safe after competent dermoscopy.** IPs without that training refer (teledermatology with dermoscopic images where available)"
+       ],
+       [
+        "CNH management",
+        "Pressure relief only",
+        "PCDS/BAD: offloading is first-line; steroid, GTN, cryo and surgery are second-line; biopsy non-resolving or atypical lesions",
+        "A student list was valid as *second-line* (see *Chondrodermatitis nodularis helicis*)"
+       ],
+       [
+        "Topical GTN",
+        "(A student answer)",
+        "Off-label; small trials; contraindicated with PDE-5 inhibitors",
+        "Specialist advice before using"
+       ],
+       [
+        "Leser–Trélat",
+        "Presented as a marker of malignancy",
+        "Weak, contested evidence; eruptive SKs also follow drugs and inflammation",
+        "Look for systemic symptoms; don't over-investigate"
+       ],
+       [
+        "Aspirin and skin biopsy",
+        "(Not discussed)",
+        "BSDS 2023: continue antiplatelets for skin surgery",
+        "—"
+       ]
+      ]
+     }
+    }
+   ],
+   "short": "Pearls"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Two dermoscopic SK clues?",
+   "a": "Milia-like cysts and comedo-like openings."
+  },
+  {
+   "q": "Changing itchy pigmented lesion: 7-point score?",
+   "a": "3: suspected cancer pathway unless confidently SK."
+  },
+  {
+   "q": "Leser–Trélat sign?",
+   "a": "Sudden eruption of many SKs (weak malignancy link)."
+  },
+  {
+   "q": "Is SK related to HPV or sun?",
+   "a": "No."
+  }
+ ],
+ "references": [
+  {
+   "label": "Medscape: Seborrhoeic keratosis",
+   "url": "https://emedicine.medscape.com/article/1059477-overview"
+  }
+ ],
+ "see_also": [
+  "actinic-keratoses",
+  "melanoma",
+  "solar-lentigines",
+  "melanocytic-naevi"
+ ]
+}

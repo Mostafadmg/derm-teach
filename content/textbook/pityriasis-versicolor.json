@@ -1,0 +1,422 @@
+{
+ "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
+ "key_facts": [
+  "Superficial infection with the lipophilic yeast ***Malassezia*** causing scaly **hypo- or hyperpigmented** patches on the upper trunk.",
+  "Most common in **young adults**, hot humid climates and people who sweat heavily; recurs each summer.",
+  "**Fine scale** shows when the skin is stretched or scraped; Wood's light may give yellow fluorescence.",
+  "First line (CKS): **ketoconazole 2% shampoo** as a short-contact wash; topical azole for small areas; oral itraconazole if extensive or resistant.",
+  "Colour takes **months** to normalise after the yeast is cleared; recurrence is common (prophylaxis may help)."
+ ],
+ "sections": [
+  {
+   "id": "overview",
+   "title": "Overview",
+   "blocks": [
+    "Pityriasis versicolor is a common, superficial yeast infection that causes **patchy colour change with fine scale**, usually on the trunk. It is caused by *Malassezia*, a yeast that is part of normal skin flora.",
+    "Because the organism is a normal skin resident, the condition is **not contagious in the usual sense**. It is an overgrowth rather than something caught."
+   ]
+  },
+  {
+   "id": "epidemiology",
+   "title": "Epidemiology",
+   "blocks": [
+    {
+     "ul": [
+      {
+       "t": "**Who**",
+       "sub": [
+        "Young adults, slightly more men; up to 40% in tropical climates, 1–4% in temperate climates.",
+        "Malassezia is normal flora in 90–100% of adults."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "aetiology",
+   "title": "Aetiology: causes and risk factors",
+   "blocks": [
+    {
+     "ul": [
+      "Lipophilic *Malassezia* overgrows in sebum-rich skin (chest, back, shoulders, neck).",
+      "It produces substances that **interfere with melanin**, giving hypopigmented patches, or causes mild inflammation, giving pink or brown hyperpigmented patches.",
+      "**Promoters:** heat, humidity, sweating, oily skin and young adulthood. Mild immunosuppression can contribute."
+     ]
+    },
+    {
+     "h": "Risk factors and associations"
+    },
+    {
+     "ul": [
+      "**Organisms**: *M. globosa*, *M. sympodialis*, *M. furfur*.",
+      "Triggers: heat, humidity, sweating, oily skin, occlusive clothing, immunosuppression, pregnancy, genetic predisposition."
+     ]
+    },
+    {
+     "h": "Myths to address"
+    },
+    {
+     "ul": [
+      "**\"The white patches are vitiligo\"**: PV patches are scaly and fade after treatment; vitiligo is smooth and depigmented.",
+      "**\"It's contagious\"**: it comes from your own skin yeast."
+     ]
+    }
+   ],
+   "short": "Aetiology"
+  },
+  {
+   "id": "pathophysiology",
+   "title": "Pathophysiology and pathology",
+   "blocks": [
+    "Normal skin yeast switches to a **hyphal form** and alters pigment in the stratum corneum.",
+    {
+     "mech": [
+      {
+       "k": "Yeast to hyphae",
+       "t": "Heat, humidity and sebum let *Malassezia* convert from yeast to the invasive **mycelial** form in the stratum corneum.",
+       "img": "v4-pv-yeast-hyphae.jpg",
+       "caption": "Malassezia yeasts and short hyphae in the stratum corneum; melanocytes beneath produce less pigment, so the patch looks paler."
+      },
+      {
+       "k": "Hypopigmentation",
+       "t": "The yeast produces **azelaic acid** and other dicarboxylic acids that inhibit tyrosinase and melanocytes, so patches look paler, especially after a tan.",
+       "img": "v3-pv-back-map.jpg",
+       "caption": "Typical distribution: scaly pale or brown patches on the upper back, chest and upper arms."
+      },
+      {
+       "k": "Hyperpigmentation",
+       "t": "In other patients, thicker keratin and inflammation make patches pink or brown."
+      },
+      {
+       "k": "Slow recovery",
+       "t": "After the yeast is killed, pigment returns only slowly over months."
+      }
+     ]
+    },
+    {
+     "histo": [
+      "Short hyphae and round yeasts ('spaghetti and meatballs') in the stratum corneum on KOH microscopy of scrapings.",
+      "Biopsy is not needed."
+     ]
+    }
+   ],
+   "short": "Pathophysiology"
+  },
+  {
+   "id": "clinical-features",
+   "title": "Clinical features",
+   "blocks": [
+    {
+     "ul": [
+      "Well-demarcated **hypopigmented, hyperpigmented or pink-fawn** macules that coalesce into patches.",
+      "**Fine, bran-like scale**, which becomes more obvious when the skin is gently scratched or stretched (the ‘evoked scale’ sign).",
+      "Sites: upper trunk, shoulders, neck and upper arms.",
+      "Usually asymptomatic or mildly itchy. Often noticed **after tanning**, because affected skin does not tan."
+     ]
+    },
+    {
+     "fig": {
+      "dermnet": "D12"
+     }
+    },
+    {
+     "h": "Colour variants"
+    },
+    {
+     "variants": [
+      {
+       "name": "Hypopigmented",
+       "t": "Coalescing pale scaly macules. *Site: Upper trunk.*",
+       "photo": "D12"
+      },
+      {
+       "name": "On tanned skin",
+       "t": "Small pale scaly macules; noticed after sun. *Site: Shoulders.*",
+       "photo": "D13"
+      },
+      {
+       "name": "Hyperpigmented / pink",
+       "t": "Fawn-pink scaly macules coalescing. *Site: Chest, back.*",
+       "photo": "D14"
+      }
+     ]
+    },
+    {
+     "h": "Special groups"
+    },
+    {
+     "ul": [
+      {
+       "t": "**Skin of colour**",
+       "sub": [
+        "Hypopigmentation is especially noticeable and distressing; reassure that colour returns slowly."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "diagnosis",
+   "title": "Diagnosis and investigations",
+   "blocks": [
+    {
+     "ul": [
+      "Usually **clinical**.",
+      "Skin scrapings or tape-stripping for microscopy show the classic **‘spaghetti and meatballs’** hyphae and spores.",
+      "Wood’s lamp may show a yellow-green fluorescence, but this is variable."
+     ]
+    },
+    {
+     "h4": "Clinical"
+    },
+    {
+     "ul": [
+      "Usually clinical.",
+      "Stretch the skin to **evoke scale**."
+     ]
+    },
+    {
+     "h4": "Microscopy"
+    },
+    {
+     "ul": [
+      "Scrapings or tape strip: **‘spaghetti and meatballs’** hyphae and spores."
+     ]
+    },
+    {
+     "h4": "Wood’s lamp"
+    },
+    {
+     "ul": [
+      "Yellow-green fluorescence: variable."
+     ]
+    },
+    {
+     "h4": "If no scale"
+    },
+    {
+     "ul": [
+      "Complete depigmentation, no scale → think **vitiligo**."
+     ]
+    }
+   ],
+   "short": "Diagnosis"
+  },
+  {
+   "id": "differentials",
+   "title": "Differential diagnoses",
+   "blocks": [
+    {
+     "ddx": [
+      {
+       "name": "Vitiligo",
+       "f": "Chalk-white, **no scale**; hands, face, orifices.",
+       "link": "hypopigmentation-skin-of-colour"
+      },
+      {
+       "name": "Pityriasis alba",
+       "f": "Children; ill-defined pale facial patches; atopy.",
+       "link": "hypopigmentation-skin-of-colour"
+      },
+      {
+       "name": "Post-inflammatory hypopigmentation",
+       "f": "Previous rash at the same sites; no scale.",
+       "link": "hypopigmentation-skin-of-colour"
+      },
+      {
+       "name": "Seborrhoeic dermatitis",
+       "f": "Greasy scale; scalp, face, central chest.",
+       "link": "eczema-dermatitis"
+      },
+      {
+       "name": "Pityriasis rosea",
+       "f": "Herald patch, then ‘Christmas-tree’; settles in 6–8 weeks.",
+       "link": "pityriasis-rosea"
+      }
+     ]
+    }
+   ],
+   "short": "Differentials"
+  },
+  {
+   "id": "management",
+   "title": "Management",
+   "blocks": [
+    {
+     "h": "First line (CKS)"
+    },
+    {
+     "ul": [
+      "**Extensive:** **ketoconazole 2% shampoo** used as a body wash once daily for up to **5 days**. Lather onto the affected skin, leave for 3–5 minutes, then rinse. Licensed for this use from age 12.",
+      "**Small areas:** an azole (clotrimazole, econazole, ketoconazole) or terbinafine cream twice daily for 2–3 weeks. **Clotrimazole is preferred in pregnancy.**"
+     ]
+    },
+    {
+     "h": "If topicals fail or disease is very widespread"
+    },
+    "Oral **itraconazole** or **fluconazole** in adults. Check interactions and pregnancy status. Seek specialist advice for pregnancy or children.",
+    {
+     "h": "Preventing recurrence"
+    },
+    "Recurrence is common. Options are ketoconazole shampoo every 1–4 weeks, or a 3-day course before a sunny holiday.",
+    {
+     "h": "Medicines at a glance"
+    },
+    {
+     "drugs": [
+      {
+       "name": "Ketoconazole 2% shampoo as body wash",
+       "cls": "First line",
+       "dose": "Once daily; lather, leave 3–5 min, rinse · Up to 5 days",
+       "cautions": "Licensed for this use from age 12."
+      },
+      {
+       "name": "Azole (clotrimazole, econazole, ketoconazole) or terbinafine cream",
+       "cls": "First line",
+       "dose": "Twice daily · 2–3 weeks",
+       "cautions": "Clotrimazole preferred in pregnancy."
+      }
+     ]
+    },
+    {
+     "h": "Treatment ladder"
+    },
+    {
+     "ladder": [
+      {
+       "k": "First line",
+       "t": "Ketoconazole 2% shampoo as body wash; Azole (clotrimazole, econazole, ketoconazole) or terbinafine cream",
+       "tone": "first"
+      },
+      {
+       "k": "Topicals fail or very widespread",
+       "t": "Oral **itraconazole** or **fluconazole** in adults: check interactions and pregnancy. Pregnancy or children: specialist advice.",
+       "tone": "second"
+      },
+      {
+       "k": "Prevent recurrence",
+       "t": "Ketoconazole shampoo every 1–4 weeks, or a **3-day course before a sunny holiday**.",
+       "tone": "third"
+      }
+     ]
+    },
+    {
+     "callout": "warn",
+     "title": "Prescribing limits and pitfalls",
+     "list": [
+      "**Expectations**: Colour takes **weeks to months** to return: not treatment failure.",
+      "**Ongoing scale**: Suggests the infection is still active."
+     ]
+    },
+    {
+     "h": "Referral"
+    },
+    {
+     "refer": [
+      {
+       "when": "routine",
+       "t": "Diagnostic doubt: especially **no scale** or complete depigmentation (vitiligo)."
+      },
+      {
+       "when": "routine",
+       "t": "Very extensive, recurrent or unusual: consider immunosuppression."
+      },
+      {
+       "when": "routine",
+       "t": "Pregnancy or children needing oral therapy: specialist advice."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "red-flags",
+   "title": "Red flags and when to refer",
+   "blocks": [
+    {
+     "ul": [
+      "Diagnostic doubt, especially no scale or complete depigmentation (think vitiligo).",
+      "Very extensive, recurrent or unusual disease: consider immunosuppression.",
+      "Pregnancy or children needing oral therapy: seek specialist advice."
+     ]
+    }
+   ],
+   "short": "Red flags"
+  },
+  {
+   "id": "complications",
+   "title": "Complications and prognosis",
+   "blocks": [
+    {
+     "h": "Complications"
+    },
+    {
+     "ul": [
+      "Persistent pigment change for months.",
+      "Recurrence in up to 60% within a year and 80% within 2 years without prophylaxis."
+     ]
+    },
+    {
+     "h": "Prognosis"
+    },
+    {
+     "ul": [
+      "Responds well to antifungals; recurrence is very common, so maintenance or seasonal prophylaxis may be offered."
+     ]
+    }
+   ],
+   "short": "Complications"
+  },
+  {
+   "id": "pearls",
+   "title": "Prescriber pearls (UK pharmacist IP)",
+   "blocks": [
+    {
+     "pearls": [
+      "**Manage expectations:** the colour takes **weeks to months** to return after the yeast is cleared. This is **not** treatment failure.",
+      "Reassure that it is **not** caused by poor hygiene and is not usually catching.",
+      "Even sun exposure after treatment helps the colour even out. Ongoing scale suggests the infection is still active.",
+      "A prophylaxis plan before holidays prevents a lot of repeat consultations."
+     ]
+    }
+   ],
+   "short": "Pearls"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "What organism causes pityriasis versicolor?",
+   "a": "Malassezia, a normal skin yeast, overgrowing."
+  },
+  {
+   "q": "How is ketoconazole shampoo used?",
+   "a": "As a body wash once daily for up to 5 days: lather, leave 3–5 minutes, rinse."
+  },
+  {
+   "q": "What does microscopy show?",
+   "a": "‘Spaghetti and meatballs’ hyphae and spores."
+  },
+  {
+   "q": "Pale patches but no scale and chalk-white?",
+   "a": "Think vitiligo, not pityriasis versicolor."
+  },
+  {
+   "q": "Yeast cleared but still pale. Failure?",
+   "a": "No: colour takes weeks to months to return."
+  }
+ ],
+ "references": [
+  {
+   "label": "Medscape: Pityriasis versicolor",
+   "url": "https://emedicine.medscape.com/article/1091575-overview"
+  }
+ ],
+ "see_also": [
+  "hypopigmentation-skin-of-colour",
+  "tinea",
+  "pityriasis-rosea",
+  "folliculitis"
+ ]
+}

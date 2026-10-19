@@ -1,0 +1,71 @@
+{
+ "kf": [
+  "Inflammation of the skin under a nappy, most often **irritant** contact dermatitis from urine, faeces and occlusion.",
+  "Peaks at **9–12 months** (range 3–15 months); much less common with modern breathable disposables.",
+  "Irritant: convex surfaces affected, **skin creases spared**; *Candida*: creases involved with **satellite** papules.",
+  "Frequent changes, nappy-free time, gentle cleansing and a **barrier preparation**; topical imidazole if candidal; hydrocortisone 1% short term if inflamed.",
+  "Refer if atypical, nodular, ulcerated or not responding (e.g. psoriasis, Langerhans cell histiocytosis, zinc deficiency)."
+ ],
+ "epi": [
+  {
+   "t": "**Who**",
+   "sub": [
+    "Up to a third of babies in nappies at any time; peak 9–12 months.",
+    "Also affects incontinent older children and adults (incontinence-associated dermatitis)."
+   ]
+  }
+ ],
+ "aet": [
+  "Prolonged contact with urine and faeces; **diarrhoea** (faecal enzymes) and antibiotics (Candida) are common triggers.",
+  "Infrequent changes, tight nappies, harsh wipes and soaps."
+ ],
+ "myths": [
+  "**\"Leave the cream thick and never wipe it off\"**: a barrier layer is fine, but clean skin gently at each change."
+ ],
+ "patho_lead": "Wet, occluded skin with a **high pH** lets faecal enzymes break down the barrier.",
+ "mech": [
+  {
+   "k": "Overhydration",
+   "t": "Occlusion keeps the stratum corneum wet, making it fragile and more permeable."
+  },
+  {
+   "k": "Alkaline pH and enzymes",
+   "t": "Bacteria convert urine urea to **ammonia**, raising pH, which activates faecal **proteases and lipases** that digest the skin barrier."
+  },
+  {
+   "k": "Irritant dermatitis",
+   "t": "Friction and enzymes inflame the convex skin in contact with the nappy; creases are protected.",
+   "img": "v3-napkin-irritant-vs-candida.jpg",
+   "cap": "Irritant napkin dermatitis (convex surfaces, creases spared) vs candidal (creases involved, satellite spots)."
+  },
+  {
+   "k": "Secondary Candida",
+   "t": "After about 3 days, *Candida* from the gut often colonises damaged skin, spreading into the folds."
+  }
+ ],
+ "histo": [
+  "Not needed; diagnosis is clinical. Swab satellite pustules if unsure or recurrent."
+ ],
+ "special": [
+  {
+   "t": "**Skin of colour**",
+   "sub": [
+    "Redness is less obvious; look for scaling, erosion and post-inflammatory pigmentation."
+   ]
+  }
+ ],
+ "comp": [
+  "Secondary *Candida* or bacterial (impetigo) infection.",
+  "Erosive **Jacquet** dermatitis and granuloma gluteale infantum (steroid misuse).",
+  "Distress and sleep disturbance."
+ ],
+ "prog": [
+  "Usually settles within days with good nappy care; recurs with diarrhoea or infrequent changes."
+ ],
+ "see_also": [
+  "candida-intertrigo",
+  "eczema-dermatitis",
+  "psoriasis",
+  "neonatal-rashes"
+ ]
+}

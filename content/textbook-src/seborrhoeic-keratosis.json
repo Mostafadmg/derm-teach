@@ -1,0 +1,81 @@
+{
+ "kf": [
+  "Very common **benign** epidermal tumour: waxy, warty, **'stuck-on'** papules and plaques, tan to black.",
+  "Over **90% of adults over 60** have at least one; usually start in the 30s–40s.",
+  "Not premalignant; caused by clonal mutations (e.g. **FGFR3, PIK3CA**) in keratinocytes, not sebum or viruses.",
+  "Dermoscopy: **milia-like cysts**, comedo-like openings, 'brain-like' ridges and sharp edges.",
+  "Reassure if typical; refer anything atypical (melanoma mimic). Sudden eruption of many SKs (**Leser–Trélat**) may signal internal malignancy."
+ ],
+ "epi": [
+  {
+   "t": "**Who**",
+   "sub": [
+    "Extremely common in older adults of all ethnic groups; uncommon under 20.",
+    "Numbers increase with age; a strong family tendency in some people."
+   ]
+  },
+  {
+   "t": "**Variant in skin of colour**",
+   "sub": [
+    "**Dermatosis papulosa nigra**: many small dark papules on the face and neck, especially in people of African or Asian descent."
+   ]
+  }
+ ],
+ "aet": [
+  "Clonal somatic mutations in **FGFR3, PIK3CA, RAS, AKT1, EGFR**.",
+  "Sun exposure may contribute (more on exposed sites); friction in body folds.",
+  "Eruptive SKs may follow inflammatory dermatoses or sunburn; **Leser–Trélat sign** with internal cancer is rare."
+ ],
+ "myths": [
+  "**\"It's from greasy skin\"**: the name is misleading; SKs are not related to sebum or sebaceous glands.",
+  "**\"They are warts and spread\"**: they are not viral or contagious."
+ ],
+ "patho_lead": "An SK is a **benign clonal overgrowth** of epidermal keratinocytes that sits on top of the skin.",
+ "mech": [
+  {
+   "k": "Clonal mutation",
+   "t": "Keratinocytes acquire activating mutations (often FGFR3 or PIK3CA) that drive orderly but excessive growth."
+  },
+  {
+   "k": "Upward growth",
+   "t": "The thickened epidermis grows **outwards above the skin surface**, so the lesion looks stuck on and can almost be lifted off.",
+   "img": "v3-sk-stuck-on.jpg",
+   "cap": "A seborrhoeic keratosis sitting on the skin surface, with horn cysts within it."
+  },
+  {
+   "k": "Horn cysts and pigment",
+   "t": "Keratin collects in small cysts (milia-like cysts on dermoscopy); melanin transferred from melanocytes darkens many lesions."
+  },
+  {
+   "k": "Irritation",
+   "t": "Friction or trauma can inflame an SK, making it red, crusted or bleeding, which can mimic cancer."
+  }
+ ],
+ "histo": [
+  "Acanthosis of basaloid keratinocytes with **horn pseudocysts**, hyperkeratosis and papillomatosis; the base is flat (the 'string sign').",
+  "Variants: acanthotic, hyperkeratotic, reticulated, clonal, irritated. Biopsy if any doubt."
+ ],
+ "special": [
+  {
+   "t": "**Skin of colour**",
+   "sub": [
+    "Dermatosis papulosa nigra is common and benign; treat only for cosmetic reasons, with care to avoid pigment change."
+   ]
+  }
+ ],
+ "comp": [
+  "Irritation, itch, catching on clothing and bleeding.",
+  "**Misdiagnosis**: melanoma, pigmented BCC or SCC can look like an SK.",
+  "Collision tumours (a cancer arising next to an SK) are rare."
+ ],
+ "prog": [
+  "Benign and permanent; new lesions keep appearing with age.",
+  "Removal (cryotherapy, curettage, shave) is usually cosmetic and not funded on the NHS unless symptomatic."
+ ],
+ "see_also": [
+  "actinic-keratoses",
+  "melanoma",
+  "solar-lentigines",
+  "melanocytic-naevi"
+ ]
+}

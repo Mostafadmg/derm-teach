@@ -196,6 +196,12 @@
     "list": [
      "**Clear cell acanthoma:** red, moist, collarette-rimmed leg papule; **string-of-pearls** vessels on dermoscopy."
     ]
+   },
+   {
+    "list": [
+     "Reassure when typical. Cryotherapy or curettage only if symptomatic or diagnostic doubt; usually private/cosmetic on the NHS unless catching or bleeding.",
+     "Ugly-duckling or atypical → refer, do not freeze."
+    ]
    }
   ],
   "red_flags": [
@@ -278,6 +284,13 @@
     "m2w2:E04",
     "m2w2:E05",
     "m2w2:E06"
+   ]
+  },
+  {
+   "title": "Seborrhoeic keratosis vs actinic keratosis (Module 6 Week 4)",
+   "items": [
+    "m6w4:W4C-07",
+    "m6w4:W4C-08"
    ]
   }
  ],

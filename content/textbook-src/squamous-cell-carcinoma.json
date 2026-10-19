@@ -1,0 +1,96 @@
+{
+ "kf": [
+  "Malignant tumour of **epidermal keratinocytes**; the second commonest skin cancer.",
+  "Risk factors: cumulative **UV**, older age, fair skin, **AKs**, organ-transplant immunosuppression (65–250× risk), smoking, chronic wounds and scars.",
+  "Tender, **keratotic, crusted or ulcerated** nodule on sun-exposed skin that grows over weeks to months.",
+  "Can metastasise (about 2–5%): **lip, ear**, large, deep, perineural and immunosuppressed are high risk.",
+  "UK (NICE NG12): **suspected cancer (2WW) referral**; surgery is the mainstay."
+ ],
+ "epi": [
+  {
+   "t": "**Incidence**",
+   "sub": [
+    "Rising; about 1 in 4 non-melanoma skin cancers in the UK.",
+    "Mostly over 60, more men; outdoor workers."
+   ]
+  },
+  {
+   "t": "**High-risk groups**",
+   "sub": [
+    "Organ transplant recipients develop SCCs far more often and more aggressively.",
+    "People with chronic lymphocytic leukaemia or HIV."
+   ]
+  }
+ ],
+ "aet": [
+  "**Cumulative UVB**, sunbeds and PUVA; photosensitising drugs (voriconazole, hydrochlorothiazide).",
+  "Precursors: AKs, Bowen's disease (SCC in situ), actinic cheilitis.",
+  "**Chronic inflammation and scars**: burns, leg ulcers (Marjolin ulcer), lichen sclerosus, discoid lupus, epidermolysis bullosa.",
+  "HPV (especially in immunosuppression and genital/periungual SCC), arsenic, ionising radiation, smoking."
+ ],
+ "myths": [
+  "**\"It's a wart that won't go\"**: a fast-growing, tender keratotic lump on sun-damaged skin needs urgent assessment."
+ ],
+ "patho_lead": "SCC develops step by step from **UV-damaged keratinocytes** that eventually breach the basement membrane.",
+ "mech": [
+  {
+   "k": "UV DNA damage",
+   "t": "UVB causes **TP53** mutations (UV signature) and then NOTCH and CDKN2A changes.",
+   "img": "v4-scc-uv-dna.jpg",
+   "cap": "UVB damages keratinocyte DNA (inset: fused adjacent bases); mutated cells crowd together and begin to invade beneath rough scale."
+  },
+  {
+   "k": "Dysplasia",
+   "t": "Abnormal cells spread in the epidermis: partial thickness (AK) then full thickness (Bowen's disease, SCC in situ)."
+  },
+  {
+   "k": "Invasion",
+   "t": "Cells break through the basement membrane into the dermis as nests and strands of keratinising cells.",
+   "img": "v3-scc-invasion-section.jpg",
+   "cap": "SCC invading through the basement membrane into the dermis, with keratin pearls."
+  },
+  {
+   "k": "Immune escape",
+   "t": "Immunosuppression lets mutated clones grow unchecked: why transplant recipients get many aggressive SCCs."
+  },
+  {
+   "k": "Spread",
+   "t": "Some tumours invade nerves or spread to regional lymph nodes, especially on high-risk sites.",
+   "img": "v3-scc-high-risk-sites.jpg",
+   "cap": "High-risk sites: lip, ear, temple, scalp and the backs of the hands."
+  }
+ ],
+ "histo": [
+  "Atypical keratinocytes invading the dermis with **keratin pearls** and intercellular bridges.",
+  "Grade (well to poorly differentiated), depth, perineural invasion and margins determine risk and follow-up."
+ ],
+ "special": [
+  {
+   "t": "**Transplant recipients**",
+   "sub": [
+    "Annual or more frequent skin surveillance; rapid referral of any new or growing lesion."
+   ]
+  },
+  {
+   "t": "**Skin of colour**",
+   "sub": [
+    "SCC is the commonest skin cancer in people with dark skin, often arising in **scars, chronic ulcers or sun-protected sites** and presenting late."
+   ]
+  }
+ ],
+ "comp": [
+  "Local recurrence and tissue destruction.",
+  "**Metastasis** to lymph nodes (about 2–5%), higher with high-risk features.",
+  "Perineural spread (pain, numbness, cranial nerve palsies)."
+ ],
+ "prog": [
+  "Most low-risk SCCs are cured by excision.",
+  "Five-year survival falls markedly once nodes are involved; high-risk patients need specialist follow-up."
+ ],
+ "see_also": [
+  "actinic-keratoses",
+  "basal-cell-carcinoma",
+  "melanoma",
+  "skin-surgery-procedures"
+ ]
+}

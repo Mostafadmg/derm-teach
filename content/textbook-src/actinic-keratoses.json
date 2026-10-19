@@ -1,0 +1,115 @@
+{
+ "kf": [
+  "**Actinic (solar) keratoses** are UV-induced patches of dysplastic keratinocytes on chronically sun-exposed skin.",
+  "Very common: up to **25% of people over 60** in northern England and Ireland; more in fair skin, outdoor workers and the immunosuppressed.",
+  "Rough, **gritty** scale on a pink base, often easier to feel than see; face, bald scalp, ears, forearms and backs of hands.",
+  "A single AK rarely becomes SCC, but people with **many AKs** have a 10–15% lifetime SCC risk (field cancerisation).",
+  "Sun protection for all; cryotherapy for few lesions; **field treatment** (5-FU, imiquimod, diclofenac 3%, PDT). Tender, thick or growing → exclude SCC."
+ ],
+ "epi": [
+  {
+   "t": "**Who**",
+   "sub": [
+    "Older adults with fair skin (Fitzpatrick I–II), chronic sun exposure and photoageing.",
+    "Organ transplant recipients and other immunosuppressed people have many more, and more aggressive, lesions."
+   ]
+  },
+  {
+   "t": "**Natural history**",
+   "sub": [
+    "Individual AKs can regress (up to a quarter a year), persist or, rarely, progress to SCC."
+   ]
+  }
+ ],
+ "aet": [
+  "Cumulative **UVB** (and UVA) exposure: outdoor work, sunbeds, living in sunny climates.",
+  "Immunosuppression (transplant drugs), older age, previous skin cancer; HPV types may contribute."
+ ],
+ "myths": [
+  "**\"It's just dry skin\"**: a persistent gritty patch on sun-damaged skin is an AK until shown otherwise.",
+  "**\"Treat each spot\"**: once cancer is excluded, treating the whole field matters more."
+ ],
+ "patho_lead": "UV damage to keratinocyte DNA creates a **field** of genetically abnormal cells; the AK is the visible tip.",
+ "mech": [
+  {
+   "k": "UV DNA damage",
+   "t": "UVB forms pyrimidine dimers; mutations in **TP53** let damaged keratinocytes survive and divide."
+  },
+  {
+   "k": "Clonal expansion",
+   "t": "Mutated clones spread along the basal layer, producing **dysplasia** of the lower epidermis.",
+   "img": "v3-ak-vs-sk-section.jpg",
+   "cap": "Actinic keratosis (left: rough scale over dysplastic epidermis) compared with a benign seborrhoeic keratosis (right)."
+  },
+  {
+   "k": "Abnormal keratinisation",
+   "t": "Dysplastic cells make abnormal keratin, giving adherent, rough **parakeratotic** scale."
+  },
+  {
+   "k": "Field cancerisation",
+   "t": "Surrounding sun-damaged skin carries similar mutations, so new AKs and SCCs arise across the field.",
+   "img": "v3-ak-scalp-field.jpg",
+   "cap": "Multiple AKs across a sun-damaged bald scalp."
+  },
+  {
+   "k": "Progression",
+   "t": "If dysplasia becomes full-thickness (Bowen's disease) or invades the dermis, it has become SCC."
+  }
+ ],
+ "histo": [
+  "Atypical keratinocytes in the **basal layer** (partial-thickness dysplasia), with parakeratosis that spares the follicular openings (alternating pink and blue).",
+  "Solar elastosis in the dermis.",
+  "Biopsy if thick, tender, ulcerated or not responding (to exclude SCC)."
+ ],
+ "special": [
+  {
+   "t": "**Immunosuppressed (transplant)**",
+   "sub": [
+    "Many AKs and high SCC risk: lower threshold for specialist referral and regular skin checks."
+   ]
+  },
+  {
+   "t": "**Lips (actinic cheilitis)**",
+   "sub": [
+    "Blurred, scaly vermilion border of the lower lip; higher risk of SCC: lower threshold for specialist review."
+   ]
+  }
+ ],
+ "comp": [
+  "Progression to **cutaneous SCC**.",
+  "Cutaneous horn (may hide SCC).",
+  "Inflammatory reactions to field treatments; cosmetic concern."
+ ],
+ "prog": [
+  "Chronic: new lesions keep appearing in sun-damaged skin.",
+  "Treatment clears most lesions; ongoing sun protection and surveillance are needed."
+ ],
+ "quiz": [
+  {
+   "q": "Why treat a field of AKs rather than single spots?",
+   "a": "The whole sun-damaged area carries mutated cells (field cancerisation); treating it reduces new AKs and SCCs."
+  },
+  {
+   "q": "Which AK features suggest SCC?",
+   "a": "Tenderness, thickening, induration, rapid growth, ulceration or bleeding."
+  },
+  {
+   "q": "Name three field treatments.",
+   "a": "Topical 5-fluorouracil, imiquimod and diclofenac 3% gel; photodynamic therapy via dermatology."
+  },
+  {
+   "q": "What should patients expect from 5-FU or imiquimod?",
+   "a": "An inflammatory phase: redness, crusting and soreness before healing."
+  },
+  {
+   "q": "What is actinic cheilitis?",
+   "a": "Actinic keratosis of the lip vermilion; higher risk of SCC."
+  }
+ ],
+ "see_also": [
+  "squamous-cell-carcinoma",
+  "seborrhoeic-keratosis",
+  "photoageing",
+  "solar-lentigines"
+ ]
+}

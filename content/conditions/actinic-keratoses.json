@@ -1,20 +1,19 @@
 {
- "title": "Actinic & seborrhoeic keratoses",
+ "title": "Actinic keratoses (solar keratoses)",
  "aka": [
   "actinic keratosis",
   "solar keratosis",
   "AK",
   "actinic cheilitis",
-  "seborrhoeic keratosis",
-  "SK",
   "field change",
+  "field cancerisation",
   "5-FU",
   "imiquimod"
  ],
  "category": "older-skin",
  "order": 3,
  "module": "Module 6 · Week 4",
- "summary": "Rough sun-damaged AKs and field-directed treatment options versus harmless stuck-on seborrhoeic keratoses — and when to refer.",
+ "summary": "Rough, scaly UV-induced dysplastic patches on sun-damaged skin: a marker of field cancerisation with a small risk of SCC. Sun protection, then lesion- or field-directed treatment, and when to refer.",
  "card_image": "m6w4:W4C-01",
  "glance": {
   "think": "Gritty, scaly, sun-exposed macules that are easier to feel than see — versus waxy “stuck-on” seborrhoeic keratoses.",
@@ -25,14 +24,13 @@
  "sections": {
   "what": [
    "**Actinic keratoses (AKs)** are common UV-induced dysplastic lesions on chronically sun-exposed skin of older adults. They mark **field cancerisation** and a small risk of progression to squamous cell carcinoma.",
-   "**Seborrhoeic keratoses (SKs)** are benign “stuck-on” waxy growths — a frequent Week 4 teaching contrast with AKs and with solar lentigines."
+   "Benign **seborrhoeic keratoses** are covered on their own page: [seborrhoeic keratosis](condition:seborrhoeic-keratosis)."
   ],
   "cause": [
    {
     "list": [
      "AK: cumulative UVB/UVA; fair skin, outdoor work, immunosuppression (transplant) raise burden and SCC risk.",
-     "Actinic cheilitis is AK of the lip vermilion.",
-     "SK: age-related benign clones; not premalignant (though irritated SKs worry patients)."
+     "Actinic cheilitis is AK of the lip vermilion."
     ]
    }
   ],
@@ -40,8 +38,7 @@
    {
     "list": [
      "AK: rough sandpaper scale on erythematous base; face, bald scalp, ears, forearms, hands; often multiple.",
-     "Hypertrophic AK and cutaneous horn need careful SCC exclusion.",
-     "SK: waxy, verrucous, stuck-on; milia-like cysts on dermoscopy; trunk and face."
+     "Hypertrophic AK and cutaneous horn need careful SCC exclusion."
     ]
    }
   ],
@@ -100,15 +97,6 @@
      "Actinic cheilitis: lower threshold for specialist review.",
      "Immunosuppressed: lower threshold for dermatology."
     ]
-   },
-   {
-    "h": "Seborrhoeic keratoses"
-   },
-   {
-    "list": [
-     "Reassure when typical. Cryotherapy/curettage only if symptomatic or diagnostic doubt — usually private/cosmetic on the NHS unless catching or bleeding.",
-     "Ugly-duckling or atypical → refer, do not freeze."
-    ]
    }
   ],
   "red_flags": [
@@ -125,16 +113,14 @@
  },
  "photos": [
   {
-   "title": "Actinic keratoses and seborrhoeic keratoses",
+   "title": "Actinic keratoses",
    "items": [
     "m6w4:W4C-01",
     "m6w4:W4C-02",
     "m6w4:W4C-03",
     "m6w4:W4C-04",
     "m6w4:W4C-05",
-    "m6w4:W4C-06",
-    "m6w4:W4C-07",
-    "m6w4:W4C-08"
+    "m6w4:W4C-06"
    ]
   }
  ],

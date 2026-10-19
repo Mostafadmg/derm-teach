@@ -1,0 +1,94 @@
+{
+ "kf": [
+  "The **commonest cancer in the UK**: a slow-growing, locally invasive tumour of basal keratinocytes that almost never metastasises.",
+  "Mostly older, fair-skinned adults with sun damage; **80%** on the head and neck.",
+  "Classic nodular BCC: **pearly** papule with rolled edge and **arborising telangiectasia**, often with central ulceration (rodent ulcer).",
+  "Caused by **hedgehog pathway** mutations (PTCH1, SMO), usually from UV exposure.",
+  "UK (NICE NG12): routine (not 2WW) referral for most suspected BCC; urgent if site or size threatens function. Surgery is the mainstay."
+ ],
+ "epi": [
+  {
+   "t": "**Incidence**",
+   "sub": [
+    "The commonest cancer in white populations; well over 100,000 new cases a year in the UK and rising.",
+    "Lifetime risk about 1 in 5 in some fair-skinned populations."
+   ]
+  },
+  {
+   "t": "**Who**",
+   "sub": [
+    "Usually over 60, more men; rare in people with dark skin but does occur (more often pigmented)."
+   ]
+  }
+ ],
+ "aet": [
+  "**Intermittent intense UV** and childhood sunburn; fair skin, red or blond hair, freckling.",
+  "Previous BCC (about 40% get another within 3 years), sunbeds, radiotherapy, arsenic.",
+  "Immunosuppression, hydrochlorothiazide (possible), syndromes: **Gorlin (basal cell naevus) syndrome**, xeroderma pigmentosum."
+ ],
+ "myths": [
+  "**\"Skin cancer always spreads\"**: BCC rarely metastasises but can destroy local tissue if neglected.",
+  "**\"It's a spot that keeps bleeding and healing\"**: a non-healing or recurrently bleeding spot needs review."
+ ],
+ "patho_lead": "BCC grows from basal-layer cells when the **hedgehog signalling pathway** is switched on permanently.",
+ "mech": [
+  {
+   "k": "UV mutation",
+   "t": "UV damages **PTCH1** (a hedgehog-pathway brake) or activates **SMO**; TP53 mutations often coexist."
+  },
+  {
+   "k": "Uncontrolled hedgehog signalling",
+   "t": "GLI transcription factors stay on, so basaloid cells keep proliferating.",
+   "img": "v3-bcc-skin-section.jpg",
+   "cap": "BCC in section: nests of basaloid cells growing from the basal layer into the dermis, with dilated vessels on the surface."
+  },
+  {
+   "k": "Local invasion",
+   "t": "Tumour nests depend on surrounding stroma, which is why BCC invades locally but rarely spreads by blood or lymph."
+  },
+  {
+   "k": "Growth patterns",
+   "t": "Nodular, superficial, infiltrative and **morphoeic** patterns differ in how far they extend beyond what is visible.",
+   "img": "v3-bcc-face-h-zone.jpg",
+   "cap": "High-risk 'H-zone' of the face (eyes, nose, lips, ears), where BCCs are harder to treat."
+  },
+  {
+   "k": "Ulceration",
+   "t": "Central necrosis gives the classic **rodent ulcer**, with a rolled pearly edge."
+  }
+ ],
+ "histo": [
+  "Nests of **basaloid cells** with peripheral **palisading**, retraction artefact and mucinous stroma.",
+  "Subtype (nodular, superficial, infiltrative, morphoeic, micronodular) guides treatment and recurrence risk."
+ ],
+ "special": [
+  {
+   "t": "**Skin of colour**",
+   "sub": [
+    "Less common; often **pigmented** and mistaken for a naevus or melanoma."
+   ]
+  },
+  {
+   "t": "**Young patients or many BCCs**",
+   "sub": [
+    "Consider Gorlin syndrome (jaw cysts, palmar pits) and refer."
+   ]
+  }
+ ],
+ "comp": [
+  "Local tissue destruction (eye, nose, ear) if neglected.",
+  "Recurrence, especially infiltrative/morphoeic BCC and H-zone sites.",
+  "Further BCCs and other skin cancers.",
+  "Metastasis is very rare (under 0.1%)."
+ ],
+ "prog": [
+  "Excellent: over 95% cure with standard excision.",
+  "Annual skin self-checks and sun protection are needed because new BCCs are common."
+ ],
+ "see_also": [
+  "squamous-cell-carcinoma",
+  "melanoma",
+  "actinic-keratoses",
+  "skin-surgery-procedures"
+ ]
+}

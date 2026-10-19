@@ -1,3 +1,4 @@
+import re
 """Derm Teach v4: generate a textbook page (content/textbook/<slug>.json) from
    content/conditions/<slug>.json (full notes) + content/steps/<slug>.json (structured visuals, drugs, ladder, quiz)
    + content/textbook-src/<slug>.json (researched enrichment: epidemiology, mechanism steps, histology, complications ...).
@@ -48,6 +49,7 @@ def emit(sg, demote=False):
     out = []
     for h, bl in sg:
         if h:
+            h = re.sub(r"^[\s\u2013\u2014-]*\d+(\.\d+)*\s+", "", h)
             out.append({"h4": h} if demote else {"h": h})
         out += [x for x in (blk(b) for b in bl) if x]
     return out

@@ -1,0 +1,71 @@
+{
+ "kf": [
+  "Infestation of the scalp hair by the louse ***Pediculus humanus capitis***.",
+  "Very common in children aged **4–14**; spread by **head-to-head contact** (lice crawl, they cannot jump or fly).",
+  "Diagnose only by finding a **live louse** with wet or dry **detection combing**; nits alone do not prove active infestation.",
+  "Options: **wet combing** (bug busting) or a physically acting product such as **dimeticone 4%**, repeated after 7 days.",
+  "Check all household members and treat only those with live lice; children need not miss school."
+ ],
+ "epi": [
+  {
+   "t": "**Who**",
+   "sub": [
+    "Worldwide, all social groups; commonest in primary-school children, more often **girls** (longer hair, closer contact)."
+   ]
+  },
+  {
+   "t": "**Spread**",
+   "sub": [
+    "Direct head-to-head contact; sharing brushes or hats is a minor route."
+   ]
+  }
+ ],
+ "aet": [
+  "Risk factors: female sex, more children in the family, sharing beds, combs and hats.",
+  "Resistance to older insecticides (permethrin, malathion) is widespread, so physical or mechanical methods are preferred."
+ ],
+ "myths": [
+  "**\"Lice mean dirty hair\"**: lice prefer clean or dirty hair equally.",
+  "**\"Lice jump\"**: they crawl from hair to hair.",
+  "**\"Nits mean active lice\"**: empty egg cases stay glued to hair for months."
+ ],
+ "patho_lead": "The louse lives on the scalp and feeds on blood; itch is an **allergic reaction** to its saliva.",
+ "mech": [
+  {
+   "k": "Eggs glued to hair",
+   "t": "Females lay up to 10 eggs a day, cemented to the hair shaft close to the scalp; they hatch in 7–10 days.",
+   "img": "v3-headlice-nits.jpg",
+   "cap": "Louse and nits (eggs) glued close to the scalp on the hair shaft."
+  },
+  {
+   "k": "Nymphs mature",
+   "t": "Nymphs become adults in about 7–10 days; adults live about 30 days and die within 1–2 days off the head."
+  },
+  {
+   "k": "Feeding and itch",
+   "t": "Lice feed on blood several times a day; sensitisation to saliva causes **itch after 4–6 weeks** of a first infestation."
+  },
+  {
+   "k": "Detection",
+   "t": "Combing wet, conditioned hair with a fine-toothed comb is the most reliable way to find live lice.",
+   "img": "v3-lice-detection-comb.jpg",
+   "cap": "Detection combing in sections from the scalp to the ends."
+  }
+ ],
+ "histo": [
+  "Not relevant; diagnosis is by detection combing and seeing a live louse."
+ ],
+ "comp": [
+  "Scalp **excoriations and dermatitis**; secondary bacterial infection (impetigo) and enlarged neck nodes.",
+  "Anxiety, stigma and school disruption."
+ ],
+ "prog": [
+  "Curable; reinfestation from untreated contacts is common.",
+  "Treatment failure is usually due to incorrect use, resistance or reinfestation."
+ ],
+ "see_also": [
+  "scabies",
+  "impetigo",
+  "papular-urticaria-bites"
+ ]
+}

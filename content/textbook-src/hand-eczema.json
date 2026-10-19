@@ -1,0 +1,83 @@
+{
+ "kf": [
+  "Common inflammatory dermatitis of the hands: **irritant**, **allergic**, **atopic** and **vesicular (pompholyx)** patterns, often mixed.",
+  "Chronic hand eczema affects about **1 in 10** adults; frequent cause of time off work.",
+  "High-risk jobs: healthcare, cleaning, catering, hairdressing, construction, metalwork (wet work and chemicals).",
+  "Management: avoid irritants, **gloves**, frequent emollients, soap substitute, **potent topical steroid** short courses; patch test if allergy possible.",
+  "Refer if severe, not responding, occupational or diagnostic doubt (tinea, psoriasis)."
+ ],
+ "epi": [
+  {
+   "t": "**Prevalence**",
+   "sub": [
+    "Hand dermatitis accounts for 20–35% of all dermatitis; chronic hand eczema affects 10–15% of adults.",
+    "More common in **young adult women** and people with **atopic eczema**."
+   ]
+  },
+  {
+   "t": "**Occupational**",
+   "sub": [
+    "Wet work (over 2 hours a day or frequent handwashing) is the main risk factor; leading cause of occupational skin disease."
+   ]
+  }
+ ],
+ "aet": [
+  "**Irritants**: water, soaps, detergents, alcohol rubs, solvents, cutting oils, dusts, cold and friction.",
+  "**Allergens**: rubber accelerators (gloves), preservatives, fragrances, chromate, nickel, hair dyes, acrylates (nails), plants.",
+  "**Endogenous**: atopy, filaggrin mutations, pompholyx (often triggered by heat, sweating, stress, nickel)."
+ ],
+ "myths": [
+  "**\"Alcohol gel is worse than soap\"**: alcohol rubs are usually less irritant than repeated soap and water.",
+  "**\"Gloves all day protect the skin\"**: long occlusion causes sweat irritation; use cotton liners."
+ ],
+ "patho_lead": "Hand eczema is driven by **barrier damage** with or without an **allergic** (type IV) response.",
+ "mech": [
+  {
+   "k": "Barrier damage",
+   "t": "Repeated wet work and detergents strip lipids from the stratum corneum, increasing water loss and irritation.",
+   "img": "v3-hand-eczema-patterns.jpg",
+   "cap": "Patterns of hand eczema: irritant (backs and finger webs), allergic (glove or contact pattern), atopic and pompholyx (vesicles on palms and sides of fingers)."
+  },
+  {
+   "k": "Inflammation",
+   "t": "Damaged keratinocytes release cytokines; in allergic cases, sensitised T cells respond to specific allergens."
+  },
+  {
+   "k": "Vesicles",
+   "t": "In pompholyx, intense spongiosis in thick palmar skin forms deep itchy **vesicles** that do not easily rupture.",
+   "img": "v4-pompholyx-vesicles.jpg",
+   "cap": "Pompholyx: deep, tapioca-like vesicles held within thick palmar epidermis."
+  },
+  {
+   "k": "Chronic changes",
+   "t": "Ongoing exposure causes hyperkeratosis, painful **fissures** and lichenification."
+  }
+ ],
+ "histo": [
+  "Spongiotic dermatitis; pompholyx shows intraepidermal vesicles in acral skin; chronic disease shows acanthosis and hyperkeratosis.",
+  "Scrapings exclude tinea; patch testing identifies allergens."
+ ],
+ "special": [
+  {
+   "t": "**Healthcare and catering workers**",
+   "sub": [
+    "Involve occupational health early; alcohol rubs plus emollients reduce irritation."
+   ]
+  }
+ ],
+ "comp": [
+  "Painful fissures, secondary infection (*S. aureus*), eczema herpeticum.",
+  "Loss of work and income; long-term disability.",
+  "Sensitisation to treatments (gloves, preservatives)."
+ ],
+ "prog": [
+  "Often chronic and relapsing; only about half are clear years later, especially with atopy, allergy or continued exposure.",
+  "Early diagnosis, glove use and job adaptation improve outlook."
+ ],
+ "see_also": [
+  "contact-dermatitis",
+  "eczema-dermatitis",
+  "palmoplantar-pustulosis",
+  "keratolysis-exfoliativa"
+ ]
+}

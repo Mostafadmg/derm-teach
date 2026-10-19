@@ -1,0 +1,87 @@
+{
+ "kf": [
+  "Self-limiting rash of young people: a **herald patch** then oval pink patches with a **collarette of scale** in a 'Christmas tree' pattern on the trunk.",
+  "Incidence about **0.5–2%**; most common at **10–35 years**, often in spring and autumn.",
+  "Probably triggered by reactivation of **HHV-6/7**; not contagious in practice.",
+  "Reassure; emollient and a mild or moderate topical steroid or antihistamine for itch. Resolves in **6–12 weeks**.",
+  "In **pregnancy** (first 15 weeks) there are reports of miscarriage: inform the obstetric team. Consider secondary syphilis if palms or soles are involved."
+ ],
+ "epi": [
+  {
+   "t": "**Who**",
+   "sub": [
+    "Teenagers and young adults (10–35 years); slightly more common in women.",
+    "Incidence about 0.5–2%; seasonal clustering in spring and autumn."
+   ]
+  },
+  {
+   "t": "**Recurrence**",
+   "sub": [
+    "Uncommon (about 2–3%)."
+   ]
+  }
+ ],
+ "aet": [
+  "**HHV-6 and HHV-7** reactivation is the strongest association.",
+  "**Drug-induced** PR-like eruptions: ACE inhibitors, NSAIDs, metronidazole, isotretinoin, imatinib and others.",
+  "Reported after vaccines (BCG, influenza, COVID-19) and viral infections."
+ ],
+ "myths": [
+  "**\"It's ringworm\"**: tinea has an advancing scaly edge; PR has trailing scale just inside the edge.",
+  "**\"It's catching\"**: it is not considered contagious."
+ ],
+ "patho_lead": "PR is thought to be a **T-cell response to reactivated HHV-6/7**, following skin tension lines.",
+ "mech": [
+  {
+   "k": "Viral reactivation",
+   "t": "HHV-6/7 reactivate (often after a mild viral illness), triggering a cell-mediated immune response in the skin."
+  },
+  {
+   "k": "Herald patch",
+   "t": "A single 2–5 cm oval pink patch appears first, often on the trunk."
+  },
+  {
+   "k": "Secondary eruption",
+   "t": "1–2 weeks later many smaller ovals appear along **cleavage (Langer) lines**, giving the Christmas-tree pattern.",
+   "img": "v3-pr-christmas-tree.jpg",
+   "cap": "Oval patches following the ribs: the Christmas-tree pattern on the back."
+  },
+  {
+   "k": "Collarette scale",
+   "t": "Scale sits **just inside the edge**, trailing behind it, unlike tinea where scale is at the advancing edge.",
+   "img": "v3-collarette-vs-tinea-edge.jpg",
+   "cap": "Pityriasis rosea collarette (trailing scale) vs tinea (scale at the advancing edge)."
+  }
+ ],
+ "histo": [
+  "Mild spongiosis with focal parakeratosis (mounds), extravasated red cells and a superficial perivascular lymphocytic infiltrate.",
+  "Biopsy only if atypical or persistent beyond 3 months."
+ ],
+ "special": [
+  {
+   "t": "**Skin of colour**",
+   "sub": [
+    "Lesions look grey-brown or violaceous; papular and inverse (flexural) forms are more common; pigment change can persist."
+   ]
+  },
+  {
+   "t": "**Pregnancy**",
+   "sub": [
+    "Possible link with miscarriage in the first 15 weeks: inform the obstetric team."
+   ]
+  }
+ ],
+ "comp": [
+  "Itch; post-inflammatory hyper- or hypopigmentation lasting months.",
+  "Pregnancy complications (rare reports)."
+ ],
+ "prog": [
+  "Resolves spontaneously in 6–12 weeks; recurrence is uncommon."
+ ],
+ "see_also": [
+  "psoriasis",
+  "tinea",
+  "annular-rashes",
+  "pityriasis-versicolor"
+ ]
+}

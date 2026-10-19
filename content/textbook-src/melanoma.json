@@ -1,0 +1,93 @@
+{
+ "kf": [
+  "Malignant tumour of **melanocytes**; the UK's fifth commonest cancer (about 17,500 cases a year).",
+  "Risk: **UV and sunburn**, sunbeds, many or atypical naevi, fair skin, family history, previous melanoma, immunosuppression.",
+  "Recognise with the **ABCDE** rule, the NICE **7-point checklist** and the **ugly duckling** sign; nodular melanoma may be EFG (elevated, firm, growing).",
+  "Refer any suspicious pigmented lesion on the **suspected cancer pathway** (NICE NG12); never destroy an undiagnosed pigmented lesion.",
+  "Prognosis depends mostly on **Breslow thickness** at diagnosis."
+ ],
+ "epi": [
+  {
+   "t": "**Incidence**",
+   "sub": [
+    "About **17,500** new cases a year in the UK; incidence has more than doubled since the 1990s.",
+    "One of the commonest cancers in **15–34-year-olds**; median age at diagnosis in the mid-60s."
+   ]
+  },
+  {
+   "t": "**Sex and site**",
+   "sub": [
+    "Men: trunk (back) most common; women: legs.",
+    "Acral lentiginous melanoma (palms, soles, nails) is the commonest type in people with dark skin."
+   ]
+  }
+ ],
+ "aet": [
+  "**UV exposure**: intermittent intense exposure and **sunburn** (especially in childhood), sunbed use.",
+  "**Host**: many naevi (over 100), atypical naevi, fair skin type I–II, red hair, freckling.",
+  "**Genetic**: family history (CDKN2A, CDK4, BAP1, MC1R variants), previous melanoma, immunosuppression, giant congenital naevus."
+ ],
+ "myths": [
+  "**\"Melanoma is always dark and irregular\"**: amelanotic and nodular melanomas can be pink and symmetrical.",
+  "**\"Dark skin doesn't get melanoma\"**: acral and nail melanomas occur and are often diagnosed late."
+ ],
+ "patho_lead": "Melanoma arises when **melanocytes** accumulate mutations that switch on growth and switch off brakes.",
+ "mech": [
+  {
+   "k": "Driver mutations",
+   "t": "UV-signature mutations activate the **MAPK pathway** (BRAF V600E in about half, NRAS) and inactivate tumour suppressors (CDKN2A, PTEN, TP53)."
+  },
+  {
+   "k": "Radial growth",
+   "t": "Most melanomas first spread sideways within the epidermis (superficial spreading, lentigo maligna), when cure by excision is very likely.",
+   "img": "v3-ssm-vs-nodular.jpg",
+   "cap": "Superficial spreading melanoma (radial growth along the epidermis) vs nodular melanoma (early vertical growth into the dermis)."
+  },
+  {
+   "k": "Vertical growth",
+   "t": "Cells invade the dermis; deeper tumours (thicker **Breslow**) have greater metastatic risk. Nodular melanoma enters this phase early."
+  },
+  {
+   "k": "Immune escape",
+   "t": "Tumours evade T cells (e.g. via PD-L1), the basis for immunotherapy."
+  },
+  {
+   "k": "Metastasis",
+   "t": "Spread to lymph nodes, skin, lung, liver and brain."
+  }
+ ],
+ "histo": [
+  "Atypical melanocytes in nests and single cells at all levels of the epidermis (**pagetoid spread**), with asymmetry and poor circumscription.",
+  "Report includes **Breslow thickness**, ulceration, mitoses and margins, which guide AJCC staging and treatment."
+ ],
+ "special": [
+  {
+   "t": "**Skin of colour**",
+   "sub": [
+    "Look at **palms, soles and nails**: acral lentiginous melanoma and nail melanoma (Hutchinson sign) present late."
+   ]
+  },
+  {
+   "t": "**Pregnancy and children**",
+   "sub": [
+    "Naevi can darken in pregnancy, but a changing lesion still needs assessment; melanoma is rare in children (Spitz-like lesions need specialist review)."
+   ]
+  }
+ ],
+ "comp": [
+  "Local recurrence, in-transit metastases.",
+  "Lymph node and distant metastasis.",
+  "Treatment toxicity (immunotherapy immune-related adverse events)."
+ ],
+ "prog": [
+  "Five-year survival is over **95%** for thin (stage I) melanoma, falling with thickness and spread.",
+  "Further primary melanomas occur in about 5–10%: lifelong skin self-checks."
+ ],
+ "see_also": [
+  "melanocytic-naevi",
+  "melanoma-staging-treatment",
+  "atypical-naevus-syndrome",
+  "melanonychia",
+  "seborrhoeic-keratosis"
+ ]
+}

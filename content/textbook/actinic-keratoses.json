@@ -1,0 +1,389 @@
+{
+ "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
+ "key_facts": [
+  "**Actinic (solar) keratoses** are UV-induced patches of dysplastic keratinocytes on chronically sun-exposed skin.",
+  "Very common: up to **25% of people over 60** in northern England and Ireland; more in fair skin, outdoor workers and the immunosuppressed.",
+  "Rough, **gritty** scale on a pink base, often easier to feel than see; face, bald scalp, ears, forearms and backs of hands.",
+  "A single AK rarely becomes SCC, but people with **many AKs** have a 10–15% lifetime SCC risk (field cancerisation).",
+  "Sun protection for all; cryotherapy for few lesions; **field treatment** (5-FU, imiquimod, diclofenac 3%, PDT). Tender, thick or growing → exclude SCC."
+ ],
+ "sections": [
+  {
+   "id": "overview",
+   "title": "Overview",
+   "blocks": [
+    "**Actinic keratoses (AKs)** are common UV-induced dysplastic lesions on chronically sun-exposed skin of older adults. They mark **field cancerisation** and a small risk of progression to squamous cell carcinoma.",
+    "Benign **seborrhoeic keratoses** are covered on their own page: [seborrhoeic keratosis](condition:seborrhoeic-keratosis)."
+   ]
+  },
+  {
+   "id": "epidemiology",
+   "title": "Epidemiology",
+   "blocks": [
+    {
+     "ul": [
+      {
+       "t": "**Who**",
+       "sub": [
+        "Older adults with fair skin (Fitzpatrick I–II), chronic sun exposure and photoageing.",
+        "Organ transplant recipients and other immunosuppressed people have many more, and more aggressive, lesions."
+       ]
+      },
+      {
+       "t": "**Natural history**",
+       "sub": [
+        "Individual AKs can regress (up to a quarter a year), persist or, rarely, progress to SCC."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "aetiology",
+   "title": "Aetiology: causes and risk factors",
+   "blocks": [
+    {
+     "ul": [
+      "AK: cumulative UVB/UVA; fair skin, outdoor work, immunosuppression (transplant) raise burden and SCC risk.",
+      "Actinic cheilitis is AK of the lip vermilion."
+     ]
+    },
+    {
+     "h": "Risk factors and associations"
+    },
+    {
+     "ul": [
+      "Cumulative **UVB** (and UVA) exposure: outdoor work, sunbeds, living in sunny climates.",
+      "Immunosuppression (transplant drugs), older age, previous skin cancer; HPV types may contribute."
+     ]
+    },
+    {
+     "h": "Myths to address"
+    },
+    {
+     "ul": [
+      "**\"It's just dry skin\"**: a persistent gritty patch on sun-damaged skin is an AK until shown otherwise.",
+      "**\"Treat each spot\"**: once cancer is excluded, treating the whole field matters more."
+     ]
+    }
+   ],
+   "short": "Aetiology"
+  },
+  {
+   "id": "pathophysiology",
+   "title": "Pathophysiology and pathology",
+   "blocks": [
+    "UV damage to keratinocyte DNA creates a **field** of genetically abnormal cells; the AK is the visible tip.",
+    {
+     "mech": [
+      {
+       "k": "UV DNA damage",
+       "t": "UVB forms pyrimidine dimers; mutations in **TP53** let damaged keratinocytes survive and divide."
+      },
+      {
+       "k": "Clonal expansion",
+       "t": "Mutated clones spread along the basal layer, producing **dysplasia** of the lower epidermis.",
+       "img": "v3-ak-vs-sk-section.jpg",
+       "caption": "Actinic keratosis (left: rough scale over dysplastic epidermis) compared with a benign seborrhoeic keratosis (right)."
+      },
+      {
+       "k": "Abnormal keratinisation",
+       "t": "Dysplastic cells make abnormal keratin, giving adherent, rough **parakeratotic** scale."
+      },
+      {
+       "k": "Field cancerisation",
+       "t": "Surrounding sun-damaged skin carries similar mutations, so new AKs and SCCs arise across the field.",
+       "img": "v3-ak-scalp-field.jpg",
+       "caption": "Multiple AKs across a sun-damaged bald scalp."
+      },
+      {
+       "k": "Progression",
+       "t": "If dysplasia becomes full-thickness (Bowen's disease) or invades the dermis, it has become SCC."
+      }
+     ]
+    },
+    {
+     "histo": [
+      "Atypical keratinocytes in the **basal layer** (partial-thickness dysplasia), with parakeratosis that spares the follicular openings (alternating pink and blue).",
+      "Solar elastosis in the dermis.",
+      "Biopsy if thick, tender, ulcerated or not responding (to exclude SCC)."
+     ]
+    }
+   ],
+   "short": "Pathophysiology"
+  },
+  {
+   "id": "clinical-features",
+   "title": "Clinical features",
+   "blocks": [
+    {
+     "ul": [
+      "AK: rough sandpaper scale on erythematous base; face, bald scalp, ears, forearms, hands; often multiple.",
+      "Hypertrophic AK and cutaneous horn need careful SCC exclusion."
+     ]
+    },
+    {
+     "fig": {
+      "dermnet": "m6w4:W4C-01"
+     }
+    },
+    {
+     "h": "Special groups"
+    },
+    {
+     "ul": [
+      {
+       "t": "**Immunosuppressed (transplant)**",
+       "sub": [
+        "Many AKs and high SCC risk: lower threshold for specialist referral and regular skin checks."
+       ]
+      },
+      {
+       "t": "**Lips (actinic cheilitis)**",
+       "sub": [
+        "Blurred, scaly vermilion border of the lower lip; higher risk of SCC: lower threshold for specialist review."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "diagnosis",
+   "title": "Diagnosis and investigations",
+   "blocks": [
+    "Clinical ± dermoscopy. Biopsy or 2WW/urgent skin cancer referral if SCC or melanoma cannot be excluded. Never destroy an undiagnosed pigmented lesion with cryotherapy or laser.",
+    {
+     "h4": "Clinical"
+    },
+    {
+     "ul": [
+      "Fingertip + dermoscopy."
+     ]
+    },
+    {
+     "h4": "Doubt"
+    },
+    {
+     "ul": [
+      "Biopsy or **suspected cancer referral** if SCC or melanoma can’t be excluded."
+     ]
+    },
+    {
+     "h4": "Never"
+    },
+    {
+     "ul": [
+      "Destroy an undiagnosed pigmented lesion with cryo or laser."
+     ]
+    }
+   ],
+   "short": "Diagnosis"
+  },
+  {
+   "id": "differentials",
+   "title": "Differential diagnoses",
+   "blocks": [
+    {
+     "ddx": [
+      {
+       "name": "SCC",
+       "f": "Indurated, tender, enlarging, ulcerated.",
+       "link": "squamous-cell-carcinoma",
+       "danger": true
+      },
+      {
+       "name": "Bowen’s disease",
+       "f": "Persistent scaly plaque.",
+       "link": "squamous-cell-carcinoma"
+      },
+      {
+       "name": "SK",
+       "f": "Stuck-on waxy vs gritty flat scale.",
+       "link": "seborrhoeic-keratosis"
+      },
+      {
+       "name": "Solar lentigo",
+       "f": "Flat even brown macule.",
+       "link": "solar-lentigines"
+      },
+      {
+       "name": "Lentigo maligna",
+       "f": "Irregular facial pigment: urgent pathway.",
+       "link": "melanoma",
+       "danger": true
+      }
+     ]
+    }
+   ],
+   "short": "Differentials"
+  },
+  {
+   "id": "management",
+   "title": "Management",
+   "blocks": [
+    {
+     "h": "Everyone with AKs"
+    },
+    {
+     "ul": [
+      "Daily broad-spectrum SPF 30–50, hat, behaviour change; skin self-check education.",
+      "Emollient to reduce scale."
+     ]
+    },
+    {
+     "h": "Lesion- and field-directed options (local formulary / CKS themes)"
+    },
+    {
+     "ul": [
+      "Few discrete AKs: **cryotherapy** (light freeze) in trained hands.",
+      "Field change: topical **5-fluorouracil**, **imiquimod**, **diclofenac 3% gel**, or photodynamic therapy via dermatology — expect an inflammatory treatment phase; counsel clearly.",
+      "Actinic cheilitis: lower threshold for specialist review.",
+      "Immunosuppressed: lower threshold for dermatology."
+     ]
+    },
+    {
+     "h": "Treatment ladder"
+    },
+    {
+     "ladder": [
+      {
+       "k": "Everyone",
+       "t": "Daily broad-spectrum **SPF 30–50**, hat, behaviour change; self-check education. Emollient to reduce scale.",
+       "tone": "base"
+      },
+      {
+       "k": "Few discrete AKs",
+       "t": "**Cryotherapy** (light freeze) in trained hands.",
+       "tone": "first"
+      },
+      {
+       "k": "Field change",
+       "t": "Topical **5-fluorouracil**, **imiquimod**, **diclofenac 3% gel**, or PDT via dermatology. Counsel: an **inflammatory phase** is expected.",
+       "tone": "second"
+      },
+      {
+       "k": "Lower threshold for dermatology",
+       "t": "Actinic cheilitis; immunosuppressed patients.",
+       "tone": "refer"
+      },
+      {
+       "k": "SKs",
+       "t": "Reassure when typical; cryo / curettage only if symptomatic or doubtful (often not NHS-funded if cosmetic).",
+       "tone": "third"
+      }
+     ]
+    },
+    {
+     "h": "Referral"
+    },
+    {
+     "refer": [
+      {
+       "when": "urgent",
+       "t": "Possible SCC or melanoma: suspected cancer referral (NG12)."
+      },
+      {
+       "when": "urgent",
+       "t": "Rapidly enlarging tender nodule in an AK field."
+      },
+      {
+       "when": "urgent",
+       "t": "Lip AK with induration or ulceration."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "red-flags",
+   "title": "Red flags and when to refer",
+   "blocks": [
+    {
+     "ul": [
+      "Possible SCC or melanoma → urgent suspected-cancer referral (NG12).",
+      "Rapidly enlarging tender nodule in an AK field.",
+      "Lip AK with induration or ulceration."
+     ]
+    }
+   ],
+   "short": "Red flags"
+  },
+  {
+   "id": "complications",
+   "title": "Complications and prognosis",
+   "blocks": [
+    {
+     "h": "Complications"
+    },
+    {
+     "ul": [
+      "Progression to **cutaneous SCC**.",
+      "Cutaneous horn (may hide SCC).",
+      "Inflammatory reactions to field treatments; cosmetic concern."
+     ]
+    },
+    {
+     "h": "Prognosis"
+    },
+    {
+     "ul": [
+      "Chronic: new lesions keep appearing in sun-damaged skin.",
+      "Treatment clears most lesions; ongoing sun protection and surveillance are needed."
+     ]
+    }
+   ],
+   "short": "Complications"
+  },
+  {
+   "id": "pearls",
+   "title": "Prescriber pearls (UK pharmacist IP)",
+   "blocks": [
+    {
+     "pearls": [
+      "Feel with a fingertip — AKs are gritty.",
+      "Treating the field matters more than chasing every spot once cancer is excluded.",
+      "Warn that 5-FU/imiquimod look worse before they look better.",
+      "Tender, thickened or growing AK, or an AK on the lip or ear: see [cutaneous squamous cell carcinoma](condition:squamous-cell-carcinoma) for when it may have become SCC."
+     ]
+    }
+   ],
+   "short": "Pearls"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Why treat a field of AKs rather than single spots?",
+   "a": "The whole sun-damaged area carries mutated cells (field cancerisation); treating it reduces new AKs and SCCs."
+  },
+  {
+   "q": "Which AK features suggest SCC?",
+   "a": "Tenderness, thickening, induration, rapid growth, ulceration or bleeding."
+  },
+  {
+   "q": "Name three field treatments.",
+   "a": "Topical 5-fluorouracil, imiquimod and diclofenac 3% gel; photodynamic therapy via dermatology."
+  },
+  {
+   "q": "What should patients expect from 5-FU or imiquimod?",
+   "a": "An inflammatory phase: redness, crusting and soreness before healing."
+  },
+  {
+   "q": "What is actinic cheilitis?",
+   "a": "Actinic keratosis of the lip vermilion; higher risk of SCC."
+  }
+ ],
+ "references": [
+  {
+   "label": "Medscape: Actinic keratoses (solar keratoses)",
+   "url": "https://emedicine.medscape.com/article/1099775-overview"
+  }
+ ],
+ "see_also": [
+  "squamous-cell-carcinoma",
+  "seborrhoeic-keratosis",
+  "photoageing",
+  "solar-lentigines"
+ ]
+}

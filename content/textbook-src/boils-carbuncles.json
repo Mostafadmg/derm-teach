@@ -1,0 +1,69 @@
+{
+ "kf": [
+  "A **boil (furuncle)** is a deep *Staphylococcus aureus* infection of a hair follicle forming a painful abscess; a **carbuncle** is several linked boils.",
+  "Common in adolescents and adults; risk factors include nasal carriage, diabetes, obesity, friction and close contact.",
+  "Small boils: warm compresses; large or fluctuant: **incision and drainage**.",
+  "Antibiotics (e.g. flucloxacillin) only if systemically unwell, spreading cellulitis, high-risk site or comorbidity (CKS).",
+  "Recurrent boils: swab, consider **PVL-producing *S. aureus*** and decolonisation."
+ ],
+ "epi": [
+  {
+   "t": "**Who**",
+   "sub": [
+    "Common in adolescents and young adults; outbreaks in families, sports teams, prisons and the military."
+   ]
+  }
+ ],
+ "aet": [
+  "**Organism**: *S. aureus*, including MRSA and **Panton–Valentine leukocidin (PVL)**-producing strains (recurrent, multiple, necrotic boils).",
+  "**Risk factors**: nasal or perineal carriage, diabetes, obesity, immunosuppression, eczema, friction, shaving, poor hygiene, close contact and shared towels."
+ ],
+ "myths": [
+  "**\"Squeeze it to clear it\"**: squeezing can spread infection; drain only when fluctuant and by a clinician."
+ ],
+ "patho_lead": "A boil is a **follicular abscess**: neutrophils wall off staphylococci deep in the follicle.",
+ "mech": [
+  {
+   "k": "Follicle invasion",
+   "t": "*S. aureus* enters a damaged follicle and spreads deep into it.",
+   "img": "v3-follicle-depths.jpg",
+   "cap": "From superficial folliculitis to a deep follicular abscess (boil) and a carbuncle."
+  },
+  {
+   "k": "Abscess formation",
+   "t": "Neutrophils and necrotic tissue form pus; a red, hot, tender nodule becomes **fluctuant** with a yellow point."
+  },
+  {
+   "k": "Carbuncle",
+   "t": "Infection spreads through connected follicles in thick skin (back of neck, back, thighs), forming a larger mass with several heads.",
+   "img": "v3-boil-vs-carbuncle.jpg",
+   "cap": "Single boil vs carbuncle with multiple draining heads."
+  },
+  {
+   "k": "Drainage and healing",
+   "t": "Pus discharges spontaneously or after incision; warm compresses help it point.",
+   "img": "v3-boil-warm-compress.jpg",
+   "cap": "Warm compress to help a small boil come to a head."
+  }
+ ],
+ "histo": [
+  "Dense neutrophilic abscess centred on a follicle with necrosis; Gram-positive cocci.",
+  "Swab pus for culture and sensitivity (and PVL if recurrent)."
+ ],
+ "comp": [
+  "Cellulitis, lymphangitis; scarring.",
+  "Bacteraemia, osteomyelitis, endocarditis (rare).",
+  "Facial 'danger triangle' boils: rare cavernous sinus thrombosis.",
+  "PVL strains: necrotising soft-tissue infection and necrotising pneumonia."
+ ],
+ "prog": [
+  "Most heal within 1–2 weeks after draining.",
+  "Recurrence is common with carriage; decolonisation helps some."
+ ],
+ "see_also": [
+  "folliculitis",
+  "cellulitis-erysipelas",
+  "hidradenitis-suppurativa",
+  "skin-cysts"
+ ]
+}

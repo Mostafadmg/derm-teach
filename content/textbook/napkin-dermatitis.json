@@ -1,0 +1,429 @@
+{
+ "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
+ "key_facts": [
+  "Inflammation of the skin under a nappy, most often **irritant** contact dermatitis from urine, faeces and occlusion.",
+  "Peaks at **9–12 months** (range 3–15 months); much less common with modern breathable disposables.",
+  "Irritant: convex surfaces affected, **skin creases spared**; *Candida*: creases involved with **satellite** papules.",
+  "Frequent changes, nappy-free time, gentle cleansing and a **barrier preparation**; topical imidazole if candidal; hydrocortisone 1% short term if inflamed.",
+  "Refer if atypical, nodular, ulcerated or not responding (e.g. psoriasis, Langerhans cell histiocytosis, zinc deficiency)."
+ ],
+ "sections": [
+  {
+   "id": "overview",
+   "title": "Overview",
+   "blocks": [
+    "Inflammation in the nappy area, most often **irritant contact dermatitis** from occlusion, urine and faecal enzymes. Secondary **Candida** is common. Peak age is about **3–15 months**. It also affects older children and adults with incontinence."
+   ]
+  },
+  {
+   "id": "epidemiology",
+   "title": "Epidemiology",
+   "blocks": [
+    {
+     "ul": [
+      {
+       "t": "**Who**",
+       "sub": [
+        "Up to a third of babies in nappies at any time; peak 9–12 months.",
+        "Also affects incontinent older children and adults (incontinence-associated dermatitis)."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "aetiology",
+   "title": "Aetiology: causes and risk factors",
+   "blocks": [
+    {
+     "ul": [
+      "Occlusion and urine cause over-hydration and maceration.",
+      "Faecal enzymes and bile salts damage the barrier, and ammonia raises the pH.",
+      "Friction, and an atopic or seborrhoeic tendency.",
+      "*Candida albicans* thrives on damaged, moist skin.",
+      "It is not usually an allergy to the nappy, and it is not tinea."
+     ]
+    },
+    {
+     "h": "Risk factors and associations"
+    },
+    {
+     "ul": [
+      "Prolonged contact with urine and faeces; **diarrhoea** (faecal enzymes) and antibiotics (Candida) are common triggers.",
+      "Infrequent changes, tight nappies, harsh wipes and soaps."
+     ]
+    },
+    {
+     "h": "Myths to address"
+    },
+    {
+     "ul": [
+      "**\"Leave the cream thick and never wipe it off\"**: a barrier layer is fine, but clean skin gently at each change."
+     ]
+    }
+   ],
+   "short": "Aetiology"
+  },
+  {
+   "id": "pathophysiology",
+   "title": "Pathophysiology and pathology",
+   "blocks": [
+    "Wet, occluded skin with a **high pH** lets faecal enzymes break down the barrier.",
+    {
+     "mech": [
+      {
+       "k": "Overhydration",
+       "t": "Occlusion keeps the stratum corneum wet, making it fragile and more permeable."
+      },
+      {
+       "k": "Alkaline pH and enzymes",
+       "t": "Bacteria convert urine urea to **ammonia**, raising pH, which activates faecal **proteases and lipases** that digest the skin barrier."
+      },
+      {
+       "k": "Irritant dermatitis",
+       "t": "Friction and enzymes inflame the convex skin in contact with the nappy; creases are protected.",
+       "img": "v3-napkin-irritant-vs-candida.jpg",
+       "caption": "Irritant napkin dermatitis (convex surfaces, creases spared) vs candidal (creases involved, satellite spots)."
+      },
+      {
+       "k": "Secondary Candida",
+       "t": "After about 3 days, *Candida* from the gut often colonises damaged skin, spreading into the folds."
+      }
+     ]
+    },
+    {
+     "histo": [
+      "Not needed; diagnosis is clinical. Swab satellite pustules if unsure or recurrent."
+     ]
+    }
+   ],
+   "short": "Pathophysiology"
+  },
+  {
+   "id": "clinical-features",
+   "title": "Clinical features",
+   "blocks": [
+    {
+     "table": {
+      "head": [
+       "Pattern",
+       "Features"
+      ],
+      "rows": [
+       [
+        "Irritant napkin dermatitis",
+        "Redness ± scale or erosions on **convex surfaces** in contact with the nappy; **folds often spared**"
+       ],
+       [
+        "Candidal",
+        "Bright red, shiny plaques **involving the folds**, with **satellite** papules and pustules"
+       ],
+       [
+        "Impetigo",
+        "Irregular blisters, pustules or honey crust"
+       ],
+       [
+        "Seborrhoeic",
+        "Salmon-pink patches in folds ± cradle cap"
+       ],
+       [
+        "Psoriasis (‘napkin psoriasis’)",
+        "Persistent, well-demarcated, shiny plaques"
+       ],
+       [
+        "Atopic eczema",
+        "Itchy rash elsewhere; nappy area often relatively spared"
+       ]
+      ]
+     }
+    },
+    {
+     "h": "Special groups"
+    },
+    {
+     "ul": [
+      {
+       "t": "**Skin of colour**",
+       "sub": [
+        "Redness is less obvious; look for scaling, erosion and post-inflammatory pigmentation."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "diagnosis",
+   "title": "Diagnosis and investigations",
+   "blocks": [
+    "Clinical. Swab if severe, atypical or not responding. In refractory cases, consider rarities such as **zinc deficiency (acrodermatitis enteropathica)** or **Langerhans cell histiocytosis**, which need specialist input.",
+    {
+     "h4": "Clinical"
+    },
+    {
+     "ul": [
+      "Diagnosis is clinical.",
+      "Check the **folds** and look for satellites."
+     ]
+    },
+    {
+     "h4": "Swab"
+    },
+    {
+     "ul": [
+      "If severe, atypical or not responding."
+     ]
+    },
+    {
+     "h4": "Think rare"
+    },
+    {
+     "ul": [
+      "Refractory: **zinc deficiency** (acrodermatitis enteropathica) or **Langerhans cell histiocytosis**: specialist."
+     ]
+    },
+    {
+     "h4": "Safeguarding"
+    },
+    {
+     "ul": [
+      "Injury pattern that does not fit dermatitis: document and escalate locally."
+     ]
+    }
+   ],
+   "short": "Diagnosis"
+  },
+  {
+   "id": "differentials",
+   "title": "Differential diagnoses",
+   "blocks": [
+    {
+     "ddx": [
+      {
+       "name": "Candida",
+       "f": "Folds involved; satellite papules and pustules.",
+       "link": "candida-intertrigo"
+      },
+      {
+       "name": "Impetigo",
+       "f": "Blisters, pustules, honey crust.",
+       "link": "impetigo"
+      },
+      {
+       "name": "Infantile seborrhoeic",
+       "f": "Salmon-pink fold patches, cradle cap.",
+       "link": "eczema-dermatitis"
+      },
+      {
+       "name": "Napkin psoriasis",
+       "f": "Persistent, sharply demarcated shiny plaques.",
+       "link": "psoriasis"
+      },
+      {
+       "name": "Perianal streptococcal",
+       "f": "Bright perianal redness, painful defecation."
+      }
+     ]
+    },
+    "See the table under Clinical features. Also consider **perianal streptococcal disease**, and **safeguarding** if the injury pattern does not fit dermatitis. Document carefully and escalate through local safeguarding."
+   ],
+   "short": "Differentials"
+  },
+  {
+   "id": "management",
+   "title": "Management",
+   "blocks": [
+    "Aligned with NICE CKS nappy rash and PCDS. Re-check the live CKS page and the BNF for Children.",
+    {
+     "h": "Barrier and self-care"
+    },
+    {
+     "ul": [
+      "Change nappies frequently, with nappy-free time when practical.",
+      "Cleanse gently with water or a non-soap cleanser, and pat dry.",
+      "Apply a **thick barrier ointment** (petrolatum ± zinc oxide) at **every change**.",
+      "Use modern absorbent disposables. With cloth nappies, use liners and avoid plastic pants. Avoid fragranced wipes."
+     ]
+    },
+    {
+     "h": "Topical prescribing"
+    },
+    {
+     "ul": [
+      "Inflamed irritant rash: **hydrocortisone 1%**, thin layer, for a short course (usually up to 7 days).",
+      "Suspected Candida: a topical **imidazole** (clotrimazole, miconazole, econazole), continued after the skin looks clear (often 7–14 days in total).",
+      "Combination steroid and antifungal products: short courses only. **No potent steroids on nappy skin.**",
+      "Secondary bacterial infection: follow local guidance (oral flucloxacillin if needed; topical fusidic acid only for very localised areas)."
+     ]
+    },
+    {
+     "h": "Medicines at a glance"
+    },
+    {
+     "drugs": [
+      {
+       "name": "Hydrocortisone 1%",
+       "cls": "Inflamed irritant rash",
+       "dose": "Thin layer · Short course, usually up to 7 days",
+       "cautions": "No potent steroids on nappy skin."
+      },
+      {
+       "name": "Topical imidazole (clotrimazole, miconazole, econazole)",
+       "cls": "Suspected Candida",
+       "dose": "As per product · Continue after clear; often 7–14 days in total",
+       "cautions": "Combination steroid–antifungal: short courses only."
+      }
+     ]
+    },
+    {
+     "h": "Treatment ladder"
+    },
+    {
+     "ladder": [
+      {
+       "k": "Barrier and self-care",
+       "t": "Frequent changes; nappy-free time. Water or non-soap cleanser; pat dry; no fragranced wipes.",
+       "tone": "base"
+      },
+      {
+       "k": "Inflamed irritant rash",
+       "t": "Hydrocortisone 1%",
+       "tone": "first"
+      },
+      {
+       "k": "Suspected Candida",
+       "t": "Topical imidazole (clotrimazole, miconazole, econazole)",
+       "tone": "second"
+      },
+      {
+       "k": "Secondary bacterial infection",
+       "t": "Follow local guidance: oral flucloxacillin if needed. Topical fusidic acid only for very localised areas.",
+       "tone": "third"
+      }
+     ]
+    },
+    {
+     "callout": "warn",
+     "title": "Prescribing limits and pitfalls",
+     "list": [
+      "**Potent steroids**: Not for the nappy area in primary care.",
+      "**How much barrier?**: Parents often use too little: show them."
+     ]
+    },
+    {
+     "h": "Referral"
+    },
+    {
+     "refer": [
+      {
+       "when": "same-day",
+       "t": "Infant **under 1 month** with significant rash, or a **systemically unwell** infant."
+      },
+      {
+       "when": "urgent",
+       "t": "Bruising or a pattern suggesting **non-accidental injury**: safeguarding."
+      },
+      {
+       "when": "routine",
+       "t": "Severe or **ulcerated** rash, or no improvement with good care and treatment."
+      },
+      {
+       "when": "routine",
+       "t": "Diagnostic doubt, or suspected nutritional deficiency or rare disease."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "red-flags",
+   "title": "Red flags and when to refer",
+   "blocks": [
+    {
+     "ul": [
+      "Infant **under 1 month** with significant rash, or a **systemically unwell** infant.",
+      "Severe or **ulcerated** rash, or failure to improve with good barrier care and appropriate treatment.",
+      "Diagnostic uncertainty, or suspected nutritional deficiency or rare disease.",
+      "Bruising or a pattern suggesting non-accidental injury."
+     ]
+    }
+   ],
+   "short": "Red flags"
+  },
+  {
+   "id": "complications",
+   "title": "Complications and prognosis",
+   "blocks": [
+    {
+     "h": "Complications"
+    },
+    {
+     "ul": [
+      "Secondary *Candida* or bacterial (impetigo) infection.",
+      "Erosive **Jacquet** dermatitis and granuloma gluteale infantum (steroid misuse).",
+      "Distress and sleep disturbance."
+     ]
+    },
+    {
+     "h": "Prognosis"
+    },
+    {
+     "ul": [
+      "Usually settles within days with good nappy care; recurs with diarrhoea or infrequent changes."
+     ]
+    }
+   ],
+   "short": "Complications"
+  },
+  {
+   "id": "pearls",
+   "title": "Prescriber pearls (UK pharmacist IP)",
+   "blocks": [
+    {
+     "pearls": [
+      "**Folds involved with satellites: treat Candida. Folds spared: irritant pattern.**",
+      "Parents often use too little barrier ointment, so show them how much.",
+      "A short course of mild hydrocortisone is appropriate. Potent steroids are not for the nappy area in primary care.",
+      "Breastfed babies’ stools are often less alkaline, which may reduce the irritant load (supportive counselling, not a treatment claim)."
+     ]
+    }
+   ],
+   "short": "Pearls"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Folds spared or involved: which suggests Candida?",
+   "a": "Involved folds with satellite papules/pustules suggest Candida; spared folds suggest irritant."
+  },
+  {
+   "q": "What goes on at every nappy change?",
+   "a": "A thick barrier ointment (petrolatum ± zinc oxide)."
+  },
+  {
+   "q": "Steroid choice and duration for inflamed irritant nappy rash?",
+   "a": "Hydrocortisone 1%, thin layer, short course (usually up to 7 days). No potent steroids."
+  },
+  {
+   "q": "Rash refractory to good care: which rarities?",
+   "a": "Zinc deficiency (acrodermatitis enteropathica) and Langerhans cell histiocytosis: specialist input."
+  },
+  {
+   "q": "Which infants need same-day assessment?",
+   "a": "Under 1 month with significant rash, or systemically unwell."
+  }
+ ],
+ "references": [
+  {
+   "label": "Medscape: Napkin (nappy) dermatitis",
+   "url": "https://emedicine.medscape.com/article/801222-overview"
+  }
+ ],
+ "see_also": [
+  "candida-intertrigo",
+  "eczema-dermatitis",
+  "psoriasis",
+  "neonatal-rashes"
+ ]
+}

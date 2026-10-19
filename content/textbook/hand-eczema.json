@@ -1,0 +1,595 @@
+{
+ "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
+ "key_facts": [
+  "Common inflammatory dermatitis of the hands: **irritant**, **allergic**, **atopic** and **vesicular (pompholyx)** patterns, often mixed.",
+  "Chronic hand eczema affects about **1 in 10** adults; frequent cause of time off work.",
+  "High-risk jobs: healthcare, cleaning, catering, hairdressing, construction, metalwork (wet work and chemicals).",
+  "Management: avoid irritants, **gloves**, frequent emollients, soap substitute, **potent topical steroid** short courses; patch test if allergy possible.",
+  "Refer if severe, not responding, occupational or diagnostic doubt (tinea, psoriasis)."
+ ],
+ "sections": [
+  {
+   "id": "overview",
+   "title": "Overview",
+   "blocks": [
+    {
+     "h4": "Approach to the palm and sole rash"
+    },
+    "Ask five questions — they separate most of these conditions:",
+    {
+     "table": {
+      "head": [
+       "Question",
+       "Points towards"
+      ],
+      "rows": [
+       [
+        "**Itch?**",
+        "Itchy: eczema (ICD/ACD/atopic), pompholyx, tinea (mild). Non-itchy: keratolysis exfoliativa, palmoplantar psoriasis (often sore/fissured rather than itchy), EM (may burn)"
+       ],
+       [
+        "**Inflammation?**",
+        "None (just peeling collarettes): KE. Red ± scale: eczema, psoriasis, tinea. Pustules: PPP. Deep vesicles: pompholyx. Targets: EM"
+       ],
+       [
+        "**Symmetry / one hand?**",
+        "One palm (+ both feet) → **tinea manuum** (\"two feet, one hand\"). Dominant hand worse → irritant/frictional. Symmetrical → endogenous eczema, psoriasis, PPP, pompholyx, KE"
+       ],
+       [
+        "**Border?**",
+        "Sharp edge, silvery/thick scale → psoriasis. Ill-defined, fissured, vesicles at edges → eczema. Raised advancing scaly edge → tinea"
+       ],
+       [
+        "**Clues elsewhere?**",
+        "Nails (pits/onycholysis = psoriasis; dystrophy/subungual debris = tinea); toe webs; scalp/elbows; smoking (PPP, psoriasis); job/hobbies & gloves (contact dermatitis); recent infection/drugs (EM); mucosa"
+       ]
+      ]
+     }
+    },
+    "**Investigations a pharmacist IP can arrange/advise:** skin scrapings for mycology (always before oral antifungal; any unilateral or treatment-resistant palm/sole scale); swab of crusted/weeping areas; refer for **patch testing** via dermatology when chronic hand eczema persists or a contact allergen is suspected.",
+    "**Hand eczema (hand dermatitis)** is inflammation of the skin of the hands/wrists; it is **chronic** when it lasts **> 3 months** or relapses **≥ 2 times a year** despite adequate treatment/adherence (ESCD 2022 definition). It is the commonest occupational skin disease in the UK and Europe. It is usually **multifactorial**: irritant ± allergic contact ± atopic tendency, and the morphology often doesn't tell you the cause.",
+    "ESCD aetiological categories: **irritant contact**, **allergic contact**, **atopic hand eczema**, **protein contact dermatitis/urticaria** (e.g. food handlers, latex) — and clinical subtypes: **hyperkeratotic (palmar)**, **recurrent vesicular (pompholyx)**, nummular, pulpitis, and chronic fissured."
+   ]
+  },
+  {
+   "id": "epidemiology",
+   "title": "Epidemiology",
+   "blocks": [
+    {
+     "ul": [
+      {
+       "t": "**Prevalence**",
+       "sub": [
+        "Hand dermatitis accounts for 20–35% of all dermatitis; chronic hand eczema affects 10–15% of adults.",
+        "More common in **young adult women** and people with **atopic eczema**."
+       ]
+      },
+      {
+       "t": "**Occupational**",
+       "sub": [
+        "Wet work (over 2 hours a day or frequent handwashing) is the main risk factor; leading cause of occupational skin disease."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "aetiology",
+   "title": "Aetiology: causes and risk factors",
+   "blocks": [
+    "**Irritant contact dermatitis (ICD)** — non-immunological, no prior sensitisation needed:",
+    {
+     "ul": [
+      "Repeated exposure (wet work, detergents, solvents, alkaline cement, friction, abrasion, occlusive gloves) strips stratum-corneum lipids and damages keratinocytes → **↑ transepidermal water loss**, barrier failure.",
+      "Damaged keratinocytes release IL-1α, TNF-α and other cytokines → innate inflammation; cumulative sub-threshold insults add up (\"cumulative ICD\").",
+      "Repetition drives **hyperkeratosis, acanthosis and lichenification**; in darker skin, **post-inflammatory hyperpigmentation** is prominent.",
+      "Risk modifiers: atopy/filaggrin loss-of-function, low humidity/winter, hot water, dominant-hand exposure."
+     ]
+    },
+    "**Allergic contact dermatitis (ACD)** — **type IV (delayed, T-cell mediated)**: sensitisation phase (hapten + skin protein → Langerhans cells → lymph node → memory T cells) then elicitation 24–72 h after re-exposure. A damaged irritant-barrier makes sensitisation more likely — so ICD and ACD frequently coexist.",
+    "**Construction-worker exposures:**",
+    {
+     "ul": [
+      "**Wet cement** — alkaline (pH ~12–13) and abrasive → ICD; contains **hexavalent chromium (chromate)** and cobalt → ACD. EU/UK REACH restricts soluble Cr(VI) in cement to ≤ 2 ppm (ferrous-sulphate reduction), which reduced but did not abolish cement ACD.",
+      "**Rubber/leather gloves** — thiurams, carbamates, mercaptobenzothiazole (rubber accelerators); chromate in leather.",
+      "**Epoxy resins, acrylates, isothiazolinone preservatives, solvents/degreasers, hand cleansers with abrasives.**"
+     ]
+    },
+    {
+     "h": "Risk factors and associations"
+    },
+    {
+     "ul": [
+      "**Irritants**: water, soaps, detergents, alcohol rubs, solvents, cutting oils, dusts, cold and friction.",
+      "**Allergens**: rubber accelerators (gloves), preservatives, fragrances, chromate, nickel, hair dyes, acrylates (nails), plants.",
+      "**Endogenous**: atopy, filaggrin mutations, pompholyx (often triggered by heat, sweating, stress, nickel)."
+     ]
+    },
+    {
+     "h": "Myths to address"
+    },
+    {
+     "ul": [
+      "**\"Alcohol gel is worse than soap\"**: alcohol rubs are usually less irritant than repeated soap and water.",
+      "**\"Gloves all day protect the skin\"**: long occlusion causes sweat irritation; use cotton liners."
+     ]
+    }
+   ],
+   "short": "Aetiology"
+  },
+  {
+   "id": "pathophysiology",
+   "title": "Pathophysiology and pathology",
+   "blocks": [
+    "Hand eczema is driven by **barrier damage** with or without an **allergic** (type IV) response.",
+    {
+     "mech": [
+      {
+       "k": "Barrier damage",
+       "t": "Repeated wet work and detergents strip lipids from the stratum corneum, increasing water loss and irritation.",
+       "img": "v3-hand-eczema-patterns.jpg",
+       "caption": "Patterns of hand eczema: irritant (backs and finger webs), allergic (glove or contact pattern), atopic and pompholyx (vesicles on palms and sides of fingers)."
+      },
+      {
+       "k": "Inflammation",
+       "t": "Damaged keratinocytes release cytokines; in allergic cases, sensitised T cells respond to specific allergens."
+      },
+      {
+       "k": "Vesicles",
+       "t": "In pompholyx, intense spongiosis in thick palmar skin forms deep itchy **vesicles** that do not easily rupture.",
+       "img": "v4-pompholyx-vesicles.jpg",
+       "caption": "Pompholyx: deep, tapioca-like vesicles held within thick palmar epidermis."
+      },
+      {
+       "k": "Chronic changes",
+       "t": "Ongoing exposure causes hyperkeratosis, painful **fissures** and lichenification."
+      }
+     ]
+    },
+    {
+     "histo": [
+      "Spongiotic dermatitis; pompholyx shows intraepidermal vesicles in acral skin; chronic disease shows acanthosis and hyperkeratosis.",
+      "Scrapings exclude tinea; patch testing identifies allergens."
+     ]
+    }
+   ],
+   "short": "Pathophysiology"
+  },
+  {
+   "id": "clinical-features",
+   "title": "Clinical features",
+   "blocks": [
+    {
+     "table": {
+      "head": [
+       "Stage",
+       "Features"
+      ],
+      "rows": [
+       [
+        "**Acute**",
+        "Erythema, oedema, papules, **vesicles** (finger sides/palms) that can coalesce into bullae; oozing, crusting; itch, burning, pain"
+       ],
+       [
+        "**Subacute**",
+        "Scaling, crusting, fewer vesicles"
+       ],
+       [
+        "**Chronic**",
+        "Dryness, scaling, **hyperkeratosis**, **lichenification / palmar hyperlinearity**, painful **fissures** (fingertips, knuckles, finger webs), pigment change (hyper/hypo), nail-fold inflammation and nail ridging/dystrophy"
+       ]
+      ]
+     }
+    },
+    "**Pattern clues to cause (only clues — patch testing decides):**",
+    {
+     "ul": [
+      "**ICD:** finger webs, dorsal hands, fingertips (\"pulpitis\"), ring site (\"ring dermatitis\"), dominant hand worse; glazed, fissured.",
+      "**ACD:** sites of contact with the allergen (e.g. dorsal hands/wrists with gloves, fingertips with acrylates, palms/fingers with tool handles), may spread beyond contact area, vesicular; flares 1–2 days after exposure, improves on holidays.",
+      "**Atopic hand eczema:** dorsal hands/wrists, history of flexural eczema/asthma/hay fever, onset in childhood/youth.",
+      "**Hyperkeratotic palmar eczema:** thick, fissured central palms, middle-aged men, little itch — closely mimics psoriasis."
+     ]
+    },
+    "**Worked case:** itchy erythematous palms + scale + lichenification + PIH + dominant-hand predominance in a 20-yr cement worker → chronic occupational hand eczema; ICD most likely, ACD to chromate/rubber must be tested.",
+    {
+     "fig": {
+      "dermnet": "m3w6:B01"
+     }
+    },
+    {
+     "h": "Patterns to recognise"
+    },
+    {
+     "variants": [
+      {
+       "name": "Chronic irritant",
+       "t": "Dry, fissured, glazed; webs and ring site. *Site: Dorsal hands, webs.*",
+       "photo": "m3w6:B02"
+      },
+      {
+       "name": "Pompholyx",
+       "t": "Recurrent crops of deep, very itchy vesicles; peels in 2–3 weeks. *Site: Finger sides, palms, soles.*",
+       "photo": "m3w6:C01"
+      },
+      {
+       "name": "Infected",
+       "t": "Crusting, weeping, pain: swab and treat. *Site: Anywhere.*",
+       "photo": "m3w6:B11"
+      }
+     ]
+    },
+    {
+     "h": "Special groups"
+    },
+    {
+     "ul": [
+      {
+       "t": "**Healthcare and catering workers**",
+       "sub": [
+        "Involve occupational health early; alcohol rubs plus emollients reduce irritation."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "diagnosis",
+   "title": "Diagnosis and investigations",
+   "blocks": [
+    {
+     "ol": [
+      "**History:** onset vs job change; occupational tasks (wet work definition: hands wet or in occlusive gloves > 2 h/day, or > 20 hand-washes/day); products handled (ask for **safety data sheets**); gloves (type, duration, lining); hobbies (DIY, gardening, hair dye); improvement on holidays/weekends; atopy; previous treatment and response.",
+      "**Examination:** both hands (dorsal/palmar/webs/nails), wrists, feet (tinea, pompholyx, psoriasis), scalp/elbows/nails (psoriasis), flexures (atopy).",
+      "**Skin scrapings** for mycology if any scale is asymmetric or treatment-resistant (tinea manuum is a real possibility in a manual worker).",
+      "**Patch testing** (dermatology): indicated for **all chronic hand eczema (> 3 months)** or suspected ACD; baseline series (incl. **potassium dichromate**, cobalt, nickel, rubber mixes, fragrance mixes, isothiazolinones) plus extended/occupational series and patient's own products. Allergens applied on the back for 48 h, read at ~D2 and D4 (± D7); a positive must be judged for **relevance** to the exposure history.",
+      "**Prick test / specific IgE** only if immediate (type I) symptoms — latex or food proteins (protein contact dermatitis/urticaria). Prick testing is for type I reactions; patch testing for type IV.",
+      "Diagnosis of ICD is largely **by exclusion** (negative/irrelevant patch tests + irritant history)."
+     ]
+    }
+   ],
+   "short": "Diagnosis"
+  },
+  {
+   "id": "differentials",
+   "title": "Differential diagnoses",
+   "blocks": [
+    {
+     "ddx": [
+      {
+       "name": "Palmoplantar psoriasis",
+       "f": "Sharp margins, thick silvery scale, nails.",
+       "link": "psoriasis"
+      },
+      {
+       "name": "Tinea manuum",
+       "f": "‘Two feet, one hand’; white scale in creases.",
+       "link": "tinea",
+       "danger": true
+      },
+      {
+       "name": "Keratolysis exfoliativa",
+       "f": "No itch, no redness; air-filled peeling collarettes.",
+       "link": "keratolysis-exfoliativa"
+      },
+      {
+       "name": "Palmoplantar pustulosis",
+       "f": "Sterile pustules → brown dots; smokers.",
+       "link": "palmoplantar-pustulosis"
+      },
+      {
+       "name": "Scabies",
+       "f": "Burrows in webs and wrists; night itch; contacts.",
+       "link": "scabies"
+      }
+     ]
+    },
+    {
+     "h4": "Pompholyx (recurrent vesicular hand eczema)"
+    },
+    {
+     "ul": [
+      "**What:** recurrent, symmetrical, **intensely itchy** eruption of deep-seated 1–2 mm **fluid-filled** vesicles (\"tapioca\"/\"sago\") on the sides of fingers, palms and soles; resolves with peeling in 2–3 weeks. Accounts for ~1 in 5 hand-dermatitis patch-test referrals. Not caused by blocked sweat glands despite the name.",
+      "**Associations/triggers:** atopy (mixed evidence); **contact allergy** (nickel, chromium, cobalt — oral nickel/cobalt can flare); irritants; **heat, hyperhidrosis and season**; **tinea pedis** (id/dermatophytide reaction — treat the feet); stress; smoking; IVIG; UVA.",
+      "**Diagnose:** clinical; **scrapings** if unilateral or feet involved; patch test if recurrent.",
+      "**DDx:** KE (air not fluid, no itch), PPP (pustules not vesicles), tinea (vesicular/bullous, unilateral), bullous pemphigoid (older, tense bullae elsewhere), scabies, HFMD.",
+      "**Manage (IP):** potassium permanganate 1:10,000 soaks or wet compresses for acute weeping; **potent/very potent TCS** short course (ointment; cream if very wet); emollients and soap substitute; drain large blisters with sterile needle leaving roof; treat infection; treat tinea pedis; manage hyperhidrosis. Refer if frequent/severe: patch testing, PUVA, alitretinoin, delgocitinib, systemic immunosuppressants."
+     ]
+    }
+   ],
+   "short": "Differentials"
+  },
+  {
+   "id": "management",
+   "title": "Management",
+   "blocks": [
+    {
+     "h": "Management for pharmacist/IP"
+    },
+    "**Step 1 — Skin protection & avoidance (all patients):**",
+    {
+     "ul": [
+      "Identify and **reduce/replace** irritants and allergens (hierarchy of control: eliminate → substitute → engineering → PPE). For cement: dry handling where possible, low-chromate cement, prompt washing of splashes.",
+      "**Gloves:** appropriate material for the chemical (e.g. nitrile; avoid rubber if accelerator-allergic; leather work gloves can contain chromate); keep inside dry; **cotton liners**; limit occlusion time; don't wear gloves on wet or contaminated skin.",
+      "**Hand washing:** lukewarm water, **soap substitute/emollient wash**, rinse and pat dry thoroughly (including webs); in healthcare/food settings alcohol hand rub is often better tolerated than repeated soap and water.",
+      "**Emollients** liberally and frequently (after every wash, at breaks, and greasy ointment under cotton gloves overnight); fragrance-free; preservative-allergic patients need tolerated products. \"Barrier creams\" are no substitute for gloves/emollients.",
+      "Remove rings for wet work."
+     ]
+    },
+    "**Step 2 — Topical anti-inflammatory (IP prescribing):**",
+    {
+     "ul": [
+      "**Potent topical corticosteroid** (e.g. mometasone furoate 0.1% or betamethasone valerate 0.1% ointment) once daily for 2–4 weeks for a flare; **very potent** (clobetasol propionate 0.05%) often needed for thick palmar skin — short courses, then taper to twice-weekly **proactive maintenance** on usual sites. Ointments preferred on hands. A history of \"topical dexamethasone\" with partial temporary relief = undertreatment + continuing exposure.",
+      "**Topical calcineurin inhibitors** (tacrolimus 0.1% ointment, off-label for hands) as steroid-sparing maintenance, especially dorsal skin.",
+      "Treat **secondary infection** (swab; oral flucloxacillin or per local guidance if impetiginised). Potassium permanganate 1:10,000 soaks for weeping/vesicular phases (stains; never ingest).",
+      "Oral antihistamines don't treat the eczema; a sedating one at night only if sleep is disturbed."
+     ]
+    },
+    "**Step 3 — Refer to dermatology (routine; sooner if severe or work at risk):**",
+    {
+     "ul": [
+      "Not controlled after ~4–6 weeks of optimised potent/very potent TCS + protection; or chronic > 3 months (for **patch testing**); or diagnosis uncertain.",
+      "Specialist options: **delgocitinib 2% cream** (topical pan-JAK inhibitor; **NICE TA1107, 5 Nov 2025** — moderate–severe CHE in adults when TCS ineffective/unsuitable; started by secondary care); **alitretinoin** oral 30 mg (10 mg if not tolerated) for 12–24 weeks (**NICE TA177** — severe CHE unresponsive to ~4 weeks potent TCS; dermatologist-initiated; teratogenic — Pregnancy Prevention Programme; lipids/headache); hand **PUVA / narrowband UVB**; systemic ciclosporin, methotrexate, azathioprine (off-label); dupilumab helps atopic hand eczema within its atopic dermatitis licence. (DELTA FORCE, Lancet 2025: delgocitinib cream outperformed oral alitretinoin with fewer adverse events.) Short oral prednisolone only for severe acute flares under specialist advice — not for chronic disease."
+     ]
+    },
+    "**Occupational/UK specifics:**",
+    {
+     "ul": [
+      "Encourage **occupational health** referral and workplace skin surveillance (HSE guidance; COSHH duty on employers to assess and control skin exposures).",
+      "**RIDDOR:** occupational dermatitis is a reportable disease **by the employer** when a doctor diagnoses it in writing and the work involves significant exposure to a known irritant/sensitiser — advise patient to inform employer/OH; the clinician's role is accurate written diagnosis.",
+      "Industrial Injuries Disablement Benefit can apply to prescribed occupational dermatitis (PD D5).",
+      "Fit note if needed; avoid premature advice to quit the job — modification often succeeds, but prognosis is worse with persistent exposure/ACD."
+     ]
+    },
+    {
+     "h": "Medicines at a glance"
+    },
+    {
+     "drugs": [
+      {
+       "name": "Potent TCS (mometasone 0.1% or betamethasone valerate 0.1% ointment)",
+       "cls": "Flare",
+       "dose": "Once daily · 2–4 weeks",
+       "cautions": "Then twice-weekly proactive maintenance on usual sites."
+      },
+      {
+       "name": "Very potent TCS (clobetasol 0.05%)",
+       "cls": "Flare",
+       "dose": "Short courses · Thick palmar skin",
+       "cautions": "Taper; review every 4 weeks; dorsal skin thins easily."
+      }
+     ]
+    },
+    {
+     "h": "Treatment ladder"
+    },
+    {
+     "ladder": [
+      {
+       "k": "Protect · every patient",
+       "t": "Reduce or replace irritants and allergens. Right gloves, **cotton liners**, short occlusion; remove rings for wet work.",
+       "tone": "base"
+      },
+      {
+       "k": "Flare",
+       "t": "Potent TCS (mometasone 0.1% or betamethasone valerate 0.1% ointment); Very potent TCS (clobetasol 0.05%)",
+       "tone": "first"
+      },
+      {
+       "k": "Add-ons",
+       "t": "Tacrolimus 0.1% ointment (off-label) as steroid-sparing maintenance. Potassium permanganate 1:10,000 soaks for weeping or vesicular phases.",
+       "tone": "second"
+      },
+      {
+       "k": "Refer · dermatology",
+       "t": "Not controlled after ~4–6 weeks optimised TCS, chronic > 3 months, or uncertain. Specialist: **delgocitinib 2% cream** (NICE TA1107), **alitretinoin** (NICE TA177; Pregnancy Prevention Programme), phototherapy, systemics.",
+       "tone": "refer"
+      }
+     ]
+    },
+    {
+     "callout": "warn",
+     "title": "Prescribing limits and pitfalls",
+     "list": [
+      "**Antihistamines**: Do not treat eczema; sedating one at night only for sleep.",
+      "**Barrier creams**: No substitute for gloves and emollients.",
+      "**Oral prednisolone**: Severe acute flares only, under specialist advice."
+     ]
+    },
+    {
+     "h": "Referral"
+    },
+    {
+     "refer": [
+      {
+       "when": "same-day",
+       "t": "Painful punched-out erosions or sudden worsening: **eczema herpeticum**."
+      },
+      {
+       "when": "urgent",
+       "t": "Spreading infection, fever or lymphangitis."
+      },
+      {
+       "when": "routine",
+       "t": "**Work-related**: occupational health, document exposures, patch-test referral."
+      },
+      {
+       "when": "never",
+       "t": "One-sided scaly hand + tinea pedis: **scrape before steroids**."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "red-flags",
+   "title": "Red flags and when to refer",
+   "blocks": [
+    {
+     "ul": [
+      "Painful punched-out erosions or sudden worsening: **eczema herpeticum**, same-day.",
+      "Spreading infection, fever or lymphangitis.",
+      "Work-related dermatitis: advise occupational health, document exposures, patch-test referral.",
+      "One-sided scaly hand with tinea pedis (‘two feet, one hand’): scrape for **tinea manuum** before steroids."
+     ]
+    }
+   ],
+   "short": "Red flags"
+  },
+  {
+   "id": "complications",
+   "title": "Complications and prognosis",
+   "blocks": [
+    {
+     "h": "Complications"
+    },
+    {
+     "ul": [
+      "Painful fissures, secondary infection (*S. aureus*), eczema herpeticum.",
+      "Loss of work and income; long-term disability.",
+      "Sensitisation to treatments (gloves, preservatives)."
+     ]
+    },
+    {
+     "h": "Prognosis"
+    },
+    {
+     "ul": [
+      "Often chronic and relapsing; only about half are clear years later, especially with atopy, allergy or continued exposure.",
+      "Early diagnosis, glove use and job adaptation improve outlook."
+     ]
+    }
+   ],
+   "short": "Complications"
+  },
+  {
+   "id": "pearls",
+   "title": "Prescriber pearls (UK pharmacist IP)",
+   "blocks": [
+    {
+     "pearls": [
+      "Most chronic hand eczema relapses if exposure continues — success = protection + adequate steroid + maintenance, not steroid alone.",
+      "Fingertip-unit guide: one FTU covers both sides of one hand.",
+      "Thin palmar skin is uncommon — palms tolerate very potent TCS better than other sites, but dorsal hands thin easily; review every 4 weeks.",
+      "Dominant-hand predominance, ring-site eczema, and finger-web involvement → irritant. Dorsal hand + wrist cut-off at glove cuff → think glove allergy.",
+      "Always look at the **feet** in a hand rash.",
+      "Healthcare hand hygiene: prefer alcohol rub when hands not visibly soiled, dry hands fully before gloving, emollient at breaks and end of shift, report skin problems early (NHS staff hand-dermatitis pocket guides support this).",
+      "Concise answers to the six key questions, drawn from UK guidance.",
+      "One-liner: *acute = wet (erythema, oedema, vesicles, oozing); chronic = dry (scale, thickening, lichenification, fissures, pigment and nail change).*",
+      "**Exogenous:** irritants (wet work, detergents, solvents, friction), contact allergens, proteins (food, latex).",
+      "**Endogenous:** atopy/filaggrin variants, family history,.",
+      "**Modifiers:** cold dry weather, frequent washing/sanitiser use (sharp rise during COVID-19 — PPE, washing and stress), stress, secondary microbes (*S. aureus*, dermatophytes).",
+      "**High-risk jobs:** hairdressers, healthcare workers, cleaners, catering/food handlers, bakers, metalworkers (metalworking fluids), construction (cement), mechanics, florists/gardeners.",
+      "Water/wet work (especially hot, hard or chlorinated); soaps, detergents, cleaning agents, bleach/ammonia; antiseptics, disinfectants, hand sanitisers (alcohol more of a stinging than a barrier issue); solvents/degreasers; acids and alkalis (incl. wet cement); oils and metalworking fluids; dusts, powders, soil; foods (citrus, onion, garlic, raw meat/fish juices); plants; occlusion and friction (gloves, tools); topical retinoids/benzoyl peroxide on skin.",
+      "(Poison ivy/urushiol is a North American allergen — mention for completeness, rare in UK.)",
+      "Detailed exposure history → **patch testing** (baseline + targeted series + own materials, read D2/D4 ± D7) → assess **current relevance** (does the allergen exist in the patient's environment, at the site, with timing that fits?) → **trial of avoidance** (improvement supports relevance; repeat open application test can help) → education with allergen information sheets and product checking (INCI labels, safety data sheets).",
+      "Prevention pillars: education, protective gloves (right type, liners, short periods), skin care (emollients, soap substitutes), substitution of hazards, workplace surveillance, early reporting."
+     ]
+    },
+    {
+     "h": "Hand eczema questions and answers"
+    },
+    {
+     "h": "Clinical features — acute vs chronic"
+    },
+    {
+     "h": "Causes"
+    },
+    {
+     "h": "Common irritants (ICD)"
+    },
+    {
+     "h": "Common allergens (ACD) on the hands"
+    },
+    {
+     "table": {
+      "head": [
+       "Allergen group",
+       "Typical sources"
+      ],
+      "rows": [
+       [
+        "**Metals** — nickel, **chromate**, cobalt",
+        "Jewellery/tools/keys (nickel); **cement**, leather gloves (chromate); cement, paints (cobalt)"
+       ],
+       [
+        "**Rubber accelerators** — thiurams, carbamates, mercaptobenzothiazole",
+        "Rubber gloves, handles, boots"
+       ],
+       [
+        "**Preservatives** — methylisothiazolinone/MCI, formaldehyde & releasers",
+        "Hand washes, wet wipes, paints, cutting fluids"
+       ],
+       [
+        "**Fragrances** (fragrance mixes, Myroxylon pereirae)",
+        "Soaps, creams, essential oils"
+       ],
+       [
+        "**(Meth)acrylates**",
+        "Gel/acrylic nails, dental materials, adhesives (fingertip pulpitis)"
+       ],
+       [
+        "**Epoxy resins**",
+        "Construction, adhesives, coatings"
+       ],
+       [
+        "**Hair-dye** — para-phenylenediamine (PPD)",
+        "Hairdressers"
+       ],
+       [
+        "**Plants** — sesquiterpene lactones (Compositae), primin (*Primula*), garlic (diallyl disulfide), tulip bulbs (tuliposide)",
+        "Gardeners, florists, chefs"
+       ],
+       [
+        "**Topical medicaments** — neomycin, corticosteroids, lanolin",
+        "Self-treatment"
+       ]
+      ]
+     }
+    },
+    {
+     "h": "Identifying allergens and correlating with symptoms"
+    },
+    {
+     "h": "Prevention and treatment"
+    }
+   ],
+   "short": "Pearls"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When is hand eczema ‘chronic’?",
+   "a": "Lasting more than 3 months, or relapsing at least twice a year despite adequate treatment."
+  },
+  {
+   "q": "‘Two feet, one hand’ suggests?",
+   "a": "Tinea manuum (with tinea pedis): take scrapings before steroids."
+  },
+  {
+   "q": "Typical first-line steroid for a hand eczema flare?",
+   "a": "A potent TCS ointment (e.g. mometasone 0.1%) once daily for 2–4 weeks, then twice-weekly maintenance."
+  },
+  {
+   "q": "Who needs patch testing?",
+   "a": "All chronic hand eczema (> 3 months) or suspected allergic contact dermatitis."
+  },
+  {
+   "q": "Painful punched-out erosions on eczematous hands?",
+   "a": "Eczema herpeticum: same-day assessment."
+  }
+ ],
+ "references": [
+  {
+   "label": "Medscape: Hand eczema (chronic, occupational & pompholyx)",
+   "url": "https://emedicine.medscape.com/article/1049353-overview"
+  }
+ ],
+ "see_also": [
+  "contact-dermatitis",
+  "eczema-dermatitis",
+  "palmoplantar-pustulosis",
+  "keratolysis-exfoliativa"
+ ]
+}
