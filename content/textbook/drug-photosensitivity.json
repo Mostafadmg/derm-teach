@@ -1,0 +1,502 @@
+{
+ "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
+ "key_facts": [
+  "**Drug photosensitivity** is a rash on sun-exposed skin caused by a drug plus UV (mostly UVA).",
+  "**Phototoxic** (commonest, dose-related, 'exaggerated sunburn') versus **photoallergic** (eczematous, immune).",
+  "Common culprits: tetracyclines (doxycycline), thiazides, amiodarone, voriconazole, NSAIDs, quinolones, phenothiazines.",
+  "Sharp cut-off at clothing lines; spares under the chin, behind the ears and skin folds.",
+  "Stop or switch the culprit with the prescriber (never stop amiodarone, voriconazole or antiretrovirals without specialist input); strict UVA protection."
+ ],
+ "sections": [
+  {
+   "id": "overview",
+   "title": "Overview",
+   "blocks": [
+    "An abnormal skin reaction to UV (mostly **UVA, 320–400 nm**) or visible light caused by a **systemic or topical drug** (or chemical). Two mechanisms: **phototoxic** (common; non-immune) and **photoallergic** (uncommon; immune). Some drugs do both. A core pharmacist topic because most cases follow a medicine started in the previous days–months, and many are preventable with counselling at the point of supply.",
+    "An abnormal skin reaction to light (usually **UVA**, 320–400 nm) caused by a systemic or topical drug."
+   ]
+  },
+  {
+   "id": "epidemiology",
+   "title": "Epidemiology",
+   "blocks": [
+    {
+     "ul": [
+      {
+       "t": "**Who**",
+       "sub": [
+        "Common in older people on multiple drugs; holiday or summer onset."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "aetiology",
+   "title": "Aetiology: causes and risk factors",
+   "blocks": [
+    {
+     "ul": [
+      "**Dose- and light-dose-dependent**; can happen to **anyone, on first exposure**, no sensitisation needed.",
+      "Requires **prior sensitisation**, only affects a minority, not strictly dose-related; may cross-react with chemically related drugs and may **persist** after drug withdrawal (persistent light reaction → CAD). Topical agents (ketoprofen gel, sunscreen filters, fragrances, phenothiazine creams) are commoner causes than oral drugs."
+     ]
+    },
+    {
+     "h": "Risk factors and associations"
+    },
+    {
+     "ul": [
+      "Photosensitising drug in the skin plus UVA (passes through window glass)."
+     ]
+    },
+    {
+     "h": "Myths to address"
+    },
+    {
+     "ul": [
+      "**\"Sunscreen fixes it\"**: many sunscreens protect poorly against UVA; clothing and avoiding sun matter."
+     ]
+    }
+   ],
+   "short": "Aetiology"
+  },
+  {
+   "id": "pathophysiology",
+   "title": "Pathophysiology and pathology",
+   "blocks": [
+    "A drug in the skin **absorbs UV energy** and damages cells directly or creates an allergen.",
+    {
+     "mech": [
+      {
+       "k": "Drug in skin",
+       "t": "The drug or its metabolite reaches the dermis and epidermis."
+      },
+      {
+       "k": "Phototoxic",
+       "t": "Absorbed UVA excites the drug, releasing free radicals that damage cells: sunburn-like reaction within hours."
+      },
+      {
+       "k": "Photoallergic",
+       "t": "UV converts the drug into a hapten; T cells become sensitised: eczema days later, may spread beyond exposed sites."
+      },
+      {
+       "k": "Pigmentation",
+       "t": "Some drugs (amiodarone, minocycline) leave slate-grey or blue pigment in exposed skin."
+      }
+     ]
+    },
+    {
+     "h": "How it is caused"
+    },
+    {
+     "ul": [
+      "Some drugs do both (**thiazides**, quinine, NSAIDs, phenothiazines).",
+      "Thiazides/sulfonamides can also cause **photo-distributed lichenoid eruptions**, **SCLE** and **pseudoporphyria**.",
+      "**Hydrochlorothiazide** carries a dose-dependent increased risk of **non-melanoma skin cancer** (MHRA DSU Nov 2018). The evidence applies to HCTZ — bendroflumethiazide data are limited — but photoprotection advice applies to all thiazides.",
+      "**Common UK photosensitisers:** thiazides (bendroflumethiazide, HCTZ, indapamide), **doxycycline/tetracyclines**, **quinolones**, sulfonamides (co-trimoxazole), **amiodarone**, NSAIDs (piroxicam, naproxen, ketoprofen gel — photoallergic), phenothiazines (chlorpromazine), **voriconazole** (SCC risk), St John's wort, retinoids, methotrexate (UV recall), quinine, hydroxychloroquine, furosemide (pseudoporphyria), vemurafenib."
+     ]
+    },
+    {
+     "histo": [
+      "Phototoxic: necrotic keratinocytes like sunburn. Photoallergic: spongiotic dermatitis. Phototesting confirms in specialist units."
+     ]
+    }
+   ],
+   "short": "Pathophysiology"
+  },
+  {
+   "id": "clinical-features",
+   "title": "Clinical features",
+   "blocks": [
+    {
+     "table": {
+      "head": [
+       "Feature",
+       "Phototoxic",
+       "Photoallergic"
+      ],
+      "rows": [
+       [
+        "Frequency",
+        "Common",
+        "Uncommon"
+       ],
+       [
+        "Prior sensitisation",
+        "**Not needed** — first exposure",
+        "**Needed**"
+       ],
+       [
+        "Onset after sun",
+        "Minutes–hours (≤24 h)",
+        "24–72 h"
+       ],
+       [
+        "Appearance",
+        "**Exaggerated sunburn**: erythema, oedema, blistering, then hyperpigmentation/desquamation; may cause photo-onycholysis (tetracyclines, psoralens), slate-grey pigmentation (amiodarone), pseudoporphyria",
+        "**Eczematous**: papules, vesicles, scaling, lichenification"
+       ],
+       [
+        "Symptom",
+        "**Burning, stinging, pain**",
+        "**Itch**"
+       ],
+       [
+        "Distribution",
+        "**Sharply limited to exposed skin**, clear cut-off (watch strap, collar, T-shirt)",
+        "Exposed skin **and can spread to covered sites**"
+       ],
+       [
+        "Dose dependence",
+        "Yes (drug + UV dose)",
+        "No (small amounts enough)"
+       ],
+       [
+        "Cross-reactivity",
+        "No",
+        "Possible"
+       ],
+       [
+        "Resolution",
+        "Quickly after stopping drug/UV",
+        "Can persist (persistent light reaction)"
+       ],
+       [
+        "Examples",
+        "**Tetracyclines (doxycycline)**, fluoroquinolones, NSAIDs (oral), amiodarone, thiazides, voriconazole, psoralens, chlorpromazine, St John's wort",
+        "Topical **ketoprofen**, sunscreen filters (benzophenones/oxybenzone, octocrylene), fragrance (musk ambrette), sulfonamides, phenothiazines, quinine/quinidine, thiazides (both)"
+       ]
+      ]
+     }
+    },
+    "(Three discriminators: sensitisation, distribution, burning vs itching.)",
+    "Other drug-related photo-patterns: **drug-induced subacute cutaneous lupus** (thiazides, terbinafine, PPIs, calcium-channel blockers, checkpoint inhibitors), **drug-induced pellagra** (isoniazid), **lichenoid photo-eruption** (thiazides, quinine), **methotrexate UV-recall** of a recent sunburn.",
+    {
+     "ul": [
+      "Itchy or burning erythema on the **face, V of the neck, nape, backs of hands and forearms**.",
+      "There is a sharp cut-off at clothing, with **sparing of the upper eyelids, under the chin (submental), behind the ears, nasolabial folds and finger webs**."
+     ]
+    },
+    {
+     "fig": {
+      "dermnet": "m5w6:D01"
+     }
+    },
+    {
+     "h": "Special groups"
+    },
+    {
+     "ul": [
+      {
+       "t": "**Photo-onycholysis**",
+       "sub": [
+        "Tetracyclines and psoralens can lift the nails from the bed after sun exposure."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "diagnosis",
+   "title": "Diagnosis and investigations",
+   "blocks": [
+    "Clinical + **temporal drug history** (including OTC, topical, herbal — St John's wort — and supplements, and recent dose increases). Specialist: **phototesting on and off the drug**, **photopatch testing** for suspected photoallergens, biopsy if lupus/lichenoid suspected; ANA/Ro if lupus-like.",
+    {
+     "ul": [
+      "Clinical: distribution + drug history + sun exposure.",
+      "**Investigations** mainly exclude differentials: **ANA, anti-Ro/La** (SCLE — note her **omeprazole**, the commonest drug cause of SCLE, and thiazides also cause SCLE); porphyrin screen if blistering or fragility (PCT, pseudoporphyria); biopsy if uncertain"
+     ]
+    }
+   ],
+   "short": "Diagnosis"
+  },
+  {
+   "id": "differentials",
+   "title": "Differential diagnoses",
+   "blocks": [
+    {
+     "ddx": [
+      {
+       "name": "Ordinary sunburn",
+       "f": "Proportionate to exposure; no new drug"
+      },
+      {
+       "name": "PMLE",
+       "f": "Papular, recurrent seasonal, no drug link",
+       "link": "polymorphic-light-eruption"
+      },
+      {
+       "name": "Phytophotodermatitis",
+       "f": "Bizarre streaks/drips where plant/juice touched; no drug",
+       "link": "phytophotodermatitis"
+      },
+      {
+       "name": "Airborne/allergic contact dermatitis",
+       "f": "Shaded sites involved; contact history"
+      },
+      {
+       "name": "CAD",
+       "f": "Chronic, older men, persists; patch/phototests"
+      },
+      {
+       "name": "Drug-induced lupus (SCLE)",
+       "f": "Annular/psoriasiform plaques; Ro positive"
+      },
+      {
+       "name": "Pseudoporphyria",
+       "f": "Blisters + fragility dorsal hands (naproxen etc.)",
+       "link": "porphyria-cutanea-tarda"
+      }
+     ]
+    },
+    "PLE (spring, no drug, papulovesicular), **SCLE** (annular/psoriasiform, Ro+, drugs: PPIs, thiazides, terbinafine, calcium-channel blockers), **chronic actinic dermatitis** (older men, lichenified), airborne contact dermatitis (Compositae — involves the shaded areas too), dermatomyositis (heliotrope, Gottron's — the [skin signs of systemic disease](condition:dermatomyositis) notes), rosacea, seborrhoeic dermatitis, pellagra."
+   ],
+   "short": "Differentials"
+  },
+  {
+   "id": "management",
+   "title": "Management",
+   "blocks": [
+    {
+     "ul": [
+      "**Identify and stop/switch the culprit** where possible, in discussion with the original prescriber (e.g. doxycycline → lymecycline is also a tetracycline, so consider a non-tetracycline per indication; thiazide → alternative antihypertensive). **Never stop amiodarone, voriconazole or antiretroviral/oncology drugs without specialist input** — manage with photoprotection instead; amiodarone photosensitivity can persist for months after stopping.",
+      "**Acute phototoxic reaction:** cool compresses, emollients, analgesia (paracetamol; avoid if NSAID is the culprit), **potent topical corticosteroid** short course for inflammation on body; burn-type dressings for blisters; oral antihistamine for itch.",
+      "**Prevention:** counsel at supply, especially before holidays: broad-spectrum high-UVA sunscreen, cover up, avoid sunbeds; consider evening dosing only where evidence supports it (e.g. some advise doxycycline with evening meal — mixed evidence; protection remains essential).",
+      "Report suspected ADRs via **MHRA Yellow Card** (serious, novel, or black-triangle drugs)."
+     ]
+    },
+    {
+     "h": "Photosensitiser drug checklist for medication review"
+    },
+    "Paraphrased from DermNet and BNF photosensitivity side-effect listings; **always check the current BNF monograph and SmPC** for an individual drug. = commonest/most important in UK primary care.",
+    {
+     "table": {
+      "head": [
+       "Class",
+       "Examples (UK-relevant)",
+       "Main type / notes"
+      ],
+      "rows": [
+       [
+        "**Tetracyclines**",
+        "**doxycycline**, demeclocycline (strongest), lymecycline, minocycline (less), oxytetracycline",
+        "Phototoxic; photo-onycholysis; pseudoporphyria. Counsel every supply (acne, rosacea, malaria prophylaxis)"
+       ],
+       [
+        "**Fluoroquinolones**",
+        "ciprofloxacin, levofloxacin, ofloxacin, moxifloxacin; nalidixic acid",
+        "Phototoxic; pseudoporphyria (nalidixic acid)"
+       ],
+       [
+        "**Sulfonamides/antifolates**",
+        "co-trimoxazole, trimethoprim (occasional), sulfasalazine, dapsone",
+        "Photoallergic/phototoxic"
+       ],
+       [
+        "**Antifungals**",
+        "**voriconazole** (also SCC/melanoma risk), griseofulvin, itraconazole/ketoconazole (rare), terbinafine (drug-induced SCLE)",
+        "Phototoxic; skin cancer with voriconazole"
+       ],
+       [
+        "**NSAIDs**",
+        "**topical ketoprofen** (photoallergy — avoid sun on site during + 2 weeks after), piroxicam, naproxen (pseudoporphyria), ibuprofen (rare), diclofenac, celecoxib",
+        "Both types"
+       ],
+       [
+        "**Diuretics**",
+        "**thiazides/related** (bendroflumethiazide, hydrochlorothiazide — MHRA NMSC risk, indapamide, chlortalidone), furosemide, bumetanide (pseudoporphyria)",
+        "Phototoxic/photoallergic; lichenoid; SCLE"
+       ],
+       [
+        "**Cardiovascular**",
+        "**amiodarone** (phototoxic, blue-grey pigmentation; persists months), dronedarone, quinidine; calcium-channel blockers (amlodipine, nifedipine, diltiazem — photo-distributed telangiectasia/pigmentation), ACE inhibitors (rare), statins (rare)",
+        "Do not stop amiodarone without cardiology"
+       ],
+       [
+        "**Alpha-blockers**",
+        "tamsulosin (DermNet gallery case)",
+        "Photosensitive eczema/purpura (rare)"
+       ],
+       [
+        "**Psychotropics**",
+        "chlorpromazine and other phenothiazines (incl. topical promethazine), tricyclic antidepressants, St John's wort (hypericin)",
+        "Phototoxic + photoallergic; check herbal use"
+       ],
+       [
+        "**Retinoids**",
+        "isotretinoin, acitretin, alitretinoin; topical tretinoin/adapalene",
+        "Increased burning/fragility (stratum corneum thinning)"
+       ],
+       [
+        "**Antimalarials**",
+        "quinine, chloroquine, hydroxychloroquine (paradoxically treats some photodermatoses), mefloquine (rare)",
+        "Photoallergic/lichenoid"
+       ],
+       [
+        "**Oncology/immunology**",
+        "methotrexate (UV recall), fluorouracil (systemic/topical), vemurafenib (marked UVA phototoxicity), BRAF/MEK & checkpoint inhibitors, hydroxycarbamide",
+        "Phototoxic; specialist-managed"
+       ],
+       [
+        "**Antidiabetics**",
+        "sulfonylureas (glibenclamide, gliclazide — rare)",
+        "Rare"
+       ],
+       [
+        "**Antiretrovirals/TB**",
+        "efavirenz; isoniazid (pellagra-like photosensitivity), pyrazinamide",
+        "Photo-distributed eruptions"
+       ],
+       [
+        "**PPIs**",
+        "omeprazole, lansoprazole, esomeprazole",
+        "Drug-induced SCLE (photo-aggravated)"
+       ],
+       [
+        "**Psoralens**",
+        "methoxsalen (PUVA), bergamot oil/citrus essential oils",
+        "Phototoxic — therapeutic in PUVA"
+       ],
+       [
+        "**Topicals/cosmetics**",
+        "sunscreen filters (oxybenzone, octocrylene), fragrances, coal tar, benzoyl peroxide (irritant)",
+        "Photoallergic (filters/fragrance), phototoxic (tar)"
+       ]
+      ]
+     }
+    },
+    {
+     "ol": [
+      "**Stop the probable culprit — bendroflumethiazide** (the classic phototoxic agent here). Choose an alternative antihypertensive per **NICE NG136**: She already takes an ARB (losartan) for T2DM/HTN; Add a **CCB (amlodipine)**. Avoid indapamide, a sulfonamide-type thiazide-like diuretic that also photosensitises; Check BP after the switch",
+      "**Symptomatic:** potent topical steroid (body/hands) and moderate/mild steroid on the face for 1–2 weeks; emollient; antihistamine for itch; cool compresses.",
+      "**Review other contributors:** omeprazole (SCLE — ask about annular lesions, check Ro; deprescribe if no ongoing indication); the HbA1c of 78 means diabetes needs intensifying (NICE NG28 — SGLT2 inhibitor/GLP-1 RA). Sitagliptin is linked to **bullous pemphigoid** rather than photosensitivity — keep that in mind if blisters appear.",
+      "**Yellow Card**; document \"photosensitivity — bendroflumethiazide\"."
+     ]
+    },
+    {
+     "h": "IP scope"
+    },
+    "Stopping/switching antihypertensives within competence, topical steroids, photoprotection advice, Yellow Card.",
+    {
+     "h": "Referral"
+    },
+    {
+     "refer": [
+      {
+       "when": "same-day",
+       "t": "Blistering, extensive or systemic reaction: same-day assessment."
+      },
+      {
+       "when": "routine",
+       "t": "Long-term voriconazole with photodamage: monitor for skin cancer."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "red-flags",
+   "title": "Red flags and when to refer",
+   "blocks": [
+    {
+     "ul": [
+      "Blistering, extensive or systemic reaction: same-day assessment.",
+      "Long-term voriconazole with photodamage: monitor for skin cancer."
+     ]
+    },
+    {
+     "h4": "Red flags / refer"
+    },
+    "Blistering over large area, mucosal involvement or systemic illness (consider SJS/TEN, not photosensitivity) → **same-day**; persistent eruption after stopping drug (persistent light reaction/CAD) → dermatology; lupus-like eruption → GP bloods/dermatology; **voriconazole long-term + photodamage** → dermatology for skin cancer surveillance.",
+    {
+     "h4": "Red flags / refer"
+    },
+    "Blistering/erosions, widespread or persistent eruption after stopping the drug (persistent light reaction/chronic actinic dermatitis), suspected SCLE/lupus, diagnostic doubt → dermatology (photobiology)."
+   ],
+   "short": "Red flags"
+  },
+  {
+   "id": "complications",
+   "title": "Complications and prognosis",
+   "blocks": [
+    {
+     "h": "Complications"
+    },
+    {
+     "ul": [
+      "Blistering, pigmentation, persistent light reaction (chronic actinic dermatitis)."
+     ]
+    },
+    {
+     "h": "Prognosis"
+    },
+    {
+     "ul": [
+      "Phototoxic reactions clear when the drug stops (amiodarone may take months); photoallergy can persist."
+     ]
+    }
+   ],
+   "short": "Complications"
+  },
+  {
+   "id": "pearls",
+   "title": "Prescriber pearls (UK pharmacist IP)",
+   "blocks": [
+    {
+     "pearls": [
+      "Always ask **\"any new tablets, creams or herbal remedies in the last 3 months?\"** for any photo-distributed rash.",
+      "**Doxycycline** (acne, rosacea, malaria prophylaxis, Lyme, chest infections) — the commonest UK primary-care culprit; give the sun advice **with every supply**, especially malaria prophylaxis for sunny destinations.",
+      "**Topical ketoprofen gel** — BNF/MHRA advice: avoid exposure of treated area to sunlight/UV (incl. sunbeds) **during treatment and for 2 weeks after**, wash hands, avoid octocrylene-containing sunscreens/fragrance co-sensitisers.",
+      "**Hydrochlorothiazide** — MHRA (2018) Drug Safety Update: cumulative-dose-related increased risk of **non-melanoma skin cancer**; advise sun protection, skin checks, and review in those with prior skin cancer. (Bendroflumethiazide is the usual UK thiazide; photosensitivity also listed.)",
+      "**Voriconazole** — phototoxicity and **squamous cell carcinoma/melanoma** risk with long-term use (MHRA warning): strict photoprotection; dermatology review.",
+      "**Fluoroquinolones** — photosensitivity listed; MHRA restrictions on use for other safety reasons; avoid strong sun/sunbeds during and for a few days after.",
+      "**Methotrexate** — sunburn recall; advise sun protection.",
+      "**Isotretinoin/acitretin** — increased sunburn/skin fragility (retinoid effect, not classic phototoxicity).",
+      "Check the **BNF monograph side-effects / \"Patient and carer advice\"** for photosensitivity statements — the definitive UK source for counselling labels.",
+      "**BNF cautionary label 11** applies to doxycycline, demeclocycline, chlorpromazine and others. Use the same wording verbally for thiazides and amiodarone.",
+      "Doxycycline photosensitivity is dose-related — useful when choosing lymecycline vs doxycycline for summer acne courses.",
+      "Thiazide users with lots of sun exposure or previous skin cancer: discuss NMSC risk (MHRA 2018) and **skin checks**."
+     ]
+    }
+   ],
+   "short": "Pearls"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Drug-induced photosensitivity?",
+   "a": "Exaggerated sunburn, blistering, eczema or pigment change on sun-exposed skin after starting a drug (doxycycline, thiazides, amiodarone, NSAIDs, quinine, voriconazole)."
+  },
+  {
+   "q": "What drives it?",
+   "a": "Phototoxic: the drug absorbs UVA and directly damages skin (dose-dependent). Photoallergic: UV turns the drug into an allergen (type IV)."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "Review and stop or switch the culprit where possible, counsel UVA protection, treat with cool compresses and potent topical steroid; Yellow Card."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "Voriconazole-related SCC risk, and lupus or pellagra as differentials."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "Blistering, extensive or systemic reaction: same-day assessment."
+  }
+ ],
+ "references": [
+  {
+   "label": "Medscape: Drug-induced photosensitivity",
+   "url": "https://emedicine.medscape.com/article/1049648-overview"
+  }
+ ],
+ "see_also": [
+  "polymorphic-light-eruption",
+  "phytophotodermatitis",
+  "chronic-actinic-dermatitis",
+  "drug-induced-pigmentation",
+  "drug-eruption-approach"
+ ]
+}

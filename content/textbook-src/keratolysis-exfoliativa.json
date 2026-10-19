@@ -1,0 +1,57 @@
+{
+ "kf": [
+  "**Keratolysis exfoliativa** is recurrent, painless superficial peeling of the palms (and soles), worse in warm weather.",
+  "Air-filled blisters burst into expanding **collarettes** of scale with no inflammation.",
+  "Benign, not contagious, not an allergy; often confused with hand eczema or tinea.",
+  "Irritant avoidance, emollients and keratolytic creams (urea, lactic acid); topical steroids do not help.",
+  "Scrape for fungus if one-sided or with a raised edge."
+ ],
+ "epi": [
+  {
+   "t": "**Who**",
+   "sub": [
+    "Young adults; often associated with sweaty hands; summer flares."
+   ]
+  }
+ ],
+ "aet": [
+  "Unknown; possibly a variant of mild pompholyx or an inherited keratin defect; friction, water and detergents aggravate."
+ ],
+ "myths": [
+  "**\"It's eczema, use steroid\"**: there is no inflammation, so steroids are wasted and thin the skin."
+ ],
+ "patho_lead": "The outer **stratum corneum splits**, forming air-filled blisters that peel.",
+ "mech": [
+  {
+   "k": "Corneal splitting",
+   "t": "Cohesion within the stratum corneum fails, creating an air space.",
+   "img": "v3-ke-stratum-split.jpg",
+   "cap": "A split within the stratum corneum forms an air-filled blister."
+  },
+  {
+   "k": "Expanding collarettes",
+   "t": "The roof peels outwards, leaving rings of scale over normal skin.",
+   "img": "v3-ke-collarette-stages.jpg",
+   "cap": "Air blister → collarette → peeling."
+  },
+  {
+   "k": "Healing",
+   "t": "New stratum corneum forms beneath within 1–3 weeks."
+  }
+ ],
+ "histo": [
+  "Rarely needed: splitting within the upper stratum corneum without inflammation."
+ ],
+ "comp": [
+  "Tender fissures and secondary irritant dermatitis."
+ ],
+ "prog": [
+  "Recurrent; improves with age."
+ ],
+ "see_also": [
+  "hand-eczema",
+  "tinea",
+  "palmoplantar-pustulosis",
+  "hyperhidrosis"
+ ]
+}

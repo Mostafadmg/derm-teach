@@ -1,0 +1,72 @@
+{
+ "kf": [
+  "**Photoageing** is premature skin ageing from chronic UV (and visible/infrared) exposure, on top of intrinsic ageing.",
+  "Wrinkles, coarse texture, mottled pigment, solar lentigines, telangiectasia, yellowish thickening (**solar elastosis**).",
+  "Marks cumulative sun damage and higher risk of AK, BCC, SCC and melanoma: examine the skin.",
+  "Prevention: sun protection and stopping smoking; topical **retinoids** have the best evidence for treatment.",
+  "Procedures (peels, lasers, injectables) are cosmetic and not NHS-funded."
+ ],
+ "epi": [
+  {
+   "t": "**Who**",
+   "sub": [
+    "Fair skin, outdoor workers, sunbed users, sunny climates; smoking adds damage."
+   ]
+  }
+ ],
+ "aet": [
+  "UVA penetrates the dermis (collagen and elastin damage); UVB damages the epidermis and DNA.",
+  "Smoking, pollution, infrared radiation."
+ ],
+ "myths": [
+  "**\"A tan protects the skin\"**: a tan is a sign of DNA damage.",
+  "**\"Anti-ageing creams reverse wrinkles\"**: only retinoids and sun protection have good evidence."
+ ],
+ "patho_lead": "UV turns on **collagen-destroying enzymes** while slowing new collagen formation.",
+ "mech": [
+  {
+   "k": "Free radicals",
+   "t": "UV generates reactive oxygen species in skin cells."
+  },
+  {
+   "k": "Matrix breakdown",
+   "t": "Signalling (AP-1) switches on matrix metalloproteinases that digest collagen."
+  },
+  {
+   "k": "Reduced repair",
+   "t": "New collagen synthesis falls; fragmented collagen weakens the dermis: wrinkles."
+  },
+  {
+   "k": "Solar elastosis",
+   "t": "Abnormal elastic material builds up in the upper dermis, causing yellow, thickened skin."
+  },
+  {
+   "k": "Pigment and vessels",
+   "t": "Uneven melanocyte activity (lentigines) and dilated vessels (telangiectasia) appear."
+  }
+ ],
+ "histo": [
+  "Solar elastosis (blue-grey amorphous elastic material in the papillary dermis), reduced collagen, atrophic or uneven epidermis."
+ ],
+ "special": [
+  {
+   "t": "**Skin of colour**",
+   "sub": [
+    "Photoageing appears later and is mainly pigmentary (uneven tone, dermatosis papulosa nigra) rather than wrinkles."
+   ]
+  }
+ ],
+ "comp": [
+  "Actinic keratoses and skin cancers; skin fragility, purpura and skin tears."
+ ],
+ "prog": [
+  "Partly preventable and partly reversible with photoprotection and retinoids."
+ ],
+ "see_also": [
+  "solar-lentigines",
+  "actinic-keratoses",
+  "skin-fragility-dermatoporosis",
+  "retinoids",
+  "facial-ageing-neuromodulators"
+ ]
+}

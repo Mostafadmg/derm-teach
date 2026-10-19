@@ -1,0 +1,277 @@
+{
+ "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
+ "key_facts": [
+  "**Solar lentigines** ('liver spots', 'age spots') are flat, well-defined brown macules on sun-exposed skin.",
+  "Face, backs of hands, forearms and shoulders in middle-aged and older adults; a marker of sun damage.",
+  "Dermoscopy: fine reticular pattern, 'moth-eaten' edges, fingerprint pattern.",
+  "Differentiate from **lentigo maligna** (irregular, enlarging, multiple colours on the face) and pigmented AK or SK.",
+  "Benign: sun protection; cryotherapy or laser are cosmetic options."
+ ],
+ "sections": [
+  {
+   "id": "overview",
+   "title": "Overview",
+   "blocks": [
+    "**Solar lentigines** (“age spots”, “liver spots”) are benign flat tan-to-dark-brown macules on chronically sun-exposed skin. They mark cumulative UV damage and skin-cancer risk but are not themselves premalignant."
+   ]
+  },
+  {
+   "id": "epidemiology",
+   "title": "Epidemiology",
+   "blocks": [
+    {
+     "ul": [
+      {
+       "t": "**Who**",
+       "sub": [
+        "Over 90% of fair-skinned people over 60; increase with age and sun exposure."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "aetiology",
+   "title": "Aetiology: causes and risk factors",
+   "blocks": [
+    "UV-driven localised melanocyte hyperactivity. Risk rises with fair skin, outdoor work, sunburn history, sunbeds and age.",
+    {
+     "h": "Risk factors and associations"
+    },
+    {
+     "ul": [
+      "Chronic UV exposure; PUVA and sunbeds produce similar lentigines."
+     ]
+    },
+    {
+     "h": "Myths to address"
+    },
+    {
+     "ul": [
+      "**\"They're harmless so never need checking\"**: a changing, irregular facial lentigo may be lentigo maligna."
+     ]
+    }
+   ],
+   "short": "Aetiology"
+  },
+  {
+   "id": "pathophysiology",
+   "title": "Pathophysiology and pathology",
+   "blocks": [
+    "UV causes a **local increase in melanocytes** and pigment along the basal layer.",
+    {
+     "mech": [
+      {
+       "k": "UV injury",
+       "t": "Repeated UV exposure stimulates basal melanocytes."
+      },
+      {
+       "k": "Melanocyte increase",
+       "t": "Melanocyte numbers increase modestly along the basal layer (no nests)."
+      },
+      {
+       "k": "Elongated rete ridges",
+       "t": "Rete ridges lengthen and are heavily pigmented, creating a flat brown patch."
+      }
+     ]
+    },
+    {
+     "histo": [
+      "Elongated, club-shaped, pigmented rete ridges with a slight increase in single basal melanocytes; no atypia."
+     ]
+    }
+   ],
+   "short": "Pathophysiology"
+  },
+  {
+   "id": "clinical-features",
+   "title": "Clinical features",
+   "blocks": [
+    {
+     "ul": [
+      "Uniform light-to-dark brown macules with a regular border; face, dorsal hands, forearms, shoulders.",
+      "Do **not** fade in winter (unlike freckles).",
+      "May coexist with AK field change and photoageing."
+     ]
+    },
+    {
+     "fig": {
+      "dermnet": "m6w5:W5C-01"
+     }
+    },
+    {
+     "h": "Special groups"
+    },
+    {
+     "ul": [
+      {
+       "t": "**Lentigo maligna warning**",
+       "sub": [
+        "Asymmetric pigmentation, multiple colours, grey dots, enlargement: refer via the suspected cancer pathway."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "diagnosis",
+   "title": "Diagnosis and investigations",
+   "blocks": [
+    "Clinical ± dermoscopy (fingerprint/moth-eaten border patterns). Biopsy or refer asymmetric, irregular, enlarging, ugly-duckling or grey-regression lesions — especially on the face."
+   ],
+   "short": "Diagnosis"
+  },
+  {
+   "id": "differentials",
+   "title": "Differential diagnoses",
+   "blocks": [
+    {
+     "ddx": [
+      {
+       "name": "Freckles (ephelides)",
+       "f": "Childhood onset; fade in winter"
+      },
+      {
+       "name": "Melasma",
+       "f": "Symmetrical patches; hormones; worsened by heat/IPL — see [melasma](condition:melasma-facial-melanosis)",
+       "link": "melasma-facial-melanosis"
+      },
+      {
+       "name": "Seborrhoeic keratosis",
+       "f": "Stuck-on, waxy, raised",
+       "link": "actinic-keratoses"
+      },
+      {
+       "name": "Lentigo maligna",
+       "f": "Irregular colours, slow enlargement on older face → NG12 referral",
+       "link": "melanoma"
+      },
+      {
+       "name": "Pigmented AK",
+       "f": "Rough surface"
+      }
+     ]
+    }
+   ],
+   "short": "Differentials"
+  },
+  {
+   "id": "management",
+   "title": "Management",
+   "blocks": [
+    {
+     "ul": [
+      "Daily broad-spectrum SPF 30–50 (± tinted); hats/gloves for driving and gardening — without this, treated lesions return.",
+      "Examine the whole photodamaged field for AK/BCC/SCC/lentigo maligna.",
+      "Modest topicals: retinoids, azelaic acid; short specialist hydroquinone courses only (ochronosis risk).",
+      "Procedural (usually private): light cryotherapy (hypopigmentation risk, especially in darker skin), pigment laser for discrete spots, IPL for diffuse pigment+redness — only after diagnosis is secure.",
+      "Melasma is a poor IPL indication and can worsen."
+     ]
+    },
+    {
+     "h": "Referral"
+    },
+    {
+     "refer": [
+      {
+       "when": "urgent",
+       "t": "Any lesion suspicious for lentigo maligna or melanoma → urgent suspected-cancer pathway."
+      },
+      {
+       "when": "never",
+       "t": "Do not treat undiagnosed pigment with cryotherapy, IPL or laser."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "red-flags",
+   "title": "Red flags and when to refer",
+   "blocks": [
+    {
+     "ul": [
+      "Any lesion suspicious for lentigo maligna or melanoma → urgent suspected-cancer pathway.",
+      "Do not treat undiagnosed pigment with cryotherapy, IPL or laser."
+     ]
+    }
+   ],
+   "short": "Red flags"
+  },
+  {
+   "id": "complications",
+   "title": "Complications and prognosis",
+   "blocks": [
+    {
+     "h": "Complications"
+    },
+    {
+     "ul": [
+      "Cosmetic concern; may evolve into a flat seborrhoeic keratosis (reticulated SK)."
+     ]
+    },
+    {
+     "h": "Prognosis"
+    },
+    {
+     "ul": [
+      "Persist and increase; fade slightly with strict sun protection."
+     ]
+    }
+   ],
+   "short": "Complications"
+  },
+  {
+   "id": "pearls",
+   "title": "Prescriber pearls (UK pharmacist IP)",
+   "blocks": [
+    {
+     "pearls": [
+      "Solar lentigines are a UV dosimeter — use the visit for skin-cancer education.",
+      "Hand spots are a classic patient question; same rules as the face.",
+      "See also [photoageing](condition:photoageing) and [IPL & eyelash enhancement](condition:ipl-eyelash).",
+      "Flat brown marks that become raised and warty are usually [seborrhoeic keratoses](condition:seborrhoeic-keratosis); a lentigo that darkens or spreads unevenly on the face may be [lentigo maligna](condition:melanoma)."
+     ]
+    }
+   ],
+   "short": "Pearls"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Solar lentigines?",
+   "a": "Flat, evenly brown macules on the face or backs of the hands of an older outdoor worker that do not fade in winter."
+  },
+  {
+   "q": "What drives it?",
+   "a": "Chronic UV increases local melanocyte number and activity along elongated rete ridges."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "Photoprotection forever; topical retinoids/azelaic acid for modest fading; cryotherapy/IPL/laser only after cancer exclusion — usually private."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "Irregular, multicoloured, enlarging facial pigment → lentigo maligna — urgent suspected-cancer referral. Never laser an undiagnosed pigmented lesion."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "Any lesion suspicious for lentigo maligna or melanoma → urgent suspected-cancer pathway."
+  }
+ ],
+ "references": [
+  {
+   "label": "Medscape: Solar lentigines",
+   "url": "https://emedicine.medscape.com/article/1068503-overview"
+  }
+ ],
+ "see_also": [
+  "seborrhoeic-keratosis",
+  "melanoma",
+  "photoageing",
+  "melasma-facial-melanosis",
+  "actinic-keratoses"
+ ]
+}

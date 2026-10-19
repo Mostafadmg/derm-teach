@@ -1,0 +1,421 @@
+{
+ "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
+ "key_facts": [
+  "**Scarlet fever** is a group A streptococcal (*S. pyogenes*) infection with a toxin-mediated rash; commonest in children aged 2–8.",
+  "Sore throat, fever, then a **sandpaper** rash (neck, chest, flexures), flushed cheeks with **circumoral pallor**, **strawberry tongue**, Pastia lines.",
+  "**Phenoxymethylpenicillin for 10 days**; clarithromycin or azithromycin if penicillin allergic.",
+  "**Notifiable**; exclude from school or work until 24 hours after starting antibiotics.",
+  "Watch for **invasive group A strep** (iGAS): fever with severe illness, spreading cellulitis, necrotising signs: same-day emergency care."
+ ],
+ "sections": [
+  {
+   "id": "overview",
+   "title": "Overview",
+   "blocks": [
+    "A toxin-mediated illness caused by **group A β-haemolytic Streptococcus** (*Streptococcus pyogenes*, GAS), usually after **streptococcal pharyngitis/tonsillitis** (occasionally a skin/wound source). Mainly children **2–10 years**; peaks in winter/spring. Notable UK surges (e.g. 2014–2018, winter 2022–23 with rise in invasive GAS). **Strawberry tongue** = inflamed, enlarged fungiform papillae on the dorsum of the tongue."
+   ]
+  },
+  {
+   "id": "epidemiology",
+   "title": "Epidemiology",
+   "blocks": [
+    {
+     "ul": [
+      {
+       "t": "**Who**",
+       "sub": [
+        "Children 2–8 years in winter and spring; outbreaks in schools and nurseries.",
+        "UK outbreaks rose sharply in 2022–23 with more iGAS."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "aetiology",
+   "title": "Aetiology: causes and risk factors",
+   "blocks": [
+    "Spread by respiratory droplets and direct contact (incubation 2–5 days). GAS strains producing **streptococcal pyrogenic exotoxins (SpeA/B/C — superantigens)** cause the diffuse rash and enanthem; immunity is toxin-specific, so second episodes are possible. Complications arise by local spread (suppurative), immune mechanisms (non-suppurative), or invasion (iGAS).",
+    {
+     "h": "Risk factors and associations"
+    },
+    {
+     "ul": [
+      "Streptococcal **pyrogenic exotoxins** (SpeA, SpeC) act as superantigens."
+     ]
+    },
+    {
+     "h": "Myths to address"
+    },
+    {
+     "ul": [
+      "**\"Scarlet fever is a disease of the past\"**: it is common again in the UK."
+     ]
+    }
+   ],
+   "short": "Aetiology"
+  },
+  {
+   "id": "pathophysiology",
+   "title": "Pathophysiology and pathology",
+   "blocks": [
+    "The rash is caused by **toxins**, not by bacteria in the skin.",
+    {
+     "mech": [
+      {
+       "k": "Pharyngeal infection",
+       "t": "GAS infects the throat or tonsils (occasionally skin or wounds)."
+      },
+      {
+       "k": "Exotoxin release",
+       "t": "Pyrogenic exotoxins act as **superantigens**, activating many T cells non-specifically."
+      },
+      {
+       "k": "Rash",
+       "t": "Cytokines dilate dermal capillaries, giving the fine sandpaper erythema, flushed face and strawberry tongue.",
+       "img": "v3-scarlet-fever-face.jpg",
+       "caption": "Flushed cheeks with circumoral pallor."
+      },
+      {
+       "k": "Tongue changes",
+       "t": "White-coated then red 'strawberry' tongue.",
+       "img": "v3-strawberry-tongue-stages.jpg",
+       "caption": "White then red strawberry tongue."
+      },
+      {
+       "k": "Desquamation",
+       "t": "Peeling of fingertips and toes after 1–2 weeks."
+      }
+     ]
+    },
+    {
+     "histo": [
+      "Not needed. Throat swab for culture or rapid antigen test supports diagnosis (UKHSA)."
+     ]
+    }
+   ],
+   "short": "Pathophysiology"
+  },
+  {
+   "id": "clinical-features",
+   "title": "Clinical features",
+   "blocks": [
+    {
+     "ul": [
+      "Abrupt **fever**, **sore throat** (exudative tonsillitis, tender anterior cervical nodes), headache, nausea/vomiting, abdominal pain.",
+      "Rash after 12–48 h: **fine, pinhead, \"sandpaper\" erythema** starting on neck/chest, spreading to trunk/limbs; blanches; **Pastia lines** (linear petechial accentuation in skin folds — antecubital, axillae); **flushed cheeks with circumoral pallor**. On darker skin the rash may be hard to see but **feels rough**.",
+      "**Tongue:** day 1–2 **\"white strawberry tongue\"** (white coat with red papillae poking through) → day 3–5 **\"red strawberry/raspberry tongue\"** (coat sheds). Palatal petechiae (Forchheimer spots).",
+      "Rash fades in ~1 week, followed by **desquamation** of fingertips, toes, groin.",
+      "**Causes of strawberry tongue:** scarlet fever; **Kawasaki disease**; **toxic shock syndrome** (staph or strep); also reported with vitamin B12/folate deficiency (glossitis), yellow fever, allergy/drug reactions and some other infections."
+     ]
+    },
+    {
+     "fig": {
+      "dermnet": "m5w5:W5E02"
+     }
+    },
+    {
+     "h": "Types to recognise"
+    },
+    {
+     "variants": [
+      {
+       "name": "Sandpaper rash",
+       "t": "Fine punctate erythema on trunk. *Site: Trunk.*",
+       "photo": "m5w5:W5E02"
+      },
+      {
+       "name": "Flexural accentuation",
+       "t": "Pastia lines in creases. *Site: Antecubital, axillae.*",
+       "photo": "m5w5:W5E04"
+      },
+      {
+       "name": "Face",
+       "t": "Flushed cheeks, circumoral pallor. *Site: Face.*",
+       "photo": "m5w5:W5E01"
+      },
+      {
+       "name": "Desquamation",
+       "t": "Peeling 1–2 weeks later. *Site: Fingers, toes.*",
+       "photo": "m5w5:W5E06"
+      }
+     ]
+    },
+    {
+     "h": "Special groups"
+    },
+    {
+     "ul": [
+      {
+       "t": "**Chickenpox or influenza co-infection**",
+       "sub": [
+        "Higher risk of iGAS: low threshold for review."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "diagnosis",
+   "title": "Diagnosis and investigations",
+   "blocks": [
+    "**Clinical** in primary care (UKHSA). Throat swab for culture (or rapid antigen test where available) if uncertain or in outbreaks/closed settings. Not routinely needed before treatment. If unwell: FBC, CRP, blood cultures, ASO titre (retrospective).",
+    {
+     "h4": "Clinical"
+    },
+    {
+     "ul": [
+      "Diagnose clinically in primary care (UKHSA)."
+     ]
+    },
+    {
+     "h4": "Throat swab"
+    },
+    {
+     "ul": [
+      "Culture or rapid antigen if uncertain or outbreaks."
+     ]
+    },
+    {
+     "h4": "If unwell"
+    },
+    {
+     "ul": [
+      "FBC, CRP, blood cultures; ASO retrospectively."
+     ]
+    }
+   ],
+   "short": "Diagnosis"
+  },
+  {
+   "id": "differentials",
+   "title": "Differential diagnoses",
+   "blocks": [
+    {
+     "ddx": [
+      {
+       "name": "Kawasaki disease",
+       "f": "**Fever ≥ 5 days**, conjunctivitis, red cracked lips, swollen then peeling hands / feet; < 5 years: urgent paediatrics.",
+       "danger": true
+      },
+      {
+       "name": "Toxic shock syndrome",
+       "f": "Hypotension, multi-organ, ‘sunburn’ erythroderma: 999.",
+       "danger": true
+      },
+      {
+       "name": "SSSS",
+       "f": "Tender erythema, flaccid blisters, Nikolsky +, no tonsillitis."
+      },
+      {
+       "name": "Viral exanthems",
+       "f": "Measles (coryza, cough, Koplik), slapped cheek; no sandpaper texture."
+      },
+      {
+       "name": "Glandular fever ± amoxicillin rash",
+       "f": "Teenager, big nodes, splenomegaly."
+      }
+     ]
+    }
+   ],
+   "short": "Differentials"
+  },
+  {
+   "id": "management",
+   "title": "Management",
+   "blocks": [
+    "Based on UKHSA *Guidelines for the public health management of scarlet fever* and NICE CKS *Scarlet fever*:",
+    {
+     "h": "First-line antibiotics (to speed recovery, reduce transmission and complications)"
+    },
+    {
+     "ul": [
+      "**Phenoxymethylpenicillin for 10 days** (BNF age-banded doses; e.g. adults/children ≥12 years 500 mg four times daily, or 1 g twice daily per local guidance).",
+      "Penicillin allergy: **clarithromycin** (5 days) or **azithromycin** (per BNF/local guidance); **amoxicillin** (10 days) is an alternative where liquid palatability/supply is an issue (follow UKHSA/local advice during shortages).",
+      "Complete the full course."
+     ]
+    },
+    {
+     "h": "Public health"
+    },
+    {
+     "ul": [
+      "**Notifiable disease** in England & Wales — the diagnosing registered medical practitioner notifies UKHSA (pharmacist prescribers should ensure this happens via the GP/local process).",
+      "**Exclusion:** children and adults stay off school/nursery/work **until 24 hours after starting antibiotics**; untreated cases are infectious for ~2–3 weeks.",
+      "Outbreaks (≥2 cases in a setting within 10 days) → inform local Health Protection Team; extra caution if chickenpox co-circulating (iGAS risk).",
+      "Hygiene: hand washing, cover coughs, don't share cutlery/towels."
+     ]
+    },
+    {
+     "h": "Supportive / self-care"
+    },
+    {
+     "ul": [
+      "Paracetamol/ibuprofen for fever and throat pain (avoid ibuprofen if dehydrated or chickenpox co-infection per local advice), fluids, soft foods, emollient for itch/peeling.",
+      "NHS **Pharmacy First** (England) acute sore throat pathway uses FeverPAIN for pharyngitis; check the current pathway on how suspected scarlet fever is handled (typically outside PGD scope → prescriber/GP)."
+     ]
+    },
+    {
+     "h": "Medicines at a glance"
+    },
+    {
+     "drugs": [
+      {
+       "name": "Phenoxymethylpenicillin",
+       "cls": "First line",
+       "dose": "BNF age-banded; e.g. ≥ 12 years 500 mg four times daily (or 1 g twice daily per local guidance) · 10 days",
+       "cautions": "Empty stomach; complete the course."
+      }
+     ]
+    },
+    {
+     "h": "Treatment ladder"
+    },
+    {
+     "ladder": [
+      {
+       "k": "Public health",
+       "t": "**Notifiable**: diagnosing practitioner notifies UKHSA. Off school / nursery / work **until 24 h after starting antibiotics**; untreated cases infectious ~2–3 weeks.",
+       "tone": "base"
+      },
+      {
+       "k": "First line",
+       "t": "Phenoxymethylpenicillin",
+       "tone": "first"
+      },
+      {
+       "k": "Penicillin allergy / supply",
+       "t": "**Clarithromycin** (5 days) or azithromycin per BNF; **amoxicillin** 10 days if liquid palatability or supply is an issue.",
+       "tone": "second"
+      }
+     ]
+    },
+    {
+     "callout": "warn",
+     "title": "Prescribing limits and pitfalls",
+     "list": [
+      "**Chickenpox in the household**: Higher iGAS risk: lower threshold for review.",
+      "**Safety-net**: In writing, for iGAS; dark urine or swelling 1–3 weeks later."
+     ]
+    },
+    {
+     "h": "Referral"
+    },
+    {
+     "refer": [
+      {
+       "when": "emergency",
+       "t": "Rapid deterioration, severe pain, spreading skin infection, breathing difficulty, sepsis: **invasive GAS**."
+      },
+      {
+       "when": "urgent",
+       "t": "Fever ≥ 5 days with red eyes, red lips, swollen hands / feet: consider **Kawasaki disease**."
+      },
+      {
+       "when": "routine",
+       "t": "Dark urine or swelling 1–3 weeks later: check urine (post-strep nephritis)."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "red-flags",
+   "title": "Red flags and when to refer",
+   "blocks": [
+    {
+     "ul": [
+      "Rapid deterioration, severe pain, a spreading skin infection, breathing difficulty or signs of sepsis: **invasive GAS**, emergency.",
+      "Fever for 5 days or more with red eyes, red lips, swollen hands and feet: consider **Kawasaki disease**.",
+      "Chickenpox plus scarlet fever in the same household: higher invasive GAS risk, so lower threshold for review."
+     ]
+    },
+    {
+     "h4": "Red flags / refer — **safety-net for invasive GAS**"
+    },
+    {
+     "ul": [
+      "Same-day / 999: persistent high fever despite antipyretics, drowsiness, confusion, severe muscle pain, rapidly spreading painful red skin (necrotising fasciitis), difficulty breathing, dehydration, signs of sepsis/shock (NICE NG51).",
+      "Quinsy (trismus, uvula deviation), otitis media, sinusitis, cervical abscess, pneumonia.",
+      "Late: **acute rheumatic fever** (2–4 weeks; arthritis, carditis), **post-streptococcal glomerulonephritis** (1–3 weeks; dark urine, oedema, hypertension), **PANDAS** (rare), and the link to **guttate psoriasis**.",
+      "Features of Kawasaki (fever ≥5 days, conjunctivitis) or TSS (hypotension) → urgent."
+     ]
+    }
+   ],
+   "short": "Red flags"
+  },
+  {
+   "id": "complications",
+   "title": "Complications and prognosis",
+   "blocks": [
+    {
+     "h": "Complications"
+    },
+    {
+     "ul": [
+      "Otitis media, quinsy, sinusitis, pneumonia.",
+      "**iGAS**: necrotising fasciitis, sepsis, toxic shock.",
+      "Late: rheumatic fever, post-streptococcal glomerulonephritis."
+     ]
+    },
+    {
+     "h": "Prognosis"
+    },
+    {
+     "ul": [
+      "Recovers within a week with antibiotics."
+     ]
+    }
+   ],
+   "short": "Complications"
+  },
+  {
+   "id": "pearls",
+   "title": "Prescriber pearls (UK pharmacist IP)",
+   "blocks": [
+    {
+     "pearls": [
+      "\"Sandpaper rash + sore throat + strawberry tongue + circumoral pallor\" = scarlet fever until proven otherwise; on darker skin rely on texture and the tongue.",
+      "Strawberry tongue is **not specific** — a child with ≥5 days of fever and red eyes needs Kawasaki excluded.",
+      "Phenoxymethylpenicillin is best taken on an empty stomach; four-times-daily dosing needs adherence support (use bd regimen where appropriate).",
+      "Tell parents peeling of fingers/toes 1–2 weeks later is expected.",
+      "Safety-net clearly and in writing for iGAS symptoms; advise urine check/return if dark urine or swelling after 1–3 weeks."
+     ]
+    }
+   ],
+   "short": "Pearls"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "First-line antibiotic and duration?",
+   "a": "Phenoxymethylpenicillin for 10 days."
+  },
+  {
+   "q": "When can the child return to school?",
+   "a": "24 hours after starting antibiotics."
+  },
+  {
+   "q": "Is scarlet fever notifiable?",
+   "a": "Yes, to UKHSA (England & Wales)."
+  },
+  {
+   "q": "Strawberry tongue and 6 days of fever with conjunctivitis?",
+   "a": "Consider Kawasaki disease: urgent paediatric referral."
+  }
+ ],
+ "references": [
+  {
+   "label": "Medscape: Scarlet fever & strawberry tongue",
+   "url": "https://emedicine.medscape.com/article/1053253-overview"
+  }
+ ],
+ "see_also": [
+  "cellulitis-erysipelas",
+  "impetigo",
+  "morbilliform-drug-eruption",
+  "neonatal-rashes"
+ ]
+}

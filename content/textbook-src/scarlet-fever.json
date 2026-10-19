@@ -1,0 +1,76 @@
+{
+ "kf": [
+  "**Scarlet fever** is a group A streptococcal (*S. pyogenes*) infection with a toxin-mediated rash; commonest in children aged 2–8.",
+  "Sore throat, fever, then a **sandpaper** rash (neck, chest, flexures), flushed cheeks with **circumoral pallor**, **strawberry tongue**, Pastia lines.",
+  "**Phenoxymethylpenicillin for 10 days**; clarithromycin or azithromycin if penicillin allergic.",
+  "**Notifiable**; exclude from school or work until 24 hours after starting antibiotics.",
+  "Watch for **invasive group A strep** (iGAS): fever with severe illness, spreading cellulitis, necrotising signs: same-day emergency care."
+ ],
+ "epi": [
+  {
+   "t": "**Who**",
+   "sub": [
+    "Children 2–8 years in winter and spring; outbreaks in schools and nurseries.",
+    "UK outbreaks rose sharply in 2022–23 with more iGAS."
+   ]
+  }
+ ],
+ "aet": [
+  "Streptococcal **pyrogenic exotoxins** (SpeA, SpeC) act as superantigens."
+ ],
+ "myths": [
+  "**\"Scarlet fever is a disease of the past\"**: it is common again in the UK."
+ ],
+ "patho_lead": "The rash is caused by **toxins**, not by bacteria in the skin.",
+ "mech": [
+  {
+   "k": "Pharyngeal infection",
+   "t": "GAS infects the throat or tonsils (occasionally skin or wounds)."
+  },
+  {
+   "k": "Exotoxin release",
+   "t": "Pyrogenic exotoxins act as **superantigens**, activating many T cells non-specifically."
+  },
+  {
+   "k": "Rash",
+   "t": "Cytokines dilate dermal capillaries, giving the fine sandpaper erythema, flushed face and strawberry tongue.",
+   "img": "v3-scarlet-fever-face.jpg",
+   "cap": "Flushed cheeks with circumoral pallor."
+  },
+  {
+   "k": "Tongue changes",
+   "t": "White-coated then red 'strawberry' tongue.",
+   "img": "v3-strawberry-tongue-stages.jpg",
+   "cap": "White then red strawberry tongue."
+  },
+  {
+   "k": "Desquamation",
+   "t": "Peeling of fingertips and toes after 1–2 weeks."
+  }
+ ],
+ "histo": [
+  "Not needed. Throat swab for culture or rapid antigen test supports diagnosis (UKHSA)."
+ ],
+ "special": [
+  {
+   "t": "**Chickenpox or influenza co-infection**",
+   "sub": [
+    "Higher risk of iGAS: low threshold for review."
+   ]
+  }
+ ],
+ "comp": [
+  "Otitis media, quinsy, sinusitis, pneumonia.",
+  "**iGAS**: necrotising fasciitis, sepsis, toxic shock.",
+  "Late: rheumatic fever, post-streptococcal glomerulonephritis."
+ ],
+ "prog": [
+  "Recovers within a week with antibiotics."
+ ],
+ "see_also": [
+  "cellulitis-erysipelas",
+  "impetigo",
+  "morbilliform-drug-eruption",
+  "neonatal-rashes"
+ ]
+}

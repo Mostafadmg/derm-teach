@@ -1,0 +1,71 @@
+{
+ "kf": [
+  "**Melasma** is acquired, symmetrical brown patches on the face (cheeks, forehead, upper lip, chin), driven by **UV, visible light and hormones**.",
+  "Commonest in women with Fitzpatrick III–V skin; triggered by pregnancy ('mask of pregnancy') and the combined pill.",
+  "Wood's light or dermoscopy suggests epidermal versus dermal pigment; dermal pigment responds poorly.",
+  "Foundation: daily **tinted** broad-spectrum SPF 30–50 (iron oxides block visible light); azelaic acid 15–20%; avoid unregulated bleaching creams.",
+  "Specialist: triple-combination creams, tranexamic acid, peels; relapse is common. Consider drug-induced pigmentation and exogenous ochronosis."
+ ],
+ "epi": [
+  {
+   "t": "**Who**",
+   "sub": [
+    "About 90% are women; onset in the 20s–40s; common in Latin American, East and South Asian, Middle Eastern and African skin.",
+    "Family history in about half."
+   ]
+  }
+ ],
+ "aet": [
+  "Sun (UVA, UVB and **visible light**), oestrogen and progesterone, heat, genetics; possibly thyroid disease.",
+  "Irritant cosmetics, phototoxic products."
+ ],
+ "myths": [
+  "**\"SPF 50 alone is enough\"**: ordinary sunscreens do not block visible light; use a tinted one.",
+  "**\"Stronger bleach works faster\"**: high-strength hydroquinone or mercury/steroid creams cause ochronosis and harm."
+ ],
+ "patho_lead": "In melasma, **overactive melanocytes** and a damaged dermis keep producing pigment.",
+ "mech": [
+  {
+   "k": "Triggers",
+   "t": "UV and visible light, heat and hormones stimulate melanocytes and keratinocytes."
+  },
+  {
+   "k": "Melanocyte overactivity",
+   "t": "Melanocytes enlarge and transfer more melanin to keratinocytes (epidermal melasma).",
+   "img": "v4-melasma-melanocytes.jpg",
+   "cap": "Melasma: light and hormones stimulate enlarged melanocytes to pass extra pigment into the epidermis; some pigment drops into dermal melanophages."
+  },
+  {
+   "k": "Dermal pigment",
+   "t": "Pigment falls into the dermis and is taken up by melanophages; this dermal component is hard to treat."
+  },
+  {
+   "k": "Dermal signalling",
+   "t": "Solar elastosis, increased blood vessels and a damaged basement membrane keep stimulating melanocytes, explaining relapse."
+  }
+ ],
+ "histo": [
+  "Increased epidermal melanin, prominent melanocytes, dermal melanophages, solar elastosis and vessels. Biopsy rarely needed."
+ ],
+ "special": [
+  {
+   "t": "**Pregnancy**",
+   "sub": [
+    "Often fades after delivery; azelaic acid is the safer option; avoid retinoids and hydroquinone."
+   ]
+  }
+ ],
+ "comp": [
+  "Psychological impact; post-inflammatory hyperpigmentation from irritating treatments; exogenous ochronosis from hydroquinone."
+ ],
+ "prog": [
+  "Chronic and relapsing, worse in summer; strict photoprotection is lifelong."
+ ],
+ "see_also": [
+  "drug-induced-pigmentation",
+  "solar-lentigines",
+  "photoageing",
+  "hypopigmentation-skin-of-colour",
+  "contact-lichenoid-pigmentation"
+ ]
+}

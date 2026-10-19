@@ -1,0 +1,68 @@
+{
+ "kf": [
+  "**Papular urticaria** is a persistent itchy hypersensitivity reaction to insect bites (fleas, bed bugs, mites, mosquitoes).",
+  "Grouped or linear ('breakfast, lunch and dinner') papules, sometimes with central punctum or blisters, on exposed skin or ankles.",
+  "Commonest in children aged 2–10; other household members may be unaffected.",
+  "Eradicate the source (treat **all pets**, professional pest control for bed bugs); antihistamine and mild–moderate topical steroid.",
+  "Most bites do not need antibiotics; treat only clear secondary infection."
+ ],
+ "epi": [
+  {
+   "t": "**Who**",
+   "sub": [
+    "Children, newcomers to a household, travellers; tolerance develops with ongoing exposure."
+   ]
+  }
+ ],
+ "aet": [
+  "Type I and IV hypersensitivity to insect saliva antigens."
+ ],
+ "myths": [
+  "**\"Only one child is affected, so it can't be bites\"**: sensitivity varies between people."
+ ],
+ "patho_lead": "The rash is an **allergic reaction to insect saliva**, not the bite itself.",
+ "mech": [
+  {
+   "k": "Bite",
+   "t": "The insect injects saliva containing anticoagulant and enzyme proteins."
+  },
+  {
+   "k": "Immediate reaction",
+   "t": "IgE on mast cells triggers a wheal within minutes."
+  },
+  {
+   "k": "Delayed reaction",
+   "t": "T cells respond over 24–48 hours, producing a firm itchy papule that lasts days to weeks.",
+   "img": "v3-bites-ankle-clusters.jpg",
+   "cap": "Clusters of bites on the ankle."
+  },
+  {
+   "k": "Desensitisation",
+   "t": "With repeated exposure, reactions fade (tolerance)."
+  }
+ ],
+ "histo": [
+  "Wedge-shaped perivascular infiltrate with eosinophils; rarely needed."
+ ],
+ "special": [
+  {
+   "t": "**Bed bugs**",
+   "sub": [
+    "Linear bites on the face, neck and arms; blood spots on sheets; professional eradication needed."
+   ]
+  }
+ ],
+ "comp": [
+  "Impetigo, scarring, post-inflammatory pigmentation, sleep disturbance."
+ ],
+ "prog": [
+  "Settles when the source is removed; children grow out of it."
+ ],
+ "see_also": [
+  "scabies",
+  "urticaria-angioedema",
+  "impetigo",
+  "lyme-disease",
+  "cutaneous-larva-migrans"
+ ]
+}

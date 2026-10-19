@@ -1,0 +1,68 @@
+{
+ "kf": [
+  "**Erythema nodosum (EN)** is a **septal panniculitis**: tender red nodules on the shins that bruise as they heal.",
+  "Often with fever, malaise and arthralgia; lasts 3–6 weeks; does not ulcerate or scar.",
+  "Causes: streptococcal throat, sarcoidosis, IBD, pregnancy, drugs (combined pill), TB; about half idiopathic.",
+  "Tests: FBC, CRP, ASO titre, chest X-ray (bilateral hilar lymphadenopathy), throat swab; others guided by history.",
+  "Treat the cause; rest, elevation, compression and NSAIDs."
+ ],
+ "epi": [
+  {
+   "t": "**Who**",
+   "sub": [
+    "Women 3–6× more often; age 20–45; commonest panniculitis."
+   ]
+  }
+ ],
+ "aet": [
+  "Delayed hypersensitivity to infection (streptococcus, TB, Yersinia), sarcoidosis, IBD, pregnancy, drugs, malignancy (lymphoma)."
+ ],
+ "myths": [
+  "**\"It's a bruise or cellulitis\"**: bilateral tender nodules plus systemic symptoms point to EN."
+ ],
+ "patho_lead": "EN is an **immune reaction in the fibrous septa** between fat lobules.",
+ "mech": [
+  {
+   "k": "Antigen exposure",
+   "t": "An infection, drug or systemic disease provides the antigen."
+  },
+  {
+   "k": "Immune complex / T-cell reaction",
+   "t": "Immune reactions target the septal blood vessels of the subcutaneous fat."
+  },
+  {
+   "k": "Septal panniculitis",
+   "t": "Inflammatory cells thicken the septa while lobules are spared.",
+   "img": "v4-en-septal-panniculitis.jpg",
+   "cap": "Erythema nodosum: inflammation thickens the fibrous septa between fat lobules (septal panniculitis), causing a tender red nodule."
+  },
+  {
+   "k": "Resolution",
+   "t": "Haemoglobin breakdown changes colour from red to purple to yellow-green, like a bruise."
+  }
+ ],
+ "histo": [
+  "Septal panniculitis without vasculitis; Miescher radial granulomas. Biopsy only if atypical (deep incisional)."
+ ],
+ "special": [
+  {
+   "t": "**Löfgren syndrome**",
+   "sub": [
+    "EN + bilateral hilar lymphadenopathy + fever + arthritis: acute sarcoidosis with a good prognosis."
+   ]
+  }
+ ],
+ "comp": [
+  "Pain, arthralgia; complications depend on the cause."
+ ],
+ "prog": [
+  "Resolves in 3–6 weeks; recurrence possible if the cause persists."
+ ],
+ "see_also": [
+  "sarcoidosis",
+  "cellulitis-erysipelas",
+  "cutaneous-vasculitis-approach",
+  "cutaneous-tuberculosis",
+  "pyoderma-gangrenosum"
+ ]
+}

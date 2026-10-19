@@ -1,0 +1,286 @@
+{
+ "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
+ "key_facts": [
+  "**Photoageing** is premature skin ageing from chronic UV (and visible/infrared) exposure, on top of intrinsic ageing.",
+  "Wrinkles, coarse texture, mottled pigment, solar lentigines, telangiectasia, yellowish thickening (**solar elastosis**).",
+  "Marks cumulative sun damage and higher risk of AK, BCC, SCC and melanoma: examine the skin.",
+  "Prevention: sun protection and stopping smoking; topical **retinoids** have the best evidence for treatment.",
+  "Procedures (peels, lasers, injectables) are cosmetic and not NHS-funded."
+ ],
+ "sections": [
+  {
+   "id": "overview",
+   "title": "Overview",
+   "blocks": [
+    "**Photoageing (dermatoheliosis)** is the cumulative UV contribution to ageing skin, distinct from intrinsic chronological ageing. Patterns include solar elastosis, cutis rhomboidalis nuchae, Favre–Racouchot (nodular elastosis with cysts and comedones), poikiloderma of Civatte, idiopathic guttate hypomelanosis (IGH) and senile comedones."
+   ]
+  },
+  {
+   "id": "epidemiology",
+   "title": "Epidemiology",
+   "blocks": [
+    {
+     "ul": [
+      {
+       "t": "**Who**",
+       "sub": [
+        "Fair skin, outdoor workers, sunbed users, sunny climates; smoking adds damage."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "aetiology",
+   "title": "Aetiology: causes and risk factors",
+   "blocks": [
+    {
+     "ul": [
+      "UVA/UVB → matrix metalloproteinases, DNA damage, solar elastosis.",
+      "Smoking and pollution amplify extrinsic ageing.",
+      "Favre–Racouchot: severe elastosis + follicular plugging on the malar/periorbital skin, mainly in older men with heavy sun/smoking history."
+     ]
+    },
+    {
+     "h": "Risk factors and associations"
+    },
+    {
+     "ul": [
+      "UVA penetrates the dermis (collagen and elastin damage); UVB damages the epidermis and DNA.",
+      "Smoking, pollution, infrared radiation."
+     ]
+    },
+    {
+     "h": "Myths to address"
+    },
+    {
+     "ul": [
+      "**\"A tan protects the skin\"**: a tan is a sign of DNA damage.",
+      "**\"Anti-ageing creams reverse wrinkles\"**: only retinoids and sun protection have good evidence."
+     ]
+    }
+   ],
+   "short": "Aetiology"
+  },
+  {
+   "id": "pathophysiology",
+   "title": "Pathophysiology and pathology",
+   "blocks": [
+    "UV turns on **collagen-destroying enzymes** while slowing new collagen formation.",
+    {
+     "mech": [
+      {
+       "k": "Free radicals",
+       "t": "UV generates reactive oxygen species in skin cells."
+      },
+      {
+       "k": "Matrix breakdown",
+       "t": "Signalling (AP-1) switches on matrix metalloproteinases that digest collagen."
+      },
+      {
+       "k": "Reduced repair",
+       "t": "New collagen synthesis falls; fragmented collagen weakens the dermis: wrinkles."
+      },
+      {
+       "k": "Solar elastosis",
+       "t": "Abnormal elastic material builds up in the upper dermis, causing yellow, thickened skin."
+      },
+      {
+       "k": "Pigment and vessels",
+       "t": "Uneven melanocyte activity (lentigines) and dilated vessels (telangiectasia) appear."
+      }
+     ]
+    },
+    {
+     "histo": [
+      "Solar elastosis (blue-grey amorphous elastic material in the papillary dermis), reduced collagen, atrophic or uneven epidermis."
+     ]
+    }
+   ],
+   "short": "Pathophysiology"
+  },
+  {
+   "id": "clinical-features",
+   "title": "Clinical features",
+   "blocks": [
+    {
+     "ul": [
+      "Atrophy or thickened leathery skin, deep wrinkles, blotchy pigment, telangiectasia.",
+      "Cutis rhomboidalis nuchae: deep crossed furrows on the nape.",
+      "Poikiloderma of Civatte: red-brown reticulate pigment and atrophy on the sides of the neck, sparing shaded under-chin.",
+      "IGH: small porcelain-white macules on sun-exposed limbs.",
+      "Senile comedones / Favre–Racouchot: open blackheads in elastotic cheek skin."
+     ]
+    },
+    {
+     "fig": {
+      "dermnet": "m6w4:W4D-01"
+     }
+    },
+    {
+     "h": "Special groups"
+    },
+    {
+     "ul": [
+      {
+       "t": "**Skin of colour**",
+       "sub": [
+        "Photoageing appears later and is mainly pigmentary (uneven tone, dermatosis papulosa nigra) rather than wrinkles."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "diagnosis",
+   "title": "Diagnosis and investigations",
+   "blocks": [
+    "Clinical. Use photoageing as a prompt to examine for skin cancer and AK field change. Biopsy atypical pigmented or ulcerated lesions."
+   ],
+   "short": "Diagnosis"
+  },
+  {
+   "id": "differentials",
+   "title": "Differential diagnoses",
+   "blocks": [
+    {
+     "ddx": [
+      {
+       "name": "Intrinsic ageing alone",
+       "f": "Less elastosis on covered sites"
+      },
+      {
+       "name": "Rosacea / steroid damage",
+       "f": "Central face papules or atrophy history",
+       "link": "acne-mimics"
+      },
+      {
+       "name": "Vitiligo vs IGH",
+       "f": "Larger milky patches; Wood’s lamp; progression",
+       "link": "hypopigmentation-skin-of-colour"
+      },
+      {
+       "name": "Acne comedones",
+       "f": "Younger; inflammatory lesions"
+      }
+     ]
+    }
+   ],
+   "short": "Differentials"
+  },
+  {
+   "id": "management",
+   "title": "Management",
+   "blocks": [
+    {
+     "ul": [
+      "**Prevention:** daily SPF 30–50, shade, clothing, no sunbeds; stop smoking.",
+      "Emollients; treat xerosis as on the itch/xerosis page.",
+      "Topical retinoids (POM) can modestly improve texture — irritation and photosensitivity counselling; avoid in pregnancy.",
+      "Extraction/retinoids for Favre–Racouchot comedones; procedures (laser, peels, IPL) are usually private — counselling only here.",
+      "Evidence for oral collagen/HA supplements is limited — do not oversell; prioritise sunscreen and lifestyle.",
+      "Cross-link cosmetic counselling: [facial ageing & neuromodulators](condition:facial-ageing-neuromodulators), [solar lentigines](condition:solar-lentigines)."
+     ]
+    },
+    {
+     "h": "Referral"
+    },
+    {
+     "refer": [
+      {
+       "when": "urgent",
+       "t": "Any changing, bleeding or irregular lesion in a photoaged field → urgent skin-cancer pathway."
+      },
+      {
+       "when": "routine",
+       "t": "Unilateral or atypical “poikiloderma” — reconsider contact, connective tissue disease or mycosis fungoides (rare)."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "red-flags",
+   "title": "Red flags and when to refer",
+   "blocks": [
+    {
+     "ul": [
+      "Any changing, bleeding or irregular lesion in a photoaged field → urgent skin-cancer pathway.",
+      "Unilateral or atypical “poikiloderma” — reconsider contact, connective tissue disease or mycosis fungoides (rare)."
+     ]
+    }
+   ],
+   "short": "Red flags"
+  },
+  {
+   "id": "complications",
+   "title": "Complications and prognosis",
+   "blocks": [
+    {
+     "h": "Complications"
+    },
+    {
+     "ul": [
+      "Actinic keratoses and skin cancers; skin fragility, purpura and skin tears."
+     ]
+    },
+    {
+     "h": "Prognosis"
+    },
+    {
+     "ul": [
+      "Partly preventable and partly reversible with photoprotection and retinoids."
+     ]
+    }
+   ],
+   "short": "Complications"
+  },
+  {
+   "id": "pearls",
+   "title": "Prescriber pearls (UK pharmacist IP)",
+   "blocks": [
+    {
+     "pearls": [
+      "Photoageing is a **risk marker**, not only a cosmetic complaint.",
+      "Under-chin sparing is a useful Civatte clue.",
+      "Supplements are not a substitute for SPF.",
+      "Sun-damaged skin is where keratinocyte cancers arise: see [basal cell carcinoma](condition:basal-cell-carcinoma) and [squamous cell carcinoma](condition:squamous-cell-carcinoma)."
+     ]
+    }
+   ],
+   "short": "Pearls"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Photoageing?",
+   "a": "Leathery, wrinkled, unevenly pigmented sun-exposed skin with open comedones on the cheeks or rhomboid nuchal furrows."
+  },
+  {
+   "q": "What drives it?",
+   "a": "Chronic UV degrades collagen/elastin (solar elastosis) and dysregulates pigment and follicular keratinisation."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "Lifelong photoprotection, smoking cessation, emollients; retinoids/procedures are adjunctive and usually private."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "Photoaged fields hide AK, BCC, SCC and lentigo maligna — examine the whole field, not just the wrinkle."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "Any changing, bleeding or irregular lesion in a photoaged field → urgent skin-cancer pathway."
+  }
+ ],
+ "references": [],
+ "see_also": [
+  "solar-lentigines",
+  "actinic-keratoses",
+  "skin-fragility-dermatoporosis",
+  "retinoids",
+  "facial-ageing-neuromodulators"
+ ]
+}

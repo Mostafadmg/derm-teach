@@ -1,0 +1,330 @@
+{
+ "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
+ "key_facts": [
+  "**Erythema nodosum (EN)** is a **septal panniculitis**: tender red nodules on the shins that bruise as they heal.",
+  "Often with fever, malaise and arthralgia; lasts 3–6 weeks; does not ulcerate or scar.",
+  "Causes: streptococcal throat, sarcoidosis, IBD, pregnancy, drugs (combined pill), TB; about half idiopathic.",
+  "Tests: FBC, CRP, ASO titre, chest X-ray (bilateral hilar lymphadenopathy), throat swab; others guided by history.",
+  "Treat the cause; rest, elevation, compression and NSAIDs."
+ ],
+ "sections": [
+  {
+   "id": "overview",
+   "title": "Overview",
+   "blocks": [
+    "**Erythema nodosum (EN)** is the commonest **septal panniculitis**: a hypersensitivity reaction producing tender red nodules, usually on the shins. It is most common in women aged 20–45."
+   ]
+  },
+  {
+   "id": "epidemiology",
+   "title": "Epidemiology",
+   "blocks": [
+    {
+     "ul": [
+      {
+       "t": "**Who**",
+       "sub": [
+        "Women 3–6× more often; age 20–45; commonest panniculitis."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "aetiology",
+   "title": "Aetiology: causes and risk factors",
+   "blocks": [
+    {
+     "h": "Risk factors and associations"
+    },
+    {
+     "ul": [
+      "Delayed hypersensitivity to infection (streptococcus, TB, Yersinia), sarcoidosis, IBD, pregnancy, drugs, malignancy (lymphoma)."
+     ]
+    },
+    {
+     "h": "Myths to address"
+    },
+    {
+     "ul": [
+      "**\"It's a bruise or cellulitis\"**: bilateral tender nodules plus systemic symptoms point to EN."
+     ]
+    }
+   ],
+   "short": "Aetiology"
+  },
+  {
+   "id": "pathophysiology",
+   "title": "Pathophysiology and pathology",
+   "blocks": [
+    "EN is an **immune reaction in the fibrous septa** between fat lobules.",
+    {
+     "mech": [
+      {
+       "k": "Antigen exposure",
+       "t": "An infection, drug or systemic disease provides the antigen."
+      },
+      {
+       "k": "Immune complex / T-cell reaction",
+       "t": "Immune reactions target the septal blood vessels of the subcutaneous fat."
+      },
+      {
+       "k": "Septal panniculitis",
+       "t": "Inflammatory cells thicken the septa while lobules are spared.",
+       "img": "v4-en-septal-panniculitis.jpg",
+       "caption": "Erythema nodosum: inflammation thickens the fibrous septa between fat lobules (septal panniculitis), causing a tender red nodule."
+      },
+      {
+       "k": "Resolution",
+       "t": "Haemoglobin breakdown changes colour from red to purple to yellow-green, like a bruise."
+      }
+     ]
+    },
+    {
+     "h": "How it is caused"
+    },
+    "A delayed hypersensitivity response to many antigens:",
+    {
+     "ul": [
+      "**idiopathic** (~30–50%)",
+      "**streptococcal infection** (the commonest identifiable cause, especially in children)",
+      "**sarcoidosis** (Löfgren syndrome — the [skin signs of systemic disease](condition:dermatomyositis) notes)",
+      "**drugs** — **oestrogen-containing contraceptives/HRT**, sulfonamides, penicillins/amoxicillin, bromides, minocycline, gold, and newer agents (BRAF inhibitors, immune checkpoint inhibitors, isotretinoin rarely)",
+      "**pregnancy**",
+      "**IBD** (Crohn's/UC)",
+      "TB; *Yersinia*, *Salmonella*, *Campylobacter*; *Chlamydia*, *Mycoplasma*; Behçet's; lymphoma (rare)."
+     ]
+    },
+    {
+     "histo": [
+      "Septal panniculitis without vasculitis; Miescher radial granulomas. Biopsy only if atypical (deep incisional)."
+     ]
+    }
+   ],
+   "short": "Pathophysiology"
+  },
+  {
+   "id": "clinical-features",
+   "title": "Clinical features",
+   "blocks": [
+    {
+     "ul": [
+      "Crops of **tender, warm, ill-defined red nodules 1–5 cm** on the **anterior shins**, usually **bilateral**. Less often on the thighs, forearms or trunk.",
+      "They evolve through bruise-like colours (\"**erythema contusiformis**\", photo E02) and resolve in **3–6 weeks without ulceration or scarring**.",
+      "Prodrome: fever, malaise, arthralgia (ankles), sometimes before the nodules.",
+      "**Unilateral EN is uncommon but described**. A single unilateral lesion makes it essential to exclude the differentials below."
+     ]
+    },
+    {
+     "fig": {
+      "dermnet": "m1w3:E01"
+     }
+    },
+    {
+     "h": "Special groups"
+    },
+    {
+     "ul": [
+      {
+       "t": "**Löfgren syndrome**",
+       "sub": [
+        "EN + bilateral hilar lymphadenopathy + fever + arthritis: acute sarcoidosis with a good prognosis."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "diagnosis",
+   "title": "Diagnosis and investigations",
+   "blocks": [
+    {
+     "ul": [
+      "Clinical diagnosis; look for the cause: **FBC, ESR/CRP, U&E/LFT**; **ASO/anti-DNase B** titre ± throat swab; **CXR** (bilateral hilar lymphadenopathy — sarcoid/TB/lymphoma) ± serum ACE/calcium; **IGRA**/Mantoux if TB risk; **pregnancy test**; stool culture if diarrhoea; faecal calprotectin if bowel symptoms; urinalysis",
+      "**Deep incisional/punch biopsy** (to fat) if atypical — unilateral, ulcerating or persistent >6–8 weeks.",
+      "**Case-specific:** she has a **unilateral tender shin lesion** and takes a **COC + tranexamic acid** (both prothrombotic). Apply **Wells/D-dimer and venous Doppler** if there is calf swelling, cord-like tenderness or leg oedema, to exclude **DVT/superficial thrombophlebitis**. The course discussion did not mention this."
+     ]
+    }
+   ],
+   "short": "Diagnosis"
+  },
+  {
+   "id": "differentials",
+   "title": "Differential diagnoses",
+   "blocks": [
+    {
+     "table": {
+      "head": [
+       "",
+       "EN",
+       "Cellulitis",
+       "Superficial thrombophlebitis / DVT",
+       "Erythema induratum (nodular vasculitis)",
+       "Other panniculitis"
+      ],
+      "rows": [
+       [
+        "Laterality",
+        "Usually bilateral",
+        "**Unilateral**",
+        "Unilateral",
+        "Bilateral",
+        "Variable"
+       ],
+       [
+        "Site",
+        "Anterior shins",
+        "Any, spreading",
+        "Along a vein (cord) / calf",
+        "**Posterior calves**",
+        "Pancreatic (ulcerates), lupus profundus (face/arms)"
+       ],
+       [
+        "Features",
+        "Tender nodules, no ulcer",
+        "Spreading erythema, fever, portal of entry, raised WCC",
+        "Tender cord; calf swelling",
+        "Ulcerates, scars; TB association",
+        "Atrophy/scarring"
+       ],
+       [
+        "Course",
+        "3–6 weeks, resolves",
+        "Responds to antibiotics",
+        "—",
+        "Chronic",
+        "—"
+       ]
+      ]
+     }
+    },
+    "Also: insect-bite reactions, cutaneous PAN (nodules + livedo — the [vasculitis](condition:cutaneous-vasculitis-approach) notes), Sweet syndrome, lipodermatosclerosis."
+   ],
+   "short": "Differentials"
+  },
+  {
+   "id": "management",
+   "title": "Management",
+   "blocks": [
+    {
+     "ol": [
+      "**Treat the cause.** In this case, **consider stopping the COC**, which is the most likely drug trigger. **Tranexamic acid** is a less established EN trigger but adds thrombotic risk with the COC. **Metformin** is not a recognised cause: **Contraception and cycle control for PCOS:** a progestogen-only method (desogestrel POP, implant, **LNG-IUS 52 mg** — also helps dysmenorrhoea and heavy bleeding), or cyclical progestogen to protect the endometrium. Weight loss and metformin help cycle regularity; **Dysmenorrhoea:** an NSAID such as mefenamic acid or naproxen (both effective for dysmenorrhoea and EN pain); LNG-IUS; Note the **FSRH/BNF caution** about combining tranexamic acid with a COC — prescribe TXA only for heavy menstrual bleeding, at the licensed dose, and not in people at VTE risk",
+      "**Symptomatic:** rest, **leg elevation**, compression hosiery (if arterial supply is adequate), cool compresses; **NSAIDs** (ibuprofen/naproxen) for pain if not contraindicated; paracetamol.",
+      "**Specialist options:** potassium iodide (rarely used in the UK); colchicine; systemic corticosteroids only after infection (TB, strep) and malignancy are excluded.",
+      "**Review in 2–4 weeks.** Persistent or recurrent EN → dermatology/rheumatology; biopsy if atypical."
+     ]
+    },
+    {
+     "h": "IP scope"
+    },
+    "Investigation, contraceptive switch (within competence and UKMEC), NSAID analgesia, and referral. Thrombosis assessment through local DVT pathways.",
+    {
+     "h": "Referral"
+    },
+    {
+     "refer": [
+      {
+       "when": "routine",
+       "t": "EN with cough, breathlessness, weight loss or night sweats: CXR to look for **sarcoidosis, TB or lymphoma**."
+      },
+      {
+       "when": "routine",
+       "t": "Ulcerating or one-sided nodules: not typical EN, so think again (erythema induratum, vasculitis, cellulitis)."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "red-flags",
+   "title": "Red flags and when to refer",
+   "blocks": [
+    {
+     "ul": [
+      "EN with cough, breathlessness, weight loss or night sweats: CXR to look for **sarcoidosis, TB or lymphoma**.",
+      "Ulcerating or one-sided nodules: not typical EN, so think again (erythema induratum, vasculitis, cellulitis)."
+     ]
+    },
+    {
+     "h4": "Red flags / refer"
+    },
+    "Unilateral swelling with features of DVT (same-day DVT pathway); fever + spreading erythema (cellulitis); BHL on CXR or respiratory symptoms (sarcoid/TB/lymphoma); bowel symptoms (IBD); ulceration (not EN); pregnancy; lesions lasting >6–8 weeks."
+   ],
+   "short": "Red flags"
+  },
+  {
+   "id": "complications",
+   "title": "Complications and prognosis",
+   "blocks": [
+    {
+     "h": "Complications"
+    },
+    {
+     "ul": [
+      "Pain, arthralgia; complications depend on the cause."
+     ]
+    },
+    {
+     "h": "Prognosis"
+    },
+    {
+     "ul": [
+      "Resolves in 3–6 weeks; recurrence possible if the cause persists."
+     ]
+    }
+   ],
+   "short": "Complications"
+  },
+  {
+   "id": "pearls",
+   "title": "Prescriber pearls (UK pharmacist IP)",
+   "blocks": [
+    {
+     "pearls": [
+      "\"EN is a **sign, not a diagnosis**\" — the job is finding the trigger.",
+      "It heals without scarring, but **new crops can appear for several weeks** after the trigger is removed.",
+      "In any woman on a COC + TXA with a **tender, red, unilateral leg**, think **clot** before panniculitis."
+     ]
+    }
+   ],
+   "short": "Pearls"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "When should you think of Erythema nodosum (incl. drug-induced)?",
+   "a": "Painful, warm, ill-defined red nodules on both shins, often with fever or aching joints."
+  },
+  {
+   "q": "What drives it?",
+   "a": "A hypersensitivity reaction in the fat septa (septal panniculitis) to an infection, drug, inflammatory disease or pregnancy."
+  },
+  {
+   "q": "What is the backbone of care?",
+   "a": "Find the trigger (throat swab/ASO, CXR, FBC, CRP, pregnancy test, drug review); rest, elevation, NSAID if suitable; stop a culprit COC."
+  },
+  {
+   "q": "What must you never miss?",
+   "a": "Sarcoidosis with hilar nodes; TB; IBD flare; cellulitis or DVT mistaken for EN."
+  },
+  {
+   "q": "Name a red flag that needs escalation.",
+   "a": "EN with cough, breathlessness, weight loss or night sweats: CXR to look for **sarcoidosis, TB or lymphoma**."
+  }
+ ],
+ "references": [
+  {
+   "label": "Medscape: Erythema nodosum (incl. drug-induced)",
+   "url": "https://emedicine.medscape.com/article/1081633-overview"
+  }
+ ],
+ "see_also": [
+  "sarcoidosis",
+  "cellulitis-erysipelas",
+  "cutaneous-vasculitis-approach",
+  "cutaneous-tuberculosis",
+  "pyoderma-gangrenosum"
+ ]
+}

@@ -1,0 +1,418 @@
+{
+ "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
+ "key_facts": [
+  "**Papular urticaria** is a persistent itchy hypersensitivity reaction to insect bites (fleas, bed bugs, mites, mosquitoes).",
+  "Grouped or linear ('breakfast, lunch and dinner') papules, sometimes with central punctum or blisters, on exposed skin or ankles.",
+  "Commonest in children aged 2–10; other household members may be unaffected.",
+  "Eradicate the source (treat **all pets**, professional pest control for bed bugs); antihistamine and mild–moderate topical steroid.",
+  "Most bites do not need antibiotics; treat only clear secondary infection."
+ ],
+ "sections": [
+  {
+   "id": "overview",
+   "title": "Overview",
+   "blocks": [
+    "Papular urticaria is a **chronic or recurrent eruption of intensely itchy grouped papules** (± vesicles). It is a hypersensitivity reaction to arthropod bites — most often **fleas**, mites, **bed bugs**, mosquitoes and gnats. Despite the name it is **not true urticaria** (lesions last days, not hours). It is commonest in children aged about 2–10."
+   ]
+  },
+  {
+   "id": "epidemiology",
+   "title": "Epidemiology",
+   "blocks": [
+    {
+     "ul": [
+      {
+       "t": "**Who**",
+       "sub": [
+        "Children, newcomers to a household, travellers; tolerance develops with ongoing exposure."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "aetiology",
+   "title": "Aetiology: causes and risk factors",
+   "blocks": [
+    {
+     "ul": [
+      "Arthropod saliva triggers type I and type IV hypersensitivity. Bites are often unnoticed; reactions arrive hours to days later.",
+      "**Cat fleas** are the commonest fleas biting UK humans (even in dog-only homes). The home holds most of the eggs/larvae/pupae.",
+      "**Bed bugs** hide in mattress seams and feed at night; linked to travel and second-hand furniture.",
+      "Most children grow out of it as they desensitise."
+     ]
+    },
+    {
+     "h": "Risk factors and associations"
+    },
+    {
+     "ul": [
+      "Type I and IV hypersensitivity to insect saliva antigens."
+     ]
+    },
+    {
+     "h": "Myths to address"
+    },
+    {
+     "ul": [
+      "**\"Only one child is affected, so it can't be bites\"**: sensitivity varies between people."
+     ]
+    }
+   ],
+   "short": "Aetiology"
+  },
+  {
+   "id": "pathophysiology",
+   "title": "Pathophysiology and pathology",
+   "blocks": [
+    "The rash is an **allergic reaction to insect saliva**, not the bite itself.",
+    {
+     "mech": [
+      {
+       "k": "Bite",
+       "t": "The insect injects saliva containing anticoagulant and enzyme proteins."
+      },
+      {
+       "k": "Immediate reaction",
+       "t": "IgE on mast cells triggers a wheal within minutes."
+      },
+      {
+       "k": "Delayed reaction",
+       "t": "T cells respond over 24–48 hours, producing a firm itchy papule that lasts days to weeks.",
+       "img": "v3-bites-ankle-clusters.jpg",
+       "caption": "Clusters of bites on the ankle."
+      },
+      {
+       "k": "Desensitisation",
+       "t": "With repeated exposure, reactions fade (tolerance)."
+      }
+     ]
+    },
+    {
+     "histo": [
+      "Wedge-shaped perivascular infiltrate with eosinophils; rarely needed."
+     ]
+    }
+   ],
+   "short": "Pathophysiology"
+  },
+  {
+   "id": "clinical-features",
+   "title": "Clinical features",
+   "blocks": [
+    {
+     "ul": [
+      "Firm red itchy papules 3–10 mm, sometimes with a punctum, vesicle or blister; excoriation and later pigmentation are common.",
+      "Grouping in clusters or lines of three (“breakfast, lunch and dinner”).",
+      "Seasonal spring–autumn for fleas/outdoor insects; bed bugs all year."
+     ]
+    },
+    {
+     "table": {
+      "head": [
+       "Source",
+       "Clues"
+      ],
+      "rows": [
+       [
+        "Fleas",
+        "Lower legs/ankles, waistband; pets; often only one person reacts; new house can awaken pupae"
+       ],
+       [
+        "Bed bugs",
+        "Face, neck, arms (exposed in bed); linear clusters; blood/faecal spots on sheets; travel"
+       ],
+       [
+        "Mosquitoes/midges",
+        "Exposed outdoor sites; seasonal"
+       ]
+      ]
+     }
+    },
+    {
+     "fig": {
+      "dermnet": "m5w3:X01"
+     }
+    },
+    {
+     "h": "Types to recognise"
+    },
+    {
+     "variants": [
+      {
+       "name": "Papular urticaria",
+       "t": "Grouped firm itchy papules. *Site: Legs, arms.*",
+       "photo": "m5w3:X01"
+      },
+      {
+       "name": "Flea bites",
+       "t": "Clusters at the ankles. *Site: Ankles.*",
+       "photo": "m5w3:X06"
+      },
+      {
+       "name": "Bed bug bites",
+       "t": "Linear clusters on sleep-exposed skin. *Site: Arms, neck.*",
+       "photo": "m5w3:X08"
+      },
+      {
+       "name": "Bullous reaction",
+       "t": "Tense blisters on bites. *Site: Lower legs.*",
+       "photo": "m5w3:X10"
+      }
+     ]
+    },
+    {
+     "h": "Special groups"
+    },
+    {
+     "ul": [
+      {
+       "t": "**Bed bugs**",
+       "sub": [
+        "Linear bites on the face, neck and arms; blood spots on sheets; professional eradication needed."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "diagnosis",
+   "title": "Diagnosis and investigations",
+   "blocks": [
+    "Clinical from morphology, grouping and history (pets, new house, travel, season). Find the source: flea-comb pets, inspect mattress seams. Investigations are rarely needed. Explain that only the sensitised person reacts.",
+    {
+     "h4": "History"
+    },
+    {
+     "ul": [
+      "Pets, new house, travel, season, who else itches."
+     ]
+    },
+    {
+     "h4": "Find the source"
+    },
+    {
+     "ul": [
+      "Flea-comb pets; inspect mattress seams."
+     ]
+    },
+    {
+     "h4": "Tests"
+    },
+    {
+     "ul": [
+      "Rarely needed."
+     ]
+    }
+   ],
+   "short": "Diagnosis"
+  },
+  {
+   "id": "differentials",
+   "title": "Differential diagnoses",
+   "blocks": [
+    {
+     "ddx": [
+      {
+       "name": "Scabies",
+       "f": "Web spaces, wrists, genitals, burrows; **whole household itchy**.",
+       "link": "scabies"
+      },
+      {
+       "name": "Acute urticaria",
+       "f": "Wheals fade within 24 h; no crusted papules.",
+       "link": "urticaria-angioedema"
+      },
+      {
+       "name": "Chickenpox",
+       "f": "Fever; crops at different stages including scalp."
+      },
+      {
+       "name": "Molluscum",
+       "f": "Pearly, umbilicated, barely itchy."
+      },
+      {
+       "name": "Delusional infestation",
+       "f": "Conviction of infestation, no insects confirmed."
+      }
+     ]
+    }
+   ],
+   "short": "Differentials"
+  },
+  {
+   "id": "management",
+   "title": "Management",
+   "blocks": [
+    {
+     "h": "1. Eradicate the source"
+    },
+    {
+     "ul": [
+      "**Fleas:** veterinary flea products for **all** pets; hot-wash bedding; vacuum thoroughly; household IGR spray for weeks.",
+      "**Bed bugs:** council pest control or BPCA/NPTA professional firm — home sprays rarely suffice.",
+      "Outdoor: clothing and DEET-type repellent."
+     ]
+    },
+    {
+     "h": "2. Symptom control"
+    },
+    {
+     "ul": [
+      "Cool compresses, short nails, soap and water.",
+      "Non-sedating antihistamine by day; short sedating antihistamine at night if sleep is poor (check age licence).",
+      "Short mild-to-moderate **topical corticosteroid** on new itchy spots (potent short courses only on thick adult lesions)."
+     ]
+    },
+    {
+     "h": "3. Secondary infection"
+    },
+    {
+     "ul": [
+      "Most bites do **not** need antibiotics — redness and itch can last ~10 days.",
+      "If spreading cellulitis/impetigo: flucloxacillin first-line (NICE NG182); Pharmacy First pathway for infected insect bites (England, age ≥1) within PGD rules."
+     ]
+    },
+    {
+     "h": "Treatment ladder"
+    },
+    {
+     "ladder": [
+      {
+       "k": "Eradicate the source",
+       "t": "**Fleas**: vet flea products for **all** pets; hot-wash bedding; vacuum; household IGR spray for weeks. **Bed bugs**: council or professional (BPCA / NPTA) pest control.",
+       "tone": "base"
+      },
+      {
+       "k": "Symptom control",
+       "t": "Cool compresses, short nails. Non-sedating antihistamine by day; short sedating antihistamine at night (check age licence).",
+       "tone": "first"
+      },
+      {
+       "k": "Secondary infection only",
+       "t": "Spreading cellulitis / impetigo: **flucloxacillin** first-line (NICE NG182); Pharmacy First infected insect bite pathway (England, ≥ 1 year) within PGD.",
+       "tone": "second"
+      }
+     ]
+    },
+    {
+     "callout": "warn",
+     "title": "Prescribing limits and pitfalls",
+     "list": [
+      "**No routine antibiotics**: Redness and itch can last ~10 days without infection.",
+      "**Long-term potent steroids**: Avoid."
+     ]
+    },
+    {
+     "h": "Referral"
+    },
+    {
+     "refer": [
+      {
+       "when": "emergency",
+       "t": "Anaphylaxis or airway compromise."
+      },
+      {
+       "when": "same-day",
+       "t": "Systemically unwell, spreading cellulitis, bites in mouth / throat or around eyes."
+      },
+      {
+       "when": "urgent",
+       "t": "Fever or a persisting unusual lesion after bites abroad."
+      },
+      {
+       "when": "routine",
+       "t": "Atypical persistent eruption or suspected delusional infestation: GP / dermatology."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "red-flags",
+   "title": "Red flags and when to refer",
+   "blocks": [
+    {
+     "ul": [
+      "Anaphylaxis or ABC compromise → emergency.",
+      "Systemically unwell, spreading cellulitis, immunocompromised with infection, bites in mouth/throat or around eyes.",
+      "Bites abroad with fever or persistent exotic lesion.",
+      "Atypical persistent eruption or suspected delusional infestation → GP/dermatology."
+     ]
+    }
+   ],
+   "short": "Red flags"
+  },
+  {
+   "id": "complications",
+   "title": "Complications and prognosis",
+   "blocks": [
+    {
+     "h": "Complications"
+    },
+    {
+     "ul": [
+      "Impetigo, scarring, post-inflammatory pigmentation, sleep disturbance."
+     ]
+    },
+    {
+     "h": "Prognosis"
+    },
+    {
+     "ul": [
+      "Settles when the source is removed; children grow out of it."
+     ]
+    }
+   ],
+   "short": "Complications"
+  },
+  {
+   "id": "pearls",
+   "title": "Prescriber pearls (UK pharmacist IP)",
+   "blocks": [
+    {
+     "pearls": [
+      "**The pet may look fine — the house is the reservoir.**",
+      "Antihistamines and steroids control symptoms; recurrences stop only when the source is gone.",
+      "Bed bug vs flea: sleep-exposed sites and linen spots vs ankles/pets.",
+      "Avoid long-term potent steroids and antibiotics without infection."
+     ]
+    }
+   ],
+   "short": "Pearls"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Why does only one family member get spots?",
+   "a": "Only sensitised people react to the bites."
+  },
+  {
+   "q": "Best treatment for flea bites that keep recurring?",
+   "a": "Treat all pets with vet products + vacuum + household spray."
+  },
+  {
+   "q": "When are antibiotics needed?",
+   "a": "Only for genuine secondary infection (flucloxacillin, NG182)."
+  },
+  {
+   "q": "Lines of three bites on arms after a hotel stay?",
+   "a": "Bed bugs."
+  }
+ ],
+ "references": [
+  {
+   "label": "Medscape: Papular urticaria & insect bites",
+   "url": "https://emedicine.medscape.com/article/1051461-overview"
+  }
+ ],
+ "see_also": [
+  "scabies",
+  "urticaria-angioedema",
+  "impetigo",
+  "lyme-disease",
+  "cutaneous-larva-migrans"
+ ]
+}

@@ -1,0 +1,66 @@
+{
+ "kf": [
+  "**Drug photosensitivity** is a rash on sun-exposed skin caused by a drug plus UV (mostly UVA).",
+  "**Phototoxic** (commonest, dose-related, 'exaggerated sunburn') versus **photoallergic** (eczematous, immune).",
+  "Common culprits: tetracyclines (doxycycline), thiazides, amiodarone, voriconazole, NSAIDs, quinolones, phenothiazines.",
+  "Sharp cut-off at clothing lines; spares under the chin, behind the ears and skin folds.",
+  "Stop or switch the culprit with the prescriber (never stop amiodarone, voriconazole or antiretrovirals without specialist input); strict UVA protection."
+ ],
+ "epi": [
+  {
+   "t": "**Who**",
+   "sub": [
+    "Common in older people on multiple drugs; holiday or summer onset."
+   ]
+  }
+ ],
+ "aet": [
+  "Photosensitising drug in the skin plus UVA (passes through window glass)."
+ ],
+ "myths": [
+  "**\"Sunscreen fixes it\"**: many sunscreens protect poorly against UVA; clothing and avoiding sun matter."
+ ],
+ "patho_lead": "A drug in the skin **absorbs UV energy** and damages cells directly or creates an allergen.",
+ "mech": [
+  {
+   "k": "Drug in skin",
+   "t": "The drug or its metabolite reaches the dermis and epidermis."
+  },
+  {
+   "k": "Phototoxic",
+   "t": "Absorbed UVA excites the drug, releasing free radicals that damage cells: sunburn-like reaction within hours."
+  },
+  {
+   "k": "Photoallergic",
+   "t": "UV converts the drug into a hapten; T cells become sensitised: eczema days later, may spread beyond exposed sites."
+  },
+  {
+   "k": "Pigmentation",
+   "t": "Some drugs (amiodarone, minocycline) leave slate-grey or blue pigment in exposed skin."
+  }
+ ],
+ "histo": [
+  "Phototoxic: necrotic keratinocytes like sunburn. Photoallergic: spongiotic dermatitis. Phototesting confirms in specialist units."
+ ],
+ "special": [
+  {
+   "t": "**Photo-onycholysis**",
+   "sub": [
+    "Tetracyclines and psoralens can lift the nails from the bed after sun exposure."
+   ]
+  }
+ ],
+ "comp": [
+  "Blistering, pigmentation, persistent light reaction (chronic actinic dermatitis)."
+ ],
+ "prog": [
+  "Phototoxic reactions clear when the drug stops (amiodarone may take months); photoallergy can persist."
+ ],
+ "see_also": [
+  "polymorphic-light-eruption",
+  "phytophotodermatitis",
+  "chronic-actinic-dermatitis",
+  "drug-induced-pigmentation",
+  "drug-eruption-approach"
+ ]
+}

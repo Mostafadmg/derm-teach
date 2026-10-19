@@ -1,0 +1,67 @@
+{
+ "kf": [
+  "**Polymorphic light eruption (PLE)** is the commonest photodermatosis: itchy papules, vesicles or plaques hours to days after the first strong sun of spring or a holiday.",
+  "Affects exposed skin that is usually covered in winter (V of neck, arms), sparing the face often; settles over days without sun.",
+  "Tends to improve over the summer ('hardening').",
+  "Prevention: sun protection, gradual exposure; potent topical steroid for 5–7 days for flares.",
+  "Refer if severe for prophylactic phototherapy (hardening); exclude lupus (check ANA/Ro if suspicious)."
+ ],
+ "epi": [
+  {
+   "t": "**Who**",
+   "sub": [
+    "Up to 1 in 5 people in northern Europe; women more; onset in the teens to 30s."
+   ]
+  }
+ ],
+ "aet": [
+  "Delayed-type hypersensitivity to a UV-induced skin antigen, with failure of normal UV immunosuppression.",
+  "Mainly UVA; can occur through window glass."
+ ],
+ "myths": [
+  "**\"It's an allergy to sunscreen\"**: PLE is a reaction to light itself, although sunscreen allergy can occur."
+ ],
+ "patho_lead": "Normally UV **dampens skin immunity**; in PLE this fails and the immune system attacks UV-altered skin.",
+ "mech": [
+  {
+   "k": "UV antigen",
+   "t": "UV (mainly UVA) alters skin proteins, creating new antigens."
+  },
+  {
+   "k": "Failed suppression",
+   "t": "Normal UV-induced immunosuppression (Langerhans cell migration, regulatory T cells) does not occur."
+  },
+  {
+   "k": "Delayed hypersensitivity",
+   "t": "T cells react hours to days later, producing itchy papules and vesicles."
+  },
+  {
+   "k": "Hardening",
+   "t": "Repeated gradual exposure restores tolerance, so PLE eases as summer goes on."
+  }
+ ],
+ "histo": [
+  "Papillary dermal oedema with a perivascular lymphocytic infiltrate; spongiosis. Biopsy if lupus is suspected."
+ ],
+ "special": [
+  {
+   "t": "**Skin of colour**",
+   "sub": [
+    "Pinpoint papular variant common; may look skin-coloured or hypopigmented."
+   ]
+  }
+ ],
+ "comp": [
+  "Distress and holiday disruption; rare link with later lupus or autoimmune thyroid disease."
+ ],
+ "prog": [
+  "Recurs each spring for years; often improves with age."
+ ],
+ "see_also": [
+  "drug-photosensitivity",
+  "chronic-actinic-dermatitis",
+  "discoid-lupus",
+  "phytophotodermatitis",
+  "urticaria-angioedema"
+ ]
+}

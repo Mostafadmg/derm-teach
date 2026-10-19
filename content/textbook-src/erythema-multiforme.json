@@ -1,0 +1,70 @@
+{
+ "kf": [
+  "**Erythema multiforme (EM)** is an acute immune reaction with **target lesions** (three zones), mostly triggered by **herpes simplex**.",
+  "Acral (hands, feet, elbows, knees), symmetrical, appears over 24–72 hours; EM major also involves mucosa.",
+  "Not part of the SJS/TEN spectrum: SJS has atypical flat targets, widespread blistering and is usually drug-induced.",
+  "Supportive care; treat HSV; recurrent HSV-associated EM may need antiviral prophylaxis (specialist).",
+  "Urgent same-day care if mucosal involvement impairs eating, eyes are affected or skin is blistering."
+ ],
+ "epi": [
+  {
+   "t": "**Who**",
+   "sub": [
+    "Young adults 20–40; recurs in some with recurrent HSV."
+   ]
+  }
+ ],
+ "aet": [
+  "HSV (most), *Mycoplasma pneumoniae* (especially children), other infections; drugs less often."
+ ],
+ "myths": [
+  "**\"EM is mild SJS\"**: they are different diseases with different causes and outlooks."
+ ],
+ "patho_lead": "EM is a **T-cell reaction to viral DNA** deposited in the skin.",
+ "mech": [
+  {
+   "k": "HSV DNA in skin",
+   "t": "Fragments of HSV DNA are carried to distant skin by blood cells."
+  },
+  {
+   "k": "T-cell response",
+   "t": "HSV-specific T cells release interferon-γ, damaging keratinocytes."
+  },
+  {
+   "k": "Target zones",
+   "t": "Dusky or blistered centre (necrosis), pale oedematous ring, red outer ring.",
+   "img": "v3-em-target-zones.jpg",
+   "cap": "The three zones of a typical target lesion."
+  },
+  {
+   "k": "Acral distribution",
+   "t": "Lesions favour the hands, feet and extensor limbs.",
+   "img": "v3-em-acral-hands.jpg",
+   "cap": "Acral target lesions on the hands."
+  }
+ ],
+ "histo": [
+  "Interface dermatitis with necrotic keratinocytes; HSV PCR from a cold sore may help."
+ ],
+ "special": [
+  {
+   "t": "**Children**",
+   "sub": [
+    "Mycoplasma-induced rash and mucositis (MIRM) causes severe mucositis with few skin lesions."
+   ]
+  }
+ ],
+ "comp": [
+  "Eye scarring in EM major; dehydration from painful mouth."
+ ],
+ "prog": [
+  "Resolves in 2–4 weeks without scarring; recurrences common with HSV."
+ ],
+ "see_also": [
+  "herpes-simplex-labialis",
+  "drug-induced-blistering",
+  "urticaria-angioedema",
+  "fixed-drug-eruption",
+  "annular-rashes"
+ ]
+}

@@ -1,0 +1,499 @@
+{
+ "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
+ "key_facts": [
+  "**Erythema multiforme (EM)** is an acute immune reaction with **target lesions** (three zones), mostly triggered by **herpes simplex**.",
+  "Acral (hands, feet, elbows, knees), symmetrical, appears over 24–72 hours; EM major also involves mucosa.",
+  "Not part of the SJS/TEN spectrum: SJS has atypical flat targets, widespread blistering and is usually drug-induced.",
+  "Supportive care; treat HSV; recurrent HSV-associated EM may need antiviral prophylaxis (specialist).",
+  "Urgent same-day care if mucosal involvement impairs eating, eyes are affected or skin is blistering."
+ ],
+ "sections": [
+  {
+   "id": "overview",
+   "title": "Overview",
+   "blocks": [
+    "**Erythema multiforme (EM)** is an acute, immune-mediated mucocutaneous reaction characterised by **typical target (iris / bull’s-eye) lesions**. Most cases are infection-triggered, especially **HSV**. **EM minor** = skin only; **EM major** = skin plus ≥1 mucosal surface (oral, ocular, genital) — still usually infection-related, and is **not** the same disease as drug-induced SJS/TEN (which has different morphology, drug trigger, and severity)."
+   ]
+  },
+  {
+   "id": "epidemiology",
+   "title": "Epidemiology",
+   "blocks": [
+    {
+     "ul": [
+      {
+       "t": "**Who**",
+       "sub": [
+        "Young adults 20–40; recurs in some with recurrent HSV."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "aetiology",
+   "title": "Aetiology: causes and risk factors",
+   "blocks": [
+    {
+     "ul": [
+      "Predominantly a **type IV (cell-mediated / delayed)** hypersensitivity reaction.",
+      "**HSV-1/2** is the leading association (often 1–3 weeks after herpes labialis/genitalis; recurrent EM with recurrent HSV).",
+      "Other infections: *Mycoplasma pneumoniae* (esp. children/young adults with respiratory prodrome), less often other viruses/bacteria.",
+      "Drugs can rarely trigger EM-like eruptions, but severe drug blistering disease should be managed as SJS/TEN pathway until proven otherwise.",
+      "Circulating immune response to microbial antigen → cytotoxic T-cell attack on keratinocytes → epidermal necrosis in the target centre."
+     ]
+    },
+    {
+     "h": "Risk factors and associations"
+    },
+    {
+     "ul": [
+      "HSV (most), *Mycoplasma pneumoniae* (especially children), other infections; drugs less often."
+     ]
+    },
+    {
+     "h": "Myths to address"
+    },
+    {
+     "ul": [
+      "**\"EM is mild SJS\"**: they are different diseases with different causes and outlooks."
+     ]
+    }
+   ],
+   "short": "Aetiology"
+  },
+  {
+   "id": "pathophysiology",
+   "title": "Pathophysiology and pathology",
+   "blocks": [
+    "EM is a **T-cell reaction to viral DNA** deposited in the skin.",
+    {
+     "mech": [
+      {
+       "k": "HSV DNA in skin",
+       "t": "Fragments of HSV DNA are carried to distant skin by blood cells."
+      },
+      {
+       "k": "T-cell response",
+       "t": "HSV-specific T cells release interferon-γ, damaging keratinocytes."
+      },
+      {
+       "k": "Target zones",
+       "t": "Dusky or blistered centre (necrosis), pale oedematous ring, red outer ring.",
+       "img": "v3-em-target-zones.jpg",
+       "caption": "The three zones of a typical target lesion."
+      },
+      {
+       "k": "Acral distribution",
+       "t": "Lesions favour the hands, feet and extensor limbs.",
+       "img": "v3-em-acral-hands.jpg",
+       "caption": "Acral target lesions on the hands."
+      }
+     ]
+    },
+    {
+     "histo": [
+      "Interface dermatitis with necrotic keratinocytes; HSV PCR from a cold sore may help."
+     ]
+    }
+   ],
+   "short": "Pathophysiology"
+  },
+  {
+   "id": "clinical-features",
+   "title": "Clinical features",
+   "blocks": [
+    {
+     "table": {
+      "head": [
+       "Feature",
+       "Detail"
+      ],
+      "rows": [
+       [
+        "Typical target",
+        "Three zones: dusky/purpuric or blistered centre → pale oedematous ring → outer erythematous ring"
+       ],
+       [
+        "Atypical targets / papules",
+        "May coexist; may coalesce"
+       ],
+       [
+        "Distribution",
+        "Symmetrical; acral preference — hands/feet dorsa, extensor limbs, then trunk; face possible"
+       ],
+       [
+        "Mucosa",
+        "Oral erosions/ulcers common in EM major; lips crusted; eyes/genitals less often"
+       ],
+       [
+        "Prodrome",
+        "Mild fever/malaise optional; history of recent cold sore is a strong clue"
+       ],
+       [
+        "Course",
+        "Lesions appear over days; resolve over 1–4 weeks; may recur with HSV"
+       ]
+      ]
+     }
+    },
+    "**Skin of colour:** Central duskiness and erythema may be harder to appreciate — rely on zone architecture and palpation.",
+    {
+     "h": "Erythema multiforme on the palms and soles"
+    },
+    "**Full EM chapter lives in the [inflammatory rash pages](condition:erythema-multiforme) notes** (pathophysiology, EM major vs SJS/TEN, mucosal care, recurrent HSV prophylaxis). Use this section as a **cross-link box** in the palmar/plantar week.",
+    {
+     "h": "Why EM belongs in a palmar/plantar week"
+    },
+    "EM has an **acral predilection** — it typically begins on the **dorsal hands and feet**, palms, soles and extensor forearms, then spreads centripetally to limbs and (less) trunk. Palm/sole **typical target lesions** are often the clinching sign.",
+    {
+     "h": "Reading a palmar target"
+    },
+    {
+     "ul": [
+      "**Typical target:** ≤ 3 cm, round, **three zones** — dark-red/dusky (sometimes blistered or crusted) centre → paler oedematous ring → outer red ring with a sharp edge.",
+      "**Raised atypical target:** two zones, palpable — still EM.",
+      "**Flat atypical targets / purpuric macules, widespread on trunk** → think **SJS/TEN** (drug-related), especially with mucosal erosions or skin pain.",
+      "Palms: thick stratum corneum can make targets look flatter and more \"bruise-like\"; the iris pattern is often easiest to see here."
+     ]
+    },
+    {
+     "h": "Worked case"
+    },
+    {
+     "ol": [
+      "**Diagnosis:** erythema multiforme **minor** (typical acral targets, polymorphous papules, **no mucosal involvement**).",
+      "**Trigger:** most likely the **preceding viral infection** (\"flu\" 2 weeks earlier) — EM usually follows infection by 1–3 weeks; **HSV** is the commonest overall trigger (ask about cold sores, even subclinical) and *Mycoplasma pneumoniae* in young adults with respiratory symptoms. Drugs (sulfonamides, antiepileptics, NSAIDs, antibiotics) account for a minority of true EM; **paracetamol** and **chlorphenamine** are rare/doubtful culprits — note them, but the timing and morphology favour infection.",
+      "**Treatment:** self-limiting over ~2–4 weeks. Supportive: emollient, moderate–potent topical steroid for symptomatic lesions, oral non-sedating antihistamine for itch/burning, analgesia. Treat identified infection (e.g. aciclovir only if active HSV; macrolide if *Mycoplasma* confirmed). Stop non-essential new drugs. **Recurrent** HSV-associated EM → dermatology may use continuous oral aciclovir/valaciclovir prophylaxis. Systemic steroids only under specialist advice in severe mucosal EM.",
+      "**Safety-net / urgent referral:** mucosal (oral, eye, genital) erosions, blistering/skin detachment, skin pain, fever/systemic upset, widespread flat atypical targets → same-day assessment for EM major vs SJS/TEN; eye involvement → ophthalmology."
+     ]
+    },
+    {
+     "h": "Palm/sole target-like or macular differentials"
+    },
+    {
+     "table": {
+      "head": [
+       "Condition",
+       "Clues"
+      ],
+      "rows": [
+       [
+        "**Secondary syphilis**",
+        "Copper-red scaly macules on palms/soles, no true targets, mucous patches, lymphadenopathy, sexual history → serology"
+       ],
+       [
+        "Hand, foot and mouth disease",
+        "Grey oval **vesicles** on palms/soles, oral ulcers, child contacts"
+       ],
+       [
+        "Urticaria (urticaria multiforme in children)",
+        "Weals with dusky centres that **move within 24 h**, no epidermal change"
+       ],
+       [
+        "SJS/TEN",
+        "Drug 4–28 days before, flat atypical targets, mucosa, pain, detachment"
+       ],
+       [
+        "Fixed drug eruption",
+        "Recurrent dusky plaque at same site with re-exposure"
+       ],
+       [
+        "Acral erythema / hand–foot syndrome",
+        "Chemotherapy (capecitabine etc.) — painful symmetrical palmar erythema"
+       ],
+       [
+        "Kawasaki disease (child)",
+        "Fever ≥ 5 days, palmoplantar erythema/oedema → later periungual peeling"
+       ],
+       [
+        "Vasculitis",
+        "Palpable purpura, lower legs"
+       ]
+      ]
+     }
+    },
+    {
+     "h": "Photos"
+    },
+    {
+     "ul": [
+      "Mucosal/eye EM: .",
+      "DermNet — Erythema multiforme: [dermnetnz.org](https://dermnetnz.org/topics/erythema-multiforme)"
+     ]
+    },
+    {
+     "fig": {
+      "dermnet": "m4w1:A01"
+     }
+    },
+    {
+     "h": "Types to recognise"
+    },
+    {
+     "variants": [
+      {
+       "name": "Classic targets",
+       "t": "Three-zone iris lesions. *Site: Limbs.*",
+       "photo": "m4w1:A01"
+      },
+      {
+       "name": "Palm",
+       "t": "Targets with dusky centres. *Site: Palms.*",
+       "photo": "m3w6:G02"
+      },
+      {
+       "name": "Mucosal (EM major)",
+       "t": "Crusted lips, oral erosions. *Site: Lips, mouth.*",
+       "photo": "m4w1:A03",
+       "danger": true
+      },
+      {
+       "name": "Eye involvement",
+       "t": "Urgent ophthalmology. *Site: Eyes.*",
+       "photo": "m4w1:A04",
+       "danger": true
+      }
+     ]
+    },
+    {
+     "h": "Special groups"
+    },
+    {
+     "ul": [
+      {
+       "t": "**Children**",
+       "sub": [
+        "Mycoplasma-induced rash and mucositis (MIRM) causes severe mucositis with few skin lesions."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "diagnosis",
+   "title": "Diagnosis and investigations",
+   "blocks": [
+    {
+     "ul": [
+      "**Clinical** in classic post-HSV target pattern.",
+      "History: recent HSV, *Mycoplasma*/respiratory symptoms, drugs, mucosal symptoms, eye symptoms.",
+      "Exam: full skin + oral + eyes + genitals.",
+      "Investigate if atypical / severe: *Mycoplasma* testing if respiratory; HSV swabs of cold sores; consider biopsy if uncertain.",
+      "**Do not** label as SJS solely because mucosa is involved — target morphology + infection trigger favour EM."
+     ]
+    }
+   ],
+   "short": "Diagnosis"
+  },
+  {
+   "id": "differentials",
+   "title": "Differential diagnoses",
+   "blocks": [
+    {
+     "ddx": [
+      {
+       "name": "SJS / TEN",
+       "f": "Flat atypical targets, widespread purpuric macules, sheet-like detachment; **drugs**; very unwell.",
+       "link": "drug-induced-blistering",
+       "photo": "m1w3:B01",
+       "danger": true
+      },
+      {
+       "name": "Urticaria / urticaria multiforme",
+       "f": "Migratory wheals < 24 h; no fixed dusky centre.",
+       "link": "urticaria-angioedema"
+      },
+      {
+       "name": "Fixed drug eruption",
+       "f": "Round dusky plaque recurring at the same site.",
+       "link": "fixed-drug-eruption"
+      },
+      {
+       "name": "Secondary syphilis",
+       "f": "Risk history; serology.",
+       "link": "pityriasis-rosea"
+      },
+      {
+       "name": "Vasculitis / EM-like lupus",
+       "f": "Atypical course; ANA, systemic features.",
+       "link": "cutaneous-vasculitis-approach"
+      }
+     ]
+    },
+    {
+     "h4": "EM vs SJS vs TEN"
+    },
+    "Also consider: *Mycoplasma pneumoniae*-induced rash and mucositis (RIME), Kawasaki disease, toxic shock syndrome, acute GVHD, linear IgA bullous dermatosis (vancomycin), acute cutaneous lupus (TEN-like), paraneoplastic pemphigus."
+   ],
+   "short": "Differentials"
+  },
+  {
+   "id": "management",
+   "title": "Management",
+   "blocks": [
+    {
+     "h": "Self-care / supportive"
+    },
+    {
+     "ul": [
+      "Emollients; bland oral care (soft diet, antiseptic/analgesic mouth rinses per local advice) for oral EM.",
+      "Analgesia; rest; treat concurrent HSV cold sore if active (topical/oral antivirals per licence/BNF).",
+      "Document drug history; stop any newly started suspect drug pending specialist advice if morphology atypical."
+     ]
+    },
+    {
+     "h": "Prescribing / referral pathway"
+    },
+    {
+     "ul": [
+      "Mild cutaneous EM: often supportive only in primary care.",
+      "Recurrent HSV-associated EM: dermatology may consider continuous or intermittent **oral antiviral prophylaxis** (e.g. aciclovir — specialist/experienced initiation).",
+      "**Urgent same-day / emergency** if: extensive mucosal disease impairing intake, ocular involvement, suspected SJS/TEN, systemic toxicity, inability to distinguish from severe drug reaction.",
+      "Ophthalmology review for eye involvement.",
+      "IP: do **not** start systemic steroids for presumed EM without specialist advice (may be used in selected severe cases under derm)."
+     ]
+    },
+    {
+     "h": "Treatment ladder"
+    },
+    {
+     "ladder": [
+      {
+       "k": "Supportive",
+       "t": "Emollients; soft diet and antiseptic / analgesic mouth rinses for oral EM; analgesia; rest. Document drug history; stop a newly started suspect drug pending advice if morphology atypical.",
+       "tone": "base"
+      },
+      {
+       "k": "Prescriber",
+       "t": "**Potent topical steroid** to itchy / inflamed skin lesions. Treat an active cold sore (topical / oral antiviral per BNF).",
+       "tone": "first"
+      },
+      {
+       "k": "Recurrent HSV-EM",
+       "t": "**Continuous or intermittent oral antiviral prophylaxis** (e.g. aciclovir): specialist / experienced initiation.",
+       "tone": "second"
+      },
+      {
+       "k": "Specialist",
+       "t": "Systemic steroids only in selected severe cases under dermatology.",
+       "tone": "refer"
+      }
+     ]
+    },
+    {
+     "callout": "warn",
+     "title": "Prescribing limits and pitfalls",
+     "list": [
+      "**Systemic steroids**: Don’t start for presumed EM without specialist advice.",
+      "**Pregnancy**: Check BNF for antivirals / steroids."
+     ]
+    },
+    {
+     "h": "Referral"
+    },
+    {
+     "refer": [
+      {
+       "when": "emergency",
+       "t": "Mucosal erosions with **skin pain, blistering or skin loss**: possible **SJS / TEN**; stop suspect drugs, admit same day."
+      },
+      {
+       "when": "same-day",
+       "t": "Eye involvement: same-day ophthalmology."
+      },
+      {
+       "when": "same-day",
+       "t": "Unable to eat or drink: admission for fluids and analgesia."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "red-flags",
+   "title": "Red flags and when to refer",
+   "blocks": [
+    {
+     "ul": [
+      "Mucosal erosions (mouth, eyes, genitals) with skin pain, blistering or skin loss: possible **SJS/TEN**, so stop suspect drugs and admit the same day.",
+      "Eye involvement: same-day ophthalmology.",
+      "Unable to eat or drink: admission for fluids and analgesia."
+     ]
+    }
+   ],
+   "short": "Red flags"
+  },
+  {
+   "id": "complications",
+   "title": "Complications and prognosis",
+   "blocks": [
+    {
+     "h": "Complications"
+    },
+    {
+     "ul": [
+      "Eye scarring in EM major; dehydration from painful mouth."
+     ]
+    },
+    {
+     "h": "Prognosis"
+    },
+    {
+     "ul": [
+      "Resolves in 2–4 weeks without scarring; recurrences common with HSV."
+     ]
+    }
+   ],
+   "short": "Complications"
+  },
+  {
+   "id": "pearls",
+   "title": "Prescriber pearls (UK pharmacist IP)",
+   "blocks": [
+    {
+     "pearls": [
+      "Teach patients with recurrent cold sores that EM can follow HSV — early antiviral for prodromal HSV may reduce triggers (individualise).",
+      "Emphasise difference between EM major and SJS — reduces panic but does not delay referral when severe.",
+      "Warn that scars are uncommon but pigment change can linger.",
+      "Pregnancy: check BNF for any antivirals/steroids contemplated."
+     ]
+    }
+   ],
+   "short": "Pearls"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Commonest trigger?",
+   "a": "Herpes simplex virus."
+  },
+  {
+   "q": "Three zones of a typical target?",
+   "a": "Dusky / blistered centre, pale oedematous ring, red outer ring."
+  },
+  {
+   "q": "EM major vs minor?",
+   "a": "Major involves ≥ 1 mucosal surface."
+  },
+  {
+   "q": "Recurrent EM with each cold sore: prevention?",
+   "a": "Suppressive oral antiviral (specialist)."
+  }
+ ],
+ "references": [
+  {
+   "label": "Medscape: Erythema multiforme",
+   "url": "https://emedicine.medscape.com/article/1122915-overview"
+  }
+ ],
+ "see_also": [
+  "herpes-simplex-labialis",
+  "drug-induced-blistering",
+  "urticaria-angioedema",
+  "fixed-drug-eruption",
+  "annular-rashes"
+ ]
+}

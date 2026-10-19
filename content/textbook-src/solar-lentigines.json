@@ -1,0 +1,62 @@
+{
+ "kf": [
+  "**Solar lentigines** ('liver spots', 'age spots') are flat, well-defined brown macules on sun-exposed skin.",
+  "Face, backs of hands, forearms and shoulders in middle-aged and older adults; a marker of sun damage.",
+  "Dermoscopy: fine reticular pattern, 'moth-eaten' edges, fingerprint pattern.",
+  "Differentiate from **lentigo maligna** (irregular, enlarging, multiple colours on the face) and pigmented AK or SK.",
+  "Benign: sun protection; cryotherapy or laser are cosmetic options."
+ ],
+ "epi": [
+  {
+   "t": "**Who**",
+   "sub": [
+    "Over 90% of fair-skinned people over 60; increase with age and sun exposure."
+   ]
+  }
+ ],
+ "aet": [
+  "Chronic UV exposure; PUVA and sunbeds produce similar lentigines."
+ ],
+ "myths": [
+  "**\"They're harmless so never need checking\"**: a changing, irregular facial lentigo may be lentigo maligna."
+ ],
+ "patho_lead": "UV causes a **local increase in melanocytes** and pigment along the basal layer.",
+ "mech": [
+  {
+   "k": "UV injury",
+   "t": "Repeated UV exposure stimulates basal melanocytes."
+  },
+  {
+   "k": "Melanocyte increase",
+   "t": "Melanocyte numbers increase modestly along the basal layer (no nests)."
+  },
+  {
+   "k": "Elongated rete ridges",
+   "t": "Rete ridges lengthen and are heavily pigmented, creating a flat brown patch."
+  }
+ ],
+ "histo": [
+  "Elongated, club-shaped, pigmented rete ridges with a slight increase in single basal melanocytes; no atypia."
+ ],
+ "special": [
+  {
+   "t": "**Lentigo maligna warning**",
+   "sub": [
+    "Asymmetric pigmentation, multiple colours, grey dots, enlargement: refer via the suspected cancer pathway."
+   ]
+  }
+ ],
+ "comp": [
+  "Cosmetic concern; may evolve into a flat seborrhoeic keratosis (reticulated SK)."
+ ],
+ "prog": [
+  "Persist and increase; fade slightly with strict sun protection."
+ ],
+ "see_also": [
+  "seborrhoeic-keratosis",
+  "melanoma",
+  "photoageing",
+  "melasma-facial-melanosis",
+  "actinic-keratoses"
+ ]
+}

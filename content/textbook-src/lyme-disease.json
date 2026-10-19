@@ -1,0 +1,76 @@
+{
+ "kf": [
+  "**Lyme disease** is infection with *Borrelia burgdorferi* sensu lato from an infected **Ixodes tick** bite.",
+  "**Erythema migrans**: an expanding red patch (often over 5 cm) appearing 1–4 weeks after the bite: diagnose clinically, no tests needed (NICE NG95).",
+  "Doxycycline 100 mg twice daily or 200 mg once daily for 21 days; amoxicillin or azithromycin as alternatives.",
+  "Remove ticks with fine-tipped tweezers or a tick tool; no prophylaxis or serology after an asymptomatic bite.",
+  "Later disease: facial palsy, meningitis, carditis, arthritis, acrodermatitis chronica atrophicans: specialist."
+ ],
+ "epi": [
+  {
+   "t": "**Who**",
+   "sub": [
+    "UK: a few thousand cases a year; New Forest, Exmoor, South Downs, Lake District, Scottish Highlands.",
+    "Peak May–September; walkers, gardeners, outdoor workers."
+   ]
+  }
+ ],
+ "aet": [
+  "Ixodes ricinus ticks; transmission usually needs prolonged attachment (over 24 hours)."
+ ],
+ "myths": [
+  "**\"No bull's-eye, no Lyme\"**: most EM is uniformly red, not target-like.",
+  "**\"A negative blood test excludes it\"**: serology is often negative in early EM."
+ ],
+ "patho_lead": "Borrelia spreads **outwards in the skin** from the bite, then through the blood.",
+ "mech": [
+  {
+   "k": "Tick bite",
+   "t": "An infected tick feeds for over a day; spirochaetes migrate from tick gut to saliva."
+  },
+  {
+   "k": "Local spread",
+   "t": "Borrelia spreads centrifugally in the dermis, causing the expanding erythema migrans.",
+   "img": "v3-erythema-migrans-expanding.jpg",
+   "cap": "Erythema migrans expanding outwards from the bite site."
+  },
+  {
+   "k": "Dissemination",
+   "t": "Spirochaetes spread to the nervous system, heart, joints and other skin sites."
+  },
+  {
+   "k": "Late disease",
+   "t": "Persistent infection causes arthritis or acrodermatitis chronica atrophicans."
+  },
+  {
+   "k": "Prevention",
+   "t": "Prompt correct tick removal reduces transmission.",
+   "img": "v3-tick-removal.jpg",
+   "cap": "Grasp close to the skin and pull steadily up."
+  }
+ ],
+ "histo": [
+  "Not needed for EM. Serology (ELISA then immunoblot) for suspected disseminated disease."
+ ],
+ "special": [
+  {
+   "t": "**Pregnancy and children**",
+   "sub": [
+    "Amoxicillin in pregnancy; children under 12 per NG95 weight-based doses or specialist advice."
+   ]
+  }
+ ],
+ "comp": [
+  "Neuroborreliosis, carditis (heart block), arthritis, ACA.",
+  "Jarisch–Herxheimer reaction on starting treatment."
+ ],
+ "prog": [
+  "EM treated promptly has an excellent outlook; some have lingering fatigue."
+ ],
+ "see_also": [
+  "annular-rashes",
+  "papular-urticaria-bites",
+  "cellulitis-erysipelas",
+  "returning-traveller-skin"
+ ]
+}

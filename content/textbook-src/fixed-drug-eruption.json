@@ -1,0 +1,68 @@
+{
+ "kf": [
+  "**Fixed drug eruption (FDE)** recurs at the **same site** each time the culprit drug is taken.",
+  "Round dusky red-purple patch, sometimes blistering, within hours; lips, genitals, hands, face; leaves grey-brown pigmentation.",
+  "Culprits: NSAIDs, paracetamol, co-trimoxazole, tetracyclines, laxatives (phenolphthalein historically).",
+  "Stop and avoid the drug; record the allergy; potent topical steroid for a few days.",
+  "Generalised bullous FDE can mimic SJS/TEN: urgent assessment."
+ ],
+ "epi": [
+  {
+   "t": "**Who**",
+   "sub": [
+    "Any age; often over-the-counter painkillers; recurrent episodes before diagnosis."
+   ]
+  }
+ ],
+ "aet": [
+  "Intermittent use of a drug, often OTC."
+ ],
+ "myths": [
+  "**\"It's an infection like herpes\"**: recurrence at the same site after a drug points to FDE (genital FDE is often mistaken for HSV)."
+ ],
+ "patho_lead": "FDE is caused by **memory T cells that stay in the skin** at the original site.",
+ "mech": [
+  {
+   "k": "First reaction",
+   "t": "The drug triggers CD8+ T cells that attack keratinocytes at one site."
+  },
+  {
+   "k": "Resident memory",
+   "t": "Some CD8+ T cells remain in the epidermis of that patch long-term.",
+   "img": "v4-fde-resident-t.jpg",
+   "cap": "Fixed drug eruption: memory T cells resting at the site (left) are reactivated by the drug, causing interface damage, a blister and a dusky patch (right)."
+  },
+  {
+   "k": "Re-exposure",
+   "t": "Each dose reactivates them within hours, causing a dusky patch, sometimes with blistering."
+  },
+  {
+   "k": "Pigment",
+   "t": "Damaged basal cells drop melanin into the dermis, leaving persistent brown-grey pigment."
+  }
+ ],
+ "histo": [
+  "Interface dermatitis with necrotic keratinocytes and pigment incontinence; eosinophils."
+ ],
+ "special": [
+  {
+   "t": "**Skin of colour**",
+   "sub": [
+    "Pigmentation is marked and long-lasting."
+   ]
+  }
+ ],
+ "comp": [
+  "Persistent pigmentation; generalised bullous FDE (rare, serious)."
+ ],
+ "prog": [
+  "Does not recur if the drug is avoided; pigment fades slowly."
+ ],
+ "see_also": [
+  "drug-eruption-approach",
+  "erythema-multiforme",
+  "drug-induced-blistering",
+  "herpes-simplex-labialis",
+  "drug-induced-pigmentation"
+ ]
+}

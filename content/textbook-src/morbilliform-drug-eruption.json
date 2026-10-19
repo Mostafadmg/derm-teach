@@ -1,0 +1,66 @@
+{
+ "kf": [
+  "**Morbilliform (maculopapular) drug eruption** is the commonest drug rash: measles-like pink macules and papules starting on the trunk.",
+  "Begins 4–14 days after starting a drug (sooner on re-exposure); itchy, symmetrical; mucosa spared.",
+  "Common culprits: aminopenicillins, cephalosporins, sulfonamides, anticonvulsants, allopurinol.",
+  "Stop the drug; emollient plus moderate or potent topical steroid for 5–7 days; antihistamine for itch.",
+  "Red flags for **DRESS** (fever, facial oedema, lymph nodes, eosinophilia, abnormal liver tests) or **SJS/TEN** (pain, blisters, mucosa): urgent referral."
+ ],
+ "epi": [
+  {
+   "t": "**Who**",
+   "sub": [
+    "About 1–3% of hospital inpatients; amoxicillin rash in EBV infection is classic."
+   ]
+  }
+ ],
+ "aet": [
+  "T-cell mediated (type IV) hypersensitivity; viral infection (EBV, HIV) increases risk."
+ ],
+ "myths": [
+  "**\"An amoxicillin rash in glandular fever means lifelong penicillin allergy\"**: often it does not; refer for allergy testing if unsure."
+ ],
+ "patho_lead": "Drug-specific **T cells** recognise the drug bound to proteins in the skin.",
+ "mech": [
+  {
+   "k": "Sensitisation",
+   "t": "Over 1–2 weeks, the drug (or a drug–protein complex) activates T cells."
+  },
+  {
+   "k": "Skin infiltration",
+   "t": "Activated T cells home to the dermis and release cytokines."
+  },
+  {
+   "k": "Rash",
+   "t": "Dermal vessel dilation and mild interface damage cause pink macules and papules."
+  },
+  {
+   "k": "Resolution",
+   "t": "Clears 1–2 weeks after stopping, often with fine peeling."
+  }
+ ],
+ "histo": [
+  "Superficial perivascular lymphocytes with eosinophils, mild interface change."
+ ],
+ "special": [
+  {
+   "t": "**Viral exanthem**",
+   "sub": [
+    "Similar appearance; fever, contacts and timing help distinguish."
+   ]
+  }
+ ],
+ "comp": [
+  "Progression to DRESS or SJS/TEN (rare); misdiagnosis leading to unnecessary allergy labels."
+ ],
+ "prog": [
+  "Resolves in 1–2 weeks after stopping the drug."
+ ],
+ "see_also": [
+  "drug-eruption-approach",
+  "dress-agep",
+  "drug-induced-blistering",
+  "urticaria-angioedema",
+  "scarlet-fever"
+ ]
+}

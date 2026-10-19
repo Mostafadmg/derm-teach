@@ -1,0 +1,70 @@
+{
+ "kf": [
+  "**Palmoplantar pustulosis (PPP)** is a chronic, relapsing eruption of sterile yellow pustules on the palms and soles that turn brown and scale.",
+  "Strongly linked to **smoking** (most patients smoke or have smoked); mainly women aged 40–60.",
+  "Distinct from palmoplantar psoriasis, though some have psoriasis elsewhere.",
+  "Stop smoking; very potent topical steroid (clobetasol) ± occlusion; refer for hand–foot PUVA, acitretin or other systemics.",
+  "Screen for thyroid disease and coeliac disease if symptomatic; SAPHO (bone pain) is a rare association."
+ ],
+ "epi": [
+  {
+   "t": "**Who**",
+   "sub": [
+    "Women 3–4× more often; peak 40–60; uncommon (about 1 in 1,000–10,000)."
+   ]
+  }
+ ],
+ "aet": [
+  "Smoking (nicotine receptors on eccrine sweat ducts), genetics (IL-36 pathway), focal infection; thyroid autoimmunity."
+ ],
+ "myths": [
+  "**\"The pustules are infected\"**: they are sterile; antibiotics do not help."
+ ],
+ "patho_lead": "PPP begins in the **eccrine sweat duct**, where neutrophils gather into sterile pustules.",
+ "mech": [
+  {
+   "k": "Duct inflammation",
+   "t": "Nicotine and other triggers activate the acrosyringium (top of the sweat duct)."
+  },
+  {
+   "k": "IL-36 / IL-17 axis",
+   "t": "Innate cytokines recruit neutrophils."
+  },
+  {
+   "k": "Pustule evolution",
+   "t": "Vesicle → yellow pustule → brown macule → scale.",
+   "img": "v3-ppp-pustule-evolution.jpg",
+   "cap": "PPP lesions evolve from vesicle to pustule to brown scale."
+  },
+  {
+   "k": "Distribution",
+   "t": "Central palms, thenar and hypothenar eminences, heels and insteps.",
+   "img": "v3-ppp-hand-foot-map.jpg",
+   "cap": "Typical PPP sites."
+  }
+ ],
+ "histo": [
+  "Intraepidermal unilocular pustule filled with neutrophils, near the eccrine duct."
+ ],
+ "special": [
+  {
+   "t": "**Drug-induced**",
+   "sub": [
+    "TNF inhibitors can cause paradoxical PPP."
+   ]
+  }
+ ],
+ "comp": [
+  "Pain, fissures, difficulty walking and working; impaired quality of life."
+ ],
+ "prog": [
+  "Chronic, with remission in some after stopping smoking."
+ ],
+ "see_also": [
+  "psoriasis",
+  "hand-eczema",
+  "tinea",
+  "keratolysis-exfoliativa",
+  "biologics-systemics"
+ ]
+}

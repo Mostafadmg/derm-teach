@@ -1,0 +1,467 @@
+{
+ "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
+ "key_facts": [
+  "**Lyme disease** is infection with *Borrelia burgdorferi* sensu lato from an infected **Ixodes tick** bite.",
+  "**Erythema migrans**: an expanding red patch (often over 5 cm) appearing 1–4 weeks after the bite: diagnose clinically, no tests needed (NICE NG95).",
+  "Doxycycline 100 mg twice daily or 200 mg once daily for 21 days; amoxicillin or azithromycin as alternatives.",
+  "Remove ticks with fine-tipped tweezers or a tick tool; no prophylaxis or serology after an asymptomatic bite.",
+  "Later disease: facial palsy, meningitis, carditis, arthritis, acrodermatitis chronica atrophicans: specialist."
+ ],
+ "sections": [
+  {
+   "id": "overview",
+   "title": "Overview",
+   "blocks": [
+    "Lyme disease is a tick-borne infection with *Borrelia burgdorferi* sensu lato. It is the commonest tick-borne infection in the UK, and **the skin is the commonest presenting organ**.",
+    "**Erythema migrans (EM)** is the hallmark of early localised disease. **Acrodermatitis chronica atrophicans (ACA)** is a late cutaneous sign (months to years later), seen almost only in European Lyme (*B. afzelii*). Borrelial lymphocytoma (bluish nodule on earlobe, nipple or scrotum) is a less common early European feature."
+   ]
+  },
+  {
+   "id": "epidemiology",
+   "title": "Epidemiology",
+   "blocks": [
+    {
+     "ul": [
+      {
+       "t": "**Who**",
+       "sub": [
+        "UK: a few thousand cases a year; New Forest, Exmoor, South Downs, Lake District, Scottish Highlands.",
+        "Peak May–September; walkers, gardeners, outdoor workers."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "aetiology",
+   "title": "Aetiology: causes and risk factors",
+   "blocks": [
+    {
+     "ul": [
+      "Vector: hard tick ***Ixodes ricinus*** (sheep/deer tick). Tiny nymphs cause most infections. **Most bites do not transmit**; risk rises after about 24–48 hours of attachment, so prompt correct removal helps (NICE NG95).",
+      "UK risk: grassy/wooded areas, parks and gardens — higher in southern England and the Scottish Highlands, but possible anywhere. Peak spring–autumn.",
+      "EM: dermal spread from the bite. Dissemination can cause multiple EM, neuroborreliosis, carditis and arthritis.",
+      "ACA: chronic skin infection on acral extensors, often without a remembered bite."
+     ]
+    },
+    {
+     "h": "Risk factors and associations"
+    },
+    {
+     "ul": [
+      "Ixodes ricinus ticks; transmission usually needs prolonged attachment (over 24 hours)."
+     ]
+    },
+    {
+     "h": "Myths to address"
+    },
+    {
+     "ul": [
+      "**\"No bull's-eye, no Lyme\"**: most EM is uniformly red, not target-like.",
+      "**\"A negative blood test excludes it\"**: serology is often negative in early EM."
+     ]
+    }
+   ],
+   "short": "Aetiology"
+  },
+  {
+   "id": "pathophysiology",
+   "title": "Pathophysiology and pathology",
+   "blocks": [
+    "Borrelia spreads **outwards in the skin** from the bite, then through the blood.",
+    {
+     "mech": [
+      {
+       "k": "Tick bite",
+       "t": "An infected tick feeds for over a day; spirochaetes migrate from tick gut to saliva."
+      },
+      {
+       "k": "Local spread",
+       "t": "Borrelia spreads centrifugally in the dermis, causing the expanding erythema migrans.",
+       "img": "v3-erythema-migrans-expanding.jpg",
+       "caption": "Erythema migrans expanding outwards from the bite site."
+      },
+      {
+       "k": "Dissemination",
+       "t": "Spirochaetes spread to the nervous system, heart, joints and other skin sites."
+      },
+      {
+       "k": "Late disease",
+       "t": "Persistent infection causes arthritis or acrodermatitis chronica atrophicans."
+      },
+      {
+       "k": "Prevention",
+       "t": "Prompt correct tick removal reduces transmission.",
+       "img": "v3-tick-removal.jpg",
+       "caption": "Grasp close to the skin and pull steadily up."
+      }
+     ]
+    },
+    {
+     "histo": [
+      "Not needed for EM. Serology (ELISA then immunoblot) for suspected disseminated disease."
+     ]
+    }
+   ],
+   "short": "Pathophysiology"
+  },
+  {
+   "id": "clinical-features",
+   "title": "Clinical features",
+   "blocks": [
+    {
+     "h": "Erythema migrans (NICE NG95 themes)"
+    },
+    {
+     "ul": [
+      "A **red rash that enlarges** over days; may have central clearing (“bull’s-eye”), but many lesions are uniformly red or bluish.",
+      "Usually **not** hot, itchy or painful. Appears **3 days to 3 months** after a bite (commonly 1–4 weeks).",
+      "Often ≥5 cm at the bite site (legs, groin, axillae, beltline; head/neck in children). Harder to see in darker skin (bruise-like).",
+      "May accompany flu-like non-focal symptoms."
+     ]
+    },
+    {
+     "callout": "tip",
+     "title": "Not EM",
+     "text": "A tick-bite reaction that appears and fades within about 48 hours, and is hot, itchy or painful, is local hypersensitivity — not Lyme."
+    },
+    {
+     "h": "Acrodermatitis chronica atrophicans"
+    },
+    {
+     "ul": [
+      "**Inflammatory stage:** bluish-red doughy discolouration of an extensor limb (hand, forearm, lower leg), often unilateral.",
+      "**Atrophic stage:** thin “cigarette-paper” skin with visible veins — easily mistaken for ageing or venous disease.",
+      "Often accompanies sensory neuropathy; mostly older women with European exposure."
+     ]
+    },
+    {
+     "fig": {
+      "dermnet": "m5w3:V02"
+     }
+    },
+    {
+     "h": "Types to recognise"
+    },
+    {
+     "variants": [
+      {
+       "name": "Erythema migrans",
+       "t": "Expanding red patch. *Site: Bite site.*",
+       "photo": "m5w3:V02"
+      },
+      {
+       "name": "Central clearing",
+       "t": "‘Bull’s-eye’: not required. *Site: Trunk, limbs.*",
+       "photo": "m5w3:V03"
+      },
+      {
+       "name": "Large EM",
+       "t": "Keeps growing over days. *Site: Limbs.*",
+       "photo": "m5w3:V04"
+      },
+      {
+       "name": "ACA atrophic",
+       "t": "Cigarette-paper skin, visible veins. *Site: Extensor limbs.*",
+       "photo": "m5w3:V08"
+      }
+     ]
+    },
+    {
+     "h": "Special groups"
+    },
+    {
+     "ul": [
+      {
+       "t": "**Pregnancy and children**",
+       "sub": [
+        "Amoxicillin in pregnancy; children under 12 per NG95 weight-based doses or specialist advice."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "diagnosis",
+   "title": "Diagnosis and investigations",
+   "blocks": [
+    {
+     "ul": [
+      "**EM: diagnose and treat clinically. No blood test** — early serology is often negative (NG95).",
+      "Without EM (including suspected ACA): clinical picture plus **ELISA then immunoblot** via a UKAS-accredited lab. ACA is nearly always strongly IgG-positive.",
+      "**Do not** diagnose or test after an asymptomatic tick bite.",
+      "Do not rely on private “Lyme specialty” panels without checking accreditation.",
+      "Absence of a remembered bite does **not** exclude Lyme."
+     ]
+    }
+   ],
+   "short": "Diagnosis"
+  },
+  {
+   "id": "differentials",
+   "title": "Differential diagnoses",
+   "blocks": [
+    {
+     "ddx": [
+      {
+       "name": "Tick-bite hypersensitivity",
+       "f": "Within hours, fades ≤ 48 h, itchy / hot, small."
+      },
+      {
+       "name": "Cellulitis",
+       "f": "Hot, tender, rapid spread, unwell.",
+       "link": "cellulitis-erysipelas"
+      },
+      {
+       "name": "Tinea corporis",
+       "f": "Scaly active edge; EM is not scaly.",
+       "link": "tinea"
+      },
+      {
+       "name": "Granuloma annulare",
+       "f": "Chronic firm papular ring; no daily expansion.",
+       "link": "annular-rashes"
+      },
+      {
+       "name": "ACA mimics",
+       "f": "Chilblains, venous disease, morphoea, ageing skin."
+      }
+     ]
+    }
+   ],
+   "short": "Differentials"
+  },
+  {
+   "id": "management",
+   "title": "Management",
+   "blocks": [
+    {
+     "h": "Prevention and tick removal"
+    },
+    {
+     "ul": [
+      "Cover skin, use DEET-type repellent, and check skin folds/scalp after outdoor activity.",
+      "Remove ticks with **fine-tipped tweezers or a tick tool**: grasp close to the skin and pull steadily up — do not twist, crush, burn or smother with oils (UKHSA).",
+      "**No antibiotic prophylaxis or serology** after an asymptomatic bite. Watch the site for weeks and return if a spreading rash or flu-like illness appears."
+     ]
+    },
+    {
+     "h": "Erythema migrans (adults / ≥12 years, no focal symptoms) — NICE NG95"
+    },
+    {
+     "table": {
+      "head": [
+       "Choice",
+       "Regimen",
+       "Duration"
+      ],
+      "rows": [
+       [
+        "First-line",
+        "Doxycycline 100 mg BD or 200 mg OD",
+        "21 days"
+       ],
+       [
+        "First alternative",
+        "Amoxicillin 1 g TDS",
+        "21 days"
+       ],
+       [
+        "Second alternative",
+        "Azithromycin 500 mg OD (avoid in carditis / QT risk)",
+        "17 days"
+       ]
+      ]
+     }
+    },
+    {
+     "ul": [
+      "Doxycycline: take upright with water; separate from antacids/iron/calcium; sun protection; avoid in pregnancy and under 12.",
+      "Pregnancy: usually **amoxicillin** after assessment.",
+      "Children under 12 / under 18 with more than a single uncomplicated EM: discuss with a specialist (NG95).",
+      "Warn about a self-limiting **Jarisch–Herxheimer** flu-like flare in the first day or two — keep taking the antibiotic."
+     ]
+    },
+    {
+     "h": "ACA and late / focal disease"
+    },
+    {
+     "ul": [
+      "Refer for confirmation (serology ± biopsy).",
+      "Adult ACA: doxycycline (or amoxicillin) for **28 days** per NG95; IV ceftriaxone is a second alternative.",
+      "Atrophy and neuropathy may not reverse — set expectations."
+     ]
+    },
+    {
+     "callout": "warn",
+     "title": "Check BNF",
+     "text": "Confirm current doses, pregnancy advice and interactions before prescribing."
+    },
+    {
+     "h": "Medicines at a glance"
+    },
+    {
+     "drugs": [
+      {
+       "name": "Doxycycline",
+       "cls": "First line",
+       "dose": "100 mg twice daily or 200 mg once daily · 21 days",
+       "cautions": "Upright with water; separate from antacids / iron / calcium; sun protection; avoid in pregnancy and < 12."
+      },
+      {
+       "name": "Amoxicillin",
+       "cls": "Alternatives",
+       "dose": "1 g three times daily · 21 days",
+       "cautions": "Usually used in pregnancy after assessment."
+      },
+      {
+       "name": "Azithromycin",
+       "cls": "Alternatives",
+       "dose": "500 mg once daily · 17 days",
+       "cautions": "Avoid in carditis / QT risk."
+      }
+     ]
+    },
+    {
+     "h": "Treatment ladder"
+    },
+    {
+     "ladder": [
+      {
+       "k": "Prevent & remove",
+       "t": "Cover skin, repellent, check folds and scalp after outdoors. Remove ticks per UKHSA (tweezers / tick tool, pull steadily).",
+       "tone": "base"
+      },
+      {
+       "k": "First line",
+       "t": "Doxycycline",
+       "tone": "first"
+      },
+      {
+       "k": "Alternatives",
+       "t": "Amoxicillin; Azithromycin",
+       "tone": "second"
+      },
+      {
+       "k": "Specialist",
+       "t": "Children < 12 (and some < 18), focal disease, ACA: per NG95 / specialist.",
+       "tone": "refer"
+      }
+     ]
+    },
+    {
+     "callout": "warn",
+     "title": "Prescribing limits and pitfalls",
+     "list": [
+      "**Two courses done, still symptomatic**: No more antibiotics: specialist / reference-lab advice."
+     ]
+    },
+    {
+     "h": "Referral"
+    },
+    {
+     "refer": [
+      {
+       "when": "emergency",
+       "t": "Meningitis / encephalitis signs, carditis or heart block, uveitis."
+      },
+      {
+       "when": "same-day",
+       "t": "Facial palsy, radiculopathy, inflammatory arthritis, multiple EM with systemic upset: discuss with specialist **without delaying antibiotics**."
+      },
+      {
+       "when": "routine",
+       "t": "Suspected ACA: serology and dermatology."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "red-flags",
+   "title": "Red flags and when to refer",
+   "blocks": [
+    {
+     "ul": [
+      "Emergency pathways even if Lyme is possible: meningitis/encephalitis signs, uveitis, carditis or complete heart block.",
+      "Same-day/urgent GP: facial palsy, radiculopathy, inflammatory arthritis, multiple EM with systemic upset — discuss with a specialist without delaying antibiotics.",
+      "Persistent symptoms after two completed antibiotic courses: do not give more antibiotics; seek specialist/reference-lab advice."
+     ]
+    }
+   ],
+   "short": "Red flags"
+  },
+  {
+   "id": "complications",
+   "title": "Complications and prognosis",
+   "blocks": [
+    {
+     "h": "Complications"
+    },
+    {
+     "ul": [
+      "Neuroborreliosis, carditis (heart block), arthritis, ACA.",
+      "Jarisch–Herxheimer reaction on starting treatment."
+     ]
+    },
+    {
+     "h": "Prognosis"
+    },
+    {
+     "ul": [
+      "EM treated promptly has an excellent outlook; some have lingering fatigue."
+     ]
+    }
+   ],
+   "short": "Complications"
+  },
+  {
+   "id": "pearls",
+   "title": "Prescriber pearls (UK pharmacist IP)",
+   "blocks": [
+    {
+     "pearls": [
+      "**Expanding red ring after the outdoors = treat. Don’t test.**",
+      "Draw round the edge and photograph to monitor spread.",
+      "A full **21-day** course matters for EM.",
+      "Reinfection is possible — infection does not confer lasting immunity.",
+      "ACA is often missed as “poor circulation” in an older person’s limb — ask about European countryside exposure and test."
+     ]
+    }
+   ],
+   "short": "Pearls"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Blood test for typical EM?",
+   "a": "No: diagnose and treat clinically."
+  },
+  {
+   "q": "First-line EM regimen in adults?",
+   "a": "Doxycycline 100 mg BD or 200 mg OD for 21 days."
+  },
+  {
+   "q": "Antibiotics after an asymptomatic tick bite?",
+   "a": "No; advise watching the site."
+  },
+  {
+   "q": "Red itchy patch that appeared within hours and faded by 48 h?",
+   "a": "Tick-bite hypersensitivity, not Lyme."
+  }
+ ],
+ "references": [
+  {
+   "label": "Medscape: Lyme disease & erythema migrans",
+   "url": "https://emedicine.medscape.com/article/330178-overview"
+  }
+ ],
+ "see_also": [
+  "annular-rashes",
+  "papular-urticaria-bites",
+  "cellulitis-erysipelas",
+  "returning-traveller-skin"
+ ]
+}

@@ -1,0 +1,439 @@
+{
+ "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
+ "key_facts": [
+  "**Palmoplantar pustulosis (PPP)** is a chronic, relapsing eruption of sterile yellow pustules on the palms and soles that turn brown and scale.",
+  "Strongly linked to **smoking** (most patients smoke or have smoked); mainly women aged 40–60.",
+  "Distinct from palmoplantar psoriasis, though some have psoriasis elsewhere.",
+  "Stop smoking; very potent topical steroid (clobetasol) ± occlusion; refer for hand–foot PUVA, acitretin or other systemics.",
+  "Screen for thyroid disease and coeliac disease if symptomatic; SAPHO (bone pain) is a rare association."
+ ],
+ "sections": [
+  {
+   "id": "overview",
+   "title": "Overview",
+   "blocks": [
+    {
+     "h4": "Palmoplantar pustulosis"
+    },
+    {
+     "ul": [
+      "chronic relapsing **sterile** pustular eruption confined to palms/soles; now regarded as **distinct from psoriasis** (different genetics — not linked to PSORS1/HLA-C*06; IL-36/IL-17/IL-8 pathways), though ~10–25% also have plaque psoriasis. Acrodermatitis continua of Hallopeau = digit-tip variant."
+     ]
+    },
+    {
+     "h4": "Palmoplantar psoriasis"
+    },
+    {
+     "ul": [
+      "psoriasis localised to palms/soles, alone or with plaques elsewhere; disproportionately disabling (manual tasks, walking)."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "epidemiology",
+   "title": "Epidemiology",
+   "blocks": [
+    {
+     "ul": [
+      {
+       "t": "**Who**",
+       "sub": [
+        "Women 3–4× more often; peak 40–60; uncommon (about 1 in 1,000–10,000)."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "aetiology",
+   "title": "Aetiology: causes and risk factors",
+   "blocks": [
+    {
+     "h": "Palmoplantar pustulosis"
+    },
+    {
+     "ul": [
+      "adults 20–60, **women ≈ 4:1**, **70–90% current/ex-smokers** (nicotinic receptors on eccrine ducts); associations: thyroid disease, coeliac disease, diabetes, psoriatic arthritis, SAPHO/sternoclavicular osteitis; drug-induced by **TNF-α inhibitors**."
+     ]
+    },
+    {
+     "h": "Palmoplantar psoriasis"
+    },
+    {
+     "ul": [
+      "trauma/friction (Koebner — manual work), infection, stress, lithium, β-blockers, smoking, alcohol, obesity."
+     ]
+    },
+    {
+     "h": "Risk factors and associations"
+    },
+    {
+     "ul": [
+      "Smoking (nicotine receptors on eccrine sweat ducts), genetics (IL-36 pathway), focal infection; thyroid autoimmunity."
+     ]
+    },
+    {
+     "h": "Myths to address"
+    },
+    {
+     "ul": [
+      "**\"The pustules are infected\"**: they are sterile; antibiotics do not help."
+     ]
+    }
+   ],
+   "short": "Aetiology"
+  },
+  {
+   "id": "pathophysiology",
+   "title": "Pathophysiology and pathology",
+   "blocks": [
+    "PPP begins in the **eccrine sweat duct**, where neutrophils gather into sterile pustules.",
+    {
+     "mech": [
+      {
+       "k": "Duct inflammation",
+       "t": "Nicotine and other triggers activate the acrosyringium (top of the sweat duct)."
+      },
+      {
+       "k": "IL-36 / IL-17 axis",
+       "t": "Innate cytokines recruit neutrophils."
+      },
+      {
+       "k": "Pustule evolution",
+       "t": "Vesicle → yellow pustule → brown macule → scale.",
+       "img": "v3-ppp-pustule-evolution.jpg",
+       "caption": "PPP lesions evolve from vesicle to pustule to brown scale."
+      },
+      {
+       "k": "Distribution",
+       "t": "Central palms, thenar and hypothenar eminences, heels and insteps.",
+       "img": "v3-ppp-hand-foot-map.jpg",
+       "caption": "Typical PPP sites."
+      }
+     ]
+    },
+    {
+     "histo": [
+      "Intraepidermal unilocular pustule filled with neutrophils, near the eccrine duct."
+     ]
+    }
+   ],
+   "short": "Pathophysiology"
+  },
+  {
+   "id": "clinical-features",
+   "title": "Clinical features",
+   "blocks": [
+    {
+     "h": "Palmoplantar pustulosis"
+    },
+    {
+     "ul": [
+      "crops of 1–10 mm yellow pustules on thenar/hypothenar eminences, central palms, insteps, heels → dry to **brown \"rusty\" macules**; scale, fissures; burning/pain > itch; symmetrical."
+     ]
+    },
+    {
+     "h": "Palmoplantar psoriasis"
+    },
+    {
+     "ul": [
+      "(1) well-defined red scaly plaques; (2) diffuse thick hyperkeratosis without much redness (acquired keratoderma). Painful **fissures**; sharp border; symmetrical. More frequent **nail psoriasis** and **psoriatic arthritis** — screen (PEST questionnaire)."
+     ]
+    },
+    {
+     "fig": {
+      "dermnet": "m3w6:D01"
+     }
+    },
+    {
+     "h": "Types to recognise"
+    },
+    {
+     "variants": [
+      {
+       "name": "Palm PPP",
+       "t": "Pustules on thenar and central palm; culture sterile. *Site: Palm.*",
+       "photo": "m3w6:D02"
+      },
+      {
+       "name": "Sole PPP",
+       "t": "Redness, scale, pustules and brown dots. *Site: Instep, heel.*",
+       "photo": "m3w6:D03"
+      },
+      {
+       "name": "Palmar psoriasis",
+       "t": "Well-demarcated red scaly plaques. *Site: Palm.*",
+       "photo": "m3w6:E01"
+      },
+      {
+       "name": "Plantar psoriasis",
+       "t": "Thick scale with fissuring. *Site: Weight-bearing sole.*",
+       "photo": "m3w6:E02"
+      }
+     ]
+    },
+    {
+     "h": "Special groups"
+    },
+    {
+     "ul": [
+      {
+       "t": "**Drug-induced**",
+       "sub": [
+        "TNF inhibitors can cause paradoxical PPP."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "diagnosis",
+   "title": "Diagnosis and investigations",
+   "blocks": [
+    {
+     "h": "Palmoplantar pustulosis"
+    },
+    {
+     "ul": [
+      "clinical; swab (sterile) and scrapings to exclude infection/tinea if unilateral."
+     ]
+    },
+    {
+     "h4": "Clinical"
+    },
+    {
+     "ul": [
+      "Pustules + brown dots on palms / soles, symmetrical."
+     ]
+    },
+    {
+     "h4": "Swab"
+    },
+    {
+     "ul": [
+      "Pustules are **sterile**: swab only to exclude infection."
+     ]
+    },
+    {
+     "h4": "Scrape"
+    },
+    {
+     "ul": [
+      "Scrapings if **unilateral** or interdigital scale: exclude tinea."
+     ]
+    },
+    {
+     "h4": "Screen"
+    },
+    {
+     "ul": [
+      "PEST for psoriatic arthritis; thyroid / coeliac if symptomatic."
+     ]
+    }
+   ],
+   "short": "Diagnosis"
+  },
+  {
+   "id": "differentials",
+   "title": "Differential diagnoses",
+   "blocks": [
+    {
+     "ddx": [
+      {
+       "name": "Hyperkeratotic hand eczema",
+       "f": "Hardest to separate; may need biopsy or patch tests; can coexist.",
+       "link": "hand-eczema"
+      },
+      {
+       "name": "Tinea pedis / manuum",
+       "f": "Often one-sided; scale in creases; scrape.",
+       "link": "tinea"
+      },
+      {
+       "name": "Pompholyx",
+       "f": "Itchy deep ‘tapioca’ vesicles on finger sides.",
+       "link": "hand-eczema"
+      },
+      {
+       "name": "Keratolysis exfoliativa",
+       "f": "Air-filled blisters → collarettes; no inflammation.",
+       "link": "keratolysis-exfoliativa"
+      },
+      {
+       "name": "Generalised pustular psoriasis",
+       "f": "Fever, sheets of pustules beyond hands and feet: emergency.",
+       "link": "psoriasis",
+       "danger": true
+      }
+     ]
+    },
+    {
+     "h4": "Palmoplantar psoriasis"
+    },
+    {
+     "ul": [
+      "hyperkeratotic hand eczema (hardest — biopsy or patch testing sometimes needed; they can coexist), tinea (scrape), KE, PPP, keratoderma."
+     ]
+    }
+   ],
+   "short": "Differentials"
+  },
+  {
+   "id": "management",
+   "title": "Management",
+   "blocks": [
+    {
+     "h": "Palmoplantar pustulosis"
+    },
+    {
+     "ul": [
+      "**smoking cessation** (strongest modifiable factor; refer to stop-smoking service/NRT); emollients; **very potent TCS** (clobetasol) ± occlusion overnight; salicylic acid for scale. Refer: hand–foot PUVA, **acitretin**, methotrexate, ciclosporin; biologics less reliable than in psoriasis. Screen thyroid/coeliac if symptomatic."
+     ]
+    },
+    {
+     "h": "Palmoplantar psoriasis"
+    },
+    {
+     "ul": [
+      "emollients and keratolytics (salicylic acid 2–5%, urea); **potent/very potent TCS** ± vitamin D analogue (calcipotriol) or combination products; occlusion overnight; lifestyle (smoking, alcohol, weight). Refer (CKS/NICE CG153): hand–foot PUVA, acitretin, methotrexate, ciclosporin, apremilast and biologics per NICE psoriasis TAs."
+     ]
+    },
+    {
+     "h": "Treatment ladder"
+    },
+    {
+     "ladder": [
+      {
+       "k": "Foundation",
+       "t": "**Stop smoking**: the strongest modifiable factor; stop-smoking service / NRT. Emollients; salicylic acid 2–5% or urea for scale.",
+       "tone": "base"
+      },
+      {
+       "k": "Topical",
+       "t": "**Very potent TCS** (clobetasol) ± overnight occlusion for PPP. Psoriasis: potent / very potent TCS ± calcipotriol or combination product.",
+       "tone": "first"
+      },
+      {
+       "k": "Specialist",
+       "t": "Hand–foot **PUVA**, **acitretin**, methotrexate, ciclosporin. Apremilast and biologics per NICE psoriasis TAs; biologics less reliable in PPP.",
+       "tone": "refer"
+      }
+     ]
+    },
+    {
+     "callout": "warn",
+     "title": "Prescribing limits and pitfalls",
+     "list": [
+      "**Antibiotics**: Pustules are sterile: antibiotics don’t help.",
+      "**Acitretin**: Teratogenic: specialist only, pregnancy prevention."
+     ]
+    },
+    {
+     "h": "Referral"
+    },
+    {
+     "refer": [
+      {
+       "when": "emergency",
+       "t": "Fever with sheets of pustules beyond hands and feet: **generalised pustular psoriasis**."
+      },
+      {
+       "when": "urgent",
+       "t": "Can’t work or walk: early dermatology referral."
+      },
+      {
+       "when": "routine",
+       "t": "Not responding to very potent steroid and smoking cessation."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "red-flags",
+   "title": "Red flags and when to refer",
+   "blocks": [
+    {
+     "ul": [
+      "Fever with sheets of pustules beyond the hands and feet: **generalised pustular psoriasis**, emergency.",
+      "Inability to work or walk: early dermatology referral.",
+      "Pustules on one foot only, or with interdigital scale: scrape for **tinea**."
+     ]
+    }
+   ],
+   "short": "Red flags"
+  },
+  {
+   "id": "complications",
+   "title": "Complications and prognosis",
+   "blocks": [
+    {
+     "h": "Complications"
+    },
+    {
+     "ul": [
+      "Pain, fissures, difficulty walking and working; impaired quality of life."
+     ]
+    },
+    {
+     "h": "Prognosis"
+    },
+    {
+     "ul": [
+      "Chronic, with remission in some after stopping smoking."
+     ]
+    }
+   ],
+   "short": "Complications"
+  },
+  {
+   "id": "pearls",
+   "title": "Prescriber pearls (UK pharmacist IP)",
+   "blocks": [
+    {
+     "pearls": [
+      "Smoking cessation is the single most effective change in PPP; offer stop-smoking support at every visit.",
+      "Use very potent steroids under cling-film or cotton-glove occlusion at night for short periods, then step down.",
+      "Tell patients the pustules are **sterile**: antibiotics do not help.",
+      "Screen for psoriatic arthritis (PEST) and ask about chest-wall pain (SAPHO)."
+     ]
+    }
+   ],
+   "short": "Pearls"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Single biggest modifiable factor in PPP?",
+   "a": "Smoking: 70–90% are current or ex-smokers; stopping helps most."
+  },
+  {
+   "q": "Pustules on one foot with interdigital scale?",
+   "a": "Scrape for tinea before labelling PPP."
+  },
+  {
+   "q": "Fever and sheets of pustules spreading off the hands?",
+   "a": "Generalised pustular psoriasis: emergency."
+  },
+  {
+   "q": "First-line topical for PPP?",
+   "a": "Very potent topical steroid (e.g. clobetasol) ± overnight occlusion, plus emollient."
+  }
+ ],
+ "references": [
+  {
+   "label": "Medscape: Palmoplantar pustulosis & palmoplantar psoriasis",
+   "url": "https://emedicine.medscape.com/article/1108220-overview"
+  }
+ ],
+ "see_also": [
+  "psoriasis",
+  "hand-eczema",
+  "tinea",
+  "keratolysis-exfoliativa",
+  "biologics-systemics"
+ ]
+}

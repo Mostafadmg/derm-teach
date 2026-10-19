@@ -1,0 +1,70 @@
+{
+ "kf": [
+  "**Bullous pemphigoid (BP)** is the commonest autoimmune blistering disease: tense blisters in older people.",
+  "Often starts with weeks to months of **itch** and urticarial plaques before blisters (prodrome).",
+  "Autoantibodies against **BP180 and BP230** at the basement membrane; confirm with biopsy and immunofluorescence.",
+  "Localised: clobetasol; mild–moderate: **doxycycline 200 mg once daily** (BLISTER trial: safer than prednisolone).",
+  "Check drugs: **DPP-4 inhibitors (gliptins)**, diuretics, checkpoint inhibitors; associated with neurological disease (stroke, dementia, Parkinson's)."
+ ],
+ "epi": [
+  {
+   "t": "**Who**",
+   "sub": [
+    "Mostly over 70; incidence rising with age and drugs; UK about 4,000 new cases a year."
+   ]
+  }
+ ],
+ "aet": [
+  "Autoimmunity to hemidesmosome proteins; drug triggers (gliptins, loop diuretics, spironolactone, PD-1 inhibitors)."
+ ],
+ "myths": [
+  "**\"Blisters in older people are just friction\"**: itchy urticarial plaques with tense blisters need biopsy."
+ ],
+ "patho_lead": "Antibodies attack the **anchors holding the epidermis to the dermis**, so it separates as a tense blister.",
+ "mech": [
+  {
+   "k": "Autoantibodies",
+   "t": "IgG autoantibodies bind BP180 (collagen XVII) and BP230 in hemidesmosomes."
+  },
+  {
+   "k": "Complement and eosinophils",
+   "t": "Complement activation recruits eosinophils and neutrophils that release proteases."
+  },
+  {
+   "k": "Subepidermal split",
+   "t": "The whole epidermis lifts off: a **tense, roofed blister** (unlike flaccid pemphigus).",
+   "img": "v3-bp-vs-pv-split.jpg",
+   "cap": "BP splits below the epidermis (tense blister); pemphigus splits within it (flaccid)."
+  },
+  {
+   "k": "Distribution",
+   "t": "Flexures, limbs and trunk; mucosa involved in a minority.",
+   "img": "v3-bp-body-map.jpg",
+   "cap": "Typical BP distribution."
+  }
+ ],
+ "histo": [
+  "Subepidermal blister with eosinophils; direct IF: linear IgG and C3 along the basement membrane; serum BP180/BP230 ELISA."
+ ],
+ "special": [
+  {
+   "t": "**Frail older people**",
+   "sub": [
+    "Whole-body clobetasol is effective but impractical without carers; doxycycline is often preferred."
+   ]
+  }
+ ],
+ "comp": [
+  "Infection, sepsis, side effects of steroids; mortality about 20–40% in the first year in frail patients."
+ ],
+ "prog": [
+  "Usually remits over 1–5 years with treatment; relapses common."
+ ],
+ "see_also": [
+  "blistering-approach",
+  "pemphigus",
+  "dermatitis-herpetiformis",
+  "drug-induced-blistering",
+  "itch-xerosis-older-adults"
+ ]
+}
