@@ -1,10 +1,11 @@
 {
  "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
  "key_facts": [
-  "A pustule or small wound that rapidly becomes an exquisitely painful ulcer with a violaceous, overhanging edge, often in a patient with IBD or rheumatoid arthritis.",
-  "Neutrophilic autoinflammation, not infection. Trauma makes it worse (pathergy).",
-  "Recognise it and refer urgently. Specialist treatment with oral steroids or ciclosporin. No wide debridement.",
-  "Misdiagnosis as an infected ulcer, with repeated antibiotics and surgical debridement that make it worse."
+  "**Pyoderma gangrenosum (PG)** is a rare **neutrophilic dermatosis**: a rapidly enlarging, very painful ulcer with a **violaceous, undermined edge**.",
+  "Not an infection and not gangrene; often starts as a pustule after minor trauma (**pathergy**).",
+  "About half have an associated disease: **IBD**, inflammatory arthritis, haematological disorders (MGUS, myeloma, leukaemia).",
+  "Diagnosis of exclusion: biopsy the edge, swab, exclude vasculitis, infection and malignancy.",
+  "Avoid debridement and surgery; urgent dermatology for potent topical/systemic steroids or ciclosporin, biologics."
  ],
  "sections": [
   {
@@ -12,6 +13,22 @@
    "title": "Overview",
    "blocks": [
     "Pyoderma gangrenosum (PG) is a rare **neutrophilic**, autoinflammatory ulcerating skin disease. Despite the name, it is **not an infection**. It causes a rapidly enlarging, very painful ulcer with a **violaceous, undermined** border, and shows **pathergy**: it worsens after trauma or surgery."
+   ]
+  },
+  {
+   "id": "epidemiology",
+   "title": "Epidemiology",
+   "blocks": [
+    {
+     "ul": [
+      {
+       "t": "**Who**",
+       "sub": [
+        "Rare (about 1 in 100,000 per year); adults 20–50; slightly more women."
+       ]
+      }
+     ]
+    }
    ]
   },
   {
@@ -27,6 +44,14 @@
       "Behçet disease and PAPA syndrome",
       "Drugs, e.g. cocaine contaminated with levamisole"
      ]
+    },
+    {
+     "h": "Myths to address"
+    },
+    {
+     "ul": [
+      "**\"Debride it like any ulcer\"**: surgery worsens PG through pathergy."
+     ]
     }
    ],
    "short": "Aetiology"
@@ -35,6 +60,29 @@
    "id": "pathophysiology",
    "title": "Pathophysiology and pathology",
    "blocks": [
+    "PG is driven by **overactive neutrophils** in otherwise sterile tissue.",
+    {
+     "mech": [
+      {
+       "k": "Immune dysregulation",
+       "t": "Innate immune overactivity (IL-1, IL-8, IL-17, TNF-α) recruits neutrophils."
+      },
+      {
+       "k": "Pathergy",
+       "t": "Minor trauma triggers an exaggerated neutrophilic response at the site."
+      },
+      {
+       "k": "Destructive ulcer",
+       "t": "Neutrophils destroy dermis and fat, undermining the edge.",
+       "img": "v4-pg-undermined.jpg",
+       "caption": "Pyoderma gangrenosum: a deep ulcer packed with neutrophils, with an overhanging violaceous (undermined) edge."
+      },
+      {
+       "k": "Cribriform healing",
+       "t": "Ulcers heal with thin, sieve-like (cribriform) scars."
+      }
+     ]
+    },
     {
      "h": "Mechanism, pathergy and associations in more depth"
     },
@@ -79,6 +127,11 @@
      "ul": [
       "Azathioprine (the patient's Crohn's treatment) does **not** protect against PG; immunosuppression also raises the chance that an ulcer is **infected or atypical infection**, which must be excluded."
      ]
+    },
+    {
+     "histo": [
+      "Dense neutrophilic infiltrate without vasculitis or organisms; findings are supportive, not specific (Delphi/PARACELSUS criteria)."
+     ]
     }
    ],
    "short": "Pathophysiology"
@@ -112,6 +165,19 @@
      "fig": {
       "dermnet": "m5w2:R01"
      }
+    },
+    {
+     "h": "Special groups"
+    },
+    {
+     "ul": [
+      {
+       "t": "**Peristomal PG**",
+       "sub": [
+        "Around stomas in IBD; involve the stoma team."
+       ]
+      }
+     ]
     }
    ]
   },
@@ -283,6 +349,29 @@
    "short": "Red flags"
   },
   {
+   "id": "complications",
+   "title": "Complications and prognosis",
+   "blocks": [
+    {
+     "h": "Complications"
+    },
+    {
+     "ul": [
+      "Severe pain, infection, scarring; recurrence; complications of immunosuppression."
+     ]
+    },
+    {
+     "h": "Prognosis"
+    },
+    {
+     "ul": [
+      "Healing takes months; relapses common."
+     ]
+    }
+   ],
+   "short": "Complications"
+  },
+  {
    "id": "pearls",
    "title": "Prescriber pearls (UK pharmacist IP)",
    "blocks": [
@@ -331,5 +420,11 @@
    "url": "https://emedicine.medscape.com/article/1123821-overview"
   }
  ],
- "see_also": []
+ "see_also": [
+  "venous-leg-ulcer",
+  "arterial-leg-ulcer",
+  "cutaneous-vasculitis-approach",
+  "erythema-nodosum",
+  "biologics-systemics"
+ ]
 }

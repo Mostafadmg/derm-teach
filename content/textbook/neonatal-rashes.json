@@ -1,10 +1,11 @@
 {
  "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
  "key_facts": [
-  "A well term baby with blotchy red macules and small pustules (ETN), pustules present at birth on a non-red base (TNPM), or dewdrop vesicles or red fold papules with overheating (miliaria).",
-  "ETN: sterile eosinophilic pustules. TNPM: sterile neutrophilic pustules. Miliaria: blocked eccrine sweat ducts.",
-  "Reassure, give no specific treatment, cool the baby for miliaria, and document that the baby is well.",
-  "Neonatal HSV: grouped vesicles, or an unwell, febrile or poorly feeding baby. Same-day emergency pathway."
+  "Most neonatal rashes are **benign and transient**: erythema toxicum neonatorum (ETN), transient neonatal pustular melanosis (TNPM), miliaria, milia and neonatal acne.",
+  "ETN: blotchy red macules with central pustules in days 1–3; spares palms and soles; eosinophils.",
+  "TNPM: pustules at birth that rupture to leave collarettes and brown macules, more in darker skin.",
+  "Miliaria: blocked sweat ducts from overheating; clear vesicles (crystallina) or red papules (rubra).",
+  "Red flags: unwell baby, vesicles (**HSV**: emergency aciclovir), purpura, blistering, widespread pustules with fever."
  ],
  "sections": [
   {
@@ -32,6 +33,22 @@
        ]
       ]
      }
+    }
+   ]
+  },
+  {
+   "id": "epidemiology",
+   "title": "Epidemiology",
+   "blocks": [
+    {
+     "ul": [
+      {
+       "t": "**Who**",
+       "sub": [
+        "ETN affects up to half of term babies; TNPM about 5% of Black infants; miliaria in hot, overwrapped babies."
+       ]
+      }
+     ]
     }
    ]
   },
@@ -76,9 +93,43 @@
        ]
       ]
      }
+    },
+    {
+     "h": "Myths to address"
+    },
+    {
+     "ul": [
+      "**\"Spots in a newborn mean infection\"**: most are harmless, but vesicles or an unwell baby need urgent review."
+     ]
     }
    ],
    "short": "Aetiology"
+  },
+  {
+   "id": "pathophysiology",
+   "title": "Pathophysiology and pathology",
+   "blocks": [
+    "Newborn skin is **adapting** to air, bacteria and temperature regulation.",
+    {
+     "mech": [
+      {
+       "k": "Immune adaptation",
+       "t": "ETN reflects an innate immune response to colonising bacteria at hair follicles (eosinophils)."
+      },
+      {
+       "k": "Sweat duct immaturity",
+       "t": "Immature ducts block easily, causing miliaria when overheated.",
+       "img": "v4-milia-section.jpg",
+       "caption": "Milia: tiny keratin cysts common on newborn noses and cheeks."
+      },
+      {
+       "k": "Maternal hormones",
+       "t": "Maternal androgens stimulate sebaceous glands (neonatal acne, sebaceous hyperplasia)."
+      }
+     ]
+    }
+   ],
+   "short": "Pathophysiology"
   },
   {
    "id": "clinical-features",
@@ -119,6 +170,19 @@
      "fig": {
       "dermnet": "m6w1:F02"
      }
+    },
+    {
+     "h": "Special groups"
+    },
+    {
+     "ul": [
+      {
+       "t": "**Neonatal HSV**",
+       "sub": [
+        "Grouped vesicles, especially on the scalp or presenting part, with or without fever: emergency IV aciclovir."
+       ]
+      }
+     ]
     }
    ]
   },
@@ -261,6 +325,29 @@
    "short": "Red flags"
   },
   {
+   "id": "complications",
+   "title": "Complications and prognosis",
+   "blocks": [
+    {
+     "h": "Complications"
+    },
+    {
+     "ul": [
+      "Rarely, misdiagnosis of infection; miliaria pustulosa can become infected."
+     ]
+    },
+    {
+     "h": "Prognosis"
+    },
+    {
+     "ul": [
+      "ETN and TNPM resolve within days to weeks (TNPM pigment within months)."
+     ]
+    }
+   ],
+   "short": "Complications"
+  },
+  {
    "id": "pearls",
    "title": "Prescriber pearls (UK pharmacist IP)",
    "blocks": [
@@ -305,5 +392,11 @@
    "url": "https://emedicine.medscape.com/article/1110731-overview"
   }
  ],
- "see_also": []
+ "see_also": [
+  "neonatal-infantile-acne",
+  "milia",
+  "napkin-dermatitis",
+  "infantile-haemangioma",
+  "herpes-simplex-labialis"
+ ]
 }

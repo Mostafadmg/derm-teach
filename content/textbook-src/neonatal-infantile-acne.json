@@ -1,0 +1,59 @@
+{
+ "kf": [
+  "**Neonatal acne** (cephalic pustulosis) appears in the first weeks: papules and pustules on the cheeks; **no comedones**; settles in weeks.",
+  "**Infantile acne** starts at 3–6 months with **comedones**, papules and sometimes nodules; may last 1–2 years and scar.",
+  "Infantile acne needs examination for signs of virilisation or early puberty (refer if present).",
+  "Neonatal: reassure, gentle washing; infantile: topical benzoyl peroxide or retinoid; erythromycin if moderate (tetracyclines contraindicated).",
+  "Severe or scarring infantile acne: refer (may need isotretinoin)."
+ ],
+ "epi": [
+  {
+   "t": "**Who**",
+   "sub": [
+    "Neonatal acne affects up to 20% of newborns; infantile acne is less common, more in boys."
+   ]
+  }
+ ],
+ "myths": [
+  "**\"Baby acne means the baby will have bad teenage acne\"**: neonatal acne does not; infantile acne may predict later acne."
+ ],
+ "patho_lead": "**Maternal and infant androgens** briefly stimulate the baby's sebaceous glands.",
+ "mech": [
+  {
+   "k": "Hormonal stimulus",
+   "t": "Maternal androgens (neonatal) and transient infant adrenal and testicular androgens (infantile) enlarge sebaceous glands."
+  },
+  {
+   "k": "Malassezia (neonatal)",
+   "t": "Neonatal cephalic pustulosis may be a reaction to Malassezia yeasts.",
+   "img": "v3-neonatal-acne-face.jpg",
+   "cap": "Neonatal acne: papules and pustules on the cheeks, no comedones."
+  },
+  {
+   "k": "Comedones (infantile)",
+   "t": "Follicular plugging creates true comedones and inflammatory lesions.",
+   "img": "v3-acne-follicle-stages.jpg",
+   "cap": "Acne follicle stages from microcomedone to inflamed papule."
+  }
+ ],
+ "special": [
+  {
+   "t": "**Red flags in infantile acne**",
+   "sub": [
+    "Growth acceleration, body odour, pubic hair, clitoromegaly or testicular enlargement: paediatric endocrinology."
+   ]
+  }
+ ],
+ "comp": [
+  "Scarring (infantile nodular acne); parental anxiety."
+ ],
+ "prog": [
+  "Neonatal: resolves by 3 months. Infantile: usually by 2 years."
+ ],
+ "see_also": [
+  "neonatal-rashes",
+  "acne-vulgaris",
+  "milia",
+  "napkin-dermatitis"
+ ]
+}

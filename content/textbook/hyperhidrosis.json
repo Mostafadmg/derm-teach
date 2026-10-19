@@ -1,10 +1,11 @@
 {
  "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
  "key_facts": [
-  "Excessive, symmetrical sweating of the armpits, palms, soles or face that interferes with daily life.",
-  "Overactive cholinergic sympathetic signalling to normal eccrine glands (primary), or a systemic cause (secondary).",
-  "Exclude secondary causes; aluminium chloride at night; tap-water iontophoresis for hands and feet; specialist botulinum toxin or oral anticholinergics.",
-  "Secondary causes: thyrotoxicosis, infection (TB), lymphoma, menopause, drugs (SSRIs), phaeochromocytoma."
+  "**Hyperhidrosis** is sweating beyond what is needed for temperature control; **primary focal** (axillae, palms, soles, face) or **secondary generalised**.",
+  "Primary: starts in childhood or adolescence, bilateral and symmetrical, absent during sleep, family history.",
+  "Secondary: generalised or night sweats, later onset: look for drugs (SSRIs), endocrine disease, infection, malignancy.",
+  "Aluminium chloride hexahydrate 20% at night; then iontophoresis (palms/soles), botulinum toxin, oral anticholinergics (specialist).",
+  "Huge quality-of-life impact; ask about anxiety and social avoidance."
  ],
  "sections": [
   {
@@ -21,13 +22,72 @@
    ]
   },
   {
+   "id": "epidemiology",
+   "title": "Epidemiology",
+   "blocks": [
+    {
+     "ul": [
+      {
+       "t": "**Who**",
+       "sub": [
+        "About 1–3% of people; onset in childhood or adolescence for primary focal hyperhidrosis."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "aetiology",
+   "title": "Aetiology: causes and risk factors",
+   "blocks": [
+    {
+     "h": "Myths to address"
+    },
+    {
+     "ul": [
+      "**\"It's just nerves\"**: anxiety worsens it, but primary hyperhidrosis is a physiological overactivity of sweat glands."
+     ]
+    }
+   ],
+   "short": "Aetiology"
+  },
+  {
    "id": "pathophysiology",
    "title": "Pathophysiology and pathology",
    "blocks": [
+    "Sweat glands are normal; the **nerves driving them are overactive**.",
+    {
+     "mech": [
+      {
+       "k": "Central drive",
+       "t": "Hypothalamic and emotional centres send excess sympathetic signals."
+      },
+      {
+       "k": "Cholinergic nerves",
+       "t": "Sympathetic fibres release acetylcholine onto eccrine glands.",
+       "img": "v4-hyperhidrosis-eccrine.jpg",
+       "caption": "Overactive sympathetic nerve fibres (cholinergic) wrap around eccrine sweat glands, driving excess sweat to the surface."
+      },
+      {
+       "k": "Eccrine output",
+       "t": "Glands secrete large volumes onto palms, soles and axillae."
+      },
+      {
+       "k": "Treatment targets",
+       "t": "Aluminium salts plug ducts; botulinum toxin blocks acetylcholine; anticholinergics block receptors."
+      }
+     ]
+    },
     {
      "h": "How it is caused"
     },
-    "Primary: overactivity of the sympathetic cholinergic supply to normal eccrine glands (central dysregulation; family history in ~30–50%). Secondary: increased metabolic rate (thyrotoxicosis, phaeochromocytoma), hormonal change (**hypogonadism**, menopause), infection/malignancy (cytokines), drugs, **obesity** (insulation, higher metabolic demand), **obstructive sleep apnoea**, autonomic/neurological disease."
+    "Primary: overactivity of the sympathetic cholinergic supply to normal eccrine glands (central dysregulation; family history in ~30–50%). Secondary: increased metabolic rate (thyrotoxicosis, phaeochromocytoma), hormonal change (**hypogonadism**, menopause), infection/malignancy (cytokines), drugs, **obesity** (insulation, higher metabolic demand), **obstructive sleep apnoea**, autonomic/neurological disease.",
+    {
+     "histo": [
+      "Not needed; sweat glands are histologically normal."
+     ]
+    }
    ],
    "short": "Pathophysiology"
   },
@@ -80,6 +140,19 @@
      "fig": {
       "dermnet": "m1w5:D01"
      }
+    },
+    {
+     "h": "Special groups"
+    },
+    {
+     "ul": [
+      {
+       "t": "**Secondary causes to exclude**",
+       "sub": [
+        "Hyperthyroidism, diabetes, menopause, phaeochromocytoma, TB, lymphoma, drugs (SSRIs, opioids)."
+       ]
+      }
+     ]
     }
    ]
   },
@@ -153,6 +226,29 @@
    "short": "Red flags"
   },
   {
+   "id": "complications",
+   "title": "Complications and prognosis",
+   "blocks": [
+    {
+     "h": "Complications"
+    },
+    {
+     "ul": [
+      "Maceration, pitted keratolysis, fungal infection, eczema; social and occupational disability."
+     ]
+    },
+    {
+     "h": "Prognosis"
+    },
+    {
+     "ul": [
+      "Primary hyperhidrosis often persists for years but can improve with age."
+     ]
+    }
+   ],
+   "short": "Complications"
+  },
+  {
    "id": "pearls",
    "title": "Prescriber pearls (UK pharmacist IP)",
    "blocks": [
@@ -195,5 +291,10 @@
    "url": "https://emedicine.medscape.com/article/1073359-overview"
   }
  ],
- "see_also": []
+ "see_also": [
+  "keratolysis-exfoliativa",
+  "hand-eczema",
+  "tinea",
+  "facial-ageing-neuromodulators"
+ ]
 }

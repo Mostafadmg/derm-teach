@@ -1,0 +1,62 @@
+{
+ "kf": [
+  "**Acanthosis nigricans** is velvety brown-black thickening of the skin in the **neck, axillae and groin**.",
+  "Commonest cause: **insulin resistance** (obesity, type 2 diabetes, PCOS); also drugs, endocrine disease, inherited forms.",
+  "Sudden extensive AN with mucosal or palm involvement ('tripe palms') or weight loss: **malignant AN** (gastric adenocarcinoma).",
+  "Check HbA1c or glucose and lipids; treat the cause (weight loss improves it).",
+  "Topical retinoids or keratolytics for appearance."
+ ],
+ "epi": [
+  {
+   "t": "**Who**",
+   "sub": [
+    "Common in obese adolescents and adults; more visible in darker skin."
+   ]
+  }
+ ],
+ "myths": [
+  "**\"It's dirt\"**: it does not wash off and signals insulin resistance."
+ ],
+ "patho_lead": "High insulin acts like a **growth factor** on keratinocytes and fibroblasts.",
+ "mech": [
+  {
+   "k": "Hyperinsulinaemia",
+   "t": "Insulin resistance raises circulating insulin."
+  },
+  {
+   "k": "IGF-1 receptor stimulation",
+   "t": "At high levels insulin activates IGF-1 receptors on keratinocytes."
+  },
+  {
+   "k": "Papillomatosis",
+   "t": "The epidermis thickens into velvety folds; pigment is mostly from the thick keratin."
+  },
+  {
+   "k": "Malignant AN",
+   "t": "Tumour growth factors (TGF-α) cause sudden, extensive disease."
+  }
+ ],
+ "histo": [
+  "Papillomatosis and hyperkeratosis with mild acanthosis; little increase in melanin."
+ ],
+ "special": [
+  {
+   "t": "**Malignant acanthosis nigricans**",
+   "sub": [
+    "Rapid onset in older non-obese adults, mucosal involvement, tripe palms: urgent investigation for cancer."
+   ]
+  }
+ ],
+ "comp": [
+  "Marker of diabetes and cardiovascular risk."
+ ],
+ "prog": [
+  "Improves with weight loss and insulin sensitisation; malignant AN tracks the cancer."
+ ],
+ "see_also": [
+  "hirsutism",
+  "lung-cancer-skin-signs",
+  "intertrigo",
+  "cushings-syndrome-skin"
+ ]
+}

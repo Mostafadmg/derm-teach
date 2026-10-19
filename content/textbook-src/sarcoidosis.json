@@ -1,0 +1,63 @@
+{
+ "kf": [
+  "**Sarcoidosis** is a multisystem **non-caseating granulomatous** disease; the skin is involved in about a quarter.",
+  "Specific lesions: red-brown papules and plaques (face, scars, tattoos), **lupus pernio** (nose, cheeks); non-specific: **erythema nodosum**.",
+  "Apple-jelly colour on diascopy; infiltration of old scars and tattoos is a clue.",
+  "Investigate: biopsy, chest X-ray, calcium, ACE, U&E, LFT, ECG, eye review.",
+  "Mild skin disease: potent or intralesional steroid; extensive or systemic: specialist (hydroxychloroquine, methotrexate, TNF inhibitors)."
+ ],
+ "epi": [
+  {
+   "t": "**Who**",
+   "sub": [
+    "Adults 25–45; more common and severe in people of African descent; Scandinavian peak."
+   ]
+  }
+ ],
+ "myths": [
+  "**\"Skin sarcoid is just cosmetic\"**: lupus pernio is linked with chronic lung and upper airway disease."
+ ],
+ "patho_lead": "Sarcoidosis is an **over-exuberant granuloma response** to an unknown antigen.",
+ "mech": [
+  {
+   "k": "Antigen",
+   "t": "An unknown antigen (possibly mycobacterial or environmental) is presented to CD4+ T cells."
+  },
+  {
+   "k": "Th1/Th17 response",
+   "t": "Interferon-γ and TNF-α activate macrophages."
+  },
+  {
+   "k": "Granuloma formation",
+   "t": "Epithelioid macrophages and giant cells form tight 'naked' granulomas in the dermis."
+  },
+  {
+   "k": "Organ involvement",
+   "t": "The same process in lungs, eyes, heart and lymph nodes causes systemic disease."
+  }
+ ],
+ "histo": [
+  "Non-caseating 'naked' epithelioid granulomas with few lymphocytes; stains for mycobacteria and fungi negative."
+ ],
+ "special": [
+  {
+   "t": "**Löfgren syndrome**",
+   "sub": [
+    "Erythema nodosum, bilateral hilar lymphadenopathy, fever and ankle arthritis: good prognosis."
+   ]
+  }
+ ],
+ "comp": [
+  "Lung fibrosis, uveitis, cardiac arrhythmia, hypercalcaemia, renal stones; disfigurement from lupus pernio."
+ ],
+ "prog": [
+  "Löfgren usually resolves; lupus pernio and plaques tend to be chronic."
+ ],
+ "see_also": [
+  "erythema-nodosum",
+  "discoid-lupus",
+  "cutaneous-tuberculosis",
+  "annular-rashes",
+  "lung-cancer-skin-signs"
+ ]
+}

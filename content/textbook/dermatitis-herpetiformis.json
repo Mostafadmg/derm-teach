@@ -1,10 +1,11 @@
 {
  "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
  "key_facts": [
-  "Intense itch with grouped tiny vesicles or just excoriations on the elbows, knees, buttocks and scalp, not responding to steroids.",
-  "Gluten sensitivity: IgA against epidermal transglutaminase deposits in the dermal papillae (granular IgA on DIF).",
-  "Coeliac serology (tTG-IgA with total IgA) before any gluten-free trial; refer for biopsy with DIF; lifelong gluten-free diet; specialist dapsone for itch control.",
-  "Anaemia, osteoporosis and small-bowel lymphoma risk; G6PD check and haemolysis/methaemoglobinaemia on dapsone."
+  "**Dermatitis herpetiformis (DH)** is the skin manifestation of **coeliac disease**: intensely itchy grouped vesicles.",
+  "Extensor elbows, knees, buttocks and scalp; usually seen as excoriations rather than intact blisters.",
+  "Confirm with **biopsy and direct IF** (granular IgA in dermal papillae) and coeliac serology **before** a gluten-free diet.",
+  "**Lifelong gluten-free diet** treats skin and gut; **dapsone** controls itch within days (specialist; check G6PD).",
+  "Refer to gastroenterology (NICE NG20); screen for associated autoimmunity."
  ],
  "sections": [
   {
@@ -22,10 +23,34 @@
    ]
   },
   {
+   "id": "epidemiology",
+   "title": "Epidemiology",
+   "blocks": [
+    {
+     "ul": [
+      {
+       "t": "**Who**",
+       "sub": [
+        "Adults 30–40; men slightly more; about 1 in 10,000 in the UK; most have enteropathy, often silent."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
    "id": "aetiology",
    "title": "Aetiology: causes and risk factors",
    "blocks": [
-    "Genetic background is **HLA-DQ2/DQ8**. Gliadin is deamidated by tissue transglutaminase (TG2), which drives mucosal IgA anti-TG2 and then, by epitope spreading, IgA against **epidermal transglutaminase (TG3)**. IgA–TG3 complexes deposit in the **dermal papillae**, neutrophils gather into papillary microabscesses, and a subepidermal vesicle forms. Iodide (e.g. iodinated contrast or seaweed) and NSAIDs can make it flare."
+    "Genetic background is **HLA-DQ2/DQ8**. Gliadin is deamidated by tissue transglutaminase (TG2), which drives mucosal IgA anti-TG2 and then, by epitope spreading, IgA against **epidermal transglutaminase (TG3)**. IgA–TG3 complexes deposit in the **dermal papillae**, neutrophils gather into papillary microabscesses, and a subepidermal vesicle forms. Iodide (e.g. iodinated contrast or seaweed) and NSAIDs can make it flare.",
+    {
+     "h": "Myths to address"
+    },
+    {
+     "ul": [
+      "**\"No gut symptoms, so not coeliac\"**: most people with DH have silent enteropathy."
+     ]
+    }
    ],
    "short": "Aetiology"
   },
@@ -33,6 +58,29 @@
    "id": "pathophysiology",
    "title": "Pathophysiology and pathology",
    "blocks": [
+    "Gut-made **IgA antibodies to transglutaminase** deposit in the skin.",
+    {
+     "mech": [
+      {
+       "k": "Gluten in the gut",
+       "t": "Gluten triggers an immune response in genetically susceptible people (HLA-DQ2/DQ8)."
+      },
+      {
+       "k": "IgA to epidermal TG3",
+       "t": "IgA antibodies against tissue and epidermal transglutaminase (TG3) circulate."
+      },
+      {
+       "k": "Papillary deposits",
+       "t": "IgA–TG3 complexes deposit at the tips of dermal papillae and attract neutrophils.",
+       "img": "v4-dh-papillary-iga.jpg",
+       "caption": "Dermatitis herpetiformis: granular IgA deposits (yellow) and neutrophils at the dermal papillary tips create tiny blisters beneath the epidermis."
+      },
+      {
+       "k": "Clearance",
+       "t": "On a gluten-free diet, deposits fade over months to years."
+      }
+     ]
+    },
     {
      "h": "How it is caused"
     },
@@ -42,6 +90,11 @@
       "**IgA–TG3 complexes deposit in the dermal papillae** → neutrophil recruitment → subepidermal vesicles.",
       "Iodine and NSAIDs can flare it.",
       "Associations: autoimmune thyroid disease, T1DM, pernicious anaemia, vitiligo, alopecia areata, Sjögren's; **small-bowel (enteropathy-associated T-cell) lymphoma** (risk reduced by a gluten-free diet)."
+     ]
+    },
+    {
+     "histo": [
+      "Neutrophilic microabscesses in dermal papillae with subepidermal clefts; DIF of perilesional skin: granular IgA in papillae."
      ]
     }
    ],
@@ -74,6 +127,19 @@
      "fig": {
       "dermnet": "m4w6:C01"
      }
+    },
+    {
+     "h": "Special groups"
+    },
+    {
+     "ul": [
+      {
+       "t": "**Dapsone safety**",
+       "sub": [
+        "Check G6PD; monitor FBC and LFT for haemolysis, methaemoglobinaemia and agranulocytosis."
+       ]
+      }
+     ]
     }
    ]
   },
@@ -188,6 +254,29 @@
    "short": "Red flags"
   },
   {
+   "id": "complications",
+   "title": "Complications and prognosis",
+   "blocks": [
+    {
+     "h": "Complications"
+    },
+    {
+     "ul": [
+      "Small-bowel lymphoma risk (reduced by gluten-free diet); osteoporosis, anaemia; associated thyroid disease and type 1 diabetes."
+     ]
+    },
+    {
+     "h": "Prognosis"
+    },
+    {
+     "ul": [
+      "Lifelong; remission on strict gluten-free diet."
+     ]
+    }
+   ],
+   "short": "Complications"
+  },
+  {
    "id": "pearls",
    "title": "Prescriber pearls (UK pharmacist IP)",
    "blocks": [
@@ -234,5 +323,11 @@
    "url": "https://emedicine.medscape.com/article/1062640-overview"
   }
  ],
- "see_also": []
+ "see_also": [
+  "bullous-pemphigoid",
+  "pemphigus",
+  "scabies",
+  "blistering-approach",
+  "eczema-dermatitis"
+ ]
 }

@@ -1,10 +1,11 @@
 {
  "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
  "key_facts": [
-  "A woman distressed by **terminal hair** on the face, chest, abdomen or back.",
-  "**Androgen excess** (ovary, adrenal, drugs) or **increased follicle sensitivity** to normal androgens (idiopathic).",
-  "Score and record impact, check **testosterone**, screen for PCOS; hair removal + **COC**; specialist anti-androgens with contraception.",
-  "**Rapid-onset virilisation** (deep voice, clitoromegaly, testosterone > 5 nmol/L): androgen-secreting tumour."
+  "**Hirsutism** is excess terminal hair in women in a **male pattern** (upper lip, chin, chest, abdomen, back).",
+  "Commonest cause: **PCOS**; also idiopathic hirsutism, congenital adrenal hyperplasia, drugs; rarely androgen-secreting tumours.",
+  "Red flags: **rapid onset**, virilisation (deep voice, clitoromegaly), very high testosterone: urgent endocrine referral.",
+  "Check testosterone (± SHBG, LH/FSH, prolactin, 17-OH progesterone); weight loss; hair removal; COC; eflornithine for the face.",
+  "Effects of hormonal treatment take 6–12 months."
  ],
  "sections": [
   {
@@ -15,9 +16,65 @@
    ]
   },
   {
+   "id": "epidemiology",
+   "title": "Epidemiology",
+   "blocks": [
+    {
+     "ul": [
+      {
+       "t": "**Who**",
+       "sub": [
+        "5–10% of women of reproductive age; varies by ethnicity."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "aetiology",
+   "title": "Aetiology: causes and risk factors",
+   "blocks": [
+    {
+     "h": "Myths to address"
+    },
+    {
+     "ul": [
+      "**\"Shaving makes hair thicker\"**: it does not."
+     ]
+    }
+   ],
+   "short": "Aetiology"
+  },
+  {
    "id": "pathophysiology",
    "title": "Pathophysiology and pathology",
    "blocks": [
+    "Androgens convert fine **vellus hairs into thick terminal hairs** in sensitive follicles.",
+    {
+     "mech": [
+      {
+       "k": "Androgen excess or sensitivity",
+       "t": "Higher androgens (PCOS) or more sensitive follicles (idiopathic)."
+      },
+      {
+       "k": "5α-reductase",
+       "t": "Follicles convert testosterone to DHT."
+      },
+      {
+       "k": "Vellus to terminal",
+       "t": "DHT enlarges follicles, producing coarse pigmented hairs.",
+       "img": "v3-vellus-to-terminal.jpg",
+       "caption": "Androgens transform fine vellus hairs into coarse terminal hairs."
+      },
+      {
+       "k": "Treatment",
+       "t": "COCs raise SHBG and lower androgens; laser targets hair melanin.",
+       "img": "v3-laser-hair-removal.jpg",
+       "caption": "Laser hair removal targets the pigmented hair follicle."
+      }
+     ]
+    },
     {
      "h": "How it is caused"
     },
@@ -28,13 +85,6 @@
       "Less common causes: **non-classic congenital adrenal hyperplasia** (21-hydroxylase deficiency — check 17-OH-progesterone); **Cushing's**, acromegaly, hyperprolactinaemia, thyroid disease; **androgen-secreting ovarian/adrenal tumours** (rapid onset, virilisation, testosterone often >5 nmol/L); drugs (anabolic steroids, testosterone, danazol, valproate); menopause",
       "Normal hair density varies widely with ethnicity and family. Mediterranean, Middle Eastern and South Asian women often have more terminal hair; East Asian women less."
      ]
-    },
-    {
-     "fig": {
-      "ai": "v3-vellus-to-terminal.jpg",
-      "caption": "Under androgen influence a fine pale vellus hair (left) becomes a thick, dark terminal hair from a larger, deeper follicle (right).",
-      "alt": "Skin sections showing vellus and terminal hair follicles"
-     }
     }
    ],
    "short": "Pathophysiology"
@@ -73,6 +123,19 @@
        "name": "Post-removal folliculitis",
        "t": "Shaving / waxing complication. *Site: Face.*",
        "photo": "m1w2:F04"
+      }
+     ]
+    },
+    {
+     "h": "Special groups"
+    },
+    {
+     "ul": [
+      {
+       "t": "**Hypertrichosis**",
+       "sub": [
+        "Generalised non-androgenic hair growth (drugs such as minoxidil, ciclosporin; anorexia): different investigations."
+       ]
       }
      ]
     }
@@ -228,6 +291,29 @@
    "short": "Red flags"
   },
   {
+   "id": "complications",
+   "title": "Complications and prognosis",
+   "blocks": [
+    {
+     "h": "Complications"
+    },
+    {
+     "ul": [
+      "Psychological distress; folliculitis and PIH from hair removal."
+     ]
+    },
+    {
+     "h": "Prognosis"
+    },
+    {
+     "ul": [
+      "Chronic; controlled with combined treatment."
+     ]
+    }
+   ],
+   "short": "Complications"
+  },
+  {
    "id": "pearls",
    "title": "Prescriber pearls (UK pharmacist IP)",
    "blocks": [
@@ -261,5 +347,11 @@
   }
  ],
  "references": [],
- "see_also": []
+ "see_also": [
+  "acne-vulgaris",
+  "androgenetic-alopecia",
+  "acanthosis-nigricans",
+  "acne-prescribing-combined-pill",
+  "intense-pulsed-light"
+ ]
 }

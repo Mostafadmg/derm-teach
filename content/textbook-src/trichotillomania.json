@@ -1,0 +1,58 @@
+{
+ "kf": [
+  "**Trichotillomania** is recurrent hair pulling causing hair loss: a **body-focused repetitive behaviour** (OCD-related disorder).",
+  "Irregular patches with hairs of **different lengths**, broken hairs, often on the side of the dominant hand; scalp, brows, lashes.",
+  "Many deny pulling; dermoscopy shows broken hairs, coiled hairs and 'flame' hairs.",
+  "First-line: **habit reversal therapy** (CBT); treat associated anxiety or depression.",
+  "Ask about **trichophagia** (eating hair): risk of trichobezoar."
+ ],
+ "epi": [
+  {
+   "t": "**Who**",
+   "sub": [
+    "1–2% lifetime; children (often self-limiting) and young women; associated with anxiety, OCD and depression."
+   ]
+  }
+ ],
+ "myths": [
+  "**\"It's just a bad habit\"**: it is a recognised mental health condition that responds to specific therapy."
+ ],
+ "patho_lead": "Repeated pulling **mechanically breaks** hairs, which regrow normally if pulling stops.",
+ "mech": [
+  {
+   "k": "Urge and relief",
+   "t": "Tension or boredom builds; pulling gives relief or pleasure, reinforcing the behaviour."
+  },
+  {
+   "k": "Mechanical damage",
+   "t": "Hairs fracture at different lengths; follicles bleed or become distorted."
+  },
+  {
+   "k": "Regrowth",
+   "t": "Follicles are not destroyed early on, so hair regrows if pulling stops; chronic pulling can scar."
+  }
+ ],
+ "histo": [
+  "Rarely needed: trichomalacia, pigment casts, empty follicles and increased catagen hairs without inflammation."
+ ],
+ "special": [
+  {
+   "t": "**Children**",
+   "sub": [
+    "Early-onset pulling often settles; support parents without punishment."
+   ]
+  }
+ ],
+ "comp": [
+  "Permanent alopecia, infection, shame and social isolation; trichobezoar."
+ ],
+ "prog": [
+  "Chronic and fluctuating in adults; good outcomes with habit reversal therapy."
+ ],
+ "see_also": [
+  "alopecia-areata",
+  "tinea",
+  "scarring-alopecia",
+  "telogen-effluvium"
+ ]
+}

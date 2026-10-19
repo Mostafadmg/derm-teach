@@ -1,10 +1,11 @@
 {
  "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
  "key_facts": [
-  "Red-brown papules or plaques around the nose, lips or old scars and tattoos, or a young adult with erythema nodosum, sore ankles and fever.",
-  "Non-caseating granulomas from an exaggerated immune response to an unknown trigger.",
-  "CXR, calcium, renal and liver function, ECG, eye review; biopsy skin lesions; respiratory or dermatology referral; Löfgren usually needs NSAIDs only.",
-  "Cardiac sarcoid (palpitations, syncope), eye inflammation, hypercalcaemia, lupus pernio with nasal involvement."
+  "**Sarcoidosis** is a multisystem **non-caseating granulomatous** disease; the skin is involved in about a quarter.",
+  "Specific lesions: red-brown papules and plaques (face, scars, tattoos), **lupus pernio** (nose, cheeks); non-specific: **erythema nodosum**.",
+  "Apple-jelly colour on diascopy; infiltration of old scars and tattoos is a clue.",
+  "Investigate: biopsy, chest X-ray, calcium, ACE, U&E, LFT, ECG, eye review.",
+  "Mild skin disease: potent or intralesional steroid; extensive or systemic: specialist (hydroxychloroquine, methotrexate, TNF inhibitors)."
  ],
  "sections": [
   {
@@ -20,9 +21,61 @@
    ]
   },
   {
+   "id": "epidemiology",
+   "title": "Epidemiology",
+   "blocks": [
+    {
+     "ul": [
+      {
+       "t": "**Who**",
+       "sub": [
+        "Adults 25–45; more common and severe in people of African descent; Scandinavian peak."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "aetiology",
+   "title": "Aetiology: causes and risk factors",
+   "blocks": [
+    {
+     "h": "Myths to address"
+    },
+    {
+     "ul": [
+      "**\"Skin sarcoid is just cosmetic\"**: lupus pernio is linked with chronic lung and upper airway disease."
+     ]
+    }
+   ],
+   "short": "Aetiology"
+  },
+  {
    "id": "pathophysiology",
    "title": "Pathophysiology and pathology",
    "blocks": [
+    "Sarcoidosis is an **over-exuberant granuloma response** to an unknown antigen.",
+    {
+     "mech": [
+      {
+       "k": "Antigen",
+       "t": "An unknown antigen (possibly mycobacterial or environmental) is presented to CD4+ T cells."
+      },
+      {
+       "k": "Th1/Th17 response",
+       "t": "Interferon-γ and TNF-α activate macrophages."
+      },
+      {
+       "k": "Granuloma formation",
+       "t": "Epithelioid macrophages and giant cells form tight 'naked' granulomas in the dermis."
+      },
+      {
+       "k": "Organ involvement",
+       "t": "The same process in lungs, eyes, heart and lymph nodes causes systemic disease."
+      }
+     ]
+    },
     {
      "h": "How it is caused"
     },
@@ -32,6 +85,11 @@
       "**Hypercalcaemia:** granuloma macrophages express **1-α-hydroxylase** → convert 25-OH vitamin D to **calcitriol** independently of PTH → ↑ gut calcium absorption. Worse with sun or vitamin D supplements.",
       "**Anaemia:** chronic disease, marrow/splenic involvement.",
       "**EN** is a reactive (non-specific) septal panniculitis, **not a granuloma**. \"Specific\" lesions (papules, plaques, lupus pernio, scar sarcoid) contain granulomas."
+     ]
+    },
+    {
+     "histo": [
+      "Non-caseating 'naked' epithelioid granulomas with few lymphocytes; stains for mycobacteria and fungi negative."
      ]
     }
    ],
@@ -57,6 +115,19 @@
      "fig": {
       "dermnet": "m1w5:G03"
      }
+    },
+    {
+     "h": "Special groups"
+    },
+    {
+     "ul": [
+      {
+       "t": "**Löfgren syndrome**",
+       "sub": [
+        "Erythema nodosum, bilateral hilar lymphadenopathy, fever and ankle arthritis: good prognosis."
+       ]
+      }
+     ]
     }
    ]
   },
@@ -135,6 +206,29 @@
    "short": "Red flags"
   },
   {
+   "id": "complications",
+   "title": "Complications and prognosis",
+   "blocks": [
+    {
+     "h": "Complications"
+    },
+    {
+     "ul": [
+      "Lung fibrosis, uveitis, cardiac arrhythmia, hypercalcaemia, renal stones; disfigurement from lupus pernio."
+     ]
+    },
+    {
+     "h": "Prognosis"
+    },
+    {
+     "ul": [
+      "Löfgren usually resolves; lupus pernio and plaques tend to be chronic."
+     ]
+    }
+   ],
+   "short": "Complications"
+  },
+  {
    "id": "pearls",
    "title": "Prescriber pearls (UK pharmacist IP)",
    "blocks": [
@@ -177,5 +271,11 @@
    "url": "https://emedicine.medscape.com/article/301914-overview"
   }
  ],
- "see_also": []
+ "see_also": [
+  "erythema-nodosum",
+  "discoid-lupus",
+  "cutaneous-tuberculosis",
+  "annular-rashes",
+  "lung-cancer-skin-signs"
+ ]
 }

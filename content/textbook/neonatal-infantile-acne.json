@@ -1,10 +1,11 @@
 {
  "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
  "key_facts": [
-  "Facial papules and pustules in a baby. **Comedones** = true acne; pustules without comedones = **cephalic pustulosis**.",
-  "Sebaceous glands driven by **maternal and neonatal androgens**, plus *Cutibacterium*.",
-  "Neonatal: **observe**, gentle cleansing. Infantile: **BPO ± topical retinoid**. No tetracyclines under 12.",
-  "Acne **between ages 1 and 6**, signs of hyperandrogenism, or nodular / scarring disease: refer."
+  "**Neonatal acne** (cephalic pustulosis) appears in the first weeks: papules and pustules on the cheeks; **no comedones**; settles in weeks.",
+  "**Infantile acne** starts at 3–6 months with **comedones**, papules and sometimes nodules; may last 1–2 years and scar.",
+  "Infantile acne needs examination for signs of virilisation or early puberty (refer if present).",
+  "Neonatal: reassure, gentle washing; infantile: topical benzoyl peroxide or retinoid; erythromycin if moderate (tetracyclines contraindicated).",
+  "Severe or scarring infantile acne: refer (may need isotretinoin)."
  ],
  "sections": [
   {
@@ -40,19 +41,64 @@
    ]
   },
   {
+   "id": "epidemiology",
+   "title": "Epidemiology",
+   "blocks": [
+    {
+     "ul": [
+      {
+       "t": "**Who**",
+       "sub": [
+        "Neonatal acne affects up to 20% of newborns; infantile acne is less common, more in boys."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
    "id": "aetiology",
    "title": "Aetiology: causes and risk factors",
    "blocks": [
     "Overactive sebaceous glands respond to **maternal and neonatal androgens**, with follicular *Cutibacterium* colonisation and the same plugging and inflammation cascade as later acne. Androgen drive falls after infancy and rises again at adrenarche, which is why **mid-childhood acne (ages 1–6) is very rare** and suggests an endocrine cause.",
     {
-     "fig": {
-      "ai": "v3-acne-follicle-stages.jpg",
-      "caption": "The same follicle steps as teenage acne: a plug forms, then inflammation. True acne needs comedones.",
-      "alt": "Acne follicle stages"
-     }
+     "h": "Myths to address"
+    },
+    {
+     "ul": [
+      "**\"Baby acne means the baby will have bad teenage acne\"**: neonatal acne does not; infantile acne may predict later acne."
+     ]
     }
    ],
    "short": "Aetiology"
+  },
+  {
+   "id": "pathophysiology",
+   "title": "Pathophysiology and pathology",
+   "blocks": [
+    "**Maternal and infant androgens** briefly stimulate the baby's sebaceous glands.",
+    {
+     "mech": [
+      {
+       "k": "Hormonal stimulus",
+       "t": "Maternal androgens (neonatal) and transient infant adrenal and testicular androgens (infantile) enlarge sebaceous glands."
+      },
+      {
+       "k": "Malassezia (neonatal)",
+       "t": "Neonatal cephalic pustulosis may be a reaction to Malassezia yeasts.",
+       "img": "v3-neonatal-acne-face.jpg",
+       "caption": "Neonatal acne: papules and pustules on the cheeks, no comedones."
+      },
+      {
+       "k": "Comedones (infantile)",
+       "t": "Follicular plugging creates true comedones and inflammatory lesions.",
+       "img": "v3-acne-follicle-stages.jpg",
+       "caption": "Acne follicle stages from microcomedone to inflamed papule."
+      }
+     ]
+    }
+   ],
+   "short": "Pathophysiology"
   },
   {
    "id": "clinical-features",
@@ -70,13 +116,6 @@
      }
     },
     {
-     "fig": {
-      "ai": "v3-neonatal-acne-face.jpg",
-      "caption": "Neonatal acne: small papules and pustules on the cheeks, chin and forehead of a well baby, with a few tiny comedones. It is not caused by poor hygiene.",
-      "alt": "Newborn face with small papules on cheeks"
-     }
-    },
-    {
      "h": "Types to recognise"
     },
     {
@@ -90,6 +129,19 @@
        "name": "Infantile acne",
        "t": "Comedones, papules, pustules over weeks–months. *Site: Cheeks.*",
        "photo": "m6w1:F10"
+      }
+     ]
+    },
+    {
+     "h": "Special groups"
+    },
+    {
+     "ul": [
+      {
+       "t": "**Red flags in infantile acne**",
+       "sub": [
+        "Growth acceleration, body odour, pubic hair, clitoromegaly or testicular enlargement: paediatric endocrinology."
+       ]
       }
      ]
     }
@@ -234,6 +286,29 @@
    "short": "Red flags"
   },
   {
+   "id": "complications",
+   "title": "Complications and prognosis",
+   "blocks": [
+    {
+     "h": "Complications"
+    },
+    {
+     "ul": [
+      "Scarring (infantile nodular acne); parental anxiety."
+     ]
+    },
+    {
+     "h": "Prognosis"
+    },
+    {
+     "ul": [
+      "Neonatal: resolves by 3 months. Infantile: usually by 2 years."
+     ]
+    }
+   ],
+   "short": "Complications"
+  },
+  {
    "id": "pearls",
    "title": "Prescriber pearls (UK pharmacist IP)",
    "blocks": [
@@ -267,5 +342,10 @@
   }
  ],
  "references": [],
- "see_also": []
+ "see_also": [
+  "neonatal-rashes",
+  "acne-vulgaris",
+  "milia",
+  "napkin-dermatitis"
+ ]
 }

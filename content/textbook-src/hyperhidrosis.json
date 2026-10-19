@@ -1,0 +1,64 @@
+{
+ "kf": [
+  "**Hyperhidrosis** is sweating beyond what is needed for temperature control; **primary focal** (axillae, palms, soles, face) or **secondary generalised**.",
+  "Primary: starts in childhood or adolescence, bilateral and symmetrical, absent during sleep, family history.",
+  "Secondary: generalised or night sweats, later onset: look for drugs (SSRIs), endocrine disease, infection, malignancy.",
+  "Aluminium chloride hexahydrate 20% at night; then iontophoresis (palms/soles), botulinum toxin, oral anticholinergics (specialist).",
+  "Huge quality-of-life impact; ask about anxiety and social avoidance."
+ ],
+ "epi": [
+  {
+   "t": "**Who**",
+   "sub": [
+    "About 1–3% of people; onset in childhood or adolescence for primary focal hyperhidrosis."
+   ]
+  }
+ ],
+ "myths": [
+  "**\"It's just nerves\"**: anxiety worsens it, but primary hyperhidrosis is a physiological overactivity of sweat glands."
+ ],
+ "patho_lead": "Sweat glands are normal; the **nerves driving them are overactive**.",
+ "mech": [
+  {
+   "k": "Central drive",
+   "t": "Hypothalamic and emotional centres send excess sympathetic signals."
+  },
+  {
+   "k": "Cholinergic nerves",
+   "t": "Sympathetic fibres release acetylcholine onto eccrine glands.",
+   "img": "v4-hyperhidrosis-eccrine.jpg",
+   "cap": "Overactive sympathetic nerve fibres (cholinergic) wrap around eccrine sweat glands, driving excess sweat to the surface."
+  },
+  {
+   "k": "Eccrine output",
+   "t": "Glands secrete large volumes onto palms, soles and axillae."
+  },
+  {
+   "k": "Treatment targets",
+   "t": "Aluminium salts plug ducts; botulinum toxin blocks acetylcholine; anticholinergics block receptors."
+  }
+ ],
+ "histo": [
+  "Not needed; sweat glands are histologically normal."
+ ],
+ "special": [
+  {
+   "t": "**Secondary causes to exclude**",
+   "sub": [
+    "Hyperthyroidism, diabetes, menopause, phaeochromocytoma, TB, lymphoma, drugs (SSRIs, opioids)."
+   ]
+  }
+ ],
+ "comp": [
+  "Maceration, pitted keratolysis, fungal infection, eczema; social and occupational disability."
+ ],
+ "prog": [
+  "Primary hyperhidrosis often persists for years but can improve with age."
+ ],
+ "see_also": [
+  "keratolysis-exfoliativa",
+  "hand-eczema",
+  "tinea",
+  "facial-ageing-neuromodulators"
+ ]
+}

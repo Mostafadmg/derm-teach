@@ -1,0 +1,63 @@
+{
+ "kf": [
+  "**Discoid lupus erythematosus (DLE)** is chronic cutaneous lupus: scaly red plaques that heal with **scarring, atrophy and pigment change**.",
+  "Face, ears (conchal bowl), scalp (scarring alopecia); photosensitive; follicular plugging ('carpet-tack' scale).",
+  "About 5–10% progress to systemic lupus; check FBC, ANA, ENA, urine.",
+  "Strict photoprotection, **stop smoking**, potent topical steroid; **hydroxychloroquine** via dermatology.",
+  "Long-standing scars can develop SCC."
+ ],
+ "epi": [
+  {
+   "t": "**Who**",
+   "sub": [
+    "Women 20–40; more common and more scarring in people of African descent."
+   ]
+  }
+ ],
+ "myths": [
+  "**\"It's just eczema on the face\"**: scarring, follicular plugs and ear involvement point to DLE."
+ ],
+ "patho_lead": "DLE is an **interface attack** on basal keratinocytes and hair follicles, triggered by UV.",
+ "mech": [
+  {
+   "k": "UV injury",
+   "t": "UV causes keratinocyte apoptosis and exposure of nuclear antigens."
+  },
+  {
+   "k": "Interferon response",
+   "t": "Plasmacytoid dendritic cells produce type I interferon, recruiting cytotoxic T cells."
+  },
+  {
+   "k": "Interface damage",
+   "t": "T cells attack the basal layer and follicular epithelium."
+  },
+  {
+   "k": "Scarring",
+   "t": "Follicles are destroyed, leaving permanent scarring alopecia and atrophy."
+  }
+ ],
+ "histo": [
+  "Interface dermatitis, follicular plugging, thickened basement membrane, perivascular and periadnexal lymphocytes, dermal mucin; DIF: lupus band."
+ ],
+ "special": [
+  {
+   "t": "**Skin of colour**",
+   "sub": [
+    "Marked hyper- and depigmentation; high scarring risk."
+   ]
+  }
+ ],
+ "comp": [
+  "Scarring alopecia, disfigurement, SCC in scars, progression to SLE."
+ ],
+ "prog": [
+  "Chronic; early treatment limits scarring."
+ ],
+ "see_also": [
+  "scarring-alopecia",
+  "dermatomyositis",
+  "polymorphic-light-eruption",
+  "sarcoidosis",
+  "psoriasis"
+ ]
+}

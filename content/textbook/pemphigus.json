@@ -1,10 +1,11 @@
 {
  "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
  "key_facts": [
-  "Persistent painful mouth ulcers with or without fragile blisters and raw erosions on the scalp, face, chest or back.",
-  "IgG against desmoglein 3 (mucosal) ± desmoglein 1 (skin) causes acantholysis and an intraepidermal split.",
-  "Recognise and refer urgently; specialists start rituximab + prednisolone (BAD 2017); the IP supports steroid safety, infection prevention and monitoring.",
-  "Dehydration and sepsis from extensive erosions; paraneoplastic pemphigus; drug-induced pemphigus (thiol drugs: penicillamine, captopril)."
+  "**Pemphigus vulgaris** is a rare autoimmune blistering disease with **flaccid blisters and erosions**, almost always involving the **mouth**.",
+  "Autoantibodies to **desmogleins 3 (± 1)** separate keratinocytes (acantholysis): **Nikolsky sign** positive.",
+  "Oral erosions often precede skin lesions by months; pemphigus foliaceus (Dsg1) spares the mucosa.",
+  "Extensive or unwell: **same-day admission**; mucosal only: urgent dermatology.",
+  "Specialist first line: **rituximab plus prednisolone**; untreated mortality is high."
  ],
  "sections": [
   {
@@ -16,6 +17,22 @@
      "h4": "Pemphigus vulgaris: primary-care spot diagnosis"
     },
     "**Pemphigus vulgaris (PV)** is a rare, potentially life-threatening **autoimmune intraepidermal blistering** disease. Autoantibodies against desmogleins disrupt keratinocyte adhesion → **flaccid blisters** that rupture to painful erosions and crusts. Mucosal disease is common; oral erosions often precede skin. Module 4 Case 5: months of itchy crusted trunk sores + **hoarseness** (laryngeal mucosal involvement) after failed antibiotic courses → discussion diagnosis PV."
+   ]
+  },
+  {
+   "id": "epidemiology",
+   "title": "Epidemiology",
+   "blocks": [
+    {
+     "ul": [
+      {
+       "t": "**Who**",
+       "sub": [
+        "Adults 40–60; more common in Ashkenazi Jewish and Mediterranean, South Asian populations."
+       ]
+      }
+     ]
+    }
    ]
   },
   {
@@ -40,9 +57,52 @@
       "Without treatment historically high mortality (infection, fluid/protein loss); modern immunosuppression transformed prognosis.",
       "Triggers/associations: idiopathic; drugs rarely (e.g. penicillamine, some ACEIs — uncommon); paraneoplastic pemphigus is a separate severe entity."
      ]
+    },
+    {
+     "h": "Myths to address"
+    },
+    {
+     "ul": [
+      "**\"Recurrent mouth ulcers are just aphthous\"**: persistent oral erosions in an adult need biopsy."
+     ]
     }
    ],
    "short": "Aetiology"
+  },
+  {
+   "id": "pathophysiology",
+   "title": "Pathophysiology and pathology",
+   "blocks": [
+    "Antibodies **cut the glue (desmosomes)** between epidermal cells, so the epidermis falls apart.",
+    {
+     "mech": [
+      {
+       "k": "Autoantibodies",
+       "t": "IgG binds desmoglein 3 (mucosal) and desmoglein 1 (skin)."
+      },
+      {
+       "k": "Acantholysis",
+       "t": "Keratinocytes lose adhesion and separate just above the basal layer."
+      },
+      {
+       "k": "Flaccid blister",
+       "t": "The thin roof ruptures easily, leaving painful erosions.",
+       "img": "v3-bp-vs-pv-split.jpg",
+       "caption": "Pemphigus splits within the epidermis (flaccid blister); pemphigoid splits beneath it (tense blister)."
+      },
+      {
+       "k": "Desmoglein compensation",
+       "t": "Which desmogleins are targeted explains mucosal versus skin involvement."
+      }
+     ]
+    },
+    {
+     "histo": [
+      "Suprabasal acantholysis with 'tombstone' basal cells; DIF: intercellular IgG and C3 ('fishnet'); serum Dsg1/Dsg3 ELISA."
+     ]
+    }
+   ],
+   "short": "Pathophysiology"
   },
   {
    "id": "clinical-features",
@@ -90,6 +150,19 @@
      "fig": {
       "dermnet": "m4w6:A01"
      }
+    },
+    {
+     "h": "Special groups"
+    },
+    {
+     "ul": [
+      {
+       "t": "**Drug-induced and paraneoplastic pemphigus**",
+       "sub": [
+        "Penicillamine, ACE inhibitors; paraneoplastic pemphigus with lymphoma causes severe stomatitis."
+       ]
+      }
+     ]
     }
    ]
   },
@@ -219,6 +292,29 @@
    "short": "Red flags"
   },
   {
+   "id": "complications",
+   "title": "Complications and prognosis",
+   "blocks": [
+    {
+     "h": "Complications"
+    },
+    {
+     "ul": [
+      "Dehydration, malnutrition, sepsis, steroid side effects; death without treatment."
+     ]
+    },
+    {
+     "h": "Prognosis"
+    },
+    {
+     "ul": [
+      "Controlled in most with modern treatment; relapses occur."
+     ]
+    }
+   ],
+   "short": "Complications"
+  },
+  {
    "id": "pearls",
    "title": "Prescriber pearls (UK pharmacist IP)",
    "blocks": [
@@ -268,5 +364,10 @@
    "url": "https://emedicine.medscape.com/article/1064187-overview"
   }
  ],
- "see_also": []
+ "see_also": [
+  "bullous-pemphigoid",
+  "blistering-approach",
+  "dermatitis-herpetiformis",
+  "drug-induced-blistering"
+ ]
 }

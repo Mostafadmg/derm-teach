@@ -1,10 +1,11 @@
 {
  "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
  "key_facts": [
-  "Symmetrical velvety grey-brown thickening of the neck or axillae, often with skin tags, in someone with overweight or PCOS.",
-  "High insulin / growth factors drive keratinocyte and fibroblast proliferation → papillomatosis and hyperkeratosis.",
-  "Treat the metabolic driver (weight, activity, screen HbA1c/lipids); keratolytics and retinoids are cosmetic adjuncts only.",
-  "Sudden extensive AN in a slim older adult, especially with tripe palms or oral involvement → urgent suspected-cancer pathway."
+  "**Acanthosis nigricans** is velvety brown-black thickening of the skin in the **neck, axillae and groin**.",
+  "Commonest cause: **insulin resistance** (obesity, type 2 diabetes, PCOS); also drugs, endocrine disease, inherited forms.",
+  "Sudden extensive AN with mucosal or palm involvement ('tripe palms') or weight loss: **malignant AN** (gastric adenocarcinoma).",
+  "Check HbA1c or glucose and lipids; treat the cause (weight loss improves it).",
+  "Topical retinoids or keratolytics for appearance."
  ],
  "sections": [
   {
@@ -16,6 +17,22 @@
      "h4": "Acanthosis nigricans, PCOS and insulin resistance in depth"
     },
     "**Acanthosis nigricans (AN):** symmetrical, **velvety, hyperpigmented, thickened plaques** in the **flexures**: back and sides of the neck, axillae, groin, inframammary skin, and over the knuckles/elbows. It is very common with obesity (especially in skin of colour) and is a marker of **insulin resistance**. Rarely it is a **paraneoplastic** sign."
+   ]
+  },
+  {
+   "id": "epidemiology",
+   "title": "Epidemiology",
+   "blocks": [
+    {
+     "ul": [
+      {
+       "t": "**Who**",
+       "sub": [
+        "Common in obese adolescents and adults; more visible in darker skin."
+       ]
+      }
+     ]
+    }
    ]
   },
   {
@@ -31,6 +48,14 @@
     },
     {
      "h": "Acanthosis nigricans, PCOS and insulin resistance in depth"
+    },
+    {
+     "h": "Myths to address"
+    },
+    {
+     "ul": [
+      "**\"It's dirt\"**: it does not wash off and signals insulin resistance."
+     ]
     }
    ],
    "short": "Aetiology"
@@ -39,6 +64,27 @@
    "id": "pathophysiology",
    "title": "Pathophysiology and pathology",
    "blocks": [
+    "High insulin acts like a **growth factor** on keratinocytes and fibroblasts.",
+    {
+     "mech": [
+      {
+       "k": "Hyperinsulinaemia",
+       "t": "Insulin resistance raises circulating insulin."
+      },
+      {
+       "k": "IGF-1 receptor stimulation",
+       "t": "At high levels insulin activates IGF-1 receptors on keratinocytes."
+      },
+      {
+       "k": "Papillomatosis",
+       "t": "The epidermis thickens into velvety folds; pigment is mostly from the thick keratin."
+      },
+      {
+       "k": "Malignant AN",
+       "t": "Tumour growth factors (TGF-α) cause sudden, extensive disease."
+      }
+     ]
+    },
     {
      "h": "How it is caused"
     },
@@ -49,6 +95,11 @@
       "**Why some people and not others?** It depends on the degree of hyperinsulinaemia, receptor expression/sensitivity and genetics (ethnicity, skin type), friction and maceration in flexures, and — in malignancy — the tumour's growth-factor secretion.",
       "**Histology:** **papillomatosis and hyperkeratosis** with only mild, irregular acanthosis and little real increase in melanin. The dark colour comes mostly from the thickened keratin. No inflammation.",
       "**Other associations:** **obesity, T2DM, PCOS** — HAIR-AN syndrome (hyperandrogenism, insulin resistance, AN); Cushing's, acromegaly, hypothyroidism; **drugs:** nicotinic acid, systemic glucocorticoids, insulin injection sites, oestrogens/COC, protease inhibitors, testosterone, fusidic acid (topical); genetic/syndromic forms; acral AN in skin of colour (often isolated, benign)"
+     ]
+    },
+    {
+     "histo": [
+      "Papillomatosis and hyperkeratosis with mild acanthosis; little increase in melanin."
      ]
     }
    ],
@@ -77,6 +128,19 @@
      "fig": {
       "dermnet": "m6w2:J01"
      }
+    },
+    {
+     "h": "Special groups"
+    },
+    {
+     "ul": [
+      {
+       "t": "**Malignant acanthosis nigricans**",
+       "sub": [
+        "Rapid onset in older non-obese adults, mucosal involvement, tripe palms: urgent investigation for cancer."
+       ]
+      }
+     ]
     }
    ]
   },
@@ -205,6 +269,29 @@
    "short": "Red flags"
   },
   {
+   "id": "complications",
+   "title": "Complications and prognosis",
+   "blocks": [
+    {
+     "h": "Complications"
+    },
+    {
+     "ul": [
+      "Marker of diabetes and cardiovascular risk."
+     ]
+    },
+    {
+     "h": "Prognosis"
+    },
+    {
+     "ul": [
+      "Improves with weight loss and insulin sensitisation; malignant AN tracks the cancer."
+     ]
+    }
+   ],
+   "short": "Complications"
+  },
+  {
    "id": "pearls",
    "title": "Prescriber pearls (UK pharmacist IP)",
    "blocks": [
@@ -258,5 +345,10 @@
    "url": "https://emedicine.medscape.com/article/1102488-overview"
   }
  ],
- "see_also": []
+ "see_also": [
+  "hirsutism",
+  "lung-cancer-skin-signs",
+  "intertrigo",
+  "cushings-syndrome-skin"
+ ]
 }

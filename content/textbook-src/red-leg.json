@@ -1,0 +1,60 @@
+{
+ "kf": [
+  "The **red leg** is a common diagnostic trap: most bilateral red legs are **not cellulitis**.",
+  "Cellulitis is usually **unilateral**, acute, hot, tender, spreading, with fever or raised inflammatory markers.",
+  "Mimics: venous (stasis) eczema, lipodermatosclerosis, contact dermatitis, DVT, haematoma, gout, erythema nodosum, vasculitis.",
+  "Bilateral red legs: treat the cause (compression, emollient, steroid for eczema); avoid unnecessary antibiotics.",
+  "Same-day: sepsis, rapidly spreading, severe pain out of proportion (necrotising fasciitis), suspected DVT."
+ ],
+ "epi": [
+  {
+   "t": "**Who**",
+   "sub": [
+    "Up to a third of patients admitted with 'cellulitis' have a mimic, often stasis dermatitis."
+   ]
+  }
+ ],
+ "myths": [
+  "**\"Both legs red means double cellulitis\"**: bilateral cellulitis is rare."
+ ],
+ "patho_lead": "Different processes make legs red: **infection, venous hypertension, allergy, thrombosis or inflammation**.",
+ "mech": [
+  {
+   "k": "Venous hypertension",
+   "t": "Stasis causes oedema, inflammation and eczema (bilateral, itchy, chronic)."
+  },
+  {
+   "k": "Infection",
+   "t": "Bacteria enter via breaks (tinea, ulcers) and spread through dermis and fat (unilateral, acute)."
+  },
+  {
+   "k": "Contact allergy",
+   "t": "Dressings and topical medicines cause itchy, sharply bordered eczema."
+  },
+  {
+   "k": "Thrombosis",
+   "t": "DVT causes swollen, tender calf with warmth: Wells score and D-dimer."
+  }
+ ],
+ "special": [
+  {
+   "t": "**Necrotising fasciitis**",
+   "sub": [
+    "Pain out of proportion, rapid spread, systemic toxicity, crepitus: emergency surgery."
+   ]
+  }
+ ],
+ "comp": [
+  "Unnecessary antibiotics and admissions; missed DVT or necrotising infection."
+ ],
+ "prog": [
+  "Depends on cause; stasis dermatitis is chronic and needs compression."
+ ],
+ "see_also": [
+  "cellulitis-erysipelas",
+  "venous-leg-ulcer",
+  "contact-dermatitis",
+  "erythema-nodosum",
+  "eczema-dermatitis"
+ ]
+}

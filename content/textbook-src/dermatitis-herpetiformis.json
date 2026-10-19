@@ -1,0 +1,65 @@
+{
+ "kf": [
+  "**Dermatitis herpetiformis (DH)** is the skin manifestation of **coeliac disease**: intensely itchy grouped vesicles.",
+  "Extensor elbows, knees, buttocks and scalp; usually seen as excoriations rather than intact blisters.",
+  "Confirm with **biopsy and direct IF** (granular IgA in dermal papillae) and coeliac serology **before** a gluten-free diet.",
+  "**Lifelong gluten-free diet** treats skin and gut; **dapsone** controls itch within days (specialist; check G6PD).",
+  "Refer to gastroenterology (NICE NG20); screen for associated autoimmunity."
+ ],
+ "epi": [
+  {
+   "t": "**Who**",
+   "sub": [
+    "Adults 30–40; men slightly more; about 1 in 10,000 in the UK; most have enteropathy, often silent."
+   ]
+  }
+ ],
+ "myths": [
+  "**\"No gut symptoms, so not coeliac\"**: most people with DH have silent enteropathy."
+ ],
+ "patho_lead": "Gut-made **IgA antibodies to transglutaminase** deposit in the skin.",
+ "mech": [
+  {
+   "k": "Gluten in the gut",
+   "t": "Gluten triggers an immune response in genetically susceptible people (HLA-DQ2/DQ8)."
+  },
+  {
+   "k": "IgA to epidermal TG3",
+   "t": "IgA antibodies against tissue and epidermal transglutaminase (TG3) circulate."
+  },
+  {
+   "k": "Papillary deposits",
+   "t": "IgA–TG3 complexes deposit at the tips of dermal papillae and attract neutrophils.",
+   "img": "v4-dh-papillary-iga.jpg",
+   "cap": "Dermatitis herpetiformis: granular IgA deposits (yellow) and neutrophils at the dermal papillary tips create tiny blisters beneath the epidermis."
+  },
+  {
+   "k": "Clearance",
+   "t": "On a gluten-free diet, deposits fade over months to years."
+  }
+ ],
+ "histo": [
+  "Neutrophilic microabscesses in dermal papillae with subepidermal clefts; DIF of perilesional skin: granular IgA in papillae."
+ ],
+ "special": [
+  {
+   "t": "**Dapsone safety**",
+   "sub": [
+    "Check G6PD; monitor FBC and LFT for haemolysis, methaemoglobinaemia and agranulocytosis."
+   ]
+  }
+ ],
+ "comp": [
+  "Small-bowel lymphoma risk (reduced by gluten-free diet); osteoporosis, anaemia; associated thyroid disease and type 1 diabetes."
+ ],
+ "prog": [
+  "Lifelong; remission on strict gluten-free diet."
+ ],
+ "see_also": [
+  "bullous-pemphigoid",
+  "pemphigus",
+  "scabies",
+  "blistering-approach",
+  "eczema-dermatitis"
+ ]
+}

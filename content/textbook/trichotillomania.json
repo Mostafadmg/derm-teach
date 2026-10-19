@@ -1,10 +1,11 @@
 {
  "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
  "key_facts": [
-  "Irregular or geometric bald patch with hairs of many different lengths; pull test negative; often on the dominant-hand side.",
-  "Body-focused repetitive behaviour (OCRD spectrum) — automatic or focused pulling; broken shafts, not autoimmune bulb attack.",
-  "Non-judgemental recognition, habit-reversal / CBT referral, wound care if excoriated; do not treat as alopecia areata with steroids alone.",
-  "Trichophagia with abdominal pain, vomiting or mass → urgent surgical assessment for trichobezoar."
+  "**Trichotillomania** is recurrent hair pulling causing hair loss: a **body-focused repetitive behaviour** (OCD-related disorder).",
+  "Irregular patches with hairs of **different lengths**, broken hairs, often on the side of the dominant hand; scalp, brows, lashes.",
+  "Many deny pulling; dermoscopy shows broken hairs, coiled hairs and 'flame' hairs.",
+  "First-line: **habit reversal therapy** (CBT); treat associated anxiety or depression.",
+  "Ask about **trichophagia** (eating hair): risk of trichobezoar."
  ],
  "sections": [
   {
@@ -12,6 +13,22 @@
    "title": "Overview",
    "blocks": [
     "**Trichotillomania** (hair-pulling disorder) is a body-focused repetitive behaviour causing noticeable hair loss. It is not scarring in early disease. It is commoner in children and adolescents and often under-disclosed."
+   ]
+  },
+  {
+   "id": "epidemiology",
+   "title": "Epidemiology",
+   "blocks": [
+    {
+     "ul": [
+      {
+       "t": "**Who**",
+       "sub": [
+        "1–2% lifetime; children (often self-limiting) and young women; associated with anxiety, OCD and depression."
+       ]
+      }
+     ]
+    }
    ]
   },
   {
@@ -24,9 +41,46 @@
       "**Automatic** pulling (unaware, while reading/screens) vs **focused** pulling (conscious tension relief).",
       "May coexist with skin picking or nail biting."
      ]
+    },
+    {
+     "h": "Myths to address"
+    },
+    {
+     "ul": [
+      "**\"It's just a bad habit\"**: it is a recognised mental health condition that responds to specific therapy."
+     ]
     }
    ],
    "short": "Aetiology"
+  },
+  {
+   "id": "pathophysiology",
+   "title": "Pathophysiology and pathology",
+   "blocks": [
+    "Repeated pulling **mechanically breaks** hairs, which regrow normally if pulling stops.",
+    {
+     "mech": [
+      {
+       "k": "Urge and relief",
+       "t": "Tension or boredom builds; pulling gives relief or pleasure, reinforcing the behaviour."
+      },
+      {
+       "k": "Mechanical damage",
+       "t": "Hairs fracture at different lengths; follicles bleed or become distorted."
+      },
+      {
+       "k": "Regrowth",
+       "t": "Follicles are not destroyed early on, so hair regrows if pulling stops; chronic pulling can scar."
+      }
+     ]
+    },
+    {
+     "histo": [
+      "Rarely needed: trichomalacia, pigment casts, empty follicles and increased catagen hairs without inflammation."
+     ]
+    }
+   ],
+   "short": "Pathophysiology"
   },
   {
    "id": "clinical-features",
@@ -44,6 +98,19 @@
      "fig": {
       "dermnet": "m3w3:B01"
      }
+    },
+    {
+     "h": "Special groups"
+    },
+    {
+     "ul": [
+      {
+       "t": "**Children**",
+       "sub": [
+        "Early-onset pulling often settles; support parents without punishment."
+       ]
+      }
+     ]
     }
    ]
   },
@@ -133,6 +200,29 @@
    "short": "Red flags"
   },
   {
+   "id": "complications",
+   "title": "Complications and prognosis",
+   "blocks": [
+    {
+     "h": "Complications"
+    },
+    {
+     "ul": [
+      "Permanent alopecia, infection, shame and social isolation; trichobezoar."
+     ]
+    },
+    {
+     "h": "Prognosis"
+    },
+    {
+     "ul": [
+      "Chronic and fluctuating in adults; good outcomes with habit reversal therapy."
+     ]
+    }
+   ],
+   "short": "Complications"
+  },
+  {
    "id": "pearls",
    "title": "Prescriber pearls (UK pharmacist IP)",
    "blocks": [
@@ -175,5 +265,10 @@
    "url": "https://emedicine.medscape.com/article/1071854-overview"
   }
  ],
- "see_also": []
+ "see_also": [
+  "alopecia-areata",
+  "tinea",
+  "scarring-alopecia",
+  "telogen-effluvium"
+ ]
 }

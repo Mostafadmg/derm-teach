@@ -1,10 +1,11 @@
 {
  "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
  "key_facts": [
-  "Red, scaly, coin-shaped plaques on the face, ears or scalp that leave scarring, pigment change or bald patches.",
-  "Autoimmune interface dermatitis triggered by UV; smoking makes it worse and blunts hydroxychloroquine.",
-  "Broad-spectrum sunscreen and sun avoidance, stop smoking, potent topical or intralesional steroid; specialist hydroxychloroquine.",
-  "Scarring alopecia, systemic lupus (screen symptoms and bloods), and SCC in long-standing scars."
+  "**Discoid lupus erythematosus (DLE)** is chronic cutaneous lupus: scaly red plaques that heal with **scarring, atrophy and pigment change**.",
+  "Face, ears (conchal bowl), scalp (scarring alopecia); photosensitive; follicular plugging ('carpet-tack' scale).",
+  "About 5–10% progress to systemic lupus; check FBC, ANA, ENA, urine.",
+  "Strict photoprotection, **stop smoking**, potent topical steroid; **hydroxychloroquine** via dermatology.",
+  "Long-standing scars can develop SCC."
  ],
  "sections": [
   {
@@ -12,6 +13,22 @@
    "title": "Overview",
    "blocks": [
     "**Discoid lupus erythematosus** is the most common form of **chronic cutaneous lupus**. Scarring inflammatory plaques favour head and neck; scalp disease causes **scarring alopecia**. Most patients have skin-limited disease, but a minority evolve toward systemic lupus erythematosus (SLE). Module 4 Formative Quiz-1 answer was DLE (vs alopecia areata, LPP, tinea capitis, trichotillomania)."
+   ]
+  },
+  {
+   "id": "epidemiology",
+   "title": "Epidemiology",
+   "blocks": [
+    {
+     "ul": [
+      {
+       "t": "**Who**",
+       "sub": [
+        "Women 20–40; more common and more scarring in people of African descent."
+       ]
+      }
+     ]
+    }
    ]
   },
   {
@@ -24,9 +41,50 @@
       "UV exposure flares lesions.",
       "Risk factors emphasised in teaching: **darker skin phototypes** have higher rates of DLE and more disfiguring dyspigmentation/scarring; smoking associated with DLE activity/treatment resistance; female predominance overall (quiz noted male sex is *not* the higher-risk factor)."
      ]
+    },
+    {
+     "h": "Myths to address"
+    },
+    {
+     "ul": [
+      "**\"It's just eczema on the face\"**: scarring, follicular plugs and ear involvement point to DLE."
+     ]
     }
    ],
    "short": "Aetiology"
+  },
+  {
+   "id": "pathophysiology",
+   "title": "Pathophysiology and pathology",
+   "blocks": [
+    "DLE is an **interface attack** on basal keratinocytes and hair follicles, triggered by UV.",
+    {
+     "mech": [
+      {
+       "k": "UV injury",
+       "t": "UV causes keratinocyte apoptosis and exposure of nuclear antigens."
+      },
+      {
+       "k": "Interferon response",
+       "t": "Plasmacytoid dendritic cells produce type I interferon, recruiting cytotoxic T cells."
+      },
+      {
+       "k": "Interface damage",
+       "t": "T cells attack the basal layer and follicular epithelium."
+      },
+      {
+       "k": "Scarring",
+       "t": "Follicles are destroyed, leaving permanent scarring alopecia and atrophy."
+      }
+     ]
+    },
+    {
+     "histo": [
+      "Interface dermatitis, follicular plugging, thickened basement membrane, perivascular and periadnexal lymphocytes, dermal mucin; DIF: lupus band."
+     ]
+    }
+   ],
+   "short": "Pathophysiology"
   },
   {
    "id": "clinical-features",
@@ -62,6 +120,19 @@
      "fig": {
       "dermnet": "m4w1:F01"
      }
+    },
+    {
+     "h": "Special groups"
+    },
+    {
+     "ul": [
+      {
+       "t": "**Skin of colour**",
+       "sub": [
+        "Marked hyper- and depigmentation; high scarring risk."
+       ]
+      }
+     ]
     }
    ]
   },
@@ -173,6 +244,29 @@
    "short": "Red flags"
   },
   {
+   "id": "complications",
+   "title": "Complications and prognosis",
+   "blocks": [
+    {
+     "h": "Complications"
+    },
+    {
+     "ul": [
+      "Scarring alopecia, disfigurement, SCC in scars, progression to SLE."
+     ]
+    },
+    {
+     "h": "Prognosis"
+    },
+    {
+     "ul": [
+      "Chronic; early treatment limits scarring."
+     ]
+    }
+   ],
+   "short": "Complications"
+  },
+  {
    "id": "pearls",
    "title": "Prescriber pearls (UK pharmacist IP)",
    "blocks": [
@@ -215,5 +309,11 @@
    "url": "https://emedicine.medscape.com/article/1065529-overview"
   }
  ],
- "see_also": []
+ "see_also": [
+  "scarring-alopecia",
+  "dermatomyositis",
+  "polymorphic-light-eruption",
+  "sarcoidosis",
+  "psoriasis"
+ ]
 }
