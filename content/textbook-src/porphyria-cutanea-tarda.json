@@ -1,0 +1,65 @@
+{
+ "kf": [
+  "**Porphyria cutanea tarda (PCT)** is the commonest porphyria: blisters, erosions, **skin fragility**, scars and **milia** on the backs of the hands.",
+  "Also facial hypertrichosis and hyperpigmentation; urine may be dark.",
+  "Triggers: **alcohol, oestrogens, hepatitis C, HIV, iron overload (haemochromatosis)**, smoking.",
+  "Confirm: plasma and urine porphyrins; check ferritin, LFT, hepatitis C, HFE genotype.",
+  "Specialist: venesection (iron reduction) or low-dose hydroxychloroquine; remove triggers; visible-light protection."
+ ],
+ "epi": [
+  {
+   "t": "**Who**",
+   "sub": [
+    "Adults over 40; about 1 in 10,000–25,000; familial form in about a fifth."
+   ]
+  }
+ ],
+ "myths": [
+  "**\"Sunscreen protects\"**: ordinary sunscreens do not block the visible light (around 400 nm) that excites porphyrins."
+ ],
+ "patho_lead": "Reduced activity of **uroporphyrinogen decarboxylase** in the liver lets **light-sensitive porphyrins** build up in the skin.",
+ "mech": [
+  {
+   "k": "Enzyme inhibition",
+   "t": "Iron and oxidative stress (alcohol, hepatitis C, oestrogen) inhibit hepatic UROD."
+  },
+  {
+   "k": "Porphyrin accumulation",
+   "t": "Uroporphyrins accumulate in the liver, blood and skin."
+  },
+  {
+   "k": "Phototoxicity",
+   "t": "Visible light (about 400–410 nm) excites porphyrins, generating reactive oxygen that damages the dermo-epidermal junction."
+  },
+  {
+   "k": "Fragility and blisters",
+   "t": "Minor trauma causes subepidermal blisters that heal with scars and milia.",
+   "img": "v4-milia-section.jpg",
+   "cap": "Milia form as blisters heal: tiny keratin cysts just beneath the epidermis."
+  }
+ ],
+ "histo": [
+  "Cell-poor subepidermal blister with 'festooning' of dermal papillae; caterpillar bodies."
+ ],
+ "special": [
+  {
+   "t": "**Pseudoporphyria**",
+   "sub": [
+    "Same skin signs with normal porphyrins: naproxen, tetracyclines, furosemide, sunbeds, dialysis."
+   ]
+  }
+ ],
+ "comp": [
+  "Scarring, cirrhosis, hepatocellular carcinoma (in liver disease)."
+ ],
+ "prog": [
+  "Remits with iron depletion or hydroxychloroquine; relapse if triggers return."
+ ],
+ "see_also": [
+  "milia",
+  "skin-fragility-dermatoporosis",
+  "drug-photosensitivity",
+  "epidermolysis-bullosa",
+  "bullous-pemphigoid"
+ ]
+}

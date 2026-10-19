@@ -1,10 +1,11 @@
 {
  "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
  "key_facts": [
-  "Symmetrical palpable purpura, sometimes with blisters or small ulcers, on the shins and ankles after a new drug or infection.",
-  "Immune complexes lodge in small skin vessels, recruit neutrophils and break down (leukocytoclasis).",
-  "Stop the trigger; rest, elevation and compression if no arterial disease; analgesia (not the culprit NSAID); dipstick and bloods; refer if systemic or persistent.",
-  "Kidney involvement; IgA vasculitis in children; vasculitis that is part of lupus, ANCA disease or cryoglobulinaemia."
+  "**Cutaneous small-vessel (leukocytoclastic) vasculitis** presents as **palpable purpura** on the lower legs, often in crops.",
+  "Causes: drugs, infection (strep, hepatitis B/C), autoimmune disease, malignancy; up to half idiopathic.",
+  "Look for systemic disease: urine dipstick and BP, FBC, U&E, LFT, CRP, ANA, ANCA, complement, hepatitis serology, cryoglobulins.",
+  "Biopsy an early lesion (<48 h) for histology and direct IF.",
+  "Stop culprit drug, rest, elevation, compression; refer if systemic or recurrent."
  ],
  "sections": [
   {
@@ -15,9 +16,63 @@
    ]
   },
   {
+   "id": "epidemiology",
+   "title": "Epidemiology",
+   "blocks": [
+    {
+     "ul": [
+      {
+       "t": "**Who**",
+       "sub": [
+        "Any age; adults most often."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "aetiology",
+   "title": "Aetiology: causes and risk factors",
+   "blocks": [
+    {
+     "h": "Myths to address"
+    },
+    {
+     "ul": [
+      "**\"Purpura is always low platelets\"**: palpable purpura with normal platelets suggests vasculitis."
+     ]
+    }
+   ],
+   "short": "Aetiology"
+  },
+  {
    "id": "pathophysiology",
    "title": "Pathophysiology and pathology",
    "blocks": [
+    "Immune complexes trigger **neutrophils to destroy small vessels**.",
+    {
+     "mech": [
+      {
+       "k": "Antigen",
+       "t": "A drug, infection or autoantigen forms immune complexes."
+      },
+      {
+       "k": "Deposition",
+       "t": "Complexes lodge in post-capillary venules, especially in dependent legs."
+      },
+      {
+       "k": "Neutrophil damage",
+       "t": "Complement attracts neutrophils that fragment (leukocytoclasis) and damage vessels.",
+       "img": "v4-lcv-vessel.jpg",
+       "caption": "Immune complexes and fragmenting neutrophils damage the vessel wall; red cells leak out."
+      },
+      {
+       "k": "Purpura",
+       "t": "Red cells leak, causing raised purpura that does not blanch."
+      }
+     ]
+    },
     {
      "h": "How it is caused"
     },
@@ -26,6 +81,11 @@
      "ul": [
       "Drug-induced LCV usually starts **7–21 days** after a new drug (sooner on re-exposure; this case says \"a few days\").",
       "**Why the legs?**: **gravity/hydrostatic pressure** and **venous stasis** in dependent limbs → slower flow and turbulence in post-capillary venules; so immune complexes deposit more readily; plus cooler peripheral temperature; and tight footwear/socks — the same reason it appears on the buttocks/back in people lying in bed; That is why **bed rest, elevation and support hosiery** help"
+     ]
+    },
+    {
+     "histo": [
+      "Fibrinoid necrosis of small vessels, neutrophils with nuclear dust, red cell extravasation."
      ]
     }
    ],
@@ -119,6 +179,29 @@
    "short": "Red flags"
   },
   {
+   "id": "complications",
+   "title": "Complications and prognosis",
+   "blocks": [
+    {
+     "h": "Complications"
+    },
+    {
+     "ul": [
+      "Ulceration; systemic vasculitis (kidney, gut, nerves)."
+     ]
+    },
+    {
+     "h": "Prognosis"
+    },
+    {
+     "ul": [
+      "Single episodes settle in weeks; chronic forms recur."
+     ]
+    }
+   ],
+   "short": "Complications"
+  },
+  {
    "id": "pearls",
    "title": "Prescriber pearls (UK pharmacist IP)",
    "blocks": [
@@ -160,5 +243,11 @@
    "url": "https://emedicine.medscape.com/article/1083719-overview"
   }
  ],
- "see_also": []
+ "see_also": [
+  "iga-vasculitis",
+  "urticarial-vasculitis",
+  "cutaneous-vasculitis-approach",
+  "purpura-differentials",
+  "polyarteritis-nodosa"
+ ]
 }

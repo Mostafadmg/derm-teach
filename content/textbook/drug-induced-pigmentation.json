@@ -1,10 +1,11 @@
 {
  "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
  "key_facts": [
-  "Blue-grey or slate discolouration of the face or sun-exposed skin in someone on long-term amiodarone or minocycline.",
-  "Drug or drug–melanin complexes deposited in the dermis, often worsened by UV light.",
-  "Medication review with the prescriber (amiodarone is often essential); sun protection; explain fading takes months to years.",
-  "Other amiodarone toxicity (thyroid, liver, lung, eyes); Addison’s disease or haemochromatosis as non-drug causes."
+  "Drugs cause about 10–20% of acquired hyperpigmentation; colours and sites are clues.",
+  "**Minocycline**: blue-grey on scars, shins and sclera; **amiodarone**: slate-grey on sun-exposed face; **hydroxychloroquine**: grey-blue shins and palate.",
+  "Chemotherapy (bleomycin flagellate streaks, 5-FU), zidovudine (nails), clofazimine (red-brown), heavy metals (argyria).",
+  "Fixed drug eruption leaves round grey-brown patches at the same sites.",
+  "Stop or switch the drug with the prescriber; pigmentation fades slowly (months–years) or may be permanent; photoprotection."
  ],
  "sections": [
   {
@@ -20,9 +21,45 @@
    ]
   },
   {
+   "id": "aetiology",
+   "title": "Aetiology: causes and risk factors",
+   "blocks": [
+    {
+     "h": "Myths to address"
+    },
+    {
+     "ul": [
+      "**\"It'll go as soon as the drug stops\"**: dermal pigment can persist for years."
+     ]
+    }
+   ],
+   "short": "Aetiology"
+  },
+  {
    "id": "pathophysiology",
    "title": "Pathophysiology and pathology",
    "blocks": [
+    "Drugs pigment skin by **increasing melanin, depositing themselves, or forming drug–iron–melanin complexes**.",
+    {
+     "mech": [
+      {
+       "k": "Increased melanin",
+       "t": "Some drugs stimulate melanocytes (oral contraceptives in melasma, chemotherapy)."
+      },
+      {
+       "k": "Drug deposition",
+       "t": "Drug or metabolites deposit in the dermis (amiodarone lipofuscin, gold, silver)."
+      },
+      {
+       "k": "Complexes",
+       "t": "Drug, iron and melanin bind together in dermal macrophages (minocycline)."
+      },
+      {
+       "k": "Post-inflammatory",
+       "t": "Inflammatory reactions leave melanin in the dermis (fixed drug eruption)."
+      }
+     ]
+    },
     {
      "h": "How it is caused"
     },
@@ -124,6 +161,29 @@
    "short": "Red flags"
   },
   {
+   "id": "complications",
+   "title": "Complications and prognosis",
+   "blocks": [
+    {
+     "h": "Complications"
+    },
+    {
+     "ul": [
+      "Cosmetic distress; marker of cumulative dose (amiodarone)."
+     ]
+    },
+    {
+     "h": "Prognosis"
+    },
+    {
+     "ul": [
+      "Variable; laser may help some (minocycline)."
+     ]
+    }
+   ],
+   "short": "Complications"
+  },
+  {
    "id": "pearls",
    "title": "Prescriber pearls (UK pharmacist IP)",
    "blocks": [
@@ -166,5 +226,11 @@
    "url": "https://emedicine.medscape.com/article/1069686-overview"
   }
  ],
- "see_also": []
+ "see_also": [
+  "fixed-drug-eruption",
+  "melasma-facial-melanosis",
+  "drug-photosensitivity",
+  "contact-lichenoid-pigmentation",
+  "addisons-disease"
+ ]
 }

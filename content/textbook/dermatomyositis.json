@@ -1,10 +1,11 @@
 {
  "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
  "key_facts": [
-  "Violaceous eyelids, scaly papules over the knuckles, a red V or shawl on the chest and back, ragged cuticles, with or without proximal muscle weakness.",
-  "Autoimmune damage to small vessels of skin and muscle; myositis-specific antibodies predict cancer (TIF1-γ, NXP-2) or lung disease (MDA5).",
-  "CK, ANA and myositis antibodies, urgent rheumatology/dermatology referral; age-appropriate cancer screening; strict photoprotection.",
-  "Underlying malignancy (ovary, lung, gut, breast); interstitial lung disease; swallowing and respiratory muscle weakness."
+  "**Dermatomyositis** is an autoimmune disease of skin and muscle: **heliotrope** eyelids, **Gottron papules**, shawl and V signs, nailfold changes.",
+  "Proximal muscle weakness (may be absent: amyopathic DM); check CK, myositis antibodies, ANA.",
+  "Adults: strongly linked to **cancer** (ovary, lung, breast, GI, nasopharynx): screen at diagnosis and for 3 years.",
+  "Anti-MDA5 disease: rapidly progressive interstitial lung disease and skin ulcers.",
+  "Specialist treatment: photoprotection, steroids, steroid-sparing agents (methotrexate, MMF), IVIG, hydroxychloroquine for skin."
  ],
  "sections": [
   {
@@ -15,9 +16,61 @@
    ]
   },
   {
+   "id": "epidemiology",
+   "title": "Epidemiology",
+   "blocks": [
+    {
+     "ul": [
+      {
+       "t": "**Who**",
+       "sub": [
+        "Two peaks: children 5–15 and adults 40–60; women twice as often."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "aetiology",
+   "title": "Aetiology: causes and risk factors",
+   "blocks": [
+    {
+     "h": "Myths to address"
+    },
+    {
+     "ul": [
+      "**\"Normal CK excludes dermatomyositis\"**: amyopathic disease has typical skin signs with normal muscles."
+     ]
+    }
+   ],
+   "short": "Aetiology"
+  },
+  {
    "id": "pathophysiology",
    "title": "Pathophysiology and pathology",
    "blocks": [
+    "DM is an **interferon-driven attack** on small blood vessels in skin and muscle.",
+    {
+     "mech": [
+      {
+       "k": "Autoantibodies",
+       "t": "Myositis-specific antibodies (Mi-2, TIF1-γ, NXP2, MDA5) mark subtypes and cancer risk."
+      },
+      {
+       "k": "Type I interferon",
+       "t": "Interferon signatures drive inflammation and complement activation."
+      },
+      {
+       "k": "Capillary damage",
+       "t": "Complement destroys capillaries (nailfold dilated loops, muscle perifascicular atrophy)."
+      },
+      {
+       "k": "Photosensitive interface dermatitis",
+       "t": "UV-exposed skin shows violaceous erythema (shawl, V sign)."
+      }
+     ]
+    },
     {
      "h": "How it is caused"
     },
@@ -61,6 +114,11 @@
        ]
       ]
      }
+    },
+    {
+     "histo": [
+      "Interface dermatitis with dermal mucin (like lupus); muscle biopsy: perifascicular atrophy."
+     ]
     }
    ],
    "short": "Pathophysiology"
@@ -84,6 +142,19 @@
      "fig": {
       "dermnet": "m1w5:A02"
      }
+    },
+    {
+     "h": "Special groups"
+    },
+    {
+     "ul": [
+      {
+       "t": "**Juvenile DM**",
+       "sub": [
+        "Calcinosis and vasculopathy; no cancer link."
+       ]
+      }
+     ]
     }
    ]
   },
@@ -283,6 +354,29 @@
    "short": "Red flags"
   },
   {
+   "id": "complications",
+   "title": "Complications and prognosis",
+   "blocks": [
+    {
+     "h": "Complications"
+    },
+    {
+     "ul": [
+      "Cancer, interstitial lung disease, dysphagia, aspiration, calcinosis, cardiac involvement."
+     ]
+    },
+    {
+     "h": "Prognosis"
+    },
+    {
+     "ul": [
+      "Chronic; survival depends on cancer and lung disease."
+     ]
+    }
+   ],
+   "short": "Complications"
+  },
+  {
    "id": "pearls",
    "title": "Prescriber pearls (UK pharmacist IP)",
    "blocks": [
@@ -410,5 +504,10 @@
    "url": "https://emedicine.medscape.com/article/332783-overview"
   }
  ],
- "see_also": []
+ "see_also": [
+  "discoid-lupus",
+  "lung-cancer-skin-signs",
+  "photoageing",
+  "polymorphic-light-eruption"
+ ]
 }

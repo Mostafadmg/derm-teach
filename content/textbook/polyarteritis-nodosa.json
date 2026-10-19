@@ -1,10 +1,11 @@
 {
  "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
  "key_facts": [
-  "Tender subcutaneous nodules along vessels, livedo racemosa and painful ulcers on the lower legs.",
-  "Necrotising inflammation of medium-sized arteries; hepatitis B, streptococcal infection and some drugs are triggers.",
-  "BP, urine, renal function, hepatitis B/C serology; deep (incisional) biopsy; refer to rheumatology/dermatology; specialist immunosuppression.",
-  "Systemic PAN: mononeuritis multiplex, abdominal pain, testicular pain, hypertension, renal infarcts."
+  "**Polyarteritis nodosa (PAN)** is a necrotising vasculitis of **medium-sized arteries**.",
+  "Skin: tender subcutaneous nodules, **livedo racemosa**, ulcers, digital ischaemia; cutaneous PAN may be skin-limited.",
+  "Systemic PAN: hypertension, renal infarcts, mononeuritis multiplex, abdominal pain, weight loss; **ANCA negative**.",
+  "Associated with hepatitis B; deep incisional biopsy of a nodule needed.",
+  "Specialist treatment: steroids ± cyclophosphamide; antivirals for HBV-PAN."
  ],
  "sections": [
   {
@@ -21,9 +22,61 @@
    ]
   },
   {
+   "id": "epidemiology",
+   "title": "Epidemiology",
+   "blocks": [
+    {
+     "ul": [
+      {
+       "t": "**Who**",
+       "sub": [
+        "Rare; adults 40–60; children with cutaneous PAN after streptococcal infection."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "aetiology",
+   "title": "Aetiology: causes and risk factors",
+   "blocks": [
+    {
+     "h": "Myths to address"
+    },
+    {
+     "ul": [
+      "**\"Normal ANCA excludes vasculitis\"**: PAN is ANCA-negative."
+     ]
+    }
+   ],
+   "short": "Aetiology"
+  },
+  {
    "id": "pathophysiology",
    "title": "Pathophysiology and pathology",
    "blocks": [
+    "PAN inflames and destroys the **walls of medium arteries**, causing aneurysms and infarcts.",
+    {
+     "mech": [
+      {
+       "k": "Trigger",
+       "t": "Hepatitis B immune complexes or unknown triggers."
+      },
+      {
+       "k": "Transmural necrosis",
+       "t": "Fibrinoid necrosis of the full arterial wall at the dermo-subcutaneous junction."
+      },
+      {
+       "k": "Aneurysms and thrombosis",
+       "t": "Weakened walls balloon (microaneurysms); thrombosis causes infarction."
+      },
+      {
+       "k": "Livedo and ulcers",
+       "t": "Patchy arterial blockage gives broken livedo, nodules and ulcers."
+      }
+     ]
+    },
     {
      "h": "How it is caused"
     },
@@ -36,6 +89,11 @@
       "testes → orchitis",
       "coronary arteries",
       "skin → nodules, livedo racemosa, ulcers, digital gangrene."
+     ]
+    },
+    {
+     "histo": [
+      "Necrotising arteritis of medium vessels in deep dermis/subcutis; deep biopsy required."
      ]
     }
    ],
@@ -184,6 +242,29 @@
    "short": "Red flags"
   },
   {
+   "id": "complications",
+   "title": "Complications and prognosis",
+   "blocks": [
+    {
+     "h": "Complications"
+    },
+    {
+     "ul": [
+      "Renal failure, hypertension, bowel infarction, stroke, neuropathy."
+     ]
+    },
+    {
+     "h": "Prognosis"
+    },
+    {
+     "ul": [
+      "Cutaneous PAN is chronic but benign; systemic PAN is serious but often remits with treatment."
+     ]
+    }
+   ],
+   "short": "Complications"
+  },
+  {
    "id": "pearls",
    "title": "Prescriber pearls (UK pharmacist IP)",
    "blocks": [
@@ -226,5 +307,10 @@
    "url": "https://emedicine.medscape.com/article/330717-overview"
   }
  ],
- "see_also": []
+ "see_also": [
+  "livedo-reticularis",
+  "leukocytoclastic-vasculitis",
+  "cutaneous-vasculitis-approach",
+  "erythema-nodosum"
+ ]
 }

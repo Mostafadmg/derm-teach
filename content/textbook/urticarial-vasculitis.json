@@ -1,10 +1,11 @@
 {
  "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
  "key_facts": [
-  "‘Urticaria’ where **each wheal lasts > 24 h**, burns or hurts, and leaves **bruising or brown staining**.",
-  "**Immune-complex small-vessel vasculitis**; low C3 / C4 and anti-C1q in the hypocomplementaemic form.",
-  "Mark a wheal to time it; complement, ESR / CRP, urine, ANA; **refer for biopsy**; antihistamines help itch, not the vasculitis.",
-  "**HUVS** with lupus, kidney, lung (COPD-like) or eye involvement."
+  "**Urticarial vasculitis** looks like urticaria, but wheals last **over 24 hours**, burn more than itch, and leave **bruising**.",
+  "Normocomplementaemic (often skin-limited) or **hypocomplementaemic** (linked to lupus, systemic disease).",
+  "Check C3, C4, C1q, ANA, urine, ESR/CRP; biopsy confirms vasculitis.",
+  "Antihistamines help less than in urticaria; specialist options include dapsone, colchicine, hydroxychloroquine.",
+  "Hypocomplementaemic UV: watch for lung (COPD), kidney and eye disease."
  ],
  "sections": [
   {
@@ -21,9 +22,59 @@
    ]
   },
   {
+   "id": "epidemiology",
+   "title": "Epidemiology",
+   "blocks": [
+    {
+     "ul": [
+      {
+       "t": "**Who**",
+       "sub": [
+        "Uncommon; middle-aged women most; about 5% of chronic 'urticaria' cases."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "aetiology",
+   "title": "Aetiology: causes and risk factors",
+   "blocks": [
+    {
+     "h": "Myths to address"
+    },
+    {
+     "ul": [
+      "**\"All wheals are urticaria\"**: wheals lasting over a day with bruising need biopsy."
+     ]
+    }
+   ],
+   "short": "Aetiology"
+  },
+  {
    "id": "pathophysiology",
    "title": "Pathophysiology and pathology",
    "blocks": [
+    "Immune complexes cause **vasculitis** in vessels beneath a wheal.",
+    {
+     "mech": [
+      {
+       "k": "Immune complexes",
+       "t": "Complexes activate complement (low C3/C4/C1q in hypocomplementaemic disease)."
+      },
+      {
+       "k": "Mast cell and neutrophil activation",
+       "t": "C5a degranulates mast cells (wheal) and attracts neutrophils (vasculitis)."
+      },
+      {
+       "k": "Persistent lesion",
+       "t": "Vessel damage makes wheals last over 24 hours and leave purpura.",
+       "img": "v3-wheal-pen-circle.jpg",
+       "caption": "Circling a wheal with a pen shows how long each lasts."
+      }
+     ]
+    },
     {
      "h": "How it is caused"
     },
@@ -36,6 +87,11 @@
       "**malignancy** (haematological, solid)",
       "**infection** (hepatitis B/C, EBV, Lyme)",
       "idiopathic."
+     ]
+    },
+    {
+     "histo": [
+      "Leukocytoclastic vasculitis beneath an urticarial lesion; DIF may show immunoglobulin and complement in vessels."
      ]
     }
    ],
@@ -97,13 +153,6 @@
     {
      "fig": {
       "dermnet": "m1w4:C01"
-     }
-    },
-    {
-     "fig": {
-      "ai": "v3-wheal-pen-circle.jpg",
-      "caption": "Circle a wheal with a pen and photograph it daily. An ordinary wheal is gone within 24 hours; urticarial vasculitis persists for days and leaves a bruise-like stain.",
-      "alt": "Three days of a pen-circled wheal ending as a bruise"
      }
     },
     {
@@ -259,6 +308,29 @@
    "short": "Red flags"
   },
   {
+   "id": "complications",
+   "title": "Complications and prognosis",
+   "blocks": [
+    {
+     "h": "Complications"
+    },
+    {
+     "ul": [
+      "Angioedema, arthritis, glomerulonephritis, COPD, uveitis (hypocomplementaemic)."
+     ]
+    },
+    {
+     "h": "Prognosis"
+    },
+    {
+     "ul": [
+      "Variable; may last years."
+     ]
+    }
+   ],
+   "short": "Complications"
+  },
+  {
    "id": "pearls",
    "title": "Prescriber pearls (UK pharmacist IP)",
    "blocks": [
@@ -296,5 +368,10 @@
    "url": "https://emedicine.medscape.com/article/1085087-overview"
   }
  ],
- "see_also": []
+ "see_also": [
+  "urticaria-angioedema",
+  "leukocytoclastic-vasculitis",
+  "discoid-lupus",
+  "cutaneous-vasculitis-approach"
+ ]
 }

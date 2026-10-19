@@ -1,10 +1,11 @@
 {
  "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
  "key_facts": [
-  "Non-blanching red or purple spots or bruises, in a child or an adult.",
-  "Low or faulty platelets, clotting problems, fragile vessels (age, steroids, scurvy) or vessel inflammation.",
-  "Glass test; is the patient unwell? FBC and film, clotting, U&E, LFT, CRP, urine; same-day if unwell or platelets low.",
-  "Meningococcal sepsis, leukaemia, ITP, DIC, cryoglobulinaemic or ANCA vasculitis, non-accidental injury."
+  "**Purpura** is bleeding into the skin that does **not blanch**: petechiae (<2 mm), purpura (2–10 mm), ecchymoses (>1 cm).",
+  "**Non-blanching rash in an unwell or febrile child: meningococcal sepsis until proven otherwise** (NICE NG240: benzylpenicillin, 999).",
+  "Flat purpura: platelets, clotting, vessel fragility (steroids, age, scurvy); palpable purpura: vasculitis.",
+  "Tests: FBC and film, clotting, U&E, LFT, CRP, blood cultures if febrile; urine and BP for vasculitis.",
+  "Consider leukaemia (petechiae, pallor, bone pain), ITP, anticoagulants and non-accidental injury in children."
  ],
  "sections": [
   {
@@ -56,9 +57,47 @@
        ]
       ]
      }
+    },
+    {
+     "h": "Myths to address"
+    },
+    {
+     "ul": [
+      "**\"The glass test is negative so it's fine\"**: early meningococcal rash may blanch; judge the whole child."
+     ]
     }
    ],
    "short": "Aetiology"
+  },
+  {
+   "id": "pathophysiology",
+   "title": "Pathophysiology and pathology",
+   "blocks": [
+    "Purpura means **red cells outside vessels**: from low platelets, clotting defects, fragile or inflamed vessels.",
+    {
+     "mech": [
+      {
+       "k": "Platelet problem",
+       "t": "Low or dysfunctional platelets cause petechiae and mucosal bleeding."
+      },
+      {
+       "k": "Coagulation problem",
+       "t": "Clotting factor deficiency causes larger bruises and deep bleeds."
+      },
+      {
+       "k": "Vessel fragility",
+       "t": "Thin dermis (age, steroids) or weak collagen (scurvy) lets vessels tear: senile purpura."
+      },
+      {
+       "k": "Vasculitis",
+       "t": "Inflamed vessels leak red cells, causing raised palpable purpura.",
+       "img": "v4-lcv-vessel.jpg",
+       "caption": "Vasculitis: neutrophils damage small vessels and red cells leak into the dermis."
+      }
+     ]
+    }
+   ],
+   "short": "Pathophysiology"
   },
   {
    "id": "clinical-features",
@@ -131,6 +170,29 @@
    "short": "Red flags"
   },
   {
+   "id": "complications",
+   "title": "Complications and prognosis",
+   "blocks": [
+    {
+     "h": "Complications"
+    },
+    {
+     "ul": [
+      "Depends on cause: sepsis, haemorrhage, organ damage."
+     ]
+    },
+    {
+     "h": "Prognosis"
+    },
+    {
+     "ul": [
+      "Depends on cause."
+     ]
+    }
+   ],
+   "short": "Complications"
+  },
+  {
    "id": "pearls",
    "title": "Prescriber pearls (UK pharmacist IP)",
    "blocks": [
@@ -166,5 +228,11 @@
   }
  ],
  "references": [],
- "see_also": []
+ "see_also": [
+  "iga-vasculitis",
+  "leukocytoclastic-vasculitis",
+  "skin-fragility-dermatoporosis",
+  "cutaneous-vasculitis-approach",
+  "dengue"
+ ]
 }

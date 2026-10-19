@@ -1,0 +1,65 @@
+{
+ "kf": [
+  "**SJS/TEN** are severe drug reactions with widespread keratinocyte death: **SJS <10%**, overlap 10–30%, **TEN >30%** body surface detachment.",
+  "Prodrome of fever and sore eyes/throat, then painful dusky macules, atypical flat targets, blisters, **Nikolsky sign** and **≥2 mucosal sites**.",
+  "Culprits started **4–28 days** earlier: allopurinol, aromatic anticonvulsants, lamotrigine, sulfonamides (co-trimoxazole), nevirapine, oxicam NSAIDs.",
+  "Stop all non-essential drugs; **999 / same-day** transfer to a burns or dermatology intensive unit; ophthalmology within 24 h.",
+  "SCORTEN predicts mortality (about 10% in SJS, 30%+ in TEN); record the allergy and Yellow Card."
+ ],
+ "epi": [
+  {
+   "t": "**Who**",
+   "sub": [
+    "Rare (1–6 per million per year); higher risk with HIV, lupus, cancer and HLA-B*15:02 (carbamazepine in South-East Asian people)."
+   ]
+  }
+ ],
+ "myths": [
+  "**\"Blisters on lips and eyes are just cold sores\"**: mucositis with a new drug and skin pain is SJS until proven otherwise."
+ ],
+ "patho_lead": "Drug-specific **cytotoxic T cells** trigger mass **keratinocyte apoptosis**, so the whole epidermis peels away.",
+ "mech": [
+  {
+   "k": "Drug–HLA presentation",
+   "t": "The drug binds specific HLA molecules and activates CD8+ T cells and NK cells."
+  },
+  {
+   "k": "Cytotoxic mediators",
+   "t": "Granulysin, perforin/granzyme and Fas–FasL kill keratinocytes."
+  },
+  {
+   "k": "Full-thickness necrosis",
+   "t": "The entire epidermis dies and separates from the dermis.",
+   "img": "v4-ten-necrosis.jpg",
+   "cap": "Normal skin (left) versus toxic epidermal necrolysis (right): full-thickness epidermal necrosis detaching as a sheet with sparse dermal inflammation."
+  },
+  {
+   "k": "Mucosal involvement",
+   "t": "Eyes, mouth, genitals and airway are affected the same way, causing scarring."
+  }
+ ],
+ "histo": [
+  "Full-thickness epidermal necrosis with sparse dermal inflammation; frozen section can distinguish from SSSS (split high in epidermis)."
+ ],
+ "special": [
+  {
+   "t": "**Children**",
+   "sub": [
+    "Mycoplasma causes mucositis-predominant disease (MIRM); also consider SSSS (painful red skin, superficial peeling, mucosa spared)."
+   ]
+  }
+ ],
+ "comp": [
+  "Sepsis, fluid loss, respiratory failure; eye scarring and blindness, strictures, nail and hair loss, pigmentation; death."
+ ],
+ "prog": [
+  "Mortality depends on SCORTEN; survivors often have long-term eye and skin problems."
+ ],
+ "see_also": [
+  "fixed-drug-eruption",
+  "agep",
+  "dress",
+  "erythema-multiforme",
+  "drug-eruption-approach"
+ ]
+}

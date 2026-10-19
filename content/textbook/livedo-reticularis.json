@@ -1,10 +1,11 @@
 {
  "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
  "key_facts": [
-  "A purple-blue lace-like pattern on the legs, arms or trunk.",
-  "Slowed blood flow in the venous plexus around each skin ‘cone’: physiological in cold, or due to vessel blockage, hyperviscosity or vasculitis.",
-  "Decide: complete and fading (reassure) or broken and fixed (investigate: FBC, clotting, antiphospholipid antibodies, ANA, cryoglobulins, lipids).",
-  "Antiphospholipid syndrome, Sneddon syndrome (stroke), cholesterol emboli after angiography, PAN, calciphylaxis."
+  "**Livedo reticularis** is a violaceous, net-like (reticulate) mottling of the skin from sluggish blood flow.",
+  "Physiological (cold, complete regular rings, fades on warming) versus pathological (**livedo racemosa**: broken, irregular, persistent).",
+  "Pathological causes: antiphospholipid syndrome, vasculitis (PAN), cholesterol emboli, cryoglobulins, calciphylaxis, drugs (amantadine).",
+  "Investigate persistent or broken livedo: FBC, clotting, antiphospholipid antibodies, ANA, cryoglobulins, renal function.",
+  "Livedo plus stroke: Sneddon syndrome (antiphospholipid)."
  ],
  "sections": [
   {
@@ -22,9 +23,57 @@
    ]
   },
   {
+   "id": "epidemiology",
+   "title": "Epidemiology",
+   "blocks": [
+    {
+     "ul": [
+      {
+       "t": "**Who**",
+       "sub": [
+        "Physiological cutis marmorata common in infants and young women."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "aetiology",
+   "title": "Aetiology: causes and risk factors",
+   "blocks": [
+    {
+     "h": "Myths to address"
+    },
+    {
+     "ul": [
+      "**\"Mottled skin is always harmless\"**: persistent, broken livedo may signal clotting or vasculitis."
+     ]
+    }
+   ],
+   "short": "Aetiology"
+  },
+  {
    "id": "pathophysiology",
    "title": "Pathophysiology and pathology",
    "blocks": [
+    "Livedo appears when blood **pools in the venous network** at the edge of each skin perfusion cone.",
+    {
+     "mech": [
+      {
+       "k": "Perfusion cones",
+       "t": "Each arteriole supplies a cone of skin; the edges are drained by a venous plexus."
+      },
+      {
+       "k": "Slow flow",
+       "t": "Cold, spasm or blockage slows flow so deoxygenated blood pools at the cone edges: a violet net."
+      },
+      {
+       "k": "Racemosa",
+       "t": "Patchy arteriolar blockage (thrombosis, vasculitis) breaks the rings into irregular shapes."
+      }
+     ]
+    },
     {
      "h": "How it is caused"
     },
@@ -147,6 +196,29 @@
    "short": "Red flags"
   },
   {
+   "id": "complications",
+   "title": "Complications and prognosis",
+   "blocks": [
+    {
+     "h": "Complications"
+    },
+    {
+     "ul": [
+      "Depends on cause: ulceration, stroke, renal failure."
+     ]
+    },
+    {
+     "h": "Prognosis"
+    },
+    {
+     "ul": [
+      "Physiological livedo is benign; pathological livedo follows its cause."
+     ]
+    }
+   ],
+   "short": "Complications"
+  },
+  {
    "id": "pearls",
    "title": "Prescriber pearls (UK pharmacist IP)",
    "blocks": [
@@ -183,5 +255,10 @@
   }
  ],
  "references": [],
- "see_also": []
+ "see_also": [
+  "polyarteritis-nodosa",
+  "cutaneous-vasculitis-approach",
+  "purpura-differentials",
+  "endocarditis-skin-signs"
+ ]
 }

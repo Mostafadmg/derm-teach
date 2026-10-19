@@ -1,0 +1,54 @@
+{
+ "kf": [
+  "**Polyarteritis nodosa (PAN)** is a necrotising vasculitis of **medium-sized arteries**.",
+  "Skin: tender subcutaneous nodules, **livedo racemosa**, ulcers, digital ischaemia; cutaneous PAN may be skin-limited.",
+  "Systemic PAN: hypertension, renal infarcts, mononeuritis multiplex, abdominal pain, weight loss; **ANCA negative**.",
+  "Associated with hepatitis B; deep incisional biopsy of a nodule needed.",
+  "Specialist treatment: steroids ± cyclophosphamide; antivirals for HBV-PAN."
+ ],
+ "epi": [
+  {
+   "t": "**Who**",
+   "sub": [
+    "Rare; adults 40–60; children with cutaneous PAN after streptococcal infection."
+   ]
+  }
+ ],
+ "myths": [
+  "**\"Normal ANCA excludes vasculitis\"**: PAN is ANCA-negative."
+ ],
+ "patho_lead": "PAN inflames and destroys the **walls of medium arteries**, causing aneurysms and infarcts.",
+ "mech": [
+  {
+   "k": "Trigger",
+   "t": "Hepatitis B immune complexes or unknown triggers."
+  },
+  {
+   "k": "Transmural necrosis",
+   "t": "Fibrinoid necrosis of the full arterial wall at the dermo-subcutaneous junction."
+  },
+  {
+   "k": "Aneurysms and thrombosis",
+   "t": "Weakened walls balloon (microaneurysms); thrombosis causes infarction."
+  },
+  {
+   "k": "Livedo and ulcers",
+   "t": "Patchy arterial blockage gives broken livedo, nodules and ulcers."
+  }
+ ],
+ "histo": [
+  "Necrotising arteritis of medium vessels in deep dermis/subcutis; deep biopsy required."
+ ],
+ "comp": [
+  "Renal failure, hypertension, bowel infarction, stroke, neuropathy."
+ ],
+ "prog": [
+  "Cutaneous PAN is chronic but benign; systemic PAN is serious but often remits with treatment."
+ ],
+ "see_also": [
+  "livedo-reticularis",
+  "leukocytoclastic-vasculitis",
+  "cutaneous-vasculitis-approach",
+  "erythema-nodosum"
+ ]
+}

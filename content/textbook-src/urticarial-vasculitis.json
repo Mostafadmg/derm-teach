@@ -1,0 +1,52 @@
+{
+ "kf": [
+  "**Urticarial vasculitis** looks like urticaria, but wheals last **over 24 hours**, burn more than itch, and leave **bruising**.",
+  "Normocomplementaemic (often skin-limited) or **hypocomplementaemic** (linked to lupus, systemic disease).",
+  "Check C3, C4, C1q, ANA, urine, ESR/CRP; biopsy confirms vasculitis.",
+  "Antihistamines help less than in urticaria; specialist options include dapsone, colchicine, hydroxychloroquine.",
+  "Hypocomplementaemic UV: watch for lung (COPD), kidney and eye disease."
+ ],
+ "epi": [
+  {
+   "t": "**Who**",
+   "sub": [
+    "Uncommon; middle-aged women most; about 5% of chronic 'urticaria' cases."
+   ]
+  }
+ ],
+ "myths": [
+  "**\"All wheals are urticaria\"**: wheals lasting over a day with bruising need biopsy."
+ ],
+ "patho_lead": "Immune complexes cause **vasculitis** in vessels beneath a wheal.",
+ "mech": [
+  {
+   "k": "Immune complexes",
+   "t": "Complexes activate complement (low C3/C4/C1q in hypocomplementaemic disease)."
+  },
+  {
+   "k": "Mast cell and neutrophil activation",
+   "t": "C5a degranulates mast cells (wheal) and attracts neutrophils (vasculitis)."
+  },
+  {
+   "k": "Persistent lesion",
+   "t": "Vessel damage makes wheals last over 24 hours and leave purpura.",
+   "img": "v3-wheal-pen-circle.jpg",
+   "cap": "Circling a wheal with a pen shows how long each lasts."
+  }
+ ],
+ "histo": [
+  "Leukocytoclastic vasculitis beneath an urticarial lesion; DIF may show immunoglobulin and complement in vessels."
+ ],
+ "comp": [
+  "Angioedema, arthritis, glomerulonephritis, COPD, uveitis (hypocomplementaemic)."
+ ],
+ "prog": [
+  "Variable; may last years."
+ ],
+ "see_also": [
+  "urticaria-angioedema",
+  "leukocytoclastic-vasculitis",
+  "discoid-lupus",
+  "cutaneous-vasculitis-approach"
+ ]
+}

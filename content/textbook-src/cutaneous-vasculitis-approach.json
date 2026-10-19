@@ -1,0 +1,46 @@
+{
+ "kf": [
+  "**Vasculitis** is classified by vessel size: **small** (palpable purpura), **medium** (nodules, livedo racemosa, ulcers), **large** (rarely skin).",
+  "Always ask: is it skin-limited or systemic? Check **urine dipstick and BP** in every patient.",
+  "Biopsy an early lesion (<48 h) with direct IF; deep biopsy for medium-vessel disease.",
+  "Screen: FBC, U&E, LFT, CRP, ANA, ANCA, complement, hepatitis B/C, HIV, cryoglobulins, immunoglobulins.",
+  "Same-day: unwell, renal involvement, haemoptysis, neuropathy, gut ischaemia, or child with possible meningococcal disease."
+ ],
+ "myths": [
+  "**\"Skin vasculitis is just a rash\"**: it can be the first sign of kidney or lung disease."
+ ],
+ "patho_lead": "Vasculitis is **inflammation of vessel walls**; the size of vessel decides what you see.",
+ "mech": [
+  {
+   "k": "Small vessels",
+   "t": "Immune complexes in post-capillary venules: palpable purpura, wheals.",
+   "img": "v4-lcv-vessel.jpg",
+   "cap": "Small-vessel vasculitis with neutrophils and red-cell leakage."
+  },
+  {
+   "k": "Medium vessels",
+   "t": "Arteries at the dermo-subcutaneous junction: nodules, livedo racemosa, ulcers, digital infarcts."
+  },
+  {
+   "k": "ANCA vasculitis",
+   "t": "ANCA activate neutrophils against small–medium vessels (GPA, MPA, EGPA)."
+  },
+  {
+   "k": "Systemic spread",
+   "t": "The same process in kidney, lung, nerve and gut causes organ damage."
+  }
+ ],
+ "comp": [
+  "Renal failure, pulmonary haemorrhage, neuropathy, gut infarction, ulcers."
+ ],
+ "prog": [
+  "Skin-limited forms usually settle; systemic vasculitis needs immunosuppression."
+ ],
+ "see_also": [
+  "leukocytoclastic-vasculitis",
+  "iga-vasculitis",
+  "urticarial-vasculitis",
+  "polyarteritis-nodosa",
+  "livedo-reticularis"
+ ]
+}

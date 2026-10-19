@@ -1,10 +1,11 @@
 {
  "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
  "key_facts": [
-  "A child (often 3–10 years) with palpable purpura on the legs and buttocks after a cold or sore throat, with sore joints or tummy pain.",
-  "IgA-containing immune complexes in small vessels of the skin, gut, joints and kidneys.",
-  "Exclude sepsis; BP and urine dipstick; FBC and clotting if unsure; simple analgesia; urine and BP monitoring for 6–12 months.",
-  "Meningococcal sepsis, leukaemia or ITP (check platelets), intussusception, nephritis."
+  "**IgA vasculitis** (Henoch–Schönlein purpura) is the commonest childhood vasculitis: **palpable purpura** on the buttocks and legs.",
+  "Tetrad: purpura, arthralgia/arthritis, abdominal pain (intussusception risk) and **renal involvement** (haematuria, proteinuria).",
+  "Often follows an upper respiratory infection; ages 3–10.",
+  "First exclude **meningococcal sepsis** in an unwell child with a non-blanching rash.",
+  "Supportive care; monitor **urine and BP** for 6–12 months; adults have more renal disease."
  ],
  "sections": [
   {
@@ -15,13 +16,72 @@
    ]
   },
   {
+   "id": "epidemiology",
+   "title": "Epidemiology",
+   "blocks": [
+    {
+     "ul": [
+      {
+       "t": "**Who**",
+       "sub": [
+        "About 20 per 100,000 children per year; autumn and winter; adults less often but more severely."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "aetiology",
+   "title": "Aetiology: causes and risk factors",
+   "blocks": [
+    {
+     "h": "Myths to address"
+    },
+    {
+     "ul": [
+      "**\"The rash settled, so follow-up can stop\"**: nephritis can appear weeks to months later."
+     ]
+    }
+   ],
+   "short": "Aetiology"
+  },
+  {
    "id": "pathophysiology",
    "title": "Pathophysiology and pathology",
    "blocks": [
+    "Abnormal **IgA1** forms immune complexes that lodge in small vessels.",
+    {
+     "mech": [
+      {
+       "k": "Abnormal IgA1",
+       "t": "Galactose-deficient IgA1 is produced after a mucosal infection."
+      },
+      {
+       "k": "Immune complexes",
+       "t": "IgA complexes deposit in small vessel walls in skin, gut, joints and kidney."
+      },
+      {
+       "k": "Leukocytoclastic vasculitis",
+       "t": "Neutrophils damage vessels and red cells leak: palpable purpura.",
+       "img": "v4-lcv-vessel.jpg",
+       "caption": "Small-vessel vasculitis: immune complexes on the vessel wall attract neutrophils that fragment and damage it, letting red cells leak out (palpable purpura)."
+      },
+      {
+       "k": "Nephritis",
+       "t": "Mesangial IgA deposits cause haematuria and proteinuria."
+      }
+     ]
+    },
     {
      "h": "How it is caused"
     },
-    "**Galactose-deficient IgA1** forms immune complexes (with anti-glycan IgG) that deposit in vessel walls and the glomerular mesangium. It often follows an **upper respiratory infection** — **group A β-haemolytic streptococcus** is the most reported trigger (positive throat swabs in 10–30%, raised ASO in 20–50%). Other triggers: parainfluenza, adenovirus, *Mycoplasma*, parvovirus, drugs, vaccines, malignancy in adults."
+    "**Galactose-deficient IgA1** forms immune complexes (with anti-glycan IgG) that deposit in vessel walls and the glomerular mesangium. It often follows an **upper respiratory infection** — **group A β-haemolytic streptococcus** is the most reported trigger (positive throat swabs in 10–30%, raised ASO in 20–50%). Other triggers: parainfluenza, adenovirus, *Mycoplasma*, parvovirus, drugs, vaccines, malignancy in adults.",
+    {
+     "histo": [
+      "Leukocytoclastic vasculitis with IgA on direct IF of a new lesion."
+     ]
+    }
    ],
    "short": "Pathophysiology"
   },
@@ -129,6 +189,29 @@
    "short": "Red flags"
   },
   {
+   "id": "complications",
+   "title": "Complications and prognosis",
+   "blocks": [
+    {
+     "h": "Complications"
+    },
+    {
+     "ul": [
+      "Nephritis and chronic kidney disease, intussusception, orchitis."
+     ]
+    },
+    {
+     "h": "Prognosis"
+    },
+    {
+     "ul": [
+      "Most children recover in 4–6 weeks; recurrence in a third."
+     ]
+    }
+   ],
+   "short": "Complications"
+  },
+  {
    "id": "pearls",
    "title": "Prescriber pearls (UK pharmacist IP)",
    "blocks": [
@@ -171,5 +254,10 @@
    "url": "https://emedicine.medscape.com/article/984105-overview"
   }
  ],
- "see_also": []
+ "see_also": [
+  "leukocytoclastic-vasculitis",
+  "purpura-differentials",
+  "cutaneous-vasculitis-approach",
+  "urticarial-vasculitis"
+ ]
 }

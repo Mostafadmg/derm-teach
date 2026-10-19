@@ -1,0 +1,56 @@
+{
+ "kf": [
+  "**IgA vasculitis** (Henoch–Schönlein purpura) is the commonest childhood vasculitis: **palpable purpura** on the buttocks and legs.",
+  "Tetrad: purpura, arthralgia/arthritis, abdominal pain (intussusception risk) and **renal involvement** (haematuria, proteinuria).",
+  "Often follows an upper respiratory infection; ages 3–10.",
+  "First exclude **meningococcal sepsis** in an unwell child with a non-blanching rash.",
+  "Supportive care; monitor **urine and BP** for 6–12 months; adults have more renal disease."
+ ],
+ "epi": [
+  {
+   "t": "**Who**",
+   "sub": [
+    "About 20 per 100,000 children per year; autumn and winter; adults less often but more severely."
+   ]
+  }
+ ],
+ "myths": [
+  "**\"The rash settled, so follow-up can stop\"**: nephritis can appear weeks to months later."
+ ],
+ "patho_lead": "Abnormal **IgA1** forms immune complexes that lodge in small vessels.",
+ "mech": [
+  {
+   "k": "Abnormal IgA1",
+   "t": "Galactose-deficient IgA1 is produced after a mucosal infection."
+  },
+  {
+   "k": "Immune complexes",
+   "t": "IgA complexes deposit in small vessel walls in skin, gut, joints and kidney."
+  },
+  {
+   "k": "Leukocytoclastic vasculitis",
+   "t": "Neutrophils damage vessels and red cells leak: palpable purpura.",
+   "img": "v4-lcv-vessel.jpg",
+   "cap": "Small-vessel vasculitis: immune complexes on the vessel wall attract neutrophils that fragment and damage it, letting red cells leak out (palpable purpura)."
+  },
+  {
+   "k": "Nephritis",
+   "t": "Mesangial IgA deposits cause haematuria and proteinuria."
+  }
+ ],
+ "histo": [
+  "Leukocytoclastic vasculitis with IgA on direct IF of a new lesion."
+ ],
+ "comp": [
+  "Nephritis and chronic kidney disease, intussusception, orchitis."
+ ],
+ "prog": [
+  "Most children recover in 4–6 weeks; recurrence in a third."
+ ],
+ "see_also": [
+  "leukocytoclastic-vasculitis",
+  "purpura-differentials",
+  "cutaneous-vasculitis-approach",
+  "urticarial-vasculitis"
+ ]
+}

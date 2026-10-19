@@ -1,0 +1,57 @@
+{
+ "kf": [
+  "**Cutaneous small-vessel (leukocytoclastic) vasculitis** presents as **palpable purpura** on the lower legs, often in crops.",
+  "Causes: drugs, infection (strep, hepatitis B/C), autoimmune disease, malignancy; up to half idiopathic.",
+  "Look for systemic disease: urine dipstick and BP, FBC, U&E, LFT, CRP, ANA, ANCA, complement, hepatitis serology, cryoglobulins.",
+  "Biopsy an early lesion (<48 h) for histology and direct IF.",
+  "Stop culprit drug, rest, elevation, compression; refer if systemic or recurrent."
+ ],
+ "epi": [
+  {
+   "t": "**Who**",
+   "sub": [
+    "Any age; adults most often."
+   ]
+  }
+ ],
+ "myths": [
+  "**\"Purpura is always low platelets\"**: palpable purpura with normal platelets suggests vasculitis."
+ ],
+ "patho_lead": "Immune complexes trigger **neutrophils to destroy small vessels**.",
+ "mech": [
+  {
+   "k": "Antigen",
+   "t": "A drug, infection or autoantigen forms immune complexes."
+  },
+  {
+   "k": "Deposition",
+   "t": "Complexes lodge in post-capillary venules, especially in dependent legs."
+  },
+  {
+   "k": "Neutrophil damage",
+   "t": "Complement attracts neutrophils that fragment (leukocytoclasis) and damage vessels.",
+   "img": "v4-lcv-vessel.jpg",
+   "cap": "Immune complexes and fragmenting neutrophils damage the vessel wall; red cells leak out."
+  },
+  {
+   "k": "Purpura",
+   "t": "Red cells leak, causing raised purpura that does not blanch."
+  }
+ ],
+ "histo": [
+  "Fibrinoid necrosis of small vessels, neutrophils with nuclear dust, red cell extravasation."
+ ],
+ "comp": [
+  "Ulceration; systemic vasculitis (kidney, gut, nerves)."
+ ],
+ "prog": [
+  "Single episodes settle in weeks; chronic forms recur."
+ ],
+ "see_also": [
+  "iga-vasculitis",
+  "urticarial-vasculitis",
+  "cutaneous-vasculitis-approach",
+  "purpura-differentials",
+  "polyarteritis-nodosa"
+ ]
+}

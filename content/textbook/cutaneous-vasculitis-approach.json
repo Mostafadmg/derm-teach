@@ -1,10 +1,11 @@
 {
  "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
  "key_facts": [
-  "Palpable purpura, haemorrhagic blisters, nodules, livedo or ulcers, especially on the lower legs.",
-  "Inflammation of vessel walls from immune complexes, ANCA or infection; small vessels give purpura, medium vessels give nodules, livedo racemosa and ulcers.",
-  "Urine dipstick and BP today; FBC, U&E, LFT, CRP, ANCA, complement, hepatitis B/C, cryoglobulins as indicated; biopsy within 48 h; stop culprit drugs.",
-  "Renal involvement, systemic ANCA vasculitis, endocarditis and meningococcal sepsis."
+  "**Vasculitis** is classified by vessel size: **small** (palpable purpura), **medium** (nodules, livedo racemosa, ulcers), **large** (rarely skin).",
+  "Always ask: is it skin-limited or systemic? Check **urine dipstick and BP** in every patient.",
+  "Biopsy an early lesion (<48 h) with direct IF; deep biopsy for medium-vessel disease.",
+  "Screen: FBC, U&E, LFT, CRP, ANA, ANCA, complement, hepatitis B/C, HIV, cryoglobulins, immunoglobulins.",
+  "Same-day: unwell, renal involvement, haemoptysis, neuropathy, gut ischaemia, or child with possible meningococcal disease."
  ],
  "sections": [
   {
@@ -58,9 +59,47 @@
    ]
   },
   {
+   "id": "aetiology",
+   "title": "Aetiology: causes and risk factors",
+   "blocks": [
+    {
+     "h": "Myths to address"
+    },
+    {
+     "ul": [
+      "**\"Skin vasculitis is just a rash\"**: it can be the first sign of kidney or lung disease."
+     ]
+    }
+   ],
+   "short": "Aetiology"
+  },
+  {
    "id": "pathophysiology",
    "title": "Pathophysiology and pathology",
    "blocks": [
+    "Vasculitis is **inflammation of vessel walls**; the size of vessel decides what you see.",
+    {
+     "mech": [
+      {
+       "k": "Small vessels",
+       "t": "Immune complexes in post-capillary venules: palpable purpura, wheals.",
+       "img": "v4-lcv-vessel.jpg",
+       "caption": "Small-vessel vasculitis with neutrophils and red-cell leakage."
+      },
+      {
+       "k": "Medium vessels",
+       "t": "Arteries at the dermo-subcutaneous junction: nodules, livedo racemosa, ulcers, digital infarcts."
+      },
+      {
+       "k": "ANCA vasculitis",
+       "t": "ANCA activate neutrophils against small–medium vessels (GPA, MPA, EGPA)."
+      },
+      {
+       "k": "Systemic spread",
+       "t": "The same process in kidney, lung, nerve and gut causes organ damage."
+      }
+     ]
+    },
     {
      "h": "How it is caused"
     },
@@ -269,6 +308,29 @@
    "short": "Red flags"
   },
   {
+   "id": "complications",
+   "title": "Complications and prognosis",
+   "blocks": [
+    {
+     "h": "Complications"
+    },
+    {
+     "ul": [
+      "Renal failure, pulmonary haemorrhage, neuropathy, gut infarction, ulcers."
+     ]
+    },
+    {
+     "h": "Prognosis"
+    },
+    {
+     "ul": [
+      "Skin-limited forms usually settle; systemic vasculitis needs immunosuppression."
+     ]
+    }
+   ],
+   "short": "Complications"
+  },
+  {
    "id": "pearls",
    "title": "Prescriber pearls (UK pharmacist IP)",
    "blocks": [
@@ -370,5 +432,11 @@
   }
  ],
  "references": [],
- "see_also": []
+ "see_also": [
+  "leukocytoclastic-vasculitis",
+  "iga-vasculitis",
+  "urticarial-vasculitis",
+  "polyarteritis-nodosa",
+  "livedo-reticularis"
+ ]
 }

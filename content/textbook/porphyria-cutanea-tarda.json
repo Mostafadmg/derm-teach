@@ -1,10 +1,11 @@
 {
  "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
  "key_facts": [
-  "Blisters and erosions on the backs of the hands after minor knocks, healing with scars and milia; facial hypertrichosis; reddish-brown urine.",
-  "Reduced hepatic uroporphyrinogen decarboxylase activity (iron, alcohol, hepatitis C, oestrogen) causes porphyrin build-up that reacts with visible light.",
-  "Refer for porphyrin testing; stop alcohol and oestrogens; screen liver, iron, hepatitis B/C and HIV; specialist venesection or low-dose hydroxychloroquine; visible-light protection.",
-  "Underlying liver disease or hepatocellular carcinoma; haemochromatosis; pseudoporphyria from naproxen or other drugs."
+  "**Porphyria cutanea tarda (PCT)** is the commonest porphyria: blisters, erosions, **skin fragility**, scars and **milia** on the backs of the hands.",
+  "Also facial hypertrichosis and hyperpigmentation; urine may be dark.",
+  "Triggers: **alcohol, oestrogens, hepatitis C, HIV, iron overload (haemochromatosis)**, smoking.",
+  "Confirm: plasma and urine porphyrins; check ferritin, LFT, hepatitis C, HFE genotype.",
+  "Specialist: venesection (iron reduction) or low-dose hydroxychloroquine; remove triggers; visible-light protection."
  ],
  "sections": [
   {
@@ -12,6 +13,22 @@
    "title": "Overview",
    "blocks": [
     "The commonest porphyria worldwide: a **blistering photosensitivity with skin fragility** caused by reduced activity of the hepatic haem-pathway enzyme **uroporphyrinogen decarboxylase (UROD)**. Usually presents in middle-aged adults (more often men). **Sporadic/acquired (type 1, ~75–80%)** or **familial (type 2, inherited heterozygous UROD mutation)** — the latter still needs acquired triggers to become clinically active. A **non-acute** porphyria: no neurovisceral attacks."
+   ]
+  },
+  {
+   "id": "epidemiology",
+   "title": "Epidemiology",
+   "blocks": [
+    {
+     "ul": [
+      {
+       "t": "**Who**",
+       "sub": [
+        "Adults over 40; about 1 in 10,000–25,000; familial form in about a fifth."
+       ]
+      }
+     ]
+    }
    ]
   },
   {
@@ -28,9 +45,52 @@
       "Chronic kidney disease/haemodialysis; occasionally hepatocellular carcinoma (\"hepatic porphyrinoma\"); polyhalogenated aromatic hydrocarbons (historical)"
      ]
     },
-    "**Liver** is the internal organ most affected: steatosis, siderosis, fibrosis/cirrhosis and raised risk of hepatocellular carcinoma."
+    "**Liver** is the internal organ most affected: steatosis, siderosis, fibrosis/cirrhosis and raised risk of hepatocellular carcinoma.",
+    {
+     "h": "Myths to address"
+    },
+    {
+     "ul": [
+      "**\"Sunscreen protects\"**: ordinary sunscreens do not block the visible light (around 400 nm) that excites porphyrins."
+     ]
+    }
    ],
    "short": "Aetiology"
+  },
+  {
+   "id": "pathophysiology",
+   "title": "Pathophysiology and pathology",
+   "blocks": [
+    "Reduced activity of **uroporphyrinogen decarboxylase** in the liver lets **light-sensitive porphyrins** build up in the skin.",
+    {
+     "mech": [
+      {
+       "k": "Enzyme inhibition",
+       "t": "Iron and oxidative stress (alcohol, hepatitis C, oestrogen) inhibit hepatic UROD."
+      },
+      {
+       "k": "Porphyrin accumulation",
+       "t": "Uroporphyrins accumulate in the liver, blood and skin."
+      },
+      {
+       "k": "Phototoxicity",
+       "t": "Visible light (about 400–410 nm) excites porphyrins, generating reactive oxygen that damages the dermo-epidermal junction."
+      },
+      {
+       "k": "Fragility and blisters",
+       "t": "Minor trauma causes subepidermal blisters that heal with scars and milia.",
+       "img": "v4-milia-section.jpg",
+       "caption": "Milia form as blisters heal: tiny keratin cysts just beneath the epidermis."
+      }
+     ]
+    },
+    {
+     "histo": [
+      "Cell-poor subepidermal blister with 'festooning' of dermal papillae; caterpillar bodies."
+     ]
+    }
+   ],
+   "short": "Pathophysiology"
   },
   {
    "id": "clinical-features",
@@ -50,6 +110,19 @@
      "fig": {
       "dermnet": "m5w6:B01"
      }
+    },
+    {
+     "h": "Special groups"
+    },
+    {
+     "ul": [
+      {
+       "t": "**Pseudoporphyria**",
+       "sub": [
+        "Same skin signs with normal porphyrins: naproxen, tetracyclines, furosemide, sunbeds, dialysis."
+       ]
+      }
+     ]
     }
    ]
   },
@@ -245,6 +318,29 @@
    "short": "Red flags"
   },
   {
+   "id": "complications",
+   "title": "Complications and prognosis",
+   "blocks": [
+    {
+     "h": "Complications"
+    },
+    {
+     "ul": [
+      "Scarring, cirrhosis, hepatocellular carcinoma (in liver disease)."
+     ]
+    },
+    {
+     "h": "Prognosis"
+    },
+    {
+     "ul": [
+      "Remits with iron depletion or hydroxychloroquine; relapse if triggers return."
+     ]
+    }
+   ],
+   "short": "Complications"
+  },
+  {
    "id": "pearls",
    "title": "Prescriber pearls (UK pharmacist IP)",
    "blocks": [
@@ -289,5 +385,11 @@
    "url": "https://emedicine.medscape.com/article/1103643-overview"
   }
  ],
- "see_also": []
+ "see_also": [
+  "milia",
+  "skin-fragility-dermatoporosis",
+  "drug-photosensitivity",
+  "epidermolysis-bullosa",
+  "bullous-pemphigoid"
+ ]
 }

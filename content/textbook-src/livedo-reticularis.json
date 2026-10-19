@@ -1,0 +1,47 @@
+{
+ "kf": [
+  "**Livedo reticularis** is a violaceous, net-like (reticulate) mottling of the skin from sluggish blood flow.",
+  "Physiological (cold, complete regular rings, fades on warming) versus pathological (**livedo racemosa**: broken, irregular, persistent).",
+  "Pathological causes: antiphospholipid syndrome, vasculitis (PAN), cholesterol emboli, cryoglobulins, calciphylaxis, drugs (amantadine).",
+  "Investigate persistent or broken livedo: FBC, clotting, antiphospholipid antibodies, ANA, cryoglobulins, renal function.",
+  "Livedo plus stroke: Sneddon syndrome (antiphospholipid)."
+ ],
+ "epi": [
+  {
+   "t": "**Who**",
+   "sub": [
+    "Physiological cutis marmorata common in infants and young women."
+   ]
+  }
+ ],
+ "myths": [
+  "**\"Mottled skin is always harmless\"**: persistent, broken livedo may signal clotting or vasculitis."
+ ],
+ "patho_lead": "Livedo appears when blood **pools in the venous network** at the edge of each skin perfusion cone.",
+ "mech": [
+  {
+   "k": "Perfusion cones",
+   "t": "Each arteriole supplies a cone of skin; the edges are drained by a venous plexus."
+  },
+  {
+   "k": "Slow flow",
+   "t": "Cold, spasm or blockage slows flow so deoxygenated blood pools at the cone edges: a violet net."
+  },
+  {
+   "k": "Racemosa",
+   "t": "Patchy arteriolar blockage (thrombosis, vasculitis) breaks the rings into irregular shapes."
+  }
+ ],
+ "comp": [
+  "Depends on cause: ulceration, stroke, renal failure."
+ ],
+ "prog": [
+  "Physiological livedo is benign; pathological livedo follows its cause."
+ ],
+ "see_also": [
+  "polyarteritis-nodosa",
+  "cutaneous-vasculitis-approach",
+  "purpura-differentials",
+  "endocarditis-skin-signs"
+ ]
+}

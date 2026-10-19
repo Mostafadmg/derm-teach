@@ -1,6 +1,6 @@
 {
  "slug": "drug-induced-blistering",
- "title": "Drug-induced blistering (SJS/TEN, FDE, AGEP)",
+ "title": "SJS/TEN and drug-induced blistering",
  "category": "blistering",
  "status": "published",
  "order": 5,
@@ -19,7 +19,7 @@
   "carbamazepine",
   "HLA-B*1502"
  ],
- "summary": "Drugs cause a range of blistering reactions, from a single recurring fixed drug eruption to SJS/TEN, which is a medical emergency. Stop the culprit early, record the allergy and report on a Yellow Card.",
+ "summary": "Stevens–Johnson syndrome and toxic epidermal necrolysis are life-threatening drug reactions with skin detachment and mucosal erosions. This page also orients to other drug-induced blistering (fixed drug eruption, AGEP, pseudoporphyria, drug-induced pemphigoid). Stop the culprit early, refer the same day, record the allergy and Yellow Card.",
  "card_image": "m4w6:E02",
  "glance": {
   "think": "Blistering, dusky or pustular rash 4–28 days after starting a drug (days for AGEP; hours for repeat fixed drug eruption).",
@@ -57,7 +57,8 @@
     }
    },
    "Incidence is ~1–6 per million per year (higher in HIV). Mortality is ~**5–10% for SJS** and **~30% (25–50%) for TEN**; it is higher in older people and those with comorbidity.",
-   "**Erythema multiforme (EM)** is a *different* disease. It is usually triggered by **HSV** (or *Mycoplasma*), and drugs cause it only rarely. It gives **typical raised 3-zone target lesions on the acral skin**, with or without mild mucosal involvement (\"EM major\"), and has a good prognosis (see the [inflammatory rash pages](condition:erythema-multiforme) notes)."
+   "**Erythema multiforme (EM)** is a *different* disease. It is usually triggered by **HSV** (or *Mycoplasma*), and drugs cause it only rarely. It gives **typical raised 3-zone target lesions on the acral skin**, with or without mild mucosal involvement (\"EM major\"), and has a good prognosis (see the [inflammatory rash pages](condition:erythema-multiforme) notes).",
+   "Related pages: [Fixed drug eruption](condition:fixed-drug-eruption), [AGEP](condition:agep), [DRESS](condition:dress), [bullous pemphigoid](condition:bullous-pemphigoid)."
   ],
   "cause": [
    {
@@ -423,7 +424,7 @@
      "**Suspect it:** a new drug in the past 8 weeks + skin pain + dusky/target lesions or blisters + **mucositis** + fever.",
      "**Stop all suspect drugs immediately.** Delay in withdrawal raises mortality; early withdrawal of drugs with a short half-life improves survival (Garcia-Doval 2000).",
      "**Same-day emergency admission** (999/ED with a call to on-call dermatology). The BAD advises transfer to a **specialist centre (burns unit/ITU or dermatology with specialist MDT)** when BSA >10% or the patient is unwell. Do **not** start oral steroids or antibiotics in primary care \"to cover\".",
-     "**Document** the culprit(s) prominently, **report via Yellow Card**, and tell the patient and family that the drug and **structurally related drugs** must be avoided for life (aromatic anticonvulsants carbamazepine/phenytoin/phenobarbital/oxcarbazepine/lamotrigine cross-react; avoid all sulfonamide antibiotics after co-trimoxazole SJS). Advise a **medical alert** bracelet/card.",
+     "**Document** the culprit(s) prominently, **report via Yellow Card**, and tell the patient and family that the drug and **structurally related drugs** must be avoided for life (aromatic anticonvulsants carbamazepine, phenytoin, phenobarbital, oxcarbazepine or lamotrigine cross-react; avoid all sulfonamide antibiotics after co-trimoxazole SJS). Advise a **medical alert** bracelet/card.",
      "**First-degree relatives** may share the HLA risk — mention this for carbamazepine/allopurinol."
     ]
    },

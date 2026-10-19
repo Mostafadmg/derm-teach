@@ -384,3 +384,4 @@ strong, b { font-weight: 650; }
 .mini-h.is-triage::before { content: ""; display: inline-block; width: 8px; height: 8px; border-radius: 50%; background: #e5484d; margin-right: 8px; vertical-align: middle; }
 
 .ref-list li,.ref-list a{overflow-wrap:anywhere;word-break:break-word}
+.tb-body p,.tb-body li,.tb-body td{overflow-wrap:break-word}

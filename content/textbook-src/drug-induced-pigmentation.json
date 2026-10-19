@@ -1,0 +1,44 @@
+{
+ "kf": [
+  "Drugs cause about 10–20% of acquired hyperpigmentation; colours and sites are clues.",
+  "**Minocycline**: blue-grey on scars, shins and sclera; **amiodarone**: slate-grey on sun-exposed face; **hydroxychloroquine**: grey-blue shins and palate.",
+  "Chemotherapy (bleomycin flagellate streaks, 5-FU), zidovudine (nails), clofazimine (red-brown), heavy metals (argyria).",
+  "Fixed drug eruption leaves round grey-brown patches at the same sites.",
+  "Stop or switch the drug with the prescriber; pigmentation fades slowly (months–years) or may be permanent; photoprotection."
+ ],
+ "myths": [
+  "**\"It'll go as soon as the drug stops\"**: dermal pigment can persist for years."
+ ],
+ "patho_lead": "Drugs pigment skin by **increasing melanin, depositing themselves, or forming drug–iron–melanin complexes**.",
+ "mech": [
+  {
+   "k": "Increased melanin",
+   "t": "Some drugs stimulate melanocytes (oral contraceptives in melasma, chemotherapy)."
+  },
+  {
+   "k": "Drug deposition",
+   "t": "Drug or metabolites deposit in the dermis (amiodarone lipofuscin, gold, silver)."
+  },
+  {
+   "k": "Complexes",
+   "t": "Drug, iron and melanin bind together in dermal macrophages (minocycline)."
+  },
+  {
+   "k": "Post-inflammatory",
+   "t": "Inflammatory reactions leave melanin in the dermis (fixed drug eruption)."
+  }
+ ],
+ "comp": [
+  "Cosmetic distress; marker of cumulative dose (amiodarone)."
+ ],
+ "prog": [
+  "Variable; laser may help some (minocycline)."
+ ],
+ "see_also": [
+  "fixed-drug-eruption",
+  "melasma-facial-melanosis",
+  "drug-photosensitivity",
+  "contact-lichenoid-pigmentation",
+  "addisons-disease"
+ ]
+}
