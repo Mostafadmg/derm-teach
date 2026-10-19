@@ -1,0 +1,93 @@
+{
+ "kf": [
+  "Benign epidermal growths from **human papillomavirus (HPV)** infection of keratinocytes.",
+  "Very common in **school-age children**; spread by direct contact, wet floors and autoinoculation.",
+  "Common, plantar (verrucae), plane, filiform and periungual types; **thrombosed capillaries** (black dots) are typical.",
+  "Most clear spontaneously: **half within 6 months in children, about 90% within 2 years**; treat only if painful or distressing.",
+  "Options: **salicylic acid** paints and occlusion, cryotherapy; refer atypical, extensive, facial or immunosuppressed cases."
+ ],
+ "epi": [
+  {
+   "t": "**Who**",
+   "sub": [
+    "Up to a third of school-age children have warts at any time; less common in adults.",
+    "Meat and fish handlers (HPV-7 'butcher's warts'), people with eczema and the **immunosuppressed** (transplant recipients) are at higher risk."
+   ]
+  },
+  {
+   "t": "**Spread**",
+   "sub": [
+    "Direct contact, swimming pools and changing rooms, shaving, nail biting and picking; incubation up to 12 months."
+   ]
+  }
+ ],
+ "aet": [
+  "**HPV types**: 1 (plantar myrmecia), 2 and 4 (common and plantar), 3 and 10 (plane), 7 (butchers), 27 and 57.",
+  "Risk factors: barrier damage, moist skin, trauma, immunosuppression (e.g. azathioprine, ciclosporin, HIV)."
+ ],
+ "myths": [
+  "**\"Warts have roots\"**: they are purely epidermal; aggressive digging causes scars.",
+  "**\"Children must stay out of swimming\"**: not necessary; covering verrucae with a plaster or sock is enough."
+ ],
+ "patho_lead": "HPV infects the **basal layer** through tiny breaks in the skin and hijacks keratinocyte growth.",
+ "mech": [
+  {
+   "k": "Entry through micro-trauma",
+   "t": "Virus reaches **basal keratinocytes** through small breaks; maceration and trauma help it enter."
+  },
+  {
+   "k": "Viral genes drive proliferation",
+   "t": "Early viral proteins (E6, E7) push infected cells to keep dividing, producing **acanthosis, papillomatosis and hyperkeratosis**.",
+   "img": "v3-warts-skin-section.jpg",
+   "cap": "A wart in section: thickened, folded epidermis with dilated capillaries in the papillae."
+  },
+  {
+   "k": "Virus made at the surface",
+   "t": "New virus is assembled in upper layers (**koilocytes**) and shed in skin flakes, spreading to other sites (lines of warts from scratching)."
+  },
+  {
+   "k": "Capillaries and black dots",
+   "t": "Dermal papillae with dilated capillaries extend up into the wart; clotted vessels show as **black dots**, unlike corns.",
+   "img": "v3-warts-vs-corn.jpg",
+   "cap": "Verruca (black dots, interrupted skin lines) vs corn (central core, preserved skin lines)."
+  },
+  {
+   "k": "Immune clearance",
+   "t": "Cell-mediated immunity eventually recognises the virus and clears it, which is why most warts go without treatment."
+  }
+ ],
+ "histo": [
+  "Papillomatosis, acanthosis and hyperkeratosis with parakeratosis over tips of papillae.",
+  "**Koilocytes** (vacuolated keratinocytes with shrunken nuclei) and large keratohyaline granules in the upper epidermis.",
+  "Biopsy only for atypical, persistent or bleeding lesions (exclude SCC in the immunosuppressed)."
+ ],
+ "special": [
+  {
+   "t": "**Immunosuppressed**",
+   "sub": [
+    "Warts are often numerous and resistant; any growing, painful or bleeding lesion in a transplant recipient needs urgent review (SCC)."
+   ]
+  },
+  {
+   "t": "**Children**",
+   "sub": [
+    "Watchful waiting is reasonable; avoid painful treatments in young children."
+   ]
+  }
+ ],
+ "comp": [
+  "Pain on walking (plantar warts); nail dystrophy (periungual).",
+  "Spread to other sites and people; psychosocial distress.",
+  "Scarring from destructive treatment.",
+  "Rarely, malignant change (SCC) in immunosuppressed or epidermodysplasia verruciformis."
+ ],
+ "prog": [
+  "Children: about 50% clear in 6 months and 90% in 2 years without treatment.",
+  "Adults' warts are more persistent and recur more often."
+ ],
+ "see_also": [
+  "perineal-dermatoses",
+  "seborrhoeic-keratosis",
+  "squamous-cell-carcinoma"
+ ]
+}

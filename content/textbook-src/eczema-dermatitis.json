@@ -1,0 +1,131 @@
+{
+ "kf": [
+  "**Atopic eczema** is the commonest form: a chronic, itchy, relapsing inflammatory skin disease with a **barrier defect** and **type 2 (Th2) inflammation**.",
+  "Affects up to **20% of children** and 2–10% of adults; about 80% start before age 6.",
+  "Infants: cheeks and extensor surfaces; children and adults: **flexures**; chronic disease shows **lichenification**.",
+  "UK care follows **NICE CG57 / CKS**: generous emollients, topical steroids matched to severity and site, and treat flares early.",
+  "Never miss **eczema herpeticum** (punched-out erosions, unwell): same-day assessment."
+ ],
+ "epi": [
+  {
+   "t": "**Prevalence**",
+   "sub": [
+    "Lifetime prevalence over **15%** in high-income countries; about 230 million people worldwide.",
+    "Affects up to **20% of children** in the UK; 5–15% of young adults still have it."
+   ]
+  },
+  {
+   "t": "**Age**",
+   "sub": [
+    "Usually starts in **infancy**: about 80% before age 6.",
+    "Typically worst at 2–4 years; may recur in adult life with irritant or occupational exposure."
+   ]
+  },
+  {
+   "t": "**Atopy**",
+   "sub": [
+    "Clusters with **asthma, hay fever and food allergy** (the atopic march)."
+   ]
+  },
+  {
+   "t": "**Ethnicity**",
+   "sub": [
+    "All ethnic groups; prevalence and pattern vary between populations (e.g. more extensor and follicular eczema in skin of colour)."
+   ]
+  }
+ ],
+ "aet": [
+  "**Genetic**: loss-of-function **filaggrin (FLG)** mutations weaken the barrier; strong family history of atopy.",
+  "**Irritants**: soaps, detergents, bubble bath, wool, heat, sweating, hard water.",
+  "**Allergens**: house dust mite, pets, pollen; food allergy is a trigger in a minority of infants with moderate to severe eczema.",
+  "**Infection**: *Staphylococcus aureus* colonisation and flares; herpes simplex.",
+  "Stress, hormonal changes, dry winter weather."
+ ],
+ "myths": [
+  "**\"It is caused by food allergy\"**: most eczema is not food-driven; avoid restrictive diets without specialist advice.",
+  "**\"Steroid creams thin the skin, so avoid them\"**: used correctly (right potency, site and duration) they are safe; steroid phobia undertreats flares.",
+  "**\"Eczema is contagious\"**: it is not, although infected eczema can spread bacteria or herpes.",
+  "**\"Emollients are optional once the skin looks better\"**: they are the foundation of treatment and should continue."
+ ],
+ "patho_lead": "Atopic eczema comes from a **leaky skin barrier** and an **overactive type 2 immune response** that feed each other through the itch–scratch cycle.",
+ "mech": [
+  {
+   "k": "A faulty barrier",
+   "t": "Reduced **filaggrin** and ceramides weaken the stratum corneum, so water escapes (**raised transepidermal water loss**) and the skin becomes dry, rough and easily irritated.",
+   "img": "v3-eczema-barrier-section.jpg",
+   "cap": "Healthy barrier (left) vs eczema: gaps between corneocytes let water out and allergens, irritants and bacteria in."
+  },
+  {
+   "k": "Allergens and microbes get in",
+   "t": "Irritants, allergens and *S. aureus* penetrate the damaged barrier; keratinocytes release alarmins (**TSLP, IL-33, IL-25**)."
+  },
+  {
+   "k": "Type 2 inflammation",
+   "t": "Dendritic cells drive **Th2** cells and ILC2s to release **IL-4, IL-13** and **IL-31**. IL-4/IL-13 further suppress filaggrin and antimicrobial peptides; IgE rises. In chronic eczema Th1, Th17 and Th22 also contribute.",
+   "img": "v4-ecz-th2-itch.jpg",
+   "cap": "Type 2 inflammation: an immune cell releases cytokines into the epidermis while itch nerve fibres branch upwards."
+  },
+  {
+   "k": "Itch and scratching",
+   "t": "**IL-31** and other mediators activate itch nerves. Scratching damages the barrier further and releases more alarmins: the **itch–scratch cycle**."
+  },
+  {
+   "k": "Chronic changes",
+   "t": "Repeated rubbing thickens the epidermis (**lichenification**), with exaggerated skin markings, excoriations and pigment change."
+  }
+ ],
+ "histo": [
+  "**Acute**: spongiosis (intercellular oedema in the epidermis), sometimes vesicles; dermal lymphocytes and eosinophils.",
+  "**Subacute**: spongiosis with acanthosis and parakeratosis.",
+  "**Chronic**: marked acanthosis, hyperkeratosis and dermal fibrosis (lichen simplex pattern).",
+  "Biopsy is rarely needed; consider it when cutaneous T-cell lymphoma or another diagnosis is suspected."
+ ],
+ "special": [
+  {
+   "t": "**Skin of colour**",
+   "sub": [
+    "Redness looks **violaceous, grey or dark brown**, so severity is often underestimated.",
+    "Follicular (papular) and extensor patterns are more common; **post-inflammatory hyper- and hypopigmentation** is marked."
+   ]
+  },
+  {
+   "t": "**Infants**",
+   "sub": [
+    "Face, scalp and extensors; nappy area usually spared."
+   ]
+  },
+  {
+   "t": "**Older adults**",
+   "sub": [
+    "Asteatotic (eczema craquelé) and discoid patterns; exclude scabies, drug eruptions and lymphoma."
+   ]
+  }
+ ],
+ "comp": [
+  "**Bacterial infection** (*S. aureus*, impetiginisation): weeping, crusting, pustules.",
+  "**Eczema herpeticum** (HSV): clustered punched-out erosions, fever; an emergency.",
+  "Molluscum contagiosum and eczema coxsackium spread more widely.",
+  "Sleep loss, poor school or work performance, anxiety and depression.",
+  "**Contact dermatitis** (irritant or allergic, including to treatments) and occupational hand eczema.",
+  "Erythroderma (rare); growth effects only with very severe disease or excessive steroid use.",
+  "Steroid side effects (atrophy, striae, perioral dermatitis) with misuse."
+ ],
+ "prog": [
+  "Many children improve with age: in a large meta-analysis about **20% still had eczema 8 years later**, and under 5% at 20 years.",
+  "The skin stays dry and sensitive for life; adult relapse is common with irritant exposure.",
+  "Earlier onset (before age 2) carries a lower risk of persistence."
+ ],
+ "refs": [
+  [
+   "NICE CG57: Atopic eczema in under 12s",
+   "https://www.nice.org.uk/guidance/cg57"
+  ]
+ ],
+ "see_also": [
+  "emollients",
+  "topical-corticosteroids",
+  "hand-eczema",
+  "contact-dermatitis",
+  "itch-xerosis-older-adults"
+ ]
+}

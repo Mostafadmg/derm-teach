@@ -1,0 +1,100 @@
+{
+ "kf": [
+  "Superficial, contagious bacterial skin infection, mostly *Staphylococcus aureus*, sometimes *Streptococcus pyogenes*.",
+  "Most common in **young children**; spreads by direct contact.",
+  "**Non-bullous**: honey-coloured crusts around the nose and mouth; **bullous**: flaccid blisters from staphylococcal toxin.",
+  "UK (NICE NG153): localised and well → **hydrogen peroxide 1% cream**; topical antibiotic if unsuitable; oral flucloxacillin if widespread or unwell.",
+  "Stay off school or nursery until lesions crust over or 48 h after starting antibiotics."
+ ],
+ "epi": [
+  {
+   "t": "**Who**",
+   "sub": [
+    "Most common skin infection in children aged **2–5 years**, but any age can be affected.",
+    "More common in warm, humid weather and in crowded living conditions."
+   ]
+  },
+  {
+   "t": "**Spread**",
+   "sub": [
+    "Highly contagious by direct contact, towels and toys; outbreaks in nurseries, schools and sports teams."
+   ]
+  }
+ ],
+ "aet": [
+  "**Organisms**: *S. aureus* (most cases in the UK) and *S. pyogenes* (group A streptococcus), alone or together.",
+  "**Primary** impetigo on intact skin, or **secondary** impetigo (impetiginisation) on damaged skin: eczema, scabies, insect bites, chickenpox, herpes simplex, trauma, burns.",
+  "Risk factors: nasal carriage of *S. aureus*, immunosuppression, diabetes, poor hygiene, crowding, contact sports."
+ ],
+ "myths": [
+  "**\"Impetigo means poor hygiene\"**: it is very common in clean, healthy children.",
+  "**\"Fusidic acid is first line\"**: NICE now favours hydrogen peroxide 1% cream for localised disease to reduce resistance."
+ ],
+ "patho_lead": "Intact skin resists these bacteria; a **break in the barrier** lets them attach and multiply in the epidermis.",
+ "mech": [
+  {
+   "k": "Barrier breach and attachment",
+   "t": "Minor trauma, eczema or bites expose **fibronectin** receptors; staphylococcal and streptococcal adhesins (e.g. teichoic acids) bind and colonise the surface."
+  },
+  {
+   "k": "Non-bullous impetigo",
+   "t": "Bacteria multiply under the stratum corneum, causing a neutrophilic pustule that ruptures; serum dries into **golden crusts**.",
+   "img": "v3-impetigo-sections.jpg",
+   "cap": "Non-bullous impetigo (crusted pustule under the stratum corneum) compared with bullous impetigo (toxin splitting the granular layer)."
+  },
+  {
+   "k": "Bullous impetigo",
+   "t": "*S. aureus* phage group II releases **exfoliative toxins A and B**, which cleave **desmoglein 1** in the granular layer, so the upper epidermis lifts into flaccid blisters, even on intact skin.",
+   "img": "v4-imp-toxin-split.jpg",
+   "cap": "Bullous impetigo: staphylococcal toxins cut the connections between upper epidermal cells, lifting a flaccid blister."
+  },
+  {
+   "k": "Local spread",
+   "t": "Scratching and contact carry bacteria to new sites (autoinoculation) and other people.",
+   "img": "v3-impetigo-face.jpg",
+   "cap": "Typical distribution around the nose and mouth."
+  }
+ ],
+ "histo": [
+  "Subcorneal pustule with neutrophils and Gram-positive cocci.",
+  "Bullous impetigo: cleavage in the **granular layer** with few inflammatory cells (the same level as staphylococcal scalded skin syndrome).",
+  "Diagnosis is clinical; swab only if recurrent, extensive, or not responding."
+ ],
+ "special": [
+  {
+   "t": "**Skin of colour**",
+   "sub": [
+    "Erythema is less visible; crusting and post-inflammatory hypo- or hyperpigmentation are prominent."
+   ]
+  },
+  {
+   "t": "**Newborns**",
+   "sub": [
+    "Bullous impetigo in neonates needs prompt assessment (risk of spread and SSSS)."
+   ]
+  }
+ ],
+ "comp": [
+  "**Cellulitis**, lymphangitis and bacteraemia.",
+  "**Staphylococcal scalded skin syndrome** (young children).",
+  "**Ecthyma**: deeper, punched-out ulcers that scar.",
+  "Post-streptococcal **glomerulonephritis** (2–6 weeks later) and, rarely, scarlet fever or streptococcal toxic shock.",
+  "Post-inflammatory pigment change; scarring is uncommon."
+ ],
+ "prog": [
+  "Usually self-limiting; without treatment it heals in about 2–3 weeks, and within about 10 days with treatment.",
+  "Recurrence suggests nasal carriage or an untreated underlying skin condition."
+ ],
+ "refs": [
+  [
+   "NICE NG153: Impetigo antimicrobial prescribing",
+   "https://www.nice.org.uk/guidance/ng153"
+  ]
+ ],
+ "see_also": [
+  "boils-carbuncles",
+  "folliculitis",
+  "eczema-dermatitis",
+  "cellulitis-erysipelas"
+ ]
+}

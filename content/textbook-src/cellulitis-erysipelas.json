@@ -1,0 +1,109 @@
+{
+ "kf": [
+  "Acute bacterial infection of the **dermis and subcutis** (cellulitis) or **upper dermis and lymphatics** (erysipelas).",
+  "Usually *Streptococcus pyogenes* (about two thirds) or *Staphylococcus aureus* (about one third).",
+  "Typically **one** hot, red, swollen, tender leg; bilateral red legs are rarely cellulitis.",
+  "UK: **NICE NG141**; flucloxacillin 500 mg–1 g QDS for 5–7 days for most adults; mark the border and review at 2–3 days.",
+  "Emergency if **necrotising fasciitis** or sepsis is possible."
+ ],
+ "epi": [
+  {
+   "t": "**Common**",
+   "sub": [
+    "One of the commonest reasons for antibiotic prescribing in primary care and for emergency admission with skin disease."
+   ]
+  },
+  {
+   "t": "**Who**",
+   "sub": [
+    "All ages; more common in **middle-aged and older adults**.",
+    "Erysipelas is more common in older adults and infants."
+   ]
+  },
+  {
+   "t": "**Recurrence**",
+   "sub": [
+    "Up to about a third have a further episode, especially with lymphoedema, venous disease or untreated tinea pedis."
+   ]
+  }
+ ],
+ "aet": [
+  "**Portal of entry**: toe-web **tinea pedis** or fissured heels, eczema, ulcers, trauma, bites, surgical wounds, IV drug use.",
+  "**Host factors**: previous cellulitis, **lymphoedema**, venous insufficiency, **obesity**, diabetes, immunosuppression, chronic kidney or liver disease, pregnancy, alcohol excess.",
+  "**Organisms in special settings**: *Pasteurella* (cat or dog bites), *Pseudomonas* (puncture wounds of the foot), *Vibrio* or *Aeromonas* (salt or fresh water), MRSA, Gram-negatives in the immunocompromised."
+ ],
+ "myths": [
+  "**\"It was a spider bite\"**: documented spider bites rarely cause cellulitis; look for tinea pedis or a skin break.",
+  "**\"Still red on day 3, so the antibiotic failed\"**: redness takes days to settle; check the border and the patient.",
+  "**\"Cellulitis is contagious\"**: it is not usually spread person to person."
+ ],
+ "patho_lead": "Bacteria cross a **breach in the skin**, multiply in the dermis and trigger an acute inflammatory response.",
+ "mech": [
+  {
+   "k": "A breach in the barrier",
+   "t": "A fissure, cut, bite, ulcer or **macerated toe web** lets skin flora into the dermis; lymphoedema and venous stasis impair clearance."
+  },
+  {
+   "k": "Bacteria multiply and spread",
+   "t": "Streptococci release hyaluronidase, streptokinase and DNases that help them spread through tissue planes; staphylococci form local abscesses more often."
+  },
+  {
+   "k": "Depth decides the edge",
+   "t": "**Erysipelas** involves the upper dermis and lymphatics, giving a raised, sharp edge; **cellulitis** extends into deep dermis and fat, so the edge is flat and ill-defined.",
+   "img": "v3-cellulitis-depth.jpg",
+   "cap": "Erysipelas (left) in the upper dermis and lymphatics vs cellulitis (right) in the deep dermis and fat."
+  },
+  {
+   "k": "Inflammation",
+   "t": "Cytokines (TNF, IL-1, IL-6) cause the **redness, heat, swelling and pain**, fever and malaise; toxins can cause systemic illness.",
+   "img": "v3-cellulitis-leg.jpg",
+   "cap": "Typical cellulitis in one leg, with the portal of entry in a fissured toe web."
+  },
+  {
+   "k": "Healing and damage",
+   "t": "Lymphatics damaged by each episode drain less well, increasing oedema and the risk of **recurrence**."
+  }
+ ],
+ "histo": [
+  "Dermal oedema, dilated lymphatics and a diffuse neutrophilic infiltrate extending into subcutaneous fat.",
+  "Organisms are often scanty; biopsy is not used for diagnosis."
+ ],
+ "special": [
+  {
+   "t": "**Skin of colour**",
+   "sub": [
+    "Redness may be hard to see: rely on warmth, swelling, tenderness and induration, and compare with the other leg."
+   ]
+  },
+  {
+   "t": "**Children**",
+   "sub": [
+    "Periorbital or facial cellulitis needs a low threshold for same-day assessment."
+   ]
+  },
+  {
+   "t": "**Pregnancy**",
+   "sub": [
+    "Erythromycin if penicillin allergic (NICE NG141)."
+   ]
+  }
+ ],
+ "comp": [
+  "**Necrotising fasciitis**, gas gangrene and streptococcal toxic shock.",
+  "**Sepsis**; bacteraemia with seeding to bone, joints or heart valves (endocarditis).",
+  "Abscess formation; lymphangitis.",
+  "**Recurrent cellulitis** and secondary **lymphoedema**.",
+  "Orbital cellulitis with visual loss or cavernous sinus thrombosis (facial infection)."
+ ],
+ "prog": [
+  "Most cases respond to oral antibiotics without lasting harm; skin can take weeks to look normal.",
+  "Recurrence is common; treating portals of entry and oedema reduces it."
+ ],
+ "see_also": [
+  "red-leg",
+  "venous-leg-ulcer",
+  "tinea",
+  "boils-carbuncles",
+  "impetigo"
+ ]
+}

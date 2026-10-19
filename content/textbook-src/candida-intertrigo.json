@@ -1,0 +1,78 @@
+{
+ "kf": [
+  "*Candida* (mostly *C. albicans*) infection of **warm, moist skin folds**.",
+  "**Beefy red**, macerated fold with **satellite papules and pustules** at the edge; may involve the scrotum.",
+  "Risk factors: obesity, diabetes, sweating, occlusion, incontinence, antibiotics, steroids, immunosuppression.",
+  "Treat with **moisture control** plus a topical imidazole (e.g. clotrimazole) until 1–2 weeks after clearance; hydrocortisone 1% short term if inflamed.",
+  "Recurrent or extensive: check **HbA1c**, review drugs and consider swabs."
+ ],
+ "epi": [
+  {
+   "t": "**Who**",
+   "sub": [
+    "Common at both ends of life: **infants** (napkin area) and older, less mobile adults.",
+    "More common in hot, humid weather and in people with obesity or diabetes."
+   ]
+  }
+ ],
+ "aet": [
+  "**Local**: heat, moisture, friction, occlusive clothing, incontinence, poor hygiene of folds.",
+  "**Systemic**: **diabetes**, obesity, broad-spectrum antibiotics, systemic or topical steroids, immunosuppression (HIV, chemotherapy), pregnancy."
+ ],
+ "myths": [
+  "**\"All fold rashes are thrush\"**: irritant intertrigo, flexural psoriasis, erythrasma and tinea cruris look similar."
+ ],
+ "patho_lead": "*Candida* is a normal commensal that becomes invasive when **local moisture or host defences** change.",
+ "mech": [
+  {
+   "k": "Moist, damaged skin",
+   "t": "Sweat and friction macerate the stratum corneum in folds, weakening the barrier (irritant intertrigo)."
+  },
+  {
+   "k": "Overgrowth and adhesion",
+   "t": "Commensal *Candida* multiplies in the warm, wet fold and adheres using surface adhesins.",
+   "img": "v3-candida-fold.jpg",
+   "cap": "A macerated skin fold with Candida yeasts and hyphae invading the softened stratum corneum."
+  },
+  {
+   "k": "Hyphal invasion",
+   "t": "Yeasts switch to **pseudohyphae and hyphae**, releasing proteases and phospholipases that invade the stratum corneum and trigger neutrophil inflammation."
+  },
+  {
+   "k": "Satellite lesions",
+   "t": "Small pustules and papules form beyond the main edge where yeasts seed new follicles: the **satellite** sign."
+  }
+ ],
+ "histo": [
+  "Yeasts and pseudohyphae in the stratum corneum (PAS stain) with neutrophils and subcorneal pustules.",
+  "Diagnosis is clinical; swab or scrape for microscopy and culture if unsure or recurrent."
+ ],
+ "special": [
+  {
+   "t": "**Infants**",
+   "sub": [
+    "Candidal napkin dermatitis involves the skin creases (irritant napkin dermatitis spares them)."
+   ]
+  },
+  {
+   "t": "**Skin of colour**",
+   "sub": [
+    "Erythema may look dusky or purple; post-inflammatory pigmentation is common."
+   ]
+  }
+ ],
+ "comp": [
+  "Secondary bacterial infection; fissuring and pain.",
+  "Spread to other folds, nails (chronic paronychia) or mouth.",
+  "Persistent post-inflammatory pigmentation."
+ ],
+ "prog": [
+  "Responds well to treatment, but **recurs** unless moisture and risk factors are controlled."
+ ],
+ "see_also": [
+  "intertrigo",
+  "tinea",
+  "napkin-dermatitis",
+  "psoriasis"
+ ]
+}

@@ -1,0 +1,105 @@
+{
+ "kf": [
+  "Reactivation of **varicella-zoster virus (VZV)** from a sensory ganglion, causing a painful **unilateral dermatomal** vesicular rash.",
+  "Lifetime risk about **1 in 4**; risk rises sharply after **50** and with immunosuppression.",
+  "Pain or tingling often precedes the rash by 2–3 days; the rash crusts in 7–10 days.",
+  "Antiviral (e.g. **aciclovir 800 mg five times daily for 7 days**) within 72 h for most adults over 50, or with eye, immunosuppression, severe pain or rash (CKS).",
+  "**Ophthalmic zoster** (Hutchinson's sign) and immunocompromised patients need same-day assessment; offer the **shingles vaccine** (Shingrix) to eligible groups."
+ ],
+ "epi": [
+  {
+   "t": "**Who**",
+   "sub": [
+    "Anyone who has had chickenpox (or, rarely, the live varicella vaccine).",
+    "Incidence rises with age: most cases after 50; up to half of people reaching 85 have had it."
+   ]
+  },
+  {
+   "t": "**Risk factors**",
+   "sub": [
+    "Immunosuppression (HIV, cancer, chemotherapy, transplant, high-dose steroids, JAK inhibitors), older age, stress.",
+    "Recurrence is uncommon (about 1–5%)."
+   ]
+  }
+ ],
+ "aet": [
+  "Triggers sometimes identified: local trauma or surgery, radiotherapy, intercurrent infection.",
+  "Zoster is **infectious** to people who have not had chickenpox (direct contact with fluid from blisters) until lesions crust."
+ ],
+ "myths": [
+  "**\"You can catch shingles from chickenpox\"**: contacts can catch **chickenpox** from shingles, not shingles itself.",
+  "**\"It can't come back\"**: recurrence is uncommon but possible, especially with immunosuppression."
+ ],
+ "patho_lead": "After chickenpox, VZV hides in **sensory ganglia**; when cell-mediated immunity falls, it reactivates and travels down the nerve.",
+ "mech": [
+  {
+   "k": "Latency after chickenpox",
+   "t": "VZV travels up sensory nerves from chickenpox lesions and stays **latent** in dorsal root or cranial nerve ganglia for decades.",
+   "img": "v3-hsv-ganglion.jpg",
+   "cap": "Latent virus in a sensory ganglion, travelling along the nerve to the skin when it reactivates."
+  },
+  {
+   "k": "Reactivation",
+   "t": "Waning **VZV-specific T-cell immunity** (age, immunosuppression) lets the virus multiply in the ganglion, causing inflammation and **prodromal pain**."
+  },
+  {
+   "k": "Spread to the dermatome",
+   "t": "Virus moves down the sensory nerve to the skin supplied by that ganglion, producing grouped vesicles on a red base in **one dermatome**, not crossing the midline.",
+   "img": "v3-zoster-dermatome.jpg",
+   "cap": "Unilateral band-like dermatomal rash on the trunk."
+  },
+  {
+   "k": "Nerve damage",
+   "t": "Ganglion and nerve inflammation can cause **post-herpetic neuralgia** and, with motor nerve involvement, weakness (e.g. Ramsay Hunt facial palsy)."
+  },
+  {
+   "k": "Healing",
+   "t": "Vesicles become pustules and crust in 7–10 days and heal in 2–4 weeks, sometimes with scarring and pigment change."
+  }
+ ],
+ "histo": [
+  "Intraepidermal vesicles with **ballooning degeneration** and multinucleated giant keratinocytes (identical to herpes simplex).",
+  "Diagnosis is clinical; **PCR** of vesicle fluid if atypical or immunocompromised."
+ ],
+ "special": [
+  {
+   "t": "**Immunocompromised**",
+   "sub": [
+    "Multi-dermatomal, disseminated or necrotic zoster; needs urgent specialist advice and often IV aciclovir."
+   ]
+  },
+  {
+   "t": "**Pregnancy**",
+   "sub": [
+    "Zoster in pregnancy does not cause congenital varicella; seek specialist advice before prescribing antivirals."
+   ]
+  },
+  {
+   "t": "**Skin of colour**",
+   "sub": [
+    "Erythema may be subtle; pigment change and keloid scarring after healing are more common."
+   ]
+  }
+ ],
+ "comp": [
+  "**Post-herpetic neuralgia** (pain over 3 months): the commonest complication, more likely with age.",
+  "**Herpes zoster ophthalmicus**: keratitis, uveitis, visual loss.",
+  "**Ramsay Hunt syndrome**: facial palsy, ear vesicles, hearing loss and vertigo.",
+  "Secondary bacterial infection, scarring.",
+  "Dissemination, pneumonitis, hepatitis, encephalitis or stroke (vasculopathy), especially when immunocompromised."
+ ],
+ "prog": [
+  "Most immunocompetent patients recover fully in 2–4 weeks.",
+  "PHN affects about 10–20%, more often over 60; it usually improves with time."
+ ],
+ "refs": [
+  [
+   "UKHSA Green Book: Shingles",
+   "https://www.gov.uk/government/publications/shingles-herpes-zoster-the-green-book-chapter-28a"
+  ]
+ ],
+ "see_also": [
+  "herpes-simplex-labialis",
+  "impetigo"
+ ]
+}

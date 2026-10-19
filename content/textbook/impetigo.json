@@ -1,0 +1,520 @@
+{
+ "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
+ "key_facts": [
+  "Superficial, contagious bacterial skin infection, mostly *Staphylococcus aureus*, sometimes *Streptococcus pyogenes*.",
+  "Most common in **young children**; spreads by direct contact.",
+  "**Non-bullous**: honey-coloured crusts around the nose and mouth; **bullous**: flaccid blisters from staphylococcal toxin.",
+  "UK (NICE NG153): localised and well → **hydrogen peroxide 1% cream**; topical antibiotic if unsuitable; oral flucloxacillin if widespread or unwell.",
+  "Stay off school or nursery until lesions crust over or 48 h after starting antibiotics."
+ ],
+ "sections": [
+  {
+   "id": "overview",
+   "title": "Overview",
+   "blocks": [
+    "Impetigo is a **superficial bacterial infection of the epidermis**. It is highly contagious and most common in children. It is caused by *Staphylococcus aureus*, sometimes with *Streptococcus pyogenes*.",
+    {
+     "table": {
+      "head": [
+       "Form",
+       "Description"
+      ],
+      "rows": [
+       [
+        "Non-bullous (about 70%)",
+        "Crusted, honey-coloured lesions; often around the face and on the limbs"
+       ],
+       [
+        "Bullous",
+        "Thin-roofed, flaccid bullae that rupture to leave erosions with a collarette of scale; more often systemic symptoms; common in infants"
+       ]
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "epidemiology",
+   "title": "Epidemiology",
+   "blocks": [
+    {
+     "ul": [
+      {
+       "t": "**Who**",
+       "sub": [
+        "Most common skin infection in children aged **2–5 years**, but any age can be affected.",
+        "More common in warm, humid weather and in crowded living conditions."
+       ]
+      },
+      {
+       "t": "**Spread**",
+       "sub": [
+        "Highly contagious by direct contact, towels and toys; outbreaks in nurseries, schools and sports teams."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "aetiology",
+   "title": "Aetiology: causes and risk factors",
+   "blocks": [
+    {
+     "ul": [
+      "A **break in the skin barrier** lets bacteria in. Common causes are eczema, scabies, insect bites, minor trauma and herpes simplex.",
+      "**Non-bullous:** infection of the epidermis, producing an exudate that dries to a honey-coloured crust.",
+      "**Bullous:** staphylococcal **exfoliative toxins** cleave **desmoglein-1** in the upper epidermis, producing flaccid blisters. The same toxins, spread systemically, cause staphylococcal scalded skin syndrome.",
+      "Spread is by direct contact, towels and fomites, and scratching (autoinoculation, ‘kissing lesions’)."
+     ]
+    },
+    {
+     "h": "Risk factors and associations"
+    },
+    {
+     "ul": [
+      "**Organisms**: *S. aureus* (most cases in the UK) and *S. pyogenes* (group A streptococcus), alone or together.",
+      "**Primary** impetigo on intact skin, or **secondary** impetigo (impetiginisation) on damaged skin: eczema, scabies, insect bites, chickenpox, herpes simplex, trauma, burns.",
+      "Risk factors: nasal carriage of *S. aureus*, immunosuppression, diabetes, poor hygiene, crowding, contact sports."
+     ]
+    },
+    {
+     "h": "Myths to address"
+    },
+    {
+     "ul": [
+      "**\"Impetigo means poor hygiene\"**: it is very common in clean, healthy children.",
+      "**\"Fusidic acid is first line\"**: NICE now favours hydrogen peroxide 1% cream for localised disease to reduce resistance."
+     ]
+    }
+   ],
+   "short": "Aetiology"
+  },
+  {
+   "id": "pathophysiology",
+   "title": "Pathophysiology and pathology",
+   "blocks": [
+    "Intact skin resists these bacteria; a **break in the barrier** lets them attach and multiply in the epidermis.",
+    {
+     "mech": [
+      {
+       "k": "Barrier breach and attachment",
+       "t": "Minor trauma, eczema or bites expose **fibronectin** receptors; staphylococcal and streptococcal adhesins (e.g. teichoic acids) bind and colonise the surface."
+      },
+      {
+       "k": "Non-bullous impetigo",
+       "t": "Bacteria multiply under the stratum corneum, causing a neutrophilic pustule that ruptures; serum dries into **golden crusts**.",
+       "img": "v3-impetigo-sections.jpg",
+       "caption": "Non-bullous impetigo (crusted pustule under the stratum corneum) compared with bullous impetigo (toxin splitting the granular layer)."
+      },
+      {
+       "k": "Bullous impetigo",
+       "t": "*S. aureus* phage group II releases **exfoliative toxins A and B**, which cleave **desmoglein 1** in the granular layer, so the upper epidermis lifts into flaccid blisters, even on intact skin.",
+       "img": "v4-imp-toxin-split.jpg",
+       "caption": "Bullous impetigo: staphylococcal toxins cut the connections between upper epidermal cells, lifting a flaccid blister."
+      },
+      {
+       "k": "Local spread",
+       "t": "Scratching and contact carry bacteria to new sites (autoinoculation) and other people.",
+       "img": "v3-impetigo-face.jpg",
+       "caption": "Typical distribution around the nose and mouth."
+      }
+     ]
+    },
+    {
+     "histo": [
+      "Subcorneal pustule with neutrophils and Gram-positive cocci.",
+      "Bullous impetigo: cleavage in the **granular layer** with few inflammatory cells (the same level as staphylococcal scalded skin syndrome).",
+      "Diagnosis is clinical; swab only if recurrent, extensive, or not responding."
+     ]
+    }
+   ],
+   "short": "Pathophysiology"
+  },
+  {
+   "id": "clinical-features",
+   "title": "Clinical features",
+   "blocks": [
+    {
+     "ul": [
+      "**Honey-coloured (golden) crusts** on a red base, often around the nose and mouth, and on the hands and limbs.",
+      "Satellite lesions, and ‘kissing lesions’ where skin surfaces touch.",
+      "**Bullous:** intact or burst thin-walled blisters, shallow erosions and collarette scale. Often in the axillae, trunk or nappy area.",
+      "Usually mildly itchy or sore. Fever and lymphadenopathy are more likely with bullous or extensive disease."
+     ]
+    },
+    {
+     "fig": {
+      "dermnet": "E01"
+     }
+    },
+    {
+     "h": "Forms to recognise"
+    },
+    {
+     "variants": [
+      {
+       "name": "Non-bullous",
+       "t": "Golden ‘honey’ crusts. *Site: Nose, mouth.*",
+       "photo": "E01"
+      },
+      {
+       "name": "Skin of colour",
+       "t": "Crusted golden lesions; redness less visible. *Site: Face.*",
+       "photo": "E03"
+      },
+      {
+       "name": "Bullous",
+       "t": "Flaccid blister, collarette edge. *Site: Trunk, axillae, nappy.*",
+       "photo": "E04"
+      }
+     ]
+    },
+    {
+     "h": "Special groups"
+    },
+    {
+     "ul": [
+      {
+       "t": "**Skin of colour**",
+       "sub": [
+        "Erythema is less visible; crusting and post-inflammatory hypo- or hyperpigmentation are prominent."
+       ]
+      },
+      {
+       "t": "**Newborns**",
+       "sub": [
+        "Bullous impetigo in neonates needs prompt assessment (risk of spread and SSSS)."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "diagnosis",
+   "title": "Diagnosis and investigations",
+   "blocks": [
+    {
+     "ul": [
+      "**Clinical.**",
+      "Swab if: recurrent, treatment has failed, MRSA risk, or widespread disease.",
+      "Look for and treat an **underlying dermatosis** (eczema, scabies, head lice).",
+      "Examine for **eczema herpeticum**: monomorphic punched-out erosions on eczematous skin, often with an unwell patient."
+     ]
+    },
+    {
+     "h4": "Clinical"
+    },
+    {
+     "ul": [
+      "Diagnosis is clinical."
+     ]
+    },
+    {
+     "h4": "Swab"
+    },
+    {
+     "ul": [
+      "Recurrent, failed treatment, **MRSA risk**, widespread, outbreak."
+     ]
+    },
+    {
+     "h4": "Find the trigger"
+    },
+    {
+     "ul": [
+      "Eczema, scabies, head lice."
+     ]
+    },
+    {
+     "h4": "Exclude HSV"
+    },
+    {
+     "ul": [
+      "Monomorphic **punched-out** erosions on eczema, unwell → **eczema herpeticum**."
+     ]
+    }
+   ],
+   "short": "Diagnosis"
+  },
+  {
+   "id": "differentials",
+   "title": "Differential diagnoses",
+   "blocks": [
+    {
+     "ddx": [
+      {
+       "name": "Eczema herpeticum",
+       "f": "Grouped vesicles → punched-out erosions; painful; unwell.",
+       "photo": "A08",
+       "danger": true
+      },
+      {
+       "name": "Eczema flare",
+       "f": "Itchy, ill-defined; crusts less golden.",
+       "link": "eczema-dermatitis"
+      },
+      {
+       "name": "Herpes simplex",
+       "f": "Grouped vesicles at a recurrent site.",
+       "link": "herpes-simplex-labialis"
+      },
+      {
+       "name": "Bullous bites",
+       "f": "Grouped on exposed sites; tense blisters.",
+       "link": "papular-urticaria-bites"
+      },
+      {
+       "name": "Pemphigus foliaceus",
+       "f": "Adult, recurrent superficial erosions; no antibiotic response.",
+       "link": "pemphigus"
+      }
+     ]
+    }
+   ],
+   "short": "Differentials"
+  },
+  {
+   "id": "management",
+   "title": "Management",
+   "blocks": [
+    "Aligned with **NICE NG153** (antimicrobial prescribing).",
+    {
+     "h": "Everyone"
+    },
+    {
+     "ul": [
+      "Hygiene advice to reduce spread: wash the lesions gently, do not share towels, and avoid scratching.",
+      "**School or nursery:** keep the child off until lesions are crusted and healed, or for **48 hours after starting antibiotics**, in line with UKHSA and local public health advice."
+     ]
+    },
+    {
+     "h": "Localised non-bullous, not unwell"
+    },
+    {
+     "ul": [
+      "**Hydrogen peroxide 1% cream** 2–3 times daily for 5 days.",
+      "If unsuitable or ineffective: a short course of **topical antibiotic**, usually **fusidic acid** for 5 days. Reserve mupirocin for MRSA in line with the local pathway."
+     ]
+    },
+    {
+     "h": "Widespread non-bullous, not unwell"
+    },
+    "Topical **or** oral antibiotic for 5 days (shared decision). Repeated topical antibiotic use drives resistance.",
+    {
+     "h": "Bullous, systemically unwell, or high risk of complications"
+    },
+    {
+     "ul": [
+      "**Oral antibiotic** for 5 days (up to 7 if severe).",
+      "First line: **flucloxacillin**. Penicillin allergy: **clarithromycin** (erythromycin in pregnancy)."
+     ]
+    },
+    {
+     "h": "MRSA and non-response (Module 5)"
+    },
+    {
+     "ul": [
+      "MRSA is becoming more common. **Swab** if impetigo is not responding, recurrent, part of an outbreak, or there are MRSA risk factors (recent hospital stay, care home, known carriage).",
+      "Choose the antibiotic using the **swab sensitivities and local microbiology advice**. Flucloxacillin and fusidic acid will not reliably treat MRSA.",
+      "Do **not** keep repeating fusidic acid courses. Resistance develops quickly.",
+      "Recurrent impetigo: consider nasal carriage and decolonisation for the patient and household, through the local pathway."
+     ]
+    },
+    {
+     "callout": "warn",
+     "title": "Don’t reach for a steroid–antibiotic combination by default",
+     "text": "Use a topical antibiotic plus steroid only when you have actually diagnosed infection on inflamed (e.g. eczematous) skin, and keep the course short."
+    },
+    {
+     "h": "Medicines at a glance"
+    },
+    {
+     "drugs": [
+      {
+       "name": "Hydrogen peroxide 1% cream",
+       "cls": "Localised, not unwell",
+       "dose": "2–3 times daily · 5 days",
+       "cautions": "Stewardship win."
+      },
+      {
+       "name": "Fusidic acid (if peroxide unsuitable or fails)",
+       "cls": "Localised, not unwell",
+       "dose": "Topical · 5 days",
+       "cautions": "Don’t repeat courses: resistance. Mupirocin only for MRSA via local pathway."
+      },
+      {
+       "name": "Flucloxacillin (oral)",
+       "cls": "Bullous, unwell or high risk",
+       "dose": "As BNF · 5 days (up to 7 if severe)",
+       "cautions": "Penicillin allergy: clarithromycin (erythromycin in pregnancy)."
+      }
+     ]
+    },
+    {
+     "h": "Treatment ladder"
+    },
+    {
+     "ladder": [
+      {
+       "k": "Everyone",
+       "t": "Wash lesions gently; no shared towels; avoid scratching. School / nursery: off until crusted and healed, or **48 h after starting antibiotics** (UKHSA).",
+       "tone": "base"
+      },
+      {
+       "k": "Localised, not unwell",
+       "t": "Hydrogen peroxide 1% cream; Fusidic acid (if peroxide unsuitable or fails)",
+       "tone": "first"
+      },
+      {
+       "k": "Widespread, not unwell",
+       "t": "Topical **or** oral antibiotic for 5 days (shared decision).",
+       "tone": "second"
+      },
+      {
+       "k": "Bullous, unwell or high risk",
+       "t": "Flucloxacillin (oral)",
+       "tone": "third"
+      },
+      {
+       "k": "MRSA or not responding",
+       "t": "Swab; choose by **sensitivities** and local microbiology. Recurrent: consider nasal carriage and household decolonisation.",
+       "tone": "refer"
+      }
+     ]
+    },
+    {
+     "callout": "warn",
+     "title": "Prescribing limits and pitfalls",
+     "list": [
+      "**Steroid–antibiotic combos**: Only for proven infection on inflamed skin, briefly.",
+      "**Safety-net**: Worse after 2–3 days, spreading redness or fever → review."
+     ]
+    },
+    {
+     "h": "Referral"
+    },
+    {
+     "refer": [
+      {
+       "when": "same-day",
+       "t": "Suspected **eczema herpeticum**."
+      },
+      {
+       "when": "same-day",
+       "t": "**Infant with bullous impetigo**, or suspected **SSSS** (tender widespread redness, peeling)."
+      },
+      {
+       "when": "urgent",
+       "t": "Cellulitis, deeper infection, or systemically unwell."
+      },
+      {
+       "when": "routine",
+       "t": "Immunocompromised with widespread disease, or frequent recurrence (carriage, MRSA)."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "red-flags",
+   "title": "Red flags and when to refer",
+   "blocks": [
+    {
+     "ul": [
+      "Suspected **eczema herpeticum**: same-day referral.",
+      "Signs of **cellulitis** or deeper infection, or a systemically unwell patient.",
+      "**Infants with bullous impetigo**, or suspected staphylococcal scalded skin syndrome (tender, widespread erythema with peeling).",
+      "Immunocompromised with widespread disease, or frequent recurrence (consider nasal carriage and MRSA)."
+     ]
+    }
+   ],
+   "short": "Red flags"
+  },
+  {
+   "id": "complications",
+   "title": "Complications and prognosis",
+   "blocks": [
+    {
+     "h": "Complications"
+    },
+    {
+     "ul": [
+      "**Cellulitis**, lymphangitis and bacteraemia.",
+      "**Staphylococcal scalded skin syndrome** (young children).",
+      "**Ecthyma**: deeper, punched-out ulcers that scar.",
+      "Post-streptococcal **glomerulonephritis** (2–6 weeks later) and, rarely, scarlet fever or streptococcal toxic shock.",
+      "Post-inflammatory pigment change; scarring is uncommon."
+     ]
+    },
+    {
+     "h": "Prognosis"
+    },
+    {
+     "ul": [
+      "Usually self-limiting; without treatment it heals in about 2–3 weeks, and within about 10 days with treatment.",
+      "Recurrence suggests nasal carriage or an untreated underlying skin condition."
+     ]
+    }
+   ],
+   "short": "Complications"
+  },
+  {
+   "id": "pearls",
+   "title": "Prescriber pearls (UK pharmacist IP)",
+   "blocks": [
+    {
+     "pearls": [
+      "Hydrogen peroxide 1% is first line for localised disease. It is a useful **stewardship** win.",
+      "**Avoid repeated fusidic acid** courses because of resistance. Use 5 days, then stop.",
+      "Crust does not always mean impetigo, so think about **HSV** first in eczema.",
+      "Treat the trigger (eczema, scabies, lice) or impetigo will keep coming back.",
+      "Safety-net: worsening after 2–3 days, spreading redness or fever means review.",
+      "**Skin of colour:** crusts and erythema can be subtler. Palpate, and rely on the history (spread to contacts, weeping, crusting).",
+      "New to skin terms? [Describing skin lesions](condition:lesion-language) explains crust, erosion, bulla and vesicle."
+     ]
+    }
+   ],
+   "short": "Pearls"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "First-line treatment for localised non-bullous impetigo (NG153)?",
+   "a": "Hydrogen peroxide 1% cream 2–3 times daily for 5 days."
+  },
+  {
+   "q": "Bullous or systemically unwell: what antibiotic?",
+   "a": "Oral flucloxacillin for 5 days (up to 7); clarithromycin if penicillin-allergic (erythromycin in pregnancy)."
+  },
+  {
+   "q": "What causes the blisters in bullous impetigo?",
+   "a": "Staphylococcal exfoliative toxins cleaving desmoglein-1 in the upper epidermis."
+  },
+  {
+   "q": "When can a child return to school?",
+   "a": "When lesions are crusted and healed, or 48 hours after starting antibiotics."
+  },
+  {
+   "q": "Punched-out erosions on eczema in an unwell child?",
+   "a": "Eczema herpeticum: same-day referral."
+  }
+ ],
+ "references": [
+  {
+   "label": "NICE NG153: Impetigo antimicrobial prescribing",
+   "url": "https://www.nice.org.uk/guidance/ng153"
+  },
+  {
+   "label": "Medscape: Impetigo",
+   "url": "https://emedicine.medscape.com/article/965254-overview"
+  }
+ ],
+ "see_also": [
+  "boils-carbuncles",
+  "folliculitis",
+  "eczema-dermatitis",
+  "cellulitis-erysipelas"
+ ]
+}

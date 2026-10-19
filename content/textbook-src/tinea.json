@@ -1,0 +1,105 @@
+{
+ "kf": [
+  "**Dermatophyte** infection of keratin (stratum corneum, hair, nails), mostly *Trichophyton rubrum*.",
+  "**Asymmetrical** annular plaque with a scaly **active edge** and central clearing; tinea pedis causes macerated toe webs.",
+  "Scrape the **edge** for microscopy if uncertain, extensive or before oral treatment.",
+  "Topical terbinafine or an imidazole **until 1–2 weeks after clearance**; treat feet and nails (the reservoir).",
+  "A topical steroid alone causes **tinea incognito**."
+ ],
+ "epi": [
+  {
+   "t": "**Who**",
+   "sub": [
+    "Worldwide, especially hot humid climates; tinea pedis affects up to 15–25% of adults at some point.",
+    "Tinea corporis is most common in **children and young adults**; tinea cruris and pedis in adult **men**."
+   ]
+  },
+  {
+   "t": "**Spread**",
+   "sub": [
+    "Skin-to-skin contact, shared towels, bedding and changing rooms; animals (*Microsporum canis* from cats and dogs, *T. verrucosum* from cattle).",
+    "Incubation 1–3 weeks."
+   ]
+  }
+ ],
+ "aet": [
+  "**Organisms**: anthropophilic *T. rubrum* (most common), *T. interdigitale*, *T. tonsurans*; zoophilic *M. canis*, *T. verrucosum*, *T. erinacei* (hedgehogs) give more inflamed lesions.",
+  "**Medical risk factors**: previous tinea, **diabetes**, immunosuppression, hyperhidrosis, obesity, ichthyosis.",
+  "**Environment**: occlusive footwear and clothing, sport, crowding, pets, contact sports (tinea gladiatorum).",
+  "Emerging **sexually transmitted** *T. mentagrophytes* genotype VII and **terbinafine-resistant** *T. indotineae* (extensive, recalcitrant groin and body tinea, often after travel to South Asia)."
+ ],
+ "myths": [
+  "**\"Any ring is ringworm\"**: granuloma annulare, discoid eczema and others make rings; scrape if unsure.",
+  "**\"Stop once it looks clear\"**: continue for 1–2 weeks after clearance or it relapses.",
+  "**\"A combined steroid cream is best\"**: steroid-antifungal is a short bridge only (up to 7 days) for very inflamed skin."
+ ],
+ "patho_lead": "Dermatophytes live only in **dead keratin**; the shape of the rash reflects how they spread and how the host reacts.",
+ "mech": [
+  {
+   "k": "Spores land on skin",
+   "t": "Spores from people, animals, soil or fomites stick to keratinocytes, helped by warmth, moisture and minor trauma."
+  },
+  {
+   "k": "Keratin digestion",
+   "t": "Fungi release **keratinases** and proteases to invade the **stratum corneum**, hair and nail; they rarely go deeper because of serum inhibitory factors and host immunity.",
+   "img": "v4-tinea-hyphae.jpg",
+   "cap": "Dermatophyte hyphae spread only through the dead outer layer (stratum corneum), releasing keratin-digesting enzymes; immune cells gather beneath."
+  },
+  {
+   "k": "Outward spread",
+   "t": "Hyphae grow outwards, while the host's inflammatory response clears the centre: an **active scaly edge with central clearing**.",
+   "img": "v3-tinea-annular-scrape.jpg",
+   "cap": "The ring grows outwards: the most active fungus is at the scaly edge, which is where to scrape."
+  },
+  {
+   "k": "Host response decides the look",
+   "t": "Strong cell-mediated immunity (often zoophilic species) gives inflamed, pustular lesions; weak responses (*T. rubrum*, immunosuppression, steroid use) give chronic, widespread, less inflamed disease (**tinea incognito**)."
+  },
+  {
+   "k": "Reservoirs and reinfection",
+   "t": "Feet and nails act as reservoirs; scratching and towels spread fungus to the groin and body (**autoinoculation**)."
+  }
+ ],
+ "histo": [
+  "Fungal hyphae in the stratum corneum (seen with PAS or Grocott stain), sometimes the 'sandwich sign' between orthokeratotic and parakeratotic layers.",
+  "Mild spongiosis and a superficial perivascular infiltrate; neutrophils in the stratum corneum.",
+  "In practice, diagnosis is by **skin scrapings** (microscopy with KOH and culture or PCR), not biopsy."
+ ],
+ "special": [
+  {
+   "t": "**Skin of colour**",
+   "sub": [
+    "Edges may look grey, violaceous or hyperpigmented rather than red; post-inflammatory pigmentation is common."
+   ]
+  },
+  {
+   "t": "**Children**",
+   "sub": [
+    "Tinea corporis and capitis are commonest; check pets and family members."
+   ]
+  },
+  {
+   "t": "**Diabetes and immunosuppression**",
+   "sub": [
+    "Treat tinea pedis promptly: fissured toe webs are a portal for cellulitis."
+   ]
+  }
+ ],
+ "comp": [
+  "Spread to other sites and household contacts.",
+  "**Bacterial superinfection** and cellulitis through fissured toe webs.",
+  "**Majocchi granuloma** (follicular invasion, often after steroid use) and **kerion** (scalp).",
+  "Id (dermatophytide) reaction: itchy vesicles at a distant site.",
+  "Chronic dermatophytosis (T. rubrum at 4 or more sites) and resistant infection."
+ ],
+ "prog": [
+  "Usually cured with correct treatment and adherence.",
+  "Relapse is common if treatment stops too early or reservoirs (feet, nails, contacts, pets) are not treated."
+ ],
+ "see_also": [
+  "onychomycosis",
+  "candida-intertrigo",
+  "annular-rashes",
+  "intertrigo"
+ ]
+}

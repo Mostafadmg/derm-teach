@@ -1,0 +1,584 @@
+{
+ "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
+ "key_facts": [
+  "Acute bacterial infection of the **dermis and subcutis** (cellulitis) or **upper dermis and lymphatics** (erysipelas).",
+  "Usually *Streptococcus pyogenes* (about two thirds) or *Staphylococcus aureus* (about one third).",
+  "Typically **one** hot, red, swollen, tender leg; bilateral red legs are rarely cellulitis.",
+  "UK: **NICE NG141**; flucloxacillin 500 mg–1 g QDS for 5–7 days for most adults; mark the border and review at 2–3 days.",
+  "Emergency if **necrotising fasciitis** or sepsis is possible."
+ ],
+ "sections": [
+  {
+   "id": "overview",
+   "title": "Overview",
+   "blocks": [
+    {
+     "table": {
+      "head": [
+       "Condition",
+       "Depth",
+       "Edge",
+       "Usual organism"
+      ],
+      "rows": [
+       [
+        "Erysipelas",
+        "Superficial dermis and lymphatics",
+        "Sharp, raised, well-demarcated",
+        "Usually streptococci"
+       ],
+       [
+        "Cellulitis",
+        "Deeper dermis and subcutis",
+        "Less distinct",
+        "*S. pyogenes*, *S. aureus*"
+       ]
+      ]
+     }
+    },
+    "In practice the two overlap and are managed the same way in primary care."
+   ]
+  },
+  {
+   "id": "epidemiology",
+   "title": "Epidemiology",
+   "blocks": [
+    {
+     "ul": [
+      {
+       "t": "**Common**",
+       "sub": [
+        "One of the commonest reasons for antibiotic prescribing in primary care and for emergency admission with skin disease."
+       ]
+      },
+      {
+       "t": "**Who**",
+       "sub": [
+        "All ages; more common in **middle-aged and older adults**.",
+        "Erysipelas is more common in older adults and infants."
+       ]
+      },
+      {
+       "t": "**Recurrence**",
+       "sub": [
+        "Up to about a third have a further episode, especially with lymphoedema, venous disease or untreated tinea pedis."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "aetiology",
+   "title": "Aetiology: causes and risk factors",
+   "blocks": [
+    {
+     "ul": [
+      "A **breach in the skin barrier** lets bacteria in. Common entry points are **tinea pedis**, eczema, ulcers, trauma, bites, lymphoedema and previous surgery.",
+      "Bacteria spread through the dermis and subcutaneous tissue, with or without lymphangitis.",
+      "The host inflammatory response causes the redness, heat, swelling and systemic symptoms.",
+      "Risk factors: obesity, venous insufficiency, lymphoedema, diabetes, and previous cellulitis."
+     ]
+    },
+    {
+     "table": {
+      "head": [
+       "Patient",
+       "Usual organisms (Module 5)"
+      ],
+      "rows": [
+       [
+        "Immunocompetent",
+        "*S. pyogenes* (about two-thirds) and *S. aureus* (about one-third)"
+       ],
+       [
+        "Immunocompromised",
+        "A broader range, including **Gram-negatives**, so take advice"
+       ]
+      ]
+     }
+    },
+    {
+     "h": "Risk factors and associations"
+    },
+    {
+     "ul": [
+      "**Portal of entry**: toe-web **tinea pedis** or fissured heels, eczema, ulcers, trauma, bites, surgical wounds, IV drug use.",
+      "**Host factors**: previous cellulitis, **lymphoedema**, venous insufficiency, **obesity**, diabetes, immunosuppression, chronic kidney or liver disease, pregnancy, alcohol excess.",
+      "**Organisms in special settings**: *Pasteurella* (cat or dog bites), *Pseudomonas* (puncture wounds of the foot), *Vibrio* or *Aeromonas* (salt or fresh water), MRSA, Gram-negatives in the immunocompromised."
+     ]
+    },
+    {
+     "h": "Myths to address"
+    },
+    {
+     "ul": [
+      "**\"It was a spider bite\"**: documented spider bites rarely cause cellulitis; look for tinea pedis or a skin break.",
+      "**\"Still red on day 3, so the antibiotic failed\"**: redness takes days to settle; check the border and the patient.",
+      "**\"Cellulitis is contagious\"**: it is not usually spread person to person."
+     ]
+    }
+   ],
+   "short": "Aetiology"
+  },
+  {
+   "id": "pathophysiology",
+   "title": "Pathophysiology and pathology",
+   "blocks": [
+    "Bacteria cross a **breach in the skin**, multiply in the dermis and trigger an acute inflammatory response.",
+    {
+     "mech": [
+      {
+       "k": "A breach in the barrier",
+       "t": "A fissure, cut, bite, ulcer or **macerated toe web** lets skin flora into the dermis; lymphoedema and venous stasis impair clearance."
+      },
+      {
+       "k": "Bacteria multiply and spread",
+       "t": "Streptococci release hyaluronidase, streptokinase and DNases that help them spread through tissue planes; staphylococci form local abscesses more often."
+      },
+      {
+       "k": "Depth decides the edge",
+       "t": "**Erysipelas** involves the upper dermis and lymphatics, giving a raised, sharp edge; **cellulitis** extends into deep dermis and fat, so the edge is flat and ill-defined.",
+       "img": "v3-cellulitis-depth.jpg",
+       "caption": "Erysipelas (left) in the upper dermis and lymphatics vs cellulitis (right) in the deep dermis and fat."
+      },
+      {
+       "k": "Inflammation",
+       "t": "Cytokines (TNF, IL-1, IL-6) cause the **redness, heat, swelling and pain**, fever and malaise; toxins can cause systemic illness.",
+       "img": "v3-cellulitis-leg.jpg",
+       "caption": "Typical cellulitis in one leg, with the portal of entry in a fissured toe web."
+      },
+      {
+       "k": "Healing and damage",
+       "t": "Lymphatics damaged by each episode drain less well, increasing oedema and the risk of **recurrence**."
+      }
+     ]
+    },
+    {
+     "histo": [
+      "Dermal oedema, dilated lymphatics and a diffuse neutrophilic infiltrate extending into subcutaneous fat.",
+      "Organisms are often scanty; biopsy is not used for diagnosis."
+     ]
+    }
+   ],
+   "short": "Pathophysiology"
+  },
+  {
+   "id": "clinical-features",
+   "title": "Clinical features",
+   "blocks": [
+    {
+     "ul": [
+      "**Cellulitis:** expanding redness, heat, swelling and tenderness, usually in **one** leg. May have fever, malaise, lymphadenopathy and lymphangitic streaking. Can have blisters.",
+      "**Erysipelas:** bright red, hot, **raised, sharply demarcated** plaque, often on the face or leg. Fever and chills are common and may come before the rash.",
+      "**Skin of colour:** redness is much less obvious, so rely on **swelling, warmth, pain and induration**."
+     ]
+    },
+    {
+     "ul": [
+      "Look for **peau d’orange**, bullae, purpura, **lymphangitic streaks** and tender regional lymph nodes.",
+      "Fever and rigors can come **before** the rash."
+     ]
+    },
+    {
+     "callout": "tip",
+     "title": "Milian’s ear sign",
+     "text": "Redness involving the **pinna** favours **erysipelas** over cellulitis. The ear has no deep dermis or subcutaneous fat, so deep cellulitis cannot really involve it."
+    },
+    {
+     "fig": {
+      "dermnet": "E07"
+     }
+    },
+    {
+     "h": "Look for"
+    },
+    {
+     "variants": [
+      {
+       "name": "Peau d’orange",
+       "t": "Dimpled swollen skin: mark and reassess. *Site: Leg.*",
+       "photo": "m5w2:Q02"
+      },
+      {
+       "name": "Bullous cellulitis",
+       "t": "Still a soft-tissue infection; escalate if severe. *Site: Leg.*",
+       "photo": "m5w2:Q03"
+      },
+      {
+       "name": "Facial erysipelas",
+       "t": "Bright, well-demarcated plaque. *Site: Face.*",
+       "photo": "E08"
+      },
+      {
+       "name": "Milian’s ear sign",
+       "t": "Pinna involved → erysipelas. *Site: Ear.*",
+       "photo": "m5w2:Q05"
+      },
+      {
+       "name": "Portal of entry",
+       "t": "Macerated toe-web tinea. *Site: Toe webs.*",
+       "photo": "D05"
+      }
+     ]
+    },
+    {
+     "h": "Special groups"
+    },
+    {
+     "ul": [
+      {
+       "t": "**Skin of colour**",
+       "sub": [
+        "Redness may be hard to see: rely on warmth, swelling, tenderness and induration, and compare with the other leg."
+       ]
+      },
+      {
+       "t": "**Children**",
+       "sub": [
+        "Periorbital or facial cellulitis needs a low threshold for same-day assessment."
+       ]
+      },
+      {
+       "t": "**Pregnancy**",
+       "sub": [
+        "Erythromycin if penicillin allergic (NICE NG141)."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "diagnosis",
+   "title": "Diagnosis and investigations",
+   "blocks": [
+    {
+     "ul": [
+      "**Clinical.** Exclude non-infective mimics before giving antibiotics.",
+      "**Mark the border** with a skin pen and record the date and time. Photograph if possible, to monitor spread.",
+      "Assess severity: observations, NEWS2 or sepsis screen, comorbidities and site (face or periorbital).",
+      "Swab only if there is broken skin with a penetrating injury, water exposure, or infection acquired outside the UK.",
+      "Bloods and blood cultures belong in the hospital pathway for unwell patients."
+     ]
+    },
+    {
+     "h4": "Clinical"
+    },
+    {
+     "ul": [
+      "Exclude **mimics** before antibiotics.",
+      "Bilateral? Rethink."
+     ]
+    },
+    {
+     "h4": "Mark it"
+    },
+    {
+     "ul": [
+      "**Pen the border**, date and time; photograph."
+     ]
+    },
+    {
+     "h4": "Severity"
+    },
+    {
+     "ul": [
+      "Obs, **NEWS2** / sepsis screen, comorbidities, face or periorbital site."
+     ]
+    },
+    {
+     "h4": "Tests"
+    },
+    {
+     "ul": [
+      "Swab only for penetrating injury, water exposure, or infection acquired abroad.",
+      "Bloods and cultures: hospital pathway."
+     ]
+    }
+   ],
+   "short": "Diagnosis"
+  },
+  {
+   "id": "differentials",
+   "title": "Differential diagnoses",
+   "blocks": [
+    {
+     "ddx": [
+      {
+       "name": "Venous eczema / lipodermatosclerosis",
+       "f": "**Bilateral**, chronic, itchy, little pain, no fever.",
+       "link": "red-leg"
+      },
+      {
+       "name": "DVT",
+       "f": "Calf swelling and tenderness, less redness; Wells, D-dimer, Doppler.",
+       "danger": true
+      },
+      {
+       "name": "Gout",
+       "f": "Joint-centred, very tender, past attacks."
+      },
+      {
+       "name": "Insect bite reaction",
+       "f": "Itch > pain, central punctum, rapid onset.",
+       "link": "papular-urticaria-bites"
+      },
+      {
+       "name": "Contact dermatitis",
+       "f": "Itchy, vesicular, matches exposure, no fever.",
+       "link": "contact-dermatitis"
+      },
+      {
+       "name": "Necrotising fasciitis",
+       "f": "**Pain out of proportion**, dusky skin, crepitus: 999.",
+       "danger": true
+      }
+     ]
+    },
+    {
+     "callout": "danger",
+     "title": "Necrotising fasciitis",
+     "text": "Severe **pain out of proportion** to the signs, rapid spread, systemic toxicity, dusky or purple skin, bullae or crepitus. This is an **emergency**: 999 or ED."
+    },
+    "See also: [Red leg: differentials & referral](condition:red-leg)"
+   ],
+   "short": "Differentials"
+  },
+  {
+   "id": "management",
+   "title": "Management",
+   "blocks": [
+    "Aligned with **NICE NG141** and CKS.",
+    {
+     "h": "Supportive"
+    },
+    {
+     "ul": [
+      "Draw around the edge, elevate the limb, give analgesia and encourage fluids.",
+      "Use emollient for dry skin. **Avoid compression** during acute cellulitis.",
+      "**Treat the portal of entry:** tinea pedis, eczema, ulcers, lymphoedema."
+     ]
+    },
+    {
+     "h": "Antibiotics (adults, oral)"
+    },
+    {
+     "table": {
+      "head": [
+       "Situation",
+       "Choice"
+      ],
+      "rows": [
+       [
+        "First line",
+        "**Flucloxacillin** 500 mg–1 g four times daily for **5–7 days** (longer if clinically needed)"
+       ],
+       [
+        "Penicillin allergy",
+        "Clarithromycin, doxycycline or erythromycin (erythromycin in pregnancy)"
+       ],
+       [
+        "Near the eyes or nose (periorbital / ‘danger triangle’)",
+        "**Co-amoxiclav** (penicillin allergy: clarithromycin + metronidazole). Consider specialist advice"
+       ],
+       [
+        "Severe, or unable to take oral",
+        "IV in hospital or the community IV service; review switch to oral by 48 hours"
+       ]
+      ]
+     }
+    },
+    {
+     "ul": [
+      "**Reassess** if worse at any time, or not improving after **2–3 days**.",
+      "Recurrent cellulitis (2 or more episodes in 12 months): a specialist may consider prophylaxis (e.g. phenoxymethylpenicillin). This is not routine in primary care."
+     ]
+    },
+    {
+     "callout": "info",
+     "title": "Recurrent cellulitis",
+     "text": "Two or more episodes: treat the portals of entry (tinea pedis, eczema), manage oedema with compression once the acute episode has settled, and discuss prophylactic penicillin with a clinician (based on the PATCH trials)."
+    },
+    {
+     "h": "Medicines at a glance"
+    },
+    {
+     "drugs": [
+      {
+       "name": "Flucloxacillin",
+       "cls": "First line · adults",
+       "dose": "500 mg–1 g four times daily · 5–7 days (longer if clinically needed)",
+       "cautions": "Penicillin allergy: clarithromycin, doxycycline or erythromycin (pregnancy)."
+      },
+      {
+       "name": "Co-amoxiclav",
+       "cls": "Near eyes or nose",
+       "dose": "As BNF · Per NG141",
+       "cautions": "Penicillin allergy: clarithromycin + metronidazole. Consider specialist advice."
+      }
+     ]
+    },
+    {
+     "h": "Treatment ladder"
+    },
+    {
+     "ladder": [
+      {
+       "k": "Supportive",
+       "t": "Elevate, analgesia, fluids; emollient for dry skin. **No compression** during acute cellulitis.",
+       "tone": "base"
+      },
+      {
+       "k": "First line · adults",
+       "t": "Flucloxacillin",
+       "tone": "first"
+      },
+      {
+       "k": "Near eyes or nose",
+       "t": "Co-amoxiclav",
+       "tone": "second"
+      },
+      {
+       "k": "Severe or can’t take oral",
+       "t": "IV in hospital or community IV service; review switch to oral by 48 h.",
+       "tone": "refer"
+      }
+     ]
+    },
+    {
+     "callout": "warn",
+     "title": "Prescribing limits and pitfalls",
+     "list": [
+      "**Day 3 redness**: Skin takes days to settle: not automatic failure.",
+      "**Not better at 48–72 h**: Swab open wounds, consider MRSA, **revisit the diagnosis**.",
+      "**Recurrent (≥ 2 in 12 months)**: Treat portals, compression once settled; specialist may consider penicillin prophylaxis."
+     ]
+    },
+    {
+     "h": "Referral"
+    },
+    {
+     "refer": [
+      {
+       "when": "emergency",
+       "t": "**Necrotising fasciitis**: pain out of proportion, rapid spread, purple bullae, crepitus, very unwell."
+      },
+      {
+       "when": "emergency",
+       "t": "**Sepsis**: low BP, raised HR or RR, confusion, mottled skin."
+      },
+      {
+       "when": "same-day",
+       "t": "**Periorbital / orbital**: pain on eye movement, proptosis, reduced vision."
+      },
+      {
+       "when": "urgent",
+       "t": "Spread beyond the border, or failure after 48–72 h oral therapy."
+      },
+      {
+       "when": "routine",
+       "t": "Infants, frail elderly, immunocompromised, lymphoedema: lower threshold."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "red-flags",
+   "title": "Red flags and when to refer",
+   "blocks": [
+    {
+     "ul": [
+      "**Necrotising fasciitis signs:** pain out of proportion, rapid spread, purple bullae, crepitus, or a very unwell patient. **Emergency.**",
+      "**Sepsis:** low blood pressure, raised heart or breathing rate, confusion, mottled skin.",
+      "**Periorbital or orbital cellulitis:** pain on eye movement, proptosis, reduced vision. Same-day ophthalmology or ED.",
+      "Rapid spread beyond the marked border, or failure after 48–72 hours of oral therapy.",
+      "Infants, frail older adults, the immunocompromised, or significant lymphoedema: lower threshold to refer."
+     ]
+    }
+   ],
+   "short": "Red flags"
+  },
+  {
+   "id": "complications",
+   "title": "Complications and prognosis",
+   "blocks": [
+    {
+     "h": "Complications"
+    },
+    {
+     "ul": [
+      "**Necrotising fasciitis**, gas gangrene and streptococcal toxic shock.",
+      "**Sepsis**; bacteraemia with seeding to bone, joints or heart valves (endocarditis).",
+      "Abscess formation; lymphangitis.",
+      "**Recurrent cellulitis** and secondary **lymphoedema**.",
+      "Orbital cellulitis with visual loss or cavernous sinus thrombosis (facial infection)."
+     ]
+    },
+    {
+     "h": "Prognosis"
+    },
+    {
+     "ul": [
+      "Most cases respond to oral antibiotics without lasting harm; skin can take weeks to look normal.",
+      "Recurrence is common; treating portals of entry and oedema reduces it."
+     ]
+    }
+   ],
+   "short": "Complications"
+  },
+  {
+   "id": "pearls",
+   "title": "Prescriber pearls (UK pharmacist IP)",
+   "blocks": [
+    {
+     "pearls": [
+      "**Bilateral red legs are not cellulitis until proven otherwise.** Think venous eczema or lipodermatosclerosis.",
+      "The skin takes **days** to look normal after the bacteria are controlled. Residual redness on day 3 is not automatic failure, so avoid reflexively extending the course.",
+      "**Always treat athlete’s foot** to reduce recurrent leg cellulitis.",
+      "On the face, have a lower threshold for review or admission.",
+      "Safety-net: rapid worsening, severe pain, purple blisters or feeling faint means same-day emergency care.",
+      "At 48–72 hours, if it is not better: swab any open wound, consider MRSA, and **revisit the diagnosis**."
+     ]
+    }
+   ],
+   "short": "Pearls"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Erysipelas vs cellulitis: which has a sharp raised edge and why?",
+   "a": "Erysipelas: it involves the upper dermis and lymphatics. Cellulitis is deeper, with an ill-defined edge."
+  },
+  {
+   "q": "First-line antibiotic and duration (NG141)?",
+   "a": "Flucloxacillin 500 mg–1 g four times daily for 5–7 days."
+  },
+  {
+   "q": "Which antibiotic near the eyes or nose?",
+   "a": "Co-amoxiclav (penicillin allergy: clarithromycin + metronidazole)."
+  },
+  {
+   "q": "Pain out of proportion with rapid spread?",
+   "a": "Possible necrotising fasciitis: emergency, 999 / ED."
+  },
+  {
+   "q": "Both legs red and itchy, no fever?",
+   "a": "Probably not cellulitis: think venous eczema or lipodermatosclerosis."
+  }
+ ],
+ "references": [
+  {
+   "label": "Medscape: Cellulitis & erysipelas",
+   "url": "https://emedicine.medscape.com/article/214222-overview"
+  }
+ ],
+ "see_also": [
+  "red-leg",
+  "venous-leg-ulcer",
+  "tinea",
+  "boils-carbuncles",
+  "impetigo"
+ ]
+}

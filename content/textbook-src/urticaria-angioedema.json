@@ -1,0 +1,102 @@
+{
+ "kf": [
+  "**Urticaria**: itchy, transient **weals** (each lasting < 24 h) from mast-cell mediator release; **angioedema** is deeper swelling lasting up to 72 h.",
+  "About **1 in 5** people have acute urticaria in their lifetime; chronic spontaneous urticaria affects **0.5–2%**.",
+  "Acute (< 6 weeks) is often triggered by infection, drugs or food; chronic (≥ 6 weeks) is usually spontaneous or inducible.",
+  "UK first line: a **non-sedating second-generation antihistamine**, increased up to 4 times the licensed dose (off-label) under guidance.",
+  "Angioedema **without weals** (ACE inhibitor, hereditary) is bradykinin-mediated and does not respond to antihistamines; airway swelling is an emergency."
+ ],
+ "epi": [
+  {
+   "t": "**Acute urticaria**",
+   "sub": [
+    "About 20% lifetime prevalence; all ages and both sexes.",
+    "In children usually triggered by **viral infection**; in adults often idiopathic."
+   ]
+  },
+  {
+   "t": "**Chronic urticaria**",
+   "sub": [
+    "Chronic spontaneous urticaria affects **0.5–2%**, about two thirds women, peak 20–40 years.",
+    "Chronic inducible (physical) urticarias such as dermographism are more common."
+   ]
+  },
+  {
+   "t": "**Duration**",
+   "sub": [
+    "Chronic spontaneous urticaria lasts on average 2–5 years; about half clear within a year."
+   ]
+  }
+ ],
+ "aet": [
+  "**Acute triggers**: viral or bacterial infection, **drugs** (NSAIDs, aspirin, antibiotics, opioids), IgE-mediated food allergy (milk, egg, peanut, shellfish), insect stings.",
+  "**Chronic spontaneous**: autoimmune (IgG autoantibodies to IgE or its receptor FcεRI, or IgE to self-antigens) in about half; associated with autoimmune thyroid disease.",
+  "**Inducible**: dermographism, cold, cholinergic (heat, sweat), pressure, solar, aquagenic, vibratory.",
+  "**Aggravators**: NSAIDs, alcohol, heat, stress, tight clothing."
+ ],
+ "myths": [
+  "**\"Chronic hives must be an allergy\"**: chronic spontaneous urticaria is rarely allergic; extensive allergy testing is not helpful.",
+  "**\"All swelling responds to antihistamines\"**: bradykinin angioedema (ACE inhibitor, hereditary angioedema) does not."
+ ],
+ "patho_lead": "Weals come from **mast cells** in the dermis releasing histamine and other mediators; angioedema is the same process deeper down (or bradykinin-driven).",
+ "mech": [
+  {
+   "k": "Mast cells are activated",
+   "t": "Triggers (IgE cross-linking by allergen, autoantibodies to FcεRI, complement, drugs, physical stimuli) activate dermal **mast cells** and basophils."
+  },
+  {
+   "k": "Mediators are released",
+   "t": "Mast cells degranulate, releasing **histamine**, prostaglandin D2, leukotrienes, platelet-activating factor and cytokines.",
+   "img": "v4-urt-mast-cell.jpg",
+   "cap": "A dermal mast cell releases histamine-containing granules; the nearby vessel leaks fluid, raising a weal."
+  },
+  {
+   "k": "Vessels leak, nerves itch",
+   "t": "Histamine dilates and opens small vessels (**oedema and redness**: the weal and flare) and stimulates sensory nerves (**itch**).",
+   "img": "v3-urticaria-sections.jpg",
+   "cap": "Weal (superficial dermal oedema) vs angioedema (oedema of deep dermis and subcutis)."
+  },
+  {
+   "k": "Deeper swelling: angioedema",
+   "t": "The same leak in the **deep dermis, subcutis or mucosa** gives angioedema; **bradykinin** causes non-itchy angioedema without weals (ACE inhibitors, C1-inhibitor deficiency).",
+   "img": "v3-angioedema-face.jpg",
+   "cap": "Angioedema of the lips and eyelids."
+  },
+  {
+   "k": "Weals resolve",
+   "t": "Mediators are cleared within hours, so each weal fades within 24 hours without marks; lesions lasting longer or bruising suggest **urticarial vasculitis**."
+  }
+ ],
+ "histo": [
+  "Dermal oedema with dilated vessels and a sparse perivascular infiltrate (neutrophils, eosinophils, lymphocytes); epidermis normal.",
+  "Biopsy only if weals last over 24 hours, burn or bruise (to exclude urticarial vasculitis)."
+ ],
+ "special": [
+  {
+   "t": "**Skin of colour**",
+   "sub": [
+    "Weals may look skin-coloured or slightly darker rather than red; rely on raised, itchy, transient swellings."
+   ]
+  },
+  {
+   "t": "**Pregnancy and breastfeeding**",
+   "sub": [
+    "Loratadine or cetirizine are usually preferred (check BNF)."
+   ]
+  }
+ ],
+ "comp": [
+  "**Anaphylaxis** (with respiratory or circulatory compromise).",
+  "Airway compromise from laryngeal or tongue angioedema.",
+  "Sleep loss, poor quality of life, anxiety and depression in chronic urticaria."
+ ],
+ "prog": [
+  "Acute urticaria usually settles within days to weeks.",
+  "Chronic spontaneous urticaria: about 50% remit within a year; some persist for more than 5 years."
+ ],
+ "see_also": [
+  "ace-inhibitor-angioedema",
+  "urticarial-vasculitis",
+  "papular-urticaria-bites"
+ ]
+}

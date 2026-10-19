@@ -1,0 +1,82 @@
+{
+ "kf": [
+  "Eczema caused by something touching the skin: **irritant (ICD, about 80%)** or **allergic (ACD, type IV delayed hypersensitivity)**.",
+  "Hands and face are the commonest sites; occupational exposure is frequent (hairdressers, healthcare, cleaners, builders).",
+  "ACD: about **25 allergens** cause half of cases; nickel is the leading cause worldwide.",
+  "Identify and avoid the cause (**patch testing** for suspected ACD), emollients and soap substitutes, topical steroid.",
+  "Persistent occupational dermatitis may need specialist and occupational health input."
+ ],
+ "epi": [
+  {
+   "t": "**Common**",
+   "sub": [
+    "Contact dermatitis accounts for most **occupational skin disease**; irritant contact dermatitis is about four times commoner than allergic."
+   ]
+  },
+  {
+   "t": "**Who**",
+   "sub": [
+    "Any age; more common in adults with wet work; atopic people are at higher risk of irritant dermatitis.",
+    "Nickel allergy is commonest in women (jewellery, piercings) but falling in Europe since the EU Nickel Directive."
+   ]
+  }
+ ],
+ "aet": [
+  "**Irritants**: water and wet work, soaps and detergents, solvents, friction, cutting oils, alkalis and acids.",
+  "**Common allergens**: nickel, cobalt, chromate (cement, leather), fragrances, preservatives (**methylisothiazolinone**, formaldehyde releasers), **PPD** hair dye, rubber accelerators, topical medicines (neomycin, corticosteroids), plants (*Primula*, Compositae).",
+  "A damaged barrier (e.g. atopic eczema, leg ulcers, perianal disease) increases sensitisation to topical medicines."
+ ],
+ "myths": [
+  "**\"I've used it for years, so I can't be allergic\"**: sensitisation can develop after years of exposure.",
+  "**\"Hypoallergenic products are safe\"**: they can still contain relevant allergens."
+ ],
+ "patho_lead": "**Irritant** dermatitis is direct damage; **allergic** dermatitis is a learned T-cell response.",
+ "mech": [
+  {
+   "k": "Irritant damage",
+   "t": "Irritants strip lipids and damage keratinocytes directly, causing barrier loss and non-specific inflammation in anyone exposed enough; no prior sensitisation needed.",
+   "img": "v3-contact-icd-acd.jpg",
+   "cap": "Irritant dermatitis (direct damage) vs allergic dermatitis (sensitised T cells)."
+  },
+  {
+   "k": "Sensitisation phase (allergic)",
+   "t": "Small reactive chemicals (**haptens**, under 500 Da) bind skin proteins; Langerhans cells carry them to lymph nodes and prime specific **T cells** (10–15 days).",
+   "img": "v4-cd-sensitisation.jpg",
+   "cap": "Sensitisation: a small chemical (hapten) binds skin protein; a Langerhans cell carries it to the lymph node, where specific T cells multiply."
+  },
+  {
+   "k": "Elicitation phase",
+   "t": "On re-exposure, memory T cells release cytokines at the contact site within **24–72 hours**, causing eczema (type IV hypersensitivity)."
+  },
+  {
+   "k": "Spread and chronicity",
+   "t": "Eczema can spread beyond the contact area (autosensitisation); continued exposure leads to chronic, lichenified, fissured dermatitis."
+  }
+ ],
+ "histo": [
+  "Spongiotic dermatitis (intercellular oedema, vesicles) with lymphocytes; eosinophils favour allergic dermatitis.",
+  "Irritant: keratinocyte necrosis and neutrophils in acute damage. Histology cannot identify the cause: **patch testing** does."
+ ],
+ "dist": [
+  "**Hands** (wet work, gloves, occupational).",
+  "**Face, eyelids and neck** (cosmetics, airborne allergens, nail varnish).",
+  "**Earlobes, wrists and umbilicus** (nickel).",
+  "**Scalp margin and face** (hair dye PPD).",
+  "**Feet** (shoes: chromate, rubber)."
+ ],
+ "comp": [
+  "Chronic hand dermatitis with loss of work; secondary bacterial infection.",
+  "Severe facial and scalp swelling after PPD hair dye.",
+  "Spread (autosensitisation) and erythroderma (rare)."
+ ],
+ "prog": [
+  "ICD improves when exposure stops, but barrier recovery takes weeks to months.",
+  "ACD is lifelong: avoidance prevents recurrence; occupational ACD can persist even after avoidance."
+ ],
+ "see_also": [
+  "hand-eczema",
+  "eczema-dermatitis",
+  "emollients",
+  "topical-corticosteroids"
+ ]
+}

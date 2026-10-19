@@ -1,0 +1,572 @@
+{
+ "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
+ "key_facts": [
+  "**Dermatophyte** infection of keratin (stratum corneum, hair, nails), mostly *Trichophyton rubrum*.",
+  "**Asymmetrical** annular plaque with a scaly **active edge** and central clearing; tinea pedis causes macerated toe webs.",
+  "Scrape the **edge** for microscopy if uncertain, extensive or before oral treatment.",
+  "Topical terbinafine or an imidazole **until 1–2 weeks after clearance**; treat feet and nails (the reservoir).",
+  "A topical steroid alone causes **tinea incognito**."
+ ],
+ "sections": [
+  {
+   "id": "overview",
+   "title": "Overview",
+   "blocks": [
+    {
+     "table": {
+      "head": [
+       "Form",
+       "Plain definition"
+      ],
+      "rows": [
+       [
+        "Tinea corporis",
+        "‘Ringworm’ of the body skin"
+       ],
+       [
+        "Tinea cruris",
+        "Dermatophyte infection of the groin (‘jock itch’)"
+       ],
+       [
+        "Tinea pedis",
+        "Athlete’s foot: interdigital, moccasin or vesicular"
+       ]
+      ]
+     }
+    },
+    "All three are caused by **dermatophytes**, most often *Trichophyton rubrum*. They are **contagious**, spreading by spores and fomites (towels, floors, clothing) and from animals.",
+    {
+     "h4": "Tinea manuum and pedis on the palms and soles (Module 3 Week 6)"
+    },
+    {
+     "ul": [
+      "dermatophyte infection of the hand (tinea manuum — much less common) and foot (tinea pedis — very common). Usual organisms *Trichophyton rubrum*, *T. interdigitale*, *Epidermophyton floccosum*; zoophilic (*Microsporum canis*, *T. verrucosum*, *T. erinacei*) cause inflamed lesions."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "epidemiology",
+   "title": "Epidemiology",
+   "blocks": [
+    {
+     "ul": [
+      {
+       "t": "**Who**",
+       "sub": [
+        "Worldwide, especially hot humid climates; tinea pedis affects up to 15–25% of adults at some point.",
+        "Tinea corporis is most common in **children and young adults**; tinea cruris and pedis in adult **men**."
+       ]
+      },
+      {
+       "t": "**Spread**",
+       "sub": [
+        "Skin-to-skin contact, shared towels, bedding and changing rooms; animals (*Microsporum canis* from cats and dogs, *T. verrucosum* from cattle).",
+        "Incubation 1–3 weeks."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "aetiology",
+   "title": "Aetiology: causes and risk factors",
+   "blocks": [
+    "Dermatophytes are keratin-loving fungi that invade the **stratum corneum** (and hair and nails). The infection spreads outwards in a ring, which produces the **active edge with central clearing**.",
+    "**Autoinoculation** is common: infection spreads from the feet and nails to the groin and body.",
+    {
+     "ul": [
+      "**Risk factors:** occlusion, sweating, sport, shared towels and changing rooms.",
+      "**Pets and farm animals:** zoophilic species cause more inflamed, pustular lesions."
+     ]
+    },
+    {
+     "callout": "info",
+     "title": "Tinea cruris risk factors (Module 5)",
+     "text": "Hot, humid weather; sweating and sport; tight, occlusive clothing; **diabetes**; and immunosuppression. The usual organism is *T. rubrum*, with *T. interdigitale* and *Epidermophyton floccosum* also seen."
+    },
+    {
+     "callout": "warn",
+     "title": "Why steroids make tinea worse",
+     "text": "A topical steroid suppresses the local immune response that is holding the fungus back. The redness fades, but the dermatophyte spreads freely. The result is **tinea incognito**: a larger, less scaly, atypical rash that is easily mistaken for eczema."
+    },
+    {
+     "h": "Risk factors and associations"
+    },
+    {
+     "ul": [
+      "**Organisms**: anthropophilic *T. rubrum* (most common), *T. interdigitale*, *T. tonsurans*; zoophilic *M. canis*, *T. verrucosum*, *T. erinacei* (hedgehogs) give more inflamed lesions.",
+      "**Medical risk factors**: previous tinea, **diabetes**, immunosuppression, hyperhidrosis, obesity, ichthyosis.",
+      "**Environment**: occlusive footwear and clothing, sport, crowding, pets, contact sports (tinea gladiatorum).",
+      "Emerging **sexually transmitted** *T. mentagrophytes* genotype VII and **terbinafine-resistant** *T. indotineae* (extensive, recalcitrant groin and body tinea, often after travel to South Asia)."
+     ]
+    },
+    {
+     "h": "Myths to address"
+    },
+    {
+     "ul": [
+      "**\"Any ring is ringworm\"**: granuloma annulare, discoid eczema and others make rings; scrape if unsure.",
+      "**\"Stop once it looks clear\"**: continue for 1–2 weeks after clearance or it relapses.",
+      "**\"A combined steroid cream is best\"**: steroid-antifungal is a short bridge only (up to 7 days) for very inflamed skin."
+     ]
+    }
+   ],
+   "short": "Aetiology"
+  },
+  {
+   "id": "pathophysiology",
+   "title": "Pathophysiology and pathology",
+   "blocks": [
+    "Dermatophytes live only in **dead keratin**; the shape of the rash reflects how they spread and how the host reacts.",
+    {
+     "mech": [
+      {
+       "k": "Spores land on skin",
+       "t": "Spores from people, animals, soil or fomites stick to keratinocytes, helped by warmth, moisture and minor trauma."
+      },
+      {
+       "k": "Keratin digestion",
+       "t": "Fungi release **keratinases** and proteases to invade the **stratum corneum**, hair and nail; they rarely go deeper because of serum inhibitory factors and host immunity.",
+       "img": "v4-tinea-hyphae.jpg",
+       "caption": "Dermatophyte hyphae spread only through the dead outer layer (stratum corneum), releasing keratin-digesting enzymes; immune cells gather beneath."
+      },
+      {
+       "k": "Outward spread",
+       "t": "Hyphae grow outwards, while the host's inflammatory response clears the centre: an **active scaly edge with central clearing**.",
+       "img": "v3-tinea-annular-scrape.jpg",
+       "caption": "The ring grows outwards: the most active fungus is at the scaly edge, which is where to scrape."
+      },
+      {
+       "k": "Host response decides the look",
+       "t": "Strong cell-mediated immunity (often zoophilic species) gives inflamed, pustular lesions; weak responses (*T. rubrum*, immunosuppression, steroid use) give chronic, widespread, less inflamed disease (**tinea incognito**)."
+      },
+      {
+       "k": "Reservoirs and reinfection",
+       "t": "Feet and nails act as reservoirs; scratching and towels spread fungus to the groin and body (**autoinoculation**)."
+      }
+     ]
+    },
+    {
+     "histo": [
+      "Fungal hyphae in the stratum corneum (seen with PAS or Grocott stain), sometimes the 'sandwich sign' between orthokeratotic and parakeratotic layers.",
+      "Mild spongiosis and a superficial perivascular infiltrate; neutrophils in the stratum corneum.",
+      "In practice, diagnosis is by **skin scrapings** (microscopy with KOH and culture or PCR), not biopsy."
+     ]
+    }
+   ],
+   "short": "Pathophysiology"
+  },
+  {
+   "id": "clinical-features",
+   "title": "Clinical features",
+   "blocks": [
+    {
+     "h": "Tinea corporis"
+    },
+    "One or more **asymmetrical annular** plaques with an active red, scaly, advancing edge and central clearing. Usually itchy.",
+    {
+     "ul": [
+      "**Tinea incognito:** altered by steroid, so less scaly and more widespread.",
+      "**Majocchi granuloma:** a deeper, follicular infection, often after shaving or steroid use.",
+      "**Kerion-like inflammation:** boggy and pustular, typical of zoophilic species."
+     ]
+    },
+    {
+     "h": "Tinea cruris"
+    },
+    "Affects the inguinal folds, with or without the inner thighs. The scaly edge may be less obvious in moist folds. The **scrotum is usually spared**, whereas **Candida often involves it**.",
+    "Tinea cruris often starts on **one side or asymmetrically**. It can spread to the thighs and buttocks, and sometimes has vesicles at the active edge. The scrotum is usually spared, but this is a teaching rule rather than an absolute one.",
+    {
+     "h": "Tinea pedis"
+    },
+    {
+     "ul": [
+      "**Interdigital:** maceration, peeling and fissures between the toes, especially the 4th–5th web space.",
+      "**Moccasin:** dry, hyperkeratotic scaling of the sole and side of the foot.",
+      "**Vesicobullous:** inflamed vesicles on the instep."
+     ]
+    },
+    {
+     "h": "Tinea manuum and pedis on the palms and soles (Module 3 Week 6)"
+    },
+    {
+     "ul": [
+      "**Clues:** **\"two feet–one hand\" syndrome** (hyperkeratotic scale on one palm + both soles); **white scale accentuating creases** (vs red lichenified creases in eczema); asymmetric; spread contiguous from palm to dorsum with a raised edge; **nails** (onychomycosis); toe-web maceration; moccasin scaling of soles. Risk: manual work, hyperhidrosis, pre-existing hand eczema, animal/soil contact.",
+      "**Steroid trap:** topical steroid alters appearance (tinea incognito) — scrape before treating any unexplained unilateral palm rash."
+     ]
+    },
+    {
+     "fig": {
+      "dermnet": "D01"
+     }
+    },
+    {
+     "h": "Distribution"
+    },
+    {
+     "bodymap": {
+      "img": {
+       "ai": "v3-tinea-body-map.jpg"
+      },
+      "caption": "Where tinea shows up: scalp, rings on the trunk and limbs, both groin folds onto the inner thighs, and the feet. Always check the feet and nails.",
+      "pts": []
+     }
+    },
+    {
+     "h": "Forms to recognise"
+    },
+    {
+     "variants": [
+      {
+       "name": "Corporis",
+       "t": "Annular plaque, raised scaly edge, central clearing. *Site: Trunk, limbs.*",
+       "photo": "D02"
+      },
+      {
+       "name": "Cruris",
+       "t": "Arcuate scaly edge spreading onto the thigh. *Site: Groin.*",
+       "photo": "D11"
+      },
+      {
+       "name": "Interdigital pedis",
+       "t": "White, macerated, peeling toe webs. *Site: 4th–5th web.*",
+       "photo": "D05"
+      },
+      {
+       "name": "Moccasin pedis",
+       "t": "Diffuse dry scaling of the soles. *Site: Soles, sides.*",
+       "photo": "D06"
+      }
+     ]
+    },
+    {
+     "h": "Special groups"
+    },
+    {
+     "ul": [
+      {
+       "t": "**Skin of colour**",
+       "sub": [
+        "Edges may look grey, violaceous or hyperpigmented rather than red; post-inflammatory pigmentation is common."
+       ]
+      },
+      {
+       "t": "**Children**",
+       "sub": [
+        "Tinea corporis and capitis are commonest; check pets and family members."
+       ]
+      },
+      {
+       "t": "**Diabetes and immunosuppression**",
+       "sub": [
+        "Treat tinea pedis promptly: fissured toe webs are a portal for cellulitis."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "diagnosis",
+   "title": "Diagnosis and investigations",
+   "blocks": [
+    {
+     "ul": [
+      "Clinical pattern plus risk factors.",
+      "Take **skin scrapings from the active edge** for microscopy, with or without culture, if: the diagnosis is uncertain, treatment has failed, before starting oral antifungals, for extensive disease, or if immunocompromised.",
+      "**Always examine the feet, nails and hands** when the groin or body is involved.",
+      "Swab the folds if bacterial co-infection is suspected."
+     ]
+    },
+    {
+     "h": "Tinea manuum and pedis on the palms and soles (Module 3 Week 6)"
+    },
+    {
+     "ul": [
+      "**skin scrapings** (± nail clippings) for microscopy and culture."
+     ]
+    }
+   ],
+   "short": "Diagnosis"
+  },
+  {
+   "id": "differentials",
+   "title": "Differential diagnoses",
+   "blocks": [
+    {
+     "ddx": [
+      {
+       "name": "Discoid eczema",
+       "f": "Coin-shaped, itchy, no central clearing.",
+       "link": "eczema-dermatitis"
+      },
+      {
+       "name": "Pityriasis rosea",
+       "f": "Herald patch, then ‘Christmas-tree’ pattern.",
+       "link": "pityriasis-rosea"
+      },
+      {
+       "name": "Granuloma annulare",
+       "f": "Ring of papules, **no scale**.",
+       "link": "annular-rashes"
+      },
+      {
+       "name": "Candidal intertrigo",
+       "f": "Satellites; **involves the scrotum**.",
+       "link": "candida-intertrigo"
+      },
+      {
+       "name": "Flexural psoriasis",
+       "f": "Sharp salmon-pink, no scale in folds, other sites.",
+       "link": "psoriasis"
+      },
+      {
+       "name": "Erythrasma",
+       "f": "Brown-red; **coral-red** under Wood’s light.",
+       "link": "intertrigo"
+      }
+     ]
+    }
+   ],
+   "short": "Differentials"
+  },
+  {
+   "id": "management",
+   "title": "Management",
+   "blocks": [
+    {
+     "h": "Self-care (all forms)"
+    },
+    {
+     "ul": [
+      "Keep the skin clean and **dry**, especially the toe webs and folds. Wear loose cotton clothing.",
+      "Do not share towels. Wash clothing and bedding hot.",
+      "Treat any foot or nail infection at the same time.",
+      "Children with body or groin tinea do **not** usually need to be kept off school (CKS)."
+     ]
+    },
+    {
+     "h": "Tinea corporis/cruris: mild, localised"
+    },
+    {
+     "ul": [
+      "Topical **terbinafine**, or an imidazole (**clotrimazole, miconazole, econazole**). Continue for **1–2 weeks after the skin looks clear**.",
+      "If very inflamed, add a mild steroid (e.g. hydrocortisone 1%) for a **maximum of 7 days**. **Never use a steroid alone.**"
+     ]
+    },
+    {
+     "h": "Extensive or severe disease"
+    },
+    {
+     "ul": [
+      "Adults: oral **terbinafine** first line, ideally after sending scrapings. Alternatives are itraconazole and griseofulvin.",
+      "Children with extensive disease: refer to paediatric dermatology."
+     ]
+    },
+    {
+     "h": "Tinea pedis"
+    },
+    {
+     "ul": [
+      "Same topical classes. **Allylamines (terbinafine)** are often preferred for dermatophytes.",
+      "Advise on drying the toe webs and on footwear. Treat onychomycosis through its separate pathway.",
+      "Consider oral therapy if severe, if topicals fail, or if immunocompromised. Check LFTs and interactions for terbinafine and itraconazole."
+     ]
+    },
+    {
+     "h": "Tinea manuum and pedis on the palms and soles (Module 3 Week 6)"
+    },
+    {
+     "ul": [
+      "tinea pedis — topical **terbinafine 1%** (1–2 weeks) or an imidazole (clotrimazole/miconazole, ~4 weeks); foot hygiene, dry webs, change socks, treat shoes. Tinea manuum (hyperkeratotic palm) often needs **oral terbinafine** (adult 250 mg daily, typically 2–6 weeks) after mycology confirmation; check LFTs/drug interactions per BNF; treat feet/nails simultaneously to prevent re-infection. Refer if diagnosis uncertain or immunosuppressed."
+     ]
+    },
+    {
+     "h": "Medicines at a glance"
+    },
+    {
+     "drugs": [
+      {
+       "name": "Terbinafine 1% cream",
+       "cls": "Mild, localised",
+       "dose": "As per product · Until 1–2 weeks after clear (pedis 1–2 weeks)",
+       "cautions": "Allylamines often preferred for dermatophytes."
+      },
+      {
+       "name": "Imidazole (clotrimazole, miconazole, econazole)",
+       "cls": "Mild, localised",
+       "dose": "As per product · Until 1–2 weeks after clear (pedis ~4 weeks)",
+       "cautions": "Very inflamed: add hydrocortisone 1% for max 7 days."
+      },
+      {
+       "name": "Oral terbinafine",
+       "cls": "Extensive or severe · adults",
+       "dose": "250 mg daily (adult) · Typically 2–6 weeks (e.g. manuum)",
+       "cautions": "Ideally after scrapings. Check LFTs and interactions. Alternatives: itraconazole, griseofulvin."
+      }
+     ]
+    },
+    {
+     "h": "Treatment ladder"
+    },
+    {
+     "ladder": [
+      {
+       "k": "Self-care",
+       "t": "Keep skin and toe webs **dry**; loose cotton. No shared towels; wash clothing and bedding hot.",
+       "tone": "base"
+      },
+      {
+       "k": "Mild, localised",
+       "t": "Terbinafine 1% cream; Imidazole (clotrimazole, miconazole, econazole)",
+       "tone": "first"
+      },
+      {
+       "k": "Extensive or severe · adults",
+       "t": "Oral terbinafine",
+       "tone": "second"
+      },
+      {
+       "k": "Refer",
+       "t": "Children with extensive disease → paediatric dermatology. Diagnosis uncertain, or immunosuppressed.",
+       "tone": "refer"
+      }
+     ]
+    },
+    {
+     "callout": "warn",
+     "title": "Prescribing limits and pitfalls",
+     "list": [
+      "**Steroid alone**: Never: it creates tinea incognito.",
+      "**Combinations**: Steroid–antifungal is a short bridge only (up to 7 days).",
+      "**Azoles**: Watch CYP interactions with oral itraconazole and fluconazole."
+     ]
+    },
+    {
+     "h": "Referral"
+    },
+    {
+     "refer": [
+      {
+       "when": "urgent",
+       "t": "**Kerion**, **Majocchi granuloma**, or suspected deep infection."
+      },
+      {
+       "when": "urgent",
+       "t": "Tinea pedis in **diabetes** or past cellulitis: fissured webs are an entry point."
+      },
+      {
+       "when": "routine",
+       "t": "Immunocompromised with extensive or atypical disease; children needing oral treatment."
+      },
+      {
+       "when": "routine",
+       "t": "Failure despite adherence: scrape and reconsider; occupational or institutional outbreak."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "red-flags",
+   "title": "Red flags and when to refer",
+   "blocks": [
+    {
+     "ul": [
+      "Diagnostic doubt, or failure despite good adherence: take scrapings and reconsider.",
+      "**Kerion** or **Majocchi granuloma**, or suspected deep infection.",
+      "Immunocompromised patient with extensive or atypical disease.",
+      "Children needing oral treatment.",
+      "Occupational or institutional outbreak.",
+      "Tinea pedis in a person with diabetes or a history of cellulitis: fissured toe webs are an **entry point for cellulitis**."
+     ]
+    }
+   ],
+   "short": "Red flags"
+  },
+  {
+   "id": "complications",
+   "title": "Complications and prognosis",
+   "blocks": [
+    {
+     "h": "Complications"
+    },
+    {
+     "ul": [
+      "Spread to other sites and household contacts.",
+      "**Bacterial superinfection** and cellulitis through fissured toe webs.",
+      "**Majocchi granuloma** (follicular invasion, often after steroid use) and **kerion** (scalp).",
+      "Id (dermatophytide) reaction: itchy vesicles at a distant site.",
+      "Chronic dermatophytosis (T. rubrum at 4 or more sites) and resistant infection."
+     ]
+    },
+    {
+     "h": "Prognosis"
+    },
+    {
+     "ul": [
+      "Usually cured with correct treatment and adherence.",
+      "Relapse is common if treatment stops too early or reservoirs (feet, nails, contacts, pets) are not treated."
+     ]
+    }
+   ],
+   "short": "Complications"
+  },
+  {
+   "id": "pearls",
+   "title": "Prescriber pearls (UK pharmacist IP)",
+   "blocks": [
+    {
+     "pearls": [
+      "Always look at the **feet** in a ‘groin rash’.",
+      "A steroid–antifungal combination is a **short bridge only** (up to 7 days). Explain why steroid on its own is harmful.",
+      "**Oral terbinafine:** check interactions and LFTs if used for a prolonged period. Taste disturbance is uncommon but worth mentioning.",
+      "**Azoles:** watch for CYP interactions, especially with oral itraconazole and fluconazole.",
+      "OTC clotrimazole and terbinafine are widely available and are a good first pharmacy intervention for limited tinea.",
+      "**Recurrent tinea cruris means an untreated reservoir**: the feet, the nails, or another family member.",
+      "Groin rash in a person with diabetes: also think of Candida and secondary bacterial infection.",
+      "Thick, discoloured toenails with tinea pedis: see [fungal nail infection](condition:onychomycosis) and send clippings before oral treatment.",
+      "Scaly rings that fail antifungals: work through the [annular rash differential](condition:annular-rashes)."
+     ]
+    }
+   ],
+   "short": "Pearls"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Where do you take scrapings from in tinea corporis?",
+   "a": "The scaly active (advancing) edge."
+  },
+  {
+   "q": "How long to continue a topical antifungal?",
+   "a": "Until 1–2 weeks after the skin looks clear."
+  },
+  {
+   "q": "Groin rash involving the scrotum with satellites: tinea or Candida?",
+   "a": "Candida. Tinea cruris usually spares the scrotum."
+  },
+  {
+   "q": "What does a steroid alone do to tinea?",
+   "a": "Suppresses local immunity so the fungus spreads: tinea incognito (larger, less scaly, atypical)."
+  },
+  {
+   "q": "‘Two feet, one hand’ suggests?",
+   "a": "Tinea manuum with tinea pedis."
+  }
+ ],
+ "references": [
+  {
+   "label": "Medscape: Tinea: corporis, cruris & pedis",
+   "url": "https://emedicine.medscape.com/article/1091473-overview"
+  }
+ ],
+ "see_also": [
+  "onychomycosis",
+  "candida-intertrigo",
+  "annular-rashes",
+  "intertrigo"
+ ]
+}

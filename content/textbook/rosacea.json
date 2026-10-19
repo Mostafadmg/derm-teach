@@ -1,0 +1,790 @@
+{
+ "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
+ "key_facts": [
+  "Chronic inflammatory facial disease with **flushing, persistent central redness, papules and pustules** and telangiectasia; **no comedones**.",
+  "Affects about **5%** of adults, usually after 30; men and women about equally (phymas mainly men).",
+  "Driven by neurovascular hyper-reactivity, innate immune activation (cathelicidin/LL-37) and *Demodex*.",
+  "UK: trigger avoidance and sun protection; **ivermectin 1%**, azelaic acid or metronidazole for papules; **brimonidine** for redness; oral doxycycline for moderate–severe.",
+  "**Ocular rosacea** with pain or reduced vision needs urgent eye review."
+ ],
+ "sections": [
+  {
+   "id": "overview",
+   "title": "Overview",
+   "blocks": [
+    {
+     "callout": "info",
+     "title": "Core rosacea is in the [acne](condition:acne-vulgaris) notes.",
+     "text": "This section goes further."
+    },
+    "**ROSCO 2017/2019 and the NRS 2017 criteria** replaced the four rigid \"subtypes\" with **phenotypes**, because patients often overlap (e.g. ETR + PPR + ocular).",
+    {
+     "ul": [
+      "**Diagnostic (one is enough):** persistent centrofacial erythema that can flare periodically, or **phymatous change**.",
+      "**Major (two are needed if no diagnostic feature):** flushing/transient erythema, inflammatory papules/pustules, telangiectasia, ocular manifestations.",
+      "**Minor/secondary:** burning, stinging, oedema, dryness."
+     ]
+    },
+    "The older “four subtypes” teaching maps onto these phenotypes. **Teach phenotypes, and treat each feature separately.**",
+    {
+     "h4": "Demodex and demodicosis"
+    },
+    "*Demodex folliculorum* (in the follicle infundibulum) and *D. brevis* (in sebaceous glands) are normal commensal mites. **Demodicosis** is a skin disease caused by too many of them. It can be **primary** (rosacea-like, with fine scale) or **secondary** (to immunosuppression, TCS/TCI use, HIV or chemotherapy).",
+    {
+     "h4": "Steroid-induced rosacea"
+    },
+    {
+     "callout": "info",
+     "text": "Core is in the [acne](condition:acne-vulgaris) notes (steroid and drug-induced acneiform eruptions; photo K08). Withdrawal practicalities are added here."
+    },
+    "A rosacea-like eruption (erythema, telangiectasia, papulopustules, burning) caused by **prolonged facial topical (or inhaled/nasal) corticosteroid** use. It overlaps with periorificial dermatitis and with \"topical steroid withdrawal\" (red skin syndrome; **MHRA Drug Safety Update, Sept 2021**)."
+   ]
+  },
+  {
+   "id": "epidemiology",
+   "title": "Epidemiology",
+   "blocks": [
+    {
+     "ul": [
+      {
+       "t": "**Prevalence**",
+       "sub": [
+        "About **5%** of adults worldwide; under-recognised in skin of colour."
+       ]
+      },
+      {
+       "t": "**Age and sex**",
+       "sub": [
+        "Usually presents **after 30** and becomes commoner with age; roughly equal sex distribution; **rhinophyma** is mainly in men."
+       ]
+      },
+      {
+       "t": "**Skin type**",
+       "sub": [
+        "Most common in fair skin (Celtic and Northern European descent)."
+       ]
+      },
+      {
+       "t": "**Associations**",
+       "sub": [
+        "Depression, anxiety, migraine, cardiovascular disease, inflammatory bowel disease and *H. pylori* have been linked."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "aetiology",
+   "title": "Aetiology: causes and risk factors",
+   "blocks": [
+    {
+     "ul": [
+      "**Heat, hot drinks and spicy food (capsaicin):** activate **TRPV1** on sensory nerves and vessels, so neuropeptides are released (substance P, CGRP) and vessels dilate. *Pepper and chilli are classic triggers.*",
+      "**Alcohol, especially red wine:** acetaldehyde, histamine and polyphenols cause vasodilation. *Red wine is a classic trigger.*",
+      "**UV:** induces MMPs, ROS and **cathelicidin** activation through **kallikrein-5**, and damages dermal matrix so telangiectasia shows. *This is the case's \"worse with sun\".*",
+      "**Cold, wind, exercise, stress, menopause:** vascular reactivity through neurogenic routes.",
+      "**Topical steroids and calcineurin inhibitors:** local immunosuppression lets *Demodex* overgrow, steroids cause vasodilation, and there is rebound on withdrawal.",
+      "**Drugs that cause flushing:** nicotinic acid, CCBs (nifedipine, amlodipine), nitrates, sildenafil, opioids, vancomycin, tamoxifen and aromatase inhibitors.",
+      "**Systemic associations:** *H. pylori* (conflicting evidence; **eradication is not routine**), **IBD/SIBO**, migraine, depression and anxiety, and possibly cardiovascular risk. These are associations, not reasons for routine tests."
+     ]
+    },
+    {
+     "h": "Demodex and demodicosis"
+    },
+    {
+     "ul": [
+      "Rosacea skin carries **roughly 6–15× more mites** (the density is higher).",
+      "Mites and their bacterium (*Bacillus oleronius*) activate **TLR2**, which drives kallikrein-5 → cathelicidin → inflammation.",
+      "When dying mites burst, they release antigens.",
+      "The **response to ivermectin and permethrin** is indirect evidence that the mites play a part.",
+      "Whether they *cause* rosacea or simply thrive in it is unresolved. Teach \"**contributor and amplifier**\"."
+     ]
+    },
+    {
+     "h": "Steroid-induced rosacea"
+    },
+    "Steroids cause vasoconstriction and then **rebound vasodilation**. They also cause skin atrophy, which makes telangiectasia visible. Local immunosuppression lets *Demodex* and bacteria overgrow, and the patient gets **steroid addiction** (stopping causes a flare, so they restart). Typical sources: OTC hydrocortisone, potent TCS borrowed or prescribed for \"eczema\", and imported skin-lightening creams (clobetasol, illegal in the UK).",
+    {
+     "h": "Risk factors and associations"
+    },
+    {
+     "ul": [
+      "**Genetic** susceptibility (HLA class II polymorphisms; family history).",
+      "**Triggers**: UV light, heat and cold, exercise, hot drinks, spicy food, **alcohol**, stress, cosmetics, **topical steroids**.",
+      "**Microbes**: increased *Demodex folliculorum* density; *Bacillus oleronius*; *S. epidermidis*."
+     ]
+    },
+    {
+     "h": "Myths to address"
+    },
+    {
+     "ul": [
+      "**\"Rosacea is adult acne\"**: no comedones; acne treatments such as benzoyl peroxide often irritate.",
+      "**\"Red nose means alcoholism\"**: rhinophyma occurs in non-drinkers; alcohol is just one trigger."
+     ]
+    }
+   ],
+   "short": "Aetiology"
+  },
+  {
+   "id": "pathophysiology",
+   "title": "Pathophysiology and pathology",
+   "blocks": [
+    "Rosacea combines an **over-reactive innate immune system** with **unstable facial blood vessels and nerves**.",
+    {
+     "mech": [
+      {
+       "k": "Triggers activate the skin",
+       "t": "UV, heat, spicy food, alcohol and *Demodex* activate **TLR2** receptors on keratinocytes."
+      },
+      {
+       "k": "Cathelicidin overdrive",
+       "t": "Raised **kallikrein-5** cleaves cathelicidin into **LL-37**, which drives inflammation, vasodilatation and new vessel growth."
+      },
+      {
+       "k": "Neurovascular reactivity",
+       "t": "Sensory nerves (TRPV1 channels) release neuropeptides such as **CGRP**, causing **flushing**, burning and stinging; repeated flushing leaves **persistent erythema** and telangiectasia.",
+       "img": "v4-ros-neurovascular.jpg",
+       "caption": "Rosacea skin: dilated tortuous capillaries, a sensory nerve releasing neuropeptides, and Demodex mites with inflammation around a follicle."
+      },
+      {
+       "k": "Papules and pustules",
+       "t": "Inflammatory cells gather around follicles, producing papules and sterile pustules (no comedones)."
+      },
+      {
+       "k": "Phyma and fibrosis",
+       "t": "Chronic inflammation and lymphatic leakage cause sebaceous hyperplasia and fibrosis, thickening the nose (**rhinophyma**).",
+       "img": "v3-rosacea-face-map.jpg",
+       "caption": "Central face distribution: cheeks, nose, chin and forehead."
+      }
+     ]
+    },
+    {
+     "fig": {
+      "ai": "v3-rosacea-skin-section.jpg",
+      "caption": "Rosacea skin: widened vessels just under the surface (telangiectasia), inflamed papules and a pustule, and Demodex mites crowding a follicle. Note: no comedone plug.",
+      "alt": "Skin cross-section of rosacea with dilated vessels and Demodex mites"
+     }
+    },
+    {
+     "histo": [
+      "Dilated dermal vessels, solar elastosis and a perivascular and perifollicular lymphohistiocytic infiltrate.",
+      "Papulopustular: perifollicular inflammation, sometimes granulomas; increased *Demodex*.",
+      "Phymatous: sebaceous hyperplasia, fibrosis and dilated follicles. Biopsy is rarely needed."
+     ]
+    }
+   ],
+   "short": "Pathophysiology"
+  },
+  {
+   "id": "clinical-features",
+   "title": "Clinical features",
+   "blocks": [
+    {
+     "table": {
+      "head": [
+       "Phenotype",
+       "Mild",
+       "Moderate",
+       "Severe"
+      ],
+      "rows": [
+       [
+        "Persistent erythema",
+        "Faint, central",
+        "Clear, cheeks + nose",
+        "Fiery, widespread, oedema"
+       ],
+       [
+        "Flushing",
+        "Occasional",
+        "Frequent, bothersome",
+        "Daily, disabling"
+       ],
+       [
+        "Papules/pustules",
+        "Few (<5)",
+        "Several (5–20)",
+        "Many (>20) ± plaques or nodules"
+       ],
+       [
+        "Telangiectasia",
+        "Barely visible",
+        "Clearly visible",
+        "Prominent, widespread"
+       ],
+       [
+        "Phyma",
+        "Patulous follicles, slight thickening",
+        "Contour change without nodules",
+        "Nodular, disfiguring"
+       ],
+       [
+        "Ocular",
+        "Mild lid redness, grittiness",
+        "Lid-margin telangiectasia, MGD, chalazia",
+        "**Keratitis, scleritis**: same-day eye referral"
+       ]
+      ]
+     }
+    },
+    "**Grading tools** (for documentation and audit): ROSCO global severity, the Investigator's Global Assessment (IGA 0–4, used in trials and for ivermectin/brimonidine licensing), and **RosaQoL** for quality of life. Record **phenotype + severity + QoL impact** at every review.",
+    "**Skin of colour:** erythema is often subtle or brownish. Look for papules, telangiectasia under dermoscopy, warmth, and a history of stinging and flushing.",
+    {
+     "h": "Demodex and demodicosis"
+    },
+    "**Pointers to demodicosis rather than plain rosacea:**",
+    {
+     "ul": [
+      "**fine whitish follicular scale (\"frosted\", \"nutmeg-grater\" or \"sandpaper\" texture)**",
+      "**itch or burning** rather than flushing",
+      "**asymmetric**, sometimes unilateral",
+      "small superficial papulopustules",
+      "a history of **facial TCS/TCI or immunosuppression**",
+      "**Demodex blepharitis**: cylindrical \"collarettes\" at the lash bases"
+     ]
+    },
+    {
+     "h": "Steroid-induced rosacea"
+    },
+    {
+     "ul": [
+      "**erythema** (often a \"fire-red\" colour), **telangiectasia**, papulopustules, **burning or stinging**, skin atrophy and shine",
+      "**a flare within days of stopping the steroid**",
+      "periocular or perioral involvement is often present"
+     ]
+    },
+    {
+     "fig": {
+      "dermnet": "m3w1:R05"
+     }
+    },
+    {
+     "h": "Phenotypes to recognise"
+    },
+    {
+     "variants": [
+      {
+       "name": "Erythema & telangiectasia",
+       "t": "Persistent central redness, visible vessels. *Site: Cheeks, nose.*",
+       "photo": "m3w1:R02"
+      },
+      {
+       "name": "Papulopustular",
+       "t": "Dome-shaped papules and pustules, no comedones. *Site: Cheeks, chin.*",
+       "photo": "m3w1:R04"
+      },
+      {
+       "name": "Phymatous",
+       "t": "Thickened skin, contour change; mostly men. *Site: Nose.*",
+       "photo": "m3w1:R07"
+      },
+      {
+       "name": "Ocular",
+       "t": "Gritty eyes, lid-margin vessels, blepharitis. *Site: Eyelids.*",
+       "photo": "m3w1:R09"
+      },
+      {
+       "name": "Demodicosis",
+       "t": "Fine ‘frosted’ follicular scale, itch, asymmetric. *Site: Cheeks.*",
+       "photo": "m3w1:R11"
+      },
+      {
+       "name": "Steroid rosacea",
+       "t": "Fiery red, burning; flares within days of stopping. *Site: Face.*",
+       "photo": "m3w1:R14"
+      }
+     ]
+    },
+    {
+     "h": "Special groups"
+    },
+    {
+     "ul": [
+      {
+       "t": "**Skin of colour**",
+       "sub": [
+        "Redness may be hard to see; warmth, papules, burning and dryness are clues; granulomatous forms may be more common."
+       ]
+      },
+      {
+       "t": "**Children**",
+       "sub": [
+        "Rare; ocular symptoms may come first; consider perioral dermatitis."
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "diagnosis",
+   "title": "Diagnosis and investigations",
+   "blocks": [
+    "Diagnosis is **clinical**. Investigate flushing **only** if there are atypical features:",
+    {
+     "ul": [
+      "**diarrhoea, wheeze or palpitations:** carcinoid (24 h urine 5-HIAA), mastocytosis (tryptase)",
+      "**paroxysmal headaches, sweating, hypertension:** phaeochromocytoma (plasma metanephrines)",
+      "**photosensitive, scaly, systemic symptoms:** SLE or dermatomyositis (ANA, CK)",
+      "**sweaty, perimenopausal:** menopause",
+      "**medication-related**"
+     ]
+    },
+    {
+     "h": "Demodex and demodicosis"
+    },
+    {
+     "ul": [
+      "**Dermoscopy:** \"*Demodex* tails\" (creamy gelatinous threads poking out of follicles) and follicular plugs.",
+      "**Standardised skin-surface biopsy (SSSB)** with cyanoacrylate glue: **>5 mites/cm²** is abnormal. This is a specialist test.",
+      "**Microscopy** of scrapings or plucked eyelashes (optometry or ophthalmology)."
+     ]
+    },
+    {
+     "h": "Steroid-induced rosacea"
+    },
+    "Clinical, from the history. Ask specifically about **every cream, its strength and how long it has been used**, including over-the-counter and online products. Scrape for tinea if the eruption is scaly or annular (tinea incognito)."
+   ],
+   "short": "Diagnosis"
+  },
+  {
+   "id": "differentials",
+   "title": "Differential diagnoses",
+   "blocks": [
+    {
+     "ddx": [
+      {
+       "name": "Acne vulgaris",
+       "f": "Comedones; younger; trunk too.",
+       "link": "acne-vulgaris"
+      },
+      {
+       "name": "Perioral dermatitis",
+       "f": "Perioral papules, vermilion border spared; after steroids.",
+       "photo": "m3w1:R16"
+      },
+      {
+       "name": "Seborrhoeic dermatitis",
+       "f": "Greasy scale in nasolabial folds, brows; often coexists.",
+       "link": "eczema-dermatitis"
+      },
+      {
+       "name": "Lupus",
+       "f": "Photosensitive malar rash, systemic symptoms.",
+       "link": "discoid-lupus",
+       "danger": true
+      },
+      {
+       "name": "Acne mimics",
+       "f": "Steroid acne, Gram-negative, Malassezia folliculitis.",
+       "link": "acne-mimics"
+      }
+     ]
+    },
+    "Core DDx is in the [acne](condition:acne-vulgaris) notes. New here:",
+    {
+     "ul": [
+      "**granulomatous rosacea**. Look-alikes: sarcoidosis, lupus miliaris disseminatus faciei, granulomatous periorificial dermatitis. Biopsy if unsure.",
+      "**demodicosis**",
+      "**periorificial dermatitis**",
+      "**steroid rosacea**",
+      "**Morbihan disease** (persistent solid facial oedema)",
+      "**seborrhoeic dermatitis**, which often coexists",
+      "**carcinoid**",
+      "**polycythaemia**"
+     ]
+    },
+    {
+     "h4": "Demodex and demodicosis"
+    },
+    "Rosacea (often coexists), perioral or periorificial dermatitis, seborrhoeic dermatitis, folliculitis (bacterial, *Malassezia*, gram-negative), contact dermatitis, steroid rosacea, tinea faciei (do a scraping if scaly and asymmetric).",
+    {
+     "h4": "Steroid-induced rosacea"
+    },
+    "Rosacea, demodicosis, periorificial dermatitis, ACD (to the steroid molecule or vehicle), tinea incognito, lupus."
+   ],
+   "short": "Differentials"
+  },
+  {
+   "id": "management",
+   "title": "Management",
+   "blocks": [
+    "**UK doses** (paraphrased from the BNF and SmPCs; confirm before prescribing):",
+    {
+     "table": {
+      "head": [
+       "Drug",
+       "Typical UK regimen",
+       "Notes"
+      ],
+      "rows": [
+       [
+        "**Ivermectin 1% cream**",
+        "Once daily, up to 4 months; repeat courses allowed",
+        "CKS first line for papulopustular disease. Anti-*Demodex* and anti-inflammatory. Transient burning"
+       ],
+       [
+        "**Metronidazole 0.75% gel/cream**",
+        "Twice daily, usually 6–8 weeks then review (BNF)",
+        "Pregnancy-compatible topical choice. Has 1% versions"
+       ],
+       [
+        "**Azelaic acid 15% gel**",
+        "Twice daily (once daily if irritation)",
+        "Stings at first. Also helps post-inflammatory pigmentation"
+       ],
+       [
+        "**Brimonidine 3 mg/g gel (0.33%)**",
+        "Once daily, pea-size amount over 5 areas",
+        "For **persistent erythema** only. Effect lasts ~12 h. **Rebound or paradoxical erythema** in ~10–20%, so test-patch a small area first. Not for flushing"
+       ],
+       [
+        "**Doxycycline 40 mg MR capsule**",
+        "Once daily, 16 weeks then review",
+        "Licensed, sub-antimicrobial dose (less resistance). Alternatives: lymecycline 408 mg or doxycycline 100 mg (off-label). Not in pregnancy or under 12"
+       ],
+       [
+        "**Erythromycin** or **clarithromycin**",
+        "Second-line oral if tetracyclines are unsuitable",
+        "Clarithromycin is off-label here. Check interactions (statins, QT)"
+       ],
+       [
+        "**Oral metronidazole**",
+        "Specialist, off-label",
+        "Course mention. Not primary care"
+       ],
+       [
+        "**Low-dose isotretinoin**",
+        "Specialist, off-label (e.g. 0.1–0.3 mg/kg/day or 10 mg/day)",
+        "Refractory PPR/phyma. The **full PPP applies**, and the MHRA rules do too"
+       ],
+       [
+        "**Clonidine** (flushing)",
+        "**50 micrograms twice daily**, off-label",
+        "Doses quoted as \"50 mg\" are wrong by 1000-fold. Watch for hypotension and do not stop abruptly"
+       ],
+       [
+        "**Propranolol / carvedilol** (flushing)",
+        "Off-label, low dose",
+        "Specialist or with caution. Contraindicated in asthma"
+       ],
+       [
+        "**Laser / IPL**",
+        "Telangiectasia, erythema, phyma",
+        "Generally **not NHS-funded**. Phyma surgery or ablative laser via plastics/dermatology (variable funding)"
+       ]
+      ]
+     }
+    },
+    "**Combination approach:** CKS supports topical ivermectin + doxycycline 40 mg MR for moderate–severe PPR. After control, **step down to topical maintenance** (ivermectin twice weekly, or azelaic acid/metronidazole) to prevent relapse.",
+    {
+     "h": "Demodex and demodicosis"
+    },
+    {
+     "ul": [
+      "**Ivermectin 1% cream once daily**, which treats both rosacea and *Demodex*. This is the practical first choice.",
+      "**Permethrin 5% cream** (off-label for this use; specialist-advised regimens exist), or **metronidazole** topical (weak anti-mite activity).",
+      "**Stop facial TCS/TCI.**",
+      "Refractory or immunosuppressed patients: **oral ivermectin** (specialist, single doses repeated).",
+      "**Demodex blepharitis:** lid hygiene and tea tree oil lid products (OTC); refer to optometry. Lotilaner eye drops are US-approved but **not UK-licensed** as of 2026 (check)."
+     ]
+    },
+    {
+     "h": "Steroid-induced rosacea"
+    },
+    {
+     "ol": [
+      "**Stop the facial steroid.** For **potent** steroids used for months, specialists may **taper** (e.g. step down to 1% hydrocortisone, then stop over 1–2 weeks) to soften the rebound. Do not swap to another steroid.",
+      "**Warn about the rebound flare.** Expect it over **1–3 weeks** and for symptoms to persist for weeks to months. This is the main reason patients restart.",
+      "**Cover the withdrawal** with an **oral tetracycline** (lymecycline 408 mg daily or doxycycline 40 mg MR/100 mg for 6–12 weeks) **± topical metronidazole, azelaic acid or ivermectin**. Topical **tacrolimus or pimecrolimus** is an off-label specialist option. It reduces rebound but can itself cause rosacea-like eruptions.",
+      "Cool compresses, a bland emollient and **\"zero therapy\"** for cosmetics. Use mineral sunscreen.",
+      "**MHRA Yellow Card** and documentation if TSW is suspected. Refer if severe or there is diagnostic doubt."
+     ]
+    },
+    {
+     "h": "Medicines at a glance"
+    },
+    {
+     "drugs": [
+      {
+       "name": "Ivermectin 1% cream",
+       "cls": "Papules & pustules",
+       "dose": "Once daily · Up to 4 months; repeat courses allowed",
+       "cautions": "CKS first line; anti-Demodex. Transient burning."
+      },
+      {
+       "name": "Metronidazole 0.75% gel/cream",
+       "cls": "Papules & pustules",
+       "dose": "Twice daily · Usually 6–8 weeks, then review",
+       "cautions": "Pregnancy-compatible topical choice."
+      },
+      {
+       "name": "Azelaic acid 15% gel",
+       "cls": "Papules & pustules",
+       "dose": "Twice daily (once if irritated) · Review response",
+       "cautions": "Stings at first; helps pigmentation."
+      },
+      {
+       "name": "Brimonidine 3 mg/g gel",
+       "cls": "Persistent redness",
+       "dose": "Once daily, pea-size over 5 areas · Effect ~12 h",
+       "cautions": "Rebound / paradoxical erythema in ~10–20%: test a small area. Not for flushing."
+      },
+      {
+       "name": "Doxycycline 40 mg MR",
+       "cls": "Moderate–severe",
+       "dose": "Once daily · 16 weeks, then review",
+       "cautions": "Licensed. Not in pregnancy or under 12. Erythromycin if tetracyclines unsuitable."
+      }
+     ]
+    },
+    {
+     "h": "Treatment ladder"
+    },
+    {
+     "ladder": [
+      {
+       "k": "Everyone",
+       "t": "Trigger diary; gentle, fragrance-free skincare. **Daily SPF** (mineral if sensitive).",
+       "tone": "base"
+      },
+      {
+       "k": "Papules & pustules",
+       "t": "Ivermectin 1% cream; Metronidazole 0.75% gel/cream; Azelaic acid 15% gel",
+       "tone": "first"
+      },
+      {
+       "k": "Persistent redness",
+       "t": "Brimonidine 3 mg/g gel",
+       "tone": "second"
+      },
+      {
+       "k": "Moderate–severe",
+       "t": "Doxycycline 40 mg MR",
+       "tone": "third"
+      },
+      {
+       "k": "Specialist",
+       "t": "Low-dose isotretinoin (PPP applies) for refractory disease or phyma. Laser / IPL for telangiectasia (usually private).",
+       "tone": "refer"
+      }
+     ]
+    },
+    {
+     "callout": "warn",
+     "title": "Prescribing limits and pitfalls",
+     "list": [
+      "**Potent facial steroid**: Never without a specialist plan. OTC hydrocortisone licence excludes the face.",
+      "**Clonidine for flushing**: 50 **micrograms** twice daily (off-label), not 50 mg.",
+      "**Relapsing**: Maintenance topical therapy is often needed."
+     ]
+    },
+    {
+     "h": "Referral"
+    },
+    {
+     "refer": [
+      {
+       "when": "same-day",
+       "t": "**Eye pain, photophobia or reduced vision**: possible keratitis → ophthalmology."
+      },
+      {
+       "when": "urgent",
+       "t": "Flushing with **diarrhoea, wheeze, palpitations or hypotension**: carcinoid or mastocytosis."
+      },
+      {
+       "when": "urgent",
+       "t": "Photosensitive malar rash with systemic symptoms: exclude **lupus**."
+      },
+      {
+       "when": "routine",
+       "t": "Rash after potent topical steroids: stop or taper with support; refer if severe."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "red-flags",
+   "title": "Red flags and when to refer",
+   "blocks": [
+    {
+     "ul": [
+      "**Eye pain, photophobia or reduced vision**: possible keratitis, so same-day ophthalmology.",
+      "Flushing with **diarrhoea, wheeze, palpitations or hypotension**: investigate for carcinoid syndrome or mastocytosis.",
+      "A photosensitive malar rash with systemic symptoms: exclude **lupus**.",
+      "Facial rash after potent topical steroids: steroid rosacea, so stop or taper the steroid with support."
+     ]
+    }
+   ],
+   "short": "Red flags"
+  },
+  {
+   "id": "complications",
+   "title": "Complications and prognosis",
+   "blocks": [
+    {
+     "h": "Complications"
+    },
+    {
+     "ul": [
+      "**Ocular rosacea**: blepharitis, conjunctivitis, keratitis, rarely corneal ulceration.",
+      "**Rhinophyma** and other phymas.",
+      "Psychological distress, low self-esteem and social avoidance."
+     ]
+    },
+    {
+     "h": "Prognosis"
+    },
+    {
+     "ul": [
+      "Chronic and relapsing; treatment controls rather than cures.",
+      "Persistent erythema and telangiectasia respond best to vascular lasers or IPL (not on the NHS routinely)."
+     ]
+    }
+   ],
+   "short": "Complications"
+  },
+  {
+   "id": "pearls",
+   "title": "Prescriber pearls (UK pharmacist IP)",
+   "blocks": [
+    {
+     "pearls": [
+      "**Trigger diary for 2–4 weeks**. Avoid only *your* triggers, not every listed one.",
+      "**Daily SPF 30–50 mineral or tinted sunscreen.** Use green-tinted camouflage for redness. Avoid **alcohol-based toners, menthol, witch hazel, exfoliants and fragrance**.",
+      "**No topical steroids on the face**. Check OTC hydrocortisone and imported \"lightening\" creams.",
+      "Set expectations: **papules respond, erythema and flushing respond poorly** to the antimicrobial-type drugs. That is why brimonidine and laser exist.",
+      "Before brimonidine, check for **MAOIs, TCAs and antihypertensives**, and avoid it in **Raynaud's or orthostatic hypotension**.",
+      "\"Rosacea that fails metronidazole or azelaic acid, especially if it's scaly or itchy\" → think *Demodex*, switch to **ivermectin**, and ask about steroid creams.",
+      "Mites are on everyone. Reassure the patient that this is **not a hygiene problem** and not contagious in any practical sense.",
+      "**Never prescribe a potent or very potent TCS for the face** without a specialist plan. When counselling on OTC hydrocortisone, the licence **excludes the face** (with limited exceptions).",
+      "Ask about **skin-lightening products** in a non-judgemental way. Mercury and clobetasol products are illegal for sale in the UK and are a trading-standards issue."
+     ]
+    },
+    {
+     "h": "Demodex and demodicosis"
+    },
+    {
+     "h": "Steroid-induced rosacea"
+    },
+    {
+     "h": "Common misconceptions and course-vs-UK differences"
+    },
+    {
+     "table": {
+      "head": [
+       "Post / item",
+       "Statement",
+       "Correction (UK)"
+      ],
+      "rows": [
+       [
+        "Student answer",
+        "\"Clonidine orally **50 mg**\" for flushing",
+        "**50 micrograms twice daily** (BNF; off-label for rosacea flushing; up to 75 micrograms BD). 50 mg would be a dangerous overdose"
+       ],
+       [
+        "Student answer",
+        "Brimonidine \"0.5%\"",
+        "The UK gel contains **3 mg/g brimonidine (≈0.33% base)**, which equals 5 mg/g (0.5%) **brimonidine tartrate**. Your figure is the salt strength. Prescribe by the BNF/product description to avoid confusion"
+       ],
+       [
+        "Student answer",
+        "Metronidazole, azelaic acid, ivermectin listed without regimens",
+        "Metronidazole 0.75% **twice daily**; azelaic acid 15% gel **twice daily**; ivermectin 1% **once daily up to 4 months**; doxycycline **40 mg MR once daily** (licensed)"
+       ],
+       [
+        "Student answer",
+        "Oral metronidazole and isotretinoin listed as options",
+        "Both are **specialist and off-label** for rosacea. They are not IP-initiated in primary care"
+       ],
+       [
+        "Course teaching",
+        "\"Tetracycline 6–12 weeks\"",
+        "Fine in principle. The UK licensed choice is **doxycycline 40 mg MR** (sub-antimicrobial), or lymecycline/doxycycline 100 mg off-label. Step down to topical maintenance"
+       ],
+       [
+        "Course teaching",
+        "\"Physical sunblock\"",
+        "Agrees with UK advice (mineral SPF 30+, daily)"
+       ],
+       [
+        "Course teaching",
+        "H. pylori / IBD associations",
+        "Evidence is inconsistent. **UK guidance does not recommend routine H. pylori testing** for rosacea"
+       ],
+       [
+        "Student answer",
+        "Oral antibiotic with topical antibiotic, or oral alone",
+        "**NG198: never.** Always combine with BPO and/or a topical retinoid"
+       ],
+       [
+        "Student answer",
+        "Clarithromycin as the alternative oral",
+        "**NG198 names erythromycin or trimethoprim**, not clarithromycin"
+       ],
+       [
+        "Student answer",
+        "\"Switch at 16 weeks\"",
+        "**Review at 12 weeks.** If improved but not clear, continue up to 12 more weeks. Exceptional use beyond 6 months needs 3-monthly review"
+       ],
+       [
+        "Student answer",
+        "Monotherapy-led ladder",
+        "**NG198 makes fixed-dose topical combinations first line** (adapalene/BPO, tretinoin/clindamycin, BPO/clindamycin)"
+       ],
+       [
+        "Course case",
+        "Clindamycin/BPO for 8 months",
+        "Too long for an antibiotic-containing topical (resistance risk). Review at 12 weeks"
+       ],
+       [
+        "Course case (student answer)",
+        "\"Try another antibiotic course\"",
+        "She has already failed an oral antibiotic regimen, so **refer for isotretinoin**"
+       ]
+      ]
+     }
+    }
+   ],
+   "short": "Pearls"
+  }
+ ],
+ "quiz": [
+  {
+   "q": "Which lesion is absent in rosacea but the hallmark of acne?",
+   "a": "Comedones."
+  },
+  {
+   "q": "First-line topical for papulopustular rosacea (CKS)?",
+   "a": "Ivermectin 1% cream once daily, up to 4 months."
+  },
+  {
+   "q": "What is the key warning with brimonidine gel?",
+   "a": "Rebound or paradoxical erythema in about 10–20%: test a small area first. It is for persistent redness, not flushing."
+  },
+  {
+   "q": "Licensed oral option for moderate–severe rosacea?",
+   "a": "Doxycycline 40 mg MR once daily for 16 weeks, then review."
+  },
+  {
+   "q": "Rosacea with eye pain and photophobia?",
+   "a": "Possible keratitis: same-day ophthalmology."
+  }
+ ],
+ "references": [
+  {
+   "label": "Medscape: Rosacea (incl. Demodex & steroid rosacea)",
+   "url": "https://emedicine.medscape.com/article/1071429-overview"
+  }
+ ],
+ "see_also": [
+  "acne-mimics",
+  "acne-vulgaris",
+  "topical-corticosteroids",
+  "discoid-lupus"
+ ]
+}

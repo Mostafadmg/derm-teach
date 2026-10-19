@@ -1,0 +1,105 @@
+{
+ "kf": [
+  "Chronic inflammatory facial disease with **flushing, persistent central redness, papules and pustules** and telangiectasia; **no comedones**.",
+  "Affects about **5%** of adults, usually after 30; men and women about equally (phymas mainly men).",
+  "Driven by neurovascular hyper-reactivity, innate immune activation (cathelicidin/LL-37) and *Demodex*.",
+  "UK: trigger avoidance and sun protection; **ivermectin 1%**, azelaic acid or metronidazole for papules; **brimonidine** for redness; oral doxycycline for moderate–severe.",
+  "**Ocular rosacea** with pain or reduced vision needs urgent eye review."
+ ],
+ "epi": [
+  {
+   "t": "**Prevalence**",
+   "sub": [
+    "About **5%** of adults worldwide; under-recognised in skin of colour."
+   ]
+  },
+  {
+   "t": "**Age and sex**",
+   "sub": [
+    "Usually presents **after 30** and becomes commoner with age; roughly equal sex distribution; **rhinophyma** is mainly in men."
+   ]
+  },
+  {
+   "t": "**Skin type**",
+   "sub": [
+    "Most common in fair skin (Celtic and Northern European descent)."
+   ]
+  },
+  {
+   "t": "**Associations**",
+   "sub": [
+    "Depression, anxiety, migraine, cardiovascular disease, inflammatory bowel disease and *H. pylori* have been linked."
+   ]
+  }
+ ],
+ "aet": [
+  "**Genetic** susceptibility (HLA class II polymorphisms; family history).",
+  "**Triggers**: UV light, heat and cold, exercise, hot drinks, spicy food, **alcohol**, stress, cosmetics, **topical steroids**.",
+  "**Microbes**: increased *Demodex folliculorum* density; *Bacillus oleronius*; *S. epidermidis*."
+ ],
+ "myths": [
+  "**\"Rosacea is adult acne\"**: no comedones; acne treatments such as benzoyl peroxide often irritate.",
+  "**\"Red nose means alcoholism\"**: rhinophyma occurs in non-drinkers; alcohol is just one trigger."
+ ],
+ "patho_lead": "Rosacea combines an **over-reactive innate immune system** with **unstable facial blood vessels and nerves**.",
+ "mech": [
+  {
+   "k": "Triggers activate the skin",
+   "t": "UV, heat, spicy food, alcohol and *Demodex* activate **TLR2** receptors on keratinocytes."
+  },
+  {
+   "k": "Cathelicidin overdrive",
+   "t": "Raised **kallikrein-5** cleaves cathelicidin into **LL-37**, which drives inflammation, vasodilatation and new vessel growth."
+  },
+  {
+   "k": "Neurovascular reactivity",
+   "t": "Sensory nerves (TRPV1 channels) release neuropeptides such as **CGRP**, causing **flushing**, burning and stinging; repeated flushing leaves **persistent erythema** and telangiectasia.",
+   "img": "v4-ros-neurovascular.jpg",
+   "cap": "Rosacea skin: dilated tortuous capillaries, a sensory nerve releasing neuropeptides, and Demodex mites with inflammation around a follicle."
+  },
+  {
+   "k": "Papules and pustules",
+   "t": "Inflammatory cells gather around follicles, producing papules and sterile pustules (no comedones)."
+  },
+  {
+   "k": "Phyma and fibrosis",
+   "t": "Chronic inflammation and lymphatic leakage cause sebaceous hyperplasia and fibrosis, thickening the nose (**rhinophyma**).",
+   "img": "v3-rosacea-face-map.jpg",
+   "cap": "Central face distribution: cheeks, nose, chin and forehead."
+  }
+ ],
+ "histo": [
+  "Dilated dermal vessels, solar elastosis and a perivascular and perifollicular lymphohistiocytic infiltrate.",
+  "Papulopustular: perifollicular inflammation, sometimes granulomas; increased *Demodex*.",
+  "Phymatous: sebaceous hyperplasia, fibrosis and dilated follicles. Biopsy is rarely needed."
+ ],
+ "special": [
+  {
+   "t": "**Skin of colour**",
+   "sub": [
+    "Redness may be hard to see; warmth, papules, burning and dryness are clues; granulomatous forms may be more common."
+   ]
+  },
+  {
+   "t": "**Children**",
+   "sub": [
+    "Rare; ocular symptoms may come first; consider perioral dermatitis."
+   ]
+  }
+ ],
+ "comp": [
+  "**Ocular rosacea**: blepharitis, conjunctivitis, keratitis, rarely corneal ulceration.",
+  "**Rhinophyma** and other phymas.",
+  "Psychological distress, low self-esteem and social avoidance."
+ ],
+ "prog": [
+  "Chronic and relapsing; treatment controls rather than cures.",
+  "Persistent erythema and telangiectasia respond best to vascular lasers or IPL (not on the NHS routinely)."
+ ],
+ "see_also": [
+  "acne-mimics",
+  "acne-vulgaris",
+  "topical-corticosteroids",
+  "discoid-lupus"
+ ]
+}

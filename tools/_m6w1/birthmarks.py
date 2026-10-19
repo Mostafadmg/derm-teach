@@ -1,3 +1,4 @@
+raise SystemExit("RETIRED (Oct 2026): this script rewrote content/conditions or content/steps and would undo the v4 textbook pages and page splits. See website/ADD_CONDITION.md.")
 import json
 from pathlib import Path
 P = Path("/workspace/derm-teach/website/content/conditions/birthmarks.json")
