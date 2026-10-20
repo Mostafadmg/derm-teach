@@ -1,0 +1,197 @@
+/* Derm Teach v5: readability + typography layer (Fredoka). Loaded last; CSS only, no content changes. */
+@font-face { font-family: "Fredoka"; font-style: normal; font-weight: 300 700; font-display: swap;
+  src: url("../fonts/fredoka-latin-wght-normal.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2190-2199, U+2212, U+2215, U+2248, U+2260-2265, U+FEFF, U+FFFD; }
+@font-face { font-family: "Fredoka"; font-style: normal; font-weight: 300 700; font-display: swap;
+  src: url("../fonts/fredoka-latin-ext-wght-normal.woff2") format("woff2");
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+
+:root {
+  /* Fredoka everywhere; Source Sans stays only as a per-glyph fallback (≥ ≤ α β ✓ etc. that Fredoka lacks) */
+  --sans: "Fredoka", "SourceSans", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+  --display: var(--sans);
+  --num: "SourceSans", ui-sans-serif, system-ui, sans-serif;   /* tabular figures where alignment matters */
+  /* rhythm tokens */
+  --fs-body: 17px; --lh-body: 1.7; --measure: 68ch;
+  --sp-h2: 3rem; --sp-h3: 1.75rem; --sp-item: .55em; --sp-block: 1.15em;
+  --ink-2: #24343b;            /* body text: darker than before (was #364750) — ~11:1 on white */
+  --muted: #536269;            /* ~6:1 on white */
+}
+:root[data-theme="dark"] { --ink-2: #cdd9dc; --muted: #95a5ab; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --ink-2: #cdd9dc; --muted: #95a5ab; } }
+
+body { font-family: var(--sans); font-size: var(--fs-body); line-height: var(--lh-body); font-weight: 400; letter-spacing: -.003em;
+  -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; text-rendering: optimizeLegibility; }
+@media (max-width: 600px) { body { font-size: 17.5px; } }
+h1, h2, h3, h4 { font-family: var(--display); letter-spacing: -.005em; }
+h1 { font-weight: 600; line-height: 1.15; }
+h2 { font-weight: 600; line-height: 1.25; }
+h3 { font-weight: 550; line-height: 1.35; }
+h4 { font-weight: 550; line-height: 1.4; }
+strong, b { font-weight: 600; }
+.btn-sm, .chip, .pill, .crumbs, .toc, .nav-btn, .drawer, .chip-soft, .rf-tag, .qa-n, .qa-reveal, .toc-list a, .search-input, .cat-pill { font-weight: 500; }
+
+/* ---------- textbook pages ---------- */
+.tb-body { max-width: 820px; }
+.tb-sec { padding: var(--sp-h2) 0 var(--s4); color: var(--ink-2); border-top: 1px solid var(--line-2); }
+.tb-sec:first-child { padding-top: var(--s5); }
+.tb-sec > h2, .tb-fold > summary h2 { font-size: clamp(1.45rem, 1.25rem + .6vw, 1.75rem); font-weight: 600; margin: 0 0 1rem; }
+.tb-h3 { margin: var(--sp-h3) 0 .6rem; font-size: 1.16rem; font-weight: 600; padding-bottom: 0; border-bottom: 0; color: var(--ink); }
+.tb-sec > .tb-h3:first-of-type { margin-top: .5rem; }
+.tb-h4 { font-size: 1.02rem; font-weight: 600; margin: 1.25rem 0 .35rem; }
+.tb-sec p { line-height: var(--lh-body); max-width: var(--measure); margin: 0 0 var(--sp-block); }
+.textbook .tb-head .lede { max-width: 62ch; font-size: 1.1rem; line-height: 1.6; color: var(--ink-2); }
+.textbook .tb-head h1 { font-weight: 600; letter-spacing: -.01em; }
+
+/* lists: airier items, softer markers, clear nesting */
+.tb-ul, .tb-ol { max-width: var(--measure); padding-left: 1.3em; margin: 0 0 var(--sp-block); }
+.tb-ul > li, .tb-ol > li { margin: 0 0 var(--sp-item); line-height: 1.65; padding-left: .2em; }
+.tb-ul > li:last-child, .tb-ol > li:last-child { margin-bottom: 0; }
+.tb-ul li::marker { color: color-mix(in srgb, var(--brand-2) 55%, transparent); font-size: .9em; }
+.tb-ol > li::marker { color: var(--muted); font-weight: 500; }
+.tb-ul ul, .tb-ol ul { margin: .45em 0 .2em; padding-left: 1.2em; list-style: "–  "; }
+.tb-ul ul li { margin: .3em 0; color: var(--ink-2); }
+.tb-ul ul li::marker { color: var(--muted); }
+.kf-list { font-size: 1rem; } .kf-list li { margin: 0 0 .45em; line-height: 1.6; }
+.keyfacts { padding: var(--s4) var(--s5); max-width: 74ch; }
+
+/* label: value bullets → stacked definition style (label on its own line) */
+.tb-ul li.kv .kv-k { display: block; font-size: .78rem; font-weight: 600; letter-spacing: .05em; text-transform: uppercase; color: var(--brand-2); line-height: 1.4; margin: 0 0 .15em; }
+.kv-c { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+.tb-ul li.kv .kv-v { display: block; }
+.tb-ul li.kv .kv-v::first-letter { text-transform: none; }
+.tb-ul.tb-kv { list-style: none; padding-left: 0; }
+.tb-ul.tb-kv > li { padding: .1em 0 0 .9em; border-left: 2px solid var(--line); margin-bottom: .9em; }
+.tb-ul.tb-kv > li:not(.kv)::before { content: none; }
+/* desktop: two-column grid for label/value lists */
+@media (min-width: 900px) {
+  .tb-ul.tb-kv > li.kv { display: grid; grid-template-columns: minmax(150px, 13.5rem) minmax(0, 1fr); gap: 0 var(--s5); border-left: 0; padding: .75em 0; margin: 0; border-top: 1px solid var(--line-2); }
+  .tb-ul.tb-kv > li.kv:first-child { border-top: 0; padding-top: .2em; }
+  .tb-ul.tb-kv > li.kv .kv-k { margin: .25em 0 0; }
+  .tb-ul.tb-kv > li.kv > ul { grid-column: 2; }
+  .tb-ul.tb-kv > li:not(.kv) { border-left: 0; padding-left: 0; border-top: 1px solid var(--line-2); padding-top: .75em; margin: 0; }
+}
+
+/* worked cases: soft cards with a badge + scenario title */
+.tb-case { margin: var(--s5) 0; padding: var(--s5) var(--s5) var(--s4); border: 1px solid var(--line); border-radius: var(--r); background: var(--surface); box-shadow: var(--shadow-sm); max-width: 78ch; }
+.tb-case .tb-case-h { margin: 0 0 var(--s4) !important; display: flex; flex-direction: column; align-items: flex-start; gap: .5rem; background: none; }
+.case-badge { display: inline-flex; font-size: .74rem; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; color: var(--brand); background: var(--brand-soft); padding: 3px 11px; border-radius: 99px; line-height: 1.5; }
+.case-t { display: block; width: 100%; font-size: 1.06rem; font-weight: 500; line-height: 1.45; color: var(--ink); max-width: 62ch; }
+.tb-case > p, .tb-case > .tb-ul { max-width: none; }
+.tb-case > :last-child { margin-bottom: 0; }
+.tb-case .tb-ul.tb-kv > li.kv { grid-template-columns: minmax(130px, 11.5rem) minmax(0, 1fr); }
+:root[data-theme="dark"] .tb-case { background: var(--surface-2); }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .tb-case { background: var(--surface-2); } }
+@media (max-width: 600px) { .tb-case { padding: var(--s4); margin: var(--s4) -4px; } }
+/* no stray highlight on headings (anchor targets / selection) */
+.tb-h3:target, .tb-sec h2:target { background: none; }
+::selection { background: color-mix(in srgb, var(--brand-2) 22%, transparent); }
+
+/* treatment ladder: flat vertical stepper, one connector, no staircase */
+.lads { position: relative; gap: 0; margin: var(--s4) 0 var(--s6); counter-reset: none; max-width: 74ch; }
+.lads .lad:nth-child(n) { margin-left: 0; }
+.lads::before { content: ""; position: absolute; left: 15px; top: 20px; bottom: 20px; width: 2px; border-radius: 2px;
+  background: linear-gradient(var(--line), color-mix(in srgb, var(--brand-2) 35%, var(--line)), var(--line)); }
+.lad { position: relative; background: none; border-left: 0; border-radius: 0; padding: 0 0 var(--s5); gap: var(--s4); }
+.lad:last-child { padding-bottom: 0; }
+.lad > div { min-width: 0; flex: 1; padding-top: 3px; }
+.lad-n { position: relative; z-index: 1; width: 32px; height: 32px; font-size: .9rem; font-weight: 600; border: 0; color: #fff; background: var(--brand-2); box-shadow: 0 0 0 4px var(--bg); }
+.lad.tone-base .lad-n { background: #6b7c84; } .lad.tone-first .lad-n { background: var(--tip); } .lad.tone-second .lad-n { background: var(--brand-2); }
+.lad.tone-third .lad-n { background: var(--indigo); } .lad.tone-refer .lad-n { background: var(--warn); } .lad.tone-danger .lad-n { background: var(--danger); }
+:root[data-theme="dark"] .lad-n { color: #0a1113; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .lad-n { color: #0a1113; } }
+.lad-k { font-size: 1.05rem; font-weight: 600; margin: 0 0 .2em !important; }
+.lad-t { font-size: 1rem; line-height: 1.65; color: var(--ink-2); }
+
+/* mechanism steps */
+.mech { gap: var(--s6); }
+.mech-n { font-weight: 600; }
+.mech-k { font-weight: 600; font-size: 1.05rem; }
+
+/* callouts, boxes, cards: comfortable padding */
+.tb-box { padding: var(--s4) var(--s5) var(--s3); }
+.tb-box-k, .kf-k, .chip-lbl, .dc dt, .dd thead th, .rtable th { font-weight: 600; letter-spacing: .05em; }
+.callout { padding: 18px 20px 10px 18px; gap: 4px 14px; }
+.co-body { font-size: .98rem; line-height: 1.65; }
+.co-body li { margin: 0 0 .4em; }
+.callout-title { font-weight: 600; }
+.les-card { padding: var(--s4); gap: 8px; }
+.les-card > p { line-height: 1.55; }
+.rf { padding: var(--s3) 0; }
+.rf p { line-height: 1.6; }
+.qa summary { padding: var(--s4) var(--s5); }
+.qa-q { font-weight: 500; line-height: 1.5; }
+.qa-a { line-height: 1.65; }
+
+/* drug cards: slightly smaller text, good line-height */
+.dcs { gap: var(--s5); }
+.dc { padding: var(--s4) var(--s5); }
+.dc header h4 { font-size: 1.05rem; font-weight: 600; }
+.dc dl { gap: 10px; }
+.dc-row { font-size: .93rem; line-height: 1.6; grid-template-columns: 104px minmax(0, 1fr); }
+.dc dt { font-size: .72rem; }
+
+/* tables: more row padding, zebra striping, slightly smaller text */
+.dd { font-size: .97rem; }
+.dd td, .dd tbody th { padding: 14px var(--s3); line-height: 1.55; }
+.dd tbody th { font-weight: 600; }
+.dd tbody tr:nth-child(even) > * { background: color-mix(in srgb, var(--surface-2) 55%, transparent); }
+.rtable { font-size: .92rem; line-height: 1.6; }
+.rtable th { font-size: .72rem; padding: 12px 16px; }
+.rtable td { padding: 13px 16px; }
+.rtable tbody tr:nth-child(even) td { background: color-mix(in srgb, var(--surface-2) 60%, transparent); }
+.rtable td, .dc dd, .dd td { font-variant-numeric: normal; }
+@media (max-width: 640px) {
+  .dd td, .dd tbody th { padding: 0; }
+  .dd tbody tr:nth-child(even) > * { background: none; }
+  .dd tr { padding: var(--s4) var(--s2); row-gap: 4px; align-content: start; }
+  .dd tbody tr:nth-child(even) { background: color-mix(in srgb, var(--surface-2) 55%, transparent); border-radius: var(--r-sm); }
+}
+
+/* ---------- exam review pages (article layout) restyled to match ---------- */
+.layout-article .cond-head h1 { font-weight: 600; letter-spacing: -.01em; }
+.layout-article .cond-head .lede { max-width: 66ch; font-size: 1.08rem; line-height: 1.6; color: var(--ink-2); }
+.layout-article .sec { padding: var(--sp-h2) 0 var(--s4); border-top: 1px solid var(--line-2); background: none; box-shadow: none; border-radius: 0; }
+.layout-article .sec:first-child { border-top: 0; padding-top: var(--s5); }
+.layout-article .sec > details > summary h2 { font-size: clamp(1.45rem, 1.25rem + .6vw, 1.75rem); font-weight: 600; margin: 0; }
+.layout-article .sec-num { display: none; }
+.layout-article .sec-body { padding-top: 1rem; font-size: 1rem; line-height: var(--lh-body); }
+.layout-article .sec-body > p, .layout-article .sec-body > ul, .layout-article .sec-body > ol { max-width: var(--measure); }
+.layout-article .sec-body li { margin: 0 0 var(--sp-item); }
+/* the 6-column Q&A table becomes one card per question (all widths) */
+.layout-article .table-wrap.is-wide { border: 0; background: none; box-shadow: none; overflow: visible; }
+.layout-article .is-wide .rtable thead { display: none; }
+.layout-article .is-wide .rtable, .layout-article .is-wide .rtable tbody { display: block; min-width: 0; }
+.layout-article .is-wide .rtable tr { display: grid; grid-template-columns: 2.6rem minmax(0, 1fr); gap: .35rem var(--s4); padding: var(--s5); margin: 0 0 var(--s4);
+  border: 1px solid var(--line); border-radius: var(--r); background: var(--surface); box-shadow: var(--shadow-sm); }
+.layout-article .is-wide .rtable tbody tr:nth-child(even) td { background: none; }
+.layout-article .is-wide .rtable td { display: block; padding: 0; border: 0; grid-column: 2; }
+.layout-article .is-wide .rtable td::before { content: attr(data-label); display: block; font-size: .72rem; font-weight: 600; letter-spacing: .05em; text-transform: uppercase; color: var(--muted); margin: .55rem 0 .1rem; }
+.layout-article .is-wide .rtable td:first-child { grid-column: 1; grid-row: 1 / span 2; align-self: start; width: 2.6rem; height: 2.6rem; border-radius: 50%; display: grid; place-items: center;
+  background: var(--brand-soft); color: var(--brand); font-weight: 600; font-size: 1rem; }
+.layout-article .is-wide .rtable td:first-child::before, .layout-article .is-wide .rtable td:nth-child(2)::before { content: none; }
+.layout-article .is-wide .rtable td:nth-child(2) { font-size: 1.04rem; font-weight: 500; color: var(--ink); line-height: 1.5; padding-top: .45rem; }
+.layout-article .is-wide .rtable td.col-uk { color: var(--ink); }
+:root[data-theme="dark"] .layout-article .is-wide .rtable tr { background: var(--surface-2); }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .layout-article .is-wide .rtable tr { background: var(--surface-2); } }
+@media (max-width: 600px) {
+  .layout-article .is-wide .rtable tr { grid-template-columns: 1fr; padding: var(--s4); }
+  .layout-article .is-wide .rtable td, .layout-article .is-wide .rtable td:nth-child(2) { grid-column: 1; }
+  .layout-article .is-wide .rtable td:first-child { grid-row: auto; width: 2.2rem; height: 2.2rem; font-size: .9rem; }
+}
+
+/* iPhone: keep everything inside the viewport */
+@media (max-width: 600px) {
+  .tb-sec { padding-top: 2.4rem; }
+  .tb-ul, .tb-ol { padding-left: 1.15em; }
+  .lads::before { left: 13px; }
+  .lad-n { width: 28px; height: 28px; font-size: .82rem; }
+  .lad { gap: var(--s3); }
+}
+@media print { .tb-case { box-shadow: none; break-inside: avoid; } .lad-n { box-shadow: none; } }
+/* exam cards: keep the question-number badge on every card; readable text size */
+.layout-article .is-wide .rtable tbody tr > td:first-child { background: var(--brand-soft) !important; }
+.layout-article .is-wide .rtable td { font-size: .98rem; line-height: 1.6; }
+.layout-article .is-wide .rtable td.col-uk { padding: .1rem .7rem .45rem; border-radius: var(--r-xs); margin: .3rem -.7rem 0; }
+.layout-article .is-wide .rtable td.col-uk::before { margin-top: .35rem; }
+.case-t { text-wrap: pretty; }

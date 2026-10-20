@@ -12,16 +12,36 @@ def tb_exists(slug):
     return (TB_DIR / f"{slug}.json").exists()
 
 
+_KV = re.compile(r'^<strong>([^<]{1,60}?)(:)</strong>\s*(\S.*)$', re.S)
+_KV2 = re.compile(r'^<strong>([^<]{1,60}?)</strong>:\s*(\S.*)$', re.S)
+
+
+def tb_kv(html_s):
+    """'<strong>Label:</strong> value' -> stacked label/value (text unchanged; colon kept for screen readers/copy)"""
+    m = _KV.match(html_s) or _KV2.match(html_s)
+    if not m:
+        return None
+    k, v = m.group(1).strip(), m.groups()[-1]
+    return f'<span class="kv-k">{k}<span class="kv-c">:</span></span> <span class="kv-v">{v}</span>'
+
+
 def tb_li(x, p):
     if isinstance(x, str):
-        return f"<li>{md(x, p)}</li>"
+        h = md(x, p); kv = tb_kv(h)
+        return f'<li class="kv">{kv}</li>' if kv else f"<li>{h}</li>"
     sub = x.get("sub") or []
-    return f'<li>{md(x["t"], p)}' + (f'<ul>{"".join(tb_li(s, p) for s in sub)}</ul>' if sub else "") + "</li>"
+    h = md(x["t"], p); kv = tb_kv(h)
+    subh = f'<ul>{"".join(tb_li(s, p) for s in sub)}</ul>' if sub else ""
+    return (f'<li class="kv">{kv}' if kv else f'<li>{h}') + subh + "</li>"
 
 
 def tb_ul(items, p, cls=""):
+    lis = [tb_li(x, p) for x in items]
+    nkv = sum(1 for x in lis if x.startswith('<li class="kv">'))
+    if lis and nkv * 2 >= len(lis) and nkv >= 2:
+        cls = (cls + " tb-kv").strip()
     c = f' class="{cls}"' if cls else ""
-    return f"<ul{c}>" + "".join(tb_li(x, p) for x in items) + "</ul>"
+    return f"<ul{c}>" + "".join(lis) + "</ul>"
 
 
 def tb_fig(item, p, ctx, cls=""):
@@ -40,8 +60,12 @@ def tb_photo_item(x):
     return ph
 
 
+_CASE = re.compile(r'^\s*(Case\s*\d+[a-z]?)\s*[:.\u2013\u2014-]\s*(\S.*)$', re.S | re.I)
+
+
 def tb_blocks(blocks, p, ctx):
     out = []
+    case_open = False
     for b in blocks:
         if isinstance(b, str):
             out.append(f"<p>{md(b, p)}</p>")
@@ -51,7 +75,15 @@ def tb_blocks(blocks, p, ctx):
             out.append(f"<p>{md(b['p'], p)}</p>")
         elif k == "h":
             hid = f' id="{esc(b["id"])}"' if b.get("id") else ""
-            out.append(f'<h3 class="tb-h3"{hid}>{md(b["h"], p)}</h3>')
+            if case_open:
+                out.append("</div>"); case_open = False
+            cm = _CASE.match(b["h"])
+            if cm:
+                out.append(f'<div class="tb-case"><h3 class="tb-h3 tb-case-h"{hid}><span class="case-badge">{esc(cm.group(1))}<span class="kv-c">:</span></span> '
+                           f'<span class="case-t">{md(cm.group(2), p)}</span></h3>')
+                case_open = True
+            else:
+                out.append(f'<h3 class="tb-h3"{hid}>{md(b["h"], p)}</h3>')
         elif k == "h4":
             out.append(f'<h4 class="tb-h4">{md(b["h4"], p)}</h4>')
         elif k == "ul":
@@ -146,6 +178,8 @@ def tb_blocks(blocks, p, ctx):
                 f'<li><span class="pe-ico">{uix("bulb", "ui ui-sm")}</span><p>{md(x, p)}</p></li>' for x in b["pearls"]) + "</ul>")
         else:
             WARNINGS.append(f"{ctx}: unknown textbook block '{k}'")
+    if case_open:
+        out.append("</div>")
     return "\n".join(out)
 
 

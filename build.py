@@ -413,11 +413,11 @@ def page(title, prefix, body, *, desc="", active_slug=None, active_cat=None, bod
 <meta name="theme-color" content="#0b1214" media="(prefers-color-scheme: dark)">
 <meta name="color-scheme" content="light dark">
 {THEME_BOOT}
-<link rel="preload" href="{prefix}assets/fonts/source-sans-3-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="{prefix}assets/fonts/plus-jakarta-sans-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="{prefix}assets/fonts/fredoka-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="{prefix}assets/css/style.css{asset_v("css/style.css")}">
 <link rel="stylesheet" href="{prefix}assets/css/v3.css{asset_v("css/v3.css")}">
 <link rel="stylesheet" href="{prefix}assets/css/v4.css{asset_v("css/v4.css")}">
+<link rel="stylesheet" href="{prefix}assets/css/v5.css{asset_v("css/v5.css")}">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='9' fill='%230d5e63'/%3E%3Ccircle cx='16' cy='16' r='8' fill='none' stroke='%23fff' stroke-width='2.5'/%3E%3Ccircle cx='16' cy='16' r='2.5' fill='%23fff'/%3E%3C/svg%3E">
 </head>
 <body class="{body_cls}" data-root="{prefix}">
@@ -1306,6 +1306,7 @@ def build_credits():
 {crumbs([("Home", "index.html"), ("Image credits", None)])}
 <h1>Image credits &amp; attribution</h1>
 <p class="lede">Clinical photographs are from <a href="https://dermnetnz.org/" target="_blank" rel="noopener">DermNet</a>, plus a few Wikimedia Commons and open-access images, each credited to its holder. DermNet images are reproduced for personal, non-commercial study under the <a href="https://dermnetnz.org/image-licence" target="_blank" rel="noopener">DermNet image licence</a>, as watermarked low-resolution web versions. Copyright remains with DermNet or the named holder.</p>
+<p class="lede">Typeface: <a href="https://github.com/hafontia/Fredoka-One" target="_blank" rel="noopener">Fredoka</a> © The Fredoka Project Authors, self-hosted under the <a href="assets/fonts/Fredoka-OFL.txt">SIL Open Font License 1.1</a>.</p>
 <div class="chips jump">{''.join(jump)}</div>
 </div></section>
 <section class="wrap block credits-page">
