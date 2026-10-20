@@ -111,6 +111,7 @@ for ps in PHOTO_SETS:
         if ps["id"] == "core":
             PHOTO_BY_CODE[code] = m
 
+PDF_META = load_json(ROOT / "assets/pdf/pdf-meta.json") if (ROOT / "assets/pdf/pdf-meta.json").exists() else None
 DDX_PHOTOS = load_json(CONTENT / "ddx-photos.json") if (CONTENT / "ddx-photos.json").exists() else {}
 DDX_TEXT = set(DDX_PHOTOS.pop("_text", []))   # differential rows that are concepts/drugs, not something to photograph
 
@@ -447,7 +448,7 @@ def page(title, prefix, body, *, desc="", active_slug=None, active_cat=None, bod
     <div class="fc-row">
       <a class="fc-brand" href="{prefix}index.html"><span class="brand-mark" aria-hidden="true"></span><b>{esc(SITE['title'])}</b></a>
       <span class="fc-meta">{esc(SITE['owner'])} · {year}</span>
-      <nav class="fc-links" aria-label="Footer"><a href="{prefix}index.html#categories">Categories</a><a href="{prefix}credits.html">Image credits</a><a href="https://bnf.nice.org.uk/" target="_blank" rel="noopener">BNF</a><a href="https://cks.nice.org.uk/" target="_blank" rel="noopener">NICE CKS</a></nav>
+      <nav class="fc-links" aria-label="Footer"><a href="{prefix}index.html#categories">Categories</a><a href="{prefix}credits.html">Image credits</a>{f'<a href="{prefix}assets/pdf/{PDF_META["file"]}" download>PDF</a>' if PDF_META else ''}<a href="https://bnf.nice.org.uk/" target="_blank" rel="noopener">BNF</a><a href="https://cks.nice.org.uk/" target="_blank" rel="noopener">NICE CKS</a></nav>
     </div>
     <p class="fc-small">Personal study notes, not clinical guidance. Check BNF/NICE CKS before prescribing. Photos © DermNet or named holders; AI diagrams marked. <a href="{prefix}credits.html#about">Full credits &amp; disclaimer</a>.</p>
   </div>
@@ -590,6 +591,7 @@ def build_home():
       <p class="lede">{esc(SITE['tagline'])}</p>
       {search_box("search search-hero", "Search conditions, e.g. tinea, boil…")}
       {f'<p class="tries"><span>Popular:</span>{try_links}</p>' if try_links else ''}
+      {f'<p class="pdf-dl"><a href="assets/pdf/{PDF_META["file"]}" download>{ui("arrow", "ui ui-xs")}Download the printable PDF</a> <small>A4 · {PDF_META["pages"]:,} pages · {PDF_META["mb"]} MB · updated {PDF_META["built"]}</small></p>' if PDF_META else ''}
     </div>
     <aside class="hero-card" aria-label="Shared red flags">
       <p class="hero-card-k">{ui("alert", "ui ui-sm")}Never-miss emergencies</p>

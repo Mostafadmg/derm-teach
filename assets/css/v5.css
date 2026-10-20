@@ -253,3 +253,7 @@ strong, b { font-weight: 600; }
 .about-box h2 { margin-top: 0; font-size: 1.2rem; }
 .about-box p { color: var(--ink-2); }
 @media print { .footer.foot-c { padding: 6pt 0 0; } }
+.pdf-dl { margin: 14px 0 0; font-size: .95rem; }
+.pdf-dl a { display: inline-flex; align-items: center; gap: 6px; font-weight: 600; color: var(--brand); }
+.pdf-dl a .ui { transform: rotate(90deg); }
+.pdf-dl small { color: var(--muted); margin-left: 6px; }

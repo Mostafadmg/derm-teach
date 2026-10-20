@@ -1,0 +1,201 @@
+/* Print edition of Derm Teach (WeasyPrint). Loaded after style/v3/v4/v5.css. Light colours only. */
+:root { color-scheme: light; --bg: #fff; --surface: #fff; --soft: #f3f6f8; --fs-body: 10pt; --lh-body: 1.5; --measure: none; }
+@page {
+  size: A4; margin: 17mm 15mm 17mm 15mm;
+  @top-left { content: string(chap); font: 500 7.5pt Fredoka, sans-serif; color: #6a7884; }
+  @top-right { content: string(cond); font: 600 7.5pt Fredoka, sans-serif; color: #0d5e63; }
+  @bottom-left { content: "Derm Teach · Primary Care Dermatology for Pharmacist Prescribers"; font: 400 7pt Fredoka, sans-serif; color: #8a97a2; }
+  @bottom-right { content: counter(page); font: 600 8pt Fredoka, sans-serif; color: #33475b; }
+}
+@page cover { margin: 0; @top-left { content: none } @top-right { content: none } @bottom-left { content: none } @bottom-right { content: none } }
+@page chap { @top-left { content: none } @top-right { content: none } }
+@page front { @top-right { content: none } }
+html, body { background: #fff !important; color: #1b2632; }
+body.pdf { font-family: Fredoka, system-ui, sans-serif; font-size: 10pt; line-height: 1.5; font-weight: 400; }
+body.pdf * { box-shadow: none !important; animation: none !important; transition: none !important; }
+.topbar, .footer, .lightbox, .drawer, .toc, .prevnext, .crumbs, .search-results { display: none !important; }
+a { color: #0d5e63; text-decoration: none; }
+img { max-width: 100%; }
+
+/* ---------- cover ---------- */
+.cover { page: cover; height: 297mm; box-sizing: border-box; padding: 26mm 20mm 18mm; background: linear-gradient(160deg, #0d5e63, #0d4f63 55%, #2f3a8f); color: #fff; break-after: page; }
+.cv-k { font-size: 10pt; letter-spacing: .08em; text-transform: uppercase; opacity: .85; margin: 0 0 8mm; }
+.cv-t { font-size: 34pt; line-height: 1.08; font-weight: 600; margin: 0 0 5mm; color: #fff; letter-spacing: -.01em; }
+.cv-s { font-size: 14pt; opacity: .9; margin: 0 0 12mm; }
+.cv-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 4mm; margin: 0 0 12mm; }
+.cv-ph { height: 40mm; overflow: hidden; border-radius: 4mm; background: #fff; }
+.cv-ph img { width: 100%; height: 40mm; object-fit: cover; display: block; }
+.cv-who { font-size: 13pt; line-height: 1.4; margin: 0 0 4mm; }
+.cv-meta { font-size: 9.5pt; opacity: .85; margin: 0 0 10mm; }
+.cv-disc { font-size: 8.5pt; opacity: .8; border-top: 1px solid rgba(255,255,255,.35); padding-top: 4mm; }
+
+/* ---------- front matter ---------- */
+.front, .toc-page { page: front; break-before: page; }
+.fm-h { font-size: 20pt; margin: 0 0 5mm; color: #0d5e63; string-set: chap content(), cond ""; }
+.ptoc { list-style: none; padding: 0; margin: 0; column-count: 2; column-gap: 9mm; font-size: 8.6pt; line-height: 1.35; }
+.ptoc-ch { break-inside: avoid; margin: 0 0 3.2mm; }
+.ptoc-ch > a, .ptoc-app > b { display: block; font-weight: 600; color: #0d5e63; font-size: 9.6pt; margin-bottom: 1mm; }
+.ptoc-ch > a b { display: inline-block; min-width: 6mm; }
+.ptoc ol { list-style: none; padding: 0 0 0 6mm; margin: 0; }
+.ptoc a { color: #1b2632; }
+.ptoc a::after { content: leader(". ") target-counter(attr(href), page); color: #6a7884; }
+.ptoc-ch > a::after { color: #0d5e63; }
+
+/* ---------- chapter dividers ---------- */
+.chap { page: chap; break-before: page; break-after: page; padding-top: 55mm; border-top: 3mm solid var(--accent, #0d5e63); }
+.ch-n { font-size: 11pt; letter-spacing: .1em; text-transform: uppercase; color: var(--accent, #0d5e63); margin: 0 0 3mm; font-weight: 600; }
+.ch-t { font-size: 30pt; line-height: 1.1; margin: 0 0 6mm; string-set: chap content(), cond ""; }
+.ch-b { font-size: 11.5pt; color: #33475b; max-width: 150mm; margin: 0 0 8mm; }
+.ch-l { font-size: 10pt; columns: 2; column-gap: 10mm; color: #33475b; padding-left: 5mm; }
+.chap.app { padding-top: 70mm; }
+
+/* ---------- condition pages ---------- */
+.cond { break-before: page; counter-reset: fig; }
+.cond .wrap, .cond-main, .tb-body, .cond-body { max-width: none !important; width: auto !important; padding: 0 !important; margin: 0 !important; display: block !important; }
+.cond h1.c-title, .cond h1 { font-size: 21pt; line-height: 1.15; margin: 0 0 2.5mm; string-set: cond content(); }
+.cond .lesson-k { font-size: 8pt; margin: 0 0 2mm; }
+.cond .lesson-k svg { display: none; }
+.cond .lede { font-size: 10.6pt; color: #33475b; margin: 0 0 3mm; max-width: none; }
+.cond .chip-row { margin: 0 0 2mm; font-size: 8pt; }
+.cond .chip-soft { font-size: 7.6pt; padding: .4mm 2mm; }
+.keyfacts { margin: 3mm 0 4mm !important; padding: 3mm 4mm !important; break-inside: avoid; max-width: none !important; }
+.tb-sec, .sec { padding: 4mm 0 0 !important; margin: 0 !important; border: 0 !important; background: none !important; }
+.tb-sec + .tb-sec { border-top: .3mm solid #e3e9ee !important; margin-top: 3mm !important; }
+.tb-sec h2, .sec h2 { font-size: 14pt; margin: 0 0 2mm !important; break-after: avoid; color: #0d2a33; }
+.tb-sec h3 { font-size: 11pt; margin: 3.5mm 0 1.5mm !important; break-after: avoid; }
+.tb-sec h4 { font-size: 10pt; margin: 3mm 0 1mm !important; break-after: avoid; }
+.tb-sec p, .tb-sec li { max-width: none !important; orphans: 2; widows: 2; }
+.tb-ul, .tb-ol { max-width: none !important; }
+.tb-ul > li { margin: 0 0 1.2mm !important; }
+.tb-danger, .tb-tip { padding: 3mm 4mm !important; border-radius: 3mm; margin-top: 3mm !important; }
+.tb-danger { background: #fdf1f0 !important; border: .3mm solid #f2c9c4 !important; }
+.tb-tip { background: #eef8f3 !important; border: .3mm solid #c7e7d6 !important; }
+
+/* figures: numbered, never split */
+figure, .tb-fig, .tb-figs, .tb-case, .dc, .lads > li, .rfs > li, .keyfacts, .les-card, .vcard, .tb-box, .tb-map, tr, .mech > li { break-inside: avoid; }
+.tb-figs { display: grid !important; grid-template-columns: repeat(3, 1fr) !important; gap: 3mm !important; }
+.tb-figs.n2 { grid-template-columns: repeat(2, 1fr) !important; }
+.tb-fig { max-width: 120mm; }
+.cond-main figure img { border-radius: 2mm; }
+.cond-main figure:not(.f-thumb) { counter-increment: fig; }
+.cond-main figure:not(.f-thumb) figcaption .tp::before { content: "Fig. " counter(fig) " · "; font-weight: 600; color: #0d5e63; }
+.cond-main figcaption { font-size: 7.6pt; line-height: 1.35; }
+.cond-main figcaption .cr { font-size: 6.8pt; color: #6a7884; display: block; }
+.thumb-credit, .f .badge-ai { font-size: 6.5pt; }
+
+/* differential tables keep their real photo thumbnails */
+.dd { font-size: 8.8pt; }
+.dd thead { display: table-header-group !important; }
+.dd, .dd tbody { display: table !important; width: 100%; }
+.dd tbody { display: table-row-group !important; }
+.dd tr { display: table-row !important; }
+.dd td, .dd tbody th { display: table-cell !important; padding: 1.8mm 2mm !important; border-bottom: .3mm solid #e3e9ee !important; }
+.dd-img { display: table-cell !important; width: 19mm !important; }
+.dd-th { width: 17mm !important; }
+.dd-th img { width: 17mm; height: 17mm; object-fit: cover; }
+.dd-th figcaption { display: none !important; }
+
+/* drug cards, ladder, cases */
+.dc { padding: 3mm !important; }
+.lads > li { margin-bottom: 2mm !important; }
+.tb-case { padding: 3mm 4mm !important; margin: 2mm 0 3mm !important; }
+
+/* collapsibles open; quiz and gallery shown */
+details > summary { list-style: none; }
+details > summary::-webkit-details-marker { display: none; }
+.tb-fold > *, details[open] > * { display: block !important; }
+.tb-gal .gal, .tb-gal ul, .tb-gal .grid { display: grid !important; grid-template-columns: repeat(4, 1fr) !important; gap: 2.5mm !important; }
+.tb-gal figure img { height: 28mm; width: 100%; object-fit: cover; }
+.tb-gal figcaption { font-size: 6.6pt !important; }
+.tb-quiz details details > summary { font-weight: 600; }
+.ref-list { font-size: 8pt; }
+.chip-ph { padding-left: 2mm !important; }
+
+/* exam review (article layout) */
+.cond-art .cond-head-grid { display: block !important; }
+.cond-art .sec > details > summary h2 { font-size: 14pt; }
+
+/* legacy front/back matter */
+.legacy { break-before: page; font-size: 9.5pt; }
+.legacy h2 { font-size: 16pt; color: #0d5e63; string-set: cond content(); }
+.legacy table { width: 100%; border-collapse: collapse; font-size: 8.6pt; margin: 2mm 0 4mm; }
+.legacy th, .legacy td { border: .3mm solid #dfe6eb; padding: 1.5mm 2mm; vertical-align: top; text-align: left; }
+.legacy th { background: #eef4f6; }
+.legacy img { max-height: 45mm; border-radius: 2mm; }
+.legacy .page-break { break-before: auto; }
+
+/* credits */
+.credits { font-size: 7.2pt; line-height: 1.35; }
+.credits h1 { font-size: 16pt; string-set: cond "Image credits"; }
+.credits h2 { font-size: 11pt; break-after: avoid; }
+.credits ul, .credits ol, .credits .cr-list { columns: 2; column-gap: 7mm; }
+.credits li { break-inside: avoid; }
+.credits .about-box { break-inside: avoid; font-size: 8.5pt; }
+
+/* ---------- print-sized figures ---------- */
+.cond-main img { height: auto; }
+.cond-main figure:not(.f-thumb) { max-width: 100%; margin: 2mm 0 3mm; }
+.tb-fig, .tb-fig figure, .mech-step figure, .tb-map figure, .vcard figure, .tb-histo figure { max-width: 82mm; }
+.mech-step figure { margin-left: 9mm !important; }
+.cond-main figure:not(.f-thumb) img { max-height: 60mm; width: auto; max-width: 100%; }
+.tb-figs figure img, .les-card figure img, .gallery figure img, .vcard figure img { width: 100% !important; max-height: none !important; object-fit: cover; }
+.tb-figs figure img { height: 40mm !important; }
+.les-cards { display: grid !important; grid-template-columns: repeat(3, 1fr) !important; gap: 3mm !important; padding: 0 !important; list-style: none; }
+.les-card { padding: 2.5mm !important; font-size: 8.6pt; }
+.les-card figure img { height: 30mm !important; }
+.gallery { display: grid !important; grid-template-columns: repeat(4, 1fr) !important; gap: 2.5mm !important; }
+.gallery figure { margin: 0 !important; }
+.gallery figure img { height: 27mm !important; }
+.gallery figcaption .tp { display: none; }
+.gallery figure figcaption .tp::before { content: none; }
+.gal-group h3 { font-size: 9.5pt; margin: 2mm 0 1.5mm !important; }
+.tb-gal summary h2 { display: inline; }
+.tb-gal summary small, .tb-gal summary svg, .tb-fold > summary svg { display: none; }
+.tb-map { display: grid !important; grid-template-columns: 1fr 70mm !important; gap: 4mm; }
+
+/* tables never wider than the page */
+.table-wrap { overflow: visible !important; border: 0 !important; }
+.rtable { width: 100% !important; min-width: 0 !important; font-size: 8.4pt; }
+.rtable td, .rtable th { padding: 1.5mm 2mm !important; }
+/* exam review: one card per question */
+.layout-article .is-wide .rtable tr { display: block !important; padding: 3mm 4mm 3mm 14mm !important; margin: 0 0 3mm !important; border: .3mm solid #dfe6eb; border-radius: 3mm; position: relative; break-inside: avoid; background: #fbfcfd; }
+.layout-article .is-wide .rtable td { display: block !important; font-size: 8.8pt !important; line-height: 1.45 !important; }
+.layout-article .is-wide .rtable td:first-child { position: absolute; left: 3mm; top: 3mm; width: 8mm !important; height: 8mm !important; line-height: 8mm !important; text-align: center; padding: 0 !important; border-radius: 50%; font-weight: 600; }
+.layout-article .is-wide .rtable td::before { font-size: 6.8pt !important; margin: 1.5mm 0 .3mm !important; }
+.layout-article .is-wide .rtable td.col-uk { margin: 1mm 0 0 !important; padding: .5mm 2mm 1.5mm !important; background: #eef6f7; }
+.layout-article .sec > details > summary h2 { font-size: 14pt !important; }
+.layout-article .cond-head h1 { font-size: 20pt; }
+/* credits: compact text table */
+.credits table { table-layout: fixed; width: 100% !important; font-size: 6.6pt !important; line-height: 1.3; }
+.credits th:first-child, .credits td:first-child { display: none !important; }
+.credits td, .credits th { padding: .8mm 1.2mm !important; word-break: break-word; overflow-wrap: anywhere; }
+.credits code { font-size: 6pt; padding: 0; background: none; }
+.credits tr { break-inside: avoid; }
+.credits th:nth-child(2) { width: 11%; } .credits th:nth-child(3) { width: 33%; } .credits th:nth-child(4) { width: 15%; }
+.credits th:nth-child(5) { width: 23%; } .credits th:nth-child(6) { width: 18%; }
+.credits li { margin: 0 0 .4mm !important; }
+.credits ul { padding-left: 4mm; }
+/* drug cards: two per row without CSS grid (WeasyPrint grid + avoid-breaks can deadlock) */
+.dcs { display: block !important; font-size: 0; }
+.dc { display: inline-block !important; width: 49%; box-sizing: border-box; vertical-align: top; margin: 0 2% 3mm 0 !important; font-size: 8.6pt; }
+.dc:nth-child(2n) { margin-right: 0 !important; }
+/* mechanism stepper: text left, AI image right (as on desktop), no CSS grid */
+.mech { display: block !important; margin: 2mm 0 4mm !important; }
+.mech-step { display: block !important; margin: 0 0 3.5mm !important; break-inside: avoid; }
+.mech-step.has-img { display: table !important; width: 100%; table-layout: fixed; }
+.mech-step.has-img > .mech-t { display: table-cell !important; vertical-align: top; padding-right: 5mm; }
+.mech-step.has-img > figure { display: table-cell !important; width: 72mm; vertical-align: top; margin: 0 !important; max-width: none !important; }
+.mech-step.has-img > figure img { width: 72mm !important; max-height: none !important; }
+.mech-t { display: block !important; position: relative; padding-left: 9mm; min-height: 7mm; }
+.mech-n { position: absolute !important; left: 0; top: 0; width: 6.5mm !important; height: 6.5mm !important; line-height: 6.5mm; display: block !important; text-align: center; font-size: 8pt !important; margin: 0 !important; }
+.mech-k { font-size: 10pt !important; margin: 0 0 .8mm !important; }
+.mech-t p { margin: 0 0 1mm !important; }
+.mech-step figure { margin-left: 0 !important; }
+.cond .lesson-k { display: block !important; }
+.cond .lesson-k > * { display: inline !important; margin-right: 3mm; }
+.cond .chip-row { display: block !important; }
+.cond .chip-row > * { display: inline-block !important; margin: 0 1.2mm 1.2mm 0 !important; vertical-align: middle; }
+/* PDF bookmarks: chapters > conditions only */
+h1, h2, h3, h4, h5, h6 { bookmark-level: none; }
+.fm-h, .ch-t { bookmark-level: 1; }
+.cond h1.c-title, .cond-art .cond-head h1, .legacy h2 { bookmark-level: 2; }
