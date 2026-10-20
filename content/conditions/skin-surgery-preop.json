@@ -15,7 +15,7 @@
   "NICE CG64"
  ],
  "summary": "The medication and patient checks before minor skin surgery: allergies, anticoagulants and antiplatelets (BSDS 2023: continue most), diabetes, immunosuppression, cardiac devices, and why NICE CG64 does not recommend endocarditis prophylaxis.",
- "card_image": "",
+ "card_image": "v6:V060",
  "glance": {
   "think": "A patient booked for an excision, curettage or biopsy, especially on anticoagulants, antiplatelets or with a pacemaker or valve.",
   "engine": "Bleeding, infection, poor healing and device interference are mostly predictable from the medicine list and history.",
@@ -386,7 +386,16 @@
    }
   ]
  },
- "photos": [],
+ "photos": [
+  {
+   "title": "Clinical photographs",
+   "items": [
+    "v6:V060",
+    "v6:V061",
+    "v6:V062"
+   ]
+  }
+ ],
  "references": [
   {
    "label": "BSDS British Society for Dermatological Surgery guidance hub",

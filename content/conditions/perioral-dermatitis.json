@@ -87,6 +87,13 @@
  },
  "photos": [
   {
+   "title": "Clinical photographs",
+   "items": [
+    "v6:V065",
+    "v6:V066"
+   ]
+  },
+  {
    "title": "Steroid-induced perioral dermatitis",
    "items": [
     "m6w2:K09"

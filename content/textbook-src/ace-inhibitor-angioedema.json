@@ -43,5 +43,11 @@
   "urticaria-angioedema",
   "drug-eruption-approach",
   "morbilliform-drug-eruption"
+ ],
+ "cf_figs": [
+  {
+   "dermnet": "v6:V001",
+   "caption": "Severe lip angioedema without wheals — typical of ACE-inhibitor (bradykinin) angioedema."
+  }
  ]
 }

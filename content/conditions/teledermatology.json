@@ -14,7 +14,7 @@
   "digital referral"
  ],
  "summary": "How store-and-forward teledermatology works in the UK, the three images every lesion referral needs (regional, close-up with scale, dermoscopic), what it does well, and its pitfalls.",
- "card_image": "",
+ "card_image": "v6:V063",
  "glance": {
   "think": "Referring a skin lesion through a teledermatology or advice-and-guidance service.",
   "engine": "Images and history are triaged by a dermatologist, who can discharge, advise, book surgery directly or fast-track.",
@@ -74,7 +74,15 @@
    "Tell the patient that photos may be reviewed by a specialist first and they may be booked straight for surgery. Get consent for image storage."
   ]
  },
- "photos": [],
+ "photos": [
+  {
+   "title": "Clinical photographs",
+   "items": [
+    "v6:V063",
+    "v6:V064"
+   ]
+  }
+ ],
  "references": [
   {
    "label": "NHS England A teledermatology roadmap: implementing safe and effective teledermatology triage pathways and pro",

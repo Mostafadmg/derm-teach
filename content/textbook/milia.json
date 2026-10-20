@@ -100,6 +100,22 @@
      ]
     },
     {
+     "figs": [
+      {
+       "dermnet": "v6:V054",
+       "caption": "Periocular milia: tiny firm white keratin cysts around the eyes."
+      },
+      {
+       "dermnet": "v6:V055",
+       "caption": "Neonatal milia on the nose and cheeks; they clear without treatment."
+      },
+      {
+       "dermnet": "v6:V056",
+       "caption": "Secondary milia after blistering (here pemphigoid) — a clue to a past subepidermal blister."
+      }
+     ]
+    },
+    {
      "h": "Special groups"
     },
     {

@@ -123,6 +123,7 @@
           var meta = it.cat ? "Category · " + (it.n || 0) + " pages" : it.c + (it.soon ? " · soon" : "");
           var via = r.aka && norm(it.t).indexOf(q) < 0 ? ' <span class="r-via">· “' + hl(r.aka, q) + "”</span>" : "";
           return '<li role="presentation"><a role="option" id="' + lid + "-" + i + '" href="' + root + it.u + '" style="--col:' + it.col + '" aria-selected="' + (i === sel) + '">' +
+            (it.i ? '<img class="r-img" src="' + root + it.i + '" alt="" loading="lazy" decoding="async">' : "") +
             '<span class="r-t">' + hl(it.t, q) + via + "</span>" +
             '<span class="r-m">' + escH(meta) + "</span>" +
             '<span class="r-s">' + escH(it.s) + "</span></a></li>";

@@ -40,5 +40,11 @@
   "cushings-syndrome-skin",
   "drug-induced-pigmentation",
   "melasma-facial-melanosis"
+ ],
+ "cf_figs": [
+  {
+   "dermnet": "v6:V049",
+   "caption": "Generalised tanned hyperpigmentation in Addison's disease (ACTH drives melanogenesis)."
+  }
  ]
 }

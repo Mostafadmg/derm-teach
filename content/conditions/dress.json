@@ -73,6 +73,12 @@
  },
  "photos": [
   {
+   "title": "Clinical photographs",
+   "items": [
+    "v6:V069"
+   ]
+  },
+  {
    "title": "DRESS",
    "items": [
     "m1w3:C01"

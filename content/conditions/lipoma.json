@@ -69,6 +69,12 @@
  },
  "photos": [
   {
+   "title": "Clinical photographs",
+   "items": [
+    "v6:V070"
+   ]
+  },
+  {
    "title": "Lipoma",
    "items": [
     "m2w1:E01"

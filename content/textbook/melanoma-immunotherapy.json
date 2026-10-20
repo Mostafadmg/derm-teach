@@ -128,6 +128,22 @@
        ]
       ]
      }
+    },
+    {
+     "figs": [
+      {
+       "dermnet": "v6:V057",
+       "caption": "Eczematous dermatitis induced by pembrolizumab (anti-PD-1)."
+      },
+      {
+       "dermnet": "v6:V058",
+       "caption": "Lichenoid dermatitis induced by nivolumab."
+      },
+      {
+       "dermnet": "v6:V059",
+       "caption": "Psoriasis triggered by pembrolizumab."
+      }
+     ]
     }
    ]
   },

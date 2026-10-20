@@ -144,7 +144,8 @@
         "Epidermoid cyst",
         "**Epidermoid cyst**",
         "Multiple epidermoid cysts in FAP/Gardner (APC), so check colonoscopy surveillance. A punctum + keratin contents is diagnostic. Dermoid cysts are congenital lines of fusion. Milia are tiny. Hidrocystomas are translucent and periocular",
-        "[Epidermoid, pilar and dermoid cysts](condition:skin-cysts)", "[Milia](condition:milia)"
+        "[Epidermoid, pilar and dermoid cysts](condition:skin-cysts)",
+        "[Milia](condition:milia)"
        ],
        [
         "11",
@@ -341,5 +342,6 @@
  ],
  "sections": {},
  "photos": [],
- "references": []
+ "references": [],
+ "card_image": "m2w3:A03"
 }

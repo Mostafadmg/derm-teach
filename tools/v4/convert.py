@@ -120,6 +120,8 @@ def convert(slug, force=False):
     add("clinical-features", *emit(segs(S.get("features", []))))
     if fe.get("photo") and not E.get("no_feature_photo"):
         add("clinical-features", {"fig": {"dermnet": fe["photo"]}})
+    if E.get("cf_figs"):
+        add("clinical-features", {"fig": E["cf_figs"][0]} if len(E["cf_figs"]) == 1 else {"figs": E["cf_figs"]})
     if E.get("lesions"): add("clinical-features", {"h": "Lesions and morphology"}, {"lesions": E["lesions"]})
     fv = [v for v in figs_from(fe.get("visuals")) if v["ai"] not in used_ai]
     maps = [v for v in fv if "map" in v["ai"] or "distribution" in v["ai"] or "sites" in v["ai"]]

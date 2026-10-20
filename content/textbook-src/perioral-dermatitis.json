@@ -64,5 +64,15 @@
   "acne-vulgaris",
   "topical-corticosteroids",
   "contact-dermatitis"
+ ],
+ "cf_figs": [
+  {
+   "dermnet": "v6:V065",
+   "caption": "Perioral papules sparing the skin immediately next to the lips."
+  },
+  {
+   "dermnet": "v6:V066",
+   "caption": "Florid perioral dermatitis after potent topical steroid use on the face."
+  }
  ]
 }

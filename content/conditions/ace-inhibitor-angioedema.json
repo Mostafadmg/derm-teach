@@ -120,6 +120,12 @@
  },
  "photos": [
   {
+   "title": "Clinical photographs",
+   "items": [
+    "v6:V001"
+   ]
+  },
+  {
    "title": "ACE-inhibitor angioedema",
    "items": [
     "m1w3:D01"

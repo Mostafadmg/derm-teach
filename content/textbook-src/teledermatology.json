@@ -43,5 +43,15 @@
   "lesion-language",
   "melanoma",
   "skin-layers-fitzpatrick"
+ ],
+ "cf_figs": [
+  {
+   "dermnet": "v6:V063",
+   "caption": "Dermoscopic skin examination — the image that travels with a teledermatology referral."
+  },
+  {
+   "dermnet": "v6:V064",
+   "caption": "Clinical photography for a teledermatology referral: overview, close-up and dermoscopy."
+  }
  ]
 }

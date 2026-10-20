@@ -17,7 +17,7 @@
   "acute oncology"
  ],
  "summary": "What a primary-care prescriber must know about patients on checkpoint inhibitors or BRAF/MEK inhibitors: immune-related side-effects (colitis, pneumonitis, hypophysitis, diabetes, skin), interactions and when to ring the acute oncology hotline.",
- "card_image": "",
+ "card_image": "v6:V057",
  "glance": {
   "think": "A patient on (or recently stopped) pembrolizumab, nivolumab, ipilimumab or dabrafenib + trametinib with any new symptom.",
   "engine": "Checkpoint inhibitors release T-cell brakes, so autoimmune inflammation can hit any organ, even months after stopping.",
@@ -120,7 +120,16 @@
    "Vitiligo during anti-PD-1 therapy is common and often correlates with better response. Protect the depigmented skin from sun."
   ]
  },
- "photos": [],
+ "photos": [
+  {
+   "title": "Clinical photographs",
+   "items": [
+    "v6:V057",
+    "v6:V058",
+    "v6:V059"
+   ]
+  }
+ ],
  "references": [
   {
    "label": "UKONS 24-hour triage tool v3, 2023",

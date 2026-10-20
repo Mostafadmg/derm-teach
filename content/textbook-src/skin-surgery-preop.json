@@ -46,5 +46,19 @@
   "local-anaesthetics-skin-surgery",
   "skin-surgery-procedures",
   "wound-aftercare"
+ ],
+ "cf_figs": [
+  {
+   "dermnet": "v6:V060",
+   "caption": "Elliptical excision wound before closure."
+  },
+  {
+   "dermnet": "v6:V061",
+   "caption": "The same wound after primary closure with sutures."
+  },
+  {
+   "dermnet": "v6:V062",
+   "caption": "Healed linear scar after elliptical excision."
+  }
  ]
 }

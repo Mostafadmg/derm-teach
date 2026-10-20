@@ -52,6 +52,13 @@
  },
  "photos": [
   {
+   "title": "Clinical photographs",
+   "items": [
+    "v6:V067",
+    "v6:V068"
+   ]
+  },
+  {
    "title": "Blue naevus",
    "items": [
     "m2w4:E03"

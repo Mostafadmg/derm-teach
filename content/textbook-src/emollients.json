@@ -54,5 +54,11 @@
   "topical-corticosteroids",
   "psoriasis",
   "hand-eczema"
+ ],
+ "cf_figs": [
+  {
+   "dermnet": "v6:V071",
+   "caption": "Emollients range from light lotions to very greasy ointments — the right one is the one the patient will use."
+  }
  ]
 }

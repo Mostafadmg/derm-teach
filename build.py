@@ -111,6 +111,9 @@ for ps in PHOTO_SETS:
         if ps["id"] == "core":
             PHOTO_BY_CODE[code] = m
 
+DDX_PHOTOS = load_json(CONTENT / "ddx-photos.json") if (CONTENT / "ddx-photos.json").exists() else {}
+DDX_TEXT = set(DDX_PHOTOS.pop("_text", []))   # differential rows that are concepts/drugs, not something to photograph
+
 CONDS = []
 for f in sorted((CONTENT / "conditions").glob("*.json")):
     if f.name.startswith("_"):
@@ -439,15 +442,14 @@ def page(title, prefix, body, *, desc="", active_slug=None, active_cat=None, bod
 <main id="main">
 {body}
 </main>
-<footer class="footer">
-  <div class="wrap footer-in">
-    <div class="foot-brand"><a class="brand" href="{prefix}index.html"><span class="brand-mark" aria-hidden="true"></span><span class="brand-text"><b>{esc(SITE['title'])}</b><small>{esc(SITE['subtitle'])}</small></span></a>
-    <p class="foot-meta">{esc(SITE['owner'])} · {year} · UK English</p>
-    <p class="foot-links"><a href="{prefix}index.html#categories">All categories</a><a href="{prefix}credits.html">Image credits</a><a href="https://bnf.nice.org.uk/" target="_blank" rel="noopener">BNF</a><a href="https://cks.nice.org.uk/" target="_blank" rel="noopener">NICE CKS</a></p></div>
-    <div class="foot-notes">
-    <p class="disclaimer"><strong>Personal study resource.</strong> These are {esc(SITE['owner'])}’s own learning notes. They are not a clinical guideline and are not for patient-facing use. Doses, licences and pathways change, so always check the current <a href="https://bnf.nice.org.uk/" target="_blank" rel="noopener">BNF</a>, <a href="https://cks.nice.org.uk/" target="_blank" rel="noopener">NICE CKS</a>, SmPC, MHRA alerts and your local formulary before prescribing.</p>
-    <p class="disclaimer">Clinical photographs © <a href="https://dermnetnz.org/" target="_blank" rel="noopener">DermNet</a> or the named holder, reproduced for personal education under the <a href="https://dermnetnz.org/image-licence" target="_blank" rel="noopener">DermNet image licence</a> with attribution on every image. Images marked “AI diagram” are AI-generated teaching illustrations, not clinical photographs. <a href="{prefix}credits.html">Full image credits</a>.</p>
+<footer class="footer foot-c">
+  <div class="wrap">
+    <div class="fc-row">
+      <a class="fc-brand" href="{prefix}index.html"><span class="brand-mark" aria-hidden="true"></span><b>{esc(SITE['title'])}</b></a>
+      <span class="fc-meta">{esc(SITE['owner'])} · {year}</span>
+      <nav class="fc-links" aria-label="Footer"><a href="{prefix}index.html#categories">Categories</a><a href="{prefix}credits.html">Image credits</a><a href="https://bnf.nice.org.uk/" target="_blank" rel="noopener">BNF</a><a href="https://cks.nice.org.uk/" target="_blank" rel="noopener">NICE CKS</a></nav>
     </div>
+    <p class="fc-small">Personal study notes, not clinical guidance. Check BNF/NICE CKS before prescribing. Photos © DermNet or named holders; AI diagrams marked. <a href="{prefix}credits.html#about">Full credits &amp; disclaimer</a>.</p>
   </div>
 </footer>
 <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Image viewer" hidden>
@@ -463,19 +465,30 @@ def page(title, prefix, body, *, desc="", active_slug=None, active_cat=None, bod
 """
 
 
-def thumb_for(d, prefix):
+def card_item(d):
+    """The real photo used wherever a page appears as a card (lists, recent, search, related, lookalikes)."""
     item = d.get("card_image")
     if not item:
-        for g in d.get("photos", []):
-            if g.get("items"):
-                item = g["items"][0]
-                break
+        item = next((i for g in d.get("photos", []) for i in g.get("items", [])
+                     if not (isinstance(i, dict) and "ai" in i)), None)
     if not item:
-        return ('<div class="card-thumb card-thumb-empty" aria-hidden="true">'
-                + icon(CAT_BY_ID[d["category"]]["icon"], "ico ico-xl") + "</div>")
-    ph = resolve_photo(item, prefix, d["slug"])
+        item = next((i for g in d.get("photos", []) for i in g.get("items", [])), None)
+    return item
+
+
+def card_photo(d, prefix, where="card"):
+    """resolve_photo() for a page's card; a missing photo is a build warning (strict build fails) - never an icon."""
+    item = card_item(d)
+    ph = resolve_photo(item, prefix, d["slug"]) if item else None
     if not ph:
-        return ""
+        WARNINGS.append(f"{d['slug']}: no real photo for its {where} (set card_image or add photos) - icons are not allowed")
+    return ph
+
+
+def thumb_for(d, prefix):
+    ph = card_photo(d, prefix)
+    if not ph:
+        return '<div class="card-thumb"></div>'
     tag = '<span class="thumb-credit">AI diagram</span>' if ph["kind"] == "ai" else ""   # no source tag over photos
     return (f'<div class="card-thumb"><img src="{esc(ph["src"])}" alt="" loading="lazy" decoding="async">'
             f'</div>')
@@ -932,10 +945,12 @@ def card_thumb(c, p, ctx):
     """Thumbnail for a lookalike card: explicit photo/ai, else the linked page's card image."""
     item = c.get("photo") or ({"ai": c["ai"]} if c.get("ai") else None)
     if not item and c.get("link") in BY_SLUG:
-        item = BY_SLUG[c["link"]].get("card_image")
+        item = card_item(BY_SLUG[c["link"]])
+    if not item and DDX_PHOTOS.get(re.sub(r"\*+", "", c.get("name", ""))):
+        item = DDX_PHOTOS[re.sub(r"\*+", "", c["name"])]
     if not item:
-        icon = "alert" if c.get("tone") == "danger" else ("search" if c.get("link") else "eye")
-        return f'<div class="ddx-thumb is-empty" aria-hidden="true">{uix(icon, "ui ui-sm")}</div>'
+        WARNINGS.append(f"{ctx}: lookalike card '{c.get('name', '')}' has no real photo")
+        return '<div class="ddx-thumb"></div>'
     return f'<div class="ddx-thumb">{fig3(item, p, ctx, "f-thumb", cap=False)}</div>'
 
 
@@ -1007,7 +1022,9 @@ def step_body(key, st, d, p, ctx):
             for v in var["items"]:
                 item = v.get("photo") or ({"ai": v["ai"]} if v.get("ai") else None)
                 if not item and v.get("link") in BY_SLUG:
-                    item = BY_SLUG[v["link"]].get("card_image")
+                    item = card_item(BY_SLUG[v["link"]])
+                if not item:
+                    WARNINGS.append(f"{ctx}: variant card '{v.get('name', '')}' has no real photo")
                 img = fig3(item, p, ctx, "f-card", cap=False) if item else ""
                 cards.append(f'<li class="vcard{" is-danger" if v.get("tone") == "danger" else ""}">{img}<div class="vcard-b">'
                              f'<p class="vcard-n">{md(v["name"], p)}</p><p class="vcard-t">{md(v.get("t", ""), p)}</p>'
@@ -1232,10 +1249,9 @@ def build_category(c):
     for k, d in enumerate(conds):
         meta = LESSON_META.get(d["slug"], {"steps": 0, "mins": 0})
         total_min += meta["mins"]
-        item = d.get("card_image") or next((g["items"][0] for g in d.get("photos", []) if g.get("items")), None)
-        ph = resolve_photo(item, p, d["slug"]) if item else None
+        ph = card_photo(d, p, "category list card")
         thumb = (f'<span class="les-thumb"><img src="{esc(ph["src"])}" alt="" loading="lazy" decoding="async"></span>' if ph
-                 else f'<span class="les-thumb is-empty">{icon(c["icon"])}</span>')
+                 else '<span class="les-thumb"></span>')
         soon = d["status"] != "published"
         rows.append(
             f'<li class="les{" is-soon" if soon else ""}" data-lesson="{esc(d["slug"])}" data-steps="{meta["steps"]}">'
@@ -1306,6 +1322,11 @@ def build_credits():
 {crumbs([("Home", "index.html"), ("Image credits", None)])}
 <h1>Image credits &amp; attribution</h1>
 <p class="lede">Clinical photographs are from <a href="https://dermnetnz.org/" target="_blank" rel="noopener">DermNet</a>, plus a few Wikimedia Commons and open-access images, each credited to its holder. DermNet images are reproduced for personal, non-commercial study under the <a href="https://dermnetnz.org/image-licence" target="_blank" rel="noopener">DermNet image licence</a>, as watermarked low-resolution web versions. Copyright remains with DermNet or the named holder.</p>
+<div class="about-box" id="about">
+<h2>About these notes &amp; disclaimer</h2>
+<p><strong>Personal study resource.</strong> These are {esc(SITE['owner'])}’s own learning notes. They are not a clinical guideline and are not for patient-facing use. Doses, licences and pathways change, so always check the current <a href="https://bnf.nice.org.uk/" target="_blank" rel="noopener">BNF</a>, <a href="https://cks.nice.org.uk/" target="_blank" rel="noopener">NICE CKS</a>, SmPC, MHRA alerts and your local formulary before prescribing.</p>
+<p>Clinical photographs © <a href="https://dermnetnz.org/" target="_blank" rel="noopener">DermNet</a> or the named holder, reproduced for personal education under the <a href="https://dermnetnz.org/image-licence" target="_blank" rel="noopener">DermNet image licence</a> with attribution on every image; Wikimedia Commons photographs are used under the licence named beside each one. Images marked “AI diagram” are AI-generated teaching illustrations, not clinical photographs.</p>
+</div>
 <p class="lede">Typeface: <a href="https://github.com/hafontia/Fredoka-One" target="_blank" rel="noopener">Fredoka</a> © The Fredoka Project Authors, self-hosted under the <a href="assets/fonts/Fredoka-OFL.txt">SIL Open Font License 1.1</a>.</p>
 <div class="chips jump">{''.join(jump)}</div>
 </div></section>
@@ -1326,11 +1347,13 @@ def build_search_index():
             "s": re.sub(r"\*+", "", d.get("summary", ""))[:180],
             "u": f"conditions/{d['slug']}.html", "soon": d["status"] != "published",
             "col": c["accent"], "m": d.get("module", ""),
+            "i": (card_photo(d, "", "search result") or {}).get("src", ""),
         })
     for c in CATS:
         idx.append({"t": c["title"], "a": [c.get("short", "")], "c": "Category", "cid": c["id"],
                     "s": c["blurb"][:180], "u": f"categories/{c['id']}.html", "soon": False,
-                    "col": c["accent"], "cat": True, "n": len(BY_CAT[c["id"]])})
+                    "col": c["accent"], "cat": True, "n": len(BY_CAT[c["id"]]),
+                    "i": next((ph["src"] for d in BY_CAT[c["id"]] for ph in [resolve_photo(card_item(d), "", d["slug"]) if card_item(d) else None] if ph and ph["kind"] != "ai"), "")})
     data = json.dumps(idx, ensure_ascii=False)
     (ROOT / "assets/data").mkdir(parents=True, exist_ok=True)
     (ROOT / "assets/data/search-index.json").write_text(data + "\n", encoding="utf-8")

@@ -204,3 +204,52 @@ strong, b { font-weight: 600; }
 .kf-list, .kf-list li, .chip, .chip-soft, .chip-link, .lesson-k, .lesson-meta, .head-meta, .dc-cls, .tb-note, .cr, .f .tp, .crumbs { font-weight: 450; }
 .kf-list, .chip-soft, .lesson-meta, .head-meta, .dc-cls, .tb-note, .cr, .crumbs a { color: color-mix(in srgb, var(--muted) 70%, var(--ink)); }
 .kf-list { color: var(--ink-2); }
+
+/* ===== real photos everywhere (no icon placeholders) ===== */
+/* search results: photo thumb replaces the colour dot */
+.search-results a { grid-template-columns: 44px minmax(0, 1fr) auto; align-items: center; row-gap: 1px; }
+.search-results a::before { display: none; }
+.search-results .r-img { grid-row: 1 / span 2; width: 44px; height: 44px; object-fit: cover; border-radius: 8px; background: var(--soft); }
+.search-results .r-t, .search-results .r-m { align-self: end; }
+.search-results .r-s { align-self: start; }
+.search-results a:not(:has(.r-img)) { grid-template-columns: 0 minmax(0, 1fr) auto; column-gap: 0; }
+/* related-page chips carry a tiny photo */
+.chip-ph { display: inline-flex; align-items: center; gap: 7px; padding-left: 4px; }
+.chip-ph img { width: 24px; height: 24px; border-radius: 50%; object-fit: cover; flex: none; }
+/* category lesson list: description wraps inside the card and clamps to 2 lines with an ellipsis; photo kept on iPhone */
+.les-b { min-width: 0; }
+.les-s { max-width: none; overflow-wrap: anywhere; text-overflow: ellipsis; -webkit-line-clamp: 2; line-clamp: 2; }
+.les-thumb img { display: block; width: 100%; height: 100%; object-fit: cover; }
+@media (max-width: 560px) {
+  .les { grid-template-columns: 26px 56px minmax(0, 1fr) 14px; }
+  .les-thumb { display: block; width: 56px; height: 56px; }
+  .les-s { -webkit-line-clamp: 3; line-clamp: 3; }
+}
+/* card text never runs off the card */
+.cond-card-body, .cond-card-body p { min-width: 0; overflow-wrap: anywhere; }
+/* differential tables that are drugs/concepts: plain two-column table */
+.dd.is-text tbody th { width: 30%; }
+@media (max-width: 600px) { .dd.is-text tr { grid-template-columns: minmax(0, 1fr); } }
+
+/* ===== compact footer ===== */
+.footer.foot-c { margin-top: 48px; padding: 18px 0 16px; }
+.fc-row { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 18px; }
+.fc-brand { display: inline-flex; align-items: center; gap: 9px; color: var(--ink); text-decoration: none; font-family: var(--display); font-size: 1rem; }
+.fc-brand .brand-mark { width: 26px; height: 26px; border-radius: 8px; }
+.fc-brand .brand-mark::before { inset: 6px; border-width: 1.8px; }
+.fc-brand .brand-mark::after { width: 4px; height: 4px; margin: -2px 0 0 -2px; }
+.fc-meta { color: var(--muted); font-size: .9rem; }
+.fc-links { display: flex; flex-wrap: wrap; gap: 4px 16px; margin-left: auto; font-size: .92rem; }
+.fc-links a { color: var(--ink-2); text-decoration: none; }
+.fc-links a:hover { color: var(--brand); text-decoration: underline; }
+.fc-small { margin: 10px 0 0; font-size: 13px; line-height: 1.5; color: var(--muted); max-width: none; }
+.fc-small a { color: var(--brand); }
+@media (max-width: 700px) {
+  .fc-row { gap: 4px 12px; }
+  .fc-links { margin-left: 0; width: 100%; gap: 2px 14px; }
+  .fc-links a { padding: 6px 0; }
+}
+.about-box { margin: var(--s5, 24px) 0; padding: 18px 20px; border: 1px solid var(--line); border-radius: var(--r-sm, 12px); background: var(--surface); }
+.about-box h2 { margin-top: 0; font-size: 1.2rem; }
+.about-box p { color: var(--ink-2); }
+@media print { .footer.foot-c { padding: 6pt 0 0; } }

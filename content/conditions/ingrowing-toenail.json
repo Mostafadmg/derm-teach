@@ -70,7 +70,16 @@
    }
   ]
  },
- "photos": [],
+ "photos": [
+  {
+   "title": "Clinical photographs",
+   "items": [
+    "v6:V051",
+    "v6:V052",
+    "v6:V053"
+   ]
+  }
+ ],
  "references": [
   {
    "label": "NICE CKS: Ingrown toenail",
@@ -80,5 +89,6 @@
    "label": "DermNet: Ingrown toenail",
    "url": "https://dermnetnz.org/topics/ingrown-toenail"
   }
- ]
+ ],
+ "card_image": "v6:V051"
 }

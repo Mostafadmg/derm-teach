@@ -57,5 +57,11 @@
   "other-skin-lumps",
   "dermatofibroma",
   "dermatofibrosarcoma-protuberans"
+ ],
+ "cf_figs": [
+  {
+   "dermnet": "v6:V070",
+   "caption": "Soft, mobile subcutaneous lipoma on the shoulder."
+  }
  ]
 }

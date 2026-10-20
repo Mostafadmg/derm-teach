@@ -102,6 +102,22 @@
      ]
     },
     {
+     "figs": [
+      {
+       "dermnet": "v6:V051",
+       "caption": "Ingrowing toenail: the lateral nail edge digs into an inflamed, swollen nail fold."
+      },
+      {
+       "dermnet": "v6:V052",
+       "caption": "Granulation tissue overgrowing the nail fold in a longstanding ingrowing toenail."
+      },
+      {
+       "dermnet": "v6:V053",
+       "caption": "Ingrowing toenail with periungual inflammation of the big toe."
+      }
+     ]
+    },
+    {
      "h": "Special groups"
     },
     {

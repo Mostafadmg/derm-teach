@@ -134,22 +134,32 @@ def tb_blocks(blocks, p, ctx):
             fig = fig3(dict(img, caption=bm.get("caption", "")), p, ctx, "f-map") if img else ""
             out.append(f'<div class="tb-map">{tb_ul(bm.get("pts", []), p, "tb-ul")}{fig}</div>')
         elif k == "ddx":
-            rows = []
+            rows, n_img = [], 0
             for r in b["ddx"]:
                 img = tb_photo_item(r)
-                if not img and r.get("link") in BY_SLUG and BY_SLUG[r["link"]].get("card_image"):
-                    ci = BY_SLUG[r["link"]]["card_image"]
-                    img = {"dermnet": ci} if isinstance(ci, str) else ci
-                th = (f'<div class="dd-th">{fig3(img, p, ctx, "f-thumb", cap=False)}</div>' if img
-                      else f'<div class="dd-th is-empty" aria-hidden="true">{uix("alert" if r.get("danger") else "eye", "ui ui-sm")}</div>')
+                if not img and r.get("link") in BY_SLUG:
+                    ci = card_item(BY_SLUG[r["link"]])
+                    img = ({"dermnet": ci} if isinstance(ci, str) else ci) if ci else None
+                plain = re.sub(r"\*+", "", r["name"])
+                if not img and DDX_PHOTOS.get(plain):
+                    img = {"dermnet": DDX_PHOTOS[plain]}
+                if not img and plain not in DDX_TEXT:
+                    WARNINGS.append(f"{ctx}: differential '{plain}' has no real photo (add it to content/ddx-photos.json)")
+                n_img += bool(img)
                 name = md(r["name"], p)
                 if r.get("link") in BY_SLUG:
                     name = f'<a href="{p}conditions/{esc(r["link"])}.html">{name}</a>'
-                rows.append(f'<tr class="{"is-danger" if r.get("danger") else ""}"><td class="dd-img">{th}</td><th scope="row">{name}</th>'
-                            f'<td>{md(r["f"], p)}</td></tr>')
-            out.append('<div class="dd-wrap"><table class="dd"><thead><tr><th scope="col"><span class="sr-only">Photo</span></th>'
-                       '<th scope="col">Condition</th><th scope="col">Distinguishing features</th></tr></thead>'
-                       f'<tbody>{"".join(rows)}</tbody></table></div>')
+                rows.append((img, f'<th scope="row">{name}</th><td>{md(r["f"], p)}</td>', r.get("danger")))
+            pics = n_img * 2 >= len(rows)   # mostly drugs/concepts -> a plain two-column table, never icon placeholders
+            body = "".join(
+                f'<tr class="{"is-danger" if dg else ""}">'
+                + ((f'<td class="dd-img"><div class="dd-th">{fig3(img, p, ctx, "f-thumb", cap=False)}</div></td>' if img
+                    else '<td class="dd-img"></td>') if pics else "")
+                + cells + "</tr>" for img, cells, dg in rows)
+            out.append(f'<div class="dd-wrap"><table class="dd{"" if pics else " is-text"}"><thead><tr>'
+                       + ('<th scope="col"><span class="sr-only">Photo</span></th>' if pics else "")
+                       + '<th scope="col">Condition</th><th scope="col">Distinguishing features</th></tr></thead>'
+                       f'<tbody>{body}</tbody></table></div>')
         elif k == "drugs":
             cards = []
             for dr in b["drugs"]:
@@ -242,7 +252,11 @@ def build_condition_tb(d, idx, seq):
     kf = tb.get("key_facts") or []
     kf_html = (f'<aside class="keyfacts" aria-label="Key facts"><p class="kf-k">Key facts</p>{tb_ul(kf, p, "kf-list")}</aside>' if kf else "")
     see = tb.get("see_also") or []
-    see_html = ("".join(f'<a class="chip-soft chip-link" href="{p}conditions/{esc(s)}.html">{esc(BY_SLUG[s]["title"])}</a>' for s in see if s in BY_SLUG))
+    def _rel(s):
+        ph = card_photo(BY_SLUG[s], p, "related-page chip")
+        im = f'<img src="{esc(ph["src"])}" alt="" loading="lazy" decoding="async">' if ph else ""
+        return f'<a class="chip-soft chip-link chip-ph" href="{p}conditions/{esc(s)}.html">{im}{esc(BY_SLUG[s]["title"])}</a>'
+    see_html = "".join(_rel(s) for s in see if s in BY_SLUG)
     body = f"""
 <section class="tb-head" id="top" style="--accent:{c['accent']}">
   <div class="wrap">

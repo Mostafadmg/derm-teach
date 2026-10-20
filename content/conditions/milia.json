@@ -68,6 +68,14 @@
  },
  "photos": [
   {
+   "title": "Clinical photographs",
+   "items": [
+    "v6:V054",
+    "v6:V055",
+    "v6:V056"
+   ]
+  },
+  {
    "title": "Secondary milia",
    "items": [
     "m5w6:B06"
@@ -79,5 +87,6 @@
    "label": "DermNet: Milia",
    "url": "https://dermnetnz.org/topics/milia"
   }
- ]
+ ],
+ "card_image": "v6:V054"
 }

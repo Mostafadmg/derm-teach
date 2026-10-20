@@ -41,5 +41,15 @@
   "spitz-naevus",
   "melanoma",
   "pigmented-birthmarks"
+ ],
+ "cf_figs": [
+  {
+   "dermnet": "v6:V067",
+   "caption": "Blue naevus: a small, uniform slate-blue papule."
+  },
+  {
+   "dermnet": "v6:V068",
+   "caption": "Blue naevus on the hand."
+  }
  ]
 }

@@ -202,5 +202,11 @@
     "label": "Module 2 · Week 6 — skin surgery",
     "dir": "assets/img/m2w6",
     "manifest": "content/manifests/m2w6.json"
+  },
+  {
+    "id": "v6",
+    "label": "Card & differential photos (DermNet / Wikimedia Commons)",
+    "dir": "assets/img/v6",
+    "manifest": "content/manifests/v6.json"
   }
 ]
