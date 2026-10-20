@@ -1,0 +1,46 @@
+{
+ "titles": {
+  "pathophysiology": "How wounds heal"
+ },
+ "kf": [
+  "Keep the dressing on and **dry for 24–48 h**, then wash gently; **plain petroleum jelly**, no routine topical antibiotics.",
+  "Suture removal (typical): face 5–7 days, scalp and neck 7–10, trunk and arm 10–14, back, leg and joints 14 (up to 21).",
+  "Avoid strenuous exercise and stretching the wound for 1–2 weeks.",
+  "Infection: increasing pain, redness spreading **>1–2 cm**, pus, fever; **flucloxacillin** first line (check interactions for alternatives).",
+  "Scars mature over 12–18 months; massage, silicone and sun protection help."
+ ],
+ "myths": [
+  "**\"Antibiotic ointment helps healing\"**: it causes contact allergy and resistance; petroleum jelly is as good."
+ ],
+ "patho_lead": "Wounds heal in **overlapping phases** over months.",
+ "mech": [
+  {
+   "k": "Haemostasis",
+   "t": "Clot forms within minutes."
+  },
+  {
+   "k": "Inflammation",
+   "t": "Neutrophils and macrophages clean the wound (days 1–4); mild redness is normal."
+  },
+  {
+   "k": "Proliferation",
+   "t": "Fibroblasts lay down collagen and new vessels; epithelium covers the wound (days 4–21)."
+  },
+  {
+   "k": "Remodelling",
+   "t": "Collagen reorganises and strengthens over 12–18 months."
+  }
+ ],
+ "comp": [
+  "Infection, dehiscence, haematoma, hypertrophic scar or keloid."
+ ],
+ "prog": [
+  "Most heal well."
+ ],
+ "see_also": [
+  "skin-surgery-preop",
+  "skin-surgery-consent-complications",
+  "keloids-hypertrophic-scars",
+  "local-anaesthetics-skin-surgery"
+ ]
+}

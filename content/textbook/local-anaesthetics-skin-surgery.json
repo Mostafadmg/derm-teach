@@ -1,10 +1,11 @@
 {
  "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
  "key_facts": [
-  "Planning or checking a local anaesthetic dose, or a patient reporting an ‘allergy’ to local anaesthetic, latex or skin prep.",
-  "Sodium-channel blockade stops nerve conduction; adrenaline prolongs action and reduces bleeding; overdose affects brain and heart.",
-  "1% = 10 mg/ml; BNF maximum 200 mg plain and 500 mg with adrenaline (weight-based 3 and 7 mg/kg as a cross-check); reduce in frailty, liver disease and heart failure; latex-free room and alternative prep for allergy.",
-  "Local anaesthetic systemic toxicity (perioral tingling, seizures, arrhythmia): stop, call for help, AAGBI/Intralipid protocol; chlorhexidine anaphylaxis."
+  "Amides (lidocaine, prilocaine, bupivacaine) and esters (tetracaine, benzocaine) **block voltage-gated sodium channels**.",
+  "**Adrenaline** gives vasoconstriction: less bleeding, longer action, higher maximum dose.",
+  "BNF adult maximum lidocaine (infiltration): **200 mg plain**, **500 mg with adrenaline**; **1% = 10 mg/ml**. Use ideal body weight; reduce in frail, liver or heart failure.",
+  "Toxicity: perioral tingling, metallic taste, dizziness, then seizures and arrhythmia: stop, call for help, lipid emulsion.",
+  "Allergy to amides is rare; latex and **chlorhexidine** are commoner perioperative allergens."
  ],
  "sections": [
   {
@@ -40,9 +41,50 @@
       "Atopy.",
       "**Latex–fruit syndrome**: cross-reaction with **banana, avocado, kiwi, chestnut** and others."
      ]
+    },
+    {
+     "h": "Myths to address"
+    },
+    {
+     "ul": [
+      "**\"Never use adrenaline on fingers\"**: modern evidence supports its use in digits in healthy patients (follow local policy)."
+     ]
     }
    ],
    "short": "Aetiology"
+  },
+  {
+   "id": "pathophysiology",
+   "title": "How it works",
+   "blocks": [
+    "Local anaesthetics **block sodium entry**, so nerves can't fire.",
+    {
+     "mech": [
+      {
+       "k": "Diffusion",
+       "t": "The un-ionised drug crosses the nerve membrane."
+      },
+      {
+       "k": "Channel block",
+       "t": "Inside, the ionised form blocks voltage-gated sodium channels.",
+       "img": "v4-la-sodium-block.jpg",
+       "caption": "Local anaesthetic molecules plug sodium channels from inside the nerve, so the impulse stops."
+      },
+      {
+       "k": "Fibre order",
+       "t": "Small pain fibres block first, then touch and motor."
+      },
+      {
+       "k": "Adrenaline",
+       "t": "Vasoconstriction slows removal, prolonging action and reducing bleeding."
+      },
+      {
+       "k": "Inflamed tissue",
+       "t": "Acidic infected tissue ionises the drug, so it works poorly."
+      }
+     ]
+    }
+   ]
   },
   {
    "id": "clinical-features",
@@ -321,6 +363,29 @@
    "short": "Red flags"
   },
   {
+   "id": "complications",
+   "title": "Complications and prognosis",
+   "blocks": [
+    {
+     "h": "Complications"
+    },
+    {
+     "ul": [
+      "Systemic toxicity, vasovagal faint, allergy (rare), haematoma, nerve injury."
+     ]
+    },
+    {
+     "h": "Prognosis"
+    },
+    {
+     "ul": [
+      "Not applicable."
+     ]
+    }
+   ],
+   "short": "Complications"
+  },
+  {
    "id": "pearls",
    "title": "Prescriber pearls (UK pharmacist IP)",
    "blocks": [
@@ -362,5 +427,10 @@
   }
  ],
  "references": [],
- "see_also": []
+ "see_also": [
+  "skin-surgery-preop",
+  "skin-surgery-procedures",
+  "skin-surgery-consent-complications",
+  "wound-aftercare"
+ ]
 }

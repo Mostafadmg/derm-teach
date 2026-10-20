@@ -1,10 +1,11 @@
 {
  "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
  "key_facts": [
-  "Consenting, or answering a patient’s questions about the risks of minor skin surgery.",
-  "Tension, site, infection, bleeding and nerve anatomy drive most complications.",
-  "Montgomery consent covering material risks; know the danger zones (temporal and marginal mandibular branches of the facial nerve, accessory nerve); label specimens at the bedside; run a histology fail-safe log.",
-  "Nerve injury in danger zones; lost or unlabelled specimens; missed malignant histology without a fail-safe."
+  "Valid consent is **informed, voluntary and given with capacity**.",
+  "**Montgomery (2015)** and GMC (2020): discuss **material risks** and reasonable alternatives, including **doing nothing**.",
+  "Common complications: bleeding, infection, wound dehiscence, stretched or hypertrophic scars, keloids, nerve injury, recurrence.",
+  "**Danger zones**: temporal branch of the facial nerve, marginal mandibular branch, spinal accessory nerve (posterior triangle).",
+  "Track every specimen: refer unexpected malignant histology within NG12 timeframes."
  ],
  "sections": [
   {
@@ -12,6 +13,50 @@
    "title": "Overview",
    "blocks": [
     "Valid consent in the UK is **informed, voluntary and given by a person with capacity**. Under **Montgomery v Lanarkshire* (2015)** and the **GMC *Decision making and consent* (2020)**, clinicians must discuss **material risks**: those a reasonable person in the patient's position would consider significant, or that this particular patient would. They must also discuss reasonable alternatives, including **doing nothing**."
+   ]
+  },
+  {
+   "id": "aetiology",
+   "title": "Aetiology: causes and risk factors",
+   "blocks": [
+    {
+     "h": "Myths to address"
+    },
+    {
+     "ul": [
+      "**\"A signed form is consent\"**: consent is the discussion; the form records it."
+     ]
+    }
+   ],
+   "short": "Aetiology"
+  },
+  {
+   "id": "pathophysiology",
+   "title": "How it works",
+   "blocks": [
+    "Complications are mostly **predictable from patient, site and technique**.",
+    {
+     "mech": [
+      {
+       "k": "Bleeding",
+       "t": "Vascular sites and antithrombotics."
+      },
+      {
+       "k": "Infection",
+       "t": "Contamination, site (groin, lower leg) and host factors (diabetes)."
+      },
+      {
+       "k": "Tension",
+       "t": "High-tension sites (back, chest, shoulders) stretch scars and dehisce.",
+       "img": "v3-hypertrophic-vs-keloid.jpg",
+       "caption": "Hypertrophic scar versus keloid."
+      },
+      {
+       "k": "Anatomy",
+       "t": "Superficial nerves at danger zones are easily cut."
+      }
+     ]
+    }
    ]
   },
   {
@@ -247,6 +292,29 @@
    "short": "Red flags"
   },
   {
+   "id": "complications",
+   "title": "Complications and prognosis",
+   "blocks": [
+    {
+     "h": "Complications"
+    },
+    {
+     "ul": [
+      "As above."
+     ]
+    },
+    {
+     "h": "Prognosis"
+    },
+    {
+     "ul": [
+      "Most minor skin surgery heals without problems."
+     ]
+    }
+   ],
+   "short": "Complications"
+  },
+  {
    "id": "pearls",
    "title": "Prescriber pearls (UK pharmacist IP)",
    "blocks": [
@@ -287,5 +355,10 @@
   }
  ],
  "references": [],
- "see_also": []
+ "see_also": [
+  "skin-surgery-preop",
+  "wound-aftercare",
+  "keloids-hypertrophic-scars",
+  "local-anaesthetics-skin-surgery"
+ ]
 }

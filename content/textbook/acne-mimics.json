@@ -1,16 +1,18 @@
 {
  "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
  "key_facts": [
-  "Facial papules **without comedones**, or **monomorphic** pustules after steroids or long antibiotics.",
-  "Neurovascular + innate immune (rosacea); drug or microbiome shifts (folliculitis variants).",
-  "Rosacea: triggers, SPF, ivermectin ± doxycycline MR. Mimic? **Stop the culprit** steroid or tetracycline.",
-  "Rosacea fulminans and ocular keratitis: urgent. Don’t cycle antibiotics for Gram-negative folliculitis."
+  "**No comedones?** Think rosacea, perioral dermatitis, steroid acne or folliculitis rather than acne vulgaris.",
+  "**Rosacea**: age 30–60, flushing, central face; avoid topical steroids. **Rosacea fulminans**: explosive facial nodules in young women.",
+  "**Steroid acne**: sudden monomorphic papules/pustules on chest and back after oral, inhaled, topical or bleaching steroids.",
+  "**Gram-negative folliculitis** after long-term tetracyclines: stop the tetracycline, swab, refer.",
+  "**Malassezia folliculitis**: itchy uniform papules on upper trunk; **hot-tub folliculitis**: *Pseudomonas*, settles in days."
  ],
  "sections": [
   {
    "id": "overview",
    "title": "Overview",
    "blocks": [
+    "This is a **differential page**: conditions that look like acne but need different treatment. Rosacea and perioral dermatitis have their own pages.",
     "Not every facial papule is acne. This page covers the common **mimics** taught with Module 6 Week 2: **rosacea** (and rosacea fulminans), **steroid-induced** acne/rosacea/perioral dermatitis, and **folliculitis variants** (Gram-negative, Malassezia, *Pseudomonas*/hot-tub).",
     "True acne vulgaris is covered separately: [acne vulgaris](condition:acne-vulgaris)."
    ]
@@ -29,14 +31,49 @@
      ]
     },
     {
-     "fig": {
-      "ai": "v3-acne-follicle-stages.jpg",
-      "caption": "True acne starts with a blocked follicle (comedone) before inflammation. Mimics skip this step, so comedones are the key sign to look for.",
-      "alt": "Acne follicle stages from comedone to inflamed papule"
-     }
+     "h": "Myths to address"
+    },
+    {
+     "ul": [
+      "**\"More antibiotics will fix stubborn 'acne'\"**: Gram-negative and Malassezia folliculitis are caused or worsened by antibiotics."
+     ]
     }
    ],
    "short": "Aetiology"
+  },
+  {
+   "id": "pathophysiology",
+   "title": "Pathophysiology and pathology",
+   "blocks": [
+    "Each mimic has a **different driver** in or around the follicle.",
+    {
+     "mech": [
+      {
+       "k": "Acne",
+       "t": "Comedone formation, sebum and C. acnes inflammation.",
+       "img": "v3-acne-follicle-stages.jpg",
+       "caption": "Acne starts with a comedone; mimics usually don't."
+      },
+      {
+       "k": "Rosacea",
+       "t": "Neurovascular dysregulation, cathelicidin, Demodex and UV.",
+       "img": "v3-rosacea-face-map.jpg",
+       "caption": "Rosacea favours the convex central face."
+      },
+      {
+       "k": "Steroids",
+       "t": "Steroids alter follicular keratinisation and local immunity, giving monomorphic lesions.",
+       "img": "v3-perioral-face.jpg",
+       "caption": "Perioral dermatitis spares a rim around the lips."
+      },
+      {
+       "k": "Microbial overgrowth",
+       "t": "Antibiotics allow Gram-negative bacteria or Malassezia yeast to fill follicles; hot tubs deliver Pseudomonas."
+      }
+     ]
+    }
+   ],
+   "short": "Pathophysiology"
   },
   {
    "id": "clinical-features",
@@ -87,25 +124,6 @@
       "**Malassezia:** itchy monomorphic follicular pustules on chest/back.",
       "**Hot-tub:** itchy pustules under the swimsuit line 1–4 days after spa use."
      ]
-    },
-    {
-     "h": "Distribution"
-    },
-    {
-     "bodymap": {
-      "img": {
-       "ai": "v3-rosacea-face-map.jpg"
-      },
-      "caption": "Rosacea sits on the convex central face with no comedones and the eye area spared.",
-      "pts": []
-     }
-    },
-    {
-     "fig": {
-      "ai": "v3-perioral-face.jpg",
-      "caption": "Perioral dermatitis: small papules and pustules around the mouth, chin and nasolabial folds, classically with a narrow spared rim next to the lips. No comedones.",
-      "alt": "Face with papules around the mouth and chin"
-     }
     },
     {
      "h": "Mimics to recognise"
@@ -352,6 +370,29 @@
    "short": "Red flags"
   },
   {
+   "id": "complications",
+   "title": "Complications and prognosis",
+   "blocks": [
+    {
+     "h": "Complications"
+    },
+    {
+     "ul": [
+      "Scarring (rosacea fulminans), ocular rosacea, prolonged mistreatment."
+     ]
+    },
+    {
+     "h": "Prognosis"
+    },
+    {
+     "ul": [
+      "Good once the right diagnosis is made."
+     ]
+    }
+   ],
+   "short": "Complications"
+  },
+  {
    "id": "pearls",
    "title": "Prescriber pearls (UK pharmacist IP)",
    "blocks": [
@@ -396,5 +437,11 @@
    "url": "https://emedicine.medscape.com/article/1071429-overview"
   }
  ],
- "see_also": []
+ "see_also": [
+  "acne-vulgaris",
+  "rosacea",
+  "perioral-dermatitis",
+  "pityriasis-versicolor",
+  "folliculitis"
+ ]
 }

@@ -1,0 +1,53 @@
+{
+ "overview_pre": [
+  "This is a **differential page**: conditions that look like acne but need different treatment. Rosacea and perioral dermatitis have their own pages."
+ ],
+ "kf": [
+  "**No comedones?** Think rosacea, perioral dermatitis, steroid acne or folliculitis rather than acne vulgaris.",
+  "**Rosacea**: age 30–60, flushing, central face; avoid topical steroids. **Rosacea fulminans**: explosive facial nodules in young women.",
+  "**Steroid acne**: sudden monomorphic papules/pustules on chest and back after oral, inhaled, topical or bleaching steroids.",
+  "**Gram-negative folliculitis** after long-term tetracyclines: stop the tetracycline, swab, refer.",
+  "**Malassezia folliculitis**: itchy uniform papules on upper trunk; **hot-tub folliculitis**: *Pseudomonas*, settles in days."
+ ],
+ "myths": [
+  "**\"More antibiotics will fix stubborn 'acne'\"**: Gram-negative and Malassezia folliculitis are caused or worsened by antibiotics."
+ ],
+ "patho_lead": "Each mimic has a **different driver** in or around the follicle.",
+ "mech": [
+  {
+   "k": "Acne",
+   "t": "Comedone formation, sebum and C. acnes inflammation.",
+   "img": "v3-acne-follicle-stages.jpg",
+   "cap": "Acne starts with a comedone; mimics usually don't."
+  },
+  {
+   "k": "Rosacea",
+   "t": "Neurovascular dysregulation, cathelicidin, Demodex and UV.",
+   "img": "v3-rosacea-face-map.jpg",
+   "cap": "Rosacea favours the convex central face."
+  },
+  {
+   "k": "Steroids",
+   "t": "Steroids alter follicular keratinisation and local immunity, giving monomorphic lesions.",
+   "img": "v3-perioral-face.jpg",
+   "cap": "Perioral dermatitis spares a rim around the lips."
+  },
+  {
+   "k": "Microbial overgrowth",
+   "t": "Antibiotics allow Gram-negative bacteria or Malassezia yeast to fill follicles; hot tubs deliver Pseudomonas."
+  }
+ ],
+ "comp": [
+  "Scarring (rosacea fulminans), ocular rosacea, prolonged mistreatment."
+ ],
+ "prog": [
+  "Good once the right diagnosis is made."
+ ],
+ "see_also": [
+  "acne-vulgaris",
+  "rosacea",
+  "perioral-dermatitis",
+  "pityriasis-versicolor",
+  "folliculitis"
+ ]
+}

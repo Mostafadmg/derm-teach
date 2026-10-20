@@ -1,10 +1,11 @@
 {
  "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
  "key_facts": [
-  "A patient booked for an excision, curettage or biopsy, especially on anticoagulants, antiplatelets or with a pacemaker or valve.",
-  "Bleeding, infection, poor healing and device interference are mostly predictable from the medicine list and history.",
-  "Continue antiplatelets and warfarin (INR under 3.5) and, for most procedures, DOACs (BSDS 2023); no routine endocarditis prophylaxis (NICE CG64); bipolar diathermy or cautery near devices.",
-  "Stopping anticoagulants in high thrombotic-risk patients; stopping DAPT after a recent stent; unchecked INR."
+  "Pre-op check: is the procedure **indicated, funded, safe and wanted**?",
+  "**Antithrombotics (BSDS 2023)**: usually **continue**; thrombotic harm from stopping outweighs bleeding harm.",
+  "Write a clear **antithrombotic plan** (doses to take or omit, restart time).",
+  "Post-op analgesia: **paracetamol first**; avoid NSAIDs in anticoagulated patients. Many antibiotics raise INR with warfarin.",
+  "Check allergies (latex, chlorhexidine, LA, plasters), pacemakers (diathermy), keloid history, smoking, steroids."
  ],
  "sections": [
   {
@@ -16,6 +17,52 @@
      "h4": "Antithrombotics (BSDS 2023)"
     },
     "Guidance on whether to **continue, adjust or (rarely) pause** antithrombotics for dermatological surgery. The guiding principle is that **thrombotic harm from stopping usually outweighs bleeding harm from continuing**."
+   ]
+  },
+  {
+   "id": "aetiology",
+   "title": "Aetiology: causes and risk factors",
+   "blocks": [
+    {
+     "h": "Myths to address"
+    },
+    {
+     "ul": [
+      "**\"Stop aspirin a week before every excision\"**: this is usually unnecessary and risky."
+     ]
+    }
+   ],
+   "short": "Aetiology"
+  },
+  {
+   "id": "pathophysiology",
+   "title": "Why it matters",
+   "blocks": [
+    "Most complications are **predictable from patient factors** checked before surgery.",
+    {
+     "mech": [
+      {
+       "k": "Bleeding",
+       "t": "Antithrombotics and high-vascularity sites."
+      },
+      {
+       "k": "Infection",
+       "t": "Diabetes, immunosuppression, lower-leg and groin sites."
+      },
+      {
+       "k": "Poor healing",
+       "t": "Smoking, steroids, oedema and the lower leg."
+      },
+      {
+       "k": "Scarring",
+       "t": "Keloid tendency and high-tension sites."
+      },
+      {
+       "k": "Allergy",
+       "t": "Latex, chlorhexidine, dressings."
+      }
+     ]
+    }
    ]
   },
   {
@@ -311,6 +358,29 @@
    "short": "Red flags"
   },
   {
+   "id": "complications",
+   "title": "Complications and prognosis",
+   "blocks": [
+    {
+     "h": "Complications"
+    },
+    {
+     "ul": [
+      "Unplanned bleeding, infection, wrong-site surgery."
+     ]
+    },
+    {
+     "h": "Prognosis"
+    },
+    {
+     "ul": [
+      "Not applicable."
+     ]
+    }
+   ],
+   "short": "Complications"
+  },
+  {
    "id": "pearls",
    "title": "Prescriber pearls (UK pharmacist IP)",
    "blocks": [
@@ -435,5 +505,10 @@
   }
  ],
  "references": [],
- "see_also": []
+ "see_also": [
+  "skin-surgery-consent-complications",
+  "local-anaesthetics-skin-surgery",
+  "skin-surgery-procedures",
+  "wound-aftercare"
+ ]
 }

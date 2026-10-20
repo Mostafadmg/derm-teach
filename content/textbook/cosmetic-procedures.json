@@ -1,16 +1,18 @@
 {
  "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
  "key_facts": [
-  "A patient asking about peels, needling or laser for scars, pigment or ageing, or a patient on isotretinoin asking ‘can I have this done?’",
-  "Controlled injury (chemical, mechanical or thermal) leading to re-epithelialisation and collagen remodelling.",
-  "Match depth and risk to the goal and skin type, refer to trained operators, and counsel on SPF and aftercare.",
-  "PIH and keloid risk in skin of colour, HSV reactivation, and unregulated providers. Do not ‘clear’ isotretinoin patients yourself."
+  "**Chemical peels**: controlled chemical injury to epidermis ± dermis (superficial, medium, deep).",
+  "**Microneedling**: fine needles cause micro-injuries that trigger new collagen.",
+  "**Lasers**: **selective photothermolysis**, a wavelength targets water, haemoglobin or melanin.",
+  "Darker skin types have a higher risk of **post-inflammatory pigmentation** and scarring: choose operators carefully.",
+  "Isotretinoin: document it and **let the operating clinician decide** on timing; HSV history may need antiviral cover."
  ],
  "sections": [
   {
    "id": "overview",
    "title": "Overview",
    "blocks": [
+    "**Counselling and recognition only**: what procedures are, expectations, safety and referral. Not a procedure how-to.",
     {
      "callout": "info",
      "title": "Scope: counselling and recognition",
@@ -45,9 +47,44 @@
    "title": "Aetiology: causes and risk factors",
    "blocks": [
     "Each procedure injures the skin in a controlled way, triggering inflammation, re-epithelialisation and collagen remodelling. **‘Frosting’** (whitening) with some peel agents, such as TCA, reflects protein coagulation and indicates depth. This is for recognition only.",
-    "Microneedling microchannels close within minutes and the epidermis is largely preserved, so it often suits darker skin better than ablative options."
+    "Microneedling microchannels close within minutes and the epidermis is largely preserved, so it often suits darker skin better than ablative options.",
+    {
+     "h": "Myths to address"
+    },
+    {
+     "ul": [
+      "**\"Home microneedling is the same as clinic treatment\"**: home devices are shorter and carry infection risk."
+     ]
+    }
    ],
    "short": "Aetiology"
+  },
+  {
+   "id": "pathophysiology",
+   "title": "How it works",
+   "blocks": [
+    "Most resurfacing procedures **injure the skin in a controlled way** so it repairs with new collagen.",
+    {
+     "mech": [
+      {
+       "k": "Controlled injury",
+       "t": "Peels, needles and ablative lasers damage set depths of skin."
+      },
+      {
+       "k": "Wound healing",
+       "t": "Inflammation, then fibroblasts lay down new collagen over months."
+      },
+      {
+       "k": "Selective targets",
+       "t": "Lasers heat one chromophore (melanin, haemoglobin, water) and spare the rest."
+      },
+      {
+       "k": "Depth = downtime",
+       "t": "Deeper injury gives more effect, more downtime and more risk."
+      }
+     ]
+    }
+   ]
   },
   {
    "id": "clinical-features",
@@ -238,6 +275,29 @@
    "short": "Red flags"
   },
   {
+   "id": "complications",
+   "title": "Complications and prognosis",
+   "blocks": [
+    {
+     "h": "Complications"
+    },
+    {
+     "ul": [
+      "PIH, scarring, infection, HSV reactivation, burns, eye injury (lasers)."
+     ]
+    },
+    {
+     "h": "Prognosis"
+    },
+    {
+     "ul": [
+      "Results build over 3–6 months; repeat sessions are common."
+     ]
+    }
+   ],
+   "short": "Complications"
+  },
+  {
    "id": "pearls",
    "title": "Prescriber pearls (UK pharmacist IP)",
    "blocks": [
@@ -277,5 +337,11 @@
   }
  ],
  "references": [],
- "see_also": []
+ "see_also": [
+  "intense-pulsed-light",
+  "acne-scars",
+  "facial-ageing-neuromodulators",
+  "photoageing",
+  "retinoids"
+ ]
 }

@@ -1,0 +1,48 @@
+{
+ "titles": {
+  "pathophysiology": "How it works"
+ },
+ "kf": [
+  "Valid consent is **informed, voluntary and given with capacity**.",
+  "**Montgomery (2015)** and GMC (2020): discuss **material risks** and reasonable alternatives, including **doing nothing**.",
+  "Common complications: bleeding, infection, wound dehiscence, stretched or hypertrophic scars, keloids, nerve injury, recurrence.",
+  "**Danger zones**: temporal branch of the facial nerve, marginal mandibular branch, spinal accessory nerve (posterior triangle).",
+  "Track every specimen: refer unexpected malignant histology within NG12 timeframes."
+ ],
+ "myths": [
+  "**\"A signed form is consent\"**: consent is the discussion; the form records it."
+ ],
+ "patho_lead": "Complications are mostly **predictable from patient, site and technique**.",
+ "mech": [
+  {
+   "k": "Bleeding",
+   "t": "Vascular sites and antithrombotics."
+  },
+  {
+   "k": "Infection",
+   "t": "Contamination, site (groin, lower leg) and host factors (diabetes)."
+  },
+  {
+   "k": "Tension",
+   "t": "High-tension sites (back, chest, shoulders) stretch scars and dehisce.",
+   "img": "v3-hypertrophic-vs-keloid.jpg",
+   "cap": "Hypertrophic scar versus keloid."
+  },
+  {
+   "k": "Anatomy",
+   "t": "Superficial nerves at danger zones are easily cut."
+  }
+ ],
+ "comp": [
+  "As above."
+ ],
+ "prog": [
+  "Most minor skin surgery heals without problems."
+ ],
+ "see_also": [
+  "skin-surgery-preop",
+  "wound-aftercare",
+  "keloids-hypertrophic-scars",
+  "local-anaesthetics-skin-surgery"
+ ]
+}

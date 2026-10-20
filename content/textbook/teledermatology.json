@@ -1,10 +1,11 @@
 {
  "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
  "key_facts": [
-  "Referring a skin lesion through a **teledermatology or advice-and-guidance** service.",
-  "Images + history are **triaged by a dermatologist**, who can discharge, advise, book surgery directly or fast-track.",
-  "**Three views** (regional, close-up with ruler, polarised in-focus dermoscopy) + full history including change and risk factors + consent.",
-  "**Poor images**, missing dermoscopy, scalp / genital / nail lesions, and **delay** in a suspected melanoma pathway."
+  "UK teledermatology is mostly **store-and-forward**: advice and guidance, or images on all **suspected-cancer skin referrals**.",
+  "Image standard: **three views**: regional (where), close-up with ruler, and **dermoscopic**.",
+  "Good images let specialists triage, reassure or fast-track and avoid wasted appointments.",
+  "Pitfalls: poor focus, glare, no scale, wrong lesion, missing history; images can't be palpated.",
+  "Consent, secure systems and record-keeping are required."
  ],
  "sections": [
   {
@@ -19,14 +20,44 @@
    "title": "Aetiology: causes and risk factors",
    "blocks": [
     {
-     "fig": {
-      "ai": "v3-tele-three-views.jpg",
-      "caption": "Three standard views: regional (where on the body), close-up with a ruler (size and surface), and a polarised, in-focus dermoscopic image of the whole lesion.",
-      "alt": "Three frames: forearm location, close-up with ruler, dermoscopy"
-     }
+     "h": "Myths to address"
+    },
+    {
+     "ul": [
+      "**\"Photos replace examination\"**: they support triage; full-skin checks still matter."
+     ]
     }
    ],
    "short": "Aetiology"
+  },
+  {
+   "id": "pathophysiology",
+   "title": "How it works",
+   "blocks": [
+    "Teledermatology works by **sending the right images and history** to the right specialist.",
+    {
+     "mech": [
+      {
+       "k": "Capture",
+       "t": "Trained staff take standard regional, close-up and dermoscopic images.",
+       "img": "v3-tele-three-views.jpg",
+       "caption": "Three standard views."
+      },
+      {
+       "k": "Forward",
+       "t": "Images and history go through a secure NHS system."
+      },
+      {
+       "k": "Triage",
+       "t": "Specialist decides: reassure, treat in primary care, routine or urgent clinic."
+      },
+      {
+       "k": "AI-assisted triage",
+       "t": "Some services add AI risk scoring (NICE HTG746)."
+      }
+     ]
+    }
+   ]
   },
   {
    "id": "clinical-features",
@@ -190,6 +221,29 @@
    "short": "Red flags"
   },
   {
+   "id": "complications",
+   "title": "Complications and prognosis",
+   "blocks": [
+    {
+     "h": "Complications"
+    },
+    {
+     "ul": [
+      "Missed diagnosis from poor images; information governance breaches."
+     ]
+    },
+    {
+     "h": "Prognosis"
+    },
+    {
+     "ul": [
+      "Not applicable."
+     ]
+    }
+   ],
+   "short": "Complications"
+  },
+  {
    "id": "pearls",
    "title": "Prescriber pearls (UK pharmacist IP)",
    "blocks": [
@@ -226,5 +280,9 @@
    "url": "https://dermnetnz.org/topics/teledermatology"
   }
  ],
- "see_also": []
+ "see_also": [
+  "lesion-language",
+  "melanoma",
+  "skin-layers-fitzpatrick"
+ ]
 }

@@ -1,0 +1,50 @@
+{
+ "titles": {
+  "pathophysiology": "How it works"
+ },
+ "overview_pre": [
+  "**Counselling and recognition only**: what procedures are, expectations, safety and referral. Not a procedure how-to."
+ ],
+ "kf": [
+  "**Chemical peels**: controlled chemical injury to epidermis ± dermis (superficial, medium, deep).",
+  "**Microneedling**: fine needles cause micro-injuries that trigger new collagen.",
+  "**Lasers**: **selective photothermolysis**, a wavelength targets water, haemoglobin or melanin.",
+  "Darker skin types have a higher risk of **post-inflammatory pigmentation** and scarring: choose operators carefully.",
+  "Isotretinoin: document it and **let the operating clinician decide** on timing; HSV history may need antiviral cover."
+ ],
+ "myths": [
+  "**\"Home microneedling is the same as clinic treatment\"**: home devices are shorter and carry infection risk."
+ ],
+ "patho_lead": "Most resurfacing procedures **injure the skin in a controlled way** so it repairs with new collagen.",
+ "mech": [
+  {
+   "k": "Controlled injury",
+   "t": "Peels, needles and ablative lasers damage set depths of skin."
+  },
+  {
+   "k": "Wound healing",
+   "t": "Inflammation, then fibroblasts lay down new collagen over months."
+  },
+  {
+   "k": "Selective targets",
+   "t": "Lasers heat one chromophore (melanin, haemoglobin, water) and spare the rest."
+  },
+  {
+   "k": "Depth = downtime",
+   "t": "Deeper injury gives more effect, more downtime and more risk."
+  }
+ ],
+ "comp": [
+  "PIH, scarring, infection, HSV reactivation, burns, eye injury (lasers)."
+ ],
+ "prog": [
+  "Results build over 3–6 months; repeat sessions are common."
+ ],
+ "see_also": [
+  "intense-pulsed-light",
+  "acne-scars",
+  "facial-ageing-neuromodulators",
+  "photoageing",
+  "retinoids"
+ ]
+}

@@ -1,0 +1,52 @@
+{
+ "titles": {
+  "pathophysiology": "How it works"
+ },
+ "kf": [
+  "Amides (lidocaine, prilocaine, bupivacaine) and esters (tetracaine, benzocaine) **block voltage-gated sodium channels**.",
+  "**Adrenaline** gives vasoconstriction: less bleeding, longer action, higher maximum dose.",
+  "BNF adult maximum lidocaine (infiltration): **200 mg plain**, **500 mg with adrenaline**; **1% = 10 mg/ml**. Use ideal body weight; reduce in frail, liver or heart failure.",
+  "Toxicity: perioral tingling, metallic taste, dizziness, then seizures and arrhythmia: stop, call for help, lipid emulsion.",
+  "Allergy to amides is rare; latex and **chlorhexidine** are commoner perioperative allergens."
+ ],
+ "myths": [
+  "**\"Never use adrenaline on fingers\"**: modern evidence supports its use in digits in healthy patients (follow local policy)."
+ ],
+ "patho_lead": "Local anaesthetics **block sodium entry**, so nerves can't fire.",
+ "mech": [
+  {
+   "k": "Diffusion",
+   "t": "The un-ionised drug crosses the nerve membrane."
+  },
+  {
+   "k": "Channel block",
+   "t": "Inside, the ionised form blocks voltage-gated sodium channels.",
+   "img": "v4-la-sodium-block.jpg",
+   "cap": "Local anaesthetic molecules plug sodium channels from inside the nerve, so the impulse stops."
+  },
+  {
+   "k": "Fibre order",
+   "t": "Small pain fibres block first, then touch and motor."
+  },
+  {
+   "k": "Adrenaline",
+   "t": "Vasoconstriction slows removal, prolonging action and reducing bleeding."
+  },
+  {
+   "k": "Inflamed tissue",
+   "t": "Acidic infected tissue ionises the drug, so it works poorly."
+  }
+ ],
+ "comp": [
+  "Systemic toxicity, vasovagal faint, allergy (rare), haematoma, nerve injury."
+ ],
+ "prog": [
+  "Not applicable."
+ ],
+ "see_also": [
+  "skin-surgery-preop",
+  "skin-surgery-procedures",
+  "skin-surgery-consent-complications",
+  "wound-aftercare"
+ ]
+}

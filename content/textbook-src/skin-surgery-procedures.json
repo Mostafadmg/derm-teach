@@ -1,0 +1,50 @@
+{
+ "titles": {
+  "pathophysiology": "How it works"
+ },
+ "overview_pre": [
+  "**Concepts only**: to understand referrals, consent and aftercare. Performing these needs supervised training."
+ ],
+ "kf": [
+  "**Shave excision**: raised lesions level with skin; **not for suspected melanoma** (Breslow lost).",
+  "**Curettage and cautery**: pyogenic granuloma, SK, small low-risk BCC; no margin check.",
+  "**Punch biopsy**: full-thickness core for diagnosis; **incisional / excisional** ellipses with margins.",
+  "Orient ellipses along **relaxed skin tension lines (RSTL)** for the best scar.",
+  "Suspected melanoma: **excise whole** with a narrow margin, via the specialist team."
+ ],
+ "myths": [
+  "**\"Freeze it and see\"**: cryotherapy destroys tissue and gives no histology."
+ ],
+ "patho_lead": "Each method **trades tissue for histology and scar**.",
+ "mech": [
+  {
+   "k": "Surface methods",
+   "t": "Shave, curette and cryotherapy remove or destroy superficial tissue."
+  },
+  {
+   "k": "Full-thickness methods",
+   "t": "Punch and ellipse excisions include dermis and fat for diagnosis and margins."
+  },
+  {
+   "k": "Scar direction",
+   "t": "Cuts along RSTL heal with finer scars."
+  },
+  {
+   "k": "Margins",
+   "t": "Standard BCC excision margins 4 mm, ≥5 mm for high risk; Mohs for high-risk sites."
+  }
+ ],
+ "comp": [
+  "Recurrence (shave, C&C), scarring, infection, bleeding."
+ ],
+ "prog": [
+  "Not applicable."
+ ],
+ "see_also": [
+  "basal-cell-carcinoma",
+  "pyogenic-granuloma",
+  "melanoma",
+  "skin-surgery-consent-complications",
+  "wound-aftercare"
+ ]
+}

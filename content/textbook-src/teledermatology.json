@@ -1,0 +1,47 @@
+{
+ "titles": {
+  "pathophysiology": "How it works"
+ },
+ "kf": [
+  "UK teledermatology is mostly **store-and-forward**: advice and guidance, or images on all **suspected-cancer skin referrals**.",
+  "Image standard: **three views**: regional (where), close-up with ruler, and **dermoscopic**.",
+  "Good images let specialists triage, reassure or fast-track and avoid wasted appointments.",
+  "Pitfalls: poor focus, glare, no scale, wrong lesion, missing history; images can't be palpated.",
+  "Consent, secure systems and record-keeping are required."
+ ],
+ "myths": [
+  "**\"Photos replace examination\"**: they support triage; full-skin checks still matter."
+ ],
+ "patho_lead": "Teledermatology works by **sending the right images and history** to the right specialist.",
+ "mech": [
+  {
+   "k": "Capture",
+   "t": "Trained staff take standard regional, close-up and dermoscopic images.",
+   "img": "v3-tele-three-views.jpg",
+   "cap": "Three standard views."
+  },
+  {
+   "k": "Forward",
+   "t": "Images and history go through a secure NHS system."
+  },
+  {
+   "k": "Triage",
+   "t": "Specialist decides: reassure, treat in primary care, routine or urgent clinic."
+  },
+  {
+   "k": "AI-assisted triage",
+   "t": "Some services add AI risk scoring (NICE HTG746)."
+  }
+ ],
+ "comp": [
+  "Missed diagnosis from poor images; information governance breaches."
+ ],
+ "prog": [
+  "Not applicable."
+ ],
+ "see_also": [
+  "lesion-language",
+  "melanoma",
+  "skin-layers-fitzpatrick"
+ ]
+}

@@ -1,0 +1,48 @@
+{
+ "titles": {
+  "pathophysiology": "How it works"
+ },
+ "overview_pre": [
+  "**Counselling level only**: what patients ask about toxin and fillers, UK regulation and red flags. No injection technique, doses or units."
+ ],
+ "kf": [
+  "Ageing is **intrinsic** (time, genes) and **extrinsic** (UV, smoking): volume loss, bone remodelling, elastosis, wrinkles.",
+  "**Dynamic lines** come from muscle movement; **static lines** stay at rest.",
+  "Botulinum toxin softens dynamic lines; it **doesn't lift sagging skin or replace volume**.",
+  "Toxin is **prescription-only**; GPhC: prescribers must assess **face to face**. Illegal for under-18s cosmetically (2021 Act).",
+  "Filler red flags: **vascular occlusion** (pain, blanching, mottling, visual change) is an emergency."
+ ],
+ "myths": [
+  "**\"Fillers and toxin are the same\"**: toxin relaxes muscle; fillers add volume."
+ ],
+ "patho_lead": "Botulinum toxin **stops nerves signalling to muscle** for a few months.",
+ "mech": [
+  {
+   "k": "Nerve terminal",
+   "t": "Toxin is taken up into the motor nerve terminal."
+  },
+  {
+   "k": "SNAP-25 cleavage",
+   "t": "It cuts SNAP-25, so acetylcholine vesicles can't release."
+  },
+  {
+   "k": "Muscle relaxes",
+   "t": "The injected muscle weakens and dynamic lines soften."
+  },
+  {
+   "k": "Recovery",
+   "t": "New nerve sprouts restore function over about 3–4 months."
+  }
+ ],
+ "comp": [
+  "Bruising, headache, eyelid ptosis, asymmetry; filler: lumps, infection, vascular occlusion, blindness (rare)."
+ ],
+ "prog": [
+  "Effects wear off; repeat treatment needed."
+ ],
+ "see_also": [
+  "cosmetic-procedures",
+  "photoageing",
+  "hyperhidrosis"
+ ]
+}

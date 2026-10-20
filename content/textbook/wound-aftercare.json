@@ -1,12 +1,55 @@
 {
  "_generated": "tools/v4/convert.py (edit content/textbook-src/<slug>.json or the condition JSON, then re-run)",
  "key_facts": [
-  "A patient a few days to weeks after minor skin surgery with a question about the wound, stitches, activity or scar.",
-  "Healing goes through inflammation, proliferation and remodelling; tension and infection disrupt it; some people form keloids.",
-  "Keep dry 24–48 h then wash; sutures out at 5–7 days on the face, 10–14 on the trunk and arms and about 14 on the back and legs (local protocols vary); avoid strenuous activity for 1–2 weeks; flucloxacillin for wound infection (clarithromycin or doxycycline if penicillin-allergic, checking interactions).",
-  "Spreading cellulitis, abscess, dehiscence; keloids in people with skin of colour or on the chest, shoulders and earlobes."
+  "Keep the dressing on and **dry for 24–48 h**, then wash gently; **plain petroleum jelly**, no routine topical antibiotics.",
+  "Suture removal (typical): face 5–7 days, scalp and neck 7–10, trunk and arm 10–14, back, leg and joints 14 (up to 21).",
+  "Avoid strenuous exercise and stretching the wound for 1–2 weeks.",
+  "Infection: increasing pain, redness spreading **>1–2 cm**, pus, fever; **flucloxacillin** first line (check interactions for alternatives).",
+  "Scars mature over 12–18 months; massage, silicone and sun protection help."
  ],
  "sections": [
+  {
+   "id": "aetiology",
+   "title": "Aetiology: causes and risk factors",
+   "blocks": [
+    {
+     "h": "Myths to address"
+    },
+    {
+     "ul": [
+      "**\"Antibiotic ointment helps healing\"**: it causes contact allergy and resistance; petroleum jelly is as good."
+     ]
+    }
+   ],
+   "short": "Aetiology"
+  },
+  {
+   "id": "pathophysiology",
+   "title": "How wounds heal",
+   "blocks": [
+    "Wounds heal in **overlapping phases** over months.",
+    {
+     "mech": [
+      {
+       "k": "Haemostasis",
+       "t": "Clot forms within minutes."
+      },
+      {
+       "k": "Inflammation",
+       "t": "Neutrophils and macrophages clean the wound (days 1–4); mild redness is normal."
+      },
+      {
+       "k": "Proliferation",
+       "t": "Fibroblasts lay down collagen and new vessels; epithelium covers the wound (days 4–21)."
+      },
+      {
+       "k": "Remodelling",
+       "t": "Collagen reorganises and strengthens over 12–18 months."
+      }
+     ]
+    }
+   ]
+  },
   {
    "id": "clinical-features",
    "title": "Clinical features",
@@ -120,6 +163,29 @@
    "short": "Red flags"
   },
   {
+   "id": "complications",
+   "title": "Complications and prognosis",
+   "blocks": [
+    {
+     "h": "Complications"
+    },
+    {
+     "ul": [
+      "Infection, dehiscence, haematoma, hypertrophic scar or keloid."
+     ]
+    },
+    {
+     "h": "Prognosis"
+    },
+    {
+     "ul": [
+      "Most heal well."
+     ]
+    }
+   ],
+   "short": "Complications"
+  },
+  {
    "id": "pearls",
    "title": "Prescriber pearls (UK pharmacist IP)",
    "blocks": [
@@ -155,5 +221,10 @@
   }
  ],
  "references": [],
- "see_also": []
+ "see_also": [
+  "skin-surgery-preop",
+  "skin-surgery-consent-complications",
+  "keloids-hypertrophic-scars",
+  "local-anaesthetics-skin-surgery"
+ ]
 }
