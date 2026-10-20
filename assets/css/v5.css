@@ -195,3 +195,12 @@ strong, b { font-weight: 600; }
 .layout-article .is-wide .rtable td.col-uk { padding: .1rem .7rem .45rem; border-radius: var(--r-xs); margin: .3rem -.7rem 0; }
 .layout-article .is-wide .rtable td.col-uk::before { margin-top: .35rem; }
 .case-t { text-wrap: pretty; }
+/* standard-resolution screens: slightly sturdier Fredoka body; retina keeps 400 */
+@media (max-resolution: 1.5dppx) {
+  body { font-weight: 440; }
+  .tb-sec p, .tb-ul li, .tb-ol li, .lad-t, .co-body, .dc dd, .rtable td, .dd td, .qa-a { font-weight: 440; }
+}
+/* smaller grey text: key-fact bullets, chips, meta — a touch heavier and darker */
+.kf-list, .kf-list li, .chip, .chip-soft, .chip-link, .lesson-k, .lesson-meta, .head-meta, .dc-cls, .tb-note, .cr, .f .tp, .crumbs { font-weight: 450; }
+.kf-list, .chip-soft, .lesson-meta, .head-meta, .dc-cls, .tb-note, .cr, .crumbs a { color: color-mix(in srgb, var(--muted) 70%, var(--ink)); }
+.kf-list { color: var(--ink-2); }
